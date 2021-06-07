@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://hack.gpl.jp/xmlrpc.php">
+
+<title>Wanhao Duplicater i3 の Tips集 &#8211; JunkHack</title>
+<style type="text/css">.wpfts-result-item .wpfts-smart-excerpt {}.wpfts-result-item .wpfts-not-found {color:#808080;font-size:0.9em;}.wpfts-result-item .wpfts-score {color:#006621;font-size:0.9em;}.wpfts-shift {margin-left:40px;}.wpfts-result-item .wpfts-download-link {color:#006621;font-size:0.9em;}.wpfts-result-item .wpfts-file-size {color:#006621;font-size:0.9em;}</style><meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//hack.gpl.jp' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; フィード" href="https://hack.gpl.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; コメントフィード" href="https://hack.gpl.jp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hack.gpl.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' href='./css/dist-block-library-style.min.css'>
+<link rel='stylesheet' href='./css/export-wp-page-to-static-html-pro-premium-public-css-export-wp-page-to-static-html-public.css'>
+<link rel='stylesheet' href='./css/fulltext-search-style-wpfts_autocomplete.css'>
+<link rel='stylesheet' href='./css/wp-external-links-public-css-wpel.css'>
+<link rel='stylesheet' href='./css/wpfront-scroll-top-css-wpfront-scroll-top.min.css'>
+<link rel='stylesheet' href='./css/ccrw_related-css-frontend-style.css'>
+<link rel='stylesheet' id='hew-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' href='./css/hew-wpcom-genericons-genericons.css'>
+<link rel='stylesheet' href='./css/hew-wpcom-style.css'>
+		<script>
+			/* <![CDATA[ */
+			var rcewpp = {
+				"ajax_url":"https://hack.gpl.jp/wp-admin/admin-ajax.php",
+				"nonce": "4eef5ded05",
+				"home_url": "https://hack.gpl.jp/",
+				"settings_icon": 'https://hack.gpl.jp/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings.png',
+				"settings_hover_icon": 'https://hack.gpl.jp/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings_hover.png'
+			};
+			/* ]]\> */
+		</script>
+		<script type='text/javascript' src='./js/jquery-3.5.1.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='./js/jquery-migrate-3.3.0.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='./js/export-wp-page-to-static-html-public.js' id='export-wp-page-to-static-html-js'></script>
+<script type='text/javascript' src='./js/wpfts_frontend.js' id='wpfts_frontend-js'></script>
+<link rel="https://api.w.org/" href="https://hack.gpl.jp/wp-json/" /><link rel="alternate" type="application/json" href="https://hack.gpl.jp/wp-json/wp/v2/posts/2450" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hack.gpl.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hack.gpl.jp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel="canonical" href="./2450.html" />
+<link rel='shortlink' href='https://hack.gpl.jp/?p=2450' />
+<link rel="alternate" type="application/json+oembed" href="https://hack.gpl.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhack.gpl.jp%2F2450%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hack.gpl.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhack.gpl.jp%2F2450%2F&#038;format=xml" />
+<script type="text/javascript">
+		document.wpfts_ajaxurl = "https://hack.gpl.jp/wp-admin/admin-ajax.php";
+	</script>				<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none}}</style>
+			<script data-ad-client="ca-pub-2711753458083215" async src="./js/adsbygoogle.js"></script>
+</head>
+
+<script async src="./js/5771.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-13YWDXYQE2');
+</script>
+<body class="post-template-default single single-post postid-2450 single-format-standard has-sidebar">
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="hide">
+		
+<div id="secondary" class="wrap top-widget-area" role="complementary">
+	
+	
+	
+		<div id="sidebar-4" class="widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://hack.gpl.jp/">
+				<label>
+					<span class="screen-reader-text">検索:</span>
+					<input type="search" class="search-field" placeholder="検索&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="検索" />
+			</form></aside>	</div><!-- #four .widget-area -->
+	</div><!-- #secondary -->
+	</div>
+	
+	<a class="skip-link screen-reader-text" href="">コンテンツへ移動</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<a class="site-logo" href="./index.html" title="JunkHack" rel="home noopener noreferrer" data-wpel-link="internal">
+<img src="images/7005.jpg" width="80" height="80" alt="" class="no-grav header-image" />
+</a>
+		<div class="site-branding">
+			<h1 class="site-title"><a href="./index.html" rel="home noopener noreferrer" data-wpel-link="internal">JunkHack</a></h1>
+			<h2 class="site-description">アリエクでポチった JUNKHACK</h2>
+		</div>
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
+				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu"><li id="menu-item-9578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9578"><a href="./index-list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-9594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9594"><a href="./status.html" data-wpel-link="internal" rel="noopener noreferrer">Status</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+		
+		
+				<div class="toggle-wrapper">
+			<a href="" class="widgets-toggle toggle-button" title="ウィジェット">
+				<span class="screen-reader-text">ウィジェット</span>
+			</a>
+		</div>
+		
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-2450" class="post-2450 post type-post status-publish format-standard hentry category-3d-print">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="./2450.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-11-28T03:26:28+09:00">2016年11月28日</time></a> </span><span class="posted-on">更新日:2016年11月28日</span> <span class="categories">  <a href="./category/3d-print.html" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a></span>			</div><!-- .entry-meta -->
+
+							<h1 class="entry-title">Wanhao Duplicater i3 の Tips集</h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>今まで、PLA ばかりでプリントしていたので、今度は ABS でプリントにチャレンジ。</p>
+<p>温度が少し高いようで、フィラメントを溶かす温度は250度くらいのようです。フィラメントの温度範囲は、220-260度と記載。かなり熱いですね。</p>
+<p>フィラメントが溶けるのは問題ないのですが、ベットの温度も100度くらいにしないとプリントしたモノにそりが発生。周辺サポートをつけると(Brim)ベットに固着しない部分がはっきりわかるんですよね。</p>
+<p><img loading="lazy" title="Expert_config_と_Cura_-_15_04_6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Expert_config_と_Cura_-_15_04_6" src="https://hack.gpl.jp/wp-content/uploads/2016/11/expert_config__cura__15_04_6.png" width="640" height="381"> </p>
+<p>ABS のプリントは、90度～110度にベットを熱するのでベットのフラットな面を作るのが結構厄介でした。ヒートベットにガラスを乗っけようとただいま、注文中。</p>
+<p> </p>
+<p>あと、ABS をプリントしようとフィラメントを交換したとき、手順が悪かったのかノズルに通りが悪くなったようです。半づまり状態という感じで、プリントしたものがスカスカな感じになります。こちらは、先に0.2mm ノズルもテストしようとしていたときに 0.4mm ノズルも注文しているので少し待ち状態。0.4mm のピアノ線で貫通させればよいとのノウハウがあるんですが、手元にないしノズルよりピアノ線のほうが高いので、様子見。何か代用できる 0.4mm の硬い金属はありませんかね。</p>
+<p> </p>
+<p>あと、ABS や PLA フィラメントを交換しようとあれこれやっているときにフィラメント送りに完全に詰まってしまって、こちらも分解。あれこれやっている内に、Wanhao i3 のノウハウがあるサイトを見つけたのでメモしておきます。</p>
+<blockquote>
+<p>3dprinterwiki.info Tips and Mods</p>
+<p><a title="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/" href="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Wanhao_Duplicator_i3_«_3d_Printer_Tips_and_Mods_Wiki" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Wanhao_Duplicator_i3_«_3d_Printer_Tips_and_Mods_Wiki" src="https://hack.gpl.jp/wp-content/uploads/2016/11/wanhao_duplicator_i3__3d_printer_tips_and_mods_wiki.png" width="329" height="480"></a> </p>
+</blockquote>
+<p>ここで知ったのですが、Wanhao USA の注意喚起にヒートベットからショートして火災が発生するケースがあるとの事。</p>
+<blockquote>
+<p>WanhaoUSA Duplicator i3 Safety Notice</p>
+<p><a title="http://wanhaousa.com/pages/duplicator-i3-safety-notice" href="http://wanhaousa.com/pages/duplicator-i3-safety-notice" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://wanhaousa.com/pages/duplicator-i3-safety-notice<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>ファイバーワッシャーをかませてる感じです。テフロンのワッシャーをゲット予定（3000円配送無料まで何か買うまで保留）</p>
+<blockquote>
+<p>ワッシャー TT(テフロン) 0306-10 (3.2mm内径 x 6mm外形 x 1mm厚)</p>
+<p><a title="https://www.monotaro.com/p/4213/5712/?t.q=%91%CF%94M%90%AB" href="https://www.monotaro.com/p/4213/5712/?t.q=%91%CF%94M%90%AB" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.monotaro.com/p/4213/5712/?t.q=%91%CF%94M%90%AB<span class="wpel-icon wpel-image wpel-icon-1"></span></a><img loading="lazy" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="https://hack.gpl.jp/wp-content/uploads/2016/11/1.png" width="640" height="435"> </p>
+</blockquote>
+<p>で、話を元にもどしてノウハウ集。ABS をプリントアウトして初めて気がついたのですが、ベットがフラットになっていないようでした。</p>
+<p>症状としては、</p>
+<p>・周辺サポートの初期層が、ベットに付着しない。</p>
+<p>・ベットに固着せず、ヘッド周りに、フィラメントが残る部分がある。</p>
+<p>・第2層目にプリントするときに、プリントヘッドが1層目をかする。</p>
+<p>PLAのときは、適当でもプリントできましたが、ABS はなかなか手ごわいです。まずはこのフラット対策をしていこうと思います。</p>
+<p> </p>
+<p>基本の調整はベットの4墨にあるネジを調整してフラット化。以下を参考に。</p>
+<blockquote>
+<p>ベットのフラット化</p>
+<p><a title="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-calibration/bed-leveling/" href="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-calibration/bed-leveling/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-calibration/bed-leveling/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>OEM の cocoon create が作っているビデオがわかりやすいです。圧力センサーを付けて、計測するっていうのもありですかね。まぁ、そのうちカスタマイズすることに。</p>
+<p align="center">[youtube https://www.youtube.com/watch?v=k7lmUywqOd4]</p>
+<p>あとは、ベットをフラットにするとき、前提として、Y軸と Z 軸のアライメントが必要です。Z軸は、以下の棒をプリントして左右の高さを調整。</p>
+<p><a href="http://www.thingiverse.com/thing:1241496" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Z_Axis_Alignment_Posts_by_zolan_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Z_Axis_Alignment_Posts_by_zolan_-_Thingiverse" src="https://hack.gpl.jp/wp-content/uploads/2016/11/z_axis_alignment_posts_by_zolan__thingiverse.png" width="625" height="480"></a> </p>
+<p>Y軸は、以下のように定規を２つ置いて高さを平行に。調整は、以下のように定規を２つY軸に置いて水平になっているか確認。調整はネジの閉めなおし。</p>
+<p><a href="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-calibration/y-axis-rod-allignment/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Y_Axis_Rod_Alignment_«_3d_Printer_Tips_and_Mods_Wiki" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Y_Axis_Rod_Alignment_«_3d_Printer_Tips_and_Mods_Wiki" src="https://hack.gpl.jp/wp-content/uploads/2016/11/y_axis_rod_alignment__3d_printer_tips_and_mods_wiki.png" width="617" height="630"></a> X Y Z を固定するのはやはり、以下の固定するカスタムが有利そうです。これは必須カスタムですね。</p>
+<blockquote>
+<p>Z-Brace</p>
+<p><a title="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-basic-mods/z-brace/" href="http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-basic-mods/z-brace/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://3dprinterwiki.info/wiki/wanhao-duplicator-i3/duplicator-i3-basic-mods/z-brace/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p><a href="http://www.thingiverse.com/thing:921948" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Z_braces_for_Wanhao_Duplicator_i3__Cocoon_Create__Maker_Select__and_Malyan_M150_i3_3D_printers__by_AzzA_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Z_braces_for_Wanhao_Duplicator_i3__Cocoon_Create__Maker_Select__and_Malyan_M150_i3_3D_printers__by_AzzA_-_Thingiverse" src="https://hack.gpl.jp/wp-content/uploads/2016/11/z_braces_for_wanhao_duplicator_i3__cocoon_create__maker_select__and_malyan_m150_i3_3d_printers__1.png" width="640" height="471"></a> 8mm の寸切ボルト（threaded rod）でいいようです。長さは、406mm が2本必要のようでモノ太郎で 1m のをゲット。ステンレス（SUS310S）を採用。鉄だと、300円ちょいですがね。1400円。ところで、ナイロックナット（nylock nuts）って、ナイロンナットっていうのが通り名称なんですかね。</p>
+<blockquote>
+<p>メーター寸切(SUS310S)</p>
+<p><a title="https://www.monotaro.com/p/4429/4826/" href="https://www.monotaro.com/p/4429/4826/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.monotaro.com/p/4429/4826/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>六角ナット1種(ステンレス)</p>
+<p><a title="https://www.monotaro.com/p/0552/8747/" href="https://www.monotaro.com/p/0552/8747/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.monotaro.com/p/0552/8747/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>ナイロンナット 2種(ステンレス)(パック品)</p>
+<p><a title="https://www.monotaro.com/p/4210/5707/?t.q=%83i%83C%83%8D%83b%83N%83i%83b%83g" href="https://www.monotaro.com/p/4210/5707/?t.q=%83i%83C%83%8D%83b%83N%83i%83b%83g" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://www.monotaro.com/p/4210/5707/?t.q=%83i%83C%83%8D%83b%83N%83i%83b%83g<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>M3 x 20mm 6角ソケット</p>
+<p><a href="https://www.aliexpress.com/item/240pcs-box-M3-Screw-Kits-DIN912-Hex-Socket-Head-Cap-Screw-Black-M3-4-5-6/32352129012.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">240pcs/box M3 Screw Kits DIN912 Hex Socket Head Cap Screw Black M3*4/5/6/8/10/12/16/20/25mm<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>ラバー（切って両面テープがついたタイプ）</p>
+<p><a href="https://www.aliexpress.com/item/2pcs-9-8cmx15cm-Black-Non-slip-Self-Adhesive-Floor-Protectors-Ottomans-Furniture-Sofa-Desk-Chair-TRP/32759086396.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">2pcs 9.8cmx15cm Black Adhesive rubber<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>モノタロウはあと、送料無料まで、あと600円ですか。THK のリニアブッシュを１つ買ってみてよかったら、交換してみることに。</p>
+<p>0.4mｍのノズルを掃除するために、ピアノ線を探してたんですが、モノタロウでは見つからなかったので、火口掃除針っていうのをためしてみることに。</p>
+<p><a href="https://www.monotaro.com/g/00017059/?monotaroNo=6747946" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="https://hack.gpl.jp/wp-content/uploads/2016/11/21.png" width="602" height="480"></a> </p>
+<p>なかなか奥が深いですね。3D Print。フィラメント交換が面倒なので、PLA用に一台自作してみるのもいいかもしれません。Ultimaker が オープンソースなんで。</p>
+					</div><!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div><!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+	<nav class="navigation post-navigation" role="navigation" aria-label="投稿">
+		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="./2406.html" rel="prev noopener noreferrer" data-wpel-link="internal">DiiiCooler for Wanhao Duplicator i3</a></div><div class="nav-next"><a href="./2464.html" rel="next noopener noreferrer" data-wpel-link="internal">xy テーブルの候補</a></div></div>
+	</nav>
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer wrap" role="contentinfo">
+		<div class="site-info">
+			Copyleft - all rights reversed.
+			<span class="sep"> | </span>
+			JunkHack 2011 - 2021
+			<span class="sep"> | </span>
+			<a href="https://junkhack.gpl.jp/about-junkhack/" data-wpel-link="internal" rel="noopener noreferrer">運営者情報<span class="gf"></a><span class="sep"> | </span>
+			<a href="https://junkhack.gpl.jp/sendmail/" data-wpel-link="internal" rel="noopener noreferrer">お問い合わせ<span class="gf"></a><span class="sep"> | </span>
+			<a href="https://junkhack.gpl.jp/privacy/" data-wpel-link="internal" rel="noopener noreferrer">プライバシーポリシー<span class="gf"></a>
+		</div><!-- .site-info -->
+
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+        <div id="wpfront-scroll-top-container">
+            <img src="./images/1.png" alt="" />        </div>
+                <script type="text/javascript">
+            function wpfront_scroll_top_init() {
+                if (typeof wpfront_scroll_top === "function" && typeof jQuery !== "undefined") {
+                    wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":20,"marginY":20,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});
+                } else {
+                    setTimeout(wpfront_scroll_top_init, 100);
+                }
+            }
+            wpfront_scroll_top_init();
+        </script>
+        <script type='text/javascript' src='./js/core.min.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='./js/menu.min.js' id='jquery-ui-menu-js'></script>
+<script type='text/javascript' src='./js/wp-polyfill.min.js' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='./js/dom-ready.min.js' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='./js/hooks.min.js' id='wp-hooks-js'></script>
+<script type='text/javascript' src='./js/i18n.min.js' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2021-05-20 01:00:08+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ja_JP"},"Notifications":["\u901a\u77e5"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='./js/a11y.min.js' id='wp-a11y-js'></script>
+<script type='text/javascript' id='jquery-ui-autocomplete-js-extra'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002","oneResult":"1\u4ef6\u306e\u7d50\u679c\u304c\u898b\u3064\u304b\u308a\u307e\u3057\u305f\u3002\u4e0a\u4e0b\u30ad\u30fc\u3092\u4f7f\u3063\u3066\u64cd\u4f5c\u3067\u304d\u307e\u3059\u3002","manyResults":"%d\u4ef6\u306e\u7d50\u679c\u304c\u898b\u3064\u304b\u308a\u307e\u3057\u305f\u3002\u4e0a\u4e0b\u30ad\u30fc\u3092\u4f7f\u3063\u3066\u64cd\u4f5c\u3067\u304d\u307e\u3059\u3002","itemSelected":"\u9805\u76ee\u3092\u9078\u629e\u3057\u307e\u3057\u305f\u3002"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='./js/autocomplete.min.js' id='jquery-ui-autocomplete-js'></script>
+<script type='text/javascript' src='./js/wpfront-scroll-top.min.js' id='wpfront-scroll-top-js'></script>
+<script type='text/javascript' src='./js/hew.js' id='hew-scripts-js'></script>
+<script type='text/javascript' src='./js/navigation.js' id='hew-navigation-js'></script>
+<script type='text/javascript' src='./js/skip-link-focus-fix.js' id='hew-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='./js/wp-embed.min.js' id='wp-embed-js'></script>
+
+</body>
+</html>
+
+<!--This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) -->

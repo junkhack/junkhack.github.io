@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://hack.gpl.jp/xmlrpc.php">
+
+<title>NFS Boot に成功した &#8211; JunkHack</title>
+<style type="text/css">.wpfts-result-item .wpfts-smart-excerpt {}.wpfts-result-item .wpfts-not-found {color:#808080;font-size:0.9em;}.wpfts-result-item .wpfts-score {color:#006621;font-size:0.9em;}.wpfts-shift {margin-left:40px;}.wpfts-result-item .wpfts-download-link {color:#006621;font-size:0.9em;}.wpfts-result-item .wpfts-file-size {color:#006621;font-size:0.9em;}</style><meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//hack.gpl.jp' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; フィード" href="https://hack.gpl.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; コメントフィード" href="https://hack.gpl.jp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hack.gpl.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' href='./css/dist-block-library-style.min.css'>
+<link rel='stylesheet' href='./css/export-wp-page-to-static-html-pro-premium-public-css-export-wp-page-to-static-html-public.css'>
+<link rel='stylesheet' href='./css/fulltext-search-style-wpfts_autocomplete.css'>
+<link rel='stylesheet' href='./css/wp-external-links-public-css-wpel.css'>
+<link rel='stylesheet' href='./css/wpfront-scroll-top-css-wpfront-scroll-top.min.css'>
+<link rel='stylesheet' href='./css/ccrw_related-css-frontend-style.css'>
+<link rel='stylesheet' id='hew-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' href='./css/hew-wpcom-genericons-genericons.css'>
+<link rel='stylesheet' href='./css/hew-wpcom-style.css'>
+		<script>
+			/* <![CDATA[ */
+			var rcewpp = {
+				"ajax_url":"https://hack.gpl.jp/wp-admin/admin-ajax.php",
+				"nonce": "4eef5ded05",
+				"home_url": "https://hack.gpl.jp/",
+				"settings_icon": 'https://hack.gpl.jp/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings.png',
+				"settings_hover_icon": 'https://hack.gpl.jp/wp-content/plugins/export-wp-page-to-static-html-pro-premium/admin/images/settings_hover.png'
+			};
+			/* ]]\> */
+		</script>
+		<script type='text/javascript' src='./js/jquery-3.5.1.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='./js/jquery-migrate-3.3.0.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='./js/export-wp-page-to-static-html-public.js' id='export-wp-page-to-static-html-js'></script>
+<script type='text/javascript' src='./js/wpfts_frontend.js' id='wpfts_frontend-js'></script>
+<link rel="https://api.w.org/" href="https://hack.gpl.jp/wp-json/" /><link rel="alternate" type="application/json" href="https://hack.gpl.jp/wp-json/wp/v2/posts/891" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hack.gpl.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hack.gpl.jp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel="canonical" href="./891.html" />
+<link rel='shortlink' href='https://hack.gpl.jp/?p=891' />
+<link rel="alternate" type="application/json+oembed" href="https://hack.gpl.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhack.gpl.jp%2F891%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hack.gpl.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhack.gpl.jp%2F891%2F&#038;format=xml" />
+<script type="text/javascript">
+		document.wpfts_ajaxurl = "https://hack.gpl.jp/wp-admin/admin-ajax.php";
+	</script>				<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none}}</style>
+			<script data-ad-client="ca-pub-2711753458083215" async src="./js/adsbygoogle.js"></script>
+</head>
+
+<script async src="./js/9195.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-13YWDXYQE2');
+</script>
+<body class="post-template-default single single-post postid-891 single-format-standard has-sidebar">
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="hide">
+		
+<div id="secondary" class="wrap top-widget-area" role="complementary">
+	
+	
+	
+		<div id="sidebar-4" class="widget-area" role="complementary">
+		<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://hack.gpl.jp/">
+				<label>
+					<span class="screen-reader-text">検索:</span>
+					<input type="search" class="search-field" placeholder="検索&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="検索" />
+			</form></aside>	</div><!-- #four .widget-area -->
+	</div><!-- #secondary -->
+	</div>
+	
+	<a class="skip-link screen-reader-text" href="">コンテンツへ移動</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<a class="site-logo" href="./index.html" title="JunkHack" rel="home noopener noreferrer" data-wpel-link="internal">
+<img src="images/7005.jpg" width="80" height="80" alt="" class="no-grav header-image" />
+</a>
+		<div class="site-branding">
+			<h1 class="site-title"><a href="./index.html" rel="home noopener noreferrer" data-wpel-link="internal">JunkHack</a></h1>
+			<h2 class="site-description">アリエクでポチった JUNKHACK</h2>
+		</div>
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
+				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu"><li id="menu-item-9578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9578"><a href="./index-list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-9594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9594"><a href="./status.html" data-wpel-link="internal" rel="noopener noreferrer">Status</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+		
+		
+				<div class="toggle-wrapper">
+			<a href="" class="widgets-toggle toggle-button" title="ウィジェット">
+				<span class="screen-reader-text">ウィジェット</span>
+			</a>
+		</div>
+		
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-891" class="post-891 post type-post status-publish format-standard hentry category-linux category-osx category-raspberry-pi">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="./891.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-25T17:09:06+09:00">2015年7月25日</time></a> </span><span class="posted-on">更新日:2015年7月25日</span> <span class="categories">  <a href="./category/linux.html" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="./category/osx.html" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="./category/raspberry-pi.html" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div><!-- .entry-meta -->
+
+							<h1 class="entry-title">NFS Boot に成功した</h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>とりあえず、NFS Boot は本当にできるのか試してみました。結果、できました。   <br>実際やってみると、いろいろとはまるところがありましたが、おおむね以下の手順。忘れないうちにメモしておきます。</p>
+<p>▼環境</p>
+<p>NFS Server・・・・osx 10.9.5</p>
+<p>Boot OS・・・・・ 2015-05-05-raspbian-wheezy</p>
+<p> </p>
+<p>▼操作の流れ</p>
+<p>・NFS サーバでシェアする用意</p>
+<p>・arm 用の img のルートファイルシステムを NFS へコピー（大体は第２パーティションにあり。Fedora とは3番目）</p>
+<p>・SDCard の FATフォーマットの boot の cmdline.txt へ nfs boot する設定と、IP の設定</p>
+<p> </p>
+<p>▼osx の NFS Server 側</p>
+<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルは<a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/nfsd.8.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。</p>
+<blockquote>
+<p>—- /etc/exports      <br>/nfs/fedora22 -rw -mapall=root:wheel -network 192.168.1.0 -mask 255.255.255.0</p>
+</blockquote>
+<p>exports ファイルがあればnfsd が起動しますが、手動で操作したい場合は</p>
+<blockquote>
+<p># nfsd start | stop</p>
+</blockquote>
+<p>NFS で提供しているパスの確認。</p>
+<blockquote>
+<p># showmount -e localhost     <br>Exports list on localhost:      <br>/nfs/fedora22                       192.168.1.0      <br>::</p>
+</blockquote>
+<p>最初fedora22 入れようとして、失敗して、RASPIAN 入れたので名前があれですが。</p>
+<p>それで、boot したい img をコピー。以下は、centos6.x で、osx の NFS をマウントして、rsync しています。centos6はバーチャルボックスでosx を同じネットワークセグメントにいます。</p>
+<blockquote>
+<p>[root@cent66 etc]# df -hT     <br>Filesystem                   Type     Size  Used Avail Use% Mounted on      <br>::      <br>hope.junkhack:/exports       nfs      466G  390G   76G  84% /nfs      <br>hope.junkhack:/nfs/fedora22  nfs      466G  390G   76G  84% /mnt/fedora22</p>
+</blockquote>
+<p>hope.junkhack は名前解決できるようにしてあります。ちなみに、fstab はこんな感じのデフォルト。</p>
+<blockquote>
+<p>—- /etc/fstab     <br>::      <br>hope.junkhack:/exports    /nfs        nfs        defaults    0 0      <br>hope.junkhack:/nfs/fedora22    /mnt/fedora22    nfs        defaults    0 0</p>
+</blockquote>
+<p>で、RASPIAN のイメージをマウント。</p>
+<blockquote>
+<p>[root@cent66 RASPBIAN]# kpartx -av 2015-05-05-raspbian-wheezy.img      <br>add map loop0p1 (253:2): 0 114688 linear /dev/loop0 8192      <br>add map loop0p2 (253:3): 0 6277120 linear /dev/loop0 122880</p>
+<p>[root@cent66 RASPBIAN]# mount /dev/mapper/loop0p2 /mnt/raspi/     </p>
+<p>[root@cent66 RASPBIAN]# df -h      <br>Filesystem                    Size  Used Avail Use% Mounted on      <br>::      <br>hope.junkhack:/exports        466G  388G   78G  84% /nfs      <br>hope.junkhack:/nfs/fedora22   466G  388G   78G  84% /mnt/fedora22      <br>/dev/mapper/loop0p2           3.0G  2.4G  451M  85% /mnt/raspi      <br>[root@cent66 RASPBIAN]# </p>
+</blockquote>
+<p>で、コピー。</p>
+<blockquote>
+<p>[root@cent66 RASPBIAN]# rsync -av /mnt/raspi/ /mnt/fedora22/     <br>sending incremental file list      <br>./      <br>bin/      <br>bin/bash      <br>bin/bunzip2</p>
+<p>::</p>
+<p>var/spool/cron/crontabs/     <br>var/spool/rsyslog/      <br>var/tmp/ </p>
+<p>sent 2304687346 bytes  received 1293752 bytes  4274293.05 bytes/sec     <br>total size is 2299569061  speedup is 1.00      <br>[root@cent66 RASPBIAN]# </p>
+<p> </p>
+</blockquote>
+<p>で、NFS でブートするときに fstab の中がそのままだと、SD カードのパーティションをchroot してしまうのでコメントアウト。</p>
+<blockquote>
+<p>[root@cent66 etc]# vim fstab</p>
+<p>proc            /proc           proc    defaults          0       0     <br>/dev/mmcblk0p1  /boot           vfat    defaults          0       2      <br>#/dev/mmcblk0p2  /               ext4    defaults,noatime  0       1</p>
+</blockquote>
+<p>NFS側のイメージ展開は以上で終わり。</p>
+<p> </p>
+<p>▼Boot するcmdline.txt の中に以下を追加</p>
+<blockquote>
+<p>root=/dev/nfs rootfstype=nfs nfsroot=192.168.1.17:/nfs/fedora22,udp,vers=3,nolock ip=192.168.1.24:192.168.1.17:192.168.1.1:255.255.255.0:rpi:eth0:off</p>
+</blockquote>
+<p>nolock のオプションは必要ないかもしれません。とりあえず、これで動いてはいます。IPのところは以下の書式。</p>
+<blockquote>
+<p>ip=&lt;raspberrypi_ip&gt;:&lt;nfs_server_ip&gt;:&lt;default_gateway&gt;:&lt;mask&gt;:rpi:eth0:off</p>
+</blockquote>
+<p>シリアルコンソールのブートログは、</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[    4.638898] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
+
+[    4.674857] IP-Config: Complete:
+
+[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1
+
+[    4.694694]      host=rpi, domain=, nis-domain=(none)
+
+[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=
+
+[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.
+
+[    4.729328] devtmpfs: mounted
+
+[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)
+
+[    5.132474] random: nonblocking pool is initialized
+
+[    6.228285] udevd[177]: starting version 175
+
+
+
+Raspbian GNU/Linux 7 pi ttyAMA0
+
+
+
+pi login: </pre>
+<p>となっています。</p>
+<p>NFS Boot させたあと、uname したら、</p>
+<blockquote>
+<p>root@pi:~# uname -a<br>
+    <br>Linux pi 4.0.7-v7+ #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015 armv7l GNU/Linux</p>
+<p>root@pi:~# </p>
+</blockquote>
+<p>げ、fedora の initramfs からブートしてます。SDCard の boot は、初回にスクリプトで作ったやつだった。。。。</p>
+<blockquote>
+<p>root@pi:/boot# ll *.img<br>
+    <br>-rwxr-xr-x 1 root root 39176850 Jul  4 17:40 initramfs-0-rescue-18b4f0b4546f49828e1ef5e652cc7b9a.img</p>
+<p>-rwxr-xr-x 1 root root 16475761 Jul  4 17:36 initramfs-4.0.6-300.fc22.armv7hl+lpae.img</p>
+<p>-rwxr-xr-x 1 root root  3987856 Jul  2 23:35 kernel7.img</p>
+<p>-rwxr-xr-x 1 root root  4016696 Jul  2 23:35 kernel.img</p>
+<p>root@pi:/boot# </p>
+</blockquote>
+<p>たぶん、RASPIAN のimg の boot からやれば、良いはず。まだ試していませんが。</p>
+<p>df はこんな感じで、ルートがnfs になっています。76Gも空きがあるー（osx 側のディスクですが）</p>
+<blockquote>
+<p>root@pi:~# df -hT<br>
+    <br>Filesystem                 Type      Size  Used Avail Use% Mounted on</p>
+<p>192.168.1.17:/nfs/fedora22 nfs       466G  390G   76G  84% /</p>
+<p>devtmpfs                   devtmpfs  459M     0  459M   0% /dev</p>
+<p>tmpfs                      tmpfs      93M  216K   93M   1% /run</p>
+<p>tmpfs                      tmpfs     5.0M     0  5.0M   0% /run/lock</p>
+<p>tmpfs                      tmpfs     186M     0  186M   0% /run/shm</p>
+<p>/dev/mmcblk0p1             vfat      200M   98M  102M  50% /boot</p>
+</blockquote>
+<p>このままだと、モジュールを読み込んでいないので使えませんが、、、</p>
+<blockquote>
+<p>root@pi:~# lsmod<br>
+    <br>Module                  Size  Used by</p>
+<p>root@pi:~# ll /lib/modules/</p>
+<p>total 8</p>
+<p>drwxr-xr-x 14 root root 476 May  6 22:22 3.18.11+</p>
+<p>drwxr-xr-x 14 root root 476 May  6 22:22 3.18.11-v7+</p>
+<p>root@pi:~# </p>
+</blockquote>
+<p>Boot の img を RASPBIAN のに入れ替えて、リブート</p>
+<blockquote>
+<p>[root@pi ~ 07/25 20:40:51]# ll /boot/*.img<br>
+    <br>-rwxr-xr-x 1 root root 3930004 Apr 27 13:40 /boot/kernel7.img</p>
+<p>-rwxr-xr-x 1 root root 3974884 Apr 27 13:40 /boot/kernel.img</p>
+</blockquote>
+<p>これでkernel も ローダブルモジュールもOK な感じ。</p>
+<blockquote>
+<p>[root@pi ~ 07/25 20:41:40]# uname -a<br>
+    <br>Linux pi 3.18.11-v7+ #781 SMP PREEMPT Tue Apr 21 18:07:59 BST 2015 armv7l GNU/Linux</p>
+<p>[root@pi ~ 07/25 20:44:14]# lsmod</p>
+<p>Module                  Size  Used by</p>
+<p>cfg80211              386508  0 </p>
+<p>rfkill                 16651  1 cfg80211</p>
+<p>rpcsec_gss_krb5        20958  0 </p>
+<p>nfsd                  263569  2 </p>
+<p>snd_bcm2835            18649  0 </p>
+<p>snd_pcm                73475  1 snd_bcm2835</p>
+<p>snd_seq                53078  0 </p>
+<p>snd_seq_device          5628  1 snd_seq</p>
+<p>snd_timer              17784  2 snd_pcm,snd_seq</p>
+<p>snd                    51038  5 snd_bcm2835,snd_timer,snd_pcm,snd_seq,snd_seq_device</p>
+<p>8192cu                528365  0 </p>
+<p>joydev                  8879  0 </p>
+<p>evdev                   9950  2 </p>
+<p>uio_pdrv_genirq         2958  0 </p>
+<p>uio                     8119  1 uio_pdrv_genirq</p>
+</blockquote>
+					</div><!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div><!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+	<nav class="navigation post-navigation" role="navigation" aria-label="投稿">
+		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="./886.html" rel="prev noopener noreferrer" data-wpel-link="internal">AUFSとか</a></div><div class="nav-next"><a href="./898.html" rel="next noopener noreferrer" data-wpel-link="internal">PS1 のフォーマット</a></div></div>
+	</nav>
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer wrap" role="contentinfo">
+		<div class="site-info">
+			Copyleft - all rights reversed.
+			<span class="sep"> | </span>
+			JunkHack 2011 - 2021
+			<span class="sep"> | </span>
+			<a href="https://junkhack.gpl.jp/about-junkhack/" data-wpel-link="internal" rel="noopener noreferrer">運営者情報<span class="gf"></a><span class="sep"> | </span>
+			<a href="https://junkhack.gpl.jp/sendmail/" data-wpel-link="internal" rel="noopener noreferrer">お問い合わせ<span class="gf"></a><span class="sep"> | </span>
+			<a href="https://junkhack.gpl.jp/privacy/" data-wpel-link="internal" rel="noopener noreferrer">プライバシーポリシー<span class="gf"></a>
+		</div><!-- .site-info -->
+
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+        <div id="wpfront-scroll-top-container">
+            <img src="./images/1.png" alt="" />        </div>
+                <script type="text/javascript">
+            function wpfront_scroll_top_init() {
+                if (typeof wpfront_scroll_top === "function" && typeof jQuery !== "undefined") {
+                    wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":20,"marginY":20,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});
+                } else {
+                    setTimeout(wpfront_scroll_top_init, 100);
+                }
+            }
+            wpfront_scroll_top_init();
+        </script>
+        <script type='text/javascript' src='./js/core.min.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='./js/menu.min.js' id='jquery-ui-menu-js'></script>
+<script type='text/javascript' src='./js/wp-polyfill.min.js' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='./js/dom-ready.min.js' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='./js/hooks.min.js' id='wp-hooks-js'></script>
+<script type='text/javascript' src='./js/i18n.min.js' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2021-05-20 01:00:08+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ja_JP"},"Notifications":["\u901a\u77e5"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='./js/a11y.min.js' id='wp-a11y-js'></script>
+<script type='text/javascript' id='jquery-ui-autocomplete-js-extra'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002","oneResult":"1\u4ef6\u306e\u7d50\u679c\u304c\u898b\u3064\u304b\u308a\u307e\u3057\u305f\u3002\u4e0a\u4e0b\u30ad\u30fc\u3092\u4f7f\u3063\u3066\u64cd\u4f5c\u3067\u304d\u307e\u3059\u3002","manyResults":"%d\u4ef6\u306e\u7d50\u679c\u304c\u898b\u3064\u304b\u308a\u307e\u3057\u305f\u3002\u4e0a\u4e0b\u30ad\u30fc\u3092\u4f7f\u3063\u3066\u64cd\u4f5c\u3067\u304d\u307e\u3059\u3002","itemSelected":"\u9805\u76ee\u3092\u9078\u629e\u3057\u307e\u3057\u305f\u3002"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='./js/autocomplete.min.js' id='jquery-ui-autocomplete-js'></script>
+<script type='text/javascript' src='./js/wpfront-scroll-top.min.js' id='wpfront-scroll-top-js'></script>
+<script type='text/javascript' src='./js/hew.js' id='hew-scripts-js'></script>
+<script type='text/javascript' src='./js/navigation.js' id='hew-navigation-js'></script>
+<script type='text/javascript' src='./js/skip-link-focus-fix.js' id='hew-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='./js/wp-embed.min.js' id='wp-embed-js'></script>
+
+</body>
+</html>
+
+<!--This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) -->
