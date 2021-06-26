@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>FileSystem &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 25 Jul 2015 13:16:28 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>NFS Boot の IOPS</title>
+		<link>/900.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 25 Jul 2015 13:16:28 +0000</pubDate>
+				<category><![CDATA[FileSystem]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[osx]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+		<guid isPermaLink="false">/?p=900</guid>
+							<description><![CDATA[fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。 母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD cd /usr/local/src/ s [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。</p>
+<p>母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD </p>
+<blockquote>
+<p>cd /usr/local/src/     <br />sudo apt-get install -y libaio-dev      <br />git clone -b fio-2.2.5 git://git.kernel.dk/fio.git      <br />cd fio      <br />./configure &amp;&amp; make &amp;&amp; sudo make install      <br />cd ..      <br />wget <a href="http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      <br />fio fio-crystaldiskmark | perl -ne &#8216;      <br />print &quot;$1 : &quot; if(/(.+): \(groupid=/);      <br />print &quot;$1 &quot; if(/bw=([\d. ]+[KM]?B\/s)/);      <br />print &quot;[ $1 IOPS]\n&quot; if(/iops=(\d+)/)&#8217;</p>
+</blockquote>
+<p>4K の読み書きが SDCard よりだんぜん速いです。</p>
+<blockquote>
+<p>Seq-Read : 9555.8KB/s [ 9 IOPS]     <br />Seq-Write : 10250KB/s [ 10 IOPS]      <br />Rand-Read-512K : 9145.4KB/s [ 17 IOPS]      <br />Rand-Write-512K : 10085KB/s [ 19 IOPS]      <br />Rand-Read-4K : 3624.8KB/s [ 906 IOPS]      <br />Rand-Write-4K : 3300.5KB/s [ 825 IOPS]      <br />Rand-Read-4K-QD32 : 8885.1KB/s [ 2221 IOPS]      <br />Rand-Write-4K-QD32 : 10492KB/s [ 2622 IOPS]</p>
+</blockquote>
+<p>なるほどー。いいかも。</p>
+<p>&#160;</p>
+<p>参考</p>
+<blockquote>
+<p>discypus.jp/wiki/ </p>
+<p><a href="http://discypus.jp/wiki/?%C1%C8%A4%DF%B9%FE%A4%DF%2FRaspberryPi#content_1_45" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">fio &#8211; Flexible I/O Tester (2015-02-22)<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>AUFSとか</title>
+		<link>/886.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2015 21:49:46 +0000</pubDate>
+				<category><![CDATA[FileSystem]]></category>
+		<category><![CDATA[Linux]]></category>
+		<guid isPermaLink="false">/?p=886</guid>
+							<description><![CDATA[正式名称は、wiki によるとAnotherUnionFSというのだそうな。 Docker とかにも使われているそうで、こんなわかりやすいページがあった。 Dockerイメージの差分管理についてまとめてみた http:/ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>正式名称は、<a href="https://ja.wikipedia.org/wiki/Aufs" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a> によるとAnotherUnionFSというのだそうな。</p>
+<p>Docker とかにも使われているそうで、こんなわかりやすいページがあった。</p>
+<blockquote>
+<p>Dockerイメージの差分管理についてまとめてみた</p>
+<p><a title="http://tanksuzuki.com/post/docker-image-filesystem/" href="http://tanksuzuki.com/post/docker-image-filesystem/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://tanksuzuki.com/post/docker-image-filesystem/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>Docker とかは、見聞きしたことはあるんだけども、実際に使ったことはなくどんなものなのかはよく知りません。</p>
+<p>一言でいえば、</p>
+<blockquote>
+<p>異なるファイルシステムのファイルやディレクトリを透過的に重ねて、ひとつのファイルツリーを構成できるファイルシステム</p>
+</blockquote>
+<p>ということのようです。BerryBoot のファイルシステムはまさにこれのようですね。このカーネルをあげてchroot すれば最新に追随できそうな感じです。この週末はそんなことにチャレンジしてみるか、気分一新、工作に手を出すかですね。</p>
+<p>ほんと、知らないことがたくさんがたくさんありますね。奥が深いというか、知れば知るほど、深みにはまるというか。</p>
+<p>NFS でルートファイルシステムをブートさせる記事があったので、</p>
+<blockquote>
+<p>raspberryPiをNFSで起動する</p>
+<p><a title="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" href="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<blockquote>
+<p>Boot Raspberry Pi over NFS</p>
+<p><a title="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" href="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.whaleblubber.ca/boot-raspberry-pi-nfs/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>とりあえず、これを週末に実験してみますか。</p>
+<p>&#160;</p>
+<p>ちょっとづつこのあたりは、永続的に押さえていこうかと思います。RasPi をゲットしなければこういうことも、ずっと知らないままだったのかもしれないことを考えると、価値があったと思います。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

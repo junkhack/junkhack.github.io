@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>ESP32 &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 26 Feb 2017 18:27:36 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>ESP32（ESP-WROOM-32） のBluetoothライブラリーサンプルが来た模様</title>
+		<link>/3366.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 26 Feb 2017 18:27:36 +0000</pubDate>
+				<category><![CDATA[Bluetooth]]></category>
+		<category><![CDATA[ESP32]]></category>
+		<guid isPermaLink="false">/?p=3366</guid>
+							<description><![CDATA[定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ ESP32 の Bluetooth ライブラリは整備されていませんでした。EPS32 の最大の特徴である Bluetooth が整備されるまではもう少し様子見しようと思っていたのでした。</p>
+<p>しかし、時代はあっという間に流れます。特にこの IoT 分野は。Espressif もかなり力の入れようのようです。どうやら、３日ほど前に、Bluetoothのサンプルがつっこまれたようです。だれがメンテしているかは詳しくみていませんが、以下あたりにそれっぽいのがあります。</p>
+<blockquote>
+<p>GitHub espressif/esp-idf</p>
+<p><a title="https://github.com/espressif/esp-idf/tree/master/examples/bluetooth" href="https://github.com/espressif/esp-idf/tree/master/examples/bluetooth" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/espressif/esp-idf/tree/master/examples/bluetooth<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>bt lib</p>
+<p><a title="https://github.com/espressif/esp-idf/tree/master/components/bt" href="https://github.com/espressif/esp-idf/tree/master/components/bt" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/espressif/esp-idf/tree/master/components/bt<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>Bluetooth回りの手入れも頻繁に行われているようです。まだ EPS32 自体をゲットしていないのでどんな感じかわかりませんが、このあたりが整備されてきたのでそろそろ触りだしてもいいかなと思っています。</p>
+<p>サンプルのビデオなども、以下からリンクされています。</p>
+<blockquote>
+<p>ESP32 ( Espressif が作っているオフィシャル情報ポータル)</p>
+<p><a title="http://esp32.net/" href="http://esp32.net/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://esp32.net/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>&#160;</p>
+<p>nRF51822 機器と接続するサンプルのビデオとかもあって、面白そうだなと。CNCプロジェクトを終えてこれらを触りたいな。</p>
+<p>どのくらいの消費電力で、通信するのか、deepsleep から定期的に bluetooth センサーから情報を得るにはどうしたらいいのか？などなど基本情報を調査してみたいです。</p>
+<p>&#160;</p>
+<p>ESP32 はアリエクでは高いので、５個くらいを送料無料で日本（スイッチサイエンスさんとか）から買うのが良さそうですね。１個７００円なので５個で３０００円以上送料無料。700円というは結構安い価格付けですね。</p>
+<p>アリエクで以下のをゲットして、くっつけるってのが良さそうですね。￥ 791 ESP32 が載ったものは2000円以上しますので。</p>
+<p><a href="https://www.aliexpress.com/w/wholesale-ESP32-Development-Board.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480" /></a>ということで、この開発ボードアダプターはポチっておきました。あと、スイッチサイエンスさんからモジュールを１つゲットしました。</p>
+<p>&#160;</p>
+<blockquote>
+<p><a title="https://www.switch-science.com/catalog/3156/" href="https://www.switch-science.com/catalog/3156/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.switch-science.com/catalog/3156/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>商 品 名：ESP-WROOM-32 Wi-Fi + BLEモジュール     <br />商品コード：ESP-WROOM-32（商品番号：3156）      <br />数量 ：1 個      <br />単品価格 ：￥ 700 </p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; </p>
+<p>小 計 ￥ 700     <br />送 料 ￥ 150      <br />値引き ￥ 0      <br />手数料 ￥ 0      <br />===============================================================      <br />合 計 ￥ 850</p>
+</blockquote>
+<p>&#160;</p>
+<p>これが到着するまでには、CNC ルータを完成させねば。</p>
+<p>pcbrefluxさんのビデオは暇なときに見てみることにします。</p>
+<p><a title="https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU" href="https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

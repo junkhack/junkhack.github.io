@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>高速化 &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 01 Jun 2021 20:43:58 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>スマホ上に作った自宅サーバのWordPressで、テスト評価がほぼオールAになった！</title>
+		<link>/9466.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2020 19:51:21 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=6030</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/allA.png" />
+							<description><![CDATA[はい、ただ今引っ越し準備中でして、このブログをスマートフォン上に作ったWordPressサーバに引っ越しします。９月末か１０月頭予定で各種チューニングをやっていましたが、ついにスピードテスト系の評価サイトでほぼオールAを [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>はい、ただ今引っ越し準備中でして、このブログをスマートフォン上に作ったWordPressサーバに引っ越しします。９月末か１０月頭予定で各種チューニングをやっていましたが、ついにスピードテスト系の評価サイトでほぼオールAを取ることに成功しました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_result_-_tokyo___jh_gpl_jp__-_09_12_20_01_36_13.png?w=952" alt="" class="wp-image-6034" /></figure>
+
+
+
+<p>いくつかある評価サイトの中では、ここが一番好きです。ここの計測サイトは東京リージョンもあり、また各種グラフが見やすくビデオプレビューまで付いて来ます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>WEBPAGETEST</p><cite>https://www.webpagetest.org/</cite></blockquote>
+
+
+
+<p>主な評価観点は、左から以下のようになっています。</p>
+
+
+
+<ol><li>セキュリティ</li><li>初期アクセスまでの時間</li><li>Keep-alive通信がONか？</li><li>圧縮転送されているか？</li><li>イメージの圧縮はどうか？</li><li>静的コンテンツがキャッシュされているか？</li><li>CDNを使っているか？</li></ol>
+
+
+
+<p>７番のCDNは一部、WordPressのをつかっていますが、全部は使っていないので、x　になっています。これはどうするかまだ迷っています。一度、国内のCDNをテストで使ってみようと思ったのですがうまく動作せずでした。まだ原因がわかっていません。</p>
+
+
+
+<p>　難易度的には、簡単なものから３・４・５・６・２・１・７で難しかったです。今回は、自分なりの考えをメモりつつ、１つづつ紹介していきたいなと思います。必ず正解っていう部分はないところでもあるので、あくまで自分はこんな対策と対応をしたよっていう感じです。いろいろツッコミどころはあるとは思いますが、何かあればコメントでお気軽にどうぞ。</p>
+
+
+
+<h3>難易度G・Keep-alive通信がONか？</h3>
+
+
+
+<p>これは apache を使おうが、nginx を使おうが最初からデフォルトONになっているので意識せずともAになると思います。今回は、最終的に nginx を使うことにしましたので、nginx.conf に以下を設定しています。タイムアウト時間は短いほうが良いと思います。でも、ここは突き詰めると難しい部分です。興味がある方は、以下などを一読されると良いかなと思います。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>ぜんぶTIME_WAITのせいだ！</p><cite>https://qiita.com/kuni-nakaji/items/c07004c7d9e5bb683bc2</cite></blockquote>
+
+
+
+<pre class="wp-block-code"><code>http {
+::（省略）
+    keepalive_requests 100;
+    keepalive_timeout  3;
+::（省略）</code></pre>
+
+
+
+<p>termux 上の android OSでは、一般的なLinuxと違ってKernelパラメータも調整されているはずですので、ここが何が適切なのかを明確にするには root権限のあるスマホで termux を動かし負荷テストをしながら、各種TCPの状態遷移を見ていくのが正しい姿勢です。という意味では一番難しい部類ですが、今回はそこまで突っ込まないことにします。</p>
+
+
+
+<h3>難易度F・圧縮転送されているか？</h3>
+
+
+
+<p>圧縮レベルは１でも十分という意見はありそうです。</p>
+
+
+
+<pre class="wp-block-code"><code>http {
+::（省略）
+    gzip  on;
+    gzip_vary       on;
+    gzip_proxied    any;
+    gzip_comp_level 6;
+    gzip_types      text/plain text/css text/xml text/javascript
+                    application/json application/javascript application/x-javascript
+                    application/xml application/rss+xml application/atom+xml
+                    image/svg+xml;
+::（省略）</code></pre>
+
+
+
+<h3>難易度E・イメージの圧縮はどうか？</h3>
+
+
+
+<p>これは今回は、ジェットパックのプラグインでwordpress のCDN側から画像が出ています。そこで適切に圧縮してくれているので簡単です。ただ、やりだすと奥が深いので、中間くらいの位置付けにしてあります。</p>
+
+
+
+<h3>難易度D・静的コンテンツがキャッシュされているか？</h3>
+
+
+
+<p>これは、レスポンスヘッダに<strong>No max-age </strong>または<strong> expires</strong>をつければ解決します。具体的には、nginxの設定で以下を設定すればOKです。</p>
+
+
+
+<pre class="wp-block-code"><code>location ~* \.(jpg|jpeg|gif|png|css|js|swf|ico|pdf|svg|eot|ttf|woff)$ {
+    expires 60d;
+    add_header Cache-Control "public, no-transform";
+    access_log off;
+}</code></pre>
+
+
+
+<h3>難易度C・初期アクセスまでの時間</h3>
+
+
+
+<p>これは、WordPress側でキャッシュを作るのが一番最速です。各種プラグインがありますが、いろいろ試した結果、今の所はAutoptimizeに落ち着いています。</p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://ja.wordpress.org/plugins/autoptimize/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/autoptimize_e28093_wordpress_e38395e3829ae383a9e382afe38299e382a4e383b3___wordpress_org_e697a5e69cace8aa9e.png?w=743" alt="" class="wp-image-6040" /></a></figure></div>
+
+
+
+<p>デフォルト設定でも十分効果はあります。迷ってる設定としては、Google フォントの削除　をするかしないかです。表示の綺麗さを取るか、お客様に快適にアクセスしてもらうのを取るか　ですね。あとは、ネットワーク的な速度の部分があります。今は InterLink の回線上にいますが、少し工夫してある部分といえば、常時利用する経路とは分離してあるくらいでしょうか？　WiFiの5G接続でもこのくらいは出ますよという参考値になればと思います。WiFiルーターの側にスマホ（サーバ）は置いてあります。距離を離すと応答速度が遅れます。</p>
+
+
+
+<h3>難易度B・セキュリティ</h3>
+
+
+
+<p>これが結構難しかったです。まず、WordPress の最新を使ってもjquery 1.12.4でした。これは脆弱性があるので、あげて置きたいところですが WordPressはIE8のことも考えて意図的に落としているようです（たぶん）。なので、以下プラグインで上書きしています。</p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://wordpress.org/plugins/jquery-manager/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/jquery_manager_for_wordpress_e28093_wordpress_plugin___wordpress_org.png?w=846" alt="" class="wp-image-6042" /></a></figure></div>
+
+
+
+<p>しかし、これ以外もやることがあって以下のチェックサイトに行ったほうがわかりやすいかもしれません。各種セキュリー関連のhttpヘッダーを付与する必要があります。</p>
+
+
+
+<p>https://securityheaders.com/</p>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><img src="/wp-content/uploads/2020/09/scan_results_for_https___jh_gpl_jp_.png?w=683" alt="" class="wp-image-6045" /></figure>
+
+
+
+<p>最初はここ、真っ赤でF判定だったです。</p>
+
+
+
+<p>対策としては、NGINXの設定でヘッダに以下をつければA判定となりクリアになりますが、まだiFrameの設定が未完結です。X-Frame-Optionsは、古く　Content-Security-Policy　の指定で行うのが良さそうです。frame-ancestors　を指定し組み込める参照元を制限する方法が良いということはわかっているのですが、まだ設定値が決まりません。A判定は取っていますが、内容がない状態です。</p>
+
+
+
+<pre class="wp-block-code"><code>add_header Strict-Transport-Security "max-age=15552000"; 
+add_header X-XSS-Protection "1; mode=block";
+add_header X-Frame-Options SAMEORIGIN;
+add_header X-Frame-Options "ALLOW-FROM https://www.youtube.com/";
+add_header X-Content-Type-Options nosniff;
+add_header Content-Security-Policy "default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' ;";
+add_header Referrer-Policy strict-origin always;
+add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
+
+
+
+<h3>難易度A・CDNを使っているか？</h3>
+
+
+
+<p>ここは、DNSの向け先を変えたり、CDNのキャッシュをコントロールしたりする必要があり、運用とも関わる部分です。一度設定したのですが、うまく動作せずここは今の所一番の課題となっています。そもそも、月間５０００ページビューにも行かないこのサイトでCDNを導入する必要があるかどうか？　という点もありますが、一度やって見ないとわかりません。あと仕事ではなく、趣味なので無料のものしか使う気はありません。さて、どこがいいんでしょうかね？</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>このサーバは、スマホで動いていてWiFiの無線で繋がっていますが、こんなちっさな筐体でもWordPressが動く、しかもA評価までもらえるなんて！　感動です。Termuxは最高のアプリですね。神アプリ認定です。</p>
+
+
+
+<p>　しかも、常時SSL対応ですよ。もちろん、無料のSSL証明書です。なんだか時代は刻々と進化していますね。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Termuxでのスマホサーバ、SSLアクセスでも耐えれそうかな？</title>
+		<link>/9464.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 09 Sep 2020 17:27:32 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5980</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/termuxssl.png" />
+							<description><![CDATA[TermuxでのLet&#8217;s Encrypt　SSL化がやっとできたのでメモっておきます！ まず心配だったのは、SSLアクセスしたときのレスポンスですが、まぁ我慢どころといった感じでしょうか。 非SSLと比べる [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>TermuxでのLet&#8217;s Encrypt　SSL化がやっとできたのでメモっておきます！</p>
+
+
+
+<p>まず心配だったのは、SSLアクセスしたときのレスポンスですが、まぁ我慢どころといった感じでしょうか。</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_10_20_00_45_09.png?w=937" alt="" class="wp-image-5982" /></figure>
+
+
+
+<p>非SSLと比べると、接続には少し時間がかかっています。実際にスマホからSIM通信してみると、若干ワンテンポ送れる感じです。</p>
+
+
+
+<p>証明書は、Let&#8217;s Encrypt でこれは３ヶ月ごとに更新しないといけないので自動化が必須となってきます。手動でやってもいいのですが、絶対面倒になって証明書を切らしてしまうので。で、自動化には <a rel="noreferrer noopener external" href="https://certbot.eff.org/" target="_blank" data-wpel-link="external" class="wpel-icon-right">certbot<span class="wpel-icon wpel-image wpel-icon-1"></span></a> のスクリプトが有名なんですが、これは依存関係などがあったり、root （スクリプト中で su したり）が必須とかで、Termux では動きません。動かす方法もあるのでしょうが、世の中にはもっと小さな自動化ツールがありました！</p>
+
+
+
+<p><a rel="noreferrer noopener external" href="https://github.com/diafygi/acme-tiny" target="_blank" data-wpel-link="external" class="wpel-icon-right">acme-tiny<span class="wpel-icon wpel-image wpel-icon-1"></span></a> っていうPython製の自動化PGです。pythonとopenssl があれば動くそうです。pip で入れて見ます。</p>
+
+
+
+<h3>ステップ１ pythonを入れる</h3>
+
+
+
+<p>pythonが必要なので、なければ入れます。今回は、もう入れてあるので次です。</p>
+
+
+
+<pre class="wp-block-code"><code>$ dpkg-query -l | grep python
+ii  python             3.8.5             aarch64      Python 3 programming language intended to enable clear programs
+
+$ pkg install python -y</code></pre>
+
+
+
+<h3>ステップ２　PIPで acme-tiny を入れる</h3>
+
+
+
+<pre class="wp-block-code"><code>$ pip install acme-tiny</code></pre>
+
+
+
+<p>pip が古いとか言われたら、以下で。</p>
+
+
+
+<pre class="wp-block-code"><code>$ python3 -m pip install --upgrade pip</code></pre>
+
+
+
+<p>以下に入るようです。</p>
+
+
+
+<pre class="wp-block-code"><code>$ which acme-tiny
+/data/data/com.termux/files/usr/bin/acme-tiny
+
+$ find $PREFIX -name *acme*
+/data/data/com.termux/files/usr/bin/acme-tiny
+/data/data/com.termux/files/usr/lib/python3.8/site-packages/acme_tiny.py
+/data/data/com.termux/files/usr/lib/python3.8/site-packages/__pycache__/acme_tiny.cpython-38.pyc
+/data/data/com.termux/files/usr/lib/python3.8/site-packages/acme_tiny-4.1.0.dist-info</code></pre>
+
+
+
+<h3>ステップ３　Let&#8217;s Encryptアカウントの秘密鍵</h3>
+
+
+
+<p>どこか適当な場所にディレクトリを作って、そこで作業します。</p>
+
+
+
+<pre class="wp-block-code"><code>$ cd
+$ mkdir ssl
+$ cd ssl
+$ openssl genrsa 4096 &gt; account.key</code></pre>
+
+
+
+<h3>ステップ４　ドメイン用の秘密鍵を作成</h3>
+
+
+
+<p>ドメイン名は、読み替えてみてください。</p>
+
+
+
+<pre class="wp-block-code"><code>$ openssl genrsa 4096 &gt; www.example.jp.key</code></pre>
+
+
+
+<h3>ステップ５　ドメインの証明書署名要求（CSR）を作成</h3>
+
+
+
+<pre class="wp-block-code"><code>シングルドメイン
+$ openssl req -new -sha256 -key www.example.jp.key -subj "/CN=www.example.jp" &gt; www.example.jp.csr</code></pre>
+
+
+
+<p>サブドメインのワイルドカード証明書はどうやって作るのかまだ知りません。課題です。</p>
+
+
+
+<h3>ステップ６　証明書に署名してもらう</h3>
+
+
+
+<pre class="wp-block-code"><code>$ mkdir -p /data/data/com.termux/files/home/【WEBROOT】/.well-known/acme-challenge/
+
+$ acme-tiny --disable-check --account-key ./account.key --csr ./www.example.jp.csr --acme-dir /data/data/com.termux/files/home/【WEBROOT】/.well-known/acme-challenge/ &gt; ./www.example.jp.crt</code></pre>
+
+
+
+<p>ここで、&#8211;disable-check　を入れていますがこれは先日記載したUターンNAT（ヘアピンNAT）ができないため、自分自身のWEBにアクセスできないからです。そういう問題がない場合は、削除してください。</p>
+
+
+
+<p>こんな感じで出来ると思います。crtができない場合は何かが悪いです。ログにヒントがありますので慌てず、探りましょう！</p>
+
+
+
+<pre class="wp-block-code"><code>.
+├── account.key
+├── www.example.jp.crt　署名された証明書
+├── www.example.jp.csr
+└──  www.example.jp.key　鍵
+
+.WEBROOT
+    └── .well-known
+        └── acme-challenge
+           └──xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</code></pre>
+
+
+
+<h3>ステップ７　nginxの設定</h3>
+
+
+
+<p>設定ファイル抜粋。ルータとtermuxはポート転送しています。</p>
+
+
+
+<pre class="wp-block-code"><code>http {
+：：（略）
+    ssl_session_timeout 30m;
+    ssl_session_cache   shared:SSL:10m;
+    ssl_session_tickets off;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+    ssl_ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256;
+：：（略）
+server {
+     listen      8443;
+：：（略）
+     ssl_certificate     /data/data/com.termux/files/home/ssl/www.example.jp.crt;
+     ssl_certificate_key /data/data/com.termux/files/home/ssl/www.example.jp.key;
+：：（略）
+</code></pre>
+
+
+
+<p>なぜか、location で、.well-known/acme-challenge/　の場所が以下のように指定したら、アクセスできませんでした。なので、これは消して、実際のWEBROOTに/.well-known/acme-challenge/を作りました。</p>
+
+
+
+<pre class="wp-block-code"><code>location ^~ /.well-known/acme-challenge/ {
+    root /data/data/com.termux/files/home/【acme-challengeがあるパス】;
+}
+location = /.well-known/acme-challenge/ {
+    return 404;
+}</code></pre>
+
+
+
+<p>以下の評価が先にマッチしてしまって、これも一時的に消しました。</p>
+
+
+
+<pre class="wp-block-code"><code>location ~ /\. {
+    return 404;
+}</code></pre>
+
+
+
+<p>nginxの設定、不慣れなんでどこかおかしいんでしょうね。</p>
+
+
+
+<p>ワイルドカード証明書が取得できるようにしたら、cronに定期実行してもらおうと思いますが、もう少しいろいろ試してみてからにします。</p>
+
+
+
+<p>SSLのチェックも良さそうです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/ssl_server_test__jh_gpl_jp__powered_by_qualys_ssl_labs_.png?w=1024" alt="" class="wp-image-5993" /></figure>
+
+
+
+<p>PageSpeed Insightsのモバイルのスコアも良さそうです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/pagespeed_insights-1.png?w=744" alt="" class="wp-image-5995" /></figure>
+
+
+
+<p>PC版は１００点出ました！</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/pagespeed_insights-2.png?w=737" alt="" class="wp-image-5997" /></figure>
+
+
+
+<p>ということで、Termux のnginxとphp-fpmで無料の証明書を入れて速度的にも問題なさそうかなという感じです。</p>
+
+
+
+<p>あとは、今回出たもろもろの問題をクリアにしてマクロを定期実行できればOKです。ぼちぼちやっていきます。でも、10月はじめまでには、移行完了しないといけませんので、それまでにはCDN問題もクリアして試してみたいです。</p>
+
+
+
+<h3>良くわからんこと！</h3>
+
+
+
+<p>・nginxのlocationのマッチはどうなってるのか？</p>
+
+
+
+<p>・ワイルドカード証明書はどうやって作るのか？CSRの作り方っぽいが？</p>
+
+
+
+<p>・リバースプロキシーでSSLアクセスするにはどうしたら？</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた</title>
+		<link>/5943.html</link>
+					<comments>/5943.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2020 19:48:02 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5943</guid>
+				<media:thumbnail url="/wp-content/uploads/2011/02/diyilamp-150x150.jpg" />
+							<description><![CDATA[NGINXとphp-fpm構成にしてみました。いつもの計測サイトです。 夜間のネットワークが一番空いている時なんで、速い感じでしょうか？ GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>NGINXとphp-fpm構成にしてみました。いつもの<a href="https://www.webpagetest.org/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">計測サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945" /></figure></div>
+
+
+
+<p>夜間のネットワークが一番空いている時なんで、速い感じでしょうか？</p>
+
+
+
+<p>GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　78秒かかっていたテストが５．５秒。あ、これWordPressのキャッシュ効かせる前でしたね。apache構成でも同じ条件でサイド計測しておかないと。</p>
+
+
+
+<pre class="wp-block-code"><code>$ ab -n 1000 -c 100 http://jh.gpl.jp/
+：：
+Server Software:        nginx
+Server Hostname:        jh.gpl.jp
+Server Port:            80
+
+Document Path:          /
+Document Length:        15997 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.479 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      16202000 bytes
+HTML transferred:       15997000 bytes
+Requests per second:    182.52 &#091;#/sec] (mean)
+Time per request:       547.887 &#091;ms] (mean)
+Time per request:       5.479 &#091;ms] (mean, across all concurrent requests)
+Transfer rate:          2887.87 &#091;Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean&#091;+/-sd] median   max
+Connect:       16   20   6.5     19     149
+Processing:    57  487  82.1    480     747
+Waiting:       39  467  82.0    460     724
+Total:         88  507  82.5    501     783
+
+Percentage of the requests served within a certain time (ms)
+  50%    501
+  66%    531
+  75%    544
+  80%    551
+  90%    578
+  95%    642
+  98%    702
+  99%    738
+ 100%    783 (longest request)</code></pre>
+
+
+
+<p>まだ、SSLとか設定はこれからでパラメータなども未調整です。設定値は以下のサイトを大いに参考にさせていただきました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://worklog.be/archives/3222" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">NginxでWordPressを使う時の設定をまとめてみた<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>あとは、SSL設定をtermuxでどうやるかですね。自動化したいので、どんな感じの仕組みが動くんでしょうか。</p>
+
+
+
+<p>あ、それからRapid START CDNのフェイスブックチャットに応答があったんで、もう一度試してみるかもしれません。</p>
+
+
+
+<h2> 追記</h2>
+
+
+
+<p>やっぱりWEBフォント読まないほうが速いんで、Autoptimizeで試験的にカットしてみました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953" /></figure></div>
+
+
+
+<p>読み込むものが少なくなれば、表示するのも速いですね。WEBフォントがなくなることで、多少文字の表示は意図したものと違うことになりますが、快適に読んでもらえるほうが良いと思うので、とりあえずはWEBフォントは外す方向で。</p>
+
+
+
+<p>あと、モバイル向けのスコアがかなり変わりました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956" /></a></figure></div>
+
+
+
+<p></p>
+
+
+
+<p>まぁ、そのうち気が変わるかもしれませんが。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/5943.html/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
+		<link>/5911.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5911</guid>
+							<description><![CDATA[とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、Hew　です。TOPの表示記事数は３です。スマホ側は、Umidig [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、<a href="https://wordpress.com/theme/hew" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Hew<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。TOPの表示記事数は３です。スマホ側は、UmidigiF2にapache2+php7+mariadb10の環境となります。ClassicPressではなく、WordPress最新5.5.1です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_06_20_18_04_20.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_06_20_18_04_20" class="wp-image-5913"/></figure></div>
+
+
+
+<p>改善前は以下です。</p>
+
+
+
+<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_05_20_15_15_05-1.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_05_20_15_15_05" class="wp-image-5915"/></figure>
+
+
+
+<p>2.2秒くらいから、1.3秒くらいまで改善しました。これは、キャッシュ化の効果です。キャッシュさせるのは、何がいいのか迷いましたが一番シンプルそうな、「<strong>Simple Cache</strong>」というのを使いました。</p>
+
+
+
+<figure class="wp-block-image"><a href="https://ja.wordpress.org/plugins/simple-cache/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/e38395e3829ae383a9e382afe38299e382a4e383b3_e280b9_junkhack_e28094_wordpress.png" alt="プラグイン_‹_JunkHack_—_WordPress" class="wp-image-5917"/></a></figure>
+
+
+
+<p>Jetpack の全ての機能を試していませんが、とりあえずは動いている感じです。設定も以下のように単純です。手動でのキャッシュ削除は設定画面の２箇所から可能です。</p>
+
+
+
+<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/e382b7e383b3e38395e3829ae383abe382ade383a3e38383e382b7e383a5e280b9junkhack_e28094_wordpress.png" alt="シンプルキャッシュ‹JunkHack_—_WordPress" class="wp-image-5919"/></figure>
+
+
+
+<p>nginx_1.19.2 と、php-fpm_7.4.9 の組み合わせでも確認してみたいですね。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termuxパッケージ安定板<br>https://grimler.se/termux-packages-24/arm/</p></blockquote>
+
+
+
+<p>nginxの1.19.2 は<a href="https://nginx.org/en/CHANGES" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">オフィシャル側<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は 2020/08/11 に公開していて、termux 側は、8/18 なんでちゃんとメンテナンスされているようです。</p>
+
+
+
+<p>とりあえず、apacheのhttpd.confのパッチは以下です。apache 2.4.46 のデフォルト設定ファイルとの差分です。</p>
+
+
+
+<pre class="wp-block-code"><code>--- httpd.conf.org	2020-08-09 07:55:34.000000000 +0900
++++ httpd.conf	2020-09-06 01:56:57.560924026 +0900
+@@ -63,8 +63,8 @@
+ # Example:
+ # LoadModule foo_module modules/mod_foo.so
+ #
+-#LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
+-LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
++LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
++#LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
+ LoadModule authn_file_module libexec/apache2/mod_authn_file.so
+ #LoadModule authn_dbm_module libexec/apache2/mod_authn_dbm.so
+ #LoadModule authn_anon_module libexec/apache2/mod_authn_anon.so
+@@ -88,7 +88,7 @@
+ #LoadModule cache_module libexec/apache2/mod_cache.so
+ #LoadModule cache_disk_module libexec/apache2/mod_cache_disk.so
+ #LoadModule cache_socache_module libexec/apache2/mod_cache_socache.so
+-#LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
++LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
+ #LoadModule socache_dbm_module libexec/apache2/mod_socache_dbm.so
+ #LoadModule socache_memcache_module libexec/apache2/mod_socache_memcache.so
+ #LoadModule socache_redis_module libexec/apache2/mod_socache_redis.so
+@@ -109,7 +109,7 @@
+ #LoadModule substitute_module libexec/apache2/mod_substitute.so
+ #LoadModule sed_module libexec/apache2/mod_sed.so
+ #LoadModule charset_lite_module libexec/apache2/mod_charset_lite.so
+-#LoadModule deflate_module libexec/apache2/mod_deflate.so
++LoadModule deflate_module libexec/apache2/mod_deflate.so
+ LoadModule mime_module libexec/apache2/mod_mime.so
+ LoadModule log_config_module libexec/apache2/mod_log_config.so
+ #LoadModule log_debug_module libexec/apache2/mod_log_debug.so
+@@ -144,7 +144,7 @@
+ #LoadModule session_dbd_module libexec/apache2/mod_session_dbd.so
+ LoadModule slotmem_shm_module libexec/apache2/mod_slotmem_shm.so
+ #LoadModule slotmem_plain_module libexec/apache2/mod_slotmem_plain.so
+-#LoadModule ssl_module libexec/apache2/mod_ssl.so
++LoadModule ssl_module libexec/apache2/mod_ssl.so
+ #LoadModule dialup_module libexec/apache2/mod_dialup.so
+ #LoadModule http2_module libexec/apache2/mod_http2.so
+ #LoadModule lbmethod_byrequests_module libexec/apache2/mod_lbmethod_byrequests.so
+@@ -168,7 +168,7 @@
+ &lt;/IfModule>
+ #LoadModule dav_fs_module libexec/apache2/mod_dav_fs.so
+ #LoadModule dav_lock_module libexec/apache2/mod_dav_lock.so
+-#LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
++LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
+ LoadModule negotiation_module libexec/apache2/mod_negotiation.so
+ LoadModule dir_module libexec/apache2/mod_dir.so
+ #LoadModule imagemap_module libexec/apache2/mod_imagemap.so
+@@ -176,7 +176,7 @@
+ #LoadModule speling_module libexec/apache2/mod_speling.so
+ LoadModule userdir_module libexec/apache2/mod_userdir.so
+ LoadModule alias_module libexec/apache2/mod_alias.so
+-#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
++LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+ 
+ &lt;IfModule unixd_module>
+ #
+@@ -242,8 +242,10 @@
+ # documents. By default, all requests are taken from this directory, but
+ # symbolic links and aliases may be used to point to other locations.
+ #
+-DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
+-&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
++#DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
++DocumentRoot "/data/data/com.termux/files/home/htdocs"
++#&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
++&lt;Directory "/data/data/com.termux/files/home/htdocs">
+     #
+     # Possible values for the Options directive are "None", "All",
+     # or any combination of:
+@@ -256,14 +258,14 @@
+     # http://httpd.apache.org/docs/2.4/mod/core.html#options
+     # for more information.
+     #
+-    Options Indexes FollowSymLinks
++    Options FollowSymLinks
+ 
+     #
+     # AllowOverride controls what directives may be placed in .htaccess files.
+     # It can be "All", "None", or any combination of the keywords:
+     #   AllowOverride FileInfo AuthConfig Limit
+     #
+-    AllowOverride None
++    AllowOverride All
+ 
+     #
+     # Controls who can get stuff from this server.
+@@ -276,7 +278,7 @@
+ # is requested.
+ #
+ &lt;IfModule dir_module>
+-    DirectoryIndex index.html
++    DirectoryIndex index.php index.html
+ &lt;/IfModule>
+ 
+ #
+@@ -529,3 +531,22 @@
+ SSLRandomSeed connect builtin
+ &lt;/IfModule>
+ 
++LoadModule php7_module libexec/apache2/libphp7.so
++&lt;FilesMatch \.php
+gt;
+ +   SetHandler application/x-httpd-php
+ +&lt;/FilesMatch>
+ +&lt;IfModule dir_module>
+ +    DirectoryIndex index.php
+ +&lt;/IfModule>
+ +
+ +&lt;IfModule mod_deflate.c>
+ +    DeflateCompressionLevel 1
+ +    &lt;IfModule mod_filter.c>
+ +        FilterDeclare COMPRESS
+ +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/#i"
+ +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^application/(atom\+xml|javascript|json|rss\+xml|xml|xhtml\+xml)#i"
+ +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^image/(svg\+xml|vnd\.microsoft\.icon)#i"
+ +        FilterChain COMPRESS
+ +        FilterProtocol COMPRESS DEFLATE change=yes;byteranges=no
+ +    &lt;/IfModule>
+ +&lt;/IfModule></code></pre>
+
+
+
+<p>パッチの適用は上記をコピペしてp.txt などに保存、httpd.conf に以下のように patchしてください。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>$ patch -u httpd.conf &lt; p.txt</p></blockquote>
+
+
+
+<p>成功すれば、patching file httpd.conf　のような表示となります。</p>
+
+
+
+<p>mariadb のチューニングとかはやってないです。PHPは、php.ini&nbsp; に以下のように記載してあります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>$ cat /data/data/com.termux/files/usr/lib/php.ini<br>[PHP]</p><p>upload_max_filesize = 64M<br>post_max_size = 64M<br>memory_limit = 64M</p></blockquote>
+
+
+
+<p>結構、スマホでも動くなー、いけそうだなーっていう感じです。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>高速化その３：画像圧縮してみた！次世代画像フォーマット「WebP（ウェッピー）」を使う</title>
+		<link>/5091.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2020 01:16:47 +0000</pubDate>
+				<category><![CDATA[ClassicPress]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5091</guid>
+							<description><![CDATA[&#x4EE5;&#x524D;&#x3001;&#x30B9;&#x30DE;&#x30DB;&#x304B;&#x3089;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x309 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>&#x4EE5;&#x524D;&#x3001;&#x30B9;&#x30DE;&#x30DB;&#x304B;&#x3089;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3092;&#x3082;&#x3063;&#x3068;&#x901F;&#x304F;&#x3057;&#x305F;&#x3044;&#x306A;&#x3068;&#x601D;&#x3063;&#x3066;&#x3044;&#x305F;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x9AD8;&#x901F;&#x5316;&#x305D;&#x306E;&#xFF13;&#x3067;&#x624B;&#x3092;&#x3064;&#x3051;&#x308B;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3057;&#x305F;&#xFF01;<br />&#x307E;&#x305A;&#x3001;&#x624B;&#x3092;&#x3064;&#x3051;&#x308B;&#x524D;&#x306E;&#x72B6;&#x614B;&#x306F;&#x4EE5;&#x4E0B;&#x3067;&#x3059;&#x3002;</p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186-1.png" alt="E383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186" width="599" height="278" border="0" /></p>
+<p>&#x306F;&#x3044;&#x3001;2.2&#x79D2;&#x304B;&#x304B;&#x3063;&#x3066;&#x3044;&#x305F;&#x3088;&#x3046;&#x3067;&#x3059;&#x3002;&#x30EC;&#x30DD;&#x30FC;&#x30C8;&#x306B;&#x306F;&#x3001;&#x3044;&#x308D;&#x3044;&#x308D;&#x66F8;&#x3044;&#x3066;&#x3042;&#x308A;&#x307E;&#x3059;&#x304C;&#x753B;&#x50CF;&#x306E;&#x9805;&#x76EE;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x30A2;&#x30C9;&#x30D0;&#x30A4;&#x30B9;&#x3055;&#x308C;&#x3066;&#x3044;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<blockquote>
+<p>&#x6B21;&#x4E16;&#x4EE3;&#x30D5;&#x30A9;&#x30FC;&#x30DE;&#x30C3;&#x30C8;&#x3067;&#x753B;&#x50CF;&#x3092;&#x914D;&#x4FE1;&#x3059;&#x308B;<br />JPEG 2000&#x3001;JPEG XR&#x3001;WebP &#x3067;&#x753B;&#x50CF;&#x3092;&#x30A8;&#x30F3;&#x30B3;&#x30FC;&#x30C9;&#x3059;&#x308B;&#x3068;&#x3001;&#x8AAD;&#x307F;&#x8FBC;&#x307F;&#x6642;&#x9593;&#x304C;&#x77ED;&#x304F;&#x306A;&#x308A;&#x3001;&#x30E2;&#x30D0;<br />&#x30A4;&#x30EB;&#x901A;&#x4FE1;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x91CF;&#x3082;&#x5C11;&#x306A;&#x304F;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x30D5;&#x30A9;&#x30FC;&#x30EB;&#x30D0;&#x30C3;&#x30AF;&#x7528;&#x306B; PNG &#x753B;&#x50CF;&#x3084; JPEG &#x753B;<br />&#x50CF;&#x3082;&#x7528;&#x610F;&#x3057;&#x3001;&#x672A;&#x5BFE;&#x5FDC;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x306B;&#x306F;&#x305D;&#x3061;&#x3089;&#x3092;&#x914D;&#x4FE1;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+</blockquote>
+<p>&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x3001;WebP &#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;&#x3053;&#x3068;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;&#x5909;&#x63DB;&#x306B;&#x306F;&#x65B9;&#x5411;&#x6027;&#x3068;&#x3057;&#x3066;&#xFF12;&#x3064;&#x3042;&#x308A;&#x3001;&#xFF11;&#x3064;&#x306F;&#x30AF;&#x30E9;&#x30A6;&#x30C9;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3067;WebP&#x306B;&#x5909;&#x63DB;&#x3057;&#x3066;&#x3082;&#x3089;&#x3046;&#x306E;&#x3092;&#x5229;&#x7528;&#x3059;&#x308B;&#x65B9;&#x6CD5;&#x3002;&#x3082;&#x3046;&#xFF11;&#x3064;&#x306F;&#x3001;&#x81EA;&#x30B5;&#x30FC;&#x30D0;&#x306E;&#x6A5F;&#x80FD;&#x3092;&#x4F7F;&#x3063;&#x3066;WebP &#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;&#x65B9;&#x6CD5;&#x3067;&#x3059;&#x3002;&#x5F8C;&#x8005;&#x306F;&#x3001;PHP&#x304C;imagemagic &#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x3066;&#x305D;&#x306E;&#x30D5;&#x30A9;&#x30FC;&#x30DE;&#x30C3;&#x30C8;&#x306B;WebP &#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x306B;&#x6709;&#x52B9;&#x3067;&#x3059;&#x3002;</p>
+<blockquote>
+<p>phpinfo.php&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3000;&#x2192; &#x30B5;&#x30FC;&#x30D0;&#x30FC;&#x8A2D;&#x5B9A;&#x306E;&#x30EC;&#x30DD;&#x30FC;&#x30C8;&#x3092;&#x898B;&#x308B;&#x3002;<br />&#x300C;imagick&#x300D;&#x9805;&#x76EE;&#x306E;&nbsp;&#8220;ImageMagick supported formats&rdquo; &#x3068;&#x3044;&#x3046;&#x884C;&#x306B;&#x300C;webp&#x300D;&#x304C;&#x3042;&#x308C;&#x3070;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+</blockquote>
+<p>&#x73FE;&#x5728;&#x306F;&#x307E;&#x3060;&#x30C6;&#x30B9;&#x30C8;&#x30B5;&#x30FC;&#x30D0;&#x3067; mamp &#x3067;&#x3084;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x306E;&#x3067;&#x3001;&#x3053;&#x308C;&#x306F;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x306A;&#x3044;&#x3053;&#x3068;&#x304C;&#x308F;&#x304B;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;&#x81EA;&#x5206;&#x3067;&#x30B5;&#x30FC;&#x30D0;&#x3092;&#x4F5C;&#x308B;&#x3068;&#x304D;&#x306F;&#x5BFE;&#x5FDC;&#x3055;&#x305B;&#x308B;&#x4E88;&#x5B9A;&#x3067;&#x3059;&#x304C;&#x3001;&#x4ECA;&#x306E;&#x3068;&#x3053;&#x308D;&#x306F;&#x5916;&#x90E8;&#x30AF;&#x30E9;&#x30A6;&#x30C9;&#x306E;WEB&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x9AD8;&#x901F;&#x5316;&#x304C;&#x3069;&#x306E;&#x304F;&#x3089;&#x3044;&#x9032;&#x3080;&#x304B;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x307F;&#x3088;&#x3046;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x30D1;&#x30C3;&#x3068;&#x601D;&#x3044;&#x3064;&#x304F;&#x306E;&#x306F;&#x3001;https://tinypng.com/ &#x306E;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3067;&#x3059;&#x3002;</p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="TinyPNG_&#x2013;_Compress_PNG_images_while_preserving_transparency.png" src="/wp-content/uploads/2020/03/tinypng_e28093_compress_png_images_while_preserving_transparency.png" alt="TinyPNG Compress PNG images while preserving transparency" width="597" height="187" border="0" /></p>
+<p>&#x3053;&#x308C;&#x3092;WordPress&#xFF08;ClassicPress&#x3067;&#x3082;&#x5229;&#x7528;&#x53EF;&#xFF09;&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;Plugin &#x304C;&#x3042;&#x308B;&#x306E;&#x3067;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<blockquote>
+<p>Compress JPEG &amp; PNG images<br />https://ja.wordpress.org/plugins/tiny-compress-images/</p>
+</blockquote>
+<p>Plugin &#x3092;&#x6709;&#x52B9;&#x306B;&#x3057;&#x3066;&#x3001;API &#x3092;&#x30B2;&#x30C3;&#x30C8;&#xFF08;&#x6708;&#x306B;500&#x307E;&#x3067;&#x5229;&#x7528;&#x53EF;&#xFF09;&#x3067;&#x3059;&#x3002;&#x30E1;&#x30C7;&#x30A3;&#x30A2;&#x8A2D;&#x5B9A;&#x306E;&#x81EA;&#x52D5;&#x30EA;&#x30B5;&#x30A4;&#x30BA;&#x3092;&#x7121;&#x52B9;&#x306B;&#x3057;&#x3066;&#x3001;medium_large_size_h &#x306E;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3082;&#x4EE5;&#x4E0B;&#x304B;&#x3089;0 &#x306B;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<blockquote>
+<p>https://yourdomain/wp-admin/options.php</p>
+</blockquote>
+<p>&#x8A2D;&#x5B9A;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="&#x9AD8;&#x901F;&#x5316;_&#x2013;_&#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;_JunkHack_&#x3068;_Compress_JPEG___PNG_images_&#x2039;_&#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;JunkHack_&mdash;_ClassicPress.png" src="/wp-content/uploads/2020/03/e9ab98e9809fe58c96_e28093_e382a2e383aae382a8e382afe381a6e38299e3839be3829ae38381e381a3e3819f_junkhack_e381a8_compress_jpeg___png_images_e280b9_e382a2e383aae382a8e382afe381a6e38299e3839be.png" alt="&#x9AD8;&#x901F;&#x5316; &#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F; JunkHack &#x3068; Compress JPEG PNG images &#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;JunkHack ClassicPress" width="583" height="732" border="0" /></p>
+<p>&#x3069;&#x306E;&#x304F;&#x3089;&#x3044;&#x9AD8;&#x901F;&#x5316;&#x304C;&#x9032;&#x3093;&#x3060;&#x304B;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#xFF01;</p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186-3.png" alt="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;" width="597" height="269" border="0" /></p>
+<p>&#x7D50;&#x679C;&#x3001;1.7&#x79D2;&#x3067;&#x3059;&#x3002;0.5&#x79D2;&#x6539;&#x5584;&#x3057;&#x307E;&#x3057;&#x305F;&#x306D;&#xFF01;</p>
+<p>&#x3042;&#x3068;&#x3064;&#x3044;&#x3067;&#x306A;&#x306E;&#x3067;&#x3001;Autoptimize &#x30D7;&#x30E9;&#x30B0;&#x30F3;&#x3067; JS &#x3068; CSS &#x306E;&#x6700;&#x9069;&#x5316;&#x3092;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;&#x3053;&#x308C;&#x306F;&#x6709;&#x540D;&#x306A;&#x3093;&#x3067;&#x8AAC;&#x660E;&#x306F;&#x7701;&#x7565;&#x3002;</p>
+<blockquote>
+<p>Autoptimize<br />https://ja.wordpress.org/plugins/autoptimize/</p>
+</blockquote>
+<p>&#x7D50;&#x679C;&#x3001;&#x9AD8;&#x901F;&#x5316;&#x305D;&#x306E;&#xFF13;&#x3067;&#x306F;&#x6700;&#x7D42;&#x7684;&#x306B;&#x3001;1.2 &#x79D2;&#x306B;&#x307E;&#x3067;&#x6539;&#x5584;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186-2.png" alt="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;" width="598" height="268" border="0" /></p>
+<p>&#x3042;&#x3068;&#x3001;0.3&#x79D2;&#x307B;&#x3069;&#x9811;&#x5F35;&#x308C;&#x3070;&#xFF11;&#x79D2;&#x4EE5;&#x4E0B;&#x306B;&#x306A;&#x3063;&#x3066;&#x300C;&#x901F;&#x3044;&#x300D;&#x306E;&#x90E8;&#x985E;&#x306B;&#x5165;&#x308B;&#x304B;&#x3068;&#xFF01;&#x3000;&#x3042;&#x3068;&#x306F;&#x30B5;&#x30FC;&#x30D0;&#x5074;&#x3067;&#x304C;&#x3093;&#x3070;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x304B;&#x3002;</p>
+<p>&#x30FB;&#x30FB;&#x30FB;&#x9AD8;&#x901F;&#x5316;&#x305D;&#x306E;&#xFF14;&#x3000;&#x306B;&#x7D9A;&#x304F;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

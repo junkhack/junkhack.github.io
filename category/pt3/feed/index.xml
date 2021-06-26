@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>PT3 &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 08 Nov 2015 13:58:19 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>PT3 到着</title>
+		<link>/1654.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 08 Nov 2015 13:58:19 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Parts]]></category>
+		<category><![CDATA[PT3]]></category>
+		<guid isPermaLink="false">/?p=1654</guid>
+							<description><![CDATA[PT3 が ドスパラより到着。 10,480円也。PCBの厚みは、1.6mm で金色に光る胴箔部分が綺麗です。 Rev.A で2012.04.24 のようです。3年前ですか。なかなか息の長い商品ですね。 S と T のア [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>PT3 が ドスパラより到着。</p>
+<p>10,480円也。PCBの厚みは、1.6mm で金色に光る胴箔部分が綺麗です。</p>
+<p><a href="/wp-content/uploads/2015/11/61.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/11/6_thumb.jpg" width="640" height="480" /></a></p>
+<p>Rev.A で2012.04.24 のようです。3年前ですか。なかなか息の長い商品ですね。</p>
+<p><a href="/wp-content/uploads/2015/11/51.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/11/5_thumb.jpg" width="640" height="480" /></a> S と T のアンテナ端子。</p>
+<blockquote>
+<p>S&#160;&#160;&#160; 衛星      <br />T&#160;&#160;&#160; 地上</p>
+</blockquote>
+<p>&#160;</p>
+<p><a href="/wp-content/uploads/2015/11/41.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2015/11/4_thumb.jpg" width="640" height="480" /></a> TOSHIBAのチップ TC90522XBG と、向かい側に見えるのは何でしょうか？</p>
+<p><a href="/wp-content/uploads/2015/11/31.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/11/3_thumb.jpg" width="640" height="480" /></a>チューナー部分は銀色のボックスの中にあります。これはモジュール化されているパーツのようですね。シャープのVA4M6JC2103</p>
+<p>東芝のICは、このモジュールとつながっているようですので、何か電波の調整をやっているのでしょう。</p>
+<p>レギュレータICも大きなのが２つあるようです。200WN3M（PQ200WN3MZPH） ともうひとつは、012ENB1 （PQ012ENB1ZPH）シャープのようです。他にもレギュレータはあって全部シャープのを使っているようです。</p>
+<p><a href="/wp-content/uploads/2015/11/21.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/11/2_thumb.jpg" width="640" height="480" /></a> ALTERA Cyclone IV と書いてありますかね？EP4CGX15BF14C8N</p>
+<p>これは横のSDRAMとがっつり、つながっているようです。PCI-EX からのラインがこのICに入っているようです。</p>
+<p>インダクタも２つありますね。何かスイッチングして電源を生成しているのかな？</p>
+<p><a href="/wp-content/uploads/2015/11/12.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/11/1_thumb.jpg" width="640" height="480" /></a> これはちょっと作れそうにもありません。仮に作れたとしても中のソフトウェアがわかりません。解析にはかなりの技術と知識が必要でしょう。デジタルの電波の知識が必須となりそうです。</p>
+</p>
+</p>
+</p>
+<p>&#160;</p>
+<p>PCの中に組み込んだらこうして、基板をみるのもこれが最後になりそう。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>テレビを見たければ運動せよ！ PT3 をGET</title>
+		<link>/1575.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2015 15:22:09 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Parts]]></category>
+		<category><![CDATA[PT3]]></category>
+		<guid isPermaLink="false">/?p=1575</guid>
+							<description><![CDATA[PT3 の存在は前から知っていたのですが、友人のところに遊びにいったらnasune でリモートで録画してあるTED を見せてもらい触発されて思わずポチりました。nasune というのは、nass にTVチューナーが付いて [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>PT3 の存在は前から知っていたのですが、友人のところに遊びにいったらnasune でリモートで録画してあるTED を見せてもらい触発されて思わずポチりました。nasune というのは、nass にTVチューナーが付いて録画できるというもの。</p>
+<p>&#160;</p>
+<blockquote>
+<p>Sony</p>
+<p><a href="http://pur.store.sony.jp/nasne/products/nasne/CECH-ZNR2J01_product/?s_tc=aff_012_0_10_51141&amp;utm_medium=aff&amp;utm_source=001" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">nasne(ナスネ) CECH-ZNR2J<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>&#160;</p>
+<p>お値段は、2万弱くらいで購入できるんですが、出来合いの製品だけに面白さにかけるところがあり、またチューナが1チャンネルなので同時録画はできません。</p>
+<p>&#160;</p>
+<p>そこで、アースソフトさんがハードとWINDOWS 用のドライバだけ作っている面白い機器が以下。これをポチりました。</p>
+<p>&#160;</p>
+<blockquote>
+<p>アースソフト</p>
+<p><a href="http://earthsoft.jp/PT3/specification.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">PT3 仕様<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>&#160;</p>
+<p>ISDB-S 2TS と ISDB-T 2TS の合計 4TS を同時に受信可能です。要するに、衛星デジタル放送用のISDB-S、地上デジタル放送用のISDB-Tがそれぞれ2チャンネルづつ、受信できるという代物。</p>
+<p><img loading="lazy" title="PT3_img" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PT3_img" src="/wp-content/uploads/2015/11/pt3_img.png" width="582" height="795" /> </p>
+<p>PC とそれらを受信するソフトウェアやB-CAS カードと読み取るカードリーダなどが必要です。当初はこれらを完全自作しようと思っていましたが、ハードルが高すぎて断念。いつかチャレンジしてみたいお題ではあります。</p>
+<p>&#160;</p>
+<p>PT3 を活用するには、いろんな手法がありますが、今のところ方針としてOSはLinuxにし、Chinachu というEPG閲覧と、予約＋Webストリーミング用のUIを備えたソフトウェアの組み合わせで使ってみようと思います。幸い、入れるマシンは余っているものがあるので、追加投資はHDDくらいです。が、これも使ってみないと自分のライフスタイルでどのくらいの容量が必要かはわかりません。今付いているHDDで事足りるかもしれません。</p>
+<p>&#160;</p>
+<p>もともと、テレビはほとんど見ませんが、今回はTEDなど面白い番組もやるのでそういうのを予約して視聴するのが目的です。あと、PCに向かいすぎて腰が悪くなので、息抜きを強制的に行うためリビングのTVでごろ寝しながら見て体を休めるという目的もあります。また休めるの反対に鍛えるという目的も盛り込んでも面白いかもしれません。</p>
+<p>&#160;</p>
+<p>インストールやセットアップなどの情報はごろごろと出るので、困ることはなさそうです。ただ、自分が使うシーンというのが想像できません。とりあえず、箇条書きにしてみます。出来るといいなと思っている要点は以下です。</p>
+<p>&#160;</p>
+<p>・番組予約はPCからさくさくと簡単にやりたい</p>
+<p>・外出先のちょっとした空き時間にみたい</p>
+<p>・録画した映像は見たら消す感じ or 古いものは自動的に消えるように</p>
+<p>・CMをカットするか飛ばせるといいな。またその逆にCMだけコレクションできるようにしたい。</p>
+<p>・i-Phone や タブレットで気軽に見たい</p>
+<p>・普段使いはOSXのモニタで見て、ゆっくり見たいときはリビングのTVからも見たい</p>
+<p>・寝る前に、タブレットでみたい</p>
+<p>・録画したデータは飛んでもいいので、RAID1 や5 などはしない。安さ優先</p>
+<p>・PCの電源は録画直前に入り、終了したら消える（スリープとか）ようにしたい</p>
+<p>・今作成中のWiFi E-ink に録画した番組を表示できるようにしたい。</p>
+<p>・電気代を節約するために、自転車の室内ローラで発電し、電力供給をしたい</p>
+<p align="center"><a href="http://chainreactionhub.com/cycindoor-jpn" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="trainerlaptop" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="trainerlaptop" src="/wp-content/uploads/2015/11/trainerlaptop.jpg" width="640" height="357" /></a> ※イメージですが、まぁこんな感じ</p>
+<p align="center"><a href="http://303cycling.com/6-Inspiring-Adventure-Films-that-Will-Keep-You-Going-on-the-Trainer" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="indoor-cycling_0" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="indoor-cycling_0" src="/wp-content/uploads/2015/11/indoorcycling_0.jpg" width="642" height="428" /></a> </p>
+<p align="center">Indoor Bike Trainer make とかで検索</p>
+<p align="center">&#160;</p>
+<p>・ローラーの前には体重計があって、載れば自動的に記録される仕組みも作りたい。あと１０Kg減量したいのです。</p>
+<p>&#160;</p>
+<p>こんな工夫が出来れば、テレビが見たければ、運動しなさいというスタイルにできるかもと思っています。座りっぱなしの生活から、少しは運動もでき、そして結果的にTVの情報ソースを今より見れればと思います。</p>
+<p>&#160;</p>
+<p>このプロジェクトは少しづつ進行していきます。</p>
+<p>テレビを見たければ運動せよの、ネーミングを考えないとですね。Running Tv ですかね？</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

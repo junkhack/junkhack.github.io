@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>geekbying &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Fri, 02 Mar 2018 22:45:12 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>12.5インチの軽い中華ノートPC Onda Xiaoma 21 レビュー！</title>
+		<link>/4486.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 02 Mar 2018 22:45:12 +0000</pubDate>
+				<category><![CDATA[gearbest]]></category>
+		<category><![CDATA[geekbying]]></category>
+		<category><![CDATA[Onda Xiaoma 21]]></category>
+		<guid isPermaLink="false">/?p=4486</guid>
+							<description><![CDATA[2月の中国の旧正月明けに買ったので、少し到着が遅れましたが無事に2月末日に日本に到着。佐川急便で2日後につきました。 なかなかコンパクトなノートPCで、Onda というメーカーが作っています。 製品名は、Xiaoma21 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>2月の中国の旧正月明けに買ったので、少し到着が遅れましたが無事に2月末日に日本に到着。佐川急便で2日後につきました。</p>
+<p>なかなかコンパクトなノートPCで、Onda というメーカーが作っています。</p>
+<p>製品名は、Xiaoma21という型番です。xiaomi（シャオミ）じゃありませんよ。シャオマという製品名です。中国語では、小马21 です。意味は、子馬です。そうこのシャオマシリーズは、そのあとに続く数字が21 と 31 と 41 のほか、11 というシリーズもあり、それぞれ、画面サイズが11.6インチから14インチまであって、今回買ったのはその中でもクラムシェル型のキーボード一体式のもので一番軽いものです。</p>
+<p><img loading="lazy" title="xm21192005_jpg__1920708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xm21192005_jpg__1920708_" src="/wp-content/uploads/2018/03/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
+<p>この製品、Onada の Xiaoma21というのは重量 1.08kg で 12.5インチの軽量タイプのノートPCです。価格もこなれていて、3.3万（送料込み）で買えます。で、一般的なレビューはすっとばして、さっそく、512MB の m.2 SSDをくっ付けて OS を SSD ブートしてみました。</p>
+<p><img loading="lazy" title="IMG_20180303_032351" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032351" src="/wp-content/uploads/2018/03/img_20180303_032351.jpg" width="640" height="480" /> </p>
+<p>なにやら、警告文字がありますが気にせず装着。電源切って装着せよということですね。<img loading="lazy" title="IMG_20180303_032403" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032403" src="/wp-content/uploads/2018/03/img_20180303_032403.jpg" width="640" height="480" /> </p>
+<p>で、OS 部分を SSD に移動してとりあえずブート。ベンチマーク。</p>
+<p>&#160;</p>
+<p><img loading="lazy" title="ONDA_Xiaoma21 8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 8" src="/wp-content/uploads/2018/03/onda_xiaoma218.png" width="640" height="465" /> </p>
+<p>きましたー！ リード、ライトとも500MB 超え。速いですね。やはり、M.2 の SSD はこうでなくちゃいけません。今回ゲットした SSD は kingspec の 512MB で1.3万円です。安くなりましたね。NT-512 という表示のものがそれです。</p>
+<p>ちなみに、eMMC は Toshiba チップで、ベンチマークは以下です。まだ、移行前に eMMC から OS が起動しているときに計測したものです。なかなか速いですね。</p>
+<p><img loading="lazy" title="ONDA_Xiaoma21 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 6" src="/wp-content/uploads/2018/03/onda_xiaoma216.png" width="400" height="367" /> </p>
+<p>この機種は小さいながらも、Windows Hello に対応した指紋認証デバイスがついています。これ、思いのほか便利です。スマホにも最近のはついていて便利に使っていますが、これは使ってみるとありがたい機能です。</p>
+<p><img loading="lazy" title="IMG_20180303_032734" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032734" src="/wp-content/uploads/2018/03/img_20180303_032734.jpg" width="640" height="480" /> </p>
+<p>キーボードは癖がない英語キーボード。バックスペースの上もDELETEキーで、中華ノート全般にある電源ボタンはバックスペースの上にはなく、離れていますので間違えて押すことはないです。筐体はアルミでしっかりできていますのでキーボード部分がたわむことはありません。キーボード自体の質感は mac の感じとは違って少しカチャカチャいうタイプです。個人的には、かな表示がない英語キーボードは昔から使っていますので非常に好みです。</p>
+<p><img loading="lazy" title="IMG_20180303_032645" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032645" src="/wp-content/uploads/2018/03/img_20180303_032645.jpg" width="640" height="480" /> </p>
+</p>
+</p>
+</p>
+<p>ディスプレイもグレア（非光沢）で、パネルはIPSとなり非常に綺麗です。筐体色はゴールドで、ぎらついた感じではなく好感が持てるゴールドとなります。シルバー色ばっかりでしたので、逆に新鮮ですね。</p>
+<p><img loading="lazy" title="IMG_20180303_032657" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032657" src="/wp-content/uploads/2018/03/img_20180303_032657.jpg" width="640" height="480" /> </p>
+<p>バッテリーテストも兼ねて、充電100% になったので実稼動テストをしています。8時間くらい持つといいかなと思いますがさてどうでしょうか。評判どおり、キーボードのシフトキーのタイプ音は少しカチャカチャ音が大きく、そこは評判どおりでした。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>YEPO 737A に Win10home をクリーンインストールした</title>
+		<link>/4426.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 19 Feb 2018 05:07:32 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[gearbest]]></category>
+		<category><![CDATA[geekbying]]></category>
+		<category><![CDATA[Win10]]></category>
+		<category><![CDATA[YEPO737A]]></category>
+		<guid isPermaLink="false">/?p=4426</guid>
+							<description><![CDATA[先日、YEPO737A を売ってしまおうとブログに記載したところ早速お声がかかりました。 Windows10home 日本語版をクリーンインストールしましたので、その方法を備忘録がてら書いておくことにします。他の中華PC [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>先日、YEPO737A を売ってしまおうとブログに記載したところ早速お声がかかりました。</p>
+<p>Windows10home 日本語版をクリーンインストールしましたので、その方法を備忘録がてら書いておくことにします。他の中華PCでも似たような手順で出来ると思います。</p>
+<p>&nbsp;</p>
+<h3>■事前準備と全体の流れ</h3>
+<p>・必要なファイルはバックアップ</p>
+<p>・ライセンス認証後、プロダクトIDは一応メモしておく</p>
+<p>・Win10 の ISO をダウンロード</p>
+<p>・現状のドライバーをDouble Driverでバックアップ</p>
+<p>・8GB程度のUSBを用意（MicroSD とかでもOK）</p>
+<p>・ISO を ブータブルUSBにするため、Rufus を用意</p>
+<p>・回復ドライブを後方に作成するため、パーティション構成をバッチで作成</p>
+<p>・USBブートさせるため、BIOS起動</p>
+<p>・初回のUSBブート後は、パーティション作成のため、「コンピューターを修復する」を選択</p>
+<p>・コマンドプロンプトからバッチ起動しパーティション作成</p>
+<p>・2回目のUSBブートで作成したパーティションにインストール</p>
+<p>&nbsp;</p>
+<h3>■必要なファイルをバックアップ</h3>
+<p>eMMC の 64GB の起動ディスクは全部フォーマットしてクリーンインストールしますので全部消えます。必要なファイルはバックアップしておくようにします。</p>
+<p>一応、ライセンス認証を通しておきプロダクトIDはメモしておきます。以下の画面をコピーしておきます。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="1" src="/wp-content/uploads/2018/02/1.png" alt="1" width="640" height="332" border="0" /></p>
+<h3>■Windows10 の ISO を MicroSoft からダウンロード</h3>
+<p>別PCから、マイクロソフト社のサイトに行って Windows10 の ISO をダウンロードしておきます。</p>
+<p><a href="https://www.microsoft.com/ja-jp/software-download/windows10ISO" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="win10iso" src="/wp-content/uploads/2018/02/win10iso.png" alt="win10iso" width="403" height="480" border="0" /></a></p>
+<p>&nbsp;</p>
+<h3>■現在のドライバーを一括バックアップ</h3>
+<p><a href="https://forest.watch.impress.co.jp/library/software/doubledriver/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Double Driver<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というツールで、ドライバーをバックアップ。バックアップし忘れちゃった人は、以下からダウンロード</p>
+<blockquote><p>737A_DRIVERS</p>
+<p><a title="https://drive.google.com/open?id=1KxRG4fW0CjjfUhKG1TssjKiiv8jmn5je" href="https://drive.google.com/open?id=1KxRG4fW0CjjfUhKG1TssjKiiv8jmn5je" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://drive.google.com/open?id=1KxRG4fW0CjjfUhKG1TssjKiiv8jmn5je<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>※フランスのHodinさんが公開しています。リスクは自己責任で。</p></blockquote>
+<p>ちなみに、YEPO737A の BIOS は Jumper EZBOOK Pro ので動作したと<a href="https://techtablets.com/forum/topic/yepo-737a-running-jumper-ezbook-3-pro-v4-bios/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>に報告がありました。上記のリンクにもBIOS入っていますがまだ試していません。これは、BIOS 設定の OS を Intel Linux にすると BIOS すら起動しなくなるらしいですが、これも回避できるかは不明です。もしかすると、M2 関連の不具合も直る可能性があるかもしれませんね。一度試してみたいのですが、リスクがありますのでまだ実行していません。YEPO のオフィシャルサイトは以下ですが、サポートがありません。</p>
+<blockquote><p>YEPO 737A<br />
+<a href="http://www.szyepo.com/pd.jsp?id=351" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.szyepo.com/pd.jsp?id=351<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>※ Review 欄に、bios やドライバー公開せよと書かれていますが対応するのかな？</p></blockquote>
+<h3>■Windows10 の ISO を USBブートさせる</h3>
+<p>マイクロソフトのサイトからダウンロードした ISO を USB ブートさせるため、<a href="https://forest.watch.impress.co.jp/library/software/rufus/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Rufus<span class="wpel-icon wpel-image wpel-icon-1"></span></a> を使って作成します。</p>
+<p>マイクロソフトが提供している標準のツール（MediaCreationTool.exe）でも可能ですが処理が遅いのとダウンロード済みのISOから作成する方法が不明だったので、Rufus を使いました。以下のような感じです。８GBくらいのUSBに作成しました。４GBのUSBがあればいけそうです。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="無題 2" src="/wp-content/uploads/2018/02/2.png" alt="無題 2" width="581" height="480" border="0" /></p>
+<p>■回復ドライブを後方に作成するバッチ</p>
+<p>以上で、USBドライブから起動させインストールが可能なんですが、パーティションを全部消して、新規インストールすると回復パーティションが先頭に来てしまいます。これでも動きますが、あとで消したいときに後方にあったほうが空きが増やせますので、パーティションをバッチで作成します。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="winsetup1" src="/wp-content/uploads/2018/02/winsetup1.png" alt="winsetup1" width="640" height="463" border="0" /></p>
+<p>以下のサイトに習って、パーティション作成バッチをUSBの中に入れておきます。</p>
+<blockquote><p>Solomonレビュー<br />
+Windows 10をクリーンインストールする前にひと工夫、回復パーティションの増殖を防ぐ方法(更新)<br />
+<a title="https://solomon-review.net/windows10-prepare-partition-before-clean-install/" href="https://solomon-review.net/windows10-prepare-partition-before-clean-install/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://solomon-review.net/windows10-prepare-partition-before-clean-install/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>上のリンクで、バッチファイルとその内容が書かれたファイル「CreatePartitions-UEFI.txt」、「Make-Partition.bat」をUSBメモリーの直下にコピーしておきます。</p>
+<p>&nbsp;</p>
+<p>■USBブートさせるためBIOS起動</p>
+<p>さて、やっとUSBを YEPO737A に挿して起動します。BIOS画面はDELキーを押すと入れます。BIOSに入ったら、一番右のメニュー「Save &amp; Exit 」まで進み、以下のような Boot Override 項目の下に出ているUSBドライブを選択します。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="写真_-_Google_フォト" src="/wp-content/uploads/2018/02/google_.png" alt="写真_-_Google_フォト" width="640" height="480" border="0" /></p>
+<p>選択すると、USBから起動します。</p>
+<p>一旦、「UEFI: Built-in EFI Shell 」に入り、そこから、USB起動の操作をしても構いません。その場合、EFI Shell から次のようにコマンドをタイプして起動できます。</p>
+<blockquote><p>Shell&gt; fs3:</p>
+<p>fs3:&gt; efi\boot\bootx64.efi</p></blockquote>
+<p>ちなみに、microSDカードをSDカードスロットに入れてみたら efi shell からデバイスが認識できませんでした。何か方法はあるとは思うのですが、とりあえずは、USB を USB3.0 に挿して認識するはずです。</p>
+<p>初回のブート時は、パーティションをバッチで作るため、以下のようにします。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160025" src="/wp-content/uploads/2018/02/img_20180219_160025.jpg" alt="IMG_20180219_160025" width="640" height="480" border="0" /></p>
+<p>コンピューターを修復する を選択</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160054" src="/wp-content/uploads/2018/02/img_20180219_160054.jpg" alt="IMG_20180219_160054" width="640" height="480" border="0" /></p>
+<p>トラブルシューティングを選択</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160107" src="/wp-content/uploads/2018/02/img_20180219_160107.jpg" alt="IMG_20180219_160107" width="640" height="480" border="0" /></p>
+<p>コマンドプロンプトを選択</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160203" src="/wp-content/uploads/2018/02/img_20180219_160203.jpg" alt="IMG_20180219_160203" width="640" height="480" border="0" /></p>
+<p>d: 直下が USB のようでした。Make-Partition.bat をタイプして実行します。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_205747" src="/wp-content/uploads/2018/02/img_20180218_205747.jpg" alt="IMG_20180218_205747" width="640" height="480" border="0" /></p>
+<p>exit で抜けてリブートし、2回目のUSBブートでは通常通りWindowsのインストールへ進みます。</p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_210117" src="/wp-content/uploads/2018/02/img_20180218_210117.jpg" alt="IMG_20180218_210117" width="640" height="480" border="0" /></p>
+<p>上記のようにパーティションを選択して次へ進みインストールします。（その後は割愛）</p>
+<p>&nbsp;</p>
+<p>インストール時に、パーティションをマニュアル設定できるインターフェイスがないのと、パーティションが１つも無い場合に自動的に作成するパーティション構成を、回復パーティションが後方になるよう作ってくれればいいのになと、MicroSoft に？を投げたいです。まぁ、いろいろと事情があるのでしょう。そうそう行う作業ではないのですが、普通は戸惑いますよね。これ。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>もっと薄くて軽いノートがいい！良さげなのは何？</title>
+		<link>/4389.html</link>
+					<comments>/4389.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 12 Feb 2018 12:04:10 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[gearbest]]></category>
+		<category><![CDATA[geekbying]]></category>
+		<guid isPermaLink="false">/?p=4389</guid>
+							<description><![CDATA[さて、前おきはすっとばして今回は2代目のノートPCを物色しています。激安で品質が良さげな、中華クラムシェル型の軽量ノートです。 この画像みて、一発で惹かれました。1kg は切っていませんが、キーボードは問題なく打てるサイ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>さて、前おきはすっとばして今回は2代目のノートPCを物色しています。激安で品質が良さげな、中華クラムシェル型の軽量ノートです。</p>
+<p><img loading="lazy" title="XM21-192005_jpg__1920×708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="XM21-192005_jpg__1920×708_" src="/wp-content/uploads/2018/02/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
+<p>この画像みて、一発で惹かれました。1kg は切っていませんが、キーボードは問題なく打てるサイズのいわゆるクラムシェル型。この形は未来的にもそう変わりはしない究極の形状ではないでしょうか。これ以上小さくなると、キーボードの打鍵がしにくくなりますので。</p>
+<p>&#160;</p>
+<h3>■記事要約</h3>
+<p>・YEPO 737A の M2 ドータカードは単体では購入不可能のようです</p>
+<p>・そして、どうやら他者でも同様の事が発生していることから既知のロット不良のようです</p>
+<p>・そんなYEPO 737A が欲しい方は安くお譲りします。（2万以下、送料別）</p>
+<p>・2代目はもっと軽い12.5インチのノートを物色</p>
+<p>・候補は、Onda Xiaoma 21 （3.3万ほど）</p>
+<p>&#160;</p>
+<p>先日、中華の激安ノートPCをついつい買ってしまったのですが、M2のSSD が接続できない件があり、あれこれ調査してみるとどうやらこらは他でも発生しているようです。（情報ソースは、2チャンネル）なので、M2 拡張の機器が壊れているという問題ではなくロットによる既知の問題ということです。このM2 拡張は、Jumper EZBOOK 3 PROのと同様でどうやらマザーボード自体は同じものをつかっているようです。BIOSのバージョンは違いますが、パーツをOEM供給して作っているものと思われます。このマザーボードの仕様が書かれたPDFはどこをどう探しても無く、PINアサインが不明で１つづつ突き止めるしかないのですが、そもそもこのノートの重さがちょっと気になり始めています。１．３KGでも軽いんですが、もう少し、軽いのが欲しいなと。</p>
+<p>ちなみに、YEPO や Jumper のオフィシャルサイトから問い合わせたのですが、この拡張カード自体の単体販売はしていないようです。結局いまのところ、YEPO737Aは、お勧めできません。M2拡張しないのならいいのかもしれませんが、、、、128MBのSSD なら認識するとか、裏ふたをしっかりしめると認識しないとか、M２のネジ止めをネジ側にスライドして取り付けると認識するとか、そういう情報もありますが、まぁ確かめるのも馬鹿らしいのでほっておいています。どなたか欲しいかたがいれば、送料別で2万(以下)でリリースいたしますので、junkhack あっと gpl.jp までご連絡ください。お声がかかるまで、ワイフ専用マシン（ほとんど使わない）としておきます。</p>
+<p>&#160;</p>
+<p>ということで、次ならノートPCの候補を探しています。Jumper EZBOOK 3 PROや、YEPO737A などの13インチは重さが1.3kg くらいあってもう少し軽いのがいいなと思っています。</p>
+<p>&#160;</p>
+<p>そうなると中華ではあまり候補がないのですが、</p>
+<p>12.5インチだと、Xiaomi Air 12 と、Onda Xiaoma 21 あたりかなと。サイズと重さは以下の通り。</p>
+<h4>Xiaomi Air 12</h4>
+<p>29.20 x 20.20 x 1.29 cm / 1.07 kg 約6万<img loading="lazy" title="Xiaomi-Mi-Notebook-Air-12-5-inch-M-7Y30-Silver-407322-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Xiaomi-Mi-Notebook-Air-12-5-inch-M-7Y30-Silver-407322-" src="/wp-content/uploads/2018/02/xiaomiminotebookair125inchm7y30silver407322.jpg" width="480" height="480" /></p>
+<h4>Onda Xiaoma 21 </h4>
+<p>29.60 x 20.30 x 1.20 cm / 1.08 kg 約3.2万</p>
+<p>※詳細スペックはオフィシャルサイト    <br /><a title="http://www.onda.cn/Laptop_Designs.aspx?id=9" href="http://www.onda.cn/Laptop_Designs.aspx?id=9" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.onda.cn/Laptop_Designs.aspx?id=9<span class="wpel-icon wpel-image wpel-icon-1"></span></a>     <br />&#160;</p>
+<p> <img loading="lazy" title="Onda-Xiaoma-21" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Onda-Xiaoma-21" src="/wp-content/uploads/2018/02/ondaxiaoma21.jpg" width="538" height="384" />   </p>
+<p>この画像はやりすぎでしょ？ と思ったのですが、ユーザの実際の動画みて本当にちっさいなと。</p>
+<p><a href="https://youtu.be/q6WDNuUaqVA?t=39s" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="FIX_No_Audio_with_USB_Type_C___Easy_Windows_Ultrabook_Guide_-_YouTube 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="FIX_No_Audio_with_USB_Type_C___Easy_Windows_Ultrabook_Guide_-_YouTube 2" src="/wp-content/uploads/2018/02/fix_no_audio_with_usb_type_c___easy_windows_ultrabook_guide__youtube21.png" width="640" height="445" /></a> </p>
+<p>まぁ、両者のスペックは違うのですが重さは似た感じ。どの道、サブノートなのでCPUパワーより機動性が欲しいんです。現在の候補はこれになっています。指紋認証は便利そうです。</p>
+<p>&#160;</p>
+<p>あと、お値段の見地からは、当初から迷っていた以下製品も迷い中。</p>
+<blockquote>
+<p>Jumper EZBOOK 3 PRO 2.6万</p>
+<p>31.50 x 20.85 x 1.50 cm / 1.4kg</p>
+</blockquote>
+<p>12.5インチは他にも以下のような、ライセンスに問題があった製品があり、いちおうチェック済みです。</p>
+<blockquote>
+<p>T-bao Tbook Air</p>
+<p>CIVILTOP Air</p>
+</blockquote>
+<p>この２つと違うのは、上記のはインターフェイスがUSB Type-Cポートとオーディオジャックのみですが、Onda Xiaoma 21 のは、Type-C とMicro HDMIと、USB3が２つとMicroSD があります。オーディオはType-C からいけるので問題ありません。（たぶん）充電しながら、音楽も聴けるはずです。</p>
+<p><img loading="lazy" title="HTB1Wwt5exPI8KJjSspfq6ACFXXad" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1Wwt5exPI8KJjSspfq6ACFXXad" src="/wp-content/uploads/2018/02/htb1wwt5expi8kjjsspfq6acfxxad.jpg" width="480" height="480" /> </p>
+<p>Xiaomi Air 12 のほうが CPU スペックやストレージなどは上なんですが、今持ってる512MB の m2 SSD を中に入れたいのと価格はやっぱり安くても高いので（6万がね）、Onda Xiaoma 21の選択しかないかなと。この機種は、日本語ではレビュー記事があまりないので、不人気なんですかね？海外ではベストバイのノートPCにいくつか出てくるのですが。</p>
+<p>6000円の価格差で軽さのOnda Xiaoma 21、メモリの多さ（6GB）をとるかでJumper EZBOOK 3 PROか悩みます。</p>
+<p>あと、Teclast F6 Pro っていう少しお高いのにも惹かれます。まぁ、どうでもいいことですが、明日から夜勤なんで、あと11時間は起きてないとまずいんですが、眠い。。。。。</p>
+<p>うだうだと、朝方まであれこれ悩んでいますが、思い切ってポチってしまいましょうか。海外のレビューなどから、駄目だししてみたいと思います。</p>
+<h3>■Onda Xiaoma 21の駄目だし</h3>
+<p>・スピーカーが貧弱らしい</p>
+<p>・オーディオジャックがない（Type-C ドングル忘れたときとか不便という意味かと）</p>
+<p>・Type-C からHDDはマウントできない</p>
+<p>・シフトキーあたりのキークリックがしょぼい</p>
+<p>・Type-C の電源がでかい（別売りのを買うコスト）</p>
+<p>・ゴールドしか色がない（シルバー好きには）</p>
+<p>&#160;</p>
+<p>ということのようです。色はゴールドは別に嫌いじゃないのでいいのですが後は実際に確かめてみないとわかりません。</p>
+<p>&#160;</p>
+<h3>■eMMC が 32GB のタイプと、64GB のタイプあり</h3>
+<p>オフィシャルサイト見てて、はっと気が付いたのですが、eMMC の容量違いのモデルがあるようです。</p>
+<p><a href="http://www.onda.cn/Laptop.aspx?t0=12.5%D3%A2%B4%E7&amp;#product" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="32G64G" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="32G64G" src="/wp-content/uploads/2018/02/32g64g.png" width="560" height="319" /></a> </p>
+<p><a href="ng.com/item/Onda-Xiaoma-21-Notebook-Gold-377968.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">Geekbuying</a> では、約3.2 万のがあってこちらはよく見ると32GB の eMMC に 64GB の SSD(たぶんM2）で、<a href="https://www.gearbest.com/laptops/pp_632462.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">GearBest<span class="wpel-icon wpel-image wpel-icon-1"></span></a> だと 3.4万のがありこちらは、64GB の eMMC です。価格差が2000円くらいですが、マザーボードにくっついているeMMC は取替えが不可なので64eMMC を選んでおいたほうがよいかと。アリエクの <a href="https://www.aliexpress.com/store/product/Onda-Xiaoma-21-Metal-Laptop-12-5-Windows-10-4GB-RAM-64GB-eMMC-Intel-Apollo-Lake/2792012_32813629973.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Onda オフィシャルストア<span class="wpel-icon wpel-image wpel-icon-1"></span></a>で DHL 配送はちょっと高いです。¥ 36,154(送料込)</p>
+<p>&#160;</p>
+<p>適当にクーポン入れたら、64GB の eMMC のが、$296.55 （33,398円）くらいになったので、GearBest で発注！ぽちっっとしてしまいました！！！</p>
+<p>これでまた、製品不良なんかだったら運が悪いよなー。良い製品に出会えることを祈るばかり。そして数年は使えるように。一応予定では3年使いたいです。2021年の4月まで使いたいですね。そして、Onda というメーカーは初めてですがタブレットでは何回も買いそうになってぐっと我慢した覚えがあるメーカーですので品質は悪くないと思いますが、実機がきたらレビューしてみたいと思います。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/4389.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>C &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 30 Jan 2016 14:27:20 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>INA226 を arduino nano で</title>
+		<link>/2074.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 30 Jan 2016 14:27:20 +0000</pubDate>
+				<category><![CDATA[arduino]]></category>
+		<category><![CDATA[C]]></category>
+		<category><![CDATA[I2C]]></category>
+		<category><![CDATA[PCB]]></category>
+		<guid isPermaLink="false">/?p=2074</guid>
+							<description><![CDATA[もう1月も終わりですね。なんだか速く月日が経つような気がします。 さて、今日は 先日作った INA226 の電流電圧センサーを I2C で arduino nano クローンにて計測してみました。 前回の調査で見つけた、 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>もう1月も終わりですね。なんだか速く月日が経つような気がします。</p>
+<p>さて、今日は 先日作った INA226 の電流電圧センサーを I2C で arduino nano クローンにて計測してみました。</p>
+<p>前回の調査で見つけた、ポーランドのサイトにいいチュートリアルがありました。</p>
+<blockquote>
+<p>Korneliusz Jarzębskiのサイト     <br /><a href="http://www.jarzebski.pl/arduino/czujniki-i-sensory/cyfrowy-czujnik-pradu-mocy-ina226.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Dwukierunkowy cyfrowy czujnik prądu/mocy INA226<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>github     <br />Arduino-INA226      <br /><a title="https://github.com/jarzebski/Arduino-INA226" href="https://github.com/jarzebski/Arduino-INA226" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/jarzebski/Arduino-INA226<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>このGitHub のsimple のソースにライブラリを配置し、</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">./INA226_simple
+├── INA226.cpp
+├── INA226.h
+└── INA226_simple.ino</pre>
+<p>INA226.cpp の記述を以下に変更。25mR のシャント抵抗の設定をします。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">#include &quot;INA226.h&quot;
+::
+void setup() 
+{
+::
+  // Calibrate INA226. Rshunt = 0.025 ohm, Max excepted current = 4A
+  ina.calibrate(0.025, 1);
+::</pre>
+<p>配線は以下のようにしました。ちょっとわかりにくいですが、Arduino の A5(SCL) と A4(SDA) をつないで、GND と 3.3V を VSS に入れます。あとは、負荷を電流計測にハイサイド側に付ける感じです。</p>
+<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
+<p>シリアル通信を開くと、以下のようになっています。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
+-----------------------------------------------
+Mode:                  Shunt and Bus, Continuous
+Samples average:       1 sample
+Bus conversion time:   1.100ms
+Shunt conversion time: 1.100ms
+Max possible current:  3.28 A
+Max current:           3.28 A
+Max shunt voltage:     0.08 V
+Max power:             117.96 W
+-----------------------------------------------
+Bus voltage:   4.67875 V
+Bus power:     0.01250 W
+Shunt voltage: 0.00007 V
+Shunt current: 0.00300 A
+
+Bus voltage:   4.68125 V
+Bus power:     0.01250 W
+Shunt voltage: 0.00007 V
+Shunt current: 0.00300 A
+
+Bus voltage:   4.67750 V
+Bus power:     0.01250 W
+Shunt voltage: 0.00007 V
+Shunt current: 0.00300 A</pre>
+<p>PC からのUSB 電圧は4.67V 程度のようです。3mA で12.5mW ということがわかりました。ちゃんと計測できているようですね。</p>
+<p>arduino だと装備からLCDなどに出す用途で使えそうですね。データをどこかに飛ばすものであれば、ESP8266 が良さそうです。</p>
+<p>&#160;</p>
+<p>IC 回路の電圧は3.3V でも5V でもOKです。LEDの負荷を arduino の 3.3V から取って計測してみると以下のようになりました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
+-----------------------------------------------
+Mode:                  Shunt and Bus, Continuous
+Samples average:       1 sample
+Bus conversion time:   1.100ms
+Shunt conversion time: 1.100ms
+Max possible current:  3.28 A
+Max current:           3.28 A
+Max shunt voltage:     0.08 V
+Max power:             117.96 W
+-----------------------------------------------
+Bus voltage:   3.26875 V
+Bus power:     0.00500 W
+Shunt voltage: 0.00004 V
+Shunt current: 0.00150 A
+
+Bus voltage:   3.27000 V
+Bus power:     0.00500 W
+Shunt voltage: 0.00004 V
+Shunt current: 0.00150 A
+
+Bus voltage:   3.26875 V
+Bus power:     0.00500 W
+Shunt voltage: 0.00004 V
+Shunt current: 0.00160 A</pre>
+<p>&#160;</p>
+<p>ちょっとコードを追加して、レジスターの値を取ってみました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
+-----------------------------------------------
+Mode:                  Shunt and Bus, Continuous
+Samples average:       1 sample
+Bus conversion time:   1.100ms
+Shunt conversion time: 1.100ms
+Max possible current:  3.28 A
+Max current:           3.28 A
+Max shunt voltage:     0.08 V
+Max power:             117.96 W
+-----------------------------------------------
+INA226_REG_CONFIG          (0x00):16679 ---
+INA226_REG_SHUNTVOLTAGE    (0x01):30 ---
+INA226_REG_BUSVOLTAGE      (0x02):3749 ---
+INA226_REG_POWER           (0x03):5 ---
+INA226_REG_CURRENT         (0x04):30 ---
+INA226_REG_CALIBRATION     (0x05):2048 ---
+-----------------------------------------------
+Bus voltage:   4.68250 V
+Bus power:     0.01250 W
+Shunt voltage: 0.00007 V
+Shunt current: 0.00300 A</pre>
+<p>レジスター値は10進です。アベレージの回数とかも定数があるので便利ですね。<br />
+  <br />精度は、0.1mA&#160; のようですね。PCB のあまり部分で作ったモジュールでも結構遊べました。あと、小さなパーツの半田付けの練習にもなりました。</p>
+<p>&#160;</p>
+<p>▼参考サイト</p>
+<p><a title="http://denshi-kousaku.fan.coocan.jp/report030.html" href="http://denshi-kousaku.fan.coocan.jp/report030.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://denshi-kousaku.fan.coocan.jp/report030.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+<p>▼まとめ</p>
+<p>・ライブラリ便利！</p>
+<p>・INA226 モジュールを使って、arduino で i2c にて電流電圧を簡単に取れる</p>
+<p>・精度は、シャント抵抗次第で、0.025R だと0.1mA（100μA） の精度になるようです</p>
+<p>・GND はIC回路と共通で測定で、電圧を測定する場合は、IC の VBUS ８pin に計測電圧をかける</p>
+<p>・LSB とは一般的には、最下位ビットのことで、least significant bit の頭文字。</p>
+<p>・これの分解能力は16ビットなので、0.025R だと電流は0.1mA で電圧は 1.25mV</p>
+<p>・とりあえず、十分な精度です。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>1us Lチカ</title>
+		<link>/1973.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 01 Jan 2016 17:56:05 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[C]]></category>
+		<category><![CDATA[espeink]]></category>
+		<category><![CDATA[OrangePi]]></category>
+		<category><![CDATA[OrangePiPC]]></category>
+		<guid isPermaLink="false">/?p=1973</guid>
+							<description><![CDATA[2016年 謹賀新年、あけましておめでとうございます。おせち料理も31日と1日で食べつくしてしまいました。 さて、今年最初のブログですね。0.000001秒のLチカをロジックアナライザーでモニタリングして光らせてみました [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>2016年 謹賀新年、あけましておめでとうございます。おせち料理も31日と1日で食べつくしてしまいました。</p>
+<p>さて、今年最初のブログですね。0.000001秒のLチカをロジックアナライザーでモニタリングして光らせてみました。</p>
+<p>あと、オレンジパイで、8本のGPIO を使って安価なロジックアナライザーで採取できるかも確認してみました。</p>
+<p>&#160;</p>
+<p>サンプルプログラムを採取したデータが以下です。8本分は取れていますが、速すぎるところは取りこぼしているようです。</p>
+<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/01/1.png" width="640" height="319" /> </p>
+<p>矢印は500ns で光っている部分で採取に失敗し、取りこぼす事がありました。このあたりが2Mhz の限界なんですね。今のファームウェアとソフトウェアだとこれが限界のようです。</p>
+<p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320" /> </p>
+<p>複数のLED は、blink ファンクションにて光らせていますが、呼び出しと初期化の処理で250us 程度使っているようです。</p>
+<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/3.png" width="640" height="320" /> </p>
+<p>usleep 関数を使っても思ったより、処理に時間がかかるようです。1us を指定して光らせているんですが、実際は69us 光っています。nanosleep を使っても66us は使われてしまうようで、1us を光らせる為にwhile で調整してみました。</p>
+<p><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/01/4.png" width="640" height="319" /> </p>
+<p>サンプルのプログラムは以下です。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ *  +-----+-----+----------+------+---+--OrangePiPC--+---+------+---------+-----+--+
+ *  | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
+ *  +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
+ *  |     |     |     3.3v |      |   |  1 || 2  |   |      | 5v       |     |     |
+ *  |   2 |  -1 |    SDA.0 |      |   |  3 || 4  |   |      | 5V       |     |     |
+ *  |   3 |  -1 |    SCL.0 |      |   |  5 || 6  |   |      | 0v       |     |     |
+ *  |   4 |   6 | IO6 PA06 |  OUT | 0 |  7 || 8  |   |      | TxD3     |     |     |
+ *  |     |     |       0v |      |   |  9 || 10 |   |      | RxD3     |     |     |
+ *  |  17 |  -1 |     RxD2 |      |   | 11 || 12 | 0 | OUT  | IO1 PD14 | 1   | 18  |
+ *  |  27 |  -1 |     TxD2 |      |   | 13 || 14 |   |      | 0v       |     |     |
+ *  |  22 |  -1 |     CTS2 |      |   | 15 || 16 | 0 | OUT  | IO4 PC04 | 4   | 23  |
+ *  |     |     |     3.3v |      |   | 17 || 18 | 0 | OUT  | IO5 PC07 | 5   | 24  |
+ *  |  10 |  -1 |     MOSI |      |   | 19 || 20 |   |      | 0v       |     |     |
+ *  |   9 |  -1 |     MISO |      |   | 21 || 22 |   |      | RTS2     |     |     |
+ *  |  11 |  -1 |     SCLK |      |   | 23 || 24 |   |      | SPI-CE0  |     |     |
+ *  |     |     |       0v |      |   | 25 || 26 |   |      | CE1      |     |     |
+ *  |   0 |  -1 |    SDA.1 |      |   | 27 || 28 |   |      | SCL.1    |     |     |
+ *  |   5 |   7 |  IO7 PA7 |  OUT | 0 | 29 || 30 |   |      | 0v       |     |     |
+ *  |   6 |   8 |  IO8 PA8 |  OUT | 0 | 31 || 32 | 0 | OUT  | IO9 PG08 | 9   | 12  |
+ *  |  13 |  10 | IO10 PA9 |  OUT | 0 | 33 || 34 |   |      | 0v       |     |     |
+ *  |  19 |  12 | IO12PA10 |  OUT | 0 | 35 || 36 | 0 | OUT  | IO13PG09 | 13  | 16  |
+ *  |  26 |  14 | IO14PA20 | ALT3 | 0 | 37 || 38 | 0 | OUT  | IO15PG06 | 15  | 20  |
+ *  |     |     |       0v |      |   | 39 || 40 | 0 | OUT  | IO16PG07 | 16  | 21  |
+ *  +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
+ *  | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
+ *  +-----+-----+----------+------+---+--OrangePIPC--+------+----------+-----+-----+
+ *         ^^^^ Pin NO                                                   ^^^^ Pin NO
+ * 1us LED blink.
+ * building ex) gcc -lwiringPi -lpthread -I/usr/local/include -L/usr/local/lib -levent -o 2016blinkall 2016blinkall.c
+ * 
+ *
+*/
+#include &lt;sys/time.h&gt;
+#include &lt;time.h&gt;
+#include &lt;unistd.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;wiringPi.h&gt;
+
+#define MSEC 1
+#define USEC 33
+#define NANOSEC 1000
+
+int blink2(int led, int delay);
+
+int main (void)
+{
+  int led;
+  int i = 0;
+
+  while (i &lt; 3)
+  {
+    blink2(16, 1000);
+      blink2(15, 1000); //Next blink 250 us
+      blink2(13, 1000);
+      blink2(9, 1000);
+      blink2(5, 1000);
+      blink2(4, 1000);
+      blink2(1, 1000);
+      blink2(6, 1000);
+
+    i++;
+  }
+
+  delay (MSEC);
+  return 0;
+}
+
+int blink2(int led, int delay){
+    // unsigned int usecs;
+    // usecs = delay;
+    // sec = delay;
+    led = led;
+    int i = 0;
+
+    // nano sec
+    struct timespec nano;
+    nano.tv_sec = 0;
+    nano.tv_nsec = delay;
+
+    wiringPiSetup () ;
+    pinMode (led, OUTPUT) ;
+
+    digitalWrite (led, HIGH) ;
+    nanosleep(&amp;nano, NULL); // 66us
+    // usleep (usecs) ; // 66us
+    // delay (delay);
+    digitalWrite (led,  LOW) ;
+    usleep (1);
+
+    digitalWrite (led, HIGH) ;
+
+    // 1us
+    while (i &lt; 100)
+    {
+        i++;
+    }
+    digitalWrite (led,  LOW) ;
+    usleep (1); // 66us
+
+    digitalWrite (led, HIGH) ;
+    // 500 ns
+    digitalWrite (led,  LOW) ;
+}</pre>
+<p>GPIO の8本を同時に処理させるにはどうしたらいいんでしょうかね。マルチスレッド処理ですかね？シフトレジスタに投げて、一括処理とかですかね？</p>
+<p>&#160;</p>
+<p>前ちょっと触ったイベント処理のlibevent とかを使うとどのくらいの精度になるんでしょうかね。いろいろ疑問がわいてきます。</p>
+<p>E-ink を表示するためにはまだまだ超えないといけない山がたくさんあるようです。</p>
+<p>なんとか、春までには表示したいんですが。こつこつとやっていきます。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sigrok の Pulsview 0.3.0 動きました</title>
+		<link>/1966.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 30 Dec 2015 19:47:23 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[C]]></category>
+		<category><![CDATA[osx]]></category>
+		<category><![CDATA[QT]]></category>
+		<guid isPermaLink="false">/?p=1966</guid>
+							<description><![CDATA[とりあえず、なんとか動かしたいのでソースをコードも見ましたが、特に問題となりそうな部分もなく、ちょっと場を離れてから、brew版のをサイド入れてみることに。とりあえず、動作させることができました。 なんとか、今年中に出来 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>とりあえず、なんとか動かしたいのでソースをコードも見ましたが、特に問題となりそうな部分もなく、ちょっと場を離れてから、brew版のをサイド入れてみることに。とりあえず、動作させることができました。</p>
+<p>なんとか、今年中に出来たのですっきり。</p>
+<p>&#160;</p>
+<p>0.3.0-git-5d73886 では、以下のようにトリガーが設定できて楽になりました。Runを押せばトリガーがでるまで、stop して採取されます。サンプル数を設定しておけば、採取されて停止します。ロジックアナライザーとしては基本機能だと思いますが、手持ちのハードでなんとか動いてよかったです。</p>
+<p><img loading="lazy" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2015/12/3662338e426b.png" width="640" height="359" /> </p>
+<p>拡大すると、500ns とか取れています。1us 単位くらいまでは見れそうということがわかりました。</p>
+<p><img loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2015/12/d2bb6fa3e4a8.png" width="640" height="357" /> </p>
+<p>サンプルレートは、2MHz 以上あげるとどうしても採取後にクルクル回って、操作を受け付けないスタック状態のような感じになります。コマンドライン版でドライバを指定してみると、以下のようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sigrok-cli --show --driver fx2lafw
+Driver functions:
+    Logic analyzer
+Scan options:
+    conn
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+fx2lafw:conn=28.2 - Saleae Logic with 8 channels: 0 1 2 3 4 5 6 7
+Supported configuration options:
+    continuous: 
+    limit_samples: 0 (current)
+    conn: 28.2 (current)
+    samplerate - supported samplerates:
+      20 kHz
+      25 kHz
+      50 kHz
+      100 kHz
+      200 kHz
+      250 kHz
+      500 kHz
+      1 MHz
+      2 MHz
+      3 MHz
+      4 MHz
+      6 MHz
+      8 MHz
+      12 MHz
+      16 MHz
+      24 MHz
+    Supported triggers: 0 1 r f e 
+    captureratio: 0 (current)</pre>
+<p>ここに出ているサンプリング周波数は採取できるはずなんですが、なぜか2MHz までしかとれません。</p>
+<p>まぁ、最初の一台ですし、これで勉強させてもらって、物足りなければまた考えることにします。</p>
+<p>&#160;</p>
+<p>automator でシェルスクリプトを実行するものを作り、アイコンをつけて、app 化します。</p>
+<p><img loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/12/61.png" width="632" height="480" /> </p>
+<p>python の環境変数を一度 unset して消去して、python3.4 とか3.x のをセットしてアプリをバックグランドで呼び出します。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">unset PYTHONPATH
+export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot;
+
+/usr/local/Cellar/pulseview/HEAD/bin/pulseview &gt;/dev/null 2&gt;&amp;1 &amp;</pre>
+<p>&#160;</p>
+<p>配布用にするには、ライブラリのパスを全部書き換えないといけないので、やめました。このあたりのスキルは、もう少し勉強しないと嵌りそうです。</p>
+<p><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/12/51.png" width="276" height="423" /> </p>
+<p>brew 版のインストールは、wiki に書いてあるとおりで以下のようです。</p>
+<blockquote>
+<p><a title="https://sigrok.org/wiki/Mac_OS_X" href="https://sigrok.org/wiki/Mac_OS_X" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://sigrok.org/wiki/Mac_OS_X<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>$ brew tap rene-dev/sigrok<br />
+    <br />$ brew install python3</p>
+<p>$ brew install &#8211;HEAD libserialport</p>
+<p>$ brew install &#8211;HEAD &#8211;with-libserialport libsigrok</p>
+<p>$ brew install &#8211;HEAD libsigrokdecode</p>
+<p>$ brew install &#8211;HEAD &#8211;with-libserialport sigrok-cli</p>
+<p>$ brew install &#8211;HEAD pulseview</p>
+</blockquote>
+<p>ポイントとしては、マニュアルビルドしてソースから入れたものは一度、綺麗に消して、brew docter で問題をクリアにしてからやることと、以下の libsigrokdecode が２つ出てくるのでbrew のを無効にすることくらいです。</p>
+<p>$ brew install &#8211;HEAD libsigrokdecode<br />
+  <br />Error: Formulae found in multiple taps: </p>
+<p> * homebrew/science/libsigrokdecode</p>
+<p> * rene-dev/sigrok/libsigrokdecode</p>
+<p>&#160;</p>
+<p>$ brew untap homebrew/science</p>
+<p>$ brew tap –repair</p>
+<p>$ brew update</p>
+<p>&#160;</p>
+<p>あと、ファームウェアの格納場所は、デフォルトで</p>
+<p>/usr/local/share/sigrok-firmware</p>
+<p>になるので、ここにディレクトリを作成し、最新のファームウェアを入れておきます。これで最初のデバイスを見つけてファームがなくエラーになるのを迂回できます。エラーでも、落ちはしませんが。前回落ちたのは別の原因で、QT 関連のライブラリのパスが書き換わっていないのが原因でした。ltool で見ると、/usr 配下となっていました。そのほかの原因もあったとは思いますが、ライブラリの依存関係でおそらくは、brew 版のを見に行っていたのかもしれません。まぁ、詳細は不明です。</p>
+<p>&#160;</p>
+<p>ということで、とりあえずは動いてよかったです。トリガーもかけられるようになったし、インターフェイスは少しよくなった感じ。ボタンの配置とか。</p>
+<p>&#160;</p>
+<p>▼まとめ</p>
+<p>・EZ-USB FX2LP CY7C68013A で、sigrok の pulsview は動作</p>
+<p>・このハードは実質6ドルくらいなので、ロジックアナライザーとして最初の一台で遊ぶには十分</p>
+<p>・0.3.0-git-f3697d3 は動作した</p>
+<p>・トリガーがかけられるようになった</p>
+<p>・少しインターフェイスがよくなった</p>
+<p>・2Mhz サンプリングまでは出来ることを確認</p>
+<p>・１チャンネル採取で500ns は採取できた。1us くらいが精度か？</p>
+<p>・8チャンネル同時採取はまだやっていない</p>
+<p>・ファームウェア格納場所は、/usr/local/share/sigrok-firmware</p>
+<p>・brew 版で HEAD で入れているので、時期によっては動作しない場合もあるかも</p>
+<p>・配布用に、ライブラリを書き換えるのはどうすれば楽になるのか？要研究</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>sigrok Pulsview を osx でビルドに挑戦</title>
+		<link>/1957.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2015 20:04:41 +0000</pubDate>
+				<category><![CDATA[C]]></category>
+		<category><![CDATA[osx]]></category>
+		<category><![CDATA[QT]]></category>
+		<guid isPermaLink="false">/?p=1957</guid>
+							<description><![CDATA[PulseView の 0.3.0-git-f3697d3 をビルドしてみました。 結論から言えば、今のところ起動してすぐ落ちます。（涙） 無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>PulseView の 0.3.0-git-f3697d3 をビルドしてみました。</p>
+<p>結論から言えば、今のところ起動してすぐ落ちます。（涙）</p>
+<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162" /> </p>
+<p>無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。about は見れました。</p>
+<p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.png" width="600" height="400" /> </p>
+<p>デバイスにもコネクトし、スキャンすれば出てきます。</p>
+<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/12/31.png" width="525" height="397" /> </p>
+<p>しかし、OK を押すと最初のダイアログ表示が出て、OK を押すと、SIGABRT で落ちます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Process:         pulseview-bin [95174]
+Path:            /Applications/PulseView.app/Contents/MacOS/./pulseview-bin
+Identifier:      com.yourcompany.pulseview
+Version:         0.3.0-git-5d73886 (???)
+Code Type:       X86-64 (Native)
+Parent Process:  sh [95171]
+Responsible:     sh [95171]
+User ID:         501
+
+Date/Time:       2015-12-30 03:51:25.054 +0900
+OS Version:      Mac OS X 10.9.5 (13F34)
+Report Version:  11
+Anonymous UUID:  C9AF270A-FCB7-7966-372A-2DF968A13DBE
+
+
+Crashed Thread:  0  Dispatch queue: com.apple.main-thread
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib            0x00007fff8f96d866 __pthread_kill + 10
+1   libsystem_pthread.dylib           0x00007fff8bb5535c pthread_kill + 92
+2   libsystem_c.dylib                 0x00007fff85eefb1a abort + 125
+3   libglib-2.0.0.dylib               0x00000001022cae07 g_assertion_message + 387
+4   libglib-2.0.0.dylib               0x00000001022cae65 g_assertion_message_expr + 94
+5   libglib-2.0.0.dylib               0x00000001022e43a8 g_variant_type_info_check + 379
+6   libglib-2.0.0.dylib               0x00000001022e41fe g_variant_type_info_get_type_string + 16
+7   libglib-2.0.0.dylib               0x00000001022d7b7c g_variant_get_type + 22
+8   pulseview-bin                     0x000000010112d4af pv::prop::Int::get_widget(QWidget*, bool) + 159 (int.cpp:72)
+9   pulseview-bin                     0x000000010111733f pv::binding::Binding::add_properties_to_form(QFormLayout*, bool) const + 95 (binding.cpp:55)
+10  pulseview-bin                     0x000000010111742d pv::binding::Binding::get_property_form(QWidget*, bool) const + 109 (binding.cpp:71)
+11  pulseview-bin                     0x0000000101129599 pv::popups::DeviceOptions::DeviceOptions(std::__1::shared_ptr&lt;sigrok::Device&gt;, QWidget*) + 185 (qglobal.h:2436)
+12  pulseview-bin                     0x000000010112f96b pv::toolbars::MainBar::update_device_config_widgets() + 171 (memory:4447)
+13  pulseview-bin                     0x000000010112f82b pv::toolbars::MainBar::update_device_list() + 475 (list:565)
+14  pulseview-bin                     0x00000001010eac9a pv::MainWindow::select_init_device() + 1594 (mainwindow.cpp:589)
+15  pulseview-bin                     0x00000001010e759e pv::MainWindow::MainWindow(pv::DeviceManager&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, QWidget*) + 606 (mainwindow.cpp:128)
+16  pulseview-bin                     0x00000001010e2880 main + 848 (main.cpp:163)
+17  libdyld.dylib                     0x00007fff89c435fd start + 1</pre>
+<p>うーん、なんでしょうかね。</p>
+<p>&#160;</p>
+<p>とりあえず、いつかまた再チャレンジするときに備えて、ビルド手順を載せておきます。</p>
+<p>▼環境</p>
+<blockquote>
+<p>osx 10.9.5</p>
+<p>qt-opensource-mac-4.8.7</p>
+<p>$ xcode-select -v<br />
+    <br />xcode-select version 2333. </p>
+<p>$ xcode-select -p<br />
+    <br />/Applications/Xcode.app/Contents/Developer </p>
+<p>$ xcode-select -print-path<br />
+    <br />/Applications/Xcode.app/Contents/Developer </p>
+<p>$ xcodebuild -version<br />
+    <br />Xcode 6.2</p>
+<p>Build version 6C131e</p>
+<p>$ cmake &#8211;version<br />
+    <br />cmake version 3.4.1</p>
+<p>$ clang -v<br />
+    <br />Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)</p>
+<p>Target: x86_64-apple-darwin13.4.0</p>
+<p>Thread model: posix</p>
+</blockquote>
+<p>こんな感じの環境です。ビルド手順は、基本以下のとおりです。cmake するオプションは少し買えました。</p>
+<blockquote>
+<p><a title="https://sigrok.org/wiki/Mac_OS_X" href="https://sigrok.org/wiki/Mac_OS_X" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://sigrok.org/wiki/Mac_OS_X<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>前準備として、Qtの4系最終の4.8.7 を入れておきます。</p>
+<p>あと、ports で以下を入れておきます。</p>
+<blockquote>
+<p>$ sudo port selfupdate<br />
+    <br />$ sudo port install boost libusb libzip libftdi0</p>
+<p>$ sudo port install autoconf automake cmake glib2 python33 libtool pkgconfig</p>
+</blockquote>
+<p>環境変数を反映しておきます。</p>
+<blockquote>
+<p>$ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/</p>
+</blockquote>
+<p>libserialport</p>
+<blockquote>
+<p>$ git clone git://sigrok.org/libserialport<br />
+    <br />$ cd libserialport</p>
+<p>$ ./autogen.sh</p>
+<p>$ ./configure</p>
+<p>$ make</p>
+<p>$ sudo make install</p>
+</blockquote>
+<p>以下に入りました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    HOPE:libserialport junkhack$ sudo make install
+      CC       serialport.lo
+      CC       macosx.lo
+      CCLD     libserialport.la
+     /usr/local/bin/gmkdir -p '/usr/local/lib'
+     /bin/sh ./libtool --silent  --mode=install /usr/local/bin/ginstall -c   libserialport.la '/usr/local/lib'
+     /usr/local/bin/gmkdir -p '/usr/local/include'
+     /usr/local/bin/ginstall -c -m 644 libserialport.h '/usr/local/include'
+     /usr/local/bin/gmkdir -p '/usr/local/lib/pkgconfig'
+     /usr/local/bin/ginstall -c -m 644 libserialport.pc '/usr/local/lib/pkgconfig'</pre>
+<p>次、libsigrok です。</p>
+<p>libsigrok</p>
+<blockquote>
+<p>$ git clone git://sigrok.org/libsigrok<br />
+    <br />$ cd libsigrok</p>
+<p>$ ./autogen.sh</p>
+<p>$ ./configure</p>
+<p>$ make</p>
+<p>$ sudo make install</p>
+</blockquote>
+<p>以下に入りました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    HOPE:libsigrok junkhack$ sudo make install
+     /usr/local/bin/gmkdir -p '/usr/local/lib'
+     /bin/sh ./libtool --silent  --mode=install /usr/local/bin/ginstall -c   libsigrok.la bindings/cxx/libsigrokcxx.la '/usr/local/lib'
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: /usr/local/lib/libsigrok.a(fallback.o) has no symbols
+     /usr/local/bin/gmkdir -p '/usr/local/include/libsigrokcxx'
+     /usr/local/bin/ginstall -c -m 644 bindings/cxx/include/libsigrokcxx/libsigrokcxx.hpp '/usr/local/include/libsigrokcxx'
+     /usr/local/bin/gmkdir -p '/usr/local/include/libsigrok'
+     /usr/local/bin/ginstall -c -m 644 include/libsigrok/libsigrok.h include/libsigrok/proto.h '/usr/local/include/libsigrok'
+     /usr/local/bin/gmkdir -p '/usr/local/include/libsigrokcxx'
+     /usr/local/bin/ginstall -c -m 644 bindings/cxx/include/libsigrokcxx/enums.hpp '/usr/local/include/libsigrokcxx'
+     /usr/local/bin/gmkdir -p '/usr/local/include/libsigrok'
+     /usr/local/bin/ginstall -c -m 644 include/libsigrok/version.h '/usr/local/include/libsigrok'
+     /usr/local/bin/gmkdir -p '/usr/local/lib/pkgconfig'
+     /usr/local/bin/ginstall -c -m 644 libsigrok.pc bindings/cxx/libsigrokcxx.pc '/usr/local/lib/pkgconfig'
+    HOPE:libsigrok junkhack$ </pre>
+<p>次、コマンドライン版のです。</p>
+<p>sigrok-cli</p>
+<blockquote>
+<p>$ git clone git://sigrok.org/sigrok-cli<br />
+    <br />$ cd sigrok-cli</p>
+<p>$ ./autogen.sh</p>
+<p>$ ./configure</p>
+<p>$ make</p>
+<p>$ sudo make install</p>
+</blockquote>
+<p>以下に入りました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    HOPE:sigrok-cli junkhack$ sudo make install
+     /usr/local/bin/gmkdir -p '/usr/local/bin'
+      /usr/local/bin/ginstall -c sigrok-cli '/usr/local/bin'
+     /usr/local/bin/gmkdir -p '/usr/local/share/man/man1'
+     /usr/local/bin/ginstall -c -m 644 doc/sigrok-cli.1 '/usr/local/share/man/man1'
+    HOPE:sigrok-cli junkhack$ </pre>
+<p>次が、問題のやつです。</p>
+<p>PulseView</p>
+<blockquote>
+<p>$ git clone git://sigrok.org/pulseview<br />
+    <br />$ cd pulseview</p>
+<p>$ cmake -DENABLE_TESTS=n -DDISABLE_WERROR=y .</p>
+<p>$ make</p>
+<p>$ sudo make install</p>
+</blockquote>
+<p>cmake でテストをn にするか、警告を無視するかをチェックし、進みます。何か、未定義の変数や宣言などがあるようです。直すのが面倒だったので、とりあえず。</p>
+<p>以下に入りました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    HOPE:pulseview junkhack$ sudo make install
+    Password:
+    [ 54%] Built target pulseview
+    [100%] Built target pulseview-test
+    Install the project...
+    -- Install configuration: &quot;RelWithDebInfo&quot;
+    -- Installing: /usr/local/bin/pulseview
+    -- Installing: /usr/local/share/man/man1/pulseview.1
+    HOPE:pulseview junkhack$ </pre>
+<p>で、いきなり実行するも、以下のように。</p>
+<blockquote>
+<p>$ ll /usr/local/bin/pulseview<br />
+    <br />-rwxr-xr-x&#160; 1 root&#160; admin&#160; 1913672 12 30 00:57 /usr/local/bin/pulseview</p>
+<p>$ /usr/local/bin/pulseview<br />
+    <br />Failed to import the site module</p>
+<p>Your PYTHONPATH points to a site-packages dir for Python 2.x but you are running Python 3.x!</p>
+<p>&#160;&#160;&#160;&#160; PYTHONPATH is currently: &quot;/usr/local/lib/python2.7/site-packages&quot;</p>
+<p>&#160;&#160;&#160;&#160; You should `unset PYTHONPATH` to fix this.</p>
+</blockquote>
+<p>otool でライブラリのパスを見ると、以下のようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ otool -L /usr/local/bin/pulseview
+/usr/local/bin/pulseview:
+    /opt/local/lib/libboost_filesystem-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    /opt/local/lib/libboost_system-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    /opt/local/lib/libboost_thread-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    QtSvg.framework/Versions/4/QtSvg (compatibility version 4.8.0, current version 4.8.7)
+    QtGui.framework/Versions/4/QtGui (compatibility version 4.8.0, current version 4.8.7)
+    QtCore.framework/Versions/4/QtCore (compatibility version 4.8.0, current version 4.8.7)
+    /usr/local/lib/libsigrokcxx.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    /usr/local/lib/libsigrok.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    /usr/local/lib/libglibmm-2.4.1.dylib (compatibility version 5.0.0, current version 5.0.0)
+    /opt/local/lib/libgobject-2.0.0.dylib (compatibility version 4601.0.0, current version 4601.2.0)
+    /usr/local/lib/libsigc-2.0.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+    /usr/local/lib/libsigrokdecode.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    /opt/local/lib/libglib-2.0.0.dylib (compatibility version 4601.0.0, current version 4601.2.0)
+    /opt/local/lib/libintl.8.dylib (compatibility version 10.0.0, current version 10.4.0)
+    /usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 120.0.0)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1197.1.1)</pre>
+<p>うーん、Python3.x でということですが、ありません。あと、以下の３つはどこ探してもありませんでしたが、、、</p>
+<blockquote>
+<p>QtSvg.framework<br />
+    <br />QtGui.framework</p>
+<p>QtCore.framework</p>
+</blockquote>
+<p>ちなみに、Qt5.5 でビルドしたときは、以下のようでした。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    ----- qt5.5
+    HOPE:MacOS junkhack$ otool -L pulseview 
+    pulseview:
+        /opt/local/lib/libboost_filesystem-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+        /opt/local/lib/libboost_system-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+        /opt/local/lib/libboost_thread-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+        /opt/local/lib/libboost_unit_test_framework-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+        @rpath/QtSvg.framework/Versions/5/QtSvg (compatibility version 5.5.0, current version 5.5.1)
+        /usr/local/lib/libsigrokcxx.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+        /usr/local/lib/libsigrok.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+        /usr/local/lib/libglibmm-2.4.1.dylib (compatibility version 5.0.0, current version 5.0.0)
+        /opt/local/lib/libgobject-2.0.0.dylib (compatibility version 4601.0.0, current version 4601.2.0)
+        /usr/local/lib/libsigc-2.0.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+        /usr/local/lib/libsigrokdecode.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+        /opt/local/lib/libglib-2.0.0.dylib (compatibility version 4601.0.0, current version 4601.2.0)
+        /opt/local/lib/libintl.8.dylib (compatibility version 10.0.0, current version 10.4.0)
+        @rpath/QtWidgets.framework/Versions/5/QtWidgets (compatibility version 5.5.0, current version 5.5.1)
+        @rpath/QtGui.framework/Versions/5/QtGui (compatibility version 5.5.0, current version 5.5.1)
+        @rpath/QtCore.framework/Versions/5/QtCore (compatibility version 5.5.0, current version 5.5.1)
+        /usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 120.0.0)
+        /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1197.1.1)
+    HOPE:MacOS junkhack$ </pre>
+<p>これは探せばありました。なんで、Qt4 だとないんでしょうか？何か入れ忘れたのですかね。ちなみに、0.2.0 のELIAS さんのビルドしたものは、以下のようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ otool -L pulseview-bin 
+pulseview-bin:
+    @executable_path/../Frameworks/libboost_filesystem-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    @executable_path/../Frameworks/libboost_system-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    @executable_path/../Frameworks/QtSvg.framework/Versions/4/QtSvg (compatibility version 4.8.0, current version 4.8.6)
+    @executable_path/../Frameworks/QtGui.framework/Versions/4/QtGui (compatibility version 4.8.0, current version 4.8.6)
+    @executable_path/../Frameworks/QtCore.framework/Versions/4/QtCore (compatibility version 4.8.0, current version 4.8.6)
+    @executable_path/../Frameworks/libsigrokxx.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    @executable_path/../Frameworks/libsigrok.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    @executable_path/../Frameworks/libglibmm-2.4.1.dylib (compatibility version 5.0.0, current version 5.0.0)
+    @executable_path/../Frameworks/libgobject-2.0.0.dylib (compatibility version 4201.0.0, current version 4201.0.0)
+    @executable_path/../Frameworks/libglib-2.0.0.dylib (compatibility version 4201.0.0, current version 4201.0.0)
+    @executable_path/../Frameworks/libintl.8.dylib (compatibility version 10.0.0, current version 10.2.0)
+    @executable_path/../Frameworks/libsigc-2.0.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+    @executable_path/../Frameworks/libsigrokdecode.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    @executable_path/../Frameworks/Python.framework/Versions/3.4/Python (compatibility version 3.4.0, current version 3.4.0)
+    /usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 120.0.0)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1197.1.1)</pre>
+<p>Frameworks は、これを拝借します。</p>
+<p>アプリケーション直下にコピーして上書きしてきます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ cd /Applications/PulseView.app/Contents
+
+$ pwd
+/Applications/PulseView.app/Contents
+
+cp -p /opt/local/lib/libboost_filesystem-mt.dylib ./Frameworks
+cp -p /opt/local/lib/libboost_system-mt.dylib ./Frameworks
+cp -p /opt/local/lib/libboost_thread-mt.dylib ./Frameworks
+
+cp -p /usr/local/lib/libsigrokcxx.2.dylib ./Frameworks
+cp -p /usr/local/lib/libsigrok.2.dylib ./Frameworks
+cp -p /usr/local/lib/libglibmm-2.4.1.dylib ./Frameworks
+cp -p /opt/local/lib/libgobject-2.0.0.dylib ./Frameworks
+cp -p /usr/local/lib/libsigc-2.0.0.dylib ./Frameworks
+cp -p /usr/local/lib/libsigrokdecode.2.dylib ./Frameworks
+cp -p /opt/local/lib/libglib-2.0.0.dylib ./Frameworks
+cp -p /opt/local/lib/libintl.8.dylib ./Frameworks</pre>
+<p>Qt で作ったのをosx でライブラリにリンクするツールとか、そういうのはないのでしょうかね。</p>
+<p>バイナリのライブラリは以下のコマンドで、書き換えられます。</p>
+<blockquote>
+<p>install_name_tool -change 変更したいディレクトリ そこに新しく書き込みたいディレクトリ オブジェクトファイルの名前</p>
+</blockquote>
+<p>パスを切り出して、テキストファイルで編集し、</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:MacOS junkhack$ otool -L ./pulseview | cut -f 1 -d ' ' | cut -f 2
+./pulseview:
+/opt/local/lib/libboost_filesystem-mt.dylib
+/opt/local/lib/libboost_system-mt.dylib
+/opt/local/lib/libboost_thread-mt.dylib
+QtSvg.framework/Versions/4/QtSvg
+QtGui.framework/Versions/4/QtGui
+QtCore.framework/Versions/4/QtCore
+/usr/local/lib/libsigrokcxx.2.dylib
+/usr/local/lib/libsigrok.2.dylib
+/usr/local/lib/libglibmm-2.4.1.dylib
+/opt/local/lib/libgobject-2.0.0.dylib
+/usr/local/lib/libsigc-2.0.0.dylib
+/usr/local/lib/libsigrokdecode.2.dylib
+/opt/local/lib/libglib-2.0.0.dylib
+/opt/local/lib/libintl.8.dylib
+/usr/lib/libc++.1.dylib
+/usr/lib/libSystem.B.dylib
+HOPE:MacOS junkhack$ </pre>
+<p>以下のようなコマンドを作りました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">cd MacOS/
+cp pulseview pulseview_bup487
+
+install_name_tool -change /opt/local/lib/libboost_filesystem-mt.dylib @executable_path/../Frameworks/libboost_filesystem-mt.dylib ./pulseview
+install_name_tool -change /opt/local/lib/libboost_system-mt.dylib @executable_path/../Frameworks/libboost_system-mt.dylib ./pulseview
+install_name_tool -change /opt/local/lib/libboost_thread-mt.dylib @executable_path/../Frameworks/libboost_thread-mt.dylib ./pulseview
+install_name_tool -change QtSvg.framework/Versions/4/QtSvg @executable_path/../Frameworks/QtSvg.framework/Versions/4/QtSvg ./pulseview
+install_name_tool -change QtGui.framework/Versions/4/QtGui @executable_path/../Frameworks/QtGui.framework/Versions/4/QtGui ./pulseview
+install_name_tool -change QtCore.framework/Versions/4/QtCore @executable_path/../Frameworks/QtCore.framework/Versions/4/QtCore ./pulseview
+install_name_tool -change /usr/local/lib/libsigrokcxx.2.dylib @executable_path/../Frameworks/libsigrokcxx.2.dylib ./pulseview
+install_name_tool -change /usr/local/lib/libsigrok.2.dylib @executable_path/../Frameworks/libsigrok.2.dylib ./pulseview
+install_name_tool -change /usr/local/lib/libglibmm-2.4.1.dylib @executable_path/../Frameworks/libglibmm-2.4.1.dylib ./pulseview
+install_name_tool -change /opt/local/lib/libgobject-2.0.0.dylib @executable_path/../Frameworks/libgobject-2.0.0.dylib ./pulseview
+install_name_tool -change /usr/local/lib/libsigc-2.0.0.dylib @executable_path/../Frameworks/libsigc-2.0.0.dylib ./pulseview
+install_name_tool -change /usr/local/lib/libsigrokdecode.2.dylib @executable_path/../Frameworks/libsigrokdecode.2.dylib ./pulseview
+install_name_tool -change /opt/local/lib/libglib-2.0.0.dylib @executable_path/../Frameworks/libglib-2.0.0.dylib ./pulseview
+install_name_tool -change /opt/local/lib/libintl.8.dylib @executable_path/../Frameworks/libintl.8.dylib ./pulseview</pre>
+<p>パスを書き換えました。以下のようになっているはずです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ otool -L pulseview-bin 
+pulseview-bin:
+    @executable_path/../Frameworks/libboost_filesystem-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    @executable_path/../Frameworks/libboost_system-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    @executable_path/../Frameworks/libboost_thread-mt.dylib (compatibility version 0.0.0, current version 0.0.0)
+    @executable_path/../Frameworks/QtSvg.framework/Versions/4/QtSvg (compatibility version 4.8.0, current version 4.8.7)
+    @executable_path/../Frameworks/QtGui.framework/Versions/4/QtGui (compatibility version 4.8.0, current version 4.8.7)
+    @executable_path/../Frameworks/QtCore.framework/Versions/4/QtCore (compatibility version 4.8.0, current version 4.8.7)
+    @executable_path/../Frameworks/libsigrokcxx.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    @executable_path/../Frameworks/libsigrok.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    @executable_path/../Frameworks/libglibmm-2.4.1.dylib (compatibility version 5.0.0, current version 5.0.0)
+    @executable_path/../Frameworks/libgobject-2.0.0.dylib (compatibility version 4601.0.0, current version 4601.2.0)
+    @executable_path/../Frameworks/libsigc-2.0.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+    @executable_path/../Frameworks/libsigrokdecode.2.dylib (compatibility version 3.0.0, current version 3.0.0)
+    @executable_path/../Frameworks/libglib-2.0.0.dylib (compatibility version 4601.0.0, current version 4601.2.0)
+    @executable_path/../Frameworks/libintl.8.dylib (compatibility version 10.0.0, current version 10.4.0)
+    /usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 120.0.0)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1197.1.1)</pre>
+<p>先輩が作ったのは、MacOS 配下に２つあって、以下のようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ ll
+total 1936
+-rwxr-xr-x@ 1 junkhack  admin     187 11  3  2014 pulseview
+-rwxr-xr-x@ 1 junkhack  admin  983748 11  3  2014 pulseview-bin</pre>
+<p>ビルドしたものを pulseview-bin に書き換えました。bin が付いていないのは、bash のバイナリファイルのようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:MacOS junkhack$ hexdump -C pulseview
+00000000  23 21 2f 62 69 6e 2f 73  68 0a 0a 44 49 52 3d 22  |#!/bin/sh..DIR=&quot;|
+00000010  24 28 64 69 72 6e 61 6d  65 20 22 24 30 22 29 22  |$(dirname &quot;$0&quot;)&quot;|
+00000020  0a 63 64 20 22 24 44 49  52 22 0a 0a 65 78 70 6f  |.cd &quot;$DIR&quot;..expo|
+00000030  72 74 20 50 59 54 48 4f  4e 48 4f 4d 45 3d 22 2e  |rt PYTHONHOME=&quot;.|
+00000040  2e 2f 46 72 61 6d 65 77  6f 72 6b 73 2f 50 79 74  |./Frameworks/Pyt|
+00000050  68 6f 6e 2e 66 72 61 6d  65 77 6f 72 6b 2f 56 65  |hon.framework/Ve|
+00000060  72 73 69 6f 6e 73 2f 33  2e 34 2f 22 0a 65 78 70  |rsions/3.4/&quot;.exp|
+00000070  6f 72 74 20 53 49 47 52  4f 4b 44 45 43 4f 44 45  |ort SIGROKDECODE|
+00000080  5f 44 49 52 3d 22 2e 2e  2f 73 68 61 72 65 2f 6c  |_DIR=&quot;../share/l|
+00000090  69 62 73 69 67 72 6f 6b  64 65 63 6f 64 65 2f 64  |ibsigrokdecode/d|
+000000a0  65 63 6f 64 65 72 73 2f  22 0a 0a 2e 2f 70 75 6c  |ecoders/&quot;.../pul|
+000000b0  73 65 76 69 65 77 2d 62  69 6e 0a                 |seview-bin.|
+000000bb
+HOPE:MacOS junkhack$ </pre>
+<p>こういう感じで起動してるんですね。なるほどです。Frameworks 以下のPython から呼び出しているんですね。pulsview を拝借し、ビルドしたものは、pulseview-bin にファイル名を変更しておきます。</p>
+<p>バージョンをInfo.plist に加えておきます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ cat Info.plist 
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist SYSTEM &quot;file://localhost/System/Library/DTDs/PropertyList.dtd&quot;&gt;
+&lt;plist version=&quot;0.9&quot;&gt;
+&lt;dict&gt;
+    &lt;key&gt;NSPrincipalClass&lt;/key&gt;
+    &lt;string&gt;NSApplication&lt;/string&gt;
+    &lt;key&gt;CFBundleIconFile&lt;/key&gt;
+    &lt;string&gt;sigrok.icns&lt;/string&gt;
+    &lt;key&gt;CFBundlePackageType&lt;/key&gt;
+    &lt;string&gt;APPL&lt;/string&gt;
+    &lt;key&gt;CFBundleGetInfoString&lt;/key&gt;
+    &lt;string&gt;PulseView is a Qt based logic analyzer GUI for sigrok.&lt;/string&gt;
+    &lt;key&gt;CFBundleSignature&lt;/key&gt;
+    &lt;string&gt;????&lt;/string&gt;
+    &lt;key&gt;CFBundleExecutable&lt;/key&gt;
+    &lt;string&gt;pulseview&lt;/string&gt;
+    &lt;key&gt;CFBundleIdentifier&lt;/key&gt;
+    &lt;string&gt;com.yourcompany.pulseview&lt;/string&gt;
+    &lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+    &lt;string&gt;0.3.0-git-5d73886&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</pre>
+<p>さて、これでいいはずですが、、、、結果は冒頭に書いたとおりです。ちなみに、Qt5.5 でも似たような感じでした。</p>
+<p>git リポジトリを見ると、この24時間くらいでそこそこ手が入っているようです。</p>
+<blockquote>
+<p>pulseview.git / summary<br />
+    <br /><a title="http://sigrok.org/gitweb/?p=pulseview.git;a=summary" href="http://sigrok.org/gitweb/?p=pulseview.git;a=summary" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://sigrok.org/gitweb/?p=pulseview.git;a=summary<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>あと、オフィシャルのwiki にもビルドするのに必要な要件などがまとまっているようです。</p>
+<blockquote>
+<p>sigrok wiki : Building<br />
+    <br /><a title="https://sigrok.org/wiki/Building#Building_from_source" href="https://sigrok.org/wiki/Building#Building_from_source" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://sigrok.org/wiki/Building#Building_from_source<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>▼まとめ</p>
+<p>・PulseView の 0.3.0-git-f3697d3 では、だめだった<br />
+  <br />・デバイスのオープンでこけているようです</p>
+<p>・libglib-2.0.0.dylib から こけている感じ。</p>
+<p>・ライブラリのコピーが悪いのかも</p>
+<p>・0.2.0 のソースで試してだめなら、Qt4 のライブラリの入れ方などが悪いのかも。</p>
+<p>・Qt で osx の実行ファイルを作るユーティリティーとかないかなぁ</p>
+<p>・クリーンインストールしたosx でやってみたいが、その環境がない</p>
+<p>・Qt4 の QtGui とか QtCore とかの Framework はどこにあるのでしょうか？</p>
+<p>・ソースに手をつける以前の問題で疲れ果てた</p>
+<p>&#160;</p>
+<p>参考</p>
+<p>Qt for OS X &#8211; Deployment<br />
+  <br /><a title="http://doc.qt.io/qt-5/osx-deployment.html" href="http://doc.qt.io/qt-5/osx-deployment.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://doc.qt.io/qt-5/osx-deployment.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+<p>Building OSX App Bundle<br />
+  <br /><a title="http://stackoverflow.com/questions/1596945/building-osx-app-bundle" href="http://stackoverflow.com/questions/1596945/building-osx-app-bundle" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://stackoverflow.com/questions/1596945/building-osx-app-bundle<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>
+  <br />sigrok bugzilla</p>
+<p><a title="http://sigrok.org/bugzilla/describecomponents.cgi?product=PulseView" href="http://sigrok.org/bugzilla/describecomponents.cgi?product=PulseView" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://sigrok.org/bugzilla/describecomponents.cgi?product=PulseView<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>FX2LP でsigrok のロジックアナライザー</title>
+		<link>/1946.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 27 Dec 2015 12:26:13 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[C]]></category>
+		<category><![CDATA[espeink]]></category>
+		<category><![CDATA[OrangePi]]></category>
+		<category><![CDATA[OrangePiPC]]></category>
+		<category><![CDATA[Parts]]></category>
+		<guid isPermaLink="false">/?p=1946</guid>
+							<description><![CDATA[年末で、何かとイベントごとがあってなかなかブログを更新できずにいました。 Aliexpress からもどんどんお品が届いて、ロジックアナライザーとして使うボードも到着しました。テストがてら、OrangePi PC の G [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>年末で、何かとイベントごとがあってなかなかブログを更新できずにいました。</p>
+<p>Aliexpress からもどんどんお品が届いて、ロジックアナライザーとして使うボードも到着しました。テストがてら、OrangePi PC の GPIO につないだLED のタイミングを計測してみること。</p>
+<p>配線は、とりあえず1チャンネルでテスト。全部で8チャンネルいけます。</p>
+<p><img loading="lazy" title="logic2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic2" src="/wp-content/uploads/2015/12/logic2.jpg" width="640" height="480" /> </p>
+<p>ちょっとわかりにくいですが、PB0 ～ PB7 までの端子が sigrok でいう0から7 までに対応しています。とりあえず今回はPB0 の端子につないで1チャンネルの表示をしてみました。</p>
+<p><img loading="lazy" title="PulseView1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView1" src="/wp-content/uploads/2015/12/pulseview1.png" width="640" height="445" /> </p>
+</p>
+<p>全体のテスト配線は以下のような感じです。</p>
+<p>&#160;</p>
+<p> <img loading="lazy" title="logic" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic" src="/wp-content/uploads/2015/12/logic.jpg" width="640" height="480" />   </p>
+<p>osx だと sigrok のソフトウェアの中にファームウェアがあります。最新のファームウェアは、以下にビルド済みのものがあります。</p>
+<blockquote>
+<p>fx2lafw (pre-built firmware files の項を参照)      <br /><a title="http://sigrok.org/wiki/Fx2lafw" href="http://sigrok.org/wiki/Fx2lafw" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://sigrok.org/wiki/Fx2lafw<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>つい先月にリリースされている0.1.3 を使いました。</p>
+<blockquote>
+<p>sigrok-firmware-fx2lafw-bin-0.1.3.tar.gz</p>
+<p><a title="http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/" href="http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>ほどよく、配置。*.fw がファームウェアです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:sigrok-firmware junkhack$ pwd
+/Applications/PulseView.app/Contents/share/sigrok-firmware
+HOPE:sigrok-firmware junkhack$ ll
+total 1088
+-rw-r--r--@ 1 junkhack  admin  45268 11  3  2014 asix-sigma-100.fw
+-rw-r--r--@ 1 junkhack  admin  45396 11  3  2014 asix-sigma-200.fw
+-rw-r--r--@ 1 junkhack  admin  45396 11  3  2014 asix-sigma-50.fw
+-rw-r--r--@ 1 junkhack  admin  45360 11  3  2014 asix-sigma-50sync.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-braintechnology-usb-lps.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cwav-usbeeax.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cwav-usbeedx.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cwav-usbeesx.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cypress-fx2.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-saleae-logic.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-sigrok-fx2-16ch.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-sigrok-fx2-8ch.fw
+-rw-r--r--@ 1 junkhack  admin  81808 11  3  2014 sysclk-lwla1034-extneg.rbf
+-rw-r--r--@ 1 junkhack  admin  81808 11  3  2014 sysclk-lwla1034-extpos.rbf
+-rw-r--r--@ 1 junkhack  admin  81460 11  3  2014 sysclk-lwla1034-int.rbf
+-rw-r--r--@ 1 junkhack  admin  48521 11  3  2014 sysclk-lwla1034-off.rbf
+HOPE:sigrok-firmware junkhack$ </pre>
+<p>sigrok の PluseView を開きます。</p>
+<p>現在、手元でビルドしていないので、ELIAS さんのビルドしたものです。</p>
+<blockquote>
+<p>osx PulseView.dmg （0.2.0 : 2014/11/04 build）<br />
+    <br /><a title="http://eliasoenal.com/2014/11/04/sigrok-for-os-x/" href="http://eliasoenal.com/2014/11/04/sigrok-for-os-x/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://eliasoenal.com/2014/11/04/sigrok-for-os-x/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>File Menu から Connect to Device を選択して、以下のようにスキャンすると出ました。</p>
+<p><img loading="lazy" title="Connect_to_Device" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Connect_to_Device" src="/wp-content/uploads/2015/12/connect_to_device.png" width="523" height="395" /> </p>
+<p>osx の USB 認識は、以下のようでした。</p>
+<p><img loading="lazy" title="osxusb" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="osxusb" src="/wp-content/uploads/2015/12/osxusb.png" width="354" height="320" /> </p>
+<p>system_profiler で見ると以下のように出ます。</p>
+<p>&#160;</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ system_profiler SPUSBDataType
+USB:
+::
+
+            fx2lafw:
+
+              Product ID: 0x3881
+              Vendor ID: 0x0925
+              Version:  0.01
+              Speed: Up to 480 Mb/sec
+              Manufacturer: sigrok
+              Location ID: 0x1c120000 / 2
+              Current Available (mA): 500
+              Current Required (mA): 100</pre>
+<p>&#160;</p>
+<p>で、LEDをGPIO で光らせるプログラムで、LED を ON するタイミングを以下のように、usleep を使って1ms 光らせてみました。</p>
+<p>抜粋箇所だけ載せておきます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">#include &lt;event.h&gt;
+#include &lt;wiringPi.h&gt;
+#include &lt;unistd.h&gt;
+
+#define LED 16
+#define MSEC 10
+#define USEC 1000 // 1000 = 1ms (0.000001 sec = 1 micro second)
+
+int
+blink(void){
+    wiringPiSetup () ;
+    pinMode (LED, OUTPUT) ;
+
+    digitalWrite (LED, HIGH) ;
+    // delay (MSEC);
+    usleep(USEC);
+    digitalWrite (LED,  LOW) ;
+}
+::</pre>
+<p>全体のプログラムは、末尾につけておきます。このプログラムは、libevent を使ってfifo ファイルに read イベントがあったら、上記のblink ファンクションが呼ばれる仕組みです。あとで、書きますが、nginx のログをパイプさせて監視させています。</p>
+<p>で、他のホストから ab で web アクセスしてみます。</p>
+<blockquote>
+<p>$ ab -n 5 -c 1 <a href="/index.html" data-wpel-link="internal" rel="noopener noreferrer">/index.html</a></p>
+</blockquote>
+<p>とりあえず、5回くらいで。nginx のアクセスログには、5回記録されています。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
+192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
+192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
+192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
+192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;</pre>
+<p>そのタイミングを取ると以下のようです。</p>
+<p><img loading="lazy" title="PulseView" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView" src="/wp-content/uploads/2015/12/pulseview.png" width="640" height="446" /></p>
+<p>今度は、300us ほどにして、100回アクセスしてみました。ちゃんと100回、凹凸があるか数えたらありました。</p>
+<p><img loading="lazy" title="PulseView_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PulseView_2" src="/wp-content/uploads/2015/12/pulseview_2.png" width="640" height="403" /> </p>
+<p>マウスホイールすると拡大できます。300us より若干大きくなっているのは、イベント処理のプログラムや時計の誤差などの影響ですかね。</p>
+<p><img loading="lazy" title="300us" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="300us" src="/wp-content/uploads/2015/12/300us.png" width="640" height="404" /> </p>
+<p>1ms くらいのものは問題なく見れそうということがわかりました。2Mhz 以上あげると、固まるのはなぜですかね。24Mhz までいけるはずですが？</p>
+<p>&#160;</p>
+<p>1us 単位の計測が今のところできないです。あと、トリガーをかけようとチャンネルをクリックすると落ちる。うーん、独自にコンパイルしてみるしかなさそうですね。</p>
+<p>&#160;</p>
+<p>▼まとめ</p>
+<p>・EZ-USB FX2LP CY7C68013A というのをゲット（非常に安価だった）</p>
+<p>・sigrok の PluseView の osx 版（0.2.0）を使ったが、無事チャンネル0のパルスが取れた</p>
+<p>・PCB上のPB0 ～ PB7 までの端子が sigrok でいう0から7 までに対応</p>
+<p>・fx2lafw はビルド済みの0.1.3 を使用</p>
+<p>・2Mhz までは計測できるが、それ以上でかたまる</p>
+<p>・fx2lafw が悪いのか、PluseView が悪いのか切り分ける必要あり</p>
+<p>・テストプログラム側のusleep を削除して、単純に点灯消灯をしてタイミングを取ったら、500ns という単位が出たので、1us の単位でも取得できそう。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

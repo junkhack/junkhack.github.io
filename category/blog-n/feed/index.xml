@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>新ブログ &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 20 Sep 2020 06:59:24 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>このブログは、スマートフォンの中に引越ししました！</title>
+		<link>/9510.html</link>
+					<comments>/9510.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 18 Sep 2020 04:00:13 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9510</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
+							<description><![CDATA[えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！ なんで、引越しをしたの？ はい、結論から言いますと今まで使っていたWordPress.comのパー [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！</p>
+
+
+
+<h3>なんで、引越しをしたの？</h3>
+
+
+
+<p>はい、結論から言いますと今まで使っていたWordPress.comのパーソナルプランの料金が上がったからです。月額400円から500円で年間一括6000円となります。まぁ、100円くらい良いんですがなんとなく、年間で6000円かーと思いましてね。</p>
+
+
+
+<p>今から2年ほど前、 WordPress.com 上のパーソナルプランっていうところを使い始めていました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkwww.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkwww.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
+
+
+
+<p>レンタルサーバはたくさんあるんですが、WordPressのオートマチック（Automattic Inc.）がやっているサービスです。ビジネスプランまで契約しようかと当初は思っていましたが、このブログがそんな人気が出るわけでもなくチマチマとパーソナルプラン（当初月額400円）でやっていました。</p>
+
+
+
+<p>更新期限が10月中旬ということもあって、２、３ヵ月前から自宅サーバを検討していました。ご興味があるかたは、以下から検索してね。（検索システムも速くしてあります）</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termuxとか、自宅サーバ関連</p><cite><a href="/?s=Termux+自宅サーバ" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/?s=Termux+自宅サーバ</a></cite></blockquote>
+
+
+
+<p>月に500円、年間6000円支払うなら電気代に払って自宅サーバでブログを楽しみたいな！　と思ったのであります。</p>
+
+
+
+<h3>スマホの中に引越しとは？</h3>
+
+
+
+<p>　はい、このブログはスマホの中から今見ているみなさんに提供しているんです。信じられませんよね！w</p>
+
+
+
+<p>これは、Termux というAndroidアプリがありまして、それがつまりは Linuxなんですよね。正確にいえば、Android自体がLinux Kernelを採用したOSなんで、その上でLinux環境を構築するアプリなんです。</p>
+
+
+
+<p>で、その環境にWEBサーバやら、データベースサーバやらを作り、WordPressを動作させているんです。回線は、普通のNTTの光回線に InterLinkのIP固定サービスでやっております。いわゆる自宅サーバというやつですね。</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>これで、Pluginもテーマファイルもやりたい放題です。</p>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>やっぱりWordPressはカスタマイズしたいよね！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<p>とりあず、今日は引越ししたよ！　というネタをあげたかったので以上にします。またねー。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/9510.html/feed</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>備忘録：設定ファイルの空白行（改行）とコメントを削除して表示したい</title>
+		<link>/9468.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 13 Sep 2020 17:24:17 +0000</pubDate>
+				<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">/?p=6074</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/08/wormhole.png" />
+							<description><![CDATA[※ブロックエディターで編集したら、表示が壊れたので再投稿です。 いろんなやり方がありますが、自分が気に入ってるのは以下３つです。 $ grep . FILENAME &#124; egrep -v ^*# 改行はまぁ出てもいいやと [&#8230;]]]></description>
+										<content:encoded><![CDATA[<blockquote>
+<p>※ブロックエディターで編集したら、表示が壊れたので再投稿です。</p>
+</blockquote>
+<p>いろんなやり方がありますが、自分が気に入ってるのは以下３つです。</p>
+<pre>$ grep . <em>FILENAME</em> | egrep -v ^*#</pre>
+<p>改行はまぁ出てもいいやという場合は、コメント行だけ削除。</p>
+<pre>$ egrep -v ^*# <em>FILENAME</em></pre>
+<p>なんか空白（でたぶん改行が）多いなって場合は、パイプして、grep . をつければOK。 改行と、コメント行の場合は、こんな書き方も。</p>
+<pre class="p1"><span class="s1">$ egrep -v '^*#|^$' <em>FILENAME</em></span></pre>
+<p>大体の設定ファイルは、空白行じゃなく改行だけの行なのでこれで足ります。最後のやり方だと、設定ファイルだけ見る場合、↑（上矢印）で直近コマンド出して、最後のファイル名だけ変えればまた使えるので、便利です。ちゃんとコメント行と空白行（改行と空白行）を削除したい場合は、以下になりますがタイプしずらいですよね！</p>
+<pre class="p1"><span class="s1">$ egrep -v '^*#|^\s*$' <em>FILENAME</em></span></pre>
+<p>例えば、termuxのapache2の設定ファイル（デフォルト）httpd.confは改行とコメント行を抜くと以下です。</p>
+<pre>$ egrep -v '^*#|^$' httpd.conf.org 
+ServerRoot "/data/data/com.termux/files/usr"
+Listen 8080
+LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
+LoadModule authn_file_module libexec/apache2/mod_authn_file.so
+LoadModule authn_core_module libexec/apache2/mod_authn_core.so
+LoadModule authz_host_module libexec/apache2/mod_authz_host.so
+LoadModule authz_groupfile_module libexec/apache2/mod_authz_groupfile.so
+LoadModule authz_user_module libexec/apache2/mod_authz_user.so
+LoadModule authz_core_module libexec/apache2/mod_authz_core.so
+LoadModule access_compat_module libexec/apache2/mod_access_compat.so
+LoadModule auth_basic_module libexec/apache2/mod_auth_basic.so
+LoadModule reqtimeout_module libexec/apache2/mod_reqtimeout.so
+LoadModule include_module libexec/apache2/mod_include.so
+LoadModule filter_module libexec/apache2/mod_filter.so
+LoadModule mime_module libexec/apache2/mod_mime.so
+LoadModule log_config_module libexec/apache2/mod_log_config.so
+LoadModule env_module libexec/apache2/mod_env.so
+LoadModule headers_module libexec/apache2/mod_headers.so
+LoadModule setenvif_module libexec/apache2/mod_setenvif.so
+LoadModule version_module libexec/apache2/mod_version.so
+LoadModule slotmem_shm_module libexec/apache2/mod_slotmem_shm.so
+LoadModule unixd_module libexec/apache2/mod_unixd.so
+LoadModule status_module libexec/apache2/mod_status.so
+LoadModule autoindex_module libexec/apache2/mod_autoindex.so
+
+
+
+
+LoadModule negotiation_module libexec/apache2/mod_negotiation.so
+LoadModule dir_module libexec/apache2/mod_dir.so
+LoadModule userdir_module libexec/apache2/mod_userdir.so
+LoadModule alias_module libexec/apache2/mod_alias.so
+
+
+ServerAdmin you@example.com
+
+AllowOverride none
+Require all denied
+
+DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
+&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"&gt;
+Options Indexes FollowSymLinks
+AllowOverride None
+Require all granted
+
+
+DirectoryIndex index.html
+
+&lt;Files ".ht*"&gt;
+Require all denied
+
+ErrorLog "var/log/apache2/error_log"
+LogLevel warn
+
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b" common
+
+LogFormat "%h %l %u %t \"%r\" %&gt;s %b \"%{Referer}i\" \"%{User-Agent}i\" %I %O" combinedio
+
+CustomLog "var/log/apache2/access_log" common
+
+
+ScriptAlias /cgi-bin/ "/data/data/com.termux/files/usr/lib/cgi-bin/"
+
+
+
+&lt;Directory "/data/data/com.termux/files/usr/lib/cgi-bin"&gt;
+AllowOverride None
+Options None
+Require all granted
+
+
+RequestHeader unset Proxy early
+
+
+TypesConfig etc/apache2/mime.types
+AddType application/x-compress .Z
+AddType application/x-gzip .gz .tgz
+
+
+Include etc/apache2/extra/proxy-html.conf
+
+
+SSLRandomSeed startup builtin
+SSLRandomSeed connect builtin
+</pre>
+<p>空白行は、ないでしょ。つまり改行だけなんで、上記のように表示されます。空白行を含む表現は、以下なんでタイプ数が多いので面倒なんです。</p>
+<pre><span class="s1">'^\s*$'</span></pre>
+<p>まぁ、どうでもいい話ですが。w</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

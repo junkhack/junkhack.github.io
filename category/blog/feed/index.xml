@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Blog &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 01 Jun 2021 20:43:58 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>ジェットパックプラグインは死活監視サービスがあるのか！</title>
+		<link>/9469.html</link>
+					<comments>/9469.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 18 Sep 2020 09:30:10 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=6079</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/sitedown.png" />
+							<description><![CDATA[今回引越しをやっていて、気が付いたことがいくつかあります。その１つに、ジェットパックプラグインには、WEBがちゃんと動いているかどうかをチェックしてくれるサービスが無料でありました。 とにかく、たくさん機能があるんですよ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>今回引越しをやっていて、気が付いたことがいくつかあります。その１つに、ジェットパックプラグインには、WEBがちゃんと動いているかどうかをチェックしてくれるサービスが無料でありました。</p>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p><strong>Jetpack</strong>プラグインって機能いっぱいあるな！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>使い切れるのかしら？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>とにかく、たくさん機能があるんですよね。最近は、このジェットパックに有料機能をつける戦略のようで、バックアップとかSEOとかあるようです。今回は無料の機能で死活監視機能がどんなものか試してみました。</p>
+
+
+
+<h3>サーバが動いてないとき</h3>
+
+
+
+<p>こんな表示のメールが届きます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="586" height="667" src="/wp-content/uploads/2020/09/sitedown.png" alt="" class="wp-image-9559"/></figure></div>
+
+
+
+<h3>サーバが再び動き出したとき</h3>
+
+
+
+<p>こんな表示のメールがきます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="591" height="558" src="/wp-content/uploads/2020/09/siteonline.png" alt="" class="wp-image-9560"/></figure></div>
+
+
+
+<p>ログには？</p>
+
+
+
+<p>ちょうどこの時は、何か作業していてWEBを止めていたんだと思います。ログには以下のように出力されていました。</p>
+
+
+
+<pre class="wp-block-code"><code>192.0.101.226 - - &#091;15/Sep/2020:00:46:13 +0900] "HEAD / HTTP/1.1" 403 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
+192.0.101.226 - - &#091;15/Sep/2020:00:54:50 +0900] "HEAD / HTTP/1.1" 403 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
+192.0.101.226 - - &#091;15/Sep/2020:01:02:42 +0900] "HEAD / HTTP/1.1" 302 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
+192.0.101.226 - - &#091;15/Sep/2020:01:02:44 +0900] "HEAD /wp-admin/setup-config.php HTTP/1.1" 200 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
+192.0.101.226 - - &#091;15/Sep/2020:01:11:53 +0900] "HEAD / HTTP/1.1" 200 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
+192.0.101.226 - - &#091;15/Sep/2020:01:18:32 +0900] "HEAD / HTTP/1.1" 200 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
+192.0.101.226 - - &#091;15/Sep/2020:01:26:37 +0900] "HEAD / HTTP/1.1" 200 0 "-" "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"</code></pre>
+
+
+
+<p>何をしていたのかは忘れましたが、ログを見るとおそらく、ジェットパッックプラグインの再セットアップでもやっていたのでしょう。</p>
+
+
+
+<p>無料でやってくれるなら、使ってみてもいいかなと。現在は、とりあえずこの機能を使うかどうか検討中なので一旦停止しています。</p>
+
+
+
+<h3>他の無料の外部から監視するサービスは？</h3>
+
+
+
+<p>お仕事では、Mackerel（マカレル）というサービスを使っていますが、これ無料では監視ができないんですよね。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Mackerel（マカレル）　料金</p><cite><a href="https://mackerel.io/ja/pricing/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://mackerel.io/ja/pricing/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>すごく使いやすくて、警告をLineとかに飛ばしたりできるんで重宝（迷惑かも？w）しています。</p>
+
+
+
+<p>無料のこれ系のサービスは今まで調査したことがないので、この機会に少し調べてみようと思います。これ系の検索ワードは、日本語では、外形監視 無料　とか。英語だとなんていうんでしょうかね？　APM (Application Performance Monitoring)&nbsp;とかかな？</p>
+
+
+
+<p><a href="/wp-admin/edit.php?post_type=post" data-wpel-link="internal" rel="noopener noreferrer"></a></p>
+
+
+
+<p>なんとなく、良さそうなものをピックアップしてみます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>New Relic</p><cite><a href="https://newrelic.co.jp/pricing" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://newrelic.co.jp/pricing<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p>Site24x7</p><cite><a href="https://www.site24x7.jp/url-monitoring.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.site24x7.jp/url-monitoring.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p>StatusCake</p><cite><a href="https://www.statuscake.com/pricing" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.statuscake.com/pricing<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p>Freshworks Inc.</p><cite><a href="https://www.freshworks.com/website-monitoring/pricing/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.freshworks.com/website-monitoring/pricing/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>比較表を今作る元気はないので、とりあえずメモしておきます。Site24x7とかは、スピードテストとかでお世話になったことがあり知っていますが他は知りませんでした。結構、無料でもやれるんですね。今度、どれか採用してレポートしたいなと思います。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/9469.html/feed</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>このブログは、スマートフォンの中に引越ししました！</title>
+		<link>/9510.html</link>
+					<comments>/9510.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 18 Sep 2020 04:00:13 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9510</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
+							<description><![CDATA[えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！ なんで、引越しをしたの？ はい、結論から言いますと今まで使っていたWordPress.comのパー [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！</p>
+
+
+
+<h3>なんで、引越しをしたの？</h3>
+
+
+
+<p>はい、結論から言いますと今まで使っていたWordPress.comのパーソナルプランの料金が上がったからです。月額400円から500円で年間一括6000円となります。まぁ、100円くらい良いんですがなんとなく、年間で6000円かーと思いましてね。</p>
+
+
+
+<p>今から2年ほど前、 WordPress.com 上のパーソナルプランっていうところを使い始めていました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkwww.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkwww.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
+
+
+
+<p>レンタルサーバはたくさんあるんですが、WordPressのオートマチック（Automattic Inc.）がやっているサービスです。ビジネスプランまで契約しようかと当初は思っていましたが、このブログがそんな人気が出るわけでもなくチマチマとパーソナルプラン（当初月額400円）でやっていました。</p>
+
+
+
+<p>更新期限が10月中旬ということもあって、２、３ヵ月前から自宅サーバを検討していました。ご興味があるかたは、以下から検索してね。（検索システムも速くしてあります）</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termuxとか、自宅サーバ関連</p><cite><a href="/?s=Termux+自宅サーバ" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/?s=Termux+自宅サーバ</a></cite></blockquote>
+
+
+
+<p>月に500円、年間6000円支払うなら電気代に払って自宅サーバでブログを楽しみたいな！　と思ったのであります。</p>
+
+
+
+<h3>スマホの中に引越しとは？</h3>
+
+
+
+<p>　はい、このブログはスマホの中から今見ているみなさんに提供しているんです。信じられませんよね！w</p>
+
+
+
+<p>これは、Termux というAndroidアプリがありまして、それがつまりは Linuxなんですよね。正確にいえば、Android自体がLinux Kernelを採用したOSなんで、その上でLinux環境を構築するアプリなんです。</p>
+
+
+
+<p>で、その環境にWEBサーバやら、データベースサーバやらを作り、WordPressを動作させているんです。回線は、普通のNTTの光回線に InterLinkのIP固定サービスでやっております。いわゆる自宅サーバというやつですね。</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>これで、Pluginもテーマファイルもやりたい放題です。</p>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>やっぱりWordPressはカスタマイズしたいよね！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<p>とりあず、今日は引越ししたよ！　というネタをあげたかったので以上にします。またねー。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/9510.html/feed</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>スマホ上に作った自宅サーバのWordPressで、テスト評価がほぼオールAになった！</title>
+		<link>/9466.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2020 19:51:21 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=6030</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/allA.png" />
+							<description><![CDATA[はい、ただ今引っ越し準備中でして、このブログをスマートフォン上に作ったWordPressサーバに引っ越しします。９月末か１０月頭予定で各種チューニングをやっていましたが、ついにスピードテスト系の評価サイトでほぼオールAを [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>はい、ただ今引っ越し準備中でして、このブログをスマートフォン上に作ったWordPressサーバに引っ越しします。９月末か１０月頭予定で各種チューニングをやっていましたが、ついにスピードテスト系の評価サイトでほぼオールAを取ることに成功しました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_result_-_tokyo___jh_gpl_jp__-_09_12_20_01_36_13.png?w=952" alt="" class="wp-image-6034" /></figure>
+
+
+
+<p>いくつかある評価サイトの中では、ここが一番好きです。ここの計測サイトは東京リージョンもあり、また各種グラフが見やすくビデオプレビューまで付いて来ます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>WEBPAGETEST</p><cite>https://www.webpagetest.org/</cite></blockquote>
+
+
+
+<p>主な評価観点は、左から以下のようになっています。</p>
+
+
+
+<ol><li>セキュリティ</li><li>初期アクセスまでの時間</li><li>Keep-alive通信がONか？</li><li>圧縮転送されているか？</li><li>イメージの圧縮はどうか？</li><li>静的コンテンツがキャッシュされているか？</li><li>CDNを使っているか？</li></ol>
+
+
+
+<p>７番のCDNは一部、WordPressのをつかっていますが、全部は使っていないので、x　になっています。これはどうするかまだ迷っています。一度、国内のCDNをテストで使ってみようと思ったのですがうまく動作せずでした。まだ原因がわかっていません。</p>
+
+
+
+<p>　難易度的には、簡単なものから３・４・５・６・２・１・７で難しかったです。今回は、自分なりの考えをメモりつつ、１つづつ紹介していきたいなと思います。必ず正解っていう部分はないところでもあるので、あくまで自分はこんな対策と対応をしたよっていう感じです。いろいろツッコミどころはあるとは思いますが、何かあればコメントでお気軽にどうぞ。</p>
+
+
+
+<h3>難易度G・Keep-alive通信がONか？</h3>
+
+
+
+<p>これは apache を使おうが、nginx を使おうが最初からデフォルトONになっているので意識せずともAになると思います。今回は、最終的に nginx を使うことにしましたので、nginx.conf に以下を設定しています。タイムアウト時間は短いほうが良いと思います。でも、ここは突き詰めると難しい部分です。興味がある方は、以下などを一読されると良いかなと思います。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>ぜんぶTIME_WAITのせいだ！</p><cite>https://qiita.com/kuni-nakaji/items/c07004c7d9e5bb683bc2</cite></blockquote>
+
+
+
+<pre class="wp-block-code"><code>http {
+::（省略）
+    keepalive_requests 100;
+    keepalive_timeout  3;
+::（省略）</code></pre>
+
+
+
+<p>termux 上の android OSでは、一般的なLinuxと違ってKernelパラメータも調整されているはずですので、ここが何が適切なのかを明確にするには root権限のあるスマホで termux を動かし負荷テストをしながら、各種TCPの状態遷移を見ていくのが正しい姿勢です。という意味では一番難しい部類ですが、今回はそこまで突っ込まないことにします。</p>
+
+
+
+<h3>難易度F・圧縮転送されているか？</h3>
+
+
+
+<p>圧縮レベルは１でも十分という意見はありそうです。</p>
+
+
+
+<pre class="wp-block-code"><code>http {
+::（省略）
+    gzip  on;
+    gzip_vary       on;
+    gzip_proxied    any;
+    gzip_comp_level 6;
+    gzip_types      text/plain text/css text/xml text/javascript
+                    application/json application/javascript application/x-javascript
+                    application/xml application/rss+xml application/atom+xml
+                    image/svg+xml;
+::（省略）</code></pre>
+
+
+
+<h3>難易度E・イメージの圧縮はどうか？</h3>
+
+
+
+<p>これは今回は、ジェットパックのプラグインでwordpress のCDN側から画像が出ています。そこで適切に圧縮してくれているので簡単です。ただ、やりだすと奥が深いので、中間くらいの位置付けにしてあります。</p>
+
+
+
+<h3>難易度D・静的コンテンツがキャッシュされているか？</h3>
+
+
+
+<p>これは、レスポンスヘッダに<strong>No max-age </strong>または<strong> expires</strong>をつければ解決します。具体的には、nginxの設定で以下を設定すればOKです。</p>
+
+
+
+<pre class="wp-block-code"><code>location ~* \.(jpg|jpeg|gif|png|css|js|swf|ico|pdf|svg|eot|ttf|woff)$ {
+    expires 60d;
+    add_header Cache-Control "public, no-transform";
+    access_log off;
+}</code></pre>
+
+
+
+<h3>難易度C・初期アクセスまでの時間</h3>
+
+
+
+<p>これは、WordPress側でキャッシュを作るのが一番最速です。各種プラグインがありますが、いろいろ試した結果、今の所はAutoptimizeに落ち着いています。</p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://ja.wordpress.org/plugins/autoptimize/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/autoptimize_e28093_wordpress_e38395e3829ae383a9e382afe38299e382a4e383b3___wordpress_org_e697a5e69cace8aa9e.png?w=743" alt="" class="wp-image-6040" /></a></figure></div>
+
+
+
+<p>デフォルト設定でも十分効果はあります。迷ってる設定としては、Google フォントの削除　をするかしないかです。表示の綺麗さを取るか、お客様に快適にアクセスしてもらうのを取るか　ですね。あとは、ネットワーク的な速度の部分があります。今は InterLink の回線上にいますが、少し工夫してある部分といえば、常時利用する経路とは分離してあるくらいでしょうか？　WiFiの5G接続でもこのくらいは出ますよという参考値になればと思います。WiFiルーターの側にスマホ（サーバ）は置いてあります。距離を離すと応答速度が遅れます。</p>
+
+
+
+<h3>難易度B・セキュリティ</h3>
+
+
+
+<p>これが結構難しかったです。まず、WordPress の最新を使ってもjquery 1.12.4でした。これは脆弱性があるので、あげて置きたいところですが WordPressはIE8のことも考えて意図的に落としているようです（たぶん）。なので、以下プラグインで上書きしています。</p>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://wordpress.org/plugins/jquery-manager/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/jquery_manager_for_wordpress_e28093_wordpress_plugin___wordpress_org.png?w=846" alt="" class="wp-image-6042" /></a></figure></div>
+
+
+
+<p>しかし、これ以外もやることがあって以下のチェックサイトに行ったほうがわかりやすいかもしれません。各種セキュリー関連のhttpヘッダーを付与する必要があります。</p>
+
+
+
+<p>https://securityheaders.com/</p>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><img src="/wp-content/uploads/2020/09/scan_results_for_https___jh_gpl_jp_.png?w=683" alt="" class="wp-image-6045" /></figure>
+
+
+
+<p>最初はここ、真っ赤でF判定だったです。</p>
+
+
+
+<p>対策としては、NGINXの設定でヘッダに以下をつければA判定となりクリアになりますが、まだiFrameの設定が未完結です。X-Frame-Optionsは、古く　Content-Security-Policy　の指定で行うのが良さそうです。frame-ancestors　を指定し組み込める参照元を制限する方法が良いということはわかっているのですが、まだ設定値が決まりません。A判定は取っていますが、内容がない状態です。</p>
+
+
+
+<pre class="wp-block-code"><code>add_header Strict-Transport-Security "max-age=15552000"; 
+add_header X-XSS-Protection "1; mode=block";
+add_header X-Frame-Options SAMEORIGIN;
+add_header X-Frame-Options "ALLOW-FROM https://www.youtube.com/";
+add_header X-Content-Type-Options nosniff;
+add_header Content-Security-Policy "default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' ;";
+add_header Referrer-Policy strict-origin always;
+add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
+
+
+
+<h3>難易度A・CDNを使っているか？</h3>
+
+
+
+<p>ここは、DNSの向け先を変えたり、CDNのキャッシュをコントロールしたりする必要があり、運用とも関わる部分です。一度設定したのですが、うまく動作せずここは今の所一番の課題となっています。そもそも、月間５０００ページビューにも行かないこのサイトでCDNを導入する必要があるかどうか？　という点もありますが、一度やって見ないとわかりません。あと仕事ではなく、趣味なので無料のものしか使う気はありません。さて、どこがいいんでしょうかね？</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>このサーバは、スマホで動いていてWiFiの無線で繋がっていますが、こんなちっさな筐体でもWordPressが動く、しかもA評価までもらえるなんて！　感動です。Termuxは最高のアプリですね。神アプリ認定です。</p>
+
+
+
+<p>　しかも、常時SSL対応ですよ。もちろん、無料のSSL証明書です。なんだか時代は刻々と進化していますね。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた</title>
+		<link>/5943.html</link>
+					<comments>/5943.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2020 19:48:02 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5943</guid>
+				<media:thumbnail url="/wp-content/uploads/2011/02/diyilamp-150x150.jpg" />
+							<description><![CDATA[NGINXとphp-fpm構成にしてみました。いつもの計測サイトです。 夜間のネットワークが一番空いている時なんで、速い感じでしょうか？ GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>NGINXとphp-fpm構成にしてみました。いつもの<a href="https://www.webpagetest.org/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">計測サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945" /></figure></div>
+
+
+
+<p>夜間のネットワークが一番空いている時なんで、速い感じでしょうか？</p>
+
+
+
+<p>GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　78秒かかっていたテストが５．５秒。あ、これWordPressのキャッシュ効かせる前でしたね。apache構成でも同じ条件でサイド計測しておかないと。</p>
+
+
+
+<pre class="wp-block-code"><code>$ ab -n 1000 -c 100 http://jh.gpl.jp/
+：：
+Server Software:        nginx
+Server Hostname:        jh.gpl.jp
+Server Port:            80
+
+Document Path:          /
+Document Length:        15997 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.479 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      16202000 bytes
+HTML transferred:       15997000 bytes
+Requests per second:    182.52 &#091;#/sec] (mean)
+Time per request:       547.887 &#091;ms] (mean)
+Time per request:       5.479 &#091;ms] (mean, across all concurrent requests)
+Transfer rate:          2887.87 &#091;Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean&#091;+/-sd] median   max
+Connect:       16   20   6.5     19     149
+Processing:    57  487  82.1    480     747
+Waiting:       39  467  82.0    460     724
+Total:         88  507  82.5    501     783
+
+Percentage of the requests served within a certain time (ms)
+  50%    501
+  66%    531
+  75%    544
+  80%    551
+  90%    578
+  95%    642
+  98%    702
+  99%    738
+ 100%    783 (longest request)</code></pre>
+
+
+
+<p>まだ、SSLとか設定はこれからでパラメータなども未調整です。設定値は以下のサイトを大いに参考にさせていただきました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://worklog.be/archives/3222" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">NginxでWordPressを使う時の設定をまとめてみた<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>あとは、SSL設定をtermuxでどうやるかですね。自動化したいので、どんな感じの仕組みが動くんでしょうか。</p>
+
+
+
+<p>あ、それからRapid START CDNのフェイスブックチャットに応答があったんで、もう一度試してみるかもしれません。</p>
+
+
+
+<h2> 追記</h2>
+
+
+
+<p>やっぱりWEBフォント読まないほうが速いんで、Autoptimizeで試験的にカットしてみました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953" /></figure></div>
+
+
+
+<p>読み込むものが少なくなれば、表示するのも速いですね。WEBフォントがなくなることで、多少文字の表示は意図したものと違うことになりますが、快適に読んでもらえるほうが良いと思うので、とりあえずはWEBフォントは外す方向で。</p>
+
+
+
+<p>あと、モバイル向けのスコアがかなり変わりました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956" /></a></figure></div>
+
+
+
+<p></p>
+
+
+
+<p>まぁ、そのうち気が変わるかもしれませんが。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/5943.html/feed</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
+		<link>/5911.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5911</guid>
+							<description><![CDATA[とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、Hew　です。TOPの表示記事数は３です。スマホ側は、Umidig [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、<a href="https://wordpress.com/theme/hew" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Hew<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。TOPの表示記事数は３です。スマホ側は、UmidigiF2にapache2+php7+mariadb10の環境となります。ClassicPressではなく、WordPress最新5.5.1です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_06_20_18_04_20.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_06_20_18_04_20" class="wp-image-5913"/></figure></div>
+
+
+
+<p>改善前は以下です。</p>
+
+
+
+<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_05_20_15_15_05-1.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_05_20_15_15_05" class="wp-image-5915"/></figure>
+
+
+
+<p>2.2秒くらいから、1.3秒くらいまで改善しました。これは、キャッシュ化の効果です。キャッシュさせるのは、何がいいのか迷いましたが一番シンプルそうな、「<strong>Simple Cache</strong>」というのを使いました。</p>
+
+
+
+<figure class="wp-block-image"><a href="https://ja.wordpress.org/plugins/simple-cache/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/e38395e3829ae383a9e382afe38299e382a4e383b3_e280b9_junkhack_e28094_wordpress.png" alt="プラグイン_‹_JunkHack_—_WordPress" class="wp-image-5917"/></a></figure>
+
+
+
+<p>Jetpack の全ての機能を試していませんが、とりあえずは動いている感じです。設定も以下のように単純です。手動でのキャッシュ削除は設定画面の２箇所から可能です。</p>
+
+
+
+<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/e382b7e383b3e38395e3829ae383abe382ade383a3e38383e382b7e383a5e280b9junkhack_e28094_wordpress.png" alt="シンプルキャッシュ‹JunkHack_—_WordPress" class="wp-image-5919"/></figure>
+
+
+
+<p>nginx_1.19.2 と、php-fpm_7.4.9 の組み合わせでも確認してみたいですね。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termuxパッケージ安定板<br>https://grimler.se/termux-packages-24/arm/</p></blockquote>
+
+
+
+<p>nginxの1.19.2 は<a href="https://nginx.org/en/CHANGES" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">オフィシャル側<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は 2020/08/11 に公開していて、termux 側は、8/18 なんでちゃんとメンテナンスされているようです。</p>
+
+
+
+<p>とりあえず、apacheのhttpd.confのパッチは以下です。apache 2.4.46 のデフォルト設定ファイルとの差分です。</p>
+
+
+
+<pre class="wp-block-code"><code>--- httpd.conf.org	2020-08-09 07:55:34.000000000 +0900
++++ httpd.conf	2020-09-06 01:56:57.560924026 +0900
+@@ -63,8 +63,8 @@
+ # Example:
+ # LoadModule foo_module modules/mod_foo.so
+ #
+-#LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
+-LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
++LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
++#LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
+ LoadModule authn_file_module libexec/apache2/mod_authn_file.so
+ #LoadModule authn_dbm_module libexec/apache2/mod_authn_dbm.so
+ #LoadModule authn_anon_module libexec/apache2/mod_authn_anon.so
+@@ -88,7 +88,7 @@
+ #LoadModule cache_module libexec/apache2/mod_cache.so
+ #LoadModule cache_disk_module libexec/apache2/mod_cache_disk.so
+ #LoadModule cache_socache_module libexec/apache2/mod_cache_socache.so
+-#LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
++LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
+ #LoadModule socache_dbm_module libexec/apache2/mod_socache_dbm.so
+ #LoadModule socache_memcache_module libexec/apache2/mod_socache_memcache.so
+ #LoadModule socache_redis_module libexec/apache2/mod_socache_redis.so
+@@ -109,7 +109,7 @@
+ #LoadModule substitute_module libexec/apache2/mod_substitute.so
+ #LoadModule sed_module libexec/apache2/mod_sed.so
+ #LoadModule charset_lite_module libexec/apache2/mod_charset_lite.so
+-#LoadModule deflate_module libexec/apache2/mod_deflate.so
++LoadModule deflate_module libexec/apache2/mod_deflate.so
+ LoadModule mime_module libexec/apache2/mod_mime.so
+ LoadModule log_config_module libexec/apache2/mod_log_config.so
+ #LoadModule log_debug_module libexec/apache2/mod_log_debug.so
+@@ -144,7 +144,7 @@
+ #LoadModule session_dbd_module libexec/apache2/mod_session_dbd.so
+ LoadModule slotmem_shm_module libexec/apache2/mod_slotmem_shm.so
+ #LoadModule slotmem_plain_module libexec/apache2/mod_slotmem_plain.so
+-#LoadModule ssl_module libexec/apache2/mod_ssl.so
++LoadModule ssl_module libexec/apache2/mod_ssl.so
+ #LoadModule dialup_module libexec/apache2/mod_dialup.so
+ #LoadModule http2_module libexec/apache2/mod_http2.so
+ #LoadModule lbmethod_byrequests_module libexec/apache2/mod_lbmethod_byrequests.so
+@@ -168,7 +168,7 @@
+ &lt;/IfModule>
+ #LoadModule dav_fs_module libexec/apache2/mod_dav_fs.so
+ #LoadModule dav_lock_module libexec/apache2/mod_dav_lock.so
+-#LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
++LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
+ LoadModule negotiation_module libexec/apache2/mod_negotiation.so
+ LoadModule dir_module libexec/apache2/mod_dir.so
+ #LoadModule imagemap_module libexec/apache2/mod_imagemap.so
+@@ -176,7 +176,7 @@
+ #LoadModule speling_module libexec/apache2/mod_speling.so
+ LoadModule userdir_module libexec/apache2/mod_userdir.so
+ LoadModule alias_module libexec/apache2/mod_alias.so
+-#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
++LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+ 
+ &lt;IfModule unixd_module>
+ #
+@@ -242,8 +242,10 @@
+ # documents. By default, all requests are taken from this directory, but
+ # symbolic links and aliases may be used to point to other locations.
+ #
+-DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
+-&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
++#DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
++DocumentRoot "/data/data/com.termux/files/home/htdocs"
++#&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
++&lt;Directory "/data/data/com.termux/files/home/htdocs">
+     #
+     # Possible values for the Options directive are "None", "All",
+     # or any combination of:
+@@ -256,14 +258,14 @@
+     # http://httpd.apache.org/docs/2.4/mod/core.html#options
+     # for more information.
+     #
+-    Options Indexes FollowSymLinks
++    Options FollowSymLinks
+ 
+     #
+     # AllowOverride controls what directives may be placed in .htaccess files.
+     # It can be "All", "None", or any combination of the keywords:
+     #   AllowOverride FileInfo AuthConfig Limit
+     #
+-    AllowOverride None
++    AllowOverride All
+ 
+     #
+     # Controls who can get stuff from this server.
+@@ -276,7 +278,7 @@
+ # is requested.
+ #
+ &lt;IfModule dir_module>
+-    DirectoryIndex index.html
++    DirectoryIndex index.php index.html
+ &lt;/IfModule>
+ 
+ #
+@@ -529,3 +531,22 @@
+ SSLRandomSeed connect builtin
+ &lt;/IfModule>
+ 
++LoadModule php7_module libexec/apache2/libphp7.so
++&lt;FilesMatch \.php
+gt;
+ +   SetHandler application/x-httpd-php
+ +&lt;/FilesMatch>
+ +&lt;IfModule dir_module>
+ +    DirectoryIndex index.php
+ +&lt;/IfModule>
+ +
+ +&lt;IfModule mod_deflate.c>
+ +    DeflateCompressionLevel 1
+ +    &lt;IfModule mod_filter.c>
+ +        FilterDeclare COMPRESS
+ +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/#i"
+ +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^application/(atom\+xml|javascript|json|rss\+xml|xml|xhtml\+xml)#i"
+ +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^image/(svg\+xml|vnd\.microsoft\.icon)#i"
+ +        FilterChain COMPRESS
+ +        FilterProtocol COMPRESS DEFLATE change=yes;byteranges=no
+ +    &lt;/IfModule>
+ +&lt;/IfModule></code></pre>
+
+
+
+<p>パッチの適用は上記をコピペしてp.txt などに保存、httpd.conf に以下のように patchしてください。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>$ patch -u httpd.conf &lt; p.txt</p></blockquote>
+
+
+
+<p>成功すれば、patching file httpd.conf　のような表示となります。</p>
+
+
+
+<p>mariadb のチューニングとかはやってないです。PHPは、php.ini&nbsp; に以下のように記載してあります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>$ cat /data/data/com.termux/files/usr/lib/php.ini<br>[PHP]</p><p>upload_max_filesize = 64M<br>post_max_size = 64M<br>memory_limit = 64M</p></blockquote>
+
+
+
+<p>結構、スマホでも動くなー、いけそうだなーっていう感じです。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Android &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 08 Jun 2021 16:33:57 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインはどこかに無いかな？</title>
+		<link>/10619.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 08 Jun 2021 16:33:50 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10619</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/06/wp-a-site-copy-b-site.png" />
+							<description><![CDATA[AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかり [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今日もWordPress触っていくよ〜！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ってか、最近暑いわね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインとか誰か作ってないかなーと探してる</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>MainWPってのはどう？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかりにくいので、図に書くとこうなります。</p>
+
+
+
+<center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="375px" height="261px" viewBox="-0.5 -0.5 375 261" content="&lt;mxfile&gt;&lt;diagram id=&quot;8aDVfMz8q1SKujRMYK2U&quot; name=&quot;ページ1&quot;&gt;7VjbbqMwEP0aXleYSyCPCc1epFZbbR767IADVo2NjGmSfv2OwYQQkl3apt2LIiElPp4Ze+bMmDGWG+XbLxIX2Z1ICLMcO9la7o3lOMjxHPjRyK5BgmDSAKmkiRHqgCV9Jga0DVrRhJQ9QSUEU7Tog7HgnMSqh2EpxaYvthasv2qBUzIAljFmQ/SBJipr0NAJOvwroWnWrowm02Ymx62w8aTMcCI2B5C7sNxICqGaf/k2IkwHr41Lo/f5zOx+Y5JwNUbBEPGEWWV8sxahNQutaWgtPGs+s8K52anate6XG5ozzGE0XwuulmbGhnGcUZbc4p2o9PKlwvFjO5pnQtJnkMcMphAAMC2VYdeZaGuUsUgwIQHgol6gU1pqY2YZSUpQu2/dREfQHd72BG9xqdoNCsZwUdJVvWWtmGOZUj4XSoncCJmgEKnI9mxg0Z4uyHMicqLkDkRahdBvVEyKuxPD+KZLGGQbLDtMFtsziWqSNN3b7niEP4bK07S6A1q/KZIDggZkgouq5kKKR3IU/BN8YEZTDkNG1lpNx4hCYcwMrEShjRU4pjy9rWVuvA75YfzUkADdNauTP6NJQrimSyis8GqfToWgXNVx8OfwQLgi+5Nv+bDxCMaoG8OjxaWKBAdfMK1pIkD8hmjyx3HqnObUcOhMxlHYyr2FQe8cg86Vwdcz6DsfxyCaDM/WY+oIT2b6fQSjmOGypLE+8lTenpCNAkkGr6PfOnzgoX/CwRaThGFFn/rmT3ltVrjXdHan3KR/yE3tvoFSVDImRufwLXRkxkF9O8GRHXhPpEQN7NQM7H0eRYp/rqzca1m9vqyC8OPKakRVHRTQJqOKLCHGemoD3agOeYYLPaSliKoVAb/mK2gtUikqnnyvFKO87Q1AZMbTplXwL9MYeMjr5boXDBuD6cm+wH578IJB8B6ETO6hSyoBHnZ6L6yBg8DXjaFp7byjRhGdqI8cMp0d1lEM8STyQjG3+zH3w5HNmHeBmIf/eMKiNhv/RMJOf5mws/81YVHYj/mHJiy6Xgrf6VLo2dMeraMvheElaL1eCl/X+6C/51aIrv3ru3A4+l4YvphDGHaf85obS/dR1F38BA==&lt;/diagram&gt;&lt;/mxfile&gt;"><defs><clipPath id="mx-clip-34-31-92-26-0"><rect x="34" y="31" width="92" height="26"/></clipPath><clipPath id="mx-clip-34-57-92-26-0"><rect x="34" y="57" width="92" height="26"/></clipPath><clipPath id="mx-clip-34-83-92-26-0"><rect x="34" y="83" width="92" height="26"/></clipPath><clipPath id="mx-clip-258-31-92-26-0"><rect x="258" y="31" width="92" height="26"/></clipPath><clipPath id="mx-clip-258-57-92-28-0"><rect x="258" y="57" width="92" height="28"/></clipPath></defs><g><path d="M 30 26 L 30 0 L 130 0 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 30 26 L 30 104 L 130 104 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 30 26 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px"><text x="79.5" y="17.5">記事</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-31-92-26-0)" font-size="12px"><text x="35.5" y="43.5">Item 1</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-57-92-26-0)" font-size="12px"><text x="35.5" y="69.5">Item 2</text></g><path d="M 95 90 L 238.69 70.84" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 243.89 70.15 L 237.42 74.54 L 238.69 70.84 L 236.49 67.6 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-83-92-26-0)" font-size="12px"><text x="35.5" y="95.5">Item 3</text></g><path d="M 304 110 L 349 131.61 L 349 188.39 L 304 210 L 259 188.39 L 259 131.61 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 259 131.61 L 304 153.21 L 349 131.61 M 304 153.21 L 304 210" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 299px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">WordPress B</div></div></div></foreignObject><text x="299" y="247" fill="#000000" font-family="Helvetica" font-size="24px" text-anchor="middle" font-weight="bold">WordPres&#8230;</text></switch></g><path d="M 80 110 L 125 131.61 L 125 188.39 L 80 210 L 35 188.39 L 35 131.61 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 35 131.61 L 80 153.21 L 125 131.61 M 80 153.21 L 80 210" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 75px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">WordPress A</div></div></div></foreignObject><text x="75" y="247" fill="#000000" font-family="Helvetica" font-size="24px" text-anchor="middle" font-weight="bold">WordPres&#8230;</text></switch></g><path d="M 254 26 L 254 0 L 354 0 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 254 26 L 254 80 L 354 80 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 254 26 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px"><text x="303.5" y="17.5">記事</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-258-31-92-26-0)" font-size="12px"><text x="259.5" y="43.5">Item 1</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-258-57-92-28-0)" font-size="12px"><text x="259.5" y="69.5">Item 3</text></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text></a></switch></svg></center>
+
+
+
+<p>つまり、Aサイトの投稿済み記事をBサイトに個別にコピーするという感じです。画像などのリソースもそのままBサイトに入れば最高です。</p>
+
+
+
+<p>AサイトもBサイトも設定やプラグイン構成やテーマが違うので、記事とそのリソース（画像など）を複製できればいいのですが、、、そんなことはどうやったら実現できるでしょうか。それを今日は検討しています。</p>
+
+
+
+<h3>MainWPプラグインはどうかな？</h3>
+
+
+
+<p>MainWPっていうのがありました。使い方は省略しますが、こんな事が実現できることはわかりました。</p>
+
+
+
+<p>・管理WPから、複数の新規記事を複数のWPサイトへ発行できる。<br>・MainWP本体プラグインを管理WPに入れる。配信するWPにはMainWP Childを入れる<br>・２台構成の場合は、管理WPに、MainWPとMainWP Childを入れる</p>
+
+
+
+<p>残念ながら、Aサイトのすでに投稿済みの記事を個別に選んで、Bサイトにコピー（投稿）することはできないそうです。Pro版を使ってもダメみたい。どうりでそんなインターフェイスがないわけだ。</p>
+
+
+
+<p>　ということで、何か違う方法を模索。XML-RPC経由か、DBにトリガーを作るか。または、、、、うーん、DBだけだったら、レプリケーションフィルターオプションとかで行けそうかも。WordPressの機能を使ってやるのが良さそうですが。</p>
+
+
+
+<h3>記事をコピーしてどうするの？</h3>
+
+
+
+<p>はい、実は今研究中の課題がありまして、それはGitHubのPagesにWordPressコンテンツを静的ファイルにして書き出すというものです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>GitHubのpagesにコミットしたWordPressの静的ページ（テスト中）</p><cite><a href="https://junkhack.github.io/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://junkhack.github.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このページは、WordPressから書き出した静的なファイルです。それを吐き出すようの専用のWordPressを作って、メインサイトから記事を同期させたかったわけです。メインサイトとは、プラグイン構成やテーマファイルが変わる予定なので、これらを実現するには、記事のコピーが必要だったわけです。</p>
+
+
+
+<p>GitHub pagesは、まだテスト中なので、リンクが切れていたり、画像がgithubからじゃなかったりするページがありますが、全体としては結構使えるんじゃないの？　という感触です。たとえば、ニューヨークからの接続時間は、現在のスマホサーバに接続すると以下のような時間となりますが、</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="924" height="636" src="/wp-content/uploads/2021/06/cdn_check2.png" alt="" class="wp-image-10629" srcset="/wp-content/uploads/2021/06/cdn_check2.png 924w, /wp-content/uploads/2021/06/cdn_check2-768x529.png 768w" sizes="(max-width: 924px) 100vw, 924px" /></figure></div>
+
+
+
+<p>GitHubのpagesにコミットした静的ページだと、以下のように速くなります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="925" height="644" src="/wp-content/uploads/2021/06/cdn_check.png" alt="" class="wp-image-10630" srcset="/wp-content/uploads/2021/06/cdn_check.png 925w, /wp-content/uploads/2021/06/cdn_check-768x535.png 768w" sizes="(max-width: 925px) 100vw, 925px" /></figure>
+
+
+
+<p>さすが、htmlやcssやjsだけの静的ファイルになると速いですね。Githubのリソースだから自動的にCDN経由になりますしね。速度的には以下な感じです。測定拠点はワシントンです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="542" src="/wp-content/uploads/2021/06/WebPageTest-1024x542.png" alt="" class="wp-image-10633" srcset="/wp-content/uploads/2021/06/WebPageTest-1024x542.png 1024w, /wp-content/uploads/2021/06/WebPageTest-768x406.png 768w, /wp-content/uploads/2021/06/WebPageTest-984x521.png 984w, /wp-content/uploads/2021/06/WebPageTest.png 1094w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>PageSpeed Insights（GoogleのWEB速度チェック）でも、いい感じでした。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="960" height="670" src="/wp-content/uploads/2021/06/PageSpeed_Insights.png" alt="" class="wp-image-10634" srcset="/wp-content/uploads/2021/06/PageSpeed_Insights.png 960w, /wp-content/uploads/2021/06/PageSpeed_Insights-768x536.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
+
+
+
+<h3>GitHub Pagesのリソース制限は？</h3>
+
+
+
+<p>リソース制限などは、以下のサイトにまとまっています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>GitHub Pagesでホストするサイトのアクセス上限は月10万リクエストが目安<br>::（抜粋）<br>　GitHub Pagesソースリポジトリの推奨制限は1GB<br>　公開されているGitHub Pagesサイトは1GB以下<br>　GitHub Pagesサイトは、1か月あたり100GBまたは100,000リクエストの帯域幅制限<br>　GitHub Pagesサイトは、1時間あたり10ビルドの制限</p><cite><a href="https://qiita.com/tonishi/items/e5696b477278f3c49b77" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>個人サイトのブログ程度なら、ミラーサイトとして問題なさそうな感じですかね。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・MainWPを使ってみた<br>・しかし、これは個別で投稿済みの記事をBサイトにコピーはできない<br>・GitHub Pagesのリソース制限は個人サイトくらいなら問題なさそうかな？<br>・WordPressを静的に吐き出して利用するには、まだまだいくつか考慮するポイントがありそう。</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>世の中は広いから、大抵のものはだれかが作っています。　リサーチしてると面白いものがどんどん発掘されて、当初の目的を忘れていたりします。w さて、次はWordPressの静的ファイルに書き出す仕組みづくりを検討です。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+
+
+<a class="sendmail wpel-icon-right" href="https://junkhack.gpl.jp/sendmail/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">メールを送ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>工学社 の本、androidの改造　に掲載されたよ！</title>
+		<link>/10506.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 20 May 2021 08:05:40 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10506</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
+							<description><![CDATA[工学社&#160;出版のI/O編集部さんが、「Androidスマホの改造」っていうタイトルの本を出されたのですがその中で、なんと、このブログの記事の一部が載っていますよ。ただいま、絶賛予約中です！ 5/27発売です。 出 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>なんと、このブログの記事が工学社の本に掲載されましたよ！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>なにぃー！　こんなふざけたブログが本に載っただと！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>よかったら、本屋さんまたはネットでポチってね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ネタは「Pixel3のroot化」の件です。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<p>工学社&nbsp;出版のI/O編集部さんが、「<strong>Androidスマホの改造</strong>」っていうタイトルの本を出されたのですがその中で、なんと、このブログの記事の一部が載っていますよ。ただいま、絶賛予約中です！ 5/27発売です。</p>
+
+
+
+<figure class="wp-block-table aligncenter"><table><tbody><tr><td><a href="https://amzn.to/3f0Hmpm" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img src="/wp-content/uploads/2021/05/Amazon_co_jp.png" alt=""></a></td></tr><tr><td><strong>出版社 :&nbsp;</strong>工学社 (2021/5/27)<br><strong>発売日 :&nbsp;</strong>2021/5/27<br><strong>言語 :&nbsp;</strong>日本語<br><strong>単行本 :&nbsp;</strong>112ページ<br><strong>ISBN-10 :&nbsp;</strong>4777521494<br><strong>ISBN-13 :&nbsp;</strong>978-4777521494<br><strong>寸法 :&nbsp;</strong>14.8 x 1 x 21 cm</td></tr></tbody></table></figure>
+
+
+
+<p>元ネタとなった当ブログの記事はこれです。</p>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/05/58b37a198180ea688f088b84daff52e6.png" alt="" class="wp-image-10571" width="85" height="85"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<blockquote class="wp-block-quote"><p>Pixel3・android11(R)正式リリース版でroot化！</p><cite><a rel="noreferrer noopener" href="/2020/10/05/pixel3android11rroot/" target="_blank" data-wpel-link="internal">LINK</a></cite></blockquote>
+</div>
+</div>
+
+
+
+<h3>内容抜粋</h3>
+
+
+
+<p>工学社さんの<a rel="noreferrer noopener external" href="http://www.kohgakusha.co.jp/books/detail/978-4-7775-2149-4" target="_blank" data-wpel-link="external" class="wpel-icon-right">サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>に抜粋がありましたので引用しておきます。第一章に、赤文字部分が掲載された部分です。</p>
+
+
+
+<p>■非公式アプリを入れる―root化<br>　機械オンチでも出来る！Androidをroot化する方法<br>　<span class="has-inline-color has-vivid-red-color">Pixel3・android11(R)正式リリース版でroot化</span></p>
+
+
+
+<p>■“スクショ”禁止のアプリで画像を保存 ―「Xposed」導入<br>　Androidに「Xposed」を導入する方法<br>　「Xposed」の使い方に関するアレコレ</p>
+
+
+
+<p>■有志が作った最新OSでセキュリティ向上　―ROM焼き<br>　「Xperia XZs」のROM焼き<br>　ROM焼き手順</p>
+
+
+
+<p>■キャリア以外のSIMカードを入れる―「SIMロック解除」<br>　「SIMロック解除」とは<br>　「SIMロック解除」の条件と手順について</p>
+
+
+
+<p>■高度なカスタマイズを可能に―adbコマンド<br>　「Windows」で「adbコマンド」を使う方法<br>　「Mac」で「adbコマンド」を使う方法</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>こんなブログの記事が、まさか本になるとは思っていませんでした。依頼が来た時は、びっくりです！　汎用性がある記事っていうのは、目に止まるっていうことですかね。root化の記事もそれなりに需要があるということですね。</p>
+
+
+
+<p>　今度は root化したらこんなことができるよっていう記事も書いていこうと思いました。今回の本にも載っている「あっとはっく」さんのサイトは面白い記事がたくさんありますね。見習いたいと思います。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>日々をハックする記事をお届け：あっとはっく</p><cite><a href="https://sp7pc.com/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+
+
+<a class="sendmail wpel-icon-right" href="https://junkhack.gpl.jp/sendmail/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">メールを送ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例</title>
+		<link>/10507.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 13 May 2021 02:04:18 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10507</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/05/termux_nginx_php-fpm_mariadb.png" />
+							<description><![CDATA[NGINXの設定
+ホームディレクトリ以下にWEBのドキュメントROOTを作ります。どこでもいいのですが、termuxの$HOMEに作ります。自分の場合は、デフォルトのWEB ROOT（htdocs_default）と、www.gpl.jp　ドメインのWEB ROOT（htdocs_nginx）を分離しています。
+あと、SSL関連のファイルを格納しておくのでそれ専用のディレクトリも作っておきます。SSL関連は以下を参照]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今日もTermuxとWordPress触っていくよ〜！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今日は何するんですか〜？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>一時的にPixel3からUmidigiF2へスマホサーバを移動しようと思って設定を纏めておいた！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>設定の備忘録ですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>さて、最近記事をサボりがちでしたがコメントにて、「TermuxでWordPressを動かす具体的な設定例」が見たいとご意見をいただきましたので、自分のメモがてら纏めておきます。</p>
+
+
+
+<h3>まずはUmidigiF2の電池交換</h3>
+
+
+
+<blockquote class="wp-block-quote"><p>アリエク：UmidigiF2 バッテリー（購入時は1,283円）</p><cite><a href="https://s.click.aliexpress.com/e/_A0Y07r" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Link<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>UmidigiF2の電池が膨らんできましたので、アリエクで買ったUmidigiF2の電池に交換します。裏蓋は粘着テープで貼り付けられているだけなので、カードとかピックで分離します。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="549" height="393" src="/wp-content/uploads/2021/05/S20210511_001_jpg.png" alt="" class="wp-image-10508"/></figure></div>
+
+
+
+<p>NFCやカメラ部分がプラスティック部品で固定されているので、周りのネジ１１本を外してバッテリーコネクタを外せるようにします。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/05/2.png" alt="" class="wp-image-10509" width="549" height="411"/></figure></div>
+
+
+
+<p>バッテリーの裏は透明なフィルムで剥がせるよう工夫されています。よく切れるテープとかは使われていませんでした。交換自体はPixel3とかと比べると非常に楽ですね。メンテナンス性は良いです。あとは両面テープを貼り直して裏フタを固定するだけです。</p>
+
+
+
+<p>　さてと、では面倒な設定まとめを書いておきます。</p>
+
+
+
+<h3>Termuxを入れてアプリを設定</h3>
+
+
+
+<p>Termuxについては、Google Play Storeから入れます。root化していなくても大丈夫ですが、ポート制限があるので1024ポート以上でないとWEBサーバは公開できない仕様です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termux：Google Play Store</p><cite><a href="https://play.google.com/store/apps/details?id=com.termux&amp;hl=ja&amp;gl=US" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">URL<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>リモートから設定したほうが楽なので、最低限SSHを入れて起動しておきます。パスワードを設定しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>pkg update 
+pkg install openssh
+sshd
+passwd</code></pre>
+
+
+
+<p>あとはリモートからSSH接続して設定していきます。面倒でなければSSH鍵認証の設定をしておいてもOKです。</p>
+
+
+
+<pre class="wp-block-code"><code>ssh <em>termux_host_ip</em> -p 8022</code></pre>
+
+
+
+<p>他、アプリNGINX+php-fpm+mariadbも入れておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>pkg install nginx php-fpm mariadb</code></pre>
+
+
+
+<p>どんなバージョンが入っているか確認しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>dpkg -l | egrep 'nginx|php|mariadb'</code></pre>
+
+
+
+<p>現時点、2021/05/11　時点では以下のバージョンになりました</p>
+
+
+
+<pre class="wp-block-code"><code>$ dpkg -l | egrep 'nginx|php|mariadb'
+ii  mariadb                    2:10.5.8       aarch64      A drop-in replacement for mysql server
+ii  nginx                      1.20.0         aarch64      Lightweight HTTP server
+ii  php                        8.0.6          aarch64      Server-side, HTML-embedded scripting language
+ii  php-fpm                    8.0.6          aarch64      FastCGI Process Manager for PHP</code></pre>
+
+
+
+<p>2020/10頃は、PHPが7.4.xだったのでver8系になったようです。PHP8の新機能は<a rel="noreferrer noopener external" href="https://qiita.com/rana_kualu/items/fe7998fbe773544d5d25" target="_blank" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>参照。</p>
+
+
+
+<p>PHP7が良い場合は、<a rel="noreferrer noopener external" href="https://github.com/Termux-pod/termux-pod" target="_blank" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>にdebfileがあるようです。Wordpressを動かす場合はPHP7.4.12のほうが無難かも。あとで検証してみます。</p>
+
+
+
+<p>　※追記</p>
+
+
+
+<p>上記のdebfile だとエラーになって動作しないようでしたので、ビルドしなおしました。<a href="https://junkwww.gpl.jp/2021/06/01/termux-php8-to-php7/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ここ</a>参照</p>
+
+
+
+<h3>NGINXの設定</h3>
+
+
+
+<p>ホームディレクトリ以下にWEBのドキュメントROOTを作ります。どこでもいいのですが、termuxの$HOMEに作ります。自分の場合は、デフォルトのWEB ROOT（htdocs_default）と、www.gpl.jp　ドメインのWEB ROOT（htdocs_nginx）を分離しています。</p>
+
+
+
+<pre class="wp-block-code"><code>$ echo $HOME
+/data/data/com.termux/files/home
+$ cd
+$pwd
+/data/data/com.termux/files/home
+$ mkdir htdocs_nginx
+$ mkdir htdocs_default</code></pre>
+
+
+
+<p>あと、SSL関連のファイルを格納しておくのでそれ専用のディレクトリも作っておきます。SSL関連は以下を参照</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termuxネイティブ環境でacme-nginxを使いワイルドカード証明書を自動取得！</p><cite><a href="https://junkwww.gpl.jp/2020/09/13/termux%e3%83%8d%e3%82%a4%e3%83%86%e3%82%a3%e3%83%96%e7%92%b0%e5%a2%83%e3%81%a7acme-nginx%e3%82%92%e4%bd%bf%e3%81%84%e3%83%af%e3%82%a4%e3%83%ab%e3%83%89%e3%82%ab%e3%83%bc%e3%83%89%e8%a8%bc%e6%98%8e/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<pre class="wp-block-code"><code>$ cd
+$ mkdir -p ssl/gpl.jp/ 
+$ tree ssl
+ssl
+└── gpl.jp</code></pre>
+
+
+
+<p>NGINXの設定ファイルを作ります。conf.dディレクトリに分離して設定ファイルを保存するのでディレクトリも作っておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ cd
+$ cd ../usr/etc/nginx/
+$ mkdir conf.d</code></pre>
+
+
+
+<p>オリジナルファイルをバックアップしておきます。UNIX系ではDiff取ったりして確認したりすることもあり、設定ファイルは消すより待避する癖をつけておいたほうが無難です。自分の場合は、_org　が元あったファイルという意味にしています。</p>
+
+
+
+<pre class="wp-block-code"><code>$ cp -p nginx.conf nginx.conf_org</code></pre>
+
+
+
+<p>今回の設定例では、root化してある端末なので、ポートは80と443にしています。root化していない場合は程よく読み替えてください。<br>nginx.conf　ファイルは以下のように設定しています。userは、termuxを入れた環境によって違いますので whoamiやidコマンドで確認しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>user  u0_a143;
+worker_processes  auto;
+worker_rlimit_nofile 4096;
+
+error_log  /data/data/com.termux/files/usr/var/log/nginx/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    use epoll;
+    multi_accept on;
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type text/plain;
+
+    charset            utf-8;
+    sendfile           on;
+    tcp_nopush         on;
+    tcp_nodelay        on;
+    server_tokens      off;
+    keepalive_requests 100;
+    keepalive_timeout  3;
+
+    server_names_hash_bucket_size 64;
+    types_hash_max_size 2048;
+    client_body_buffer_size 64k;
+    client_body_temp_path /data/data/com.termux/files/home/htdocs_default/tmp/client_body_temp 1 2;
+	
+    log_format  main  '$remote_addr - $remote_user &#091;$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /data/data/com.termux/files/usr/var/log/nginx/access.log  main;
+
+    gzip  on;
+    gzip_vary       on;
+    gzip_proxied    any;
+    gzip_comp_level 6;
+    gzip_types      text/plain text/css text/xml text/javascript
+                    application/json application/javascript application/x-javascript
+                    application/xml application/rss+xml application/atom+xml
+                    image/svg+xml image/x-icon;
+
+    ssl_session_timeout 30m;
+    ssl_session_cache   shared:SSL:10m;
+    ssl_session_tickets off;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+    ssl_dhparam /data/data/com.termux/files/usr/etc/nginx/dhparam.pem;
+    ssl_ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256;
+
+    fastcgi_buffers         8 64k;
+    fastcgi_buffer_size     64k;
+    fastcgi_connect_timeout 60;
+    fastcgi_send_timeout    60;
+    fastcgi_read_timeout    300;
+
+    proxy_connect_timeout 60;
+    proxy_send_timeout    60;
+    proxy_read_timeout    120;
+    proxy_http_version    1.1;
+    proxy_cache_bypass    $http_upgrade;
+    proxy_set_header      Upgrade            $http_upgrade;
+    proxy_set_header      Connection         "upgrade";
+    proxy_set_header      Host               $host;
+    proxy_set_header      X-Real-IP          $remote_addr;
+    proxy_set_header      X-Forwarded-Host   $host;
+    proxy_set_header      X-Forwarded-Server $host;
+    proxy_set_header      X-Forwarded-For    $proxy_add_x_forwarded_for;
+    proxy_set_header      X-Forwarded-Proto  $scheme;
+    #proxy_set_header      X-Forwarded-Port   $server_port;
+    proxy_set_header      X-Forwarded-Port   443;
+    proxy_temp_path       /data/data/com.termux/files/usr/var/log/nginx/tmp;
+	
+    ## cache_pathについては別ファイルで設定する
+    include /data/data/com.termux/files/usr/etc/nginx/conf.d/cache_path.conf;
+		
+    server {
+        listen *:80 default_server;
+        server_name  _;
+		root   /data/data/com.termux/files/home/htdocs_default;
+
+		charset utf-8;
+
+		access_log  /data/data/com.termux/files/usr/var/log/nginx/host.access.log  combined;
+		error_log  /data/data/com.termux/files/usr/var/log/nginx/host.error.log warn;
+
+	    index index.html;
+	    include /data/data/com.termux/files/usr/etc/nginx/conf.d/common.conf;
+
+	}
+
+	include /data/data/com.termux/files/usr/etc/nginx/conf.d/www.gpl.jp.conf;
+	include /data/data/com.termux/files/usr/etc/nginx/conf.d/gpl.jp.conf;
+	
+}</code></pre>
+
+
+
+<p>SSLのdhparamは、以下で出しておきます。この意味については<a href="https://qiita.com/r-ytakada/items/7ac9ce32c1ed4d01d505" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">ここ参照<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。</p>
+
+
+
+<pre class="wp-block-code"><code>openssl dhparam -out /data/data/com.termux/files/usr/etc/nginx/dhparam.pem 2048</code></pre>
+
+
+
+<p>設定ファイルはインクルードしてあります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>conf.d/cache_path.conf<br>conf.d/common.conf<br>conf.d/www.gpl.jp.conf<br>conf.d/gpl.jp.conf</p></blockquote>
+
+
+
+<p>まず、cache_path.conf の設定です。キャッシュディレクトリも作成しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>mkdir -p /data/data/com.termux/files/home/cache/hackgpljp
+mkdir -p /data/data/com.termux/files/home/cache/proxy.gpljp
+mkdir -p /data/data/com.termux/files/home/cache/wwwgpljp</code></pre>
+
+
+
+<p>cache_path.conf</p>
+
+
+
+<pre class="wp-block-code"><code>location ~ /. {
+
+## php-fpmでキャッシュを作る時
+fastcgi_cache_path /data/data/com.termux/files/home/cache/hackgpljp levels=1:2 keys_zone=gpljp:30m inactive=600m max_size=10g;
+## proxy経由でキャッシュを作る時
+proxy_cache_path /data/data/com.termux/files/home/cache/proxy.gpljp levels=1:2 keys_zone=proxy_gpljp:30m inactive=600m max_size=10g;
+
+# www.gpl.jp or gpl.jp
+fastcgi_cache_path /data/data/com.termux/files/home/cache/wwwgpljp levels=1:2 keys_zone=wwwgpljp:18m inactive=5m max_size=10g;</code></pre>
+
+
+
+<p>common.conf　は以下です。</p>
+
+
+
+<pre class="wp-block-code"><code>## .htpasswdとか . から始まるファイルへのアクセスは404で応答
+## 403だとそのファイルがあるのが外からわかってしまう
+location ~ /. {
+    return 404;
+}
+ 
+## ファイルが無くてもエラーログを出さない
+location ~ /(favicon.ico|apple-touch-icon-*) {
+    log_not_found  off;
+    access_log  off;
+}</code></pre>
+
+
+
+<p>このサイトのメイン設定 www.gpl.jp.conf は以下です。</p>
+
+
+
+<pre class="wp-block-code"><code>server {
+    listen      80;
+    server_name jh.gpl.jp www.gpl.jp junkwww.gpl.jp;
+
+    root   /data/data/com.termux/files/home/htdocs_nginx;
+
+    access_log  /data/data/com.termux/files/usr/var/log/nginx/hackgpljp.access.log  combined;
+    error_log  /data/data/com.termux/files/usr/var/log/nginx/hackgpljp.error.log warn;
+
+    client_max_body_size 20M;
+    ## キャッシュの設定：有効 -&gt; 0 無効 -&gt; 1
+    set $do_not_cache 0;
+    ## キーゾーン名
+    set $keys_zone gpljp;
+	
+    include /data/data/com.termux/files/usr/etc/nginx/conf.d/common.conf;
+    include /data/data/com.termux/files/usr/etc/nginx/conf.d/hackgpljp_wp.conf;
+    include /data/data/com.termux/files/usr/etc/nginx/conf.d/add_header.conf;
+}
+ 
+server {
+     listen      443 ssl http2;
+     server_name jh.gpl.jp www.gpl.jp junkwww.gpl.jp;
+     root   /data/data/com.termux/files/home/htdocs_nginx;
+
+     access_log  /data/data/com.termux/files/usr/var/log/nginx/ssl_hackgpljp.access.log  combined;
+     error_log  /data/data/com.termux/files/usr/var/log/nginx/ssl_hackgpljp.error.log warn;
+
+     client_max_body_size 20M;
+     ## サイトのSSL証明書
+     ssl_certificate     /data/data/com.termux/files/home/ssl/gpl.jp/gpl.jp.crt;
+     ssl_certificate_key /data/data/com.termux/files/home/ssl/gpl.jp/gpl.jp.key;
+
+     ## キャッシュの設定：有効 -&gt; 0 無効 -&gt; 1
+     set $do_not_cache 0;
+
+     ## キーゾーン名
+     set $keys_zone gpljp;
+
+     ## 必要な設定ファイルを読み込み
+     include /data/data/com.termux/files/usr/etc/nginx/conf.d/common.conf;
+     include /data/data/com.termux/files/usr/etc/nginx/conf.d/hackgpljp_wp.conf;
+     include /data/data/com.termux/files/usr/etc/nginx/conf.d/add_header.conf;
+}</code></pre>
+
+
+
+<p>ここで、インクルードしている設定は以下です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>conf.d/hackgpljp_wp.conf<br>conf.d/add_header.conf</p></blockquote>
+
+
+
+<p>hackgpljp_wp.conf</p>
+
+
+
+<pre class="wp-block-code"><code>index index.php index.html;
+error_page 404 /index.php?error=404;
+ 
+# Deny all attempts to access hidden files such as .htaccess, .htpasswd, .DS_Store (Mac).
+# Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
+location ~ /. {
+    deny all;
+}
+ 
+# Deny access to any files with a .php extension in the uploads directory
+# Works in sub-directory installs and also in multisite network
+# Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
+location ~* /(?:uploads|files)/.*.php$ {
+    deny all;
+}
+
+set $is_mobile '';
+ 
+## スマートフォン用のキャッシュを作る為の判定処理
+## WordPress標準の wp_is_mobile() 関数と同じ判定処理
+if ($http_user_agent ~* '(Mobile|Android|Silk/|Kindle|BlackBerry|OperasMini|OperasMobi)') {
+    set $is_mobile 'mobile.';
+}
+
+set $do_not_cache 0;
+
+## GET メソッド以外はキャッシュを作成しない
+if ($request_method != GET) {
+    set $do_not_cache 1;
+}
+
+if ($query_string != "") {
+	set $do_not_cache 1;
+} 
+
+## キャッシュして欲しくないファイルは除外
+if ($request_uri ~* '/(wp-admin/|wp-login.php|wp-cron.php|xmlrpc.php|wp-json/|??feed|wp-json|sitemap.xml)') {
+    set $do_not_cache 1;
+}
+ 
+## ログイン済みのユーザー等、Cookie を持っていたらキャッシュを使わない
+if ($http_cookie ~* 'comment_author|wordpress_&#091;a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in') {
+    set $do_not_cache 1;
+}
+ 
+## 画像ファイル等はブラウザキャッシュを効かせる (60日)
+location ~* .(jpg|jpeg|gif|png|css|js|swf|ico|pdf|svg|eot|ttf|woff)$ {
+    expires 60d;
+    add_header Cache-Control "public, no-transform";
+    access_log off;
+}
+ 
+## リクエストは index.php に投げる
+location / {
+    try_files $uri $uri/ /index.php?$args;
+}
+ 
+## NginxとPHP-FPMはソケットで繋ぐ
+## HTTPステータスコードによって各キャッシュの有効期限を制御する
+location ~ .php {
+ 
+    try_files $uri /index.php;
+ 
+    include fastcgi_params;
+    fastcgi_pass  unix:/data/data/com.termux/files/usr/var/run/php-fpm.sock;
+    fastcgi_param SCRIPT_FILENAME  /data/data/com.termux/files/home/htdocs_nginx$fastcgi_script_name;
+ 
+    fastcgi_no_cache     $do_not_cache;
+    fastcgi_cache_bypass $do_not_cache;
+    fastcgi_cache        $keys_zone;
+    fastcgi_cache_key    $is_mobile$scheme://$host$request_uri;
+    fastcgi_cache_valid  200 5m;
+    fastcgi_cache_valid  301 302 1h;
+    fastcgi_cache_valid  404 1m;
+    fastcgi_cache_valid  any 1s;
+ 
+    fastcgi_hide_header X-Powered-By;
+}</code></pre>
+
+
+
+<p>add_header.conf は以下です。</p>
+
+
+
+<pre class="wp-block-code"><code>add_header Strict-Transport-Security "max-age=15552000"; 
+add_header X-XSS-Protection "1; mode=block";
+add_header X-Frame-Options SAMEORIGIN;
+
+add_header X-Content-Type-Options nosniff;
+add_header Content-Security-Policy "default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' ;";
+add_header Referrer-Policy strict-origin always;
+add_header Permissions-Policy "fullscreen=() geolocation=()";
+add_header X-hacker "Hello. :-)";</code></pre>
+
+
+
+<h3>PHPの設定</h3>
+
+
+
+<p>WordPressを動かすなら、少しPHPの上限を上げておくほうが無難です。termuxパッケージのPHPは、デフォルトファイルがないので、php.iniは以下に作ります。</p>
+
+
+
+<pre class="wp-block-code"><code>vi /data/data/com.termux/files/usr/lib/php.ini</code></pre>
+
+
+
+<pre class="wp-block-code"><code>&#091;PHP]
+upload_max_filesize = 64M
+post_max_size = 64M
+memory_limit = 128M
+
+&#091;mail function]
+sendmail_path = "/data/data/com.termux/files/usr/bin/msmtp -C /data/data/com.termux/files/home/.msmtprc -t"</code></pre>
+
+
+
+<p>iniで指定してある、phpからのメール送信設定は、msmtpを使っています。これは以下を参照。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termuxからメールを送れるようにするには？</p><cite>https://junkwww.gpl.jp/2020/09/30/termux-smtp-client/</cite></blockquote>
+
+
+
+<h3>NGINX+php-fpmの動作確認</h3>
+
+
+
+<p>たくさんインクルードファイルがあって、わかり辛いかもですね。うまく動作しているか動作確認です。</p>
+
+
+
+<pre class="wp-block-code"><code>sudo nginx</code></pre>
+
+
+
+<p>root化してある場合は、nginxはroot で動作させないとポート80,443にバインドできません。1024以上であればtermuxの一般ユーザで起動させます。</p>
+
+
+
+<p>　起動時に何かエラーメッセージが出たらその対応をしていきます。</p>
+
+
+
+<h3>mariaDBの設定</h3>
+
+
+
+<p>冒頭でmariaDBのパッケージはインストールしています。ここでは初期設定をします。基本的には以下でいけるはずです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Termux Wiki : MariaDB</p><cite><a href="https://wiki.termux.com/wiki/MariaDB" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://wiki.termux.com/wiki/MariaDB<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>mysqlに接続するコマンドは、リモートからではなくtermuxのスマホ本体から行ってください。リモートからだと、権限がらみでtermuxユーザでmysql接続、use mysql; ができません。</p>
+
+
+
+<p>mariadb を起動します。</p>
+
+
+
+<pre class="wp-block-code"><code>$ mysqld_safe &amp;</code></pre>
+
+
+
+<p>以下はリモートからではなくtermuxのスマホ本体から行ってください。</p>
+
+
+
+<pre class="wp-block-code"><code>mysql -u $(whoami)</code></pre>
+
+
+
+<p>リモートからDB Toolを使いたいので権限をつけておきます。<strong>リモートホストIP</strong>や、<strong>password</strong>などは程よく読み替えてください。</p>
+
+
+
+<pre class="wp-block-code"><code>use mysql;
+set password for 'root'@'localhost' = password('<span class="has-inline-color has-vivid-red-color">YOUR_ROOT_PASSWORD_HERE</span>');
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'<span class="has-inline-color has-vivid-red-color">192.168.1</span>.%' IDENTIFIED BY '<span class="has-inline-color has-vivid-red-color">YOUR_ROOT_PASSWORD_HERE</span>';
+flush privileges;
+quit;</code></pre>
+
+
+
+<p>リモートのGUIツールから接続テストをしておきます。以下は、macのTablePlusというツールの画面です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="644" src="/wp-content/uploads/2021/05/Connection___.png" alt="" class="wp-image-10515"/></figure></div>
+
+
+
+<p>termuxのsshユーザー名はなんでも良いです。ここでは無指定です。</p>
+
+
+
+<p>あと、デフォルトのcharacter-setを指定しておきたい場合は以下のようにします。</p>
+
+
+
+<pre class="wp-block-code"><code>vi /data/data/com.termux/files/usr/etc/my.cnf.d/server.cnf</code></pre>
+
+
+
+<pre class="wp-block-code"><code>$ cd
+&#091;client]
+default-character-set = utf8mb4
+&#091;mysqld]
+character-set-server = utf8mb4</code></pre>
+
+
+
+<p>utf8mb4は文字を1〜4byteで取り扱うので、こっちがよろしいかと。</p>
+
+
+
+<p>mariadbを再起動しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ ps axu | grep mariadb
+　※PIDを確認
+$ kill 30563
+$ mysqld_safe&amp;</code></pre>
+
+
+
+<h3>WordPressを動かしてみる</h3>
+
+
+
+<p>ほどよくDBを作成して、WEB ROOTにWordpressを展開します。</p>
+
+
+
+<pre class="wp-block-code"><code>$ cd
+$ wget https://ja.wordpress.org/wordpress-5.7.1-ja.zip
+$ unzip wordpress-5.7.1-ja.zip
+$ mv wordpress/* htdocs_nginx/
+〜省略〜</code></pre>
+
+
+
+<p>以下、省略。PHP8環境でのWordPress動作確認は何か気がつけばネタにしたいと思います。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・現状の設定だとコメント投稿がうまく動作しない<br>・ジェットパックのいいね　も動く時と動かない時がある<br>・TermuxのPHPパッケージが8になっていた<br>・WordPressがPHP8で問題ないか確認する<br>・とりあえず、wp5.7.1でプラグインが何もない状態であれば動いているように見える<br>・今、使っているプラグインやテーマを全部突っ込んでみて確認してみる</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>サーバ設定とか、ほんとダルいですねー！　最近はインスタンスも１から作る機会なんてだいぶ減ってきているんで、こういう設定とかめんどくさいなーって感じました。AWSもGCCも、ずいぶん楽できる環境が整っているからそう感じるわけで。なんでもリモートできる、良い時代ですね。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+
+
+<a class="sendmail wpel-icon-right" href="https://junkhack.gpl.jp/sendmail/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">メールを送ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2021/03 site24x7 でのSLA状況・統計データ</title>
+		<link>/10457.html</link>
+					<comments>/10457.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 22 Apr 2021 03:55:48 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10457</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/04/SLA202103-1.png" />
+							<description><![CDATA[春ですねー！　めちゃくちゃ暖かくなって外出したいんですが、なかなか世間の事情で旅行とまでは行きませんよね。せめて、散歩くらいはしたいものです。仕事の用事で、東京ー名古屋間をバイクで走ったのですがまだ夜は寒かったです。昼は [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>新年度、始まりましたね！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>この季節、あったかくて好きだわー</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>リモートで自宅で仕事してるときが一番つらいねw</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>せめて散歩でもして気晴らししないとね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>春ですねー！　めちゃくちゃ暖かくなって外出したいんですが、なかなか世間の事情で旅行とまでは行きませんよね。せめて、散歩くらいはしたいものです。仕事の用事で、東京ー名古屋間をバイクで走ったのですがまだ夜は寒かったです。昼はちょうどいい天気で、めちゃくちゃ気持ちよかったです。</p>
+
+
+
+<p>　さて、ちょっと遅れましたが今回も３月のSLA統計データを出しておきます。</p>
+
+
+
+<h3>何を目指しているの？</h3>
+
+
+
+<blockquote class="wp-block-quote"><p><em>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</em></p><cite><a rel="noreferrer noopener" href="/2020/09/11/wildcard-domain-acme/" target="_blank" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指しています。99.95%とは１ヶ月にダウンタイムが21.6分以内であればOKということですが、１０月から初めて１回しかクリアしていません。今年の２月に達成できたのですが、それ以外はNGINXか、PHPか、何かがメモリーリークしているような現象になります。</p>
+
+
+
+<h3>２０２１・０３のSLA</h3>
+
+
+
+<p>今月の結果です。障害時間の合計は7 時間 39 分あって、SLAは98.972%となり目標の99.95%には届きませんでした。今月からなのか、site24x7のレポート画面が少し進化したようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="848" height="669" src="/wp-content/uploads/2021/04/Site24x7.png" alt="" class="wp-image-10458" srcset="/wp-content/uploads/2021/04/Site24x7.png 848w, /wp-content/uploads/2021/04/Site24x7-768x606.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></figure></div>
+
+
+
+<p>主な内容はNGINXの「Bad Gateway」問題です。この事象は不定期に発生しますが、必ずOSがフリーズしたような現象になります。おそらくメモリーリークしている感じです。完全にOSが死んでいるわけではなく、かろうじて動作はしています。なぜなら、NGINXはBad Gatewayの応答を出しています。また、thingspeakで、CPU温度や、バッテリー温度をpythonで投げているのですがこれは動作しています。再起動するときに AndroidOSのホームを開こうしても開ません。仕方なく、電源ボタン長押しで強制再起動という感じです。</p>
+
+
+
+<h3>どのくらいのアクセス数なの？</h3>
+
+
+
+<p>去年の１０月くらいから、pixel3のスマホサーバに引越ししたのですが、アクセス状況はこんな感じです。引越し以前のデータもそれほどかわりません。横ばいといった感じです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="411" src="/wp-content/uploads/2021/04/JunkHack__view-1024x411.png" alt="" class="wp-image-10461" srcset="/wp-content/uploads/2021/04/JunkHack__view-1024x411.png 1024w, /wp-content/uploads/2021/04/JunkHack__view-768x308.png 768w, /wp-content/uploads/2021/04/JunkHack__view-984x395.png 984w, /wp-content/uploads/2021/04/JunkHack__view.png 1056w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>こんなサイトでも3000人くらいのユーザさんが見ているのには驚きです。見ていてくださってる読者さんには感謝ですね。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・時間をなんとか作って、NGINXを新システムに載せ替える<br>・メモリ使用量などOS情報を外部に投げる仕組みを考える</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>課題はわかっていて、その調査をするか、代替え策を実行するか、やるべきことはわかっているのですが、腰が重いです。やることが退屈なので、違う面白いことに目がいってしまい、そのうち手をつけたいなと数ヶ月ずっと思っています。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+
+
+<a class="sendmail wpel-icon-right" href="https://junkhack.gpl.jp/sendmail/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">メールを送ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>/10457.html/feed</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>2021/02 site24x7 でのSLA状況・統計データ</title>
+		<link>/10237.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 04 Mar 2021 15:57:39 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SLA]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10237</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/03/SLA202102.png" />
+							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していましたが、ついに達成できました！ 稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間 L [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ついに99.95%以上を達成したよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>きたー！おめでとうー</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>2月のダウンタイムは3 分 29 秒でした</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>スマホサーバなのにがんばったね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指していましたが、ついに達成できました！</p>
+
+
+
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkwww.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>ちなみに、先月は97.42%で無理でした。site24x7の監視サービスは強力ですが、まだ自動的に復旧する仕組みを作っていないので、再起動は人力となっています。これができれば常に目標SLAを達成できそうです。</p>
+
+
+
+<h3>２０２１・０２のSLA</h3>
+
+
+
+<p>さて、今月の結果から！<br>ダウンタイムの3 分 29 秒で、SLAは99.991%となり今月は目標の99.95%に届きました！　やったー！</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="908" height="627" src="/wp-content/uploads/2021/03/image-10.png" alt="" class="wp-image-10238" srcset="/wp-content/uploads/2021/03/image-10.png 908w, /wp-content/uploads/2021/03/image-10-768x530.png 768w" sizes="(max-width: 908px) 100vw, 908px" /></figure></div>
+
+
+
+<p>ツイッターで、呟いていたらSite24x7の中の人がうれしいメッセージを送ってくれました。</p>
+
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おおーーーッ！<br><br>SLA目標達成おめでとうございます！なんか自分のことのように嬉しいです！笑</p>&mdash; Miya &#8211; SaaS型監視ツールの中の人 (@Miya_Site24x7) <a href="https://twitter.com/Miya_Site24x7/status/1366299786874294272?ref_src=twsrc%5Etfw" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">March 1, 2021<span class="wpel-icon wpel-image wpel-icon-1"></span></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<p>嬉しいツイート、ありがとうございます！</p>
+
+
+
+<h3>少しダウンした原因は？</h3>
+
+
+
+<p>毎回、いいところでダウンするので今月は意図的に再起動を手動でしておきました。毎回、ある程度時間が経過すると「Bad Gateway」が出てしまうんです。とりあえず、再起動を少し入れて様子見をしてたんですが、それが良かったようです。赤い部分は再起動を入れたので、そのダウンタイムです。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回の教訓は以下となります。</p>
+
+
+
+<p>・再起動は有効だった<br>・根本原因はまだ未調査。対処療法で再起動して対応<br>・再起動を自動化するには、スマホのリセットを外部から行う仕組み作りが必要<br>・実験用で、UmidigiF2にその仕組みを模索したい<br></p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>前回から、スマホを意図的に再起動させる仕組みをどうするか考えています。ハードウェア的に再起動を行うには、バッテリーを外して、電源をリモートからコントロールするようにするとか考えていましたが、root化してある端末ですので、他にも方法がありそうです。それにハードウェア的にリブートさせてもandroidシステムのいろいろな問題（例えば再起動後はロック解除しないとホーム画面まで行けないなど）があります。</p>
+
+
+
+<p>ソフトウェア的には、以下コマンドでシステムが瞬時にシャットダウンします。</p>
+
+
+
+<pre class="wp-block-code"><code>$ tsu
+# reboot -p
+Done</code></pre>
+
+
+
+<p>-pオプションを取れば、リブートします。しかし、このリブートだとWiFi接続に自動的に接続しなかったり、再起動時はロック解除をしないとHOME画面まで行かないのでTermux bootが動作しなかったりと問題があります。</p>
+
+
+
+<p>そこで、以下を試しています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Google Play : MacroDroid &#8211; デバイス自動化</p><cite><a href="https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このアプリはよく出来ていて、これを使うことにより、以下のような事ができることがわかりました。</p>
+
+
+
+<p>・一定曜日の特定時刻にソフトリブート（要root化必要）<br>・起動時にWiFiの特定APへ接続（ヘルパーアプリ使用）<br>・起動時に特定アプリを強制起動（termuxを起動させる）</p>
+
+
+
+<p>このリブートだと、ロック解除しなくても特定アプリが動かせるし、WiFiへの接続も問題なさそうです。</p>
+
+
+
+<p>termux が動作すれば termux boot でtermux内部のソフトウェアは起動します。今は、テストでdnsmasqやsshdを自動起動させていますが問題なさそうです。とりあえずは、一定間隔でリブートさせることは出来そうです。</p>
+
+
+
+<p>site24x7の障害検知サービスをどのように受けて、このシステムと切り離してトリガーしてリブートできるよう、何か良い方法はないかなと考えているところです。トリガーはいろいろあるので、その方法を模索中です。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+
+
+<a class="sendmail wpel-icon-right" href="https://junkhack.gpl.jp/sendmail/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">メールを送ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

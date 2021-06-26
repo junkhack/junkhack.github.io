@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>試作 &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Thu, 24 Feb 2011 23:50:10 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>mini-CNCフライスほしいね</title>
+		<link>/224.html</link>
+					<comments>/224.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 24 Feb 2011 23:50:10 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[CNCフライス]]></category>
+		<category><![CDATA[試作]]></category>
+		<guid isPermaLink="false">/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/</guid>
+				<media:thumbnail url="/wp-content/uploads/2011/02/10.jpg" />
+							<description><![CDATA[一昔と比べて、かなり安くなったし、小型化された商品が出てきた。 小さなパーツとかを作るときって、工作していると必ず出てくるので、そういうとき、いつも手作業なんだけども、やっぱり仕上がりとか、ものによっては、精度がないと動 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>一昔と比べて、かなり安くなったし、小型化された商品が出てきた。   <br />小さなパーツとかを作るときって、工作していると必ず出てくるので、そういうとき、いつも手作業なんだけども、やっぱり仕上がりとか、ものによっては、精度がないと動かないものとか。ほんと、２０ｃｍ以内の小さなものでいいから、ほしいです。    </p>
+<p>具体的には、こんな商品。    <br /><img src="http://www.originalmind.co.jp/attachments/assets/9802/8672/b2_1520_600.jpg" />    <br />で、作れるものは、こういうもの。    <br /><a href="http://www.originalmind.co.jp/products/black2" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">オリジナルマインド<span class="wpel-icon wpel-image wpel-icon-1"></span></a> で１０万円。手が出そうですからね～。    <br /><img loading="lazy" src="http://www.originalmind.co.jp/products/uploadimg/black2/10.jpg" width="386" height="289" />    </p>
+</p>
+<p><img loading="lazy" src="http://www.originalmind.co.jp/products/uploadimg/black2/09.jpg" width="355" height="266" /></p>
+<p><img loading="lazy" src="http://www.originalmind.co.jp/products/uploadimg/black2/07.jpg" width="408" height="306" />    </p>
+<p>紙工作での、カッティングマシーン(小型カッティングプロッタ)は前、GETして重宝したので（<a href="http://craftrobo.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Craft ROBO<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）、今度は厚みのある加工にチャレンジしてみたいな。    </p>
+<p>生基盤なんかを、エッチングする以外で加工する方法としてはカッティングマシーンではある程度はできるんだけど、細かな配線部分や、基盤への穴空けは無理なので、便利そう。   <br />ユニバーサル基盤で試作より、やっぱりパターンから１枚もの作って試したいよね。    </p>
+<p>PCB基盤の外注（オンライン発注）に出しても、１０枚で５ｃｍ四方くらいのが安くて２万はするもんね。自分と友達だけで使う分なら、１，２枚あれば試作基盤は十分なのでエッチングするより便利（デスクトップ脇において作業できるし）    </p>
+<p>毎月、１万円ためて、１０ヵ月後に買いますか？ 年末くらいに無事GETできるといいな。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/224.html/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

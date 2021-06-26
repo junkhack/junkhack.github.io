@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>v6plus+IP &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 07 Mar 2020 16:42:07 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>「v6プラス」固定IPではまった！</title>
+		<link>/4940.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 07 Mar 2020 16:42:07 +0000</pubDate>
+				<category><![CDATA[enhikari]]></category>
+		<category><![CDATA[WiFi]]></category>
+		<category><![CDATA[wimax]]></category>
+		<category><![CDATA[v6plus+IP]]></category>
+		<guid isPermaLink="false">/?p=4940</guid>
+							<description><![CDATA[固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！]]></description>
+										<content:encoded><![CDATA[<p>enひかりが開通しました。ぶっちぎりの速さでびっくりしています。</p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
+<p>ルータは自動設定でとりあえず繋がった状態なんです。</p>
+<p>まずは、ちゃんと設定していこうと IP固定の設定からやることにしました。enひかりのキャンペーンで安く買った（1000円＋送料800円）エレコムのルータ（WRC-1167GST2）を設定していました。</p>
+<blockquote>
+<p>ELECOM 11ac 867+300Mbps 無線LANギガビットルーターWRC-1167GST2</p>
+<p>https://www.elecom.co.jp/products/WRC-1167GST2.html</p>
+</blockquote>
+<p>家庭用なのでコンソール接続から、細かな設定をするタイプじゃなくてWEB画面から設定する感じです。ファームウェアを最新に上げて、WANの設定をしたところ全然つながりません。</p>
+<p>ELECOM（WRC-1167GST2） のルータは、ファームウェアがVer1.21以上だと、WANアクセスタイプ「transix（固定IP）」が選択できるようになるんですが、</p>
+<blockquote>
+<p>【GST2】transix（固定IP）の設定方法</p>
+<p>http://qa.elecom.co.jp/faq_detail.html?id=8225&#038;category=1054&#038;page=1</p>
+</blockquote>
+<p>この入力欄は以下のようになっています。</p>
+<blockquote>
+<p>WANアクセスタイプ：transix（固定IP）<br />トンネル終端IPv6アドレス：<br />Interface ID：<br />グローバルIPv4アドレス：<br />アップデートサーバー ユーザー<br />アップデートサーバー パスワード：</p>
+</blockquote>
+<p>enひかりから、通知された固定IP情報のご案内には「BRアドレス」ってあるんですよね。</p>
+<blockquote>
+<p>v4IPアドレス：106.xxx.xxx.xxx/32<br />インターフェイスID：IPv6アドレスの64bit（半分）<br />BRアドレス：IPv6アドレスの64bit（半分）<br />ユーザーID：xxx<br />パスワード：xxx</p>
+</blockquote>
+<p>トンネル終端IPv6アドレス　っていうのが、BRアドレスだと思って入力してみたんですが設定が完了せずダイアログが出るんですよね。</p>
+<p>眠くなったので、翌日土曜日に enひかりに電話して聞こうと思いその日は寝ました！</p>
+<p> </p>
+<p>で、翌日サポートに電話したらそのルータは「enひかり｢v6プラス｣固定IPサービス（IPinIP）」には対応していません。とのこと！</p>
+<p>はっ！まじっすか！　1800円でゲットしたと喜んでいましたが、どうやらこの家庭用ルータでは設定できないようです。</p>
+<p>じゃどんな機器で設定可能ですか？　と聞いたところ、</p>
+<blockquote>
+<p>enひかり｢v6プラス｣固定IPサービスについて（IPinIP）</p>
+<p>https://enhikari.jp/v6plus.html</p>
+<p>：：</p>
+<p>上記v6プラス対応NTT東日本又はNTT西日本社製のHGW<br />設定方法<br />http://ntt.setup:8888/t/ にアクセス<br />IPv4設定⇒高度な設定⇒固定アドレス設定⇒enひかり開通のご案内に記載のIPv4アドレスを入力</p>
+<p>ヤマハ社製　RTX/NVRシリーズ　 設定例</p>
+<p>NEC社製　UNIVERGE IXシリーズ　 設定例</p>
+<p>古河電工社製　FILTELnet-Fシリーズ　 設定例</p>
+<p>センチュリー・システムズ社製　NXR,WXRシリーズ 設定例</p>
+<p>※｢v6プラス｣対応機器について詳しくは販売元各社公式ホームページをご確認ください。</p>
+</blockquote>
+<p>とのこと。とりあえず、公式にこのルータでは、v6プラスの固定IPは設定できないと回答いただいたので諦めがつきました。</p>
+<p> </p>
+<p>そもそも、IP固定サービスの説明は以下で、</p>
+<blockquote>
+<p>enひかり固定IP</p>
+<p>https://enhikari.jp/koteiip.html</p>
+<p>::</p>
+<p>＊enひかり固定IPのご利用には、enひかりの契約が必要です。固定IPのみのご契約はできません。<br />＊固定IPv4アドレスとなります。IPv6接続をご希望の場合はenひかり「v6プラス」も併せてお申し込みください。</p>
+<p>::</p>
+</blockquote>
+<p>一番下の注意書き※にv６プラスの固定IPにすると、ルータは限定されたものが必要です。とか注意書きが欲しかった。</p>
+<p>また、そのページにはちゃんと書いてあるんですがね。</p>
+<blockquote>
+<p>enひかり｢v6プラス｣</p>
+<p>https://enhikari.jp/v6plus.html</p>
+<p>::</p>
+<p>enひかり｢v6プラス｣固定IPサービスについて（IPinIP）</p>
+<p>※固定IPのご利用には別途enひかり固定IPのお申込及び対応機器のご用意及び設定が必要です。</p>
+<p>::</p>
+</blockquote>
+<p>transix の説明ページには、enひかり固定IP との併用はできない　と記載があります。うーん、よくわからん。</p>
+<blockquote>
+<p>enひかり｢transix(トランジックス)｣</p>
+<p>https://enhikari.jp/transix.html</p>
+<p>::</p>
+<p>＊enひかり｢transix｣のご利用には、enひかりの契約が必要です。enひかり｢transix｣は固定IPサービス及びenひかり｢v6プラス｣との併用はできません。</p>
+</blockquote>
+<p>つまり、固定IPを選んだら、単独で契約するか、またはv6プラス と併用するかの２択となるようです。</p>
+<p>自分の場合は、固定IPとv6プラスをオプションで選んだのでこういうハマり事に遭遇したというわけですね。</p>
+<p>もう一度、書いておきますが</p>
+<p style="text-align:center;"><strong>固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！</strong></p>
+<p>ということです。ちょっとわかりにくいですよね。</p>
+<p>ということで、この設定ができるルータ選びをすることにします。次回は、ルータ選び編ですね。</p>
+<p> </p>
+<p> </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
