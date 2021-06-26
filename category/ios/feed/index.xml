@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ios &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 24 Aug 2020 03:25:53 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>神アプリ。PCからiosやandroidスマホ画面を触れる開発者必須のツール</title>
-		<link>/5769.html</link>
+		<link>https://jh2.gpl.jp/5769.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 24 Aug 2020 03:25:53 +0000</pubDate>

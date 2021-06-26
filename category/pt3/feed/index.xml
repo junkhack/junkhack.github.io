@@ -10,7 +10,7 @@
 
 <channel>
 	<title>PT3 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 08 Nov 2015 13:58:19 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>PT3 到着</title>
-		<link>/1654.html</link>
+		<link>https://jh2.gpl.jp/1654.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 08 Nov 2015 13:58:19 +0000</pubDate>
@@ -59,7 +59,7 @@
 			</item>
 		<item>
 		<title>テレビを見たければ運動せよ！ PT3 をGET</title>
-		<link>/1575.html</link>
+		<link>https://jh2.gpl.jp/1575.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 04 Nov 2015 15:22:09 +0000</pubDate>

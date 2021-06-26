@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Parts &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 20 Feb 2021 06:38:45 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,14 +21,14 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</title>
-		<link>/10121.html</link>
+		<link>https://jh2.gpl.jp/10121.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 20 Feb 2021 06:38:39 +0000</pubDate>
 				<category><![CDATA[arduino]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10121</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10121</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/seeed-xiao.png" />
 							<description><![CDATA[サムネでもわかるとは思いますが、これ全体のフォルムがかわいいんですよね。あと想像よりもちっさいんです。親指くらいの大きさなんですよ。発売は去年の３〜6月ごろだったみたいですが、今頃発見です。 3個入りパッケージで1,75 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -465,14 +465,14 @@ void rest() {
 			</item>
 		<item>
 		<title>リポ充電基盤のType-C版が出てたんでポチった！</title>
-		<link>/10103.html</link>
+		<link>https://jh2.gpl.jp/10103.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 19 Feb 2021 20:21:48 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10103</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10103</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/aliexpress_type-c.png" />
 							<description><![CDATA[はい！　またアリエクでポチってしまいました。 今回は、備忘録として記載。まだ到着していませんが、到着するころには「これなんだっけ？」という事態になることが多発していましたので、ポチッとしたらブログに書いていくことにします [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -532,7 +532,7 @@ void rest() {
 
 
 
-<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日: </em><a href="https://junkwww.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日: </em><a href="https://junkhack.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
 
 
 
@@ -576,7 +576,7 @@ void rest() {
 
 
 
-<figure class="wp-block-image"><img src="https://i0.wp.com/www.gpl.jp/wp-content/uploads/2015/12/dsc00219_thumb.jpg?resize=640%2C361" alt="DSC00219"/><figcaption><a href="https://junkwww.gpl.jp/2015/12/07/esp8266-backboost-%e7%b5%84%e3%81%bf%e4%bb%98%e3%81%91%e5%ae%8c%e4%ba%86%e3%83%bb%e3%83%bb%e3%83%bb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ESP8266 BackBoost</a></figcaption></figure>
+<figure class="wp-block-image"><img src="https://i0.wp.com/www.gpl.jp/wp-content/uploads/2015/12/dsc00219_thumb.jpg?resize=640%2C361" alt="DSC00219"/><figcaption><a href="https://junkhack.gpl.jp/2015/12/07/esp8266-backboost-%e7%b5%84%e3%81%bf%e4%bb%98%e3%81%91%e5%ae%8c%e4%ba%86%e3%83%bb%e3%83%bb%e3%83%bb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ESP8266 BackBoost</a></figcaption></figure>
 
 
 
@@ -627,7 +627,7 @@ void rest() {
 			</item>
 		<item>
 		<title>ネジはミスミで買う事にした</title>
-		<link>/2564.html</link>
+		<link>https://jh2.gpl.jp/2564.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 14 Dec 2016 11:07:34 +0000</pubDate>
@@ -664,7 +664,7 @@ void rest() {
 			</item>
 		<item>
 		<title>ロード・スイッチ　TPS22942DCKR</title>
-		<link>/2286.html</link>
+		<link>https://jh2.gpl.jp/2286.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2016 07:34:54 +0000</pubDate>
@@ -688,7 +688,7 @@ void rest() {
 			</item>
 		<item>
 		<title>SDCard16GB 来たのでRasbian Jessie 入れてみた</title>
-		<link>/2090.html</link>
+		<link>https://jh2.gpl.jp/2090.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 01 Feb 2016 14:53:25 +0000</pubDate>

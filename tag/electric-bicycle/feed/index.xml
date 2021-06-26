@@ -10,7 +10,7 @@
 
 <channel>
 	<title>電動自転車 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 21 Jul 2011 16:55:27 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>ミニベロもいいね</title>
-		<link>/248.html</link>
+		<link>https://jh2.gpl.jp/248.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 16:55:27 +0000</pubDate>
@@ -51,7 +51,7 @@
 			</item>
 		<item>
 		<title>パーツ選定　コントローラ</title>
-		<link>/247.html</link>
+		<link>https://jh2.gpl.jp/247.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 14:26:25 +0000</pubDate>
@@ -74,7 +74,7 @@
 			</item>
 		<item>
 		<title>パーツ選定　HUBモータ スポークタイプ</title>
-		<link>/246.html</link>
+		<link>https://jh2.gpl.jp/246.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 12:57:39 +0000</pubDate>
@@ -113,7 +113,7 @@
 			</item>
 		<item>
 		<title>電動アシスト自転車</title>
-		<link>/245.html</link>
+		<link>https://jh2.gpl.jp/245.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 09:30:21 +0000</pubDate>

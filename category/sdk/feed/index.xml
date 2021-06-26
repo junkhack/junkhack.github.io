@@ -10,7 +10,7 @@
 
 <channel>
 	<title>sdk &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 27 Sep 2015 16:49:32 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>espeink の現在の調査状況</title>
-		<link>/1280.html</link>
+		<link>https://jh2.gpl.jp/1280.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 27 Sep 2015 16:49:32 +0000</pubDate>
@@ -298,7 +298,7 @@ VENDOR_SDK_DIR_0.9.2 = esp_iot_sdk_v0.9.2</pre>
 			</item>
 		<item>
 		<title>espeink の挙動</title>
-		<link>/1277.html</link>
+		<link>https://jh2.gpl.jp/1277.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 26 Sep 2015 17:17:42 +0000</pubDate>
@@ -430,7 +430,7 @@ convertImage(&quot;icons/apconnect.png&quot;, &quot;html/apconnect.bm&quot;);
 			</item>
 		<item>
 		<title>espeink make その４</title>
-		<link>/1269.html</link>
+		<link>https://jh2.gpl.jp/1269.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 26 Sep 2015 12:51:15 +0000</pubDate>
@@ -624,7 +624,7 @@ HOPE:espeink junkhack$ </pre>
 			</item>
 		<item>
 		<title>espeink make その３</title>
-		<link>/1261.html</link>
+		<link>https://jh2.gpl.jp/1261.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 24 Sep 2015 19:39:37 +0000</pubDate>
@@ -851,7 +851,7 @@ HOPE:espeink junkhack$ </pre>
 			</item>
 		<item>
 		<title>espeink make その2</title>
-		<link>/1256.html</link>
+		<link>https://jh2.gpl.jp/1256.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 23 Sep 2015 17:19:22 +0000</pubDate>

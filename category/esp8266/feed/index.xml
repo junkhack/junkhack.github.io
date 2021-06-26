@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ESP8266 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 26 Jun 2016 17:38:34 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>ESP-WROOM-02 BackBoost ひさびさ</title>
-		<link>/2301.html</link>
+		<link>https://jh2.gpl.jp/2301.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 26 Jun 2016 17:38:34 +0000</pubDate>
@@ -69,7 +69,7 @@
 			</item>
 		<item>
 		<title>ESP BackBoost 組み付け風景</title>
-		<link>/1887.html</link>
+		<link>https://jh2.gpl.jp/1887.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 09 Dec 2015 21:50:35 +0000</pubDate>
@@ -106,7 +106,7 @@
 			</item>
 		<item>
 		<title>ESP8266 BackBoost 組み付け完了・・・</title>
-		<link>/1869.html</link>
+		<link>https://jh2.gpl.jp/1869.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Dec 2015 17:38:44 +0000</pubDate>
@@ -135,7 +135,7 @@
 			</item>
 		<item>
 		<title>人生初、QFNパッケージの半田付け&#8211;失敗の例</title>
-		<link>/1847.html</link>
+		<link>https://jh2.gpl.jp/1847.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 05 Dec 2015 22:56:27 +0000</pubDate>
@@ -225,7 +225,7 @@
 			</item>
 		<item>
 		<title>PCBのカッティング・ジグを作ったよ</title>
-		<link>/1831.html</link>
+		<link>https://jh2.gpl.jp/1831.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 05 Dec 2015 22:02:18 +0000</pubDate>

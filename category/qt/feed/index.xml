@@ -10,7 +10,7 @@
 
 <channel>
 	<title>QT &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 30 Dec 2015 19:47:23 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>Sigrok の Pulsview 0.3.0 動きました</title>
-		<link>/1966.html</link>
+		<link>https://jh2.gpl.jp/1966.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 30 Dec 2015 19:47:23 +0000</pubDate>
@@ -133,7 +133,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 			</item>
 		<item>
 		<title>sigrok Pulsview を osx でビルドに挑戦</title>
-		<link>/1957.html</link>
+		<link>https://jh2.gpl.jp/1957.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 29 Dec 2015 20:04:41 +0000</pubDate>

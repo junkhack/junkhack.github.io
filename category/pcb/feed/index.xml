@@ -10,7 +10,7 @@
 
 <channel>
 	<title>PCB &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 19 Feb 2021 22:04:16 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>JankHackロゴを考えちゅう</title>
-		<link>/2542.html</link>
+		<link>https://jh2.gpl.jp/2542.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 13 Dec 2016 16:51:33 +0000</pubDate>
@@ -43,7 +43,7 @@
 			</item>
 		<item>
 		<title>ESP-WROOM-02 BackBoost ひさびさ</title>
-		<link>/2301.html</link>
+		<link>https://jh2.gpl.jp/2301.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 26 Jun 2016 17:38:34 +0000</pubDate>
@@ -91,7 +91,7 @@
 			</item>
 		<item>
 		<title>ロジックアナライザでI2C 信号を見ると</title>
-		<link>/2081.html</link>
+		<link>https://jh2.gpl.jp/2081.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2016 15:11:08 +0000</pubDate>
@@ -128,7 +128,7 @@
 			</item>
 		<item>
 		<title>INA226 を arduino nano で</title>
-		<link>/2074.html</link>
+		<link>https://jh2.gpl.jp/2074.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 30 Jan 2016 14:27:20 +0000</pubDate>
@@ -261,7 +261,7 @@ Shunt current: 0.00300 A</pre>
 			</item>
 		<item>
 		<title>INA226 を RasPi の ruby でi2c</title>
-		<link>/2049.html</link>
+		<link>https://jh2.gpl.jp/2049.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 24 Jan 2016 17:24:33 +0000</pubDate>

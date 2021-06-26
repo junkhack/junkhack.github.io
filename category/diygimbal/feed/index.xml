@@ -10,7 +10,7 @@
 
 <channel>
 	<title>DIYGimbal &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 12 Apr 2017 14:30:35 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>アリエクから全額返金完了、そしてダイソーにてモバイルバッテリーゲット</title>
-		<link>/3771.html</link>
+		<link>https://jh2.gpl.jp/3771.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 12 Apr 2017 14:30:35 +0000</pubDate>
@@ -69,7 +69,7 @@
 			</item>
 		<item>
 		<title>Gimbal の構想をぼちぼち始めることに</title>
-		<link>/3570.html</link>
+		<link>https://jh2.gpl.jp/3570.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 19 Mar 2017 15:20:34 +0000</pubDate>
@@ -97,7 +97,7 @@
 			</item>
 		<item>
 		<title>６００ｇのカメラが載る 3軸 DIY Gimbal の研究</title>
-		<link>/2959.html</link>
+		<link>https://jh2.gpl.jp/2959.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 06 Jan 2017 13:32:26 +0000</pubDate>

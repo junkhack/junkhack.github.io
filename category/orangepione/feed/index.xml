@@ -10,7 +10,7 @@
 
 <channel>
 	<title>OrangePiOne &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 12 Jun 2016 00:00:47 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>/2251.html</link>
+		<link>https://jh2.gpl.jp/2251.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -102,7 +102,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>Orange Pi Lite が出ていました</title>
-		<link>/2181.html</link>
+		<link>https://jh2.gpl.jp/2181.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 28 May 2016 11:05:03 +0000</pubDate>
@@ -129,7 +129,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>OrangePi One にFan を付けて全開ベンチマーク</title>
-		<link>/2109.html</link>
+		<link>https://jh2.gpl.jp/2109.html</link>
 					<comments>/2109.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>

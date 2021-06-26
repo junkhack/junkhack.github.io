@@ -10,7 +10,7 @@
 
 <channel>
 	<title>テスター &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 16 Mar 2011 19:23:07 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>iPhone負荷でUSB充電を調べた</title>
-		<link>/230.html</link>
+		<link>https://jh2.gpl.jp/230.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 16 Mar 2011 19:23:07 +0000</pubDate>
@@ -51,7 +51,7 @@
 			</item>
 		<item>
 		<title>18650リチウム電池のUSB電源は？</title>
-		<link>/221.html</link>
+		<link>https://jh2.gpl.jp/221.html</link>
 					<comments>/221.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -88,7 +88,7 @@
 			</item>
 		<item>
 		<title>MS-8226　ＰＣ接続テスター来た！</title>
-		<link>/211.html</link>
+		<link>https://jh2.gpl.jp/211.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 19 Feb 2011 15:50:43 +0000</pubDate>
@@ -129,7 +129,7 @@
 			</item>
 		<item>
 		<title>ＰＣ接続テスターぽちった</title>
-		<link>/203.html</link>
+		<link>https://jh2.gpl.jp/203.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 18 Feb 2011 19:45:17 +0000</pubDate>

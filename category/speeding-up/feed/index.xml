@@ -10,7 +10,7 @@
 
 <channel>
 	<title>高速化 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 01 Jun 2021 20:43:58 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>スマホ上に作った自宅サーバのWordPressで、テスト評価がほぼオールAになった！</title>
-		<link>/9466.html</link>
+		<link>https://jh2.gpl.jp/9466.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 11 Sep 2020 19:51:21 +0000</pubDate>
@@ -217,7 +217,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 			</item>
 		<item>
 		<title>Termuxでのスマホサーバ、SSLアクセスでも耐えれそうかな？</title>
-		<link>/9464.html</link>
+		<link>https://jh2.gpl.jp/9464.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 09 Sep 2020 17:27:32 +0000</pubDate>
@@ -479,7 +479,7 @@ location = /.well-known/acme-challenge/ {
 			</item>
 		<item>
 		<title>スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた</title>
-		<link>/5943.html</link>
+		<link>https://jh2.gpl.jp/5943.html</link>
 					<comments>/5943.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -601,7 +601,7 @@ Percentage of the requests served within a certain time (ms)
 			</item>
 		<item>
 		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>/5911.html</link>
+		<link>https://jh2.gpl.jp/5911.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>
@@ -812,7 +812,7 @@ gt;
 			</item>
 		<item>
 		<title>高速化その３：画像圧縮してみた！次世代画像フォーマット「WebP（ウェッピー）」を使う</title>
-		<link>/5091.html</link>
+		<link>https://jh2.gpl.jp/5091.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 20 Mar 2020 01:16:47 +0000</pubDate>

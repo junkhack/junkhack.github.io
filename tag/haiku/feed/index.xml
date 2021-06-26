@@ -10,7 +10,7 @@
 
 <channel>
 	<title>haiku &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 04 Feb 2011 10:08:01 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>PowerPC HaikuOS をiMacG4で試す</title>
-		<link>/41.html</link>
+		<link>https://jh2.gpl.jp/41.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Feb 2011 10:08:01 +0000</pubDate>
@@ -75,7 +75,7 @@
 			</item>
 		<item>
 		<title>覚書　PowerPC HaikuOS</title>
-		<link>/26.html</link>
+		<link>https://jh2.gpl.jp/26.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Feb 2011 03:40:58 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Bluetooth &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 12 May 2020 06:33:12 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>DW1820A WiFi、Bluetoothとアンテナを取り付け</title>
-		<link>/5135.html</link>
+		<link>https://jh2.gpl.jp/5135.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 12 May 2020 06:33:12 +0000</pubDate>
@@ -51,7 +51,7 @@ https://support.lenovo.com/jp/ja/downloads/ds111952</p></blockquote>
 			</item>
 		<item>
 		<title>ESP32（ESP-WROOM-32） のBluetoothライブラリーサンプルが来た模様</title>
-		<link>/3366.html</link>
+		<link>https://jh2.gpl.jp/3366.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 26 Feb 2017 18:27:36 +0000</pubDate>

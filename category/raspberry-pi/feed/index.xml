@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Raspberry Pi &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 20 Nov 2018 19:49:38 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>PaiZero Wのアンテナを見つつ、アレクサとかGoogleアシストを呼び出すものを作る構想なんぞを練ってみる</title>
-		<link>/4796.html</link>
+		<link>https://jh2.gpl.jp/4796.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 20 Nov 2018 19:49:38 +0000</pubDate>
@@ -70,7 +70,7 @@
 			</item>
 		<item>
 		<title>Raspberry Pi Zero セットアップ2</title>
-		<link>/4781.html</link>
+		<link>https://jh2.gpl.jp/4781.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 18 Nov 2018 15:38:06 +0000</pubDate>
@@ -252,7 +252,7 @@ System Benchmarks Index Score <span style="color:#ff0000;">97</span>.0</p></bloc
 			</item>
 		<item>
 		<title>Raspberry Pi Zero セットアップ１</title>
-		<link>/4759.html</link>
+		<link>https://jh2.gpl.jp/4759.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 15 Nov 2018 20:40:51 +0000</pubDate>
@@ -302,7 +302,7 @@ SDカードに書き込むのは、コマンドライン、ツールを使う方
 			</item>
 		<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>/2251.html</link>
+		<link>https://jh2.gpl.jp/2251.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -383,7 +383,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>SDCard16GB 来たのでRasbian Jessie 入れてみた</title>
-		<link>/2090.html</link>
+		<link>https://jh2.gpl.jp/2090.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 01 Feb 2016 14:53:25 +0000</pubDate>

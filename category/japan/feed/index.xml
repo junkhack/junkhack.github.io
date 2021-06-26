@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Japan &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 18 Dec 2016 08:13:18 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>日本製のベアリングは中華と比べてやっぱりすごかった</title>
-		<link>/2592.html</link>
+		<link>https://jh2.gpl.jp/2592.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 18 Dec 2016 08:13:18 +0000</pubDate>

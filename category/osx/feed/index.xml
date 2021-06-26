@@ -10,7 +10,7 @@
 
 <channel>
 	<title>osx &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 17 Jun 2021 00:08:02 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>MQAデコードがTidalデスクトップアプリで可能に修正されてた！</title>
-		<link>/10642.html</link>
+		<link>https://jh2.gpl.jp/10642.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 08 Jun 2021 15:06:19 +0000</pubDate>
 				<category><![CDATA[music]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10642</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10642</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/06/MQA_desktop_macos.png" />
 							<description><![CDATA[Tidal公式のデスクトップアプリと、外付けDACを使っています。DACは、Hiby FC3 Portable MQA USB DAC というお値打ち価格7500円なMQAフルデコード対応のものです。 以前、いくつかMQ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -130,13 +130,13 @@ Release February 10, 2021
 			</item>
 		<item>
 		<title>備忘録：Ryzen 5 3600のLinuxでUnixBench</title>
-		<link>/10588.html</link>
+		<link>https://jh2.gpl.jp/10588.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 May 2021 18:04:36 +0000</pubDate>
 				<category><![CDATA[Linux]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10588</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10588</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/05/ryzen5-3600-unixbench.png" />
 							<description><![CDATA[そういえば、だいぶ前にRyzen 5 3600をメインマシンにしたんですが、これでLinux動かしてなくて、UnixBenchのスコアが気になっていました。Diskはさくっと入れ替えられるよう、2.5inchの脱着ベイを [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -180,7 +180,7 @@ Release February 10, 2021
 
 
 
-<blockquote class="wp-block-quote"><p>Intelチップ、2022年までしばらくさようなら！<br><em>投稿日: <a href="https://junkwww.gpl.jp/2020/03/13/goodby-intel/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2020-03-13T06:20:53+09:00">2020年3月13日</time></a> 更新日:2020年11月13日</em></p><cite><a href="https://junkwww.gpl.jp/2020/03/13/goodby-intel/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Intelチップ、2022年までしばらくさようなら！<br><em>投稿日: <a href="https://junkhack.gpl.jp/2020/03/13/goodby-intel/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2020-03-13T06:20:53+09:00">2020年3月13日</time></a> 更新日:2020年11月13日</em></p><cite><a href="https://junkhack.gpl.jp/2020/03/13/goodby-intel/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
 
 
 
@@ -290,7 +290,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<blockquote class="wp-block-quote"><p>130W電源でThinkCentre M75q-1 Tinyのベンチマーク</p><cite><a href="https://junkwww.gpl.jp/2020/07/02/130wm75q-1-tinybench/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>130W電源でThinkCentre M75q-1 Tinyのベンチマーク</p><cite><a href="https://junkhack.gpl.jp/2020/07/02/130wm75q-1-tinybench/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
 
 
 
@@ -333,13 +333,13 @@ System Benchmarks Index Score                                        7919.0</cod
 			</item>
 		<item>
 		<title>Apple純正のUSキーボードの分解メモ</title>
-		<link>/10343.html</link>
+		<link>https://jh2.gpl.jp/10343.html</link>
 					<comments>/10343.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 21 Mar 2021 21:30:00 +0000</pubDate>
 				<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10343</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10343</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/Apple-Wireless-Keyboard-US-1.png" />
 							<description><![CDATA[アップルのワイヤレスキーボードとはこんな製品です。今は、Magic Keyboard(充電式)　っていうタイプなんで、乾電池を入れるこのタイプは古い製品ですね。写真は日本語配列ですが、これのUS配列でかたかながないタイプ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -524,13 +524,13 @@ System Benchmarks Index Score                                        7919.0</cod
 			</item>
 		<item>
 		<title>6年使ったSSDが突然、認識せず、あれこれした記録</title>
-		<link>/10294.html</link>
+		<link>https://jh2.gpl.jp/10294.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 14 Mar 2021 17:52:42 +0000</pubDate>
 				<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10294</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10294</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/SSD-limit-lifetime-2.png" />
 							<description><![CDATA[ということで、ちょうどOSを載せ替えようとSSDを調達して、大事なデータをコピーし終えたところで、突然認識しなくなりました。認識しなくなったSSDはこれ。当時のカタログの切り抜きを。 正式な型番と購入した値段、時期は以下 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -956,7 +956,7 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>XIAOでMacのスクリーンショット専用USBキーを作るDIY</title>
-		<link>/10186.html</link>
+		<link>https://jh2.gpl.jp/10186.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 28 Feb 2021 17:20:05 +0000</pubDate>
@@ -964,7 +964,7 @@ $ sudo testdisk</code></pre>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[osx]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10186</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10186</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/DIY-USB-KEY-1.png" />
 							<description><![CDATA[今回のDIYは、ちょっと実用的なものを作ろうかと思います 最近、はまっている小さくて安いArduino互換機、XIAOを使ってカスタマイズできるキーボードを作ろうと思います！　冒頭でも少し触れましたが、Macのスクショア [&#8230;]]]></description>
 										<content:encoded><![CDATA[

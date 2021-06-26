@@ -10,7 +10,7 @@
 
 <channel>
 	<title>v6plus+IP &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 07 Mar 2020 16:42:07 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>「v6プラス」固定IPではまった！</title>
-		<link>/4940.html</link>
+		<link>https://jh2.gpl.jp/4940.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 07 Mar 2020 16:42:07 +0000</pubDate>

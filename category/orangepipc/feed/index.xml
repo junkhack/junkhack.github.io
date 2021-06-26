@@ -10,7 +10,7 @@
 
 <channel>
 	<title>OrangePiPC &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 12 Jun 2016 00:00:47 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>/2251.html</link>
+		<link>https://jh2.gpl.jp/2251.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -102,7 +102,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>WiFi RTL8188CUS のメモ</title>
-		<link>/2203.html</link>
+		<link>https://jh2.gpl.jp/2203.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 May 2016 14:56:25 +0000</pubDate>
@@ -196,7 +196,7 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 			</item>
 		<item>
 		<title>Soracom で IoT はじめました</title>
-		<link>/2196.html</link>
+		<link>https://jh2.gpl.jp/2196.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 May 2016 09:06:46 +0000</pubDate>
@@ -495,7 +495,7 @@ if __name__ == '__main__':
 			</item>
 		<item>
 		<title>Orange Pi Lite が出ていました</title>
-		<link>/2181.html</link>
+		<link>https://jh2.gpl.jp/2181.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 28 May 2016 11:05:03 +0000</pubDate>
@@ -522,7 +522,7 @@ if __name__ == '__main__':
 			</item>
 		<item>
 		<title>ARMBIAN を Orange PI PC に入れてみた</title>
-		<link>/2178.html</link>
+		<link>https://jh2.gpl.jp/2178.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 21 May 2016 10:57:21 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>NCP1450 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 13 Feb 2011 07:06:40 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>安くて効率のよいスイッチングＩＣを探す</title>
-		<link>/194.html</link>
+		<link>https://jh2.gpl.jp/194.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Feb 2011 07:06:40 +0000</pubDate>

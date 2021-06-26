@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Blog &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 01 Jun 2021 20:43:58 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>ジェットパックプラグインは死活監視サービスがあるのか！</title>
-		<link>/9469.html</link>
+		<link>https://jh2.gpl.jp/9469.html</link>
 					<comments>/9469.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -164,7 +164,7 @@
 			</item>
 		<item>
 		<title>このブログは、スマートフォンの中に引越ししました！</title>
-		<link>/9510.html</link>
+		<link>https://jh2.gpl.jp/9510.html</link>
 					<comments>/9510.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -174,7 +174,7 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9510</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9510</guid>
 				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
 							<description><![CDATA[えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！ なんで、引越しをしたの？ はい、結論から言いますと今まで使っていたWordPress.comのパー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -194,7 +194,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkwww.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkwww.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkhack.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkhack.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
 
 
 
@@ -256,7 +256,7 @@
 			</item>
 		<item>
 		<title>スマホ上に作った自宅サーバのWordPressで、テスト評価がほぼオールAになった！</title>
-		<link>/9466.html</link>
+		<link>https://jh2.gpl.jp/9466.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 11 Sep 2020 19:51:21 +0000</pubDate>
@@ -452,7 +452,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 			</item>
 		<item>
 		<title>スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた</title>
-		<link>/5943.html</link>
+		<link>https://jh2.gpl.jp/5943.html</link>
 					<comments>/5943.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -574,7 +574,7 @@ Percentage of the requests served within a certain time (ms)
 			</item>
 		<item>
 		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>/5911.html</link>
+		<link>https://jh2.gpl.jp/5911.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>

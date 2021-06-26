@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Book &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 05 Jan 2018 18:21:21 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>1万人の読者・・・企画倒れか</title>
-		<link>/4250.html</link>
+		<link>https://jh2.gpl.jp/4250.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 05 Jan 2018 18:21:21 +0000</pubDate>
@@ -42,7 +42,7 @@
 			</item>
 		<item>
 		<title>1万人の読者を作るプロジェクト開始</title>
-		<link>/3910.html</link>
+		<link>https://jh2.gpl.jp/3910.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 Apr 2017 15:42:01 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Ryzen &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 15 Mar 2020 08:38:06 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>3.3万で買える4コア８スレッドのRyzen5マシンをポチった！</title>
-		<link>/5054.html</link>
+		<link>https://jh2.gpl.jp/5054.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 15 Mar 2020 08:38:06 +0000</pubDate>

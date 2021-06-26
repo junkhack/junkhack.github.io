@@ -10,7 +10,7 @@
 
 <channel>
 	<title>cdn &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 03 Sep 2020 03:38:17 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>Rapid START CDNを試す！　が、ハマりどころいっぱい！</title>
-		<link>/5854.html</link>
+		<link>https://jh2.gpl.jp/5854.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 Sep 2020 03:38:17 +0000</pubDate>
@@ -188,7 +188,7 @@ free.rs.cdnw.net.	29	IN	A	59.106.219.219</code></pre>
 			</item>
 		<item>
 		<title>CDNを使わずWEBアクセスのロードタイムが１秒を切った！</title>
-		<link>/5063.html</link>
+		<link>https://jh2.gpl.jp/5063.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 15 Mar 2020 18:56:44 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>18650 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 19 Feb 2011 20:58:44 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>18650リチウム電池のUSB電源は？</title>
-		<link>/221.html</link>
+		<link>https://jh2.gpl.jp/221.html</link>
 					<comments>/221.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>

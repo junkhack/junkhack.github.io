@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Aliexpress &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 19 Feb 2021 20:37:49 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,14 +21,14 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>リポ充電基盤のType-C版が出てたんでポチった！</title>
-		<link>/10103.html</link>
+		<link>https://jh2.gpl.jp/10103.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 19 Feb 2021 20:21:48 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10103</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10103</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/aliexpress_type-c.png" />
 							<description><![CDATA[はい！　またアリエクでポチってしまいました。 今回は、備忘録として記載。まだ到着していませんが、到着するころには「これなんだっけ？」という事態になることが多発していましたので、ポチッとしたらブログに書いていくことにします [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -88,7 +88,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日: </em><a href="https://junkwww.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日: </em><a href="https://junkhack.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
 
 
 
@@ -132,7 +132,7 @@
 
 
 
-<figure class="wp-block-image"><img src="https://i0.wp.com/www.gpl.jp/wp-content/uploads/2015/12/dsc00219_thumb.jpg?resize=640%2C361" alt="DSC00219"/><figcaption><a href="https://junkwww.gpl.jp/2015/12/07/esp8266-backboost-%e7%b5%84%e3%81%bf%e4%bb%98%e3%81%91%e5%ae%8c%e4%ba%86%e3%83%bb%e3%83%bb%e3%83%bb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ESP8266 BackBoost</a></figcaption></figure>
+<figure class="wp-block-image"><img src="https://i0.wp.com/www.gpl.jp/wp-content/uploads/2015/12/dsc00219_thumb.jpg?resize=640%2C361" alt="DSC00219"/><figcaption><a href="https://junkhack.gpl.jp/2015/12/07/esp8266-backboost-%e7%b5%84%e3%81%bf%e4%bb%98%e3%81%91%e5%ae%8c%e4%ba%86%e3%83%bb%e3%83%bb%e3%83%bb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ESP8266 BackBoost</a></figcaption></figure>
 
 
 
@@ -183,7 +183,7 @@
 			</item>
 		<item>
 		<title>ダストクーラーをDIY修理。冷却面側の加工でダストボックス内部は約10℃で安定！</title>
-		<link>/5699.html</link>
+		<link>https://jh2.gpl.jp/5699.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 11 Aug 2020 13:23:05 +0000</pubDate>
@@ -230,7 +230,7 @@
 			</item>
 		<item>
 		<title>ペルチェ素子２段で−４℃まで行く空冷ファンを探せ！</title>
-		<link>/5672.html</link>
+		<link>https://jh2.gpl.jp/5672.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 07 Aug 2020 17:32:57 +0000</pubDate>
@@ -281,7 +281,7 @@
 			</item>
 		<item>
 		<title>ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？</title>
-		<link>/5650.html</link>
+		<link>https://jh2.gpl.jp/5650.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 03 Aug 2020 16:21:16 +0000</pubDate>
@@ -331,7 +331,7 @@
 			</item>
 		<item>
 		<title>DW1820A WiFi、Bluetoothとアンテナを取り付け</title>
-		<link>/5135.html</link>
+		<link>https://jh2.gpl.jp/5135.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 12 May 2020 06:33:12 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>AMZON &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 28 Apr 2021 01:44:41 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>6年使ったSSDが突然、認識せず、あれこれした記録</title>
-		<link>/10294.html</link>
+		<link>https://jh2.gpl.jp/10294.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 14 Mar 2021 17:52:42 +0000</pubDate>
 				<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10294</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10294</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/SSD-limit-lifetime-2.png" />
 							<description><![CDATA[ということで、ちょうどOSを載せ替えようとSSDを調達して、大事なデータをコピーし終えたところで、突然認識しなくなりました。認識しなくなったSSDはこれ。当時のカタログの切り抜きを。 正式な型番と購入した値段、時期は以下 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -453,7 +453,7 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>mac で使えるUSB-RJ45シリアルケーブルきたよ（FTDI-FT232RLチップ）</title>
-		<link>/4976.html</link>
+		<link>https://jh2.gpl.jp/4976.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 10 Mar 2020 08:03:44 +0000</pubDate>
@@ -485,7 +485,7 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>Macでも使えるコンソールケーブルをゲット</title>
-		<link>/4961.html</link>
+		<link>https://jh2.gpl.jp/4961.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 08 Mar 2020 16:03:58 +0000</pubDate>
@@ -504,7 +504,7 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>2017年に購入してよかったものベスト10</title>
-		<link>/4305.html</link>
+		<link>https://jh2.gpl.jp/4305.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 07 Jan 2018 18:19:39 +0000</pubDate>
@@ -568,7 +568,7 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>FireTV Stick Newモデル3480円！！</title>
-		<link>/4056.html</link>
+		<link>https://jh2.gpl.jp/4056.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 11 Jul 2017 05:42:05 +0000</pubDate>

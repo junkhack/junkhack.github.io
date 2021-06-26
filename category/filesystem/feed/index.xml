@@ -10,7 +10,7 @@
 
 <channel>
 	<title>FileSystem &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 25 Jul 2015 13:16:28 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>NFS Boot の IOPS</title>
-		<link>/900.html</link>
+		<link>https://jh2.gpl.jp/900.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 25 Jul 2015 13:16:28 +0000</pubDate>
@@ -54,7 +54,7 @@
 			</item>
 		<item>
 		<title>AUFSとか</title>
-		<link>/886.html</link>
+		<link>https://jh2.gpl.jp/886.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 23 Jul 2015 21:49:46 +0000</pubDate>

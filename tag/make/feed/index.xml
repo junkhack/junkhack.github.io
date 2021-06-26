@@ -10,7 +10,7 @@
 
 <channel>
 	<title>作りたい &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 06 Feb 2011 05:51:34 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>30年前のバケツラジオ出てきた！</title>
-		<link>/109.html</link>
+		<link>https://jh2.gpl.jp/109.html</link>
 					<comments>/109.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>

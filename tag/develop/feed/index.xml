@@ -10,7 +10,7 @@
 
 <channel>
 	<title>試作 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 24 Feb 2011 23:50:10 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>mini-CNCフライスほしいね</title>
-		<link>/224.html</link>
+		<link>https://jh2.gpl.jp/224.html</link>
 					<comments>/224.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>

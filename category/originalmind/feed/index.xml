@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ORIGINALMIND &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 10 Feb 2017 13:23:32 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>今週衝動買いしそうになっているもの</title>
-		<link>/3190.html</link>
+		<link>https://jh2.gpl.jp/3190.html</link>
 					<comments>/3190.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -75,7 +75,7 @@
 			</item>
 		<item>
 		<title>オリジナルマインドさんからステップモーター中古到着</title>
-		<link>/2862.html</link>
+		<link>https://jh2.gpl.jp/2862.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 29 Dec 2016 22:51:39 +0000</pubDate>

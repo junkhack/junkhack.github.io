@@ -10,7 +10,7 @@
 
 <channel>
 	<title>digikey &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 21 Sep 2015 09:36:01 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>WiFi E-ink display 部品整理</title>
-		<link>/1238.html</link>
+		<link>https://jh2.gpl.jp/1238.html</link>
 					<comments>/1238.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -235,7 +235,7 @@
 			</item>
 		<item>
 		<title>IC4 のレギュレータは要考慮</title>
-		<link>/1190.html</link>
+		<link>https://jh2.gpl.jp/1190.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Sep 2015 16:41:26 +0000</pubDate>
@@ -315,7 +315,7 @@
 			</item>
 		<item>
 		<title>Wifi E-ink display パーツ見積</title>
-		<link>/1171.html</link>
+		<link>https://jh2.gpl.jp/1171.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 12 Sep 2015 06:47:10 +0000</pubDate>

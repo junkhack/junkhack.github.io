@@ -10,7 +10,7 @@
 
 <channel>
 	<title>imacg5 &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 04 Feb 2011 19:34:41 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>iMacG5兄弟参上！</title>
-		<link>/75.html</link>
+		<link>https://jh2.gpl.jp/75.html</link>
 					<comments>/75.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>

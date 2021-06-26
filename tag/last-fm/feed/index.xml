@@ -10,7 +10,7 @@
 
 <channel>
 	<title>last.fm &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 05 Jan 2012 07:59:08 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>mog ってのはどうなのよ</title>
-		<link>/351.html</link>
+		<link>https://jh2.gpl.jp/351.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 05 Jan 2012 07:59:08 +0000</pubDate>
@@ -45,7 +45,7 @@
 			</item>
 		<item>
 		<title>Rdioの良し悪し</title>
-		<link>/337.html</link>
+		<link>https://jh2.gpl.jp/337.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 03 Jan 2012 15:19:07 +0000</pubDate>
@@ -109,7 +109,7 @@
 			</item>
 		<item>
 		<title>Spotifyの支払い</title>
-		<link>/330.html</link>
+		<link>https://jh2.gpl.jp/330.html</link>
 					<comments>/330.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -151,7 +151,7 @@
 			</item>
 		<item>
 		<title>spotifyの良し悪し</title>
-		<link>/326.html</link>
+		<link>https://jh2.gpl.jp/326.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 01 Jan 2012 16:12:00 +0000</pubDate>
@@ -216,7 +216,7 @@
 			</item>
 		<item>
 		<title>pandora.comの良し悪し</title>
-		<link>/314.html</link>
+		<link>https://jh2.gpl.jp/314.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 01 Jan 2012 05:22:31 +0000</pubDate>

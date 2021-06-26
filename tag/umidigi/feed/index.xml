@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Umidigi &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 18 Feb 2020 19:16:25 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>UmidigiF2のカメラ！</title>
-		<link>/4912.html</link>
+		<link>https://jh2.gpl.jp/4912.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 18 Feb 2020 19:16:25 +0000</pubDate>

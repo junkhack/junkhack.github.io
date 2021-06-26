@@ -10,7 +10,7 @@
 
 <channel>
 	<title>cat &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 25 Nov 2018 13:36:44 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>本日のねこ</title>
-		<link>/4844.html</link>
+		<link>https://jh2.gpl.jp/4844.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 25 Nov 2018 13:36:44 +0000</pubDate>
@@ -36,7 +36,7 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>/4748.html</link>
+		<link>https://jh2.gpl.jp/4748.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 07 Nov 2018 02:31:53 +0000</pubDate>
@@ -52,7 +52,7 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>/4746.html</link>
+		<link>https://jh2.gpl.jp/4746.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 06 Nov 2018 06:14:20 +0000</pubDate>
@@ -68,7 +68,7 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>/4739.html</link>
+		<link>https://jh2.gpl.jp/4739.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 04 Nov 2018 22:20:40 +0000</pubDate>
@@ -85,7 +85,7 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>/3844.html</link>
+		<link>https://jh2.gpl.jp/3844.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 22 Apr 2017 10:13:38 +0000</pubDate>

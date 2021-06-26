@@ -10,7 +10,7 @@
 
 <channel>
 	<title>enhikari &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 15 Mar 2020 18:56:44 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>CDNを使わずWEBアクセスのロードタイムが１秒を切った！</title>
-		<link>/5063.html</link>
+		<link>https://jh2.gpl.jp/5063.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 15 Mar 2020 18:56:44 +0000</pubDate>
@@ -58,7 +58,7 @@
 			</item>
 		<item>
 		<title>3.3万で買える4コア８スレッドのRyzen5マシンをポチった！</title>
-		<link>/5054.html</link>
+		<link>https://jh2.gpl.jp/5054.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 15 Mar 2020 08:38:06 +0000</pubDate>
@@ -111,7 +111,7 @@
 			</item>
 		<item>
 		<title>ヤフオクでゲットした業務用ルータFITELnet F60で「v6プラス」固定IPを設定例のまま入れた！</title>
-		<link>/5042.html</link>
+		<link>https://jh2.gpl.jp/5042.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 14 Mar 2020 19:14:20 +0000</pubDate>
@@ -189,7 +189,7 @@
 			</item>
 		<item>
 		<title>mac のターミナルからFITELnet F60を設定する、その１</title>
-		<link>/4996.html</link>
+		<link>https://jh2.gpl.jp/4996.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 10 Mar 2020 18:25:39 +0000</pubDate>
@@ -258,7 +258,7 @@
 			</item>
 		<item>
 		<title>古河電工 FITELnet F60のファームウェアを最新のV01.14に上げるミッション！</title>
-		<link>/4979.html</link>
+		<link>https://jh2.gpl.jp/4979.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 10 Mar 2020 10:37:29 +0000</pubDate>

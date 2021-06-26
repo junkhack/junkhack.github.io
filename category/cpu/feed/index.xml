@@ -10,7 +10,7 @@
 
 <channel>
 	<title>CPU &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 29 Nov 2018 23:20:09 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>10nm時代まで待てないな、2019年春先に14nmのCore i9 9900Kを買って、オリンピック終わりごろに安定する10nm のCPUが出るまで使うことにするか思案中</title>
-		<link>/4851.html</link>
+		<link>https://jh2.gpl.jp/4851.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 29 Nov 2018 23:20:09 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>DIY &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 01 May 2021 21:57:08 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,12 +21,12 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>謎のICが載ったType-Cリポ充電基板でポケットオシロを電池仕様に！</title>
-		<link>/10256.html</link>
+		<link>https://jh2.gpl.jp/10256.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 08 Mar 2021 17:34:09 +0000</pubDate>
 				<category><![CDATA[DIY]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10256</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10256</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/LN4056-IC.png" />
 							<description><![CDATA[さて、今回はこの前、アリエクでポチった１枚あたり45円のリポ充電基板が届いたので早速使ってみました。基板はこんな感じです。 リチウムポリマー充放電保護基板 リポ充電基盤のType-C版が出てたんでポチった！ https: [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -70,7 +70,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>リポ充電基盤のType-C版が出てたんでポチった！</p><cite><a href="https://junkwww.gpl.jp/2021/02/20/type-c/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkwww.gpl.jp/2021/02/20/type-c/</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>リポ充電基盤のType-C版が出てたんでポチった！</p><cite><a href="https://junkhack.gpl.jp/2021/02/20/type-c/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkhack.gpl.jp/2021/02/20/type-c/</a></cite></blockquote>
 
 
 
@@ -86,7 +86,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日:&nbsp;</em><a rel="noreferrer noopener" href="https://junkwww.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日:&nbsp;</em><a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
 
 
 
@@ -241,7 +241,7 @@
 			</item>
 		<item>
 		<title>XIAOでMacのスクリーンショット専用USBキーを作るDIY</title>
-		<link>/10186.html</link>
+		<link>https://jh2.gpl.jp/10186.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 28 Feb 2021 17:20:05 +0000</pubDate>
@@ -249,7 +249,7 @@
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[osx]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10186</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10186</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/DIY-USB-KEY-1.png" />
 							<description><![CDATA[今回のDIYは、ちょっと実用的なものを作ろうかと思います 最近、はまっている小さくて安いArduino互換機、XIAOを使ってカスタマイズできるキーボードを作ろうと思います！　冒頭でも少し触れましたが、Macのスクショア [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -609,14 +609,14 @@ $ sudo ./keylogger</code></pre>
 			</item>
 		<item>
 		<title>XIAOとスマホだけでnode.jsのJohnny-Fiveを動かす最短コースをご案内！</title>
-		<link>/10169.html</link>
+		<link>https://jh2.gpl.jp/10169.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 26 Feb 2021 01:07:38 +0000</pubDate>
 				<category><![CDATA[Android]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[Linux]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10169</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10169</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/Johnny-Five.png" />
 							<description><![CDATA[はい、ちょっと興奮気味なんですが今日のネタは、 「XIAOとスマホを接続して、それだけでXIAOを制御する！」 ってことがメインテーマです。物理的な接続イメージは図に書くとこんな感じです。node.js実行環境をterm [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -961,13 +961,13 @@ IO ready!
 			</item>
 		<item>
 		<title>Arduino Nano互換機に書き込めないだと！</title>
-		<link>/10154.html</link>
+		<link>https://jh2.gpl.jp/10154.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 23 Feb 2021 06:17:03 +0000</pubDate>
 				<category><![CDATA[arduino]]></category>
 		<category><![CDATA[DIY]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10154</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10154</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/arduinoNano.png" />
 							<description><![CDATA[いやはや、5年も触っていないといろいろ完璧に忘れています。ArduinoNanoという小さなArduino があるんですが、それにLチカでも書き込んで動作確認しようとしたら、書き込めずエラーが出てしまいました。持っている [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -1015,7 +1015,7 @@ IO ready!
 
 
 
-<blockquote class="wp-block-quote"><p>JunkHack : arduino hello world!　投稿日: 2015年3月15日<br>6年くらい前の記事で、$3でアリエクでポチったもの</p><cite><a href="https://junkwww.gpl.jp/2015/03/15/arduino-hello-world/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkwww.gpl.jp/2015/03/15/arduino-hello-world/</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>JunkHack : arduino hello world!　投稿日: 2015年3月15日<br>6年くらい前の記事で、$3でアリエクでポチったもの</p><cite><a href="https://junkhack.gpl.jp/2015/03/15/arduino-hello-world/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkhack.gpl.jp/2015/03/15/arduino-hello-world/</a></cite></blockquote>
 
 
 
@@ -1486,14 +1486,14 @@ avrdude done.  Thank you.</code></pre>
 			</item>
 		<item>
 		<title>久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</title>
-		<link>/10121.html</link>
+		<link>https://jh2.gpl.jp/10121.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 20 Feb 2021 06:38:39 +0000</pubDate>
 				<category><![CDATA[arduino]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10121</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10121</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/seeed-xiao.png" />
 							<description><![CDATA[サムネでもわかるとは思いますが、これ全体のフォルムがかわいいんですよね。あと想像よりもちっさいんです。親指くらいの大きさなんですよ。発売は去年の３〜6月ごろだったみたいですが、今頃発見です。 3個入りパッケージで1,75 [&#8230;]]]></description>
 										<content:encoded><![CDATA[

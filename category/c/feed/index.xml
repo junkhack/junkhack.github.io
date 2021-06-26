@@ -10,7 +10,7 @@
 
 <channel>
 	<title>C &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 30 Jan 2016 14:27:20 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>INA226 を arduino nano で</title>
-		<link>/2074.html</link>
+		<link>https://jh2.gpl.jp/2074.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 30 Jan 2016 14:27:20 +0000</pubDate>
@@ -154,7 +154,7 @@ Shunt current: 0.00300 A</pre>
 			</item>
 		<item>
 		<title>1us Lチカ</title>
-		<link>/1973.html</link>
+		<link>https://jh2.gpl.jp/1973.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 01 Jan 2016 17:56:05 +0000</pubDate>
@@ -294,7 +294,7 @@ int blink2(int led, int delay){
 			</item>
 		<item>
 		<title>Sigrok の Pulsview 0.3.0 動きました</title>
-		<link>/1966.html</link>
+		<link>https://jh2.gpl.jp/1966.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 30 Dec 2015 19:47:23 +0000</pubDate>
@@ -406,7 +406,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 			</item>
 		<item>
 		<title>sigrok Pulsview を osx でビルドに挑戦</title>
-		<link>/1957.html</link>
+		<link>https://jh2.gpl.jp/1957.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 29 Dec 2015 20:04:41 +0000</pubDate>
@@ -828,7 +828,7 @@ HOPE:MacOS junkhack$ </pre>
 			</item>
 		<item>
 		<title>FX2LP でsigrok のロジックアナライザー</title>
-		<link>/1946.html</link>
+		<link>https://jh2.gpl.jp/1946.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 27 Dec 2015 12:26:13 +0000</pubDate>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ViewUP &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 24 Dec 2018 23:17:23 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>201812月の訪問者のご報告</title>
-		<link>/4887.html</link>
+		<link>https://jh2.gpl.jp/4887.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 24 Dec 2018 23:17:23 +0000</pubDate>
@@ -42,7 +42,7 @@
 			</item>
 		<item>
 		<title>10月は横ばいの訪問者でした</title>
-		<link>/4724.html</link>
+		<link>https://jh2.gpl.jp/4724.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 31 Oct 2018 23:03:31 +0000</pubDate>
@@ -61,7 +61,7 @@
 			</item>
 		<item>
 		<title>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</title>
-		<link>/4632.html</link>
+		<link>https://jh2.gpl.jp/4632.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 16 Oct 2018 17:50:31 +0000</pubDate>
@@ -115,7 +115,7 @@
 			</item>
 		<item>
 		<title>4月は2700人のお客様が遊びに来てくれました！</title>
-		<link>/4602.html</link>
+		<link>https://jh2.gpl.jp/4602.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 May 2018 18:08:49 +0000</pubDate>
@@ -134,7 +134,7 @@
 			</item>
 		<item>
 		<title>3月末日、約2900人のお客様が遊びに来てくれました。</title>
-		<link>/4563.html</link>
+		<link>https://jh2.gpl.jp/4563.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 13 Apr 2018 12:15:05 +0000</pubDate>

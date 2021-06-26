@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Android &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 08 Jun 2021 16:33:57 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインはどこかに無いかな？</title>
-		<link>/10619.html</link>
+		<link>https://jh2.gpl.jp/10619.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 08 Jun 2021 16:33:50 +0000</pubDate>
 				<category><![CDATA[Android]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10619</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10619</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/06/wp-a-site-copy-b-site.png" />
 							<description><![CDATA[AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかり [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -198,14 +198,14 @@
 			</item>
 		<item>
 		<title>工学社 の本、androidの改造　に掲載されたよ！</title>
-		<link>/10506.html</link>
+		<link>https://jh2.gpl.jp/10506.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 20 May 2021 08:05:40 +0000</pubDate>
 				<category><![CDATA[Android]]></category>
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10506</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10506</guid>
 				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
 							<description><![CDATA[工学社&#160;出版のI/O編集部さんが、「Androidスマホの改造」っていうタイトルの本を出されたのですがその中で、なんと、このブログの記事の一部が載っていますよ。ただいま、絶賛予約中です！ 5/27発売です。 出 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -326,14 +326,14 @@
 			</item>
 		<item>
 		<title>TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例</title>
-		<link>/10507.html</link>
+		<link>https://jh2.gpl.jp/10507.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 13 May 2021 02:04:18 +0000</pubDate>
 				<category><![CDATA[Android]]></category>
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10507</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10507</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/05/termux_nginx_php-fpm_mariadb.png" />
 							<description><![CDATA[NGINXの設定
 ホームディレクトリ以下にWEBのドキュメントROOTを作ります。どこでもいいのですが、termuxの$HOMEに作ります。自分の場合は、デフォルトのWEB ROOT（htdocs_default）と、www.gpl.jp　ドメインのWEB ROOT（htdocs_nginx）を分離しています。
@@ -478,7 +478,7 @@ ii  php-fpm                    8.0.6          aarch64      FastCGI Process Manag
 
 
 
-<p>上記のdebfile だとエラーになって動作しないようでしたので、ビルドしなおしました。<a href="https://junkwww.gpl.jp/2021/06/01/termux-php8-to-php7/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ここ</a>参照</p>
+<p>上記のdebfile だとエラーになって動作しないようでしたので、ビルドしなおしました。<a href="https://junkhack.gpl.jp/2021/06/01/termux-php8-to-php7/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ここ</a>参照</p>
 
 
 
@@ -504,7 +504,7 @@ $ mkdir htdocs_default</code></pre>
 
 
 
-<blockquote class="wp-block-quote"><p>Termuxネイティブ環境でacme-nginxを使いワイルドカード証明書を自動取得！</p><cite><a href="https://junkwww.gpl.jp/2020/09/13/termux%e3%83%8d%e3%82%a4%e3%83%86%e3%82%a3%e3%83%96%e7%92%b0%e5%a2%83%e3%81%a7acme-nginx%e3%82%92%e4%bd%bf%e3%81%84%e3%83%af%e3%82%a4%e3%83%ab%e3%83%89%e3%82%ab%e3%83%bc%e3%83%89%e8%a8%bc%e6%98%8e/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Termuxネイティブ環境でacme-nginxを使いワイルドカード証明書を自動取得！</p><cite><a href="https://junkhack.gpl.jp/2020/09/13/termux%e3%83%8d%e3%82%a4%e3%83%86%e3%82%a3%e3%83%96%e7%92%b0%e5%a2%83%e3%81%a7acme-nginx%e3%82%92%e4%bd%bf%e3%81%84%e3%83%af%e3%82%a4%e3%83%ab%e3%83%89%e3%82%ab%e3%83%bc%e3%83%89%e8%a8%bc%e6%98%8e/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
 
 
 
@@ -890,7 +890,7 @@ sendmail_path = "/data/data/com.termux/files/usr/bin/msmtp -C /data/data/com.ter
 
 
 
-<blockquote class="wp-block-quote"><p>Termuxからメールを送れるようにするには？</p><cite>https://junkwww.gpl.jp/2020/09/30/termux-smtp-client/</cite></blockquote>
+<blockquote class="wp-block-quote"><p>Termuxからメールを送れるようにするには？</p><cite>https://junkhack.gpl.jp/2020/09/30/termux-smtp-client/</cite></blockquote>
 
 
 
@@ -1060,7 +1060,7 @@ $ mv wordpress/* htdocs_nginx/
 			</item>
 		<item>
 		<title>2021/03 site24x7 でのSLA状況・統計データ</title>
-		<link>/10457.html</link>
+		<link>https://jh2.gpl.jp/10457.html</link>
 					<comments>/10457.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -1068,7 +1068,7 @@ $ mv wordpress/* htdocs_nginx/
 				<category><![CDATA[Android]]></category>
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10457</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10457</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/04/SLA202103-1.png" />
 							<description><![CDATA[春ですねー！　めちゃくちゃ暖かくなって外出したいんですが、なかなか世間の事情で旅行とまでは行きませんよね。せめて、散歩くらいはしたいものです。仕事の用事で、東京ー名古屋間をバイクで走ったのですがまだ夜は寒かったです。昼は [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -1193,7 +1193,7 @@ $ mv wordpress/* htdocs_nginx/
 			</item>
 		<item>
 		<title>2021/02 site24x7 でのSLA状況・統計データ</title>
-		<link>/10237.html</link>
+		<link>https://jh2.gpl.jp/10237.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 04 Mar 2021 15:57:39 +0000</pubDate>
@@ -1201,7 +1201,7 @@ $ mv wordpress/* htdocs_nginx/
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[SLA]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10237</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10237</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/SLA202102.png" />
 							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していましたが、ついに達成できました！ 稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間 L [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -1241,7 +1241,7 @@ $ mv wordpress/* htdocs_nginx/
 
 
 
-<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkwww.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkhack.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
 
 
 

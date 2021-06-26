@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ClassicPress &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 03 Sep 2020 03:38:17 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>Rapid START CDNを試す！　が、ハマりどころいっぱい！</title>
-		<link>/5854.html</link>
+		<link>https://jh2.gpl.jp/5854.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 Sep 2020 03:38:17 +0000</pubDate>
@@ -188,7 +188,7 @@ free.rs.cdnw.net.	29	IN	A	59.106.219.219</code></pre>
 			</item>
 		<item>
 		<title>ClassicPress で マルチサイトを立ち上げる</title>
-		<link>/5162.html</link>
+		<link>https://jh2.gpl.jp/5162.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 29 May 2020 15:59:08 +0000</pubDate>
@@ -258,7 +258,7 @@ RewriteRule . index.php [L]</p></blockquote>
 			</item>
 		<item>
 		<title>AdSense を設定してみるがサブドメインあかんみたい？</title>
-		<link>/5119.html</link>
+		<link>https://jh2.gpl.jp/5119.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 26 Mar 2020 13:24:24 +0000</pubDate>
@@ -291,7 +291,7 @@ RewriteRule . index.php [L]</p></blockquote>
 			</item>
 		<item>
 		<title>高速化その３：画像圧縮してみた！次世代画像フォーマット「WebP（ウェッピー）」を使う</title>
-		<link>/5091.html</link>
+		<link>https://jh2.gpl.jp/5091.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 20 Mar 2020 01:16:47 +0000</pubDate>
@@ -341,7 +341,7 @@ RewriteRule . index.php [L]</p></blockquote>
 			</item>
 		<item>
 		<title>高速化その２：ClassicPress を入れてテーマを調整</title>
-		<link>/5083.html</link>
+		<link>https://jh2.gpl.jp/5083.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 18 Mar 2020 14:26:06 +0000</pubDate>

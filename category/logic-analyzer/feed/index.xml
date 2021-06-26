@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ロジックアナライザ &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 19 Feb 2021 23:36:07 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>ロジックアナライザでI2C 信号を見ると</title>
-		<link>/2081.html</link>
+		<link>https://jh2.gpl.jp/2081.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2016 15:11:08 +0000</pubDate>
@@ -58,7 +58,7 @@
 			</item>
 		<item>
 		<title>ロジックアナライザーをゲット</title>
-		<link>/1779.html</link>
+		<link>https://jh2.gpl.jp/1779.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 Nov 2015 11:53:57 +0000</pubDate>
@@ -655,7 +655,7 @@ $ sudo make install
 			</item>
 		<item>
 		<title>Logic Pirate というオープンソースのロジックアナライザ</title>
-		<link>/1489.html</link>
+		<link>https://jh2.gpl.jp/1489.html</link>
 					<comments>/1489.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>

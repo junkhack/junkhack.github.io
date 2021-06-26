@@ -10,7 +10,7 @@
 
 <channel>
 	<title>music &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 17 Jun 2021 00:08:02 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>MQAデコードがTidalデスクトップアプリで可能に修正されてた！</title>
-		<link>/10642.html</link>
+		<link>https://jh2.gpl.jp/10642.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 08 Jun 2021 15:06:19 +0000</pubDate>
 				<category><![CDATA[music]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10642</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10642</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/06/MQA_desktop_macos.png" />
 							<description><![CDATA[Tidal公式のデスクトップアプリと、外付けDACを使っています。DACは、Hiby FC3 Portable MQA USB DAC というお値打ち価格7500円なMQAフルデコード対応のものです。 以前、いくつかMQ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -130,13 +130,13 @@ Release February 10, 2021
 			</item>
 		<item>
 		<title>MQAは実際に体感できるほどの高音質なのか？</title>
-		<link>/10057.html</link>
+		<link>https://jh2.gpl.jp/10057.html</link>
 					<comments>/10057.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 13 Feb 2021 19:13:53 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10057</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10057</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/MQA.png" />
 							<description><![CDATA[そもそも、MQAとの接点はTidalという音楽配信サービスでした。Tidalの詳細は以下リンクを見ていただくとして、その特徴はSpotifyにはない高音質の音源を配信しています。 TIDALとは何ですか？ https:/ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -530,12 +530,12 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>MQAレンダリングできる世界一安いDACを買ったよ！Hiby FC3 Portable MQA USB DAC</title>
-		<link>/10033.html</link>
+		<link>https://jh2.gpl.jp/10033.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 07 Feb 2021 19:45:13 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10033</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10033</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/HiByFC3dac.png" />
 							<description><![CDATA[ぴーちゃんのように、DACって興味がないと？？？ってなりますよね。これは、スマホとかPCからUSB接続してヘッドフォンなどを接続して音を出すヤツです。「Digital Analog Converter」の略ですね。 実際 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -627,7 +627,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>音源：Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" data-wpel-link="external" class="wpel-icon-right">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>　　　Tidal で配信のFlac 24bit/44.1khz<br>アンプ：中華デジタルアンプ（Dクラス）TPA3116D2<br>スピーカー：<a rel="noreferrer noopener" href="https://junkwww.gpl.jp/2021/01/22/electro-voicesx/" target="_blank" data-wpel-link="internal">エレクトロボイス　Sx100+</a><br>PC：macos（<a href="https://audirvana.com/ja/product/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> Mac Version 3.5.43）</p></blockquote>
+<blockquote class="wp-block-quote"><p>音源：Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" data-wpel-link="external" class="wpel-icon-right">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>　　　Tidal で配信のFlac 24bit/44.1khz<br>アンプ：中華デジタルアンプ（Dクラス）TPA3116D2<br>スピーカー：<a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2021/01/22/electro-voicesx/" target="_blank" data-wpel-link="internal">エレクトロボイス　Sx100+</a><br>PC：macos（<a href="https://audirvana.com/ja/product/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> Mac Version 3.5.43）</p></blockquote>
 
 
 
@@ -726,12 +726,12 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>ハイレゾ？それどころか、AAC320KbpsとFlac16bit/44.1khzも僕は区別がつかないよ！</title>
-		<link>/10008.html</link>
+		<link>https://jh2.gpl.jp/10008.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2021 16:35:09 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10008</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10008</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/aac-flac.png" />
 							<description><![CDATA[普段は、Spotifyの高品質AAC320Kbpsで音楽を聞いていますが、世の中には配信系の聞き放題でもFlacっていうCD品質（16bit/44.1khz）の配信や、それ以上の品質（ハイレゾ）で聞ける聴き放題サービスも [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -942,12 +942,12 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>ライブとかで使われてるElectro-VoiceのSXシリーズをゲット！</title>
-		<link>/9979.html</link>
+		<link>https://jh2.gpl.jp/9979.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 22 Jan 2021 02:04:53 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9979</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9979</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/01/ev-sp-1.png" />
 							<description><![CDATA[世間は緊急事態宣言の2回目という中、お家時間が増えていますね。仕事しながら、音楽を聞く時間も増えています。自宅なので、ヘッドフォンとかじゃなくてスピーカーから音を出して聞いています。今までは絨毯のスピーカーをずっと使って [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -991,7 +991,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="https://junkwww.gpl.jp/2012/01/09/%e7%b5%a8%e6%af%af%e3%81%ae%e3%82%b9%e3%83%94%e3%83%bc%e3%82%ab/" target="_blank" data-wpel-link="internal">絨毯のスピーカ</a></p><cite>作り方とか載せてますので、よかったら見て行ってね！</cite></blockquote>
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2012/01/09/%e7%b5%a8%e6%af%af%e3%81%ae%e3%82%b9%e3%83%94%e3%83%bc%e3%82%ab/" target="_blank" data-wpel-link="internal">絨毯のスピーカ</a></p><cite>作り方とか載せてますので、よかったら見て行ってね！</cite></blockquote>
 
 
 
@@ -1011,7 +1011,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="https://junkwww.gpl.jp/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" target="_blank" data-wpel-link="internal">そもそも好きな音って？</a><br><em>投稿日: <a href="https://junkwww.gpl.jp/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2012-01-10T21:42:47+09:00">2012年1月10日</time></a> in <a href="https://junkwww.gpl.jp/category/music/" data-wpel-link="internal" rel="noopener noreferrer">music</a></em></p></blockquote>
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" target="_blank" data-wpel-link="internal">そもそも好きな音って？</a><br><em>投稿日: <a href="https://junkhack.gpl.jp/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2012-01-10T21:42:47+09:00">2012年1月10日</time></a> in <a href="https://junkhack.gpl.jp/category/music/" data-wpel-link="internal" rel="noopener noreferrer">music</a></em></p></blockquote>
 
 
 

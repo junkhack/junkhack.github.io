@@ -10,7 +10,7 @@
 
 <channel>
 	<title>SLA &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 05 May 2021 20:45:04 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>2021/02 site24x7 でのSLA状況・統計データ</title>
-		<link>/10237.html</link>
+		<link>https://jh2.gpl.jp/10237.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 04 Mar 2021 15:57:39 +0000</pubDate>
@@ -29,7 +29,7 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[SLA]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10237</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10237</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/03/SLA202102.png" />
 							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していましたが、ついに達成できました！ 稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間 L [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -69,7 +69,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkwww.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkhack.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
 
 
 
@@ -186,7 +186,7 @@ Done</code></pre>
 			</item>
 		<item>
 		<title>2021/01 site24x7 でのSLA状況・統計データ</title>
-		<link>/10027.html</link>
+		<link>https://jh2.gpl.jp/10027.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 07 Feb 2021 10:17:34 +0000</pubDate>
@@ -194,7 +194,7 @@ Done</code></pre>
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[SLA]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10027</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10027</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/02/SLA202101.png" />
 							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していますが、果たしてスマホサーバで達成できるのでしょうか？ 稼働率・SLA99.95%をスマホ自宅サーバで目指 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -234,7 +234,7 @@ Done</code></pre>
 
 
 
-<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkwww.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkhack.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
 
 
 
@@ -301,7 +301,7 @@ Done</code></pre>
 			</item>
 		<item>
 		<title>2020/11と12 site24x7 でのSLA状況・統計データ</title>
-		<link>/9969.html</link>
+		<link>https://jh2.gpl.jp/9969.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 17 Jan 2021 04:08:20 +0000</pubDate>
@@ -309,7 +309,7 @@ Done</code></pre>
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[SLA]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9969</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9969</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/01/SLA202011.png" />
 							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していますが、果たしてスマホサーバで達成できるのでしょうか？ 稼働率・SLA99.95%をスマホ自宅サーバで目指 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -349,7 +349,7 @@ Done</code></pre>
 
 
 
-<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkwww.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkhack.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
 
 
 
@@ -424,7 +424,7 @@ Done</code></pre>
 			</item>
 		<item>
 		<title>2020/10 site24x7 でのSLA状況など統計データ</title>
-		<link>/9877.html</link>
+		<link>https://jh2.gpl.jp/9877.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 04 Nov 2020 09:30:50 +0000</pubDate>
@@ -432,7 +432,7 @@ Done</code></pre>
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[SLA]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9877</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9877</guid>
 				<media:thumbnail url="/wp-content/uploads/2020/11/SLA202010.png" />
 							<description><![CDATA[site24x7のスターターパックというのを10月から始めてみました。いわゆる監視サービスなんですが10ドルで契約できるので、ちょっと使い始めています。 稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -472,7 +472,7 @@ Done</code></pre>
 
 
 
-<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkwww.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="https://junkhack.gpl.jp/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
 
 
 

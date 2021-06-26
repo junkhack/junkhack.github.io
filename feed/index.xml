@@ -10,7 +10,7 @@
 
 <channel>
 	<title>JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 17 Jun 2021 00:08:02 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインはどこかに無いかな？</title>
-		<link>/10619.html</link>
+		<link>https://jh2.gpl.jp/10619.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 08 Jun 2021 16:33:50 +0000</pubDate>
 				<category><![CDATA[Android]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10619</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10619</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/06/wp-a-site-copy-b-site.png" />
 							<description><![CDATA[AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかり [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -198,13 +198,13 @@
 			</item>
 		<item>
 		<title>MQAデコードがTidalデスクトップアプリで可能に修正されてた！</title>
-		<link>/10642.html</link>
+		<link>https://jh2.gpl.jp/10642.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 08 Jun 2021 15:06:19 +0000</pubDate>
 				<category><![CDATA[music]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10642</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10642</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/06/MQA_desktop_macos.png" />
 							<description><![CDATA[Tidal公式のデスクトップアプリと、外付けDACを使っています。DACは、Hiby FC3 Portable MQA USB DAC というお値打ち価格7500円なMQAフルデコード対応のものです。 以前、いくつかMQ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -307,12 +307,12 @@ Release February 10, 2021
 			</item>
 		<item>
 		<title>TermuxでPHP7を使いたい！ PHP8からPHP7にして使う。</title>
-		<link>/10604.html</link>
+		<link>https://jh2.gpl.jp/10604.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 31 May 2021 21:14:55 +0000</pubDate>
 				<category><![CDATA[Linux]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10604</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10604</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/06/termux_php8_to_php7.png" />
 							<description><![CDATA[先日、termux上でNGINXとPHP-FPMの設定記事を書いたときに気がついたんですが、termuxのPHPって7から8になってPHP7はもうPKGがなく入れられませんでした。 TermuxでNGINX+php-fp [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -352,7 +352,7 @@ Release February 10, 2021
 
 
 
-<blockquote class="wp-block-quote"><p>TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例</p><cite><a href="https://junkwww.gpl.jp/2021/05/13/termux_nginx_php-fpm_mariadb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例</p><cite><a href="https://junkhack.gpl.jp/2021/05/13/termux_nginx_php-fpm_mariadb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
 
 
 
@@ -526,12 +526,12 @@ php-fpm</code></pre>
 			</item>
 		<item>
 		<title>Termuxでpkg updateできなくなって困ってる人へ</title>
-		<link>/10596.html</link>
+		<link>https://jh2.gpl.jp/10596.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 31 May 2021 15:04:36 +0000</pubDate>
 				<category><![CDATA[Linux]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10596</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10596</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/05/bintray_close.png" />
 							<description><![CDATA[2021/5/1から、termux で、pkg update などできなくなてエラーになります。こんな感じ。 これはリポジトリの参照先が閉鎖されたからです。今まで、見ていた先は上のログからもわかるように「bintray」 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -728,13 +728,13 @@ Reading state information... Done
 			</item>
 		<item>
 		<title>備忘録：Ryzen 5 3600のLinuxでUnixBench</title>
-		<link>/10588.html</link>
+		<link>https://jh2.gpl.jp/10588.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 May 2021 18:04:36 +0000</pubDate>
 				<category><![CDATA[Linux]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=10588</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10588</guid>
 				<media:thumbnail url="/wp-content/uploads/2021/05/ryzen5-3600-unixbench.png" />
 							<description><![CDATA[そういえば、だいぶ前にRyzen 5 3600をメインマシンにしたんですが、これでLinux動かしてなくて、UnixBenchのスコアが気になっていました。Diskはさくっと入れ替えられるよう、2.5inchの脱着ベイを [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -778,7 +778,7 @@ Reading state information... Done
 
 
 
-<blockquote class="wp-block-quote"><p>Intelチップ、2022年までしばらくさようなら！<br><em>投稿日: <a href="https://junkwww.gpl.jp/2020/03/13/goodby-intel/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2020-03-13T06:20:53+09:00">2020年3月13日</time></a> 更新日:2020年11月13日</em></p><cite><a href="https://junkwww.gpl.jp/2020/03/13/goodby-intel/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Intelチップ、2022年までしばらくさようなら！<br><em>投稿日: <a href="https://junkhack.gpl.jp/2020/03/13/goodby-intel/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2020-03-13T06:20:53+09:00">2020年3月13日</time></a> 更新日:2020年11月13日</em></p><cite><a href="https://junkhack.gpl.jp/2020/03/13/goodby-intel/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
 
 
 
@@ -888,7 +888,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<blockquote class="wp-block-quote"><p>130W電源でThinkCentre M75q-1 Tinyのベンチマーク</p><cite><a href="https://junkwww.gpl.jp/2020/07/02/130wm75q-1-tinybench/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>130W電源でThinkCentre M75q-1 Tinyのベンチマーク</p><cite><a href="https://junkhack.gpl.jp/2020/07/02/130wm75q-1-tinybench/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
 
 
 

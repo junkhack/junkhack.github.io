@@ -10,7 +10,7 @@
 
 <channel>
 	<title>新ブログ &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 20 Sep 2020 06:59:24 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>このブログは、スマートフォンの中に引越ししました！</title>
-		<link>/9510.html</link>
+		<link>https://jh2.gpl.jp/9510.html</link>
 					<comments>/9510.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -31,7 +31,7 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://junkwww.gpl.jp/?p=9510</guid>
+		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9510</guid>
 				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
 							<description><![CDATA[えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！ なんで、引越しをしたの？ はい、結論から言いますと今まで使っていたWordPress.comのパー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -51,7 +51,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkwww.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkwww.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkhack.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkhack.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
 
 
 
@@ -113,7 +113,7 @@
 			</item>
 		<item>
 		<title>備忘録：設定ファイルの空白行（改行）とコメントを削除して表示したい</title>
-		<link>/9468.html</link>
+		<link>https://jh2.gpl.jp/9468.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Sep 2020 17:24:17 +0000</pubDate>

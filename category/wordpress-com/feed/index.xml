@@ -10,7 +10,7 @@
 
 <channel>
 	<title>wordpress.com &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 17 Oct 2018 19:11:52 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>WordPress.com でドメインマッピングしてサブドメインの独自ドメインを利用</title>
-		<link>/4649.html</link>
+		<link>https://jh2.gpl.jp/4649.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 17 Oct 2018 19:11:52 +0000</pubDate>
@@ -267,7 +267,7 @@ www.gpl.jp.    184    IN    A    192.0.78.24</p>
 			</item>
 		<item>
 		<title>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</title>
-		<link>/4632.html</link>
+		<link>https://jh2.gpl.jp/4632.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 16 Oct 2018 17:50:31 +0000</pubDate>

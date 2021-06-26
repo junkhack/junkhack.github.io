@@ -10,7 +10,7 @@
 
 <channel>
 	<title>PONG &#8211; JunkHack Feed</title>
-	<link>/</link>
+	<link>https://jh2.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 06 Sep 2015 11:34:03 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>コントローラーABできました</title>
-		<link>/1131.html</link>
+		<link>https://jh2.gpl.jp/1131.html</link>
 					<comments>/1131.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
@@ -71,7 +71,7 @@
 			</item>
 		<item>
 		<title>本体側への装着はだいたい終了</title>
-		<link>/1125.html</link>
+		<link>https://jh2.gpl.jp/1125.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 30 Aug 2015 19:44:54 +0000</pubDate>
@@ -94,7 +94,7 @@
 			</item>
 		<item>
 		<title>電源まわり</title>
-		<link>/1122.html</link>
+		<link>https://jh2.gpl.jp/1122.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 30 Aug 2015 02:22:44 +0000</pubDate>
@@ -122,7 +122,7 @@
 			</item>
 		<item>
 		<title>ブレッドボードへ仮組み</title>
-		<link>/1117.html</link>
+		<link>https://jh2.gpl.jp/1117.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 Aug 2015 01:01:50 +0000</pubDate>
@@ -151,7 +151,7 @@
 			</item>
 		<item>
 		<title>目玉おやじのコントローラAを加工</title>
-		<link>/1111.html</link>
+		<link>https://jh2.gpl.jp/1111.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 28 Aug 2015 16:55:07 +0000</pubDate>
