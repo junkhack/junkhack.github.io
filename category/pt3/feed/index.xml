@@ -10,7 +10,7 @@
 
 <channel>
 	<title>PT3 &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 08 Nov 2015 13:58:19 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,35 +18,35 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>PT3 到着</title>
-		<link>https://jh2.gpl.jp/1654.html</link>
+		<link>https://hack.gpl.jp/2015/11/08/pt3-%e5%88%b0%e7%9d%80/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 08 Nov 2015 13:58:19 +0000</pubDate>
 				<category><![CDATA[Linux]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PT3]]></category>
-		<guid isPermaLink="false">/?p=1654</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=1654</guid>
 							<description><![CDATA[PT3 が ドスパラより到着。 10,480円也。PCBの厚みは、1.6mm で金色に光る胴箔部分が綺麗です。 Rev.A で2012.04.24 のようです。3年前ですか。なかなか息の長い商品ですね。 S と T のア [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>PT3 が ドスパラより到着。</p>
 <p>10,480円也。PCBの厚みは、1.6mm で金色に光る胴箔部分が綺麗です。</p>
-<p><a href="/wp-content/uploads/2015/11/61.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/11/6_thumb.jpg" width="640" height="480" /></a></p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/61.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="https://hack.gpl.jp/wp-content/uploads/2015/11/6_thumb.jpg" width="640" height="480" /></a></p>
 <p>Rev.A で2012.04.24 のようです。3年前ですか。なかなか息の長い商品ですね。</p>
-<p><a href="/wp-content/uploads/2015/11/51.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/11/5_thumb.jpg" width="640" height="480" /></a> S と T のアンテナ端子。</p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/51.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="https://hack.gpl.jp/wp-content/uploads/2015/11/5_thumb.jpg" width="640" height="480" /></a> S と T のアンテナ端子。</p>
 <blockquote>
 <p>S&#160;&#160;&#160; 衛星      <br />T&#160;&#160;&#160; 地上</p>
 </blockquote>
 <p>&#160;</p>
-<p><a href="/wp-content/uploads/2015/11/41.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2015/11/4_thumb.jpg" width="640" height="480" /></a> TOSHIBAのチップ TC90522XBG と、向かい側に見えるのは何でしょうか？</p>
-<p><a href="/wp-content/uploads/2015/11/31.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/11/3_thumb.jpg" width="640" height="480" /></a>チューナー部分は銀色のボックスの中にあります。これはモジュール化されているパーツのようですね。シャープのVA4M6JC2103</p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/41.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="https://hack.gpl.jp/wp-content/uploads/2015/11/4_thumb.jpg" width="640" height="480" /></a> TOSHIBAのチップ TC90522XBG と、向かい側に見えるのは何でしょうか？</p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/31.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="https://hack.gpl.jp/wp-content/uploads/2015/11/3_thumb.jpg" width="640" height="480" /></a>チューナー部分は銀色のボックスの中にあります。これはモジュール化されているパーツのようですね。シャープのVA4M6JC2103</p>
 <p>東芝のICは、このモジュールとつながっているようですので、何か電波の調整をやっているのでしょう。</p>
 <p>レギュレータICも大きなのが２つあるようです。200WN3M（PQ200WN3MZPH） ともうひとつは、012ENB1 （PQ012ENB1ZPH）シャープのようです。他にもレギュレータはあって全部シャープのを使っているようです。</p>
-<p><a href="/wp-content/uploads/2015/11/21.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/11/2_thumb.jpg" width="640" height="480" /></a> ALTERA Cyclone IV と書いてありますかね？EP4CGX15BF14C8N</p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/21.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="https://hack.gpl.jp/wp-content/uploads/2015/11/2_thumb.jpg" width="640" height="480" /></a> ALTERA Cyclone IV と書いてありますかね？EP4CGX15BF14C8N</p>
 <p>これは横のSDRAMとがっつり、つながっているようです。PCI-EX からのラインがこのICに入っているようです。</p>
 <p>インダクタも２つありますね。何かスイッチングして電源を生成しているのかな？</p>
-<p><a href="/wp-content/uploads/2015/11/12.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/11/1_thumb.jpg" width="640" height="480" /></a> これはちょっと作れそうにもありません。仮に作れたとしても中のソフトウェアがわかりません。解析にはかなりの技術と知識が必要でしょう。デジタルの電波の知識が必須となりそうです。</p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/12.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="https://hack.gpl.jp/wp-content/uploads/2015/11/1_thumb.jpg" width="640" height="480" /></a> これはちょっと作れそうにもありません。仮に作れたとしても中のソフトウェアがわかりません。解析にはかなりの技術と知識が必要でしょう。デジタルの電波の知識が必須となりそうです。</p>
 </p>
 </p>
 </p>
@@ -59,14 +59,14 @@
 			</item>
 		<item>
 		<title>テレビを見たければ運動せよ！ PT3 をGET</title>
-		<link>https://jh2.gpl.jp/1575.html</link>
+		<link>https://hack.gpl.jp/2015/11/05/pt3-%e3%82%92get/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 04 Nov 2015 15:22:09 +0000</pubDate>
 				<category><![CDATA[Linux]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PT3]]></category>
-		<guid isPermaLink="false">/?p=1575</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=1575</guid>
 							<description><![CDATA[PT3 の存在は前から知っていたのですが、友人のところに遊びにいったらnasune でリモートで録画してあるTED を見せてもらい触発されて思わずポチりました。nasune というのは、nass にTVチューナーが付いて [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>PT3 の存在は前から知っていたのですが、友人のところに遊びにいったらnasune でリモートで録画してあるTED を見せてもらい触発されて思わずポチりました。nasune というのは、nass にTVチューナーが付いて録画できるというもの。</p>
 <p>&#160;</p>
@@ -85,7 +85,7 @@
 </blockquote>
 <p>&#160;</p>
 <p>ISDB-S 2TS と ISDB-T 2TS の合計 4TS を同時に受信可能です。要するに、衛星デジタル放送用のISDB-S、地上デジタル放送用のISDB-Tがそれぞれ2チャンネルづつ、受信できるという代物。</p>
-<p><img loading="lazy" title="PT3_img" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PT3_img" src="/wp-content/uploads/2015/11/pt3_img.png" width="582" height="795" /> </p>
+<p><img title="PT3_img" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PT3_img" src="https://hack.gpl.jp/wp-content/uploads/2015/11/pt3_img.png" width="582" height="795" /> </p>
 <p>PC とそれらを受信するソフトウェアやB-CAS カードと読み取るカードリーダなどが必要です。当初はこれらを完全自作しようと思っていましたが、ハードルが高すぎて断念。いつかチャレンジしてみたいお題ではあります。</p>
 <p>&#160;</p>
 <p>PT3 を活用するには、いろんな手法がありますが、今のところ方針としてOSはLinuxにし、Chinachu というEPG閲覧と、予約＋Webストリーミング用のUIを備えたソフトウェアの組み合わせで使ってみようと思います。幸い、入れるマシンは余っているものがあるので、追加投資はHDDくらいです。が、これも使ってみないと自分のライフスタイルでどのくらいの容量が必要かはわかりません。今付いているHDDで事足りるかもしれません。</p>
@@ -105,8 +105,8 @@
 <p>・PCの電源は録画直前に入り、終了したら消える（スリープとか）ようにしたい</p>
 <p>・今作成中のWiFi E-ink に録画した番組を表示できるようにしたい。</p>
 <p>・電気代を節約するために、自転車の室内ローラで発電し、電力供給をしたい</p>
-<p align="center"><a href="http://chainreactionhub.com/cycindoor-jpn" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="trainerlaptop" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="trainerlaptop" src="/wp-content/uploads/2015/11/trainerlaptop.jpg" width="640" height="357" /></a> ※イメージですが、まぁこんな感じ</p>
-<p align="center"><a href="http://303cycling.com/6-Inspiring-Adventure-Films-that-Will-Keep-You-Going-on-the-Trainer" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="indoor-cycling_0" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="indoor-cycling_0" src="/wp-content/uploads/2015/11/indoorcycling_0.jpg" width="642" height="428" /></a> </p>
+<p align="center"><a href="http://chainreactionhub.com/cycindoor-jpn" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="trainerlaptop" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="trainerlaptop" src="https://hack.gpl.jp/wp-content/uploads/2015/11/trainerlaptop.jpg" width="640" height="357" /></a> ※イメージですが、まぁこんな感じ</p>
+<p align="center"><a href="http://303cycling.com/6-Inspiring-Adventure-Films-that-Will-Keep-You-Going-on-the-Trainer" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="indoor-cycling_0" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="indoor-cycling_0" src="https://hack.gpl.jp/wp-content/uploads/2015/11/indoorcycling_0.jpg" width="642" height="428" /></a> </p>
 <p align="center">Indoor Bike Trainer make とかで検索</p>
 <p align="center">&#160;</p>
 <p>・ローラーの前には体重計があって、載れば自動的に記録される仕組みも作りたい。あと１０Kg減量したいのです。</p>

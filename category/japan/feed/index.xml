@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Japan &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 18 Dec 2016 08:13:18 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>日本製のベアリングは中華と比べてやっぱりすごかった</title>
-		<link>https://jh2.gpl.jp/2592.html</link>
+		<link>https://hack.gpl.jp/2016/12/18/%e6%97%a5%e6%9c%ac%e8%a3%bd%e3%81%ae%e3%83%99%e3%82%a2%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%af%e4%b8%ad%e8%8f%af%e3%81%a8%e6%af%94%e3%81%b9%e3%81%a6%e3%82%84%e3%81%a3%e3%81%b1%e3%82%8a%e3%81%99%e3%81%94/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 18 Dec 2016 08:13:18 +0000</pubDate>
@@ -30,49 +30,49 @@
 		<category><![CDATA[CNC]]></category>
 		<category><![CDATA[Japan]]></category>
 		<category><![CDATA[MISUMI]]></category>
-		<guid isPermaLink="false">/?p=2592</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2592</guid>
 							<description><![CDATA[土曜日は残りの仕事でほとんど潰れてしまったので、対角V-Slot の設計は進んでいません。 NTNとNSK（ＮＳＫマイクロプレシジョン株式会社）のベアリングや、小さなV-Type のベアリング（中国製）も届いたので、軸を [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>土曜日は残りの仕事でほとんど潰れてしまったので、対角V-Slot の設計は進んでいません。</p>
 <p>NTNとNSK（ＮＳＫマイクロプレシジョン株式会社）のベアリングや、小さなV-Type のベアリング（中国製）も届いたので、軸をネジ止めして軽く手で回り具合を確認してみました。中華製にもいろいろとグレードがあると思いますので、ここではアリエクでゲットした1個30円ほどの低価格な中華製と比較した時の事を書いておきます。</p>
-<p><img loading="lazy" title="imgres" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="imgres" src="/wp-content/uploads/2016/12/imgres.jpg" width="245" height="165" /> </p>
+<p><img title="imgres" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="imgres" src="https://hack.gpl.jp/wp-content/uploads/2016/12/imgres.jpg" width="245" height="165" /> </p>
 <p>まずは中華製のメーカー不詳の小さなベアリング。これはV-Type のスチール枠にベアリングが組み込んである感じのもの。かなり小さいです。</p>
-<p><img loading="lazy" title="S20161218_005" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_005" src="/wp-content/uploads/2016/12/s20161218_005.jpg" width="640" height="480" /> </p>
+<p><img title="S20161218_005" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_005" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_005.jpg" width="640" height="480" /> </p>
 <p>内径は、2.9mm</p>
-<p><img loading="lazy" title="S20161218_006" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_006" src="/wp-content/uploads/2016/12/s20161218_006.jpg" width="640" height="480" /></p>
-<p>M3 のボルトが収まります。&#160;&#160; <img loading="lazy" title="S20161218_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_002" src="/wp-content/uploads/2016/12/s20161218_002.jpg" width="640" height="480" /> </p>
+<p><img title="S20161218_006" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_006" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_006.jpg" width="640" height="480" /></p>
+<p>M3 のボルトが収まります。&#160;&#160; <img title="S20161218_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_002" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_002.jpg" width="640" height="480" /> </p>
 <p>スチール製の20個で600円ほどのモノで、精度はまぁあまりよくありません。</p>
-<p><img loading="lazy" title="S20161218_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_003" src="/wp-content/uploads/2016/12/s20161218_003.jpg" width="640" height="480" /> 外系は11.9mm</p>
-<p><img loading="lazy" title="S20161218_004" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_004" src="/wp-content/uploads/2016/12/s20161218_004.jpg" width="640" height="480" /> </p>
+<p><img title="S20161218_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_003" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_003.jpg" width="640" height="480" /> 外系は11.9mm</p>
+<p><img title="S20161218_004" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_004" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_004.jpg" width="640" height="480" /> </p>
 <p>厚みは、3.9mm</p>
-<p><img loading="lazy" title="S20161218_008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_008" src="/wp-content/uploads/2016/12/s20161218_008.jpg" width="640" height="480" /></p>
+<p><img title="S20161218_008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_008" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_008.jpg" width="640" height="480" /></p>
 <p>エヌアイシ・オートテックの三角アルミフレーム とのバランスはこんな感じ。</p>
-<p><img loading="lazy" title="S20161218_007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_007" src="/wp-content/uploads/2016/12/s20161218_007.jpg" width="640" height="480" /></p>
+<p><img title="S20161218_007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_007" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_007.jpg" width="640" height="480" /></p>
 </p>
 </p>
 <p>少し精度は悪いとは言ってもそれなりにスムーズに回ります。軽く小さく安く作れるメリットは出そうです。</p>
 <p>&#160;</p>
 <p>次、日本製のベアリング2種。625 タイプのものです。</p>
-<p><img loading="lazy" title="ISC_P28-31_pdf 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ISC_P28-31_pdf 2" src="/wp-content/uploads/2016/12/isc_p2831_pdf2.png" width="431" height="480" /> </p>
-<p>NTNのスチール製のと、NSKのステンレス製のをゲットしてみました。<img loading="lazy" title="S20161218_009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_009" src="/wp-content/uploads/2016/12/s20161218_009.jpg" width="640" height="480" /> </p>
+<p><img title="ISC_P28-31_pdf 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ISC_P28-31_pdf 2" src="https://hack.gpl.jp/wp-content/uploads/2016/12/isc_p2831_pdf2.png" width="431" height="480" /> </p>
+<p>NTNのスチール製のと、NSKのステンレス製のをゲットしてみました。<img title="S20161218_009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_009" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_009.jpg" width="640" height="480" /> </p>
 <p>これは、NTN（NTN株式会社）のスチール製の 625zz です。Japanと刻印があります。</p>
-<p><img loading="lazy" title="NTN_Corporation_Logo.svg" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="NTN_Corporation_Logo.svg" src="/wp-content/uploads/2016/12/ntn_corporation_logo-svg_.png" width="180" height="65" /> </p>
-<p><img loading="lazy" title="S20161218_014" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_014" src="/wp-content/uploads/2016/12/s20161218_014.jpg" width="640" height="480" /></p>
+<p><img title="NTN_Corporation_Logo.svg" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="NTN_Corporation_Logo.svg" src="https://hack.gpl.jp/wp-content/uploads/2016/12/ntn_corporation_logo-svg_.png" width="180" height="65" /> </p>
+<p><img title="S20161218_014" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_014" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_014.jpg" width="640" height="480" /></p>
 <p>&#160;</p>
 <p>次は、ISC（ＮＳＫマイクロプレシジョン株式会社） のステンレス製の 625-H-ZZ です。こちらは、5個パックで箱に入っているようです。6個買ったので、１つはバラ。</p>
-<p><img loading="lazy" title="NSK_Logo.svg" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="NSK_Logo.svg" src="/wp-content/uploads/2016/12/nsk_logo-svg_.png" width="240" height="96" /> <img loading="lazy" title="ISC_P28-31_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ISC_P28-31_pdf" src="/wp-content/uploads/2016/12/isc_p2831_pdf.png" width="255" height="109" />&#160; どっちのロゴなんでしょうか？社名は、NSK があるので、NSK のロゴともいえそうですが、歴史的には、ISC のロゴのようですね。</p>
-<p><img loading="lazy" title="S20161218_010" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_010" src="/wp-content/uploads/2016/12/s20161218_010.jpg" width="640" height="480" /> </p>
+<p><img title="NSK_Logo.svg" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="NSK_Logo.svg" src="https://hack.gpl.jp/wp-content/uploads/2016/12/nsk_logo-svg_.png" width="240" height="96" /> <img title="ISC_P28-31_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ISC_P28-31_pdf" src="https://hack.gpl.jp/wp-content/uploads/2016/12/isc_p2831_pdf.png" width="255" height="109" />&#160; どっちのロゴなんでしょうか？社名は、NSK があるので、NSK のロゴともいえそうですが、歴史的には、ISC のロゴのようですね。</p>
+<p><img title="S20161218_010" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_010" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_010.jpg" width="640" height="480" /> </p>
 <p>レトロなデザインのパッケージに入っています。このパッケージには、ISC のロゴが入っていますね。MADE IN JAPAN の響きは、やっぱりいいですね。</p>
-<p><img loading="lazy" title="S20161218_011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_011" src="/wp-content/uploads/2016/12/s20161218_011.jpg" width="640" height="480" /></p>
+<p><img title="S20161218_011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_011" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_011.jpg" width="640" height="480" /></p>
 <p>見た目からして、期待できそう。</p>
-<p><img loading="lazy" title="S20161218_012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_012" src="/wp-content/uploads/2016/12/s20161218_012.jpg" width="640" height="480" /> </p>
+<p><img title="S20161218_012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_012" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_012.jpg" width="640" height="480" /> </p>
 <p>仕様は以下です。</p>
-<p><a href="http://www.nskmicro.co.jp/products/bearing_size_pdf/ISC_P28-31.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="ISC_P28-31_pdf 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ISC_P28-31_pdf 3" src="/wp-content/uploads/2016/12/isc_p2831_pdf3.png" width="640" height="867" /></a> </p>
+<p><a href="http://www.nskmicro.co.jp/products/bearing_size_pdf/ISC_P28-31.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="ISC_P28-31_pdf 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ISC_P28-31_pdf 3" src="https://hack.gpl.jp/wp-content/uploads/2016/12/isc_p2831_pdf3.png" width="640" height="867" /></a> </p>
 <p>M5のボルトを挿して、軽く転がり具合を肌で確認したところ、体感できるほどスムーズです。これはすごい。NTNとNSCのスチールとステンレスの差は、感じられませんが、どちらもどこまでも転がっていきそうなくらい、スムーズです。</p>
 </p>
 </p>
-<p><img loading="lazy" title="S20161218_015" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_015" src="/wp-content/uploads/2016/12/s20161218_015.jpg" width="640" height="480" /> </p>
+<p><img title="S20161218_015" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_015" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_015.jpg" width="640" height="480" /> </p>
 <p>やっぱり MADE IN JAPAN はすごかった。</p>
-<p><img loading="lazy" title="S20161218_013" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_013" src="/wp-content/uploads/2016/12/s20161218_013.jpg" width="640" height="480" /> </p>
+<p><img title="S20161218_013" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20161218_013" src="https://hack.gpl.jp/wp-content/uploads/2016/12/s20161218_013.jpg" width="640" height="480" /> </p>
 <p>V-Slot にするときに価格が5倍くらいはありますが、その差はローラー3個で600円。XYZで、4000円から5000円弱は高くなる感じです。</p>
 <p>とにかく、日本製のベアリングはすごいねということが体感できました。</p>
 ]]></content:encoded>

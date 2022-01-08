@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://hack.gpl.jp/xmlrpc.php"> <noscript id="aonoscrcss"></noscript>
+<title>どうやら、M2拡張スロットが壊れているようです &#8211; JunkHack</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; フィード" href="https://hack.gpl.jp/feed/">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; コメントフィード" href="https://hack.gpl.jp/comments/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="https://hack.gpl.jp/wp-includes/css/dist/block-library/style.min.css?ver=5.8.3" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://hack.gpl.jp/wp-content/cache/autoptimize/css/autoptimize_single_76e12144b6be9bc0a17dd880c5566156.css?ver=5.4.1" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-confirm-css" href="https://hack.gpl.jp/wp-content/cache/autoptimize/css/autoptimize_single_c605b424176e2b3541570e9ebd66830b.css?ver=5.1" type="text/css" media="all">
+<link rel="stylesheet" id="wpel-style-css" href="https://hack.gpl.jp/wp-content/cache/autoptimize/css/autoptimize_single_04d23f0dc44b526ca48d1d564eb7537c.css?ver=2.50" type="text/css" media="all">
+<link rel="stylesheet" id="wpfront-scroll-top-css" href="https://hack.gpl.jp/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.7.08086" type="text/css" media="all">
+<link rel="stylesheet" id="related-frontend-css-css" href="https://hack.gpl.jp/wp-content/cache/autoptimize/css/autoptimize_single_ce8bbdb7cabcf5f0fa8d28d9868b7638.css?ver=0.1.0" type="text/css" media="all">
+<link rel="stylesheet" id="hew-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="https://hack.gpl.jp/wp-content/cache/autoptimize/css/autoptimize_single_c14dd6e84e694a66c7e27f11220ed49a.css?ver=3.4.1" type="text/css" media="all">
+<link rel="stylesheet" id="hew-style-css" href="https://hack.gpl.jp/wp-content/cache/autoptimize/css/autoptimize_single_bd2482c37d2bc505ed15c848d16adf6d.css?ver=5.8.3" type="text/css" media="all"> <script type="text/javascript" src="https://hack.gpl.jp/wp-content/plugins/jquery-manager/assets/js/jquery-3.5.1.min.js" id="jquery-core-js"></script> <script type="text/javascript" src="https://hack.gpl.jp/wp-content/plugins/jquery-manager/assets/js/jquery-migrate-3.3.0.min.js" id="jquery-migrate-js"></script>  <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-199105184-1" id="google_gtagjs-js" async></script> <script type="text/javascript" id="google_gtagjs-js-after">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["hack.gpl.jp"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="https://api.w.org/" href="https://hack.gpl.jp/wp-json/">
+<link rel="alternate" type="application/json" href="https://hack.gpl.jp/wp-json/wp/v2/posts/4320">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hack.gpl.jp/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hack.gpl.jp/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 5.8.3">
+<link rel="canonical" href="https://hack.gpl.jp/2018/01/21/%e3%81%a9%e3%81%86%e3%82%84%e3%82%89%e3%80%81m2%e6%8b%a1%e5%bc%b5%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88%e3%81%8c%e5%a3%8a%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e3%82%88%e3%81%86%e3%81%a7%e3%81%99/">
+<link rel="shortlink" href="https://hack.gpl.jp/?p=4320">
+<link rel="alternate" type="application/json+oembed" href="https://hack.gpl.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://hack.gpl.jp%2F2018%2F01%2F21%2F%25e3%2581%25a9%25e3%2581%2586%25e3%2582%2584%25e3%2582%2589%25e3%2580%2581m2%25e6%258b%25a1%25e5%25bc%25b5%25e3%2582%25b9%25e3%2583%25ad%25e3%2583%2583%25e3%2583%2588%25e3%2581%258c%25e5%25a3%258a%25e3%2582%258c%25e3%2581%25a6%25e3%2581%2584%25e3%2582%258b%25e3%2582%2588%25e3%2581%2586%25e3%2581%25a7%25e3%2581%2599%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://hack.gpl.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://hack.gpl.jp%2F2018%2F01%2F21%2F%25e3%2581%25a9%25e3%2581%2586%25e3%2582%2584%25e3%2582%2589%25e3%2580%2581m2%25e6%258b%25a1%25e5%25bc%25b5%25e3%2582%25b9%25e3%2583%25ad%25e3%2583%2583%25e3%2583%2588%25e3%2581%258c%25e5%25a3%258a%25e3%2582%258c%25e3%2581%25a6%25e3%2581%2584%25e3%2582%258b%25e3%2582%2588%25e3%2581%2586%25e3%2581%25a7%25e3%2581%2599%2F&#038;format=xml">
+<meta name="generator" content="Site Kit by Google 1.48.1">
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">  <script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2711753458083215" crossorigin="anonymous" type="text/javascript"></script> </head>  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161935417-3"></script> <script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161935417-3');</script> <body class="post-template-default single single-post postid-4320 single-format-standard has-sidebar has-header-image">
+<div id="page" class="hfeed site">
+<div id="widgets-wrapper" class="hide"><div id="secondary" class="wrap top-widget-area" role="complementary"><div id="sidebar-4" class="widget-area" role="complementary"><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://hack.gpl.jp/"> <label> <span class="screen-reader-text">検索:</span> <input type="search" class="search-field" placeholder="検索&hellip;" value="" name="s"> </label> <input type="submit" class="search-submit" value="検索">
+</form></aside></div></div></div> <a class="skip-link screen-reader-text" href="#content">コンテンツへ移動</a><header id="masthead" class="site-header" role="banner"> <a class="site-logo" href="https://hack.gpl.jp/" title="JunkHack" rel="home noopener noreferrer" data-wpel-link="internal"> <noscript><img src="https://secure.gravatar.com/avatar/997681319c3cbb0bdcca95770d5edaa6/?s=80&#038;d=mm" width="80" height="80" alt="" class="no-grav header-image"></noscript>
+<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2080%2080%22%3E%3C/svg%3E" data-src="https://secure.gravatar.com/avatar/997681319c3cbb0bdcca95770d5edaa6/?s=80&#038;d=mm" width="80" height="80" alt="" class="lazyload no-grav header-image"> </a><div class="site-branding">
+<h1 class="site-title"><a href="https://hack.gpl.jp/" rel="home noopener noreferrer" data-wpel-link="internal">JunkHack</a></h1>
+<h2 class="site-description">アリエクでポチった JUNKHACK</h2>
+</div>
+<nav id="site-navigation" class="main-navigation" role="navigation"> <button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button><div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
+<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="https://hack.gpl.jp/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-9594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9594"><a href="https://hack.gpl.jp/status/" data-wpel-link="internal" rel="noopener noreferrer">Status</a></li>
+<li id="menu-item-9741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9741"><a href="https://junkhack.gpl.jp/sendmail/" data-wpel-link="internal" rel="noopener noreferrer">contact</a></li>
+<li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+</ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
+</div></header><div id="content" class="site-content"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"><article id="post-4320" class="post-4320 post type-post status-publish format-standard hentry category-aliexpress category-gearbest"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="https://hack.gpl.jp/2018/01/21/%e3%81%a9%e3%81%86%e3%82%84%e3%82%89%e3%80%81m2%e6%8b%a1%e5%bc%b5%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88%e3%81%8c%e5%a3%8a%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e3%82%88%e3%81%86%e3%81%a7%e3%81%99/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-01-21T02:31:45+09:00">2018年1月21日</time></a> </span><span class="posted-on">更新日:2018年1月21日</span> <span class="categories"> <a href="https://hack.gpl.jp/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="https://hack.gpl.jp/category/gearbest/" rel="category tag noopener noreferrer" data-wpel-link="internal">gearbest</a></span>
+</div>
+<h1 class="entry-title">どうやら、M2拡張スロットが壊れているようです</h1></header><div class="entry-content">
+<p>最近激務の JunkHack です。金曜もなんと夜中の３時までお仕事していました。</p>
+<p> </p>
+<p>で、先日 M2 の SSD が来たわけですがなぜか移行が完了しませんでした。これはおかしいなと、一旦移行はキャンセルしてSSD をフォーマットしようとしたら、いつまで経ってもフォーマットが完了しません。</p>
+<noscript><img title="Screenshot_8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_8" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_8.png" width="640" height="443"></noscript>
+<img class="lazyload" title="Screenshot_8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_8" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20443%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_8.png" width="640" height="443"><p>フォーマットは出来ませんが、デバイスは正常なようです。はて？</p>
+<p></p>
+<noscript><img title="Screenshot_3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_3" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_3.png" width="337" height="480"></noscript>
+<img class="lazyload" title="Screenshot_3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_3" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20337%20480%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_3.png" width="337" height="480"><p>フォーマットは出来ませんでしたが、以下のようにディスク自体は認識しています。</p>
+<p></p>
+<noscript><img title="Screenshot_6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_6" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_6.png" width="640" height="361"></noscript>
+<img class="lazyload" title="Screenshot_6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_6" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_6.png" width="640" height="361"> <p>「あ～、不良品のSSD をつかんだか？」とがっくししていました。アリエクは一旦、受領を押してもチャットからEva という機械受付の窓口から人を経由して、再度紛争の申し立てが出来ます。</p>
+<p> </p>
+<p> 一旦、紛争を再開しつつ切り分けとしてM.2 の USB を購入しておきました。</p>
+<p> </p>
+<p></p>
+<noscript><img title="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="https://hack.gpl.jp/wp-content/uploads/2018/01/external_b_key_m_2_ngff_ssd_to_usb_3_0_super_speed_converter_adapter_enclosure_case_6gbs_aluminu.png" width="640" height="253"></noscript>
+<img class="lazyload" title="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20253%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/external_b_key_m_2_ngff_ssd_to_usb_3_0_super_speed_converter_adapter_enclosure_case_6gbs_aluminu.png" width="640" height="253"><p> </p>
+<p>ケース付きのと無しのを両方ポチッとしておきました。 最悪、USB 3.0 接続で内部に格納すればいいやということで。</p>
+<p> </p>
+<p></p>
+<noscript><img title="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="https://hack.gpl.jp/wp-content/uploads/2018/01/b_key_m_2_ngff_ssd_to_usb_3_0_usb2_0_converter_adapter_card_external_enclosure_case_cover_suppor.png" width="640" height="292"></noscript>
+<img class="lazyload" title="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20292%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/b_key_m_2_ngff_ssd_to_usb_3_0_usb2_0_converter_adapter_card_external_enclosure_case_cover_suppor.png" width="640" height="292"><p>SSD の初期不良ならこれで付けても認識しませんので、原因の切り分けができるかなと。あと、セキュアイレースもUSB タイプのほうがやりやすいので１つあると便利です。</p>
+<p>TeBENCH ではセクタ数も見えています。しかし、Security Frozen が点灯しています。</p>
+<p> </p>
+<noscript><img title="Screenshot_10" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_10" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_10.png" width="640" height="450"></noscript>
+<img class="lazyload" title="Screenshot_10" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_10" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20450%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_10.png" width="640" height="450"><p>この状態だと、セキュアイレースが出来ません。ベンチマークもRAWモードで読み込みは出来ますが書き込みが出来ません。</p>
+<p></p>
+<noscript><img title="Screenshot_9" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_9" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_9.png" width="640" height="447"></noscript>
+<img class="lazyload" title="Screenshot_9" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_9" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20447%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_9.png" width="640" height="447"><p>こんな感じで、書き込みの途中で止まってしまいます。</p>
+<p> </p>
+<p>で、USB3.0 が到着しましたのでこっちに付けたら、あっさりとフォーマット、セキュアイレースもできました。つまり、 SSD は壊れていないとわかりました。</p>
+<p>問題のM.2 ドータカード（M.2 SSD card expansion）を取り外して、細部を見てみました。</p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2018/01/s20180120_002.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="S20180120_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20180120_002" src="https://hack.gpl.jp/wp-content/uploads/2018/01/s20180120_002_thumb.jpg" width="640" height="480"></noscript>
+<img class="lazyload" title="S20180120_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20180120_002" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/s20180120_002_thumb.jpg" width="640" height="480"></a></p>
+<p> この拡張カードは、マザーボードから8pin のフラットケーブルで接続されています。基板上には、コイル、コンデンサ、スイッチング電源らしきICも見えます。目視チェックでは明らかに半田付け不良やコネクタ不良は見つかりませんでした。おそらく電源周りなのではないかと思います。なお、汎用品では8pin のは拡張カードは見当たりませんでした。</p>
+<p>おそらく、マザーボードから出ている 8pin は ２本が電源で、残り６本が SATA のPIN アサインで使われているはずです。</p>
+<blockquote>
+<p></p>
+<noscript><img title="SATAピン配置___特殊電子回路" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SATAピン配置___特殊電子回路" src="https://hack.gpl.jp/wp-content/uploads/2018/01/sata___.png" width="428" height="480"></noscript>
+<img class="lazyload" title="SATAピン配置___特殊電子回路" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SATAピン配置___特殊電子回路" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20428%20480%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/sata___.png" width="428" height="480"><p align="center"><a title="http://www.tokudenkairo.co.jp/cosmok/sata.html" href="http://www.tokudenkairo.co.jp/cosmok/sata.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.tokudenkairo.co.jp/cosmok/sata.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br>特殊電子回路株式会社</p>
+</blockquote>
+<p>おそらく、マザーボードからの8pin のうち、4本が どれかが特定できれば M.2 to SATA が使えるはずです。M.2(NGFF)の電源は3.3V で、マザーボードからの電圧を降圧しているのではと推測しています。</p>
+<p>USB3.0 で接続した m.2 SSD のベンチマークです。</p>
+<p></p>
+<noscript><img title="Dari" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Dari" src="https://hack.gpl.jp/wp-content/uploads/2018/01/dari1.png" width="640" height="258"></noscript>
+<img class="lazyload" title="Dari" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Dari" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20258%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/uploads/2018/01/dari1.png" width="640" height="258"><p>なかなか速いですね。実用上十分です。</p>
+<p>さて、まずは原因がわかったのですが、SATA のポートを利用できるよう M.2 スロットのドータカードのPIN アサインを調べる必要がありそうです。あとは、 USB 3.0 を内部で取り出す方法を考えないといけませんね。同時並行でメーカーに M2ドータカード単体で販売できるか聞いています。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><nav class="navigation post-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
+<div class="nav-links">
+<div class="nav-previous"><a href="https://hack.gpl.jp/2018/01/08/2017%e5%b9%b4%e3%81%ab%e8%b3%bc%e5%85%a5%e3%81%97%e3%81%a6%e3%82%88%e3%81%8b%e3%81%a3%e3%81%9f%e3%82%82%e3%81%ae%e3%83%99%e3%82%b9%e3%83%8810/" rel="prev noopener noreferrer" data-wpel-link="internal">2017年に購入してよかったものベスト10</a></div>
+<div class="nav-next"><a href="https://hack.gpl.jp/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/" rel="next noopener noreferrer" data-wpel-link="internal">独自ドメインで WordPress を動作させる為、エンジニアが選んだ選択</a></div>
+</div></nav></main></div></div>
+<footer id="colophon" class="site-footer wrap" role="contentinfo"><div class="site-info"> Copyleft - all rights reversed. <span class="sep"> | </span> JunkHack 2011 - 2021 <span class="sep"> | </span> <a href="https://hack.gpl.jp/about-junkhack/" data-wpel-link="internal" rel="noopener noreferrer">運営者情報<span class="gf"></span></a><span class="sep"> | </span> <a href="https://junkhack.gpl.jp/sendmail/" data-wpel-link="internal" rel="noopener noreferrer">お問い合わせ<span class="gf"></span></a><span class="sep"> | </span> <a href="https://hack.gpl.jp/privacy/" data-wpel-link="internal" rel="noopener noreferrer">プライバシーポリシー<span class="gf"></span></a>
+</div></footer>
+</div>
+<div id="wpfront-scroll-top-container"> <noscript><img src="https://hack.gpl.jp/wp-content/plugins/wpfront-scroll-top/images/icons/1.png" alt=""></noscript>
+<img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="https://hack.gpl.jp/wp-content/plugins/wpfront-scroll-top/images/icons/1.png" alt="">
+</div> <script type="text/javascript">function wpfront_scroll_top_init() {
+                if (typeof wpfront_scroll_top === "function" && typeof jQuery !== "undefined") {
+                    wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":20,"marginY":20,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});
+                } else {
+                    setTimeout(wpfront_scroll_top_init, 100);
+                }
+            }
+            wpfront_scroll_top_init();</script> <noscript><style>.lazyload{display:none;}</style></noscript>
+<script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async data-noptimize="1" src="https://hack.gpl.jp/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=2.9.5"></script><script type="text/javascript" src="https://hack.gpl.jp/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script> <script type="text/javascript" src="https://hack.gpl.jp/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script> <script type="text/javascript" id="contact-form-7-js-extra">var wpcf7 = {"api":{"root":"https:\/\/hack.gpl.jp\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};</script> <script type="text/javascript" id="google-invisible-recaptcha-js-before">var renderInvisibleReCaptcha = function() {
+
+    for (var i = 0; i < document.forms.length; ++i) {
+        var form = document.forms[i];
+        var holder = form.querySelector('.inv-recaptcha-holder');
+
+        if (null === holder) continue;
+		holder.innerHTML = '';
+
+         (function(frm){
+			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+            var holderId = grecaptcha.render(holder,{
+                'sitekey': '6Lf2z80ZAAAAAJpiFOn2Cix-QJQkaiC7uBA6NCkS', 'size': 'invisible', 'badge' : 'inline',
+                'callback' : function (recaptchaToken) {
+					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
+					 HTMLFormElement.prototype.submit.call(frm);
+                },
+                'expired-callback' : function(){grecaptcha.reset(holderId);}
+            });
+
+			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
+				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
+					clickEvt.preventDefault();
+					grecaptcha.execute(holderId);
+				});
+			}
+			else
+			{
+				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
+			}
+
+
+        })(form);
+    }
+};</script> <script type="text/javascript" async defer src="https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit&#038;hl=ja" id="google-invisible-recaptcha-js"></script> <script type="text/javascript" src="https://hack.gpl.jp/wp-content/themes/hew-wpcom/js/contact.js?ver=20210612" id="sendmail-js"></script> <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6Lf2z80ZAAAAAJpiFOn2Cix-QJQkaiC7uBA6NCkS&#038;ver=3.0" id="google-recaptcha-js"></script> <script type="text/javascript" id="wpcf7-recaptcha-js-extra">var wpcf7_recaptcha = {"sitekey":"6Lf2z80ZAAAAAJpiFOn2Cix-QJQkaiC7uBA6NCkS","actions":{"homepage":"homepage","contactform":"contactform"}};</script> <script defer src="https://hack.gpl.jp/wp-content/cache/autoptimize/js/autoptimize_b6c6c7d2c47bd5f86199fb6f5207fc2e.js"></script>
+</body>
+</html>

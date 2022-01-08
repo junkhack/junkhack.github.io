@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	E-inkディスプレイが到着 へのコメント	</title>
+	<atom:link href="https://hack.gpl.jp/2015/11/23/e-ink%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%81%8C%E5%88%B0%E7%9D%80/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hack.gpl.jp/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Thu, 26 Nov 2015 04:37:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<item>
+		<title>
+		JunkHack より		</title>
+		<link>https://hack.gpl.jp/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/#comment-63</link>
+
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 26 Nov 2015 04:37:42 +0000</pubDate>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=1743#comment-63</guid>
+
+					<description><![CDATA[&lt;a href=&quot;https://hack.gpl.jp/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/#comment-62&quot;&gt;Stefan&lt;/a&gt; への返信。
+
+Welcome, Mr.STEFAN.
+English version of the page does not have, but you should consider the future.
+
+Simple steps to make the two .bin file of your question is in the middle that are currently summarized.
+
+Fragmentary information can be seen below.
+https://hack.gpl.jp/?s=espeink+make
+
+SDK is planning to use a 1.0.1 or 1.4.0. 1.0.1 In a possible compilation, I was sure that the two .bin file is created.
+
+Then, the author of Mr.Sprite_tm were commented on the forum.
+http://www.esp8266.com/viewtopic.php?f=34&#038;t=5748
+He seems to have updated the code.
+
+I am still unconfirmed, but plan to use the ESP13 (or ESP-WROOM-02).
+
+Please come to play also. Progress is seen in the following.
+https://hack.gpl.jp/category/espeink/
+
+Thanks.]]></description>
+			<content:encoded><![CDATA[<p><a href="https://hack.gpl.jp/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/#comment-62" data-wpel-link="internal" rel="noopener noreferrer">Stefan</a> への返信。</p>
+<p>Welcome, Mr.STEFAN.<br />
+English version of the page does not have, but you should consider the future.</p>
+<p>Simple steps to make the two .bin file of your question is in the middle that are currently summarized.</p>
+<p>Fragmentary information can be seen below.<br />
+<a href="https://hack.gpl.jp/?s=espeink+make" rel="nofollow ugc noopener noreferrer" data-wpel-link="internal">https://hack.gpl.jp/?s=espeink+make</a></p>
+<p>SDK is planning to use a 1.0.1 or 1.4.0. 1.0.1 In a possible compilation, I was sure that the two .bin file is created.</p>
+<p>Then, the author of Mr.Sprite_tm were commented on the forum.<br />
+<a href="http://www.esp8266.com/viewtopic.php?f=34&#038;t=5748" rel="nofollow ugc external noopener noreferrer" data-wpel-link="external" target="_blank" class="wpel-icon-right">http://www.esp8266.com/viewtopic.php?f=34&#038;t=5748<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br />
+He seems to have updated the code.</p>
+<p>I am still unconfirmed, but plan to use the ESP13 (or ESP-WROOM-02).</p>
+<p>Please come to play also. Progress is seen in the following.<br />
+<a href="https://hack.gpl.jp/category/espeink/" rel="nofollow ugc noopener noreferrer" data-wpel-link="internal">https://hack.gpl.jp/category/espeink/</a></p>
+<p>Thanks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Stefan より		</title>
+		<link>https://hack.gpl.jp/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/#comment-62</link>
+
+		<dc:creator><![CDATA[Stefan]]></dc:creator>
+		<pubDate>Thu, 26 Nov 2015 01:36:33 +0000</pubDate>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=1743#comment-62</guid>
+
+					<description><![CDATA[Hey man,
+I really interested in this project because we want to use this as a base for our Study Project in our university. Your page is really great, but it&#039;s a little bit sad that you didn&#039;t write it in englisch.
+Could you make a short introduction in englisch how to generate the two .bin files? 
+Because with googletranslater sometimes it is really hard to understand what you actually mean :/ 
+So you used the 0.95 sdk at the end or which one?
+
+Would be really nice if you could answer all my questions over mail or with a comment.
+
+Thanks!]]></description>
+			<content:encoded><![CDATA[<p>Hey man,<br />
+I really interested in this project because we want to use this as a base for our Study Project in our university. Your page is really great, but it&#8217;s a little bit sad that you didn&#8217;t write it in englisch.<br />
+Could you make a short introduction in englisch how to generate the two .bin files?<br />
+Because with googletranslater sometimes it is really hard to understand what you actually mean :/<br />
+So you used the 0.95 sdk at the end or which one?</p>
+<p>Would be really nice if you could answer all my questions over mail or with a comment.</p>
+<p>Thanks!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

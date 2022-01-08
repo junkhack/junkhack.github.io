@@ -10,55 +10,55 @@
 
 <channel>
 	<title>AMZON &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Wed, 28 Apr 2021 01:44:41 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 04 Jul 2021 12:17:11 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>6年使ったSSDが突然、認識せず、あれこれした記録</title>
-		<link>https://jh2.gpl.jp/10294.html</link>
+		<link>https://hack.gpl.jp/2021/03/15/samsung-ssd-840-series/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 14 Mar 2021 17:52:42 +0000</pubDate>
 				<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[osx]]></category>
 		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10294</guid>
-				<media:thumbnail url="/wp-content/uploads/2021/03/SSD-limit-lifetime-2.png" />
+				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2021/03/SSD-limit-lifetime-2.png" />
 							<description><![CDATA[ということで、ちょうどOSを載せ替えようとSSDを調達して、大事なデータをコピーし終えたところで、突然認識しなくなりました。認識しなくなったSSDはこれ。当時のカタログの切り抜きを。 正式な型番と購入した値段、時期は以下 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>６年使ったSSDが突然、認識されなくなって困った・・・</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>バックアップとか大丈夫だった？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>丁度いいタイミングでOS載せ替えようとしてた時だったから、大丈夫だったよ！</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>SSDの寿命って実際どのくらいなんでしょうね？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -67,7 +67,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="/wp-content/uploads/2021/03/samsung-ssd-840-series.pdf" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" width="1024" height="352" src="/wp-content/uploads/2021/03/image-20-1024x352.png" alt="" class="wp-image-10296" srcset="/wp-content/uploads/2021/03/image-20-1024x352.png 1024w, /wp-content/uploads/2021/03/image-20-768x264.png 768w, /wp-content/uploads/2021/03/image-20-984x338.png 984w, /wp-content/uploads/2021/03/image-20.png 1038w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://hack.gpl.jp/wp-content/uploads/2021/03/samsung-ssd-840-series.pdf" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img width="1024" height="352" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-20-1024x352.png" alt="" class="wp-image-10296" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-20-1024x352.png 1024w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-20-768x264.png 768w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-20-984x338.png 984w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-20.png 1038w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
 
 
 
@@ -79,7 +79,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="633" height="117" src="/wp-content/uploads/2021/03/image-21.png" alt="" class="wp-image-10297"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="633" height="117" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-21.png" alt="" class="wp-image-10297"/></figure></div>
 
 
 
@@ -107,7 +107,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="620" height="490" src="/wp-content/uploads/2021/03/image-19.png" alt="" class="wp-image-10295"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="620" height="490" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-19.png" alt="" class="wp-image-10295"/></figure></div>
 
 
 
@@ -139,7 +139,7 @@ Crucial Storage Executiveに対応
 
 
 
-<blockquote class="wp-block-quote"><p>参考</p><cite><a href="https://chimolog.co/bto-ssd-mx500-1tb/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://chimolog.co/bto-ssd-mx500-1tb/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="https://www.crucial.jp/ssd/mx500/ct1000mx500ssd1" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.crucial.jp/ssd/mx500/ct1000mx500ssd1<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="/wp-content/uploads/2021/03/crucial-mx500-ssd-productflyer-ja.pdf" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">PDF</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>参考</p><cite><a href="https://chimolog.co/bto-ssd-mx500-1tb/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://chimolog.co/bto-ssd-mx500-1tb/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="https://www.crucial.jp/ssd/mx500/ct1000mx500ssd1" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.crucial.jp/ssd/mx500/ct1000mx500ssd1<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="https://hack.gpl.jp/wp-content/uploads/2021/03/crucial-mx500-ssd-productflyer-ja.pdf" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">PDF</a></cite></blockquote>
 
 
 
@@ -151,7 +151,7 @@ Crucial Storage Executiveに対応
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="859" height="305" src="/wp-content/uploads/2021/03/image-22.png" alt="" class="wp-image-10300" srcset="/wp-content/uploads/2021/03/image-22.png 859w, /wp-content/uploads/2021/03/image-22-768x273.png 768w" sizes="(max-width: 859px) 100vw, 859px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="859" height="305" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-22.png" alt="" class="wp-image-10300" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-22.png 859w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-22-768x273.png 768w" sizes="(max-width: 859px) 100vw, 859px" /></figure></div>
 
 
 
@@ -159,7 +159,7 @@ Crucial Storage Executiveに対応
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="549" src="/wp-content/uploads/2021/03/image-23-1024x549.png" alt="" class="wp-image-10301" srcset="/wp-content/uploads/2021/03/image-23-1024x549.png 1024w, /wp-content/uploads/2021/03/image-23-768x412.png 768w, /wp-content/uploads/2021/03/image-23-984x528.png 984w, /wp-content/uploads/2021/03/image-23.png 1040w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="549" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-23-1024x549.png" alt="" class="wp-image-10301" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-23-1024x549.png 1024w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-23-768x412.png 768w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-23-984x528.png 984w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-23.png 1040w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -180,7 +180,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="501" height="532" src="/wp-content/uploads/2021/03/image-24.png" alt="" class="wp-image-10302"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="501" height="532" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-24.png" alt="" class="wp-image-10302"/></figure></div>
 
 
 
@@ -188,7 +188,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="960" height="357" src="/wp-content/uploads/2021/03/image-36.png" alt="" class="wp-image-10321" srcset="/wp-content/uploads/2021/03/image-36.png 960w, /wp-content/uploads/2021/03/image-36-768x286.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="960" height="357" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-36.png" alt="" class="wp-image-10321" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-36.png 960w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-36-768x286.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
 
 
 
@@ -204,7 +204,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="499" height="532" src="/wp-content/uploads/2021/03/image-25.png" alt="" class="wp-image-10303"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="499" height="532" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-25.png" alt="" class="wp-image-10303"/></figure></div>
 
 
 
@@ -212,7 +212,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="499" height="532" src="/wp-content/uploads/2021/03/image-26.png" alt="" class="wp-image-10304"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="499" height="532" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-26.png" alt="" class="wp-image-10304"/></figure></div>
 
 
 
@@ -220,7 +220,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="501" height="309" src="/wp-content/uploads/2021/03/image-27.png" alt="" class="wp-image-10305"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="501" height="309" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-27.png" alt="" class="wp-image-10305"/></figure></div>
 
 
 
@@ -232,7 +232,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="781" height="535" src="/wp-content/uploads/2021/03/image-28.png" alt="" class="wp-image-10306" srcset="/wp-content/uploads/2021/03/image-28.png 781w, /wp-content/uploads/2021/03/image-28-768x526.png 768w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="781" height="535" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-28.png" alt="" class="wp-image-10306" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-28.png 781w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-28-768x526.png 768w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
 
 
 
@@ -266,7 +266,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="729" height="409" src="/wp-content/uploads/2021/03/image-29.png" alt="" class="wp-image-10307"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="729" height="409" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-29.png" alt="" class="wp-image-10307"/></figure></div>
 
 
 
@@ -318,7 +318,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="380" height="210" src="/wp-content/uploads/2021/03/image-31.png" alt="" class="wp-image-10309"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="380" height="210" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-31.png" alt="" class="wp-image-10309"/></figure></div>
 
 
 
@@ -338,7 +338,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2021/03/840catalog.png" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" width="1024" height="742" src="/wp-content/uploads/2021/03/840catalog-1024x742.png" alt="" class="wp-image-10310" srcset="/wp-content/uploads/2021/03/840catalog-1024x742.png 1024w, /wp-content/uploads/2021/03/840catalog-768x556.png 768w, /wp-content/uploads/2021/03/840catalog-984x713.png 984w, /wp-content/uploads/2021/03/840catalog.png 1189w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://hack.gpl.jp/wp-content/uploads/2021/03/840catalog.png" data-wpel-link="internal" rel="noopener noreferrer"><img width="1024" height="742" src="https://hack.gpl.jp/wp-content/uploads/2021/03/840catalog-1024x742.png" alt="" class="wp-image-10310" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/840catalog-1024x742.png 1024w, https://hack.gpl.jp/wp-content/uploads/2021/03/840catalog-768x556.png 768w, https://hack.gpl.jp/wp-content/uploads/2021/03/840catalog-984x713.png 984w, https://hack.gpl.jp/wp-content/uploads/2021/03/840catalog.png 1189w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -362,7 +362,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="665" src="/wp-content/uploads/2021/03/image-32-1024x665.png" alt="" class="wp-image-10311" srcset="/wp-content/uploads/2021/03/image-32-1024x665.png 1024w, /wp-content/uploads/2021/03/image-32-768x499.png 768w, /wp-content/uploads/2021/03/image-32-984x639.png 984w, /wp-content/uploads/2021/03/image-32.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="665" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-32-1024x665.png" alt="" class="wp-image-10311" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-32-1024x665.png 1024w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-32-768x499.png 768w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-32-984x639.png 984w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-32.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -370,7 +370,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="665" src="/wp-content/uploads/2021/03/image-33-1024x665.png" alt="" class="wp-image-10312" srcset="/wp-content/uploads/2021/03/image-33-1024x665.png 1024w, /wp-content/uploads/2021/03/image-33-768x499.png 768w, /wp-content/uploads/2021/03/image-33-984x639.png 984w, /wp-content/uploads/2021/03/image-33.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="665" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-33-1024x665.png" alt="" class="wp-image-10312" srcset="https://hack.gpl.jp/wp-content/uploads/2021/03/image-33-1024x665.png 1024w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-33-768x499.png 768w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-33-984x639.png 984w, https://hack.gpl.jp/wp-content/uploads/2021/03/image-33.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -394,7 +394,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="422" height="390" src="/wp-content/uploads/2021/03/image-34.png" alt="" class="wp-image-10313"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="422" height="390" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-34.png" alt="" class="wp-image-10313"/></figure></div>
 
 
 
@@ -402,7 +402,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="422" height="390" src="/wp-content/uploads/2021/03/image-35.png" alt="" class="wp-image-10314"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="422" height="390" src="https://hack.gpl.jp/wp-content/uploads/2021/03/image-35.png" alt="" class="wp-image-10314"/></figure></div>
 
 
 
@@ -442,10 +442,9 @@ $ sudo testdisk</code></pre>
 
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/">こちらからどうぞ</a>。お返事が遅くなるときもありますが、ご了承を。</p>
 
 
-<a class="sendmail wpel-icon-right" href="https://junkhack.gpl.jp/sendmail/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">メールを送ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
 ]]></content:encoded>
 					
 		
@@ -453,29 +452,29 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>mac で使えるUSB-RJ45シリアルケーブルきたよ（FTDI-FT232RLチップ）</title>
-		<link>https://jh2.gpl.jp/4976.html</link>
+		<link>https://hack.gpl.jp/2020/03/10/usb-rj45_ftdi2/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 10 Mar 2020 08:03:44 +0000</pubDate>
 				<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[enhikari]]></category>
 		<category><![CDATA[osx]]></category>
-		<guid isPermaLink="false">/?p=4976</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4976</guid>
 							<description><![CDATA[mac でもドライバーなしで使える、FTDI-FT232RLチップのシリアルケーブルかどうか確認してみました。購入先はアマゾンです。 Amazonhttps://amzn.to/339yu9E   中国製ですね。結構、綺 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>mac でもドライバーなしで使える、FTDI-FT232RLチップのシリアルケーブルかどうか確認してみました。購入先はアマゾンです。</p>
 <blockquote>
 <p>Amazon<br />https://amzn.to/339yu9E</p>
 </blockquote>
 <p> </p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200310_144804_4.jpg" src="/wp-content/uploads/2020/03/img_20200310_144804_4.jpg" alt="IMG 20200310 144804 4" width="600" height="450" border="0" /></p>
+<p><img style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200310_144804_4.jpg" src="https://hack.gpl.jp/wp-content/uploads/2020/03/img_20200310_144804_4.jpg" alt="IMG 20200310 144804 4" width="600" height="450" border="0" /></p>
 <p>中国製ですね。結構、綺麗な袋に入っていますね。</p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200310_144855_8.jpg" src="/wp-content/uploads/2020/03/img_20200310_144855_8.jpg" alt="IMG 20200310 144855 8" width="600" height="450" border="0" /></p>
+<p><img style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200310_144855_8.jpg" src="https://hack.gpl.jp/wp-content/uploads/2020/03/img_20200310_144855_8.jpg" alt="IMG 20200310 144855 8" width="600" height="450" border="0" /></p>
 <p>中にはドライバなのか、mini CD-ROM というんでしたっけ？　小さいCD-ROM が入っていました。嫌な予感。</p>
 <p>CD-ROM はとりあえず確認せず、mac に接続。</p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="a.png" src="/wp-content/uploads/2020/03/a.png" alt="a" width="598" height="407" border="0" /></p>
+<p><img style="display:block;margin-left:auto;margin-right:auto;" title="a.png" src="https://hack.gpl.jp/wp-content/uploads/2020/03/a.png" alt="a" width="598" height="407" border="0" /></p>
 <p>きましたね！　レビューでは FTDI チップじゃないよっていうコメントもあったので心配したのですが、問題ありません。</p>
 <p>今日届いた、ヤフオクでゲットしたルータ、古河電工 FITELnet F60 を初期化して表示してみました。</p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="Unamed.png" src="/wp-content/uploads/2020/03/unamed.png" alt="Unamed" width="599" height="428" border="0" /></p>
+<p><img style="display:block;margin-left:auto;margin-right:auto;" title="Unamed.png" src="https://hack.gpl.jp/wp-content/uploads/2020/03/unamed.png" alt="Unamed" width="599" height="428" border="0" /></p>
 <p>この続きは、また後のお楽しみということで。今日は雨ですね。</p>
 <p>ちなみに、NEC UNIVERGE IX2105 も今日届きました。２つも、楽しいおもちゃが届いてしまったのでどっちから手をつけようか迷いますね（笑）</p>
 ]]></content:encoded>
@@ -485,18 +484,18 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>Macでも使えるコンソールケーブルをゲット</title>
-		<link>https://jh2.gpl.jp/4961.html</link>
+		<link>https://hack.gpl.jp/2020/03/09/usb-rj45_ftdi/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 08 Mar 2020 16:03:58 +0000</pubDate>
 				<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[enhikari]]></category>
-		<guid isPermaLink="false">/?p=4961</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4961</guid>
 							<description><![CDATA[これは忘れそうなんで、ぽちっておきました。USB-RJ45シリアルケーブル　です。 FTDI-FT232RLのチップが入ってるということで、アリエクだともっと安いのもあるんですが今、中国からは輸送が遅いんで日本でぽちって [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>これは忘れそうなんで、ぽちっておきました。USB-RJ45シリアルケーブル　です。<a href="https://amzn.to/339yu9E" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="51p8SBolr-L._AC_SL1001_.jpg" src="/wp-content/uploads/2020/03/51p8sbolr-l._ac_sl1001_-1.jpg" alt="51p8SBolr L AC SL1001" width="599" height="385" border="0" /></a></p>
+										<content:encoded><![CDATA[<p>これは忘れそうなんで、ぽちっておきました。USB-RJ45シリアルケーブル　です。<a href="https://amzn.to/339yu9E" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img style="display:block;margin-left:auto;margin-right:auto;" title="51p8SBolr-L._AC_SL1001_.jpg" src="https://hack.gpl.jp/wp-content/uploads/2020/03/51p8sbolr-l._ac_sl1001_-1.jpg" alt="51p8SBolr L AC SL1001" width="599" height="385" border="0" /></a></p>
 <p>FTDI-FT232RLのチップが入ってるということで、アリエクだともっと安いのもあるんですが今、中国からは輸送が遅いんで日本でぽちっておきました。</p>
 <p>1259円なり。ちなみにアリエクだと500円くらいであるんですが。</p>
-<p><img loading="lazy" style="border:none !important;margin:0!important;" src="//ir-jp.amazon-adsystem.com/e/ir?t=pear0a-22&amp;l=am2&amp;o=9&amp;a=B0769J9QXP" alt="" width="1" height="1" border="0" /></p>
+<p><img style="border:none !important;margin:0!important;" src="//ir-jp.amazon-adsystem.com/e/ir?t=pear0a-22&amp;l=am2&amp;o=9&amp;a=B0769J9QXP" alt="" width="1" height="1" border="0" /></p>
 ]]></content:encoded>
 					
 		
@@ -504,60 +503,60 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>2017年に購入してよかったものベスト10</title>
-		<link>https://jh2.gpl.jp/4305.html</link>
+		<link>https://hack.gpl.jp/2018/01/08/2017%e5%b9%b4%e3%81%ab%e8%b3%bc%e5%85%a5%e3%81%97%e3%81%a6%e3%82%88%e3%81%8b%e3%81%a3%e3%81%9f%e3%82%82%e3%81%ae%e3%83%99%e3%82%b9%e3%83%8810/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 07 Jan 2018 18:19:39 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[gearbest]]></category>
-		<guid isPermaLink="false">/?p=4305</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4305</guid>
 							<description><![CDATA[毎年の年末に、今年ぽちったモノの中でよかったなーって思えるベスト１０をやろうと前々から思ってました。 今年から初めてみたいと思います。 &#160; 10位 コットン製のマフラー 842円 女性ものなんですかね。自転車乗 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>毎年の年末に、今年ぽちったモノの中でよかったなーって思えるベスト１０をやろうと前々から思ってました。</p>
 <p>今年から初めてみたいと思います。</p>
 <p>&#160;</p>
 <p>10位 コットン製のマフラー 842円</p>
-<p><img loading="lazy" title="10-" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10-" src="/wp-content/uploads/2018/01/10.png" width="479" height="480" /> </p>
+<p><img title="10-" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10-" src="https://hack.gpl.jp/wp-content/uploads/2018/01/10.png" width="479" height="480" /> </p>
 <p>女性ものなんですかね。自転車乗るとき、暖かくて色も紺色で、コットン製なので洗濯も自分で楽です。大判なのでひざ掛けにも使えて安くて大変気に入っています。</p>
 <p>&#160;</p>
 <p>９位 髭剃り後や、寝る前に塗るフェイスクリーム 350円</p>
-<p><img loading="lazy" title="９" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="９" src="/wp-content/uploads/2018/01/beff24969cce.jpg" width="480" height="480" /> </p>
+<p><img title="９" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="９" src="https://hack.gpl.jp/wp-content/uploads/2018/01/beff24969cce.jpg" width="480" height="480" /> </p>
 <p>髭剃り負けするので、何かいいクリームないかなーと物色していたのですが、このフェイスクリームは別格でした。寝る前にぬっておくと朝髭剃り負けしません。とても気に入っています。</p>
 <p>&#160;</p>
 <p>８位 中華製激安ノートPC YEPO 737A 22746円</p>
-<p><img loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2018/01/780ddd595a4b.png" width="409" height="480" /> </p>
+<p><img title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="https://hack.gpl.jp/wp-content/uploads/2018/01/780ddd595a4b.png" width="409" height="480" /> </p>
 <p>年末に購入した中華製のノートPC。コスパは最高です。日常使いの使い倒すノートPCとして活躍するでしょう。１０年前にこんな値段でこの品質のノートPCが出るなんて夢にも思っていませんでした。</p>
 <p>&#160;</p>
 <p>７位 カーボンフレームのMTB SAVA26インチ 送料込 60446円</p>
-<p><img loading="lazy" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2018/01/c353ca7b32cd.jpg" width="480" height="480" /> </p>
+<p><img title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="https://hack.gpl.jp/wp-content/uploads/2018/01/c353ca7b32cd.jpg" width="480" height="480" /> </p>
 <p>&#160;</p>
 <p>日常の足となっているカーボンフレームのMTB。ついにカーボンに手を出しましたが、軽くてしなやか。とても気に入っています。</p>
 <p>&#160;</p>
 <p>６位 冬用の手袋 ROCKBROS S091BK ９００円くらい</p>
-<p><img loading="lazy" title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="/wp-content/uploads/2018/01/16f66100448d.jpg" width="480" height="480" /> </p>
+<p><img title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="https://hack.gpl.jp/wp-content/uploads/2018/01/16f66100448d.jpg" width="480" height="480" /> </p>
 <p>&#160;</p>
 </p>
 <p>手袋は１年に１つづつくらいで、冬用と夏用を使いますが、この手袋はちょっと別格です。また冬用で買うと思います。品質がいいです。</p>
 <p>&#160;</p>
 <p>５位 Continental X king MTB 26インチタイヤ 1697円（２本）</p>
-<p><img loading="lazy" title="５" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="５" src="/wp-content/uploads/2018/01/5a5fd5a784fb.jpg" width="640" height="426" /> </p>
+<p><img title="５" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="５" src="https://hack.gpl.jp/wp-content/uploads/2018/01/5a5fd5a784fb.jpg" width="640" height="426" /> </p>
 <p>コンチネンタルのMTBタイヤです。タイヤって履き替えただけじゃあまり差がないものとばかり思っていましたが、このタイヤは別格でした。とてもいいタイヤで、この値段でまたあったら買いたいなと思います。購入先は、wiggle.jp です。次回もコンチネンタルのタイヤの何かにしようと思っています。</p>
 <p>&#160;</p>
 <p>４位 LUMIX DMC-FZ200 23544円</p>
-<p><img loading="lazy" title="４" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="４" src="/wp-content/uploads/2018/01/b4cb14dde129.jpg" width="603" height="480" /> </p>
+<p><img title="４" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="４" src="https://hack.gpl.jp/wp-content/uploads/2018/01/b4cb14dde129.jpg" width="603" height="480" /> </p>
 <p>何気にカメラって、新しいものじゃなくても綺麗に撮れるんですよね。かなり満足しています。軽いし、レンズは全域でF2.8だし。しばらｓくこれでいいって思っています。</p>
 <p>&#160;</p>
 <p>３位 スミシア 2.5人がけソファー 配送込 19980円</p>
-<p><img loading="lazy" title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="/wp-content/uploads/2018/01/d49f516c047e.png" width="547" height="480" /> </p>
+<p><img title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="https://hack.gpl.jp/wp-content/uploads/2018/01/d49f516c047e.png" width="547" height="480" /> </p>
 </p>
 <p>部屋にソファーがあるのとないのとでは雲泥の差ということに気がつきました。とても、ゆったり本読んだり、スマホいじったり、最高です。</p>
 <p>&#160;</p>
 <p>２位 Dibea C17 コードレス掃除機 13000円</p>
-<p><img loading="lazy" title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="/wp-content/uploads/2018/01/84207f764efb.jpg" width="504" height="480" /> </p>
+<p><img title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="https://hack.gpl.jp/wp-content/uploads/2018/01/84207f764efb.jpg" width="504" height="480" /> </p>
 <p>なんだか、ダイソンに似ていますが、モーターヘッドであり遠心分離式でリチウム充電式のもの。１，２，３階まで一気に掃除できてとても軽く、そしてごみが捨てやすい。コードレスってほんと掃除を楽にしてくれました。</p>
 <p>&#160;</p>
 <p>１位 電子タバコ VAPE Kangertech TOGO Mini 2700円ほど</p>
-<p><img loading="lazy" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2018/01/68089c9b75cc.jpg" width="480" height="480" /> </p>
+<p><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="https://hack.gpl.jp/wp-content/uploads/2018/01/68089c9b75cc.jpg" width="480" height="480" /> </p>
 <p>今年の変化のナンバー１は、なんといってもタバコをやめれたことです。このVAPEにニコチン入りリキッドで、いともあっさりほとんど苦痛や苦労もなくさっぱりやめられました。今はたまにVAPEを忘れることがあるんですが、依存度はなくなりつつあります。タバコやめられない人、お勧めです。貯金箱には、たばこを吸ったつもりのお金が貯まっています。半年で７万くらいですかね。体のためにも、ライフスタイルのためにも、すごく意義があったと思います。</p>
 <p>&#160;</p>
 <p>以上、2017年度に購入した満足度が高い商品でした。２０１８年度も良い製品と出会えることを楽しみにしています。2018年の４月からは名古屋から東京に生活空間が変わります。お仕事のベースを東京に移動しますので、生活の面でもいろいろと楽しみが増えそうです。特にイベントがらみは気軽に行けそうで、交友も広げていければなと思います。</p>
@@ -568,16 +567,16 @@ $ sudo testdisk</code></pre>
 			</item>
 		<item>
 		<title>FireTV Stick Newモデル3480円！！</title>
-		<link>https://jh2.gpl.jp/4056.html</link>
+		<link>https://hack.gpl.jp/2017/07/11/firetv-stick-new%e3%83%a2%e3%83%87%e3%83%ab3480%e5%86%86%ef%bc%81%ef%bc%81/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 11 Jul 2017 05:42:05 +0000</pubDate>
 				<category><![CDATA[AMZON]]></category>
-		<guid isPermaLink="false">/?p=4056</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4056</guid>
 							<description><![CDATA[いつかセールをやると思っていましたので待っていましたが、やっと来ました。これはポチるしかないでしょう。3480円です。 &#160; これでPC付けずに見られますので、寝落ちしても電気代はエコですね。]]></description>
 										<content:encoded><![CDATA[<p>いつかセールをやると思っていましたので待っていましたが、やっと来ました。これはポチるしかないでしょう。3480円です。</p>
 <p>&#160;</p>
-<p> <a href="https://www.amazon.co.jp/dp/B01ETRGGYI?tag=pear0a-22&amp;camp=243&amp;creative=1615&amp;linkCode=as1&amp;creativeASIN=B01ETRGGYI&amp;adid=1T6FNCFJS2YD3EXZ72E1&amp;" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Fire_TV_Stick" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Fire_TV_Stick" src="/wp-content/uploads/2017/07/fire_tv_stick.png" width="640" height="217" /></a>   </p>
+<p> <a href="https://www.amazon.co.jp/dp/B01ETRGGYI?tag=pear0a-22&amp;camp=243&amp;creative=1615&amp;linkCode=as1&amp;creativeASIN=B01ETRGGYI&amp;adid=1T6FNCFJS2YD3EXZ72E1&amp;" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Fire_TV_Stick" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Fire_TV_Stick" src="https://hack.gpl.jp/wp-content/uploads/2017/07/fire_tv_stick.png" width="640" height="217" /></a>   </p>
 <p>これでPC付けずに見られますので、寝落ちしても電気代はエコですね。</p>
 ]]></content:encoded>
 					

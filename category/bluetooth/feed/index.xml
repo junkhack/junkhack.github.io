@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Bluetooth &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 12 May 2020 06:33:12 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>DW1820A WiFi、Bluetoothとアンテナを取り付け</title>
-		<link>https://jh2.gpl.jp/5135.html</link>
+		<link>https://hack.gpl.jp/2020/05/12/dw1820a-wifi/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 12 May 2020 06:33:12 +0000</pubDate>
@@ -30,18 +30,18 @@
 		<category><![CDATA[Bluetooth]]></category>
 		<category><![CDATA[WiFi]]></category>
 		<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=5135</guid>
-							<description><![CDATA[ちょっと間が空きましたが、無事にアリエクから購入した品が届きましたので、取り付けてみました。 WiFiとアンテナを調達！ /2020/03/29/wifi-dw1820a-bcm943 [&#8230;]]]></description>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=5135</guid>
+							<description><![CDATA[ちょっと間が空きましたが、無事にアリエクから購入した品が届きましたので、取り付けてみました。 WiFiとアンテナを調達！ https://hack.gpl.jp/2020/03/29/wifi-dw1820a-bcm94 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ちょっと間が空きましたが、無事にアリエクから購入した品が届きましたので、取り付けてみました。</p>
 <blockquote><p>WiFiとアンテナを調達！<br />
-/2020/03/29/wifi-dw1820a-bcm94350zae/</p></blockquote>
+https://hack.gpl.jp/2020/03/29/wifi-dw1820a-bcm94350zae/</p></blockquote>
 <p>実際のカードはこんな感じです。このカードは、WiFiとBluetoothのコンボカードです。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5136" src="/wp-content/uploads/2020/05/14765.jpg" alt="14765.jpg" width="1076" height="807" />ちゃんと、技適のシールもあるようですね。<img loading="lazy" class="alignnone size-full wp-image-5137" src="/wp-content/uploads/2020/05/14764.jpg" alt="14764.jpg" width="1217" height="913" />WiFiカードは、HDDマウンターの下にあります。<img loading="lazy" class="alignnone size-full wp-image-5139" src="/wp-content/uploads/2020/05/14763.jpg" alt="14763.jpg" width="1477" height="1108" />こんな感じでアンテナを取り回してみました。アンテナコネクタが取り付けにくかったので、取り付けてからねじ止めしました。<img loading="lazy" class="alignnone size-full wp-image-5141" src="/wp-content/uploads/2020/05/14762.jpg" alt="14762.jpg" width="1477" height="1108" />２本あるので、上段のは穴を開けています。<img loading="lazy" class="alignnone size-full wp-image-5142" src="/wp-content/uploads/2020/05/14761.jpg" alt="14761.jpg" width="1477" height="1108" />ちなみに、こういうのがあると、便利に穴が開けられます。上段スロットの蓋をとりはずして穴あけておきました。とりあえずは、ここがベストかな。<img loading="lazy" class="alignnone size-full wp-image-5143" src="/wp-content/uploads/2020/05/3pc_hss_step_drill_bit_set_cone_hole_cutter_taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_drill_bits__-_aliexpress.png" alt="3pc_Hss_step_drill_bit_set_cone_hole_cutter_Taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_Drill_Bits__-_AliExpress.png" width="1029" height="530" /></p>
-<p>あとは、BIOSでEnabledになっているのを確認後、Win起動。<img loading="lazy" class="alignnone size-full wp-image-5148" src="/wp-content/uploads/2020/05/14759-1.jpg" alt="14759.jpg" width="1413" height="997" /><img loading="lazy" class="alignnone size-full wp-image-5147" src="/wp-content/uploads/2020/05/14760-1.jpg" alt="14760.jpg" width="1461" height="1032" />ドライバーがまだ入っていないので、BCM2045A0の不明なデバイスになっています。<img loading="lazy" class="alignnone size-full wp-image-5149" src="/wp-content/uploads/2020/05/2020-05-08__1__png_-_onedrive.png" alt="2020-05-08__1__png_-_OneDrive.png" width="889" height="568" /></p>
+<p><img class="alignnone size-full wp-image-5136" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14765.jpg" alt="14765.jpg" width="1076" height="807" />ちゃんと、技適のシールもあるようですね。<img class="alignnone size-full wp-image-5137" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14764.jpg" alt="14764.jpg" width="1217" height="913" />WiFiカードは、HDDマウンターの下にあります。<img class="alignnone size-full wp-image-5139" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14763.jpg" alt="14763.jpg" width="1477" height="1108" />こんな感じでアンテナを取り回してみました。アンテナコネクタが取り付けにくかったので、取り付けてからねじ止めしました。<img class="alignnone size-full wp-image-5141" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14762.jpg" alt="14762.jpg" width="1477" height="1108" />２本あるので、上段のは穴を開けています。<img class="alignnone size-full wp-image-5142" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14761.jpg" alt="14761.jpg" width="1477" height="1108" />ちなみに、こういうのがあると、便利に穴が開けられます。上段スロットの蓋をとりはずして穴あけておきました。とりあえずは、ここがベストかな。<img class="alignnone size-full wp-image-5143" src="https://hack.gpl.jp/wp-content/uploads/2020/05/3pc_hss_step_drill_bit_set_cone_hole_cutter_taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_drill_bits__-_aliexpress.png" alt="3pc_Hss_step_drill_bit_set_cone_hole_cutter_Taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_Drill_Bits__-_AliExpress.png" width="1029" height="530" /></p>
+<p>あとは、BIOSでEnabledになっているのを確認後、Win起動。<img class="alignnone size-full wp-image-5148" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14759-1.jpg" alt="14759.jpg" width="1413" height="997" /><img class="alignnone size-full wp-image-5147" src="https://hack.gpl.jp/wp-content/uploads/2020/05/14760-1.jpg" alt="14760.jpg" width="1461" height="1032" />ドライバーがまだ入っていないので、BCM2045A0の不明なデバイスになっています。<img class="alignnone size-full wp-image-5149" src="https://hack.gpl.jp/wp-content/uploads/2020/05/2020-05-08__1__png_-_onedrive.png" alt="2020-05-08__1__png_-_OneDrive.png" width="889" height="568" /></p>
 <p>ドライバはこれで行けるようです。</p>
 <blockquote><p>Broadcom 4356 Bluetooth ドライバー (Windows 10 64bit) &#8211; ThinkPad L460<br />
 https://support.lenovo.com/jp/ja/downloads/ds111952</p></blockquote>
-<p><img loading="lazy" class=" size-full wp-image-5150 aligncenter" src="/wp-content/uploads/2020/05/2020-05-08__3__png_-_onedrive.png" alt="2020-05-08__3__png_-_OneDrive.png" width="427" height="568" /></p>
+<p><img class=" size-full wp-image-5150 aligncenter" src="https://hack.gpl.jp/wp-content/uploads/2020/05/2020-05-08__3__png_-_onedrive.png" alt="2020-05-08__3__png_-_OneDrive.png" width="427" height="568" /></p>
 <p>当初、懸念していたベンダーIDとかいじらなくても特に認識した感じです。Windows機として使う場合は、無線はやっぱり便利ですね。Bluetooth4.1 LEです。１６００円くらいで、WiFiとBluetoothがつけられるので、純正より安いですね。</p>
 <p>このマシン、将来的にはサーバ機になるんですが現在はフォートナイト専用マシンとして遊んでいます。画質は全部、低にしてだいたい50FPS くらいでますんでビギナーにはちょうどいい感じ。</p>
 ]]></content:encoded>
@@ -51,13 +51,13 @@ https://support.lenovo.com/jp/ja/downloads/ds111952</p></blockquote>
 			</item>
 		<item>
 		<title>ESP32（ESP-WROOM-32） のBluetoothライブラリーサンプルが来た模様</title>
-		<link>https://jh2.gpl.jp/3366.html</link>
+		<link>https://hack.gpl.jp/2017/02/27/esp32-%e3%81%aebluetooth%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab%e3%81%8c%e6%9d%a5%e3%81%9f%e6%a8%a1%e6%a7%98/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 26 Feb 2017 18:27:36 +0000</pubDate>
 				<category><![CDATA[Bluetooth]]></category>
 		<category><![CDATA[ESP32]]></category>
-		<guid isPermaLink="false">/?p=3366</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=3366</guid>
 							<description><![CDATA[定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ ESP32 の Bluetooth ライブラリは整備されていませんでした。EPS32 の最大の特徴である Bluetooth が整備されるまではもう少し様子見しようと思っていたのでした。</p>
 <p>しかし、時代はあっという間に流れます。特にこの IoT 分野は。Espressif もかなり力の入れようのようです。どうやら、３日ほど前に、Bluetoothのサンプルがつっこまれたようです。だれがメンテしているかは詳しくみていませんが、以下あたりにそれっぽいのがあります。</p>
@@ -79,7 +79,7 @@ https://support.lenovo.com/jp/ja/downloads/ds111952</p></blockquote>
 <p>&#160;</p>
 <p>ESP32 はアリエクでは高いので、５個くらいを送料無料で日本（スイッチサイエンスさんとか）から買うのが良さそうですね。１個７００円なので５個で３０００円以上送料無料。700円というは結構安い価格付けですね。</p>
 <p>アリエクで以下のをゲットして、くっつけるってのが良さそうですね。￥ 791 ESP32 が載ったものは2000円以上しますので。</p>
-<p><a href="https://www.aliexpress.com/w/wholesale-ESP32-Development-Board.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480" /></a>ということで、この開発ボードアダプターはポチっておきました。あと、スイッチサイエンスさんからモジュールを１つゲットしました。</p>
+<p><a href="https://www.aliexpress.com/w/wholesale-ESP32-Development-Board.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="https://hack.gpl.jp/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480" /></a>ということで、この開発ボードアダプターはポチっておきました。あと、スイッチサイエンスさんからモジュールを１つゲットしました。</p>
 <p>&#160;</p>
 <blockquote>
 <p><a title="https://www.switch-science.com/catalog/3156/" href="https://www.switch-science.com/catalog/3156/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.switch-science.com/catalog/3156/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>

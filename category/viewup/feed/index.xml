@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ViewUP &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 24 Dec 2018 23:17:23 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,20 +18,20 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>201812月の訪問者のご報告</title>
-		<link>https://jh2.gpl.jp/4887.html</link>
+		<link>https://hack.gpl.jp/2018/12/25/201912-Numberofvisits/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 24 Dec 2018 23:17:23 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">/?p=4887</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4887</guid>
 							<description><![CDATA[今年もあと少しですね。 こちらは、少し早くあと３日でお仕事は終了です。さて、恒例の訪問者の報告ですが、11月が訪問者は減っているようですが、12月は少し戻って来たようです。 少し更新をサボっていましたが、実はYouTub [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今年もあと少しですね。<br />
 こちらは、少し早くあと３日でお仕事は終了です。さて、恒例の訪問者の報告ですが、11月が訪問者は減っているようですが、12月は少し戻って来たようです。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-4888" src="/wp-content/uploads/2018/12/201812.png" alt="201812.png" width="1050" height="416" /></p>
+<p><img class="alignnone size-full wp-image-4888" src="https://hack.gpl.jp/wp-content/uploads/2018/12/201812.png" alt="201812.png" width="1050" height="416" /></p>
 <p>少し更新をサボっていましたが、実はYouTube に動画を流していこうかと、あれこれその下準備などをしていました。まだ慣れていないのでビデオブログの手順がわからないですが、そういうわからない部分も含めて、紹介していこうかなと思います。</p>
 <p>というわけで、2019年は YouTube を主体にブログを出していこうかと思っています。でも、ブログはやめませんので、公開して行きますよ。</p>
 <p>さて、あと一仕事がんばりますか。</p>
@@ -42,15 +42,15 @@
 			</item>
 		<item>
 		<title>10月は横ばいの訪問者でした</title>
-		<link>https://jh2.gpl.jp/4724.html</link>
+		<link>https://hack.gpl.jp/2018/11/01/OctoberVisitor/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 31 Oct 2018 23:03:31 +0000</pubDate>
 				<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">/?p=4724</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4724</guid>
 							<description><![CDATA[約、半年は更新をサボってしまったのでまた平均値に戻ったようです。なかなか継続してブログを書くってのもそこそこ難しいですね。 東京基地には、３Dプリンターや工作する工具なんかも限られているので、とりあえず３Dプリンターや電 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>約、半年は更新をサボってしまったのでまた平均値に戻ったようです。なかなか継続してブログを書くってのもそこそこ難しいですね。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-4725" src="/wp-content/uploads/2018/11/e7b5b1e8a888e68385e5a0b1_e280b9_junkhack_e28094_wordpress_com.png" alt="統計情報_‹_junkhack_—_WordPress_com.png" width="897" height="418" /></p>
+<p><img class="alignnone size-full wp-image-4725" src="https://hack.gpl.jp/wp-content/uploads/2018/11/e7b5b1e8a888e68385e5a0b1_e280b9_junkhack_e28094_wordpress_com.png" alt="統計情報_‹_junkhack_—_WordPress_com.png" width="897" height="418" /></p>
 <p>東京基地には、３Dプリンターや工作する工具なんかも限られているので、とりあえず３Dプリンターや電子基板作りなどを再開してみうかなとも思っています。ちょっと工作ネタから離れるとまた作りたくなりますね。</p>
 <p>ということで、なかなかこの１万人プロジェクトも完了しませんが、あと７０００人の固定ユーザーにコンスタントに見てもらえるよう工作していこうかと。</p>
 <p>&nbsp;</p>
@@ -61,25 +61,25 @@
 			</item>
 		<item>
 		<title>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</title>
-		<link>https://jh2.gpl.jp/4632.html</link>
+		<link>https://hack.gpl.jp/2018/10/17/20181017/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 16 Oct 2018 17:50:31 +0000</pubDate>
 				<category><![CDATA[ViewUP]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[wordpress.com]]></category>
-		<guid isPermaLink="false">/?p=4632</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4632</guid>
 							<description><![CDATA[この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。 さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。 やっぱりブログに愛着がわくかどうかって、ま [&#8230;]]]></description>
 										<content:encoded><![CDATA[</p>
 <p>この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。</p>
-<p><img loading="lazy" title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
+<p><img title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="https://hack.gpl.jp/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
 <p>さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。</p>
 <p>やっぱりブログに愛着がわくかどうかって、まず独自ドメインにすることかなって思いまず最初の１っ歩目を踏み出しました。</p>
 <p>&nbsp;</p>
 <p>まず、ドメインは前回決めていた以下に。URLは、以下のドメインにリダイレクトしていると思います。SSLアクセスも可能なんですね。ここはちょっと意外でした。</p>
 <p>&nbsp;</p>
 <blockquote>
-<p>www.gpl.jp</p>
+<p>hack.gpl.jp</p>
 </blockquote>
 <p>&nbsp;</p>
 <p>何を半年も迷っていたのかというと、土台のサーバ部分です。</p>
@@ -89,7 +89,7 @@
 <p>&nbsp;</p>
 <p>しかし、仕事でさんざんサーバ回りをいじっているし趣味の世界はネタに没頭したいって思いのほうが強くなりました。やっぱり、心配ごとは少ないほうがいいです。なので、WordPress.com のビジネスプランまで視野に入れて、まずはパーソナルで契約することに。</p>
 <p><a title="https://ja.wordpress.com/pricing/" href="https://ja.wordpress.com/pricing/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.com/pricing/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img loading="lazy" title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
+<p><img title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="https://hack.gpl.jp/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
 <p>&nbsp;</p>
 <p>パーソナルでも、ドメインをマッピングすることは可能です。オンラインチャットでもいろいろ気になることをきいておきました。</p>
 <p>&nbsp;</p>
@@ -104,7 +104,7 @@
 <p>ということで、パーソナルプランから初めてみました。ここでの恩恵は、ドメインをマッピングできることと、広告が消えることです。グーグルのアナリティクスや、独自のテーマやプラグインなどは入れられないので、あくまで通過点のつもりです。</p>
 <p>月400円なんで、低価格のレンサバ並みです。この時点ではまだ、WordPress.com の優位性はあまりないのかなという印象です。しかし、独自ドメインでSSLアクセスになること(これは想定外でした)</p>
 <p>も加味すると、これもありかなと思えます。ドメインマッピングは年間1600円でも可能なようです。ドメインを保有して、他のレジストラで管理している場合はこれもとりあえずはありかもしれません。</p>
-<p><img loading="lazy" title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
+<p><img title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="https://hack.gpl.jp/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
 <p>今後は、少し頻度を上げて記事を書いていければなーと思っています。</p>
 <p>次回は、WordPress の有料プランについて何かレポートしようかな。いつも、ここらあたりの下に広告が出ていたんですが消えましたね！広告がないとやっぱりいいですね。</p>
 <p>では、また！</p>
@@ -115,16 +115,16 @@
 			</item>
 		<item>
 		<title>4月は2700人のお客様が遊びに来てくれました！</title>
-		<link>https://jh2.gpl.jp/4602.html</link>
+		<link>https://hack.gpl.jp/2018/05/04/4%e6%9c%88%e3%81%af2700%e4%ba%ba%e3%81%ae%e3%81%8a%e5%ae%a2%e6%a7%98%e3%81%8c%e9%81%8a%e3%81%b3%e3%81%ab%e6%9d%a5%e3%81%a6%e3%81%8f%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 May 2018 18:08:49 +0000</pubDate>
 				<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">/?p=4602</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4602</guid>
 							<description><![CDATA[月末恒例のアクセス数です。今月は、4件の記事しか公開できなかった影響か若干少なくなってしまいました。 やはり、ものの本にあるように公開記事数が多いとアクセス数が伸びる関係は絶対基本のようです。可能であれば週2は何か記事を [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>月末恒例のアクセス数です。今月は、4件の記事しか公開できなかった影響か若干少なくなってしまいました。</p>
-<p><img loading="lazy" title="junkhack" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack" src="/wp-content/uploads/2018/05/junkhack.png" width="640" height="277"> </p>
-<p><img loading="lazy" title="aaa" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="aaa" src="/wp-content/uploads/2018/05/aaa.png" width="640" height="189"> </p>
+<p><img title="junkhack" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack" src="https://hack.gpl.jp/wp-content/uploads/2018/05/junkhack.png" width="640" height="277"> </p>
+<p><img title="aaa" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="aaa" src="https://hack.gpl.jp/wp-content/uploads/2018/05/aaa.png" width="640" height="189"> </p>
 <p>やはり、ものの本にあるように公開記事数が多いとアクセス数が伸びる関係は絶対基本のようです。可能であれば週2は何か記事を公開して月に8本のネタを公開するライフワークにしないとこれ以上の伸びは見込めないようです。</p>
 <p>5月はなんとか週2でネタを書いていこうかなと思います。月～金は調査項目的なライトな記事を１つ書いて、土日のどっちかに少し重めのネタを書くという感じでしょうか。まぁ、とにかく週2でネタを公開していくという習慣を作っていこうと思います。</p>
 ]]></content:encoded>
@@ -134,21 +134,21 @@
 			</item>
 		<item>
 		<title>3月末日、約2900人のお客様が遊びに来てくれました。</title>
-		<link>https://jh2.gpl.jp/4563.html</link>
+		<link>https://hack.gpl.jp/2018/04/13/3%e6%9c%88%e6%9c%ab%e6%97%a5%e3%80%81%e7%b4%842900%e4%ba%ba%e3%81%ae%e3%81%8a%e5%ae%a2%e6%a7%98%e3%81%8c%e9%81%8a%e3%81%b3%e3%81%ab%e6%9d%a5%e3%81%a6%e3%81%8f%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 13 Apr 2018 12:15:05 +0000</pubDate>
 				<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">/?p=4563</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4563</guid>
 							<description><![CDATA[3月はベトナムに2週間ほど遊びに行ってきたのであまりブログは書けませんでしたが、無事右肩上がりですこしづつではありますが、ユニークユーザも増えているようです。みなさん、ありがとうございます。 現在、約2900人くらいのユ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>3月はベトナムに2週間ほど遊びに行ってきたのであまりブログは書けませんでしたが、無事右肩上がりですこしづつではありますが、ユニークユーザも増えているようです。みなさん、ありがとうございます。</p>
-<p><img loading="lazy" title="201803" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201803" src="/wp-content/uploads/2018/04/201803.png" width="640" height="259" /> </p>
+<p><img title="201803" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201803" src="https://hack.gpl.jp/wp-content/uploads/2018/04/201803.png" width="640" height="259" /> </p>
 <p>現在、約2900人くらいのユーザが1ヶ月に見に来ていただいているようですので、あと３倍くらいになれば1万人の読者企画も達成できそうです。伸び率が1ヶ月に、３００人くらいなので、まだ１，２年はかかるのかもしれませんがマイペースでファンが増えてくれればなと。</p>
-<p><img loading="lazy" title="junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_—_WordPress_com" src="/wp-content/uploads/2018/04/junkhack__wordpress_com.png" width="431" height="437" /> </p>
+<p><img title="junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_—_WordPress_com" src="https://hack.gpl.jp/wp-content/uploads/2018/04/junkhack__wordpress_com.png" width="431" height="437" /> </p>
 <p>ベトナム、また行きたいですね。ちょっと今度旅行記みたいなものを書いてみようかな。旅行記は何かと需要がありますからね。うまく魅力的な旅行記が書ければお客様も少しは増えるかもです。</p>
-<p><img loading="lazy" title="IMG_20180320_101809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180320_101809" src="/wp-content/uploads/2018/04/img_20180320_101809.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20180320_101809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180320_101809" src="https://hack.gpl.jp/wp-content/uploads/2018/04/img_20180320_101809.jpg" width="640" height="480" /> </p>
 <p>sao ビーチという所は、本当に海や浜が綺麗でした。またベトナム行きたいな～</p>
-<p><img loading="lazy" title="Screenshot_2018-03-20-15-38-22" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-20-15-38-22" src="/wp-content/uploads/2018/04/screenshot_20180320153822.jpg" width="640" height="1136" /> </p>
+<p><img title="Screenshot_2018-03-20-15-38-22" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-20-15-38-22" src="https://hack.gpl.jp/wp-content/uploads/2018/04/screenshot_20180320153822.jpg" width="640" height="1136" /> </p>
 <p> あと、やっぱり、連続企画モノのネタが人気のようで、特に9999円以下で３Dプリンターを作るプロジェクトのアクセス数が一番多いです。この企画は早めに再開しないとですね。</p>
 </p>
 <p>&#160;</p>

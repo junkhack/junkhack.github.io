@@ -10,7 +10,7 @@
 
 <channel>
 	<title>beos &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 04 Feb 2011 10:08:01 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>PowerPC HaikuOS をiMacG4で試す</title>
-		<link>https://jh2.gpl.jp/41.html</link>
+		<link>https://hack.gpl.jp/2011/02/04/powerpc-haikuos-%e3%82%92imacg4%e3%81%a7%e8%a9%a6%e3%81%99/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Feb 2011 10:08:01 +0000</pubDate>
@@ -29,20 +29,20 @@
 		<category><![CDATA[beos]]></category>
 		<category><![CDATA[haiku]]></category>
 		<category><![CDATA[imacg4]]></category>
-		<guid isPermaLink="false">/2011/02/04/powerpc-haikuos-%e3%82%92imacg4%e3%81%a7%e8%a9%a6%e3%81%99/</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/2011/02/04/powerpc-haikuos-%e3%82%92imacg4%e3%81%a7%e8%a9%a6%e3%81%99/</guid>
 							<description><![CDATA[知る人はBeOSが動きそうなら、やっぱり試したくなるでしょうよ。 PPC用のHaikuを前回記事で見つけたのでちこっと試してみましたyo。 リビジョン40136でがんばってみた。boot-cdはISOファイルでCDに焼き [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>知る人はBeOSが動きそうなら、やっぱり試したくなるでしょうよ。 PPC用のHaikuを前回記事で見つけたのでちこっと試してみましたyo。    </p>
 </p>
-<p> <img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image.png" width="498" height="289" />   </p>
+<p> <img style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://hack.gpl.jp/wp-content/uploads/2011/02/image.png" width="498" height="289" />   </p>
 <p>リビジョン40136でがんばってみた。boot-cdはISOファイルでCDに焼き、imageはDDでUSBに書き込み。iMacのUSBポートとCDトレイに乗せて起動。    </p>
-<p>最初、Cキー押してCD-ROMから起動するのかと思いきや、しないので、OpenFirmwareを起動させる。<strong>command</strong>+<strong>option</strong>+<strong>o</strong>+<strong>f</strong> のキーを押し続けるとこんな画面が。     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8443" border="0" alt="IMGP8443" src="/wp-content/uploads/2011/02/imgp8443.jpg" width="498" height="338" />     </p>
-<p>で、こんな感じでコマンドをタイプ。リターン。     <br />boot cd:,\ppc\boot_loader_openfirmware     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8444" border="0" alt="IMGP8444" src="/wp-content/uploads/2011/02/imgp8444.jpg" width="498" height="338" />     </p>
-<p>ずらずらと、流れる。動いて～     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8446" border="0" alt="IMGP8446" src="/wp-content/uploads/2011/02/imgp8446.jpg" width="498" height="338" />     <br />お、いい感じじゃん。いけいけ～     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8447" border="0" alt="IMGP8447" src="/wp-content/uploads/2011/02/imgp8447.jpg" width="498" height="338" />     <br />USBのHaikuボリュームを選択して、</p>
+<p>最初、Cキー押してCD-ROMから起動するのかと思いきや、しないので、OpenFirmwareを起動させる。<strong>command</strong>+<strong>option</strong>+<strong>o</strong>+<strong>f</strong> のキーを押し続けるとこんな画面が。     <br /><img style="display:inline;border-width:0;" title="IMGP8443" border="0" alt="IMGP8443" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8443.jpg" width="498" height="338" />     </p>
+<p>で、こんな感じでコマンドをタイプ。リターン。     <br />boot cd:,\ppc\boot_loader_openfirmware     <br /><img style="display:inline;border-width:0;" title="IMGP8444" border="0" alt="IMGP8444" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8444.jpg" width="498" height="338" />     </p>
+<p>ずらずらと、流れる。動いて～     <br /><img style="display:inline;border-width:0;" title="IMGP8446" border="0" alt="IMGP8446" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8446.jpg" width="498" height="338" />     <br />お、いい感じじゃん。いけいけ～     <br /><img style="display:inline;border-width:0;" title="IMGP8447" border="0" alt="IMGP8447" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8447.jpg" width="498" height="338" />     <br />USBのHaikuボリュームを選択して、</p>
 </p>
 </p>
-<p><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8449" border="0" alt="IMGP8449" src="/wp-content/uploads/2011/02/imgp8449.jpg" width="498" height="338" />     </p>
+<p><img style="display:inline;border-width:0;" title="IMGP8449" border="0" alt="IMGP8449" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8449.jpg" width="498" height="338" />     </p>
 <p>起動せよ！</p>
-<p><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8451" border="0" alt="IMGP8451" src="/wp-content/uploads/2011/02/imgp8451.jpg" width="498" height="338" />     <br />くるのか～？     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8452" border="0" alt="IMGP8452" src="/wp-content/uploads/2011/02/imgp8452.jpg" width="498" height="338" />     </p>
+<p><img style="display:inline;border-width:0;" title="IMGP8451" border="0" alt="IMGP8451" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8451.jpg" width="498" height="338" />     <br />くるのか～？     <br /><img style="display:inline;border-width:0;" title="IMGP8452" border="0" alt="IMGP8452" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8452.jpg" width="498" height="338" />     </p>
 <p>・</p>
 <p>・</p>
 <p>・</p>
@@ -63,10 +63,10 @@
 <p>&#160;</p>
 <p>&#160;</p>
 </p>
-<p><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8453" border="0" alt="IMGP8453" src="/wp-content/uploads/2011/02/imgp8453.jpg" width="498" height="338" /> </p>
-<p>&#160;<a href="/wp-content/uploads/2011/02/imgp84551.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8455" border="0" alt="IMGP8455" src="/wp-content/uploads/2011/02/imgp8455_thumb.jpg" width="498" height="338" /></a> </p>
+<p><img style="display:inline;border-width:0;" title="IMGP8453" border="0" alt="IMGP8453" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8453.jpg" width="498" height="338" /> </p>
+<p>&#160;<a href="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp84551.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8455" border="0" alt="IMGP8455" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8455_thumb.jpg" width="498" height="338" /></a> </p>
 <p>PANICですか、、、、arch_int_init_post_device_manager():Found no supported PIC!</p>
-<p>一筋縄ではいかないようで。    <br />3個目のアイコンまではいくようですが、     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8441" border="0" alt="IMGP8441" src="/wp-content/uploads/2011/02/imgp8441.jpg" width="498" height="338" />&#160; <br />リビジョンを落として試すとか、また今度やってみよう。AirMacカードが入ってるからとか関係あるのかな？</p>
+<p>一筋縄ではいかないようで。    <br />3個目のアイコンまではいくようですが、     <br /><img style="display:inline;border-width:0;" title="IMGP8441" border="0" alt="IMGP8441" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8441.jpg" width="498" height="338" />&#160; <br />リビジョンを落として試すとか、また今度やってみよう。AirMacカードが入ってるからとか関係あるのかな？</p>
 <p>動けば、さくさくなHaikuなはずだから、気を長くしてまた再挑戦してみたいですね。</p>
 ]]></content:encoded>
 					
@@ -75,7 +75,7 @@
 			</item>
 		<item>
 		<title>覚書　PowerPC HaikuOS</title>
-		<link>https://jh2.gpl.jp/26.html</link>
+		<link>https://hack.gpl.jp/2011/02/04/%e8%a6%9a%e6%9b%b8%e3%80%80powerpc-haikuos/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Feb 2011 03:40:58 +0000</pubDate>
@@ -83,7 +83,7 @@
 		<category><![CDATA[beos]]></category>
 		<category><![CDATA[haiku]]></category>
 		<category><![CDATA[memo]]></category>
-		<guid isPermaLink="false">/2011/02/04/%e8%a6%9a%e6%9b%b8%e3%80%80powerpc-haikuos/</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/2011/02/04/%e8%a6%9a%e6%9b%b8%e3%80%80powerpc-haikuos/</guid>
 							<description><![CDATA[http://haiku-files.org/ppc/index.php?show=all]]></description>
 										<content:encoded><![CDATA[<p><img border="0" alt="Haiku" src="http://haiku-files.org/images/haiku-logo.png" />   </p>
 <p><a href="http://haiku-files.org/ppc/index.php?show=all" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://haiku-files.org/ppc/index.php?show=all<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>

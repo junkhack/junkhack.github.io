@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Muller Dynamo generator &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 21 Jul 2011 07:45:59 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,17 +18,17 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>移動手段を考える</title>
-		<link>https://jh2.gpl.jp/243.html</link>
+		<link>https://hack.gpl.jp/2011/07/21/%e7%a7%bb%e5%8b%95%e6%89%8b%e6%ae%b5%e3%82%92%e8%80%83%e3%81%88%e3%82%8b/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 07:45:59 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Lidmotor]]></category>
 		<category><![CDATA[Muller Dynamo generator]]></category>
-		<guid isPermaLink="false">/2011/07/21/%e7%a7%bb%e5%8b%95%e6%89%8b%e6%ae%b5%e3%82%92%e8%80%83%e3%81%88%e3%82%8b/</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/2011/07/21/%e7%a7%bb%e5%8b%95%e6%89%8b%e6%ae%b5%e3%82%92%e8%80%83%e3%81%88%e3%82%8b/</guid>
 							<description><![CDATA[あれこれと、ジャンクあさりをやっていたらBlogをほうけてしまった。 特に、モータ関係に興味が出て、あれこれと検証していたんだけども、中でも興味深かったのは、 Muller Dynamo generator これが面白か [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>あれこれと、ジャンクあさりをやっていたらBlogをほうけてしまった。</p>
 <p>特に、モータ関係に興味が出て、あれこれと検証していたんだけども、中でも興味深かったのは、</p>

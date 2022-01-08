@@ -10,7 +10,7 @@
 
 <channel>
 	<title>TI &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 18 Jun 2016 07:34:54 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,25 +18,25 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>ロード・スイッチ　TPS22942DCKR</title>
-		<link>https://jh2.gpl.jp/2286.html</link>
+		<link>https://hack.gpl.jp/2016/06/18/%e3%83%ad%e3%83%bc%e3%83%89%e3%83%bb%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%80%80tps22942dckr/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2016 07:34:54 +0000</pubDate>
 				<category><![CDATA[Parts]]></category>
 		<category><![CDATA[TI]]></category>
-		<guid isPermaLink="false">/?p=2286</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2286</guid>
 							<description><![CDATA[TIさんより、TPS22942DCKR のロードスイッチのサンプルを入手。 仕様：http://www.ti.com/lit/ds/symlink/tps22942.pdf WEB: http://www.tij.co./ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>TIさんより、TPS22942DCKR のロードスイッチのサンプルを入手。</p>
 <p>仕様：<a title="http://www.ti.com/lit/ds/symlink/tps22942.pdf" href="http://www.ti.com/lit/ds/symlink/tps22942.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.ti.com/lit/ds/symlink/tps22942.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>WEB: <a title="http://www.tij.co.jp/product/jp/TPS22942/description" href="http://www.tij.co.jp/product/jp/TPS22942/description" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.tij.co.jp/product/jp/TPS22942/description<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img loading="lazy" title="S20160618_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_001.jpg" width="640" height="480" /> </p>
+<p><img title="S20160618_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_001" src="https://hack.gpl.jp/wp-content/uploads/2016/06/s20160618_001.jpg" width="640" height="480" /> </p>
 <p>5Pin のタイプです。パッケージは、SC-70</p>
-<p><img loading="lazy" title="S20160618_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_003" src="/wp-content/uploads/2016/06/s20160618_003.jpg" width="640" height="480" /> </p>
+<p><img title="S20160618_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_003" src="https://hack.gpl.jp/wp-content/uploads/2016/06/s20160618_003.jpg" width="640" height="480" /> </p>
 <p>&#160;</p>
-<p><a href="/wp-content/uploads/2016/06/sc705.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="sc-70-5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="sc-70-5" src="/wp-content/uploads/2016/06/sc705_thumb.png" width="452" height="480" /></a> </p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2016/06/sc705.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="sc-70-5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="sc-70-5" src="https://hack.gpl.jp/wp-content/uploads/2016/06/sc705_thumb.png" width="452" height="480" /></a> </p>
 <p>次の電子工作で使う予定。</p>
 ]]></content:encoded>
 					

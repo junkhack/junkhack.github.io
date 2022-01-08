@@ -10,7 +10,7 @@
 
 <channel>
 	<title>gearbest &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 02 Mar 2018 22:45:12 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,40 +18,40 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>12.5インチの軽い中華ノートPC Onda Xiaoma 21 レビュー！</title>
-		<link>https://jh2.gpl.jp/4486.html</link>
+		<link>https://hack.gpl.jp/2018/03/03/12-5%e3%82%a4%e3%83%b3%e3%83%81%e3%81%ae%e8%bb%bd%e3%81%84%e4%b8%ad%e8%8f%af%e3%83%8e%e3%83%bc%e3%83%88pc-onda-xiaoma-21-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%ef%bc%81/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 02 Mar 2018 22:45:12 +0000</pubDate>
 				<category><![CDATA[gearbest]]></category>
 		<category><![CDATA[geekbying]]></category>
 		<category><![CDATA[Onda Xiaoma 21]]></category>
-		<guid isPermaLink="false">/?p=4486</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4486</guid>
 							<description><![CDATA[2月の中国の旧正月明けに買ったので、少し到着が遅れましたが無事に2月末日に日本に到着。佐川急便で2日後につきました。 なかなかコンパクトなノートPCで、Onda というメーカーが作っています。 製品名は、Xiaoma21 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>2月の中国の旧正月明けに買ったので、少し到着が遅れましたが無事に2月末日に日本に到着。佐川急便で2日後につきました。</p>
 <p>なかなかコンパクトなノートPCで、Onda というメーカーが作っています。</p>
 <p>製品名は、Xiaoma21という型番です。xiaomi（シャオミ）じゃありませんよ。シャオマという製品名です。中国語では、小马21 です。意味は、子馬です。そうこのシャオマシリーズは、そのあとに続く数字が21 と 31 と 41 のほか、11 というシリーズもあり、それぞれ、画面サイズが11.6インチから14インチまであって、今回買ったのはその中でもクラムシェル型のキーボード一体式のもので一番軽いものです。</p>
-<p><img loading="lazy" title="xm21192005_jpg__1920708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xm21192005_jpg__1920708_" src="/wp-content/uploads/2018/03/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
+<p><img title="xm21192005_jpg__1920708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xm21192005_jpg__1920708_" src="https://hack.gpl.jp/wp-content/uploads/2018/03/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
 <p>この製品、Onada の Xiaoma21というのは重量 1.08kg で 12.5インチの軽量タイプのノートPCです。価格もこなれていて、3.3万（送料込み）で買えます。で、一般的なレビューはすっとばして、さっそく、512MB の m.2 SSDをくっ付けて OS を SSD ブートしてみました。</p>
-<p><img loading="lazy" title="IMG_20180303_032351" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032351" src="/wp-content/uploads/2018/03/img_20180303_032351.jpg" width="640" height="480" /> </p>
-<p>なにやら、警告文字がありますが気にせず装着。電源切って装着せよということですね。<img loading="lazy" title="IMG_20180303_032403" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032403" src="/wp-content/uploads/2018/03/img_20180303_032403.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20180303_032351" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032351" src="https://hack.gpl.jp/wp-content/uploads/2018/03/img_20180303_032351.jpg" width="640" height="480" /> </p>
+<p>なにやら、警告文字がありますが気にせず装着。電源切って装着せよということですね。<img title="IMG_20180303_032403" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032403" src="https://hack.gpl.jp/wp-content/uploads/2018/03/img_20180303_032403.jpg" width="640" height="480" /> </p>
 <p>で、OS 部分を SSD に移動してとりあえずブート。ベンチマーク。</p>
 <p>&#160;</p>
-<p><img loading="lazy" title="ONDA_Xiaoma21 8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 8" src="/wp-content/uploads/2018/03/onda_xiaoma218.png" width="640" height="465" /> </p>
+<p><img title="ONDA_Xiaoma21 8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 8" src="https://hack.gpl.jp/wp-content/uploads/2018/03/onda_xiaoma218.png" width="640" height="465" /> </p>
 <p>きましたー！ リード、ライトとも500MB 超え。速いですね。やはり、M.2 の SSD はこうでなくちゃいけません。今回ゲットした SSD は kingspec の 512MB で1.3万円です。安くなりましたね。NT-512 という表示のものがそれです。</p>
 <p>ちなみに、eMMC は Toshiba チップで、ベンチマークは以下です。まだ、移行前に eMMC から OS が起動しているときに計測したものです。なかなか速いですね。</p>
-<p><img loading="lazy" title="ONDA_Xiaoma21 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 6" src="/wp-content/uploads/2018/03/onda_xiaoma216.png" width="400" height="367" /> </p>
+<p><img title="ONDA_Xiaoma21 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 6" src="https://hack.gpl.jp/wp-content/uploads/2018/03/onda_xiaoma216.png" width="400" height="367" /> </p>
 <p>この機種は小さいながらも、Windows Hello に対応した指紋認証デバイスがついています。これ、思いのほか便利です。スマホにも最近のはついていて便利に使っていますが、これは使ってみるとありがたい機能です。</p>
-<p><img loading="lazy" title="IMG_20180303_032734" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032734" src="/wp-content/uploads/2018/03/img_20180303_032734.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20180303_032734" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032734" src="https://hack.gpl.jp/wp-content/uploads/2018/03/img_20180303_032734.jpg" width="640" height="480" /> </p>
 <p>キーボードは癖がない英語キーボード。バックスペースの上もDELETEキーで、中華ノート全般にある電源ボタンはバックスペースの上にはなく、離れていますので間違えて押すことはないです。筐体はアルミでしっかりできていますのでキーボード部分がたわむことはありません。キーボード自体の質感は mac の感じとは違って少しカチャカチャいうタイプです。個人的には、かな表示がない英語キーボードは昔から使っていますので非常に好みです。</p>
-<p><img loading="lazy" title="IMG_20180303_032645" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032645" src="/wp-content/uploads/2018/03/img_20180303_032645.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20180303_032645" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032645" src="https://hack.gpl.jp/wp-content/uploads/2018/03/img_20180303_032645.jpg" width="640" height="480" /> </p>
 </p>
 </p>
 </p>
 <p>ディスプレイもグレア（非光沢）で、パネルはIPSとなり非常に綺麗です。筐体色はゴールドで、ぎらついた感じではなく好感が持てるゴールドとなります。シルバー色ばっかりでしたので、逆に新鮮ですね。</p>
-<p><img loading="lazy" title="IMG_20180303_032657" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032657" src="/wp-content/uploads/2018/03/img_20180303_032657.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20180303_032657" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032657" src="https://hack.gpl.jp/wp-content/uploads/2018/03/img_20180303_032657.jpg" width="640" height="480" /> </p>
 <p>バッテリーテストも兼ねて、充電100% になったので実稼動テストをしています。8時間くらい持つといいかなと思いますがさてどうでしょうか。評判どおり、キーボードのシフトキーのタイプ音は少しカチャカチャ音が大きく、そこは評判どおりでした。</p>
 ]]></content:encoded>
 					
@@ -60,7 +60,7 @@
 			</item>
 		<item>
 		<title>YEPO 737A に Win10home をクリーンインストールした</title>
-		<link>https://jh2.gpl.jp/4426.html</link>
+		<link>https://hack.gpl.jp/2018/02/19/yepo737awin10install/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 19 Feb 2018 05:07:32 +0000</pubDate>
@@ -69,7 +69,7 @@
 		<category><![CDATA[geekbying]]></category>
 		<category><![CDATA[Win10]]></category>
 		<category><![CDATA[YEPO737A]]></category>
-		<guid isPermaLink="false">/?p=4426</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4426</guid>
 							<description><![CDATA[先日、YEPO737A を売ってしまおうとブログに記載したところ早速お声がかかりました。 Windows10home 日本語版をクリーンインストールしましたので、その方法を備忘録がてら書いておくことにします。他の中華PC [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>先日、YEPO737A を売ってしまおうとブログに記載したところ早速お声がかかりました。</p>
 <p>Windows10home 日本語版をクリーンインストールしましたので、その方法を備忘録がてら書いておくことにします。他の中華PCでも似たような手順で出来ると思います。</p>
@@ -90,10 +90,10 @@
 <h3>■必要なファイルをバックアップ</h3>
 <p>eMMC の 64GB の起動ディスクは全部フォーマットしてクリーンインストールしますので全部消えます。必要なファイルはバックアップしておくようにします。</p>
 <p>一応、ライセンス認証を通しておきプロダクトIDはメモしておきます。以下の画面をコピーしておきます。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="1" src="/wp-content/uploads/2018/02/1.png" alt="1" width="640" height="332" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="1" src="https://hack.gpl.jp/wp-content/uploads/2018/02/1.png" alt="1" width="640" height="332" border="0" /></p>
 <h3>■Windows10 の ISO を MicroSoft からダウンロード</h3>
 <p>別PCから、マイクロソフト社のサイトに行って Windows10 の ISO をダウンロードしておきます。</p>
-<p><a href="https://www.microsoft.com/ja-jp/software-download/windows10ISO" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="win10iso" src="/wp-content/uploads/2018/02/win10iso.png" alt="win10iso" width="403" height="480" border="0" /></a></p>
+<p><a href="https://www.microsoft.com/ja-jp/software-download/windows10ISO" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="win10iso" src="https://hack.gpl.jp/wp-content/uploads/2018/02/win10iso.png" alt="win10iso" width="403" height="480" border="0" /></a></p>
 <p>&nbsp;</p>
 <h3>■現在のドライバーを一括バックアップ</h3>
 <p><a href="https://forest.watch.impress.co.jp/library/software/doubledriver/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Double Driver<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というツールで、ドライバーをバックアップ。バックアップし忘れちゃった人は、以下からダウンロード</p>
@@ -107,10 +107,10 @@
 <h3>■Windows10 の ISO を USBブートさせる</h3>
 <p>マイクロソフトのサイトからダウンロードした ISO を USB ブートさせるため、<a href="https://forest.watch.impress.co.jp/library/software/rufus/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Rufus<span class="wpel-icon wpel-image wpel-icon-1"></span></a> を使って作成します。</p>
 <p>マイクロソフトが提供している標準のツール（MediaCreationTool.exe）でも可能ですが処理が遅いのとダウンロード済みのISOから作成する方法が不明だったので、Rufus を使いました。以下のような感じです。８GBくらいのUSBに作成しました。４GBのUSBがあればいけそうです。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="無題 2" src="/wp-content/uploads/2018/02/2.png" alt="無題 2" width="581" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="無題 2" src="https://hack.gpl.jp/wp-content/uploads/2018/02/2.png" alt="無題 2" width="581" height="480" border="0" /></p>
 <p>■回復ドライブを後方に作成するバッチ</p>
 <p>以上で、USBドライブから起動させインストールが可能なんですが、パーティションを全部消して、新規インストールすると回復パーティションが先頭に来てしまいます。これでも動きますが、あとで消したいときに後方にあったほうが空きが増やせますので、パーティションをバッチで作成します。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="winsetup1" src="/wp-content/uploads/2018/02/winsetup1.png" alt="winsetup1" width="640" height="463" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="winsetup1" src="https://hack.gpl.jp/wp-content/uploads/2018/02/winsetup1.png" alt="winsetup1" width="640" height="463" border="0" /></p>
 <p>以下のサイトに習って、パーティション作成バッチをUSBの中に入れておきます。</p>
 <blockquote><p>Solomonレビュー<br />
 Windows 10をクリーンインストールする前にひと工夫、回復パーティションの増殖を防ぐ方法(更新)<br />
@@ -119,24 +119,24 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 <p>&nbsp;</p>
 <p>■USBブートさせるためBIOS起動</p>
 <p>さて、やっとUSBを YEPO737A に挿して起動します。BIOS画面はDELキーを押すと入れます。BIOSに入ったら、一番右のメニュー「Save &amp; Exit 」まで進み、以下のような Boot Override 項目の下に出ているUSBドライブを選択します。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="写真_-_Google_フォト" src="/wp-content/uploads/2018/02/google_.png" alt="写真_-_Google_フォト" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="写真_-_Google_フォト" src="https://hack.gpl.jp/wp-content/uploads/2018/02/google_.png" alt="写真_-_Google_フォト" width="640" height="480" border="0" /></p>
 <p>選択すると、USBから起動します。</p>
 <p>一旦、「UEFI: Built-in EFI Shell 」に入り、そこから、USB起動の操作をしても構いません。その場合、EFI Shell から次のようにコマンドをタイプして起動できます。</p>
 <blockquote><p>Shell&gt; fs3:</p>
 <p>fs3:&gt; efi\boot\bootx64.efi</p></blockquote>
 <p>ちなみに、microSDカードをSDカードスロットに入れてみたら efi shell からデバイスが認識できませんでした。何か方法はあるとは思うのですが、とりあえずは、USB を USB3.0 に挿して認識するはずです。</p>
 <p>初回のブート時は、パーティションをバッチで作るため、以下のようにします。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160025" src="/wp-content/uploads/2018/02/img_20180219_160025.jpg" alt="IMG_20180219_160025" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160025" src="https://hack.gpl.jp/wp-content/uploads/2018/02/img_20180219_160025.jpg" alt="IMG_20180219_160025" width="640" height="480" border="0" /></p>
 <p>コンピューターを修復する を選択</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160054" src="/wp-content/uploads/2018/02/img_20180219_160054.jpg" alt="IMG_20180219_160054" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160054" src="https://hack.gpl.jp/wp-content/uploads/2018/02/img_20180219_160054.jpg" alt="IMG_20180219_160054" width="640" height="480" border="0" /></p>
 <p>トラブルシューティングを選択</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160107" src="/wp-content/uploads/2018/02/img_20180219_160107.jpg" alt="IMG_20180219_160107" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160107" src="https://hack.gpl.jp/wp-content/uploads/2018/02/img_20180219_160107.jpg" alt="IMG_20180219_160107" width="640" height="480" border="0" /></p>
 <p>コマンドプロンプトを選択</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160203" src="/wp-content/uploads/2018/02/img_20180219_160203.jpg" alt="IMG_20180219_160203" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160203" src="https://hack.gpl.jp/wp-content/uploads/2018/02/img_20180219_160203.jpg" alt="IMG_20180219_160203" width="640" height="480" border="0" /></p>
 <p>d: 直下が USB のようでした。Make-Partition.bat をタイプして実行します。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_205747" src="/wp-content/uploads/2018/02/img_20180218_205747.jpg" alt="IMG_20180218_205747" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_205747" src="https://hack.gpl.jp/wp-content/uploads/2018/02/img_20180218_205747.jpg" alt="IMG_20180218_205747" width="640" height="480" border="0" /></p>
 <p>exit で抜けてリブートし、2回目のUSBブートでは通常通りWindowsのインストールへ進みます。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_210117" src="/wp-content/uploads/2018/02/img_20180218_210117.jpg" alt="IMG_20180218_210117" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_210117" src="https://hack.gpl.jp/wp-content/uploads/2018/02/img_20180218_210117.jpg" alt="IMG_20180218_210117" width="640" height="480" border="0" /></p>
 <p>上記のようにパーティションを選択して次へ進みインストールします。（その後は割愛）</p>
 <p>&nbsp;</p>
 <p>インストール時に、パーティションをマニュアル設定できるインターフェイスがないのと、パーティションが１つも無い場合に自動的に作成するパーティション構成を、回復パーティションが後方になるよう作ってくれればいいのになと、MicroSoft に？を投げたいです。まぁ、いろいろと事情があるのでしょう。そうそう行う作業ではないのですが、普通は戸惑いますよね。これ。</p>
@@ -147,18 +147,18 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 			</item>
 		<item>
 		<title>もっと薄くて軽いノートがいい！良さげなのは何？</title>
-		<link>https://jh2.gpl.jp/4389.html</link>
-					<comments>/4389.html#comments</comments>
+		<link>https://hack.gpl.jp/2018/02/12/%e3%82%82%e3%81%a3%e3%81%a8%e8%96%84%e3%81%8f%e3%81%a6%e8%bb%bd%e3%81%84%e3%83%8e%e3%83%bc%e3%83%88%e3%81%8c%e3%81%84%e3%81%84%ef%bc%81%e8%89%af%e3%81%95%e3%81%92%e3%81%aa%e3%81%ae%e3%81%af%e4%bd%95/</link>
+					<comments>https://hack.gpl.jp/2018/02/12/%e3%82%82%e3%81%a3%e3%81%a8%e8%96%84%e3%81%8f%e3%81%a6%e8%bb%bd%e3%81%84%e3%83%8e%e3%83%bc%e3%83%88%e3%81%8c%e3%81%84%e3%81%84%ef%bc%81%e8%89%af%e3%81%95%e3%81%92%e3%81%aa%e3%81%ae%e3%81%af%e4%bd%95/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 12 Feb 2018 12:04:10 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[gearbest]]></category>
 		<category><![CDATA[geekbying]]></category>
-		<guid isPermaLink="false">/?p=4389</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4389</guid>
 							<description><![CDATA[さて、前おきはすっとばして今回は2代目のノートPCを物色しています。激安で品質が良さげな、中華クラムシェル型の軽量ノートです。 この画像みて、一発で惹かれました。1kg は切っていませんが、キーボードは問題なく打てるサイ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>さて、前おきはすっとばして今回は2代目のノートPCを物色しています。激安で品質が良さげな、中華クラムシェル型の軽量ノートです。</p>
-<p><img loading="lazy" title="XM21-192005_jpg__1920×708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="XM21-192005_jpg__1920×708_" src="/wp-content/uploads/2018/02/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
+<p><img title="XM21-192005_jpg__1920×708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="XM21-192005_jpg__1920×708_" src="https://hack.gpl.jp/wp-content/uploads/2018/02/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
 <p>この画像みて、一発で惹かれました。1kg は切っていませんが、キーボードは問題なく打てるサイズのいわゆるクラムシェル型。この形は未来的にもそう変わりはしない究極の形状ではないでしょうか。これ以上小さくなると、キーボードの打鍵がしにくくなりますので。</p>
 <p>&#160;</p>
 <h3>■記事要約</h3>
@@ -176,13 +176,13 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 <p>そうなると中華ではあまり候補がないのですが、</p>
 <p>12.5インチだと、Xiaomi Air 12 と、Onda Xiaoma 21 あたりかなと。サイズと重さは以下の通り。</p>
 <h4>Xiaomi Air 12</h4>
-<p>29.20 x 20.20 x 1.29 cm / 1.07 kg 約6万<img loading="lazy" title="Xiaomi-Mi-Notebook-Air-12-5-inch-M-7Y30-Silver-407322-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Xiaomi-Mi-Notebook-Air-12-5-inch-M-7Y30-Silver-407322-" src="/wp-content/uploads/2018/02/xiaomiminotebookair125inchm7y30silver407322.jpg" width="480" height="480" /></p>
+<p>29.20 x 20.20 x 1.29 cm / 1.07 kg 約6万<img title="Xiaomi-Mi-Notebook-Air-12-5-inch-M-7Y30-Silver-407322-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Xiaomi-Mi-Notebook-Air-12-5-inch-M-7Y30-Silver-407322-" src="https://hack.gpl.jp/wp-content/uploads/2018/02/xiaomiminotebookair125inchm7y30silver407322.jpg" width="480" height="480" /></p>
 <h4>Onda Xiaoma 21 </h4>
 <p>29.60 x 20.30 x 1.20 cm / 1.08 kg 約3.2万</p>
 <p>※詳細スペックはオフィシャルサイト    <br /><a title="http://www.onda.cn/Laptop_Designs.aspx?id=9" href="http://www.onda.cn/Laptop_Designs.aspx?id=9" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.onda.cn/Laptop_Designs.aspx?id=9<span class="wpel-icon wpel-image wpel-icon-1"></span></a>     <br />&#160;</p>
-<p> <img loading="lazy" title="Onda-Xiaoma-21" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Onda-Xiaoma-21" src="/wp-content/uploads/2018/02/ondaxiaoma21.jpg" width="538" height="384" />   </p>
+<p> <img title="Onda-Xiaoma-21" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Onda-Xiaoma-21" src="https://hack.gpl.jp/wp-content/uploads/2018/02/ondaxiaoma21.jpg" width="538" height="384" />   </p>
 <p>この画像はやりすぎでしょ？ と思ったのですが、ユーザの実際の動画みて本当にちっさいなと。</p>
-<p><a href="https://youtu.be/q6WDNuUaqVA?t=39s" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="FIX_No_Audio_with_USB_Type_C___Easy_Windows_Ultrabook_Guide_-_YouTube 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="FIX_No_Audio_with_USB_Type_C___Easy_Windows_Ultrabook_Guide_-_YouTube 2" src="/wp-content/uploads/2018/02/fix_no_audio_with_usb_type_c___easy_windows_ultrabook_guide__youtube21.png" width="640" height="445" /></a> </p>
+<p><a href="https://youtu.be/q6WDNuUaqVA?t=39s" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="FIX_No_Audio_with_USB_Type_C___Easy_Windows_Ultrabook_Guide_-_YouTube 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="FIX_No_Audio_with_USB_Type_C___Easy_Windows_Ultrabook_Guide_-_YouTube 2" src="https://hack.gpl.jp/wp-content/uploads/2018/02/fix_no_audio_with_usb_type_c___easy_windows_ultrabook_guide__youtube21.png" width="640" height="445" /></a> </p>
 <p>まぁ、両者のスペックは違うのですが重さは似た感じ。どの道、サブノートなのでCPUパワーより機動性が欲しいんです。現在の候補はこれになっています。指紋認証は便利そうです。</p>
 <p>&#160;</p>
 <p>あと、お値段の見地からは、当初から迷っていた以下製品も迷い中。</p>
@@ -196,7 +196,7 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 <p>CIVILTOP Air</p>
 </blockquote>
 <p>この２つと違うのは、上記のはインターフェイスがUSB Type-Cポートとオーディオジャックのみですが、Onda Xiaoma 21 のは、Type-C とMicro HDMIと、USB3が２つとMicroSD があります。オーディオはType-C からいけるので問題ありません。（たぶん）充電しながら、音楽も聴けるはずです。</p>
-<p><img loading="lazy" title="HTB1Wwt5exPI8KJjSspfq6ACFXXad" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1Wwt5exPI8KJjSspfq6ACFXXad" src="/wp-content/uploads/2018/02/htb1wwt5expi8kjjsspfq6acfxxad.jpg" width="480" height="480" /> </p>
+<p><img title="HTB1Wwt5exPI8KJjSspfq6ACFXXad" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1Wwt5exPI8KJjSspfq6ACFXXad" src="https://hack.gpl.jp/wp-content/uploads/2018/02/htb1wwt5expi8kjjsspfq6acfxxad.jpg" width="480" height="480" /> </p>
 <p>Xiaomi Air 12 のほうが CPU スペックやストレージなどは上なんですが、今持ってる512MB の m2 SSD を中に入れたいのと価格はやっぱり安くても高いので（6万がね）、Onda Xiaoma 21の選択しかないかなと。この機種は、日本語ではレビュー記事があまりないので、不人気なんですかね？海外ではベストバイのノートPCにいくつか出てくるのですが。</p>
 <p>6000円の価格差で軽さのOnda Xiaoma 21、メモリの多さ（6GB）をとるかでJumper EZBOOK 3 PROか悩みます。</p>
 <p>あと、Teclast F6 Pro っていう少しお高いのにも惹かれます。まぁ、どうでもいいことですが、明日から夜勤なんで、あと11時間は起きてないとまずいんですが、眠い。。。。。</p>
@@ -213,58 +213,58 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 <p>&#160;</p>
 <h3>■eMMC が 32GB のタイプと、64GB のタイプあり</h3>
 <p>オフィシャルサイト見てて、はっと気が付いたのですが、eMMC の容量違いのモデルがあるようです。</p>
-<p><a href="http://www.onda.cn/Laptop.aspx?t0=12.5%D3%A2%B4%E7&amp;#product" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="32G64G" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="32G64G" src="/wp-content/uploads/2018/02/32g64g.png" width="560" height="319" /></a> </p>
+<p><a href="http://www.onda.cn/Laptop.aspx?t0=12.5%D3%A2%B4%E7&amp;#product" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="32G64G" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="32G64G" src="https://hack.gpl.jp/wp-content/uploads/2018/02/32g64g.png" width="560" height="319" /></a> </p>
 <p><a href="ng.com/item/Onda-Xiaoma-21-Notebook-Gold-377968.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">Geekbuying</a> では、約3.2 万のがあってこちらはよく見ると32GB の eMMC に 64GB の SSD(たぶんM2）で、<a href="https://www.gearbest.com/laptops/pp_632462.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">GearBest<span class="wpel-icon wpel-image wpel-icon-1"></span></a> だと 3.4万のがありこちらは、64GB の eMMC です。価格差が2000円くらいですが、マザーボードにくっついているeMMC は取替えが不可なので64eMMC を選んでおいたほうがよいかと。アリエクの <a href="https://www.aliexpress.com/store/product/Onda-Xiaoma-21-Metal-Laptop-12-5-Windows-10-4GB-RAM-64GB-eMMC-Intel-Apollo-Lake/2792012_32813629973.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Onda オフィシャルストア<span class="wpel-icon wpel-image wpel-icon-1"></span></a>で DHL 配送はちょっと高いです。¥ 36,154(送料込)</p>
 <p>&#160;</p>
 <p>適当にクーポン入れたら、64GB の eMMC のが、$296.55 （33,398円）くらいになったので、GearBest で発注！ぽちっっとしてしまいました！！！</p>
 <p>これでまた、製品不良なんかだったら運が悪いよなー。良い製品に出会えることを祈るばかり。そして数年は使えるように。一応予定では3年使いたいです。2021年の4月まで使いたいですね。そして、Onda というメーカーは初めてですがタブレットでは何回も買いそうになってぐっと我慢した覚えがあるメーカーですので品質は悪くないと思いますが、実機がきたらレビューしてみたいと思います。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/4389.html/feed</wfw:commentRss>
+					<wfw:commentRss>https://hack.gpl.jp/2018/02/12/%e3%82%82%e3%81%a3%e3%81%a8%e8%96%84%e3%81%8f%e3%81%a6%e8%bb%bd%e3%81%84%e3%83%8e%e3%83%bc%e3%83%88%e3%81%8c%e3%81%84%e3%81%84%ef%bc%81%e8%89%af%e3%81%95%e3%81%92%e3%81%aa%e3%81%ae%e3%81%af%e4%bd%95/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>どうやら、M2拡張スロットが壊れているようです</title>
-		<link>https://jh2.gpl.jp/4320.html</link>
+		<link>https://hack.gpl.jp/2018/01/21/%e3%81%a9%e3%81%86%e3%82%84%e3%82%89%e3%80%81m2%e6%8b%a1%e5%bc%b5%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88%e3%81%8c%e5%a3%8a%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e3%82%88%e3%81%86%e3%81%a7%e3%81%99/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 20 Jan 2018 17:31:45 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[gearbest]]></category>
-		<guid isPermaLink="false">/?p=4320</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4320</guid>
 							<description><![CDATA[最近激務の JunkHack です。金曜もなんと夜中の３時までお仕事していました。 &#160; で、先日 M2 の SSD が来たわけですがなぜか移行が完了しませんでした。これはおかしいなと、一旦移行はキャンセルしてS [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>最近激務の JunkHack です。金曜もなんと夜中の３時までお仕事していました。</p>
 <p>&#160;</p>
-<p>で、先日 M2 の SSD が来たわけですがなぜか移行が完了しませんでした。これはおかしいなと、一旦移行はキャンセルしてSSD をフォーマットしようとしたら、いつまで経ってもフォーマットが完了しません。<img loading="lazy" title="Screenshot_8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_8" src="/wp-content/uploads/2018/01/screenshot_8.png" width="640" height="443" /> </p>
+<p>で、先日 M2 の SSD が来たわけですがなぜか移行が完了しませんでした。これはおかしいなと、一旦移行はキャンセルしてSSD をフォーマットしようとしたら、いつまで経ってもフォーマットが完了しません。<img title="Screenshot_8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_8" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_8.png" width="640" height="443" /> </p>
 <p>フォーマットは出来ませんが、デバイスは正常なようです。はて？</p>
-<p><img loading="lazy" title="Screenshot_3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_3" src="/wp-content/uploads/2018/01/screenshot_3.png" width="337" height="480" /> </p>
+<p><img title="Screenshot_3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_3" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_3.png" width="337" height="480" /> </p>
 <p>フォーマットは出来ませんでしたが、以下のようにディスク自体は認識しています。</p>
-<p><img loading="lazy" title="Screenshot_6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_6" src="/wp-content/uploads/2018/01/screenshot_6.png" width="640" height="361" />&#160;</p>
+<p><img title="Screenshot_6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_6" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_6.png" width="640" height="361" />&#160;</p>
 <p>「あ～、不良品のSSD をつかんだか？」とがっくししていました。アリエクは一旦、受領を押してもチャットからEva という機械受付の窓口から人を経由して、再度紛争の申し立てが出来ます。</p>
 <p>&#160;</p>
 <p> 一旦、紛争を再開しつつ切り分けとしてM.2 の USB を購入しておきました。</p>
 <p>&#160;</p>
-<p><img loading="lazy" title="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="/wp-content/uploads/2018/01/external_b_key_m_2_ngff_ssd_to_usb_3_0_super_speed_converter_adapter_enclosure_case_6gbs_aluminu.png" width="640" height="253" /></p>
+<p><img title="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="External_B_key_M_2_NGFF_SSD_to_USB_3_0_Super_Speed_Converter_Adapter_Enclosure_Case_6Gbs_Aluminum_Alloy_for_SATA_based_B_Key_SSD-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="https://hack.gpl.jp/wp-content/uploads/2018/01/external_b_key_m_2_ngff_ssd_to_usb_3_0_super_speed_converter_adapter_enclosure_case_6gbs_aluminu.png" width="640" height="253" /></p>
 <p>&#160;</p>
 <p>ケース付きのと無しのを両方ポチッとしておきました。 最悪、USB 3.0 接続で内部に格納すればいいやということで。</p>
 <p>&#160;</p>
-<p><img loading="lazy" title="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="/wp-content/uploads/2018/01/b_key_m_2_ngff_ssd_to_usb_3_0_usb2_0_converter_adapter_card_external_enclosure_case_cover_suppor.png" width="640" height="292" /> </p>
+<p><img title="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="B_Key_M_2_NGFF_SSD_to_USB_3_0_USB2_0_Converter_Adapter_Card_External_Enclosure_Case_Cover_Supports_Windows_for_Linux_for_Mac-in_HDD_Enclosure_from_Computer___Office_on_Aliexpress_com___Alibaba_Group" src="https://hack.gpl.jp/wp-content/uploads/2018/01/b_key_m_2_ngff_ssd_to_usb_3_0_usb2_0_converter_adapter_card_external_enclosure_case_cover_suppor.png" width="640" height="292" /> </p>
 <p>SSD の初期不良ならこれで付けても認識しませんので、原因の切り分けができるかなと。あと、セキュアイレースもUSB タイプのほうがやりやすいので１つあると便利です。</p>
 <p>TeBENCH ではセクタ数も見えています。しかし、Security Frozen が点灯しています。</p>
-<p>&#160;<img loading="lazy" title="Screenshot_10" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_10" src="/wp-content/uploads/2018/01/screenshot_10.png" width="640" height="450" /> </p>
+<p>&#160;<img title="Screenshot_10" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_10" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_10.png" width="640" height="450" /> </p>
 <p>この状態だと、セキュアイレースが出来ません。ベンチマークもRAWモードで読み込みは出来ますが書き込みが出来ません。</p>
-<p><img loading="lazy" title="Screenshot_9" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_9" src="/wp-content/uploads/2018/01/screenshot_9.png" width="640" height="447" /> </p>
+<p><img title="Screenshot_9" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_9" src="https://hack.gpl.jp/wp-content/uploads/2018/01/screenshot_9.png" width="640" height="447" /> </p>
 <p>こんな感じで、書き込みの途中で止まってしまいます。</p>
 <p>&#160;</p>
 <p>で、USB3.0 が到着しましたのでこっちに付けたら、あっさりとフォーマット、セキュアイレースもできました。つまり、 SSD は壊れていないとわかりました。</p>
 <p>問題のM.2 ドータカード（M.2 SSD card expansion）を取り外して、細部を見てみました。</p>
-<p><a href="/wp-content/uploads/2018/01/s20180120_002.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="S20180120_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20180120_002" src="/wp-content/uploads/2018/01/s20180120_002_thumb.jpg" width="640" height="480" /></a></p>
+<p><a href="https://hack.gpl.jp/wp-content/uploads/2018/01/s20180120_002.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="S20180120_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20180120_002" src="https://hack.gpl.jp/wp-content/uploads/2018/01/s20180120_002_thumb.jpg" width="640" height="480" /></a></p>
 <p> この拡張カードは、マザーボードから8pin のフラットケーブルで接続されています。基板上には、コイル、コンデンサ、スイッチング電源らしきICも見えます。目視チェックでは明らかに半田付け不良やコネクタ不良は見つかりませんでした。おそらく電源周りなのではないかと思います。なお、汎用品では8pin のは拡張カードは見当たりませんでした。</p>
 <p>おそらく、マザーボードから出ている 8pin は ２本が電源で、残り６本が SATA のPIN アサインで使われているはずです。</p>
 <blockquote>
-<p><img loading="lazy" title="SATAピン配置___特殊電子回路" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SATAピン配置___特殊電子回路" src="/wp-content/uploads/2018/01/sata___.png" width="428" height="480" /> </p>
+<p><img title="SATAピン配置___特殊電子回路" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SATAピン配置___特殊電子回路" src="https://hack.gpl.jp/wp-content/uploads/2018/01/sata___.png" width="428" height="480" /> </p>
 <p align="center"><a title="http://www.tokudenkairo.co.jp/cosmok/sata.html" href="http://www.tokudenkairo.co.jp/cosmok/sata.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.tokudenkairo.co.jp/cosmok/sata.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      <br />特殊電子回路株式会社</p>
 </blockquote>
 </p>
@@ -272,7 +272,7 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 </p>
 <p>おそらく、マザーボードからの8pin のうち、4本が どれかが特定できれば M.2 to SATA が使えるはずです。M.2(NGFF)の電源は3.3V で、マザーボードからの電圧を降圧しているのではと推測しています。</p>
 <p>USB3.0 で接続した m.2 SSD のベンチマークです。</p>
-<p><img loading="lazy" title="Dari" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Dari" src="/wp-content/uploads/2018/01/dari1.png" width="640" height="258" /> </p>
+<p><img title="Dari" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Dari" src="https://hack.gpl.jp/wp-content/uploads/2018/01/dari1.png" width="640" height="258" /> </p>
 <p>なかなか速いですね。実用上十分です。</p>
 <p>さて、まずは原因がわかったのですが、SATA のポートを利用できるよう M.2 スロットのドータカードのPIN アサインを調べる必要がありそうです。あとは、 USB 3.0 を内部で取り出す方法を考えないといけませんね。同時並行でメーカーに M2ドータカード単体で販売できるか聞いています。</p>
 ]]></content:encoded>
@@ -282,60 +282,60 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 			</item>
 		<item>
 		<title>2017年に購入してよかったものベスト10</title>
-		<link>https://jh2.gpl.jp/4305.html</link>
+		<link>https://hack.gpl.jp/2018/01/08/2017%e5%b9%b4%e3%81%ab%e8%b3%bc%e5%85%a5%e3%81%97%e3%81%a6%e3%82%88%e3%81%8b%e3%81%a3%e3%81%9f%e3%82%82%e3%81%ae%e3%83%99%e3%82%b9%e3%83%8810/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 07 Jan 2018 18:19:39 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[AMZON]]></category>
 		<category><![CDATA[gearbest]]></category>
-		<guid isPermaLink="false">/?p=4305</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=4305</guid>
 							<description><![CDATA[毎年の年末に、今年ぽちったモノの中でよかったなーって思えるベスト１０をやろうと前々から思ってました。 今年から初めてみたいと思います。 &#160; 10位 コットン製のマフラー 842円 女性ものなんですかね。自転車乗 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>毎年の年末に、今年ぽちったモノの中でよかったなーって思えるベスト１０をやろうと前々から思ってました。</p>
 <p>今年から初めてみたいと思います。</p>
 <p>&#160;</p>
 <p>10位 コットン製のマフラー 842円</p>
-<p><img loading="lazy" title="10-" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10-" src="/wp-content/uploads/2018/01/10.png" width="479" height="480" /> </p>
+<p><img title="10-" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10-" src="https://hack.gpl.jp/wp-content/uploads/2018/01/10.png" width="479" height="480" /> </p>
 <p>女性ものなんですかね。自転車乗るとき、暖かくて色も紺色で、コットン製なので洗濯も自分で楽です。大判なのでひざ掛けにも使えて安くて大変気に入っています。</p>
 <p>&#160;</p>
 <p>９位 髭剃り後や、寝る前に塗るフェイスクリーム 350円</p>
-<p><img loading="lazy" title="９" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="９" src="/wp-content/uploads/2018/01/beff24969cce.jpg" width="480" height="480" /> </p>
+<p><img title="９" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="９" src="https://hack.gpl.jp/wp-content/uploads/2018/01/beff24969cce.jpg" width="480" height="480" /> </p>
 <p>髭剃り負けするので、何かいいクリームないかなーと物色していたのですが、このフェイスクリームは別格でした。寝る前にぬっておくと朝髭剃り負けしません。とても気に入っています。</p>
 <p>&#160;</p>
 <p>８位 中華製激安ノートPC YEPO 737A 22746円</p>
-<p><img loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2018/01/780ddd595a4b.png" width="409" height="480" /> </p>
+<p><img title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="https://hack.gpl.jp/wp-content/uploads/2018/01/780ddd595a4b.png" width="409" height="480" /> </p>
 <p>年末に購入した中華製のノートPC。コスパは最高です。日常使いの使い倒すノートPCとして活躍するでしょう。１０年前にこんな値段でこの品質のノートPCが出るなんて夢にも思っていませんでした。</p>
 <p>&#160;</p>
 <p>７位 カーボンフレームのMTB SAVA26インチ 送料込 60446円</p>
-<p><img loading="lazy" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2018/01/c353ca7b32cd.jpg" width="480" height="480" /> </p>
+<p><img title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="https://hack.gpl.jp/wp-content/uploads/2018/01/c353ca7b32cd.jpg" width="480" height="480" /> </p>
 <p>&#160;</p>
 <p>日常の足となっているカーボンフレームのMTB。ついにカーボンに手を出しましたが、軽くてしなやか。とても気に入っています。</p>
 <p>&#160;</p>
 <p>６位 冬用の手袋 ROCKBROS S091BK ９００円くらい</p>
-<p><img loading="lazy" title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="/wp-content/uploads/2018/01/16f66100448d.jpg" width="480" height="480" /> </p>
+<p><img title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="https://hack.gpl.jp/wp-content/uploads/2018/01/16f66100448d.jpg" width="480" height="480" /> </p>
 <p>&#160;</p>
 </p>
 <p>手袋は１年に１つづつくらいで、冬用と夏用を使いますが、この手袋はちょっと別格です。また冬用で買うと思います。品質がいいです。</p>
 <p>&#160;</p>
 <p>５位 Continental X king MTB 26インチタイヤ 1697円（２本）</p>
-<p><img loading="lazy" title="５" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="５" src="/wp-content/uploads/2018/01/5a5fd5a784fb.jpg" width="640" height="426" /> </p>
+<p><img title="５" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="５" src="https://hack.gpl.jp/wp-content/uploads/2018/01/5a5fd5a784fb.jpg" width="640" height="426" /> </p>
 <p>コンチネンタルのMTBタイヤです。タイヤって履き替えただけじゃあまり差がないものとばかり思っていましたが、このタイヤは別格でした。とてもいいタイヤで、この値段でまたあったら買いたいなと思います。購入先は、wiggle.jp です。次回もコンチネンタルのタイヤの何かにしようと思っています。</p>
 <p>&#160;</p>
 <p>４位 LUMIX DMC-FZ200 23544円</p>
-<p><img loading="lazy" title="４" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="４" src="/wp-content/uploads/2018/01/b4cb14dde129.jpg" width="603" height="480" /> </p>
+<p><img title="４" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="４" src="https://hack.gpl.jp/wp-content/uploads/2018/01/b4cb14dde129.jpg" width="603" height="480" /> </p>
 <p>何気にカメラって、新しいものじゃなくても綺麗に撮れるんですよね。かなり満足しています。軽いし、レンズは全域でF2.8だし。しばらｓくこれでいいって思っています。</p>
 <p>&#160;</p>
 <p>３位 スミシア 2.5人がけソファー 配送込 19980円</p>
-<p><img loading="lazy" title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="/wp-content/uploads/2018/01/d49f516c047e.png" width="547" height="480" /> </p>
+<p><img title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="https://hack.gpl.jp/wp-content/uploads/2018/01/d49f516c047e.png" width="547" height="480" /> </p>
 </p>
 <p>部屋にソファーがあるのとないのとでは雲泥の差ということに気がつきました。とても、ゆったり本読んだり、スマホいじったり、最高です。</p>
 <p>&#160;</p>
 <p>２位 Dibea C17 コードレス掃除機 13000円</p>
-<p><img loading="lazy" title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="/wp-content/uploads/2018/01/84207f764efb.jpg" width="504" height="480" /> </p>
+<p><img title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="https://hack.gpl.jp/wp-content/uploads/2018/01/84207f764efb.jpg" width="504" height="480" /> </p>
 <p>なんだか、ダイソンに似ていますが、モーターヘッドであり遠心分離式でリチウム充電式のもの。１，２，３階まで一気に掃除できてとても軽く、そしてごみが捨てやすい。コードレスってほんと掃除を楽にしてくれました。</p>
 <p>&#160;</p>
 <p>１位 電子タバコ VAPE Kangertech TOGO Mini 2700円ほど</p>
-<p><img loading="lazy" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2018/01/68089c9b75cc.jpg" width="480" height="480" /> </p>
+<p><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="https://hack.gpl.jp/wp-content/uploads/2018/01/68089c9b75cc.jpg" width="480" height="480" /> </p>
 <p>今年の変化のナンバー１は、なんといってもタバコをやめれたことです。このVAPEにニコチン入りリキッドで、いともあっさりほとんど苦痛や苦労もなくさっぱりやめられました。今はたまにVAPEを忘れることがあるんですが、依存度はなくなりつつあります。タバコやめられない人、お勧めです。貯金箱には、たばこを吸ったつもりのお金が貯まっています。半年で７万くらいですかね。体のためにも、ライフスタイルのためにも、すごく意義があったと思います。</p>
 <p>&#160;</p>
 <p>以上、2017年度に購入した満足度が高い商品でした。２０１８年度も良い製品と出会えることを楽しみにしています。2018年の４月からは名古屋から東京に生活空間が変わります。お仕事のベースを東京に移動しますので、生活の面でもいろいろと楽しみが増えそうです。特にイベントがらみは気軽に行けそうで、交友も広げていければなと思います。</p>

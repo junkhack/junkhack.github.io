@@ -10,7 +10,7 @@
 
 <channel>
 	<title>OrangePiPC &#8211; JunkHack Feed</title>
-	<link>https://jh2.gpl.jp/</link>
+	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 12 Jun 2016 00:00:47 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>https://jh2.gpl.jp/2251.html</link>
+		<link>https://hack.gpl.jp/2016/06/12/vnc-%e8%a8%ad%e5%ae%9a%e3%81%a8-osx10-11-%e3%81%ae%e7%94%bb%e9%9d%a2%e5%85%b1%e6%9c%89/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -31,7 +31,7 @@
 		<category><![CDATA[OrangePiPC]]></category>
 		<category><![CDATA[osx]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
-		<guid isPermaLink="false">/?p=2251</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2251</guid>
 							<description><![CDATA[いつも VNC の設定の仕方を忘れるので備忘録。 参考 Raspberry Piの設定【VNCサーバ（tightVNC）の設定】 ARMBIAN のデスクトップ版は、nodm で自動ログインするので、まずこれを中止。 - [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>いつも VNC の設定の仕方を忘れるので備忘録。</p>
 <blockquote>
@@ -91,9 +91,9 @@ exit 0</pre>
 <p>リブートするか、起動スクリプトをたたく。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># /etc/init.d/vncboot start</pre>
 <p>osx からの画面共有</p>
-<p><img loading="lazy" title="osxvnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxvnc" src="/wp-content/uploads/2016/06/osxvnc.png" width="500" height="289" /> </p>
+<p><img title="osxvnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxvnc" src="https://hack.gpl.jp/wp-content/uploads/2016/06/osxvnc.png" width="500" height="289" /> </p>
 <p>&#160;</p>
-<p><img loading="lazy" title="junkhack_s_X_desktop__orangepilite_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepilite_1_" src="/wp-content/uploads/2016/06/junkhack_s_x_desktop__orangepilite_1_.png" width="829" height="785" /> </p>
+<p><img title="junkhack_s_X_desktop__orangepilite_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepilite_1_" src="https://hack.gpl.jp/wp-content/uploads/2016/06/junkhack_s_x_desktop__orangepilite_1_.png" width="829" height="785" /> </p>
 <p>osx10.11 の画面共有は少し良くなった感じ。</p>
 ]]></content:encoded>
 					
@@ -102,14 +102,14 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>WiFi RTL8188CUS のメモ</title>
-		<link>https://jh2.gpl.jp/2203.html</link>
+		<link>https://hack.gpl.jp/2016/05/29/wifi-rtl8188cus-%e3%81%ae%e3%83%a1%e3%83%a2/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 May 2016 14:56:25 +0000</pubDate>
 				<category><![CDATA[OrangePi]]></category>
 		<category><![CDATA[OrangePiPC]]></category>
 		<category><![CDATA[WiFi]]></category>
-		<guid isPermaLink="false">/?p=2203</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2203</guid>
 							<description><![CDATA[WiFi アダプターのメモ書き。 Junk箱を整理していたら、WIFI USB が見つかったのでそれの認識させるメモ。 &#160; OS は ARMBIAN。 # uname -a Linux orangepipc 3 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>WiFi アダプターのメモ書き。</p>
 <p>Junk箱を整理していたら、WIFI USB が見つかったのでそれの認識させるメモ。</p>
@@ -196,26 +196,25 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 			</item>
 		<item>
 		<title>Soracom で IoT はじめました</title>
-		<link>https://jh2.gpl.jp/2196.html</link>
+		<link>https://hack.gpl.jp/2016/05/29/iot1/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 May 2016 09:06:46 +0000</pubDate>
 				<category><![CDATA[OrangePi]]></category>
 		<category><![CDATA[OrangePiPC]]></category>
 		<category><![CDATA[soracom]]></category>
-		<guid isPermaLink="false">/?p=2196</guid>
-				<media:thumbnail url="/wp-content/uploads/2016/05/Latest-font-b-Raspberry-b-font-font-b-Pi-b-font-2-Model-B-B-Plus_220x220.jpg" />
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2196</guid>
 							<description><![CDATA[移動している中、IoT データを送信したいなと。この場合、WIFI がないんですよね。 IoT デバイスからはブルートゥースやWiFi でネット経由へデータは出せるのですが、どこでも、投げたいので Soracom Air [&#8230;]]]></description>
 										<content:encoded><![CDATA[</p>
 <p>移動している中、IoT データを送信したいなと。この場合、WIFI がないんですよね。</p>
 <p>IoT デバイスからはブルートゥースやWiFi でネット経由へデータは出せるのですが、どこでも、投げたいので Soracom Air の SIM を使い始めました。</p>
 <p>&#160;</p>
-<p><a href="https://soracom.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="soracom_air" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_air" src="/wp-content/uploads/2016/05/soracom_air.png" width="332" height="107" /></a> </p>
+<p><a href="https://soracom.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="soracom_air" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_air" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracom_air.png" width="332" height="107" /></a> </p>
 <p>電波が届く範囲なら、どこでも、データを投げて記録が取れるということで、まずは格安の Linux ボードで Soracom に接続し単純なデータを送信するところまでやってみました。</p>
 <p>今回の目標は、「Soracom 経由で、Linux の CPU&#160; 温度を ThingSpeak に送信しグラフ化させる」のが目標です。</p>
 <p>ThingSpeak とは、IoT データを記録し、グラフ表示するWEBサービスです。このサービスは、<a href="https://github.com/iobridge/ThingSpeak" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">自前でも構築可能<span class="wpel-icon wpel-image wpel-icon-1"></span></a>ですので最終的にはデータ蓄積するサーバを構築しても良さそうです。</p>
 <p>これが実現できると、以下のようなグラフがリアルタイムで記録されます。</p>
-<p><img loading="lazy" title="test_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak" src="/wp-content/uploads/2016/05/test__thingspeak.png" width="475" height="325" /></p>
+<p><img title="test_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak" src="https://hack.gpl.jp/wp-content/uploads/2016/05/test__thingspeak.png" width="475" height="325" /></p>
 <p>これを実現するためには、以下のような準備が必要です。</p>
 <p>&#160;</p>
 <p>・Linux ボードの準備と、その OS の選定</p>
@@ -231,12 +230,12 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 <p><a href="http://www.orangepi.org/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Orange Pi<span class="wpel-icon wpel-image wpel-icon-1"></span></a> シリーズは、過去にも紹介していますが、種類が結構あります。最近発売された WiFi が付いてさらに格安の <a href="http://www.cnx-software.com/2016/05/09/orange-pi-lite-development-board-with-wifi-is-now-available-for-12/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Orange Pi Lite<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というものもあります。こちらは約1700円程度で購入できます。人柱的に、このボードも入手中ですので、到着したら改めてレポートしてみたいと思います。</p>
 <p>&#160;</p>
 <p>さて、soracom と 3G 通信するためにモデムが必要ですが、LGエレクトロニクス・ジャパン製で、OEM では DoCoMo から出ている L-05A を使いました。amazon で中古でゲットしました。osx でも使えるというのがぽちったポイントでした。</p>
-<p><img loading="lazy" title="IMG_2782" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_2782" src="/wp-content/uploads/2016/05/img_2782.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_2782" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_2782" src="https://hack.gpl.jp/wp-content/uploads/2016/05/img_2782.jpg" width="640" height="480" /> </p>
 </p>
 <p>最終的には、もう少しコンパクトにして電池を組み込む予定です。応用すれば GPS モジュールを接続して、位置を補足する IoT デバイスも作れそうです。</p>
 <p>&#160;</p>
 <p>soracom の管理コンソールからは、データ転送量も見えて管理しやすそうです。</p>
-<p><img loading="lazy" title="SORACOM_ユーザーコンソール" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="SORACOM_ユーザーコンソール" src="/wp-content/uploads/2016/05/soracom_.png" width="490" height="480" /></p>
+<p><img title="SORACOM_ユーザーコンソール" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="SORACOM_ユーザーコンソール" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracom_.png" width="490" height="480" /></p>
 <p>では、順にポイントと勘所をご紹介します。</p>
 <p>&#160;</p>
 <h3>Linux ボードの準備と、その OS の選定</h3>
@@ -244,7 +243,7 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 <p>まず、母艦の準備です。Orange PI PC を用意しました。</p>
 <p><a title="http://www.orangepi.org/orangepipc/" href="http://www.orangepi.org/orangepipc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.orangepi.org/orangepipc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>オフィシャルサイトから、メーカー直販の aliexpress の販売サイトにいけます。メモリ512M でも要求は満たしますので、one とか lite でもよいかと思います。</p>
-<p><img loading="lazy" title="orangepipc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="orangepipc" src="/wp-content/uploads/2016/05/orangepipc.png" width="530" height="339" /> </p>
+<p><img title="orangepipc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="orangepipc" src="https://hack.gpl.jp/wp-content/uploads/2016/05/orangepipc.png" width="530" height="339" /> </p>
 <p>OS は、ARMBIAN というものを今回は採用。Debian 系の OS となります。</p>
 <p><a title="http://www.armbian.com/orange-pi-pc/" href="http://www.armbian.com/orange-pi-pc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.armbian.com/orange-pi-pc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>8GB の SDCard に書き込みし、IP を固定しておきます。電源は、ラズベリーパイとは違い、マイクロUSBではありませんので、別途 4mm で、センターピンが 1.7mm のDC ジャックを用意しておきます。これは、PSP用USB充電ケーブルと同じなので、100円均一などでもゲットできるかと思います。自分は、ジャックを別途購入し電源ケーブルは自作です。</p>
@@ -253,18 +252,18 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 <p>&#160;</p>
 <blockquote>
 <p>過去にヒートシンクを付けた記事を書いていますのでご参考に。</p>
-<p><a href="/2016/02/14/orangepi-one-%E3%81%ABfan-%E3%82%92%E4%BB%98%E3%81%91%E3%81%A6%E5%85%A8%E9%96%8B%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">OrangePi One にFan を付けて全開ベンチマーク</a></p>
+<p><a href="https://hack.gpl.jp/2016/02/14/orangepi-one-%E3%81%ABfan-%E3%82%92%E4%BB%98%E3%81%91%E3%81%A6%E5%85%A8%E9%96%8B%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">OrangePi One にFan を付けて全開ベンチマーク</a></p>
 </blockquote>
 <p>&#160;</p>
 <h3>soracom sim の準備</h3>
 <p>次は、soracom の sim を USB モデムで使うための準備です。USB モデムは、今回中古で L-05A を購入しておきました。</p>
 <p>まずは、soracom の sim をアクティベートしておきます。管理コンソールよりログインし、sim の操作で可能です。</p>
-<p><img loading="lazy" title="soracomlogin" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracomlogin" src="/wp-content/uploads/2016/05/soracomlogin.png" width="631" height="353" /> </p>
+<p><img title="soracomlogin" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracomlogin" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracomlogin.png" width="631" height="353" /> </p>
 <p>&#160;</p>
 <p>なかなか簡単操作です。すばらしい。速度クラスは、とりあえず s1.minimum にしておきました。</p>
 </p>
 </p>
-<p><img loading="lazy" title="soracom2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom2" src="/wp-content/uploads/2016/05/soracom2.png" width="630" height="401" /> </p>
+<p><img title="soracom2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom2" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracom2.png" width="630" height="401" /> </p>
 <p>データ通信量が 150MiB を超えたらメールしてくるようにしておきました。有効期限なども設定できるようですね。キャリアになった気分です。</p>
 <p>&#160;</p>
 <h3>Linux 側から PPP 接続するための USB モデムの設定</h3>
@@ -387,7 +386,7 @@ WantedBy=multi-user.target</pre>
 <p>[root@opi 16:11:26 log]# </p>
 <p>&#160;</p>
 <p>soracom のコンソールで 1 時間ごとの使用量を見ると、記録されているようです。</p>
-<p><img loading="lazy" title="soracom1h" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom1h" src="/wp-content/uploads/2016/05/soracom1h.png" width="511" height="480" /> </p>
+<p><img title="soracom1h" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom1h" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracom1h.png" width="511" height="480" /> </p>
 <p>&#160;</p>
 <h3>CPU 温度を取得して thingspeak にデータを投げるスクリプト</h3>
 <p>次は、cpu 温度を取得し、データを飛ばすプログラムを作ります。python で作りました。</p>
@@ -426,7 +425,7 @@ if __name__ == '__main__':
 <p>&#160;</p>
 <p>api_key には、書き込みのAPI Key を入れておきます。</p>
 <p>&#160;</p>
-<p><img loading="lazy" title="Channels_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Channels_-_ThingSpeak" src="/wp-content/uploads/2016/05/channels__thingspeak.png" width="475" height="303" /> </p>
+<p><img title="Channels_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Channels_-_ThingSpeak" src="https://hack.gpl.jp/wp-content/uploads/2016/05/channels__thingspeak.png" width="475" height="303" /> </p>
 <p>データをhttps (SSL)経由の post で投げるとパケットが消費されるので、ここでは、get で投げています。</p>
 <p>api.thingspeak.com を名前解決すると以下のように２つIPが出ますので、ここでは片方のIPを指定しています。相手側の事情でIP が変わることもあるかもしれません。</p>
 <p>&#160;</p>
@@ -459,7 +458,7 @@ if __name__ == '__main__':
 <p>[root@opi 18:08:33 UnixBench]# ./Run -c 4</p>
 <p>&#160;</p>
 <p>グラフ表示は、こんな感じで出ています。</p>
-<p><img loading="lazy" title="test_-_ThingSpeak 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak 2" src="/wp-content/uploads/2016/05/test__thingspeak2.png" width="478" height="325" /> </p>
+<p><img title="test_-_ThingSpeak 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak 2" src="https://hack.gpl.jp/wp-content/uploads/2016/05/test__thingspeak2.png" width="478" height="325" /> </p>
 <p>CPU 温度がこれで1秒ごとに記録されていきますが、600秒に一度くらいでいいので、修正し、ログオフ後もスクリプトが動作するよう以下のように nohup で実行しておきます。</p>
 <p>&#160;</p>
 <p>[root@opi 18:34:08 work]# nohup python t.py &amp;<br />
@@ -470,11 +469,11 @@ if __name__ == '__main__':
 <p>root&#160;&#160;&#160;&#160; 13673&#160; 4.1&#160; 0.8&#160; 13796&#160; 8428 pts/0&#160;&#160;&#160; S&#160;&#160;&#160; 18:34&#160;&#160; 0:00 python t.py </p>
 <p>&#160;</p>
 <p>なお、今のところ soracom の接続料金は 119 円のようです。</p>
-<p><img loading="lazy" title="soracompay" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracompay" src="/wp-content/uploads/2016/05/soracompay.png" width="623" height="234" /> </p>
+<p><img title="soracompay" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracompay" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracompay.png" width="623" height="234" /> </p>
 <p>&#160;</p>
 <p>しばらく、CPU 温度を記録させてテストしてみることに。GPIO からセンサーを取り付ければ、外気温や湿度、明るさや、PM2.5 など記録したいものを投げれます。</p>
 <p>ちなみに、1日経過後、課金は以下のようです。</p>
-<p><img loading="lazy" title="soracom_2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_2" src="/wp-content/uploads/2016/05/soracom_2.png" width="631" height="232" /> </p>
+<p><img title="soracom_2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_2" src="https://hack.gpl.jp/wp-content/uploads/2016/05/soracom_2.png" width="631" height="232" /> </p>
 <p>この母艦を利用し、WiFi 経由で センサーデバイスを作るのが実用的かもしれません。組み合わはいろいろありますね。</p>
 <p align="left">この続きはまたの機会に。</p>
 <p align="center">&#160;</p>
@@ -483,7 +482,7 @@ if __name__ == '__main__':
 <tbody>
 <tr>
 <td valign="top" width="200"><a href="http://s.click.aliexpress.com/e/YrvvZz7IQ" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g03.a.alicdn.com/kf/HTB1yKxVMFXXXXcyXpXXq6xXFXXX7/Latest-font-b-Raspberry-b-font-font-b-Pi-b-font-2-Model-B-B-Plus.jpg_220x220.jpg" /><span style="display:block;"><font color="#669966"></font></span></a> </td>
-<td valign="top" width="200"><a href="http://s.click.aliexpress.com/e/RbuJaiaU7" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" src="http://g03.a.alicdn.com/kf/HTB11roEKXXXXXaEXXXXq6xXFXXX0/-2PCS-with-Tracking-Number-and-Free-shipping-font-b-ESP8266-b-font-serial-WIFI-Witty.jpg_220x220.jpg" width="269" height="221" /><span style="display:block;"><font color="#669966"></font></span></a></td>
+<td valign="top" width="200"><a href="http://s.click.aliexpress.com/e/RbuJaiaU7" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="http://g03.a.alicdn.com/kf/HTB11roEKXXXXXaEXXXXq6xXFXXX0/-2PCS-with-Tracking-Number-and-Free-shipping-font-b-ESP8266-b-font-serial-WIFI-Witty.jpg_220x220.jpg" width="269" height="221" /><span style="display:block;"><font color="#669966"></font></span></a></td>
 </tr>
 </tbody>
 </table>
@@ -495,7 +494,7 @@ if __name__ == '__main__':
 			</item>
 		<item>
 		<title>Orange Pi Lite が出ていました</title>
-		<link>https://jh2.gpl.jp/2181.html</link>
+		<link>https://hack.gpl.jp/2016/05/28/orange-pi-lite-%e3%81%8c%e5%87%ba%e3%81%a6%e3%81%84%e3%81%be%e3%81%97%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 28 May 2016 11:05:03 +0000</pubDate>
@@ -503,18 +502,17 @@ if __name__ == '__main__':
 		<category><![CDATA[OrangePiLite]]></category>
 		<category><![CDATA[OrangePiOne]]></category>
 		<category><![CDATA[OrangePiPC]]></category>
-		<guid isPermaLink="false">/?p=2181</guid>
-				<media:thumbnail url="/wp-content/uploads/2016/05/2016-new-original-font-b-raspberry-b-font-pi-3-model-b-font-b-raspberry-b_220x220.jpg" />
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2181</guid>
 							<description><![CDATA[Orange Pi Lite なかなか出ないなぁと思ってましたが、今日WEBを散歩していたらなんと販売開始されているようです。 5/9 くらいから販売していたようです。 &#160; 基本的には、one の Lan が撤 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Orange Pi Lite なかなか出ないなぁと思ってましたが、今日WEBを散歩していたらなんと販売開始されているようです。</p>
 <p>5/9 くらいから販売していたようです。</p>
 <p>&#160;</p>
-<p><a href="http://www.aliexpress.com/item/Orange-Pi-Lite-Support-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry/32662738571.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" src="/wp-content/uploads/2016/05/newcomingorangepilitewithwifiantennasupportubuntulinuxandandroidminipcbeyond.jpg" width="480" height="480" /></a> </p>
+<p><a href="http://www.aliexpress.com/item/Orange-Pi-Lite-Support-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry/32662738571.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" src="https://hack.gpl.jp/wp-content/uploads/2016/05/newcomingorangepilitewithwifiantennasupportubuntulinuxandandroidminipcbeyond.jpg" width="480" height="480" /></a> </p>
 <p>基本的には、one の Lan が撤廃され、WiFi が内臓、 USB が１つから２つに増えた感じです。1700円弱でゲットできるので、サンプルに１つポチっておきました。これで、Orange Pi シリーズは3個になりました。</p>
 <p>&#160;</p>
 <p>あと、aliexpress のアフリエイトも初めてみました。</p>
 <p>&#160;</p>
-<p> <a href="http://s.click.aliexpress.com/e/ZzBYBMbQz" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g02.a.alicdn.com/kf/HTB1nalkKXXXXXatXpXXq6xXFXXXJ/2016-new-original-font-b-raspberry-b-font-pi-3-model-b-font-b-raspberry-b.jpg_220x220.jpg" width="307" height="367" /><span style="display:block;"><font color="#669966"></font></span></a> <a href="http://s.click.aliexpress.com/e/NJYFqZZjm?bz=300*250" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g01.a.alicdn.com/kf/HTB1lssRJXXXXXczXpXXq6xXFXXX8/en-300x250.jpg" width="300" height="250" /></a></p>
+<p> <a href="http://s.click.aliexpress.com/e/ZzBYBMbQz" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g02.a.alicdn.com/kf/HTB1nalkKXXXXXatXpXXq6xXFXXXJ/2016-new-original-font-b-raspberry-b-font-pi-3-model-b-font-b-raspberry-b.jpg_220x220.jpg" width="307" height="367" /><span style="display:block;"><font color="#669966"></font></span></a> <a href="http://s.click.aliexpress.com/e/NJYFqZZjm?bz=300*250" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g01.a.alicdn.com/kf/HTB1lssRJXXXXXczXpXXq6xXFXXX8/en-300x250.jpg" width="300" height="250" /></a></p>
 ]]></content:encoded>
 					
 		
@@ -522,16 +520,16 @@ if __name__ == '__main__':
 			</item>
 		<item>
 		<title>ARMBIAN を Orange PI PC に入れてみた</title>
-		<link>https://jh2.gpl.jp/2178.html</link>
+		<link>https://hack.gpl.jp/2016/05/21/armbian-%e3%82%92-orange-pi-pc-%e3%81%ab%e5%85%a5%e3%82%8c%e3%81%a6%e3%81%bf%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 21 May 2016 10:57:21 +0000</pubDate>
 				<category><![CDATA[OrangePi]]></category>
 		<category><![CDATA[OrangePiPC]]></category>
-		<guid isPermaLink="false">/?p=2178</guid>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=2178</guid>
 							<description><![CDATA[前から気になっていた、ARMBIAN を Orange PI PC に入れてみました。 ８GBのSD に書き込みしてブート。今回は、デスクトップ版のを使ってみました。 ウィザードや、各種スクリプトが走るようで２，３回リブ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>前から気になっていた、ARMBIAN を Orange PI PC に入れてみました。</p>
-<p> <a href="http://www.armbian.com/orange-pi-pc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Orange_Pi_PC_H3_–_armbian" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Orange_Pi_PC_H3_–_armbian" src="/wp-content/uploads/2016/05/orange_pi_pc_h3__armbian.png" width="494" height="480" /></a>   </p>
+<p> <a href="http://www.armbian.com/orange-pi-pc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Orange_Pi_PC_H3_–_armbian" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Orange_Pi_PC_H3_–_armbian" src="https://hack.gpl.jp/wp-content/uploads/2016/05/orange_pi_pc_h3__armbian.png" width="494" height="480" /></a>   </p>
 <p>８GBのSD に書き込みしてブート。今回は、デスクトップ版のを使ってみました。</p>
 <p>ウィザードや、各種スクリプトが走るようで２，３回リブートを繰り返し領域拡張などやっているようです。</p>
 <p>少々、設定してあとはリモートから接続。</p>
@@ -600,7 +598,7 @@ hid_logitech_dj        10048  0
 <p>ビデオドライバーは、このカーネルじゃないと読めないやつのようです。H263 のハードウェアデコーダは、<a href="http://linux-sunxi.org/Cedrus" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Cedrus<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というプロジェクトのもののようです。</p>
 <p>CPU 速度は ONE の クロックに合わせて、少し控え目に設定されているようです。</p>
 <p>VNC で接続、様子を見てみました。</p>
-<p><img loading="lazy" title="junkhack_s_X_desktop__orangepipc_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepipc_1_" src="/wp-content/uploads/2016/05/junkhack_s_x_desktop__orangepipc_1_.png" width="606" height="480" /> </p>
+<p><img title="junkhack_s_X_desktop__orangepipc_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepipc_1_" src="https://hack.gpl.jp/wp-content/uploads/2016/05/junkhack_s_x_desktop__orangepipc_1_.png" width="606" height="480" /> </p>
 <p>ベンチマークは以下な感じ。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">========================================================================
    BYTE UNIX Benchmarks (Version 5.1.3)

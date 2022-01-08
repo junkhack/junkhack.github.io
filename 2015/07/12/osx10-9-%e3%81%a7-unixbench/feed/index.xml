@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	osx10.9 で UnixBench へのコメント	</title>
+	<atom:link href="https://hack.gpl.jp/2015/07/12/osx10-9-%E3%81%A7-unixbench/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hack.gpl.jp/2015/07/12/osx10-9-%e3%81%a7-unixbench/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Thu, 12 Mar 2020 21:21:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<item>
+		<title>
+		Intel&#x30C1;&#x30C3;&#x30D7;&#x3001;2022&#x5E74;&#x307E;&#x3067;&#x3057;&#x3070;&#x3089;&#x304F;&#x3055;&#x3088;&#x3046;&#x306A;&#x3089;&#xFF01; &#8211; アリエクでポチった JunkHack より		</title>
+		<link>https://hack.gpl.jp/2015/07/12/osx10-9-%e3%81%a7-unixbench/#comment-39</link>
+
+		<dc:creator><![CDATA[Intel&#x30C1;&#x30C3;&#x30D7;&#x3001;2022&#x5E74;&#x307E;&#x3067;&#x3057;&#x3070;&#x3089;&#x304F;&#x3055;&#x3088;&#x3046;&#x306A;&#x3089;&#xFF01; &#8211; アリエクでポチった JunkHack]]></dc:creator>
+		<pubDate>Thu, 12 Mar 2020 21:21:00 +0000</pubDate>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=843#comment-39</guid>
+
+					<description><![CDATA[[&#8230;] &#x601D;&#x3063;&#x305F;&#x3088;&#x308A;&#x3001;UnixBench &#x306F;&#x30B9;&#x30B3;&#x30A2;&#x304C;&#x51FA;&#x306A;&#x3044;&#x3088;&#x3046;&#x3067;&#x3059;&#x306D;&#x3002;i-7 3770&#x306E;&#x3068;&#x304D;&#x306B;&#x8A08;&#x6E2C;&#x3057;&#x305F;&#x30B9;&#x30B3;&#x30A2;&#xFF08;3440.0&#xFF09;&#x306E;&#x307B;&#x3046;&#x304C;&#x3088;&#x304B;&#x3063;&#x305F;&#x3067;&#x3059;&#x306D;&#x3002; [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] &#x601D;&#x3063;&#x305F;&#x3088;&#x308A;&#x3001;UnixBench &#x306F;&#x30B9;&#x30B3;&#x30A2;&#x304C;&#x51FA;&#x306A;&#x3044;&#x3088;&#x3046;&#x3067;&#x3059;&#x306D;&#x3002;i-7 3770&#x306E;&#x3068;&#x304D;&#x306B;&#x8A08;&#x6E2C;&#x3057;&#x305F;&#x30B9;&#x30B3;&#x30A2;&#xFF08;3440.0&#xFF09;&#x306E;&#x307B;&#x3046;&#x304C;&#x3088;&#x304B;&#x3063;&#x305F;&#x3067;&#x3059;&#x306D;&#x3002; [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
