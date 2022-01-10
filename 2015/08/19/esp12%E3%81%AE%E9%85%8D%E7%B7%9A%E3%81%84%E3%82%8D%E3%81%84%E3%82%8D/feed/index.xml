@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ESP12の配線いろいろ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/08/19/esp12%E3%81%AE%E9%85%8D%E7%B7%9A%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/08/19/esp12%e3%81%ae%e9%85%8d%e7%b7%9a%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d/</link>
+	<atom:link href="/2015/08/19/esp12%E3%81%AE%E9%85%8D%E7%B7%9A%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/08/19/esp12%e3%81%ae%e9%85%8d%e7%b7%9a%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:54:29 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/08/19/esp12%e3%81%ae%e9%85%8d%e7%b7%9a%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d/#comment-46</link>
+		<link>/2015/08/19/esp12%e3%81%ae%e9%85%8d%e7%b7%9a%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d/#comment-46</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:29 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=984#comment-46</guid>
+		<guid isPermaLink="false">/?p=984#comment-46</guid>
 
 					<description><![CDATA[[&#8230;] ESP12の配線いろいろ 2015/08/19 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] ESP12の配線いろいろ 2015/08/19 [&#8230;]</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		Information of ESP8266 随時追加 &#124; macsbug より		</title>
-		<link>https://hack.gpl.jp/2015/08/19/esp12%e3%81%ae%e9%85%8d%e7%b7%9a%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d/#comment-45</link>
+		<link>/2015/08/19/esp12%e3%81%ae%e9%85%8d%e7%b7%9a%e3%81%84%e3%82%8d%e3%81%84%e3%82%8d/#comment-45</link>
 
 		<dc:creator><![CDATA[Information of ESP8266 随時追加 &#124; macsbug]]></dc:creator>
 		<pubDate>Sun, 23 Aug 2015 07:16:36 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=984#comment-45</guid>
+		<guid isPermaLink="false">/?p=984#comment-45</guid>
 
 					<description><![CDATA[[&#8230;] JUNKHACK：ESP12の配線いろいろ [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] JUNKHACK：ESP12の配線いろいろ [&#8230;]</p>

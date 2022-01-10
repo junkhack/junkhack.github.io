@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	MQAは実際に体感できるほどの高音質なのか？ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/</link>
+	<atom:link href="/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/feed/" rel="self" type="application/rss+xml" />
+	<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 04 Jul 2021 12:17:27 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		JunkHack より		</title>
-		<link>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-123</link>
+		<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-123</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 10 Jun 2021 16:08:09 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10057#comment-123</guid>
+		<guid isPermaLink="false">/?p=10057#comment-123</guid>
 
 					<description><![CDATA[BOWBOWさん、こんにちわ！
 
@@ -47,11 +47,11 @@ BOWBOWさんはMQA体感できましたか？]]></description>
 		<item>
 		<title>
 		bowbow より		</title>
-		<link>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-122</link>
+		<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-122</link>
 
 		<dc:creator><![CDATA[bowbow]]></dc:creator>
 		<pubDate>Thu, 10 Jun 2021 06:25:17 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10057#comment-122</guid>
+		<guid isPermaLink="false">/?p=10057#comment-122</guid>
 
 					<description><![CDATA[ご存じだと思いますが、販売価格2万円ほどのiFi audioのZEN DACがMQAハードウエアデコードに対応しました。レンダリングでは無くハードウエアデコードでも検証して頂けないでしょうか。出来ればフリーのfoobar2000環境で。]]></description>
 			<content:encoded><![CDATA[<p>ご存じだと思いますが、販売価格2万円ほどのiFi audioのZEN DACがMQAハードウエアデコードに対応しました。レンダリングでは無くハードウエアデコードでも検証して頂けないでしょうか。出来ればフリーのfoobar2000環境で。</p>

@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	3.3V 固定 DC-DCコンバータを調査 へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/08/23/3-3v-%E5%9B%BA%E5%AE%9A-dc-dc%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF%E3%82%92%E8%AA%BF%E6%9F%BB/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/08/23/3-3v-%e5%9b%ba%e5%ae%9a-dc-dc%e3%82%b3%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%82%92%e8%aa%bf%e6%9f%bb/</link>
+	<atom:link href="/2015/08/23/3-3v-%E5%9B%BA%E5%AE%9A-dc-dc%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF%E3%82%92%E8%AA%BF%E6%9F%BB/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/08/23/3-3v-%e5%9b%ba%e5%ae%9a-dc-dc%e3%82%b3%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%82%92%e8%aa%bf%e6%9f%bb/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:54:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/08/23/3-3v-%e5%9b%ba%e5%ae%9a-dc-dc%e3%82%b3%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%82%92%e8%aa%bf%e6%9f%bb/#comment-49</link>
+		<link>/2015/08/23/3-3v-%e5%9b%ba%e5%ae%9a-dc-dc%e3%82%b3%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%82%92%e8%aa%bf%e6%9f%bb/#comment-49</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:35 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1015#comment-49</guid>
+		<guid isPermaLink="false">/?p=1015#comment-49</guid>
 
 					<description><![CDATA[[&#8230;] 3.3V 固定 DC-DCコンバータを調査 2015/08/23 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 3.3V 固定 DC-DCコンバータを調査 2015/08/23 [&#8230;]</p>

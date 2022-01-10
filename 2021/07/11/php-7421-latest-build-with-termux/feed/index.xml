@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	TermuxのパッケージPHP7.4.21最新ビルド へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2021/07/11/php-7421-latest-build-with-termux/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2021/07/11/php-7421-latest-build-with-termux/</link>
+	<atom:link href="/2021/07/11/php-7421-latest-build-with-termux/feed/" rel="self" type="application/rss+xml" />
+	<link>/2021/07/11/php-7421-latest-build-with-termux/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 22 Nov 2021 07:08:29 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		JunkHack より		</title>
-		<link>https://hack.gpl.jp/2021/07/11/php-7421-latest-build-with-termux/#comment-130</link>
+		<link>/2021/07/11/php-7421-latest-build-with-termux/#comment-130</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 09 Sep 2021 17:35:33 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10746#comment-130</guid>
+		<guid isPermaLink="false">/?p=10746#comment-130</guid>
 
 					<description><![CDATA[最近、仕事が忙しいのでコメントでこのPHPの運用報告。
 このサイトで、PHP7.4.21を２ヶ月連続稼働していますが問題ない感じです〜]]></description>

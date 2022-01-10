@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	初めてのIoTデバイス完成 へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/08/25/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AEiot%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E5%AE%8C%E6%88%90/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/08/25/%e5%88%9d%e3%82%81%e3%81%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%ae%8c%e6%88%90/</link>
+	<atom:link href="/2015/08/25/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AEiot%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E5%AE%8C%E6%88%90/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/08/25/%e5%88%9d%e3%82%81%e3%81%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%ae%8c%e6%88%90/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:30:56 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		ESP12単体で湿度温度照度のIoTデバイス &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/08/25/%e5%88%9d%e3%82%81%e3%81%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%ae%8c%e6%88%90/#comment-51</link>
+		<link>/2015/08/25/%e5%88%9d%e3%82%81%e3%81%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%ae%8c%e6%88%90/#comment-51</link>
 
 		<dc:creator><![CDATA[ESP12単体で湿度温度照度のIoTデバイス &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:30:56 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1057#comment-51</guid>
+		<guid isPermaLink="false">/?p=1057#comment-51</guid>
 
 					<description><![CDATA[[&#8230;] その後、リチウム電池と組みあわせ、IoT デバイスを作った記事がこちら 初めてのIoTデバイス完成 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] その後、リチウム電池と組みあわせ、IoT デバイスを作った記事がこちら 初めてのIoTデバイス完成 [&#8230;]</p>

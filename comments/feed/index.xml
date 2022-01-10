@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	JunkHack へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 22 Nov 2021 07:08:29 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		吉田　純造 より Arduino Nano互換機に書き込めないだと！ へのコメント		</title>
-		<link>https://hack.gpl.jp/2021/02/23/arduino-nano/#comment-131</link>
+		<link>/2021/02/23/arduino-nano/#comment-131</link>
 
 		<dc:creator><![CDATA[吉田　純造]]></dc:creator>
 		<pubDate>Sat, 23 Oct 2021 03:32:26 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10154#comment-131</guid>
+		<guid isPermaLink="false">/?p=10154#comment-131</guid>
 
 					<description><![CDATA[できました
 ありがとう]]></description>
@@ -36,11 +36,11 @@
 		<item>
 		<title>
 		JunkHack より TermuxのパッケージPHP7.4.21最新ビルド へのコメント		</title>
-		<link>https://hack.gpl.jp/2021/07/11/php-7421-latest-build-with-termux/#comment-130</link>
+		<link>/2021/07/11/php-7421-latest-build-with-termux/#comment-130</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 09 Sep 2021 17:35:33 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10746#comment-130</guid>
+		<guid isPermaLink="false">/?p=10746#comment-130</guid>
 
 					<description><![CDATA[最近、仕事が忙しいのでコメントでこのPHPの運用報告。
 このサイトで、PHP7.4.21を２ヶ月連続稼働していますが問題ない感じです〜]]></description>
@@ -52,11 +52,11 @@
 		<item>
 		<title>
 		Tommy より ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？ へのコメント		</title>
-		<link>https://hack.gpl.jp/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-127</link>
+		<link>/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-127</link>
 
 		<dc:creator><![CDATA[Tommy]]></dc:creator>
 		<pubDate>Mon, 28 Jun 2021 14:53:32 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5650#comment-127</guid>
+		<guid isPermaLink="false">/?p=5650#comment-127</guid>
 
 					<description><![CDATA[すみません。
 肝心なURLを忘れてました：笑
@@ -70,11 +70,11 @@ https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13192817793]]></descri
 		<item>
 		<title>
 		Tommy より ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？ へのコメント		</title>
-		<link>https://hack.gpl.jp/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-126</link>
+		<link>/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-126</link>
 
 		<dc:creator><![CDATA[Tommy]]></dc:creator>
 		<pubDate>Mon, 28 Jun 2021 14:51:15 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5650#comment-126</guid>
+		<guid isPermaLink="false">/?p=5650#comment-126</guid>
 
 					<description><![CDATA[ご返信、ありがとうございます。かなり皆さんの実験ブログを拝見してますが、２枚重ねの成功者様はやはり、電圧を異なる値にしている。それと大前提ですが、放熱側のフィンの大きさやファンの大きさ、速度をかなり上げている方が共通してます。1点、電流のアンペア数を異なる値にするとかなりの違いが出てくるとの発言をされている方も居ます（あまり実験データが公表されていません）
 多分、御覧になっていると思いますが、次の理論を実験する為、冷却用素子1枚に対して2枚の素子で冷却する方法を実験してみたいと考えています。同じ電圧と異なる電圧で1対2枚にする効果がどうか？
@@ -90,11 +90,11 @@ https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13192817793]]></descri
 		<item>
 		<title>
 		JunkHack より ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？ へのコメント		</title>
-		<link>https://hack.gpl.jp/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-125</link>
+		<link>/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-125</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 23 Jun 2021 17:42:38 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5650#comment-125</guid>
+		<guid isPermaLink="false">/?p=5650#comment-125</guid>
 
 					<description><![CDATA[TOMMYさん、こんにちわ！
 
@@ -120,11 +120,11 @@ https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13192817793]]></descri
 		<item>
 		<title>
 		Tommy より ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？ へのコメント		</title>
-		<link>https://hack.gpl.jp/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-124</link>
+		<link>/2020/08/04/achievesaminustemperaturein2peltierelements/#comment-124</link>
 
 		<dc:creator><![CDATA[Tommy]]></dc:creator>
 		<pubDate>Wed, 23 Jun 2021 02:05:46 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5650#comment-124</guid>
+		<guid isPermaLink="false">/?p=5650#comment-124</guid>
 
 					<description><![CDATA[はじめまして。楽しく拝見させていただいてます。
 情報提供に感謝いたします。
@@ -152,11 +152,11 @@ https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13192817793]]></descri
 		<item>
 		<title>
 		JunkHack より MQAは実際に体感できるほどの高音質なのか？ へのコメント		</title>
-		<link>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-123</link>
+		<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-123</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 10 Jun 2021 16:08:09 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10057#comment-123</guid>
+		<guid isPermaLink="false">/?p=10057#comment-123</guid>
 
 					<description><![CDATA[BOWBOWさん、こんにちわ！
 
@@ -179,11 +179,11 @@ BOWBOWさんはMQA体感できましたか？]]></description>
 		<item>
 		<title>
 		bowbow より MQAは実際に体感できるほどの高音質なのか？ へのコメント		</title>
-		<link>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-122</link>
+		<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comment-122</link>
 
 		<dc:creator><![CDATA[bowbow]]></dc:creator>
 		<pubDate>Thu, 10 Jun 2021 06:25:17 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10057#comment-122</guid>
+		<guid isPermaLink="false">/?p=10057#comment-122</guid>
 
 					<description><![CDATA[ご存じだと思いますが、販売価格2万円ほどのiFi audioのZEN DACがMQAハードウエアデコードに対応しました。レンダリングでは無くハードウエアデコードでも検証して頂けないでしょうか。出来ればフリーのfoobar2000環境で。]]></description>
 			<content:encoded><![CDATA[<p>ご存じだと思いますが、販売価格2万円ほどのiFi audioのZEN DACがMQAハードウエアデコードに対応しました。レンダリングでは無くハードウエアデコードでも検証して頂けないでしょうか。出来ればフリーのfoobar2000環境で。</p>
@@ -193,11 +193,11 @@ BOWBOWさんはMQA体感できましたか？]]></description>
 		<item>
 		<title>
 		通りがかり より Apple純正のUSキーボードの分解メモ へのコメント		</title>
-		<link>https://hack.gpl.jp/2021/03/22/apple-wireless-keyboard-us/#comment-121</link>
+		<link>/2021/03/22/apple-wireless-keyboard-us/#comment-121</link>
 
 		<dc:creator><![CDATA[通りがかり]]></dc:creator>
 		<pubDate>Tue, 18 May 2021 03:29:24 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10343#comment-121</guid>
+		<guid isPermaLink="false">/?p=10343#comment-121</guid>
 
 					<description><![CDATA[英語キーボード、最高ですよね！]]></description>
 			<content:encoded><![CDATA[<p>英語キーボード、最高ですよね！</p>
@@ -207,11 +207,11 @@ BOWBOWさんはMQA体感できましたか？]]></description>
 		<item>
 		<title>
 		通りがかりその２ より 2021/03 site24x7 でのSLA状況・統計データ へのコメント		</title>
-		<link>https://hack.gpl.jp/2021/04/22/2021-03-site24x7-sla/#comment-120</link>
+		<link>/2021/04/22/2021-03-site24x7-sla/#comment-120</link>
 
 		<dc:creator><![CDATA[通りがかりその２]]></dc:creator>
 		<pubDate>Tue, 18 May 2021 02:56:21 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10457#comment-120</guid>
+		<guid isPermaLink="false">/?p=10457#comment-120</guid>
 
 					<description><![CDATA[まだ検討しないとですね。]]></description>
 			<content:encoded><![CDATA[<p>まだ検討しないとですね。</p>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>I2C &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 19 Feb 2021 22:04:16 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>ロジックアナライザでI2C 信号を見ると</title>
-		<link>https://hack.gpl.jp/2016/02/01/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%81%a7i2c-%e4%bf%a1%e5%8f%b7%e3%82%92%e8%a6%8b%e3%82%8b%e3%81%a8/</link>
+		<link>/2016/02/01/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%81%a7i2c-%e4%bf%a1%e5%8f%b7%e3%82%92%e8%a6%8b%e3%82%8b%e3%81%a8/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2016 15:11:08 +0000</pubDate>
@@ -29,11 +29,11 @@
 		<category><![CDATA[I2C]]></category>
 		<category><![CDATA[PCB]]></category>
 		<category><![CDATA[ロジックアナライザ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2081</guid>
+		<guid isPermaLink="false">/?p=2081</guid>
 							<description><![CDATA[INA226 と arduino の I2C 信号をロジックアナライザで見てみました。 コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。 トリガは、SDA にかけました。Hi から Low になって [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>INA226 と arduino の I2C 信号をロジックアナライザで見てみました。</p>
 <p>コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。</p>
-<p> <a href="https://hack.gpl.jp/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="https://hack.gpl.jp/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
+<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
 <p>トリガは、SDA にかけました。Hi から Low になって信号が行くようです。</p>
 <p>まず、I2C アドレス0x40 のレジスタ 0x02 を投げて、値が帰ってくる流れが見えます。読み出しには、1.7ms ほどかかっていることがわかりました。ビットの信号は、4us 程度のようです。SDAでビットが立っているのを判別しているようです。</p>
 <p>&#160;</p>
@@ -58,7 +58,7 @@
 			</item>
 		<item>
 		<title>INA226 を arduino nano で</title>
-		<link>https://hack.gpl.jp/2016/01/30/ina226-%e3%82%92-arduino-nano-%e3%81%a7/</link>
+		<link>/2016/01/30/ina226-%e3%82%92-arduino-nano-%e3%81%a7/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 30 Jan 2016 14:27:20 +0000</pubDate>
@@ -66,7 +66,7 @@
 		<category><![CDATA[C]]></category>
 		<category><![CDATA[I2C]]></category>
 		<category><![CDATA[PCB]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2074</guid>
+		<guid isPermaLink="false">/?p=2074</guid>
 							<description><![CDATA[もう1月も終わりですね。なんだか速く月日が経つような気がします。 さて、今日は 先日作った INA226 の電流電圧センサーを I2C で arduino nano クローンにて計測してみました。 前回の調査で見つけた、 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>もう1月も終わりですね。なんだか速く月日が経つような気がします。</p>
 <p>さて、今日は 先日作った INA226 の電流電圧センサーを I2C で arduino nano クローンにて計測してみました。</p>
@@ -90,7 +90,7 @@ void setup()
   ina.calibrate(0.025, 1);
 ::</pre>
 <p>配線は以下のようにしました。ちょっとわかりにくいですが、Arduino の A5(SCL) と A4(SDA) をつないで、GND と 3.3V を VSS に入れます。あとは、負荷を電流計測にハイサイド側に付ける感じです。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="https://hack.gpl.jp/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
 <p>シリアル通信を開くと、以下のようになっています。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
 -----------------------------------------------
@@ -191,7 +191,7 @@ Shunt current: 0.00300 A</pre>
 			</item>
 		<item>
 		<title>INA226 を RasPi の ruby でi2c</title>
-		<link>https://hack.gpl.jp/2016/01/25/ina226-%e3%82%92-raspi-%e3%81%ae-ruby-%e3%81%a7i2c/</link>
+		<link>/2016/01/25/ina226-%e3%82%92-raspi-%e3%81%ae-ruby-%e3%81%a7i2c/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 24 Jan 2016 17:24:33 +0000</pubDate>
@@ -200,7 +200,7 @@ Shunt current: 0.00300 A</pre>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PCB]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2049</guid>
+		<guid isPermaLink="false">/?p=2049</guid>
 							<description><![CDATA[PCB が組みあがったのですが、これを RasPi で i2c するサンプルをググってみたら、いくつかありました。 RasPi は、i2c が使えるようにモジュールをロードしておきました。RasPi でi2c は初めて使 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>PCB が組みあがったのですが、これを RasPi で i2c するサンプルをググってみたら、いくつかありました。</p>
 <p>RasPi は、i2c が使えるようにモジュールをロードしておきました。RasPi でi2c は初めて使います。無事に出来るでしょうか？</p>
@@ -232,7 +232,7 @@ uio                     8119  1 uio_pdrv_genirq</pre>
 </blockquote>
 <p>BeagleBone Black(BBBと略するようです)での環境ですが、大変参考になりました。</p>
 <p>使わせていただいたコードは最下部に付けておきます。で、配線は写真のようにちょっと雑ですが配線。負荷には、ちっさいファンをつけてみました。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419" /></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419" /></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># i2cdetect -y 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -459,47 +459,47 @@ end</pre>
 			</item>
 		<item>
 		<title>INA226 電流センサーの I2C ボードを作った</title>
-		<link>https://hack.gpl.jp/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/</link>
-					<comments>https://hack.gpl.jp/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/#comments</comments>
+		<link>/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/</link>
+					<comments>/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 23 Jan 2016 17:00:05 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[I2C]]></category>
 		<category><![CDATA[PCB]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2045</guid>
+		<guid isPermaLink="false">/?p=2045</guid>
 							<description><![CDATA[小さな部品も大きく見えるようになって、作業しやすくなったのでPCB の半田付けを再開しました。 今回は、電流センサーの INA226 です。 回路図は、チュートリアルを参考に上記のようにしました。 ブレッドボードをまたぐ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p> 小さな部品も大きく見えるようになって、作業しやすくなったのでPCB の半田付けを再開しました。</p>
 <p>今回は、電流センサーの INA226 です。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2016/01/b.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="https://hack.gpl.jp/wp-content/uploads/2016/01/b_thumb.png" width="640" height="256" /></a></p>
+<p><a href="/wp-content/uploads/2016/01/b.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2016/01/b_thumb.png" width="640" height="256" /></a></p>
 <p>回路図は、チュートリアルを参考に上記のようにしました。</p>
-<p><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="https://hack.gpl.jp/wp-content/uploads/2016/01/a_thumb.png" width="640" height="205" /> </p>
+<p><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2016/01/a_thumb.png" width="640" height="205" /> </p>
 <p>ブレッドボードをまたぐ4ピッチ幅にしてあります。プリントに出すPCB のあまり部分に無理やり作ったので少し窮屈です。</p>
-<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="https://hack.gpl.jp/wp-content/uploads/2016/01/31.jpg" width="640" height="480" /> </p>
+<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/31.jpg" width="640" height="480" /> </p>
 <p>こんな感じでテープで固定しつつ半田付け。小さいですが、モニターで見れるので問題なしです。</p>
-<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="https://hack.gpl.jp/wp-content/uploads/2016/01/21.jpg" width="640" height="480" /> </p>
+<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/21.jpg" width="640" height="480" /> </p>
 <p>以下、作業ステップ。</p>
 </p>
 </p>
 </p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0007.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0007" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0007_thumb.jpg" width="640" height="480" /></a></p>
-<p>フラックスをつけます。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0008.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0008" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0008_thumb.jpg" width="640" height="480" /></a></p>
-<p>半田小手の先にちょっと半田を付けて位置決め。ブリッジしても気にしない。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0011.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0011" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0011_thumb.jpg" width="640" height="480" /></a></p>
-<p>ブリッジを小手を当てて取ります。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0012.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0012" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0012_thumb.jpg" width="640" height="480" /></a></p>
-<p>こんな感じで、ブリッジを除去。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0013.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0013" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0013" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0013_thumb.jpg" width="640" height="480" /></a></p>
-<p>フラックスを麺棒で掃除。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0014.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0014" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0014" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0014_thumb.jpg" width="640" height="480" /></a></p>
-<p>反対側もつけて、チェック。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0015.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0015" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0015" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0015_thumb.jpg" width="640" height="480" /></a></p>
-<p>シャント抵抗もつけて、ピンヘッダーを付けてとりあえず本日終了。 <a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0021.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0021" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0021" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0021_thumb.jpg" width="640" height="480" /></a> 裏側も小さな抵抗とコンデンサーを付けています。</p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0007.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0007" src="/wp-content/uploads/2016/01/singleshot0007_thumb.jpg" width="640" height="480" /></a></p>
+<p>フラックスをつけます。 <a href="/wp-content/uploads/2016/01/singleshot0008.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0008" src="/wp-content/uploads/2016/01/singleshot0008_thumb.jpg" width="640" height="480" /></a></p>
+<p>半田小手の先にちょっと半田を付けて位置決め。ブリッジしても気にしない。 <a href="/wp-content/uploads/2016/01/singleshot0011.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0011" src="/wp-content/uploads/2016/01/singleshot0011_thumb.jpg" width="640" height="480" /></a></p>
+<p>ブリッジを小手を当てて取ります。 <a href="/wp-content/uploads/2016/01/singleshot0012.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0012" src="/wp-content/uploads/2016/01/singleshot0012_thumb.jpg" width="640" height="480" /></a></p>
+<p>こんな感じで、ブリッジを除去。 <a href="/wp-content/uploads/2016/01/singleshot0013.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0013" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0013" src="/wp-content/uploads/2016/01/singleshot0013_thumb.jpg" width="640" height="480" /></a></p>
+<p>フラックスを麺棒で掃除。 <a href="/wp-content/uploads/2016/01/singleshot0014.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0014" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0014" src="/wp-content/uploads/2016/01/singleshot0014_thumb.jpg" width="640" height="480" /></a></p>
+<p>反対側もつけて、チェック。 <a href="/wp-content/uploads/2016/01/singleshot0015.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0015" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0015" src="/wp-content/uploads/2016/01/singleshot0015_thumb.jpg" width="640" height="480" /></a></p>
+<p>シャント抵抗もつけて、ピンヘッダーを付けてとりあえず本日終了。 <a href="/wp-content/uploads/2016/01/singleshot0021.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0021" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0021" src="/wp-content/uploads/2016/01/singleshot0021_thumb.jpg" width="640" height="480" /></a> 裏側も小さな抵抗とコンデンサーを付けています。</p>
 <p>&#160;</p>
 <p>かなりマイクロスコープがあるおかげで作業がしやすくなりました。必須ですね。これは。</p>
 <p>300円のmicroSD の 8GB も来たのでラズパイで I2C してみます。品質はどうでしょうかね？</p>
 <p>こんなに、ぼやけた印字でしたっけ？なんか偽造品の臭いがしますが、、、、</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0022.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0022" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0022" src="https://hack.gpl.jp/wp-content/uploads/2016/01/singleshot0022_thumb.jpg" width="640" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0022.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0022" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0022" src="/wp-content/uploads/2016/01/singleshot0022_thumb.jpg" width="640" height="480" /></a></p>
 </p>
 <p>あとで、手持ちの本物と比べてみますか。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		

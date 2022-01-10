@@ -10,7 +10,7 @@
 
 <channel>
 	<title>DIY_wagon &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 22 Apr 2017 17:13:22 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>DIY Tool Wagon の貫通穴調整</title>
-		<link>https://hack.gpl.jp/2017/04/23/diy-tool-wagon-%e3%81%ae%e8%b2%ab%e9%80%9a%e7%a9%b4%e8%aa%bf%e6%95%b4/</link>
+		<link>/2017/04/23/diy-tool-wagon-%e3%81%ae%e8%b2%ab%e9%80%9a%e7%a9%b4%e8%aa%bf%e6%95%b4/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 22 Apr 2017 17:13:22 +0000</pubDate>
@@ -29,21 +29,21 @@
 		<category><![CDATA[3D Print]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[DIY_wagon]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3850</guid>
+		<guid isPermaLink="false">/?p=3850</guid>
 							<description><![CDATA[ミスミのグリーンフレームを貫通させるための穴がなかなか納得いくものが出来なくて、やっと5つ目で出来ました。 後ろの４つは、微妙にサイズが小さくて溶かしてはめ込んだのですが、そのまま装着したいのでサイズ調整をしていました。 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ミスミのグリーンフレームを貫通させるための穴がなかなか納得いくものが出来なくて、やっと5つ目で出来ました。</p>
-<p><img title="P1300797" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300797" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300797.png" width="640" height="480" /> </p>
+<p><img title="P1300797" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300797" src="/wp-content/uploads/2017/04/p1300797.png" width="640" height="480" /> </p>
 <p>後ろの４つは、微妙にサイズが小さくて溶かしてはめ込んだのですが、そのまま装着したいのでサイズ調整をしていました。写真で装着しているものは、５回目のプリントでやっと出来たサイズ調整なしのものです。</p>
-<p><img title="P1300799" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300799" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300799.png" width="640" height="480" /> </p>
+<p><img title="P1300799" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300799" src="/wp-content/uploads/2017/04/p1300799.png" width="640" height="480" /> </p>
 <p>アルミフレーム部分のシルエットを大きくしても、出っ張った部分の横幅がさほど大きくならないのと、へこんでいる部分を浅く作ることでやっと出来ました。</p>
-<p><img title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="https://hack.gpl.jp/wp-content/uploads/2017/04/a1.png" width="640" height="366" /> </p>
+<p><img title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="/wp-content/uploads/2017/04/a1.png" width="640" height="366" /> </p>
 <p>こんな感じで抜く穴を調整。</p>
-<p><img title="P1300800" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300800" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300800.png" width="640" height="480" /> </p>
+<p><img title="P1300800" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300800" src="/wp-content/uploads/2017/04/p1300800.png" width="640" height="480" /> </p>
 <p>あとは左右対称にしてプリントするだけですが、結構なサイズですのでプリントは時間がかかります。空き時間を見つけて、少しづつプリントしていきます。</p>
 <p>&#160;</p>
 <p>CNC を作り出すと、工具が部屋に散らかるのでまずはこのワゴンから作っています。</p>
 <p>ロフト部分から部屋を撮影しましたが、T字型に組んだテーブルの手前に3D プリンターがあるのですが、これを押入れ部分に収納してここを作業台にしようと思っています。</p>
-<p><img title="名称未設定" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="名称未設定" src="https://hack.gpl.jp/wp-content/uploads/2017/04/ae42f5505f7e.png" width="636" height="536" /> </p>
+<p><img title="名称未設定" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="名称未設定" src="/wp-content/uploads/2017/04/ae42f5505f7e.png" width="636" height="536" /> </p>
 <p>3D プリンターがあると、机の上がごちゃごちゃしてくるのでなんとかしたいなと。作業が進まないのは、部屋が散らかりすぎているからなんですが、どうやってすっきりさせようかと思案中です。</p>
 ]]></content:encoded>
 					
@@ -52,7 +52,7 @@
 			</item>
 		<item>
 		<title>DIY Tool Wagon のジョイントをテストプリント</title>
-		<link>https://hack.gpl.jp/2017/04/13/diy-tool-wagon-%e3%81%ae%e3%82%b8%e3%83%a7%e3%82%a4%e3%83%b3%e3%83%88%e3%82%92%e3%83%86%e3%82%b9%e3%83%88%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88/</link>
+		<link>/2017/04/13/diy-tool-wagon-%e3%81%ae%e3%82%b8%e3%83%a7%e3%82%a4%e3%83%b3%e3%83%88%e3%82%92%e3%83%86%e3%82%b9%e3%83%88%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 13 Apr 2017 11:55:57 +0000</pubDate>
@@ -60,14 +60,14 @@
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[DIY_wagon]]></category>
 		<category><![CDATA[MISUMI]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3782</guid>
+		<guid isPermaLink="false">/?p=3782</guid>
 							<description><![CDATA[久しぶりに 3D プリンターを動かしました。 部屋がかなり散らかっていたので、片付けながらやっと作業できそうなまでに落ち着いたので、久しぶりにプリントしてみました。 とりあえずは、試作です。 ちょっときついので、バーナー [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>久しぶりに 3D プリンターを動かしました。</p>
-<p> <img title="P1300714" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300714" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300714.png" width="640" height="480" />   </p>
+<p> <img title="P1300714" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300714" src="/wp-content/uploads/2017/04/p1300714.png" width="640" height="480" />   </p>
 <p>部屋がかなり散らかっていたので、片付けながらやっと作業できそうなまでに落ち着いたので、久しぶりにプリントしてみました。</p>
-<p><img title="P1300721" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300721" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300721.png" width="640" height="480" /> </p>
+<p><img title="P1300721" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300721" src="/wp-content/uploads/2017/04/p1300721.png" width="640" height="480" /> </p>
 <p>とりあえずは、試作です。</p>
-<p><img title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300722.png" width="640" height="480" /> </p>
+<p><img title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="/wp-content/uploads/2017/04/p1300722.png" width="640" height="480" /> </p>
 <p>ちょっときついので、バーナーであぶって入れました。もう少しゆったりと作る必要がありそうです。</p>
 <p>データの修正は今度やることにして、また違うことをやろうかと。</p>
 ]]></content:encoded>
@@ -77,7 +77,7 @@
 			</item>
 		<item>
 		<title>DIY Tool Wagon のジョイントを作った</title>
-		<link>https://hack.gpl.jp/2017/04/08/diy-tool-wagon-%e3%81%ae%e3%82%b8%e3%83%a7%e3%82%a4%e3%83%b3%e3%83%88%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/</link>
+		<link>/2017/04/08/diy-tool-wagon-%e3%81%ae%e3%82%b8%e3%83%a7%e3%82%a4%e3%83%b3%e3%83%88%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 08 Apr 2017 05:04:49 +0000</pubDate>
@@ -85,13 +85,13 @@
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[DIY_wagon]]></category>
 		<category><![CDATA[MISUMI]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3750</guid>
+		<guid isPermaLink="false">/?p=3750</guid>
 							<description><![CDATA[100円均一のステンレスプレートとミスミの安いグリーンフレームのアルミフレームを使って Tool Wagon を作っていますが、やっとそのジョイントが出来ました。 こんな感じでフレームとプレートを固定する感じです。もう少 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>100円均一のステンレスプレートとミスミの安いグリーンフレームのアルミフレームを使って Tool Wagon を作っていますが、やっとそのジョイントが出来ました。</p>
-<p> <img title="DIY_ToolWagon" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DIY_ToolWagon" src="https://hack.gpl.jp/wp-content/uploads/2017/04/diy_toolwagon.png" width="638" height="841" />   </p>
+<p> <img title="DIY_ToolWagon" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DIY_ToolWagon" src="/wp-content/uploads/2017/04/diy_toolwagon.png" width="638" height="841" />   </p>
 <p>こんな感じでフレームとプレートを固定する感じです。もう少し簡単な形にしようと思っていたのですが、作っているうちに複雑な形状になってしまいました。</p>
 <p>とりあえず、テストプリントして良ければ16個プリントしようと思います。色は何色にしましょうかね。赤かグレーか、ツートンカラーか迷っています。</p>
-<p><img title="color" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="color" src="https://hack.gpl.jp/wp-content/uploads/2017/04/color.png" width="636" height="739" /> </p>
+<p><img title="color" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="color" src="/wp-content/uploads/2017/04/color.png" width="636" height="739" /> </p>
 <p>こんな感じにしましょうかね。うん、なかなかいい感じの色です。</p>
 <p>&#160;</p>
 <p>あとは、取っ手と台車のジョイントを作ればできそうです。台車は違うものに使ってしまったので100円ショップで再調達です。</p>
@@ -102,8 +102,8 @@
 			</item>
 		<item>
 		<title>ダイソーのステンレストレイとミスミのアルミフレームでDIY</title>
-		<link>https://hack.gpl.jp/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/</link>
-					<comments>https://hack.gpl.jp/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/#comments</comments>
+		<link>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/</link>
+					<comments>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 25 Mar 2017 01:20:28 +0000</pubDate>
@@ -112,46 +112,46 @@
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[DIY_wagon]]></category>
 		<category><![CDATA[MISUMI]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3620</guid>
+		<guid isPermaLink="false">/?p=3620</guid>
 							<description><![CDATA[ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。 39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。 他 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。</p>
-<p><img title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="https://hack.gpl.jp/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480" /> </p>
 <p>39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。</p>
 <p>他にも、値段が300円まででいろいろあります。</p>
-<p><img title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="https://hack.gpl.jp/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843" /> </p>
+<p><img title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843" /> </p>
 <p>これは300円ですが、40 x 30cm と大きく深さもあります。</p>
-<p><img title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="https://hack.gpl.jp/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841" /> </p>
+<p><img title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841" /> </p>
 <p>少し小ぶりで 32 x 23cm ですが、深さがあるタイプ。200円</p>
-<p><img title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="https://hack.gpl.jp/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846" /> </p>
+<p><img title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846" /> </p>
 <p>上記の浅いタイプ。</p>
-<p><img title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="https://hack.gpl.jp/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480" /> </p>
+<p><img title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480" /> </p>
 <p>ちょっと失礼して、並べて検討。100円のでとりあえず十分だということで、これを4枚ゲットしました。400円。あと写真にはありませんが、２つ並べてちょうど良さそうな、23 x 16cm の少し深めのものも２つゲット。</p>
 <p>&#160;</p>
 <p>以下のようなものを作ろうと思っています。簡易的にプレートをモデリングして、接続パーツやアルミフレームの検討をしています。</p>
-<p> <img title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="https://hack.gpl.jp/wp-content/uploads/2017/03/31.png" width="643" height="536" />   </p>
+<p> <img title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="/wp-content/uploads/2017/03/31.png" width="643" height="536" />   </p>
 <p>ベースのフレームは細い18mm と 28mm のグリーンフレームです。</p>
-<p><img title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="https://hack.gpl.jp/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856" /> </p>
+<p><img title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856" /> </p>
 <p>グリーンフレームは太いので作るか、細いのかで迷っています。コスト重視なら細いものですが。</p>
-<p><img title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="https://hack.gpl.jp/wp-content/uploads/2017/03/21.png" width="641" height="858" /> </p>
+<p><img title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="/wp-content/uploads/2017/03/21.png" width="641" height="858" /> </p>
 </p>
 <p>このステンレストレイは、大きさが 39 x 29cm もあって100円で利益出るんですかね。0.5mm くらいなのでコストは抑えてありそうですが。100円ショップ、ほんと楽しいです。</p>
-<p><img title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="https://hack.gpl.jp/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480" /> </p>
+<p><img title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480" /> </p>
 <p>工具が床に散らばるので、部屋の中にあると便利かなと思いまして。こんな感じで工具がちょうどいい感じに載せれます。</p>
-<p><img title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="https://hack.gpl.jp/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480" /> </p>
+<p><img title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480" /> </p>
 <p>高さは50cm を検討。台車も100円ショップで売っていたのでゲットしてきました。</p>
 <p>これは、ダイソーじゃなく100円ショップのSeria（セリア）です。1個あたりの耐荷重は約10kg とあります。４つで40kg なので人が乗る用途でもないので十分でしょう。</p>
-<p><img title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="https://hack.gpl.jp/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480" /> </p>
+<p><img title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480" /> </p>
 <p>ストッパー付きです。100円なのに高機能ですね。ベアリングとかは入っていませんが。</p>
 <p>台座は四角なので、ジョイントアダプターを作る必要がありますね。</p>
-<p><img title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="https://hack.gpl.jp/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480" /> </p>
+<p><img title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480" /> </p>
 <p>38mm 角のようです。</p>
-<p><img title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="https://hack.gpl.jp/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480" />&#160;</p>
+<p><img title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480" />&#160;</p>
 <p>材料の概算費用は、ステンレストレイが4枚で400円とフレームがグリーンフレームS だと416円、グリーンフレームだと684円。このくらいだったら、太いほうがいいですかね。タイヤが4個で200円。合計で、1016円か、1284円。あと取っ手のフレームも加算しますので100円か200円くらい高くなりそうです。</p>
 <p>&#160;</p>
 <p>もう少し、CAD上でつついて検討したいと思います。高さは、50cm もなくていいのかな。トレイは取り外せるようにするか、固定するかでフレームの構造も決まります。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/feed/</wfw:commentRss>
+					<wfw:commentRss>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ESP8266 ESP-12 DoubleBlink へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/05/08/esp8266-esp-12-doubleblink/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/05/08/esp8266-esp-12-doubleblink/</link>
+	<atom:link href="/2015/05/08/esp8266-esp-12-doubleblink/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/05/08/esp8266-esp-12-doubleblink/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:54:13 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/05/08/esp8266-esp-12-doubleblink/#comment-26</link>
+		<link>/2015/05/08/esp8266-esp-12-doubleblink/#comment-26</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:13 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=672#comment-26</guid>
+		<guid isPermaLink="false">/?p=672#comment-26</guid>
 
 					<description><![CDATA[[&#8230;] ESP8266 ESP-12 DoubleBlink 2015/05/08 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] ESP8266 ESP-12 DoubleBlink 2015/05/08 [&#8230;]</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		Information of ESP8266 随時追加 &#124; macsbug より		</title>
-		<link>https://hack.gpl.jp/2015/05/08/esp8266-esp-12-doubleblink/#comment-25</link>
+		<link>/2015/05/08/esp8266-esp-12-doubleblink/#comment-25</link>
 
 		<dc:creator><![CDATA[Information of ESP8266 随時追加 &#124; macsbug]]></dc:creator>
 		<pubDate>Sun, 23 Aug 2015 07:23:36 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=672#comment-25</guid>
+		<guid isPermaLink="false">/?p=672#comment-25</guid>
 
 					<description><![CDATA[[&#8230;] JUNKHACK：ESP8266 ESP-12 DoubleBlink [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] JUNKHACK：ESP8266 ESP-12 DoubleBlink [&#8230;]</p>

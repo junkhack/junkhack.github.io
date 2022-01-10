@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	なつかしのテニスゲーム! へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/08/04/%E3%81%AA%E3%81%A4%E3%81%8B%E3%81%97%E3%81%AE%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/</link>
+	<atom:link href="/2015/08/04/%E3%81%AA%E3%81%A4%E3%81%8B%E3%81%97%E3%81%AE%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 26 Aug 2015 15:46:29 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		夏休み工作第二段 Arduino 単体でPong &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/#comment-44</link>
+		<link>/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/#comment-44</link>
 
 		<dc:creator><![CDATA[夏休み工作第二段 Arduino 単体でPong &#124; junkhack]]></dc:creator>
 		<pubDate>Wed, 26 Aug 2015 15:46:29 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=936#comment-44</guid>
+		<guid isPermaLink="false">/?p=936#comment-44</guid>
 
 					<description><![CDATA[[&#8230;] なつかしのテニスゲーム! [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] なつかしのテニスゲーム! [&#8230;]</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		JunkHack より		</title>
-		<link>https://hack.gpl.jp/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/#comment-43</link>
+		<link>/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/#comment-43</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 26 Aug 2015 10:46:38 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=936#comment-43</guid>
+		<guid isPermaLink="false">/?p=936#comment-43</guid>
 
 					<description><![CDATA[Hello, ROBERTO.
 
@@ -58,11 +58,11 @@ Controller for two people, I want to also make their own. Once completed, it wil
 		<item>
 		<title>
 		Roberto より		</title>
-		<link>https://hack.gpl.jp/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/#comment-42</link>
+		<link>/2015/08/04/%e3%81%aa%e3%81%a4%e3%81%8b%e3%81%97%e3%81%ae%e3%83%86%e3%83%8b%e3%82%b9%e3%82%b2%e3%83%bc%e3%83%a0/#comment-42</link>
 
 		<dc:creator><![CDATA[Roberto]]></dc:creator>
 		<pubDate>Sun, 23 Aug 2015 21:49:11 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=936#comment-42</guid>
+		<guid isPermaLink="false">/?p=936#comment-42</guid>
 
 					<description><![CDATA[Wow, I am happy to see that someone so far from my home is interested in this little project I have done! 
 If you like, you can try now the second version of the code that runs for two players. The code and the link to a new video are in the same Arduino Forum Post at position #13. 

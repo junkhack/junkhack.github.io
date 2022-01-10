@@ -10,7 +10,7 @@
 
 <channel>
 	<title>電動自転車 &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 21 Jul 2011 16:55:27 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>ミニベロもいいね</title>
-		<link>https://hack.gpl.jp/2011/07/22/%e3%83%9f%e3%83%8b%e3%83%99%e3%83%ad%e3%82%82%e3%81%84%e3%81%84%e3%81%ad/</link>
+		<link>/2011/07/22/%e3%83%9f%e3%83%8b%e3%83%99%e3%83%ad%e3%82%82%e3%81%84%e3%81%84%e3%81%ad/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 16:55:27 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[電動自転車]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/07/22/%e3%83%9f%e3%83%8b%e3%83%99%e3%83%ad%e3%82%82%e3%81%84%e3%81%84%e3%81%ad/</guid>
+		<guid isPermaLink="false">/2011/07/22/%e3%83%9f%e3%83%8b%e3%83%99%e3%83%ad%e3%82%82%e3%81%84%e3%81%84%e3%81%ad/</guid>
 							<description><![CDATA[ベース車両をMTBにしていたけども、 これも、ありかと。 http://www.doppelganger.jp/product/550/ アマゾンで ２３１０９円 送料込み 20インチ を組み込んだら、なかなか似合いそう [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ベース車両をMTBにしていたけども、</p>
 <p><img alt="ギャラリー077" src="http://www.doppelganger.jp/product/product_page/img/product/550/gallery/zoom/077.jpg" /></p>
@@ -50,13 +50,13 @@
 			</item>
 		<item>
 		<title>パーツ選定　コントローラ</title>
-		<link>https://hack.gpl.jp/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9/</link>
+		<link>/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 14:26:25 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[電動自転車]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9/</guid>
+		<guid isPermaLink="false">/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9/</guid>
 							<description><![CDATA[モータは、HUBの中にある３層のブラシレスモータなので、パルス制御するコントローラがいる。 心臓部といえるパーツで、汎用タイプから、プログラミングできるタイプまでさまざま。 Brushless DC motor spee [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>モータは、HUBの中にある３層のブラシレスモータなので、パルス制御するコントローラがいる。   <br />心臓部といえるパーツで、汎用タイプから、プログラミングできるタイプまでさまざま。    <br /><b>Brushless DC motor speed controller 略してBLDC コントローラ     <br /></b>    <br />モータ１をコントロールするタイプや前後２つをコントロールするものまでさまざま。    </p>
 <p>電源は、48Vにしようと思っているので、値段との相談だけども、    <br />・効率    <br />・耐久性    <br />・カスタム性    </p>
@@ -72,13 +72,13 @@
 			</item>
 		<item>
 		<title>パーツ選定　HUBモータ スポークタイプ</title>
-		<link>https://hack.gpl.jp/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80hub%e3%83%a2%e3%83%bc%e3%82%bf-%e3%82%b9%e3%83%9d%e3%83%bc%e3%82%af%e3%82%bf%e3%82%a4%e3%83%97/</link>
+		<link>/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80hub%e3%83%a2%e3%83%bc%e3%82%bf-%e3%82%b9%e3%83%9d%e3%83%bc%e3%82%af%e3%82%bf%e3%82%a4%e3%83%97/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 12:57:39 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[電動自転車]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80hub%e3%83%a2%e3%83%bc%e3%82%bf-%e3%82%b9%e3%83%9d%e3%83%bc%e3%82%af%e3%82%bf%e3%82%a4%e3%83%97/</guid>
+		<guid isPermaLink="false">/2011/07/21/%e3%83%91%e3%83%bc%e3%83%84%e9%81%b8%e5%ae%9a%e3%80%80hub%e3%83%a2%e3%83%bc%e3%82%bf-%e3%82%b9%e3%83%9d%e3%83%bc%e3%82%af%e3%82%bf%e3%82%a4%e3%83%97/</guid>
 							<description><![CDATA[まぁ、自転車なんで最高時速よりも加速感があったほうがいいと思い直してみた。 そうなると、タイヤは小径でもよさそう。まぁ、とりあえずは、手持ちの26インチMTBを改造してから考えてみよう。 まずは、HUBモータ スポークタ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>まぁ、自転車なんで最高時速よりも加速感があったほうがいいと思い直してみた。</p>
 <p>そうなると、タイヤは小径でもよさそう。まぁ、とりあえずは、手持ちの26インチMTBを改造してから考えてみよう。   </p>
@@ -110,14 +110,14 @@
 			</item>
 		<item>
 		<title>電動アシスト自転車</title>
-		<link>https://hack.gpl.jp/2011/07/21/%e9%9b%bb%e5%8b%95%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88%e8%87%aa%e8%bb%a2%e8%bb%8a/</link>
+		<link>/2011/07/21/%e9%9b%bb%e5%8b%95%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88%e8%87%aa%e8%bb%a2%e8%bb%8a/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 21 Jul 2011 09:30:21 +0000</pubDate>
 				<category><![CDATA[Bicycle]]></category>
 		<category><![CDATA[Blog]]></category>
 		<category><![CDATA[電動自転車]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/07/21/%e9%9b%bb%e5%8b%95%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88%e8%87%aa%e8%bb%a2%e8%bb%8a/</guid>
+		<guid isPermaLink="false">/2011/07/21/%e9%9b%bb%e5%8b%95%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88%e8%87%aa%e8%bb%a2%e8%bb%8a/</guid>
 							<description><![CDATA[太陽電池パネルもかなり安くなったし、近所の移動は、省電力なモータに任せようと考えたのでした。 中でも、電池の存在が大きい。 LiFePO4（鉄リン酸リチュウム）電池 まだ実際に使ったことがないので、どうなのかはこれからだ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>太陽電池パネルもかなり安くなったし、近所の移動は、省電力なモータに任せようと考えたのでした。</p>
 <p>中でも、電池の存在が大きい。    <br />LiFePO4（鉄リン酸リチュウム）電池</p>

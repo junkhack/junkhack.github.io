@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	続々と素材をゲット へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/04/18/%E7%B6%9A%E3%80%85%E3%81%A8%E7%B4%A0%E6%9D%90%E3%82%92%E3%82%B2%E3%83%83%E3%83%88/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/04/18/%e7%b6%9a%e3%80%85%e3%81%a8%e7%b4%a0%e6%9d%90%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/</link>
+	<atom:link href="/2015/04/18/%E7%B6%9A%E3%80%85%E3%81%A8%E7%B4%A0%E6%9D%90%E3%82%92%E3%82%B2%E3%83%83%E3%83%88/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/04/18/%e7%b6%9a%e3%80%85%e3%81%a8%e7%b4%a0%e6%9d%90%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:54:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/04/18/%e7%b6%9a%e3%80%85%e3%81%a8%e7%b4%a0%e6%9d%90%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/#comment-24</link>
+		<link>/2015/04/18/%e7%b6%9a%e3%80%85%e3%81%a8%e7%b4%a0%e6%9d%90%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/#comment-24</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:11 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=509#comment-24</guid>
+		<guid isPermaLink="false">/?p=509#comment-24</guid>
 
 					<description><![CDATA[[&#8230;] 続々と素材をゲット 2015/04/18 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 続々と素材をゲット 2015/04/18 [&#8230;]</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		CP2102 Serial Converter &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/04/18/%e7%b6%9a%e3%80%85%e3%81%a8%e7%b4%a0%e6%9d%90%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/#comment-23</link>
+		<link>/2015/04/18/%e7%b6%9a%e3%80%85%e3%81%a8%e7%b4%a0%e6%9d%90%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/#comment-23</link>
 
 		<dc:creator><![CDATA[CP2102 Serial Converter &#124; junkhack]]></dc:creator>
 		<pubDate>Thu, 30 Apr 2015 15:28:48 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=509#comment-23</guid>
+		<guid isPermaLink="false">/?p=509#comment-23</guid>
 
 					<description><![CDATA[[&#8230;] 前回、続々と素材をゲット した中のパーツを2つ試してみました。 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 前回、続々と素材をゲット した中のパーツを2つ試してみました。 [&#8230;]</p>

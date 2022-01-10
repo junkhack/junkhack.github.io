@@ -10,7 +10,7 @@
 
 <channel>
 	<title>wordpress.com &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 17 Oct 2018 19:11:52 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>WordPress.com でドメインマッピングしてサブドメインの独自ドメインを利用</title>
-		<link>https://hack.gpl.jp/2018/10/18/wordpress-com-%e3%81%a7%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%9e%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%81%97%e3%81%a6%e3%82%b5%e3%83%96%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%ae%e7%8b%ac/</link>
+		<link>/2018/10/18/wordpress-com-%e3%81%a7%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%9e%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%81%97%e3%81%a6%e3%82%b5%e3%83%96%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%ae%e7%8b%ac/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 17 Oct 2018 19:11:52 +0000</pubDate>
 				<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[wordpress.com]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4649</guid>
+		<guid isPermaLink="false">/?p=4649</guid>
 							<description><![CDATA[さて、前回 WordPress.com の一番下の有料プラン「パーソナル」という月額400円（支払いは年間一括4800円税込）を開始しました。 独自ドメインは、GPL.JP というドメインでこれのサブドメイン部分に、ju [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>さて、前回 WordPress.com の一番下の有料プラン「パーソナル」という月額400円（支払いは年間一括4800円税込）を開始しました。</p>
 <p>独自ドメインは、GPL.JP というドメインでこれのサブドメイン部分に、junkhack をつけた形です。</p>
@@ -53,18 +53,18 @@ ns junkhack ns3.wordpress.com.</p></blockquote>
 <p>&nbsp;</p>
 <h3>WordPress.com で設定</h3>
 <p>ドメインをマッピングしても、主要ドメインをマッピングしたドメインに設定しないとリダイレクトされません。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain" src="https://hack.gpl.jp/wp-content/uploads/2018/10/domain.png" alt="domain" width="899" height="1026" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain" src="/wp-content/uploads/2018/10/domain.png" alt="domain" width="899" height="1026" border="0" /></p>
 <p>以下のような状態にする必要があります。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain2" src="https://hack.gpl.jp/wp-content/uploads/2018/10/domain2.png" alt="domain2" width="639" height="330" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain2" src="/wp-content/uploads/2018/10/domain2.png" alt="domain2" width="639" height="330" border="0" /></p>
 <p>設定は以上で完了です。</p>
 <p>&nbsp;</p>
 <p>これで、リダイレクトされます。さらに、リダイレクトするときはHSTS という規格でSSL接続されます。これは想定外だったので、ちょっと得した感じです。</p>
 <p>つまり簡単にいえば常時SSL接続されて暗号化通信されています。自分のドメインはSSL証明書とったわけじゃないのに不思議ですね。</p>
 <p>&nbsp;</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl1" src="https://hack.gpl.jp/wp-content/uploads/2018/10/ssl1.png" alt="ssl1" width="748" height="407" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl1" src="/wp-content/uploads/2018/10/ssl1.png" alt="ssl1" width="748" height="407" border="0" /></p>
 <p>証明書の詳細は以下のように出ています。</p>
 <p>&nbsp;</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl2" src="https://hack.gpl.jp/wp-content/uploads/2018/10/ssl2.png" alt="ssl2" width="600" height="540" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl2" src="/wp-content/uploads/2018/10/ssl2.png" alt="ssl2" width="600" height="540" border="0" /></p>
 <p>認証したところは、Let’s Encrypt というCAのようです。</p>
 <p>128bit の鍵長で、TLS1.2 のようです。ちなみに、この鍵は、2の128乗、10進法では39桁の数値</p>
 <h4 align="center">340,282,366,920,938,463,463,374,607,431,768,211,456</h4>
@@ -72,12 +72,12 @@ ns junkhack ns3.wordpress.com.</p></blockquote>
 <p>という十分なものです。IPv6アドレスの数と同じですね。</p>
 <p>CNのドメインは、tls.automattic.com のようですね。この説明は以下にあります。</p>
 <p><a title="https://en.support.wordpress.com/https-ssl/" href="https://en.support.wordpress.com/https-ssl/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://en.support.wordpress.com/https-ssl/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl3" src="https://hack.gpl.jp/wp-content/uploads/2018/10/ssl3.png" alt="ssl3" width="611" height="616" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl3" src="/wp-content/uploads/2018/10/ssl3.png" alt="ssl3" width="611" height="616" border="0" /></p>
 <p>他のドメインの証明書なのに、ブラウザで安全な接続となるのは、HTTPSレスポンスでStrict-Transport-Security（HSTS）ヘッダーを送信してブラウザが認識するとう内容のようですが、詳細はよく理解できていません。もう少し、コマンドラインのクライアントで詳細を見学してみます。</p>
 <p>wget で見てみると以下のようになります。</p>
 <blockquote><p>$ wget -S &#8211;spider hack.gpl.jp<br />
 Spider mode enabled. Check if remote file exists.<br />
-&#8211;2018-10-18 00:38:23&#8211;  <a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/</a><br />
+&#8211;2018-10-18 00:38:23&#8211;  <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
 Resolving hack.gpl.jp&#8230; 192.0.78.25, 192.0.78.24<br />
 <strong>Connecting to hack.gpl.jp|192.0.78.25|:80</strong>&#8230; connected.<br />
 HTTP request sent, awaiting response&#8230;<br />
@@ -87,11 +87,11 @@ Date: Wed, 17 Oct 2018 15:38:23 GMT<br />
 Content-Type: text/html<br />
 Content-Length: 178<br />
 Connection: keep-alive<br />
-Location: <a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/</a><br />
+Location: <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
 X-ac: 3.nrt _bur<br />
-Location: <a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/</a> [following]<br />
+Location: <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a> [following]<br />
 Spider mode enabled. Check if remote file exists.<br />
-&#8211;2018-10-18 00:38:23&#8211;  <a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/</a><br />
+&#8211;2018-10-18 00:38:23&#8211;  <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
 <strong>Connecting to hack.gpl.jp|192.0.78.25|:443</strong>&#8230; connected.<br />
 HTTP request sent, awaiting response&#8230;<br />
 HTTP/1.1 200 OK<br />
@@ -109,7 +109,7 @@ Length: unspecified [text/html]<br />
 Remote file exists and could contain further links,<br />
 but recursion is disabled &#8212; not retrieving.</p></blockquote>
 <p>まず初回アクセスは、http アクセスで、hack.gpl.jp へアクセスします。名前解決し、192.0.78.25, 192.0.78.24のいずれかに接続。この時は、192.0.78.25に接続しています。</p>
-<p>接続したのは、nginx のWEBサーバのようです。301は恒久的なリダイレクトで、その接続先は、<a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/</a> です。</p>
+<p>接続したのは、nginx のWEBサーバのようです。301は恒久的なリダイレクトで、その接続先は、<a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a> です。</p>
 <p>SSL接続したときは、Strict-Transport-Security: max-age=86400　というヘッダーがついていますね。1日（86400秒）は、https でSSL接続するというブラウザの挙動（実装による）となるようです。</p>
 <p>X-hackerヘッダーがついているのが笑えます。</p>
 <p>X-hacker: If you&#8217;re reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.</p>
@@ -133,7 +133,7 @@ curl 7.43.0 (x86_64-apple-darwin15.0) libcurl/7.43.0 SecureTransport zlib/1.2.5<
 &lt;/body&gt;<br />
 &lt;/html&gt;</p></blockquote>
 <p>tls1.2 で通信すると見えます。</p>
-<blockquote><p>$ curl -v &#8211;tlsv1.2 <a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/</a><br />
+<blockquote><p>$ curl -v &#8211;tlsv1.2 <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
 *   Trying 192.0.78.24&#8230;<br />
 * Connected to hack.gpl.jp (192.0.78.24) port 443 (#0)<br />
 * TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256<br />
@@ -267,18 +267,18 @@ hack.gpl.jp.    184    IN    A    192.0.78.24</p>
 			</item>
 		<item>
 		<title>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</title>
-		<link>https://hack.gpl.jp/2018/10/17/20181017/</link>
+		<link>/2018/10/17/20181017/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 16 Oct 2018 17:50:31 +0000</pubDate>
 				<category><![CDATA[ViewUP]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[wordpress.com]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4632</guid>
+		<guid isPermaLink="false">/?p=4632</guid>
 							<description><![CDATA[この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。 さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。 やっぱりブログに愛着がわくかどうかって、ま [&#8230;]]]></description>
 										<content:encoded><![CDATA[</p>
 <p>この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。</p>
-<p><img title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="https://hack.gpl.jp/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
+<p><img title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
 <p>さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。</p>
 <p>やっぱりブログに愛着がわくかどうかって、まず独自ドメインにすることかなって思いまず最初の１っ歩目を踏み出しました。</p>
 <p>&nbsp;</p>
@@ -295,7 +295,7 @@ hack.gpl.jp.    184    IN    A    192.0.78.24</p>
 <p>&nbsp;</p>
 <p>しかし、仕事でさんざんサーバ回りをいじっているし趣味の世界はネタに没頭したいって思いのほうが強くなりました。やっぱり、心配ごとは少ないほうがいいです。なので、WordPress.com のビジネスプランまで視野に入れて、まずはパーソナルで契約することに。</p>
 <p><a title="https://ja.wordpress.com/pricing/" href="https://ja.wordpress.com/pricing/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.com/pricing/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="https://hack.gpl.jp/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
+<p><img title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
 <p>&nbsp;</p>
 <p>パーソナルでも、ドメインをマッピングすることは可能です。オンラインチャットでもいろいろ気になることをきいておきました。</p>
 <p>&nbsp;</p>
@@ -310,7 +310,7 @@ hack.gpl.jp.    184    IN    A    192.0.78.24</p>
 <p>ということで、パーソナルプランから初めてみました。ここでの恩恵は、ドメインをマッピングできることと、広告が消えることです。グーグルのアナリティクスや、独自のテーマやプラグインなどは入れられないので、あくまで通過点のつもりです。</p>
 <p>月400円なんで、低価格のレンサバ並みです。この時点ではまだ、WordPress.com の優位性はあまりないのかなという印象です。しかし、独自ドメインでSSLアクセスになること(これは想定外でした)</p>
 <p>も加味すると、これもありかなと思えます。ドメインマッピングは年間1600円でも可能なようです。ドメインを保有して、他のレジストラで管理している場合はこれもとりあえずはありかもしれません。</p>
-<p><img title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="https://hack.gpl.jp/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
+<p><img title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
 <p>今後は、少し頻度を上げて記事を書いていければなーと思っています。</p>
 <p>次回は、WordPress の有料プランについて何かレポートしようかな。いつも、ここらあたりの下に広告が出ていたんですが消えましたね！広告がないとやっぱりいいですね。</p>
 <p>では、また！</p>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>espeink &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 01 Jan 2016 17:56:05 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>1us Lチカ</title>
-		<link>https://hack.gpl.jp/2016/01/02/1us-l%e3%83%81%e3%82%ab/</link>
+		<link>/2016/01/02/1us-l%e3%83%81%e3%82%ab/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 01 Jan 2016 17:56:05 +0000</pubDate>
@@ -30,20 +30,20 @@
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[OrangePi]]></category>
 		<category><![CDATA[OrangePiPC]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1973</guid>
+		<guid isPermaLink="false">/?p=1973</guid>
 							<description><![CDATA[2016年 謹賀新年、あけましておめでとうございます。おせち料理も31日と1日で食べつくしてしまいました。 さて、今年最初のブログですね。0.000001秒のLチカをロジックアナライザーでモニタリングして光らせてみました [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>2016年 謹賀新年、あけましておめでとうございます。おせち料理も31日と1日で食べつくしてしまいました。</p>
 <p>さて、今年最初のブログですね。0.000001秒のLチカをロジックアナライザーでモニタリングして光らせてみました。</p>
 <p>あと、オレンジパイで、8本のGPIO を使って安価なロジックアナライザーで採取できるかも確認してみました。</p>
 <p>&#160;</p>
 <p>サンプルプログラムを採取したデータが以下です。8本分は取れていますが、速すぎるところは取りこぼしているようです。</p>
-<p><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="https://hack.gpl.jp/wp-content/uploads/2016/01/1.png" width="640" height="319" /> </p>
+<p><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/01/1.png" width="640" height="319" /> </p>
 <p>矢印は500ns で光っている部分で採取に失敗し、取りこぼす事がありました。このあたりが2Mhz の限界なんですね。今のファームウェアとソフトウェアだとこれが限界のようです。</p>
-<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="https://hack.gpl.jp/wp-content/uploads/2016/01/2.png" width="640" height="320" /> </p>
+<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320" /> </p>
 <p>複数のLED は、blink ファンクションにて光らせていますが、呼び出しと初期化の処理で250us 程度使っているようです。</p>
-<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="https://hack.gpl.jp/wp-content/uploads/2016/01/3.png" width="640" height="320" /> </p>
+<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/3.png" width="640" height="320" /> </p>
 <p>usleep 関数を使っても思ったより、処理に時間がかかるようです。1us を指定して光らせているんですが、実際は69us 光っています。nanosleep を使っても66us は使われてしまうようで、1us を光らせる為にwhile で調整してみました。</p>
-<p><img title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="https://hack.gpl.jp/wp-content/uploads/2016/01/4.png" width="640" height="319" /> </p>
+<p><img title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/01/4.png" width="640" height="319" /> </p>
 <p>サンプルのプログラムは以下です。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
  *  +-----+-----+----------+------+---+--OrangePiPC--+---+------+---------+-----+--+
@@ -161,7 +161,7 @@ int blink2(int led, int delay){
 			</item>
 		<item>
 		<title>FX2LP でsigrok のロジックアナライザー</title>
-		<link>https://hack.gpl.jp/2015/12/27/fx2lp-%e3%81%a7sigrok-%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%83%bc/</link>
+		<link>/2015/12/27/fx2lp-%e3%81%a7sigrok-%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%83%bc/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 27 Dec 2015 12:26:13 +0000</pubDate>
@@ -171,18 +171,18 @@ int blink2(int led, int delay){
 		<category><![CDATA[OrangePi]]></category>
 		<category><![CDATA[OrangePiPC]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1946</guid>
+		<guid isPermaLink="false">/?p=1946</guid>
 							<description><![CDATA[年末で、何かとイベントごとがあってなかなかブログを更新できずにいました。 Aliexpress からもどんどんお品が届いて、ロジックアナライザーとして使うボードも到着しました。テストがてら、OrangePi PC の G [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>年末で、何かとイベントごとがあってなかなかブログを更新できずにいました。</p>
 <p>Aliexpress からもどんどんお品が届いて、ロジックアナライザーとして使うボードも到着しました。テストがてら、OrangePi PC の GPIO につないだLED のタイミングを計測してみること。</p>
 <p>配線は、とりあえず1チャンネルでテスト。全部で8チャンネルいけます。</p>
-<p><img title="logic2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic2" src="https://hack.gpl.jp/wp-content/uploads/2015/12/logic2.jpg" width="640" height="480" /> </p>
+<p><img title="logic2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic2" src="/wp-content/uploads/2015/12/logic2.jpg" width="640" height="480" /> </p>
 <p>ちょっとわかりにくいですが、PB0 ～ PB7 までの端子が sigrok でいう0から7 までに対応しています。とりあえず今回はPB0 の端子につないで1チャンネルの表示をしてみました。</p>
-<p><img title="PulseView1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView1" src="https://hack.gpl.jp/wp-content/uploads/2015/12/pulseview1.png" width="640" height="445" /> </p>
+<p><img title="PulseView1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView1" src="/wp-content/uploads/2015/12/pulseview1.png" width="640" height="445" /> </p>
 </p>
 <p>全体のテスト配線は以下のような感じです。</p>
 <p>&#160;</p>
-<p> <img title="logic" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic" src="https://hack.gpl.jp/wp-content/uploads/2015/12/logic.jpg" width="640" height="480" />   </p>
+<p> <img title="logic" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic" src="/wp-content/uploads/2015/12/logic.jpg" width="640" height="480" />   </p>
 <p>osx だと sigrok のソフトウェアの中にファームウェアがあります。最新のファームウェアは、以下にビルド済みのものがあります。</p>
 <blockquote>
 <p>fx2lafw (pre-built firmware files の項を参照)      <br /><a title="http://sigrok.org/wiki/Fx2lafw" href="http://sigrok.org/wiki/Fx2lafw" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://sigrok.org/wiki/Fx2lafw<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
@@ -221,9 +221,9 @@ HOPE:sigrok-firmware junkhack$ </pre>
     <br /><a title="http://eliasoenal.com/2014/11/04/sigrok-for-os-x/" href="http://eliasoenal.com/2014/11/04/sigrok-for-os-x/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://eliasoenal.com/2014/11/04/sigrok-for-os-x/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>File Menu から Connect to Device を選択して、以下のようにスキャンすると出ました。</p>
-<p><img title="Connect_to_Device" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Connect_to_Device" src="https://hack.gpl.jp/wp-content/uploads/2015/12/connect_to_device.png" width="523" height="395" /> </p>
+<p><img title="Connect_to_Device" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Connect_to_Device" src="/wp-content/uploads/2015/12/connect_to_device.png" width="523" height="395" /> </p>
 <p>osx の USB 認識は、以下のようでした。</p>
-<p><img title="osxusb" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="osxusb" src="https://hack.gpl.jp/wp-content/uploads/2015/12/osxusb.png" width="354" height="320" /> </p>
+<p><img title="osxusb" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="osxusb" src="/wp-content/uploads/2015/12/osxusb.png" width="354" height="320" /> </p>
 <p>system_profiler で見ると以下のように出ます。</p>
 <p>&#160;</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ system_profiler SPUSBDataType
@@ -265,7 +265,7 @@ blink(void){
 <p>全体のプログラムは、末尾につけておきます。このプログラムは、libevent を使ってfifo ファイルに read イベントがあったら、上記のblink ファンクションが呼ばれる仕組みです。あとで、書きますが、nginx のログをパイプさせて監視させています。</p>
 <p>で、他のホストから ab で web アクセスしてみます。</p>
 <blockquote>
-<p>$ ab -n 5 -c 1 <a href="https://hack.gpl.jp/index.html" data-wpel-link="internal" rel="noopener noreferrer">https://hack.gpl.jp/index.html</a></p>
+<p>$ ab -n 5 -c 1 <a href="/index.html" data-wpel-link="internal" rel="noopener noreferrer">/index.html</a></p>
 </blockquote>
 <p>とりあえず、5回くらいで。nginx のアクセスログには、5回記録されています。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
@@ -274,11 +274,11 @@ blink(void){
 192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
 192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;</pre>
 <p>そのタイミングを取ると以下のようです。</p>
-<p><img title="PulseView" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView" src="https://hack.gpl.jp/wp-content/uploads/2015/12/pulseview.png" width="640" height="446" /></p>
+<p><img title="PulseView" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView" src="/wp-content/uploads/2015/12/pulseview.png" width="640" height="446" /></p>
 <p>今度は、300us ほどにして、100回アクセスしてみました。ちゃんと100回、凹凸があるか数えたらありました。</p>
-<p><img title="PulseView_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PulseView_2" src="https://hack.gpl.jp/wp-content/uploads/2015/12/pulseview_2.png" width="640" height="403" /> </p>
+<p><img title="PulseView_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PulseView_2" src="/wp-content/uploads/2015/12/pulseview_2.png" width="640" height="403" /> </p>
 <p>マウスホイールすると拡大できます。300us より若干大きくなっているのは、イベント処理のプログラムや時計の誤差などの影響ですかね。</p>
-<p><img title="300us" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="300us" src="https://hack.gpl.jp/wp-content/uploads/2015/12/300us.png" width="640" height="404" /> </p>
+<p><img title="300us" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="300us" src="/wp-content/uploads/2015/12/300us.png" width="640" height="404" /> </p>
 <p>1ms くらいのものは問題なく見れそうということがわかりました。2Mhz 以上あげると、固まるのはなぜですかね。24Mhz までいけるはずですが？</p>
 <p>&#160;</p>
 <p>1us 単位の計測が今のところできないです。あと、トリガーをかけようとチャンネルをクリックすると落ちる。うーん、独自にコンパイルしてみるしかなさそうですね。</p>
@@ -298,21 +298,21 @@ blink(void){
 			</item>
 		<item>
 		<title>開発ボードがコハクラフトさんより到着</title>
-		<link>https://hack.gpl.jp/2015/12/04/%e9%96%8b%e7%99%ba%e3%83%9c%e3%83%bc%e3%83%89%e3%81%8c%e3%82%b3%e3%83%8f%e3%82%af%e3%83%a9%e3%83%95%e3%83%88%e3%81%95%e3%82%93%e3%82%88%e3%82%8a%e5%88%b0%e7%9d%80/</link>
+		<link>/2015/12/04/%e9%96%8b%e7%99%ba%e3%83%9c%e3%83%bc%e3%83%89%e3%81%8c%e3%82%b3%e3%83%8f%e3%82%af%e3%83%a9%e3%83%95%e3%83%88%e3%81%95%e3%82%93%e3%82%88%e3%82%8a%e5%88%b0%e7%9d%80/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Dec 2015 10:06:19 +0000</pubDate>
 				<category><![CDATA[ESP8266]]></category>
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[PCB]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1824</guid>
+		<guid isPermaLink="false">/?p=1824</guid>
 							<description><![CDATA[kohacraftさんよりE-ink の開発ボードが到着しました。ありがとうございます。 PINヘッダーがあるので、自由に信号を入れ放題！電源部は、LT1945 から供給。コイルは、Coilcraft さぁ、うまく表示で [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p><a href="http://kohacraft.com/tag/%E9%9B%BB%E5%AD%90%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">kohacraft<span class="wpel-icon wpel-image wpel-icon-1"></span></a>さんよりE-ink の開発ボードが到着しました。ありがとうございます。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/12/a3.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="https://hack.gpl.jp/wp-content/uploads/2015/12/a_thumb1.jpg" width="640" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/a3.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/12/a_thumb1.jpg" width="640" height="480" /></a></p>
 <p>PINヘッダーがあるので、自由に信号を入れ放題！電源部は、LT1945 から供給。コイルは、Coilcraft</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/12/b1.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="https://hack.gpl.jp/wp-content/uploads/2015/12/b_thumb1.jpg" width="640" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/b1.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/12/b_thumb1.jpg" width="640" height="480" /></a></p>
 <p>さぁ、うまく表示できるでしょうか。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/12/scan21.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="Scan 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 2" src="https://hack.gpl.jp/wp-content/uploads/2015/12/scan2_thumb.png" width="638" height="563" /></a>実験にあたり、まだ下準備が整っていないのでそこから着手しないとです。</p>
+<p><a href="/wp-content/uploads/2015/12/scan21.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="Scan 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 2" src="/wp-content/uploads/2015/12/scan2_thumb.png" width="638" height="563" /></a>実験にあたり、まだ下準備が整っていないのでそこから着手しないとです。</p>
 <p>まずは、ESP8266 から信号を入れるため、ESP側の開発ボードの半田付けをして、シフトレジスターを用意する作業があります。 ご飯食べて、気力を回復させてから、本日は何か１つ作業を進めたいです。</p>
 ]]></content:encoded>
 					
@@ -321,14 +321,14 @@ blink(void){
 			</item>
 		<item>
 		<title>RasPi2 でCの王道？ WiringPi</title>
-		<link>https://hack.gpl.jp/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/</link>
-					<comments>https://hack.gpl.jp/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/#comments</comments>
+		<link>/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/</link>
+					<comments>/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 Dec 2015 21:28:35 +0000</pubDate>
 				<category><![CDATA[espeink]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1811</guid>
+		<guid isPermaLink="false">/?p=1811</guid>
 							<description><![CDATA[とりあえず、RasPi でC を検索したら一番最初にヒットしたので、これで。 オフィシャル http://wiringpi.com/ GITHUB https://github.com/WiringPi Ruby や P [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>とりあえず、RasPi でC を検索したら一番最初にヒットしたので、これで。</p>
 <blockquote>
@@ -449,9 +449,9 @@ Copyright (c) 2012-2015 Gordon Henderson
 
 [root@pi work 12/04 06:17:14]# </pre>
 <p>とりあえず、使ってみます。</p>
-<p><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="https://hack.gpl.jp/wp-content/uploads/2015/12/a2.jpg" width="584" height="778" /> </p>
+<p><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/12/a2.jpg" width="584" height="778" /> </p>
 <p>いつもPIN番号を忘れて検索します。貼り付けておくことに。ラズパイのピン。</p>
-<p><img title="Raspberry-Pi-GPIO-compressed" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Raspberry-Pi-GPIO-compressed" src="https://hack.gpl.jp/wp-content/uploads/2015/12/raspberrypigpiocompressed.jpg" width="640" height="463" /> </p>
+<p><img title="Raspberry-Pi-GPIO-compressed" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Raspberry-Pi-GPIO-compressed" src="/wp-content/uploads/2015/12/raspberrypigpiocompressed.jpg" width="640" height="463" /> </p>
 <p>コードは以下。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">// Include header file
 #include &lt;wiringPi.h&gt;
@@ -597,21 +597,21 @@ int main(void) {
 <p>コハクラフトさんからも発送されたようで、土日にはなんらか楽しめそうです。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>E-inkディスプレイでテスト準備</title>
-		<link>https://hack.gpl.jp/2015/12/02/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%a7%e3%83%86%e3%82%b9%e3%83%88%e6%ba%96%e5%82%99/</link>
+		<link>/2015/12/02/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%a7%e3%83%86%e3%82%b9%e3%83%88%e6%ba%96%e5%82%99/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 01 Dec 2015 15:09:58 +0000</pubDate>
 				<category><![CDATA[ESP8266]]></category>
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1793</guid>
+		<guid isPermaLink="false">/?p=1793</guid>
 							<description><![CDATA[さて、年末に向けてE-ink を表示するテストが出来そうなので、その準備をしています。 開発ボードは、ブログで先駆者がいらっしゃって、なんと開発ボードを分けていただくことになりました。ありがとうございます。 kohacr [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>さて、年末に向けてE-ink を表示するテストが出来そうなので、その準備をしています。</p>
 <p>開発ボードは、ブログで先駆者がいらっしゃって、なんと開発ボードを分けていただくことになりました。ありがとうございます。</p>
@@ -621,7 +621,7 @@ int main(void) {
 <p>E-ink ディスプレイのコネクタはPCB上につけないと無理な配線なので、電源部とコネクタから構成される開発ボードを作られていました。こちらは、まだPCB作ってないのでテストできていない旨をブログでコメントしたところ、好意で開発ボードを分けていただくことになりました。コハクラフトさま、本当にありがとうございます。E-ink のPCB発注は来年かぁと思っていたので、年末に遊べそうです。</p>
 <p>&#160;</p>
 <p>以下の回路図は、sprite_tm さんのページにある手書きのものをトレースしたものです。配線するときの覚書としてメモしておくことに。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/12/2_schematic_eink.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="https://hack.gpl.jp/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356" /></a> ただいま、コハクラフト開発ルームにてハンドメイドで半田付けが行われている最中です。こちらは、シフトレジスタ部とESP側の準備をしています。そして、先に発注してあるロジックアナライザーも今年中に来ると思いますので、どんな手順を踏めば表示されるのかを解き明かしていきたいと思います。</p>
+<p><a href="/wp-content/uploads/2015/12/2_schematic_eink.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356" /></a> ただいま、コハクラフト開発ルームにてハンドメイドで半田付けが行われている最中です。こちらは、シフトレジスタ部とESP側の準備をしています。そして、先に発注してあるロジックアナライザーも今年中に来ると思いますので、どんな手順を踏めば表示されるのかを解き明かしていきたいと思います。</p>
 <p>&#160;</p>
 <p>英語ソースでは先人がいるのですが、まだ要点がつかめず、ポイントの要になる部分がわかりません。コハクラフトさんのブログでいくつか解き明かされて、ソニーのdigital book reader PRS-600 本体にE-ink を挿げ替えても表示が可能だそうです。Sony のE-ink には、LB060S01-RD02 という型番のE-ink で、今回手持ちで流通している、ED060SC4(LF)を繋げても表示できるということがわかっています。上の回路図では、9pin , 10pin は繋がっていますが、そこはポイントではなさそうということが状況から言えそうです。</p>
 <p>要するに、E-ink に入れる信号のタイミングがポイントになることは間違いなさそうです。</p>

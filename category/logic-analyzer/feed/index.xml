@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ロジックアナライザ &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 19 Feb 2021 23:36:07 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>ロジックアナライザでI2C 信号を見ると</title>
-		<link>https://hack.gpl.jp/2016/02/01/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%81%a7i2c-%e4%bf%a1%e5%8f%b7%e3%82%92%e8%a6%8b%e3%82%8b%e3%81%a8/</link>
+		<link>/2016/02/01/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%81%a7i2c-%e4%bf%a1%e5%8f%b7%e3%82%92%e8%a6%8b%e3%82%8b%e3%81%a8/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2016 15:11:08 +0000</pubDate>
@@ -29,11 +29,11 @@
 		<category><![CDATA[I2C]]></category>
 		<category><![CDATA[PCB]]></category>
 		<category><![CDATA[ロジックアナライザ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2081</guid>
+		<guid isPermaLink="false">/?p=2081</guid>
 							<description><![CDATA[INA226 と arduino の I2C 信号をロジックアナライザで見てみました。 コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。 トリガは、SDA にかけました。Hi から Low になって [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>INA226 と arduino の I2C 信号をロジックアナライザで見てみました。</p>
 <p>コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。</p>
-<p> <a href="https://hack.gpl.jp/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="https://hack.gpl.jp/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
+<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
 <p>トリガは、SDA にかけました。Hi から Low になって信号が行くようです。</p>
 <p>まず、I2C アドレス0x40 のレジスタ 0x02 を投げて、値が帰ってくる流れが見えます。読み出しには、1.7ms ほどかかっていることがわかりました。ビットの信号は、4us 程度のようです。SDAでビットが立っているのを判別しているようです。</p>
 <p>&#160;</p>
@@ -58,7 +58,7 @@
 			</item>
 		<item>
 		<title>ロジックアナライザーをゲット</title>
-		<link>https://hack.gpl.jp/2015/11/29/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%83%bc%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/</link>
+		<link>/2015/11/29/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%83%bc%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 Nov 2015 11:53:57 +0000</pubDate>
@@ -66,7 +66,7 @@
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[ロジックアナライザ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1779</guid>
+		<guid isPermaLink="false">/?p=1779</guid>
 							<description><![CDATA[ESP8266で E-ink を表示させるために、信号解析用のロジックアナライザーが必要になりそうなので、安いものを探しました。 以前、Logic Pirate （とLogic Snifferで動作）というのを知りました [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>ESP8266で E-ink を表示させるために、信号解析用のロジックアナライザーが必要になりそうなので、安いものを探しました。</p>
@@ -77,7 +77,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p><a href="https://hack.gpl.jp/2015/10/26/logic-pirate-%E3%81%A8%E3%81%84%E3%81%86%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">Logic Pirate というオープンソースのロジックアナライザ</a></p></blockquote>
+<blockquote class="wp-block-quote"><p><a href="/2015/10/26/logic-pirate-%E3%81%A8%E3%81%84%E3%81%86%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">Logic Pirate というオープンソースのロジックアナライザ</a></p></blockquote>
 
 
 
@@ -85,7 +85,7 @@
 
 
 
-<blockquote><p><a href="http://www.lctech-inc.com/Hardware/Detail.aspx?id=7cadef7b-359a-4e3d-b980-76ffa15171e0" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">EZ-USB FX2LP CY7C68013A USB Development Board Core Board Logic Analyzer<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p><figure><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/cy7c68013a.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="CY7C68013A" src="https://hack.gpl.jp/wp-content/uploads/2015/11/cy7c68013a_thumb.jpg" alt="CY7C68013A" width="640" height="449" border="0"></a></figure></blockquote>
+<blockquote><p><a href="http://www.lctech-inc.com/Hardware/Detail.aspx?id=7cadef7b-359a-4e3d-b980-76ffa15171e0" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">EZ-USB FX2LP CY7C68013A USB Development Board Core Board Logic Analyzer<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p><figure><a href="/wp-content/uploads/2015/11/cy7c68013a.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="CY7C68013A" src="/wp-content/uploads/2015/11/cy7c68013a_thumb.jpg" alt="CY7C68013A" width="640" height="449" border="0"></a></figure></blockquote>
 
 
 
@@ -111,7 +111,7 @@
 
 
 
-<blockquote><p><a title="http://sigrok.org/wiki/Main_Page" href="http://sigrok.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://sigrok.org/wiki/Main_Page<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p><figure><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/sigrok_logo.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="display: inline; border-width: 0;" title="sigrok_logo" src="https://hack.gpl.jp/wp-content/uploads/2015/11/sigrok_logo_thumb.png" alt="sigrok_logo" width="135" height="135" border="0"></a></figure></blockquote>
+<blockquote><p><a title="http://sigrok.org/wiki/Main_Page" href="http://sigrok.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://sigrok.org/wiki/Main_Page<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p><figure><a href="/wp-content/uploads/2015/11/sigrok_logo.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="display: inline; border-width: 0;" title="sigrok_logo" src="/wp-content/uploads/2015/11/sigrok_logo_thumb.png" alt="sigrok_logo" width="135" height="135" border="0"></a></figure></blockquote>
 
 
 
@@ -119,7 +119,7 @@
 
 
 
-<figure class="wp-block-image"><img src="https://hack.gpl.jp/wp-content/uploads/2015/11/windows7__running_.png" alt="Windows7__Running_" title="Windows7__Running_"/></figure>
+<figure class="wp-block-image"><img src="/wp-content/uploads/2015/11/windows7__running_.png" alt="Windows7__Running_" title="Windows7__Running_"/></figure>
 
 
 
@@ -320,11 +320,11 @@ HOPE:~ junkhack$ </pre>
 
 
 
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/applications.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="_Applications" src="https://hack.gpl.jp/wp-content/uploads/2015/11/applications_thumb.png" alt="_Applications" width="306" height="415" border="0"></a>ちょっとバージョンは古いようですが、osx でも動作するようです。</p>
+<p><a href="/wp-content/uploads/2015/11/applications.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="_Applications" src="/wp-content/uploads/2015/11/applications_thumb.png" alt="_Applications" width="306" height="415" border="0"></a>ちょっとバージョンは古いようですが、osx でも動作するようです。</p>
 
 
 
-<p>ドラッグでタイムラインの移動、マウスホイールで信号の拡大縮小できるインターフェイスです。各種信号解析も可能なようです。デジタルは8チャンネル入るようですので、これで十分用は足せそうです。DHT の温度センサーのデータ解析もあるようです。自分にはこれで十分だと思います。<a href="https://hack.gpl.jp/wp-content/uploads/2015/11/osx.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="osx" src="https://hack.gpl.jp/wp-content/uploads/2015/11/osx_thumb.png" alt="osx" width="450" height="768" border="0"></a> サポートするハードウェアはかなりたくさんあって、迷います。とりあえず、8チャンネル取れるもので、安いものを選びました。</p>
+<p>ドラッグでタイムラインの移動、マウスホイールで信号の拡大縮小できるインターフェイスです。各種信号解析も可能なようです。デジタルは8チャンネル入るようですので、これで十分用は足せそうです。DHT の温度センサーのデータ解析もあるようです。自分にはこれで十分だと思います。<a href="/wp-content/uploads/2015/11/osx.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="osx" src="/wp-content/uploads/2015/11/osx_thumb.png" alt="osx" width="450" height="768" border="0"></a> サポートするハードウェアはかなりたくさんあって、迷います。とりあえず、8チャンネル取れるもので、安いものを選びました。</p>
 
 
 
@@ -338,7 +338,7 @@ http://sigrok.org/wiki/Supported_hardware
 
 
 
-<figure class="wp-block-image"><a href="https://hack.gpl.jp/wp-content/uploads/2015/11/supported_hardware__sigrok.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img src="https://hack.gpl.jp/wp-content/uploads/2015/11/supported_hardware__sigrok_thumb.png" alt="Supported_hardware_-_sigrok" title="Supported_hardware_-_sigrok"/></a></figure>
+<figure class="wp-block-image"><a href="/wp-content/uploads/2015/11/supported_hardware__sigrok.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img src="/wp-content/uploads/2015/11/supported_hardware__sigrok_thumb.png" alt="Supported_hardware_-_sigrok" title="Supported_hardware_-_sigrok"/></a></figure>
 
 
 
@@ -655,14 +655,14 @@ $ sudo make install
 			</item>
 		<item>
 		<title>Logic Pirate というオープンソースのロジックアナライザ</title>
-		<link>https://hack.gpl.jp/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/</link>
-					<comments>https://hack.gpl.jp/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/#comments</comments>
+		<link>/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/</link>
+					<comments>/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 26 Oct 2015 11:51:20 +0000</pubDate>
 				<category><![CDATA[PCB]]></category>
 		<category><![CDATA[ロジックアナライザ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1489</guid>
+		<guid isPermaLink="false">/?p=1489</guid>
 							<description><![CDATA[ちょっと脱線しますが、次に作りたいものをメモしておきます。 ロジックアナライザという計測ツールがあるんですが、最初の一台に安くてハードから作れてソフトウェアもあるものを探していたら、以下がありました。 Logic Pir [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ちょっと脱線しますが、次に作りたいものをメモしておきます。</p>
 <p>ロジックアナライザという計測ツールがあるんですが、最初の一台に安くてハードから作れてソフトウェアもあるものを探していたら、以下がありました。</p>
@@ -671,16 +671,16 @@ $ sudo make install
 <p><a title="http://dangerousprototypes.com/docs/Logic_Pirate" href="http://dangerousprototypes.com/docs/Logic_Pirate" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://dangerousprototypes.com/docs/Logic_Pirate<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>8チャンネルで、オーバークロックして６０Mhzで動作するようです。メモリには256Kまでのサンプリングが可能だそうです。</p>
-<p><img title="Logic_pirate" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Logic_pirate" src="https://hack.gpl.jp/wp-content/uploads/2015/10/logic_pirate.jpg" width="600" height="470" /> </p>
+<p><img title="Logic_pirate" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Logic_pirate" src="/wp-content/uploads/2015/10/logic_pirate.jpg" width="600" height="470" /> </p>
 <p>完成した基板も3000円ほどで売っていますが、なぞって作ってみるのも勉強になるのでPCBから作ってみたいと思っています。</p>
 <p>イーグルファイルもありますし、ドキュメントも揃っています。</p>
-<p><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="https://hack.gpl.jp/wp-content/uploads/2015/10/17.png" width="480" height="478" /> </p>
+<p><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/10/17.png" width="480" height="478" /> </p>
 <p>工夫すれば、もう少し小さくなると思うので、組みなおして作ってみたいなと。部品代も安くておそらく1000円未満だと思います。</p>
 <p>メインのチップは、32bit のMicrochip Technology PIC32MX250F128B-I/SO だそうです。</p>
 </p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2015/10/untitled.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="Untitled" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Untitled" src="https://hack.gpl.jp/wp-content/uploads/2015/10/untitled_thumb.png" width="640" height="441" /></a></p>
+<p><a href="/wp-content/uploads/2015/10/untitled.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="Untitled" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Untitled" src="/wp-content/uploads/2015/10/untitled_thumb.png" width="640" height="441" /></a></p>
 <p>ソフトは、Java製でosx 向けにビルドされたものもあります。</p>
-<p>&#160;<img title="_Applications" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="_Applications" src="https://hack.gpl.jp/wp-content/uploads/2015/10/applications.png" width="261" height="319" /> </p>
+<p>&#160;<img title="_Applications" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="_Applications" src="/wp-content/uploads/2015/10/applications.png" width="261" height="319" /> </p>
 <p>10.9.5 で起動は確認しました。</p>
 <p>Logic Sniffer というソフトウェアで、オフィシャルサイトは以下です。</p>
 <blockquote>
@@ -688,9 +688,9 @@ $ sudo make install
 <p><a title="https://www.lxtreme.nl/ols/" href="https://www.lxtreme.nl/ols/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://www.lxtreme.nl/ols/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>License GPLv2</p>
 </blockquote>
-<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="https://hack.gpl.jp/wp-content/uploads/2015/10/23.png" width="527" height="469" /> </p>
+<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/10/23.png" width="527" height="469" /> </p>
 <p>オフィシャルサイトにスクリーンショットもあります。なんだか良くわかりませんが、素人が使う分にはとりあえず十分な感じです。</p>
-<p><img title="bw-theme" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="bw-theme" src="https://hack.gpl.jp/wp-content/uploads/2015/10/bwtheme.png" width="640" height="293" /> <img title="channel-annotations" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="channel-annotations" src="https://hack.gpl.jp/wp-content/uploads/2015/10/channelannotations.png" width="640" height="293" /> <img title="channel-grouping-and-analog-scope" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="channel-grouping-and-analog-scope" src="https://hack.gpl.jp/wp-content/uploads/2015/10/channelgroupingandanalogscope.png" width="640" height="314" /> <img title="cursors-and-signals" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="cursors-and-signals" src="https://hack.gpl.jp/wp-content/uploads/2015/10/cursorsandsignals.png" width="640" height="340" /> <img title="new-measurement-tool" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="new-measurement-tool" src="https://hack.gpl.jp/wp-content/uploads/2015/10/newmeasurementtool.png" width="640" height="340" /> <img title="uart-decoder-tool" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-decoder-tool" src="https://hack.gpl.jp/wp-content/uploads/2015/10/uartdecodertool.png" width="617" height="480" /> </p>
+<p><img title="bw-theme" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="bw-theme" src="/wp-content/uploads/2015/10/bwtheme.png" width="640" height="293" /> <img title="channel-annotations" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="channel-annotations" src="/wp-content/uploads/2015/10/channelannotations.png" width="640" height="293" /> <img title="channel-grouping-and-analog-scope" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="channel-grouping-and-analog-scope" src="/wp-content/uploads/2015/10/channelgroupingandanalogscope.png" width="640" height="314" /> <img title="cursors-and-signals" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="cursors-and-signals" src="/wp-content/uploads/2015/10/cursorsandsignals.png" width="640" height="340" /> <img title="new-measurement-tool" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="new-measurement-tool" src="/wp-content/uploads/2015/10/newmeasurementtool.png" width="640" height="340" /> <img title="uart-decoder-tool" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-decoder-tool" src="/wp-content/uploads/2015/10/uartdecodertool.png" width="617" height="480" /> </p>
 <p>&#160;</p>
 <blockquote>
 <p>参考サイト</p>
@@ -699,7 +699,7 @@ $ sudo make install
 </blockquote>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

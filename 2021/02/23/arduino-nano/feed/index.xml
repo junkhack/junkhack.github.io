@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Arduino Nano互換機に書き込めないだと！ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2021/02/23/arduino-nano/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2021/02/23/arduino-nano/</link>
+	<atom:link href="/2021/02/23/arduino-nano/feed/" rel="self" type="application/rss+xml" />
+	<link>/2021/02/23/arduino-nano/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 23 Oct 2021 03:32:26 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		吉田　純造 より		</title>
-		<link>https://hack.gpl.jp/2021/02/23/arduino-nano/#comment-131</link>
+		<link>/2021/02/23/arduino-nano/#comment-131</link>
 
 		<dc:creator><![CDATA[吉田　純造]]></dc:creator>
 		<pubDate>Sat, 23 Oct 2021 03:32:26 +0000</pubDate>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10154#comment-131</guid>
+		<guid isPermaLink="false">/?p=10154#comment-131</guid>
 
 					<description><![CDATA[できました
 ありがとう]]></description>

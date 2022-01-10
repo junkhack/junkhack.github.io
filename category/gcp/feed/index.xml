@@ -10,7 +10,7 @@
 
 <channel>
 	<title>GCP &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 13 Mar 2020 12:08:03 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>GCPのunixbench n1-standard-2（vCPU x 2、メモリ 7.5 GB）</title>
-		<link>https://hack.gpl.jp/2020/03/13/gcp-unixbench-n1standard2/</link>
+		<link>/2020/03/13/gcp-unixbench-n1standard2/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 13 Mar 2020 12:08:03 +0000</pubDate>
 				<category><![CDATA[GCP]]></category>
 		<category><![CDATA[Linux]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5030</guid>
+		<guid isPermaLink="false">/?p=5030</guid>
 							<description><![CDATA[Google Cloud &#x306E; Compute Engine &#x3092;&#x4F7F;&#x3046;&#x6A5F;&#x4F1A;&#x304C;&#x3042;&#x3063;&#x305F;&#038; [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Google Cloud &#x306E; Compute Engine &#x3092;&#x4F7F;&#x3046;&#x6A5F;&#x4F1A;&#x304C;&#x3042;&#x3063;&#x305F;&#x306E;&#x3067;&#x30E1;&#x30E2;&#x3002;</p>
 <blockquote>
@@ -38,12 +38,12 @@
 <p>866.3 &#x3063;&#x3066;&#x3053;&#x3068;&#x306F;&#x610F;&#x5916;&#x306B;&#x901F;&#x304F;&#x306F;&#x306A;&#x3044;&#x3093;&#x3067;&#x3059;&#x306D;&#x3002;</p>
 <p>&#x4EE5;&#x524D;&#xFF08;2018/01&#xFF09;&#x306B;&#x3001;g1-small&#xFF08;vCPU x 1&#x3001;&#x30E1;&#x30E2;&#x30EA; 1.7 GB&#xFF09;&#x3092;&#x8A08;&#x6E2C;&#x3057;&#x305F;&#x3053;&#x3068;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;&#x305D;&#x3093;&#x6642;&#x306F;&#x3001;683&#x3067;&#x3057;&#x305F;&#x3002;</p>
 <blockquote>
-<p>GCP f1-micro &#x306E;&nbsp;UnixBench<br />https://hack.gpl.jp/2020/03/13/gcp-unixbench-n1standard2/</p>
+<p>GCP f1-micro &#x306E;&nbsp;UnixBench<br />/2020/03/13/gcp-unixbench-n1standard2/</p>
 </blockquote>
 <p>2Core &#x306B;&#x3057;&#x3066;&#x3001;&#x30B7;&#x30F3;&#x30B0;&#x30EB;&#x306E;1.4&#x500D;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x3059;&#x304B;&#x3002;</p>
 <p>&#x3053;&#x3093;&#x306A;&#x69CB;&#x6210;&#x306E;&#x3068;&#x304D;&#x306F;&#x3001;&#x3082;&#x3046;&#x5C11;&#x3057;&#x30B9;&#x30B3;&#x30A2;&#x304C;&#x51FA;&#x3066;&#x307E;&#x3057;&#x305F;&#x306D;&#x3002;</p>
 <blockquote>
-<p><a href="https://hack.gpl.jp/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/" data-wpel-link="internal" rel="noopener noreferrer">&#x72EC;&#x81EA;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3067; WordPress &#x3092;&#x52D5;&#x4F5C;&#x3055;&#x305B;&#x308B;&#x70BA;&#x3001;&#x30A8;&#x30F3;&#x30B8;&#x30CB;&#x30A2;&#x304C;&#x9078;&#x3093;&#x3060;&#x9078;&#x629E;</a><br />::<br />score 1146<br />SSD &#x306E;n1-standard-1&#xFF08;vCPU x 1&#x3001;&#x30E1;&#x30E2;&#x30EA; 3.75 GB&#xFF09;</p>
+<p><a href="/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/" data-wpel-link="internal" rel="noopener noreferrer">&#x72EC;&#x81EA;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3067; WordPress &#x3092;&#x52D5;&#x4F5C;&#x3055;&#x305B;&#x308B;&#x70BA;&#x3001;&#x30A8;&#x30F3;&#x30B8;&#x30CB;&#x30A2;&#x304C;&#x9078;&#x3093;&#x3060;&#x9078;&#x629E;</a><br />::<br />score 1146<br />SSD &#x306E;n1-standard-1&#xFF08;vCPU x 1&#x3001;&#x30E1;&#x30E2;&#x30EA; 3.75 GB&#xFF09;</p>
 </blockquote>
 <p>&#x81EA;&#x5B85;&#x30B5;&#x30FC;&#x30D0;&#x306B;&#x3059;&#x308B;&#x3068;&#x304D;&#x306F;&#x3001;1000&#x301C;2000&#x304F;&#x3089;&#x3044;&#x306E;&#x30B9;&#x30DA;&#x30C3;&#x30AF;&#x304C;&#x51FA;&#x308B;&#x3082;&#x306E;&#x3092;&#x9078;&#x3076;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3059;&#x304B;&#x3002;&#x3042;&#x307E;&#x308A;&#x9AD8;&#x6A5F;&#x80FD;&#x3060;&#x3068;&#x96FB;&#x6C17;&#x4EE3;&#x304C;&#x304B;&#x304B;&#x308A;&#x307E;&#x3059;&#x304B;&#x3089;&#x306D;&#x3002;</p>
 <p>&#x30E4;&#x30D5;&#x30AA;&#x30AF;&#x306B;&#x8EE2;&#x304C;&#x3063;&#x3066;&#x308B;&#x3001;i5 &#xFF08;&#xFF14;&#x4E16;&#x4EE3;&#x304F;&#x3089;&#x3044;&#xFF09;&#x3067;&#x5341;&#x5206;&#x3067;&#x3059;&#x304B;&#x306D;&#x3002;</p>
@@ -55,13 +55,13 @@
 			</item>
 		<item>
 		<title>グーグルの仮想マシンに30GBのSSD追加して2週間の値段</title>
-		<link>https://hack.gpl.jp/2018/02/10/%e3%82%b0%e3%83%bc%e3%82%b0%e3%83%ab%e3%81%ae%e4%bb%ae%e6%83%b3%e3%83%9e%e3%82%b7%e3%83%b3%e3%81%ab30gb%e3%81%aessd%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a62%e9%80%b1%e9%96%93%e3%81%ae%e5%80%a4%e6%ae%b5/</link>
+		<link>/2018/02/10/%e3%82%b0%e3%83%bc%e3%82%b0%e3%83%ab%e3%81%ae%e4%bb%ae%e6%83%b3%e3%83%9e%e3%82%b7%e3%83%b3%e3%81%ab30gb%e3%81%aessd%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a62%e9%80%b1%e9%96%93%e3%81%ae%e5%80%a4%e6%ae%b5/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 09 Feb 2018 17:42:10 +0000</pubDate>
 				<category><![CDATA[GCP]]></category>
 		<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4375</guid>
+		<guid isPermaLink="false">/?p=4375</guid>
 							<description><![CDATA[今日は暖かかったように思いますが、みなさんのところはどうでしょうか？ さぁ、また楽しい週末になりましたよ。JunkHack は明日も休日出勤、お仕事なので明日の夜は浮かれています。最近の勤務は昼から終電間際までという感じ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今日は暖かかったように思いますが、みなさんのところはどうでしょうか？</p>
 <p>さぁ、また楽しい週末になりましたよ。JunkHack は明日も休日出勤、お仕事なので明日の夜は浮かれています。最近の勤務は昼から終電間際までという感じで、通勤時の自転車が暖かくていい感じです。まぁ、帰りは冷えひえなんですが。年間距離も6000km を超えました。</p>
@@ -73,8 +73,8 @@
 <p>&#160;</p>
 <h3>■グーグルクラウドの仮想マシンで2週間動かしてみた</h3>
 <p>先週に30GB の SSD ディスクを追加してさらに料金を見てみたところ以下のようになりました。</p>
-<p><img title="2week" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2week" src="https://hack.gpl.jp/wp-content/uploads/2018/02/2week.png" width="616" height="480" /> </p>
-<p>東京ゾーンで、g1-small（vCPU x 1、メモリ 1.7 GB）10GB SSD に39GB のSSD を追加した感じです。<img title="2week_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2week_JunkHackup" src="https://hack.gpl.jp/wp-content/uploads/2018/02/2week_junkhackup.png" width="599" height="480" /> </p>
+<p><img title="2week" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2week" src="/wp-content/uploads/2018/02/2week.png" width="616" height="480" /> </p>
+<p>東京ゾーンで、g1-small（vCPU x 1、メモリ 1.7 GB）10GB SSD に39GB のSSD を追加した感じです。<img title="2week_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2week_JunkHackup" src="/wp-content/uploads/2018/02/2week_junkhackup.png" width="599" height="480" /> </p>
 <p>１日あたり６５円くらいですかね。なんとか、１ヶ月2000円に収まるかどうかというところです。だいたい値段も見えてきましたので、明日は、アプリを入れてみようと思います。WordPress が動作するところまで寝るまでに動かしたいなと。</p>
 <p>&#160;</p>
 <h3>■ドメインも決定！ hack.gpl.jp </h3>
@@ -82,8 +82,8 @@
 <p> この gpl.jp は googleApps っていう現在は、G Suite というのに付属していて当時は、アカウント数2000 個、現在は1000個を運用できます。今は、もう無償版はなく、新規提供も停止していますので昔からのユーザにだけ提供しています。なかなか貴重で、１つづつのアカウントには、もれなく 15GB のドライブ領域もあり、15000GB 分の容量が合計してあります。odrive を使って年度や用途分のドライブを使っていますが、まぁ一生使えそうな感じです。新規にドメインを取得してもエイリアスで運用もできますのでメールは自分でホスティングしなくてもいいので大変助かっています。今のところ、初期ユーザはそのまま運用でき、見捨てない方針なので google が好きな理由の１つでもあります。</p>
 </p>
 <p>現在は、apache でとりあえず動かしていますが、以下のURLで今仕込んでいるサイトも見れますのでお暇な方は見ていってください。</p>
-<h3 align="center"><a href="https://hack.gpl.jp/" data-wpel-link="internal" rel="noopener noreferrer">http://<font color="#ff8000">junkhack<font color="#000000">.</font>gpl<font color="#000000">.</font>jp</font>/</a></h3>
-<h3 align="center"><img title="JH_logo" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="JH_logo" src="https://hack.gpl.jp/wp-content/uploads/2018/02/jh_logo.png" width="355" height="52" /> </h3>
+<h3 align="center"><a href="/" data-wpel-link="internal" rel="noopener noreferrer">http://<font color="#ff8000">junkhack<font color="#000000">.</font>gpl<font color="#000000">.</font>jp</font>/</a></h3>
+<h3 align="center"><img title="JH_logo" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="JH_logo" src="/wp-content/uploads/2018/02/jh_logo.png" width="355" height="52" /> </h3>
 <p>あ、そうそう、グーグルクラウドって逆引きもちゃんと設定できるんです。</p>
 <blockquote>
 <p>[root@junkhack ~]# dig -x <strong>35.190.225.234</strong> </p>
@@ -100,14 +100,14 @@
 			</item>
 		<item>
 		<title>GCP f1-micro の UnixBench</title>
-		<link>https://hack.gpl.jp/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/</link>
-					<comments>https://hack.gpl.jp/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/#comments</comments>
+		<link>/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/</link>
+					<comments>/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 28 Jan 2018 09:11:42 +0000</pubDate>
 				<category><![CDATA[GCP]]></category>
 		<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4340</guid>
+		<guid isPermaLink="false">/?p=4340</guid>
 							<description><![CDATA[前回の続きです。 今回は、f1-micro（vCPU x 1、メモリ 0.6 GB）の基本性能を UnixBench で計測してみました。ゾーンは、東京（asia-northeast1-a）です。 メモリが0.6GB な [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>前回の続きです。</p>
 <p>今回は、f1-micro（vCPU x 1、メモリ 0.6 GB）の基本性能を UnixBench で計測してみました。ゾーンは、東京（asia-northeast1-a）です。</p>
@@ -115,7 +115,7 @@
 <blockquote>
 <p># dd if=/dev/zero of=/swapfile bs=1M count=1024     <br /># chmod 600 /swapfile      <br /># mkswap /swapfile      <br /># swapon /swapfile      <br /># echo ‘/swapfile&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; swap&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; swap&#160;&#160;&#160; defaults&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0 0’ &gt;&gt; /etc/fstab</p>
 </blockquote>
-<p><img title="junkhack_gpl_jp_—_142×50" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_gpl_jp_—_142×50" src="https://hack.gpl.jp/wp-content/uploads/2018/01/junkhack_gpl_jp__14250.png" width="668" height="631" /> </p>
+<p><img title="junkhack_gpl_jp_—_142×50" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_gpl_jp_—_142×50" src="/wp-content/uploads/2018/01/junkhack_gpl_jp__14250.png" width="668" height="631" /> </p>
 <p>うーん、これはちょっと遅すぎます。ラズパイや、オレンジパイより遅い。こんなんだったら、ラズパイやオレンジパイを自宅サーバにしたほうがいいです。なので、これは選択外。</p>
 <p> まぁ、AWS の ti.micro でも260台しかでませんから、それと比べると健闘していると言っていいかもしれません。</p>
 <blockquote>
@@ -123,7 +123,7 @@
 <p>AWSの各リージョン・AZごとにti.microのUnixBenchを取ってみた – Qiita     <br /><a title="https://qiita.com/kou_bacchus/items/4616dd0031b4809898f0" href="https://qiita.com/kou_bacchus/items/4616dd0031b4809898f0" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://qiita.com/kou_bacchus/items/4616dd0031b4809898f0<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>次、g1-small（vCPU x 1、メモリ 1.7 GB）を計測してみます。</p>
-<p><img title="1.7_junkhack_gpl_jp_—_142×50" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1.7_junkhack_gpl_jp_—_142×50" src="https://hack.gpl.jp/wp-content/uploads/2018/01/1-7_junkhack_gpl_jp__14250.png" width="680" height="633" /> </p>
+<p><img title="1.7_junkhack_gpl_jp_—_142×50" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1.7_junkhack_gpl_jp_—_142×50" src="/wp-content/uploads/2018/01/1-7_junkhack_gpl_jp__14250.png" width="680" height="633" /> </p>
 </p>
 <p>さっきのより速いですが、これでもラズパイ相当です。うーんですね。</p>
 <p>とりあえず、このインスタンスを動かし続けて基礎的な値段を見てみます。こうなると、この前買ったノートPCの SSD に同じOSを入れてベンチマークを計測したくなりますね。</p>
@@ -152,25 +152,25 @@
 <p>しかし、自宅IoT のデータをちょびちょびと溜め込むような低トラフィックであれば有効活用できそうだということもわかりました。他にも工夫次第でいろんな用途に使えますね。なにせ、OS の中をまるっきり好きなようにいじれるわけですから。しかも、グローバルIPが１つついていますしね。</p>
 <p>&#160;</p>
 <p>さて、今月も月末ですので忘れないうちに、ページビューとサイト訪問者のグラフを貼り付けておきます。</p>
-<p><img title="Stats_‹_junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Stats_‹_junkhack_—_WordPress_com" src="https://hack.gpl.jp/wp-content/uploads/2018/01/stats__junkhack__wordpress_com.png" width="841" height="413" /> </p>
+<p><img title="Stats_‹_junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Stats_‹_junkhack_—_WordPress_com" src="/wp-content/uploads/2018/01/stats__junkhack__wordpress_com.png" width="841" height="413" /> </p>
 <p>あまり代わり映えしませんが、これからも仕事が忙しくても何か更新するライフワークにしていきたいですね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/feed/</wfw:commentRss>
+					<wfw:commentRss>/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>独自ドメインで WordPress を動作させる為、エンジニアが選んだ選択</title>
-		<link>https://hack.gpl.jp/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/</link>
-					<comments>https://hack.gpl.jp/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/#comments</comments>
+		<link>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/</link>
+					<comments>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 27 Jan 2018 22:37:24 +0000</pubDate>
 				<category><![CDATA[GCP]]></category>
 		<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4331</guid>
+		<guid isPermaLink="false">/?p=4331</guid>
 							<description><![CDATA[はい、JunkHack です。1月も200時間越えてお仕事しています。はぁ。あんまり残業好きじゃないんですがね。 &#160; 今回の要約は以下のようになっています。 ・独自ドメインでブログ（WordPress）を運営す [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>はい、JunkHack です。1月も200時間越えてお仕事しています。はぁ。あんまり残業好きじゃないんですがね。</p>
 <p>&#160;</p>
@@ -191,9 +191,9 @@
 <p> そうなると、AWS などのクラウド上に仮想サーバを作るタイプになってくるわけですが、そうなるとさらに面倒だしお金もかかる。まぁ、でもお仕事でも使うわけだから、勉強がてら触っておくのはいいよねーと思いながら、数年さわらず。以前、マイクロソフトが提供しているアズール（Microsoft Azure）ってのの開発アカウントを持っていたのですが、今一料金的になっとく行かず、本格運用までは行きませんでした。</p>
 <p>&#160;</p>
 <p> で、ひさしぶりに google のクラウドプラットフォームの GCP（Google Cloud Platform）ってのを見たら、なかなかいい誘い文句がでているじゃありませんか。</p>
-<p><img title="Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Google_Cloud_Platform" src="https://hack.gpl.jp/wp-content/uploads/2018/01/google_cloud_platform.png" width="640" height="386" /> </p>
+<p><img title="Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Google_Cloud_Platform" src="/wp-content/uploads/2018/01/google_cloud_platform.png" width="640" height="386" /> </p>
 <p>JunkHack は、お値段に敏感なんです。無料という言葉に弱いんです。これはもうだまされてもいいから使うしかないなと。何が無料なのかは、わかりませんが、なにやら、以下のようです。</p>
-<p><img title="GCP_の無料階層_-_無料の長期トライアル、いつまでも無料_&#160;_&#160;_Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GCP_の無料階層_-_無料の長期トライアル、いつまでも無料_&#160;_&#160;_Google_Cloud_Platform" src="https://hack.gpl.jp/wp-content/uploads/2018/01/gcp______google_cloud_platform.png" width="640" height="146" /> </p>
+<p><img title="GCP_の無料階層_-_無料の長期トライアル、いつまでも無料_&#160;_&#160;_Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GCP_の無料階層_-_無料の長期トライアル、いつまでも無料_&#160;_&#160;_Google_Cloud_Platform" src="/wp-content/uploads/2018/01/gcp______google_cloud_platform.png" width="640" height="146" /> </p>
 <p>FAQを参照してみます。なにやらごにょごにょと書いてありますが、肝心なのは以下。</p>
 <blockquote>
 <p>無料トライアルを利用できる期間を教えてください。     <br />無料トライアルは、12 か月が経過したか、300 ドル分の利用があったときに終了します。クレジット残額と試用期間終了までの残りの日数は Google Cloud Platform Console の上部に表示されます。</p>
@@ -209,27 +209,27 @@
 </blockquote>
 <p>リソースには、期限切れ後、30日以内であれば復元可能とな。ふむふむ。</p>
 <p>ま、とにかく使ってみましょう。SSD のn1-standard-1（vCPU x 1、メモリ 3.75 GB）ブートディスクはとりあえず10GB です。CentOS7 のインスタンスを起動しました。</p>
-<p><img title="Compute_Engine_-_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Compute_Engine_-_JunkHackup" src="https://hack.gpl.jp/wp-content/uploads/2018/01/compute_engine__junkhackup.png" width="640" height="402" /> </p>
+<p><img title="Compute_Engine_-_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Compute_Engine_-_JunkHackup" src="/wp-content/uploads/2018/01/compute_engine__junkhackup.png" width="640" height="402" /> </p>
 <p>公開鍵認証で、リモートから SSH アクセスして UnixBench を動作させてみました。便利だなーと感じたのは、CentOS7 のインスタンス作った時点で、自分のアカウント名のユーザが作られていて、sudo 権限も付与されています。自分の場合は、無料版のころから使っている、Google Apps で独自ドメインをくっ付けていてその @前のユーザ名で作られていました。最高に便利ですね、これは。</p>
 <p>&#160;</p>
 <p>で、この CentOS7 は最小限でインストールされているインスタンスですので、以下の手順で UnixBench を動作。</p>
 <blockquote>
 <p># yum -y install perl perl-Time-HiRes make gcc git     <br /># git clone https://github.com/kdlucas/byte-unixbench      <br /># cd byte-unixbench/UnixBench      <br /># ./Run</p>
 </blockquote>
-<p><img title="_ssh_—_root_junkhack___apl_byte-unixbench_UnixBench_—_ssh_take_35_200_27_163_—_142×50" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="_ssh_—_root_junkhack___apl_byte-unixbench_UnixBench_—_ssh_take_35_200_27_163_—_142×50" src="https://hack.gpl.jp/wp-content/uploads/2018/01/ssh__root_junkhack___apl_byteunixbench_unixbench__ssh_take_35_200_27_163__14250.png" width="512" height="480" /> </p>
+<p><img title="_ssh_—_root_junkhack___apl_byte-unixbench_UnixBench_—_ssh_take_35_200_27_163_—_142×50" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="_ssh_—_root_junkhack___apl_byte-unixbench_UnixBench_—_ssh_take_35_200_27_163_—_142×50" src="/wp-content/uploads/2018/01/ssh__root_junkhack___apl_byteunixbench_unixbench__ssh_take_35_200_27_163__14250.png" width="512" height="480" /> </p>
 <p>まぁ、1CPU だしこんなもんですかね。WordPress を動作させるにはちょうどいいかもです。SSD にしちゃファイルコピーが遅いようなきもしますが。また、後ほどインスタンスのスペックを変えて試してみようと思います。</p>
 <p>&#160;</p>
 <p>とりあえず、IPを設定して DNS と関連づけします。コントロールパネルの印象は、なかなか直感的なインターフェイスで使いやすいですね。マニュアルなしで、IP回りのインスタンス設定ができました。</p>
 <p>&#160;</p>
 <p>しばらく動かし続けてみて、どんなものか検討してみることにします。４時間後の値段は以下のようです。</p>
-<p><img title="今月の請求額_-_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="今月の請求額_-_JunkHackup" src="https://hack.gpl.jp/wp-content/uploads/2018/01/junkhackup.png" width="619" height="314" /> </p>
+<p><img title="今月の請求額_-_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="今月の請求額_-_JunkHackup" src="/wp-content/uploads/2018/01/junkhackup.png" width="619" height="314" /> </p>
 <p>１日150円～180円という感じでしょうか。これだと一ヶ月で5000円を超えてしまうので、もう少ししょぼいリソースを選ばないと１年経たずに、無料枠の300$ を使ってしまいそうです。</p>
 <p>&#160;</p>
 <p>次回は、リソースをもうすこししょぼく、small (共有CPU でメモリは1.7 GB）と、micro というメモリが0.6GB だとどうなるか検討したいと思います。</p>
 <p>あと、うたい文句の「いつまでも無料」っていうのはどういうことなんでしょうか？自分にはよくわかりません。次回に掘り下げてみたいですね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/feed/</wfw:commentRss>
+					<wfw:commentRss>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

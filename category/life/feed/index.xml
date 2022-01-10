@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Life &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 25 Jun 2021 20:02:34 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,53 +21,53 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>冷えなくなったダストクーラーのペルチェ素子を交換して修理してみる</title>
-		<link>https://hack.gpl.jp/2020/08/01/replacethedustcoolerpeltierelementandrepair/</link>
+		<link>/2020/08/01/replacethedustcoolerpeltierelementandrepair/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 31 Jul 2020 15:09:18 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[DIY]]></category>
 		<category><![CDATA[Life]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5590</guid>
+		<guid isPermaLink="false">/?p=5590</guid>
 							<description><![CDATA[今日は冷えなくなったダストクーラー（生ゴミボックス）の修理をやってみようと思います。これは、生ゴミを一時的に保管して腐敗を防止して匂いを防ぐというものです。 TOTOダストクーラー　NMS025D/KNMS025D とい [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今日は冷えなくなったダストクーラー（生ゴミボックス）の修理をやってみようと思います。これは、生ゴミを一時的に保管して腐敗を防止して匂いを防ぐというものです。</p>
-<p><img class="alignnone size-full wp-image-5591" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_141857_4.jpg" alt="IMG_20200731_141857_4" width="2734" height="3645"></p>
+<p><img class="alignnone size-full wp-image-5591" src="/wp-content/uploads/2020/07/img_20200731_141857_4.jpg" alt="IMG_20200731_141857_4" width="2734" height="3645"></p>
 <p>TOTOダストクーラー　NMS025D/KNMS025D という型番のようですね。</p>
-<p><img class="alignnone size-full wp-image-5594" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_141902_5.jpg" alt="IMG_20200731_141902_5" width="3968" height="2976"></p>
+<p><img class="alignnone size-full wp-image-5594" src="/wp-content/uploads/2020/07/img_20200731_141902_5.jpg" alt="IMG_20200731_141902_5" width="3968" height="2976"></p>
 <p>このタイプの冷蔵庫は、中にペルチェ素子が入っていて冷やす仕組みです。アリエクから激安のペルチェ素子を買ったので、中を分解して修理してみようと思います。</p>
-<p><img class="alignnone size-full wp-image-5597" src="https://hack.gpl.jp/wp-content/uploads/2020/07/5pcs_tec1_12706_12v_60w_heatsink_thermoelectric_cooler_cooling_peltier_plate_module_with_insulation_cotton_washer_demo_board_accessories__-_aliexpress.png" alt="5PCS_TEC1_12706_12V_60W_Heatsink_Thermoelectric_Cooler_Cooling_Peltier_Plate_Module_With_Insulation_Cotton_Washer_Demo_Board_Accessories__-_AliExpress" width="1025" height="548"></p>
+<p><img class="alignnone size-full wp-image-5597" src="/wp-content/uploads/2020/07/5pcs_tec1_12706_12v_60w_heatsink_thermoelectric_cooler_cooling_peltier_plate_module_with_insulation_cotton_washer_demo_board_accessories__-_aliexpress.png" alt="5PCS_TEC1_12706_12V_60W_Heatsink_Thermoelectric_Cooler_Cooling_Peltier_Plate_Module_With_Insulation_Cotton_Washer_Demo_Board_Accessories__-_AliExpress" width="1025" height="548"></p>
 <p>５つ入って1000円くらいでゲットしました。ショップによって多少値段は違いますが、１枚あたり200円くらいのものです。型番は、TEC1-12706 で、12V 60W　となります。</p>
 <p>早速分解してみましょう。</p>
-<p><img class="alignnone size-full wp-image-5599" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-18.png" alt="空白_Skitch_キャンバス" width="1158" height="414"></p>
+<p><img class="alignnone size-full wp-image-5599" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-18.png" alt="空白_Skitch_キャンバス" width="1158" height="414"></p>
 <p>フタ側にはファンと電源ユニットがついています。ヒートシンクみたいなのがペルチェ素子がついたユニットです。</p>
-<p><img class="alignnone size-full wp-image-5600" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-19.png" alt="空白_Skitch_キャンバス" width="1159" height="419"></p>
+<p><img class="alignnone size-full wp-image-5600" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-19.png" alt="空白_Skitch_キャンバス" width="1159" height="419"></p>
 <p>弱と強のスイッチです。</p>
-<p><img class="alignnone size-full wp-image-5601" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_48.png" alt="スクリーンショット_2020_07_31_22_48" width="1161" height="416"></p>
+<p><img class="alignnone size-full wp-image-5601" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_48.png" alt="スクリーンショット_2020_07_31_22_48" width="1161" height="416"></p>
 <p>ペルチェユニットは、冷蔵庫の中からねじ止めされています。</p>
-<p><img class="alignnone size-full wp-image-5602" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_50.png" alt="スクリーンショット_2020_07_31_22_50" width="1160" height="415"></p>
+<p><img class="alignnone size-full wp-image-5602" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_50.png" alt="スクリーンショット_2020_07_31_22_50" width="1160" height="415"></p>
 <p>このユニットを分解！　取るべきネジはとったつもりだったんですが、真ん中にありましたね。ゴムで隠れていました。</p>
-<p><img class="alignnone size-full wp-image-5603" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_164045_4.jpg" alt="IMG_20200731_164045_4" width="3968" height="2976"></p>
+<p><img class="alignnone size-full wp-image-5603" src="/wp-content/uploads/2020/07/img_20200731_164045_4.jpg" alt="IMG_20200731_164045_4" width="3968" height="2976"></p>
 <p>２つ仕様にしようかとも思いましたが、試しに電源に負荷をかけたら、電源が落ちました。</p>
-<p><img class="alignnone size-full wp-image-5604" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_165441_3.jpg" alt="IMG_20200731_165441_3" width="3968" height="2976"></p>
+<p><img class="alignnone size-full wp-image-5604" src="/wp-content/uploads/2020/07/img_20200731_165441_3.jpg" alt="IMG_20200731_165441_3" width="3968" height="2976"></p>
 <p>仕方がないので、１つ仕様に。右側のタイルみたいな金属がペルチェ素子のようです。このベース土台をそのまま活用できないかテストしてみるために、テスト稼働してみました。</p>
-<p><img class="alignnone size-full wp-image-5605" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_55.png" alt="スクリーンショット_2020_07_31_22_55" width="1161" height="413"></p>
+<p><img class="alignnone size-full wp-image-5605" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_55.png" alt="スクリーンショット_2020_07_31_22_55" width="1161" height="413"></p>
 <p>しばし、冷えるまでボックスを丸洗いです。こんな機会じゃないと洗わないしね。</p>
-<p><img class="alignnone size-full wp-image-5607" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_173651_9.jpg" alt="IMG_20200731_173651_9" width="3968" height="2976"></p>
+<p><img class="alignnone size-full wp-image-5607" src="/wp-content/uploads/2020/07/img_20200731_173651_9.jpg" alt="IMG_20200731_173651_9" width="3968" height="2976"></p>
 <p>ちなみに、ファンは三菱のが付いてました。交換しようかなと思ったのですが、修理優先で。</p>
-<p><img class="alignnone size-full wp-image-5608" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_59.png" alt="スクリーンショット_2020_07_31_22_59" width="1159" height="411"></p>
+<p><img class="alignnone size-full wp-image-5608" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_22_59.png" alt="スクリーンショット_2020_07_31_22_59" width="1159" height="411"></p>
 <p>やっぱり冷えなかったのでさらに分解していくことに。<br />
 プレスティック製のガワを外すと、アルミブロック全体が出て来ました。</p>
-<p><img class="alignnone size-full wp-image-5609" style="color:var(--color-text);" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_23_01.png" alt="スクリーンショット_2020_07_31_23_01" width="1159" height="415"></p>
+<p><img class="alignnone size-full wp-image-5609" style="color:var(--color-text);" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_23_01.png" alt="スクリーンショット_2020_07_31_23_01" width="1159" height="415"></p>
 <p>古いペルチェ素子は全部、剥ぎ落としグラインダーで綺麗にしておきました。</p>
-<p><img class="alignnone size-full wp-image-5611" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_23_02.png" alt="スクリーンショット_2020_07_31_23_02" width="966" height="609"></p>
+<p><img class="alignnone size-full wp-image-5611" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_23_02.png" alt="スクリーンショット_2020_07_31_23_02" width="966" height="609"></p>
 <p>この状態でアルミブロックと、ヒートシンクをシリコングリスを塗って密着させます。再度、テストです。</p>
-<p><img class="alignnone size-full wp-image-5612" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_192430_2.jpg" alt="IMG_20200731_192430_2" width="2976" height="3968"></p>
+<p><img class="alignnone size-full wp-image-5612" src="/wp-content/uploads/2020/07/img_20200731_192430_2.jpg" alt="IMG_20200731_192430_2" width="2976" height="3968"></p>
 <p>うまく冷えたので、組み付けです。</p>
-<p><img class="alignnone size-full wp-image-5613" src="https://hack.gpl.jp/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_23_08.png" alt="スクリーンショット_2020_07_31_23_08" width="1161" height="415"></p>
+<p><img class="alignnone size-full wp-image-5613" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_31_23_08.png" alt="スクリーンショット_2020_07_31_23_08" width="1161" height="415"></p>
 <p>このままだと、ヒートシンクが動いて密着しないのでダイソーのステンレスステーで固定する金具を作りました。</p>
 <p>元に戻して、修理完了！　試運転です。</p>
 <p>・・・・・・　箱の中がぽかぽか状態です。あれ、表裏間違えたかな？　再度分解して確認してみます。</p>
-<p><img class="alignnone size-full wp-image-5614" src="https://hack.gpl.jp/wp-content/uploads/2020/07/img_20200731_214625_0.jpg" alt="IMG_20200731_214625_0" width="3968" height="2976"></p>
+<p><img class="alignnone size-full wp-image-5614" src="/wp-content/uploads/2020/07/img_20200731_214625_0.jpg" alt="IMG_20200731_214625_0" width="3968" height="2976"></p>
 <p>はい！　間違っていましたね。文字が書いてあるほうが冷えるほうです。逆にして再度、組み付け。そこそこ冷えていますが、冷却性能はどのくらいなんでしょうかね。</p>
 <p>明日、温度計でも買って来て付けてみようかな。</p>
 <p>▼今後の予定<br />
@@ -82,15 +82,15 @@
 			</item>
 		<item>
 		<title>チャットツールの slack を中心にプロジェクト管理やガントチャート作成、タスク管理を自分自身でやってみた。</title>
-		<link>https://hack.gpl.jp/2017/05/11/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae-slack-%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e7%ae%a1%e7%90%86%e3%82%84/</link>
-					<comments>https://hack.gpl.jp/2017/05/11/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae-slack-%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e7%ae%a1%e7%90%86%e3%82%84/#comments</comments>
+		<link>/2017/05/11/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae-slack-%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e7%ae%a1%e7%90%86%e3%82%84/</link>
+					<comments>/2017/05/11/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae-slack-%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e7%ae%a1%e7%90%86%e3%82%84/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 10 May 2017 16:21:57 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Life]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3962</guid>
+		<guid isPermaLink="false">/?p=3962</guid>
 							<description><![CDATA[自分プロジェクトも、結構なぁなぁになってしまうので何か進捗を管理していくようなものがほしいなとリサーチしてみました。こういうライフハック的なツール類はどんどんいいのが出てくるので、最近の事情はどうなのかなとリサーチしてみ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>自分プロジェクトも、結構なぁなぁになってしまうので何か進捗を管理していくようなものがほしいなとリサーチしてみました。こういうライフハック的なツール類はどんどんいいのが出てくるので、最近の事情はどうなのかなとリサーチしてみました。</p>
 <p>今回のネタは、「自分のプロジェクトを自己管理」してみるツール探しです。</p>
@@ -101,14 +101,14 @@
 <p>で、あれこれ調査してみると、結構いいのがたくさんあります。</p>
 <p>直感的に、どうやら最近は、slack（チャットツール） や asana（タスク管理） 、Instagantt（ガントチャート） というのが良いようです。</p>
 <p>使ってみると、結構いい感じで、slack はたとえば画像なんかもスムーズに貼り付けられます。以下はosx のローカルアプリケーションです。<a href="https://slack.com/downloads/windows" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">windows や linux のデスクトップアプリ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>もあります。</p>
-<p> <img title="Slack_-_junkhack" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Slack_-_junkhack" src="https://hack.gpl.jp/wp-content/uploads/2017/05/slack__junkhack.png" width="640" height="563" />   </p>
+<p> <img title="Slack_-_junkhack" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Slack_-_junkhack" src="/wp-content/uploads/2017/05/slack__junkhack.png" width="640" height="563" />   </p>
 <p>検索もあってスターマークも付けられるので、結構いいかもです。WEB でも使えますが、ローカルアプリで使ってみています。</p>
 <p>&#160;</p>
-<p>あと、タスク管理の <a href="https://app.asana.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">asana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> とも連携できるようです。<img title="3Dプリンタープレゼン_-_Asana" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3Dプリンタープレゼン_-_Asana" src="https://hack.gpl.jp/wp-content/uploads/2017/05/3d__asana.png" width="640" height="346" /> </p>
+<p>あと、タスク管理の <a href="https://app.asana.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">asana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> とも連携できるようです。<img title="3Dプリンタープレゼン_-_Asana" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3Dプリンタープレゼン_-_Asana" src="/wp-content/uploads/2017/05/3d__asana.png" width="640" height="346" /> </p>
 <p>プロジェクトを作って、やることを洗い出し（タスク）、それを<a href="https://www.instagantt.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Instagantt<span class="wpel-icon wpel-image wpel-icon-1"></span></a> でガントチャート化するという流れです。</p>
-<p><img title="Instagantt" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Instagantt" src="https://hack.gpl.jp/wp-content/uploads/2017/05/instagantt.png" width="640" height="449" /> </p>
+<p><img title="Instagantt" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Instagantt" src="/wp-content/uploads/2017/05/instagantt.png" width="640" height="449" /> </p>
 <p>また、SlackとWordPress を統合するプラグインを破滅派の高橋さんが作っています。</p>
-<p><a href="https://gianism.info/ja/add-on/hameslack/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="HameSlack_–_WordPressプラグイン_–_Gianism_info" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HameSlack_–_WordPressプラグイン_–_Gianism_info" src="https://hack.gpl.jp/wp-content/uploads/2017/05/hameslack__wordpress__gianism_info.png" width="628" height="560" /></a> </p>
+<p><a href="https://gianism.info/ja/add-on/hameslack/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="HameSlack_–_WordPressプラグイン_–_Gianism_info" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HameSlack_–_WordPressプラグイン_–_Gianism_info" src="/wp-content/uploads/2017/05/hameslack__wordpress__gianism_info.png" width="628" height="560" /></a> </p>
 <p>slack でのチャットの議事ログ的なものを wordpress に引っ張ってきたりとかもできそうです。フックもかけれるように作ってあるので、何か一連の wordpress 作業のあとに、slack にメッセージを流すこととかもできそうです。</p>
 <p>&#160;</p>
 <p>ちょっとしばらく slack を中心に使ってみたいと思います。使ってみてよかったら、続編もあるかもです。</p>
@@ -119,51 +119,51 @@
 </blockquote>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2017/05/11/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae-slack-%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e7%ae%a1%e7%90%86%e3%82%84/feed/</wfw:commentRss>
+					<wfw:commentRss>/2017/05/11/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae-slack-%e3%82%92%e4%b8%ad%e5%bf%83%e3%81%ab%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e7%ae%a1%e7%90%86%e3%82%84/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>スミシア 2.5人がけソファー到着</title>
-		<link>https://hack.gpl.jp/2017/04/15/%e3%82%b9%e3%83%9f%e3%82%b7%e3%82%a2-2-5%e4%ba%ba%e3%81%8c%e3%81%91%e3%82%bd%e3%83%95%e3%82%a1%e3%83%bc%e5%88%b0%e7%9d%80/</link>
+		<link>/2017/04/15/%e3%82%b9%e3%83%9f%e3%82%b7%e3%82%a2-2-5%e4%ba%ba%e3%81%8c%e3%81%91%e3%82%bd%e3%83%95%e3%82%a1%e3%83%bc%e5%88%b0%e7%9d%80/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 15 Apr 2017 08:01:46 +0000</pubDate>
 				<category><![CDATA[Life]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3813</guid>
+		<guid isPermaLink="false">/?p=3813</guid>
 							<description><![CDATA[オレ専用ソファー、やっと到着です。結構でかいです。がんばって一人で2階まで上げました。ピンク色の紐は、バイクとか固定するものでこれをダンボールに回して1段づつあげました。重量は30kg なのでがんばれば女性でもいけるかも [&#8230;]]]></description>
 										<content:encoded><![CDATA[</p>
 <p>オレ専用ソファー、やっと到着です。結構でかいです。がんばって一人で2階まで上げました。ピンク色の紐は、バイクとか固定するものでこれをダンボールに回して1段づつあげました。重量は30kg なのでがんばれば女性でもいけるかもです。</p>
-<p><img title="P1300736" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300736" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300736.png" width="643" height="857" /> </p>
+<p><img title="P1300736" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300736" src="/wp-content/uploads/2017/04/p1300736.png" width="643" height="857" /> </p>
 <p>一般的なドアは抜けられる大きさなので、問題ないです。</p>
-<p><img title="P1300737" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300737" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300737.png" width="646" height="861" /> </p>
+<p><img title="P1300737" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300737" src="/wp-content/uploads/2017/04/p1300737.png" width="646" height="861" /> </p>
 <p>底面から開封。</p>
-<p><img title="P1300738" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300738" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300738.png" width="643" height="482" /> </p>
+<p><img title="P1300738" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300738" src="/wp-content/uploads/2017/04/p1300738.png" width="643" height="482" /> </p>
 <p>じゃーん。なかなかいい色です。</p>
-<p><img title="P1300742" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300742" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300742.png" width="640" height="480" /></p>
+<p><img title="P1300742" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300742" src="/wp-content/uploads/2017/04/p1300742.png" width="640" height="480" /></p>
 <p>ラベルには輸入元と、中国製であることなどがわかりました。まぁ、この値段で国産は無理ですからね。</p>
 </p>
-<p><img title="P1300739" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300739" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300739.png" width="640" height="480" /> </p>
+<p><img title="P1300739" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300739" src="/wp-content/uploads/2017/04/p1300739.png" width="640" height="480" /> </p>
 <p>足をつけます。シリカゲルは、フィラメントボックスの湿気取りに使いまわします。結構たくさん入っていました。</p>
-<p><img title="P1300745" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300745" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300745.png" width="640" height="480" /> </p>
+<p><img title="P1300745" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300745" src="/wp-content/uploads/2017/04/p1300745.png" width="640" height="480" /> </p>
 <p>足の高は、15cm くらい。掃除機が入るのでいいですね。</p>
-<p><img title="P1300747" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300747" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300747.jpg" width="640" height="480" /> </p>
-<p>あと、背面です。カバーをはずと、差込金具が。 <img title="P1300743" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300743" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300743.png" width="640" height="480" /> </p>
+<p><img title="P1300747" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300747" src="/wp-content/uploads/2017/04/p1300747.jpg" width="640" height="480" /> </p>
+<p>あと、背面です。カバーをはずと、差込金具が。 <img title="P1300743" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300743" src="/wp-content/uploads/2017/04/p1300743.png" width="640" height="480" /> </p>
 </p>
 </p>
 </p>
 <p>これはどうやって固定するのでしょうか。</p>
-<p><img title="P1300744" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300744" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300744.png" width="640" height="480" /> </p>
+<p><img title="P1300744" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300744" src="/wp-content/uploads/2017/04/p1300744.png" width="640" height="480" /> </p>
 <p>マニュアルには差し込むだけとあります。</p>
-<p><img title="P1300748" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300748" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300748.png" width="640" height="480" /> </p>
+<p><img title="P1300748" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300748" src="/wp-content/uploads/2017/04/p1300748.png" width="640" height="480" /> </p>
 </p>
 <p>完成！</p>
-<p><img title="P1300750" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300750" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300750.png" width="640" height="562" /> </p>
+<p><img title="P1300750" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300750" src="/wp-content/uploads/2017/04/p1300750.png" width="640" height="562" /> </p>
 <p>横になってみましたが、175cm でも悪くいない感じです。肘掛に足と頭を乗せる感じですが、リラックスできます。</p>
-<p><img title="P1300751" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300751" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300751.png" width="641" height="853" /> </p>
+<p><img title="P1300751" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300751" src="/wp-content/uploads/2017/04/p1300751.png" width="641" height="853" /> </p>
 <p>これ以上、大きいと圧迫されるしで、ちょうどよい大きさですね。</p>
-<p><img title="P1300754" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300754" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300754.png" width="640" height="480" /> </p>
+<p><img title="P1300754" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300754" src="/wp-content/uploads/2017/04/p1300754.png" width="640" height="480" /> </p>
 <p>茶と補色の緑なので、いい感じでワンポイントになってちょっとおしゃれな部屋になりました。何より、本を読んだり、映画を見たりゆったりと音楽を聴いたりできるようになりました！</p>
 ]]></content:encoded>
 					
@@ -172,32 +172,32 @@
 			</item>
 		<item>
 		<title>FireTV stick を買う前にソファを買った話</title>
-		<link>https://hack.gpl.jp/2017/04/08/firetv-stick-%e3%82%92%e8%b2%b7%e3%81%86%e5%89%8d%e3%81%ab%e3%82%bd%e3%83%95%e3%82%a1%e3%82%92%e8%b2%b7%e3%81%a3%e3%81%9f%e8%a9%b1/</link>
+		<link>/2017/04/08/firetv-stick-%e3%82%92%e8%b2%b7%e3%81%86%e5%89%8d%e3%81%ab%e3%82%bd%e3%83%95%e3%82%a1%e3%82%92%e8%b2%b7%e3%81%a3%e3%81%9f%e8%a9%b1/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 07 Apr 2017 15:22:05 +0000</pubDate>
 				<category><![CDATA[Life]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3744</guid>
+		<guid isPermaLink="false">/?p=3744</guid>
 							<description><![CDATA[TV っていうのは、ほとんど見ないのですが映画は大好きです。ここ数年、映画はレンタル屋には行かず、amazon などのソースを PC で見ているのですが、やっぱりごろ～んとソファーに寝ながら見たいです。そもそも仕事でも椅 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>TV っていうのは、ほとんど見ないのですが映画は大好きです。ここ数年、映画はレンタル屋には行かず、amazon などのソースを PC で見ているのですが、やっぱりごろ～んとソファーに寝ながら見たいです。そもそも仕事でも椅子に張り付いていますし、可能な限り家では、腰に負担を与えたくないわけです。</p>
 <p>新しい FireTV stick を買う前に、もう自分専用のソファーをゲットするしかないなと、思い切って以下のをポチりました。</p>
 <p>居間で見ればいいとお思いの方もいらっしゃるでしょうが、我が家の居間の TV は、かみさん専用と化しているのです。それに映画を見ないときや、設計に疲れたとき、キンドルで本読んだりとかソファーがあるといいよなーと。</p>
-<p> <img title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="https://hack.gpl.jp/wp-content/uploads/2017/04/a.png" width="659" height="349" />   </p>
+<p> <img title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="/wp-content/uploads/2017/04/a.png" width="659" height="349" />   </p>
 <p>ぽちったのは、2.5人用のソファで部屋が窮屈にならず、作業スペースも確保できる程度の大きさで、寝転ぼうと思えば可能なサイズ。（のはず）1000円クーポンが有効の時に買ったので、送料込みトータル2万以下でした。</p>
-<p><img title="harmony-34-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="harmony-34-" src="https://hack.gpl.jp/wp-content/uploads/2017/04/harmony34.jpg" width="676" height="578" /> </p>
+<p><img title="harmony-34-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="harmony-34-" src="/wp-content/uploads/2017/04/harmony34.jpg" width="676" height="578" /> </p>
 <p>身長は175cm くらいなので、少し足を折り曲げる感じにはなりますがそれなりに横にもなれるんじゃないかと。</p>
-<p><img title="c" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c" src="https://hack.gpl.jp/wp-content/uploads/2017/04/c.png" width="656" height="338" /> </p>
+<p><img title="c" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c" src="/wp-content/uploads/2017/04/c.png" width="656" height="338" /> </p>
 <p>色は、白と茶のインテリアなので緑が合うのではと思い、このカラーにしましたよ。</p>
-<p><img title="b" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="b" src="https://hack.gpl.jp/wp-content/uploads/2017/04/b.png" width="652" height="323" /> </p>
+<p><img title="b" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="b" src="/wp-content/uploads/2017/04/b.png" width="652" height="323" /> </p>
 <p>最後まで、以下のソファーベットになるタイプと迷いました。</p>
-<p><img title="new-mosa2-04-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="new-mosa2-04-" src="https://hack.gpl.jp/wp-content/uploads/2017/04/newmosa204.jpg" width="644" height="580" /> このタイプは、サイドも倒せるのでがっつりと横になって映画を見るにはちょうど良さそうで最後まで迷いました。</p>
-<p><img title="n-mosa2-ncz02" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="n-mosa2-ncz02" src="https://hack.gpl.jp/wp-content/uploads/2017/04/nmosa2ncz02.jpg" width="640" height="480" /> </p>
+<p><img title="new-mosa2-04-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="new-mosa2-04-" src="/wp-content/uploads/2017/04/newmosa204.jpg" width="644" height="580" /> このタイプは、サイドも倒せるのでがっつりと横になって映画を見るにはちょうど良さそうで最後まで迷いました。</p>
+<p><img title="n-mosa2-ncz02" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="n-mosa2-ncz02" src="/wp-content/uploads/2017/04/nmosa2ncz02.jpg" width="640" height="480" /> </p>
 <p>リクライニングするサイドはかなり魅力的です。しかし、後ろの支えの板がなんだか気に入らなくて、結局緑のタイプのソファーにしたわけです。</p>
-<p><img title="n-mosa2-ncz03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="n-mosa2-ncz03" src="https://hack.gpl.jp/wp-content/uploads/2017/04/nmosa2ncz03.jpg" width="640" height="480" /> </p>
+<p><img title="n-mosa2-ncz03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="n-mosa2-ncz03" src="/wp-content/uploads/2017/04/nmosa2ncz03.jpg" width="640" height="480" /> </p>
 </p>
 </p>
 </p>
-<p>家具を買うのは、<a href="https://hack.gpl.jp/2015/11/17/%E6%A4%85%E5%AD%90%E3%81%AE%E6%9C%80%E6%9C%89%E5%8A%9B%E5%80%99%E8%A3%9C/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">椅子を買ったのが最後</a>で久しぶりです。新年度に入り、少し生活にハリが出そうで到着するのが楽しみです。到着したら使用感などをレポートしたいと思います。</p>
+<p>家具を買うのは、<a href="/2015/11/17/%E6%A4%85%E5%AD%90%E3%81%AE%E6%9C%80%E6%9C%89%E5%8A%9B%E5%80%99%E8%A3%9C/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">椅子を買ったのが最後</a>で久しぶりです。新年度に入り、少し生活にハリが出そうで到着するのが楽しみです。到着したら使用感などをレポートしたいと思います。</p>
 <p>&#160;</p>
 <p>新しい FireTV stick （2017）はキャンペーンを必ずやるはずで、限定で安く買えるときがあると踏んでいます。それに合わせて、32インチのモニター（4K じゃない安いもの）も、そろえて快適な プライムビデオ生活をしたいですね。</p>
 <p>2k の32インチモニターって2.5万前後で買えるようになったんですよね。ほんと、安くなりました。</p>

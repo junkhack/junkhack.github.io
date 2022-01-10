@@ -10,7 +10,7 @@
 
 <channel>
 	<title>vietnam &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 18 Sep 2020 05:44:20 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,18 +21,18 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>Mac版のSkitchっていうスクリーンショットツールの Windows 版代替は何がいいのか？</title>
-		<link>https://hack.gpl.jp/2018/04/17/windows-%e3%81%a7%e4%bd%bf%e3%81%86%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88tool-%e3%81%a8%e3%81%8a%e3%81%be%e3%81%91%e3%81%a7%e3%80%81%e3%83%99%e3%83%88/</link>
+		<link>/2018/04/17/windows-%e3%81%a7%e4%bd%bf%e3%81%86%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88tool-%e3%81%a8%e3%81%8a%e3%81%be%e3%81%91%e3%81%a7%e3%80%81%e3%83%99%e3%83%88/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 16 Apr 2018 20:41:04 +0000</pubDate>
 				<category><![CDATA[vietnam]]></category>
 		<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4576</guid>
+		<guid isPermaLink="false">/?p=4576</guid>
 							<description><![CDATA[今回のお話は、スクリーンショットの神ツールは何か？です。 &#160; ブログを書くと、何かを紹介するときにスクリーンショットが結構な頻度で載せます。osx では、Skitch っていうのがすごく使いやすくて（ピンクのア [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今回のお話は、スクリーンショットの神ツールは何か？です。</p>
 <p>&#160;</p>
 <p>ブログを書くと、何かを紹介するときにスクリーンショットが結構な頻度で載せます。osx では、Skitch っていうのがすごく使いやすくて（ピンクのアイコンのね）、これに固定してずっと使っています。今のところ、これが神ツールです。Windows 用のもので何かいいのはないかな～と、ずっと探しています。</p>
-<p>&#160;<a href="https://itunes.apple.com/jp/app/skitch-%E6%92%AE%E3%82%8B-%E6%8F%8F%E3%81%8D%E8%BE%BC%E3%82%80-%E5%85%B1%E6%9C%89%E3%81%99%E3%82%8B/id425955336?mt=12" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Skitch" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Skitch" src="https://hack.gpl.jp/wp-content/uploads/2018/04/skitch.png" width="640" height="258" /></a> </p>
+<p>&#160;<a href="https://itunes.apple.com/jp/app/skitch-%E6%92%AE%E3%82%8B-%E6%8F%8F%E3%81%8D%E8%BE%BC%E3%82%80-%E5%85%B1%E6%9C%89%E3%81%99%E3%82%8B/id425955336?mt=12" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Skitch" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Skitch" src="/wp-content/uploads/2018/04/skitch.png" width="640" height="258" /></a> </p>
 <p>多くは求めないのですが、採用の観点は概ね次の通り。</p>
 <p>・狙った部分が指定して撮れること</p>
 <p>・矢印が入れやすいこと</p>
@@ -49,23 +49,23 @@
 <p>Monosnap for Windows</p>
 <p><a title="https://monosnap.com/welcome" href="https://monosnap.com/welcome" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://monosnap.com/welcome<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
-<p><a href="https://monosnap.com/welcome" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Download Windows Version - Google Chrome 2018-04-16 23.04.54" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Download Windows Version - Google Chrome 2018-04-16 23.04.54" src="https://hack.gpl.jp/wp-content/uploads/2018/04/downloadwindowsversiongooglechrome2018041623-04-54.png" width="640" height="223" /></a></p>
+<p><a href="https://monosnap.com/welcome" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Download Windows Version - Google Chrome 2018-04-16 23.04.54" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Download Windows Version - Google Chrome 2018-04-16 23.04.54" src="/wp-content/uploads/2018/04/downloadwindowsversiongooglechrome2018041623-04-54.png" width="640" height="223" /></a></p>
 <p>パット見、なかなか使いやすそうです。</p>
 <p>mac 版もあります。</p>
-<p><img title="Monosnap 2018-04-17 06-26-07" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Monosnap 2018-04-17 06-26-07" src="https://hack.gpl.jp/wp-content/uploads/2018/04/monosnap20180417062607.png" width="640" height="263" /> </p>
+<p><img title="Monosnap 2018-04-17 06-26-07" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Monosnap 2018-04-17 06-26-07" src="/wp-content/uploads/2018/04/monosnap20180417062607.png" width="640" height="263" /> </p>
 <p>必須の要件はおおよそ満たしそうです。</p>
-<p><img title="About 2018-04-17 05.05.25 (1).png ‎- フォト 2018-04-17 05.29.28 (1)" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="About 2018-04-17 05.05.25 (1).png ‎- フォト 2018-04-17 05.29.28 (1)" src="https://hack.gpl.jp/wp-content/uploads/2018/04/about2018041705-05-2512018041705-29-281.png" width="559" height="379" /></p>
+<p><img title="About 2018-04-17 05.05.25 (1).png ‎- フォト 2018-04-17 05.29.28 (1)" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="About 2018-04-17 05.05.25 (1).png ‎- フォト 2018-04-17 05.29.28 (1)" src="/wp-content/uploads/2018/04/about2018041705-05-2512018041705-29-281.png" width="559" height="379" /></p>
 <p>デュアル画面のSSも問題なさそうです。</p>
-<p><img title="Windows で使うスクリーンショットTOOL とおまけで、ベトナムの夕日 - Windows Live Writer 2018-04-17 05.20.04 (1)" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Windows で使うスクリーンショットTOOL とおまけで、ベトナムの夕日 - Windows Live Writer 2018-04-17 05.20.04 (1)" src="https://hack.gpl.jp/wp-content/uploads/2018/04/windowstoolwindowslivewriter2018041705-20-041.png" width="640" height="180" /></p>
+<p><img title="Windows で使うスクリーンショットTOOL とおまけで、ベトナムの夕日 - Windows Live Writer 2018-04-17 05.20.04 (1)" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Windows で使うスクリーンショットTOOL とおまけで、ベトナムの夕日 - Windows Live Writer 2018-04-17 05.20.04 (1)" src="/wp-content/uploads/2018/04/windowstoolwindowslivewriter2018041705-20-041.png" width="640" height="180" /></p>
 <p>デュアル画面の一部をクロップ。問題なし。</p>
-<p><img title="Kindle for PC 4 2018-04-17 05.24.12 (1)" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Kindle for PC 4 2018-04-17 05.24.12 (1)" src="https://hack.gpl.jp/wp-content/uploads/2018/04/kindleforpc42018041705-24-121.png" width="640" height="167" /></p>
+<p><img title="Kindle for PC 4 2018-04-17 05.24.12 (1)" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Kindle for PC 4 2018-04-17 05.24.12 (1)" src="/wp-content/uploads/2018/04/kindleforpc42018041705-24-121.png" width="640" height="167" /></p>
 <p>マウスがない状態で試用したのですが、とりあえずは合格点です。１つだけ、欠点は日本語入力時にインラインで出来ないことと、osx 版は日本語モードの変換が出来ず、テキストエディタからのコピペになることです。</p>
 <p>少し弱点はありますが、とりあえず、しばらく使ってみることにします。</p>
 <p>&#160;</p>
 <p>おまけ。ベトナムでの夕日。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2018/04/p1330633.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="P1330633" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1330633" src="https://hack.gpl.jp/wp-content/uploads/2018/04/p1330633_thumb.jpg" width="640" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2018/04/p1330633.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="P1330633" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1330633" src="/wp-content/uploads/2018/04/p1330633_thumb.jpg" width="640" height="480" /></a></p>
 <p>本当にキレイな夕日でした。１週間滞在したなかで一番キレイだったのは１日しかありませんでしたが、とても感動です。</p>
-<p><a href="https://hack.gpl.jp/wp-content/uploads/2018/04/p1330634.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="P1330634" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1330634" src="https://hack.gpl.jp/wp-content/uploads/2018/04/p1330634_thumb.jpg" width="640" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2018/04/p1330634.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="P1330634" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1330634" src="/wp-content/uploads/2018/04/p1330634_thumb.jpg" width="640" height="480" /></a></p>
 <p>海沈むとき。あー、こんな写真見るとまた旅行に行きたいな。まぁ、今も東京旅行だと思えばいいか。今度の土日はどこか散策いってこようかな。長期の東京旅行しているつもりで、ブログなんかも書いてみたいと思います。</p>
 ]]></content:encoded>
 					
@@ -74,12 +74,12 @@
 			</item>
 		<item>
 		<title>どうやら、契約SIMは１日のデータ上限があった模様</title>
-		<link>https://hack.gpl.jp/2018/03/23/%e3%81%a9%e3%81%86%e3%82%84%e3%82%89%e3%80%81%e5%a5%91%e7%b4%84sim%e3%81%af%ef%bc%91%e6%97%a5%e3%81%ae%e3%83%87%e3%83%bc%e3%82%bf%e4%b8%8a%e9%99%90%e3%81%8c%e3%81%82%e3%81%a3%e3%81%9f%e6%a8%a1/</link>
+		<link>/2018/03/23/%e3%81%a9%e3%81%86%e3%82%84%e3%82%89%e3%80%81%e5%a5%91%e7%b4%84sim%e3%81%af%ef%bc%91%e6%97%a5%e3%81%ae%e3%83%87%e3%83%bc%e3%82%bf%e4%b8%8a%e9%99%90%e3%81%8c%e3%81%82%e3%81%a3%e3%81%9f%e6%a8%a1/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 22 Mar 2018 18:58:06 +0000</pubDate>
 				<category><![CDATA[vietnam]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4534</guid>
+		<guid isPermaLink="false">/?p=4534</guid>
 							<description><![CDATA[空港でデータ上限がないと言っていた、あのおねー様はどうやら適当だったようです。 昨日、寝ながらアマゾンビデオで海外でも見られるものをみていたのですが、（VPNすればみられるはずと思いますが、）寝落ちして朝になってみると、 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>空港でデータ上限がないと言っていた、あのおねー様はどうやら適当だったようです。</p>
 <p>昨日、寝ながらアマゾンビデオで海外でも見られるものをみていたのですが、（VPNすればみられるはずと思いますが、）寝落ちして朝になってみると、SIMのデータ通信が接続できないじゃありませんか。ホテル内ならWiFiがあるので大丈夫なんですが、外出したときは翻訳ソフトやら地図やら必要なのでデータ通信がないと生活に支障が出て困るのです。</p>
@@ -89,7 +89,7 @@
 <blockquote>
 <p>プラン名<br />Sim VD89 Plus Vinaphone<br />http://3gvinaphone.vn/dang-ky-goi-cuoc-vd89-plus-vinaphone/</p>
 </blockquote>
-<p><img title="IMG_20180322_180451" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180322_180451" src="https://hack.gpl.jp/wp-content/uploads/2018/03/img_20180322_180451.jpg" width="576" height="768"> </p>
+<p><img title="IMG_20180322_180451" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180322_180451" src="/wp-content/uploads/2018/03/img_20180322_180451.jpg" width="576" height="768"> </p>
 <p>このプランはリンク先をざっくりと要約すると以下のようになります。</p>
 <blockquote>
 <p>・市内通話は２０分未満は無料</p>
@@ -99,10 +99,10 @@
 <p>&nbsp;</p>
 </blockquote>
 <p>うーん、映像みたからって、いきなり１２０GB消費はないのでなんだろうなーと。データ量の履歴は８GBくらいで止まっていますしね。これはもしや、１日のデータ容量の制限があるタイプなんじゃなかろうかと思って、vinaphone のアプリをインストール。</p>
-<p><img title="Screenshot_2018-03-22-22-56-15" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-22-22-56-15" src="https://hack.gpl.jp/wp-content/uploads/2018/03/screenshot_20180322225615.jpg" width="556" height="988"> </p>
+<p><img title="Screenshot_2018-03-22-22-56-15" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-22-22-56-15" src="/wp-content/uploads/2018/03/screenshot_20180322225615.jpg" width="556" height="988"> </p>
 <p>WiFi接続を解除して、４G通信にしてアプリを起動。データ通信ができなくてもSIMが入っていればここにはアクセスできる仕組みのようです。一番上にあるのは、ベトナムの国識別番号８４に続く自分の電話番号です。</p>
-<p><img title="Screenshot_2018-03-22-22-56-26" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-22-22-56-26" src="https://hack.gpl.jp/wp-content/uploads/2018/03/screenshot_20180322225626.jpg" width="556" height="988"> アカウントインフォメーションをタップ。</p>
-<p><img title="Screenshot_2018-03-22-22-56-40" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-22-22-56-40" src="https://hack.gpl.jp/wp-content/uploads/2018/03/screenshot_20180322225640.jpg" width="556" height="988"> </p>
+<p><img title="Screenshot_2018-03-22-22-56-26" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-22-22-56-26" src="/wp-content/uploads/2018/03/screenshot_20180322225626.jpg" width="556" height="988"> アカウントインフォメーションをタップ。</p>
+<p><img title="Screenshot_2018-03-22-22-56-40" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-22-22-56-40" src="/wp-content/uploads/2018/03/screenshot_20180322225640.jpg" width="556" height="988"> </p>
 <p>やっぱり、データ通信の残りは０です。よく見ると、プラン名に、「MI BIG 4GBN VD89P」ってあります。</p>
 <p>さらにこのキーワードでググること、答えがありました。</p>
 <p>&nbsp;</p>
@@ -113,7 +113,7 @@
 <p>&nbsp;</p>
 <p>とあるじゃありませんか。ぜんぜん、無制限じゃないですね、これは。（笑）しかも、価格は８９０００ドンだって。うーん、またもやボラれましたね。たぶん昨日データ通信の履歴を見ると８GBくらいで止まっているのは０時を超えて２日のデータ通信の上限８GBを使ったからということでしょう。</p>
 <p>日付をまたいで確認してみると、４GBになっています。</p>
-<p><img title="Screenshot_2018-03-23-01-23-24" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-23-01-23-24" src="https://hack.gpl.jp/wp-content/uploads/2018/03/screenshot_20180323012324.jpg" width="556" height="988"> </p>
+<p><img title="Screenshot_2018-03-23-01-23-24" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Screenshot_2018-03-23-01-23-24" src="/wp-content/uploads/2018/03/screenshot_20180323012324.jpg" width="556" height="988"> </p>
 <p>まぁ、理屈がわかったのでまぁ良しとしましょうか。しかし、unlimited って言わないよな～。ちゃんと消費者に告知してほしいんですがね。１日のデータ通信の容量制限は４GBだからその点注意してねと言うだけでいいのに。</p>
 <p>&nbsp;</p>
 <p>まぁ、でも日本の通信事情と比較するとすごく安いですよね。次回ホーチミン市内に行かれる方で、ビザなしで滞在できる２週間ほど行かれる方はご参考に。</p>
@@ -129,26 +129,26 @@
 			</item>
 		<item>
 		<title>ベトナム・ホーチミンでは1日最低どのくらいで生きられるか？</title>
-		<link>https://hack.gpl.jp/2018/03/17/%e3%83%99%e3%83%88%e3%83%8a%e3%83%a0%e3%83%bb%e3%83%9b%e3%83%bc%e3%83%81%e3%83%9f%e3%83%b3%e3%81%a7%e3%81%af1%e6%97%a5%e6%9c%80%e4%bd%8e%e3%81%a9%e3%81%ae%e3%81%8f%e3%82%89%e3%81%84%e3%81%a7%e7%94%9f/</link>
+		<link>/2018/03/17/%e3%83%99%e3%83%88%e3%83%8a%e3%83%a0%e3%83%bb%e3%83%9b%e3%83%bc%e3%83%81%e3%83%9f%e3%83%b3%e3%81%a7%e3%81%af1%e6%97%a5%e6%9c%80%e4%bd%8e%e3%81%a9%e3%81%ae%e3%81%8f%e3%82%89%e3%81%84%e3%81%a7%e7%94%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 16 Mar 2018 16:14:59 +0000</pubDate>
 				<category><![CDATA[vietnam]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4525</guid>
+		<guid isPermaLink="false">/?p=4525</guid>
 							<description><![CDATA[行く前から、ベトナムの物価事情はおおよそ見当はついていましたが、2018年３月現在の事情を書いておきます。ベトナムは事情がすぐ変わる成長の速さだと思うので、１年後が同じとは限らないかなと思います。 で、まず暑いので水の確 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>行く前から、ベトナムの物価事情はおおよそ見当はついていましたが、2018年３月現在の事情を書いておきます。ベトナムは事情がすぐ変わる成長の速さだと思うので、１年後が同じとは限らないかなと思います。</p>
 <p>で、まず暑いので水の確保は必須ですね。３月16日の気温は、26度くらいです。昼間、外を歩いたりするともう少し暑く感じます。水は、ちゃんと買ったほうが良いと思います。たぶん、一番流通しているのは、以下の銘柄のペットボトルです。Aquafina っていう銘柄のをよく買っています。これはpepsiのようですね。</p>
-<p><img class="aligncenter size-full wp-image-9517" src="https://hack.gpl.jp/wp-content/uploads/2018/03/1.jpg" alt="" width="1318" height="988" srcset="https://hack.gpl.jp/wp-content/uploads/2018/03/1.jpg 1318w, https://hack.gpl.jp/wp-content/uploads/2018/03/1-1024x768.jpg 1024w, https://hack.gpl.jp/wp-content/uploads/2018/03/1-768x576.jpg 768w, https://hack.gpl.jp/wp-content/uploads/2018/03/1-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
+<p><img class="aligncenter size-full wp-image-9517" src="/wp-content/uploads/2018/03/1.jpg" alt="" width="1318" height="988" srcset="/wp-content/uploads/2018/03/1.jpg 1318w, /wp-content/uploads/2018/03/1-1024x768.jpg 1024w, /wp-content/uploads/2018/03/1-768x576.jpg 768w, /wp-content/uploads/2018/03/1-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
 <p>値段は、5千ドンで、30円くらいです。場所によっては、1万ドンくらいで売ってたりしたりします。探せばもっと安いところはあるとは思います。ちなみに、この画像は、Ministop のコンビニでの値段です。ローカル店でも売っています。1日に水は１Lから１．５L くらいは必要です。お昼などでスープなどがついていたりするローカル店舗もありますし、フォーなどはスープが300mlくらいは摂取できると思いますが、暑いので、3本は必要です。暑さになれれば、2本くらいですかね。</p>
 <blockquote><p>飲み水・・・ 5000ドン(500ml) x 3 = 1.5Kドン（８０円ほど）</p></blockquote>
 <p>それから、朝ご飯と昼ご飯などです。いたるところで、朝は6時過ぎくらいからフォーや、フランスパンのサンドイッチ（バインミー）などが食べられます。</p>
 <p>たとえば、今日の朝ご飯はフォーでした。</p>
-<p><img class="aligncenter size-full wp-image-9518" src="https://hack.gpl.jp/wp-content/uploads/2018/03/2.jpg" alt="" width="1318" height="988" srcset="https://hack.gpl.jp/wp-content/uploads/2018/03/2.jpg 1318w, https://hack.gpl.jp/wp-content/uploads/2018/03/2-1024x768.jpg 1024w, https://hack.gpl.jp/wp-content/uploads/2018/03/2-768x576.jpg 768w, https://hack.gpl.jp/wp-content/uploads/2018/03/2-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
+<p><img class="aligncenter size-full wp-image-9518" src="/wp-content/uploads/2018/03/2.jpg" alt="" width="1318" height="988" srcset="/wp-content/uploads/2018/03/2.jpg 1318w, /wp-content/uploads/2018/03/2-1024x768.jpg 1024w, /wp-content/uploads/2018/03/2-768x576.jpg 768w, /wp-content/uploads/2018/03/2-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
 <p>ちょっと写真映りは悪いですが、屋台でのフォーでおいしいかったです。2万ドンから3万ドン程度です。このフォーは3万ドンでした。</p>
-<p><img class="aligncenter size-full wp-image-9519" src="https://hack.gpl.jp/wp-content/uploads/2018/03/3.jpg" alt="" width="1318" height="988" srcset="https://hack.gpl.jp/wp-content/uploads/2018/03/3.jpg 1318w, https://hack.gpl.jp/wp-content/uploads/2018/03/3-1024x768.jpg 1024w, https://hack.gpl.jp/wp-content/uploads/2018/03/3-768x576.jpg 768w, https://hack.gpl.jp/wp-content/uploads/2018/03/3-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
+<p><img class="aligncenter size-full wp-image-9519" src="/wp-content/uploads/2018/03/3.jpg" alt="" width="1318" height="988" srcset="/wp-content/uploads/2018/03/3.jpg 1318w, /wp-content/uploads/2018/03/3-1024x768.jpg 1024w, /wp-content/uploads/2018/03/3-768x576.jpg 768w, /wp-content/uploads/2018/03/3-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
 <blockquote><p>朝ご飯の一例・・・フォー　20K &#8211; 30Kドン（120円から200円未満ほど）</p></blockquote>
 <p>昼ご飯は、ちょっとしっかりご飯ものが食べたりすると以下くらいの目安です。今日は、現地の人も食べていて人気だった屋台で定食っぽい以下の料理でした。</p>
-<p><img class="aligncenter size-full wp-image-9520" src="https://hack.gpl.jp/wp-content/uploads/2018/03/4.jpg" alt="" width="1318" height="988" srcset="https://hack.gpl.jp/wp-content/uploads/2018/03/4.jpg 1318w, https://hack.gpl.jp/wp-content/uploads/2018/03/4-1024x768.jpg 1024w, https://hack.gpl.jp/wp-content/uploads/2018/03/4-768x576.jpg 768w, https://hack.gpl.jp/wp-content/uploads/2018/03/4-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
+<p><img class="aligncenter size-full wp-image-9520" src="/wp-content/uploads/2018/03/4.jpg" alt="" width="1318" height="988" srcset="/wp-content/uploads/2018/03/4.jpg 1318w, /wp-content/uploads/2018/03/4-1024x768.jpg 1024w, /wp-content/uploads/2018/03/4-768x576.jpg 768w, /wp-content/uploads/2018/03/4-984x738.jpg 984w" sizes="(max-width: 1318px) 100vw, 1318px" /></p>
 <p>これが、5万ドンでした。女性だときついかもしれません。</p>
 <blockquote><p>お昼・・・定食っぽいもの　5万ドン（270円くらい）</p></blockquote>
 <p>あと、夕食ですが今日は昼にお腹一杯食べて、あまり減っていなかったので軽くヨーグルトと、ビールとかっぱえびせんみたいなものでした。食べに出かけても5万ドン程度で</p>
@@ -165,26 +165,26 @@
 			</item>
 		<item>
 		<title>ベトナムで4GのSIM契約して回線速度調べたよ</title>
-		<link>https://hack.gpl.jp/2018/03/16/%e3%83%99%e3%83%88%e3%83%8a%e3%83%a0%e3%81%a74g%e3%81%aesim%e5%a5%91%e7%b4%84%e3%81%97%e3%81%a6%e5%9b%9e%e7%b7%9a%e9%80%9f%e5%ba%a6%e8%aa%bf%e3%81%b9%e3%81%9f%e3%82%88/</link>
+		<link>/2018/03/16/%e3%83%99%e3%83%88%e3%83%8a%e3%83%a0%e3%81%a74g%e3%81%aesim%e5%a5%91%e7%b4%84%e3%81%97%e3%81%a6%e5%9b%9e%e7%b7%9a%e9%80%9f%e5%ba%a6%e8%aa%bf%e3%81%b9%e3%81%9f%e3%82%88/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 15 Mar 2018 23:27:12 +0000</pubDate>
 				<category><![CDATA[vietnam]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4521</guid>
+		<guid isPermaLink="false">/?p=4521</guid>
 							<description><![CDATA[突然ですが、JunkHackは今ベトナムに来ています。いろいろとお伝えしたいことがたくさんあるのですが、まずは職業柄、ネットワーク関連の記事から行きますね。 ここに来るまでも面白い出来事が多々あったのですが、今回は割愛し [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>突然ですが、JunkHackは今ベトナムに来ています。いろいろとお伝えしたいことがたくさんあるのですが、まずは職業柄、ネットワーク関連の記事から行きますね。</p>
-<p><img class="aligncenter size-full wp-image-9522" src="https://hack.gpl.jp/wp-content/uploads/2018/03/IMG_20180314_110619.jpg" alt="" width="749" height="999" /></p>
+<p><img class="aligncenter size-full wp-image-9522" src="/wp-content/uploads/2018/03/IMG_20180314_110619.jpg" alt="" width="749" height="999" /></p>
 <p>ここに来るまでも面白い出来事が多々あったのですが、今回は割愛してベトナムでの4G回線のSIMを現地調達しましたので、その回線でPCとディザリングしたときの回線速度を調べてみました。スマホとの WiFiは、2.4GHz帯域（802.11n）で接続しています。</p>
 <p>まず、以下がローカルのホーチミン市のリフレクターです。</p>
-<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (25)" src="https://hack.gpl.jp/wp-content/uploads/2018/03/25.png" alt="スクリーンショット (25)" width="750" height="625" border="0" /></p>
+<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (25)" src="/wp-content/uploads/2018/03/25.png" alt="スクリーンショット (25)" width="750" height="625" border="0" /></p>
 <p>実用速度が出ていますね。</p>
-<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (26)" src="https://hack.gpl.jp/wp-content/uploads/2018/03/26.png" alt="スクリーンショット (26)" width="748" height="392" border="0" /></p>
+<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (26)" src="/wp-content/uploads/2018/03/26.png" alt="スクリーンショット (26)" width="748" height="392" border="0" /></p>
 <p>次に、東京までの海底ケーブルを通過した速度です。</p>
-<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (27)" src="https://hack.gpl.jp/wp-content/uploads/2018/03/27.png" alt="スクリーンショット (27)" width="749" height="636" border="0" /></p>
+<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (27)" src="/wp-content/uploads/2018/03/27.png" alt="スクリーンショット (27)" width="749" height="636" border="0" /></p>
 <p>ローカルよりは少し落ちますが、ほぼ同じような速度ですね。</p>
-<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (28)" src="https://hack.gpl.jp/wp-content/uploads/2018/03/28.png" alt="スクリーンショット (28)" width="746" height="393" border="0" /></p>
+<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="スクリーンショット (28)" src="/wp-content/uploads/2018/03/28.png" alt="スクリーンショット (28)" width="746" height="393" border="0" /></p>
 <p>ちなみに、契約したSIMは、2週間で<strong>２２万ドン</strong>で、日本円でいうと１０３０円くらいです。データ制限はないタイプです。</p>
-<p><img class="aligncenter size-full wp-image-9523" src="https://hack.gpl.jp/wp-content/uploads/2018/03/IMG_20180316_061624.jpg" alt="" width="1332" height="999" srcset="https://hack.gpl.jp/wp-content/uploads/2018/03/IMG_20180316_061624.jpg 1332w, https://hack.gpl.jp/wp-content/uploads/2018/03/IMG_20180316_061624-1024x768.jpg 1024w, https://hack.gpl.jp/wp-content/uploads/2018/03/IMG_20180316_061624-768x576.jpg 768w, https://hack.gpl.jp/wp-content/uploads/2018/03/IMG_20180316_061624-984x738.jpg 984w" sizes="(max-width: 1332px) 100vw, 1332px" /></p>
+<p><img class="aligncenter size-full wp-image-9523" src="/wp-content/uploads/2018/03/IMG_20180316_061624.jpg" alt="" width="1332" height="999" srcset="/wp-content/uploads/2018/03/IMG_20180316_061624.jpg 1332w, /wp-content/uploads/2018/03/IMG_20180316_061624-1024x768.jpg 1024w, /wp-content/uploads/2018/03/IMG_20180316_061624-768x576.jpg 768w, /wp-content/uploads/2018/03/IMG_20180316_061624-984x738.jpg 984w" sizes="(max-width: 1332px) 100vw, 1332px" /></p>
 <p>１週間くらいだと、１５万ドンで自分は２週間滞在するので２０万ドンでした。さらにディザリングオプションをつけると２万ドンということです。最初、０が多くてぼられているんじゃないかという気になりましたが、１０００円ちょいということで、まぁ普通かなと。簡単な計算は、０を３つとって、６をかけたものと覚えておきました。次回の記事あたりに、換金したお話なども書こうかなと思います。いろいろネタがありすぎます。</p>
 <p>ちなみに、この記事もディザリングした回線からアップロードしています。また、LINE やフェイスブック、スカイプやドロップボックス、グーグル関連のクラウドやGmailなど、すべて日常的に使っている接続先もまったく普通に使えます。ベトナムでは通信事情に困ることはなさそうですね。</p>
 ]]></content:encoded>

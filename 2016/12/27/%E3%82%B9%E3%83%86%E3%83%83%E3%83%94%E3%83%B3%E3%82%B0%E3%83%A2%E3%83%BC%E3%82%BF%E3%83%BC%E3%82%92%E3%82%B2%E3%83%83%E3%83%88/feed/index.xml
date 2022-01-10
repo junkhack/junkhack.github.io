@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ステッピングモーターをゲット へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2016/12/27/%E3%82%B9%E3%83%86%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%92%E3%82%B2%E3%83%83%E3%83%88/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2016/12/27/%e3%82%b9%e3%83%86%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%a2%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/</link>
+	<atom:link href="/2016/12/27/%E3%82%B9%E3%83%86%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%92%E3%82%B2%E3%83%83%E3%83%88/feed/" rel="self" type="application/rss+xml" />
+	<link>/2016/12/27/%e3%82%b9%e3%83%86%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%a2%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 26 Feb 2017 08:39:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		9999円以下で作るDIY 3Dプリンターその３ &#8211; junkhack より		</title>
-		<link>https://hack.gpl.jp/2016/12/27/%e3%82%b9%e3%83%86%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%a2%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/#comment-71</link>
+		<link>/2016/12/27/%e3%82%b9%e3%83%86%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%a2%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%92%e3%82%b2%e3%83%83%e3%83%88/#comment-71</link>
 
 		<dc:creator><![CDATA[9999円以下で作るDIY 3Dプリンターその３ &#8211; junkhack]]></dc:creator>
 		<pubDate>Sun, 26 Feb 2017 08:39:38 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2794#comment-71</guid>
+		<guid isPermaLink="false">/?p=2794#comment-71</guid>
 
 					<description><![CDATA[[&#8230;] 今回もオリジナルマインドさんで目を皿のようにして選考。もちろん、１０００円未満です。前回は、480円の日本電産サーボ 2相ステッピングモータ KH42KM2-802を選択したのですが、今回はそれほどトルクも必要はないので、もっと安いのに注目！ [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 今回もオリジナルマインドさんで目を皿のようにして選考。もちろん、１０００円未満です。前回は、480円の日本電産サーボ 2相ステッピングモータ KH42KM2-802を選択したのですが、今回はそれほどトルクも必要はないので、もっと安いのに注目！ [&#8230;]</p>

@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/</link>
+	<atom:link href="/2020/09/08/termux_nginx_phpfpm_bench/feed/" rel="self" type="application/rss+xml" />
+	<link>/2020/09/08/termux_nginx_phpfpm_bench/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 10 May 2021 21:42:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		JunkHack より		</title>
-		<link>https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/#comment-114</link>
+		<link>/2020/09/08/termux_nginx_phpfpm_bench/#comment-114</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 10 May 2021 21:42:31 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5943#comment-114</guid>
+		<guid isPermaLink="false">/?p=5943#comment-114</guid>
 
 					<description><![CDATA[メロンさん、こんにちわ！
 
@@ -39,11 +39,11 @@
 		<item>
 		<title>
 		メロン より		</title>
-		<link>https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/#comment-113</link>
+		<link>/2020/09/08/termux_nginx_phpfpm_bench/#comment-113</link>
 
 		<dc:creator><![CDATA[メロン]]></dc:creator>
 		<pubDate>Mon, 10 May 2021 08:41:15 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5943#comment-113</guid>
+		<guid isPermaLink="false">/?p=5943#comment-113</guid>
 
 					<description><![CDATA[はじめまして！
 おもしろい記事ですね。

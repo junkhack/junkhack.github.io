@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	pi2 fedora22 でOC へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/07/04/pi2-fedora22-%E3%81%A7oc/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/07/04/pi2-fedora22-%e3%81%a7oc/</link>
+	<atom:link href="/2015/07/04/pi2-fedora22-%E3%81%A7oc/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/07/04/pi2-fedora22-%e3%81%a7oc/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 04 Nov 2015 08:24:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Raspberry Pi2/ラズベリーパイ2にFedoraをインストール より		</title>
-		<link>https://hack.gpl.jp/2015/07/04/pi2-fedora22-%e3%81%a7oc/#comment-38</link>
+		<link>/2015/07/04/pi2-fedora22-%e3%81%a7oc/#comment-38</link>
 
 		<dc:creator><![CDATA[Raspberry Pi2/ラズベリーパイ2にFedoraをインストール]]></dc:creator>
 		<pubDate>Wed, 04 Nov 2015 08:24:37 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=794#comment-38</guid>
+		<guid isPermaLink="false">/?p=794#comment-38</guid>
 
 					<description><![CDATA[[&#8230;] 今回購入したraspberry piのケースにはファンが付いているので、せっかくだからover clockを試してみたいと思います。 これも先ほど参考にさせていただいたサイトのpi2 fedora22 でOCという記事を参考にしました。 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 今回購入したraspberry piのケースにはファンが付いているので、せっかくだからover clockを試してみたいと思います。 これも先ほど参考にさせていただいたサイトのpi2 fedora22 でOCという記事を参考にしました。 [&#8230;]</p>

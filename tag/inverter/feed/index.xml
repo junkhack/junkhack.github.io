@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Inverter &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 05 Feb 2011 19:57:45 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>バックライトとインバータは生きてた</title>
-		<link>https://hack.gpl.jp/2011/02/06/%e3%83%90%e3%83%83%e3%82%af%e3%83%a9%e3%82%a4%e3%83%88%e3%81%a8%e3%82%a4%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%81%af%e7%94%9f%e3%81%8d%e3%81%a6%e3%81%9f/</link>
+		<link>/2011/02/06/%e3%83%90%e3%83%83%e3%82%af%e3%83%a9%e3%82%a4%e3%83%88%e3%81%a8%e3%82%a4%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%81%af%e7%94%9f%e3%81%8d%e3%81%a6%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 05 Feb 2011 19:57:45 +0000</pubDate>
@@ -32,13 +32,13 @@
 		<category><![CDATA[PWB-IV25134T]]></category>
 		<category><![CDATA[QUANTA DISPLAY INC]]></category>
 		<category><![CDATA[液晶]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/02/06/%e3%83%90%e3%83%83%e3%82%af%e3%83%a9%e3%82%a4%e3%83%88%e3%81%a8%e3%82%a4%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%81%af%e7%94%9f%e3%81%8d%e3%81%a6%e3%81%9f/</guid>
+		<guid isPermaLink="false">/2011/02/06/%e3%83%90%e3%83%83%e3%82%af%e3%83%a9%e3%82%a4%e3%83%88%e3%81%a8%e3%82%a4%e3%83%b3%e3%83%90%e3%83%bc%e3%82%bf%e3%81%af%e7%94%9f%e3%81%8d%e3%81%a6%e3%81%9f/</guid>
 							<description><![CDATA[とりあえずは、前回解析したので電源をつなげてみた。 1・１２V 2・GND 3 未使用 4・3.3V 5 未使用 6 未使用 結果は、こちら。インバータユニットと冷陰極管はいきてましたね。これで、とりあえずは液晶コントロ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>とりあえずは、<a href="https://hack.gpl.jp/2011/02/05/inverter-units-imacg5-17inch/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">前回解析</a>したので電源をつなげてみた。</p>
+										<content:encoded><![CDATA[<p>とりあえずは、<a href="/2011/02/05/inverter-units-imacg5-17inch/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">前回解析</a>したので電源をつなげてみた。</p>
 <p>1・１２V   <br />2・GND    <br />3 未使用    <br />4・3.3V    <br />5 未使用    <br />6 未使用    </p>
-<p>結果は、こちら。インバータユニットと<a href="http://ja.wikipedia.org/wiki/%E5%86%B7%E9%99%B0%E6%A5%B5%E7%AE%A1" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">冷陰極管<span class="wpel-icon wpel-image wpel-icon-1"></span></a>はいきてましたね。これで、とりあえずは液晶コントローラが死んでても、照明とか何か違う用途でも利用できます。    <br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8521" border="0" alt="IMGP8521" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8521.jpg" width="498" height="338" />     <br />ジャンクな電源の4PINメスを使って、仮配線。</p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8524" border="0" alt="IMGP8524" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8524.jpg" width="498" height="338" /> </p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8523" border="0" alt="IMGP8523" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8523.jpg" width="498" height="338" /> </p>
+<p>結果は、こちら。インバータユニットと<a href="http://ja.wikipedia.org/wiki/%E5%86%B7%E9%99%B0%E6%A5%B5%E7%AE%A1" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">冷陰極管<span class="wpel-icon wpel-image wpel-icon-1"></span></a>はいきてましたね。これで、とりあえずは液晶コントローラが死んでても、照明とか何か違う用途でも利用できます。    <br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8521" border="0" alt="IMGP8521" src="/wp-content/uploads/2011/02/imgp8521.jpg" width="498" height="338" />     <br />ジャンクな電源の4PINメスを使って、仮配線。</p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8524" border="0" alt="IMGP8524" src="/wp-content/uploads/2011/02/imgp8524.jpg" width="498" height="338" /> </p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8523" border="0" alt="IMGP8523" src="/wp-content/uploads/2011/02/imgp8523.jpg" width="498" height="338" /> </p>
 <p>１２VはiMacG4の電源から、3.3Vは手持ちのACアダプター。あまってる、ジャンクなRCAコネクタをつなげて、ワニ口クリップでテスト。全部、ジャンクなところが良しじゃない？12Vと3.3Vの電流がちょっと多いかもしれないけども、ま、またそのうち調べましょう。   </p>
 <p>テスタが、アナログなのがオツでそ。小学校のころから使ってるやつ。年代モノですね、これはジャンクじゃなくて、新品購入でしたよ、当時にいくらだったかは忘れましたが、、、FMラジオを作って動かなくてオヤジがプレゼントしてくれました。テスタがあったから、動いた っていう記憶が。原因はわすれましたが、テスタって偉大だなって強烈な印象が残ってますねぇ。</p>
 ]]></content:encoded>
@@ -48,8 +48,8 @@
 			</item>
 		<item>
 		<title>Inverter Units imacg5 17inch</title>
-		<link>https://hack.gpl.jp/2011/02/05/inverter-units-imacg5-17inch/</link>
-					<comments>https://hack.gpl.jp/2011/02/05/inverter-units-imacg5-17inch/#comments</comments>
+		<link>/2011/02/05/inverter-units-imacg5-17inch/</link>
+					<comments>/2011/02/05/inverter-units-imacg5-17inch/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 05 Feb 2011 09:36:01 +0000</pubDate>
@@ -60,17 +60,17 @@
 		<category><![CDATA[PWB-IV25134T]]></category>
 		<category><![CDATA[QUANTA DISPLAY INC]]></category>
 		<category><![CDATA[液晶]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/02/05/inverter-units-imacg5-17inch/</guid>
+		<guid isPermaLink="false">/2011/02/05/inverter-units-imacg5-17inch/</guid>
 							<description><![CDATA[インバータはプラスチックの保護ケースに入っているので、バラス。こういう工具があると便利。 Sumida&#160; PWB-IV25134T 6-pin Inverter みたい。 スミダはコイルの企業ですね。トランスと [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8512" border="0" alt="IMGP8512" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8512.jpg" width="498" height="338" />   </p>
-<p>インバータはプラスチックの保護ケースに入っているので、バラス。こういう工具があると便利。   <br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8516" border="0" alt="IMGP8516" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8516.jpg" width="498" height="338" />     <br />Sumida&#160; PWB-IV25134T 6-pin Inverter みたい。    <br />スミダはコイルの企業ですね。トランスといえば、山水思い出します。ふる～いとか言わないでね。音響用ですかね。    <br /><a href="http://www.sumida.com/jpn/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.sumida.com/jpn/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br /><a href="http://rdnavi.co.jp/patent/detail.php?id=3197443" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">インバータトランスの特許<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は、東光株式会社が持ってるみたいですね。ひらぺったくする技術みたい。    <br />歴史的には、旧株式会社テクノリウム・現在はネオテス株式会社の電流共振型インバータ回路の特許が範囲が広いみたいですね。小型化技術、日本は得意なのかな。おそらくは、特許リサーチャもジャンク品や新品をばらしてるんだと思いますよ、きっと。1000円のジャンク品もこうしてHackしてみるといろいろわかるのが面白みの１つ。    </p>
+										<content:encoded><![CDATA[<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8512" border="0" alt="IMGP8512" src="/wp-content/uploads/2011/02/imgp8512.jpg" width="498" height="338" />   </p>
+<p>インバータはプラスチックの保護ケースに入っているので、バラス。こういう工具があると便利。   <br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8516" border="0" alt="IMGP8516" src="/wp-content/uploads/2011/02/imgp8516.jpg" width="498" height="338" />     <br />Sumida&#160; PWB-IV25134T 6-pin Inverter みたい。    <br />スミダはコイルの企業ですね。トランスといえば、山水思い出します。ふる～いとか言わないでね。音響用ですかね。    <br /><a href="http://www.sumida.com/jpn/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.sumida.com/jpn/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br /><a href="http://rdnavi.co.jp/patent/detail.php?id=3197443" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">インバータトランスの特許<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は、東光株式会社が持ってるみたいですね。ひらぺったくする技術みたい。    <br />歴史的には、旧株式会社テクノリウム・現在はネオテス株式会社の電流共振型インバータ回路の特許が範囲が広いみたいですね。小型化技術、日本は得意なのかな。おそらくは、特許リサーチャもジャンク品や新品をばらしてるんだと思いますよ、きっと。1000円のジャンク品もこうしてHackしてみるといろいろわかるのが面白みの１つ。    </p>
 <p>話は飛びましたが、    <br />sumidaのモデルは、IV251324/T-LFが型番なのかな？</p>
-<p>ググってもなんにも出ないので、HPからカタログでも見てみる。   <br /><a href="http://www.sumida.com/ja/products/catalog.php" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.sumida.com/ja/products/catalog.php<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />総合カタログの2011年度版にP41、インバータユニットが型番違いだけど乗ってた。    <br /><a href="https://hack.gpl.jp/wp-content/uploads/2011/02/image5.png" data-wpel-link="internal" rel="noopener noreferrer"><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://hack.gpl.jp/wp-content/uploads/2011/02/image_thumb.png" width="498" height="359" /></a>     <br />おそらく、12Vと、調光電圧3.3V~5.5Vっていうのは変わらない仕様なんじゃないかとかんぐって見る。</p>
+<p>ググってもなんにも出ないので、HPからカタログでも見てみる。   <br /><a href="http://www.sumida.com/ja/products/catalog.php" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.sumida.com/ja/products/catalog.php<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />総合カタログの2011年度版にP41、インバータユニットが型番違いだけど乗ってた。    <br /><a href="/wp-content/uploads/2011/02/image5.png" data-wpel-link="internal" rel="noopener noreferrer"><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image_thumb.png" width="498" height="359" /></a>     <br />おそらく、12Vと、調光電圧3.3V~5.5Vっていうのは変わらない仕様なんじゃないかとかんぐって見る。</p>
 <p>6-pin Connectorの</p>
 <p>（左から１）1,2,4pinだけ使ってる感じ？12V、GND、3.3V-5.5Vなのかな？</p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8519" border="0" alt="IMGP8519" src="https://hack.gpl.jp/wp-content/uploads/2011/02/imgp8519.jpg" width="498" height="338" /> </p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://hack.gpl.jp/wp-content/uploads/2011/02/image6.png" width="499" height="409" />     <br />1pinからダイオードの極性見ると、＋なので１が１２V、２がGND、４が調光用の3.3V-5.5Vでいいのかな？    <br />B660Y インバータトランス 8pinのSPECがないですね。10年近く前のだから、もう使われてないんでしょうね。    </p>
-<p>ということで、まとめると    <br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://hack.gpl.jp/wp-content/uploads/2011/02/image7.png" width="498" height="364" /> </p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8519" border="0" alt="IMGP8519" src="/wp-content/uploads/2011/02/imgp8519.jpg" width="498" height="338" /> </p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image6.png" width="499" height="409" />     <br />1pinからダイオードの極性見ると、＋なので１が１２V、２がGND、４が調光用の3.3V-5.5Vでいいのかな？    <br />B660Y インバータトランス 8pinのSPECがないですね。10年近く前のだから、もう使われてないんでしょうね。    </p>
+<p>ということで、まとめると    <br /><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image7.png" width="498" height="364" /> </p>
 </p>
 <p>左から１PN。裏側にPIN番号が振ってある。   <br />1・１２V    <br />2・GND    <br />3 未使用    <br />4・調光用の3.3V-5.5V インバータONか？    <br />5 未使用    <br />6 未使用    <br />でとりあえずは、ええんでないの～っていうことで。暫定です。    </p>
 <p>ところで、インバータは高電圧になるので注意。    <br />低電圧なスタンガンですね。良い子は変なのを作らないように。        </p>
@@ -79,7 +79,7 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2011/02/05/inverter-units-imacg5-17inch/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/02/05/inverter-units-imacg5-17inch/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

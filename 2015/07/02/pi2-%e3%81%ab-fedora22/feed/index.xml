@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Pi2 に Fedora22 へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/07/02/pi2-%E3%81%AB-fedora22/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/07/02/pi2-%e3%81%ab-fedora22/</link>
+	<atom:link href="/2015/07/02/pi2-%E3%81%AB-fedora22/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/07/02/pi2-%e3%81%ab-fedora22/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 04 Nov 2015 08:21:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Raspberry Pi2/ラズベリーパイ2にFedoraをインストール より		</title>
-		<link>https://hack.gpl.jp/2015/07/02/pi2-%e3%81%ab-fedora22/#comment-37</link>
+		<link>/2015/07/02/pi2-%e3%81%ab-fedora22/#comment-37</link>
 
 		<dc:creator><![CDATA[Raspberry Pi2/ラズベリーパイ2にFedoraをインストール]]></dc:creator>
 		<pubDate>Wed, 04 Nov 2015 08:21:31 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=777#comment-37</guid>
+		<guid isPermaLink="false">/?p=777#comment-37</guid>
 
 					<description><![CDATA[[&#8230;] このスクリプトを実行するにはdebian系のOSが必要になります。 中で利用しているコマンドに依存しているようです。 手順はこちらのサイトが参考になります。 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] このスクリプトを実行するにはdebian系のOSが必要になります。 中で利用しているコマンドに依存しているようです。 手順はこちらのサイトが参考になります。 [&#8230;]</p>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>sdk &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 27 Sep 2015 16:49:32 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>espeink の現在の調査状況</title>
-		<link>https://hack.gpl.jp/2015/09/28/espeink-%e3%81%ae%e7%8f%be%e5%9c%a8%e3%81%ae%e8%aa%bf%e6%9f%bb%e7%8a%b6%e6%b3%81/</link>
+		<link>/2015/09/28/espeink-%e3%81%ae%e7%8f%be%e5%9c%a8%e3%81%ae%e8%aa%bf%e6%9f%bb%e7%8a%b6%e6%b3%81/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 27 Sep 2015 16:49:32 +0000</pubDate>
@@ -29,7 +29,7 @@
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[PCB]]></category>
 		<category><![CDATA[sdk]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1280</guid>
+		<guid isPermaLink="false">/?p=1280</guid>
 							<description><![CDATA[とりあえず、問題点となるポイントが絞れてきました。 設定を終えて、再度起動するときに以下のようになります。 deep sleep 60s þárl.l&#124;.là&#124;.....lì.b&#124;.ì.rb.bònn [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>とりあえず、問題点となるポイントが絞れてきました。</p>
 <p>設定を終えて、再度起動するときに以下のようになります。</p>
@@ -298,14 +298,14 @@ VENDOR_SDK_DIR_0.9.2 = esp_iot_sdk_v0.9.2</pre>
 			</item>
 		<item>
 		<title>espeink の挙動</title>
-		<link>https://hack.gpl.jp/2015/09/27/espeink-%e3%81%ae%e6%8c%99%e5%8b%95/</link>
+		<link>/2015/09/27/espeink-%e3%81%ae%e6%8c%99%e5%8b%95/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 26 Sep 2015 17:17:42 +0000</pubDate>
 				<category><![CDATA[ESP8266]]></category>
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[sdk]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1277</guid>
+		<guid isPermaLink="false">/?p=1277</guid>
 							<description><![CDATA[とりあえず、全体がまだ良くわかっていないけれども、E-ink とストリームするサーバが必要だということはわかったので、そのメモです。 &#160; ファームウェアの user/config.c 中にあるURL を以下のよ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>とりあえず、全体がまだ良くわかっていないけれども、E-ink とストリームするサーバが必要だということはわかったので、そのメモです。</p>
 <p>&#160;</p>
@@ -324,7 +324,7 @@ void configLoad() {
 ::</pre>
 <p>192.168.1.17:8266 は、とりあえずosx で起動しているapache です。</p>
 <p>本来、mode が 3 で最初に起動するときは動作し、アクセスポイントに接続したら 192.168.4.1 でアクセスできるはずなんだろうけども、そのアクセスポイントに入るパスワードが良くわからず、ソースコード中でとりあえずアクセスポイントに接続するようにしてみた。そして、esp12 に他のブラウザからアクセスしてみたのが以下。</p>
-<p><img title="WiFi_connection" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi_connection" src="https://hack.gpl.jp/wp-content/uploads/2015/09/wifi_connection.png" width="640" height="325" /> </p>
+<p><img title="WiFi_connection" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi_connection" src="/wp-content/uploads/2015/09/wifi_connection.png" width="640" height="325" /> </p>
 <p>&#160;</p>
 <p>Datasource の URL にあるespbm.php はおそらく、.bm をストリームするものだと思うけれども、サンプルファイル中にはなく、とりあえず変換済みの.bm ファイルにリダイレクトするものを用意。具体的には、以下のようなもの。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">&lt;?php
@@ -430,20 +430,20 @@ convertImage(&quot;icons/apconnect.png&quot;, &quot;html/apconnect.bm&quot;);
 			</item>
 		<item>
 		<title>espeink make その４</title>
-		<link>https://hack.gpl.jp/2015/09/26/espeink-make-%e3%81%9d%e3%81%ae%ef%bc%94/</link>
+		<link>/2015/09/26/espeink-make-%e3%81%9d%e3%81%ae%ef%bc%94/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 26 Sep 2015 12:51:15 +0000</pubDate>
 				<category><![CDATA[ESP8266]]></category>
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[sdk]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1269</guid>
+		<guid isPermaLink="false">/?p=1269</guid>
 							<description><![CDATA[続きをやっています。昨日、esptool は C 製のを使うことがわかったので今回は実際に ESP12 に書き込んでみます。 まだ、PCB ボードは作っていませんが、開発ボードにとりあえず書き込めるかやってみようと思いま [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>続きをやっています。昨日、esptool は C 製のを使うことがわかったので今回は実際に ESP12 に書き込んでみます。</p>
 <p>まだ、PCB ボードは作っていませんが、開発ボードにとりあえず書き込めるかやってみようと思います。</p>
 <p>&#160;</p>
 <p>書き込む開発ボードは、以下のものです。他2台は、以前にあれこれやっている最中に3.3V 以上入れすぎて壊れたようです。2台は昇天しましたので、正常なのはこれと、あと未開封のが１つあります。</p>
-<p> <img title="dev" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="dev" src="https://hack.gpl.jp/wp-content/uploads/2015/09/dev.jpg" width="640" height="480" />   </p>
+<p> <img title="dev" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="dev" src="/wp-content/uploads/2015/09/dev.jpg" width="640" height="480" />   </p>
 <p>&#160;</p>
 <p>さて、ソースディレクトリに移動し、make flash してみます。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:espeink junkhack$ make flash
@@ -624,14 +624,14 @@ HOPE:espeink junkhack$ </pre>
 			</item>
 		<item>
 		<title>espeink make その３</title>
-		<link>https://hack.gpl.jp/2015/09/25/espeink-make-%e3%81%9d%e3%81%ae%ef%bc%93/</link>
+		<link>/2015/09/25/espeink-make-%e3%81%9d%e3%81%ae%ef%bc%93/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 24 Sep 2015 19:39:37 +0000</pubDate>
 				<category><![CDATA[ESP8266]]></category>
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[sdk]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1261</guid>
+		<guid isPermaLink="false">/?p=1261</guid>
 							<description><![CDATA[さて、その後esptool っていうのを調査しました。 Makefile には、-eo や、2番目の引数の変数に展開される –bo や –bs などがあります。 ---- Makefile :: # we create  [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>さて、その後esptool っていうのを調査しました。 </p>
 <p>Makefile には、-eo や、2番目の引数の変数に展開される –bo や –bs などがあります。</p>
@@ -851,14 +851,14 @@ HOPE:espeink junkhack$ </pre>
 			</item>
 		<item>
 		<title>espeink make その2</title>
-		<link>https://hack.gpl.jp/2015/09/24/espeink-make2/</link>
+		<link>/2015/09/24/espeink-make2/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 23 Sep 2015 17:19:22 +0000</pubDate>
 				<category><![CDATA[ESP8266]]></category>
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[sdk]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1256</guid>
+		<guid isPermaLink="false">/?p=1256</guid>
 							<description><![CDATA[作者にヘルプ要請を出しておきました。作者からレスポンスがあるまで、自分なりにもう少し調べみます。 その後、再調査でSDK 1.3.0を使うと、 unknown type name &#8216;uint16_t&#821 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>作者にヘルプ要請を出しておきました。作者からレスポンスがあるまで、自分なりにもう少し調べみます。</p>
 <p>その後、再調査でSDK 1.3.0を使うと、   <br />unknown type name &#8216;uint16_t&#8217;    <br />が出るようです。以下に情報が。</p>

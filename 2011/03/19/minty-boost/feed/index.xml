@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Minty Boost へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2011/03/19/minty-boost/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2011/03/19/minty-boost/</link>
+	<atom:link href="/2011/03/19/minty-boost/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/03/19/minty-boost/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 14 Mar 2015 19:47:13 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		arduino hello world! &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2011/03/19/minty-boost/#comment-15</link>
+		<link>/2011/03/19/minty-boost/#comment-15</link>
 
 		<dc:creator><![CDATA[arduino hello world! &#124; junkhack]]></dc:creator>
 		<pubDate>Sat, 14 Mar 2015 19:47:13 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/03/19/minty-boost/#comment-15</guid>
+		<guid isPermaLink="false">/2011/03/19/minty-boost/#comment-15</guid>
 
 					<description><![CDATA[[&#8230;] 電源駆動でも、チカチカしてくれました。昔作ったMinty Boostで、昇圧回路で、久しぶりにジャンク箱から出してみました。ICは、LT1302 ってのを使っています。 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 電源駆動でも、チカチカしてくれました。昔作ったMinty Boostで、昇圧回路で、久しぶりにジャンク箱から出してみました。ICは、LT1302 ってのを使っています。 [&#8230;]</p>

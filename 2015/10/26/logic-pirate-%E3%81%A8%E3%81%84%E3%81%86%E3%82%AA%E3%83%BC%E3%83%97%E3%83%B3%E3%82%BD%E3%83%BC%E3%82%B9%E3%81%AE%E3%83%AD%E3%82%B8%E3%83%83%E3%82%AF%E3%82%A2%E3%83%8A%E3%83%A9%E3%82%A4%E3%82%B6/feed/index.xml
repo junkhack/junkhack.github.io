@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Logic Pirate というオープンソースのロジックアナライザ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/10/26/logic-pirate-%E3%81%A8%E3%81%84%E3%81%86%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/</link>
+	<atom:link href="/2015/10/26/logic-pirate-%E3%81%A8%E3%81%84%E3%81%86%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 19 Feb 2021 22:04:27 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		ロジックアナライザーをゲット &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/#comment-57</link>
+		<link>/2015/10/26/logic-pirate-%e3%81%a8%e3%81%84%e3%81%86%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6/#comment-57</link>
 
 		<dc:creator><![CDATA[ロジックアナライザーをゲット &#124; junkhack]]></dc:creator>
 		<pubDate>Sun, 29 Nov 2015 11:54:06 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1489#comment-57</guid>
+		<guid isPermaLink="false">/?p=1489#comment-57</guid>
 
 					<description><![CDATA[[&#8230;] Logic Pirate というオープンソースのロジックアナライザ [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] Logic Pirate というオープンソースのロジックアナライザ [&#8230;]</p>

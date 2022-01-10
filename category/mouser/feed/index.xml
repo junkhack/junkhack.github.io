@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Mouser &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 21 Sep 2015 09:36:01 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>WiFi E-ink display 部品整理</title>
-		<link>https://hack.gpl.jp/2015/09/21/wifi-e-ink-display-parts/</link>
-					<comments>https://hack.gpl.jp/2015/09/21/wifi-e-ink-display-parts/#comments</comments>
+		<link>/2015/09/21/wifi-e-ink-display-parts/</link>
+					<comments>/2015/09/21/wifi-e-ink-display-parts/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 21 Sep 2015 09:36:01 +0000</pubDate>
@@ -31,14 +31,14 @@
 		<category><![CDATA[espeink]]></category>
 		<category><![CDATA[Mouser]]></category>
 		<category><![CDATA[Parts]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1238</guid>
+		<guid isPermaLink="false">/?p=1238</guid>
 							<description><![CDATA[ハードウェアの検証がおおよそ終わったので、部品のパーツリストと購入先を整理しておきます。 コンデンサは抵抗のようにパックのようなものにするか、バラにするか迷っています。今後も、SMD実装の工作をするなら買っておいてもいい [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ハードウェアの検証がおおよそ終わったので、部品のパーツリストと購入先を整理しておきます。</p>
 <p>コンデンサは抵抗のようにパックのようなものにするか、バラにするか迷っています。今後も、SMD実装の工作をするなら買っておいてもいいかなぁ。、、、4250個も抵抗つかわないよね、きっと。</p>
 <p>IC の価格が安いので、全部aliexpress での購入見込みです。インダクタは、太陽誘電のほうが薄くて小さく、安かったのでこっちにするかも。いろいろ物色して、sumida のが安かったのでこれにしました。</p>
-<p>&#160;<img title="ssss" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ssss" src="https://hack.gpl.jp/wp-content/uploads/2015/09/ssss.png" width="481" height="480" /> </p>
+<p>&#160;<img title="ssss" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ssss" src="/wp-content/uploads/2015/09/ssss.png" width="481" height="480" /> </p>
 <p>51 番のレイヤー tDocs っていうのはこうのがあるんですね。</p>
-<p><img title="WiFi E-link4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi E-link4" src="https://hack.gpl.jp/wp-content/uploads/2015/09/wifielink4.png" width="478" height="480" /> </p>
+<p><img title="WiFi E-link4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi E-link4" src="/wp-content/uploads/2015/09/wifielink4.png" width="478" height="480" /> </p>
 <p>&#160;</p>
 <table cellspacing="0" cellpadding="2" width="633" border="0">
 <tbody>
@@ -228,7 +228,7 @@
 <p>信号作成は、raspi にさせるようです。まだ途中のようですがウォッチしていきたいです。信号作成部分がどうなっているのかソフトウェア的にまだしていませんので。この方も、まだソフトウェアは作っていないようです。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2015/09/21/wifi-e-ink-display-parts/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/09/21/wifi-e-ink-display-parts/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

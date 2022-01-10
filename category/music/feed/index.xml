@@ -10,7 +10,7 @@
 
 <channel>
 	<title>music &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 04 Jul 2021 12:17:27 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,18 +21,18 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>MQAは実際に体感できるほどの高音質なのか？</title>
-		<link>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/</link>
-					<comments>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comments</comments>
+		<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/</link>
+					<comments>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 13 Feb 2021 19:13:53 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10057</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2021/02/MQA.png" />
+		<guid isPermaLink="false">/?p=10057</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/02/MQA.png" />
 							<description><![CDATA[そもそも、MQAとの接点はTidalという音楽配信サービスでした。Tidalの詳細は以下リンクを見ていただくとして、その特徴はSpotifyにはない高音質の音源を配信しています。 TIDALとは何ですか？ https:/ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>Tidalで配信されているMQA音源について今日は体感できるか検証してみました！</p>
 </div></div></div></div></div></div></div></div>
@@ -42,13 +42,13 @@
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>MQAってなんだっけ？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>一言で言えば、CDスペック以上のハイレゾ音源を圧縮する技術みたいです。</p>
 </div></div></div></div></div></div></div></div>
@@ -58,7 +58,7 @@
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>へー、なんか良いことあるの？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -75,7 +75,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="882" height="808" src="https://hack.gpl.jp/wp-content/uploads/2021/02/2002_-_Anne-Marie.png" alt="" class="wp-image-10058" srcset="https://hack.gpl.jp/wp-content/uploads/2021/02/2002_-_Anne-Marie.png 882w, https://hack.gpl.jp/wp-content/uploads/2021/02/2002_-_Anne-Marie-768x704.png 768w" sizes="(max-width: 882px) 100vw, 882px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="882" height="808" src="/wp-content/uploads/2021/02/2002_-_Anne-Marie.png" alt="" class="wp-image-10058" srcset="/wp-content/uploads/2021/02/2002_-_Anne-Marie.png 882w, /wp-content/uploads/2021/02/2002_-_Anne-Marie-768x704.png 768w" sizes="(max-width: 882px) 100vw, 882px" /></figure></div>
 
 
 
@@ -83,7 +83,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="388" height="319" src="https://hack.gpl.jp/wp-content/uploads/2021/02/master-normal.png" alt="" class="wp-image-10059"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="388" height="319" src="/wp-content/uploads/2021/02/master-normal.png" alt="" class="wp-image-10059"/></figure></div>
 
 
 
@@ -107,7 +107,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="605" height="429" src="https://hack.gpl.jp/wp-content/uploads/2021/02/whatshi-res.png" alt="" class="wp-image-10060"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="605" height="429" src="/wp-content/uploads/2021/02/whatshi-res.png" alt="" class="wp-image-10060"/></figure></div>
 
 
 
@@ -183,7 +183,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="479" height="86" src="https://hack.gpl.jp/wp-content/uploads/2021/02/tidal-Trans-Island_Skyway.png" alt="" class="wp-image-10064"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="479" height="86" src="/wp-content/uploads/2021/02/tidal-Trans-Island_Skyway.png" alt="" class="wp-image-10064"/></figure></div>
 
 
 
@@ -248,7 +248,7 @@ drwxr-xr-x@ 37 junkhack  staff       1184  2 14 00:38 ..
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://hack.gpl.jp/wp-content/uploads/2021/02/flac-hires.png" alt="" class="wp-image-10065" width="486" height="82"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="/wp-content/uploads/2021/02/flac-hires.png" alt="" class="wp-image-10065" width="486" height="82"/></figure></div>
 
 
 
@@ -280,7 +280,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img width="565" height="345" src="https://hack.gpl.jp/wp-content/uploads/2021/02/201511-045-057_pdf.png" alt="" class="wp-image-10066"/></figure>
+<figure class="wp-block-image size-large"><img width="565" height="345" src="/wp-content/uploads/2021/02/201511-045-057_pdf.png" alt="" class="wp-image-10066"/></figure>
 
 
 
@@ -288,7 +288,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="630" height="354" src="https://hack.gpl.jp/wp-content/uploads/2021/02/201511-045-057_pdf-1.png" alt="" class="wp-image-10067"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="630" height="354" src="/wp-content/uploads/2021/02/201511-045-057_pdf-1.png" alt="" class="wp-image-10067"/></figure></div>
 
 
 
@@ -404,32 +404,34 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/">こちらからどうぞ</a>。お返事が遅くなるときもありますが、ご了承を。</p>
+ 
 
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 
 
 
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>MQAレンダリングできる世界一安いDACを買ったよ！Hiby FC3 Portable MQA USB DAC</title>
-		<link>https://hack.gpl.jp/2021/02/08/hiby-fc3-portable-mqa-usb-dac/</link>
+		<link>/2021/02/08/hiby-fc3-portable-mqa-usb-dac/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 07 Feb 2021 19:45:13 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10033</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2021/02/HiByFC3dac.png" />
+		<guid isPermaLink="false">/?p=10033</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/02/HiByFC3dac.png" />
 							<description><![CDATA[ぴーちゃんのように、DACって興味がないと？？？ってなりますよね。これは、スマホとかPCからUSB接続してヘッドフォンなどを接続して音を出すヤツです。「Digital Analog Converter」の略ですね。 実際 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>今日は新しいDACを買ったんで使用感など書いてみます！</p>
 </div></div></div></div></div></div></div></div>
@@ -439,13 +441,13 @@ $ file 01-Trans-Island\ Skyway.flac
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>DACってなんだっけ？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>デジタルをアナログに変換する機械で、今回の用途だと音楽を鳴らすヤツだね。</p>
 </div></div></div></div></div></div></div></div>
@@ -455,7 +457,7 @@ $ file 01-Trans-Island\ Skyway.flac
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>へー、なんか良いことあるの？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -472,7 +474,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="793" height="449" src="https://hack.gpl.jp/wp-content/uploads/2021/02/MeizuHiFiDAC.png" alt="" class="wp-image-10034" srcset="https://hack.gpl.jp/wp-content/uploads/2021/02/MeizuHiFiDAC.png 793w, https://hack.gpl.jp/wp-content/uploads/2021/02/MeizuHiFiDAC-768x435.png 768w" sizes="(max-width: 793px) 100vw, 793px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="793" height="449" src="/wp-content/uploads/2021/02/MeizuHiFiDAC.png" alt="" class="wp-image-10034" srcset="/wp-content/uploads/2021/02/MeizuHiFiDAC.png 793w, /wp-content/uploads/2021/02/MeizuHiFiDAC-768x435.png 768w" sizes="(max-width: 793px) 100vw, 793px" /></figure></div>
 
 
 
@@ -492,7 +494,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="883" height="747" src="https://hack.gpl.jp/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png" alt="" class="wp-image-10040" srcset="https://hack.gpl.jp/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png 883w, https://hack.gpl.jp/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf-768x650.png 768w" sizes="(max-width: 883px) 100vw, 883px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="883" height="747" src="/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png" alt="" class="wp-image-10040" srcset="/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png 883w, /wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf-768x650.png 768w" sizes="(max-width: 883px) 100vw, 883px" /></figure></div>
 
 
 
@@ -508,7 +510,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>Realtek ALC892<br>：：<br>95dB SNR<br>16/20/24-bit PCM<br>44.1k/48k/96k/192kHz sample rate<br>：：<br><a rel="noreferrer noopener" href="https://hack.gpl.jp/wp-content/uploads/2021/02/ALC892-CG_DataSheet_1.3.pdf" target="_blank" data-wpel-link="internal">PDF</a></p><cite><a href="https://www.realtek.com/ja/products/computer-peripheral-ics/item/alc892" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.realtek.com/ja/products/computer-peripheral-ics/item/alc892<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Realtek ALC892<br>：：<br>95dB SNR<br>16/20/24-bit PCM<br>44.1k/48k/96k/192kHz sample rate<br>：：<br><a rel="noreferrer noopener" href="/wp-content/uploads/2021/02/ALC892-CG_DataSheet_1.3.pdf" target="_blank" data-wpel-link="internal">PDF</a></p><cite><a href="https://www.realtek.com/ja/products/computer-peripheral-ics/item/alc892" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.realtek.com/ja/products/computer-peripheral-ics/item/alc892<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
@@ -516,7 +518,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>音源：Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" data-wpel-link="external" class="wpel-icon-right">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>　　　Tidal で配信のFlac 24bit/44.1khz<br>アンプ：中華デジタルアンプ（Dクラス）TPA3116D2<br>スピーカー：<a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2021/01/22/electro-voicesx/" target="_blank" data-wpel-link="internal">エレクトロボイス　Sx100+</a><br>PC：macos（<a href="https://audirvana.com/ja/product/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> Mac Version 3.5.43）</p></blockquote>
+<blockquote class="wp-block-quote"><p>音源：Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" data-wpel-link="external" class="wpel-icon-right">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>　　　Tidal で配信のFlac 24bit/44.1khz<br>アンプ：中華デジタルアンプ（Dクラス）TPA3116D2<br>スピーカー：<a rel="noreferrer noopener" href="/2021/01/22/electro-voicesx/" target="_blank" data-wpel-link="internal">エレクトロボイス　Sx100+</a><br>PC：macos（<a href="https://audirvana.com/ja/product/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> Mac Version 3.5.43）</p></blockquote>
 
 
 
@@ -604,8 +606,10 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/">こちらからどうぞ</a>。お返事が遅くなるときもありますが、ご了承を。</p>
+ 
 
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -613,17 +617,17 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>ハイレゾ？それどころか、AAC320KbpsとFlac16bit/44.1khzも僕は区別がつかないよ！</title>
-		<link>https://hack.gpl.jp/2021/02/01/aac320kbps-flac16bit44-1khz/</link>
+		<link>/2021/02/01/aac320kbps-flac16bit44-1khz/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2021 16:35:09 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=10008</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2021/02/aac-flac.png" />
+		<guid isPermaLink="false">/?p=10008</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/02/aac-flac.png" />
 							<description><![CDATA[普段は、Spotifyの高品質AAC320Kbpsで音楽を聞いていますが、世の中には配信系の聞き放題でもFlacっていうCD品質（16bit/44.1khz）の配信や、それ以上の品質（ハイレゾ）で聞ける聴き放題サービスも [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>楽曲の品質って、聞き分けできるんだろうか？</p>
 </div></div></div></div></div></div></div></div>
@@ -633,13 +637,13 @@ $ file 01-Trans-Island\ Skyway.flac
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>あーSpotifyとかの配信系の音の品質のことね？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>ハイレゾとAAC320kとか、いろいろ自分の耳で聞き分けできるか確認してみたよ</p>
 </div></div></div></div></div></div></div></div>
@@ -649,7 +653,7 @@ $ file 01-Trans-Island\ Skyway.flac
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>ハイレゾのストリームサービスもあるの？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -690,7 +694,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img width="782" height="357" src="https://hack.gpl.jp/wp-content/uploads/2021/01/Tidal-low-master.png" alt="" class="wp-image-10010" srcset="https://hack.gpl.jp/wp-content/uploads/2021/01/Tidal-low-master.png 782w, https://hack.gpl.jp/wp-content/uploads/2021/01/Tidal-low-master-768x351.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
+<figure class="wp-block-image size-large"><img width="782" height="357" src="/wp-content/uploads/2021/01/Tidal-low-master.png" alt="" class="wp-image-10010" srcset="/wp-content/uploads/2021/01/Tidal-low-master.png 782w, /wp-content/uploads/2021/01/Tidal-low-master-768x351.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
 
 
 
@@ -710,7 +714,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="481" height="405" src="https://hack.gpl.jp/wp-content/uploads/2021/01/TIDAL.png" alt="" class="wp-image-10011"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="481" height="405" src="/wp-content/uploads/2021/01/TIDAL.png" alt="" class="wp-image-10011"/></figure></div>
 
 
 
@@ -718,7 +722,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="351" height="99" src="https://hack.gpl.jp/wp-content/uploads/2021/01/tidal-flac-mqa.png" alt="" class="wp-image-10012"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="351" height="99" src="/wp-content/uploads/2021/01/tidal-flac-mqa.png" alt="" class="wp-image-10012"/></figure></div>
 
 
 
@@ -730,7 +734,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img width="659" height="333" src="https://hack.gpl.jp/wp-content/uploads/2021/01/aac-flachikaku.png" alt="" class="wp-image-10009"/></figure>
+<figure class="wp-block-image size-large"><img width="659" height="333" src="/wp-content/uploads/2021/01/aac-flachikaku.png" alt="" class="wp-image-10009"/></figure>
 
 
 
@@ -746,7 +750,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="393" src="https://hack.gpl.jp/wp-content/uploads/2021/01/InputDevice-1024x393.png" alt="" class="wp-image-10013" srcset="https://hack.gpl.jp/wp-content/uploads/2021/01/InputDevice-1024x393.png 1024w, https://hack.gpl.jp/wp-content/uploads/2021/01/InputDevice-768x295.png 768w, https://hack.gpl.jp/wp-content/uploads/2021/01/InputDevice-984x377.png 984w, https://hack.gpl.jp/wp-content/uploads/2021/01/InputDevice.png 1061w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img width="1024" height="393" src="/wp-content/uploads/2021/01/InputDevice-1024x393.png" alt="" class="wp-image-10013" srcset="/wp-content/uploads/2021/01/InputDevice-1024x393.png 1024w, /wp-content/uploads/2021/01/InputDevice-768x295.png 768w, /wp-content/uploads/2021/01/InputDevice-984x377.png 984w, /wp-content/uploads/2021/01/InputDevice.png 1061w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -758,7 +762,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img width="691" height="171" src="https://hack.gpl.jp/wp-content/uploads/2021/01/aac-flac-compare.png" alt="" class="wp-image-10014"/></figure>
+<figure class="wp-block-image size-large"><img width="691" height="171" src="/wp-content/uploads/2021/01/aac-flac-compare.png" alt="" class="wp-image-10014"/></figure>
 
 
 
@@ -818,8 +822,10 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/">こちらからどうぞ</a>。お返事が遅くなるときもありますが、ご了承を。</p>
+ 
 
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -827,17 +833,17 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>ライブとかで使われてるElectro-VoiceのSXシリーズをゲット！</title>
-		<link>https://hack.gpl.jp/2021/01/22/electro-voicesx/</link>
+		<link>/2021/01/22/electro-voicesx/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 22 Jan 2021 02:04:53 +0000</pubDate>
 				<category><![CDATA[music]]></category>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9979</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2021/01/ev-sp-1.png" />
+		<guid isPermaLink="false">/?p=9979</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/01/ev-sp-1.png" />
 							<description><![CDATA[世間は緊急事態宣言の2回目という中、お家時間が増えていますね。仕事しながら、音楽を聞く時間も増えています。自宅なので、ヘッドフォンとかじゃなくてスピーカーから音を出して聞いています。今までは絨毯のスピーカーをずっと使って [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>いやー、久しぶり！</p>
 </div></div></div></div></div></div></div></div>
@@ -847,13 +853,13 @@ $ file 01-Trans-Island\ Skyway.flac
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>最近何やってたのよー！</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>いやぁね、いろいろ楽しいことがたくさんあってねw</p>
 </div></div></div></div></div></div></div></div>
@@ -863,7 +869,7 @@ $ file 01-Trans-Island\ Skyway.flac
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>今日は音楽ネタみたいね？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -876,11 +882,11 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2012/01/09/%e7%b5%a8%e6%af%af%e3%81%ae%e3%82%b9%e3%83%94%e3%83%bc%e3%82%ab/" target="_blank" data-wpel-link="internal">絨毯のスピーカ</a></p><cite>作り方とか載せてますので、よかったら見て行ってね！</cite></blockquote>
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="/2012/01/09/%e7%b5%a8%e6%af%af%e3%81%ae%e3%82%b9%e3%83%94%e3%83%bc%e3%82%ab/" target="_blank" data-wpel-link="internal">絨毯のスピーカ</a></p><cite>作り方とか載せてますので、よかったら見て行ってね！</cite></blockquote>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="553" height="367" src="https://hack.gpl.jp/wp-content/uploads/2021/01/jh-sp.png" alt="" class="wp-image-9980"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="553" height="367" src="/wp-content/uploads/2021/01/jh-sp.png" alt="" class="wp-image-9980"/></figure></div>
 
 
 
@@ -888,7 +894,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="https://hack.gpl.jp/wp-content/uploads/2021/01/85244a8e746d15243077602c6d88ce83.png" alt="" class="wp-image-9981" width="551" height="513"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="/wp-content/uploads/2021/01/85244a8e746d15243077602c6d88ce83.png" alt="" class="wp-image-9981" width="551" height="513"/></figure></div>
 
 
 
@@ -896,7 +902,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="https://junkhack.gpl.jp/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" target="_blank" data-wpel-link="internal">そもそも好きな音って？</a><br><em>投稿日: <a href="https://junkhack.gpl.jp/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2012-01-10T21:42:47+09:00">2012年1月10日</time></a> in <a href="https://junkhack.gpl.jp/category/music/" data-wpel-link="internal" rel="noopener noreferrer">music</a></em></p></blockquote>
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener" href="/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" target="_blank" data-wpel-link="internal">そもそも好きな音って？</a><br><em>投稿日: <a href="/2012/01/10/%e3%81%9d%e3%82%82%e3%81%9d%e3%82%82%e5%a5%bd%e3%81%8d%e3%81%aa%e9%9f%b3%e3%81%a3%e3%81%a6%ef%bc%9f/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2012-01-10T21:42:47+09:00">2012年1月10日</time></a> in <a href="/category/music/" data-wpel-link="internal" rel="noopener noreferrer">music</a></em></p></blockquote>
 
 
 
@@ -912,7 +918,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://products.electrovoice.com/na/en/sx100" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img width="757" height="859" src="https://hack.gpl.jp/wp-content/uploads/2021/01/Sx100__-_12__passive_loudspeaker_by_Electro-voice.png" alt="" class="wp-image-9982"/></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://products.electrovoice.com/na/en/sx100" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img width="757" height="859" src="/wp-content/uploads/2021/01/Sx100__-_12__passive_loudspeaker_by_Electro-voice.png" alt="" class="wp-image-9982"/></a></figure></div>
 
 
 
@@ -920,7 +926,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-table"><table><thead><tr><th></th><th>Sx100+<br>12&#8243; passive loudspeaker</th><th>Sx300E<br>12&#8243; passive loudspeaker</th></tr></thead><tbody><tr><td></td><td><img src="https://hack.gpl.jp/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice-1.png" alt=""></td><td><img src="https://hack.gpl.jp/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice.png" alt=""></td></tr><tr><td>Frequency Range (-10 dB)</td><td>60 &#8211; 25000kHz</td><td>50 &#8211; 20000kHz</td></tr><tr><td>Weatherized</td><td>No</td><td>No</td></tr><tr><td>Flying</td><td>Yes</td><td>Yes</td></tr><tr><td>Minimum Impedance</td><td>5.6Ω</td><td>5Ω</td></tr><tr><td>Nominal Impedance (Passive)</td><td>8Ω</td><td>8Ω</td></tr><tr><td>HF Transducer</td><td>1.25-inch DH3/2010A</td><td>1.25-inch DH3/2010A</td></tr><tr><td>Speaker Type</td><td>Full-Range, Mid-High, Two-Way</td><td>Full-Range, Mid-High, Two-Way</td></tr><tr><td>MF Transducer</td><td></td><td></td></tr><tr><td>Woofer Size</td><td>12inch</td><td>12inch</td></tr><tr><td>Powered or Passive</td><td>Passive</td><td>Passive</td></tr><tr><td>Frequency Range (-10 dB)¹</td><td></td><td></td></tr><tr><td>Max. SPL/1m (calc)²</td><td>127dB</td><td>131/123dB ()</td></tr><tr><td>Coverage (Nominal -6 dB) H</td><td>65° ()</td><td>65° ()</td></tr><tr><td>Coverage (Nominal -6 dB) V</td><td>65° ()</td><td>65° ()</td></tr><tr><td>LF Transducer</td><td>12-inch</td><td>12-inch DL12BFH</td></tr><tr><td>System Power Handling (Continuous/Program/Peak)</td><td>200//800Watts ()</td><td>300/1200Watts ()</td></tr><tr><td>Power Rating</td><td>800W</td><td></td></tr><tr><td>Crossover Frequency</td><td>1500Hz</td><td>1500Hz</td></tr><tr><td>Connector Type</td><td></td><td></td></tr><tr><td>Enclosure Material</td><td>Copolymer Composite</td><td>Copolymer Composite</td></tr><tr><td>Sensitivity 1 W/1 m</td><td>98dB</td><td>99dB</td></tr><tr><td>Available Color</td><td>Black or white</td><td>Black or white</td></tr><tr><td>Height</td><td>23.07&#8243; (586mm)</td><td>23.07&#8243; (586mm)</td></tr><tr><td>Width</td><td>16.89&#8243; (429mm)</td><td>16.89&#8243; (429mm)</td></tr><tr><td>Recommended High-Pass Frequency</td><td></td><td></td></tr><tr><td>Depth</td><td>12.28&#8243; (312mm)</td><td>12.28&#8243; (312mm)</td></tr><tr><td>Internal Crossover</td><td>Yes</td><td>Yes</td></tr><tr><td>Weight Net</td><td>31.97lbs (14.5kg)</td><td>39.02lbs (17.7kg)</td></tr><tr><td>Frequency Response (-3 dB)</td><td></td><td></td></tr><tr><td>Shipping Weight</td><td></td><td></td></tr><tr><td>Family</td><td>Sx</td><td>Sx</td></tr><tr><td>Chassis Size</td><td>304.8 mm</td><td>304.8 mm</td></tr><tr><td>Power Handling (Continuous / Peak)</td><td></td><td></td></tr><tr><td>Input Connections</td><td>Parallel Neutrik® NL4</td><td>2 four-pin Speakon</td></tr><tr><td>Maximum SPL</td><td></td><td></td></tr><tr><td>Directivity Index</td><td>11.1dB ()</td><td>11.1dB ()</td></tr><tr><td>Axial Sensitivity (SPL, 1 W @ 1 m)</td><td>98dB</td><td>99dB</td></tr><tr><td>Passive Power Handling</td><td></td><td></td></tr><tr><td>Transformer</td><td></td><td></td></tr><tr><td>Impedance</td><td></td><td></td></tr></tbody></table><figcaption>引用：https://products.electrovoice.com/na/en/sx</figcaption></figure>
+<figure class="wp-block-table"><table><thead><tr><th></th><th>Sx100+<br>12&#8243; passive loudspeaker</th><th>Sx300E<br>12&#8243; passive loudspeaker</th></tr></thead><tbody><tr><td></td><td><img src="/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice-1.png" alt=""></td><td><img src="/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice.png" alt=""></td></tr><tr><td>Frequency Range (-10 dB)</td><td>60 &#8211; 25000kHz</td><td>50 &#8211; 20000kHz</td></tr><tr><td>Weatherized</td><td>No</td><td>No</td></tr><tr><td>Flying</td><td>Yes</td><td>Yes</td></tr><tr><td>Minimum Impedance</td><td>5.6Ω</td><td>5Ω</td></tr><tr><td>Nominal Impedance (Passive)</td><td>8Ω</td><td>8Ω</td></tr><tr><td>HF Transducer</td><td>1.25-inch DH3/2010A</td><td>1.25-inch DH3/2010A</td></tr><tr><td>Speaker Type</td><td>Full-Range, Mid-High, Two-Way</td><td>Full-Range, Mid-High, Two-Way</td></tr><tr><td>MF Transducer</td><td></td><td></td></tr><tr><td>Woofer Size</td><td>12inch</td><td>12inch</td></tr><tr><td>Powered or Passive</td><td>Passive</td><td>Passive</td></tr><tr><td>Frequency Range (-10 dB)¹</td><td></td><td></td></tr><tr><td>Max. SPL/1m (calc)²</td><td>127dB</td><td>131/123dB ()</td></tr><tr><td>Coverage (Nominal -6 dB) H</td><td>65° ()</td><td>65° ()</td></tr><tr><td>Coverage (Nominal -6 dB) V</td><td>65° ()</td><td>65° ()</td></tr><tr><td>LF Transducer</td><td>12-inch</td><td>12-inch DL12BFH</td></tr><tr><td>System Power Handling (Continuous/Program/Peak)</td><td>200//800Watts ()</td><td>300/1200Watts ()</td></tr><tr><td>Power Rating</td><td>800W</td><td></td></tr><tr><td>Crossover Frequency</td><td>1500Hz</td><td>1500Hz</td></tr><tr><td>Connector Type</td><td></td><td></td></tr><tr><td>Enclosure Material</td><td>Copolymer Composite</td><td>Copolymer Composite</td></tr><tr><td>Sensitivity 1 W/1 m</td><td>98dB</td><td>99dB</td></tr><tr><td>Available Color</td><td>Black or white</td><td>Black or white</td></tr><tr><td>Height</td><td>23.07&#8243; (586mm)</td><td>23.07&#8243; (586mm)</td></tr><tr><td>Width</td><td>16.89&#8243; (429mm)</td><td>16.89&#8243; (429mm)</td></tr><tr><td>Recommended High-Pass Frequency</td><td></td><td></td></tr><tr><td>Depth</td><td>12.28&#8243; (312mm)</td><td>12.28&#8243; (312mm)</td></tr><tr><td>Internal Crossover</td><td>Yes</td><td>Yes</td></tr><tr><td>Weight Net</td><td>31.97lbs (14.5kg)</td><td>39.02lbs (17.7kg)</td></tr><tr><td>Frequency Response (-3 dB)</td><td></td><td></td></tr><tr><td>Shipping Weight</td><td></td><td></td></tr><tr><td>Family</td><td>Sx</td><td>Sx</td></tr><tr><td>Chassis Size</td><td>304.8 mm</td><td>304.8 mm</td></tr><tr><td>Power Handling (Continuous / Peak)</td><td></td><td></td></tr><tr><td>Input Connections</td><td>Parallel Neutrik® NL4</td><td>2 four-pin Speakon</td></tr><tr><td>Maximum SPL</td><td></td><td></td></tr><tr><td>Directivity Index</td><td>11.1dB ()</td><td>11.1dB ()</td></tr><tr><td>Axial Sensitivity (SPL, 1 W @ 1 m)</td><td>98dB</td><td>99dB</td></tr><tr><td>Passive Power Handling</td><td></td><td></td></tr><tr><td>Transformer</td><td></td><td></td></tr><tr><td>Impedance</td><td></td><td></td></tr></tbody></table><figcaption>引用：https://products.electrovoice.com/na/en/sx</figcaption></figure>
 
 
 
@@ -932,7 +938,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>PDF：<a rel="noreferrer noopener" href="https://hack.gpl.jp/wp-content/uploads/2021/01/Sx100Plus_Engineering_Data_Sheet.pdf" target="_blank" data-wpel-link="internal">Sx100Plus_Engineering_Data_Sheet.PDF</a></p><cite>https://products.electrovoice.com/binary/Sx100Plus_Engineering_Data_Sheet.PDF</cite></blockquote>
+<blockquote class="wp-block-quote"><p>PDF：<a rel="noreferrer noopener" href="/wp-content/uploads/2021/01/Sx100Plus_Engineering_Data_Sheet.pdf" target="_blank" data-wpel-link="internal">Sx100Plus_Engineering_Data_Sheet.PDF</a></p><cite>https://products.electrovoice.com/binary/Sx100Plus_Engineering_Data_Sheet.PDF</cite></blockquote>
 
 
 
@@ -1002,8 +1008,10 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/">こちらからどうぞ</a>。お返事が遅くなるときもありますが、ご了承を。</p>
+ 
 
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -1011,7 +1019,7 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>I2Sというのに手を出してみる事に</title>
-		<link>https://hack.gpl.jp/2016/02/01/i2s%e3%81%a8%e3%81%84%e3%81%86%e3%81%ae%e3%81%ab%e6%89%8b%e3%82%92%e5%87%ba%e3%81%97%e3%81%a6%e3%81%bf%e3%82%8b%e4%ba%8b%e3%81%ab/</link>
+		<link>/2016/02/01/i2s%e3%81%a8%e3%81%84%e3%81%86%e3%81%ae%e3%81%ab%e6%89%8b%e3%82%92%e5%87%ba%e3%81%97%e3%81%a6%e3%81%bf%e3%82%8b%e4%ba%8b%e3%81%ab/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 01 Feb 2016 14:46:57 +0000</pubDate>
@@ -1019,18 +1027,18 @@ $ file 01-Trans-Island\ Skyway.flac
 		<category><![CDATA[I2S]]></category>
 		<category><![CDATA[music]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2088</guid>
+		<guid isPermaLink="false">/?p=2088</guid>
 							<description><![CDATA[RasPi2 も電源を付けることがだんだんと少なくなってきていますので、ここらでちょっと使い方を変えてみることに。 I2C を調査しているときに、I2S というキーワードも目に入りました。寄り道して散歩していると、なにや [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>RasPi2 も電源を付けることがだんだんと少なくなってきていますので、ここらでちょっと使い方を変えてみることに。</p>
 <p>I2C を調査しているときに、I2S というキーワードも目に入りました。寄り道して散歩していると、なにやら 音関連のようです。どうやら、DAC を USB 経由じゃなくて、I2S インターフェイスを使ってやり取りしてDA 変換するものとのこと。こうして音だしすると、びっくりするくらい音が綺麗というじゃありませんか。</p>
 <p>&#160;</p>
 <p>I2S するのは、以下のようなのが定番のようです。RasPi の GPIO ヘッダーにかぶせるタイプです。TI のチップである、PCM5122という 32bit のDAコンバータが載っています。</p>
-<p> <img title="HIFI-DAC-I2S" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HIFI-DAC-I2S" src="https://hack.gpl.jp/wp-content/uploads/2016/02/hifidaci2s.jpg" width="480" height="480" />   </p>
+<p> <img title="HIFI-DAC-I2S" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HIFI-DAC-I2S" src="/wp-content/uploads/2016/02/hifidaci2s.jpg" width="480" height="480" />   </p>
 <p>お値段も手が出る範囲ですし、一回自分の耳で聞き分けれるかどうか、試してみたくなりました。今は、osx から内臓の音出力を使ってデジタルアンプに出しているだけのシンプルなものです。これでも、かなり気に入っていますが、果たしてよくなるのでしょうか。いや、良くなったしても自分の耳で判別できるでしょうか？</p>
 <p>&#160;</p>
 <p>外付けで、音専用マシンとしてPCを付けなくても鳴らせるようにデジタルアンプも安いものですが購入してみました。こちらも、TIのチップ、TPA3116D2が載っているようです。電源は安定化電源から取る予定。</p>
-<p><img title="amp_TPA3116" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="amp_TPA3116" src="https://hack.gpl.jp/wp-content/uploads/2016/02/amp_tpa3116.jpg" width="511" height="480" />あと、アンプとRasPiをつなぐ短いRCAケーブルもゲット。ま、普通のビデオ線のあまりでもよかったのですが、それっぽい雰囲気を出してみたかったので。</p>
-<p>&#160;<img title="rca_cable" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="rca_cable" src="https://hack.gpl.jp/wp-content/uploads/2016/02/rca_cable.jpg" width="515" height="386" /> </p>
+<p><img title="amp_TPA3116" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="amp_TPA3116" src="/wp-content/uploads/2016/02/amp_tpa3116.jpg" width="511" height="480" />あと、アンプとRasPiをつなぐ短いRCAケーブルもゲット。ま、普通のビデオ線のあまりでもよかったのですが、それっぽい雰囲気を出してみたかったので。</p>
+<p>&#160;<img title="rca_cable" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="rca_cable" src="/wp-content/uploads/2016/02/rca_cable.jpg" width="515" height="386" /> </p>
 </p>
 <p>トータル50ドルほどです。スピーカーは今ある自作の天つり式のじゅうたんスピーカーです。さぁ、どんな感じになりますでしょうか。みんなオーバーにブログで言っているだけなんじゃないかと思っていますが。そんなに変わらないでしょう？</p>
 ]]></content:encoded>

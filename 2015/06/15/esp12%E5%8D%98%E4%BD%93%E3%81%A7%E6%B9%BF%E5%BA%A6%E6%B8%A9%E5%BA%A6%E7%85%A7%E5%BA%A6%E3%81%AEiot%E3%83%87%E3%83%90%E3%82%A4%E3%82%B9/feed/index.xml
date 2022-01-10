@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ESP12単体で湿度温度照度のIoTデバイス へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/06/15/esp12%E5%8D%98%E4%BD%93%E3%81%A7%E6%B9%BF%E5%BA%A6%E6%B8%A9%E5%BA%A6%E7%85%A7%E5%BA%A6%E3%81%AEiot%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/</link>
+	<atom:link href="/2015/06/15/esp12%E5%8D%98%E4%BD%93%E3%81%A7%E6%B9%BF%E5%BA%A6%E6%B8%A9%E5%BA%A6%E7%85%A7%E5%BA%A6%E3%81%AEiot%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 11 Oct 2015 10:16:40 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		ESP8266 でADC 増設その3 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/#comment-36</link>
+		<link>/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/#comment-36</link>
 
 		<dc:creator><![CDATA[ESP8266 でADC 増設その3 &#124; junkhack]]></dc:creator>
 		<pubDate>Sun, 11 Oct 2015 10:16:40 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=735#comment-36</guid>
+		<guid isPermaLink="false">/?p=735#comment-36</guid>
 
 					<description><![CDATA[[&#8230;] を裏側に乗せました。前回作ったやつと同じように、ESP8266 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] を裏側に乗せました。前回作ったやつと同じように、ESP8266 [&#8230;]</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/#comment-35</link>
+		<link>/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/#comment-35</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:27 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=735#comment-35</guid>
+		<guid isPermaLink="false">/?p=735#comment-35</guid>
 
 					<description><![CDATA[[&#8230;] ESP12単体で湿度温度照度のIoTデバイス 2015/06/15 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] ESP12単体で湿度温度照度のIoTデバイス 2015/06/15 [&#8230;]</p>

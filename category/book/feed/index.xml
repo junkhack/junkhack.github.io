@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Book &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 05 Jan 2018 18:21:21 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,18 +21,18 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>1万人の読者・・・企画倒れか</title>
-		<link>https://hack.gpl.jp/2018/01/06/1%e4%b8%87%e4%ba%ba%e3%81%ae%e8%aa%ad%e8%80%85%e3%83%bb%e3%83%bb%e3%83%bb%e4%bc%81%e7%94%bb%e5%80%92%e3%82%8c%e3%81%8b/</link>
+		<link>/2018/01/06/1%e4%b8%87%e4%ba%ba%e3%81%ae%e8%aa%ad%e8%80%85%e3%83%bb%e3%83%bb%e3%83%bb%e4%bc%81%e7%94%bb%e5%80%92%e3%82%8c%e3%81%8b/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 05 Jan 2018 18:21:21 +0000</pubDate>
 				<category><![CDATA[Book]]></category>
 		<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4250</guid>
+		<guid isPermaLink="false">/?p=4250</guid>
 							<description><![CDATA[昨年の４月に１万人の読者を作るプロジェクトを開始したそうそう、翌月には更新していないという体たらく状態でした。 とりあえず、半年遅れですが、その後の統計情報を載せておきます。 &#160; 5月くらいには３０００人くらい [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>昨年の４月に１万人の読者を作るプロジェクトを開始したそうそう、翌月には更新していないという体たらく状態でした。</p>
 <p>とりあえず、半年遅れですが、その後の統計情報を載せておきます。</p>
 <p>&#160;</p>
-<p> <img title="統計情報_‹_junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="統計情報_‹_junkhack_—_WordPress_com" src="https://hack.gpl.jp/wp-content/uploads/2018/01/junkhack__wordpress_com.png" width="640" height="310" />   </p>
+<p> <img title="統計情報_‹_junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="統計情報_‹_junkhack_—_WordPress_com" src="/wp-content/uploads/2018/01/junkhack__wordpress_com.png" width="640" height="310" />   </p>
 <p>5月くらいには３０００人くらいになっているんですがそこから横ばいです。昨年１２月には２３００まで落ち込んでしまいました。そりゃ記事更新していないのですから仕方ありません。むしろ半年良く持ちこたえたというものでしょう。飽きずに訪問してくれたそこのあなた！ありがとうございます。今後がんばりますので、また遊びにきてください。</p>
 <p>とりあえず、半年遅れでプロジェクトがスタートしたという気持ちで今後がんばっていきたいです。あと７０００人の読者に恵まれますようマニアックな良い記事を書いていきたいと思います。</p>
 ]]></content:encoded>
@@ -42,18 +42,18 @@
 			</item>
 		<item>
 		<title>1万人の読者を作るプロジェクト開始</title>
-		<link>https://hack.gpl.jp/2017/04/30/%e8%87%aa%e5%88%86%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ab%e5%af%be%e3%81%99%e3%82%8b%e4%bb%98%e3%81%8d%e5%90%88%e3%81%84%e6%96%b9%e3%82%92%e3%81%be%e3%81%98%e3%81%be%e3%81%98%e3%81%a8%e8%80%83/</link>
+		<link>/2017/04/30/%e8%87%aa%e5%88%86%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ab%e5%af%be%e3%81%99%e3%82%8b%e4%bb%98%e3%81%8d%e5%90%88%e3%81%84%e6%96%b9%e3%82%92%e3%81%be%e3%81%98%e3%81%be%e3%81%98%e3%81%a8%e8%80%83/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 Apr 2017 15:42:01 +0000</pubDate>
 				<category><![CDATA[Book]]></category>
 		<category><![CDATA[ViewUP]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3910</guid>
+		<guid isPermaLink="false">/?p=3910</guid>
 							<description><![CDATA[ゴールデンウィーク初日ですね。午後は雨がふってきましたが午前に読書をしていました。 自分のブログに対する付き合い方をまじまじと考えてみた結果、なんと無謀にも1万人の読者を作ってみる目標を立てました。 そして、毎月その数の [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ゴールデンウィーク初日ですね。午後は雨がふってきましたが午前に読書をしていました。</p>
 <p>自分のブログに対する付き合い方をまじまじと考えてみた結果、なんと無謀にも1万人の読者を作ってみる目標を立てました。</p>
 <p>そして、毎月その数の実績を公開していくことにしました。これにより、どのような工夫や意識の持ち方が読者増につながるのかをみなさんと一緒に体験するのが目的です。</p>
-<p>定期的に読んでいただければ、アクセス数の推移と記事内容の変化がわかり、あなたのブログのアクセス像につながるかもしれません。<a href="https://hack.gpl.jp/category/viewup/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">ViewUP</a> というカテゴリにこの関連を書きます。</p>
+<p>定期的に読んでいただければ、アクセス数の推移と記事内容の変化がわかり、あなたのブログのアクセス像につながるかもしれません。<a href="/category/viewup/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">ViewUP</a> というカテゴリにこの関連を書きます。</p>
 <p>&#160;</p>
 <p>そんな事をはじめようと思ったきっかけは以下の本です。</p>
 <p>ブログについて、ゴールデンウィーク期間中にあれこれ考えてみようと思い、この本を読みました。アマゾンの Kindle Unlimited（定額料金で読みたい放題対象） で読める本です。自分がそのときに感じた本の感想なども、数年後に見返るすと結構楽しい（恥ずかしかったり）と思うので書いてみることにします。</p>
@@ -77,7 +77,7 @@
 <p>最後は大切だと思っています。</p>
 <p>&#160;</p>
 <p>さて、このブログですが主に工作やDIYなど自作して楽しもうという趣旨の内容が多いのですが、こんなマニアックな自分のブログにも以下のようなアクセスがあります。</p>
-<p><img title="Stats_‹_junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Stats_‹_junkhack_—_WordPress_com" src="https://hack.gpl.jp/wp-content/uploads/2017/04/stats__junkhack__wordpress_com.png" width="640" height="363" /> </p>
+<p><img title="Stats_‹_junkhack_—_WordPress_com" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Stats_‹_junkhack_—_WordPress_com" src="/wp-content/uploads/2017/04/stats__junkhack__wordpress_com.png" width="640" height="363" /> </p>
 <p>これは月ごとのビジターのアクセス数の推移ですが、1年前は1500人くらいだったのが今はなんと、2500人くらいの読者が居るようです。1000人って、昔の6クラスほどある小学校の1年から6年までを集めた人数です。物好きな人もいるものですね。ありがたい事です。</p>
 <p>&#160;</p>
 <p>で、目標をとりあえず作ってみます。</p>

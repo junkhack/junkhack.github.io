@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	5V 18650　リチウムバッテリー充電モジュール へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/05/10/5v-18650%E3%80%80%E3%83%AA%E3%83%81%E3%82%A6%E3%83%A0%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%85%85%E9%9B%BB%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/</link>
+	<atom:link href="/2015/05/10/5v-18650%E3%80%80%E3%83%AA%E3%83%81%E3%82%A6%E3%83%A0%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%85%85%E9%9B%BB%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:54:20 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/#comment-30</link>
+		<link>/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/#comment-30</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:20 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=705#comment-30</guid>
+		<guid isPermaLink="false">/?p=705#comment-30</guid>
 
 					<description><![CDATA[[&#8230;] 5V 18650 リチウムバッテリー充電モジュール 2015/05/10 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 5V 18650 リチウムバッテリー充電モジュール 2015/05/10 [&#8230;]</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		3.3V 固定 DC-DCコンバータを調査 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/#comment-29</link>
+		<link>/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/#comment-29</link>
 
 		<dc:creator><![CDATA[3.3V 固定 DC-DCコンバータを調査 &#124; junkhack]]></dc:creator>
 		<pubDate>Sun, 23 Aug 2015 21:07:09 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=705#comment-29</guid>
+		<guid isPermaLink="false">/?p=705#comment-29</guid>
 
 					<description><![CDATA[[&#8230;] 5V 18650 リチウムバッテリー充電モジュール [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] 5V 18650 リチウムバッテリー充電モジュール [&#8230;]</p>

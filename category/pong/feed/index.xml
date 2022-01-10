@@ -10,7 +10,7 @@
 
 <channel>
 	<title>PONG &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 06 Sep 2015 11:34:03 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>コントローラーABできました</title>
-		<link>https://hack.gpl.jp/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/</link>
-					<comments>https://hack.gpl.jp/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/#comments</comments>
+		<link>/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/</link>
+					<comments>/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2015 11:34:03 +0000</pubDate>
@@ -32,46 +32,46 @@
 		<category><![CDATA[Junk]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PONG]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1131</guid>
+		<guid isPermaLink="false">/?p=1131</guid>
 							<description><![CDATA[目玉おやじの胴体はボタンになってもらうので、切り落とします。 ボリュームは、使ってないデットストックのをジャンク箱から見つけました。頭を削って調整します。 まだ、配線してない状態ですが収まりは良さそう。 続いて、携帯灰皿 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>目玉おやじの胴体はボタンになってもらうので、切り落とします。</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="https://hack.gpl.jp/wp-content/uploads/2015/09/12.jpg" width="640" height="480" /></p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/09/12.jpg" width="640" height="480" /></p>
 <p>ボリュームは、使ってないデットストックのをジャンク箱から見つけました。頭を削って調整します。</p>
-<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="https://hack.gpl.jp/wp-content/uploads/2015/09/22.jpg" width="640" height="480" /> </p>
+<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/09/22.jpg" width="640" height="480" /> </p>
 <p>まだ、配線してない状態ですが収まりは良さそう。</p>
-<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="https://hack.gpl.jp/wp-content/uploads/2015/09/31.jpg" width="640" height="480" /> </p>
+<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="/wp-content/uploads/2015/09/31.jpg" width="640" height="480" /> </p>
 <p>続いて、携帯灰皿のコントローラ加工。こっちは、半固定抵抗で頑張ってもらいます。筐体は白にペイント済みです。</p>
 <p>素材は、灰皿部分はアルミで出来ているので基盤を丸くけずり、ベース部分を作りました。半固定抵抗の柄には、グルースティックをつけてあります。</p>
-<p><img title="写真 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 4" src="https://hack.gpl.jp/wp-content/uploads/2015/09/41.jpg" width="640" height="480" /> </p>
+<p><img title="写真 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 4" src="/wp-content/uploads/2015/09/41.jpg" width="640" height="480" /> </p>
 <p>USBケーブルを通し、スイッチを配線します。</p>
-<p><img title="写真 5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 5" src="https://hack.gpl.jp/wp-content/uploads/2015/09/5.jpg" width="640" height="480" /> </p>
+<p><img title="写真 5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 5" src="/wp-content/uploads/2015/09/5.jpg" width="640" height="480" /> </p>
 <p>で、くみ上げてついにボール型のコントローラーAとBが出来ました！！</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="https://hack.gpl.jp/wp-content/uploads/2015/09/1.jpg" width="640" height="480" /> </p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/09/1.jpg" width="640" height="480" /> </p>
 <p>１つは、マクドナルドのおもちゃを流用。そして、もうひとつは携帯灰皿を利用しています。携帯灰皿のほうは、蓋を開けるとホイールコントローラとスイッチが見えてなかなかかっこいいです。</p>
-<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="https://hack.gpl.jp/wp-content/uploads/2015/09/2.jpg" width="640" height="480" /> </p>
+<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/09/2.jpg" width="640" height="480" /> </p>
 <p>本体のケースはまだですが、プレイした感じ。</p>
-<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="https://hack.gpl.jp/wp-content/uploads/2015/09/3.jpg" width="640" height="480" /> </p>
+<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="/wp-content/uploads/2015/09/3.jpg" width="640" height="480" /> </p>
 <p>来週くらいにはケースできるといいかなぁ。ぼちぼちと作っていきます。</p>
-<p><img title="写真 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 4" src="https://hack.gpl.jp/wp-content/uploads/2015/09/4.jpg" width="640" height="480" /> </p>
+<p><img title="写真 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 4" src="/wp-content/uploads/2015/09/4.jpg" width="640" height="480" /> </p>
 </p>
 <p>かなり面倒な作業がありましたが、なんとかコントローラが出来ましたよ。</p>
 <p>arduino で pong 完成までもう少しです。</p>
 <p>&#160;</p>
 <p>あと、100円ショップでケースになりそうなものを物色してきました。前回作ったESP12 の温度湿度照度のデバイスを入れようかなと。新幹線のと、レゴ風のケースとどちらかにしようかと。</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="https://hack.gpl.jp/wp-content/uploads/2015/09/11.jpg" width="640" height="480" /> </p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/09/11.jpg" width="640" height="480" /> </p>
 <p>温度センサーは出さないといけないので、レイアウトに迷います。</p>
-<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="https://hack.gpl.jp/wp-content/uploads/2015/09/21.jpg" width="640" height="480" /> </p>
+<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/09/21.jpg" width="640" height="480" /> </p>
 <p>真ん中の車両はモーターも付いています。100円ショップは工作材料の宝庫です。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>本体側への装着はだいたい終了</title>
-		<link>https://hack.gpl.jp/2015/08/31/%e6%9c%ac%e4%bd%93%e5%81%b4%e3%81%b8%e3%81%ae%e8%a3%85%e7%9d%80%e3%81%af%e3%81%a0%e3%81%84%e3%81%9f%e3%81%84%e7%b5%82%e4%ba%86/</link>
+		<link>/2015/08/31/%e6%9c%ac%e4%bd%93%e5%81%b4%e3%81%b8%e3%81%ae%e8%a3%85%e7%9d%80%e3%81%af%e3%81%a0%e3%81%84%e3%81%9f%e3%81%84%e7%b5%82%e4%ba%86/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 30 Aug 2015 19:44:54 +0000</pubDate>
@@ -79,10 +79,10 @@
 		<category><![CDATA[Junk]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PONG]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1125</guid>
+		<guid isPermaLink="false">/?p=1125</guid>
 							<description><![CDATA[休み中には完成できませんでしたが、本体側はほぼ終了。 USB,VGA,SP はホットボンドでくっ付けました。本体は側面を作り、上からもうひとつのラケットで覆う感じにします。 &#160; USB の先に付くコントローラA [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>休み中には完成できませんでしたが、本体側はほぼ終了。</p>
-<p><img title="body" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="body" src="https://hack.gpl.jp/wp-content/uploads/2015/08/body.jpg" width="640" height="480" /> </p>
+<p><img title="body" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="body" src="/wp-content/uploads/2015/08/body.jpg" width="640" height="480" /> </p>
 <p>USB,VGA,SP はホットボンドでくっ付けました。本体は側面を作り、上からもうひとつのラケットで覆う感じにします。</p>
 <p>&#160;</p>
 <p>USB の先に付くコントローラA,Bの加工はゆっくりやっていきます。</p>
@@ -94,7 +94,7 @@
 			</item>
 		<item>
 		<title>電源まわり</title>
-		<link>https://hack.gpl.jp/2015/08/30/%e9%9b%bb%e6%ba%90%e3%81%be%e3%82%8f%e3%82%8a/</link>
+		<link>/2015/08/30/%e9%9b%bb%e6%ba%90%e3%81%be%e3%82%8f%e3%82%8a/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 30 Aug 2015 02:22:44 +0000</pubDate>
@@ -102,17 +102,17 @@
 		<category><![CDATA[Junk]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PONG]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1122</guid>
+		<guid isPermaLink="false">/?p=1122</guid>
 							<description><![CDATA[とりあえず、電源周りを先にやっつけることに。 &#160; まず、基盤を一体化させるために連結します。 &#160; 次に、リチウム電池を固定させる電池ボックスを作成。クリップで微調整して接点を作ります。 スイッチや充電 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>とりあえず、電源周りを先にやっつけることに。</p>
 <p>&#160;</p>
 <p>まず、基盤を一体化させるために連結します。</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="https://hack.gpl.jp/wp-content/uploads/2015/08/110.jpg" width="640" height="480" /> </p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/08/110.jpg" width="640" height="480" /> </p>
 <p>&#160;</p>
 <p>次に、リチウム電池を固定させる電池ボックスを作成。クリップで微調整して接点を作ります。</p>
-<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="https://hack.gpl.jp/wp-content/uploads/2015/08/29.jpg" width="640" height="480" /> </p>
+<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/08/29.jpg" width="640" height="480" /> </p>
 <p>スイッチや充電ユニットと５V昇圧ユニットをつけてとりあえず電源周りは終了。</p>
-<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="https://hack.gpl.jp/wp-content/uploads/2015/08/36.jpg" width="640" height="480" /> </p>
+<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="/wp-content/uploads/2015/08/36.jpg" width="640" height="480" /> </p>
 <p>手作り感、満載です。</p>
 <p>本体、USB、VGAメスジャックを載せて配線すれば本体側はだいたい終わりです。</p>
 ]]></content:encoded>
@@ -122,7 +122,7 @@
 			</item>
 		<item>
 		<title>ブレッドボードへ仮組み</title>
-		<link>https://hack.gpl.jp/2015/08/29/%e3%83%96%e3%83%ac%e3%83%83%e3%83%89%e3%83%9c%e3%83%bc%e3%83%89%e3%81%b8%e4%bb%ae%e7%b5%84%e3%81%bf/</link>
+		<link>/2015/08/29/%e3%83%96%e3%83%ac%e3%83%83%e3%83%89%e3%83%9c%e3%83%bc%e3%83%89%e3%81%b8%e4%bb%ae%e7%b5%84%e3%81%bf/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 Aug 2015 01:01:50 +0000</pubDate>
@@ -130,14 +130,14 @@
 		<category><![CDATA[Junk]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PONG]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1117</guid>
+		<guid isPermaLink="false">/?p=1117</guid>
 							<description><![CDATA[ブレッドボードへ仮組みし、ちょっとプレイ。 &#160;&#160; 乾電池駆動でも動作してくれています。ピーク電圧が不安定なのでコンデンサが必要だとわかりました。音がなると、画面が暗くなります。 調子にのって遊んでいた [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ブレッドボードへ仮組みし、ちょっとプレイ。</p>
-<p>&#160;&#160; <img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="https://hack.gpl.jp/wp-content/uploads/2015/08/35.jpg" width="640" height="480" /></p>
+<p>&#160;&#160; <img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="/wp-content/uploads/2015/08/35.jpg" width="640" height="480" /></p>
 <p>乾電池駆動でも動作してくれています。ピーク電圧が不安定なのでコンデンサが必要だとわかりました。音がなると、画面が暗くなります。</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="https://hack.gpl.jp/wp-content/uploads/2015/08/19.jpg" width="640" height="480" /></p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/08/19.jpg" width="640" height="480" /></p>
 <p>調子にのって遊んでいたら、半固定抵抗のpin が折れてしまいました。うーん、修復するかまた探すかです。</p>
-<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="https://hack.gpl.jp/wp-content/uploads/2015/08/28.jpg" width="640" height="480" /></p>
+<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/08/28.jpg" width="640" height="480" /></p>
 </p>
 </p>
 </p>
@@ -151,7 +151,7 @@
 			</item>
 		<item>
 		<title>目玉おやじのコントローラAを加工</title>
-		<link>https://hack.gpl.jp/2015/08/29/%e7%9b%ae%e7%8e%89%e3%81%8a%e3%82%84%e3%81%98%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9a%e3%81%ae%e5%8a%a0%e5%b7%a5/</link>
+		<link>/2015/08/29/%e7%9b%ae%e7%8e%89%e3%81%8a%e3%82%84%e3%81%98%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9a%e3%81%ae%e5%8a%a0%e5%b7%a5/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 28 Aug 2015 16:55:07 +0000</pubDate>
@@ -159,21 +159,21 @@
 		<category><![CDATA[Junk]]></category>
 		<category><![CDATA[Parts]]></category>
 		<category><![CDATA[PONG]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1111</guid>
+		<guid isPermaLink="false">/?p=1111</guid>
 							<description><![CDATA[マクドナルドのおまけの目玉おやじには、コントローラAになってもらいます。目玉を押すとスイッチになっていてしゃべるおもちゃですが、内部をばらして、どの位置にホイールコントロールをつけるか検討します。 &#160; スピーカ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>マクドナルドのおまけの目玉おやじには、コントローラAになってもらいます。目玉を押すとスイッチになっていてしゃべるおもちゃですが、内部をばらして、どの位置にホイールコントロールをつけるか検討します。</p>
 <p>&#160;</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="https://hack.gpl.jp/wp-content/uploads/2015/08/18.jpg" width="640" height="480" /> </p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/08/18.jpg" width="640" height="480" /> </p>
 <p>スピーカーは本体へ移動予定。スイッチ付きです。</p>
-<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="https://hack.gpl.jp/wp-content/uploads/2015/08/27.jpg" width="640" height="480" /> </p>
+<p><img title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/08/27.jpg" width="640" height="480" /> </p>
 <p>ねじが、三角の特殊ビットなので強引に精密ドライバーのマイナスでとります。</p>
-<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="https://hack.gpl.jp/wp-content/uploads/2015/08/34.jpg" width="640" height="480" /> </p>
+<p><img title="写真 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 3" src="/wp-content/uploads/2015/08/34.jpg" width="640" height="480" /> </p>
 <p>中はスピーカーとボタン電池とカスタムIC、ゴムスイッチなどがあります。</p>
-<p><img title="写真 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 4" src="https://hack.gpl.jp/wp-content/uploads/2015/08/42.jpg" width="640" height="480" /> </p>
+<p><img title="写真 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 4" src="/wp-content/uploads/2015/08/42.jpg" width="640" height="480" /> </p>
 <p>内部構造から、この基盤はつけたままにしておき、スピーカーを取り外しそこにホイールコントローラーを埋め込みます。</p>
-<p><img title="写真 5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 5" src="https://hack.gpl.jp/wp-content/uploads/2015/08/51.jpg" width="640" height="480" /> </p>
+<p><img title="写真 5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 5" src="/wp-content/uploads/2015/08/51.jpg" width="640" height="480" /> </p>
 <p>スイッチのリードはここから取り出します。代わりのスピーカーを埋めこれば、ボールの発射時にしゃべる効果がつきそうですが。</p>
-<p><img title="写真 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 6" src="https://hack.gpl.jp/wp-content/uploads/2015/08/6.jpg" width="640" height="480" /> </p>
+<p><img title="写真 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 6" src="/wp-content/uploads/2015/08/6.jpg" width="640" height="480" /> </p>
 </p>
 <p>一度、半固定抵抗が動作するかブレッドボードに組み動作を確認してみようと思います。</p>
 ]]></content:encoded>

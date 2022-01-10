@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	BackBoostのPCBが到着！ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/11/28/backboost%E3%81%AEpcb%E3%81%8C%E5%88%B0%E7%9D%80%EF%BC%81/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/11/28/backboost%e3%81%aepcb%e3%81%8c%e5%88%b0%e7%9d%80%ef%bc%81/</link>
+	<atom:link href="/2015/11/28/backboost%E3%81%AEpcb%E3%81%8C%E5%88%B0%E7%9D%80%EF%BC%81/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/11/28/backboost%e3%81%aepcb%e3%81%8c%e5%88%b0%e7%9d%80%ef%bc%81/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Wed, 02 Dec 2015 18:21:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		JunkHack より		</title>
-		<link>https://hack.gpl.jp/2015/11/28/backboost%e3%81%aepcb%e3%81%8c%e5%88%b0%e7%9d%80%ef%bc%81/#comment-65</link>
+		<link>/2015/11/28/backboost%e3%81%aepcb%e3%81%8c%e5%88%b0%e7%9d%80%ef%bc%81/#comment-65</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 02 Dec 2015 18:21:31 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1756#comment-65</guid>
+		<guid isPermaLink="false">/?p=1756#comment-65</guid>
 
 					<description><![CDATA[Welcome AACHYEE.
 yes, using the TPS63000.
@@ -39,11 +39,11 @@ yes, using the TPS63000.</p>
 		<item>
 		<title>
 		aachyee (@aachyee) より		</title>
-		<link>https://hack.gpl.jp/2015/11/28/backboost%e3%81%aepcb%e3%81%8c%e5%88%b0%e7%9d%80%ef%bc%81/#comment-64</link>
+		<link>/2015/11/28/backboost%e3%81%aepcb%e3%81%8c%e5%88%b0%e7%9d%80%ef%bc%81/#comment-64</link>
 
 		<dc:creator><![CDATA[aachyee (@aachyee)]]></dc:creator>
 		<pubDate>Wed, 02 Dec 2015 14:36:28 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1756#comment-64</guid>
+		<guid isPermaLink="false">/?p=1756#comment-64</guid>
 
 					<description><![CDATA[Buck Boost converter?]]></description>
 			<content:encoded><![CDATA[<p>Buck Boost converter?</p>

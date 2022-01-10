@@ -10,7 +10,7 @@
 
 <channel>
 	<title>Blog &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 01 Jun 2021 20:43:58 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,15 +21,15 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>ジェットパックプラグインは死活監視サービスがあるのか！</title>
-		<link>https://hack.gpl.jp/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/</link>
-					<comments>https://hack.gpl.jp/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/#comments</comments>
+		<link>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/</link>
+					<comments>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 18 Sep 2020 09:30:10 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=6079</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2020/09/sitedown.png" />
+		<guid isPermaLink="false">/?p=6079</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/sitedown.png" />
 							<description><![CDATA[今回引越しをやっていて、気が付いたことがいくつかあります。その１つに、ジェットパックプラグインには、WEBがちゃんと動いているかどうかをチェックしてくれるサービスが無料でありました。 とにかく、たくさん機能があるんですよ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>今回引越しをやっていて、気が付いたことがいくつかあります。その１つに、ジェットパックプラグインには、WEBがちゃんと動いているかどうかをチェックしてくれるサービスが無料でありました。</p>
@@ -37,7 +37,7 @@
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p><strong>Jetpack</strong>プラグインって機能いっぱいあるな！</p>
 </div></div></div></div></div></div></div></div>
@@ -47,7 +47,7 @@
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>使い切れるのかしら？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -64,7 +64,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="586" height="667" src="https://hack.gpl.jp/wp-content/uploads/2020/09/sitedown.png" alt="" class="wp-image-9559"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="586" height="667" src="/wp-content/uploads/2020/09/sitedown.png" alt="" class="wp-image-9559"/></figure></div>
 
 
 
@@ -76,7 +76,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="591" height="558" src="https://hack.gpl.jp/wp-content/uploads/2020/09/siteonline.png" alt="" class="wp-image-9560"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="591" height="558" src="/wp-content/uploads/2020/09/siteonline.png" alt="" class="wp-image-9560"/></figure></div>
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-<p><a href="https://hack.gpl.jp/wp-admin/edit.php?post_type=post" data-wpel-link="internal" rel="noopener noreferrer"></a></p>
+<p><a href="/wp-admin/edit.php?post_type=post" data-wpel-link="internal" rel="noopener noreferrer"></a></p>
 
 
 
@@ -157,15 +157,15 @@
 <p>比較表を今作る元気はないので、とりあえずメモしておきます。Site24x7とかは、スピードテストとかでお世話になったことがあり知っていますが他は知りませんでした。結構、無料でもやれるんですね。今度、どれか採用してレポートしたいなと思います。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/feed/</wfw:commentRss>
+					<wfw:commentRss>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/feed/</wfw:commentRss>
 			<slash:comments>9</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>このブログは、スマートフォンの中に引越ししました！</title>
-		<link>https://hack.gpl.jp/2020/09/18/this-blog-has-moved-into-a-smartphone/</link>
-					<comments>https://hack.gpl.jp/2020/09/18/this-blog-has-moved-into-a-smartphone/#comments</comments>
+		<link>/2020/09/18/this-blog-has-moved-into-a-smartphone/</link>
+					<comments>/2020/09/18/this-blog-has-moved-into-a-smartphone/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 18 Sep 2020 04:00:13 +0000</pubDate>
@@ -174,8 +174,8 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9510</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2020/09/gogai.png" />
+		<guid isPermaLink="false">/?p=9510</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
 							<description><![CDATA[えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！ なんで、引越しをしたの？ はい、結論から言いますと今まで使っていたWordPress.comのパー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！</p>
@@ -194,7 +194,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkhack.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkhack.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/2018/10/17/20181017/</a></cite></blockquote>
 
 
 
@@ -206,7 +206,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>Termuxとか、自宅サーバ関連</p><cite><a href="https://hack.gpl.jp/?s=Termux+自宅サーバ" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://hack.gpl.jp/?s=Termux+自宅サーバ</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Termuxとか、自宅サーバ関連</p><cite><a href="/?s=Termux+自宅サーバ" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/?s=Termux+自宅サーバ</a></cite></blockquote>
 
 
 
@@ -239,7 +239,7 @@
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>やっぱりWordPressはカスタマイズしたいよね！</p>
 </div></div></div></div></div></div></div></div>
@@ -249,29 +249,29 @@
 <p>とりあず、今日は引越ししたよ！　というネタをあげたかったので以上にします。またねー。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2020/09/18/this-blog-has-moved-into-a-smartphone/feed/</wfw:commentRss>
+					<wfw:commentRss>/2020/09/18/this-blog-has-moved-into-a-smartphone/feed/</wfw:commentRss>
 			<slash:comments>3</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>スマホ上に作った自宅サーバのWordPressで、テスト評価がほぼオールAになった！</title>
-		<link>https://hack.gpl.jp/2020/09/12/wordpres_performance_test/</link>
+		<link>/2020/09/12/wordpres_performance_test/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 11 Sep 2020 19:51:21 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=6030</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2020/09/allA.png" />
+		<guid isPermaLink="false">/?p=6030</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/allA.png" />
 							<description><![CDATA[はい、ただ今引っ越し準備中でして、このブログをスマートフォン上に作ったWordPressサーバに引っ越しします。９月末か１０月頭予定で各種チューニングをやっていましたが、ついにスピードテスト系の評価サイトでほぼオールAを [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>はい、ただ今引っ越し準備中でして、このブログをスマートフォン上に作ったWordPressサーバに引っ越しします。９月末か１０月頭予定で各種チューニングをやっていましたが、ついにスピードテスト系の評価サイトでほぼオールAを取ることに成功しました。</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/webpagetest_test_result_-_tokyo___jh_gpl_jp__-_09_12_20_01_36_13.png?w=952" alt="" class="wp-image-6034" /></figure>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_result_-_tokyo___jh_gpl_jp__-_09_12_20_01_36_13.png?w=952" alt="" class="wp-image-6034" /></figure>
 
 
 
@@ -377,7 +377,7 @@
 
 
 
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://ja.wordpress.org/plugins/autoptimize/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/autoptimize_e28093_wordpress_e38395e3829ae383a9e382afe38299e382a4e383b3___wordpress_org_e697a5e69cace8aa9e.png?w=743" alt="" class="wp-image-6040" /></a></figure></div>
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://ja.wordpress.org/plugins/autoptimize/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/autoptimize_e28093_wordpress_e38395e3829ae383a9e382afe38299e382a4e383b3___wordpress_org_e697a5e69cace8aa9e.png?w=743" alt="" class="wp-image-6040" /></a></figure></div>
 
 
 
@@ -393,7 +393,7 @@
 
 
 
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://wordpress.org/plugins/jquery-manager/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/jquery_manager_for_wordpress_e28093_wordpress_plugin___wordpress_org.png?w=846" alt="" class="wp-image-6042" /></a></figure></div>
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://wordpress.org/plugins/jquery-manager/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/jquery_manager_for_wordpress_e28093_wordpress_plugin___wordpress_org.png?w=846" alt="" class="wp-image-6042" /></a></figure></div>
 
 
 
@@ -405,7 +405,7 @@
 
 
 
-<figure class="wp-block-image size-large is-style-default"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/scan_results_for_https___jh_gpl_jp_.png?w=683" alt="" class="wp-image-6045" /></figure>
+<figure class="wp-block-image size-large is-style-default"><img src="/wp-content/uploads/2020/09/scan_results_for_https___jh_gpl_jp_.png?w=683" alt="" class="wp-image-6045" /></figure>
 
 
 
@@ -452,22 +452,22 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 			</item>
 		<item>
 		<title>スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた</title>
-		<link>https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/</link>
-					<comments>https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/#comments</comments>
+		<link>/2020/09/08/termux_nginx_phpfpm_bench/</link>
+					<comments>/2020/09/08/termux_nginx_phpfpm_bench/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 07 Sep 2020 19:48:02 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5943</guid>
+		<guid isPermaLink="false">/?p=5943</guid>
 							<description><![CDATA[NGINXとphp-fpm構成にしてみました。いつもの計測サイトです。 夜間のネットワークが一番空いている時なんで、速い感じでしょうか？ GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>NGINXとphp-fpm構成にしてみました。いつもの<a href="https://www.webpagetest.org/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">計測サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945" /></figure></div>
 
 
 
@@ -543,7 +543,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953" /></figure></div>
 
 
 
@@ -555,7 +555,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956" /></a></figure></div>
 
 
 
@@ -566,14 +566,14 @@ Percentage of the requests served within a certain time (ms)
 <p>まぁ、そのうち気が変わるかもしれませんが。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2020/09/08/termux_nginx_phpfpm_bench/feed/</wfw:commentRss>
+					<wfw:commentRss>/2020/09/08/termux_nginx_phpfpm_bench/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>https://hack.gpl.jp/2020/09/06/WordPressDisplayScoreinTermuxApache2+PHP7+MARIADB10Environment/</link>
+		<link>/2020/09/06/WordPressDisplayScoreinTermuxApache2+PHP7+MARIADB10Environment/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>
@@ -581,14 +581,14 @@ Percentage of the requests served within a certain time (ms)
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5911</guid>
+		<guid isPermaLink="false">/?p=5911</guid>
 							<description><![CDATA[とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、Hew　です。TOPの表示記事数は３です。スマホ側は、Umidig [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、<a href="https://wordpress.com/theme/hew" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Hew<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。TOPの表示記事数は３です。スマホ側は、UmidigiF2にapache2+php7+mariadb10の環境となります。ClassicPressではなく、WordPress最新5.5.1です。</p>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_06_20_18_04_20.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_06_20_18_04_20" class="wp-image-5913"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_06_20_18_04_20.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_06_20_18_04_20" class="wp-image-5913"/></figure></div>
 
 
 
@@ -596,7 +596,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<figure class="wp-block-image"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_05_20_15_15_05-1.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_05_20_15_15_05" class="wp-image-5915"/></figure>
+<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_05_20_15_15_05-1.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_05_20_15_15_05" class="wp-image-5915"/></figure>
 
 
 
@@ -604,7 +604,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<figure class="wp-block-image"><a href="https://ja.wordpress.org/plugins/simple-cache/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/e38395e3829ae383a9e382afe38299e382a4e383b3_e280b9_junkhack_e28094_wordpress.png" alt="プラグイン_‹_JunkHack_—_WordPress" class="wp-image-5917"/></a></figure>
+<figure class="wp-block-image"><a href="https://ja.wordpress.org/plugins/simple-cache/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/e38395e3829ae383a9e382afe38299e382a4e383b3_e280b9_junkhack_e28094_wordpress.png" alt="プラグイン_‹_JunkHack_—_WordPress" class="wp-image-5917"/></a></figure>
 
 
 
@@ -612,7 +612,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<figure class="wp-block-image"><img src="https://hack.gpl.jp/wp-content/uploads/2020/09/e382b7e383b3e38395e3829ae383abe382ade383a3e38383e382b7e383a5e280b9junkhack_e28094_wordpress.png" alt="シンプルキャッシュ‹JunkHack_—_WordPress" class="wp-image-5919"/></figure>
+<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/e382b7e383b3e38395e3829ae383abe382ade383a3e38383e382b7e383a5e280b9junkhack_e28094_wordpress.png" alt="シンプルキャッシュ‹JunkHack_—_WordPress" class="wp-image-5919"/></figure>
 
 
 

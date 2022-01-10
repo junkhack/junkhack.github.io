@@ -10,7 +10,7 @@
 
 <channel>
 	<title>FileSystem &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 25 Jul 2015 13:16:28 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>NFS Boot の IOPS</title>
-		<link>https://hack.gpl.jp/2015/07/25/nfs-boot-%e3%81%ae-iops/</link>
+		<link>/2015/07/25/nfs-boot-%e3%81%ae-iops/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 25 Jul 2015 13:16:28 +0000</pubDate>
@@ -29,7 +29,7 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[osx]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=900</guid>
+		<guid isPermaLink="false">/?p=900</guid>
 							<description><![CDATA[fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。 母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD cd /usr/local/src/ s [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。</p>
 <p>母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD </p>
@@ -54,13 +54,13 @@
 			</item>
 		<item>
 		<title>AUFSとか</title>
-		<link>https://hack.gpl.jp/2015/07/24/aufs%e3%81%a8%e3%81%8b/</link>
+		<link>/2015/07/24/aufs%e3%81%a8%e3%81%8b/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 23 Jul 2015 21:49:46 +0000</pubDate>
 				<category><![CDATA[FileSystem]]></category>
 		<category><![CDATA[Linux]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=886</guid>
+		<guid isPermaLink="false">/?p=886</guid>
 							<description><![CDATA[正式名称は、wiki によるとAnotherUnionFSというのだそうな。 Docker とかにも使われているそうで、こんなわかりやすいページがあった。 Dockerイメージの差分管理についてまとめてみた http:/ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>正式名称は、<a href="https://ja.wikipedia.org/wiki/Aufs" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a> によるとAnotherUnionFSというのだそうな。</p>
 <p>Docker とかにも使われているそうで、こんなわかりやすいページがあった。</p>

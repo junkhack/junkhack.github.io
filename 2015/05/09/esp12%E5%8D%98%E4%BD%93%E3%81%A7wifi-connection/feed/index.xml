@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	ESP12単体でwifi connection へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/05/09/esp12%E5%8D%98%E4%BD%93%E3%81%A7wifi-connection/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/05/09/esp12%e5%8d%98%e4%bd%93%e3%81%a7wifi-connection/</link>
+	<atom:link href="/2015/05/09/esp12%E5%8D%98%E4%BD%93%E3%81%A7wifi-connection/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/05/09/esp12%e5%8d%98%e4%bd%93%e3%81%a7wifi-connection/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Tue, 25 Aug 2015 18:54:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		初めてのIoTデバイス完成 &#124; junkhack より		</title>
-		<link>https://hack.gpl.jp/2015/05/09/esp12%e5%8d%98%e4%bd%93%e3%81%a7wifi-connection/#comment-27</link>
+		<link>/2015/05/09/esp12%e5%8d%98%e4%bd%93%e3%81%a7wifi-connection/#comment-27</link>
 
 		<dc:creator><![CDATA[初めてのIoTデバイス完成 &#124; junkhack]]></dc:creator>
 		<pubDate>Tue, 25 Aug 2015 18:54:16 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=689#comment-27</guid>
+		<guid isPermaLink="false">/?p=689#comment-27</guid>
 
 					<description><![CDATA[[&#8230;] ESP12単体でwifi connection 2015/05/09 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] ESP12単体でwifi connection 2015/05/09 [&#8230;]</p>

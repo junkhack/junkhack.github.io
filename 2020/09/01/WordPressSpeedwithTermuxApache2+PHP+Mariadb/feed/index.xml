@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Termuxのapache2+php+mariadbのチューニング前のwordpressの速度とか へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2020/09/01/WordPressSpeedwithTermuxApache2+PHP+Mariadb/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2020/09/01/WordPressSpeedwithTermuxApache2+PHP+Mariadb/</link>
+	<atom:link href="/2020/09/01/WordPressSpeedwithTermuxApache2+PHP+Mariadb/feed/" rel="self" type="application/rss+xml" />
+	<link>/2020/09/01/WordPressSpeedwithTermuxApache2+PHP+Mariadb/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Mon, 07 Sep 2020 08:01:33 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		ポートフォワードの経路で、Uターン NATとかヘアピンNATが使えないルータの場合のあれこれ &#8211; アリエクでポチった JunkHack より		</title>
-		<link>https://hack.gpl.jp/2020/09/01/WordPressSpeedwithTermuxApache2+PHP+Mariadb/#comment-93</link>
+		<link>/2020/09/01/WordPressSpeedwithTermuxApache2+PHP+Mariadb/#comment-93</link>
 
 		<dc:creator><![CDATA[ポートフォワードの経路で、Uターン NATとかヘアピンNATが使えないルータの場合のあれこれ &#8211; アリエクでポチった JunkHack]]></dc:creator>
 		<pubDate>Mon, 07 Sep 2020 08:01:33 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=5823#comment-93</guid>
+		<guid isPermaLink="false">/?p=5823#comment-93</guid>
 
 					<description><![CDATA[[&#8230;] Termuxのapache2+php+mariadbのチューニング前のwordpressの速度とか：：まぁ、速度的なことより困っていることがあります。それは、ローカルのマシンから、termux上で動作しているwordpressにグローバルIPでアクセスできないことです。この場合、ルータの管理画面にアクセスしちゃうんで、どうしようかなと。こういうのなんていうんでしたっけか？　とにかく、今の拠点のルータ（PR-400KI）は、内側ネットワークから外側のグローバルアドレスにアクセスしたものを、変換（最終的にサーバのプライベートアドレスに変換）してくれないのです。 [&#8230;]]]></description>
 			<content:encoded><![CDATA[<p>[&#8230;] Termuxのapache2+php+mariadbのチューニング前のwordpressの速度とか：：まぁ、速度的なことより困っていることがあります。それは、ローカルのマシンから、termux上で動作しているwordpressにグローバルIPでアクセスできないことです。この場合、ルータの管理画面にアクセスしちゃうんで、どうしようかなと。こういうのなんていうんでしたっけか？　とにかく、今の拠点のルータ（PR-400KI）は、内側ネットワークから外側のグローバルアドレスにアクセスしたものを、変換（最終的にサーバのプライベートアドレスに変換）してくれないのです。 [&#8230;]</p>

@@ -10,7 +10,7 @@
 
 <channel>
 	<title>画像 &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 25 Nov 2018 13:36:44 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,14 +21,14 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>本日のねこ</title>
-		<link>https://hack.gpl.jp/2018/11/25/part-7-today-cat/</link>
+		<link>/2018/11/25/part-7-today-cat/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 25 Nov 2018 13:36:44 +0000</pubDate>
 				<category><![CDATA[cat]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4844</guid>
+		<guid isPermaLink="false">/?p=4844</guid>
 							<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-4845" src="https://hack.gpl.jp/wp-content/uploads/2018/11/9773.jpg" alt="9773.jpg" width="649" height="1625" /></p>
+										<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-4845" src="/wp-content/uploads/2018/11/9773.jpg" alt="9773.jpg" width="649" height="1625" /></p>
 ]]></content:encoded>
 					
 		
@@ -36,14 +36,14 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>https://hack.gpl.jp/2017/04/22/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93-3/</link>
+		<link>/2017/04/22/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93-3/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 22 Apr 2017 10:13:38 +0000</pubDate>
 				<category><![CDATA[cat]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3844</guid>
+		<guid isPermaLink="false">/?p=3844</guid>
 							<description><![CDATA[だいぶ変形してますが、お気に入りのようです。]]></description>
-										<content:encoded><![CDATA[<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300776" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300776.png" alt="P1300776" width="640" height="480" border="0" /></p>
+										<content:encoded><![CDATA[<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300776" src="/wp-content/uploads/2017/04/p1300776.png" alt="P1300776" width="640" height="480" border="0" /></p>
 <p>だいぶ変形してますが、お気に入りのようです。</p>
 ]]></content:encoded>
 					
@@ -52,17 +52,17 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>https://hack.gpl.jp/2017/04/13/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93-2/</link>
+		<link>/2017/04/13/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93-2/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 13 Apr 2017 12:00:21 +0000</pubDate>
 				<category><![CDATA[cat]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3786</guid>
+		<guid isPermaLink="false">/?p=3786</guid>
 							<description><![CDATA[ありえないところに登って降りられなくなっていたようです。 落っこちそうになったので、救助。 やれやれです。いったいどうやって登ったのでしょうか。謎です。]]></description>
 										<content:encoded><![CDATA[<p>ありえないところに登って降りられなくなっていたようです。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300712" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300712.png" alt="P1300712" width="640" height="427" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300712" src="/wp-content/uploads/2017/04/p1300712.png" alt="P1300712" width="640" height="427" border="0" /></p>
 <p>落っこちそうになったので、救助。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300713" src="https://hack.gpl.jp/wp-content/uploads/2017/04/p1300713.png" alt="P1300713" width="640" height="427" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300713" src="/wp-content/uploads/2017/04/p1300713.png" alt="P1300713" width="640" height="427" border="0" /></p>
 <p>やれやれです。いったいどうやって登ったのでしょうか。謎です。</p>
 ]]></content:encoded>
 					
@@ -71,14 +71,14 @@
 			</item>
 		<item>
 		<title>本日のねこ</title>
-		<link>https://hack.gpl.jp/2017/03/25/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93/</link>
+		<link>/2017/03/25/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 25 Mar 2017 09:54:56 +0000</pubDate>
 				<category><![CDATA[cat]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3649</guid>
+		<guid isPermaLink="false">/?p=3649</guid>
 							<description><![CDATA[Panasonic DMC-FZ200    35mm ISO400    ShutterSpeed 1/6 F2.8 Line に流したら我が家の待ちうけが、全員これになったようです。かわいー。]]></description>
-										<content:encoded><![CDATA[<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1010701" src="https://hack.gpl.jp/wp-content/uploads/2017/03/p1010701.png" alt="P1010701" width="683" height="909" border="0" /></p>
+										<content:encoded><![CDATA[<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1010701" src="/wp-content/uploads/2017/03/p1010701.png" alt="P1010701" width="683" height="909" border="0" /></p>
 <p align="center">Panasonic DMC-FZ200    35mm ISO400    ShutterSpeed 1/6 F2.8</p>
 <p align="center">
 <p>Line に流したら我が家の待ちうけが、全員これになったようです。かわいー。</p>
@@ -89,18 +89,18 @@
 			</item>
 		<item>
 		<title>猫、ノビる</title>
-		<link>https://hack.gpl.jp/2016/12/17/%e7%8c%ab%e3%80%81%e3%83%8e%e3%83%93%e3%82%8b/</link>
+		<link>/2016/12/17/%e7%8c%ab%e3%80%81%e3%83%8e%e3%83%93%e3%82%8b/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 17 Dec 2016 07:13:25 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[cat]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=2576</guid>
+		<guid isPermaLink="false">/?p=2576</guid>
 							<description><![CDATA[歴代の猫たちの中で、かなり緩みっぱなしになるやつがいて、毎日癒されます。 どうしようもないですね、、、 こたつ布団の上と中とを行ったりきたりです。]]></description>
 										<content:encoded><![CDATA[<p>歴代の猫たちの中で、かなり緩みっぱなしになるやつがいて、毎日癒されます。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2410" src="https://hack.gpl.jp/wp-content/uploads/2016/12/img_2410.jpg" alt="IMG_2410" width="640" height="480" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2410" src="/wp-content/uploads/2016/12/img_2410.jpg" alt="IMG_2410" width="640" height="480" border="0" /></p>
 <p>どうしようもないですね、、、</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2409" src="https://hack.gpl.jp/wp-content/uploads/2016/12/img_2409.jpg" alt="IMG_2409" width="640" height="837" border="0" /></p>
+<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2409" src="/wp-content/uploads/2016/12/img_2409.jpg" alt="IMG_2409" width="640" height="837" border="0" /></p>
 <p>こたつ布団の上と中とを行ったりきたりです。</p>
 ]]></content:encoded>
 					

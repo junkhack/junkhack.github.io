@@ -10,7 +10,7 @@
 
 <channel>
 	<title>試作 &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Thu, 24 Feb 2011 23:50:10 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,15 +21,15 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>mini-CNCフライスほしいね</title>
-		<link>https://hack.gpl.jp/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/</link>
-					<comments>https://hack.gpl.jp/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/#comments</comments>
+		<link>/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/</link>
+					<comments>/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 24 Feb 2011 23:50:10 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[CNCフライス]]></category>
 		<category><![CDATA[試作]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/</guid>
+		<guid isPermaLink="false">/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/</guid>
 							<description><![CDATA[一昔と比べて、かなり安くなったし、小型化された商品が出てきた。 小さなパーツとかを作るときって、工作していると必ず出てくるので、そういうとき、いつも手作業なんだけども、やっぱり仕上がりとか、ものによっては、精度がないと動 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>一昔と比べて、かなり安くなったし、小型化された商品が出てきた。   <br />小さなパーツとかを作るときって、工作していると必ず出てくるので、そういうとき、いつも手作業なんだけども、やっぱり仕上がりとか、ものによっては、精度がないと動かないものとか。ほんと、２０ｃｍ以内の小さなものでいいから、ほしいです。    </p>
 <p>具体的には、こんな商品。    <br /><img src="http://www.originalmind.co.jp/attachments/assets/9802/8672/b2_1520_600.jpg" />    <br />で、作れるものは、こういうもの。    <br /><a href="http://www.originalmind.co.jp/products/black2" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">オリジナルマインド<span class="wpel-icon wpel-image wpel-icon-1"></span></a> で１０万円。手が出そうですからね～。    <br /><img src="http://www.originalmind.co.jp/products/uploadimg/black2/10.jpg" width="386" height="289" />    </p>
@@ -42,7 +42,7 @@
 <p>毎月、１万円ためて、１０ヵ月後に買いますか？ 年末くらいに無事GETできるといいな。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/02/25/mini-cnc%e3%83%95%e3%83%a9%e3%82%a4%e3%82%b9%e3%81%bb%e3%81%97%e3%81%84%e3%81%ad/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

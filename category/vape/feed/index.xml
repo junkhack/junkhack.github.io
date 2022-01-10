@@ -10,7 +10,7 @@
 
 <channel>
 	<title>VAPE &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 26 Oct 2018 16:32:55 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>まだタバコ吸って消耗してるんですか？脱タバコ1年半の感想</title>
-		<link>https://hack.gpl.jp/2018/10/27/%e3%81%be%e3%81%a0%e3%82%bf%e3%83%90%e3%82%b3%e5%90%b8%e3%81%a3%e3%81%a6%e6%b6%88%e8%80%97%e3%81%97%e3%81%a6%e3%82%8b%e3%82%93%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e8%84%b1%e3%82%bf%e3%83%90%e3%82%b31/</link>
+		<link>/2018/10/27/%e3%81%be%e3%81%a0%e3%82%bf%e3%83%90%e3%82%b3%e5%90%b8%e3%81%a3%e3%81%a6%e6%b6%88%e8%80%97%e3%81%97%e3%81%a6%e3%82%8b%e3%82%93%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e8%84%b1%e3%82%bf%e3%83%90%e3%82%b31/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 26 Oct 2018 16:32:55 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[VAPE]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4702</guid>
+		<guid isPermaLink="false">/?p=4702</guid>
 							<description><![CDATA[まだタバコ吸ってるかたで、やめたいなと思ってる方、は相当数になるはずです。 　もう、やめたいんだが、ついつい買ってしまう・・・ はい、その気持ちわかります。自分も１年半前は、タバコの残り本数が少なくなるとやっぱり不安でコ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>まだタバコ吸ってるかたで、やめたいなと思ってる方、は相当数になるはずです。</p>
 <h1 style="text-align:center;">　<strong>もう、やめたいんだが、ついつい買ってしまう・・・</strong></h1>
@@ -79,13 +79,13 @@
 			</item>
 		<item>
 		<title>脱タバコ3週間目。漏れない VAPE Kangertech TOGO Mini が到着</title>
-		<link>https://hack.gpl.jp/2017/06/18/%e8%84%b1%e3%82%bf%e3%83%90%e3%82%b33%e9%80%b1%e9%96%93%e7%9b%ae%e3%80%82%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84-vape-kangertech-togo-mini-%e3%81%8c%e5%88%b0%e7%9d%80/</link>
+		<link>/2017/06/18/%e8%84%b1%e3%82%bf%e3%83%90%e3%82%b33%e9%80%b1%e9%96%93%e7%9b%ae%e3%80%82%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84-vape-kangertech-togo-mini-%e3%81%8c%e5%88%b0%e7%9d%80/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 18 Jun 2017 07:23:47 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[VAPE]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4034</guid>
+		<guid isPermaLink="false">/?p=4034</guid>
 							<description><![CDATA[VAPE ライフもこれで3週間になりました。リアルタバコは、3日目に1本吸って激まずだったのでそれ以来吸っていません。ニコチン入りリキッドなのでニコチンの禁断症状も無く無事に脱リアルタバコの生活になってきています。たばこ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>VAPE ライフもこれで3週間になりました。リアルタバコは、3日目に1本吸って激まずだったのでそれ以来吸っていません。ニコチン入りリキッドなのでニコチンの禁断症状も無く無事に脱リアルタバコの生活になってきています。たばこをやめてかなり体調が良くなったので、ニコチンはまだやめるつもりはありませんが、節約効果もあり、たばこをまずはやめてみたい人にもお勧めできる事がわかりました。</p>
 <p>&#160;</p>
@@ -113,37 +113,37 @@
 <p>・HiLIQ で追加発注。ニューポートとレッドブルにしました。 </p>
 <p>・VAPE のランニングコストはニコチン入れて月額1300円ほどに落ち着きそうなことがわかった。 </p>
 <p>&#160;</p>
-<p>さて、先日アリエクで発注しておいた <a href="https://hack.gpl.jp/2017/06/01/%E6%BC%8F%E3%82%8C%E3%81%AA%E3%81%84%EF%BC%88%E3%81%9F%E3%81%B6%E3%82%93%EF%BC%89%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%81%AAvape-kangertech-togo-mini/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">VAPE Kangertech TOGO Mini</a> が到着しました。</p>
-<p><img title="S20170618_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170618_001" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170618_001.jpg" width="640" height="480" /> </p>
+<p>さて、先日アリエクで発注しておいた <a href="/2017/06/01/%E6%BC%8F%E3%82%8C%E3%81%AA%E3%81%84%EF%BC%88%E3%81%9F%E3%81%B6%E3%82%93%EF%BC%89%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%81%AAvape-kangertech-togo-mini/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">VAPE Kangertech TOGO Mini</a> が到着しました。</p>
+<p><img title="S20170618_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170618_001" src="/wp-content/uploads/2017/06/s20170618_001.jpg" width="640" height="480" /> </p>
 <p>これは写真のように横にしておいても漏れない構造のようです。数時間横にしておきましたが漏れはありませんでした。リキッドは3mml 入るようです。残量も見やすいです。</p>
-<p><img title="S20170617_004" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170617_004" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170617_004.jpg" width="640" height="480" /> </p>
+<p><img title="S20170617_004" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170617_004" src="/wp-content/uploads/2017/06/s20170617_004.jpg" width="640" height="480" /> </p>
 <p>コイルは、0.5R と 1R が入っていましたので、まず1R から。</p>
-<p><img title="S20170617_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170617_001" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170617_001.jpg" width="640" height="480" /> </p>
+<p><img title="S20170617_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170617_001" src="/wp-content/uploads/2017/06/s20170617_001.jpg" width="640" height="480" /> </p>
 <p>装着するとこんな感じです。</p>
-<p><img title="S20170617_003" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170617_003" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170617_003.jpg" width="640" height="480" /> </p>
+<p><img title="S20170617_003" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170617_003" src="/wp-content/uploads/2017/06/s20170617_003.jpg" width="640" height="480" /> </p>
 <p>で、吸った感想は、味が薄いです。ボタンを押して1秒で今までの smok stick v8 のは満足いくミストが出ていましたが１Rの影響か２，３秒押し続けて深く吸う感じでもまだミストが薄く、味があまりしません。</p>
 <p>&#160;</p>
 <p>うーん、この点は残念です。0.15R のコイルを発注しました。まぁ、コンパクトで漏れないという点は評価できますので併用して使っていきたいと思います。</p>
-<p><img title="5pcs_Kanger_CLTANK_CLOCC" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5pcs_Kanger_CLTANK_CLOCC" src="https://hack.gpl.jp/wp-content/uploads/2017/06/5pcs_kanger_cltank_clocc.png" width="640" height="272" /> </p>
+<p><img title="5pcs_Kanger_CLTANK_CLOCC" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5pcs_Kanger_CLTANK_CLOCC" src="/wp-content/uploads/2017/06/5pcs_kanger_cltank_clocc.png" width="640" height="272" /> </p>
 <p>あと、15分ほどなじませていたのですが少し最初の内はオイルっぽい臭いが抜けませんでした。ちゃんと分解洗浄したほうがいいかと思います。</p>
 <p>&#160;</p>
 <p>0.15R のコイルでどんな感じになるのか不明ですが現時点では味に関してはお勧めできません。漏れはしますが、SMOK Stick V8 のほうがいいです。</p>
 <p>&#160;</p>
 <p>で、こっちのコイルも3週間は使いすぎだったようでリキッドの味が変わりました。コイルの状態を拡大写真で見てみます。</p>
-<p><img title="S20170616_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_001" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170616_001.jpg" width="640" height="480" /> </p>
+<p><img title="S20170616_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_001" src="/wp-content/uploads/2017/06/s20170616_001.jpg" width="640" height="480" /> </p>
 <p>Baby M2 というタイプの 0.15R のコイルです。</p>
-<p><img title="S20170616_005" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_005" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170616_005.jpg" width="640" height="480" /> </p>
+<p><img title="S20170616_005" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_005" src="/wp-content/uploads/2017/06/s20170616_005.jpg" width="640" height="480" /> </p>
 <p>完全に腐食しています。</p>
-<p><img title="S20170616_006" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_006" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170616_006.jpg" width="640" height="480" /> </p>
+<p><img title="S20170616_006" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_006" src="/wp-content/uploads/2017/06/s20170616_006.jpg" width="640" height="480" /> </p>
 <p>取り出してみるとこんな感じ。</p>
-<p><img title="S20170616_008" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_008" src="https://hack.gpl.jp/wp-content/uploads/2017/06/s20170616_008.jpg" width="640" height="480" /> </p>
+<p><img title="S20170616_008" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20170616_008" src="/wp-content/uploads/2017/06/s20170616_008.jpg" width="640" height="480" /> </p>
 <p>吸い方にもよりますが、2週間で交換するのがよさそうです。3週間は持ちません。</p>
 <p>これの代替コイルでいちばん安いのを買ってみました。</p>
 <p>Baby X4 というタイプでこれは互換品のようで安いです。SMOK 純正品ではなさそうですがどうせ消耗品なので安いのでいいです。試してみることに。</p>
-<p><img title="5pcs_TFV8_Baby_X4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5pcs_TFV8_Baby_X4" src="https://hack.gpl.jp/wp-content/uploads/2017/06/5pcs_tfv8_baby_x4.png" width="640" height="318" /> </p>
+<p><img title="5pcs_TFV8_Baby_X4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5pcs_TFV8_Baby_X4" src="/wp-content/uploads/2017/06/5pcs_tfv8_baby_x4.png" width="640" height="318" /> </p>
 <p>&#160;</p>
 <p>あともうひとつは、Baby T8 というタイプ。</p>
-<p><img title="TFV8_Baby_T8" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="TFV8_Baby_T8" src="https://hack.gpl.jp/wp-content/uploads/2017/06/tfv8_baby_t8.png" width="640" height="318" /> </p>
+<p><img title="TFV8_Baby_T8" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="TFV8_Baby_T8" src="/wp-content/uploads/2017/06/tfv8_baby_t8.png" width="640" height="318" /> </p>
 <p>どちらも、0.15R で5個パックです。１つ150円未満。すのでかなりミストは出るはずです。</p>
 <p>&#160;</p>
 </p>
@@ -154,7 +154,7 @@
 <p>あと、リキッドもほとんど無くなってきたので追加発注。10ml の日本ランキングトップ１０のリキッドで、100ml でしたが3週間でほど消費したので１日平均約 4ml 使っていたようです。</p>
 <p>&#160;</p>
 <p>リキッドの代替として、PG(高純度プロピレングリコール（濃度99.9%以上）)をアマゾンでゲットしてみました。これにニコチンを混ぜるだけだとどんな感じになるのか実験。</p>
-<p><img title="PG_for_Liquid_250g" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PG_for_Liquid_250g" src="https://hack.gpl.jp/wp-content/uploads/2017/06/pg_for_liquid_250g.png" width="640" height="254" /> </p>
+<p><img title="PG_for_Liquid_250g" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PG_for_Liquid_250g" src="/wp-content/uploads/2017/06/pg_for_liquid_250g.png" width="640" height="254" /> </p>
 <p>250ml で８５０円なのでかなりコストは安いです。リサーチによると、PGだけでも甘い味がするようです。少し何かをブレンドすればいいようでしたらコストが安くすみそうです。実験してみることに。 HILIQ やアマゾンで香料の原液でブレンドすると楽しそうです。</p>
 <p>&#160;</p>
 <p>最後に、HiLIQ で追加購入しました。結局、リキッドの好みは以下の２本に絞りました。</p>
@@ -170,20 +170,20 @@
 			</item>
 		<item>
 		<title>24mmのアトマイザー（噴霧器）が乗る本体 VAPE</title>
-		<link>https://hack.gpl.jp/2017/06/03/24mm%e3%81%ae%e3%82%a2%e3%83%88%e3%83%9e%e3%82%a4%e3%82%b6%e3%83%bc%ef%bc%88%e5%99%b4%e9%9c%a7%e5%99%a8%ef%bc%89%e3%81%8c%e4%b9%97%e3%82%8b%e6%9c%ac%e4%bd%93-vape/</link>
+		<link>/2017/06/03/24mm%e3%81%ae%e3%82%a2%e3%83%88%e3%83%9e%e3%82%a4%e3%82%b6%e3%83%bc%ef%bc%88%e5%99%b4%e9%9c%a7%e5%99%a8%ef%bc%89%e3%81%8c%e4%b9%97%e3%82%8b%e6%9c%ac%e4%bd%93-vape/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 02 Jun 2017 23:41:00 +0000</pubDate>
 				<category><![CDATA[VAPE]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4029</guid>
+		<guid isPermaLink="false">/?p=4029</guid>
 							<description><![CDATA[今日は1週間目です。もうすっかり VAPE に慣れてきました。体調もすごく良好です。気のせいかもしれませんが、寝つきが良くなった感じです。あと、夕方から夜にかけてものすごい睡魔に襲われます。何か体に変化が起きている感じが [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今日は1週間目です。もうすっかり VAPE に慣れてきました。体調もすごく良好です。気のせいかもしれませんが、寝つきが良くなった感じです。あと、夕方から夜にかけてものすごい睡魔に襲われます。何か体に変化が起きている感じがします。ニコチンリキッド入りでもこんな変化があるようです。リアルタバコの方は、吸いたい欲求は出てきませんのでほぼ第一段階の脱タバコは成功といえそうです。</p>
 <p>さて、今日のリキッドは Caramel Popcom です。そうですね、70点という感じですかね。JavaChip と系統は似ています。ブレンドしたほうがおいしい感じでした。ちなみに、自分のHiLIQの現在のベストは newport です。</p>
 <p>&#160;</p>
 <p>さて、今日はなにげなくアリエクを物色していましたら、気になる本体が２つありました。直径２４ｍｍのアトマイザー（噴霧器）が乗る小さな本体です。サイズ感は、手のひらの中にすっぽり納まるサイズです。2200円ほど。Feb Vod 50 Kit というものです。</p>
-<p> <img title="HTB1JKYrPXXXXXbKaFXXq6xXFXXX5" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1JKYrPXXXXXbKaFXXq6xXFXXX5" src="https://hack.gpl.jp/wp-content/uploads/2017/06/htb1jkyrpxxxxxbkafxxq6xxfxxx5.jpg" width="480" height="480" />   </p>
+<p> <img title="HTB1JKYrPXXXXXbKaFXXq6xXFXXX5" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1JKYrPXXXXXbKaFXXq6xXFXXX5" src="/wp-content/uploads/2017/06/htb1jkyrpxxxxxbkafxxq6xxfxxx5.jpg" width="480" height="480" />   </p>
 <p>もうひとつは、これの後継の以下のタイプ。こちらは、3100円ほど。Minimi 2 65W というようです。</p>
-<p><img title="边框样板" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="边框样板" src="https://hack.gpl.jp/wp-content/uploads/2017/06/htb14nzwqvxxxxxzxvxxq6xxfxxxm.jpg" width="480" height="480" /> </p>
+<p><img title="边框样板" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="边框样板" src="/wp-content/uploads/2017/06/htb14nzwqvxxxxxzxvxxq6xxfxxxm.jpg" width="480" height="480" /> </p>
 <p>アトマイザーの出来は？ですが本体サイズが小さくて出力が調整できるのが気に入りました。次に購入する候補にしたいです。</p>
 <p>旧タイプの安いものでも、以下の映像くらいのミストは出るようです。</p>
 <p> [youtube https://www.youtube.com/watch?v=mvF_CXLg3Ug]  </p>
@@ -197,13 +197,13 @@
 			</item>
 		<item>
 		<title>漏れない（たぶん）コンパクトなVAPE Kangertech TOGO Mini</title>
-		<link>https://hack.gpl.jp/2017/06/01/%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e3%81%9f%e3%81%b6%e3%82%93%ef%bc%89%e3%82%b3%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e3%81%aavape-kangertech-togo-mini/</link>
-					<comments>https://hack.gpl.jp/2017/06/01/%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e3%81%9f%e3%81%b6%e3%82%93%ef%bc%89%e3%82%b3%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e3%81%aavape-kangertech-togo-mini/#comments</comments>
+		<link>/2017/06/01/%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e3%81%9f%e3%81%b6%e3%82%93%ef%bc%89%e3%82%b3%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e3%81%aavape-kangertech-togo-mini/</link>
+					<comments>/2017/06/01/%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e3%81%9f%e3%81%b6%e3%82%93%ef%bc%89%e3%82%b3%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e3%81%aavape-kangertech-togo-mini/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 31 May 2017 15:52:24 +0000</pubDate>
 				<category><![CDATA[VAPE]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4023</guid>
+		<guid isPermaLink="false">/?p=4023</guid>
 							<description><![CDATA[VAPE に切り替えて丸4日経過しました。ニコチン入りリキッドなので、特につらくなく過ごせています。当初、タバコって結構高くなってきているし、少し量が減らせられればいいか、くらいの気持ちで始めました。タバコを少しやめて3 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>VAPE に切り替えて丸4日経過しました。ニコチン入りリキッドなので、特につらくなく過ごせています。当初、タバコって結構高くなってきているし、少し量が減らせられればいいか、くらいの気持ちで始めました。タバコを少しやめて3日から1週間くらいで吸ってみると、がつーんと効いて結構おいしいんですよね。そんなお気軽な感覚で始めたわけです。</p>
 <p>予想外にニコチン入りリキッドを吸っている限り、ほぼ問題なく3日は経過できます。たぶん誰でも障害なく超えられると思います。</p>
@@ -224,25 +224,25 @@
 </blockquote>
 <p>&#160;</p>
 <p>色はポップな感じの黄色が気に入りました。</p>
-<p><img title="TOGO_Mini_1024x1024" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="TOGO_Mini_1024x1024" src="https://hack.gpl.jp/wp-content/uploads/2017/06/togo_mini_1024x1024.jpg" width="494" height="658" /> <img title="CxjWgP_XcAAuICO" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="CxjWgP_XcAAuICO" src="https://hack.gpl.jp/wp-content/uploads/2017/06/cxjwgp_xcaauico.jpg" width="674" height="674" /> </p>
-<p><img title="R0021756_1024x1024" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R0021756_1024x1024" src="https://hack.gpl.jp/wp-content/uploads/2017/06/r0021756_1024x1024.jpg" width="676" height="901" /> </p>
+<p><img title="TOGO_Mini_1024x1024" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="TOGO_Mini_1024x1024" src="/wp-content/uploads/2017/06/togo_mini_1024x1024.jpg" width="494" height="658" /> <img title="CxjWgP_XcAAuICO" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="CxjWgP_XcAAuICO" src="/wp-content/uploads/2017/06/cxjwgp_xcaauico.jpg" width="674" height="674" /> </p>
+<p><img title="R0021756_1024x1024" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R0021756_1024x1024" src="/wp-content/uploads/2017/06/r0021756_1024x1024.jpg" width="676" height="901" /> </p>
 </p>
 <p>このタイプはエアフロー穴が上にあり、漏れにくい構造になっているとか。CLOCC Coil というタイプのコイルを使っています。コイルは買っても5個で1200円ほどです。手巻きも出来るようですしなかなか良さそう。バッテリーが1600mha ということで1日持つかはまだわかりません。タンク容量は3.8ml でこちらはぎりぎり一日持つかどうかくらい。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2017/06/01/%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e3%81%9f%e3%81%b6%e3%82%93%ef%bc%89%e3%82%b3%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e3%81%aavape-kangertech-togo-mini/feed/</wfw:commentRss>
+					<wfw:commentRss>/2017/06/01/%e6%bc%8f%e3%82%8c%e3%81%aa%e3%81%84%ef%bc%88%e3%81%9f%e3%81%b6%e3%82%93%ef%bc%89%e3%82%b3%e3%83%b3%e3%83%91%e3%82%af%e3%83%88%e3%81%aavape-kangertech-togo-mini/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>VAPE3日目、禁煙3日目</title>
-		<link>https://hack.gpl.jp/2017/05/30/vape3%e6%97%a5%e7%9b%ae%e3%80%81%e7%a6%81%e7%85%993%e6%97%a5%e7%9b%ae/</link>
+		<link>/2017/05/30/vape3%e6%97%a5%e7%9b%ae%e3%80%81%e7%a6%81%e7%85%993%e6%97%a5%e7%9b%ae/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 30 May 2017 13:14:12 +0000</pubDate>
 				<category><![CDATA[VAPE]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4018</guid>
+		<guid isPermaLink="false">/?p=4018</guid>
 							<description><![CDATA[今日は RY4 というのと Newport というタバコ味ジャンルのもので過ごしました。 RY4 は、甘めでタバコジャンルじゃない感じです。今のところベストは Newport です。 &#160; かなり楽に3日を過ごせ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今日は RY4 というのと Newport というタバコ味ジャンルのもので過ごしました。 RY4 は、甘めでタバコジャンルじゃない感じです。今のところベストは Newport です。</p>
 <p>&#160;</p>

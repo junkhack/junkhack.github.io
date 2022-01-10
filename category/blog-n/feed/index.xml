@@ -10,7 +10,7 @@
 
 <channel>
 	<title>新ブログ &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 20 Sep 2020 06:59:24 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>このブログは、スマートフォンの中に引越ししました！</title>
-		<link>https://hack.gpl.jp/2020/09/18/this-blog-has-moved-into-a-smartphone/</link>
-					<comments>https://hack.gpl.jp/2020/09/18/this-blog-has-moved-into-a-smartphone/#comments</comments>
+		<link>/2020/09/18/this-blog-has-moved-into-a-smartphone/</link>
+					<comments>/2020/09/18/this-blog-has-moved-into-a-smartphone/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 18 Sep 2020 04:00:13 +0000</pubDate>
@@ -31,8 +31,8 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://junkhack.gpl.jp/?p=9510</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2020/09/gogai.png" />
+		<guid isPermaLink="false">/?p=9510</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/09/gogai.png" />
 							<description><![CDATA[えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！ なんで、引越しをしたの？ はい、結論から言いますと今まで使っていたWordPress.comのパー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>えっ？　と思われた方もいるかもしれませんが、このジャンクハックブログは引越ししました。それもスマートフォンの中にいます！</p>
@@ -51,7 +51,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="https://junkhack.gpl.jp/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://junkhack.gpl.jp/2018/10/17/20181017/</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</p><cite><a href="/2018/10/17/20181017/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/2018/10/17/20181017/</a></cite></blockquote>
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>Termuxとか、自宅サーバ関連</p><cite><a href="https://hack.gpl.jp/?s=Termux+自宅サーバ" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">https://hack.gpl.jp/?s=Termux+自宅サーバ</a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Termuxとか、自宅サーバ関連</p><cite><a href="/?s=Termux+自宅サーバ" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/?s=Termux+自宅サーバ</a></cite></blockquote>
 
 
 
@@ -96,7 +96,7 @@
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>やっぱりWordPressはカスタマイズしたいよね！</p>
 </div></div></div></div></div></div></div></div>
@@ -106,20 +106,20 @@
 <p>とりあず、今日は引越ししたよ！　というネタをあげたかったので以上にします。またねー。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://hack.gpl.jp/2020/09/18/this-blog-has-moved-into-a-smartphone/feed/</wfw:commentRss>
+					<wfw:commentRss>/2020/09/18/this-blog-has-moved-into-a-smartphone/feed/</wfw:commentRss>
 			<slash:comments>3</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>備忘録：設定ファイルの空白行（改行）とコメントを削除して表示したい</title>
-		<link>https://hack.gpl.jp/2020/09/14/Displayanddisplaytheblanklineandcommentoftheconfigurationfile/</link>
+		<link>/2020/09/14/Displayanddisplaytheblanklineandcommentoftheconfigurationfile/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Sep 2020 17:24:17 +0000</pubDate>
 				<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=6074</guid>
-				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2020/08/wormhole.png" />
+		<guid isPermaLink="false">/?p=6074</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/08/wormhole.png" />
 							<description><![CDATA[※ブロックエディターで編集したら、表示が壊れたので再投稿です。 いろんなやり方がありますが、自分が気に入ってるのは以下３つです。 $ grep . FILENAME &#124; egrep -v ^*# 改行はまぁ出てもいいやと [&#8230;]]]></description>
 										<content:encoded><![CDATA[<blockquote>
 <p>※ブロックエディターで編集したら、表示が壊れたので再投稿です。</p>

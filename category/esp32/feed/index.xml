@@ -10,7 +10,7 @@
 
 <channel>
 	<title>ESP32 &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sun, 26 Feb 2017 18:27:36 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,13 +21,13 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>ESP32（ESP-WROOM-32） のBluetoothライブラリーサンプルが来た模様</title>
-		<link>https://hack.gpl.jp/2017/02/27/esp32-%e3%81%aebluetooth%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab%e3%81%8c%e6%9d%a5%e3%81%9f%e6%a8%a1%e6%a7%98/</link>
+		<link>/2017/02/27/esp32-%e3%81%aebluetooth%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab%e3%81%8c%e6%9d%a5%e3%81%9f%e6%a8%a1%e6%a7%98/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 26 Feb 2017 18:27:36 +0000</pubDate>
 				<category><![CDATA[Bluetooth]]></category>
 		<category><![CDATA[ESP32]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=3366</guid>
+		<guid isPermaLink="false">/?p=3366</guid>
 							<description><![CDATA[定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ ESP32 の Bluetooth ライブラリは整備されていませんでした。EPS32 の最大の特徴である Bluetooth が整備されるまではもう少し様子見しようと思っていたのでした。</p>
 <p>しかし、時代はあっという間に流れます。特にこの IoT 分野は。Espressif もかなり力の入れようのようです。どうやら、３日ほど前に、Bluetoothのサンプルがつっこまれたようです。だれがメンテしているかは詳しくみていませんが、以下あたりにそれっぽいのがあります。</p>
@@ -49,7 +49,7 @@
 <p>&#160;</p>
 <p>ESP32 はアリエクでは高いので、５個くらいを送料無料で日本（スイッチサイエンスさんとか）から買うのが良さそうですね。１個７００円なので５個で３０００円以上送料無料。700円というは結構安い価格付けですね。</p>
 <p>アリエクで以下のをゲットして、くっつけるってのが良さそうですね。￥ 791 ESP32 が載ったものは2000円以上しますので。</p>
-<p><a href="https://www.aliexpress.com/w/wholesale-ESP32-Development-Board.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="https://hack.gpl.jp/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480" /></a>ということで、この開発ボードアダプターはポチっておきました。あと、スイッチサイエンスさんからモジュールを１つゲットしました。</p>
+<p><a href="https://www.aliexpress.com/w/wholesale-ESP32-Development-Board.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480" /></a>ということで、この開発ボードアダプターはポチっておきました。あと、スイッチサイエンスさんからモジュールを１つゲットしました。</p>
 <p>&#160;</p>
 <blockquote>
 <p><a title="https://www.switch-science.com/catalog/3156/" href="https://www.switch-science.com/catalog/3156/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.switch-science.com/catalog/3156/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>

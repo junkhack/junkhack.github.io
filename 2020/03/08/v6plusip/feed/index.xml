@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	v６プラスで固定IPを設定できるルータを探せ！ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2020/03/08/v6plusip/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2020/03/08/v6plusip/</link>
+	<atom:link href="/2020/03/08/v6plusip/feed/" rel="self" type="application/rss+xml" />
+	<link>/2020/03/08/v6plusip/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 18 Jul 2020 18:48:12 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		JunkHack より		</title>
-		<link>https://hack.gpl.jp/2020/03/08/v6plusip/#comment-87</link>
+		<link>/2020/03/08/v6plusip/#comment-87</link>
 
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 18 Jul 2020 18:48:12 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4947#comment-87</guid>
+		<guid isPermaLink="false">/?p=4947#comment-87</guid>
 
 					<description><![CDATA[JXCKさん
 
@@ -43,11 +43,11 @@
 		<item>
 		<title>
 		匿名 より		</title>
-		<link>https://hack.gpl.jp/2020/03/08/v6plusip/#comment-86</link>
+		<link>/2020/03/08/v6plusip/#comment-86</link>
 
 		<dc:creator><![CDATA[匿名]]></dc:creator>
 		<pubDate>Sat, 18 Jul 2020 06:09:33 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4947#comment-86</guid>
+		<guid isPermaLink="false">/?p=4947#comment-86</guid>
 
 					<description><![CDATA[訳あってV6プラス 固定IPの情報を集めていましたので、以下参考に願います。
 V6プラス：トンネル方式MAP-E／IPv4アドレスは動的／ポート開放制限有
@@ -61,11 +61,11 @@ V6プラス 固定：トンネル方式 IPIP／IPv4アドレスは当然静的�
 		<item>
 		<title>
 		Jxck より		</title>
-		<link>https://hack.gpl.jp/2020/03/08/v6plusip/#comment-85</link>
+		<link>/2020/03/08/v6plusip/#comment-85</link>
 
 		<dc:creator><![CDATA[Jxck]]></dc:creator>
 		<pubDate>Wed, 24 Jun 2020 03:30:36 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4947#comment-85</guid>
+		<guid isPermaLink="false">/?p=4947#comment-85</guid>
 
 					<description><![CDATA[&#062; これは、ルータは固定IPで抜けられるがサーバを公開できないってことになりますね。
 

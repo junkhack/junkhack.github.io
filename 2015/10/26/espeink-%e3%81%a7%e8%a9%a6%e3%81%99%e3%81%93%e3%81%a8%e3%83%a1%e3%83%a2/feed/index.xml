@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	espeink で試すことメモ へのコメント	</title>
-	<atom:link href="https://hack.gpl.jp/2015/10/26/espeink-%E3%81%A7%E8%A9%A6%E3%81%99%E3%81%93%E3%81%A8%E3%83%A1%E3%83%A2/feed/" rel="self" type="application/rss+xml" />
-	<link>https://hack.gpl.jp/2015/10/26/espeink-%e3%81%a7%e8%a9%a6%e3%81%99%e3%81%93%e3%81%a8%e3%83%a1%e3%83%a2/</link>
+	<atom:link href="/2015/10/26/espeink-%E3%81%A7%E8%A9%A6%E3%81%99%E3%81%93%E3%81%A8%E3%83%A1%E3%83%A2/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/10/26/espeink-%e3%81%a7%e8%a9%a6%e3%81%99%e3%81%93%e3%81%a8%e3%83%a1%e3%83%a2/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Fri, 11 Aug 2017 12:30:53 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Mike Davidson より		</title>
-		<link>https://hack.gpl.jp/2015/10/26/espeink-%e3%81%a7%e8%a9%a6%e3%81%99%e3%81%93%e3%81%a8%e3%83%a1%e3%83%a2/#comment-58</link>
+		<link>/2015/10/26/espeink-%e3%81%a7%e8%a9%a6%e3%81%99%e3%81%93%e3%81%a8%e3%83%a1%e3%83%a2/#comment-58</link>
 
 		<dc:creator><![CDATA[Mike Davidson]]></dc:creator>
 		<pubDate>Fri, 11 Aug 2017 12:30:53 +0000</pubDate>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=1515#comment-58</guid>
+		<guid isPermaLink="false">/?p=1515#comment-58</guid>
 
 					<description><![CDATA[Hi , Do you mind if i try your PCB files ? where can i get them?]]></description>
 			<content:encoded><![CDATA[<p>Hi , Do you mind if i try your PCB files ? where can i get them?</p>

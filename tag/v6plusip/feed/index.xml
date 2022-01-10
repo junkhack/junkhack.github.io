@@ -10,7 +10,7 @@
 
 <channel>
 	<title>v6plus+IP &#8211; JunkHack Feed</title>
-	<link>https://hack.gpl.jp/</link>
+	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
 	<lastBuildDate>Sat, 07 Mar 2020 16:42:07 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>「v6プラス」固定IPではまった！</title>
-		<link>https://hack.gpl.jp/2020/03/08/V6PlusFixedIPIwastroubled/</link>
+		<link>/2020/03/08/V6PlusFixedIPIwastroubled/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 07 Mar 2020 16:42:07 +0000</pubDate>
@@ -29,10 +29,10 @@
 		<category><![CDATA[WiFi]]></category>
 		<category><![CDATA[wimax]]></category>
 		<category><![CDATA[v6plus+IP]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=4940</guid>
+		<guid isPermaLink="false">/?p=4940</guid>
 							<description><![CDATA[固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！]]></description>
 										<content:encoded><![CDATA[<p>enひかりが開通しました。ぶっちぎりの速さでびっくりしています。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="https://hack.gpl.jp/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
+<p><img style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
 <p>ルータは自動設定でとりあえず繋がった状態なんです。</p>
 <p>まずは、ちゃんと設定していこうと IP固定の設定からやることにしました。enひかりのキャンペーンで安く買った（1000円＋送料800円）エレコムのルータ（WRC-1167GST2）を設定していました。</p>
 <blockquote>
