@@ -217,7 +217,7 @@
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -421,7 +421,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 			</item>
 		<item>
 		<title>Termuxでのスマホサーバ、SSLアクセスでも耐えれそうかな？</title>
-		<link>/2020/09/10/WhetheryoucanwithstandsmartphoneserverandSSLaccessonTermux/</link>
+		<link>/2020/09/10/whetheryoucanwithstandsmartphoneserverandsslaccessontermux/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 09 Sep 2020 17:27:32 +0000</pubDate>
@@ -804,7 +804,7 @@ Percentage of the requests served within a certain time (ms)
 			</item>
 		<item>
 		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>/2020/09/06/WordPressDisplayScoreinTermuxApache2+PHP7+MARIADB10Environment/</link>
+		<link>/2020/09/06/wordpressdisplayscoreintermuxapache2-php7-mariadb10environment/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>

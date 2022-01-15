@@ -573,7 +573,7 @@ Percentage of the requests served within a certain time (ms)
 			</item>
 		<item>
 		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>/2020/09/06/WordPressDisplayScoreinTermuxApache2+PHP7+MARIADB10Environment/</link>
+		<link>/2020/09/06/wordpressdisplayscoreintermuxapache2-php7-mariadb10environment/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>

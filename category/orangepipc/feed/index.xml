@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>/2016/06/12/vnc-%e8%a8%ad%e5%ae%9a%e3%81%a8-osx10-11-%e3%81%ae%e7%94%bb%e9%9d%a2%e5%85%b1%e6%9c%89/</link>
+		<link>/2016/06/12/vnc-e8a8ade5ae9ae381a8-osx10-11-e381aee794bbe99da2e585b1e69c89/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -102,7 +102,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>WiFi RTL8188CUS のメモ</title>
-		<link>/2016/05/29/wifi-rtl8188cus-%e3%81%ae%e3%83%a1%e3%83%a2/</link>
+		<link>/2016/05/29/wifi-rtl8188cus-e381aee383a1e383a2/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 29 May 2016 14:56:25 +0000</pubDate>
@@ -494,7 +494,7 @@ if __name__ == '__main__':
 			</item>
 		<item>
 		<title>Orange Pi Lite が出ていました</title>
-		<link>/2016/05/28/orange-pi-lite-%e3%81%8c%e5%87%ba%e3%81%a6%e3%81%84%e3%81%be%e3%81%97%e3%81%9f/</link>
+		<link>/2016/05/28/orange-pi-lite-e3818ce587bae381a6e38184e381bee38197e3819f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 28 May 2016 11:05:03 +0000</pubDate>
@@ -520,7 +520,7 @@ if __name__ == '__main__':
 			</item>
 		<item>
 		<title>ARMBIAN を Orange PI PC に入れてみた</title>
-		<link>/2016/05/21/armbian-%e3%82%92-orange-pi-pc-%e3%81%ab%e5%85%a5%e3%82%8c%e3%81%a6%e3%81%bf%e3%81%9f/</link>
+		<link>/2016/05/21/armbian-e38292-orange-pi-pc-e381abe585a5e3828ce381a6e381bfe3819f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 21 May 2016 10:57:21 +0000</pubDate>

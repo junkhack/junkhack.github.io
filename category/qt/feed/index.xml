@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>Sigrok の Pulsview 0.3.0 動きました</title>
-		<link>/2015/12/31/sigrok-%e3%81%ae-pulsview-0-3-0-%e5%8b%95%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/</link>
+		<link>/2015/12/31/sigrok-e381ae-pulsview-0-3-0-e58b95e3818de381bee38197e3819f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 30 Dec 2015 19:47:23 +0000</pubDate>
@@ -133,7 +133,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 			</item>
 		<item>
 		<title>sigrok Pulsview を osx でビルドに挑戦</title>
-		<link>/2015/12/30/sigrok-pulsview-%e3%82%92-osx-%e3%81%a7%e3%83%93%e3%83%ab%e3%83%89%e3%81%ab%e6%8c%91%e6%88%a6/</link>
+		<link>/2015/12/30/sigrok-pulsview-e38292-osx-e381a7e38393e383abe38389e381abe68c91e688a6/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 29 Dec 2015 20:04:41 +0000</pubDate>

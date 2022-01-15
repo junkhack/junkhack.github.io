@@ -6,7 +6,7 @@
 	<title>JunkHack YahooNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Fri, 07 Jan 2022 18:45:16 +0900</lastBuildDate>
+	<lastBuildDate>Sat, 15 Jan 2022 04:48:21 +0900</lastBuildDate>
 	<language>ja</language>
 	<snf:logo><url>/wp-content/uploads/2021/04/jhicon.png</url></snf:logo>
 	<sy:updatePeriod>
@@ -208,7 +208,7 @@
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></description>
 
 				<snf:advertisement>
@@ -362,7 +362,7 @@
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 <yj:related>
 											<yj:link yj:url="/2021/04/22/2021-03-site24x7-sla/"><![CDATA[2021/03 site24x7 でのSLA状況・統計データ]]></yj:link>
 											<yj:link yj:url="/2021/03/05/2021-02-site24x7-sla/"><![CDATA[2021/02 site24x7 でのSLA状況・統計データ]]></yj:link>
@@ -618,7 +618,7 @@ $ sudo nginx</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 <yj:related>
 											<yj:link yj:url="/2021/05/13/termux_nginx_php-fpm_mariadb/"><![CDATA[TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例]]></yj:link>
 											<yj:link yj:url="/2021/06/01/termux-php8-to-php7/"><![CDATA[TermuxでPHP7を使いたい！ PHP8からPHP7にして使う。]]></yj:link>
@@ -880,7 +880,7 @@ $ sudo nginx</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></description>
 
 				<snf:advertisement>
@@ -1066,9 +1066,9 @@ $ sudo nginx</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a href="https://junkhack.gpl.jp/sendmail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 <yj:related>
-											<yj:link yj:url="/2020/09/09/Avatarspeechbubbleisfinallyusedinthepro-blogofWordPress/"><![CDATA[アバター吹き出しをWordPressの自前ブログでやっと使える！]]></yj:link>
+											<yj:link yj:url="/2020/09/09/avatarspeechbubbleisfinallyusedinthepro-blogofwordpress/"><![CDATA[アバター吹き出しをWordPressの自前ブログでやっと使える！]]></yj:link>
 											<yj:link yj:url="/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/"><![CDATA[ジェットパックプラグインは死活監視サービスがあるのか！]]></yj:link>
 					</yj:related>
 					]]></description>

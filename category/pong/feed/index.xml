@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
 		<title>コントローラーABできました</title>
-		<link>/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/</link>
-					<comments>/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/#comments</comments>
+		<link>/2015/09/06/pong-on-arduino-7/</link>
+					<comments>/2015/09/06/pong-on-arduino-7/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Sep 2015 11:34:03 +0000</pubDate>
@@ -64,14 +64,14 @@
 <p>真ん中の車両はモーターも付いています。100円ショップは工作材料の宝庫です。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2015/09/06/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bcab%e3%81%a7%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/09/06/pong-on-arduino-7/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>本体側への装着はだいたい終了</title>
-		<link>/2015/08/31/%e6%9c%ac%e4%bd%93%e5%81%b4%e3%81%b8%e3%81%ae%e8%a3%85%e7%9d%80%e3%81%af%e3%81%a0%e3%81%84%e3%81%9f%e3%81%84%e7%b5%82%e4%ba%86/</link>
+		<link>/2015/08/31/pong-on-arduino-6/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 30 Aug 2015 19:44:54 +0000</pubDate>
@@ -94,7 +94,7 @@
 			</item>
 		<item>
 		<title>電源まわり</title>
-		<link>/2015/08/30/%e9%9b%bb%e6%ba%90%e3%81%be%e3%82%8f%e3%82%8a/</link>
+		<link>/2015/08/30/pong-on-arduino-5/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 30 Aug 2015 02:22:44 +0000</pubDate>
@@ -122,7 +122,7 @@
 			</item>
 		<item>
 		<title>ブレッドボードへ仮組み</title>
-		<link>/2015/08/29/%e3%83%96%e3%83%ac%e3%83%83%e3%83%89%e3%83%9c%e3%83%bc%e3%83%89%e3%81%b8%e4%bb%ae%e7%b5%84%e3%81%bf/</link>
+		<link>/2015/08/29/pong-on-arduino-4/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 29 Aug 2015 01:01:50 +0000</pubDate>
@@ -151,7 +151,7 @@
 			</item>
 		<item>
 		<title>目玉おやじのコントローラAを加工</title>
-		<link>/2015/08/29/%e7%9b%ae%e7%8e%89%e3%81%8a%e3%82%84%e3%81%98%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9a%e3%81%ae%e5%8a%a0%e5%b7%a5/</link>
+		<link>/2015/08/29/pong-on-arduino-3/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 28 Aug 2015 16:55:07 +0000</pubDate>
