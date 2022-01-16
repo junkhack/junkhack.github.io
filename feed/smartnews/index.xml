@@ -9,7 +9,7 @@
 	<title>JunkHack SmartNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Fri, 14 Jan 2022 19:48:21 +0900</lastBuildDate>
+	<lastBuildDate>Sat, 15 Jan 2022 17:41:02 +0900</lastBuildDate>
 	<language>ja</language>
 	<ttl>5</ttl>
 	<snf:logo><url>/wp-content/uploads/2021/04/logo512x512.png</url></snf:logo>
@@ -18,6 +18,247 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 
+		<item>
+		<title>WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</title>
+		<link>/2022/01/10/wordpress-to-githubpages/</link>
+		<pubDate>Sat, 15 Jan 2022 17:09:59 +0000</pubDate>
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=11019</guid>
+				<media:thumbnail>/wp-content/uploads/2022/01/hello-github-pages.gif</media:thumbnail>
+				<media:status>active</media:status>
+		<description><![CDATA[長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。 　今日のお話は、WordPressから静的なHTMLファイル [&#8230;]]]></description>
+		<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>スマホサイトでWordPressも納得したしなー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>あ〜、例の記事をネタにするんですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>やっぱり運用が楽なのがいいしね！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>率直な感想なんかを聞いてみたいわ。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。</p>
+
+
+
+<p>　今日のお話は、WordPressから静的なHTMLファイルを書き出してそれをGitHub Pages やNETLIFYで、独自ドメインを使って動かしてみた感想なんかを書きたいなと思います。具体的な手順なんかは記載していませんので、要望があれば別ネタにしたいなと思います。</p>
+
+
+
+<h3>WordPressでの編集から記事公開までの概略</h3>
+
+
+
+<p>全体の流れは、基本的に以下の３ステップです。</p>
+
+
+
+<p>　(1) ローカル環境のWordPressで記事を書く</p>
+
+
+
+<p>　(2) Simply Staticプラグインで、「静的ファイルを生成する」ボタンを押す</p>
+
+
+
+<p>　(3) 上記でできたファイルを展開して、Github Pages のリポジトリへコミットする</p>
+
+
+
+<p>Github Pages の設定をしておけば、こんな感じですね。(2) のファイル生成時間は、動作速度、記事数や画像数などにもよって変わりますが、自分の場合は１時間弱くらいでした。</p>
+
+
+
+<h3>WordPressのデータをどうやって、静的ファイルにするの？</h3>
+
+
+
+<p>これは非常によくできたプラグインがあります。それを使うだけ。いろいろ検討しましたが以下のが一押しです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Simply Static<br><a rel="noreferrer noopener external" href="https://ja.wordpress.org/plugins/simply-static/" target="_blank" data-wpel-link="external" class="wpel-icon-right">HTTPS://JA.WORDPRESS.ORG/PLUGINS/SIMPLY-STATIC/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>これは、Pro 版と無償版があります。今使っているのは、無償版ですが、Pro版も検討しています。とりあえずは、無償版でも十分な機能を持っています。以下のように「相対 URL を使用する」でファイルを書き出す設定をしておきます。なぜ相対URLにしているかといえば、ミラーサイトにも公開しているからです。このブログの場合、以下のように複数のリポジトリへコミットしているからです。</p>
+
+
+
+<h4>　メインサイト：/</h4>
+
+
+
+<h4>　エイリアス：https://junkhack.gpl.jp/</h4>
+
+
+
+<h4>　ミラーサイト：https://jh.gpl.jp/</h4>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>あとは、「静的ファイルを生成する」でOKです。このブログの場合、583個の記事を１時間弱で書き出せました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3>書き出したあとはどうするの？</h3>
+
+
+
+<p>無事に静的ファイルが描き出せたら、圧縮ファイルを展開してGithub Pages のリポジトリにコミットするだけです。自分は、Sourcetree を使っています。</p>
+
+
+
+<figure class="wp-block-image size-full"><img width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
+
+
+
+<p>自動化するならスクリプトを作ってコミットもできると思います。そのうち、やってみたいなと思っています。ちなみに、Simply StaticのPro版はGitHub連携も出来るので一手間減ります。</p>
+
+
+
+<h3>環境づくりで、注意する点</h3>
+
+
+
+<p>WordPress の環境作りでは、以下の点に気を付ける必要があります。</p>
+
+
+
+<ul><li>書き出されるのは静的なHTMLとjsとcss と画像ファイルなのでコメントやメールフォームや検索など動的に動かすことができない</li><li>なので、コメントは全部閉じる</li><li>メールフォームなど、自分の場合はコンタクトフォーム ７を使わないようにした</li><li>検索はGoogleのカスタム検索をWordPressのウィジェットに貼り付ける（<a rel="noreferrer noopener external" href="https://programmablesearchengine.google.com/cse/" target="_blank" data-wpel-link="external" class="wpel-icon-right">https://programmablesearchengine.google.com/cse/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li><li>WordPressのスラグは全部英文字にしておく（日本語は使わない）</li><li>ローカル環境のPHP設定でメモリ関連の設定を上げておく</li></ul>
+
+
+
+<p>といったところでしょうか。静的化してもコメントやメールフォームを動かす別の方法もありますが、現時点ではまだ導入していません。そもそも、コメントやメールフォームは無くても良いかなと。あればコミュニケーションができますが、仕事の依頼系はメールでも十分かなと感じています。わざわざ、メールフォームにしておく必要性もないのが実際のところです。コメントについては、このブログの場合、ほとんど書き込みがないので無くても問題はありません。どうしても、コンタクト撮りたい場合は、メールしてもらえれば良いかなと現時点では思っています。</p>
+
+
+
+<h3>現時点で使っているプラグインは？</h3>
+
+
+
+<p><meta charset="utf-8">静的ファイルを書き出すSimply Staticを使っても、ちゃんと動作しているWordPressのプラグインは以下です。表示系ではない関係ないプラグインもありますが、表示系に関連するのは動いていることを確認しています。</p>
+
+
+
+<pre class="wp-block-code"><code>+-------------------------------------------+----------+-----------+-------------+
+| name                                      | status   | update    | version     |
++-------------------------------------------+----------+-----------+-------------+
+| acf-quickedit-fields                      | active   | available | 3.1.6       |
+| advanced-custom-fields                    | active   | none      | 5.11.4      |
+| akismet                                   | active   | none      | 4.2.1       |
+| autoptimize                               | active   | none      | 2.9.5       |
+| backwpup                                  | active   | none      | 3.10.0      |
+| bulk-media-register                       | active   | none      | 1.25        |
+| admin-featured-image                      | active   | none      | 1.2         |
+| export-all-urls                           | active   | none      | 4.1         |
+| google-sitemap-generator                  | active   | none      | 4.1.1       |
+| jquery-manager                            | active   | none      | 1.10.6      |
+| list-urls                                 | active   | none      | 0.2         |
+| luckywp-table-of-contents                 | active   | none      | 2.1.4       |
+| multiple-domain-mapping-on-single-site    | active   | none      | 1.0.5       |
+| permalink-manager                         | active   | available | 2.2.14      |
+| search-regex                              | active   | none      | 2.4.1       |
+| shortcoder                                | active   | none      | 5.6         |
+| simply-static                             | active   | available | 2.1.5.2     |
+| google-site-kit                           | active   | none      | 1.48.1      |
+| ultimate-addons-for-gutenberg             | active   | none      | 1.25.2      |
+| word-balloon                              | active   | none      | 4.18.4      |
+| wordpress-importer                        | active   | none      | 0.7         |
+| wp-external-links                         | active   | none      | 2.50        |
+| wpfront-scroll-top                        | active   | none      | 2.0.7.08086 |
+| wp-multibyte-patch                        | active   | none      | 2.9         |
+| duplicate-post                            | active   | none      | 4.3         |
++-------------------------------------------+----------+-----------+-------------+</code></pre>
+
+
+
+<p>意外だったのは、目次を作っている「luckywp-table-of-contents」や吹き出し表示の「word-balloon」もちゃんと動作しています。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・運用コストが下がるので、今後はコンテンツネタに力を入れていきたい</p>
+
+
+
+<p>・やっぱり静的ファイルは読み込みが速い！</p>
+
+
+
+<p>・WordPressとは今後もローカル環境で付き合っていきます</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>かなり前から、WordPress運用環境を変えたいなと検討していました。やっぱりシンプルが一番です。まだ切り替えたばかりなので、少し記事を書いてからまた感想などを書きたいなと思います。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+
+				<snf:advertisement>
+						<snf:sponsoredLink
+				title="アリエクでぽちったJunkHack"
+				link="/"
+				thumbnail="/wp-content/uploads/2021/04/logo512x512.png"
+				advertiser="JunkHack" />
+								</snf:advertisement>
+		
+				<snf:analytics><![CDATA[<script async src="https://www.googletagmanager.com/gtag/js?id=G-13YWDXYQE2"></script>]]></snf:analytics>
+		
+			</item>
 		<item>
 		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
 		<link>/2022/01/02/keycdn/</link>
@@ -866,191 +1107,6 @@ $ sudo nginx</code></pre>
 
 
 <p>ネットとPCと通販があれば、場所はどこでも生きていけそうです。ログハウスとか、手作りしながら、ブログ、Youtubeで配信する生活に憧れます。</p>
-
-
-
-<h3>著者にメッセージ</h3>
-
-
-
- 
-
-
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-]]></content:encoded>
-
-				<snf:advertisement>
-						<snf:sponsoredLink
-				title="アリエクでぽちったJunkHack"
-				link="/"
-				thumbnail="/wp-content/uploads/2021/04/logo512x512.png"
-				advertiser="JunkHack" />
-								</snf:advertisement>
-		
-				<snf:analytics><![CDATA[<script async src="https://www.googletagmanager.com/gtag/js?id=G-13YWDXYQE2"></script>]]></snf:analytics>
-		
-			</item>
-		<item>
-		<title>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインはどこかに無いかな？</title>
-		<link>/2021/06/08/copy-the-first-wordpress-article-to-the-second-wordpress/</link>
-		<pubDate>Tue, 08 Jun 2021 16:33:50 +0000</pubDate>
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-				<category><![CDATA[Android]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">/?p=10619</guid>
-				<media:thumbnail>/wp-content/uploads/2021/06/wp-a-site-copy-b-site.png</media:thumbnail>
-				<media:status>active</media:status>
-		<description><![CDATA[AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかり [&#8230;]]]></description>
-		<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>今日もWordPress触っていくよ〜！</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>ってか、最近暑いわね！</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインとか誰か作ってないかなーと探してる</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>MainWPってのはどう？</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<p>AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかりにくいので、図に書くとこうなります。</p>
-
-
-
-<center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="375px" height="261px" viewBox="-0.5 -0.5 375 261" content="&lt;mxfile&gt;&lt;diagram id=&quot;8aDVfMz8q1SKujRMYK2U&quot; name=&quot;ページ1&quot;&gt;7VjbbqMwEP0aXleYSyCPCc1epFZbbR767IADVo2NjGmSfv2OwYQQkl3apt2LIiElPp4Ze+bMmDGWG+XbLxIX2Z1ICLMcO9la7o3lOMjxHPjRyK5BgmDSAKmkiRHqgCV9Jga0DVrRhJQ9QSUEU7Tog7HgnMSqh2EpxaYvthasv2qBUzIAljFmQ/SBJipr0NAJOvwroWnWrowm02Ymx62w8aTMcCI2B5C7sNxICqGaf/k2IkwHr41Lo/f5zOx+Y5JwNUbBEPGEWWV8sxahNQutaWgtPGs+s8K52anate6XG5ozzGE0XwuulmbGhnGcUZbc4p2o9PKlwvFjO5pnQtJnkMcMphAAMC2VYdeZaGuUsUgwIQHgol6gU1pqY2YZSUpQu2/dREfQHd72BG9xqdoNCsZwUdJVvWWtmGOZUj4XSoncCJmgEKnI9mxg0Z4uyHMicqLkDkRahdBvVEyKuxPD+KZLGGQbLDtMFtsziWqSNN3b7niEP4bK07S6A1q/KZIDggZkgouq5kKKR3IU/BN8YEZTDkNG1lpNx4hCYcwMrEShjRU4pjy9rWVuvA75YfzUkADdNauTP6NJQrimSyis8GqfToWgXNVx8OfwQLgi+5Nv+bDxCMaoG8OjxaWKBAdfMK1pIkD8hmjyx3HqnObUcOhMxlHYyr2FQe8cg86Vwdcz6DsfxyCaDM/WY+oIT2b6fQSjmOGypLE+8lTenpCNAkkGr6PfOnzgoX/CwRaThGFFn/rmT3ltVrjXdHan3KR/yE3tvoFSVDImRufwLXRkxkF9O8GRHXhPpEQN7NQM7H0eRYp/rqzca1m9vqyC8OPKakRVHRTQJqOKLCHGemoD3agOeYYLPaSliKoVAb/mK2gtUikqnnyvFKO87Q1AZMbTplXwL9MYeMjr5boXDBuD6cm+wH578IJB8B6ETO6hSyoBHnZ6L6yBg8DXjaFp7byjRhGdqI8cMp0d1lEM8STyQjG3+zH3w5HNmHeBmIf/eMKiNhv/RMJOf5mws/81YVHYj/mHJiy6Xgrf6VLo2dMeraMvheElaL1eCl/X+6C/51aIrv3ru3A4+l4YvphDGHaf85obS/dR1F38BA==&lt;/diagram&gt;&lt;/mxfile&gt;"><defs><clipPath id="mx-clip-34-31-92-26-0"><rect x="34" y="31" width="92" height="26"/></clipPath><clipPath id="mx-clip-34-57-92-26-0"><rect x="34" y="57" width="92" height="26"/></clipPath><clipPath id="mx-clip-34-83-92-26-0"><rect x="34" y="83" width="92" height="26"/></clipPath><clipPath id="mx-clip-258-31-92-26-0"><rect x="258" y="31" width="92" height="26"/></clipPath><clipPath id="mx-clip-258-57-92-28-0"><rect x="258" y="57" width="92" height="28"/></clipPath></defs><g><path d="M 30 26 L 30 0 L 130 0 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 30 26 L 30 104 L 130 104 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 30 26 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px"><text x="79.5" y="17.5">記事</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-31-92-26-0)" font-size="12px"><text x="35.5" y="43.5">Item 1</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-57-92-26-0)" font-size="12px"><text x="35.5" y="69.5">Item 2</text></g><path d="M 95 90 L 238.69 70.84" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 243.89 70.15 L 237.42 74.54 L 238.69 70.84 L 236.49 67.6 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-83-92-26-0)" font-size="12px"><text x="35.5" y="95.5">Item 3</text></g><path d="M 304 110 L 349 131.61 L 349 188.39 L 304 210 L 259 188.39 L 259 131.61 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 259 131.61 L 304 153.21 L 349 131.61 M 304 153.21 L 304 210" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 299px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">WordPress B</div></div></div></foreignObject><text x="299" y="247" fill="#000000" font-family="Helvetica" font-size="24px" text-anchor="middle" font-weight="bold">WordPres&#8230;</text></switch></g><path d="M 80 110 L 125 131.61 L 125 188.39 L 80 210 L 35 188.39 L 35 131.61 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 35 131.61 L 80 153.21 L 125 131.61 M 80 153.21 L 80 210" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 75px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">WordPress A</div></div></div></foreignObject><text x="75" y="247" fill="#000000" font-family="Helvetica" font-size="24px" text-anchor="middle" font-weight="bold">WordPres&#8230;</text></switch></g><path d="M 254 26 L 254 0 L 354 0 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 254 26 L 254 80 L 354 80 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 254 26 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px"><text x="303.5" y="17.5">記事</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-258-31-92-26-0)" font-size="12px"><text x="259.5" y="43.5">Item 1</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-258-57-92-28-0)" font-size="12px"><text x="259.5" y="69.5">Item 3</text></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text></a></switch></svg></center>
-
-
-
-<p>つまり、Aサイトの投稿済み記事をBサイトに個別にコピーするという感じです。画像などのリソースもそのままBサイトに入れば最高です。</p>
-
-
-
-<p>AサイトもBサイトも設定やプラグイン構成やテーマが違うので、記事とそのリソース（画像など）を複製できればいいのですが、、、そんなことはどうやったら実現できるでしょうか。それを今日は検討しています。</p>
-
-
-
-<h3>MainWPプラグインはどうかな？</h3>
-
-
-
-<p>MainWPっていうのがありました。使い方は省略しますが、こんな事が実現できることはわかりました。</p>
-
-
-
-<p>・管理WPから、複数の新規記事を複数のWPサイトへ発行できる。<br>・MainWP本体プラグインを管理WPに入れる。配信するWPにはMainWP Childを入れる<br>・２台構成の場合は、管理WPに、MainWPとMainWP Childを入れる</p>
-
-
-
-<p>残念ながら、Aサイトのすでに投稿済みの記事を個別に選んで、Bサイトにコピー（投稿）することはできないそうです。Pro版を使ってもダメみたい。どうりでそんなインターフェイスがないわけだ。</p>
-
-
-
-<p>　ということで、何か違う方法を模索。XML-RPC経由か、DBにトリガーを作るか。または、、、、うーん、DBだけだったら、レプリケーションフィルターオプションとかで行けそうかも。WordPressの機能を使ってやるのが良さそうですが。</p>
-
-
-
-<h3>記事をコピーしてどうするの？</h3>
-
-
-
-<p>はい、実は今研究中の課題がありまして、それはGitHubのPagesにWordPressコンテンツを静的ファイルにして書き出すというものです。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>GitHubのpagesにコミットしたWordPressの静的ページ（テスト中）</p><cite><a href="https://junkhack.github.io/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://junkhack.github.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<p>このページは、WordPressから書き出した静的なファイルです。それを吐き出すようの専用のWordPressを作って、メインサイトから記事を同期させたかったわけです。メインサイトとは、プラグイン構成やテーマファイルが変わる予定なので、これらを実現するには、記事のコピーが必要だったわけです。</p>
-
-
-
-<p>GitHub pagesは、まだテスト中なので、リンクが切れていたり、画像がgithubからじゃなかったりするページがありますが、全体としては結構使えるんじゃないの？　という感触です。たとえば、ニューヨークからの接続時間は、現在のスマホサーバに接続すると以下のような時間となりますが、</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="924" height="636" src="/wp-content/uploads/2021/06/cdn_check2.png" alt="" class="wp-image-10629" srcset="/wp-content/uploads/2021/06/cdn_check2.png 924w, /wp-content/uploads/2021/06/cdn_check2-768x529.png 768w" sizes="(max-width: 924px) 100vw, 924px" /></figure></div>
-
-
-
-<p>GitHubのpagesにコミットした静的ページだと、以下のように速くなります。</p>
-
-
-
-<figure class="wp-block-image size-large"><img width="925" height="644" src="/wp-content/uploads/2021/06/cdn_check.png" alt="" class="wp-image-10630" srcset="/wp-content/uploads/2021/06/cdn_check.png 925w, /wp-content/uploads/2021/06/cdn_check-768x535.png 768w" sizes="(max-width: 925px) 100vw, 925px" /></figure>
-
-
-
-<p>さすが、htmlやcssやjsだけの静的ファイルになると速いですね。Githubのリソースだから自動的にCDN経由になりますしね。速度的には以下な感じです。測定拠点はワシントンです。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="542" src="/wp-content/uploads/2021/06/WebPageTest-1024x542.png" alt="" class="wp-image-10633" srcset="/wp-content/uploads/2021/06/WebPageTest-1024x542.png 1024w, /wp-content/uploads/2021/06/WebPageTest-768x406.png 768w, /wp-content/uploads/2021/06/WebPageTest-984x521.png 984w, /wp-content/uploads/2021/06/WebPageTest.png 1094w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>PageSpeed Insights（GoogleのWEB速度チェック）でも、いい感じでした。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="960" height="670" src="/wp-content/uploads/2021/06/PageSpeed_Insights.png" alt="" class="wp-image-10634" srcset="/wp-content/uploads/2021/06/PageSpeed_Insights.png 960w, /wp-content/uploads/2021/06/PageSpeed_Insights-768x536.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
-
-
-
-<h3>GitHub Pagesのリソース制限は？</h3>
-
-
-
-<p>リソース制限などは、以下のサイトにまとまっています。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>GitHub Pagesでホストするサイトのアクセス上限は月10万リクエストが目安<br>::（抜粋）<br>　GitHub Pagesソースリポジトリの推奨制限は1GB<br>　公開されているGitHub Pagesサイトは1GB以下<br>　GitHub Pagesサイトは、1か月あたり100GBまたは100,000リクエストの帯域幅制限<br>　GitHub Pagesサイトは、1時間あたり10ビルドの制限</p><cite><a href="https://qiita.com/tonishi/items/e5696b477278f3c49b77" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<p>個人サイトのブログ程度なら、ミラーサイトとして問題なさそうな感じですかね。</p>
-
-
-
-<h3>まとめ</h3>
-
-
-
-<p>今回、なんとなくわかったのは以下となります。</p>
-
-
-
-<p>・MainWPを使ってみた<br>・しかし、これは個別で投稿済みの記事をBサイトにコピーはできない<br>・GitHub Pagesのリソース制限は個人サイトくらいなら問題なさそうかな？<br>・WordPressを静的に吐き出して利用するには、まだまだいくつか考慮するポイントがありそう。</p>
-
-
-
-<h3>あとがき</h3>
-
-
-
-<p>世の中は広いから、大抵のものはだれかが作っています。　リサーチしてると面白いものがどんどん発掘されて、当初の目的を忘れていたりします。w さて、次はWordPressの静的ファイルに書き出す仕組みづくりを検討です。</p>
 
 
 

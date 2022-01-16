@@ -12,7 +12,7 @@
 	<title>Blog &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Tue, 01 Jun 2021 20:43:58 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 15 Jan 2022 17:41:02 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,239 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.8.3</generator>
 	<item>
+		<title>WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</title>
+		<link>/2022/01/10/wordpress-to-githubpages/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 15 Jan 2022 17:09:59 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=11019</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/01/hello-github-pages.gif" />
+							<description><![CDATA[長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。 　今日のお話は、WordPressから静的なHTMLファイル [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>スマホサイトでWordPressも納得したしなー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>あ〜、例の記事をネタにするんですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>やっぱり運用が楽なのがいいしね！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>率直な感想なんかを聞いてみたいわ。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。</p>
+
+
+
+<p>　今日のお話は、WordPressから静的なHTMLファイルを書き出してそれをGitHub Pages やNETLIFYで、独自ドメインを使って動かしてみた感想なんかを書きたいなと思います。具体的な手順なんかは記載していませんので、要望があれば別ネタにしたいなと思います。</p>
+
+
+
+<h3>WordPressでの編集から記事公開までの概略</h3>
+
+
+
+<p>全体の流れは、基本的に以下の３ステップです。</p>
+
+
+
+<p>　(1) ローカル環境のWordPressで記事を書く</p>
+
+
+
+<p>　(2) Simply Staticプラグインで、「静的ファイルを生成する」ボタンを押す</p>
+
+
+
+<p>　(3) 上記でできたファイルを展開して、Github Pages のリポジトリへコミットする</p>
+
+
+
+<p>Github Pages の設定をしておけば、こんな感じですね。(2) のファイル生成時間は、動作速度、記事数や画像数などにもよって変わりますが、自分の場合は１時間弱くらいでした。</p>
+
+
+
+<h3>WordPressのデータをどうやって、静的ファイルにするの？</h3>
+
+
+
+<p>これは非常によくできたプラグインがあります。それを使うだけ。いろいろ検討しましたが以下のが一押しです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Simply Static<br><a rel="noreferrer noopener external" href="https://ja.wordpress.org/plugins/simply-static/" target="_blank" data-wpel-link="external" class="wpel-icon-right">HTTPS://JA.WORDPRESS.ORG/PLUGINS/SIMPLY-STATIC/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>これは、Pro 版と無償版があります。今使っているのは、無償版ですが、Pro版も検討しています。とりあえずは、無償版でも十分な機能を持っています。以下のように「相対 URL を使用する」でファイルを書き出す設定をしておきます。なぜ相対URLにしているかといえば、ミラーサイトにも公開しているからです。このブログの場合、以下のように複数のリポジトリへコミットしているからです。</p>
+
+
+
+<h4>　メインサイト：/</h4>
+
+
+
+<h4>　エイリアス：https://junkhack.gpl.jp/</h4>
+
+
+
+<h4>　ミラーサイト：https://jh.gpl.jp/</h4>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>あとは、「静的ファイルを生成する」でOKです。このブログの場合、583個の記事を１時間弱で書き出せました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3>書き出したあとはどうするの？</h3>
+
+
+
+<p>無事に静的ファイルが描き出せたら、圧縮ファイルを展開してGithub Pages のリポジトリにコミットするだけです。自分は、Sourcetree を使っています。</p>
+
+
+
+<figure class="wp-block-image size-full"><img width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
+
+
+
+<p>自動化するならスクリプトを作ってコミットもできると思います。そのうち、やってみたいなと思っています。ちなみに、Simply StaticのPro版はGitHub連携も出来るので一手間減ります。</p>
+
+
+
+<h3>環境づくりで、注意する点</h3>
+
+
+
+<p>WordPress の環境作りでは、以下の点に気を付ける必要があります。</p>
+
+
+
+<ul><li>書き出されるのは静的なHTMLとjsとcss と画像ファイルなのでコメントやメールフォームや検索など動的に動かすことができない</li><li>なので、コメントは全部閉じる</li><li>メールフォームなど、自分の場合はコンタクトフォーム ７を使わないようにした</li><li>検索はGoogleのカスタム検索をWordPressのウィジェットに貼り付ける（<a rel="noreferrer noopener external" href="https://programmablesearchengine.google.com/cse/" target="_blank" data-wpel-link="external" class="wpel-icon-right">https://programmablesearchengine.google.com/cse/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li><li>WordPressのスラグは全部英文字にしておく（日本語は使わない）</li><li>ローカル環境のPHP設定でメモリ関連の設定を上げておく</li></ul>
+
+
+
+<p>といったところでしょうか。静的化してもコメントやメールフォームを動かす別の方法もありますが、現時点ではまだ導入していません。そもそも、コメントやメールフォームは無くても良いかなと。あればコミュニケーションができますが、仕事の依頼系はメールでも十分かなと感じています。わざわざ、メールフォームにしておく必要性もないのが実際のところです。コメントについては、このブログの場合、ほとんど書き込みがないので無くても問題はありません。どうしても、コンタクト撮りたい場合は、メールしてもらえれば良いかなと現時点では思っています。</p>
+
+
+
+<h3>現時点で使っているプラグインは？</h3>
+
+
+
+<p><meta charset="utf-8">静的ファイルを書き出すSimply Staticを使っても、ちゃんと動作しているWordPressのプラグインは以下です。表示系ではない関係ないプラグインもありますが、表示系に関連するのは動いていることを確認しています。</p>
+
+
+
+<pre class="wp-block-code"><code>+-------------------------------------------+----------+-----------+-------------+
+| name                                      | status   | update    | version     |
++-------------------------------------------+----------+-----------+-------------+
+| acf-quickedit-fields                      | active   | available | 3.1.6       |
+| advanced-custom-fields                    | active   | none      | 5.11.4      |
+| akismet                                   | active   | none      | 4.2.1       |
+| autoptimize                               | active   | none      | 2.9.5       |
+| backwpup                                  | active   | none      | 3.10.0      |
+| bulk-media-register                       | active   | none      | 1.25        |
+| admin-featured-image                      | active   | none      | 1.2         |
+| export-all-urls                           | active   | none      | 4.1         |
+| google-sitemap-generator                  | active   | none      | 4.1.1       |
+| jquery-manager                            | active   | none      | 1.10.6      |
+| list-urls                                 | active   | none      | 0.2         |
+| luckywp-table-of-contents                 | active   | none      | 2.1.4       |
+| multiple-domain-mapping-on-single-site    | active   | none      | 1.0.5       |
+| permalink-manager                         | active   | available | 2.2.14      |
+| search-regex                              | active   | none      | 2.4.1       |
+| shortcoder                                | active   | none      | 5.6         |
+| simply-static                             | active   | available | 2.1.5.2     |
+| google-site-kit                           | active   | none      | 1.48.1      |
+| ultimate-addons-for-gutenberg             | active   | none      | 1.25.2      |
+| word-balloon                              | active   | none      | 4.18.4      |
+| wordpress-importer                        | active   | none      | 0.7         |
+| wp-external-links                         | active   | none      | 2.50        |
+| wpfront-scroll-top                        | active   | none      | 2.0.7.08086 |
+| wp-multibyte-patch                        | active   | none      | 2.9         |
+| duplicate-post                            | active   | none      | 4.3         |
++-------------------------------------------+----------+-----------+-------------+</code></pre>
+
+
+
+<p>意外だったのは、目次を作っている「luckywp-table-of-contents」や吹き出し表示の「word-balloon」もちゃんと動作しています。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・運用コストが下がるので、今後はコンテンツネタに力を入れていきたい</p>
+
+
+
+<p>・やっぱり静的ファイルは読み込みが速い！</p>
+
+
+
+<p>・WordPressとは今後もローカル環境で付き合っていきます</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>かなり前から、WordPress運用環境を変えたいなと検討していました。やっぱりシンプルが一番です。まだ切り替えたばかりなので、少し記事を書いてからまた感想などを書きたいなと思います。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ジェットパックプラグインは死活監視サービスがあるのか！</title>
 		<link>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/</link>
 					<comments>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/#comments</comments>
@@ -568,217 +801,6 @@ Percentage of the requests served within a certain time (ms)
 					
 					<wfw:commentRss>/2020/09/08/termux_nginx_phpfpm_bench/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>/2020/09/06/wordpressdisplayscoreintermuxapache2-php7-mariadb10environment/</link>
-		
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">/?p=5911</guid>
-							<description><![CDATA[とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、Hew　です。TOPの表示記事数は３です。スマホ側は、Umidig [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、<a href="https://wordpress.com/theme/hew" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Hew<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。TOPの表示記事数は３です。スマホ側は、UmidigiF2にapache2+php7+mariadb10の環境となります。ClassicPressではなく、WordPress最新5.5.1です。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_06_20_18_04_20.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_06_20_18_04_20" class="wp-image-5913"/></figure></div>
-
-
-
-<p>改善前は以下です。</p>
-
-
-
-<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_05_20_15_15_05-1.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_05_20_15_15_05" class="wp-image-5915"/></figure>
-
-
-
-<p>2.2秒くらいから、1.3秒くらいまで改善しました。これは、キャッシュ化の効果です。キャッシュさせるのは、何がいいのか迷いましたが一番シンプルそうな、「<strong>Simple Cache</strong>」というのを使いました。</p>
-
-
-
-<figure class="wp-block-image"><a href="https://ja.wordpress.org/plugins/simple-cache/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/e38395e3829ae383a9e382afe38299e382a4e383b3_e280b9_junkhack_e28094_wordpress.png" alt="プラグイン_‹_JunkHack_—_WordPress" class="wp-image-5917"/></a></figure>
-
-
-
-<p>Jetpack の全ての機能を試していませんが、とりあえずは動いている感じです。設定も以下のように単純です。手動でのキャッシュ削除は設定画面の２箇所から可能です。</p>
-
-
-
-<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/e382b7e383b3e38395e3829ae383abe382ade383a3e38383e382b7e383a5e280b9junkhack_e28094_wordpress.png" alt="シンプルキャッシュ‹JunkHack_—_WordPress" class="wp-image-5919"/></figure>
-
-
-
-<p>nginx_1.19.2 と、php-fpm_7.4.9 の組み合わせでも確認してみたいですね。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Termuxパッケージ安定板<br>https://grimler.se/termux-packages-24/arm/</p></blockquote>
-
-
-
-<p>nginxの1.19.2 は<a href="https://nginx.org/en/CHANGES" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">オフィシャル側<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は 2020/08/11 に公開していて、termux 側は、8/18 なんでちゃんとメンテナンスされているようです。</p>
-
-
-
-<p>とりあえず、apacheのhttpd.confのパッチは以下です。apache 2.4.46 のデフォルト設定ファイルとの差分です。</p>
-
-
-
-<pre class="wp-block-code"><code>--- httpd.conf.org	2020-08-09 07:55:34.000000000 +0900
-+++ httpd.conf	2020-09-06 01:56:57.560924026 +0900
-@@ -63,8 +63,8 @@
- # Example:
- # LoadModule foo_module modules/mod_foo.so
- #
--#LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
--LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
-+LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
-+#LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
- LoadModule authn_file_module libexec/apache2/mod_authn_file.so
- #LoadModule authn_dbm_module libexec/apache2/mod_authn_dbm.so
- #LoadModule authn_anon_module libexec/apache2/mod_authn_anon.so
-@@ -88,7 +88,7 @@
- #LoadModule cache_module libexec/apache2/mod_cache.so
- #LoadModule cache_disk_module libexec/apache2/mod_cache_disk.so
- #LoadModule cache_socache_module libexec/apache2/mod_cache_socache.so
--#LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
-+LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
- #LoadModule socache_dbm_module libexec/apache2/mod_socache_dbm.so
- #LoadModule socache_memcache_module libexec/apache2/mod_socache_memcache.so
- #LoadModule socache_redis_module libexec/apache2/mod_socache_redis.so
-@@ -109,7 +109,7 @@
- #LoadModule substitute_module libexec/apache2/mod_substitute.so
- #LoadModule sed_module libexec/apache2/mod_sed.so
- #LoadModule charset_lite_module libexec/apache2/mod_charset_lite.so
--#LoadModule deflate_module libexec/apache2/mod_deflate.so
-+LoadModule deflate_module libexec/apache2/mod_deflate.so
- LoadModule mime_module libexec/apache2/mod_mime.so
- LoadModule log_config_module libexec/apache2/mod_log_config.so
- #LoadModule log_debug_module libexec/apache2/mod_log_debug.so
-@@ -144,7 +144,7 @@
- #LoadModule session_dbd_module libexec/apache2/mod_session_dbd.so
- LoadModule slotmem_shm_module libexec/apache2/mod_slotmem_shm.so
- #LoadModule slotmem_plain_module libexec/apache2/mod_slotmem_plain.so
--#LoadModule ssl_module libexec/apache2/mod_ssl.so
-+LoadModule ssl_module libexec/apache2/mod_ssl.so
- #LoadModule dialup_module libexec/apache2/mod_dialup.so
- #LoadModule http2_module libexec/apache2/mod_http2.so
- #LoadModule lbmethod_byrequests_module libexec/apache2/mod_lbmethod_byrequests.so
-@@ -168,7 +168,7 @@
- &lt;/IfModule>
- #LoadModule dav_fs_module libexec/apache2/mod_dav_fs.so
- #LoadModule dav_lock_module libexec/apache2/mod_dav_lock.so
--#LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
-+LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
- LoadModule negotiation_module libexec/apache2/mod_negotiation.so
- LoadModule dir_module libexec/apache2/mod_dir.so
- #LoadModule imagemap_module libexec/apache2/mod_imagemap.so
-@@ -176,7 +176,7 @@
- #LoadModule speling_module libexec/apache2/mod_speling.so
- LoadModule userdir_module libexec/apache2/mod_userdir.so
- LoadModule alias_module libexec/apache2/mod_alias.so
--#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-+LoadModule rewrite_module libexec/apache2/mod_rewrite.so
- 
- &lt;IfModule unixd_module>
- #
-@@ -242,8 +242,10 @@
- # documents. By default, all requests are taken from this directory, but
- # symbolic links and aliases may be used to point to other locations.
- #
--DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
--&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
-+#DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
-+DocumentRoot "/data/data/com.termux/files/home/htdocs"
-+#&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
-+&lt;Directory "/data/data/com.termux/files/home/htdocs">
-     #
-     # Possible values for the Options directive are "None", "All",
-     # or any combination of:
-@@ -256,14 +258,14 @@
-     # http://httpd.apache.org/docs/2.4/mod/core.html#options
-     # for more information.
-     #
--    Options Indexes FollowSymLinks
-+    Options FollowSymLinks
- 
-     #
-     # AllowOverride controls what directives may be placed in .htaccess files.
-     # It can be "All", "None", or any combination of the keywords:
-     #   AllowOverride FileInfo AuthConfig Limit
-     #
--    AllowOverride None
-+    AllowOverride All
- 
-     #
-     # Controls who can get stuff from this server.
-@@ -276,7 +278,7 @@
- # is requested.
- #
- &lt;IfModule dir_module>
--    DirectoryIndex index.html
-+    DirectoryIndex index.php index.html
- &lt;/IfModule>
- 
- #
-@@ -529,3 +531,22 @@
- SSLRandomSeed connect builtin
- &lt;/IfModule>
- 
-+LoadModule php7_module libexec/apache2/libphp7.so
-+&lt;FilesMatch \.php
-gt;
- +   SetHandler application/x-httpd-php
- +&lt;/FilesMatch>
- +&lt;IfModule dir_module>
- +    DirectoryIndex index.php
- +&lt;/IfModule>
- +
- +&lt;IfModule mod_deflate.c>
- +    DeflateCompressionLevel 1
- +    &lt;IfModule mod_filter.c>
- +        FilterDeclare COMPRESS
- +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/#i"
- +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^application/(atom\+xml|javascript|json|rss\+xml|xml|xhtml\+xml)#i"
- +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^image/(svg\+xml|vnd\.microsoft\.icon)#i"
- +        FilterChain COMPRESS
- +        FilterProtocol COMPRESS DEFLATE change=yes;byteranges=no
- +    &lt;/IfModule>
- +&lt;/IfModule></code></pre>
-
-
-
-<p>パッチの適用は上記をコピペしてp.txt などに保存、httpd.conf に以下のように patchしてください。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>$ patch -u httpd.conf &lt; p.txt</p></blockquote>
-
-
-
-<p>成功すれば、patching file httpd.conf　のような表示となります。</p>
-
-
-
-<p>mariadb のチューニングとかはやってないです。PHPは、php.ini&nbsp; に以下のように記載してあります。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>$ cat /data/data/com.termux/files/usr/lib/php.ini<br>[PHP]</p><p>upload_max_filesize = 64M<br>post_max_size = 64M<br>memory_limit = 64M</p></blockquote>
-
-
-
-<p>結構、スマホでも動くなー、いけそうだなーっていう感じです。</p>
-]]></content:encoded>
-					
 		
 		
 			</item>
