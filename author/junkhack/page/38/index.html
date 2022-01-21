@@ -50,7 +50,45 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-3682" class="post-3682 post type-post status-publish format-standard hentry category-lumix-dmc-fz200 category-pottering"><div class="entry-wrapper">
+</h1></header><article id="post-3708" class="post-3708 post type-post status-publish format-standard hentry category-wordpress"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/04/01/wordpress-plugin/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-04-01T12:00:43+09:00">2017年4月1日</time></a> </span><span class="posted-on">更新日:2017年4月1日</span> <span class="categories"> <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
+</div>
+<h1 class="entry-title"><a href="/2017/04/01/wordpress-plugin/" rel="bookmark noopener noreferrer" data-wpel-link="internal">WordPress のプラグイン、カテゴリからindex 作るもの</a></h1></header><div class="entry-content">
+<p>今日は天気が悪いので、ポタリングで写真散歩に行くのは明日にして、部屋をかたづけたり、その後の構想を練ったりしようと思います。</p>
+<p>&#160;</p>
+<p>さて、最近プロジェクトが同時進行していて同時に５つくらいの DIY が進行しています。何をしていたか忘れてしまうし、何かいい策はないものかと。</p>
+<p>こういう状態だと、プロジェクトが進まないので自分自身の管理のためにも何が仕組みが必要だなと思いました。一応、忘れないためにブログを書いていたりするのですが、これが非常に見難いんですよね。検索やカテゴリがあるのでなんとか事足りていますが、もう少しなんとかならないものかと。ブログの弱点ですよね。</p>
+<p>&#160;</p>
+<p>とりあえず、このブログのメニューを再編して「My Projexts」にカテゴリで分けてみました。</p>
+<p>仕分けしていて、カテゴリの頭に選択中のタイトルを古いもの順で表示、それが先頭に自動でついてくるものが欲しいなと思いました。</p>
+<p>ブログって、あとから見た人は興味があるネタを追いにくいので、どうしてもまとめ記事的なものが必要になりますが、これが面倒。</p>
+<p>以前は、ページに作っているもの一覧を書いていたのですが、面倒です。</p>
+<p>&#160;</p>
+<p>そういうプラグインとか探せばあるのでしょうが、暇を見つけて作りたいなと思います。しかし、現在使っているwordpress.com だと独自プラグインは使えないので、オリジナルサイトを作らないとだめなんですよね。</p>
+<p>&#160;</p>
+<p>コストを抑えつつ、wordpress サイトを構築するにはレンサバですが、出来れば0円で済ませたい。ということは自宅サーバしかないですかね。現在は、IP固定プランなので一応これも可能です。まぁ、この回線は上下のスループット帯域は対象じゃないので、たぶんサーバからの下り回線が遅いはずです。そういう細かいことは気にしなければ応用度は格段に広がりますが。一応、その用途で1年前からテストで以下のサイトを仮に稼動しているのですが、やっぱり遅いですよね。</p>
+<p>&#160;</p>
+<blockquote>
+<p><a title="/" href="/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">/</a></p>
+<p>現在は、OrangePi PC one 1台で稼動中（回線は コナミの i-revo で上位回線はIIJ）</p>
+</blockquote>
+<p>&#160;</p>
+<p>あと踏ん切りがつかないのは、メンテナンスが面倒なのと、電気代が掛かることです。メンテナンスは仕組みを考えればなんとか妥協点を見るけるとしても、電気代は500円未満くらいに抑えたいですね。そうなると、落っこちない仕組みと管理がなるべく簡単なもの、そして電気代を安くあげるマシンの選定が必要です。</p>
+<p>構成的には、フロントにロードバランサーを置いて、複数の orange pi などで稼動させるのもありかもしれませんね。orange pi はテストでずっと稼動してありますが、少しwordpress.com よりも応答速度が悪いのでまだ実現させていません。DIY が落ち着いたら考えてみたいです。</p>
+<p>VPS の1000円くらいのインスタンスのリソースと、orange pi のリソースは 1/3 から 1/4 くらいなので VPS 上に構築するのもありかなと。</p>
+<p>&#160;</p>
+<p>しかし、一番お手軽なのは、LOLIPOP とかの安いレンサバで事足りそうですが。</p>
+<p>&#160;</p>
+<p>メンテナンスの労力は、自宅サーバの場合、以下のすべてが自己管理です。</p>
+<p>・LinuxOS の脆弱性</p>
+<p>・WorePress とプラグイン全般</p>
+<p>・DBやメディア自体のバックアップ</p>
+<p>レンサバの場合は、それが少し低くなるけどやっぱり WordPress やプラグインの脆弱性やバックアップはしないとで、一番お手軽は、どこかのブログサービス上で書くことになりますかね。VPS を契約するんだったら、自宅サーバのほうが面白そう。</p>
+<p>&#160;</p>
+<p>そういう労力をかけて、自ドメインのサイトを運用するメリットは、運営してみないとわかりません。手をかけていると、楽しくなるとは思いますが、たぶんすぐに飽きませすし。ただ、いろいろと勉強にはなると思います。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-3682" class="post-3682 post type-post status-publish format-standard hentry category-lumix-dmc-fz200 category-pottering"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/04/01/10e5b9b4e4bf9de99a9ce381ae-samsung-microsdcarde588b0e79d80/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-04-01T01:05:04+09:00">2017年4月1日</time></a> </span><span class="posted-on">更新日:2017年4月1日</span> <span class="categories"> <a href="/category/lumix-dmc-fz200/" rel="category tag noopener noreferrer" data-wpel-link="internal">LUMIX DMC-FZ200</a>, <a href="/category/pottering/" rel="category tag noopener noreferrer" data-wpel-link="internal">pottering</a></span>
 </div>
 <h1 class="entry-title"><a href="/2017/04/01/10e5b9b4e4bf9de99a9ce381ae-samsung-microsdcarde588b0e79d80/" rel="bookmark noopener noreferrer" data-wpel-link="internal">10年保証の SAMSUNG microSDcard到着</a></h1></header><div class="entry-content">
@@ -197,59 +235,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <img class="lazyload" title="P1300346" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300346" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/p1300346.png" width="640" height="480"><p>常用している、三越のJohanで一番大きいフランスパンが450円くらいですが、あれだと4日くらいなのでこちらのほうが少しお値段上です。でも、たぶん、めちゃくちゃうまいはずなので、他のパンが食べられなくなるかもです。</p>
 <p>&#160;</p>
 <p>37km ポタリングしたら、少し疲れました。散歩としてはちょっと長めの距離でした。ちなみに、バッテリーはまだ余裕でした。50km はいけそうです。実家まで50km 弱なので、もう少し天気がよくなったら、母親の顔でも見てくることにします。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-3620" class="post-3620 post type-post status-publish format-standard hentry category-100yen category-3d-print category-diy category-diy_wagon category-misumi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/03/25/daiso-stainless-tray/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-03-25T10:20:28+09:00">2017年3月25日</time></a> </span><span class="posted-on">更新日:2017年3月25日</span> <span class="categories"> <a href="/category/100yen/" rel="category tag noopener noreferrer" data-wpel-link="internal">100Yen</a>, <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a>, <a href="/category/diy_wagon/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY_wagon</a>, <a href="/category/misumi/" rel="category tag noopener noreferrer" data-wpel-link="internal">MISUMI</a></span>
-</div>
-<h1 class="entry-title"><a href="/2017/03/25/daiso-stainless-tray/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ダイソーのステンレストレイとミスミのアルミフレームでDIY</a></h1></header><div class="entry-content">
-<p>ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。</p>
-<p></p>
-<noscript><img title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480"><p>39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。</p>
-<p>他にも、値段が300円まででいろいろあります。</p>
-<p></p>
-<noscript><img title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843"></noscript>
-<img class="lazyload" title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20633%20843%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843"><p>これは300円ですが、40 x 30cm と大きく深さもあります。</p>
-<p></p>
-<noscript><img title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841"></noscript>
-<img class="lazyload" title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20631%20841%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841"><p>少し小ぶりで 32 x 23cm ですが、深さがあるタイプ。200円</p>
-<p></p>
-<noscript><img title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846"></noscript>
-<img class="lazyload" title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20635%20846%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846"><p>上記の浅いタイプ。</p>
-<p></p>
-<noscript><img title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480"><p>ちょっと失礼して、並べて検討。100円のでとりあえず十分だということで、これを4枚ゲットしました。400円。あと写真にはありませんが、２つ並べてちょうど良さそうな、23 x 16cm の少し深めのものも２つゲット。</p>
-<p>&#160;</p>
-<p>以下のようなものを作ろうと思っています。簡易的にプレートをモデリングして、接続パーツやアルミフレームの検討をしています。</p>
-<p> </p>
-<noscript><img title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="/wp-content/uploads/2017/03/31.png" width="643" height="536"></noscript>
-<img class="lazyload" title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20643%20536%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/31.png" width="643" height="536"><p>ベースのフレームは細い18mm と 28mm のグリーンフレームです。</p>
-<p></p>
-<noscript><img title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856"></noscript>
-<img class="lazyload" title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20644%20856%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856"><p>グリーンフレームは太いので作るか、細いのかで迷っています。コスト重視なら細いものですが。</p>
-<p></p>
-<noscript><img title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="/wp-content/uploads/2017/03/21.png" width="641" height="858"></noscript>
-<img class="lazyload" title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20641%20858%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/21.png" width="641" height="858"><p>このステンレストレイは、大きさが 39 x 29cm もあって100円で利益出るんですかね。0.5mm くらいなのでコストは抑えてありそうですが。100円ショップ、ほんと楽しいです。</p>
-<p></p>
-<noscript><img title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480"><p>工具が床に散らばるので、部屋の中にあると便利かなと思いまして。こんな感じで工具がちょうどいい感じに載せれます。</p>
-<p></p>
-<noscript><img title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480"><p>高さは50cm を検討。台車も100円ショップで売っていたのでゲットしてきました。</p>
-<p>これは、ダイソーじゃなく100円ショップのSeria（セリア）です。1個あたりの耐荷重は約10kg とあります。４つで40kg なので人が乗る用途でもないので十分でしょう。</p>
-<p></p>
-<noscript><img title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480"><p>ストッパー付きです。100円なのに高機能ですね。ベアリングとかは入っていませんが。</p>
-<p>台座は四角なので、ジョイントアダプターを作る必要がありますね。</p>
-<p></p>
-<noscript><img title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480"><p>38mm 角のようです。</p>
-<p></p>
-<noscript><img title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480">&#160;<p>材料の概算費用は、ステンレストレイが4枚で400円とフレームがグリーンフレームS だと416円、グリーンフレームだと684円。このくらいだったら、太いほうがいいですかね。タイヤが4個で200円。合計で、1016円か、1284円。あと取っ手のフレームも加算しますので100円か200円くらい高くなりそうです。</p>
-<p>&#160;</p>
-<p>もう少し、CAD上でつついて検討したいと思います。高さは、50cm もなくていいのかな。トレイは取り外せるようにするか、固定するかでフレームの構造も決まります。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

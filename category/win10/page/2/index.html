@@ -50,7 +50,32 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">カテゴリー: <span>Win10</span>
-</h1></header><article id="post-4576" class="post-4576 post type-post status-publish format-standard hentry category-vietnam category-win10"><div class="entry-wrapper">
+</h1></header><article id="post-4683" class="post-4683 post type-post status-publish format-standard hentry category-blog category-onda-xiaoma-21 category-win10"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/10/22/change-keyboard-mapping/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-10-22T07:40:25+09:00">2018年10月22日</time></a> </span><span class="posted-on">更新日:2018年10月22日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/onda-xiaoma-21/" rel="category tag noopener noreferrer" data-wpel-link="internal">Onda Xiaoma 21</a>, <a href="/category/win10/" rel="category tag noopener noreferrer" data-wpel-link="internal">Win10</a></span>
+</div>
+<h1 class="entry-title"><a href="/2018/10/22/change-keyboard-mapping/" rel="bookmark noopener noreferrer" data-wpel-link="internal">マック使いがWIN10でストレスにならないよういにキーボードマッピングを変更</a></h1></header><div class="entry-content">
+<p>普段は、MAC使いなのでコピペやWindowを閉じるなどの通常操作が、Windowsにきたときにイライラする。ち、これはwindowsかと。自宅のwinなんで使いやすいように変えてしまうことに。</p>
+<p>まず、ALTとCTLのキーはずばっと入れ替えちゃうことに。それ系の設定アプリは他にもいろいろあるので同じ事は他のソフトウェアでも可能かと。以下のＭＳ製のToolで設定はやりました。</p>
+<p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=17657" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img class="alignnone size-full wp-image-4682" src="/wp-content/uploads/2018/10/download-windows-server-2003-resource-kit-tools-from-official-microsoft-download-center-google-chrome-2018-10-22-07-14-10-1.png" alt="Download Windows Server 2003 Resource Kit Tools from Official Microsoft Download Center - Google Chrome 2018-10-22 07.14.10 (1).png" width="821" height="291"></noscript>
+<img class="lazyload alignnone size-full wp-image-4682" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20821%20291%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/10/download-windows-server-2003-resource-kit-tools-from-official-microsoft-download-center-google-chrome-2018-10-22-07-14-10-1.png" alt="Download Windows Server 2003 Resource Kit Tools from Official Microsoft Download Center - Google Chrome 2018-10-22 07.14.10 (1).png" width="821" height="291"></a></p>
+<p>インストールすると以下にキーを変更するユーティリティーがあるので起動して変更。</p>
+<p>&#8220;C:\Program Files (x86)\Windows Resource Kits\Tools\remapkey.exe&#8221;</p>
+<p></p>
+<noscript><img class=" size-full wp-image-4684 aligncenter" src="/wp-content/uploads/2018/10/remapkey-2018-10-22-07-33-37-1.png" alt="Remapkey 2018-10-22 07.33.37 (1).png" width="594" height="474"></noscript>
+<img class="lazyload  size-full wp-image-4684 aligncenter" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20594%20474%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/10/remapkey-2018-10-22-07-33-37-1.png" alt="Remapkey 2018-10-22 07.33.37 (1).png" width="594" height="474"><p>あとは、定番ソフトウェアの<a href="https://autohotkey.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">AutoHotkey <span class="wpel-icon wpel-image wpel-icon-1"></span></a>を使って少し設定。</p>
+<blockquote>
+<p>#InstallKeybdHook<br> #UseHook</p>
+<p>; CTL+qでアプリ終了<br> ^q::Send,!{F4}<br> return<br> ;左のWindowsキーとQキーでShift+Alt+Tab<br> LWin &amp; Q::ShiftAltTab<br> ;左のWindowsキーとTABキーでAlt+Tab<br> LWin &amp; TAB::AltTab</p>
+</blockquote>
+<p>これで、実際にはALT+Q でアプリは終了するし、ALT＋WでChromeとかはタブウインドウが閉じる感じです。ブラウジングしているときは、ALTに親指が、人差し指はWの位置にするのが癖で、別タブで開くのでクリックするときはALT（キーを入れ替えてるのでCTLですが）を押してます。</p>
+<p>かなりこれで楽になりました。</p>
+<p>キーマップのやり方は、以下のサイトがわかりやすかったです。</p>
+<blockquote><p>AutoHotkeyの使い方1 : rcmdnk&#8217;s blog<br> <a href="https://rcmdnk.com/blog/2013/07/28/computer-windows-autohotkey/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://rcmdnk.com/blog/2013/07/28/computer-windows-autohotkey/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>あとは、テキスト入力時に、トラックパッドに触っちゃうのでこれを回避したいな。どうしたものか。</p>
+<p>&nbsp;</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-4576" class="post-4576 post type-post status-publish format-standard hentry category-vietnam category-win10"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/04/17/windows-mac-version-of-skitch/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-04-17T05:41:04+09:00">2018年4月17日</time></a> </span><span class="posted-on">更新日:2018年4月17日</span> <span class="categories"> <a href="/category/vietnam/" rel="category tag noopener noreferrer" data-wpel-link="internal">vietnam</a>, <a href="/category/win10/" rel="category tag noopener noreferrer" data-wpel-link="internal">Win10</a></span>
 </div>
 <h1 class="entry-title"><a href="/2018/04/17/windows-mac-version-of-skitch/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Mac版のSkitchっていうスクリーンショットツールの Windows 版代替は何がいいのか？</a></h1></header><div class="entry-content">
@@ -103,9 +128,9 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 </div>
 <footer class="entry-footer"></footer>
 </div></article><article id="post-4504" class="post-4504 post type-post status-publish format-standard hentry category-osx category-win10"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/03/04/wine381a8osx-e381a8e381a7e38395e382a9e383b3e38388e38292e7b5b1e4b880e38197e381a6e381bfe3819f/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-03-04T21:29:16+09:00">2018年3月4日</time></a> </span><span class="posted-on">更新日:2018年3月4日</span> <span class="categories"> <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/win10/" rel="category tag noopener noreferrer" data-wpel-link="internal">Win10</a></span>
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/03/04/win-osx-font/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-03-04T21:29:16+09:00">2018年3月4日</time></a> </span><span class="posted-on">更新日:2018年3月4日</span> <span class="categories"> <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/win10/" rel="category tag noopener noreferrer" data-wpel-link="internal">Win10</a></span>
 </div>
-<h1 class="entry-title"><a href="/2018/03/04/wine381a8osx-e381a8e381a7e38395e382a9e383b3e38388e38292e7b5b1e4b880e38197e381a6e381bfe3819f/" rel="bookmark noopener noreferrer" data-wpel-link="internal">winとosx とでフォントを統一してみた</a></h1></header><div class="entry-content">
+<h1 class="entry-title"><a href="/2018/03/04/win-osx-font/" rel="bookmark noopener noreferrer" data-wpel-link="internal">winとosx とでフォントを統一してみた</a></h1></header><div class="entry-content">
 <p>windows10 をこれからサブメイン機にするので、フォントを osx と統一してみました。Linuxの構築現場ではだいたいデフォルトになっている sakura editer での描画。</p>
 <p>0とO（ゼロと大文字のオー）とか、|パイプと小文字のl(エル）とか見分けがつかないと非常に大変なことになるので普段から使うフォントには気をつけています。</p>
 <blockquote><p>abcdefghijklmnopqrstyuwxyz 0123456789-^~|[]{}*;+?/&lt;&gt;,._¥!&quot;#$%&amp;'() <br>ABCDEFGHIJKLMNOPQRSTYUWXYZ</p></blockquote>

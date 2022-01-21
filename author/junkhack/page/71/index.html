@@ -50,7 +50,218 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1256" class="post-1256 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-sdk"><div class="entry-wrapper">
+</h1></header><article id="post-1261" class="post-1261 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-sdk"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/25/espeink-make-e3819de381aeefbc93/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-25T04:39:37+09:00">2015年9月25日</time></a> </span><span class="posted-on">更新日:2015年9月25日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/sdk/" rel="category tag noopener noreferrer" data-wpel-link="internal">sdk</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/09/25/espeink-make-e3819de381aeefbc93/" rel="bookmark noopener noreferrer" data-wpel-link="internal">espeink make その３</a></h1></header><div class="entry-content">
+<p>さて、その後esptool っていうのを調査しました。</p>
+<p>Makefile には、-eo や、2番目の引数の変数に展開される –bo や –bs などがあります。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- Makefile
+::
+# we create two different files for uploading into the flash
+# these are the names and options to generate them
+FW_FILE_1    = 0x00000
+FW_FILE_1_ARGS    = -bo $@ -bs .text -bs .data -bs .rodata -bc -ec
+FW_FILE_2    = 0x40000
+FW_FILE_2_ARGS    = -es .irom0.text $@ -ec
+::
+$(FW_FILE_1): $(TARGET_OUT) firmware
+    $(vecho) &quot;FW $@&quot;
+    $(Q) $(ESPTOOL) -eo $(TARGET_OUT) $(FW_FILE_1_ARGS)★
+::</pre>
+<p>&#160;</p>
+<p>python の esptool.py の引数をチェックしてみると</p>
+<blockquote><p><a href="https://github.com/themadinventor/esptool/blob/master/esptool.py" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/themadinventor/esptool/blob/master/esptool.py<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>そんな引数はないので、おかしいよなぁと思い再度ググると、esptool-ck という C で書かれたヘルパーツールがあるじゃありませんか？ esptool という名前は同じなので、てっきりpython のツールのことだと思っていました。</p>
+<blockquote><p><a title="https://github.com/igrr/esptool-ck" href="https://github.com/igrr/esptool-ck" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/igrr/esptool-ck<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>あ、これですね、きっと。入れてみることに。</p>
+<p>▼esptool-ck</p>
+<p>・以下よりdownload</p>
+<blockquote><p><a href="https://github.com/igrr/esptool-ck/releases" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/igrr/esptool-ck/releases<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>&#160;</p>
+<p> osx なので、ボリュームをマウントしておきます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sudo hdiutil mount ~/Documents/case-sensitive.dmg
+$ cd /Volumes/case-sensitive</pre>
+<p>バージョンは新しいのをまず試してみます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ wget https://github.com/igrr/esptool-ck/archive/0.4.6.tar.gz
+$ tar xvfz 0.4.6.tar.gz 
+$ mv esptool-ck-0.4.6/ esptool-ck
+$ cd esptool-ck</pre>
+<p>&#160;</p>
+<p>gcc は入っているので、make し実行権限をつけます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$make
+$ chmod +x esptool</pre>
+<p>&#160;</p>
+<p>・/opt/配下にシンボリックリンクを張っておきます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sudo ln -s /Volumes/case-sensitive/esp-open-sdk/ /opt/Espressif</pre>
+<p>・パスを反映</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ export PATH=/opt/Espressif/xtensa-lx106-elf/bin:/opt/Espressif/esptool-ck:$PATH
+$ echo 'export PATH=/opt/Espressif/xtensa-lx106-elf/bin:/opt/Espressif/esptool-ck:$PATH' &gt;&gt; ~/.bashrc</pre>
+<p>・呼び出せればOK</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ which esptool
+/opt/Espressif/esptool-ck/esptool</pre>
+<p>★espeink のソースディレクトリへ</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">sed -i 's/opt\/Espressif\/crosstool-NG\/builds\/xtensa-lx106-elf\/bin/opt\/Espressif\/xtensa-lx106-elf\/bin/g' Makefile
+sed -i 's/\/opt\/Espressif\/ESP8266_SDK/\/opt\/Espressif\/sdk\//g' Makefile
+sed -i 's/\/opt\/Espressif\/include/\/opt\/Espressif\/sdk\/include/g' Makefile
+sed -i 's/\/opt\/Espressif\/arch\/lib/\/opt\/Espressif\/sdk\/lib/g' Makefile
+sed -i 's/ttyUSB0/cu.SLAB_USBtoUART/g' Makefile</pre>
+<p>&#160;</p>
+<p>さて、make されてファームウェアもできるでしょうか？</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ make
+CC user/cgiwifi.c
+CC user/config.c
+CC user/eink.c
+CC user/espfs.c
+CC user/heatshrink_decoder.c
+CC user/httpd.c
+CC user/httpdclient.c
+CC user/httpdespfs.c
+CC user/io.c
+CC user/stdout.c
+CC user/user_main.c
+AR build/einkdisp_app.a
+LD build/einkdisp.out
+FW firmware/0x00000.bin
+FW firmware/0x40000.bin</pre>
+<p>&#160;</p>
+<p>あっさり行けましたね。でも、サイズが小さいような気がします。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ ls -al build/ firmware/
+build/:
+total 1464
+drwxr-xr-x   6 junkhack  staff     204  9 25 02:03 .
+drwxr-xr-x  16 junkhack  staff     544  9 25 02:03 ..
+drwxr-xr-x   2 junkhack  staff      68  9 25 02:03 driver
+-rwxr-xr-x   1 junkhack  staff  514717  9 25 02:03 einkdisp.out
+-rw-r--r--   1 junkhack  staff  231744  9 25 02:03 einkdisp_app.a
+drwxr-xr-x  13 junkhack  staff     442  9 25 02:03 user
+
+firmware/:
+total 408
+drwxr-xr-x   4 junkhack  staff     136  9 25 02:03 .
+drwxr-xr-x  16 junkhack  staff     544  9 25 02:03 ..
+-rw-r--r--   1 junkhack  staff   37632  9 25 02:03 0x00000.bin
+-rw-r--r--   1 junkhack  staff  166264  9 25 02:03 0x40000.bin</pre>
+<p>&#160;</p>
+<p>500k くらいあるeinkdisp.out がファームに入っていないような気がします。ユーザ領域じゃないのでしょうかね。メモリマップはあまり見ていないので、これをどのように書き込めばいいかはまだ不明です。</p>
+<p>&#160;</p>
+<p>が、コンパイルはエラーなく通るようになりました。</p>
+<p>SDK は、1.0.1 でとりあえずやっています。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ cd /opt/Espressif/
+HOPE:Espressif junkhack$ ll
+total 128
+-rw-r--r--   1 junkhack  staff  11263  9 22 22:52 Makefile
+-rw-r--r--   1 junkhack  staff   5725  9 22 22:52 README.md
+-rw-r--r--   1 junkhack  staff   1101  9 22 22:52 c_types-c99.patch
+drwxr-xr-x  18 junkhack  staff   1462  9 22 23:24 crosstool-NG
+-rw-r--r--   1 junkhack  staff    199  9 22 22:52 crosstool-config-overrides
+-rw-r--r--   1 junkhack  staff    146  9 22 22:52 empty_user_rf_pre_init.c
+drwxr-xr-x@ 10 junkhack  staff    442  9 23 22:34 esp_iot_sdk_v0.9.5
+drwxr-xr-x@ 10 junkhack  staff    374  4 24 17:08 esp_iot_sdk_v1.0.1
+drwxr-xr-x@ 10 junkhack  staff    408  9 23 14:43 esp_iot_sdk_v1.1.1
+drwxr-xr-x@ 10 junkhack  staff    374  6 12 20:49 esp_iot_sdk_v1.1.2
+drwxr-xr-x  10 junkhack  staff    442  9 23 00:24 esp_iot_sdk_v1.3.0
+drwxr-xr-x@ 10 junkhack  staff    374  9 18 21:55 esp_iot_sdk_v1.4.0
+drwxr-xr-x   2 junkhack  staff    272  9 22 22:56 esptool
+drwxr-xr-x   9 junkhack  staff    646  9 24 19:58 esptool-ck
+drwxr-xr-x   9 junkhack  staff    510  9 24 19:44 esptool-ck_git
+drwxr-xr-x   2 junkhack  staff    170  9 22 22:52 examples
+drwxr-xr-x   6 junkhack  staff    612  9 23 00:25 lx106-hal
+-rw-r--r--   1 junkhack  staff  24726  8  8 16:20 release_note.txt
+lrwxr-xr-x   1 junkhack  staff     18  9 23 23:53 sdk -&gt; esp_iot_sdk_v1.0.1
+drwxr-xr-x   8 junkhack  staff    306  9 23 00:21 xtensa-lx106-elf</pre>
+<p>&#160;</p>
+<p>Makefile には、以下のオプションも指定されているので、書き込みできるはずです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">::
+flash: $(FW_FILE_1) $(FW_FILE_2)
+    $(Q) $(ESPTOOL) -cp $(ESPPORT) -cb $(ESPBAUD) -ca 0x00000 -cf firmware/0x00000.bin -v
+    $(Q) [ $(ESPDELAY) -ne 0 ] &amp;&amp; echo &quot;Please put the ESP in bootloader mode...&quot; || true
+    $(Q) sleep $(ESPDELAY) || true
+    $(Q) $(ESPTOOL) -cp $(ESPPORT) -cb $(ESPBAUD) -ca 0x40000 -cf firmware/0x40000.bin -v
+
+::
+
+
+webpages.espfs: html/ mkespfsimage/mkespfsimage
+    cd html; find | ../mkespfsimage/mkespfsimage &gt; ../webpages.espfs; cd ..
+
+mkespfsimage/mkespfsimage: mkespfsimage/
+    make -C mkespfsimage
+
+htmlflash: webpages.espfs
+    if [ $$(stat -c '%s' webpages.espfs) -gt $$(( 0x2E000 )) ]; then echo &quot;webpages.espfs too big!&quot;; false; fi
+    $(ESPTOOL) -cp $(ESPPORT) -cb $(ESPBAUD) -ca 0x12000 -cf webpages.espfs -v
+::</pre>
+<p>土日にesp に書き込んでみることにします。</p>
+<p>&#160;</p>
+<p>esp12 をつなげていないと、以下のようになりました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:espeink junkhack$ make webpages.espfs
+cd html; find | ../mkespfsimage/mkespfsimage &gt; ../webpages.espfs; cd ..
+/bin/sh: ../mkespfsimage/mkespfsimage: cannot execute binary file
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+HOPE:espeink junkhack$ 
+
+HOPE:espeink junkhack$ make mkespfsimage/mkespfsimage
+make: `mkespfsimage/mkespfsimage' is up to date.
+HOPE:espeink junkhack$ 
+
+HOPE:espeink junkhack$ make htmlflash
+if [ $(stat -c '%s' webpages.espfs) -gt $(( 0x2E000 )) ]; then echo &quot;webpages.espfs too big!&quot;; false; fi
+stat: illegal option -- c
+usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
+/bin/sh: line 0: [: -gt: unary operator expected
+esptool -cp /dev/cu.SLAB_USBtoUART -cb 115200 -ca 0x12000 -cf webpages.espfs -v
+esptool vb64eebd - (c) 2014 Ch. Klippel &lt;ck@atelier-klippel.de&gt;
+opening port /dev/cu.SLAB_USBtoUART at 115200
+opening bootloader
+resetting board
+trying to connect
+trying to connect
+trying to connect
+resetting board
+trying to connect
+trying to connect
+trying to connect
+resetting board
+trying to connect
+trying to connect
+trying to connect
+warning: espcomm_sync failed
+error: espcomm_open failed
+make: *** [htmlflash] Error 255
+HOPE:espeink junkhack$ 
+
+HOPE:espeink junkhack$ make flash
+esptool vb64eebd - (c) 2014 Ch. Klippel &lt;ck@atelier-klippel.de&gt;
+opening port /dev/cu.SLAB_USBtoUART at 115200
+opening bootloader
+resetting board
+trying to connect
+trying to connect
+trying to connect
+resetting board
+trying to connect
+trying to connect
+trying to connect
+resetting board
+trying to connect
+trying to connect
+trying to connect
+warning: espcomm_sync failed
+error: espcomm_open failed
+make: *** [flash] Error 255
+HOPE:espeink junkhack$ </pre>
+<p>▼まとめ</p>
+<p>・esptool は python のじゃなくて、C 製の esptool-ck というのを使う</p>
+<p>・esptool-ck にはいろいろなオプションがあるようです。</p>
+<p>・配線を以下のようにして、resetmethod=wifio などとすれば、UART の RTS and DTRを使ってブートモードにしたりできるようです。</p>
+<p> <a title="https://github.com/esp8266/Arduino/issues/22" href="https://github.com/esp8266/Arduino/issues/22" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/esp8266/Arduino/issues/22<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>・できた２つのファームはサイズが小さいようだが？</p>
+<p>・make のオプションに書き込みや、その他の何か作業するものがある</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1256" class="post-1256 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-sdk"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/24/espeink-make2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-24T02:19:22+09:00">2015年9月24日</time></a> </span><span class="posted-on">更新日:2015年9月24日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/sdk/" rel="category tag noopener noreferrer" data-wpel-link="internal">sdk</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/09/24/espeink-make2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">espeink make その2</a></h1></header><div class="entry-content">
@@ -974,35 +1185,6 @@ sed -i 's/opt\//Volumes\/case-sensitive\//g' Makefile</pre>
 <p>画像でロゴが入れられるということは、JunkHack のロゴも何か作りたくなってきますね。</p>
 <p>&#160;</p>
 <p>さて、次はソースコードでも見てみますか。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1223" class="post-1223 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-espeink category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/20/creating-printed-circuit-board-data/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-20T06:44:48+09:00">2015年9月20日</time></a> </span><span class="posted-on">更新日:2015年9月20日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/09/20/creating-printed-circuit-board-data/" rel="bookmark noopener noreferrer" data-wpel-link="internal">プリント基板データを作成中</a></h1></header><div class="entry-content">
-<p>だいぶ、自動配線のコツもつかんで、Eagle の操作も少しづつ覚えてきました。Name の文字の大きさや位置を調整するのがわからなかったのですが、どうやら、smash してから文字を選択できる状態に分解して回転や、右クリックでプロパティーで文字の大きさやスタイルなどを調整するようです。</p>
-<p>&#160;</p>
-<p>自動配線のコツは、ある程度配置を最善にして９０％くらいまで最初に配線。その後、部分的に消したり、一部手動で途中まで配線したりして、再度自動配線をすると、うまくいきます。</p>
-<p>&#160;</p>
-<p>インダクタは、流通も多いTDK のこれを使うことに。接地する面が少なく、配線しやすい。</p>
-<blockquote>
-<p>SLF7045T-220MR90-PF</p>
-<p><a href="http://datasheet.octopart.com/SLF7045T-100M1R3-PF-TDK-datasheet-4837.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">datasheet<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="http://product.tdk.com/ja/catalog/datasheets/inductor_commercial_power_slf7045_ja.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">SLF7045 type<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a href="http://product.tdk.com/inductor/ind/detailed_information.php?lang=ja&amp;part_no=SLF7045T-220MR90-PF" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="SLF7045T-220MR90-PF" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SLF7045T-220MR90-PF" src="/wp-content/uploads/2015/09/slf7045t220mr90pf.png" width="600" height="654"></noscript>
-<img class="lazyload" title="SLF7045T-220MR90-PF" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SLF7045T-220MR90-PF" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20654%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/09/slf7045t220mr90pf.png" width="600" height="654"></a></p>
-<p>x 10 \933 <br><a title="http://www.aliexpress.com/item/7x7MM-22uH-960mA-Shielded-SMD-Power-Inductors-Inductance-SLF7032T-220MR96-TDK/1084729640.html?isOrigTitle=true" href="http://www.aliexpress.com/item/7x7MM-22uH-960mA-Shielded-SMD-Power-Inductors-Inductance-SLF7032T-220MR96-TDK/1084729640.html?isOrigTitle=true" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.aliexpress.com/item/7x7MM-22uH-960mA-Shielded-SMD-Power-Inductors-Inductance-SLF7032T-220MR96-TDK/1084729640.html?isOrigTitle=true<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p></p>
-<noscript><img title="tdk" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="tdk" src="/wp-content/uploads/2015/09/tdk.png" width="475" height="480"></noscript>
-<img class="lazyload" title="tdk" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="tdk" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20475%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/09/tdk.png" width="475" height="480"><p>ちょっと配置を変えて、今のところはこんな感じになっています。smd はリフローというつけ方が楽そうで、半田ペーストをステンシルで一気につけて、SMD 部品を置いてあとはホットプレートで230度まで加熱するという感じだそうです。</p>
-<p>Eagle で、tCream というレイヤーが半田をつける面で、以下がそれです。</p>
-<p></p>
-<noscript><img title="mask" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="mask" src="/wp-content/uploads/2015/09/mask.png" width="478" height="480"></noscript>
-<img class="lazyload" title="mask" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="mask" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20478%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/09/mask.png" width="478" height="480"><p>ステンシルを作る説明は、SWATCH SCIENCE さんの trac にありました。</p>
-<blockquote><p><a href="http://trac.switch-science.com/wiki/CraftRoboReflow" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Craft ROBOを使ったリフローはんだづけ用ステンシルの作製<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>動画を見ると、ほーなるほどとなります。</p>
-<p>[youtube https://www.youtube.com/watch?v=prjB_myCwSY]</p>
-<p>なるほどー 。この方法なら、うまく半田付けできるかも。実際に紙に印刷してみたんですが、めちゃくちゃ細かいのでできるかちょっと心配ですが。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

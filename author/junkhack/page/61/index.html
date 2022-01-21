@@ -50,7 +50,65 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1922" class="post-1922 post type-post status-publish format-standard hentry category-orangepipc"><div class="entry-wrapper">
+</h1></header><article id="post-1927" class="post-1927 post type-post status-publish format-standard hentry category-orangepipc category-osx"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/13/opie381a7x2go/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-13T21:16:06+09:00">2015年12月13日</time></a> </span><span class="posted-on">更新日:2015年12月13日</span> <span class="categories"> <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a>, <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/12/13/opie381a7x2go/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OPIでx2go</a></h1></header><div class="entry-content">
+<p>オレンジパイで、x2go （VNC のようなもので、ssh ポートのみで出来るもの）をしてみました。</p>
+<p></p>
+<noscript><img title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="/wp-content/uploads/2015/12/7d56827e8932.png" width="640" height="374"></noscript>
+<img class="lazyload" title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20374%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/7d56827e8932.png" width="640" height="374"><p>osx では、X2Go Client を使いました。</p>
+<blockquote>
+<p>Getting X2Go</p>
+<p><a title="http://wiki.x2go.org/doku.php/download:start" href="http://wiki.x2go.org/doku.php/download:start" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://wiki.x2go.org/doku.php/download:start<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p><a href="/wp-content/uploads/2015/12/9bcef7b1daab.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2015/12/thumb.png" width="621" height="480"></noscript>
+<img class="lazyload" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20621%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/thumb.png" width="621" height="480"></a>便利かどうかはまだ不明ですが、ssh ポートだけでいけるのはいいのではと。</p>
+<p>インストールしたときのメモ。loborisさんは、いろいろ作ってくれているので楽させてもらっています。</p>
+<p>&#160;</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">ReadME
+https://github.com/loboris/OrangePi-BuildLinux
+
+root@OrangePI:/usr/local/src# wget https://github.com/loboris/OrangePi-BuildLinux/raw/master/install_x2goserver
+root@OrangePI:/usr/local/src# chmod 755 install_x2goserver 
+root@OrangePI:/usr/local/src# bash ./install_x2goserver 
+
+    Sun Dec 13 20:30:21 JST 2015
+    *********************
+    Installing x2goserver
+    *********************
+    
+    Downloading the package ...
+    --2015-12-13 20:30:22--  http://loboris.eu/x2goserver_install.tar.gz
+    Resolving loboris.eu (loboris.eu)... 82.196.4.208
+    Connecting to loboris.eu (loboris.eu)|82.196.4.208|:80... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 6033423 (5.8M) [application/x-gzip]
+    Saving to: ‘/tmp/x2go_install/x2goserver_install.tar.gz’
+    
+    /tmp/x2go_install/x2goserver_install. 100%[==============================&gt;]   5.75M   335KB/s   in 21s    
+    
+    2015-12-13 20:30:46 (278 KB/s) - ‘/tmp/x2go_install/x2goserver_install.tar.gz’ saved [6033423/6033423]
+    
+    Unpacking ...
+    Installing...
+    
+    OK.
+    
+root@OrangePI:/usr/local/src# 
+
+root@OrangePI:/usr/local/src# ps axu | grep [x]2go
+root     12964  0.0  0.5  11184  6084 ?        S    20:32   0:00 /usr/bin/perl /usr/sbin/x2gocleansessions
+root@OrangePI:/usr/local/src# 
+
+
+orangepi@OrangePI:~$ ps axu | grep [x]2go
+orangepi 24355 15.4  4.9 150072 50708 ?        S    20:57   0:57 /usr/lib/nx/../x2go/bin/x2goagent -extension XFIXES -nolisten tcp -nolisten tcp -dpi 72 -D -auth /home/orangepi/.Xauthority -geometry 1024x768 -name X2GO-orangepi-51-1450007864_stDMATE_dp32 :51
+orangepi 24438  0.0  0.0   4296   636 ?        Ss   20:57   0:00 /bin/bash /usr/bin/x2goruncommand 51 24355 orangepi-51-1450007864_stDMATE_dp32 30005 mate-session esd D
+orangepi@OrangePI:~$ </pre>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1922" class="post-1922 post type-post status-publish format-standard hentry category-orangepipc"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/13/opi-e58299e5bf98e98cb2-kernel-update/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-13T20:24:30+09:00">2015年12月13日</time></a> </span><span class="posted-on">更新日:2015年12月13日</span> <span class="categories"> <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/12/13/opi-e58299e5bf98e98cb2-kernel-update/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OPI 備忘録 Kernel UPdate</a></h1></header><div class="entry-content">
@@ -515,29 +573,6 @@ root@OrangePI:/usr/local/src/UnixBench# </pre>
 <p> <a href="/wp-content/uploads/2015/12/dsc00212.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00212" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00212" src="/wp-content/uploads/2015/12/dsc00212_thumb.jpg" width="640" height="361"></noscript>
 <img class="lazyload" title="DSC00212" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00212" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00212_thumb.jpg" width="640" height="361"></a></p>
 <p>とりあえず、こんな感じです。週末に、サイド同じものを組み付けて練習してみます。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1869" class="post-1869 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/07/esp8266-backboost-e7b584e381bfe4bb98e38191e5ae8ce4ba86e383bbe383bbe383bb/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-07T02:38:44+09:00">2015年12月7日</time></a> </span><span class="posted-on">更新日:2015年12月7日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/12/07/esp8266-backboost-e7b584e381bfe4bb98e38191e5ae8ce4ba86e383bbe383bbe383bb/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 BackBoost 組み付け完了・・・</a></h1></header><div class="entry-content">
-<p>一日かけて、QKしながら、まったりと一応、組み付けましたが、まだ動作確認まで気力がわかず動作するかどうかはまだ未チェックです。コハクラフトさんからE-ink 開発ボードが速く届いたのに、手が回りませんでした。BackBoost がとりあえず、完了してからがんばることに。</p>
-<p>&#160;</p>
-<p>一応、全体像の紹介。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00216.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00216" src="/wp-content/uploads/2015/12/dsc00216_thumb.jpg" width="640" height="361"></noscript>
-<img class="lazyload" title="DSC00216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00216" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00216_thumb.jpg" width="640" height="361"></a></p>
-<p>工程の勘所をチェックするため、最後まで組み立ててみました。</p>
-<p>PINは、イレギュラーですが、表をフラットにするため、裏からつけてあります。幅をESPの最小幅にするためです。<a href="/wp-content/uploads/2015/12/dsc00217.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00217" src="/wp-content/uploads/2015/12/dsc00217_thumb.jpg" width="640" height="361"></noscript>
-<img class="lazyload" title="DSC00217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00217" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00217_thumb.jpg" width="640" height="361"></a></p>
-<p>いくつか、設計上と変更をしたほうがよいところに気がつきました。 <a href="/wp-content/uploads/2015/12/dsc00218.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00218" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00218" src="/wp-content/uploads/2015/12/dsc00218_thumb.jpg" width="640" height="361"></noscript>
-<img class="lazyload" title="DSC00218" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00218" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00218_thumb.jpg" width="640" height="361"></a></p>
-<p>IC2 のスイッチに使っているのは、足が生えてるので小さいですが半田付けは楽です。 <a href="/wp-content/uploads/2015/12/dsc00219.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00219" src="/wp-content/uploads/2015/12/dsc00219_thumb.jpg" width="640" height="361"></noscript>
-<img class="lazyload" title="DSC00219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00219" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00219_thumb.jpg" width="640" height="361"></a>この表の充電モジュールもブローでリフローしました。ピンセットで一押しするとき、手がブルって、モジュール上の部品が外れて大変でした。</p>
-<p>&#160;</p>
-<p>とりあえず、電源が出ているかどうかのチェックをしてみたのですが、何かがおかしい。</p>
-<p>まぁ、一発で成功するのは稀なので、何かが悪いのでしょう。</p>
-<p>&#160;</p>
-<p>今週少しづつ、チェックしていこうと思います。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

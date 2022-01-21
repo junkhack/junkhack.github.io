@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de/" sitemap-generator-version="4.1.1" -->
-<!-- generated-on="2022年1月15日 5:48 PM" -->
+<!-- generated-on="2022年1月21日 7:59 PM" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>/2020/08/01/replacethedustcoolerpeltierelementandrepair/</loc>
 		<lastmod>2021-06-25T20:02:34+00:00</lastmod>
@@ -61,25 +61,25 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>/2020/07/24/diyskyway400ck43areplacetheneedlebearingonthedrivenfaceside/</loc>
+		<loc>/2020/07/24/diy-skywave-400-driven-face/</loc>
 		<lastmod>2020-07-23T21:36:46+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>/2020/07/23/diyskyway400ck43achecktheinsideofthefilegearboxandclean/</loc>
+		<loc>/2020/07/23/diy-skywave-400-final-gear-box-clean/</loc>
 		<lastmod>2020-07-23T06:30:16+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>/2020/07/23/diyskyway400ck43adississublethedolvunface/</loc>
+		<loc>/2020/07/23/diy-skywave-400-df/</loc>
 		<lastmod>2020-07-22T18:45:22+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>/2020/07/23/diyskyway400ck43ameasuresagainstrust/</loc>
+		<loc>/2020/07/23/diy-skywave-400-sabi/</loc>
 		<lastmod>2020-07-22T18:16:32+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
@@ -156,4 +156,4 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-</urlset><!-- Request ID: afb0d3cf8e05b4371ba6287f70defd49; Queries for sitemap: 3; Total queries: 36; Seconds: 0.04; Memory for sitemap: 0MB; Total memory: 4.5MB -->
+</urlset><!-- Request ID: 5c2302fd2f3a39ef0cfb194035dcaf65; Queries for sitemap: 3; Total queries: 39; Seconds: 0.05; Memory for sitemap: 0MB; Total memory: 4.5MB -->

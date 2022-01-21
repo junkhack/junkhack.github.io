@@ -50,7 +50,149 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-953" class="post-953 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
+</h1></header><article id="post-962" class="post-962 post type-post status-publish format-standard hentry category-esp8266 category-raspberry-pi"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/16/esp-12-raspi2-wifi/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-16T03:34:06+09:00">2015年8月16日</time></a> </span><span class="posted-on">更新日:2015年8月16日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/08/16/esp-12-raspi2-wifi/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP-12でraspi2のシリアルコンソールをWiFi化</a></h1></header><div class="entry-content">
+<p>前から、興味があった透過型のUARTーWiFIブリッジ的に使う方法をあれこれ試していました。</p>
+<p>結論から言えば、出来ました。</p>
+<p>こんな感じで、電源はRasPi2 から取っていますので蓋の中に収められそうです。</p>
+<p> </p>
+<noscript><img title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480"></noscript>
+<img class="lazyload" title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480"><p>ESP-12 に収めるプログラムは、なんとサンプルスケッチの中にありました。WiFiTelnetToSerial です。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/* 
+  WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
+
+  Copyright (c) 2015 Hristo Gochkov. All rights reserved.
+  This file is part of the ESP8266WiFi library for Arduino environment.
+ 
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public
+  License along with this library; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+#include &lt;ESP8266WiFi.h&gt;
+
+//how many clients should be able to telnet to this ESP8266
+#define MAX_SRV_CLIENTS 1
+const char* ssid = &quot;yyyyy&quot;;
+const char* password = &quot;xxxxx&quot;;
+
+WiFiServer server(23);
+WiFiClient serverClients[MAX_SRV_CLIENTS];
+
+void setup() {
+  Serial1.begin(115200);
+  WiFi.begin(ssid, password);
+  Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
+  uint8_t i = 0;
+  while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
+  if(i == 21){
+    Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
+    while(1) delay(500);
+  }
+  //start UART and the server
+  Serial.begin(115200);
+  server.begin();
+  server.setNoDelay(true);
+  
+  Serial1.print(&quot;Ready! Use 'telnet &quot;);
+  Serial1.print(WiFi.localIP());
+  Serial1.println(&quot; 23' to connect&quot;);
+}
+
+void loop() {
+  uint8_t i;
+  //check if there are any new clients
+  if (server.hasClient()){
+    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+      //find free/disconnected spot
+      if (!serverClients[i] || !serverClients[i].connected()){
+        if(serverClients[i]) serverClients[i].stop();
+        serverClients[i] = server.available();
+        Serial1.print(&quot;New client: &quot;); Serial1.print(i);
+        continue;
+      }
+    }
+    //no free/disconnected spot so reject
+    WiFiClient serverClient = server.available();
+    serverClient.stop();
+  }
+  //check clients for data
+  for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+    if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+      if(serverClients[i].available()){
+        //get data from the telnet client and push it to the UART
+        while(serverClients[i].available()) Serial.write(serverClients[i].read());
+      }
+    }
+  }
+  //check UART for data
+  if(Serial.available()){
+    size_t len = Serial.available();
+    uint8_t sbuf[len];
+    Serial.readBytes(sbuf, len);
+    //push UART data to all connected telnet clients
+    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+      if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+        serverClients[i].write(sbuf, len);
+        delay(1);
+      }
+    }
+  }
+}</pre>
+<p>ArduinoIDE へ、ESP8266 Arduino Core の最新（ver. 1.6.5-1044-g170995a, built on Aug 10, 2015）を収めました。</p>
+<p>SDK1.3 が収まったものは、以下のStaging versionから入れました。</p>
+<blockquote>
+<p><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>Staging version<br> <br>Boards manager link: http://arduino.esp8266.com/staging/package_esp8266com_index.json</p>
+</blockquote>
+<p>リファレンスも出来て、だんだんと充実してきたようです。</p>
+<p><a href="http://arduino.esp8266.com/versions/1.6.5-1044-g170995a/doc/reference.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></noscript>
+<img class="lazyload" title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20467%20280%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></a></p>
+<p>スケッチは、スケッチの例＞ESP8266Wifi ＞WiFiTelnetToSerial のところから辿っていきます。<br> <br>ボード設定は、以下のようにしました。</p>
+<blockquote>
+<p>Borad : Generic ESP8266 Module<br> <br>Flash mode : QIO</p>
+<p>Flash frequency : 40Mhz</p>
+<p>CPU frequency : 80Mhz</p>
+<p>Flash size : 4M (3M SPIFFS)</p>
+<p>Upload speed : 115200</p>
+</blockquote>
+<p>配線は、RasPi2 の TX RX を ESP12 のRX TX へつなぎ、3.3V のVCC と GND をつなぐ感じ。RasPiには、シリアルコンソールの設定がしてある状態で電源ON</p>
+<p>5,6秒ほどで、ESP12 がアクセスポイントへ接続するので、ESP12 がIP を何をとっているか、DHCPの払い出しIP をを見て、以下のコマンドで接続。socat は brew で入れました。</p>
+<blockquote><p> <br>$ socat STDIN tcp-connect:192.168.1.36:23</p></blockquote>
+<p>これで、シリアル接続のものは、WiFi 化できそうです。接続するツールは工夫する必要がありそうです。たとえば、osx だと、MultiCom というツールがあり、接続をパイプできるので便利です。</p>
+<p></p>
+<noscript><img title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"></noscript>
+<img class="lazyload" title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20338%20158%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"><p></p>
+<noscript><img title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652"></noscript>
+<img class="lazyload" title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20517%20652%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652">&#160; <br>まだ、あんまり使い方はわかっていないんですが、IPとポート指定で ESP12 のWiFi へ接続し、それをローカルのプロキシーのようなものに接続し、複数接続できるようです。Windows のcom0com のようなのが欲しかったのですが、osx では見つけられませんでした。<p>あと、リモートからだと、コンソールのサイズも大きいほうが使いやすいので、getty の設定を以下のように変更。</p>
+<blockquote>
+<p> &#8212;- /etc/default/console-setup</p>
+<p>::</p>
+<p>SCREEN_WIDTH=150<br> <br>SCREEN_HEIGHT=60</p>
+</blockquote>
+<p>あと、環境変数へ設定。</p>
+<blockquote>
+<p>&#8212;- .bashrc</p>
+<p>::</p>
+<p>export LINES=150<br> <br>export COLUMNS=60</p>
+</blockquote>
+<p>とりあえず、こんな感じで使えるようになりました。tab補完や、そういうのはどうやるんでしょうね？ま、おいおい。</p>
+<p>USB to シリアル がなくてもワイヤレスで、シリアルが使えるというのはなんとも、慣れないですが、今後活用のアイデアも出てくるかもしれません。ESP12 に下駄をはかせず、基盤にうまく実装すれば蓋の中に納まりそうですし。RasPiのベアメタル開発に手を出したときには便利かもしれませんね。</p>
+<p>リチウム電池とESPを組み合わせて、単品のシリアルWiFi機器とすれば、何か応用できるかもです。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-953" class="post-953 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/12/esp-12-v130/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-12T00:54:52+09:00">2015年8月12日</time></a> </span><span class="posted-on">更新日:2015年8月12日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/08/12/esp-12-v130/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP-12のファームウェアをv1.3.0 に</a></h1></header><div class="entry-content">
@@ -229,110 +371,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>面白いのは、RGB 信号を抵抗で降圧させて、あとは垂直・水平同期信号を出して、GND入れて6本の配線でVGA コネクタへつながります。このあたりの評価を解析したまじめなサイト（<a href="http://www.net.c.dendai.ac.jp/~anada/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Arduinoを用いたVGA映像信号の出力<span class="wpel-icon wpel-image wpel-icon-1"></span></a>・穴田 拓磨さん）もあり、勉強になりました。トランジスタと抵抗4本とコンデンサを使ったエミッタフォロワ回路の紹介もあり、波形は断然綺麗でした。</p>
 <p>&#160;</p>
 <p>今や、HDMI や DVI が主流のビデオ出力信号ですが、アナログRGB のVGA も用途によっては活躍する場がありますので、覚えておいて損はないですね。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-923" class="post-923 post type-post status-publish format-standard hentry category-arduino category-parts"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/01/tiny-rtc-ds1307-i2c-e3819de381aeefbc92/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-01T23:35:21+09:00">2015年8月1日</time></a> </span><span class="posted-on">更新日:2015年8月1日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/08/01/tiny-rtc-ds1307-i2c-e3819de381aeefbc92/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Tiny RTC DS1307 I2C その２</a></h1></header><div class="entry-content">
-<p>暑くて、夏到来ですね。8月に入って、また今年も暑い夏がやってきました！</p>
-<p>昼間はとても、PC触る気にならないので自然と夜型になります。昼は友達とお茶して、構想を練っていました。</p>
-<p>&#160;</p>
-<p>さて、RTC を半田付けして配線してソフトウェアをコピペして動かしてみました。</p>
-<p>ProMini につけてみました。配線は4本で、2本は電力、2本がデータ通信です。ProMini のA4(SDA) と A5(SCL) がどこにあるのかわからず、ピンをつける前のを見て判明。</p>
-<p> </p>
-<noscript><img title="promini" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="promini" src="/wp-content/uploads/2015/08/promini.png" width="565" height="480"></noscript>
-<img class="lazyload" title="promini" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="promini" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20565%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/promini.png" width="565" height="480"><p>とりあえず、こんな感じでPC にシリアル経由でデータを流してみました。</p>
-<p></p>
-<noscript><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/08/2.jpg" width="569" height="427"></noscript>
-<img class="lazyload" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20569%20427%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/2.jpg" width="569" height="427"><p>シリアル通信に、時が流れて、電源を切って再接続しても、当然ながら時が刻まれています。</p>
-<p></p>
-<noscript><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/08/1.png" width="615" height="324"></noscript>
-<img class="lazyload" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20615%20324%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/1.png" width="615" height="324"><p>プログラムソースは以下な感じです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- Tiny RTC (DS1307) Sample.
- RTClib.h
-  --&gt; https://github.com/jcw/rtclib
-
- JunkHack 2015.07.31(Fri)
- */
-
-#include &lt;Wire.h&gt;    // Wire lib.
-#include &quot;RTClib.h&quot;  // need to install the RTClib by jcw
-
-RTC_DS1307 RTC;      // RTC Modul
-
-void setup(void) {
-
-  Wire.begin(); // Initialisiere I2C
-  RTC.begin(); // Initialisiere RTC
-  Serial.begin(9600);
-
-  // Set SQW/Out signal frequency to 1 Hz.
-  RTC.setSqwOutSignal(RTC_DS1307::Frequency_1Hz);
-
-  // Serial mes.
-  Serial.print(__DATE__ &quot; &quot; __TIME__); // コンパイルしたときの日時　Aug  1 2015 13:24:48
-  Serial.println(&quot; : Tiny RTC DS1307 I2C --- test&quot;);
-
-  // RTC にクロックがセットされているか？
-  if (! RTC.isrunning()) {
-
-    // コンパイル時の、現在の日付と時刻を設定
-    RTC.adjust(DateTime(__DATE__, __TIME__));          // IDE の PC 時刻
-    Serial.println(&quot;Current time to the RTC&quot;);
-  }
-  else Serial.println(&quot;RTCは、すでに実行されています。&quot;);
-}
-
-void loop(){
-  DateTime now=RTC.now(); // Current time geting from RTC
-  show_time_and_date(now);  // Print Serial
-  delay(1000); // 1 Sec
-}
-
-// set week
-String get_day_of_week(uint8_t dow){
-
-  String dows=&quot;  &quot;;
-  switch(dow){
-   case 0: dows=&quot;Sun&quot;; break;
-   case 1: dows=&quot;Mon&quot;; break;
-   case 2: dows=&quot;Tue&quot;; break;
-   case 3: dows=&quot;Wed&quot;; break;
-   case 4: dows=&quot;Thu&quot;; break;
-   case 5: dows=&quot;Fri&quot;; break;
-   case 6: dows=&quot;Sat&quot;; break;
-  }
-
-  return dows;
-}
-
-// print date time. ex 2015.07.31(Fri) 23:22:31
-void show_time_and_date(DateTime datetime){
-  // 2015.07.31(Fri) 
-  Serial.print(datetime.year(),DEC);
-  Serial.print(&quot;.&quot;);
-  if(datetime.month()&lt;10)Serial.print(0);
-  Serial.print(datetime.month(),DEC);
-  Serial.print(&quot;.&quot;);
-  if(datetime.day()&lt;10)Serial.print(0);
-  Serial.print(datetime.day(),DEC);
-  Serial.print(&quot;(&quot;);
-  Serial.print(get_day_of_week(datetime.dayOfWeek()));
-  Serial.print(&quot;) &quot;);
-
-  // Time 23:22:31
-  if(datetime.hour()&lt;10)Serial.print(0);
-  Serial.print(datetime.hour(),DEC);
-  Serial.print(&quot;:&quot;);
-  if(datetime.minute()&lt;10)Serial.print(0);
-  Serial.print(datetime.minute(),DEC);
-  Serial.print(&quot;:&quot;);
-  if(datetime.second()&lt;10)Serial.print(0);
-  Serial.println(datetime.second(),DEC);
-}</pre>
-<p>実際に動かしてみると、なるほどーという感じで実感が沸きます。時刻はIDE の PC からの時刻をコンパイル時に定数に渡してそれをセットしている感じですので、転送完了までタイムラグがあり、正確にセットするには工夫が必要だとわかりました。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

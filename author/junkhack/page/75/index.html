@@ -50,7 +50,97 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1004" class="post-1004 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
+</h1></header><article id="post-1015" class="post-1015 post type-post status-publish format-standard hentry category-esp8266 category-parts"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/23/investigate-33v-fixed-dc-dc-converter/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-23T21:07:49+09:00">2015年8月23日</time></a> </span><span class="posted-on">更新日:2015年8月23日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/08/23/investigate-33v-fixed-dc-dc-converter/" rel="bookmark noopener noreferrer" data-wpel-link="internal">3.3V 固定 DC-DCコンバータを調査</a></h1></header><div class="entry-content">
+<p>さて、昨日の夜中3時くらいから動作させている1個前の IoT デバイスは18時間経過した今もまだ動作しているようです。しばし、電池が切れるまで、調べ物をしてすごすことに。明日も夏休みで、好きなだけ遊べます！ <br> で、電池の出力を3.3V に固定させて、出力500ma くらいが出せるものを調査しました。</p>
+<p>まず、一発目に見たものは、テキサス・インスツルメンツのTPS63000を搭載した昇圧・降圧タイプ を使ったモジュール。 <br>ストロベリー・リナックスさんが販売しているものです。</p>
+<p>&#160;</p>
+<p align="center"><a href="https://strawberry-linux.com/catalog/items?code=12055" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="Exif_JPEG_PICTURE" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="Exif_JPEG_PICTURE" src="/wp-content/uploads/2015/08/tps63000.jpg" width="212" height="160"></noscript>
+<img class="lazyload" title="Exif_JPEG_PICTURE" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="Exif_JPEG_PICTURE" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20212%20160%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/tps63000.jpg" width="212" height="160"></a> <br>リチウムポリマー／乾電池向け昇降圧DC-DC</p>
+<p>&#160;</p>
+<p>なるほど、こんな便利なものがあるんですね。バック・ブーストという方式のようです。入力が低い場合は昇圧動作、入力が高い場合は降圧動作をするインテリジェントなやつのようです。ただ、ちょっとお高いので、もう少し調べることに。</p>
+<p>なんかこのあたりのスイッチングを使って昇圧、降圧させるものは昔i-phone の充電器を作ったときに100円均一のを改造したり、ミンティーブースト（Minty Boost）を作ったりしたときの事を思い出しました。あの時は、知らなかったんですが、ミンティーブーストの作者って、<a href="http://www.adafruit.com/about" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Adafruit Industries<span class="wpel-icon wpel-image wpel-icon-1"></span></a>（エイダフルート）のCEO の<a href="https://media.dmm-make.com/item/261/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">リモア・フリード（Limor Fried）<span class="wpel-icon wpel-image wpel-icon-1"></span></a>さんだったあのですね。数年のときを経てそんなことを知りました。最初に知ったのは、LadyAdaさん（ハンドルネーム）の<a href="http://www.ladyada.net/make/mintyboost/solder-v2.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ブログ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>でした。</p>
+<p>&#160;</p>
+<p>さて、調査するとおおよそ以下の方法があるようです。</p>
+<p>1) スイッチング方式</p>
+<p>昇圧降圧タイプのDCDCコンバーターを利用する</p>
+<p> IC 種別</p>
+<p> テキサス・インスツルメンツ TPS63060 <br> Analog Devices Inc. ADP2503(10pin) <br> Microchip Technology MCP1252</p>
+<p>2) リニア方式</p>
+<p>LDO(低ドロップアウト)の3端子レギュレータを使う。</p>
+<p> たくさんある。たとえば以下。</p>
+<p> AP2112K（5pin)</p>
+<p> LD1117AS33TR(4pin)</p>
+<p> AMS1117-3.3（4pin）</p>
+<p> UA78M33CDCY(4pin)</p>
+<p>3) トランス方式</p>
+<p>大きくなってしまうので未調査。</p>
+<p>１の方式が良いんですが、こういうタイプのものがあるとは知らずまだ未入手です。</p>
+<p>２方式だと、3V 以下になったときは無視する方針です。</p>
+<p>とりあえず、手持ちにあるものとして、1) のタイプはないので、2 のレギュレータと、何かに使えるかもと買っておいたDC-DC コンバータ。</p>
+<p>▼降圧DCDC</p>
+<p></p>
+<noscript><img title="Scan 10" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 10" src="/wp-content/uploads/2015/08/scan10.png" width="640" height="397"></noscript>
+<img class="lazyload" title="Scan 10" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 10" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20397%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/scan10.png" width="640" height="397"><p>これは、10個入りで、1個100円くらいのものですが、今回の用途では入力電圧が高いので、つかえません。</p>
+<blockquote><p>入力電圧: 4.5v-28v <br>出力電圧: 0.8v-20v <br>出力電流: 3( max) <br>変換効率: 96％( 最高) <br>スイッチング周波数: 1.5mhzの( 最高)、1mhz <br>サイズ: ※18.6mm x 16.8mm x 4mm</p></blockquote>
+<p>&#160;</p>
+<p>AMS1117-3.3 SOT-223</p>
+<p></p>
+<noscript><img title="Scan 11" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 11" src="/wp-content/uploads/2015/08/scan11.png" width="643" height="967"></noscript>
+<img class="lazyload" title="Scan 11" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 11" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20643%20967%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/scan11.png" width="643" height="967">&#160; <br>これは10個パックで、100円くらいのもので、3.3V のレギュレーターです。これもデータシートを見ると、Vin が1.5V 以上必要で4.8V 以上ないとだめなようです。うーん、使えん。<blockquote>
+<p>DataSheet <br><a title="http://www.advanced-monolithic.com/pdf/ds1117.pdf" href="http://www.advanced-monolithic.com/pdf/ds1117.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.advanced-monolithic.com/pdf/ds1117.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+</blockquote>
+<p></p>
+<noscript><img title="www_advanced-monolithic_com_pdf_ds1117_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="www_advanced-monolithic_com_pdf_ds1117_pdf" src="/wp-content/uploads/2015/08/www_advancedmonolithic_com_pdf_ds1117_pdf.png" width="640" height="320"></noscript>
+<img class="lazyload" title="www_advanced-monolithic_com_pdf_ds1117_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="www_advanced-monolithic_com_pdf_ds1117_pdf" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20320%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/www_advancedmonolithic_com_pdf_ds1117_pdf.png" width="640" height="320"><p>&#160;</p>
+<p></p>
+<noscript><img title="www_advanced-monolithic_com_pdf_ds1117_pdf 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="www_advanced-monolithic_com_pdf_ds1117_pdf 2" src="/wp-content/uploads/2015/08/www_advancedmonolithic_com_pdf_ds1117_pdf2.png" width="649" height="604"></noscript>
+<img class="lazyload" title="www_advanced-monolithic_com_pdf_ds1117_pdf 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="www_advanced-monolithic_com_pdf_ds1117_pdf 2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20649%20604%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/www_advancedmonolithic_com_pdf_ds1117_pdf2.png" width="649" height="604"><p>&#160;</p>
+<p>あとは、これのユニット化されているもの。ブレッドボード用に5V を 3.3V にする用途のやつです。</p>
+<p></p>
+<noscript><img title="HK1117AH 3.3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HK1117AH 3.3" src="/wp-content/uploads/2015/08/hk1117ah3-3.png" width="642" height="600"></noscript>
+<img class="lazyload" title="HK1117AH 3.3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HK1117AH 3.3" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20642%20600%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/hk1117ah3-3.png" width="642" height="600"><p>これは、以下のスペックです。入力が高いので、今回の用途では、使えないかと。</p>
+<blockquote><p>Input voltage: DC 4.2 V-10 V <br>Output: 3.3 V, 800 mA <br>Uses the HK1117AH 3.3V (AMS1117-3.3) Regulator <br>Size:8.6mm x 12.33mm</p></blockquote>
+<p>&#160;</p>
+<p><strike>3V 以下になったときは、無視するとして、リニア方式でいまのところやるしかありませんね。</strike></p>
+<p>今、手持ちにあるものでは用途にあっていないので、どうするかですね。いったん、昇圧してレギュレータで下げるという無駄な作戦もありますが。手持ちでやるとしたらこれしかなさそう。</p>
+<p>高すぎる電圧になるときっていうのは、充電している時とフル充電から少し消費するまでの間なので、抵抗とかLEDで電圧を落とすっていうのもありかもです。</p>
+<p>さて、テストで動作させているリチウムバッテリー駆動のデバイスも20時間経過してもまだ動作しているようです。電圧と電流のロガーも作りたくなってきますね。これはまた、次回以降の題材として。</p>
+<p><a href="https://thingspeak.com/channels/42239/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="ESP12_DHT22_-_ThingSpeak" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ESP12_DHT22_-_ThingSpeak" src="/wp-content/uploads/2015/08/esp12_dht22__thingspeak.png" width="474" height="1009"></noscript>
+<img class="lazyload" title="ESP12_DHT22_-_ThingSpeak" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ESP12_DHT22_-_ThingSpeak" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20474%201009%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/esp12_dht22__thingspeak.png" width="474" height="1009"></a></p>
+<p>ちょっと冷房強すぎですね。下げます。</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>その後3時間後、24時間経過しても、まだ動作しています。何か計算と違ったかしら？リチウム電池からは、テスターで計測すると、まだ3.175v あります。ESP12 の動作電圧は、3.0 – 3.6V なのでまだ動きそうです。そろそろアクセスポイントへの接続が不安定になるはずですが。</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>1セルようの昇圧降圧モジュールって汎用品ではあまりないようですね。TPS63000のチップ自体は、10個で1600円くらいでゲットできそうなので、自作するかです。ただチップが小さすぎるので、3mm四方 で0.5mmピッチ なので変換基盤も必要。迷いますね。</p>
+<p>&#160;</p>
+<p>その後、約26時間経過までがんばってデータを投げていたようですが、動作電圧以下になりアクセスポイントに接続できなくなり、コネクションLEDが点滅したままの状態となりました。電池側の電圧をモニタリングしていると、2.8V から急速に落ち始め2.4Vで出力がcut され、LEDの点滅もしなくなりました。ESP12 が動作しなくなった正確な時間は4時59分でその電圧は不明、そこからカット電圧になるまで約30分。この時間の為に、昇圧回路が3.3V を供給できるのはおそらくもっと短時間になるはずです。10分か、15分か。</p>
+<p>&#160;</p>
+<p>負荷がなくなることにより、電池電圧が復帰し、USBから充電すると、電池からの出力が一度cut 電圧まで放出され、2.405V から充電が始まりました。4:40分から充電開始。充電されて、電池電圧が3V になると確か放出が始まるはず。</p>
+<blockquote><p><a href="/2015/05/10/5v-18650%E3%80%80%E3%83%AA%E3%83%81%E3%82%A6%E3%83%A0%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%85%85%E9%9B%BB%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">5V 18650 リチウムバッテリー充電モジュール</a></p></blockquote>
+<p>以上から言えることは、３V以下になってもLEDの点滅はしており、クロックは動作していたことになります。アクセスポイントに接続するパワーがなく接続が完了しないだけのように見えました。メモリへの書き込みはまだ試していませんが、もしできるならば、昇圧する回路にも意味が出てきます。</p>
+<p>&#160;</p>
+<p>現在の10秒間隔で接続するプログラムでは、</p>
+<p>・フル充電から24時間～26時間でアクセスポイントに接続できなくなる。今回は26時間経過後付近で接続不能に。</p>
+<p>・アクセスポイントに接続できなくなってから、約30分後にカット電圧の2.4V になった。</p>
+<p>・USBから給電すると、一度電池からカット電圧まで放出されてから充電が始まった。この挙動は現在の電圧が関係するかもと予想。</p>
+<p>・昇圧、降圧ができるバックブーストのDCDCコンバータがほしい。</p>
+<p>・電池電圧が４．２V付近のフル充電になっているとき、ESP12 の動作電圧の3.0-3.6V にどうやって降圧するか？</p>
+<p>&#160;</p>
+<p>というようなことがわかりました。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1004" class="post-1004 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/23/esp-12-powered-by-lithium-battery/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-23T03:34:58+09:00">2015年8月23日</time></a> </span><span class="posted-on">更新日:2015年8月23日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/08/23/esp-12-powered-by-lithium-battery/" rel="bookmark noopener noreferrer" data-wpel-link="internal">リチウムバッテリー駆動でESP-12</a></h1></header><div class="entry-content">
@@ -221,148 +311,6 @@ group=staff</pre>
 <p>&#160;</p>
 <p>どうやって、arduinoIDE のシリアルポートに表示させるかが課題です。</p>
 <p>WiFi 経由のシリアルコンソールで、ずっとtcpdump を流してテストしていますが、接続もきれず良い感じです。あと、話は飛びますが、ESP8266 Arduino Core のドキュメント見てましたら、File system も使えるようですね。これはある程度まで、データをメモリに貯めておいて、まとめてWifi 出力でデータを飛ばせば、電力の消費も抑えられそうです。sleep mode の下調べはおおよそ終わったので、コード実装して、電池駆動にしてテストするデバイス作りを夏休み（まだこれからなんですが）にやれればと思っています。ESP8266 、こんなに遊べるとは。まだlua にするのもありますしね。今年いっぱいは遊べる感じです。飽きるか、いきづまらなければね。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-962" class="post-962 post type-post status-publish format-standard hentry category-esp8266 category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/16/esp-12-raspi2-wifi/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-16T03:34:06+09:00">2015年8月16日</time></a> </span><span class="posted-on">更新日:2015年8月16日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/08/16/esp-12-raspi2-wifi/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP-12でraspi2のシリアルコンソールをWiFi化</a></h1></header><div class="entry-content">
-<p>前から、興味があった透過型のUARTーWiFIブリッジ的に使う方法をあれこれ試していました。</p>
-<p>結論から言えば、出来ました。</p>
-<p>こんな感じで、電源はRasPi2 から取っていますので蓋の中に収められそうです。</p>
-<p> </p>
-<noscript><img title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480"><p>ESP-12 に収めるプログラムは、なんとサンプルスケッチの中にありました。WiFiTelnetToSerial です。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/* 
-  WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
-
-  Copyright (c) 2015 Hristo Gochkov. All rights reserved.
-  This file is part of the ESP8266WiFi library for Arduino environment.
- 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-#include &lt;ESP8266WiFi.h&gt;
-
-//how many clients should be able to telnet to this ESP8266
-#define MAX_SRV_CLIENTS 1
-const char* ssid = &quot;yyyyy&quot;;
-const char* password = &quot;xxxxx&quot;;
-
-WiFiServer server(23);
-WiFiClient serverClients[MAX_SRV_CLIENTS];
-
-void setup() {
-  Serial1.begin(115200);
-  WiFi.begin(ssid, password);
-  Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
-  uint8_t i = 0;
-  while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
-  if(i == 21){
-    Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
-    while(1) delay(500);
-  }
-  //start UART and the server
-  Serial.begin(115200);
-  server.begin();
-  server.setNoDelay(true);
-  
-  Serial1.print(&quot;Ready! Use 'telnet &quot;);
-  Serial1.print(WiFi.localIP());
-  Serial1.println(&quot; 23' to connect&quot;);
-}
-
-void loop() {
-  uint8_t i;
-  //check if there are any new clients
-  if (server.hasClient()){
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      //find free/disconnected spot
-      if (!serverClients[i] || !serverClients[i].connected()){
-        if(serverClients[i]) serverClients[i].stop();
-        serverClients[i] = server.available();
-        Serial1.print(&quot;New client: &quot;); Serial1.print(i);
-        continue;
-      }
-    }
-    //no free/disconnected spot so reject
-    WiFiClient serverClient = server.available();
-    serverClient.stop();
-  }
-  //check clients for data
-  for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-    if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-      if(serverClients[i].available()){
-        //get data from the telnet client and push it to the UART
-        while(serverClients[i].available()) Serial.write(serverClients[i].read());
-      }
-    }
-  }
-  //check UART for data
-  if(Serial.available()){
-    size_t len = Serial.available();
-    uint8_t sbuf[len];
-    Serial.readBytes(sbuf, len);
-    //push UART data to all connected telnet clients
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-        serverClients[i].write(sbuf, len);
-        delay(1);
-      }
-    }
-  }
-}</pre>
-<p>ArduinoIDE へ、ESP8266 Arduino Core の最新（ver. 1.6.5-1044-g170995a, built on Aug 10, 2015）を収めました。</p>
-<p>SDK1.3 が収まったものは、以下のStaging versionから入れました。</p>
-<blockquote>
-<p><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Staging version<br> <br>Boards manager link: http://arduino.esp8266.com/staging/package_esp8266com_index.json</p>
-</blockquote>
-<p>リファレンスも出来て、だんだんと充実してきたようです。</p>
-<p><a href="http://arduino.esp8266.com/versions/1.6.5-1044-g170995a/doc/reference.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></noscript>
-<img class="lazyload" title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20467%20280%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></a></p>
-<p>スケッチは、スケッチの例＞ESP8266Wifi ＞WiFiTelnetToSerial のところから辿っていきます。<br> <br>ボード設定は、以下のようにしました。</p>
-<blockquote>
-<p>Borad : Generic ESP8266 Module<br> <br>Flash mode : QIO</p>
-<p>Flash frequency : 40Mhz</p>
-<p>CPU frequency : 80Mhz</p>
-<p>Flash size : 4M (3M SPIFFS)</p>
-<p>Upload speed : 115200</p>
-</blockquote>
-<p>配線は、RasPi2 の TX RX を ESP12 のRX TX へつなぎ、3.3V のVCC と GND をつなぐ感じ。RasPiには、シリアルコンソールの設定がしてある状態で電源ON</p>
-<p>5,6秒ほどで、ESP12 がアクセスポイントへ接続するので、ESP12 がIP を何をとっているか、DHCPの払い出しIP をを見て、以下のコマンドで接続。socat は brew で入れました。</p>
-<blockquote><p> <br>$ socat STDIN tcp-connect:192.168.1.36:23</p></blockquote>
-<p>これで、シリアル接続のものは、WiFi 化できそうです。接続するツールは工夫する必要がありそうです。たとえば、osx だと、MultiCom というツールがあり、接続をパイプできるので便利です。</p>
-<p></p>
-<noscript><img title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"></noscript>
-<img class="lazyload" title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20338%20158%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"><p></p>
-<noscript><img title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652"></noscript>
-<img class="lazyload" title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20517%20652%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652">&#160; <br>まだ、あんまり使い方はわかっていないんですが、IPとポート指定で ESP12 のWiFi へ接続し、それをローカルのプロキシーのようなものに接続し、複数接続できるようです。Windows のcom0com のようなのが欲しかったのですが、osx では見つけられませんでした。<p>あと、リモートからだと、コンソールのサイズも大きいほうが使いやすいので、getty の設定を以下のように変更。</p>
-<blockquote>
-<p> &#8212;- /etc/default/console-setup</p>
-<p>::</p>
-<p>SCREEN_WIDTH=150<br> <br>SCREEN_HEIGHT=60</p>
-</blockquote>
-<p>あと、環境変数へ設定。</p>
-<blockquote>
-<p>&#8212;- .bashrc</p>
-<p>::</p>
-<p>export LINES=150<br> <br>export COLUMNS=60</p>
-</blockquote>
-<p>とりあえず、こんな感じで使えるようになりました。tab補完や、そういうのはどうやるんでしょうね？ま、おいおい。</p>
-<p>USB to シリアル がなくてもワイヤレスで、シリアルが使えるというのはなんとも、慣れないですが、今後活用のアイデアも出てくるかもしれません。ESP12 に下駄をはかせず、基盤にうまく実装すれば蓋の中に納まりそうですし。RasPiのベアメタル開発に手を出したときには便利かもしれませんね。</p>
-<p>リチウム電池とESPを組み合わせて、単品のシリアルWiFi機器とすれば、何か応用できるかもです。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

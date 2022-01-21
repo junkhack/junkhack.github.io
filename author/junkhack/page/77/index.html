@@ -50,7 +50,111 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-918" class="post-918 post type-post status-publish format-standard hentry category-aliexpress category-parts"><div class="entry-wrapper">
+</h1></header><article id="post-923" class="post-923 post type-post status-publish format-standard hentry category-arduino category-parts"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/01/tiny-rtc-ds1307-i2c-e3819de381aeefbc92/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-01T23:35:21+09:00">2015年8月1日</time></a> </span><span class="posted-on">更新日:2015年8月1日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/08/01/tiny-rtc-ds1307-i2c-e3819de381aeefbc92/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Tiny RTC DS1307 I2C その２</a></h1></header><div class="entry-content">
+<p>暑くて、夏到来ですね。8月に入って、また今年も暑い夏がやってきました！</p>
+<p>昼間はとても、PC触る気にならないので自然と夜型になります。昼は友達とお茶して、構想を練っていました。</p>
+<p>&#160;</p>
+<p>さて、RTC を半田付けして配線してソフトウェアをコピペして動かしてみました。</p>
+<p>ProMini につけてみました。配線は4本で、2本は電力、2本がデータ通信です。ProMini のA4(SDA) と A5(SCL) がどこにあるのかわからず、ピンをつける前のを見て判明。</p>
+<p> </p>
+<noscript><img title="promini" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="promini" src="/wp-content/uploads/2015/08/promini.png" width="565" height="480"></noscript>
+<img class="lazyload" title="promini" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="promini" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20565%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/promini.png" width="565" height="480"><p>とりあえず、こんな感じでPC にシリアル経由でデータを流してみました。</p>
+<p></p>
+<noscript><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/08/2.jpg" width="569" height="427"></noscript>
+<img class="lazyload" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20569%20427%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/2.jpg" width="569" height="427"><p>シリアル通信に、時が流れて、電源を切って再接続しても、当然ながら時が刻まれています。</p>
+<p></p>
+<noscript><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/08/1.png" width="615" height="324"></noscript>
+<img class="lazyload" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20615%20324%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/1.png" width="615" height="324"><p>プログラムソースは以下な感じです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ Tiny RTC (DS1307) Sample.
+ RTClib.h
+  --&gt; https://github.com/jcw/rtclib
+
+ JunkHack 2015.07.31(Fri)
+ */
+
+#include &lt;Wire.h&gt;    // Wire lib.
+#include &quot;RTClib.h&quot;  // need to install the RTClib by jcw
+
+RTC_DS1307 RTC;      // RTC Modul
+
+void setup(void) {
+
+  Wire.begin(); // Initialisiere I2C
+  RTC.begin(); // Initialisiere RTC
+  Serial.begin(9600);
+
+  // Set SQW/Out signal frequency to 1 Hz.
+  RTC.setSqwOutSignal(RTC_DS1307::Frequency_1Hz);
+
+  // Serial mes.
+  Serial.print(__DATE__ &quot; &quot; __TIME__); // コンパイルしたときの日時　Aug  1 2015 13:24:48
+  Serial.println(&quot; : Tiny RTC DS1307 I2C --- test&quot;);
+
+  // RTC にクロックがセットされているか？
+  if (! RTC.isrunning()) {
+
+    // コンパイル時の、現在の日付と時刻を設定
+    RTC.adjust(DateTime(__DATE__, __TIME__));          // IDE の PC 時刻
+    Serial.println(&quot;Current time to the RTC&quot;);
+  }
+  else Serial.println(&quot;RTCは、すでに実行されています。&quot;);
+}
+
+void loop(){
+  DateTime now=RTC.now(); // Current time geting from RTC
+  show_time_and_date(now);  // Print Serial
+  delay(1000); // 1 Sec
+}
+
+// set week
+String get_day_of_week(uint8_t dow){
+
+  String dows=&quot;  &quot;;
+  switch(dow){
+   case 0: dows=&quot;Sun&quot;; break;
+   case 1: dows=&quot;Mon&quot;; break;
+   case 2: dows=&quot;Tue&quot;; break;
+   case 3: dows=&quot;Wed&quot;; break;
+   case 4: dows=&quot;Thu&quot;; break;
+   case 5: dows=&quot;Fri&quot;; break;
+   case 6: dows=&quot;Sat&quot;; break;
+  }
+
+  return dows;
+}
+
+// print date time. ex 2015.07.31(Fri) 23:22:31
+void show_time_and_date(DateTime datetime){
+  // 2015.07.31(Fri) 
+  Serial.print(datetime.year(),DEC);
+  Serial.print(&quot;.&quot;);
+  if(datetime.month()&lt;10)Serial.print(0);
+  Serial.print(datetime.month(),DEC);
+  Serial.print(&quot;.&quot;);
+  if(datetime.day()&lt;10)Serial.print(0);
+  Serial.print(datetime.day(),DEC);
+  Serial.print(&quot;(&quot;);
+  Serial.print(get_day_of_week(datetime.dayOfWeek()));
+  Serial.print(&quot;) &quot;);
+
+  // Time 23:22:31
+  if(datetime.hour()&lt;10)Serial.print(0);
+  Serial.print(datetime.hour(),DEC);
+  Serial.print(&quot;:&quot;);
+  if(datetime.minute()&lt;10)Serial.print(0);
+  Serial.print(datetime.minute(),DEC);
+  Serial.print(&quot;:&quot;);
+  if(datetime.second()&lt;10)Serial.print(0);
+  Serial.println(datetime.second(),DEC);
+}</pre>
+<p>実際に動かしてみると、なるほどーという感じで実感が沸きます。時刻はIDE の PC からの時刻をコンパイル時に定数に渡してそれをセットしている感じですので、転送完了までタイムラグがあり、正確にセットするには工夫が必要だとわかりました。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-918" class="post-918 post type-post status-publish format-standard hentry category-aliexpress category-parts"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/29/tiny-rtc-ds1307-i2c/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-29T23:26:18+09:00">2015年7月29日</time></a> </span><span class="posted-on">更新日:2015年7月29日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/29/tiny-rtc-ds1307-i2c/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Tiny RTC DS1307 I2C</a></h1></header><div class="entry-content">
@@ -284,147 +388,6 @@ Conf openssl (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
 <p>これで、ターミナルは、</p>
 <blockquote><p>[root@pi ~ 07/25 11:32:53]#</p></blockquote>
 <p>となる。日付と時分秒を出してるだけなんですが、何かと実行終了の日時が出るので便利。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-891" class="post-891 post type-post status-publish format-standard hentry category-linux category-osx category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/25/nfs-boot/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-25T17:09:06+09:00">2015年7月25日</time></a> </span><span class="posted-on">更新日:2015年7月25日</span> <span class="categories"> <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/07/25/nfs-boot/" rel="bookmark noopener noreferrer" data-wpel-link="internal">NFS Boot に成功した</a></h1></header><div class="entry-content">
-<p>とりあえず、NFS Boot は本当にできるのか試してみました。結果、できました。 <br>実際やってみると、いろいろとはまるところがありましたが、おおむね以下の手順。忘れないうちにメモしておきます。</p>
-<p>▼環境</p>
-<p>NFS Server・・・・osx 10.9.5</p>
-<p>Boot OS・・・・・ 2015-05-05-raspbian-wheezy</p>
-<p>&#160;</p>
-<p>▼操作の流れ</p>
-<p>・NFS サーバでシェアする用意</p>
-<p>・arm 用の img のルートファイルシステムを NFS へコピー（大体は第２パーティションにあり。Fedora とは3番目）</p>
-<p>・SDCard の FATフォーマットの boot の cmdline.txt へ nfs boot する設定と、IP の設定</p>
-<p>&#160;</p>
-<p>▼osx の NFS Server 側</p>
-<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルは<a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/nfsd.8.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。</p>
-<blockquote><p>&#8212;- /etc/exports <br>/nfs/fedora22 -rw -mapall=root:wheel -network 192.168.1.0 -mask 255.255.255.0</p></blockquote>
-<p>exports ファイルがあればnfsd が起動しますが、手動で操作したい場合は</p>
-<blockquote><p># nfsd start | stop</p></blockquote>
-<p>NFS で提供しているパスの確認。</p>
-<blockquote><p># showmount -e localhost <br>Exports list on localhost: <br>/nfs/fedora22&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 192.168.1.0 <br>::</p></blockquote>
-<p>最初fedora22 入れようとして、失敗して、RASPIAN 入れたので名前があれですが。</p>
-<p>それで、boot したい img をコピー。以下は、centos6.x で、osx の NFS をマウントして、rsync しています。centos6はバーチャルボックスでosx を同じネットワークセグメントにいます。</p>
-<blockquote><p>[root@cent66 etc]# df -hT <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Type&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on <br>:: <br>hope.junkhack:/exports&#160;&#160;&#160;&#160;&#160;&#160; nfs&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /nfs <br>hope.junkhack:/nfs/fedora22&#160; nfs&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /mnt/fedora22</p></blockquote>
-<p>hope.junkhack は名前解決できるようにしてあります。ちなみに、fstab はこんな感じのデフォルト。</p>
-<blockquote><p>&#8212;- /etc/fstab <br>:: <br>hope.junkhack:/exports&#160;&#160;&#160; /nfs&#160;&#160;&#160;&#160;&#160;&#160;&#160; nfs&#160;&#160;&#160;&#160;&#160;&#160;&#160; defaults&#160;&#160;&#160; 0 0 <br>hope.junkhack:/nfs/fedora22&#160;&#160;&#160; /mnt/fedora22&#160;&#160;&#160; nfs&#160;&#160;&#160;&#160;&#160;&#160;&#160; defaults&#160;&#160;&#160; 0 0</p></blockquote>
-<p>で、RASPIAN のイメージをマウント。</p>
-<blockquote>
-<p>[root@cent66 RASPBIAN]# kpartx -av 2015-05-05-raspbian-wheezy.img <br>add map loop0p1 (253:2): 0 114688 linear /dev/loop0 8192 <br>add map loop0p2 (253:3): 0 6277120 linear /dev/loop0 122880</p>
-<p>[root@cent66 RASPBIAN]# mount /dev/mapper/loop0p2 /mnt/raspi/</p>
-<p>[root@cent66 RASPBIAN]# df -h <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on <br>:: <br>hope.junkhack:/exports&#160;&#160;&#160;&#160;&#160;&#160;&#160; 466G&#160; 388G&#160;&#160; 78G&#160; 84% /nfs <br>hope.junkhack:/nfs/fedora22&#160;&#160; 466G&#160; 388G&#160;&#160; 78G&#160; 84% /mnt/fedora22 <br>/dev/mapper/loop0p2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 3.0G&#160; 2.4G&#160; 451M&#160; 85% /mnt/raspi <br>[root@cent66 RASPBIAN]#</p>
-</blockquote>
-<p>で、コピー。</p>
-<blockquote>
-<p>[root@cent66 RASPBIAN]# rsync -av /mnt/raspi/ /mnt/fedora22/ <br>sending incremental file list <br>./ <br>bin/ <br>bin/bash <br>bin/bunzip2</p>
-<p>::</p>
-<p>var/spool/cron/crontabs/ <br>var/spool/rsyslog/ <br>var/tmp/</p>
-<p>sent 2304687346 bytes&#160; received 1293752 bytes&#160; 4274293.05 bytes/sec <br>total size is 2299569061&#160; speedup is 1.00 <br>[root@cent66 RASPBIAN]#</p>
-<p>&#160;</p>
-</blockquote>
-<p>で、NFS でブートするときに fstab の中がそのままだと、SD カードのパーティションをchroot してしまうのでコメントアウト。</p>
-<blockquote>
-<p>[root@cent66 etc]# vim fstab</p>
-<p>proc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; /proc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; proc&#160;&#160;&#160; defaults&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;&#160;&#160;&#160; 0 <br>/dev/mmcblk0p1&#160; /boot&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; vfat&#160;&#160;&#160; defaults&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;&#160;&#160;&#160; 2 <br>#/dev/mmcblk0p2&#160; /&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ext4&#160;&#160;&#160; defaults,noatime&#160; 0&#160;&#160;&#160;&#160;&#160;&#160; 1</p>
-</blockquote>
-<p>NFS側のイメージ展開は以上で終わり。</p>
-<p>&#160;</p>
-<p>▼Boot するcmdline.txt の中に以下を追加</p>
-<blockquote><p>root=/dev/nfs rootfstype=nfs nfsroot=192.168.1.17:/nfs/fedora22,udp,vers=3,nolock ip=192.168.1.24:192.168.1.17:192.168.1.1:255.255.255.0:rpi:eth0:off</p></blockquote>
-<p>nolock のオプションは必要ないかもしれません。とりあえず、これで動いてはいます。IPのところは以下の書式。</p>
-<blockquote><p>ip=&lt;raspberrypi_ip&gt;:&lt;nfs_server_ip&gt;:&lt;default_gateway&gt;:&lt;mask&gt;:rpi:eth0:off</p></blockquote>
-<p>シリアルコンソールのブートログは、</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[    4.638898] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
-
-[    4.674857] IP-Config: Complete:
-
-[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1
-
-[    4.694694]      host=rpi, domain=, nis-domain=(none)
-
-[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=
-
-[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.
-
-[    4.729328] devtmpfs: mounted
-
-[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)
-
-[    5.132474] random: nonblocking pool is initialized
-
-[    6.228285] udevd[177]: starting version 175
-
-
-
-Raspbian GNU/Linux 7 pi ttyAMA0
-
-
-
-pi login: </pre>
-<p>となっています。</p>
-<p>NFS Boot させたあと、uname したら、</p>
-<blockquote>
-<p>root@pi:~# uname -a<br> <br>Linux pi 4.0.7-v7+ #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015 armv7l GNU/Linux</p>
-<p>root@pi:~#</p>
-</blockquote>
-<p>げ、fedora の initramfs からブートしてます。SDCard の boot は、初回にスクリプトで作ったやつだった。。。。</p>
-<blockquote>
-<p>root@pi:/boot# ll *.img<br> <br>-rwxr-xr-x 1 root root 39176850 Jul&#160; 4 17:40 initramfs-0-rescue-18b4f0b4546f49828e1ef5e652cc7b9a.img</p>
-<p>-rwxr-xr-x 1 root root 16475761 Jul&#160; 4 17:36 initramfs-4.0.6-300.fc22.armv7hl+lpae.img</p>
-<p>-rwxr-xr-x 1 root root&#160; 3987856 Jul&#160; 2 23:35 kernel7.img</p>
-<p>-rwxr-xr-x 1 root root&#160; 4016696 Jul&#160; 2 23:35 kernel.img</p>
-<p>root@pi:/boot#</p>
-</blockquote>
-<p>たぶん、RASPIAN のimg の boot からやれば、良いはず。まだ試していませんが。</p>
-<p>df はこんな感じで、ルートがnfs になっています。76Gも空きがあるー（osx 側のディスクですが）</p>
-<blockquote>
-<p>root@pi:~# df -hT<br> <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Type&#160;&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on</p>
-<p>192.168.1.17:/nfs/fedora22 nfs&#160;&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /</p>
-<p>devtmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; devtmpfs&#160; 459M&#160;&#160;&#160;&#160; 0&#160; 459M&#160;&#160; 0% /dev</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160;&#160; 93M&#160; 216K&#160;&#160; 93M&#160;&#160; 1% /run</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 5.0M&#160;&#160;&#160;&#160; 0&#160; 5.0M&#160;&#160; 0% /run/lock</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 186M&#160;&#160;&#160;&#160; 0&#160; 186M&#160;&#160; 0% /run/shm</p>
-<p>/dev/mmcblk0p1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; vfat&#160;&#160;&#160;&#160;&#160; 200M&#160;&#160; 98M&#160; 102M&#160; 50% /boot</p>
-</blockquote>
-<p>このままだと、モジュールを読み込んでいないので使えませんが、、、</p>
-<blockquote>
-<p>root@pi:~# lsmod<br> <br>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
-<p>root@pi:~# ll /lib/modules/</p>
-<p>total 8</p>
-<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11+</p>
-<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11-v7+</p>
-<p>root@pi:~#</p>
-</blockquote>
-<p>Boot の img を RASPBIAN のに入れ替えて、リブート</p>
-<blockquote>
-<p>[root@pi ~ 07/25 20:40:51]# ll /boot/*.img<br> <br>-rwxr-xr-x 1 root root 3930004 Apr 27 13:40 /boot/kernel7.img</p>
-<p>-rwxr-xr-x 1 root root 3974884 Apr 27 13:40 /boot/kernel.img</p>
-</blockquote>
-<p>これでkernel も ローダブルモジュールもOK な感じ。</p>
-<blockquote>
-<p>[root@pi ~ 07/25 20:41:40]# uname -a<br> <br>Linux pi 3.18.11-v7+ #781 SMP PREEMPT Tue Apr 21 18:07:59 BST 2015 armv7l GNU/Linux</p>
-<p>[root@pi ~ 07/25 20:44:14]# lsmod</p>
-<p>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
-<p>cfg80211&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 386508&#160; 0</p>
-<p>rfkill&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 16651&#160; 1 cfg80211</p>
-<p>rpcsec_gss_krb5&#160;&#160;&#160;&#160;&#160;&#160;&#160; 20958&#160; 0</p>
-<p>nfsd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 263569&#160; 2</p>
-<p>snd_bcm2835&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 18649&#160; 0</p>
-<p>snd_pcm&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 73475&#160; 1 snd_bcm2835</p>
-<p>snd_seq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 53078&#160; 0</p>
-<p>snd_seq_device&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 5628&#160; 1 snd_seq</p>
-<p>snd_timer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 17784&#160; 2 snd_pcm,snd_seq</p>
-<p>snd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 51038&#160; 5 snd_bcm2835,snd_timer,snd_pcm,snd_seq,snd_seq_device</p>
-<p>8192cu&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 528365&#160; 0</p>
-<p>joydev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8879&#160; 0</p>
-<p>evdev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 9950&#160; 2</p>
-<p>uio_pdrv_genirq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 2958&#160; 0</p>
-<p>uio&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8119&#160; 1 uio_pdrv_genirq</p>
-</blockquote>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

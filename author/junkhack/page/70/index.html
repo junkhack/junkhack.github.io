@@ -50,7 +50,75 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1298" class="post-1298 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1308" class="post-1308 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/04/esp13-e381a8-backboost/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-04T14:21:35+09:00">2015年10月4日</time></a> </span><span class="posted-on">更新日:2015年10月4日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/10/04/esp13-e381a8-backboost/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP13 と BackBoost のPCBを作成中</a></h1></header><div class="entry-content">
+<p>Eagle の勉強と、PCB をプリントに出すため、まずはお手ごろな素材を元に勉強中。</p>
+<p>&#160;</p>
+<p>コンセプト</p>
+<p>・Lion の1セルに、充電ができて、過充電、過放電保護がある</p>
+<p>・充電は、マイクロUSB からできる</p>
+<p>・1セルから3.3v を効率よく、安定して作るため、backboost 回路を入れる</p>
+<p>・自分が持っている、UART のシリアル変換を直接挿せるようにする</p>
+<p>・ケースに入れる都合上、幅を2cm ｘ 6.5cm 未満とする</p>
+<p>・UART の PIN は自動的にリセットがかかるよう、DTR からの信号を処理する回路を埋め込む</p>
+<p>・バッテリーや、3.3V 出力など後に計測したいので、PINを出しておく</p>
+<p>・DeepSleep は必ず使うので、配線しておく</p>
+<p>・ブレッドボードに挿せる様、PIN を出しておく</p>
+<p>・なるべく安くする</p>
+<p>・レゴブロック風のものをジョイントすると機能が拡張できるようにしたい。</p>
+<p>&#160;</p>
+<p>といういうな、お題を掲げて作っています。</p>
+<p>まだ、途中ですが、以下のようなものができてきました。</p>
+<p></p>
+<noscript><img title="１" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="１" src="/wp-content/uploads/2015/10/50cd513eb03b.png" width="632" height="480"></noscript>
+<img class="lazyload" title="１" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="１" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20632%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/50cd513eb03b.png" width="632" height="480"><p>安くあげるため、USB と充電回路（保護付き）は既成のモジュールを使うことに、90円くらいのものです。</p>
+<p>この基板をノギスや、スキャナで取ってeagle のライブラリを作成。ここが面倒でした。また、ESP12Eと、ESP13（WROOM-02）と大きさを比べると、ESP13の方が小さく、組み込みやすそうです。</p>
+<p></p>
+<noscript><img title="２" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="２" src="/wp-content/uploads/2015/10/46fc6a9bb869.png" width="640" height="276"></noscript>
+<img class="lazyload" title="２" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="２" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20276%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/46fc6a9bb869.png" width="640" height="276"><p>今回の目玉である、バックブースト回路は表に載せました。ブレッドボードに指せば裏側に回る予定。真ん中のパッド部分はスルーホールを横に作って、裏側の胴箔に熱伝統させる予定です。</p>
+<p></p>
+<noscript><img title="３" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="３" src="/wp-content/uploads/2015/10/5564089f0a54.png" width="640" height="227"></noscript>
+<img class="lazyload" title="３" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="３" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20227%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/5564089f0a54.png" width="640" height="227"><p>裏面に部品が回せるのを知ったので、（Mirrorすれば良いだけですが、、、）上記のような配置にしました。まだ配線は仮なので、これから変わります。</p>
+<p></p>
+<noscript><img title="４" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="４" src="/wp-content/uploads/2015/10/c67b20796fcb.png" width="640" height="240"></noscript>
+<img class="lazyload" title="４" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="４" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20240%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/c67b20796fcb.png" width="640" height="240"><p>左には、UARTのPINを直接させるようメスピンヘッダーをつけます。順番は逆配列にしないとブレッドボードに挿した時LEDとか見えませんので、後に変更予定です。</p>
+<p>&#160;</p>
+<p></p>
+<noscript><img title="５" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="５" src="/wp-content/uploads/2015/10/9e55fc09f89e.png" width="640" height="384"></noscript>
+<img class="lazyload" title="５" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="５" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20384%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/9e55fc09f89e.png" width="640" height="384"><p>回路図は、離れたところにある配線をどうやるのかわからず、あれこれググりました。これはラベルでやるようですが、いまいち良くわかっていません。とりあず、つなぎたいところに、配線を伸ばしNAMEをつけて、ラベルみたいなのは、シンボルがあったので、それを使っています。supply2.lbr というのにありました。たぶんもっといいやり方があるのでしょうが、良くわかりません。機能は満たしているので、今はこれでよしとします。</p>
+<p>&#160;</p>
+<p>先人たちの回路図を見ると、機能ごとに分離して、見やすくする工夫をしているようです。なので上記のような感じにしてみました。その後、あれこれと思案し、以下のようになっています。まだ途中。</p>
+<p>&#160;</p>
+<noscript><img title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="/wp-content/uploads/2015/10/ec553b09028c.png" width="640" height="234"></noscript>
+<img class="lazyload" title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20234%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/ec553b09028c.png" width="640" height="234"><p>ブレッドボードに挿すPINは最低限のものにしたけれども、案外空きスペースがなくなって来ているので、複雑な回路だと2階建てにする感じになりそう。</p>
+<p>&#160;</p>
+<p>▼まとめ</p>
+<p>・回路図は見やすくするため、機能ごとにわける。</p>
+<p>・離れたところを配線するため、NAMEを使い、ラベルをつける</p>
+<p>・ラベルは回路図だけに出るライブラリ（supply2.lbr ）があるのでそれを使う</p>
+<p>・裏面に部品を配置するには、Mirror を使う。</p>
+<p>・実際の部品で仕様がわからないものは、スキャニングして大きさを算出。ノギスで実物を計測。</p>
+<p>・独自ライブラリを作るには、３ステップ。</p>
+<p>New &gt; Library</p>
+<p>Package 作成（左から5番目のアイコン）で、PCB基板に実際に付く図形を書く</p>
+<p>Simbol 作成で、回路図上で見える図とPINを書く</p>
+<p>Device 作成し、上記を対応づけ。Connect でPIN対応づけできる</p>
+<p>・部品の配置の際、ルーラをドキュメントレイヤーに置いておくと便利（Metric ruler のLIB）</p>
+<p>&#160;</p>
+<p>▼不明なこと</p>
+<p>・離れたとこにある配線のやりかた。見やすいラベルを同時付け、対応づけるには？</p>
+<p>・ESP13のUARTでリセットを自動的に行う回路。いろいろあるようです。現在3種類のやり方を模索。モノがまだ来ていないので着たら検討。</p>
+<p>・ESP13 と ESP12のピンの対応づけ表がほしい。 EN は CHPD で、TOUTは、ADCに対応していると考えればよい？</p>
+<p>・ESP13はGNDが２つ増え、合計３つ。なので、PIN数がESP13の18PINに対し、ESP12は、１６PINということなのか？</p>
+<p>&#160;</p>
+<p>▼調査すること</p>
+<p>・幅、２ｃｍｘ長さ５ｃｍ、暑さ５ｍｍくらいのお値打ちLIONを探す。</p>
+<p>・どっかの記事で、ADCはダイオードをかませば、GPIOのピン数分読めるというような英文記事を見たが、あれは本当か？</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1298" class="post-1298 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/01/esp8266-e381a7adc/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-01T06:37:08+09:00">2015年10月1日</time></a> </span><span class="posted-on">更新日:2015年10月1日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/10/01/esp8266-e381a7adc/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 でADC 増設するには？</a></h1></header><div class="entry-content">
@@ -651,217 +719,6 @@ HOPE:espeink junkhack$ </pre>
 <p>・EPS12 が設定を終えれば、定期間隔でWEB サーバを見に行くが、この処理はどうやればいいのか？</p>
 <p>&#160;</p>
 <p>推測では、画像のURL を指定すればいける気がします。その画像ファイルは、bm 形式のもので。このあたりは、もう少し調査しないと白黒言えませんが、なんとかいけそうな気がしてきましたので、部品を発注したり、基板を発注したりするかどうか考えて見ます。実際のボードとE-ink ディスプレイがないとこれ以上の確認はちょっと厳しいです。できなくはないですが、あとは現場合わせで楽しんでもいいかなぁと。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1261" class="post-1261 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-sdk"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/25/espeink-make-e3819de381aeefbc93/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-25T04:39:37+09:00">2015年9月25日</time></a> </span><span class="posted-on">更新日:2015年9月25日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/sdk/" rel="category tag noopener noreferrer" data-wpel-link="internal">sdk</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/09/25/espeink-make-e3819de381aeefbc93/" rel="bookmark noopener noreferrer" data-wpel-link="internal">espeink make その３</a></h1></header><div class="entry-content">
-<p>さて、その後esptool っていうのを調査しました。</p>
-<p>Makefile には、-eo や、2番目の引数の変数に展開される –bo や –bs などがあります。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- Makefile
-::
-# we create two different files for uploading into the flash
-# these are the names and options to generate them
-FW_FILE_1    = 0x00000
-FW_FILE_1_ARGS    = -bo $@ -bs .text -bs .data -bs .rodata -bc -ec
-FW_FILE_2    = 0x40000
-FW_FILE_2_ARGS    = -es .irom0.text $@ -ec
-::
-$(FW_FILE_1): $(TARGET_OUT) firmware
-    $(vecho) &quot;FW $@&quot;
-    $(Q) $(ESPTOOL) -eo $(TARGET_OUT) $(FW_FILE_1_ARGS)★
-::</pre>
-<p>&#160;</p>
-<p>python の esptool.py の引数をチェックしてみると</p>
-<blockquote><p><a href="https://github.com/themadinventor/esptool/blob/master/esptool.py" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/themadinventor/esptool/blob/master/esptool.py<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>そんな引数はないので、おかしいよなぁと思い再度ググると、esptool-ck という C で書かれたヘルパーツールがあるじゃありませんか？ esptool という名前は同じなので、てっきりpython のツールのことだと思っていました。</p>
-<blockquote><p><a title="https://github.com/igrr/esptool-ck" href="https://github.com/igrr/esptool-ck" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/igrr/esptool-ck<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>あ、これですね、きっと。入れてみることに。</p>
-<p>▼esptool-ck</p>
-<p>・以下よりdownload</p>
-<blockquote><p><a href="https://github.com/igrr/esptool-ck/releases" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/igrr/esptool-ck/releases<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>&#160;</p>
-<p> osx なので、ボリュームをマウントしておきます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sudo hdiutil mount ~/Documents/case-sensitive.dmg
-$ cd /Volumes/case-sensitive</pre>
-<p>バージョンは新しいのをまず試してみます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ wget https://github.com/igrr/esptool-ck/archive/0.4.6.tar.gz
-$ tar xvfz 0.4.6.tar.gz 
-$ mv esptool-ck-0.4.6/ esptool-ck
-$ cd esptool-ck</pre>
-<p>&#160;</p>
-<p>gcc は入っているので、make し実行権限をつけます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$make
-$ chmod +x esptool</pre>
-<p>&#160;</p>
-<p>・/opt/配下にシンボリックリンクを張っておきます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sudo ln -s /Volumes/case-sensitive/esp-open-sdk/ /opt/Espressif</pre>
-<p>・パスを反映</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ export PATH=/opt/Espressif/xtensa-lx106-elf/bin:/opt/Espressif/esptool-ck:$PATH
-$ echo 'export PATH=/opt/Espressif/xtensa-lx106-elf/bin:/opt/Espressif/esptool-ck:$PATH' &gt;&gt; ~/.bashrc</pre>
-<p>・呼び出せればOK</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ which esptool
-/opt/Espressif/esptool-ck/esptool</pre>
-<p>★espeink のソースディレクトリへ</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">sed -i 's/opt\/Espressif\/crosstool-NG\/builds\/xtensa-lx106-elf\/bin/opt\/Espressif\/xtensa-lx106-elf\/bin/g' Makefile
-sed -i 's/\/opt\/Espressif\/ESP8266_SDK/\/opt\/Espressif\/sdk\//g' Makefile
-sed -i 's/\/opt\/Espressif\/include/\/opt\/Espressif\/sdk\/include/g' Makefile
-sed -i 's/\/opt\/Espressif\/arch\/lib/\/opt\/Espressif\/sdk\/lib/g' Makefile
-sed -i 's/ttyUSB0/cu.SLAB_USBtoUART/g' Makefile</pre>
-<p>&#160;</p>
-<p>さて、make されてファームウェアもできるでしょうか？</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ make
-CC user/cgiwifi.c
-CC user/config.c
-CC user/eink.c
-CC user/espfs.c
-CC user/heatshrink_decoder.c
-CC user/httpd.c
-CC user/httpdclient.c
-CC user/httpdespfs.c
-CC user/io.c
-CC user/stdout.c
-CC user/user_main.c
-AR build/einkdisp_app.a
-LD build/einkdisp.out
-FW firmware/0x00000.bin
-FW firmware/0x40000.bin</pre>
-<p>&#160;</p>
-<p>あっさり行けましたね。でも、サイズが小さいような気がします。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ ls -al build/ firmware/
-build/:
-total 1464
-drwxr-xr-x   6 junkhack  staff     204  9 25 02:03 .
-drwxr-xr-x  16 junkhack  staff     544  9 25 02:03 ..
-drwxr-xr-x   2 junkhack  staff      68  9 25 02:03 driver
--rwxr-xr-x   1 junkhack  staff  514717  9 25 02:03 einkdisp.out
--rw-r--r--   1 junkhack  staff  231744  9 25 02:03 einkdisp_app.a
-drwxr-xr-x  13 junkhack  staff     442  9 25 02:03 user
-
-firmware/:
-total 408
-drwxr-xr-x   4 junkhack  staff     136  9 25 02:03 .
-drwxr-xr-x  16 junkhack  staff     544  9 25 02:03 ..
--rw-r--r--   1 junkhack  staff   37632  9 25 02:03 0x00000.bin
--rw-r--r--   1 junkhack  staff  166264  9 25 02:03 0x40000.bin</pre>
-<p>&#160;</p>
-<p>500k くらいあるeinkdisp.out がファームに入っていないような気がします。ユーザ領域じゃないのでしょうかね。メモリマップはあまり見ていないので、これをどのように書き込めばいいかはまだ不明です。</p>
-<p>&#160;</p>
-<p>が、コンパイルはエラーなく通るようになりました。</p>
-<p>SDK は、1.0.1 でとりあえずやっています。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ cd /opt/Espressif/
-HOPE:Espressif junkhack$ ll
-total 128
--rw-r--r--   1 junkhack  staff  11263  9 22 22:52 Makefile
--rw-r--r--   1 junkhack  staff   5725  9 22 22:52 README.md
--rw-r--r--   1 junkhack  staff   1101  9 22 22:52 c_types-c99.patch
-drwxr-xr-x  18 junkhack  staff   1462  9 22 23:24 crosstool-NG
--rw-r--r--   1 junkhack  staff    199  9 22 22:52 crosstool-config-overrides
--rw-r--r--   1 junkhack  staff    146  9 22 22:52 empty_user_rf_pre_init.c
-drwxr-xr-x@ 10 junkhack  staff    442  9 23 22:34 esp_iot_sdk_v0.9.5
-drwxr-xr-x@ 10 junkhack  staff    374  4 24 17:08 esp_iot_sdk_v1.0.1
-drwxr-xr-x@ 10 junkhack  staff    408  9 23 14:43 esp_iot_sdk_v1.1.1
-drwxr-xr-x@ 10 junkhack  staff    374  6 12 20:49 esp_iot_sdk_v1.1.2
-drwxr-xr-x  10 junkhack  staff    442  9 23 00:24 esp_iot_sdk_v1.3.0
-drwxr-xr-x@ 10 junkhack  staff    374  9 18 21:55 esp_iot_sdk_v1.4.0
-drwxr-xr-x   2 junkhack  staff    272  9 22 22:56 esptool
-drwxr-xr-x   9 junkhack  staff    646  9 24 19:58 esptool-ck
-drwxr-xr-x   9 junkhack  staff    510  9 24 19:44 esptool-ck_git
-drwxr-xr-x   2 junkhack  staff    170  9 22 22:52 examples
-drwxr-xr-x   6 junkhack  staff    612  9 23 00:25 lx106-hal
--rw-r--r--   1 junkhack  staff  24726  8  8 16:20 release_note.txt
-lrwxr-xr-x   1 junkhack  staff     18  9 23 23:53 sdk -&gt; esp_iot_sdk_v1.0.1
-drwxr-xr-x   8 junkhack  staff    306  9 23 00:21 xtensa-lx106-elf</pre>
-<p>&#160;</p>
-<p>Makefile には、以下のオプションも指定されているので、書き込みできるはずです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">::
-flash: $(FW_FILE_1) $(FW_FILE_2)
-    $(Q) $(ESPTOOL) -cp $(ESPPORT) -cb $(ESPBAUD) -ca 0x00000 -cf firmware/0x00000.bin -v
-    $(Q) [ $(ESPDELAY) -ne 0 ] &amp;&amp; echo &quot;Please put the ESP in bootloader mode...&quot; || true
-    $(Q) sleep $(ESPDELAY) || true
-    $(Q) $(ESPTOOL) -cp $(ESPPORT) -cb $(ESPBAUD) -ca 0x40000 -cf firmware/0x40000.bin -v
-
-::
-
-
-webpages.espfs: html/ mkespfsimage/mkespfsimage
-    cd html; find | ../mkespfsimage/mkespfsimage &gt; ../webpages.espfs; cd ..
-
-mkespfsimage/mkespfsimage: mkespfsimage/
-    make -C mkespfsimage
-
-htmlflash: webpages.espfs
-    if [ $$(stat -c '%s' webpages.espfs) -gt $$(( 0x2E000 )) ]; then echo &quot;webpages.espfs too big!&quot;; false; fi
-    $(ESPTOOL) -cp $(ESPPORT) -cb $(ESPBAUD) -ca 0x12000 -cf webpages.espfs -v
-::</pre>
-<p>土日にesp に書き込んでみることにします。</p>
-<p>&#160;</p>
-<p>esp12 をつなげていないと、以下のようになりました。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:espeink junkhack$ make webpages.espfs
-cd html; find | ../mkespfsimage/mkespfsimage &gt; ../webpages.espfs; cd ..
-/bin/sh: ../mkespfsimage/mkespfsimage: cannot execute binary file
-usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
-       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
-HOPE:espeink junkhack$ 
-
-HOPE:espeink junkhack$ make mkespfsimage/mkespfsimage
-make: `mkespfsimage/mkespfsimage' is up to date.
-HOPE:espeink junkhack$ 
-
-HOPE:espeink junkhack$ make htmlflash
-if [ $(stat -c '%s' webpages.espfs) -gt $(( 0x2E000 )) ]; then echo &quot;webpages.espfs too big!&quot;; false; fi
-stat: illegal option -- c
-usage: stat [-FlLnqrsx] [-f format] [-t timefmt] [file ...]
-/bin/sh: line 0: [: -gt: unary operator expected
-esptool -cp /dev/cu.SLAB_USBtoUART -cb 115200 -ca 0x12000 -cf webpages.espfs -v
-esptool vb64eebd - (c) 2014 Ch. Klippel &lt;ck@atelier-klippel.de&gt;
-opening port /dev/cu.SLAB_USBtoUART at 115200
-opening bootloader
-resetting board
-trying to connect
-trying to connect
-trying to connect
-resetting board
-trying to connect
-trying to connect
-trying to connect
-resetting board
-trying to connect
-trying to connect
-trying to connect
-warning: espcomm_sync failed
-error: espcomm_open failed
-make: *** [htmlflash] Error 255
-HOPE:espeink junkhack$ 
-
-HOPE:espeink junkhack$ make flash
-esptool vb64eebd - (c) 2014 Ch. Klippel &lt;ck@atelier-klippel.de&gt;
-opening port /dev/cu.SLAB_USBtoUART at 115200
-opening bootloader
-resetting board
-trying to connect
-trying to connect
-trying to connect
-resetting board
-trying to connect
-trying to connect
-trying to connect
-resetting board
-trying to connect
-trying to connect
-trying to connect
-warning: espcomm_sync failed
-error: espcomm_open failed
-make: *** [flash] Error 255
-HOPE:espeink junkhack$ </pre>
-<p>▼まとめ</p>
-<p>・esptool は python のじゃなくて、C 製の esptool-ck というのを使う</p>
-<p>・esptool-ck にはいろいろなオプションがあるようです。</p>
-<p>・配線を以下のようにして、resetmethod=wifio などとすれば、UART の RTS and DTRを使ってブートモードにしたりできるようです。</p>
-<p> <a title="https://github.com/esp8266/Arduino/issues/22" href="https://github.com/esp8266/Arduino/issues/22" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/esp8266/Arduino/issues/22<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>・できた２つのファームはサイズが小さいようだが？</p>
-<p>・make のオプションに書き込みや、その他の何か作業するものがある</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

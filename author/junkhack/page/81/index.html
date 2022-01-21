@@ -50,7 +50,907 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-784" class="post-784 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
+</h1></header><article id="post-786" class="post-786 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/03/pi2-fedora22-e3819de381aee5be8c/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-03T22:34:30+09:00">2015年7月3日</time></a> </span><span class="posted-on">更新日:2015年7月3日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/07/03/pi2-fedora22-e3819de381aee5be8c/" rel="bookmark noopener noreferrer" data-wpel-link="internal">pi2 fedora22 その後</a></h1></header><div class="entry-content">
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@localhost ~]# which dnf
+-bash: which: コマンドが見つかりません
+[root@localhost ~]# </pre>
+<p>&#160;</p>
+<p>なんですと！</p>
+<p>Minimal なだけに368 パッケージしか入っていません。dnf 使っていれますが、どうやら yum の部分を dnl にすればいいようです。とりあえず、入れてみます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@localhost ~]# dnf install which
+Last metadata expiration check performed 0:15:44 ago on Fri Jul  3 09:14:17 2015.
+Dependencies resolved.
+=====================================================================================================================================================
+ Package                          アーキテクチャ                     バージョン                              リポジトリー                       容量
+=====================================================================================================================================================
+インストールしています:
+ which                            armv7hl                            2.20-10.fc22                            fedora                             44 k
+
+トランザクションの要約
+=====================================================================================================================================================
+インストール  1 Package
+
+総ダウンロード容量: 44 k
+インストール済み容量: 70 k
+これでいいですか? [y/N]y
+パッケージをダウンロードしています:
+which-2.20-10.fc22.armv7hl.rpm                                                                                        37 kB/s |  44 kB     00:01    
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+合計                                                                                                                 8.0 kB/s |  44 kB     00:05     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  インストールしています: which-2.20-10.fc22.armv7hl                                                                                             1/1 
+  Verifying             : which-2.20-10.fc22.armv7hl                                                                                             1/1 
+
+インストール:
+  which.armv7hl 2.20-10.fc22                                                                                                                         
+
+完了しました!
+[root@localhost ~]#</pre>
+<p>&#160;</p>
+<p>さてと、楽しみながら触りますか。ちょっと、蒸し暑いのでお風呂入ってきますか。すっきりしてやりますぞ。</p>
+<p>tar も gcc も入っていないので、まずはあれこれ作業しながらないものを入れていきます。</p>
+<p>&#160;</p>
+<p>とりあえず、UnixBench。ラズベリアンよりも遅い感じですかね？</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: localhost.localdomain: GNU/Linux
+   OS: GNU/Linux -- 4.0.7-v7+ -- #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015
+   Machine: armv7l (armv7l)
+   Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
+   CPU 0: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 1: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 2: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 3: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   09:55:43 up 58 min,  1 user,  load average: 0.35, 0.27, 0.20; runlevel 3
+
+------------------------------------------------------------------------
+Benchmark Run: 金  7月 03 2015 09:55:43 - 10:23:51
+4 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables        2385350.1 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                      364.8 MWIPS (9.9 s, 7 samples)
+Execl Throughput                                362.2 lps   (29.8 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks         44168.6 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           13376.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        129949.5 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              121003.4 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  18406.2 lps   (10.0 s, 7 samples)
+Process Creation                                797.5 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                    573.4 lpm   (60.1 s, 2 samples)
+Shell Scripts (8 concurrent)                    164.2 lpm   (60.3 s, 2 samples)
+System Call Overhead                         274094.8 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    2385350.1    204.4
+Double-Precision Whetstone                       55.0        364.8     66.3
+Execl Throughput                                 43.0        362.2     84.2
+File Copy 1024 bufsize 2000 maxblocks          3960.0      44168.6    111.5
+File Copy 256 bufsize 500 maxblocks            1655.0      13376.0     80.8
+File Copy 4096 bufsize 8000 maxblocks          5800.0     129949.5    224.1
+Pipe Throughput                               12440.0     121003.4     97.3
+Pipe-based Context Switching                   4000.0      18406.2     46.0
+Process Creation                                126.0        797.5     63.3
+Shell Scripts (1 concurrent)                     42.4        573.4    135.2
+Shell Scripts (8 concurrent)                      6.0        164.2    273.7
+System Call Overhead                          15000.0     274094.8    182.7
+                                                                   ========
+System Benchmarks Index Score                                         113.2
+
+------------------------------------------------------------------------
+Benchmark Run: 金  7月 03 2015 10:23:51 - 10:52:09
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables        9503183.1 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1466.9 MWIPS (10.0 s, 7 samples)
+Execl Throughput                                970.2 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks         70550.9 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           20414.5 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        205565.3 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              479922.4 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  67560.2 lps   (10.0 s, 7 samples)
+Process Creation                               1860.7 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   1287.2 lpm   (60.1 s, 2 samples)
+Shell Scripts (8 concurrent)                    175.5 lpm   (61.0 s, 2 samples)
+System Call Overhead                        1064369.7 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    9503183.1    814.3
+Double-Precision Whetstone                       55.0       1466.9    266.7
+Execl Throughput                                 43.0        970.2    225.6
+File Copy 1024 bufsize 2000 maxblocks          3960.0      70550.9    178.2
+File Copy 256 bufsize 500 maxblocks            1655.0      20414.5    123.4
+File Copy 4096 bufsize 8000 maxblocks          5800.0     205565.3    354.4
+Pipe Throughput                               12440.0     479922.4    385.8
+Pipe-based Context Switching                   4000.0      67560.2    168.9
+Process Creation                                126.0       1860.7    147.7
+Shell Scripts (1 concurrent)                     42.4       1287.2    303.6
+Shell Scripts (8 concurrent)                      6.0        175.5    292.6
+System Call Overhead                          15000.0    1064369.7    709.6
+                                                                   ========
+System Benchmarks Index Score                                         279.9</pre>
+<p>&#160;</p>
+<p>もう少し遊んでみます。</p>
+<p>&#160;</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@localhost UnixBench]# sysctl -a
+dev.scsi.logging_level = 0
+fs.aio-max-nr = 65536
+fs.aio-nr = 0
+fs.binfmt_misc.status = enabled
+fs.dentry-state = 97722    92070    45    0    0    0
+fs.dir-notify-enable = 1
+fs.epoll.max_user_watches = 334671
+fs.file-max = 93880
+fs.file-nr = 800    0    93880
+fs.inode-nr = 18373    332
+fs.inode-state = 18373    332    0    0    0    0    0
+fs.inotify.max_queued_events = 16384
+fs.inotify.max_user_instances = 128
+fs.inotify.max_user_watches = 8192
+fs.lease-break-time = 45
+fs.leases-enable = 1
+fs.mqueue.msg_default = 10
+fs.mqueue.msg_max = 10
+fs.mqueue.msgsize_default = 8192
+fs.mqueue.msgsize_max = 8192
+fs.mqueue.queues_max = 256
+fs.nfs.idmap_cache_timeout = 6
+fs.nfs.nfs_callback_tcpport = 0
+fs.nfs.nfs_congestion_kb = 31104
+fs.nfs.nfs_mountpoint_timeout = 500
+fs.nfs.nlm_grace_period = 0
+fs.nfs.nlm_tcpport = 0
+fs.nfs.nlm_timeout = 10
+fs.nfs.nlm_udpport = 0
+fs.nfs.nsm_local_state = 0
+fs.nfs.nsm_use_hostnames = 0
+fs.nr_open = 1048576
+fs.overflowgid = 65534
+fs.overflowuid = 65534
+fs.pipe-max-size = 1048576
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+fs.quota.allocated_dquots = 0
+fs.quota.cache_hits = 0
+fs.quota.drops = 0
+fs.quota.free_dquots = 0
+fs.quota.lookups = 0
+fs.quota.reads = 0
+fs.quota.syncs = 1108
+fs.quota.warnings = 1
+fs.quota.writes = 0
+fs.suid_dumpable = 0
+fscache.object_max_active = 4
+fscache.operation_max_active = 2
+kernel.acct = 4    2    30
+kernel.auto_msgmni = 0
+kernel.cad_pid = 1
+kernel.cap_last_cap = 37
+kernel.core_pattern = |/usr/lib/systemd/systemd-coredump %p %u %g %s %t %e
+kernel.core_pipe_limit = 0
+kernel.core_uses_pid = 1
+kernel.ctrl-alt-del = 0
+kernel.dmesg_restrict = 0
+kernel.domainname = (none)
+kernel.ftrace_dump_on_oops = 0
+kernel.ftrace_enabled = 1
+kernel.hostname = localhost.localdomain
+kernel.hotplug = 
+kernel.hung_task_check_count = 32768
+kernel.hung_task_panic = 0
+kernel.hung_task_timeout_secs = 120
+kernel.hung_task_warnings = 10
+kernel.keys.gc_delay = 300
+kernel.keys.maxbytes = 20000
+kernel.keys.maxkeys = 200
+kernel.keys.root_maxbytes = 25000000
+kernel.keys.root_maxkeys = 1000000
+kernel.kptr_restrict = 0
+kernel.max_lock_depth = 1024
+kernel.modprobe = /sbin/modprobe
+kernel.modules_disabled = 0
+kernel.msgmax = 8192
+kernel.msgmnb = 16384
+kernel.msgmni = 32000
+kernel.ngroups_max = 65536
+kernel.osrelease = 4.0.7-v7+
+kernel.ostype = Linux
+kernel.overflowgid = 65534
+kernel.overflowuid = 65534
+kernel.panic = 0
+kernel.panic_on_oops = 0
+kernel.panic_on_warn = 0
+kernel.perf_cpu_time_max_percent = 25
+kernel.perf_event_max_sample_rate = 100000
+kernel.perf_event_mlock_kb = 516
+kernel.perf_event_paranoid = 1
+kernel.pid_max = 32768
+kernel.poweroff_cmd = /sbin/poweroff
+kernel.print-fatal-signals = 0
+kernel.printk = 7    4    1    7
+kernel.printk_delay = 0
+kernel.printk_ratelimit = 5
+kernel.printk_ratelimit_burst = 10
+kernel.pty.max = 4096
+kernel.pty.nr = 2
+kernel.pty.reserve = 1024
+kernel.random.boot_id = f7b46809-df60-44f9-b951-d19475845c6c
+kernel.random.entropy_avail = 1283
+kernel.random.poolsize = 4096
+kernel.random.read_wakeup_threshold = 64
+kernel.random.urandom_min_reseed_secs = 60
+kernel.random.uuid = a430aadc-542a-4ae4-baf6-ea9e00d8c2f2
+kernel.random.write_wakeup_threshold = 896
+kernel.randomize_va_space = 2
+kernel.real-root-dev = 0
+kernel.sched_autogroup_enabled = 1
+kernel.sched_child_runs_first = 0
+kernel.sched_domain.cpu0.domain0.busy_factor = 32
+kernel.sched_domain.cpu0.domain0.busy_idx = 2
+kernel.sched_domain.cpu0.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu0.domain0.flags = 4143
+kernel.sched_domain.cpu0.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu0.domain0.idle_idx = 1
+kernel.sched_domain.cpu0.domain0.imbalance_pct = 125
+kernel.sched_domain.cpu0.domain0.max_interval = 8
+kernel.sched_domain.cpu0.domain0.max_newidle_lb_cost = 27812
+kernel.sched_domain.cpu0.domain0.min_interval = 4
+kernel.sched_domain.cpu0.domain0.name = DIE
+kernel.sched_domain.cpu0.domain0.newidle_idx = 0
+kernel.sched_domain.cpu0.domain0.wake_idx = 0
+kernel.sched_domain.cpu1.domain0.busy_factor = 32
+kernel.sched_domain.cpu1.domain0.busy_idx = 2
+kernel.sched_domain.cpu1.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu1.domain0.flags = 4143
+kernel.sched_domain.cpu1.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu1.domain0.idle_idx = 1
+kernel.sched_domain.cpu1.domain0.imbalance_pct = 125
+kernel.sched_domain.cpu1.domain0.max_interval = 8
+kernel.sched_domain.cpu1.domain0.max_newidle_lb_cost = 49157
+kernel.sched_domain.cpu1.domain0.min_interval = 4
+kernel.sched_domain.cpu1.domain0.name = DIE
+kernel.sched_domain.cpu1.domain0.newidle_idx = 0
+kernel.sched_domain.cpu1.domain0.wake_idx = 0
+kernel.sched_domain.cpu2.domain0.busy_factor = 32
+kernel.sched_domain.cpu2.domain0.busy_idx = 2
+kernel.sched_domain.cpu2.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu2.domain0.flags = 4143
+kernel.sched_domain.cpu2.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu2.domain0.idle_idx = 1
+kernel.sched_domain.cpu2.domain0.imbalance_pct = 125
+kernel.sched_domain.cpu2.domain0.max_interval = 8
+kernel.sched_domain.cpu2.domain0.max_newidle_lb_cost = 24479
+kernel.sched_domain.cpu2.domain0.min_interval = 4
+kernel.sched_domain.cpu2.domain0.name = DIE
+kernel.sched_domain.cpu2.domain0.newidle_idx = 0
+kernel.sched_domain.cpu2.domain0.wake_idx = 0
+kernel.sched_domain.cpu3.domain0.busy_factor = 32
+kernel.sched_domain.cpu3.domain0.busy_idx = 2
+kernel.sched_domain.cpu3.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu3.domain0.flags = 4143
+kernel.sched_domain.cpu3.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu3.domain0.idle_idx = 1
+kernel.sched_domain.cpu3.domain0.imbalance_pct = 125
+kernel.sched_domain.cpu3.domain0.max_interval = 8
+kernel.sched_domain.cpu3.domain0.max_newidle_lb_cost = 67147
+kernel.sched_domain.cpu3.domain0.min_interval = 4
+kernel.sched_domain.cpu3.domain0.name = DIE
+kernel.sched_domain.cpu3.domain0.newidle_idx = 0
+kernel.sched_domain.cpu3.domain0.wake_idx = 0
+kernel.sched_latency_ns = 18000000
+kernel.sched_migration_cost_ns = 500000
+kernel.sched_min_granularity_ns = 2250000
+kernel.sched_nr_migrate = 32
+kernel.sched_rr_timeslice_ms = 10
+kernel.sched_rt_period_us = 1000000
+kernel.sched_rt_runtime_us = 950000
+kernel.sched_shares_window_ns = 10000000
+kernel.sched_time_avg_ms = 1000
+kernel.sched_tunable_scaling = 1
+kernel.sched_wakeup_granularity_ns = 3000000
+kernel.sem = 32000    1024000000    500    32000
+kernel.shm_rmid_forced = 0
+kernel.shmall = 268435456
+kernel.shmmax = 4294967295
+kernel.shmmni = 4096
+kernel.stack_tracer_enabled = 0
+kernel.sysctl_writes_strict = 0
+kernel.sysrq = 16
+kernel.tainted = 0
+kernel.threads-max = 14682
+kernel.timer_migration = 1
+kernel.traceoff_on_warning = 0
+kernel.tracepoint_printk = 0
+kernel.usermodehelper.bset = 4294967295    63
+kernel.usermodehelper.inheritable = 4294967295    63
+kernel.version = #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015
+net.core.busy_poll = 0
+net.core.busy_read = 0
+net.core.default_qdisc = fq_codel
+net.core.dev_weight = 64
+net.core.flow_limit_cpu_bitmap = 0
+net.core.flow_limit_table_len = 4096
+net.core.message_burst = 10
+net.core.message_cost = 5
+net.core.netdev_budget = 300
+net.core.netdev_max_backlog = 1000
+net.core.netdev_rss_key = 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+net.core.netdev_tstamp_prequeue = 1
+net.core.optmem_max = 10240
+net.core.rmem_default = 163840
+net.core.rmem_max = 163840
+net.core.rps_sock_flow_entries = 0
+net.core.somaxconn = 128
+net.core.tstamp_allow_data = 1
+net.core.warnings = 0
+net.core.wmem_default = 163840
+net.core.wmem_max = 163840
+net.core.xfrm_acq_expires = 30
+net.core.xfrm_aevent_etime = 10
+net.core.xfrm_aevent_rseqth = 2
+net.core.xfrm_larval_drop = 1
+net.ipv4.conf.all.accept_local = 0
+net.ipv4.conf.all.accept_redirects = 1
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.all.arp_accept = 0
+net.ipv4.conf.all.arp_announce = 0
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.arp_ignore = 0
+net.ipv4.conf.all.arp_notify = 0
+net.ipv4.conf.all.bootp_relay = 0
+net.ipv4.conf.all.disable_policy = 0
+net.ipv4.conf.all.disable_xfrm = 0
+net.ipv4.conf.all.force_igmp_version = 0
+net.ipv4.conf.all.forwarding = 0
+net.ipv4.conf.all.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.all.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.all.log_martians = 0
+net.ipv4.conf.all.mc_forwarding = 0
+net.ipv4.conf.all.medium_id = 0
+net.ipv4.conf.all.promote_secondaries = 1
+net.ipv4.conf.all.proxy_arp = 0
+net.ipv4.conf.all.proxy_arp_pvlan = 0
+net.ipv4.conf.all.route_localnet = 0
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.all.secure_redirects = 1
+net.ipv4.conf.all.send_redirects = 1
+net.ipv4.conf.all.shared_media = 1
+net.ipv4.conf.all.src_valid_mark = 0
+net.ipv4.conf.all.tag = 0
+net.ipv4.conf.default.accept_local = 0
+net.ipv4.conf.default.accept_redirects = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.default.arp_accept = 0
+net.ipv4.conf.default.arp_announce = 0
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.arp_ignore = 0
+net.ipv4.conf.default.arp_notify = 0
+net.ipv4.conf.default.bootp_relay = 0
+net.ipv4.conf.default.disable_policy = 0
+net.ipv4.conf.default.disable_xfrm = 0
+net.ipv4.conf.default.force_igmp_version = 0
+net.ipv4.conf.default.forwarding = 0
+net.ipv4.conf.default.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.default.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.default.log_martians = 0
+net.ipv4.conf.default.mc_forwarding = 0
+net.ipv4.conf.default.medium_id = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.default.proxy_arp = 0
+net.ipv4.conf.default.proxy_arp_pvlan = 0
+net.ipv4.conf.default.route_localnet = 0
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.default.secure_redirects = 1
+net.ipv4.conf.default.send_redirects = 1
+net.ipv4.conf.default.shared_media = 1
+net.ipv4.conf.default.src_valid_mark = 0
+net.ipv4.conf.default.tag = 0
+net.ipv4.conf.eth0.accept_local = 0
+net.ipv4.conf.eth0.accept_redirects = 1
+net.ipv4.conf.eth0.accept_source_route = 0
+net.ipv4.conf.eth0.arp_accept = 0
+net.ipv4.conf.eth0.arp_announce = 0
+net.ipv4.conf.eth0.arp_filter = 0
+net.ipv4.conf.eth0.arp_ignore = 0
+net.ipv4.conf.eth0.arp_notify = 0
+net.ipv4.conf.eth0.bootp_relay = 0
+net.ipv4.conf.eth0.disable_policy = 0
+net.ipv4.conf.eth0.disable_xfrm = 0
+net.ipv4.conf.eth0.force_igmp_version = 0
+net.ipv4.conf.eth0.forwarding = 0
+net.ipv4.conf.eth0.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.eth0.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.eth0.log_martians = 0
+net.ipv4.conf.eth0.mc_forwarding = 0
+net.ipv4.conf.eth0.medium_id = 0
+net.ipv4.conf.eth0.promote_secondaries = 0
+net.ipv4.conf.eth0.proxy_arp = 0
+net.ipv4.conf.eth0.proxy_arp_pvlan = 0
+net.ipv4.conf.eth0.route_localnet = 0
+net.ipv4.conf.eth0.rp_filter = 1
+net.ipv4.conf.eth0.secure_redirects = 1
+net.ipv4.conf.eth0.send_redirects = 1
+net.ipv4.conf.eth0.shared_media = 1
+net.ipv4.conf.eth0.src_valid_mark = 0
+net.ipv4.conf.eth0.tag = 0
+net.ipv4.conf.lo.accept_local = 0
+net.ipv4.conf.lo.accept_redirects = 1
+net.ipv4.conf.lo.accept_source_route = 1
+net.ipv4.conf.lo.arp_accept = 0
+net.ipv4.conf.lo.arp_announce = 0
+net.ipv4.conf.lo.arp_filter = 0
+net.ipv4.conf.lo.arp_ignore = 0
+net.ipv4.conf.lo.arp_notify = 0
+net.ipv4.conf.lo.bootp_relay = 0
+net.ipv4.conf.lo.disable_policy = 1
+net.ipv4.conf.lo.disable_xfrm = 1
+net.ipv4.conf.lo.force_igmp_version = 0
+net.ipv4.conf.lo.forwarding = 0
+net.ipv4.conf.lo.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.lo.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.lo.log_martians = 0
+net.ipv4.conf.lo.mc_forwarding = 0
+net.ipv4.conf.lo.medium_id = 0
+net.ipv4.conf.lo.promote_secondaries = 0
+net.ipv4.conf.lo.proxy_arp = 0
+net.ipv4.conf.lo.proxy_arp_pvlan = 0
+net.ipv4.conf.lo.route_localnet = 0
+net.ipv4.conf.lo.rp_filter = 0
+net.ipv4.conf.lo.secure_redirects = 1
+net.ipv4.conf.lo.send_redirects = 1
+net.ipv4.conf.lo.shared_media = 1
+net.ipv4.conf.lo.src_valid_mark = 0
+net.ipv4.conf.lo.tag = 0
+net.ipv4.fwmark_reflect = 0
+net.ipv4.icmp_echo_ignore_all = 0
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+net.ipv4.icmp_errors_use_inbound_ifaddr = 0
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+net.ipv4.icmp_msgs_burst = 50
+net.ipv4.icmp_msgs_per_sec = 1000
+net.ipv4.icmp_ratelimit = 1000
+net.ipv4.icmp_ratemask = 6168
+net.ipv4.igmp_max_memberships = 20
+net.ipv4.igmp_max_msf = 10
+net.ipv4.igmp_qrv = 2
+net.ipv4.inet_peer_maxttl = 600
+net.ipv4.inet_peer_minttl = 120
+net.ipv4.inet_peer_threshold = 65664
+net.ipv4.ip_default_ttl = 64
+net.ipv4.ip_dynaddr = 0
+net.ipv4.ip_early_demux = 1
+net.ipv4.ip_forward = 0
+net.ipv4.ip_forward_use_pmtu = 0
+net.ipv4.ip_local_port_range = 32768    61000
+net.ipv4.ip_local_reserved_ports = 
+net.ipv4.ip_no_pmtu_disc = 0
+net.ipv4.ip_nonlocal_bind = 0
+net.ipv4.ipfrag_high_thresh = 4194304
+net.ipv4.ipfrag_low_thresh = 3145728
+net.ipv4.ipfrag_max_dist = 64
+net.ipv4.ipfrag_secret_interval = 0
+net.ipv4.ipfrag_time = 30
+net.ipv4.neigh.default.anycast_delay = 100
+net.ipv4.neigh.default.app_solicit = 0
+net.ipv4.neigh.default.base_reachable_time_ms = 30000
+net.ipv4.neigh.default.delay_first_probe_time = 5
+net.ipv4.neigh.default.gc_interval = 30
+net.ipv4.neigh.default.gc_stale_time = 60
+net.ipv4.neigh.default.gc_thresh1 = 128
+net.ipv4.neigh.default.gc_thresh2 = 512
+net.ipv4.neigh.default.gc_thresh3 = 1024
+net.ipv4.neigh.default.locktime = 100
+net.ipv4.neigh.default.mcast_solicit = 3
+net.ipv4.neigh.default.proxy_delay = 80
+net.ipv4.neigh.default.proxy_qlen = 64
+net.ipv4.neigh.default.retrans_time_ms = 1000
+net.ipv4.neigh.default.ucast_solicit = 3
+net.ipv4.neigh.default.unres_qlen = 34
+net.ipv4.neigh.default.unres_qlen_bytes = 65536
+net.ipv4.neigh.eth0.anycast_delay = 100
+net.ipv4.neigh.eth0.app_solicit = 0
+net.ipv4.neigh.eth0.base_reachable_time_ms = 30000
+net.ipv4.neigh.eth0.delay_first_probe_time = 5
+net.ipv4.neigh.eth0.gc_stale_time = 60
+net.ipv4.neigh.eth0.locktime = 100
+net.ipv4.neigh.eth0.mcast_solicit = 3
+net.ipv4.neigh.eth0.proxy_delay = 80
+net.ipv4.neigh.eth0.proxy_qlen = 64
+net.ipv4.neigh.eth0.retrans_time_ms = 1000
+net.ipv4.neigh.eth0.ucast_solicit = 3
+net.ipv4.neigh.eth0.unres_qlen = 34
+net.ipv4.neigh.eth0.unres_qlen_bytes = 65536
+net.ipv4.neigh.lo.anycast_delay = 100
+net.ipv4.neigh.lo.app_solicit = 0
+net.ipv4.neigh.lo.base_reachable_time_ms = 30000
+net.ipv4.neigh.lo.delay_first_probe_time = 5
+net.ipv4.neigh.lo.gc_stale_time = 60
+net.ipv4.neigh.lo.locktime = 100
+net.ipv4.neigh.lo.mcast_solicit = 3
+net.ipv4.neigh.lo.proxy_delay = 80
+net.ipv4.neigh.lo.proxy_qlen = 64
+net.ipv4.neigh.lo.retrans_time_ms = 1000
+net.ipv4.neigh.lo.ucast_solicit = 3
+net.ipv4.neigh.lo.unres_qlen = 34
+net.ipv4.neigh.lo.unres_qlen_bytes = 65536
+net.ipv4.netfilter.ip_conntrack_buckets = 15360
+net.ipv4.netfilter.ip_conntrack_checksum = 1
+net.ipv4.netfilter.ip_conntrack_count = 2
+net.ipv4.netfilter.ip_conntrack_generic_timeout = 600
+net.ipv4.netfilter.ip_conntrack_icmp_timeout = 30
+net.ipv4.netfilter.ip_conntrack_log_invalid = 0
+net.ipv4.netfilter.ip_conntrack_max = 59264
+net.ipv4.netfilter.ip_conntrack_tcp_be_liberal = 0
+net.ipv4.netfilter.ip_conntrack_tcp_loose = 1
+net.ipv4.netfilter.ip_conntrack_tcp_max_retrans = 3
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_close = 10
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_close_wait = 60
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_established = 432000
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_fin_wait = 120
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_last_ack = 30
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_max_retrans = 300
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_syn_recv = 60
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_syn_sent = 120
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_syn_sent2 = 120
+net.ipv4.netfilter.ip_conntrack_tcp_timeout_time_wait = 120
+net.ipv4.netfilter.ip_conntrack_udp_timeout = 30
+net.ipv4.netfilter.ip_conntrack_udp_timeout_stream = 180
+net.ipv4.ping_group_range = 1    0
+net.ipv4.route.error_burst = 500
+net.ipv4.route.error_cost = 100
+net.ipv4.route.gc_elasticity = 8
+net.ipv4.route.gc_interval = 60
+net.ipv4.route.gc_min_interval = 0
+net.ipv4.route.gc_min_interval_ms = 500
+net.ipv4.route.gc_thresh = -1
+net.ipv4.route.gc_timeout = 300
+net.ipv4.route.max_size = 2147483647
+net.ipv4.route.min_adv_mss = 256
+net.ipv4.route.min_pmtu = 552
+net.ipv4.route.mtu_expires = 600
+net.ipv4.route.redirect_load = 2
+net.ipv4.route.redirect_number = 9
+net.ipv4.route.redirect_silence = 2048
+net.ipv4.tcp_abort_on_overflow = 0
+net.ipv4.tcp_adv_win_scale = 1
+net.ipv4.tcp_allowed_congestion_control = cubic reno
+net.ipv4.tcp_app_win = 31
+net.ipv4.tcp_autocorking = 1
+net.ipv4.tcp_available_congestion_control = cubic reno
+net.ipv4.tcp_base_mss = 512
+net.ipv4.tcp_challenge_ack_limit = 100
+net.ipv4.tcp_congestion_control = cubic
+net.ipv4.tcp_dsack = 1
+net.ipv4.tcp_early_retrans = 3
+net.ipv4.tcp_ecn = 2
+net.ipv4.tcp_fack = 1
+net.ipv4.tcp_fastopen = 1
+net.ipv4.tcp_fastopen_key = 00000000-00000000-00000000-00000000
+net.ipv4.tcp_fin_timeout = 60
+net.ipv4.tcp_frto = 2
+net.ipv4.tcp_fwmark_accept = 0
+net.ipv4.tcp_invalid_ratelimit = 500
+net.ipv4.tcp_keepalive_intvl = 75
+net.ipv4.tcp_keepalive_probes = 9
+net.ipv4.tcp_keepalive_time = 7200
+net.ipv4.tcp_limit_output_bytes = 131072
+net.ipv4.tcp_low_latency = 0
+net.ipv4.tcp_max_orphans = 4096
+net.ipv4.tcp_max_reordering = 300
+net.ipv4.tcp_max_syn_backlog = 128
+net.ipv4.tcp_max_tw_buckets = 4096
+net.ipv4.tcp_mem = 22215    29620    44430
+net.ipv4.tcp_min_tso_segs = 2
+net.ipv4.tcp_moderate_rcvbuf = 1
+net.ipv4.tcp_mtu_probing = 0
+net.ipv4.tcp_no_metrics_save = 0
+net.ipv4.tcp_notsent_lowat = -1
+net.ipv4.tcp_orphan_retries = 0
+net.ipv4.tcp_reordering = 3
+net.ipv4.tcp_retrans_collapse = 1
+net.ipv4.tcp_retries1 = 3
+net.ipv4.tcp_retries2 = 15
+net.ipv4.tcp_rfc1337 = 0
+net.ipv4.tcp_rmem = 4096    87380    6291456
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_slow_start_after_idle = 1
+net.ipv4.tcp_stdurg = 0
+net.ipv4.tcp_syn_retries = 6
+net.ipv4.tcp_synack_retries = 5
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_thin_dupack = 0
+net.ipv4.tcp_thin_linear_timeouts = 0
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_tso_win_divisor = 3
+net.ipv4.tcp_tw_recycle = 0
+net.ipv4.tcp_tw_reuse = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_wmem = 4096    16384    4194304
+net.ipv4.tcp_workaround_signed_windows = 0
+net.ipv4.udp_mem = 22215    29620    44430
+net.ipv4.udp_rmem_min = 4096
+net.ipv4.udp_wmem_min = 4096
+net.ipv4.xfrm4_gc_thresh = 32768
+net.ipv6.anycast_src_echo_reply = 0
+net.ipv6.auto_flowlabels = 0
+net.ipv6.bindv6only = 0
+net.ipv6.conf.all.accept_dad = 1
+net.ipv6.conf.all.accept_ra = 1
+net.ipv6.conf.all.accept_ra_defrtr = 1
+net.ipv6.conf.all.accept_ra_from_local = 0
+net.ipv6.conf.all.accept_ra_mtu = 1
+net.ipv6.conf.all.accept_ra_pinfo = 1
+net.ipv6.conf.all.accept_redirects = 1
+net.ipv6.conf.all.accept_source_route = 0
+net.ipv6.conf.all.autoconf = 1
+net.ipv6.conf.all.dad_transmits = 1
+net.ipv6.conf.all.disable_ipv6 = 0
+net.ipv6.conf.all.force_mld_version = 0
+net.ipv6.conf.all.force_tllao = 0
+net.ipv6.conf.all.forwarding = 0
+net.ipv6.conf.all.hop_limit = 64
+net.ipv6.conf.all.max_addresses = 16
+net.ipv6.conf.all.max_desync_factor = 600
+net.ipv6.conf.all.mc_forwarding = 0
+net.ipv6.conf.all.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.all.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.all.mtu = 1280
+net.ipv6.conf.all.ndisc_notify = 0
+net.ipv6.conf.all.proxy_ndp = 0
+net.ipv6.conf.all.regen_max_retry = 3
+net.ipv6.conf.all.router_solicitation_delay = 1
+net.ipv6.conf.all.router_solicitation_interval = 4
+net.ipv6.conf.all.router_solicitations = 3
+net.ipv6.conf.all.suppress_frag_ndisc = 1
+net.ipv6.conf.all.temp_prefered_lft = 86400
+net.ipv6.conf.all.temp_valid_lft = 604800
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.default.accept_dad = 1
+net.ipv6.conf.default.accept_ra = 1
+net.ipv6.conf.default.accept_ra_defrtr = 1
+net.ipv6.conf.default.accept_ra_from_local = 0
+net.ipv6.conf.default.accept_ra_mtu = 1
+net.ipv6.conf.default.accept_ra_pinfo = 1
+net.ipv6.conf.default.accept_redirects = 1
+net.ipv6.conf.default.accept_source_route = 0
+net.ipv6.conf.default.autoconf = 1
+net.ipv6.conf.default.dad_transmits = 1
+net.ipv6.conf.default.disable_ipv6 = 0
+net.ipv6.conf.default.force_mld_version = 0
+net.ipv6.conf.default.force_tllao = 0
+net.ipv6.conf.default.forwarding = 0
+net.ipv6.conf.default.hop_limit = 64
+net.ipv6.conf.default.max_addresses = 16
+net.ipv6.conf.default.max_desync_factor = 600
+net.ipv6.conf.default.mc_forwarding = 0
+net.ipv6.conf.default.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.default.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.default.mtu = 1280
+net.ipv6.conf.default.ndisc_notify = 0
+net.ipv6.conf.default.proxy_ndp = 0
+net.ipv6.conf.default.regen_max_retry = 3
+net.ipv6.conf.default.router_solicitation_delay = 1
+net.ipv6.conf.default.router_solicitation_interval = 4
+net.ipv6.conf.default.router_solicitations = 3
+net.ipv6.conf.default.suppress_frag_ndisc = 1
+net.ipv6.conf.default.temp_prefered_lft = 86400
+net.ipv6.conf.default.temp_valid_lft = 604800
+net.ipv6.conf.default.use_tempaddr = 0
+net.ipv6.conf.eth0.accept_dad = 1
+net.ipv6.conf.eth0.accept_ra = 1
+net.ipv6.conf.eth0.accept_ra_defrtr = 0
+net.ipv6.conf.eth0.accept_ra_from_local = 0
+net.ipv6.conf.eth0.accept_ra_mtu = 1
+net.ipv6.conf.eth0.accept_ra_pinfo = 0
+net.ipv6.conf.eth0.accept_redirects = 1
+net.ipv6.conf.eth0.accept_source_route = 0
+net.ipv6.conf.eth0.autoconf = 1
+net.ipv6.conf.eth0.dad_transmits = 1
+net.ipv6.conf.eth0.disable_ipv6 = 0
+net.ipv6.conf.eth0.force_mld_version = 0
+net.ipv6.conf.eth0.force_tllao = 0
+net.ipv6.conf.eth0.forwarding = 0
+net.ipv6.conf.eth0.hop_limit = 64
+net.ipv6.conf.eth0.max_addresses = 16
+net.ipv6.conf.eth0.max_desync_factor = 600
+net.ipv6.conf.eth0.mc_forwarding = 0
+net.ipv6.conf.eth0.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.eth0.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.eth0.mtu = 1500
+net.ipv6.conf.eth0.ndisc_notify = 0
+net.ipv6.conf.eth0.proxy_ndp = 0
+net.ipv6.conf.eth0.regen_max_retry = 3
+net.ipv6.conf.eth0.router_solicitation_delay = 1
+net.ipv6.conf.eth0.router_solicitation_interval = 4
+net.ipv6.conf.eth0.router_solicitations = 3
+net.ipv6.conf.eth0.suppress_frag_ndisc = 1
+net.ipv6.conf.eth0.temp_prefered_lft = 86400
+net.ipv6.conf.eth0.temp_valid_lft = 604800
+net.ipv6.conf.eth0.use_tempaddr = 0
+net.ipv6.conf.lo.accept_dad = -1
+net.ipv6.conf.lo.accept_ra = 1
+net.ipv6.conf.lo.accept_ra_defrtr = 1
+net.ipv6.conf.lo.accept_ra_from_local = 0
+net.ipv6.conf.lo.accept_ra_mtu = 1
+net.ipv6.conf.lo.accept_ra_pinfo = 1
+net.ipv6.conf.lo.accept_redirects = 1
+net.ipv6.conf.lo.accept_source_route = 0
+net.ipv6.conf.lo.autoconf = 1
+net.ipv6.conf.lo.dad_transmits = 1
+net.ipv6.conf.lo.disable_ipv6 = 0
+net.ipv6.conf.lo.force_mld_version = 0
+net.ipv6.conf.lo.force_tllao = 0
+net.ipv6.conf.lo.forwarding = 0
+net.ipv6.conf.lo.hop_limit = 64
+net.ipv6.conf.lo.max_addresses = 16
+net.ipv6.conf.lo.max_desync_factor = 600
+net.ipv6.conf.lo.mc_forwarding = 0
+net.ipv6.conf.lo.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.lo.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.lo.mtu = 65536
+net.ipv6.conf.lo.ndisc_notify = 0
+net.ipv6.conf.lo.proxy_ndp = 0
+net.ipv6.conf.lo.regen_max_retry = 3
+net.ipv6.conf.lo.router_solicitation_delay = 1
+net.ipv6.conf.lo.router_solicitation_interval = 4
+net.ipv6.conf.lo.router_solicitations = 3
+net.ipv6.conf.lo.suppress_frag_ndisc = 1
+net.ipv6.conf.lo.temp_prefered_lft = 86400
+net.ipv6.conf.lo.temp_valid_lft = 604800
+net.ipv6.conf.lo.use_tempaddr = -1
+net.ipv6.flowlabel_consistency = 1
+net.ipv6.fwmark_reflect = 0
+net.ipv6.icmp.ratelimit = 1000
+net.ipv6.ip6frag_high_thresh = 4194304
+net.ipv6.ip6frag_low_thresh = 3145728
+net.ipv6.ip6frag_secret_interval = 0
+net.ipv6.ip6frag_time = 60
+net.ipv6.mld_max_msf = 64
+net.ipv6.mld_qrv = 2
+net.ipv6.neigh.default.anycast_delay = 100
+net.ipv6.neigh.default.app_solicit = 0
+net.ipv6.neigh.default.base_reachable_time_ms = 30000
+net.ipv6.neigh.default.delay_first_probe_time = 5
+net.ipv6.neigh.default.gc_interval = 30
+net.ipv6.neigh.default.gc_stale_time = 60
+net.ipv6.neigh.default.gc_thresh1 = 128
+net.ipv6.neigh.default.gc_thresh2 = 512
+net.ipv6.neigh.default.gc_thresh3 = 1024
+net.ipv6.neigh.default.locktime = 0
+net.ipv6.neigh.default.mcast_solicit = 3
+net.ipv6.neigh.default.proxy_delay = 80
+net.ipv6.neigh.default.proxy_qlen = 64
+net.ipv6.neigh.default.retrans_time_ms = 1000
+net.ipv6.neigh.default.ucast_solicit = 3
+net.ipv6.neigh.default.unres_qlen = 34
+net.ipv6.neigh.default.unres_qlen_bytes = 65536
+net.ipv6.neigh.eth0.anycast_delay = 100
+net.ipv6.neigh.eth0.app_solicit = 0
+net.ipv6.neigh.eth0.base_reachable_time_ms = 30000
+net.ipv6.neigh.eth0.delay_first_probe_time = 5
+net.ipv6.neigh.eth0.gc_stale_time = 60
+net.ipv6.neigh.eth0.locktime = 0
+net.ipv6.neigh.eth0.mcast_solicit = 3
+net.ipv6.neigh.eth0.proxy_delay = 80
+net.ipv6.neigh.eth0.proxy_qlen = 64
+net.ipv6.neigh.eth0.retrans_time_ms = 1000
+net.ipv6.neigh.eth0.ucast_solicit = 3
+net.ipv6.neigh.eth0.unres_qlen = 34
+net.ipv6.neigh.eth0.unres_qlen_bytes = 65536
+net.ipv6.neigh.lo.anycast_delay = 100
+net.ipv6.neigh.lo.app_solicit = 0
+net.ipv6.neigh.lo.base_reachable_time_ms = 30000
+net.ipv6.neigh.lo.delay_first_probe_time = 5
+net.ipv6.neigh.lo.gc_stale_time = 60
+net.ipv6.neigh.lo.locktime = 0
+net.ipv6.neigh.lo.mcast_solicit = 3
+net.ipv6.neigh.lo.proxy_delay = 80
+net.ipv6.neigh.lo.proxy_qlen = 64
+net.ipv6.neigh.lo.retrans_time_ms = 1000
+net.ipv6.neigh.lo.ucast_solicit = 3
+net.ipv6.neigh.lo.unres_qlen = 34
+net.ipv6.neigh.lo.unres_qlen_bytes = 65536
+net.ipv6.route.gc_elasticity = 9
+net.ipv6.route.gc_interval = 30
+net.ipv6.route.gc_min_interval = 0
+net.ipv6.route.gc_min_interval_ms = 500
+net.ipv6.route.gc_thresh = 1024
+net.ipv6.route.gc_timeout = 60
+net.ipv6.route.max_size = 4096
+net.ipv6.route.min_adv_mss = 1220
+net.ipv6.route.mtu_expires = 600
+net.ipv6.xfrm6_gc_thresh = 32768
+net.netfilter.nf_conntrack_acct = 0
+net.netfilter.nf_conntrack_buckets = 15360
+net.netfilter.nf_conntrack_checksum = 1
+net.netfilter.nf_conntrack_count = 2
+net.netfilter.nf_conntrack_events = 1
+net.netfilter.nf_conntrack_expect_max = 228
+net.netfilter.nf_conntrack_frag6_high_thresh = 4194304
+net.netfilter.nf_conntrack_frag6_low_thresh = 3145728
+net.netfilter.nf_conntrack_frag6_timeout = 60
+net.netfilter.nf_conntrack_generic_timeout = 600
+net.netfilter.nf_conntrack_helper = 1
+net.netfilter.nf_conntrack_icmp_timeout = 30
+net.netfilter.nf_conntrack_icmpv6_timeout = 30
+net.netfilter.nf_conntrack_log_invalid = 0
+net.netfilter.nf_conntrack_max = 59264
+net.netfilter.nf_conntrack_tcp_be_liberal = 0
+net.netfilter.nf_conntrack_tcp_loose = 1
+net.netfilter.nf_conntrack_tcp_max_retrans = 3
+net.netfilter.nf_conntrack_tcp_timeout_close = 10
+net.netfilter.nf_conntrack_tcp_timeout_close_wait = 60
+net.netfilter.nf_conntrack_tcp_timeout_established = 432000
+net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_last_ack = 30
+net.netfilter.nf_conntrack_tcp_timeout_max_retrans = 300
+net.netfilter.nf_conntrack_tcp_timeout_syn_recv = 60
+net.netfilter.nf_conntrack_tcp_timeout_syn_sent = 120
+net.netfilter.nf_conntrack_tcp_timeout_time_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_unacknowledged = 300
+net.netfilter.nf_conntrack_timestamp = 0
+net.netfilter.nf_conntrack_udp_timeout = 30
+net.netfilter.nf_conntrack_udp_timeout_stream = 180
+net.netfilter.nf_log.0 = NONE
+net.netfilter.nf_log.1 = NONE
+net.netfilter.nf_log.10 = NONE
+net.netfilter.nf_log.11 = NONE
+net.netfilter.nf_log.12 = NONE
+net.netfilter.nf_log.2 = NONE
+net.netfilter.nf_log.3 = NONE
+net.netfilter.nf_log.4 = NONE
+net.netfilter.nf_log.5 = NONE
+net.netfilter.nf_log.6 = NONE
+net.netfilter.nf_log.7 = NONE
+net.netfilter.nf_log.8 = NONE
+net.netfilter.nf_log.9 = NONE
+net.nf_conntrack_max = 59264
+net.unix.max_dgram_qlen = 10
+vm.admin_reserve_kbytes = 8192
+vm.block_dump = 0
+vm.dirty_background_bytes = 0
+vm.dirty_background_ratio = 10
+vm.dirty_bytes = 0
+vm.dirty_expire_centisecs = 3000
+vm.dirty_ratio = 20
+vm.dirty_writeback_centisecs = 500
+vm.dirtytime_expire_seconds = 43200
+vm.drop_caches = 0
+vm.extfrag_threshold = 500
+vm.laptop_mode = 0
+vm.legacy_va_layout = 0
+vm.lowmem_reserve_ratio = 32
+vm.max_map_count = 65530
+vm.min_free_kbytes = 3894
+vm.mmap_min_addr = 4096
+vm.nr_pdflush_threads = 0
+vm.oom_dump_tasks = 1
+vm.oom_kill_allocating_task = 0
+vm.overcommit_kbytes = 0
+vm.overcommit_memory = 0
+vm.overcommit_ratio = 50
+vm.page-cluster = 3
+vm.panic_on_oom = 0
+vm.percpu_pagelist_fraction = 0
+vm.stat_interval = 1
+vm.swappiness = 60
+vm.user_reserve_kbytes = 29417
+vm.vfs_cache_pressure = 100
+[root@localhost UnixBench]#</pre>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-784" class="post-784 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/03/pi2e381a7fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-03T22:31:09+09:00">2015年7月3日</time></a> </span><span class="posted-on">更新日:2015年7月3日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/03/pi2e381a7fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal">pi2でFedora22</a></h1></header><div class="entry-content">
@@ -306,185 +1206,6 @@ except KeyboardInterrupt:
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/06/28/information-of-esp8266/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-06-28T01:11:53+09:00">2015年6月28日</time></a> </span><span class="posted-on">更新日:2015年6月28日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/06/28/information-of-esp8266/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Information of ESP8266 随時追加</a></h1></header><div class="entry-content"></div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-735" class="post-735 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/06/15/humidity-temperature-and-illuminance-iot-devices-with-esp12/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-06-15T01:22:24+09:00">2015年6月15日</time></a> </span><span class="posted-on">更新日:2015年6月15日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/06/15/humidity-temperature-and-illuminance-iot-devices-with-esp12/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP12単体で湿度温度照度のIoTデバイス</a></h1></header><div class="entry-content">
-<p>前回は、Arduino Nano でDHT22の湿度と、温度をゲットしていました。</p>
-<p>&#160;</p>
-<blockquote>
-<p>編集後記</p>
-<p>その後、リチウム電池と組みあわせ、IoT デバイスを作った記事がこちら <br><a href="/2015/08/25/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AEiot%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E5%AE%8C%E6%88%90/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">初めてのIoTデバイス完成</a></p>
-<p></p>
-<noscript><img title="image" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="image" src="/wp-content/uploads/2015/08/image.png" width="640" height="480"></noscript>
-<img class="lazyload" title="image" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="image" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/08/image.png" width="640" height="480">
-</blockquote>
-<p>&#160;</p>
-<p>IoTデバイスとしてデータを投げつけたいので、ESP12、単体でコーディングしました。こんな感じで、前回作成したものに、付け加える感じでとりあえずテスト。</p>
-<p></p>
-<noscript><img title="写真 1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 1" src="/wp-content/uploads/2015/06/1.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="写真 1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 1" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/06/1.jpg" width="640" height="480"><p>&#160;</p>
-<p>コードは、以下のようにしました。アクセスポイントや、ThingSpeak の書き込みAPI key などはほどよく書き換えてください。</p>
-<p>ポイントは、DHT のライブラリを初期化するときの第3のパラメータで、いろいろ試した結果、15だとうまく値が取れるようです。まだ、この値はよくわかっていませんが、CPU Clock に対応する値のようで、Arduino とかは、16Mhz のはデフォルトで、Arduino Due とか 84mhz は、30 にせよとのこと。</p>
-<p>&#160;</p>
-<p>この値は、以下のコードを見てみると、ESP01 は 11 で動作するようです。</p>
-<blockquote>
-<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>// Initialize DHT sensor <br>// NOTE: For working with a faster than ATmega328p 16 MHz Arduino chip, like an ESP8266, <br>// you need to increase the threshold for cycle counts considered a 1 or 0. <br>// You can do this by passing a 3rd parameter for this threshold.&#160; It&#8217;s a bit <br>// of fiddling to find the right value, but in general the faster the CPU the <br>// higher the value.&#160; The default for a 16mhz AVR is a value of 6.&#160; For an <br>// Arduino Due that runs at 84mhz a value of 30 works. <br>// This is for the ESP8266 processor on ESP-01 <br>DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266</p>
-</blockquote>
-<p>ESP12 では、11 だと値がおかしくなり、15 だとうまく取れました。あと、IDE は、arduino 1.6.4 以上で今回は Hourly Build&#160; を使いました。Boards Manager という機能が加わり、ツールメニューのボードからインストールできます。</p>
-<p>手動で入れてもいいんですが、まぁ便利な機能がつきましたね。</p>
-<blockquote><p><a title="http://arduino.esp8266.com/package_esp8266com_index.json" href="http://arduino.esp8266.com/package_esp8266com_index.json" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- ESP8266 HTTP get webclient.
- ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
- https://thingspeak.com/channels/42239
- Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
- esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
- JunkHack 2015.06.15
- */
- 
-#include &lt;ESP8266WiFi.h&gt;
-#include &lt;DHT.h&gt;
-
-#define DHTPIN 4
-#define DHTTYPE DHT22
-DHT dht(DHTPIN, DHTTYPE, 15);
-
-const char* ssid     = &quot;JunkHack&quot;;
-const char* password = &quot;testtest&quot;;
-
-const char* host = &quot;184.106.153.149&quot;;
-
-int WiFiConLed = 13;// WEB Connect
-int WEBconLed = 0; // WiFi Connect
-
-void setup() {
-  dht.begin();
-  
-  pinMode(WiFiConLed, OUTPUT);
-  pinMode(WEBconLed, OUTPUT);
-  Serial.begin(115200);
-  delay(10);
- 
-  // We start by connecting to a WiFi network
- 
-  Serial.println();
-  Serial.println();
-  Serial.print(&quot;Connecting to &quot;);
-  Serial.println(ssid);
- 
-  WiFi.begin(ssid, password);
- 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(&quot;.&quot;);
-    digitalWrite(WiFiConLed, HIGH);
-    delay(400);
-    digitalWrite(WiFiConLed, LOW);
-    delay(100);
-  }
- 
-  Serial.println(&quot;&quot;);
-  Serial.println(&quot;WiFi connected&quot;);
-  Serial.println(&quot;IP address: &quot;);
-  Serial.println(WiFi.localIP());
-  
-  Serial.println(&quot;DHT22 AM2302 test!&quot;);
-}
- 
-int value = 0;
-int count = 0;
-int adc = 0;
-float h = 0;
-float t = 0;
-
-void loop() {
-  delay(10000); // 10 sec
-  ++value;
- 
-  Serial.print(&quot;connecting to &quot;);
-  Serial.println(host);
- 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  const int httpPort = 80;
-  if (!client.connect(host, httpPort)) {
-    Serial.println(&quot;connection failed&quot;);
-    return;
-  }
-  
-  digitalWrite(WEBconLed, HIGH);
-  delay(1000);
-  count += 1;
-
-  Serial.print(&quot;ADC: &quot;);
-  adc = analogRead(A0);
-  Serial.println(adc);
- 
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
- 
-  if (isnan(h) || isnan(t) ) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
- 
-  Serial.print(&quot;Humidity: &quot;); 
-  Serial.print(h);
-  Serial.print(&quot; %\t&quot;);
-  Serial.print(&quot;Temperature: &quot;); 
-  Serial.print(t);
-  Serial.println(&quot; *C &quot;);
-  
-  // We now create a URI for the request
-  String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
-  url += adc;
-  url += &quot;&amp;field2=&quot;;
-  url += h;
-  url += &quot;&amp;field3=&quot;;
-  url += t;
-  
-  Serial.print(&quot;Requesting URL: &quot;);
-  Serial.println(url);
- 
-  // This will send the request to the server
-  client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
-               &quot;Host: &quot; + host + &quot;\r\n&quot; +
-               &quot;Connection: close\r\n\r\n&quot;);
-  delay(10);
- 
-  // Read all the lines of the reply from server and print them to Serial
-  while(client.available()){
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
-  }
- 
-  // Close connection
-  Serial.println();
-  Serial.println(&quot;closing connection&quot;);
-  digitalWrite(WEBconLed, LOW);
-}</pre>
-<p>&#160;</p>
-<p>データは、とまっているときもあるかもですが、以下で見れます。</p>
-<p>&#160;</p>
-<p><a title="https://thingspeak.com/channels/42239" href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://thingspeak.com/channels/42239<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>&#160;</p>
-<p><a href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="2015-06-15 1.19.12" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2015-06-15 1.19.12" src="/wp-content/uploads/2015/06/201506151-19-121.png" width="346" height="768"></noscript>
-<img class="lazyload" title="2015-06-15 1.19.12" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2015-06-15 1.19.12" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20346%20768%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/06/201506151-19-121.png" width="346" height="768"></a></p>
-<p>&#160;</p>
-<p>部屋の温度がそこそこ高いので、実際に温度計を見てみましたところ、ほぼ適正な値でした。部屋暑すぎ。</p>
-<p></p>
-<noscript><img title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="/wp-content/uploads/2015/06/2.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/06/2.jpg" width="640" height="480"><p>&#160;</p>
-<p>これで、明るさ、温度、湿度が取れました。まだ、GPIO Pin があまっているので、気圧や、雨量、風向、風量など取ろうと思えば可能ですね。また、課題となるのは、電源です。結構シビアに電源品質が問われるようで、ぼろい電源だと途中で止まります。</p>
-<p>&#160;</p>
-<p>あと、sleep mode にして平常時に、パワーを抑えるように制御する必要があります。</p>
-<p>&#160;</p>
-<p>まだ、課題はありますね。</p>
-</div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
 <div class="nav-links">

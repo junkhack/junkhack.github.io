@@ -51,7 +51,36 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1779" class="post-1779 post type-post status-publish format-standard hentry category-aliexpress category-espeink category-parts category-logic-analyzer"><div class="entry-wrapper">
+</h1></header><article id="post-1793" class="post-1793 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-parts"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/02/e-inke38387e382a3e382b9e38397e383ace382a4e381a7e38386e382b9e38388e6ba96e58299/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-02T00:09:58+09:00">2015年12月2日</time></a> </span><span class="posted-on">更新日:2015年12月2日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/12/02/e-inke38387e382a3e382b9e38397e383ace382a4e381a7e38386e382b9e38388e6ba96e58299/" rel="bookmark noopener noreferrer" data-wpel-link="internal">E-inkディスプレイでテスト準備</a></h1></header><div class="entry-content">
+<p>さて、年末に向けてE-ink を表示するテストが出来そうなので、その準備をしています。</p>
+<p>開発ボードは、ブログで先駆者がいらっしゃって、なんと開発ボードを分けていただくことになりました。ありがとうございます。</p>
+<blockquote><p>kohacraftのblog <br>タグ：電子ペーパー</p></blockquote>
+<p>E-ink ディスプレイのコネクタはPCB上につけないと無理な配線なので、電源部とコネクタから構成される開発ボードを作られていました。こちらは、まだPCB作ってないのでテストできていない旨をブログでコメントしたところ、好意で開発ボードを分けていただくことになりました。コハクラフトさま、本当にありがとうございます。E-ink のPCB発注は来年かぁと思っていたので、年末に遊べそうです。</p>
+<p>&#160;</p>
+<p>以下の回路図は、sprite_tm さんのページにある手書きのものをトレースしたものです。配線するときの覚書としてメモしておくことに。</p>
+<p><a href="/wp-content/uploads/2015/12/2_schematic_eink.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356"></noscript>
+<img class="lazyload" title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20356%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356"></a> ただいま、コハクラフト開発ルームにてハンドメイドで半田付けが行われている最中です。こちらは、シフトレジスタ部とESP側の準備をしています。そして、先に発注してあるロジックアナライザーも今年中に来ると思いますので、どんな手順を踏めば表示されるのかを解き明かしていきたいと思います。</p>
+<p>&#160;</p>
+<p>英語ソースでは先人がいるのですが、まだ要点がつかめず、ポイントの要になる部分がわかりません。コハクラフトさんのブログでいくつか解き明かされて、ソニーのdigital book reader PRS-600 本体にE-ink を挿げ替えても表示が可能だそうです。Sony のE-ink には、LB060S01-RD02 という型番のE-ink で、今回手持ちで流通している、ED060SC4(LF)を繋げても表示できるということがわかっています。上の回路図では、9pin , 10pin は繋がっていますが、そこはポイントではなさそうということが状況から言えそうです。</p>
+<p>要するに、E-ink に入れる信号のタイミングがポイントになることは間違いなさそうです。</p>
+<p>今回しょっぱなにテストしようとしているソースは、 <br><a title="https://github.com/take-i/espeink/blob/master/user/eink.c" href="https://github.com/take-i/espeink/blob/master/user/eink.c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/take-i/espeink/blob/master/user/eink.c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>で、各所にos_timer_armでタイミングをを取っている部分がいくつかあります。その関数を集約したものが、</p>
+<p><a title="https://github.com/take-i/espeink/blob/master/user/io.c" href="https://github.com/take-i/espeink/blob/master/user/io.c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/take-i/espeink/blob/master/user/io.c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>にあり、ここにもタイミングとっている部分、os_delay_us がいくつかあります。このあたりをいじって、どのような挙動だと表示され、あるいは、されないのかという根本原理を探ってみたいと思います。</p>
+<p>&#160;</p>
+<p>果たして、以下の３つのページでは何を言おうとしているのか？</p>
+<blockquote>
+<p><a href="http://essentialscrap.com/eink/electronics.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/electronics.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://essentialscrap.com/eink/waveforms.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/waveforms.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://spritesmods.com/?art=einkdisplay&amp;page=3" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://spritesmods.com/?art=einkdisplay&amp;page=3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>読んでいるだけでは、いまいちピンときません。実機を交え、１つづつ噛み砕いてみたいと思います。そして、次のE-ink ディスプレイにも応用できるノウハウが得られればと思っています。一番やりたいのは、フレキシブルなE-ink への表示です。まだ、モノがこなれていないので、入手方法がわからずですが、数年経てば入手経路も確立されてくるだろうと思っています。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1779" class="post-1779 post type-post status-publish format-standard hentry category-aliexpress category-espeink category-parts category-logic-analyzer"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/11/29/e383ade382b8e38383e382afe382a2e3838ae383a9e382a4e382b6e383bce38292e382b2e38383e38388/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2015-11-29T20:53:57+09:00">2015年11月29日</time><time class="updated" datetime="2021-02-20T08:36:07+09:00">2021年2月20日</time></a> </span><span class="posted-on">更新日:2021年2月20日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/logic-analyzer/" rel="category tag noopener noreferrer" data-wpel-link="internal">ロジックアナライザ</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/11/29/e383ade382b8e38383e382afe382a2e3838ae383a9e382a4e382b6e383bce38292e382b2e38383e38388/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ロジックアナライザーをゲット</a></h1></header><div class="entry-content">
@@ -649,29 +678,6 @@ $ sudo make install
 <img class="lazyload" title="esp-wroom-02" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-wroom-02" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20377%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/11/espwroom02_thumb.png" width="640" height="377"></a> backboost の基板に使用する予定です。基板が着たら、WiFi E-ink のプログラムもコンパイルできるか確認しようと思っています。WiFi E-ink のユニットもESP12 ではなく、ESP13（ESP-WROOM-02 ） にしたいところです。</p>
 <p>&#160;</p>
 <p>個人が、開発用に技適マーク相当が取得できるような施策があれば良いのですがね。開発ルームにシールドを作るのもコストがかかりますしね。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1720" class="post-1720 post type-post status-publish format-standard hentry category-blog category-music"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/11/22/rdio-e3818c-pandora-e58298e4b88be381b8/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-11-22T15:03:45+09:00">2015年11月22日</time></a> </span><span class="posted-on">更新日:2015年11月22日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/music/" rel="category tag noopener noreferrer" data-wpel-link="internal">music</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/11/22/rdio-e3818c-pandora-e58298e4b88be381b8/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Rdio が Pandora 傘下へ</a></h1></header><div class="entry-content">
-<p>ずっとRDIOは楽しんでいるのですが、最近はモバイル端末で聞くことも少なくなってきて1年くらいまえから無料版にしました。無料版は曲間にコマーシャルが入るのですが、Rdio 自体のロゴが出てきたので、キャプチャー。</p>
-<p>&#160;</p>
-<p> <a href="/wp-content/uploads/2015/11/love_rdio.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="LOVE_Rdio" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="LOVE_Rdio" src="/wp-content/uploads/2015/11/love_rdio_thumb.png" width="640" height="236"></noscript>
-<img class="lazyload" title="LOVE_Rdio" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="LOVE_Rdio" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20236%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/11/love_rdio_thumb.png" width="640" height="236"></a>&#160;</p>
-<p>青いバージョンのもあるようです。で、なんでRdio 自体の事言ってるのかなぁと思ってサイトを見たら（普段は曲だけ流して画面はあまり見ないので）</p>
-<p><a href="/wp-content/uploads/2015/11/love2__rdio.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="LOVE2_–_Rdio" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="LOVE2_–_Rdio" src="/wp-content/uploads/2015/11/love2__rdio_thumb.png" width="484" height="104"></noscript>
-<img class="lazyload" title="LOVE2_–_Rdio" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="LOVE2_–_Rdio" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20484%20104%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/11/love2__rdio_thumb.png" width="484" height="104"></a> 重要なお知らせって何？ と思ってたら、なんと、なんと、Rdio は、Pandora に買収されるようです。</p>
-<blockquote><h4><a href="http://blog.rdio.com/us/2015/11/important-news-from-rdio.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Important News From Rdio<span class="wpel-icon wpel-image wpel-icon-1"></span></a></h4></blockquote>
-<p>うーん、非常に残念ですね。RDIO のインターフェイスやデザインセンスはすごく好きですので、pandora 傘下になってどうなるんでしょうか。いい方向に進むといいのですが。</p>
-<p>&#160;</p>
-<p>しばらくはサービスが継続するそうですが、この a のロゴは今後もう見れないことになります。残念ですね。今、サブスクリプションで有料会員の人は、11/23 ( 月 ) に自動的にキャンセルされるようです。今後は、pandora の料金体系に入るのかな？</p>
-<p>&#160;</p>
-<p>アプリや楽曲のインターフェイスなど、基本的なテクノロジーをpandora はそのまま使うだろうと予想されるので、ユーザはそう変わらないのかもしれません。</p>
-<p>&#160;</p>
-<p>難しいジャンルに挑んだ Rdio の挑戦はとりあえず幕を下ろしたことになります。2011年の12月に存在を知ってから(創業は2009年)、4年です。残る覇者は、Spotify ですか。今後は、Pandora vs Spotify vs LastFM vs etc という図式ですかね。最近、オンラインストリーミングのサービスは調査していませんので、いろいろあると思いますが。</p>
-<p>&#160;</p>
-<p>インターフェイスのキャプチャーをサービスが終了する前に撮っておきますかね。もうi-phone や アンドロイドなどのモバイルアプリはダウンロードできないので、PC のみですが。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

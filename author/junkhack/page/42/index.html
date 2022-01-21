@@ -50,7 +50,46 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-3359" class="post-3359 post type-post status-publish format-standard hentry category-3d-print category-4 category-diy"><div class="entry-wrapper">
+</h1></header><article id="post-3366" class="post-3366 post type-post status-publish format-standard hentry category-bluetooth category-esp32"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/02/27/esp32-bluetooth/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-02-27T03:27:36+09:00">2017年2月27日</time></a> </span><span class="posted-on">更新日:2017年2月27日</span> <span class="categories"> <a href="/category/bluetooth/" rel="category tag noopener noreferrer" data-wpel-link="internal">Bluetooth</a>, <a href="/category/esp32/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP32</a></span>
+</div>
+<h1 class="entry-title"><a href="/2017/02/27/esp32-bluetooth/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP32（ESP-WROOM-32） のBluetoothライブラリーサンプルが来た模様</a></h1></header><div class="entry-content">
+<p>定期的に ESP32 の情報は見ているのですが、最近ちょっとサボっていましてそういえば、Bluetooth回りのサンプルプログラムはどうなったかなーと、情報を見てみました。前回（いつかは忘れましたが）調査したときは、まだ ESP32 の Bluetooth ライブラリは整備されていませんでした。EPS32 の最大の特徴である Bluetooth が整備されるまではもう少し様子見しようと思っていたのでした。</p>
+<p>しかし、時代はあっという間に流れます。特にこの IoT 分野は。Espressif もかなり力の入れようのようです。どうやら、３日ほど前に、Bluetoothのサンプルがつっこまれたようです。だれがメンテしているかは詳しくみていませんが、以下あたりにそれっぽいのがあります。</p>
+<blockquote>
+<p>GitHub espressif/esp-idf</p>
+<p><a title="https://github.com/espressif/esp-idf/tree/master/examples/bluetooth" href="https://github.com/espressif/esp-idf/tree/master/examples/bluetooth" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/espressif/esp-idf/tree/master/examples/bluetooth<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>bt lib</p>
+<p><a title="https://github.com/espressif/esp-idf/tree/master/components/bt" href="https://github.com/espressif/esp-idf/tree/master/components/bt" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/espressif/esp-idf/tree/master/components/bt<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>Bluetooth回りの手入れも頻繁に行われているようです。まだ EPS32 自体をゲットしていないのでどんな感じかわかりませんが、このあたりが整備されてきたのでそろそろ触りだしてもいいかなと思っています。</p>
+<p>サンプルのビデオなども、以下からリンクされています。</p>
+<blockquote>
+<p>ESP32 ( Espressif が作っているオフィシャル情報ポータル)</p>
+<p><a title="http://esp32.net/" href="http://esp32.net/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://esp32.net/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>&#160;</p>
+<p>nRF51822 機器と接続するサンプルのビデオとかもあって、面白そうだなと。CNCプロジェクトを終えてこれらを触りたいな。</p>
+<p>どのくらいの消費電力で、通信するのか、deepsleep から定期的に bluetooth センサーから情報を得るにはどうしたらいいのか？などなど基本情報を調査してみたいです。</p>
+<p>&#160;</p>
+<p>ESP32 はアリエクでは高いので、５個くらいを送料無料で日本（スイッチサイエンスさんとか）から買うのが良さそうですね。１個７００円なので５個で３０００円以上送料無料。700円というは結構安い価格付けですね。</p>
+<p>アリエクで以下のをゲットして、くっつけるってのが良さそうですね。￥ 791 ESP32 が載ったものは2000円以上しますので。</p>
+<p><a href="https://www.aliexpress.com/w/wholesale-ESP32-Development-Board.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480"></noscript>
+<img class="lazyload" title="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xmGkPXXXXXXxXpXXq6xXFXXX4" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20608%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/htb1xmgkpxxxxxxxxpxxq6xxfxxx4.jpg" width="608" height="480"></a>ということで、この開発ボードアダプターはポチっておきました。あと、スイッチサイエンスさんからモジュールを１つゲットしました。</p>
+<p>&#160;</p>
+<blockquote>
+<p><a title="https://www.switch-science.com/catalog/3156/" href="https://www.switch-science.com/catalog/3156/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.switch-science.com/catalog/3156/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>商 品 名：ESP-WROOM-32 Wi-Fi + BLEモジュール <br>商品コード：ESP-WROOM-32（商品番号：3156） <br>数量 ：1 個 <br>単品価格 ：￥ 700</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;</p>
+<p>小 計 ￥ 700 <br>送 料 ￥ 150 <br>値引き ￥ 0 <br>手数料 ￥ 0 <br>=============================================================== <br>合 計 ￥ 850</p>
+</blockquote>
+<p>&#160;</p>
+<p>これが到着するまでには、CNC ルータを完成させねば。</p>
+<p>pcbrefluxさんのビデオは暇なときに見てみることにします。</p>
+<p><a title="https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU" href="https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-3359" class="post-3359 post type-post status-publish format-standard hentry category-3d-print category-4 category-diy"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/02/26/diy-3d-printer-3/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-02-26T17:39:32+09:00">2017年2月26日</time></a> </span><span class="posted-on">更新日:2017年2月26日</span> <span class="categories"> <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/9999/" rel="category tag noopener noreferrer" data-wpel-link="internal">9999</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
 </div>
 <h1 class="entry-title"><a href="/2017/02/26/diy-3d-printer-3/" rel="bookmark noopener noreferrer" data-wpel-link="internal">9999円以下で作るDIY 3Dプリンターその３</a></h1></header><div class="entry-content">
@@ -314,44 +353,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <img class="lazyload" title="D-SlotV2_coreXY 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 6" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20643%20556%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/dslotv2_corexy6.png" width="643" height="556"><p>この位置でいいということにして、ブラケットを作りますか。おんなじところを考えていて、飽きました。もう少しで、この闇から抜け出せそうです。</p>
 <p>&#160;</p>
 <p>早くスピンドルに行って、モーターを動かしながらZ軸と合わせて考えてみたいです。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-3282" class="post-3282 post type-post status-publish format-standard hentry category-3d-print category-diy"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/02/19/e382b9e38397e383bce383abe3839be383abe38380e383bce5ae8ce68890/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-02-19T21:24:33+09:00">2017年2月19日</time></a> </span><span class="posted-on">更新日:2017年2月19日</span> <span class="categories"> <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
-</div>
-<h1 class="entry-title"><a href="/2017/02/19/e382b9e38397e383bce383abe3839be383abe38380e383bce5ae8ce68890/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スプールホルダー完成</a></h1></header><div class="entry-content">
-<p>608 のベアリングを４つ使ったスプールホルダーを作ってみました。</p>
-<p></p>
-<noscript><img title="IMGP1243" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1243" src="/wp-content/uploads/2017/02/imgp1243.jpg" width="640" height="426"></noscript>
-<img class="lazyload" title="IMGP1243" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1243" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20426%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1243.jpg" width="640" height="426"><p>まずは、１セット。</p>
-<p></p>
-<noscript><img title="IMGP1244" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1244" src="/wp-content/uploads/2017/02/imgp1244.jpg" width="640" height="425"></noscript>
-<img class="lazyload" title="IMGP1244" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1244" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20425%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1244.jpg" width="640" height="425"><p>ミスミのマスキングテープも問題なさそうです。</p>
-<p></p>
-<noscript><img title="IMGP1245" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1245" src="/wp-content/uploads/2017/02/imgp1245.jpg" width="640" height="426"></noscript>
-<img class="lazyload" title="IMGP1245" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1245" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20426%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1245.jpg" width="640" height="426"><p>608 のベアリングプーリーはサイズが小さかったようで、少し削ったのですが無理やりはめたら割れてしまいました。</p>
-<p></p>
-<noscript><img title="p_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="p_" src="/wp-content/uploads/2017/02/p_.png" width="640" height="800"></noscript>
-<img class="lazyload" title="p_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="p_" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20800%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/p_.png" width="640" height="800"><p>直径は、22mm なんですが内径は少し縮小するので、22.6mm くらいでちょうどいいです。ということで、これはデータを作り直し。</p>
-<p></p>
-<noscript><img title="IMGP1249" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1249" src="/wp-content/uploads/2017/02/imgp1249.jpg" width="640" height="426"></noscript>
-<img class="lazyload" title="IMGP1249" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1249" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20426%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1249.jpg" width="640" height="426"><p>少し圧入する感じでちょうど良くはまりました。色は白にしてみました。</p>
-<p></p>
-<noscript><img title="IMGP1248" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1248" src="/wp-content/uploads/2017/02/imgp1248.jpg" width="640" height="425"></noscript>
-<img class="lazyload" title="IMGP1248" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1248" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20425%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1248.jpg" width="640" height="425"><p>ベアリングの軸受け部分も少し大きいので、バーナーで少しだけあぶり入れました。</p>
-<p></p>
-<noscript><img title="IMGP1250" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1250" src="/wp-content/uploads/2017/02/imgp1250.jpg" width="640" height="426"></noscript>
-<img class="lazyload" title="IMGP1250" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1250" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20426%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1250.jpg" width="640" height="426"><p>片側は、ワッシャーを入れてあります。</p>
-<p></p>
-<noscript><img title="IMGP1253" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1253" src="/wp-content/uploads/2017/02/imgp1253.jpg" width="640" height="426"></noscript>
-<img class="lazyload" title="IMGP1253" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1253" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20426%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1253.jpg" width="640" height="426"><p>挟み込む部分を微妙に削り、装着。</p>
-<p> </p>
-<noscript><img title="IMGP1252" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1252" src="/wp-content/uploads/2017/02/imgp1252.jpg" width="640" height="426"></noscript>
-<img class="lazyload" title="IMGP1252" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1252" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20426%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/imgp1252.jpg" width="640" height="426"><p>いい感じに転がります。これはいいですね。</p>
-<p>&#160;</p>
-<p>リサイズしたプーリーは以下にアップしておきました。</p>
-<p><a href="http://www.thingiverse.com/thing:2121490" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="Spool_Holder_608_Bearing_by_junkhack_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Spool_Holder_608_Bearing_by_junkhack_-_Thingiverse" src="/wp-content/uploads/2017/02/spool_holder_608_bearing_by_junkhack__thingiverse.png" width="640" height="450"></noscript>
-<img class="lazyload" title="Spool_Holder_608_Bearing_by_junkhack_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Spool_Holder_608_Bearing_by_junkhack_-_Thingiverse" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20450%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2017/02/spool_holder_608_bearing_by_junkhack__thingiverse.png" width="640" height="450"></a></p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

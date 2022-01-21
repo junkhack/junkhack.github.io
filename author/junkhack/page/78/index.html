@@ -50,7 +50,148 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-886" class="post-886 post type-post status-publish format-standard hentry category-filesystem category-linux"><div class="entry-wrapper">
+</h1></header><article id="post-891" class="post-891 post type-post status-publish format-standard hentry category-linux category-osx category-raspberry-pi"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/25/nfs-boot/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-25T17:09:06+09:00">2015年7月25日</time></a> </span><span class="posted-on">更新日:2015年7月25日</span> <span class="categories"> <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/07/25/nfs-boot/" rel="bookmark noopener noreferrer" data-wpel-link="internal">NFS Boot に成功した</a></h1></header><div class="entry-content">
+<p>とりあえず、NFS Boot は本当にできるのか試してみました。結果、できました。 <br>実際やってみると、いろいろとはまるところがありましたが、おおむね以下の手順。忘れないうちにメモしておきます。</p>
+<p>▼環境</p>
+<p>NFS Server・・・・osx 10.9.5</p>
+<p>Boot OS・・・・・ 2015-05-05-raspbian-wheezy</p>
+<p>&#160;</p>
+<p>▼操作の流れ</p>
+<p>・NFS サーバでシェアする用意</p>
+<p>・arm 用の img のルートファイルシステムを NFS へコピー（大体は第２パーティションにあり。Fedora とは3番目）</p>
+<p>・SDCard の FATフォーマットの boot の cmdline.txt へ nfs boot する設定と、IP の設定</p>
+<p>&#160;</p>
+<p>▼osx の NFS Server 側</p>
+<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルは<a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/nfsd.8.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。</p>
+<blockquote><p>&#8212;- /etc/exports <br>/nfs/fedora22 -rw -mapall=root:wheel -network 192.168.1.0 -mask 255.255.255.0</p></blockquote>
+<p>exports ファイルがあればnfsd が起動しますが、手動で操作したい場合は</p>
+<blockquote><p># nfsd start | stop</p></blockquote>
+<p>NFS で提供しているパスの確認。</p>
+<blockquote><p># showmount -e localhost <br>Exports list on localhost: <br>/nfs/fedora22&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 192.168.1.0 <br>::</p></blockquote>
+<p>最初fedora22 入れようとして、失敗して、RASPIAN 入れたので名前があれですが。</p>
+<p>それで、boot したい img をコピー。以下は、centos6.x で、osx の NFS をマウントして、rsync しています。centos6はバーチャルボックスでosx を同じネットワークセグメントにいます。</p>
+<blockquote><p>[root@cent66 etc]# df -hT <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Type&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on <br>:: <br>hope.junkhack:/exports&#160;&#160;&#160;&#160;&#160;&#160; nfs&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /nfs <br>hope.junkhack:/nfs/fedora22&#160; nfs&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /mnt/fedora22</p></blockquote>
+<p>hope.junkhack は名前解決できるようにしてあります。ちなみに、fstab はこんな感じのデフォルト。</p>
+<blockquote><p>&#8212;- /etc/fstab <br>:: <br>hope.junkhack:/exports&#160;&#160;&#160; /nfs&#160;&#160;&#160;&#160;&#160;&#160;&#160; nfs&#160;&#160;&#160;&#160;&#160;&#160;&#160; defaults&#160;&#160;&#160; 0 0 <br>hope.junkhack:/nfs/fedora22&#160;&#160;&#160; /mnt/fedora22&#160;&#160;&#160; nfs&#160;&#160;&#160;&#160;&#160;&#160;&#160; defaults&#160;&#160;&#160; 0 0</p></blockquote>
+<p>で、RASPIAN のイメージをマウント。</p>
+<blockquote>
+<p>[root@cent66 RASPBIAN]# kpartx -av 2015-05-05-raspbian-wheezy.img <br>add map loop0p1 (253:2): 0 114688 linear /dev/loop0 8192 <br>add map loop0p2 (253:3): 0 6277120 linear /dev/loop0 122880</p>
+<p>[root@cent66 RASPBIAN]# mount /dev/mapper/loop0p2 /mnt/raspi/</p>
+<p>[root@cent66 RASPBIAN]# df -h <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on <br>:: <br>hope.junkhack:/exports&#160;&#160;&#160;&#160;&#160;&#160;&#160; 466G&#160; 388G&#160;&#160; 78G&#160; 84% /nfs <br>hope.junkhack:/nfs/fedora22&#160;&#160; 466G&#160; 388G&#160;&#160; 78G&#160; 84% /mnt/fedora22 <br>/dev/mapper/loop0p2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 3.0G&#160; 2.4G&#160; 451M&#160; 85% /mnt/raspi <br>[root@cent66 RASPBIAN]#</p>
+</blockquote>
+<p>で、コピー。</p>
+<blockquote>
+<p>[root@cent66 RASPBIAN]# rsync -av /mnt/raspi/ /mnt/fedora22/ <br>sending incremental file list <br>./ <br>bin/ <br>bin/bash <br>bin/bunzip2</p>
+<p>::</p>
+<p>var/spool/cron/crontabs/ <br>var/spool/rsyslog/ <br>var/tmp/</p>
+<p>sent 2304687346 bytes&#160; received 1293752 bytes&#160; 4274293.05 bytes/sec <br>total size is 2299569061&#160; speedup is 1.00 <br>[root@cent66 RASPBIAN]#</p>
+<p>&#160;</p>
+</blockquote>
+<p>で、NFS でブートするときに fstab の中がそのままだと、SD カードのパーティションをchroot してしまうのでコメントアウト。</p>
+<blockquote>
+<p>[root@cent66 etc]# vim fstab</p>
+<p>proc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; /proc&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; proc&#160;&#160;&#160; defaults&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;&#160;&#160;&#160; 0 <br>/dev/mmcblk0p1&#160; /boot&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; vfat&#160;&#160;&#160; defaults&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0&#160;&#160;&#160;&#160;&#160;&#160; 2 <br>#/dev/mmcblk0p2&#160; /&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ext4&#160;&#160;&#160; defaults,noatime&#160; 0&#160;&#160;&#160;&#160;&#160;&#160; 1</p>
+</blockquote>
+<p>NFS側のイメージ展開は以上で終わり。</p>
+<p>&#160;</p>
+<p>▼Boot するcmdline.txt の中に以下を追加</p>
+<blockquote><p>root=/dev/nfs rootfstype=nfs nfsroot=192.168.1.17:/nfs/fedora22,udp,vers=3,nolock ip=192.168.1.24:192.168.1.17:192.168.1.1:255.255.255.0:rpi:eth0:off</p></blockquote>
+<p>nolock のオプションは必要ないかもしれません。とりあえず、これで動いてはいます。IPのところは以下の書式。</p>
+<blockquote><p>ip=&lt;raspberrypi_ip&gt;:&lt;nfs_server_ip&gt;:&lt;default_gateway&gt;:&lt;mask&gt;:rpi:eth0:off</p></blockquote>
+<p>シリアルコンソールのブートログは、</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[    4.638898] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
+
+[    4.674857] IP-Config: Complete:
+
+[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1
+
+[    4.694694]      host=rpi, domain=, nis-domain=(none)
+
+[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=
+
+[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.
+
+[    4.729328] devtmpfs: mounted
+
+[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)
+
+[    5.132474] random: nonblocking pool is initialized
+
+[    6.228285] udevd[177]: starting version 175
+
+
+
+Raspbian GNU/Linux 7 pi ttyAMA0
+
+
+
+pi login: </pre>
+<p>となっています。</p>
+<p>NFS Boot させたあと、uname したら、</p>
+<blockquote>
+<p>root@pi:~# uname -a<br> <br>Linux pi 4.0.7-v7+ #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015 armv7l GNU/Linux</p>
+<p>root@pi:~#</p>
+</blockquote>
+<p>げ、fedora の initramfs からブートしてます。SDCard の boot は、初回にスクリプトで作ったやつだった。。。。</p>
+<blockquote>
+<p>root@pi:/boot# ll *.img<br> <br>-rwxr-xr-x 1 root root 39176850 Jul&#160; 4 17:40 initramfs-0-rescue-18b4f0b4546f49828e1ef5e652cc7b9a.img</p>
+<p>-rwxr-xr-x 1 root root 16475761 Jul&#160; 4 17:36 initramfs-4.0.6-300.fc22.armv7hl+lpae.img</p>
+<p>-rwxr-xr-x 1 root root&#160; 3987856 Jul&#160; 2 23:35 kernel7.img</p>
+<p>-rwxr-xr-x 1 root root&#160; 4016696 Jul&#160; 2 23:35 kernel.img</p>
+<p>root@pi:/boot#</p>
+</blockquote>
+<p>たぶん、RASPIAN のimg の boot からやれば、良いはず。まだ試していませんが。</p>
+<p>df はこんな感じで、ルートがnfs になっています。76Gも空きがあるー（osx 側のディスクですが）</p>
+<blockquote>
+<p>root@pi:~# df -hT<br> <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Type&#160;&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on</p>
+<p>192.168.1.17:/nfs/fedora22 nfs&#160;&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /</p>
+<p>devtmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; devtmpfs&#160; 459M&#160;&#160;&#160;&#160; 0&#160; 459M&#160;&#160; 0% /dev</p>
+<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160;&#160; 93M&#160; 216K&#160;&#160; 93M&#160;&#160; 1% /run</p>
+<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 5.0M&#160;&#160;&#160;&#160; 0&#160; 5.0M&#160;&#160; 0% /run/lock</p>
+<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 186M&#160;&#160;&#160;&#160; 0&#160; 186M&#160;&#160; 0% /run/shm</p>
+<p>/dev/mmcblk0p1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; vfat&#160;&#160;&#160;&#160;&#160; 200M&#160;&#160; 98M&#160; 102M&#160; 50% /boot</p>
+</blockquote>
+<p>このままだと、モジュールを読み込んでいないので使えませんが、、、</p>
+<blockquote>
+<p>root@pi:~# lsmod<br> <br>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
+<p>root@pi:~# ll /lib/modules/</p>
+<p>total 8</p>
+<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11+</p>
+<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11-v7+</p>
+<p>root@pi:~#</p>
+</blockquote>
+<p>Boot の img を RASPBIAN のに入れ替えて、リブート</p>
+<blockquote>
+<p>[root@pi ~ 07/25 20:40:51]# ll /boot/*.img<br> <br>-rwxr-xr-x 1 root root 3930004 Apr 27 13:40 /boot/kernel7.img</p>
+<p>-rwxr-xr-x 1 root root 3974884 Apr 27 13:40 /boot/kernel.img</p>
+</blockquote>
+<p>これでkernel も ローダブルモジュールもOK な感じ。</p>
+<blockquote>
+<p>[root@pi ~ 07/25 20:41:40]# uname -a<br> <br>Linux pi 3.18.11-v7+ #781 SMP PREEMPT Tue Apr 21 18:07:59 BST 2015 armv7l GNU/Linux</p>
+<p>[root@pi ~ 07/25 20:44:14]# lsmod</p>
+<p>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
+<p>cfg80211&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 386508&#160; 0</p>
+<p>rfkill&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 16651&#160; 1 cfg80211</p>
+<p>rpcsec_gss_krb5&#160;&#160;&#160;&#160;&#160;&#160;&#160; 20958&#160; 0</p>
+<p>nfsd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 263569&#160; 2</p>
+<p>snd_bcm2835&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 18649&#160; 0</p>
+<p>snd_pcm&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 73475&#160; 1 snd_bcm2835</p>
+<p>snd_seq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 53078&#160; 0</p>
+<p>snd_seq_device&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 5628&#160; 1 snd_seq</p>
+<p>snd_timer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 17784&#160; 2 snd_pcm,snd_seq</p>
+<p>snd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 51038&#160; 5 snd_bcm2835,snd_timer,snd_pcm,snd_seq,snd_seq_device</p>
+<p>8192cu&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 528365&#160; 0</p>
+<p>joydev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8879&#160; 0</p>
+<p>evdev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 9950&#160; 2</p>
+<p>uio_pdrv_genirq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 2958&#160; 0</p>
+<p>uio&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8119&#160; 1 uio_pdrv_genirq</p>
+</blockquote>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-886" class="post-886 post type-post status-publish format-standard hentry category-filesystem category-linux"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/24/aufse381a8e3818b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-24T06:49:46+09:00">2015年7月24日</time></a> </span><span class="posted-on">更新日:2015年7月24日</span> <span class="categories"> <a href="/category/filesystem/" rel="category tag noopener noreferrer" data-wpel-link="internal">FileSystem</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/24/aufse381a8e3818b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">AUFSとか</a></h1></header><div class="entry-content">
@@ -322,184 +463,6 @@ drwxr-xr-x  4 root  wheel  136 12 20  2014 webdav.fs</pre>
 <p>３が正等な方法ですが、気力がわいてこないので、１か、２で対応しようと思っていますが、これも気力がわいてこない。一番お手軽なのは、２なので、やる気が沸いてくるまで、他のことを考えようかと思います。</p>
 <p>&#160;</p>
 <p>ふぅ。いろいろありますね～。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-864" class="post-864 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/19/berryboot-e794a8e381aeboot-img/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-19T05:48:24+09:00">2015年7月19日</time></a> </span><span class="posted-on">更新日:2015年7月19日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/07/19/berryboot-e794a8e381aeboot-img/" rel="bookmark noopener noreferrer" data-wpel-link="internal">BerryBoot 用のBoot img 作成でドはまり</a></h1></header><div class="entry-content">
-<p>かなり、ハマッてしまったのでポイントを後ほど、メモしておくことにします。</p>
-<p>何にはまったかっていうと、Fedora21 ～ 22 の各種ARM 用のイメージファイルを BerryBoot の img にする手順がうまくいかなくて、以下のようになって、Kernel panic でBoot しないわけで。くじけそうになった最後にやっとできました。</p>
-<p>&#160;</p>
-<p>オフィシャルの手順は、以下のように紹介されています。</p>
-<blockquote>
-<p><a href="http://www.berryterminal.com/doku.php/berryboot/adding_custom_distributions" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Adding your own custom operating systems to the menu<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>$ sudo kpartx -av image_you_want_to_convert.img <br>add map loop0p1 (252:5): 0 117187 linear /dev/loop0 1 <br>add map loop0p2 (252:6): 0 3493888 linear /dev/loop0 118784 <br>$ sudo mount /dev/mapper/loop0p2 /mnt <br>$ sudo sed -i &#8216;s/^\/dev\/mmcblk/#/g&#8217; /mnt/etc/fstab <br>$ sudo mksquashfs /mnt converted_image_for_berryboot.img -comp lzo -e lib/modules <br>$ sudo umount /mnt <br>$ sudo kpartx -d image_you_want_to_convert.img</p>
-</blockquote>
-<p>実際にやってみると、まぁ、いろいろあるのはいつものこと。</p>
-<p>ポイントは、<strong>ルートファイルシステム直下のシンボリックリンクを実態にして、逆側から張りなおすこと！</strong>そうしないと、以下のようになって、RAM ディスクの kernel から、動かす img の ファイルシステムがマウントできません。後ほど、手順をつけておきます。次やるとき、絶対忘れる自信があるので。</p>
-<p></p>
-<noscript><img title="写真" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真" src="/wp-content/uploads/2015/07/c1ed947c41a8.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="写真" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/07/c1ed947c41a8.jpg" width="640" height="480"><p>とりあえず出来たので画像メモを貼り付け。</p>
-<p></p>
-<noscript><img title="写真_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真_2" src="/wp-content/uploads/2015/07/22.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="写真_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真_2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/07/22.jpg" width="640" height="480"><p>で、各種初期設定をすればOK</p>
-<p></p>
-<noscript><img title="写真_1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真_1" src="/wp-content/uploads/2015/07/12.jpg" width="640" height="480"></noscript>
-<img class="lazyload" title="写真_1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真_1" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/07/12.jpg" width="640" height="480"><p>もうね、疲れました。が、ARM の IoT デバイスのノウハウが貯まったということで、少し前進。各ディストリビューションも ARM 用のオフィシャルイメージの準備もしてきているわけですし。野良イメージは怖いので、とりあえずはオフィシャルのを使えるようになったということで、満足。</p>
-<p><a href="https://arm.fedoraproject.org/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="Fedora_ARM" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Fedora_ARM" src="/wp-content/uploads/2015/07/fedora_arm2.png" width="644" height="700"></noscript>
-<img class="lazyload" title="Fedora_ARM" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Fedora_ARM" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20644%20700%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/07/fedora_arm2.png" width="644" height="700"></a> さて、QKして気力、体力も復活したので、忘れないうちにメモしておきます。</p>
-<p>オフィシャルの ARM イメージは上のリンクから辿って、以下のようなファイルが落とせます。ファイルサイズの大きい順では、</p>
-<blockquote><p>Size byte&#160;&#160; M,GB&#160; FineName <br>&#8212;&#8212;&#8212;-&#160; &#8212;-&#160; &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; <br>1194022996&#160; 1.1G&#160; Fedora-Workstation-armhfp-22-3-sda.raw.xz <br>1129186356&#160; 1.1G&#160; Fedora-KDE-armhfp-22-3-sda.raw.xz <br> 837507064&#160; 799M&#160; Fedora-Xfce-armhfp-22-3-sda.raw.xz <br> 761534064&#160; 726M&#160; Fedora-LXDE-armhfp-22-3-sda.raw.xz <br> 552451864&#160; 527M&#160; Fedora-SoaS-armhfp-22-3-sda.raw.xz <br> 427291172&#160; 407M&#160; Fedora-Server-armhfp-22-3-sda.raw.xz <br> 301285980&#160; 287M&#160; Fedora-Minimal-armhfp-22-3-sda.raw.xz</p></blockquote>
-<p>となります。</p>
-<p>今までは、GUI環境などはまったく無視してきたので、どの環境がよいのかはわかりませんが、下２つはサーバ用途ですので、今回はFedora の代表的な顔である、Workstation を入れてみたいと思います。まぁ、最後は結局全部入れることになるわけですが。</p>
-<p>&#160;</p>
-<p>さて、今回の手順は、BerryBoot の インストールできる状態のイメージの作成ということですが、今回は、さらに iscsi boot する環境でそれをテストしてみたいと思います。とは、言っても通常のSDカードやUSBデバイス（USBメモリやUSB HDD）に入れるのとそれほど変わりはありません。</p>
-<p>前提条件をまとめますと以下のようになります。</p>
-<blockquote>
-<p>今回の環境</p>
-<p>・BerryBoot で、ISCSI Bootの SCSI デバイスにルートを入れる</p>
-<p>・BerryBoot 用のimg があれば、インストールはBerryBoot のインスーラーがいれてくれる</p>
-<p>・ARM 物理環境は、RasPi2 + 2GB SDCard (実際は250Mもあれば足ります）＋ LAN (WiFi でもいけるようです）</p>
-<p>・iSCSI のターゲットは、FreeNAS （この説明は除外）で、仮想環境で提供。本体はosx</p>
-<p>・img 作成には、ubuntu 12 を使用</p>
-</blockquote>
-<p>作業の流れは、以下のようになります。</p>
-<blockquote>
-<p>1) FedoraのARMオフィシャルサイトより、イメージを取得</p>
-<p>2) 圧縮されているので展開し、img の状態に。</p>
-<p>3) img の中にあるルートパーティションをマウント</p>
-<p>4) ルート直下のシンボリックリンクを修正</p>
-<p>5) fstab をコメントアウト</p>
-<p>6) lzo 圧縮した BerryBoot 用の img を作成</p>
-<p>7) 後処理</p>
-</blockquote>
-<p><strong>手順 1</strong></p>
-<p>ubuntu上で、作業します。</p>
-<p>オフィシャルサイトより、イメージをゲット。全部 root でやってますので、sudo は付けていません。</p>
-<blockquote>
-<p># wget https://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/armhfp/Images/Fedora-Workstation-armhfp-22-3-sda.raw.xz</p>
-<p><a href="http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Workstation/armhfp/Images/Fedora-Workstation-Images-armhfp-22-CHECKSUM" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">CHECKSUM<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p># sha256sum Fedora-Workstation-armhfp-22-3-sda.raw.xz</p>
-<p> ※sum を確認</p>
-</blockquote>
-<p><strong>手順 2</strong></p>
-<p>ファイルは何なのか確認。</p>
-<blockquote><p># file Fedora-Workstation-armhfp-22-3-sda.raw.xz <br>Fedora-Workstation-armhfp-22-3-sda.raw.xz: XZ compressed data</p></blockquote>
-<p>XZ 圧縮なので、xzcat で展開して、img とします。</p>
-<blockquote><p># xzcat -v Fedora-Workstation-armhfp-22-3-sda.raw.xz &gt; Fedora-Workstation-armhfp-22-3-sda.img</p></blockquote>
-<p>速ければ、1分ちょいくらいです。</p>
-<p><strong>手順 3</strong></p>
-<p>img ファイルの中のルートファイルシステムをマウントします。kpartx だと簡単ですが、無い環境用に、手動でやる方法も書いておきます。kpartx -a で、イメージファイルの中のパーティションをブロックデバイスに割付ます。</p>
-<blockquote><p># kpartx -av Fedora-Workstation-armhfp-22-3-sda.img <br>add map loop0p1 (252:0): 0 999424 linear /dev/loop0 2048 <br>add map loop0p2 (252:1): 0 1000482 linear /dev/loop0 1001472 <br>add map loop0p3 (252:2): 0 9765625 linear /dev/loop0 2001954★ここをマウント</p></blockquote>
-<blockquote><p># mkdir /mnt/fedora22 <br># mount /dev/mapper/loop0p3 /mnt/fedora22/</p></blockquote>
-<p>確認します。</p>
-<blockquote><p># ll /mnt/fedora22/ <br>合計 92 <br>dr-xr-xr-x.&#160; 18 root root&#160; 4096&#160; 5月 22 04:00 ./ <br>drwxr-xr-x&#160;&#160;&#160; 3 root root&#160; 4096&#160; 7月 19 09:39 ../ <br>lrwxrwxrwx.&#160;&#160; 1 root root&#160;&#160;&#160;&#160; 7&#160; 8月 16&#160; 2014 bin -&gt; usr/bin/ <br>drwxrwxr-x.&#160;&#160; 2 root root&#160; 4096&#160; 5月 22 03:58 boot/ <br>drwxr-xr-x.&#160;&#160; 4 root root&#160; 4096&#160; 5月 22 04:14 dev/ <br>drwxr-xr-x. 126 root root 12288&#160; 5月 22 04:28 etc/ <br>drwxr-xr-x.&#160;&#160; 2 root root&#160; 4096&#160; 8月 16&#160; 2014 home/ <br>lrwxrwxrwx.&#160;&#160; 1 root root&#160;&#160;&#160;&#160; 7&#160; 8月 16&#160; 2014 lib -&gt; usr/lib/ <br>drwx&#8212;&#8212;.&#160;&#160; 2 root root 16384&#160; 5月 22 03:58 lost+found/ <br>drwxr-xr-x.&#160;&#160; 2 root root&#160; 4096&#160; 8月 16&#160; 2014 media/ <br>drwxr-xr-x.&#160;&#160; 2 root root&#160; 4096&#160; 8月 16&#160; 2014 mnt/ <br>drwxr-xr-x.&#160;&#160; 2 root root&#160; 4096&#160; 8月 16&#160; 2014 opt/ <br>drwxrwxr-x.&#160;&#160; 2 root root&#160; 4096&#160; 5月 22 03:58 proc/ <br>dr-xr-x&#8212;.&#160;&#160; 2 root root&#160; 4096&#160; 5月 22 04:28 root/ <br>drwxr-xr-x.&#160; 32 root root&#160; 4096&#160; 5月 22 04:12 run/ <br>lrwxrwxrwx.&#160;&#160; 1 root root&#160;&#160;&#160;&#160; 8&#160; 8月 16&#160; 2014 sbin -&gt; usr/sbin/ <br>drwxr-xr-x.&#160;&#160; 2 root root&#160; 4096&#160; 8月 16&#160; 2014 srv/ <br>drwxrwxr-x.&#160;&#160; 2 root root&#160; 4096&#160; 5月 22 03:58 sys/ <br>drwxrwxrwt.&#160;&#160; 7 root root&#160; 4096&#160; 5月 22 04:28 tmp/ <br>drwxr-xr-x.&#160; 11 root root&#160; 4096&#160; 5月 22 04:00 usr/ <br>drwxr-xr-x.&#160; 21 root root&#160; 4096&#160; 5月 22 04:12 var/</p></blockquote>
-<p>kpartx が無い場合は、以下で。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">        ▼パーティションのサイズを調べて、個別にマウントさせる
-        # parted Fedora-Xfce-armhfp-22-3-sda.img 
-        GNU Parted 2.3
-        /nfs/Fedora-Xfce-armhfp-22-3-sda.img を使用
-        GNU Parted へようこそ！ コマンド一覧を見るには 'help' と入力してください。
-        (parted) u★
-        単位は?  [compact]? b★
-        (parted) print★
-        モデル:  (file)
-        ディスク /nfs/Fedora-Xfce-armhfp-22-3-sda.img: 4743757824B
-        セクタサイズ (論理/物理): 512B/512B
-        パーティションテーブル: msdos
-        
-        番号  開始         終了         サイズ       タイプ   ファイルシステム  フラグ
-         1    1048576B     512753663B   511705088B   primary  ext3
-         2    512753664B   1025000447B  512246784B   primary  linux-swap(v1)
-         3    1025000448B  4525000191B  3499999744B  primary  ext4
-              ^^^^^^^^^^
-        (parted) q★
-        root@ubu:/nfs# 
-        
-        # mount -o loop,offset=1025000448 Fedora-Xfce-armhfp-22-3-sda.img /mnt/fedora22
-                               ^^^^^^^^^^※ B は取ってね
-        # df -h
-        Filesystem              Size  Used Avail Use% Mounted on
-        ::
-        /dev/loop1              3.2G  2.3G  843M  74% /mnt/fedora22</pre>
-<p><strong>手順 4</strong></p>
-<p>ルート直下のシンボリックリンクを修正します。理屈はよくわかっていませんが、逆から張りなおすことでとりあえずブートしています。lib と bin と sbin を消して、実体を移動させ、逆からシンボリックを張っています。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">cd /mnt/fedora22
-rm lib
-mv usr/lib lib
-cd usr
-ln -s ../lib lib
-cd ../
-
-rm bin
-mv usr/bin bin
-cd usr
-ln -s ../bin bin
-cd ../
-
-rm sbin
-mv usr/sbin sbin
-cd usr
-ln -s ../sbin sbin
-cd ../</pre>
-<p>以下のような感じになっているはずです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># ll
-合計 240
-dr-xr-xr-x.  21 root root  4096  7月 19 09:53 ./
-drwxr-xr-x    3 root root  4096  7月 19 09:39 ../
-dr-xr-xr-x.   2 root root 36864  5月 22 04:12 bin/
-drwxrwxr-x.   2 root root  4096  5月 22 03:58 boot/
-drwxr-xr-x.   4 root root  4096  5月 22 04:14 dev/
-drwxr-xr-x. 126 root root 12288  5月 22 04:28 etc/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 home/
-dr-xr-xr-x. 181 root root 86016  5月 22 04:14 lib/
-drwx------.   2 root root 16384  5月 22 03:58 lost+found/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 media/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 mnt/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 opt/
-drwxrwxr-x.   2 root root  4096  5月 22 03:58 proc/
-dr-xr-x---.   2 root root  4096  5月 22 04:28 root/
-drwxr-xr-x.  32 root root  4096  5月 22 04:12 run/
-dr-xr-xr-x.   2 root root 20480  5月 22 04:12 sbin/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 srv/
-drwxrwxr-x.   2 root root  4096  5月 22 03:58 sys/
-drwxrwxrwt.   7 root root  4096  5月 22 04:28 tmp/
-drwxr-xr-x.   8 root root  4096  7月 19 09:53 usr/
-drwxr-xr-x.  21 root root  4096  5月 22 04:12 var/</pre>
-<p>&#160;</p>
-<p>手順 5</p>
-<p>fstab をコメントアウトします。</p>
-<p>以下のような感じで、UUID で記載されていますが、全部コメントアウト。</p>
-<blockquote>
-<p># cat /mnt/fedora22/etc/fstab<br> <br>UUID=81bc2e15-c125-40c0-94fd-33550a50db1b&#160; / ext4&#160;&#160;&#160; defaults,noatime 0 0</p>
-<p>UUID=5dd5c069-20ed-421c-a521-d7fc71746def&#160; /boot ext3&#160;&#160;&#160; defaults,noatime 0 0</p>
-<p>UUID=2d570411-d640-491b-9b38-4ba9d8ed6ada&#160; swap swap&#160;&#160;&#160; defaults,noatime 0 0</p>
-</blockquote>
-<p>vi でもいいです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">sed -i 's/^UUID/#UUID/g' /mnt/fedora22/etc/fstab</pre>
-<p>確認。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># cat /mnt/fedora22/etc/fstab
-#UUID=81bc2e15-c125-40c0-94fd-33550a50db1b  / ext4    defaults,noatime 0 0
-#UUID=5dd5c069-20ed-421c-a521-d7fc71746def  /boot ext3    defaults,noatime 0 0
-#UUID=2d570411-d640-491b-9b38-4ba9d8ed6ada  swap swap    defaults,noatime 0 0</pre>
-<p>&#160;</p>
-<p><strong>手順 6</strong></p>
-<p>mksquashfs を使って lzo 圧縮した BerryBoot 用の img を作成します。</p>
-<p># cd /tmp</p>
-<p># mksquashfs /mnt/fedora22/ _berryboot.img -comp lzo -e lib/modules</p>
-<p># mv _berryboot.img Fedora22-Workstation-berryboot.img</p>
-<p>このイメージをFAT16 フォーマットのUSBメモリに入れて、BerryBoot を起動。インターネットインストールをキャンセルして、Add OS を長押しクリックするとサブメニューからUSB を選択できます。</p>
-<p>&#160;</p>
-<p>手順 7</p>
-<p>マウント解除し、kpartxで作ったデバイスを削除し、基のイメージファイルも削除。</p>
-<blockquote>
-<p># umount /mnt/fedora22<br> <br># kpartx -d Fedora-Workstation-armhfp-22-3-sda.img</p>
-<p>loop deleted : /dev/loop0</p>
-<p>&#160;</p>
-<p># rm Fedora-Workstation-armhfp-22-3-sda.*</p>
-</blockquote>
-<p>おつかれさまです。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

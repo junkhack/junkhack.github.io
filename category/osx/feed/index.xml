@@ -1215,7 +1215,7 @@ $ sudo ./keylogger</code></pre>
 			</item>
 		<item>
 		<title>ポートフォワードの経路で、Uターン NATとかヘアピンNATが使えないルータの場合のあれこれ</title>
-		<link>/2020/09/07/u-turnnatorhairpinnatcannotbeusedinportforwardroute/</link>
+		<link>/2020/09/07/u-turn-nat/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 07 Sep 2020 08:01:27 +0000</pubDate>

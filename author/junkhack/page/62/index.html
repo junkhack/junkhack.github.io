@@ -50,7 +50,30 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1847" class="post-1847 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1869" class="post-1869 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/07/esp8266-backboost-e7b584e381bfe4bb98e38191e5ae8ce4ba86e383bbe383bbe383bb/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-07T02:38:44+09:00">2015年12月7日</time></a> </span><span class="posted-on">更新日:2015年12月7日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/12/07/esp8266-backboost-e7b584e381bfe4bb98e38191e5ae8ce4ba86e383bbe383bbe383bb/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 BackBoost 組み付け完了・・・</a></h1></header><div class="entry-content">
+<p>一日かけて、QKしながら、まったりと一応、組み付けましたが、まだ動作確認まで気力がわかず動作するかどうかはまだ未チェックです。コハクラフトさんからE-ink 開発ボードが速く届いたのに、手が回りませんでした。BackBoost がとりあえず、完了してからがんばることに。</p>
+<p>&#160;</p>
+<p>一応、全体像の紹介。</p>
+<p><a href="/wp-content/uploads/2015/12/dsc00216.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00216" src="/wp-content/uploads/2015/12/dsc00216_thumb.jpg" width="640" height="361"></noscript>
+<img class="lazyload" title="DSC00216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00216" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00216_thumb.jpg" width="640" height="361"></a></p>
+<p>工程の勘所をチェックするため、最後まで組み立ててみました。</p>
+<p>PINは、イレギュラーですが、表をフラットにするため、裏からつけてあります。幅をESPの最小幅にするためです。<a href="/wp-content/uploads/2015/12/dsc00217.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00217" src="/wp-content/uploads/2015/12/dsc00217_thumb.jpg" width="640" height="361"></noscript>
+<img class="lazyload" title="DSC00217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00217" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00217_thumb.jpg" width="640" height="361"></a></p>
+<p>いくつか、設計上と変更をしたほうがよいところに気がつきました。 <a href="/wp-content/uploads/2015/12/dsc00218.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00218" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00218" src="/wp-content/uploads/2015/12/dsc00218_thumb.jpg" width="640" height="361"></noscript>
+<img class="lazyload" title="DSC00218" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00218" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00218_thumb.jpg" width="640" height="361"></a></p>
+<p>IC2 のスイッチに使っているのは、足が生えてるので小さいですが半田付けは楽です。 <a href="/wp-content/uploads/2015/12/dsc00219.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="DSC00219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00219" src="/wp-content/uploads/2015/12/dsc00219_thumb.jpg" width="640" height="361"></noscript>
+<img class="lazyload" title="DSC00219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00219" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20361%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/dsc00219_thumb.jpg" width="640" height="361"></a>この表の充電モジュールもブローでリフローしました。ピンセットで一押しするとき、手がブルって、モジュール上の部品が外れて大変でした。</p>
+<p>&#160;</p>
+<p>とりあえず、電源が出ているかどうかのチェックをしてみたのですが、何かがおかしい。</p>
+<p>まぁ、一発で成功するのは稀なので、何かが悪いのでしょう。</p>
+<p>&#160;</p>
+<p>今週少しづつ、チェックしていこうと思います。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1847" class="post-1847 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/06/e4babae7949fe5889de38081qfne38391e38383e382b1e383bce382b8e381aee58d8ae794b0e4bb98e38191-e5a4b1e69597e381aee4be8b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-06T07:56:27+09:00">2015年12月6日</time></a> </span><span class="posted-on">更新日:2015年12月6日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/12/06/e4babae7949fe5889de38081qfne38391e38383e382b1e383bce382b8e381aee58d8ae794b0e4bb98e38191-e5a4b1e69597e381aee4be8b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">人生初、QFNパッケージの半田付け&#8211;失敗の例</a></h1></header><div class="entry-content">
@@ -480,35 +503,6 @@ int main(void) {
 <img class="lazyload" title="aa" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="aa" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20606%20563%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/aa.png" width="606" height="563"><p>1mm 厚の基板だったので、実験の時のPCBより薄く簡単でした。この方法で今後直線部分はカットしてもいいですね。ミニテーブルソーだと、0.5mm でカットしても誇りが出ると思うので。</p>
 <p>&#160;</p>
 <p>両面を挟み込むような、定規を加工すればかなり手軽に切れそうです。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1793" class="post-1793 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-parts"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/02/e-inke38387e382a3e382b9e38397e383ace382a4e381a7e38386e382b9e38388e6ba96e58299/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-02T00:09:58+09:00">2015年12月2日</time></a> </span><span class="posted-on">更新日:2015年12月2日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/12/02/e-inke38387e382a3e382b9e38397e383ace382a4e381a7e38386e382b9e38388e6ba96e58299/" rel="bookmark noopener noreferrer" data-wpel-link="internal">E-inkディスプレイでテスト準備</a></h1></header><div class="entry-content">
-<p>さて、年末に向けてE-ink を表示するテストが出来そうなので、その準備をしています。</p>
-<p>開発ボードは、ブログで先駆者がいらっしゃって、なんと開発ボードを分けていただくことになりました。ありがとうございます。</p>
-<blockquote><p>kohacraftのblog <br>タグ：電子ペーパー</p></blockquote>
-<p>E-ink ディスプレイのコネクタはPCB上につけないと無理な配線なので、電源部とコネクタから構成される開発ボードを作られていました。こちらは、まだPCB作ってないのでテストできていない旨をブログでコメントしたところ、好意で開発ボードを分けていただくことになりました。コハクラフトさま、本当にありがとうございます。E-ink のPCB発注は来年かぁと思っていたので、年末に遊べそうです。</p>
-<p>&#160;</p>
-<p>以下の回路図は、sprite_tm さんのページにある手書きのものをトレースしたものです。配線するときの覚書としてメモしておくことに。</p>
-<p><a href="/wp-content/uploads/2015/12/2_schematic_eink.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><noscript><img title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356"></noscript>
-<img class="lazyload" title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20356%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356"></a> ただいま、コハクラフト開発ルームにてハンドメイドで半田付けが行われている最中です。こちらは、シフトレジスタ部とESP側の準備をしています。そして、先に発注してあるロジックアナライザーも今年中に来ると思いますので、どんな手順を踏めば表示されるのかを解き明かしていきたいと思います。</p>
-<p>&#160;</p>
-<p>英語ソースでは先人がいるのですが、まだ要点がつかめず、ポイントの要になる部分がわかりません。コハクラフトさんのブログでいくつか解き明かされて、ソニーのdigital book reader PRS-600 本体にE-ink を挿げ替えても表示が可能だそうです。Sony のE-ink には、LB060S01-RD02 という型番のE-ink で、今回手持ちで流通している、ED060SC4(LF)を繋げても表示できるということがわかっています。上の回路図では、9pin , 10pin は繋がっていますが、そこはポイントではなさそうということが状況から言えそうです。</p>
-<p>要するに、E-ink に入れる信号のタイミングがポイントになることは間違いなさそうです。</p>
-<p>今回しょっぱなにテストしようとしているソースは、 <br><a title="https://github.com/take-i/espeink/blob/master/user/eink.c" href="https://github.com/take-i/espeink/blob/master/user/eink.c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/take-i/espeink/blob/master/user/eink.c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>で、各所にos_timer_armでタイミングをを取っている部分がいくつかあります。その関数を集約したものが、</p>
-<p><a title="https://github.com/take-i/espeink/blob/master/user/io.c" href="https://github.com/take-i/espeink/blob/master/user/io.c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/take-i/espeink/blob/master/user/io.c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>にあり、ここにもタイミングとっている部分、os_delay_us がいくつかあります。このあたりをいじって、どのような挙動だと表示され、あるいは、されないのかという根本原理を探ってみたいと思います。</p>
-<p>&#160;</p>
-<p>果たして、以下の３つのページでは何を言おうとしているのか？</p>
-<blockquote>
-<p><a href="http://essentialscrap.com/eink/electronics.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/electronics.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a href="http://essentialscrap.com/eink/waveforms.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/waveforms.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a href="http://spritesmods.com/?art=einkdisplay&amp;page=3" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://spritesmods.com/?art=einkdisplay&amp;page=3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>読んでいるだけでは、いまいちピンときません。実機を交え、１つづつ噛み砕いてみたいと思います。そして、次のE-ink ディスプレイにも応用できるノウハウが得られればと思っています。一番やりたいのは、フレキシブルなE-ink への表示です。まだ、モノがこなれていないので、入手方法がわからずですが、数年経てば入手経路も確立されてくるだろうと思っています。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

@@ -50,7 +50,52 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-4851" class="post-4851 post type-post status-publish format-standard hentry category-blog category-cpu"><div class="entry-wrapper">
+</h1></header><article id="post-4857" class="post-4857 post type-post status-publish format-standard hentry category-aliexpress category-blog"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/12/02/z77-nvme-boot/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-12-02T20:59:53+09:00">2018年12月2日</time></a> </span><span class="posted-on">更新日:2018年12月2日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
+</div>
+<h1 class="entry-title"><a href="/2018/12/02/z77-nvme-boot/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Z77チップセットのマザーで、PCIe からNVMe 起動する実験のためパーツ購入</a></h1></header><div class="entry-content">
+<p>今すぐにでも、Core i9 9900K を買っちゃいそうになるのをグッとこらえています。</p>
+<p>年末に向けていろいろ実験したいので、パーツを買い込もうとあれこれ本日も物色していました。ポチったパーツはこれです。目的は、劇速のOSブートするストレージを作りたかったからです。・・・また、訳のわからんことをと思わず、続きをお読みくださいな。</p>
+<p>まず、１つめ。PCIe x 4　に M.2 のSSDを載せるものです。下段は PCIe に接続するもので、上段は SATA に接続するものです。今回は、SATA接続のほうはどうでもいいんですが、値段がほぼ変わらなかったので、このタイプにしておきました。</p>
+<p><a href="http://s.click.aliexpress.com/e/yZPaGAk" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img class="alignnone size-full wp-image-4858" src="/wp-content/uploads/2018/12/1.png" alt="1.png" width="996" height="418"></noscript>
+<img class="lazyload alignnone size-full wp-image-4858" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20996%20418%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/12/1.png" alt="1.png" width="996" height="418"></a></p>
+<p>あと、要なパーツのPCIe の M.2 SSD です。512GB ぽちっておきました。SATA の M.2 じゃないですよ。切り欠きがM Typeのものです。これは内部接続が PCIe になっています。そのあたりの説明は以下がわかりやすかったです。</p>
+<blockquote><p><a href="https://glasssailer.jp/866" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">M.2 SSDおすすめ13選＋1【PCIe3.0×4_NVMe・SATA3.0接続別でランキング】<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>TLC タイプで、読み書きはRead ：2400MB/s で Write ： 1700mb/sということのようです。ちなみに、KingSpec は中国のSSDメーカーです。どこのコントローラーが乗っていて、NAND はどこのかは到着したらじっくり見たいと思います。耐久性の指数である、TBW の数値はどこにも記載はなかったです。まぁ、安いですからね。256GB でもよかったんですが、こういうのは容量がデカイやつのほうがスペックが良いので。この上に１GBがありますが、１．８マンくらいでコスパはこれが一番良いように見えました。</p>
+<p><a href="http://s.click.aliexpress.com/e/c5UJMbSY" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img class="alignnone size-full wp-image-4859" src="/wp-content/uploads/2018/12/2.png" alt="2.png" width="983" height="452"></noscript>
+<img class="lazyload alignnone size-full wp-image-4859" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20983%20452%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/12/2.png" alt="2.png" width="983" height="452"></a></p>
+<p>それから、銅で出来てる4mm厚のヒートシンク。上の M.2 のSSD の熱を冷やすものです。ファンはあとから、つけるかもしれませんがとりあえずよく放熱しそうな銅をチョイス。</p>
+<p><a href="http://s.click.aliexpress.com/e/AIRfHAo" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img class="alignnone size-full wp-image-4860" src="/wp-content/uploads/2018/12/3.png" alt="3.png" width="993" height="439"></noscript>
+<img class="lazyload alignnone size-full wp-image-4860" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20993%20439%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/12/3.png" alt="3.png" width="993" height="439"></a></p>
+<p>この３点。シメて、１マンくらいの実験材料です。また、意味不明なパーツを買い込んでしまいました。でもね、人生短いんです。体験できるときにやっておいたほうがいいです。</p>
+<p>&nbsp;</p>
+<p>で、今回の実験というかやりたかったことなんですが、SSD を PCIe から起動するってことです。はぁ。これによるメリットは、</p>
+<p>・<strong>SATA3 起動よりも４倍くらい速い</strong></p>
+<p>ってことですかね。はい、以上のみとなります。でもね、速いってのはGoogle も言っていますが、正義なんですよ。PCの速度、仕事の効率化、画期的なアルゴリズム、Chrome の起動シーケンスなどなど。とにかく、遅いより速いってのは良いことなんです。</p>
+<p>よく、価格コムとかの書き込みでリード・ライトが激速の2000とかいう数字みたことないですか？ ああいうのを自分で体験してみたくてです。体感できるかどうかは別問題ですが。</p>
+<p>しかし、この PCIe から NVMe ブートするのは今までマザーが対応していないと出来ないものとばかり思っていまいた。自分のマザーボードは2012年に購入した、Gigabyte の <a href="https://www.gigabyte.com/jp/Motherboard/GA-Z77X-UP4-TH-rev-10#sp" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">GA-Z77X-UP4 TH<span class="wpel-icon wpel-image wpel-icon-1"></span></a> ってやつです。このZ77チップセットってやつはバイオスを最新にしても、PCIe からブートするドライブが見えません（たぶん）。なぜなら、BIOS が対応していないからです。最近のは、PCIe から NVMe デバイスが見えるようになっているらしいのですがね。</p>
+<p>なんせ、2012年の６年の前の年代物のマザーボードです。PCパーツなんてものは、2年もすれば、すでに旧式。4年で交換。6年も使うのはコスパが逆に悪くなり、さっさと買い替えていいパーツにするのが正しいありかたです。仕事で使う場合は、交換サイクルは2年から4年なんですが。自宅のものは、ちょっと後回しになっていて6年も使い込んでいます。</p>
+<p>で、なんかいい方法はないかな、やっぱり i9 9900 を載せるときにマザーボード（候補は、ASRock の Z370 Pro4 っていうATXマザーです）を交換するまで出来ないのかなーって思っていましたが、ちょっと気になり調査してみました。</p>
+<p>！　できるみたいです。まじですか。</p>
+<p>どうやら、２つ方法があるようです。１つは、BIOSを魔改造する方法があるようです。もう一つは、ブートローダーに Clover を使いNvmExpressDxe　ドライバから読み込みブートさせる方法です。</p>
+<blockquote><p>BIOSを魔改造する方法<br> <a href="https://www.win-raid.com/t871f50-Guide-How-to-get-full-NVMe-support-for-all-Systems-with-an-AMI-UEFI-BIOS.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">[Guide] How to get full NVMe support for all Systems with an AMI UEFI BIOS<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<blockquote><p>ブートローダーからの方法<br> <a href="https://www.win-raid.com/t2375f50-Guide-NVMe-boot-without-modding-your-UEFI-BIOS-Clover-EFI-bootloader-method.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">[Guide] NVMe-boot without modding your UEFI/BIOS (Clover-EFI bootloader method) <span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>ちなみに、Clover は以下からダウンロードできます。</p>
+<blockquote><p>Clover EFI bootloader<br> https://sourceforge.net/projects/cloverefiboot/</p></blockquote>
+<p>BIOS に機能を追加するのは、UEFI Toolを使ってNvmExpressDxeモジュールを組み込むようです。結構実績もあるので、たぶんいけるでしょう。機会をみてトライしてみたいと思いますが、まだメインマシンなのでサブマシンになったときにでもやってみたいと思います。</p>
+<p>もう一つのブートローダーからの方法は、NVMe ブートできない旧式のマザーボードでも簡単にできるので実際にはこれが良さそうです。理論的には、旧式のUEFIじゃないレガシーBIIOSでもできるみたい。</p>
+<p>ということで、うまくブートできるか年末あたりにやってみたいと思います。</p>
+<p>Linux、Windows10 、osx でトリプルブートするわかりやすい説明（一部、わかってる人向けですが）の良記事は以下にありましたのでメモしておきます。</p>
+<blockquote><p><a href="https://hottuna.server-on.net/computing/?p=251" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">WindowsPCでmac OS、Windows、Linuxをトリプルブート<span class="wpel-icon wpel-image wpel-icon-1"></span></a> – Beyond The Horizon</p></blockquote>
+<p>そもそも、Clover BootLoder っていうのはHackintosh を起動して他のオペレーティングシステムとのマルチブートを実現するために開発された UEFI ブートローダーです。</p>
+<p>&nbsp;</p>
+<p>ちなみに、SSDのNANDの種類ですが今回買ったのは、TLCタイプ。<br> 耐久性では、SLC &gt; MLC &gt; TLC &gt; QLC で、どのくらい持つかってのも興味があります。KingSpec の製品は3年保証がついているのでオフィシャルストアから買っているし、何かあれば、まぁ対応してくれると思います。</p>
+<p>体感では、SSDって１回しか壊れたことがなくてサムソン製の保証付きだったので無償交換したことがあります。なんで壊れたかったのはちゃんと理由があって、仮想環境でWEBとアプリケーション の耐久試験を２４時間ぶっ続けでやっていたあとに発生しました。NGINX と HHVM のテストをしたときで、採取してたデータやキャプチャーもなくなってしまったのでそのレポートは出せずじまい。せめて、キャプチャーデータでも別デバイスに保存しておけばよかったとその時は後悔しました。</p>
+<p>最後に、今後の目標を。google のSPRINTっていう、プロセスはぜひ自分のプロジェクトにも取り入れたいなと。</p>
+<p>&nbsp;</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-4851" class="post-4851 post type-post status-publish format-standard hentry category-blog category-cpu"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/11/30/10nm-cpu/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-11-30T08:20:09+09:00">2018年11月30日</time></a> </span><span class="posted-on">更新日:2018年11月30日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/cpu/" rel="category tag noopener noreferrer" data-wpel-link="internal">CPU</a></span>
 </div>
 <h1 class="entry-title"><a href="/2018/11/30/10nm-cpu/" rel="bookmark noopener noreferrer" data-wpel-link="internal">10nm時代まで待てないな、2019年春先に14nmのCore i9 9900Kを買って、オリンピック終わりごろに安定する10nm のCPUが出るまで使うことにするか思案中</a></h1></header><div class="entry-content">
@@ -251,152 +296,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>Oracle と MySQL とのOSSコミュニティーとはうまく行きませんでした。自分の場合は、２択する場面があれば、MariaDB を使うことが多くなっているんですが、、、</p>
 <p>RedHat 系のOS は思い入れや馴染みが深く、仕事でも使うんでちょっと動向が気になります。このあたりの状況は3〜5年くらい先に必ずなんらか影響してくると思います。本当、コンピューター業界ってば変化があるんで何が起きるかわかりませんね。まぁ、そういうところが好きなんですが。</p>
 <p>&nbsp;</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-4781" class="post-4781 post type-post status-publish format-standard hentry category-aliexpress category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2018/11/19/part-2-raspberry-pi-zero-setup/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-11-19T00:38:06+09:00">2018年11月19日</time></a> </span><span class="posted-on">更新日:2018年11月19日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2018/11/19/part-2-raspberry-pi-zero-setup/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Raspberry Pi Zero セットアップ2</a></h1></header><div class="entry-content">
-<p>今日は、RasPi Zero に接続する MicroUSB の OTG ケーブルが届いたので少し遊んでみた。LED が点灯せず、焦りましたが、SDカードをフォーマットしていて OS が入っていないのを忘れていました。テスター当てて、電源がきているか確認です。<a href="http://bokuraku.com/rasberrypi-nyumon-3/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここが参考に<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なりますね。</p>
-<p></p>
-<noscript><img class="alignnone size-full wp-image-4786" src="/wp-content/uploads/2018/11/s20181119_001.jpg" alt="S20181119_001.jpg" width="1600" height="1200"></noscript>
-<img class="lazyload alignnone size-full wp-image-4786" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201600%201200%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/11/s20181119_001.jpg" alt="S20181119_001.jpg" width="1600" height="1200"><p>普通に扱っていれば、滅多に壊れないのでLED が付かなくてもとりあえずは、SDカードの内容を確認してみるのがいいですね。自分の場合は、SDカードに刺した状態で、USB認識しなかったんで、もしかすると本当にどこかおかしいのかもしれません。</p>
-<p></p>
-<noscript><img class="alignnone size-full wp-image-4782" src="/wp-content/uploads/2018/11/s20181118_001.jpg" alt="S20181118_001.jpg" width="1600" height="1200"></noscript>
-<img class="lazyload alignnone size-full wp-image-4782" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201600%201200%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/11/s20181118_001.jpg" alt="S20181118_001.jpg" width="1600" height="1200"><p>で、無事ブートしました。３本も接続すると、本体がちっこすぎてケーブルに引っ張られますね。まずは、定番の UnixBenchです。OS は、2018-10-09-raspbian-stretch-lite　です。Update も何もせずとりあえず、UnixBench をコンパイルして実行。</p>
-<blockquote>
-<p>========================================================================<br> BYTE UNIX Benchmarks (Version 5.1.3)</p>
-<p>System: pizero: GNU/Linux<br> OS: GNU/Linux &#8212; 4.14.71+ &#8212; #1145 Fri Sep 21 15:06:38 BST 2018<br> Machine: armv6l (unknown)<br> Language: en_US.utf8 (charmap=&#8221;ANSI_X3.4-1968&#8243;, collate=&#8221;ANSI_X3.4-1968&#8243;)<br> CPU 0: ARMv6-compatible processor rev 7 (v6l) (0.0 bogomips)</p>
-<p>21:00:01 up 22 min, 2 users, load average: 0.08, 0.25, 0.21; runlevel 3</p>
-<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br> Benchmark Run: Sun Nov 18 2018 21:00:01 &#8211; 21:28:09<br> 1 CPU in system; running 1 parallel copy of tests</p>
-<p>Dhrystone 2 using register variables 2152307.8 lps (10.0 s, 7 samples)<br> Double-Precision Whetstone 461.6 MWIPS (10.0 s, 7 samples)<br> Execl Throughput 222.2 lps (29.8 s, 2 samples)<br> File Copy 1024 bufsize 2000 maxblocks 37774.2 KBps (30.0 s, 2 samples)<br> File Copy 256 bufsize 500 maxblocks 12292.0 KBps (30.0 s, 2 samples)<br> File Copy 4096 bufsize 8000 maxblocks 94535.6 KBps (30.0 s, 2 samples)<br> Pipe Throughput 129589.5 lps (10.0 s, 7 samples)<br> Pipe-based Context Switching 20014.2 lps (10.0 s, 7 samples)<br> Process Creation 564.7 lps (30.0 s, 2 samples)<br> Shell Scripts (1 concurrent) 465.9 lpm (60.1 s, 2 samples)<br> Shell Scripts (8 concurrent) 59.6 lpm (60.4 s, 2 samples)<br> System Call Overhead 441679.0 lps (10.0 s, 7 samples)</p>
-<p>System Benchmarks Index Values BASELINE RESULT INDEX<br> Dhrystone 2 using register variables 116700.0 2152307.8 184.4<br> Double-Precision Whetstone 55.0 461.6 83.9<br> Execl Throughput 43.0 222.2 51.7<br> File Copy 1024 bufsize 2000 maxblocks 3960.0 37774.2 95.4<br> File Copy 256 bufsize 500 maxblocks 1655.0 12292.0 74.3<br> File Copy 4096 bufsize 8000 maxblocks 5800.0 94535.6 163.0<br> Pipe Throughput 12440.0 129589.5 104.2<br> Pipe-based Context Switching 4000.0 20014.2 50.0<br> Process Creation 126.0 564.7 44.8<br> Shell Scripts (1 concurrent) 42.4 465.9 109.9<br> Shell Scripts (8 concurrent) 6.0 59.6 99.4<br> System Call Overhead 15000.0 441679.0 294.5<br> ========<br> System Benchmarks Index Score <span style="color:#ff0000;">97</span>.0</p>
-</blockquote>
-<p>100くらいだとは知っていましたが、おそっ（笑）まぁ、シングルコアなんで仕方ありませんね。使い道に困るデバイスかもしれません。というか、今までのこれ系のボードも結局転がっていますしね。ベンチマーク取って、あぁ、安いね、小さいね。で終わっています（笑）</p>
-<p>でも本体が小さいので、Linux の何かを使ったものを作るにはいいかもしれません。例えば、カメラとか？ 家の IoT デバイスを集中的に処理するものとか。あと、アリエク物色していて、<a href="https://www.aliexpress.com/store/product/Allwinner-H2-Open-source-hardware-platform-BPI-M2-zero-all-ineter-face-same-as-Raspberry-pi/302756_32839074880.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Banana Pi M2 Zero<span class="wpel-icon wpel-image wpel-icon-1"></span></a> っていう互換？ボードも見つけました。2400円（送料込）</p>
-<p><a href="http://www.banana-pi.org/bpi-zero.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img class="alignnone size-full wp-image-4783" src="/wp-content/uploads/2018/11/zero2.png" alt="zero2.png" width="741" height="340"></noscript>
-<img class="lazyload alignnone size-full wp-image-4783" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20741%20340%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/11/zero2.png" alt="zero2.png" width="741" height="340"></a></p>
-<p>特色は、CPU コア数が４つで、メモリがDDR3 なんで処理速が早い（とは行っても、たかが知れてるかもですが）いや、この大きさで4core なのはいいんじゃないでしょうか？</p>
-<table style="font-size:14px;background-color:#f8f9fa;color:#222222;margin:1em 0;border:1px solid #a2a9b1;border-collapse:collapse;font-family:sans-serif;height:982px;" width="680"><tbody>
-<tr><td style="border:1px solid #a2a9b1;padding:.2em .4em;background:paleturquoise;color:black;" colspan="4"><b>HardWare Specification of Banana pi BPI-M2 zero VS Raspberry Pi Zero W</b></td></tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Module</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;"><b>Banana Pi BPI-M2 Zero</b></td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;"><b>Raspberry Pi Zero W</b></td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">CPU</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">H2+ <span style="color:#ff0000;">Quad-core</span> Cortex-A7 H265/HEVC 1080P</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Broadcom BCM2835 32 Bit 1 GHz ARM1176JZF-S single-core</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">GPU</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mali400MP2 GPU @600MHz,Supports OpenGL ES 2.0</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">VideoCore IV</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Memory \(SDRAM\)</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">512M <span style="color:#ff0000;">DDR3</span>(shared with GPU)</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">512 MB DDR2</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Onboard Storage</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">TF card \(Max. 64GB\)</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">TF card \(Max. 64GB\)</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Onboard Network</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">NOPE</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">NOPE</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Onboard WIFI</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">SDIO AP6212（option AP6181、AP6335）<span style="color:#ff0000;">Bluetooth 4.0</span> (AP6212)</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">802.11n wireless, Bluetooth 4.1</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Video decoding</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">
-<span style="color:#ff0000;">1080p@60fps</span>,H.264 Video encoding 1080p@30fps,H.264</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">1080p30 H.264/MPEG-4 AVC high-profile decoder and encoder</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Video input</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">A CSI input connector Camera</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">CSI camera connector</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Video Outputs</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">mini HDMI 1.4,1080P@30fps, DHCP</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mini HDMI and USB On-The-Go ports</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Audio Output</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mini HDMI</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mini HDMI</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Power Source</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Micro USB with 5V/2A</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">5V/2A</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">USB 2.0 Ports</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">one USB 2.0 OTG</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">one USB 2.0 OTG</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Buttons</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;"><span style="color:#ff0000;">Power Button, Reset Button</span></td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Composite video and reset headers</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Low-level peripherals</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">40 Pins Header,compatible with Raspberry Pi 3</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">40 PIN</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">uart GPIO\(1&#215;3\) pin</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">UART, ground</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">UART</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">LED</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Power led &amp; <span style="color:#ff0000;">Status led</span>
-</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Power Status LED</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">IR</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">N/A</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">N/A</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Supported OS</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Android, Ubuntu, Debian, Rasberry Pi Image</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Linux</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Product size</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">65mm × 30mm</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">65mm x 30mm</td>
-</tr>
-<tr>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Weight</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">
-<span style="color:#ff0000;">15</span>g</td>
-<td style="border:1px solid #a2a9b1;padding:.2em .4em;">9G</td>
-</tr>
-</tbody></table>
-<p>比較は、<a href="http://Banana Pi Zero vs. Raspberry Pi Zero W (Wireless) vs. LicheePi Zero vs. Orange Pi Zero Plus 2 (H5)/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここが<span class="wpel-icon wpel-image wpel-icon-1"></span></a>わかりやすいですも。一部、Bluetooth がないなど情報の間違えはありますが。到着するまで、ここの<a href="http://wiki.banana-pi.org/Getting_Started_with_M2_Zero" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a>でも読んでますか。</p>
-<p>こういう小さくて、手頃なやつを見つけるとつい買っちゃうんですよね。WiFi のAP6212も技適は AMPAK社 が通しているようで問題ないと思うんで、ポチってみました。</p>
-<p><a title="AP6212_V1.1_09022014" href="/wp-content/uploads/2018/11/ap6212_v1-1_09022014.pdf" data-wpel-link="internal" rel="noopener noreferrer">AP6212_V1.1_09022014</a></p>
-<p><a href="http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=020&amp;TC=N&amp;PK=1&amp;FN=180921N020&amp;SN=%94F%8F%D8&amp;LN=1&amp;R1=*****&amp;R2=*****" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img class="alignnone size-full wp-image-4788" src="/wp-content/uploads/2018/11/giteki_ap6212.png" alt="giteki_AP6212.png" width="703" height="779"></noscript>
-<img class="lazyload alignnone size-full wp-image-4788" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20703%20779%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2018/11/giteki_ap6212.png" alt="giteki_AP6212.png" width="703" height="779"></a></p>
-<p>また、これでゴミが１つ増えたかも。（笑）いや、これは壮大なる、汎用品で作る UMPC プロジェクトの始まりになるのかもしれません。たぶん、海外のかたでやっているかたがいるはず。</p>
-<p>モバイルで使いたいのは、快適なテキスト入力と、常時data通信で、ssh 端末として使いたいんですよね。こんな限定的に使う人は、たぶんLinux エンジニアか、テキスト入力で原稿作りたい記者か、作家くらいのもんで、需要は一定数あると思うんですが、日本のメーカーはこの分野はもうからないと撤退したようです。</p>
-<p>ないなら、作れです。いつどこでも、メンテナンスできて、ブログのネタも快適にテキスト入力できる端末っていうのがあると嬉しいんです。多少大きくてもキーボードはフルピッチのキーがほしい。横幅26cm あってもいいんでそういう端末がほしいんですよね。昔、Libretto って端末があったんですが結局買えず仕舞いでした。</p>
-<p>じゃ、普通のうっすいノートPCでいいじゃんとはならないんです。キーボードが打ちにくいんですよね。できればメカニカルなやつで、ファンクションキーがないタイプ。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

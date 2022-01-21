@@ -50,7 +50,30 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1376" class="post-1376 post type-post status-publish format-standard hentry category-aliexpress category-parts category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1387" class="post-1387 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/15/resete3839ce382bfe383b3e9858de7bdaee381a8ledefbc92e381a4/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-15T23:00:46+09:00">2015年10月15日</time></a> </span><span class="posted-on">更新日:2015年10月15日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/10/15/resete3839ce382bfe383b3e9858de7bdaee381a8ledefbc92e381a4/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Resetボタン配置とLED２つ</a></h1></header><div class="entry-content">
+<p>リセットボタンと、WEB にアクセスしたときに光るLEDと、WiFiにアクセスしたときに光るLEDをつけたのですが、スペース的に工夫しないとちょっと配線がきつそうです。</p>
+<p>&#160;</p>
+<p> </p>
+<noscript><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/10/2.png" width="640" height="276"></noscript>
+<img class="lazyload" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20276%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/2.png" width="640" height="276"><p></p>
+<noscript><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/10/1.png" width="640" height="273"></noscript>
+<img class="lazyload" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20273%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/1.png" width="640" height="273"><p>表のレイヤーを出すと、こんな感じ。自動配線を継ぎ足していったので、レイアウトは要再考ですね。</p>
+<p> </p>
+<noscript><img title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="/wp-content/uploads/2015/10/22a5c472c3e7.png" width="640" height="269"></noscript>
+<img class="lazyload" title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20269%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/22a5c472c3e7.png" width="640" height="269"><p>パイロットランプ的な、パワーLEDは電力消費を抑えてつけず、動作がわかるようにWEBにデータを投げているときに付くLEDと、WiFiにアクセスしているときに付くLEDをつけようと思っています。</p>
+<p>&#160;</p>
+<p>スペースはまだあるのでレイアウトさえ考えればいけそうな感じです。GPIOのどのピンから取るかで配置が決まりそうです。ESP12とWROOM-02のピン配列が載っているブログがありました。わかりやすいですね。</p>
+<blockquote>
+<p>Imazeki&#8217;s workshop</p>
+<p><a href="http://music-device.com/web/2015/07/25/esp8266-circuits/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ESP8266 へ ArduinoIDEからの書き込み<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>14 と 16 から取って、裏側のサイドにLED配置しても光は見えるかなぁ。どうしますかね。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1376" class="post-1376 post type-post status-publish format-standard hentry category-aliexpress category-parts category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/14/e3818ae8b2b7e38184e789a9/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-14T22:05:17+09:00">2015年10月14日</time></a> </span><span class="posted-on">更新日:2015年10月14日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/10/14/e3818ae8b2b7e38184e789a9/" rel="bookmark noopener noreferrer" data-wpel-link="internal">お買い物</a></h1></header><div class="entry-content">
@@ -785,74 +808,6 @@ int getMv(){
 <p>ダイオードをつけて、計測前にGPIO x ピンをHigh にしてADC 値を読むという原理です。 Lua のサンプルコードでそんなロジックが書いてありました。なるほどーですね。</p>
 <p>&#160;</p>
 <p>で、手持ちのダイオードがなぜか見つからず、ジャンクのマザーボードからチップダイオードを採取してユニバーサル基板につけたところまで今、作業が進んでいます。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1308" class="post-1308 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/04/esp13-e381a8-backboost/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-04T14:21:35+09:00">2015年10月4日</time></a> </span><span class="posted-on">更新日:2015年10月4日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/10/04/esp13-e381a8-backboost/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP13 と BackBoost のPCBを作成中</a></h1></header><div class="entry-content">
-<p>Eagle の勉強と、PCB をプリントに出すため、まずはお手ごろな素材を元に勉強中。</p>
-<p>&#160;</p>
-<p>コンセプト</p>
-<p>・Lion の1セルに、充電ができて、過充電、過放電保護がある</p>
-<p>・充電は、マイクロUSB からできる</p>
-<p>・1セルから3.3v を効率よく、安定して作るため、backboost 回路を入れる</p>
-<p>・自分が持っている、UART のシリアル変換を直接挿せるようにする</p>
-<p>・ケースに入れる都合上、幅を2cm ｘ 6.5cm 未満とする</p>
-<p>・UART の PIN は自動的にリセットがかかるよう、DTR からの信号を処理する回路を埋め込む</p>
-<p>・バッテリーや、3.3V 出力など後に計測したいので、PINを出しておく</p>
-<p>・DeepSleep は必ず使うので、配線しておく</p>
-<p>・ブレッドボードに挿せる様、PIN を出しておく</p>
-<p>・なるべく安くする</p>
-<p>・レゴブロック風のものをジョイントすると機能が拡張できるようにしたい。</p>
-<p>&#160;</p>
-<p>といういうな、お題を掲げて作っています。</p>
-<p>まだ、途中ですが、以下のようなものができてきました。</p>
-<p></p>
-<noscript><img title="１" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="１" src="/wp-content/uploads/2015/10/50cd513eb03b.png" width="632" height="480"></noscript>
-<img class="lazyload" title="１" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="１" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20632%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/50cd513eb03b.png" width="632" height="480"><p>安くあげるため、USB と充電回路（保護付き）は既成のモジュールを使うことに、90円くらいのものです。</p>
-<p>この基板をノギスや、スキャナで取ってeagle のライブラリを作成。ここが面倒でした。また、ESP12Eと、ESP13（WROOM-02）と大きさを比べると、ESP13の方が小さく、組み込みやすそうです。</p>
-<p></p>
-<noscript><img title="２" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="２" src="/wp-content/uploads/2015/10/46fc6a9bb869.png" width="640" height="276"></noscript>
-<img class="lazyload" title="２" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="２" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20276%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/46fc6a9bb869.png" width="640" height="276"><p>今回の目玉である、バックブースト回路は表に載せました。ブレッドボードに指せば裏側に回る予定。真ん中のパッド部分はスルーホールを横に作って、裏側の胴箔に熱伝統させる予定です。</p>
-<p></p>
-<noscript><img title="３" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="３" src="/wp-content/uploads/2015/10/5564089f0a54.png" width="640" height="227"></noscript>
-<img class="lazyload" title="３" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="３" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20227%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/5564089f0a54.png" width="640" height="227"><p>裏面に部品が回せるのを知ったので、（Mirrorすれば良いだけですが、、、）上記のような配置にしました。まだ配線は仮なので、これから変わります。</p>
-<p></p>
-<noscript><img title="４" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="４" src="/wp-content/uploads/2015/10/c67b20796fcb.png" width="640" height="240"></noscript>
-<img class="lazyload" title="４" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="４" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20240%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/c67b20796fcb.png" width="640" height="240"><p>左には、UARTのPINを直接させるようメスピンヘッダーをつけます。順番は逆配列にしないとブレッドボードに挿した時LEDとか見えませんので、後に変更予定です。</p>
-<p>&#160;</p>
-<p></p>
-<noscript><img title="５" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="５" src="/wp-content/uploads/2015/10/9e55fc09f89e.png" width="640" height="384"></noscript>
-<img class="lazyload" title="５" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="５" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20384%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/9e55fc09f89e.png" width="640" height="384"><p>回路図は、離れたところにある配線をどうやるのかわからず、あれこれググりました。これはラベルでやるようですが、いまいち良くわかっていません。とりあず、つなぎたいところに、配線を伸ばしNAMEをつけて、ラベルみたいなのは、シンボルがあったので、それを使っています。supply2.lbr というのにありました。たぶんもっといいやり方があるのでしょうが、良くわかりません。機能は満たしているので、今はこれでよしとします。</p>
-<p>&#160;</p>
-<p>先人たちの回路図を見ると、機能ごとに分離して、見やすくする工夫をしているようです。なので上記のような感じにしてみました。その後、あれこれと思案し、以下のようになっています。まだ途中。</p>
-<p>&#160;</p>
-<noscript><img title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="/wp-content/uploads/2015/10/ec553b09028c.png" width="640" height="234"></noscript>
-<img class="lazyload" title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20234%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/10/ec553b09028c.png" width="640" height="234"><p>ブレッドボードに挿すPINは最低限のものにしたけれども、案外空きスペースがなくなって来ているので、複雑な回路だと2階建てにする感じになりそう。</p>
-<p>&#160;</p>
-<p>▼まとめ</p>
-<p>・回路図は見やすくするため、機能ごとにわける。</p>
-<p>・離れたところを配線するため、NAMEを使い、ラベルをつける</p>
-<p>・ラベルは回路図だけに出るライブラリ（supply2.lbr ）があるのでそれを使う</p>
-<p>・裏面に部品を配置するには、Mirror を使う。</p>
-<p>・実際の部品で仕様がわからないものは、スキャニングして大きさを算出。ノギスで実物を計測。</p>
-<p>・独自ライブラリを作るには、３ステップ。</p>
-<p>New &gt; Library</p>
-<p>Package 作成（左から5番目のアイコン）で、PCB基板に実際に付く図形を書く</p>
-<p>Simbol 作成で、回路図上で見える図とPINを書く</p>
-<p>Device 作成し、上記を対応づけ。Connect でPIN対応づけできる</p>
-<p>・部品の配置の際、ルーラをドキュメントレイヤーに置いておくと便利（Metric ruler のLIB）</p>
-<p>&#160;</p>
-<p>▼不明なこと</p>
-<p>・離れたとこにある配線のやりかた。見やすいラベルを同時付け、対応づけるには？</p>
-<p>・ESP13のUARTでリセットを自動的に行う回路。いろいろあるようです。現在3種類のやり方を模索。モノがまだ来ていないので着たら検討。</p>
-<p>・ESP13 と ESP12のピンの対応づけ表がほしい。 EN は CHPD で、TOUTは、ADCに対応していると考えればよい？</p>
-<p>・ESP13はGNDが２つ増え、合計３つ。なので、PIN数がESP13の18PINに対し、ESP12は、１６PINということなのか？</p>
-<p>&#160;</p>
-<p>▼調査すること</p>
-<p>・幅、２ｃｍｘ長さ５ｃｍ、暑さ５ｍｍくらいのお値打ちLIONを探す。</p>
-<p>・どっかの記事で、ADCはダイオードをかませば、GPIOのピン数分読めるというような英文記事を見たが、あれは本当か？</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

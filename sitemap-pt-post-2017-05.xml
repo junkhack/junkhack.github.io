@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de/" sitemap-generator-version="4.1.1" -->
-<!-- generated-on="2022年1月15日 5:49 PM" -->
+<!-- generated-on="2022年1月21日 7:59 PM" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>/2017/06/01/leaky-compact-vape-kangertech-togo-mini/</loc>
 		<lastmod>2017-05-31T15:52:24+00:00</lastmod>
@@ -37,9 +37,9 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>/2017/05/05/junk-e381aa-30e382a4e383b3e38381e383a2e3838be382bfe383bce381aee58886e8a7a3/</loc>
+		<loc>/2017/05/05/junk-30inch-monitor/</loc>
 		<lastmod>2017-05-05T05:40:19+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
 	</url>
-</urlset><!-- Request ID: c94ca63274b280e83caac8d99ccaba2d; Queries for sitemap: 3; Total queries: 36; Seconds: 0.03; Memory for sitemap: 0MB; Total memory: 4.5MB -->
+</urlset><!-- Request ID: a7d5e1eb10b7f2317147015112e554f4; Queries for sitemap: 3; Total queries: 36; Seconds: 0.02; Memory for sitemap: 0MB; Total memory: 4.5MB -->

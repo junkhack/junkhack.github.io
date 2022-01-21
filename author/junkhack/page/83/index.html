@@ -50,7 +50,141 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-672" class="post-672 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts"><div class="entry-wrapper">
+</h1></header><article id="post-689" class="post-689 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/05/09/esp12-alone-wifi-connection/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-09T16:30:04+09:00">2015年5月9日</time></a> </span><span class="posted-on">更新日:2015年5月9日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/05/09/esp12-alone-wifi-connection/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP12単体でwifi connection</a></h1></header><div class="entry-content">
+<p>単体でWifi に接続して、データをThingSpeak に投げるテストをしてみました。</p>
+<p>&#160;</p>
+<p></p>
+<noscript><img title="IMG_0269" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_0269" src="/wp-content/uploads/2015/05/img_0269.jpg" width="640" height="480"></noscript>
+<img class="lazyload" title="IMG_0269" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_0269" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/img_0269.jpg" width="640" height="480"><p>配線はこんな感じで、GPIO12 と 13 にLEDをくっ付けてみました。アクセスポイントにコネクションしたときにダブルブリンク、WEBにコネクションしているときは、点灯する感じです。</p>
+<p></p>
+<noscript><img title="スクリーンショット 2015-05-09 16.13.41" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット 2015-05-09 16.13.41" src="/wp-content/uploads/2015/05/2015050916-13-41.png" width="616" height="480"></noscript>
+<img class="lazyload" title="スクリーンショット 2015-05-09 16.13.41" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット 2015-05-09 16.13.41" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20616%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/2015050916-13-41.png" width="616" height="480"><p>まだ、センサーとかはつけていないのでカウンター値を上げてみました。</p>
+<p><a href="https://thingspeak.com/channels/37124" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><noscript><img title="image" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="image" src="/wp-content/uploads/2015/05/image2.png" width="504" height="480"></noscript>
+<img class="lazyload" title="image" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="image" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20504%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/image2.png" width="504" height="480"></a>ほほー、簡単ですね。</p>
+<p>&#160;</p>
+<p>コードはこんな感じです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ ESP8266 HTTP get webclient test.
+ https://thingspeak.com/channels/37124
+ Arduino-compatible IDE with ESP8266
+ arduino-1.6.1-macosx-java-latest-signed.zip
+ https://github.com/esp8266/Arduino
+ JunkHack 2015.05.09
+ */
+ 
+#include &lt;ESP8266WiFi.h&gt;
+ 
+const char* ssid     = &quot;JunkHack&quot;;
+const char* password = &quot;testtest&quot;;
+ 
+const char* host = &quot;184.106.153.149&quot;;
+ 
+void setup() {
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  Serial.begin(115200);
+  delay(10);
+ 
+  // We start by connecting to a WiFi network
+ 
+  Serial.println();
+  Serial.println();
+  Serial.print(&quot;Connecting to &quot;);
+  Serial.println(ssid);
+ 
+  WiFi.begin(ssid, password);
+ 
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+    digitalWrite(13, HIGH);
+    delay(400);
+    digitalWrite(13, LOW);
+    delay(100);
+  }
+ 
+  Serial.println(&quot;&quot;);
+  Serial.println(&quot;WiFi connected&quot;);
+  Serial.println(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+}
+ 
+int value = 0;
+int count = 0;
+ 
+void loop() {
+  delay(5000);
+  ++value;
+ 
+  Serial.print(&quot;connecting to &quot;);
+  Serial.println(host);
+ 
+  // Use WiFiClient class to create TCP connections
+  WiFiClient client;
+  const int httpPort = 80;
+  if (!client.connect(host, httpPort)) {
+    Serial.println(&quot;connection failed&quot;);
+    return;
+  }
+  
+  digitalWrite(12, HIGH);
+  delay(1000);
+  count += 1;
+
+ 
+  // We now create a URI for the request
+  String url = &quot;/update?key=5GPL7J7EVNB5R8GE&amp;field1=&quot;;
+  url += count;
+  Serial.print(&quot;Requesting URL: &quot;);
+  Serial.println(url);
+ 
+  // This will send the request to the server
+  client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
+               &quot;Host: &quot; + host + &quot;\r\n&quot; +
+               &quot;Connection: close\r\n\r\n&quot;);
+  delay(10);
+ 
+  // Read all the lines of the reply from server and print them to Serial
+  while(client.available()){
+    String line = client.readStringUntil('\r');
+    Serial.print(line);
+  }
+ 
+  // Close connection
+  Serial.println();
+  Serial.println(&quot;closing connection&quot;);
+  digitalWrite(12, LOW);
+}</pre>
+<p>ArduinoIDE のシリアルモニターでも見れますが、osx のCoolTermでは以下のように見れます。</p>
+<p></p>
+<noscript><img title="Connection_Options__CoolTerm_0__と_CoolTerm_0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Connection_Options__CoolTerm_0__と_CoolTerm_0" src="/wp-content/uploads/2015/05/connection_options__coolterm_0___coolterm_0.png" width="462" height="480"></noscript>
+<img class="lazyload" title="Connection_Options__CoolTerm_0__と_CoolTerm_0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Connection_Options__CoolTerm_0__と_CoolTerm_0" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20462%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/connection_options__coolterm_0___coolterm_0.png" width="462" height="480"><p>&#160;</p>
+<p></p>
+<noscript><img title="Menubar_と_Connection_Options__CoolTerm_0__と_CoolTerm_0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Menubar_と_Connection_Options__CoolTerm_0__と_CoolTerm_0" src="/wp-content/uploads/2015/05/menubar__connection_options__coolterm_0___coolterm_0.png" width="461" height="480"></noscript>
+<img class="lazyload" title="Menubar_と_Connection_Options__CoolTerm_0__と_CoolTerm_0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Menubar_と_Connection_Options__CoolTerm_0__と_CoolTerm_0" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20461%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/menubar__connection_options__coolterm_0___coolterm_0.png" width="461" height="480"><p>&#160;</p>
+<p></p>
+<noscript><img title="Connection_Options__CoolTerm_0__と_CoolTerm_0 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Connection_Options__CoolTerm_0__と_CoolTerm_0 2" src="/wp-content/uploads/2015/05/connection_options__coolterm_0___coolterm_02.png" width="461" height="480"></noscript>
+<img class="lazyload" title="Connection_Options__CoolTerm_0__と_CoolTerm_0 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Connection_Options__CoolTerm_0__と_CoolTerm_0 2" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20461%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/connection_options__coolterm_0___coolterm_02.png" width="461" height="480"><p>&#160;</p>
+<p></p>
+<noscript><img title="Menubar_と_CoolTerm_0_と_Windows7__Running_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Menubar_と_CoolTerm_0_と_Windows7__Running_" src="/wp-content/uploads/2015/05/menubar__coolterm_0__windows7__running_.png" width="568" height="480"></noscript>
+<img class="lazyload" title="Menubar_と_CoolTerm_0_と_Windows7__Running_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Menubar_と_CoolTerm_0_と_Windows7__Running_" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20568%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/menubar__coolterm_0__windows7__running_.png" width="568" height="480"><p>&#160;</p>
+<p>参考にさせて頂いたページ</p>
+<blockquote>
+<p>ESP8266モジュールをArduinoとして使う</p>
+<p><a title="http://ehbtj.com/electronics/esp8266-as-arduino" href="http://ehbtj.com/electronics/esp8266-as-arduino" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://ehbtj.com/electronics/esp8266-as-arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+<p>ESP8266をUSB-TTLシリアル変換してWi-Fiの確認する</p>
+<p><a title="http://qiita.com/masato/items/a3b71f8a17b876be8f76" href="http://qiita.com/masato/items/a3b71f8a17b876be8f76" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://qiita.com/masato/items/a3b71f8a17b876be8f76<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+<p>ESP8266 Wifi Temperature Logger</p>
+<p><a title="http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?lang=ja&amp;ALLSTEPS" href="http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?lang=ja&amp;ALLSTEPS" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?lang=ja&amp;ALLSTEPS<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-672" class="post-672 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/05/08/esp8266-esp-12-doubleblink/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-08T08:58:04+09:00">2015年5月8日</time></a> </span><span class="posted-on">更新日:2015年5月8日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/05/08/esp8266-esp-12-doubleblink/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 ESP-12 DoubleBlink</a></h1></header><div class="entry-content">
@@ -469,32 +603,6 @@ void loop() {
 <noscript><img title="IMG_0211" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="IMG_0211" src="/wp-content/uploads/2015/05/img_0211.jpg" width="640" height="480"></noscript>
 <img class="lazyload" title="IMG_0211" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="IMG_0211" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20480%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/img_0211.jpg" width="640" height="480"><p align="center">&#160;</p>
 <p align="left">特に問題もなさそうな感じでしたので、組みなおしてデジタルテスターの横に鎮座してもらいました！</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-601" class="post-601 post type-post status-publish format-standard hentry category-parts category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/05/02/raspberry-pi-2-model-b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-02T01:06:19+09:00">2015年5月2日</time></a> </span><span class="posted-on">更新日:2015年5月2日</span> <span class="categories"> <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/05/02/raspberry-pi-2-model-b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Raspberry Pi 2 Model B</a></h1></header><div class="entry-content">
-<p>前から触りたかったRaspberry Pi をやっとぽちりました！</p>
-<p>&#160;</p>
-<p> </p>
-<noscript><img title="R8326274-01" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8326274-01" src="/wp-content/uploads/2015/05/r832627401.jpg" width="444" height="287"></noscript>
-<img class="lazyload" title="R8326274-01" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8326274-01" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20444%20287%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/r832627401.jpg" width="444" height="287"><p></p>
-<noscript><img title="R8326274-06" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8326274-06" src="/wp-content/uploads/2015/05/r832627406.jpg" width="444" height="299"></noscript>
-<img class="lazyload" title="R8326274-06" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8326274-06" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20444%20299%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/r832627406.jpg" width="444" height="299"><p>ケースは、これがいいかなと。</p>
-<p></p>
-<noscript><img title="R8193646-01" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8193646-01" src="/wp-content/uploads/2015/05/r819364601.jpg" width="444" height="312"></noscript>
-<img class="lazyload" title="R8193646-01" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8193646-01" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20444%20312%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/r819364601.jpg" width="444" height="312"> <noscript><img title="R8193646-02" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8193646-02" src="/wp-content/uploads/2015/05/r819364602.jpg" width="444" height="393"></noscript>
-<img class="lazyload" title="R8193646-02" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8193646-02" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20444%20393%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/r819364602.jpg" width="444" height="393"> <noscript><img title="R8193646-03" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8193646-03" src="/wp-content/uploads/2015/05/r819364603.jpg" width="444" height="276"></noscript>
-<img class="lazyload" title="R8193646-03" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="R8193646-03" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20444%20276%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/r819364603.jpg" width="444" height="276"><p>休み明けにしかいじれないように、土曜日にRSさんへ発注したので来るのはGW明けです。前、MINIXいじってて、FWを書き換え失敗して置物になってしまったので、今度の Raspberry Pi 2 はしっかり遊びたいです。GWは、ESP8266 ESP-12と、FDDプロッターなどでじっくり遊びます！</p>
-<p>&#160;</p>
-<p>そのほか、4月分の素材もAliexpress へ発注済み。いろいろぽちったので、追って紹介。まだお仕事なのよね。</p>
-<p>これのメインは、Windows10をとりあえず入れてみようかと思っています。3日ほど前にリリースされたのを開発MLで知って、これはたのしそうかもと。</p>
-<p>&#160;</p>
-<p>ダウンロード中！</p>
-<p></p>
-<noscript><img title="スクリーンショット 2015-05-02 1.07.36" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット 2015-05-02 1.07.36" src="/wp-content/uploads/2015/05/201505021-07-36.png" width="536" height="768"></noscript>
-<img class="lazyload" title="スクリーンショット 2015-05-02 1.07.36" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット 2015-05-02 1.07.36" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20536%20768%22%3E%3C/svg%3E" data-src="/wp-content/uploads/2015/05/201505021-07-36.png" width="536" height="768">
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" role="navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
