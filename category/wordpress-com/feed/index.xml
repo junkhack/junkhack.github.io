@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>WordPress.com でドメインマッピングしてサブドメインの独自ドメインを利用</title>
 		<link>/2018/10/18/domain-mapping-on-wordpress.com</link>
@@ -53,18 +53,18 @@ ns junkhack ns3.wordpress.com.</p></blockquote>
 <p>&nbsp;</p>
 <h3>WordPress.com で設定</h3>
 <p>ドメインをマッピングしても、主要ドメインをマッピングしたドメインに設定しないとリダイレクトされません。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain" src="/wp-content/uploads/2018/10/domain.png" alt="domain" width="899" height="1026" border="0" /></p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain" src="/wp-content/uploads/2018/10/domain.png" alt="domain" width="899" height="1026" border="0" /></p>
 <p>以下のような状態にする必要があります。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain2" src="/wp-content/uploads/2018/10/domain2.png" alt="domain2" width="639" height="330" border="0" /></p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain2" src="/wp-content/uploads/2018/10/domain2.png" alt="domain2" width="639" height="330" border="0" /></p>
 <p>設定は以上で完了です。</p>
 <p>&nbsp;</p>
 <p>これで、リダイレクトされます。さらに、リダイレクトするときはHSTS という規格でSSL接続されます。これは想定外だったので、ちょっと得した感じです。</p>
 <p>つまり簡単にいえば常時SSL接続されて暗号化通信されています。自分のドメインはSSL証明書とったわけじゃないのに不思議ですね。</p>
 <p>&nbsp;</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl1" src="/wp-content/uploads/2018/10/ssl1.png" alt="ssl1" width="748" height="407" border="0" /></p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl1" src="/wp-content/uploads/2018/10/ssl1.png" alt="ssl1" width="748" height="407" border="0" /></p>
 <p>証明書の詳細は以下のように出ています。</p>
 <p>&nbsp;</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl2" src="/wp-content/uploads/2018/10/ssl2.png" alt="ssl2" width="600" height="540" border="0" /></p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl2" src="/wp-content/uploads/2018/10/ssl2.png" alt="ssl2" width="600" height="540" border="0" /></p>
 <p>認証したところは、Let’s Encrypt というCAのようです。</p>
 <p>128bit の鍵長で、TLS1.2 のようです。ちなみに、この鍵は、2の128乗、10進法では39桁の数値</p>
 <h4 align="center">340,282,366,920,938,463,463,374,607,431,768,211,456</h4>
@@ -72,7 +72,7 @@ ns junkhack ns3.wordpress.com.</p></blockquote>
 <p>という十分なものです。IPv6アドレスの数と同じですね。</p>
 <p>CNのドメインは、tls.automattic.com のようですね。この説明は以下にあります。</p>
 <p><a title="https://en.support.wordpress.com/https-ssl/" href="https://en.support.wordpress.com/https-ssl/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://en.support.wordpress.com/https-ssl/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl3" src="/wp-content/uploads/2018/10/ssl3.png" alt="ssl3" width="611" height="616" border="0" /></p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl3" src="/wp-content/uploads/2018/10/ssl3.png" alt="ssl3" width="611" height="616" border="0" /></p>
 <p>他のドメインの証明書なのに、ブラウザで安全な接続となるのは、HTTPSレスポンスでStrict-Transport-Security（HSTS）ヘッダーを送信してブラウザが認識するとう内容のようですが、詳細はよく理解できていません。もう少し、コマンドラインのクライアントで詳細を見学してみます。</p>
 <p>wget で見てみると以下のようになります。</p>
 <blockquote><p>$ wget -S &#8211;spider hack.gpl.jp<br />
@@ -278,7 +278,7 @@ hack.gpl.jp.    184    IN    A    192.0.78.24</p>
 							<description><![CDATA[この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。 さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。 やっぱりブログに愛着がわくかどうかって、ま [&#8230;]]]></description>
 										<content:encoded><![CDATA[</p>
 <p>この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。</p>
-<p><img title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
+<p><img loading="lazy" title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
 <p>さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。</p>
 <p>やっぱりブログに愛着がわくかどうかって、まず独自ドメインにすることかなって思いまず最初の１っ歩目を踏み出しました。</p>
 <p>&nbsp;</p>
@@ -295,7 +295,7 @@ hack.gpl.jp.    184    IN    A    192.0.78.24</p>
 <p>&nbsp;</p>
 <p>しかし、仕事でさんざんサーバ回りをいじっているし趣味の世界はネタに没頭したいって思いのほうが強くなりました。やっぱり、心配ごとは少ないほうがいいです。なので、WordPress.com のビジネスプランまで視野に入れて、まずはパーソナルで契約することに。</p>
 <p><a title="https://ja.wordpress.com/pricing/" href="https://ja.wordpress.com/pricing/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.com/pricing/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
+<p><img loading="lazy" title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
 <p>&nbsp;</p>
 <p>パーソナルでも、ドメインをマッピングすることは可能です。オンラインチャットでもいろいろ気になることをきいておきました。</p>
 <p>&nbsp;</p>
@@ -310,7 +310,7 @@ hack.gpl.jp.    184    IN    A    192.0.78.24</p>
 <p>ということで、パーソナルプランから初めてみました。ここでの恩恵は、ドメインをマッピングできることと、広告が消えることです。グーグルのアナリティクスや、独自のテーマやプラグインなどは入れられないので、あくまで通過点のつもりです。</p>
 <p>月400円なんで、低価格のレンサバ並みです。この時点ではまだ、WordPress.com の優位性はあまりないのかなという印象です。しかし、独自ドメインでSSLアクセスになること(これは想定外でした)</p>
 <p>も加味すると、これもありかなと思えます。ドメインマッピングは年間1600円でも可能なようです。ドメインを保有して、他のレジストラで管理している場合はこれもとりあえずはありかもしれません。</p>
-<p><img title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
+<p><img loading="lazy" title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
 <p>今後は、少し頻度を上げて記事を書いていければなーと思っています。</p>
 <p>次回は、WordPress の有料プランについて何かレポートしようかな。いつも、ここらあたりの下に広告が出ていたんですが消えましたね！広告がないとやっぱりいいですね。</p>
 <p>では、また！</p>

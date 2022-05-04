@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>材料集め</title>
 		<link>/2011/02/26/e69d90e69699e99b86e38281/</link>
@@ -56,7 +56,7 @@
 <p><a href="http://diystompbox.net/dc9/dc9.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://diystompbox.net/dc9/dc9.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>ジャンク箱あさったら、STのL7905CVが出てきたので、仕様書PDFのメモ。   <br /><a href="http://www.datasheetcatalog.org/datasheet/stmicroelectronics/2149.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.datasheetcatalog.org/datasheet/stmicroelectronics/2149.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>負電圧か。</p>
-<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image8.png" width="701" height="984" /></p>
+<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image8.png" width="701" height="984" /></p>
 ]]></content:encoded>
 					
 		
@@ -72,7 +72,7 @@
 		<category><![CDATA[memo]]></category>
 		<guid isPermaLink="false">/2011/02/04/%e8%a6%9a%e6%9b%b8%e3%80%80ubuntu-10-04-lts/</guid>
 							<description><![CDATA[http://cdimage.ubuntu.com/ports/releases/lucid/release/ iBook G4 1.2GHz PPCにUbuntu10.04をインストール]]></description>
-										<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2011/02/ubuntu.png?w=300" width="302" height="92" />    <br /><a href="http://cdimage.ubuntu.com/ports/releases/lucid/release/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://cdimage.ubuntu.com/ports/releases/lucid/release/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+										<content:encoded><![CDATA[<p><img loading="lazy" src="/wp-content/uploads/2011/02/ubuntu.png?w=300" width="302" height="92" />    <br /><a href="http://cdimage.ubuntu.com/ports/releases/lucid/release/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://cdimage.ubuntu.com/ports/releases/lucid/release/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p><a href="http://linux.just4fun.biz/iBook%20G4%201.2GHz%20PPC%E3%81%ABUbuntu10.04%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">iBook G4 1.2GHz PPCにUbuntu10.04をインストール<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 ]]></content:encoded>
 					

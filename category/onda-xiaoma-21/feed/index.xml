@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>マック使いがWIN10でストレスにならないよういにキーボードマッピングを変更</title>
 		<link>/2018/10/22/change-keyboard-mapping/</link>
@@ -32,10 +32,10 @@
 							<description><![CDATA[普段は、MAC使いなのでコピペやWindowを閉じるなどの通常操作が、Windowsにきたときにイライラする。ち、これはwindowsかと。自宅のwinなんで使いやすいように変えてしまうことに。 まず、ALTとCTLのキ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>普段は、MAC使いなのでコピペやWindowを閉じるなどの通常操作が、Windowsにきたときにイライラする。ち、これはwindowsかと。自宅のwinなんで使いやすいように変えてしまうことに。</p>
 <p>まず、ALTとCTLのキーはずばっと入れ替えちゃうことに。それ系の設定アプリは他にもいろいろあるので同じ事は他のソフトウェアでも可能かと。以下のＭＳ製のToolで設定はやりました。</p>
-<p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=17657" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-4682" src="/wp-content/uploads/2018/10/download-windows-server-2003-resource-kit-tools-from-official-microsoft-download-center-google-chrome-2018-10-22-07-14-10-1.png" alt="Download Windows Server 2003 Resource Kit Tools from Official Microsoft Download Center - Google Chrome 2018-10-22 07.14.10 (1).png" width="821" height="291" /></a></p>
+<p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=17657" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-4682" src="/wp-content/uploads/2018/10/download-windows-server-2003-resource-kit-tools-from-official-microsoft-download-center-google-chrome-2018-10-22-07-14-10-1.png" alt="Download Windows Server 2003 Resource Kit Tools from Official Microsoft Download Center - Google Chrome 2018-10-22 07.14.10 (1).png" width="821" height="291" /></a></p>
 <p>インストールすると以下にキーを変更するユーティリティーがあるので起動して変更。</p>
 <p>&#8220;C:\Program Files (x86)\Windows Resource Kits\Tools\remapkey.exe&#8221;</p>
-<p><img class=" size-full wp-image-4684 aligncenter" src="/wp-content/uploads/2018/10/remapkey-2018-10-22-07-33-37-1.png" alt="Remapkey 2018-10-22 07.33.37 (1).png" width="594" height="474" /></p>
+<p><img loading="lazy" class=" size-full wp-image-4684 aligncenter" src="/wp-content/uploads/2018/10/remapkey-2018-10-22-07-33-37-1.png" alt="Remapkey 2018-10-22 07.33.37 (1).png" width="594" height="474" /></p>
 <p>あとは、定番ソフトウェアの<a href="https://autohotkey.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">AutoHotkey <span class="wpel-icon wpel-image wpel-icon-1"></span></a>を使って少し設定。</p>
 <blockquote><p>#InstallKeybdHook<br />
 #UseHook</p>
@@ -71,12 +71,12 @@ LWin &amp; TAB::AltTab</p></blockquote>
 							<description><![CDATA[東京に行ったときに、光回線にしようか WiMax にしようか悩んでいましたが実際に WiMax を使ってみてすごく速くて本当にびっくりしています。ぜんぜん悩む必要はありませんでしたね。 以下は、日曜のゴールデンタイムに計 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>東京に行ったときに、光回線にしようか WiMax にしようか悩んでいましたが実際に WiMax を使ってみてすごく速くて本当にびっくりしています。ぜんぜん悩む必要はありませんでしたね。</p>
 <p>以下は、日曜のゴールデンタイムに計測したスピードテストです。170Mbps 出ています。リフレクターは、OPEN Project (via 20G SINET)で筑波大学。</p>
-<p> <img title="ONDA_Xiaoma21_WiMax" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21_WiMax" src="/wp-content/uploads/2018/03/onda_xiaoma21_wimax.png" width="640" height="320" />   </p>
+<p> <img loading="lazy" title="ONDA_Xiaoma21_WiMax" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21_WiMax" src="/wp-content/uploads/2018/03/onda_xiaoma21_wimax.png" width="640" height="320" />   </p>
 <blockquote>
 <p>計測ポイント</p>
 <p><a title="http://www.open.ad.jp/" href="http://www.open.ad.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.open.ad.jp/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
-<p><img title="open2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="open2" src="/wp-content/uploads/2018/03/open2.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="open2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="open2" src="/wp-content/uploads/2018/03/open2.jpg" width="640" height="480" /> </p>
 <p>WMax のモデム・W05 はルータモード、5Ghz 帯で接続し計測した結果です。計測したPCは、先日購入した Onda Xiaoma21で接続しています。</p>
 <p>ゴールデンタイムは、10GB を超えると絞り込まれると思っていましたがまだ普通に使えますね。今、3日累積で34GB いっています。明日かあさってには絞り込まれるのだろうか？ 追って報告したいと思います。</p>
 ]]></content:encoded>
@@ -98,25 +98,25 @@ LWin &amp; TAB::AltTab</p></blockquote>
 										<content:encoded><![CDATA[<p>2月の中国の旧正月明けに買ったので、少し到着が遅れましたが無事に2月末日に日本に到着。佐川急便で2日後につきました。</p>
 <p>なかなかコンパクトなノートPCで、Onda というメーカーが作っています。</p>
 <p>製品名は、Xiaoma21という型番です。xiaomi（シャオミ）じゃありませんよ。シャオマという製品名です。中国語では、小马21 です。意味は、子馬です。そうこのシャオマシリーズは、そのあとに続く数字が21 と 31 と 41 のほか、11 というシリーズもあり、それぞれ、画面サイズが11.6インチから14インチまであって、今回買ったのはその中でもクラムシェル型のキーボード一体式のもので一番軽いものです。</p>
-<p><img title="xm21192005_jpg__1920708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xm21192005_jpg__1920708_" src="/wp-content/uploads/2018/03/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
+<p><img loading="lazy" title="xm21192005_jpg__1920708_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xm21192005_jpg__1920708_" src="/wp-content/uploads/2018/03/xm21192005_jpg__1920708_.png" width="706" height="702" /> </p>
 <p>この製品、Onada の Xiaoma21というのは重量 1.08kg で 12.5インチの軽量タイプのノートPCです。価格もこなれていて、3.3万（送料込み）で買えます。で、一般的なレビューはすっとばして、さっそく、512MB の m.2 SSDをくっ付けて OS を SSD ブートしてみました。</p>
-<p><img title="IMG_20180303_032351" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032351" src="/wp-content/uploads/2018/03/img_20180303_032351.jpg" width="640" height="480" /> </p>
-<p>なにやら、警告文字がありますが気にせず装着。電源切って装着せよということですね。<img title="IMG_20180303_032403" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032403" src="/wp-content/uploads/2018/03/img_20180303_032403.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="IMG_20180303_032351" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032351" src="/wp-content/uploads/2018/03/img_20180303_032351.jpg" width="640" height="480" /> </p>
+<p>なにやら、警告文字がありますが気にせず装着。電源切って装着せよということですね。<img loading="lazy" title="IMG_20180303_032403" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032403" src="/wp-content/uploads/2018/03/img_20180303_032403.jpg" width="640" height="480" /> </p>
 <p>で、OS 部分を SSD に移動してとりあえずブート。ベンチマーク。</p>
 <p>&#160;</p>
-<p><img title="ONDA_Xiaoma21 8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 8" src="/wp-content/uploads/2018/03/onda_xiaoma218.png" width="640" height="465" /> </p>
+<p><img loading="lazy" title="ONDA_Xiaoma21 8" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 8" src="/wp-content/uploads/2018/03/onda_xiaoma218.png" width="640" height="465" /> </p>
 <p>きましたー！ リード、ライトとも500MB 超え。速いですね。やはり、M.2 の SSD はこうでなくちゃいけません。今回ゲットした SSD は kingspec の 512MB で1.3万円です。安くなりましたね。NT-512 という表示のものがそれです。</p>
 <p>ちなみに、eMMC は Toshiba チップで、ベンチマークは以下です。まだ、移行前に eMMC から OS が起動しているときに計測したものです。なかなか速いですね。</p>
-<p><img title="ONDA_Xiaoma21 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 6" src="/wp-content/uploads/2018/03/onda_xiaoma216.png" width="400" height="367" /> </p>
+<p><img loading="lazy" title="ONDA_Xiaoma21 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ONDA_Xiaoma21 6" src="/wp-content/uploads/2018/03/onda_xiaoma216.png" width="400" height="367" /> </p>
 <p>この機種は小さいながらも、Windows Hello に対応した指紋認証デバイスがついています。これ、思いのほか便利です。スマホにも最近のはついていて便利に使っていますが、これは使ってみるとありがたい機能です。</p>
-<p><img title="IMG_20180303_032734" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032734" src="/wp-content/uploads/2018/03/img_20180303_032734.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="IMG_20180303_032734" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032734" src="/wp-content/uploads/2018/03/img_20180303_032734.jpg" width="640" height="480" /> </p>
 <p>キーボードは癖がない英語キーボード。バックスペースの上もDELETEキーで、中華ノート全般にある電源ボタンはバックスペースの上にはなく、離れていますので間違えて押すことはないです。筐体はアルミでしっかりできていますのでキーボード部分がたわむことはありません。キーボード自体の質感は mac の感じとは違って少しカチャカチャいうタイプです。個人的には、かな表示がない英語キーボードは昔から使っていますので非常に好みです。</p>
-<p><img title="IMG_20180303_032645" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032645" src="/wp-content/uploads/2018/03/img_20180303_032645.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="IMG_20180303_032645" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032645" src="/wp-content/uploads/2018/03/img_20180303_032645.jpg" width="640" height="480" /> </p>
 </p>
 </p>
 </p>
 <p>ディスプレイもグレア（非光沢）で、パネルはIPSとなり非常に綺麗です。筐体色はゴールドで、ぎらついた感じではなく好感が持てるゴールドとなります。シルバー色ばっかりでしたので、逆に新鮮ですね。</p>
-<p><img title="IMG_20180303_032657" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032657" src="/wp-content/uploads/2018/03/img_20180303_032657.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="IMG_20180303_032657" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20180303_032657" src="/wp-content/uploads/2018/03/img_20180303_032657.jpg" width="640" height="480" /> </p>
 <p>バッテリーテストも兼ねて、充電100% になったので実稼動テストをしています。8時間くらい持つといいかなと思いますがさてどうでしょうか。評判どおり、キーボードのシフトキーのタイプ音は少しカチャカチャ音が大きく、そこは評判どおりでした。</p>
 ]]></content:encoded>
 					

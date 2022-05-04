@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？</title>
 		<link>/2020/08/04/achievesaminustemperaturein2peltierelements/</link>
@@ -33,36 +33,36 @@
 		<guid isPermaLink="false">/?p=5650</guid>
 							<description><![CDATA[先日、ダストクーラーの修理をしました。しかし実際に運用してみると、あまり冷えないことに気がつきました。100円均一で、温度計（目安計で正確ではありません）をゲットしてきて測ってみると23度くらいです。（室温28度） 考え [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>先日、ダストクーラーの修理をしました。しかし実際に運用してみると、あまり冷えないことに気がつきました。100円均一で、温度計（目安計で正確ではありません）をゲットしてきて測ってみると23度くらいです。（室温28度）</p>
-<p><img class="alignnone size-full wp-image-5651" src="/wp-content/uploads/2020/08/img_20200801_152308_7.jpg" alt="IMG_20200801_152308_7" width="3968" height="2976"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5651" src="/wp-content/uploads/2020/08/img_20200801_152308_7.jpg" alt="IMG_20200801_152308_7" width="3968" height="2976"></p>
 <p>考えられる原因としては、以下が挙げられます。</p>
 <p>・ペルチェ素子の冷える面に対して、アルミブロックの設置面積が足りない<br />
 ・冷える面と、温まる面の防壁がない（熱が逃げる）<br />
 ・温まる面にヒートシンクがついていて、間接的にケースの外側にファンがついている<br />
 →　熱が効率的に冷えない　→　冷える面もそれに準じ、さほど冷えない</p>
 <p>つまり、改造したので構造的な部分の欠点、熱交換の部分の欠点などが考えられそうです。</p>
-<p><img class="alignnone size-full wp-image-5654" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_48.png" alt="スクリーンショット_2020_08_04_0_48" width="949" height="596"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5654" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_48.png" alt="スクリーンショット_2020_08_04_0_48" width="949" height="596"></p>
 <p>ちなみに、冷蔵庫は10度くらい、冷凍庫は−10度〜18度くらいのようでした。</p>
 <p>生ゴミ保管庫としては、0度くらいを保ってくれると嬉しいのですが、もう少し改善できない実験してみることに。</p>
 <p>まず、構造的な部分は次回考えるとして、今回はペルチェ素子を２段３段と重ねたらどうなるか実験してみました。まず、電源をJunkBoxから調達です。</p>
-<p><img class="alignnone size-full wp-image-5655" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_56.png" alt="スクリーンショット_2020_08_04_0_56" width="1011" height="358"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5655" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_56.png" alt="スクリーンショット_2020_08_04_0_56" width="1011" height="358"></p>
 <p>１Uサーバ用の２５０W電源です。中は少し改造してありますが、１２Vと５Vが取り出せるようになっています。この電源なら６０Wのペルチェ素子を３、４段重ねて駆動させられます。</p>
-<p><img class="alignnone size-full wp-image-5657" src="/wp-content/uploads/2020/08/img_20200803_213232_0.jpg" alt="IMG_20200803_213232_0" width="3968" height="2976"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5657" src="/wp-content/uploads/2020/08/img_20200803_213232_0.jpg" alt="IMG_20200803_213232_0" width="3968" height="2976"></p>
 <p>実験用の設備は、ファン付きのヒートシンクにペルチェ素子を付けて、表面温度を計測します。ファンは５Vに接続してあり、ほぼ音はならない回転数です。１２Vにファンを接続すると爆音でファンが回ります。</p>
-<p><img class="alignnone size-full wp-image-5658" src="/wp-content/uploads/2020/08/img_20200803_214039_6.jpg" alt="IMG_20200803_214039_6" width="3968" height="2976"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5658" src="/wp-content/uploads/2020/08/img_20200803_214039_6.jpg" alt="IMG_20200803_214039_6" width="3968" height="2976"></p>
 <p>ペルチェ素子が１枚（12V）のときは、おおよそ9度でした。ファンは５Vに接続してあります。</p>
-<p><img class="alignnone size-full wp-image-5659" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_1_02.png" alt="スクリーンショット_2020_08_04_1_02" width="1162" height="413"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5659" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_1_02.png" alt="スクリーンショット_2020_08_04_1_02" width="1162" height="413"></p>
 <p>では、２枚に重ねてみるとどうなるでしょうか？　ペルチェ素子が２枚（12V）のときは一旦、1度付近まで下がりましたが、２、３分すると温度が上昇し、結局下の写真のように8度〜9度付近で安定しました。</p>
-<p><img class="alignnone size-full wp-image-5660" src="/wp-content/uploads/2020/08/img_20200803_232802_8.jpg" alt="IMG_20200803_232802_8" width="2976" height="3968"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5660" src="/wp-content/uploads/2020/08/img_20200803_232802_8.jpg" alt="IMG_20200803_232802_8" width="2976" height="3968"></p>
 <p>ペルチェ素子が３枚（12V）（３段）のとき、写真を撮り忘れましたが、今度は逆に温度が上がっていく現象になりました。一瞬、何が起きたのかパニックになりました。そうそうに電源を切ったので写真がなくてすみません・・・・うーむ（笑）<br />
 冷静になって考えてみると、１２V定格で３枚を密着させて動作させたときの熱を吸収できなったのでしょう。</p>
-<p><img class="alignnone size-full wp-image-5661" src="/wp-content/uploads/2020/08/img_20200804_002621_1.jpg" alt="IMG_20200804_002621_1" width="2976" height="3968"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5661" src="/wp-content/uploads/2020/08/img_20200804_002621_1.jpg" alt="IMG_20200804_002621_1" width="2976" height="3968"></p>
 <p>今度は１枚に戻して、ファンを１２Vに接続して実験。すると、0度付近で安定しました。でもファンが煩さすぎて運用する気にはなれません。しかし、発生する熱をうまく逃すことができれば、冷える面も下がるということはわかりました。熱を逃がせないと前回３段の時のように、ペルチェ素子自体が発熱してくることもわかりました。</p>
-<p><img class="alignnone size-full wp-image-5662" src="/wp-content/uploads/2020/08/img_20200804_003744_8.jpg" alt="IMG_20200804_003744_8" width="2976" height="3968"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5662" src="/wp-content/uploads/2020/08/img_20200804_003744_8.jpg" alt="IMG_20200804_003744_8" width="2976" height="3968"></p>
 <p>最後に、２枚接続し、下段は１２V、上段は５Vに接続、ファンは５Vで回します。すると、マイナス４度まで一旦下がりました！　５分以上、稼働させ安定するポイントは−1度くらいでした。</p>
-<p><img class="alignnone size-full wp-image-5667" src="/wp-content/uploads/2020/08/img_20200804_012210_8.jpg" alt="IMG_20200804_012210_8" width="2976" height="3968"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5667" src="/wp-content/uploads/2020/08/img_20200804_012210_8.jpg" alt="IMG_20200804_012210_8" width="2976" height="3968"></p>
 <p>つまり今回の実験では、一番効率がいいのは、２枚の組み合わせです。CPUヒートシンク（ファン付き）側に接続するペルチェ素子は１２Vで定格駆動させ、上段は５Vで運用。これが今の所、最適のようです。</p>
 <p>３段でも、電圧を調整して熱量をうまく逃すことができれば同じように効率的に冷えると思いますが、２段でマイナスまで行ってくれれば今回は良しとします。ブログを書いているとペルチェ素子が結露して凍結していました！　記念に、-1℃　とドライバーで書いてみましたよ！</p>
-<p><img class="alignnone size-full wp-image-5668" src="/wp-content/uploads/2020/08/img_20200804_012347_0.jpg" alt="IMG_20200804_012347_0" width="3968" height="2976"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5668" src="/wp-content/uploads/2020/08/img_20200804_012347_0.jpg" alt="IMG_20200804_012347_0" width="3968" height="2976"></p>
 <p>次回は構造的な部分にメスを入れてみたいと思います。なんとか、使えるダストボックスにしないとですね！</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
@@ -86,15 +86,15 @@
 							<description><![CDATA[バイクメンテナンスは中腰が多くて疲れますよね。ワーキングチェアが欲しいなとずっと思ってました。ホームセンターにもあるんですが5000円以上してたんで、いつも欲しーなと思いながら入り口を通過する状態。 既製品も3000円く [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>バイクメンテナンスは中腰が多くて疲れますよね。ワーキングチェアが欲しいなとずっと思ってました。ホームセンターにもあるんですが5000円以上してたんで、いつも欲しーなと思いながら入り口を通過する状態。</p>
 <p>既製品も3000円くらいから買えますが、ダイソーのジョイントラックでも作れそうだったので素材をゲットしてきました。素材は2000円以下で買えました。</p>
-<p><a href="https://amzn.to/3jv0z2R" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-5351" src="/wp-content/uploads/2020/07/amazon___e382a2e382b9e38388e383ade38395e3829ae383ade382bfe38299e382afe38384_e382b7e383bce38388e382afe383aae383bce3838fe3829ae383bc_2003000002201___e3838fe3829ae383bce38384e3839be38299e38.png" alt="Amazon___アストロプロダクツ_シートクリーパー_2003000002201___パーツボックス" width="1010" height="597" /></a></p>
+<p><a href="https://amzn.to/3jv0z2R" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-5351" src="/wp-content/uploads/2020/07/amazon___e382a2e382b9e38388e383ade38395e3829ae383ade382bfe38299e382afe38384_e382b7e383bce38388e382afe383aae383bce3838fe3829ae383bc_2003000002201___e3838fe3829ae383bce38384e3839be38299e38.png" alt="Amazon___アストロプロダクツ_シートクリーパー_2003000002201___パーツボックス" width="1010" height="597" /></a></p>
 <p>近くのダイソーは２件あって、大きい店舗に行ってきました。こんなのを集めてきました。</p>
-<p><img class="alignnone size-full wp-image-5354" src="/wp-content/uploads/2020/07/img_20200722_161742_0.jpg" alt="IMG_20200722_161742_0" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5354" src="/wp-content/uploads/2020/07/img_20200722_161742_0.jpg" alt="IMG_20200722_161742_0" width="3968" height="2976" /></p>
 <p>で、出来上がったのがこちら。</p>
-<p><img class="alignnone size-full wp-image-5355" src="/wp-content/uploads/2020/07/img_20200722_170210_6.jpg" alt="IMG_20200722_170210_6" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5355" src="/wp-content/uploads/2020/07/img_20200722_170210_6.jpg" alt="IMG_20200722_170210_6" width="3968" height="2976" /></p>
 <p>色を塗るのが面倒だったのでとりあえず、このまま使います。棚の部分は本来、逆で差し込みますが、縁を利用したかったので。テーパー状の穴は逆でもある程度ハマります。</p>
-<p><img class="alignnone size-full wp-image-5356" src="/wp-content/uploads/2020/07/img_20200722_185501_1.jpg" alt="IMG_20200722_185501_1" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5356" src="/wp-content/uploads/2020/07/img_20200722_185501_1.jpg" alt="IMG_20200722_185501_1" width="3968" height="2976" /></p>
 <p>下には工具やパーツなんかも置いて置けます。座った感じはかなり楽ですね。腰もだいぶ軽減されるはずです。ちなみに、金属のローラー対荷重は１０kgですが、座った状態であれば大丈夫そうでした。</p>
-<p><img class="alignnone size-full wp-image-5357" src="/wp-content/uploads/2020/07/img_20200722_185517_2.jpg" alt="IMG_20200722_185517_2" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5357" src="/wp-content/uploads/2020/07/img_20200722_185517_2.jpg" alt="IMG_20200722_185517_2" width="3968" height="2976" /></p>
 <p>後ろのカゴにはスプレー類なんかを入れておけるようにしてあります。紙コップはネジ入れとかです。</p>
 <p>1700円くらいで、ここまで作れたのでまぁアリかな？　また明日も使うんで、使いにくい部分があればカスタムしていこうと思います。</p>
 <p>&nbsp;</p>
@@ -116,18 +116,18 @@
 		<guid isPermaLink="false">/?p=3850</guid>
 							<description><![CDATA[ミスミのグリーンフレームを貫通させるための穴がなかなか納得いくものが出来なくて、やっと5つ目で出来ました。 後ろの４つは、微妙にサイズが小さくて溶かしてはめ込んだのですが、そのまま装着したいのでサイズ調整をしていました。 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ミスミのグリーンフレームを貫通させるための穴がなかなか納得いくものが出来なくて、やっと5つ目で出来ました。</p>
-<p><img title="P1300797" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300797" src="/wp-content/uploads/2017/04/p1300797.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300797" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300797" src="/wp-content/uploads/2017/04/p1300797.png" width="640" height="480" /> </p>
 <p>後ろの４つは、微妙にサイズが小さくて溶かしてはめ込んだのですが、そのまま装着したいのでサイズ調整をしていました。写真で装着しているものは、５回目のプリントでやっと出来たサイズ調整なしのものです。</p>
-<p><img title="P1300799" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300799" src="/wp-content/uploads/2017/04/p1300799.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300799" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300799" src="/wp-content/uploads/2017/04/p1300799.png" width="640" height="480" /> </p>
 <p>アルミフレーム部分のシルエットを大きくしても、出っ張った部分の横幅がさほど大きくならないのと、へこんでいる部分を浅く作ることでやっと出来ました。</p>
-<p><img title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="/wp-content/uploads/2017/04/a1.png" width="640" height="366" /> </p>
+<p><img loading="lazy" title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="/wp-content/uploads/2017/04/a1.png" width="640" height="366" /> </p>
 <p>こんな感じで抜く穴を調整。</p>
-<p><img title="P1300800" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300800" src="/wp-content/uploads/2017/04/p1300800.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300800" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300800" src="/wp-content/uploads/2017/04/p1300800.png" width="640" height="480" /> </p>
 <p>あとは左右対称にしてプリントするだけですが、結構なサイズですのでプリントは時間がかかります。空き時間を見つけて、少しづつプリントしていきます。</p>
 <p>&#160;</p>
 <p>CNC を作り出すと、工具が部屋に散らかるのでまずはこのワゴンから作っています。</p>
 <p>ロフト部分から部屋を撮影しましたが、T字型に組んだテーブルの手前に3D プリンターがあるのですが、これを押入れ部分に収納してここを作業台にしようと思っています。</p>
-<p><img title="名称未設定" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="名称未設定" src="/wp-content/uploads/2017/04/ae42f5505f7e.png" width="636" height="536" /> </p>
+<p><img loading="lazy" title="名称未設定" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="名称未設定" src="/wp-content/uploads/2017/04/ae42f5505f7e.png" width="636" height="536" /> </p>
 <p>3D プリンターがあると、机の上がごちゃごちゃしてくるのでなんとかしたいなと。作業が進まないのは、部屋が散らかりすぎているからなんですが、どうやってすっきりさせようかと思案中です。</p>
 ]]></content:encoded>
 					
@@ -149,20 +149,20 @@
 <table cellspacing="0" cellpadding="2" width="600" border="0">
 <tbody>
 <tr>
-<td valign="top" width="300"><img title="PW15366438" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366438" src="/wp-content/uploads/2017/04/pw15366438.jpg" width="250" height="250" /> </td>
-<td valign="top" width="300"><img title="PW15366437" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366437" src="/wp-content/uploads/2017/04/pw15366437.jpg" width="250" height="250" /></td>
+<td valign="top" width="300"><img loading="lazy" title="PW15366438" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366438" src="/wp-content/uploads/2017/04/pw15366438.jpg" width="250" height="250" /> </td>
+<td valign="top" width="300"><img loading="lazy" title="PW15366437" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366437" src="/wp-content/uploads/2017/04/pw15366437.jpg" width="250" height="250" /></td>
 </tr>
 </tbody>
 </table></div>
 <p align="left">送料、税込み1200円だったので、２つぽちっとしておきました。１つは分解、１つは普通に使おうかと。ポリマータイプとメーカーのオフィシャルに書いてありました。これが1セルなのか、5000mAh の2セルなのかちょっと試しに買ってみることに。5000mAh を直列にして7.4V 定格を降圧して 5V にしているタイプかもしれません。</p>
-<p align="left"><a href="http://jp.pqigroup.com/prod_spec.aspx?mnuid=1296&amp;modid=145&amp;prodid=1183" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="PQI_Power_10000C" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PQI_Power_10000C" src="/wp-content/uploads/2017/04/pqi_power_10000c.png" width="571" height="353" /></a> </p>
+<p align="left"><a href="http://jp.pqigroup.com/prod_spec.aspx?mnuid=1296&amp;modid=145&amp;prodid=1183" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="PQI_Power_10000C" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PQI_Power_10000C" src="/wp-content/uploads/2017/04/pqi_power_10000c.png" width="571" height="353" /></a> </p>
 <p align="left">あと、前回打診買いしたダイソー、300円の18650 モバイルバッテリーは変換効率が恐ろしく悪いのか、セルが2000mAh もないのかまだ特定できていませんが、5V 給電時、スマホには800mAh ほどしか入りません。2本あっても、2400mAh の yotaphone 2 がフル充電にはならず６０％を少し超えたあたりです。</p>
 <p align="left">&#160;</p>
 <p align="left">3.5V to 5v の変換効率が60%として、本当に2000mAh なら 1200mAh ほど入るはずですが、800mAh 未満ほどしか入らないということは、1300mAh ほどしかないセルということになりそうです。WEB 上での情報とも一致する値です。</p>
 <p align="left">どの道、ダイソーのバッテリーは分解して使うことを前提に買っているのでばらして真相をみたいと思います。2000mAh のバッテリーを使っていると歌っている以上、これは本当だとしたら恐ろしく効率の悪い昇圧回路ということになりますが、さてどうなることやら。</p>
 <p>&#160;</p>
 <p>その後、サイド販売サイトを確認してみると、すでに販売終了。一瞬でしたね。黒も白もすでにありません。</p>
-<p><img title="ｃ" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ｃ" src="/wp-content/uploads/2017/04/02b823ecae94.png" width="640" height="367" /> まだ、ばらしていませんが高出力でなかなかいいです。24V 車の MTB 用動力源にしようと思っていましたがまた次のポリマー電池を探すことにします。</p>
+<p><img loading="lazy" title="ｃ" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ｃ" src="/wp-content/uploads/2017/04/02b823ecae94.png" width="640" height="367" /> まだ、ばらしていませんが高出力でなかなかいいです。24V 車の MTB 用動力源にしようと思っていましたがまた次のポリマー電池を探すことにします。</p>
 ]]></content:encoded>
 					
 		
@@ -181,11 +181,11 @@
 		<guid isPermaLink="false">/?p=3782</guid>
 							<description><![CDATA[久しぶりに 3D プリンターを動かしました。 部屋がかなり散らかっていたので、片付けながらやっと作業できそうなまでに落ち着いたので、久しぶりにプリントしてみました。 とりあえずは、試作です。 ちょっときついので、バーナー [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>久しぶりに 3D プリンターを動かしました。</p>
-<p> <img title="P1300714" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300714" src="/wp-content/uploads/2017/04/p1300714.png" width="640" height="480" />   </p>
+<p> <img loading="lazy" title="P1300714" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300714" src="/wp-content/uploads/2017/04/p1300714.png" width="640" height="480" />   </p>
 <p>部屋がかなり散らかっていたので、片付けながらやっと作業できそうなまでに落ち着いたので、久しぶりにプリントしてみました。</p>
-<p><img title="P1300721" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300721" src="/wp-content/uploads/2017/04/p1300721.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300721" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300721" src="/wp-content/uploads/2017/04/p1300721.png" width="640" height="480" /> </p>
 <p>とりあえずは、試作です。</p>
-<p><img title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="/wp-content/uploads/2017/04/p1300722.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="/wp-content/uploads/2017/04/p1300722.png" width="640" height="480" /> </p>
 <p>ちょっときついので、バーナーであぶって入れました。もう少しゆったりと作る必要がありそうです。</p>
 <p>データの修正は今度やることにして、また違うことをやろうかと。</p>
 ]]></content:encoded>

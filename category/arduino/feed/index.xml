@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>XIAOでMacのスクリーンショット専用USBキーを作るDIY</title>
 		<link>/2021/03/01/make-mac-sskey-xiao/</link>
@@ -73,7 +73,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="267" height="194" src="/wp-content/uploads/2021/02/image-6.png" alt="" class="wp-image-10197"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="267" height="194" src="/wp-content/uploads/2021/02/image-6.png" alt="" class="wp-image-10197"/></figure></div>
 
 
 
@@ -81,7 +81,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="221" height="384" src="/wp-content/uploads/2021/02/image-7.png" alt="" class="wp-image-10198"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="221" height="384" src="/wp-content/uploads/2021/02/image-7.png" alt="" class="wp-image-10198"/></figure></div>
 
 
 
@@ -129,7 +129,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="555" height="189" src="/wp-content/uploads/2021/03/image.png" alt="" class="wp-image-10202"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="555" height="189" src="/wp-content/uploads/2021/03/image.png" alt="" class="wp-image-10202"/></figure></div>
 
 
 
@@ -137,7 +137,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="284" height="477" src="/wp-content/uploads/2021/03/image-1.png" alt="" class="wp-image-10203"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="284" height="477" src="/wp-content/uploads/2021/03/image-1.png" alt="" class="wp-image-10203"/></figure></div>
 
 
 
@@ -181,7 +181,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="668" height="615" src="/wp-content/uploads/2021/03/image-2.png" alt="" class="wp-image-10204"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="668" height="615" src="/wp-content/uploads/2021/03/image-2.png" alt="" class="wp-image-10204"/></figure></div>
 
 
 
@@ -234,7 +234,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="565" src="/wp-content/uploads/2021/03/image-3-1024x565.png" alt="" class="wp-image-10207" srcset="/wp-content/uploads/2021/03/image-3-1024x565.png 1024w, /wp-content/uploads/2021/03/image-3-768x423.png 768w, /wp-content/uploads/2021/03/image-3-984x543.png 984w, /wp-content/uploads/2021/03/image-3.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="565" src="/wp-content/uploads/2021/03/image-3-1024x565.png" alt="" class="wp-image-10207" srcset="/wp-content/uploads/2021/03/image-3-1024x565.png 1024w, /wp-content/uploads/2021/03/image-3-768x423.png 768w, /wp-content/uploads/2021/03/image-3-984x543.png 984w, /wp-content/uploads/2021/03/image-3.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -246,7 +246,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="722" src="/wp-content/uploads/2021/03/image-4-1024x722.png" alt="" class="wp-image-10208" srcset="/wp-content/uploads/2021/03/image-4-1024x722.png 1024w, /wp-content/uploads/2021/03/image-4-768x542.png 768w, /wp-content/uploads/2021/03/image-4-984x694.png 984w, /wp-content/uploads/2021/03/image-4.png 1116w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="722" src="/wp-content/uploads/2021/03/image-4-1024x722.png" alt="" class="wp-image-10208" srcset="/wp-content/uploads/2021/03/image-4-1024x722.png 1024w, /wp-content/uploads/2021/03/image-4-768x542.png 768w, /wp-content/uploads/2021/03/image-4-984x694.png 984w, /wp-content/uploads/2021/03/image-4.png 1116w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -254,7 +254,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="765" src="/wp-content/uploads/2021/03/image-6-1024x765.png" alt="" class="wp-image-10210" srcset="/wp-content/uploads/2021/03/image-6-1024x765.png 1024w, /wp-content/uploads/2021/03/image-6-768x573.png 768w, /wp-content/uploads/2021/03/image-6-984x735.png 984w, /wp-content/uploads/2021/03/image-6.png 1212w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="765" src="/wp-content/uploads/2021/03/image-6-1024x765.png" alt="" class="wp-image-10210" srcset="/wp-content/uploads/2021/03/image-6-1024x765.png 1024w, /wp-content/uploads/2021/03/image-6-768x573.png 768w, /wp-content/uploads/2021/03/image-6-984x735.png 984w, /wp-content/uploads/2021/03/image-6.png 1212w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -262,11 +262,11 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="839" height="628" src="/wp-content/uploads/2021/03/image-7.png" alt="" class="wp-image-10211" srcset="/wp-content/uploads/2021/03/image-7.png 839w, /wp-content/uploads/2021/03/image-7-768x575.png 768w" sizes="(max-width: 839px) 100vw, 839px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="839" height="628" src="/wp-content/uploads/2021/03/image-7.png" alt="" class="wp-image-10211" srcset="/wp-content/uploads/2021/03/image-7.png 839w, /wp-content/uploads/2021/03/image-7-768x575.png 768w" sizes="(max-width: 839px) 100vw, 839px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="688" src="/wp-content/uploads/2021/03/XIAO_Pin.png" alt="" class="wp-image-10213" srcset="/wp-content/uploads/2021/03/XIAO_Pin.png 1024w, /wp-content/uploads/2021/03/XIAO_Pin-768x516.png 768w, /wp-content/uploads/2021/03/XIAO_Pin-984x661.png 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="688" src="/wp-content/uploads/2021/03/XIAO_Pin.png" alt="" class="wp-image-10213" srcset="/wp-content/uploads/2021/03/XIAO_Pin.png 1024w, /wp-content/uploads/2021/03/XIAO_Pin-768x516.png 768w, /wp-content/uploads/2021/03/XIAO_Pin-984x661.png 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -278,7 +278,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="742" src="/wp-content/uploads/2021/03/image-5-1024x742.png" alt="" class="wp-image-10209" srcset="/wp-content/uploads/2021/03/image-5-1024x742.png 1024w, /wp-content/uploads/2021/03/image-5-768x557.png 768w, /wp-content/uploads/2021/03/image-5-984x713.png 984w, /wp-content/uploads/2021/03/image-5.png 1251w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="742" src="/wp-content/uploads/2021/03/image-5-1024x742.png" alt="" class="wp-image-10209" srcset="/wp-content/uploads/2021/03/image-5-1024x742.png 1024w, /wp-content/uploads/2021/03/image-5-768x557.png 768w, /wp-content/uploads/2021/03/image-5-984x713.png 984w, /wp-content/uploads/2021/03/image-5.png 1251w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -286,7 +286,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="800" height="800" src="/wp-content/uploads/2021/03/DIY-USB-KEY.png" alt="" class="wp-image-10212" srcset="/wp-content/uploads/2021/03/DIY-USB-KEY.png 800w, /wp-content/uploads/2021/03/DIY-USB-KEY-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="800" height="800" src="/wp-content/uploads/2021/03/DIY-USB-KEY.png" alt="" class="wp-image-10212" srcset="/wp-content/uploads/2021/03/DIY-USB-KEY.png 800w, /wp-content/uploads/2021/03/DIY-USB-KEY-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure></div>
 
 
 
@@ -294,7 +294,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="540" height="383" src="/wp-content/uploads/2021/03/image-8.png" alt="" class="wp-image-10214"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="540" height="383" src="/wp-content/uploads/2021/03/image-8.png" alt="" class="wp-image-10214"/></figure></div>
 
 
 
@@ -302,7 +302,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="665" height="605" src="/wp-content/uploads/2021/03/image-9.png" alt="" class="wp-image-10215"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="665" height="605" src="/wp-content/uploads/2021/03/image-9.png" alt="" class="wp-image-10215"/></figure></div>
 
 
 
@@ -342,7 +342,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="668" height="581" src="/wp-content/uploads/2021/03/mac-keyboard.png" alt="" class="wp-image-10252"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="668" height="581" src="/wp-content/uploads/2021/03/mac-keyboard.png" alt="" class="wp-image-10252"/></figure></div>
 
 
 
@@ -440,7 +440,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="690" height="478" src="/wp-content/uploads/2021/02/nano.png" alt="" class="wp-image-10165"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="690" height="478" src="/wp-content/uploads/2021/02/nano.png" alt="" class="wp-image-10165"/></figure></div>
 
 
 
@@ -493,7 +493,7 @@ http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="648" height="407" src="/wp-content/uploads/2021/02/ArudinoNano.png" alt="" class="wp-image-10155"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="648" height="407" src="/wp-content/uploads/2021/02/ArudinoNano.png" alt="" class="wp-image-10155"/></figure></div>
 
 
 
@@ -545,7 +545,7 @@ http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="381" src="/wp-content/uploads/2021/02/ss-uno-1024x381.png" alt="" class="wp-image-10160" srcset="/wp-content/uploads/2021/02/ss-uno-1024x381.png 1024w, /wp-content/uploads/2021/02/ss-uno-768x286.png 768w, /wp-content/uploads/2021/02/ss-uno-984x366.png 984w, /wp-content/uploads/2021/02/ss-uno.png 1196w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="381" src="/wp-content/uploads/2021/02/ss-uno-1024x381.png" alt="" class="wp-image-10160" srcset="/wp-content/uploads/2021/02/ss-uno-1024x381.png 1024w, /wp-content/uploads/2021/02/ss-uno-768x286.png 768w, /wp-content/uploads/2021/02/ss-uno-984x366.png 984w, /wp-content/uploads/2021/02/ss-uno.png 1196w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -569,7 +569,7 @@ http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="683" height="512" src="/wp-content/uploads/2021/02/IMG_20210223_114749_jpg.png" alt="" class="wp-image-10159"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="683" height="512" src="/wp-content/uploads/2021/02/IMG_20210223_114749_jpg.png" alt="" class="wp-image-10159"/></figure></div>
 
 
 
@@ -615,7 +615,7 @@ http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="800" height="877" src="/wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2.jpg" alt="" class="wp-image-10161" srcset="/wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2.jpg 800w, /wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2-768x842.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="800" height="877" src="/wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2.jpg" alt="" class="wp-image-10161" srcset="/wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2.jpg 800w, /wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2-768x842.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
 
 
 
@@ -627,7 +627,7 @@ http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="776" height="703" src="/wp-content/uploads/2021/02/Uno-isp-to-nano.png" alt="" class="wp-image-10162" srcset="/wp-content/uploads/2021/02/Uno-isp-to-nano.png 776w, /wp-content/uploads/2021/02/Uno-isp-to-nano-768x696.png 768w" sizes="(max-width: 776px) 100vw, 776px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="776" height="703" src="/wp-content/uploads/2021/02/Uno-isp-to-nano.png" alt="" class="wp-image-10162" srcset="/wp-content/uploads/2021/02/Uno-isp-to-nano.png 776w, /wp-content/uploads/2021/02/Uno-isp-to-nano-768x696.png 768w" sizes="(max-width: 776px) 100vw, 776px" /></figure>
 
 
 
@@ -972,7 +972,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px" /></figure>
 
 
 
@@ -980,7 +980,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
 
 
 
@@ -988,7 +988,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px" /></figure>
 
 
 
@@ -1008,7 +1008,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="884" height="659" src="/wp-content/uploads/2021/02/xiao-1.png" alt="" class="wp-image-10125" srcset="/wp-content/uploads/2021/02/xiao-1.png 884w, /wp-content/uploads/2021/02/xiao-1-768x573.png 768w" sizes="(max-width: 884px) 100vw, 884px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="884" height="659" src="/wp-content/uploads/2021/02/xiao-1.png" alt="" class="wp-image-10125" srcset="/wp-content/uploads/2021/02/xiao-1.png 884w, /wp-content/uploads/2021/02/xiao-1-768x573.png 768w" sizes="(max-width: 884px) 100vw, 884px" /></figure>
 
 
 
@@ -1016,7 +1016,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="881" height="659" src="/wp-content/uploads/2021/02/xiao-2.png" alt="" class="wp-image-10126" srcset="/wp-content/uploads/2021/02/xiao-2.png 881w, /wp-content/uploads/2021/02/xiao-2-768x574.png 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="881" height="659" src="/wp-content/uploads/2021/02/xiao-2.png" alt="" class="wp-image-10126" srcset="/wp-content/uploads/2021/02/xiao-2.png 881w, /wp-content/uploads/2021/02/xiao-2-768x574.png 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
 
 
 
@@ -1024,7 +1024,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="672" height="497" src="/wp-content/uploads/2021/02/Seeeduino_XIAO_-_Seeed_Wiki.png" alt="" class="wp-image-10127"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="672" height="497" src="/wp-content/uploads/2021/02/Seeeduino_XIAO_-_Seeed_Wiki.png" alt="" class="wp-image-10127"/></figure>
 
 
 
@@ -1044,7 +1044,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img width="644" height="464" src="/wp-content/uploads/2021/02/xiao-type-c.png" alt="" class="wp-image-10128"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="644" height="464" src="/wp-content/uploads/2021/02/xiao-type-c.png" alt="" class="wp-image-10128"/></figure>
 
 
 
@@ -1064,7 +1064,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="/wp-content/uploads/2021/02/Blink.gif" alt="" class="wp-image-10129" width="456" height="327"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/02/Blink.gif" alt="" class="wp-image-10129" width="456" height="327"/></figure></div>
 
 
 
@@ -1080,7 +1080,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="/wp-content/uploads/2021/02/Blink3.gif" alt="" class="wp-image-10130" width="458" height="348"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/02/Blink3.gif" alt="" class="wp-image-10130" width="458" height="348"/></figure></div>
 
 
 
@@ -1373,7 +1373,7 @@ void rest() {
 							<description><![CDATA[INA226 と arduino の I2C 信号をロジックアナライザで見てみました。 コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。 トリガは、SDA にかけました。Hi から Low になって [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>INA226 と arduino の I2C 信号をロジックアナライザで見てみました。</p>
 <p>コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。</p>
-<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
+<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
 <p>トリガは、SDA にかけました。Hi から Low になって信号が行くようです。</p>
 <p>まず、I2C アドレス0x40 のレジスタ 0x02 を投げて、値が帰ってくる流れが見えます。読み出しには、1.7ms ほどかかっていることがわかりました。ビットの信号は、4us 程度のようです。SDAでビットが立っているのを判別しているようです。</p>
 <p>&#160;</p>
@@ -1430,7 +1430,7 @@ void setup()
   ina.calibrate(0.025, 1);
 ::</pre>
 <p>配線は以下のようにしました。ちょっとわかりにくいですが、Arduino の A5(SCL) と A4(SDA) をつないで、GND と 3.3V を VSS に入れます。あとは、負荷を電流計測にハイサイド側に付ける感じです。</p>
-<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
 <p>シリアル通信を開くと、以下のようになっています。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
 -----------------------------------------------

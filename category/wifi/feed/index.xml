@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>DW1820A WiFi、Bluetoothとアンテナを取り付け</title>
 		<link>/2020/05/12/dw1820a-wifi/</link>
@@ -36,12 +36,12 @@
 <blockquote><p>WiFiとアンテナを調達！<br />
 /2020/03/29/wifi-dw1820a-bcm94350zae/</p></blockquote>
 <p>実際のカードはこんな感じです。このカードは、WiFiとBluetoothのコンボカードです。</p>
-<p><img class="alignnone size-full wp-image-5136" src="/wp-content/uploads/2020/05/14765.jpg" alt="14765.jpg" width="1076" height="807" />ちゃんと、技適のシールもあるようですね。<img class="alignnone size-full wp-image-5137" src="/wp-content/uploads/2020/05/14764.jpg" alt="14764.jpg" width="1217" height="913" />WiFiカードは、HDDマウンターの下にあります。<img class="alignnone size-full wp-image-5139" src="/wp-content/uploads/2020/05/14763.jpg" alt="14763.jpg" width="1477" height="1108" />こんな感じでアンテナを取り回してみました。アンテナコネクタが取り付けにくかったので、取り付けてからねじ止めしました。<img class="alignnone size-full wp-image-5141" src="/wp-content/uploads/2020/05/14762.jpg" alt="14762.jpg" width="1477" height="1108" />２本あるので、上段のは穴を開けています。<img class="alignnone size-full wp-image-5142" src="/wp-content/uploads/2020/05/14761.jpg" alt="14761.jpg" width="1477" height="1108" />ちなみに、こういうのがあると、便利に穴が開けられます。上段スロットの蓋をとりはずして穴あけておきました。とりあえずは、ここがベストかな。<img class="alignnone size-full wp-image-5143" src="/wp-content/uploads/2020/05/3pc_hss_step_drill_bit_set_cone_hole_cutter_taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_drill_bits__-_aliexpress.png" alt="3pc_Hss_step_drill_bit_set_cone_hole_cutter_Taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_Drill_Bits__-_AliExpress.png" width="1029" height="530" /></p>
-<p>あとは、BIOSでEnabledになっているのを確認後、Win起動。<img class="alignnone size-full wp-image-5148" src="/wp-content/uploads/2020/05/14759-1.jpg" alt="14759.jpg" width="1413" height="997" /><img class="alignnone size-full wp-image-5147" src="/wp-content/uploads/2020/05/14760-1.jpg" alt="14760.jpg" width="1461" height="1032" />ドライバーがまだ入っていないので、BCM2045A0の不明なデバイスになっています。<img class="alignnone size-full wp-image-5149" src="/wp-content/uploads/2020/05/2020-05-08__1__png_-_onedrive.png" alt="2020-05-08__1__png_-_OneDrive.png" width="889" height="568" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5136" src="/wp-content/uploads/2020/05/14765.jpg" alt="14765.jpg" width="1076" height="807" />ちゃんと、技適のシールもあるようですね。<img loading="lazy" class="alignnone size-full wp-image-5137" src="/wp-content/uploads/2020/05/14764.jpg" alt="14764.jpg" width="1217" height="913" />WiFiカードは、HDDマウンターの下にあります。<img loading="lazy" class="alignnone size-full wp-image-5139" src="/wp-content/uploads/2020/05/14763.jpg" alt="14763.jpg" width="1477" height="1108" />こんな感じでアンテナを取り回してみました。アンテナコネクタが取り付けにくかったので、取り付けてからねじ止めしました。<img loading="lazy" class="alignnone size-full wp-image-5141" src="/wp-content/uploads/2020/05/14762.jpg" alt="14762.jpg" width="1477" height="1108" />２本あるので、上段のは穴を開けています。<img loading="lazy" class="alignnone size-full wp-image-5142" src="/wp-content/uploads/2020/05/14761.jpg" alt="14761.jpg" width="1477" height="1108" />ちなみに、こういうのがあると、便利に穴が開けられます。上段スロットの蓋をとりはずして穴あけておきました。とりあえずは、ここがベストかな。<img loading="lazy" class="alignnone size-full wp-image-5143" src="/wp-content/uploads/2020/05/3pc_hss_step_drill_bit_set_cone_hole_cutter_taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_drill_bits__-_aliexpress.png" alt="3pc_Hss_step_drill_bit_set_cone_hole_cutter_Taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_Drill_Bits__-_AliExpress.png" width="1029" height="530" /></p>
+<p>あとは、BIOSでEnabledになっているのを確認後、Win起動。<img loading="lazy" class="alignnone size-full wp-image-5148" src="/wp-content/uploads/2020/05/14759-1.jpg" alt="14759.jpg" width="1413" height="997" /><img loading="lazy" class="alignnone size-full wp-image-5147" src="/wp-content/uploads/2020/05/14760-1.jpg" alt="14760.jpg" width="1461" height="1032" />ドライバーがまだ入っていないので、BCM2045A0の不明なデバイスになっています。<img loading="lazy" class="alignnone size-full wp-image-5149" src="/wp-content/uploads/2020/05/2020-05-08__1__png_-_onedrive.png" alt="2020-05-08__1__png_-_OneDrive.png" width="889" height="568" /></p>
 <p>ドライバはこれで行けるようです。</p>
 <blockquote><p>Broadcom 4356 Bluetooth ドライバー (Windows 10 64bit) &#8211; ThinkPad L460<br />
 https://support.lenovo.com/jp/ja/downloads/ds111952</p></blockquote>
-<p><img class=" size-full wp-image-5150 aligncenter" src="/wp-content/uploads/2020/05/2020-05-08__3__png_-_onedrive.png" alt="2020-05-08__3__png_-_OneDrive.png" width="427" height="568" /></p>
+<p><img loading="lazy" class=" size-full wp-image-5150 aligncenter" src="/wp-content/uploads/2020/05/2020-05-08__3__png_-_onedrive.png" alt="2020-05-08__3__png_-_OneDrive.png" width="427" height="568" /></p>
 <p>当初、懸念していたベンダーIDとかいじらなくても特に認識した感じです。Windows機として使う場合は、無線はやっぱり便利ですね。Bluetooth4.1 LEです。１６００円くらいで、WiFiとBluetoothがつけられるので、純正より安いですね。</p>
 <p>このマシン、将来的にはサーバ機になるんですが現在はフォートナイト専用マシンとして遊んでいます。画質は全部、低にしてだいたい50FPS くらいでますんでビギナーにはちょうどいい感じ。</p>
 ]]></content:encoded>
@@ -96,13 +96,13 @@ https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/6/html/po
 https://support.apple.com/ja-jp/HT209455</p></blockquote>
 <p>&nbsp;</p>
 <p>これらは、DELLやLENOVOのパーツ型番があるようで、汎用品は、Amazonでも流通していますが 急ぎではないので、1000円代で買えるアリエクでポチっておきました。このDW1820A の表記があるのはDELLの汎用品でしょうか。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="DW1820A_BCM94350ZAE_802_11ac_BT4_1_867Mbps_wifi_Adapter_DW1820_BCM94352Z_M_2_better_NGFF_than_BCM94350_WiFi_Wireless_Card_E8G2_Computer_Cables___Connectors____-_AliExpress.png" src="/wp-content/uploads/2020/03/dw1820a_bcm94350zae_802_11ac_bt4_1_867mbps_wifi_adapter_dw1820_bcm94352z_m_2_better_ngff_than_bcm94350_wifi_wireless_card_e8g2_computer_cables___connectors____-_aliexpress.png" alt="DW1820A BCM94350ZAE 802 11ac BT4 1 867Mbps wifi Adapter DW1820 BCM94352Z M 2 better NGFF than BCM94350 WiFi Wireless Card E8G2 Computer Cables Connectors AliExpress" width="598" height="339" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="DW1820A_BCM94350ZAE_802_11ac_BT4_1_867Mbps_wifi_Adapter_DW1820_BCM94352Z_M_2_better_NGFF_than_BCM94350_WiFi_Wireless_Card_E8G2_Computer_Cables___Connectors____-_AliExpress.png" src="/wp-content/uploads/2020/03/dw1820a_bcm94350zae_802_11ac_bt4_1_867mbps_wifi_adapter_dw1820_bcm94352z_m_2_better_ngff_than_bcm94350_wifi_wireless_card_e8g2_computer_cables___connectors____-_aliexpress.png" alt="DW1820A BCM94350ZAE 802 11ac BT4 1 867Mbps wifi Adapter DW1820 BCM94352Z M 2 better NGFF than BCM94350 WiFi Wireless Card E8G2 Computer Cables Connectors AliExpress" width="598" height="339" border="0" /></p>
 <p>送料入れて、1350円くらいですかね。アンテナも同時にゲット。すばらしぃ安さ！今セールなんですよね。てか、年中セールやってますが（笑）</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="2x6Dbi_2_4GHz_5GHz_Dual_Band_M_2_IPEX_MHF4_U_fl_Extension_Cable_to_WiFi_RP_SMA_Pigtail_Antenna_Set_for_Wireless_Router_Aerial_Network_Cards____-_AliExpress.png" src="/wp-content/uploads/2020/03/2x6dbi_2_4ghz_5ghz_dual_band_m_2_ipex_mhf4_u_fl_extension_cable_to_wifi_rp_sma_pigtail_antenna_set_for_wireless_router_aerial_network_cards____-_aliexpress.png" alt="2x6Dbi 2 4GHz 5GHz Dual Band M 2 IPEX MHF4 U fl Extension Cable to WiFi RP SMA Pigtail Antenna Set for Wireless Router Aerial Network Cards AliExpress" width="598" height="316" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="2x6Dbi_2_4GHz_5GHz_Dual_Band_M_2_IPEX_MHF4_U_fl_Extension_Cable_to_WiFi_RP_SMA_Pigtail_Antenna_Set_for_Wireless_Router_Aerial_Network_Cards____-_AliExpress.png" src="/wp-content/uploads/2020/03/2x6dbi_2_4ghz_5ghz_dual_band_m_2_ipex_mhf4_u_fl_extension_cable_to_wifi_rp_sma_pigtail_antenna_set_for_wireless_router_aerial_network_cards____-_aliexpress.png" alt="2x6Dbi 2 4GHz 5GHz Dual Band M 2 IPEX MHF4 U fl Extension Cable to WiFi RP SMA Pigtail Antenna Set for Wireless Router Aerial Network Cards AliExpress" width="598" height="316" border="0" /></p>
 <p>これは、MHF4コネクタの30cm ケーブルのようです。２本目のアンテナはどっから出すかはまぁ来てから考えることにします。合計で2000円以下のカスタマイズですが、サーバ運用する前にあれこれ遊ぶ予定です。</p>
 <p>&nbsp;</p>
 <p>最後に、最近フォートナイトっていうゲームにハマっています。これ、最終的には壁（建築物）をうまく制御できないと勝ちにくいので、コントローラーが必須です。良くても２、３位くらいでぬっころされるんで、DUALSHOCK 4 のパチモンをゲットしました。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="Controller_For_PS4_Pro___PC___iPhone___Android_Mobile_Phone__Wireless_Bluetooth_Gamepad_For_SONY_Playstation_4_Dualshock_Console_Gamepads____-_AliExpress.png" src="/wp-content/uploads/2020/03/controller_for_ps4_pro___pc___iphone___android_mobile_phone__wireless_bluetooth_gamepad_for_sony_playstation_4_dualshock_console_gamepads____-_aliexpress.png" alt="Controller For PS4 Pro PC iPhone Android Mobile Phone Wireless Bluetooth Gamepad For SONY Playstation 4 Dualshock Console Gamepads AliExpress" width="598" height="383" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="Controller_For_PS4_Pro___PC___iPhone___Android_Mobile_Phone__Wireless_Bluetooth_Gamepad_For_SONY_Playstation_4_Dualshock_Console_Gamepads____-_AliExpress.png" src="/wp-content/uploads/2020/03/controller_for_ps4_pro___pc___iphone___android_mobile_phone__wireless_bluetooth_gamepad_for_sony_playstation_4_dualshock_console_gamepads____-_aliexpress.png" alt="Controller For PS4 Pro PC iPhone Android Mobile Phone Wireless Bluetooth Gamepad For SONY Playstation 4 Dualshock Console Gamepads AliExpress" width="598" height="383" border="0" /></p>
 <p>無料でできて、かつ mac でもプレイできるんでハマっているんですが、勝てないんでムキになるんですよね。<br />
 「ThinkCentre M75q-1 Tiny」だとどのくらい遊べるか、ちょっと気になっています。岡ちゃんねるさんとこでは、1980&#215;1080の画質中で、Windows だと 60FPS 出るそうです。</p>
 ]]></content:encoded>
@@ -123,7 +123,7 @@ https://support.apple.com/ja-jp/HT209455</p></blockquote>
 		<guid isPermaLink="false">/?p=4940</guid>
 							<description><![CDATA[固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！]]></description>
 										<content:encoded><![CDATA[<p>enひかりが開通しました。ぶっちぎりの速さでびっくりしています。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
 <p>ルータは自動設定でとりあえず繋がった状態なんです。</p>
 <p>まずは、ちゃんと設定していこうと IP固定の設定からやることにしました。enひかりのキャンペーンで安く買った（1000円＋送料800円）エレコムのルータ（WRC-1167GST2）を設定していました。</p>
 <blockquote>
@@ -212,7 +212,7 @@ https://support.apple.com/ja-jp/HT209455</p></blockquote>
 		<guid isPermaLink="false">/?p=4937</guid>
 							<description><![CDATA[来た〜〜〜〜〜〜！ これから、あれこれ設定です。リモートワークしてたんでとりあえず、部屋から出たい（笑）]]></description>
 										<content:encoded><![CDATA[<p>来た〜〜〜〜〜〜！</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="インターネット回線の速度テスト___Fast_com.png" src="/wp-content/uploads/2020/03/e382a4e383b3e382bfe383bce3838de38383e38388e59b9ee7b79ae381aee9809fe5baa6e38386e382b9e38388___fast_com.png" alt="インターネット回線の速度テスト Fast com" width="599" height="568" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="インターネット回線の速度テスト___Fast_com.png" src="/wp-content/uploads/2020/03/e382a4e383b3e382bfe383bce3838de38383e38388e59b9ee7b79ae381aee9809fe5baa6e38386e382b9e38388___fast_com.png" alt="インターネット回線の速度テスト Fast com" width="599" height="568" border="0" /></p>
 <p>これから、あれこれ設定です。リモートワークしてたんでとりあえず、部屋から出たい（笑）</p>
 ]]></content:encoded>
 					
@@ -232,11 +232,11 @@ https://support.apple.com/ja-jp/HT209455</p></blockquote>
 										<content:encoded><![CDATA[<p>enひかり、速攻開通連絡がきますた！開通日は、3/6で立会いなし。</p>
 <p>どうやら、この賃貸には「光コンセント」なるものがすでに設置されていて工事の立会いなしで開通するようです。</p>
 <p>そんなコンセント見たことなかったのですが、今日家に帰ってきて探してもるとなんとあるではないですか！</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072152_0.jpg" src="/wp-content/uploads/2020/02/img_20200226_072152_0.jpg" alt="IMG 20200226 072152 0" width="600" height="450" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072152_0.jpg" src="/wp-content/uploads/2020/02/img_20200226_072152_0.jpg" alt="IMG 20200226 072152 0" width="600" height="450" border="0" /></p>
 <p>今まで気がつかなったです。自転車が部屋ん中にあるのはガレージがないからです。そのうち、ネタで取りあげますか。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072201_1CS.jpg" src="/wp-content/uploads/2020/02/img_20200226_072201_1cs.jpg" alt="IMG 20200226 072201 1CS" width="600" height="450" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072201_1CS.jpg" src="/wp-content/uploads/2020/02/img_20200226_072201_1cs.jpg" alt="IMG 20200226 072201 1CS" width="600" height="450" border="0" /></p>
 <p>左側に「光コンセント」って記載が見えますね。最近の家はこういう仕様になっているんですね。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072251_1.jpg" src="/wp-content/uploads/2020/02/img_20200226_072251_1.jpg" alt="IMG 20200226 072251 1" width="600" height="450" border="0" /></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072251_1.jpg" src="/wp-content/uploads/2020/02/img_20200226_072251_1.jpg" alt="IMG 20200226 072251 1" width="600" height="450" border="0" /></p>
 <p>モジュールが刺さるっぽい感じです。</p>
 <p>ということで、もうすぐ念願の光回線が到着します。</p>
 ]]></content:encoded>

@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</title>
 		<link>/2021/02/20/arudio-seeeduino-xiao/</link>
@@ -76,7 +76,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px" /></figure>
 
 
 
@@ -84,7 +84,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
 
 
 
@@ -92,7 +92,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px" /></figure>
 
 
 
@@ -112,7 +112,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="884" height="659" src="/wp-content/uploads/2021/02/xiao-1.png" alt="" class="wp-image-10125" srcset="/wp-content/uploads/2021/02/xiao-1.png 884w, /wp-content/uploads/2021/02/xiao-1-768x573.png 768w" sizes="(max-width: 884px) 100vw, 884px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="884" height="659" src="/wp-content/uploads/2021/02/xiao-1.png" alt="" class="wp-image-10125" srcset="/wp-content/uploads/2021/02/xiao-1.png 884w, /wp-content/uploads/2021/02/xiao-1-768x573.png 768w" sizes="(max-width: 884px) 100vw, 884px" /></figure>
 
 
 
@@ -120,7 +120,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="881" height="659" src="/wp-content/uploads/2021/02/xiao-2.png" alt="" class="wp-image-10126" srcset="/wp-content/uploads/2021/02/xiao-2.png 881w, /wp-content/uploads/2021/02/xiao-2-768x574.png 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="881" height="659" src="/wp-content/uploads/2021/02/xiao-2.png" alt="" class="wp-image-10126" srcset="/wp-content/uploads/2021/02/xiao-2.png 881w, /wp-content/uploads/2021/02/xiao-2-768x574.png 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
 
 
 
@@ -128,7 +128,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="672" height="497" src="/wp-content/uploads/2021/02/Seeeduino_XIAO_-_Seeed_Wiki.png" alt="" class="wp-image-10127"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="672" height="497" src="/wp-content/uploads/2021/02/Seeeduino_XIAO_-_Seeed_Wiki.png" alt="" class="wp-image-10127"/></figure>
 
 
 
@@ -148,7 +148,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="644" height="464" src="/wp-content/uploads/2021/02/xiao-type-c.png" alt="" class="wp-image-10128"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="644" height="464" src="/wp-content/uploads/2021/02/xiao-type-c.png" alt="" class="wp-image-10128"/></figure>
 
 
 
@@ -168,7 +168,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="/wp-content/uploads/2021/02/Blink.gif" alt="" class="wp-image-10129" width="456" height="327"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/02/Blink.gif" alt="" class="wp-image-10129" width="456" height="327"/></figure></div>
 
 
 
@@ -184,7 +184,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="/wp-content/uploads/2021/02/Blink3.gif" alt="" class="wp-image-10130" width="458" height="348"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/02/Blink3.gif" alt="" class="wp-image-10130" width="458" height="348"/></figure></div>
 
 
 
@@ -520,7 +520,7 @@ void rest() {
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://s.click.aliexpress.com/e/_AO6Pzu" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img width="1024" height="528" src="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png" alt="" class="wp-image-10106" srcset="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png 1024w, /wp-content/uploads/2021/02/type-c_TP4056BMS-768x396.png 768w, /wp-content/uploads/2021/02/type-c_TP4056BMS-984x507.png 984w, /wp-content/uploads/2021/02/type-c_TP4056BMS.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://s.click.aliexpress.com/e/_AO6Pzu" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" width="1024" height="528" src="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png" alt="" class="wp-image-10106" srcset="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png 1024w, /wp-content/uploads/2021/02/type-c_TP4056BMS-768x396.png 768w, /wp-content/uploads/2021/02/type-c_TP4056BMS-984x507.png 984w, /wp-content/uploads/2021/02/type-c_TP4056BMS.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
 
 
 
@@ -564,7 +564,7 @@ void rest() {
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="383" src="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png" alt="" class="wp-image-10105" srcset="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png 1024w, /wp-content/uploads/2021/02/ss_dso-shell-768x288.png 768w, /wp-content/uploads/2021/02/ss_dso-shell-984x368.png 984w, /wp-content/uploads/2021/02/ss_dso-shell.png 1191w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="383" src="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png" alt="" class="wp-image-10105" srcset="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png 1024w, /wp-content/uploads/2021/02/ss_dso-shell-768x288.png 768w, /wp-content/uploads/2021/02/ss_dso-shell-984x368.png 984w, /wp-content/uploads/2021/02/ss_dso-shell.png 1191w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -641,19 +641,19 @@ void rest() {
 							<description><![CDATA[M5 の 30mm のネジがやっぱり欲しいなということで、ミスミだといくらかなと見てみました。 ACB5-30 がお安くて、よさげ。数を入れて値段を見てみると、 まず、1本だと、221円。 50本だと、1050円 100 [&#8230;]]]></description>
 										<content:encoded><![CDATA[</p>
 <p>M5 の 30mm のネジがやっぱり欲しいなということで、ミスミだといくらかなと見てみました。</p>
-<p><img title="10300240130" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10300240130" src="/wp-content/uploads/2016/12/10300240130.jpg" width="250" height="250" /> </p>
+<p><img loading="lazy" title="10300240130" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10300240130" src="/wp-content/uploads/2016/12/10300240130.jpg" width="250" height="250" /> </p>
 <p>ACB5-30 がお安くて、よさげ。数を入れて値段を見てみると、</p>
 <p>まず、1本だと、221円。</p>
-<p> <img title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" src="/wp-content/uploads/2016/12/acb530misumivona2.png" width="288" height="422" />   </p>
+<p> <img loading="lazy" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" src="/wp-content/uploads/2016/12/acb530misumivona2.png" width="288" height="422" />   </p>
 <p>50本だと、1050円</p>
-<p><img title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" src="/wp-content/uploads/2016/12/acb530misumivona4.png" width="286" height="362" /> </p>
+<p><img loading="lazy" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" src="/wp-content/uploads/2016/12/acb530misumivona4.png" width="286" height="362" /> </p>
 <p>100本だと、なんと800円</p>
-<p><img title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" src="/wp-content/uploads/2016/12/acb530misumivona3.png" width="287" height="365" /> </p>
-<p>ということで、100本も使いませんが、ぽちっとしました。<img title="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" src="/wp-content/uploads/2016/12/hnt3st3bm5_3misumivona_____misumivona.png" width="640" height="454" /> </p>
+<p><img loading="lazy" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" src="/wp-content/uploads/2016/12/acb530misumivona3.png" width="287" height="365" /> </p>
+<p>ということで、100本も使いませんが、ぽちっとしました。<img loading="lazy" title="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" src="/wp-content/uploads/2016/12/hnt3st3bm5_3misumivona_____misumivona.png" width="640" height="454" /> </p>
 <p>ナットもワッシャーもゲットして、送料無料であさってには到着というお手軽さ。神です。ネジ以外もこれからたくさんお世話になるはずです。ただ、価格のソートがないのがおしいです。最終的に価格が安いのを検討しますから。</p>
 <p>&#160;</p>
 <p>と、記載している内にエヌアイシ・オートテックの三角アルミフレームが到着しました。400mm で購入。平らな面があるので、こっちの三角フレームに軍配があがったわけです。</p>
-<p><img title="MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MISUMI-VONA" src="/wp-content/uploads/2016/12/misumivona.png" width="640" height="358" /> </p>
+<p><img loading="lazy" title="MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MISUMI-VONA" src="/wp-content/uploads/2016/12/misumivona.png" width="640" height="358" /> </p>
 <p>梱包も丁重でさすが日本製。中国からの梱包とはグレードがぜんぜん違います。そして、このフレームものすごく良さそうです。ヘビー級とあるだけあって、肉厚も十分。ずっしりと重いです。20mmのも、40mm のもどちらもハイクオリティー。</p>
 <p>良い xy テーブルが出来ると思います。今週、土日含めて楽しみが増えました。</p>
 <p>あと、NSK と NTN の国産ベアリングも比較のため、3個分のローラー作る6個をゲット。どのくらいクオリティーが高いでしょうか？</p>
@@ -675,11 +675,11 @@ void rest() {
 										<content:encoded><![CDATA[<p>TIさんより、TPS22942DCKR のロードスイッチのサンプルを入手。</p>
 <p>仕様：<a title="http://www.ti.com/lit/ds/symlink/tps22942.pdf" href="http://www.ti.com/lit/ds/symlink/tps22942.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.ti.com/lit/ds/symlink/tps22942.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>WEB: <a title="http://www.tij.co.jp/product/jp/TPS22942/description" href="http://www.tij.co.jp/product/jp/TPS22942/description" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.tij.co.jp/product/jp/TPS22942/description<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img title="S20160618_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_001.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="S20160618_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_001.jpg" width="640" height="480" /> </p>
 <p>5Pin のタイプです。パッケージは、SC-70</p>
-<p><img title="S20160618_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_003" src="/wp-content/uploads/2016/06/s20160618_003.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="S20160618_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_003" src="/wp-content/uploads/2016/06/s20160618_003.jpg" width="640" height="480" /> </p>
 <p>&#160;</p>
-<p><a href="/wp-content/uploads/2016/06/sc705.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="sc-70-5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="sc-70-5" src="/wp-content/uploads/2016/06/sc705_thumb.png" width="452" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/06/sc705.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="sc-70-5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="sc-70-5" src="/wp-content/uploads/2016/06/sc705_thumb.png" width="452" height="480" /></a> </p>
 <p>次の電子工作で使う予定。</p>
 ]]></content:encoded>
 					

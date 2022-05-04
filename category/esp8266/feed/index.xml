@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>ESP-WROOM-02 BackBoost ひさびさ</title>
 		<link>/2016/06/27/esp-wroom-02-backboost-e381b2e38195e381b3e38195/</link>
@@ -35,22 +35,22 @@
 <p>このシリーズは、PCBのプリント基板を作って BackBoost 回路に TPS63000 を使い、さらにリチウム電池の充電機能と放電保護を入れた ESP-WROOM-02 のモジュールを作るコンセプトです。</p>
 <p>&#160;</p>
 <p>とりあえず、前回はESP8266 を動かすところまでは行かず、電源回路の半田付け不良とかで止まっていました。QFN パッケージのTPS63000 も何個かつぶして、練習すること数台目、やっと動作するものができました。</p>
-<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/06/3.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/06/3.jpg" width="640" height="480" /> </p>
 <p>LEDが裏側についているのでわかりにくいですが、2つビルトインで付いているグリーンとブルーのLED を点滅しています。</p>
-<p><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/06/12.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/06/12.jpg" width="640" height="480" /> </p>
 <p>１セルのリチウム充電回路と保護回路も付いています。充電しながらの動作も対応です。</p>
-<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/06/2.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/06/2.jpg" width="640" height="480" /> </p>
 <p>とりあえず、もうひとつ同じものを作り、各種電圧、電流などを測定してチェックしてみたいです。そもそも、そういう用途に作ったものですので。</p>
 <p>ケースにも入れて、とりあえずこのネタを再開できそうです。</p>
 <p>&#160;</p>
 <p>今、チェックしているのは、プログラム書き込みを自動化する回路を組み込んであるのですが、IDE の設定なのかこれが動作せずです。</p>
 <p>ハードが悪いのか、ソフトの設定なのかをとりあえず分けたいところです。IDE のバージョンが1.6.9 まで上がって ESP8266 の Community のバージョンも 2.3.0 まで進化しました。</p>
-<p><img title="blink___Arduino_1_6_9" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="blink___Arduino_1_6_9" src="/wp-content/uploads/2016/06/blink___arduino_1_6_9.png" width="475" height="302" />&#160;</p>
+<p><img loading="lazy" title="blink___Arduino_1_6_9" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="blink___Arduino_1_6_9" src="/wp-content/uploads/2016/06/blink___arduino_1_6_9.png" width="475" height="302" />&#160;</p>
 <p>久しぶりだったので、この進化にまだ追いつけず。</p>
 <p><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/06/4.png" width="640" height="361" /> </p>
+<p><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/06/4.png" width="640" height="361" /> </p>
 <p>汎用を選ぶとリセット方法も選択できるようです。</p>
-<p><img title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2016/06/5.png" width="631" height="636" /> </p>
+<p><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2016/06/5.png" width="631" height="636" /> </p>
 <p>とりあえず、模索中です。</p>
 <p>&#160;</p>
 </p>
@@ -82,22 +82,22 @@
 <p>なかなか平日は作業が進まず（お仕事から帰還すると眠くて・・・）、先週の土日に全体を組み付けたので、作業工程を載せておきます。電源ICの半田付けがどうやらまずそうということが今のところわかっています。２つ作ったのですが、１つは、熱にやられたようで、もう１つは、おそらく半田付け不良です。降圧はするけど、昇圧しないという現象。</p>
 <p>&#160;</p>
 <p>小物のパーツを組みつけてから、大物パーツをつけていきます。ピンヘッダーは裏側から半田付け。熱で温度が上がるので、コルクの作業版では焦げるので、写真のように金属版とその下には、mac のマザーボードの中にあった、ヒートシンクに使われていた銅板を敷いています。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00198.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00198" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00198" src="/wp-content/uploads/2015/12/dsc00198_thumb.jpg" width="640" height="361" /></a></p>
-<p>1点を固定してから、垂直に修正して半田付けします。 フラックスは後に清掃します。<a href="/wp-content/uploads/2015/12/dsc00200.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00200" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00200" src="/wp-content/uploads/2015/12/dsc00200_thumb.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/dsc00198.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00198" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00198" src="/wp-content/uploads/2015/12/dsc00198_thumb.jpg" width="640" height="361" /></a></p>
+<p>1点を固定してから、垂直に修正して半田付けします。 フラックスは後に清掃します。<a href="/wp-content/uploads/2015/12/dsc00200.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00200" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00200" src="/wp-content/uploads/2015/12/dsc00200_thumb.jpg" width="640" height="361" /></a></p>
 <p>表部分はこんな感じ。完全にフラットにするには耐熱性のテープを貼り付けたほうが良さそうです。そんなテープはあるのかな？要検討です。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00201.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00201" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00201" src="/wp-content/uploads/2015/12/dsc00201_thumb.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/dsc00201.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00201" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00201" src="/wp-content/uploads/2015/12/dsc00201_thumb.jpg" width="640" height="361" /></a></p>
 <p>ESP の裏側には熱を拡散させる金属部分が出ているので、ビニールテープでマスク。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00202.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00202" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00202" src="/wp-content/uploads/2015/12/dsc00202_thumb.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/dsc00202.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00202" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00202" src="/wp-content/uploads/2015/12/dsc00202_thumb.jpg" width="640" height="361" /></a></p>
 </p>
 <p>左右のクリアランスはこんな感じ。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00196.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00196" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00196" src="/wp-content/uploads/2015/12/dsc00196_thumb.jpg" width="640" height="361" /></a> フラックスをつけて、半田大盛りでつけます。左側がちょっとブリッジしています。後に修正。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00208.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00208" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00208" src="/wp-content/uploads/2015/12/dsc00208_thumb.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/dsc00196.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00196" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00196" src="/wp-content/uploads/2015/12/dsc00196_thumb.jpg" width="640" height="361" /></a> フラックスをつけて、半田大盛りでつけます。左側がちょっとブリッジしています。後に修正。</p>
+<p><a href="/wp-content/uploads/2015/12/dsc00208.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00208" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00208" src="/wp-content/uploads/2015/12/dsc00208_thumb.jpg" width="640" height="361" /></a></p>
 <p>充電モジュール部分も予備半田して、フラックスを塗ります。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00213.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00213" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00213" src="/wp-content/uploads/2015/12/dsc00213_thumb.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/dsc00213.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00213" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00213" src="/wp-content/uploads/2015/12/dsc00213_thumb.jpg" width="640" height="361" /></a></p>
 <p> エアーガンでブローして、くっ付けます。このとき、パーツが外れないよう、テープで覆ったほうが良いことがわかりました。あと、リセットスイッチは一部、プラスチックが使われているので、後からつけたほうが良さそうです。</p>
 </p>
 </p>
-<p> <a href="/wp-content/uploads/2015/12/dsc00212.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00212" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00212" src="/wp-content/uploads/2015/12/dsc00212_thumb.jpg" width="640" height="361" /></a>   </p>
+<p> <a href="/wp-content/uploads/2015/12/dsc00212.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00212" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00212" src="/wp-content/uploads/2015/12/dsc00212_thumb.jpg" width="640" height="361" /></a>   </p>
 <p>とりあえず、こんな感じです。週末に、サイド同じものを組み付けて練習してみます。</p>
 ]]></content:encoded>
 					
@@ -118,11 +118,11 @@
 										<content:encoded><![CDATA[<p>一日かけて、QKしながら、まったりと一応、組み付けましたが、まだ動作確認まで気力がわかず動作するかどうかはまだ未チェックです。コハクラフトさんからE-ink 開発ボードが速く届いたのに、手が回りませんでした。BackBoost がとりあえず、完了してからがんばることに。</p>
 <p>&#160;</p>
 <p>一応、全体像の紹介。</p>
-<p><a href="/wp-content/uploads/2015/12/dsc00216.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00216" src="/wp-content/uploads/2015/12/dsc00216_thumb.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/dsc00216.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00216" src="/wp-content/uploads/2015/12/dsc00216_thumb.jpg" width="640" height="361" /></a></p>
 <p>工程の勘所をチェックするため、最後まで組み立ててみました。 </p>
-<p>PINは、イレギュラーですが、表をフラットにするため、裏からつけてあります。幅をESPの最小幅にするためです。<a href="/wp-content/uploads/2015/12/dsc00217.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00217" src="/wp-content/uploads/2015/12/dsc00217_thumb.jpg" width="640" height="361" /></a></p>
-<p>いくつか、設計上と変更をしたほうがよいところに気がつきました。 <a href="/wp-content/uploads/2015/12/dsc00218.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00218" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00218" src="/wp-content/uploads/2015/12/dsc00218_thumb.jpg" width="640" height="361" /></a></p>
-<p>IC2 のスイッチに使っているのは、足が生えてるので小さいですが半田付けは楽です。 <a href="/wp-content/uploads/2015/12/dsc00219.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="DSC00219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00219" src="/wp-content/uploads/2015/12/dsc00219_thumb.jpg" width="640" height="361" /></a>この表の充電モジュールもブローでリフローしました。ピンセットで一押しするとき、手がブルって、モジュール上の部品が外れて大変でした。</p>
+<p>PINは、イレギュラーですが、表をフラットにするため、裏からつけてあります。幅をESPの最小幅にするためです。<a href="/wp-content/uploads/2015/12/dsc00217.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00217" src="/wp-content/uploads/2015/12/dsc00217_thumb.jpg" width="640" height="361" /></a></p>
+<p>いくつか、設計上と変更をしたほうがよいところに気がつきました。 <a href="/wp-content/uploads/2015/12/dsc00218.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00218" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00218" src="/wp-content/uploads/2015/12/dsc00218_thumb.jpg" width="640" height="361" /></a></p>
+<p>IC2 のスイッチに使っているのは、足が生えてるので小さいですが半田付けは楽です。 <a href="/wp-content/uploads/2015/12/dsc00219.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="DSC00219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DSC00219" src="/wp-content/uploads/2015/12/dsc00219_thumb.jpg" width="640" height="361" /></a>この表の充電モジュールもブローでリフローしました。ピンセットで一押しするとき、手がブルって、モジュール上の部品が外れて大変でした。</p>
 <p>&#160;</p>
 <p>とりあえず、電源が出ているかどうかのチェックをしてみたのですが、何かがおかしい。</p>
 <p>まぁ、一発で成功するのは稀なので、何かが悪いのでしょう。</p>
@@ -148,12 +148,12 @@
 <p>失敗からコツを覚えておくためにも、写真解説付きで載せなぜ失敗したかを考えてみたいと思います。</p>
 <p>&#160;</p>
 <p>さて、半田付けの対象はTPS63000です。 このパッケージはQFN というものとなり、箱型でPINが生えていないパッケージになります。</p>
-<p><img title="TPS63000DRCR" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="TPS63000DRCR" src="/wp-content/uploads/2015/12/tps63000drcr.png" width="640" height="469" /> </p>
+<p><img loading="lazy" title="TPS63000DRCR" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="TPS63000DRCR" src="/wp-content/uploads/2015/12/tps63000drcr.png" width="640" height="469" /> </p>
 <p>半田付けする基板の位置は以下の部分です。</p>
-<p><img title="ccc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ccc" src="/wp-content/uploads/2015/12/ccc1.png" width="639" height="559" /> </p>
-<p><img title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/1.jpg" width="640" height="361" /> </p>
+<p><img loading="lazy" title="ccc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ccc" src="/wp-content/uploads/2015/12/ccc1.png" width="639" height="559" /> </p>
+<p><img loading="lazy" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/1.jpg" width="640" height="361" /> </p>
 <p>PCB 上の1PINのマークを付け忘れたのでeagle 上で確認します。右上が1PIN でパーツにポチが付いているのがマークです。裏面は中央にGNDがあり熱をPCB上に逃がす構造です。これを半田付けするには、ブローがどうしても必要です。</p>
-<p><img title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/2.jpg" width="640" height="361" />     <br />写真では大きく見えますが、いざ、部品と向き合って見てみると、その小ささに面食らいます。イメージでは、米粒2個分くらいか、それ以下です。</p>
+<p><img loading="lazy" title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/2.jpg" width="640" height="361" />     <br />写真では大きく見えますが、いざ、部品と向き合って見てみると、その小ささに面食らいます。イメージでは、米粒2個分くらいか、それ以下です。</p>
 <p>&#160;</p>
 <p>写真は、ビデオを撮りながらあとからキャプチャーしたものです。まだ、拡大鏡のCCDが用意できていないので、ビデオで代用しました。肉眼では、まったく見えないということはないのですが、状態の変化がよくわかりませんし、部品の表面についている1PIN マークがほぼ見えません。なんらかの拡大鏡は必須と感じました。</p>
 <p>&#160;</p>
@@ -169,32 +169,32 @@
 <p><strong>1) 半田を適量つけ予備半田をする。</strong></p>
 <p>&#160;</p>
 <p>ペースト半田をつけました。かなり荒っぽいですが、溶けてきれいになるので問題ありません。そもそも3mm 四方の話で、手作業では限界があります。ステンシルを作ってつける場合は、ペースト半田の意味があると感じました。</p>
-<p><img title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/1.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/1.png" width="640" height="360" /> </p>
 <p>熱風をあて、溶かします。</p>
-<p><img title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/2.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/2.png" width="640" height="360" /> </p>
 <p>PCBにマスクがかかっているので、銅箔面にくっつきます。</p>
-<p><img title="3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3" src="/wp-content/uploads/2015/12/3.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3" src="/wp-content/uploads/2015/12/3.png" width="640" height="360" /> </p>
 <p>ピンにブリッジが出来る場合、先がフラットになっている小手で、修正します。</p>
-<p><img title="4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4" src="/wp-content/uploads/2015/12/4.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4" src="/wp-content/uploads/2015/12/4.png" width="640" height="360" /> </p>
 <p>こんな感じの状態を作ります。ステンシルで綺麗に、この胴箔面にペースト半田を付けられれば溶かさずパーツを置いてしまって良いと思います。</p>
-<p><img title="5" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5" src="/wp-content/uploads/2015/12/5.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="5" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5" src="/wp-content/uploads/2015/12/5.png" width="640" height="360" /> </p>
 <p><strong>2) フラックスをつける</strong></p>
 <p><strong>3) パーツをピンセットで置き、熱風を当てる</strong></p>
 <p>&#160;</p>
 <p>少し清掃してから、フラックスを付け直したほうがよかったかもしれませんが、写真のようにまだフラックスがあるのでいいかなと、パス。ピンセットでパーツを置き熱風を当てます。</p>
-<p><img title="6" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="6" src="/wp-content/uploads/2015/12/6.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="6" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="6" src="/wp-content/uploads/2015/12/6.png" width="640" height="360" /> </p>
 <p><strong>4) 半田が溶けると、パーツが少し沈むのでピンセットで少しあてなじませる</strong></p>
 <p>&#160;</p>
 <p>フラックスの液と半田に浮いていますが、熱風を当てていると少し沈み込みます。このとき、位置がずれてしまいました。</p>
-<p><img title="7" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="7" src="/wp-content/uploads/2015/12/7.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="7" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="7" src="/wp-content/uploads/2015/12/7.png" width="640" height="360" /> </p>
 <p>うまく位置を修正できずに、一度半田が固まりました。サイド、熱風をあて、ピンセットで位置を修正しています。</p>
-<p><img title="8" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="8" src="/wp-content/uploads/2015/12/8.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="8" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="8" src="/wp-content/uploads/2015/12/8.png" width="640" height="360" /> </p>
 <p><strong>5) フラックスを掃除</strong></p>
 <p>&#160;</p>
 <p>ちゃんとついたように見えたのですが、清掃してよく見ると、位置が大幅にずれています。</p>
-<p><img title="9" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="9" src="/wp-content/uploads/2015/12/9.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="9" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="9" src="/wp-content/uploads/2015/12/9.png" width="640" height="360" /> </p>
 <p>パーツが付いていない基板と見比べると、あきらかに下側によっています。中央のGNDパット部分がPINに干渉しているかもしれません。</p>
-<p><img title="10" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="10" src="/wp-content/uploads/2015/12/10.png" width="640" height="360" /> </p>
+<p><img loading="lazy" title="10" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="10" src="/wp-content/uploads/2015/12/10.png" width="640" height="360" /> </p>
 <p>&#160;</p>
 <p>というわけで、最初の工程は失敗。さて、どこが悪かったのでしょうか？ だめなところをまとめると以下です。</p>
 <p>・GNDパッドが溶けて沈み込むときにずれた。</p>
@@ -237,8 +237,8 @@
 										<content:encoded><![CDATA[</p>
 <p>さて、昨日土曜日からESP BackBoost PCBの半田付けをやっていますが、まだ1枚しかPCBをカットしていないので効率化と今後のためにカットを楽にするためのジグを作りました。</p>
 <p> ジャンク箱にあったステンレス製の金具を２つに分断し、PCBを挟み込む構造です。これで両面からカッターを1度に当てられ曲げ折ることが1工程でできます。</p>
-<p><a href="/wp-content/uploads/2015/12/a4.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/12/a_thumb2.jpg" width="640" height="361" /></a></p>
-<p>こんな感じで、挟み込んでカッターを両面から切り込ませ、曲げ折ます。Vカットライン（もどき）を手動で入れるような感じですね。 <a href="/wp-content/uploads/2015/12/b2.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/12/b_thumb2.jpg" width="640" height="361" /></a></p>
+<p><a href="/wp-content/uploads/2015/12/a4.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/12/a_thumb2.jpg" width="640" height="361" /></a></p>
+<p>こんな感じで、挟み込んでカッターを両面から切り込ませ、曲げ折ます。Vカットライン（もどき）を手動で入れるような感じですね。 <a href="/wp-content/uploads/2015/12/b2.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/12/b_thumb2.jpg" width="640" height="361" /></a></p>
 <p>曲げ折った後は、やすりでサイズ調整します。作業はずいぶん楽になりました。1mm以下 のPCBでは、この工法が手作業では良さそうで、今後採用です。このサイズなら、PCBの厚みは１ｍｍで用は足りるので、これから発注するPCBも1mm 以下のものにしていこうと思います。</p>
 <p>&#160;</p>
 <p>さて、半田付けの続きをやりますか。</p>

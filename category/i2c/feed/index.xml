@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>ロジックアナライザでI2C 信号を見ると</title>
 		<link>/2016/02/01/e383ade382b8e38383e382afe382a2e3838ae383a9e382a4e382b6e381a7i2c-e4bfa1e58fb7e38292e8a68be3828be381a8/</link>
@@ -33,7 +33,7 @@
 							<description><![CDATA[INA226 と arduino の I2C 信号をロジックアナライザで見てみました。 コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。 トリガは、SDA にかけました。Hi から Low になって [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>INA226 と arduino の I2C 信号をロジックアナライザで見てみました。</p>
 <p>コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。</p>
-<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
+<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638" /></a>   </p>
 <p>トリガは、SDA にかけました。Hi から Low になって信号が行くようです。</p>
 <p>まず、I2C アドレス0x40 のレジスタ 0x02 を投げて、値が帰ってくる流れが見えます。読み出しには、1.7ms ほどかかっていることがわかりました。ビットの信号は、4us 程度のようです。SDAでビットが立っているのを判別しているようです。</p>
 <p>&#160;</p>
@@ -90,7 +90,7 @@ void setup()
   ina.calibrate(0.025, 1);
 ::</pre>
 <p>配線は以下のようにしました。ちょっとわかりにくいですが、Arduino の A5(SCL) と A4(SDA) をつないで、GND と 3.3V を VSS に入れます。あとは、負荷を電流計測にハイサイド側に付ける感じです。</p>
-<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
 <p>シリアル通信を開くと、以下のようになっています。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
 -----------------------------------------------
@@ -232,7 +232,7 @@ uio                     8119  1 uio_pdrv_genirq</pre>
 </blockquote>
 <p>BeagleBone Black(BBBと略するようです)での環境ですが、大変参考になりました。</p>
 <p>使わせていただいたコードは最下部に付けておきます。で、配線は写真のようにちょっと雑ですが配線。負荷には、ちっさいファンをつけてみました。</p>
-<p><a href="/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419" /></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419" /></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># i2cdetect -y 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -471,30 +471,30 @@ end</pre>
 							<description><![CDATA[小さな部品も大きく見えるようになって、作業しやすくなったのでPCB の半田付けを再開しました。 今回は、電流センサーの INA226 です。 回路図は、チュートリアルを参考に上記のようにしました。 ブレッドボードをまたぐ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p> 小さな部品も大きく見えるようになって、作業しやすくなったのでPCB の半田付けを再開しました。</p>
 <p>今回は、電流センサーの INA226 です。</p>
-<p><a href="/wp-content/uploads/2016/01/b.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2016/01/b_thumb.png" width="640" height="256" /></a></p>
+<p><a href="/wp-content/uploads/2016/01/b.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2016/01/b_thumb.png" width="640" height="256" /></a></p>
 <p>回路図は、チュートリアルを参考に上記のようにしました。</p>
-<p><img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2016/01/a_thumb.png" width="640" height="205" /> </p>
+<p><img loading="lazy" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2016/01/a_thumb.png" width="640" height="205" /> </p>
 <p>ブレッドボードをまたぐ4ピッチ幅にしてあります。プリントに出すPCB のあまり部分に無理やり作ったので少し窮屈です。</p>
-<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/31.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/31.jpg" width="640" height="480" /> </p>
 <p>こんな感じでテープで固定しつつ半田付け。小さいですが、モニターで見れるので問題なしです。</p>
-<p><img title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/21.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/21.jpg" width="640" height="480" /> </p>
 <p>以下、作業ステップ。</p>
 </p>
 </p>
 </p>
-<p><a href="/wp-content/uploads/2016/01/singleshot0007.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0007" src="/wp-content/uploads/2016/01/singleshot0007_thumb.jpg" width="640" height="480" /></a></p>
-<p>フラックスをつけます。 <a href="/wp-content/uploads/2016/01/singleshot0008.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0008" src="/wp-content/uploads/2016/01/singleshot0008_thumb.jpg" width="640" height="480" /></a></p>
-<p>半田小手の先にちょっと半田を付けて位置決め。ブリッジしても気にしない。 <a href="/wp-content/uploads/2016/01/singleshot0011.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0011" src="/wp-content/uploads/2016/01/singleshot0011_thumb.jpg" width="640" height="480" /></a></p>
-<p>ブリッジを小手を当てて取ります。 <a href="/wp-content/uploads/2016/01/singleshot0012.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0012" src="/wp-content/uploads/2016/01/singleshot0012_thumb.jpg" width="640" height="480" /></a></p>
-<p>こんな感じで、ブリッジを除去。 <a href="/wp-content/uploads/2016/01/singleshot0013.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0013" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0013" src="/wp-content/uploads/2016/01/singleshot0013_thumb.jpg" width="640" height="480" /></a></p>
-<p>フラックスを麺棒で掃除。 <a href="/wp-content/uploads/2016/01/singleshot0014.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0014" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0014" src="/wp-content/uploads/2016/01/singleshot0014_thumb.jpg" width="640" height="480" /></a></p>
-<p>反対側もつけて、チェック。 <a href="/wp-content/uploads/2016/01/singleshot0015.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0015" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0015" src="/wp-content/uploads/2016/01/singleshot0015_thumb.jpg" width="640" height="480" /></a></p>
-<p>シャント抵抗もつけて、ピンヘッダーを付けてとりあえず本日終了。 <a href="/wp-content/uploads/2016/01/singleshot0021.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0021" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0021" src="/wp-content/uploads/2016/01/singleshot0021_thumb.jpg" width="640" height="480" /></a> 裏側も小さな抵抗とコンデンサーを付けています。</p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0007.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0007" src="/wp-content/uploads/2016/01/singleshot0007_thumb.jpg" width="640" height="480" /></a></p>
+<p>フラックスをつけます。 <a href="/wp-content/uploads/2016/01/singleshot0008.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0008" src="/wp-content/uploads/2016/01/singleshot0008_thumb.jpg" width="640" height="480" /></a></p>
+<p>半田小手の先にちょっと半田を付けて位置決め。ブリッジしても気にしない。 <a href="/wp-content/uploads/2016/01/singleshot0011.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0011" src="/wp-content/uploads/2016/01/singleshot0011_thumb.jpg" width="640" height="480" /></a></p>
+<p>ブリッジを小手を当てて取ります。 <a href="/wp-content/uploads/2016/01/singleshot0012.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0012" src="/wp-content/uploads/2016/01/singleshot0012_thumb.jpg" width="640" height="480" /></a></p>
+<p>こんな感じで、ブリッジを除去。 <a href="/wp-content/uploads/2016/01/singleshot0013.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0013" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0013" src="/wp-content/uploads/2016/01/singleshot0013_thumb.jpg" width="640" height="480" /></a></p>
+<p>フラックスを麺棒で掃除。 <a href="/wp-content/uploads/2016/01/singleshot0014.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0014" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0014" src="/wp-content/uploads/2016/01/singleshot0014_thumb.jpg" width="640" height="480" /></a></p>
+<p>反対側もつけて、チェック。 <a href="/wp-content/uploads/2016/01/singleshot0015.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0015" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0015" src="/wp-content/uploads/2016/01/singleshot0015_thumb.jpg" width="640" height="480" /></a></p>
+<p>シャント抵抗もつけて、ピンヘッダーを付けてとりあえず本日終了。 <a href="/wp-content/uploads/2016/01/singleshot0021.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0021" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0021" src="/wp-content/uploads/2016/01/singleshot0021_thumb.jpg" width="640" height="480" /></a> 裏側も小さな抵抗とコンデンサーを付けています。</p>
 <p>&#160;</p>
 <p>かなりマイクロスコープがあるおかげで作業がしやすくなりました。必須ですね。これは。</p>
 <p>300円のmicroSD の 8GB も来たのでラズパイで I2C してみます。品質はどうでしょうかね？</p>
 <p>こんなに、ぼやけた印字でしたっけ？なんか偽造品の臭いがしますが、、、、</p>
-<p><a href="/wp-content/uploads/2016/01/singleshot0022.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="SingleShot0022" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0022" src="/wp-content/uploads/2016/01/singleshot0022_thumb.jpg" width="640" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0022.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="SingleShot0022" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0022" src="/wp-content/uploads/2016/01/singleshot0022_thumb.jpg" width="640" height="480" /></a></p>
 </p>
 <p>あとで、手持ちの本物と比べてみますか。</p>
 ]]></content:encoded>

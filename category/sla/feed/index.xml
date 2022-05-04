@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>2021/02 site24x7 でのSLA状況・統計データ</title>
 		<link>/2021/03/05/2021-02-site24x7-sla/</link>
@@ -85,7 +85,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="908" height="627" src="/wp-content/uploads/2021/03/image-10.png" alt="" class="wp-image-10238" srcset="/wp-content/uploads/2021/03/image-10.png 908w, /wp-content/uploads/2021/03/image-10-768x530.png 768w" sizes="(max-width: 908px) 100vw, 908px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="908" height="627" src="/wp-content/uploads/2021/03/image-10.png" alt="" class="wp-image-10238" srcset="/wp-content/uploads/2021/03/image-10.png 908w, /wp-content/uploads/2021/03/image-10-768x530.png 768w" sizes="(max-width: 908px) 100vw, 908px" /></figure></div>
 
 
 
@@ -250,7 +250,7 @@ Done</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="759" height="626" src="/wp-content/uploads/2021/02/202101sla.png" alt="" class="wp-image-10028"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="759" height="626" src="/wp-content/uploads/2021/02/202101sla.png" alt="" class="wp-image-10028"/></figure></div>
 
 
 
@@ -365,7 +365,7 @@ Done</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="860" height="617" src="/wp-content/uploads/2021/01/Site24x7-201011.png" alt="" class="wp-image-9971" srcset="/wp-content/uploads/2021/01/Site24x7-201011.png 860w, /wp-content/uploads/2021/01/Site24x7-201011-768x551.png 768w" sizes="(max-width: 860px) 100vw, 860px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="860" height="617" src="/wp-content/uploads/2021/01/Site24x7-201011.png" alt="" class="wp-image-9971" srcset="/wp-content/uploads/2021/01/Site24x7-201011.png 860w, /wp-content/uploads/2021/01/Site24x7-201011-768x551.png 768w" sizes="(max-width: 860px) 100vw, 860px" /></figure></div>
 
 
 
@@ -401,7 +401,7 @@ Done</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="858" height="610" src="/wp-content/uploads/2021/01/Site24x7.png" alt="" class="wp-image-9972" srcset="/wp-content/uploads/2021/01/Site24x7.png 858w, /wp-content/uploads/2021/01/Site24x7-768x546.png 768w" sizes="(max-width: 858px) 100vw, 858px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="858" height="610" src="/wp-content/uploads/2021/01/Site24x7.png" alt="" class="wp-image-9972" srcset="/wp-content/uploads/2021/01/Site24x7.png 858w, /wp-content/uploads/2021/01/Site24x7-768x546.png 768w" sizes="(max-width: 858px) 100vw, 858px" /></figure></div>
 
 
 
@@ -488,7 +488,7 @@ Done</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="842" height="621" src="/wp-content/uploads/2020/11/Site24x7.png" alt="" class="wp-image-9878" srcset="/wp-content/uploads/2020/11/Site24x7.png 842w, /wp-content/uploads/2020/11/Site24x7-768x566.png 768w" sizes="(max-width: 842px) 100vw, 842px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="842" height="621" src="/wp-content/uploads/2020/11/Site24x7.png" alt="" class="wp-image-9878" srcset="/wp-content/uploads/2020/11/Site24x7.png 842w, /wp-content/uploads/2020/11/Site24x7-768x566.png 768w" sizes="(max-width: 842px) 100vw, 842px" /></figure></div>
 
 
 

@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>PaiZero Wのアンテナを見つつ、アレクサとかGoogleアシストを呼び出すものを作る構想なんぞを練ってみる</title>
 		<link>/2018/11/21/findpaizerowantenna/</link>
@@ -33,7 +33,7 @@
 この子は、2017/02 にリリースされたんですね。だいぶ遅れましたがあれこれ見ていきましょう。まずは、何事も観察から始まります。</p>
 <p>今日は、RasPai Zero W のアンテナには工夫があるっていうことで各記事を参照してみた後、その部分をみてみました。</p>
 <blockquote><p><a href="http://mag.switch-science.com/2017/04/05/rapberry-pi-zero-w-antenna/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">スイッチサイエンスマガジン：Rapberry Pi Zero Wのアンテナのお話<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p><img class="alignnone size-full wp-image-4797" src="/wp-content/uploads/2018/11/s20181121_001.jpg" alt="S20181121_001.jpg" width="1600" height="1200" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-4797" src="/wp-content/uploads/2018/11/s20181121_001.jpg" alt="S20181121_001.jpg" width="1600" height="1200" /></p>
 <p>手前に見えているのは、普通のボールペンの先っちょです。上がアンテナ部分。<br />
 基盤の各層の銅箔部分と、コンデンサ３つで2.4GHz 帯の電波をキャッチするようです。</p>
 <p>スゥーデンのProant社ってとこがライセンスしたみたいです。こんな工夫があるんですね。</p>
@@ -47,12 +47,12 @@
 <blockquote><p>Enbedded COMPUTING DESIGN<br />
 <a href="http://www.embedded-computing.com/iot/a-lesson-in-wireless-engineering-from-the-raspberry-pi" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">A lesson in wireless engineering from the Raspberry Pi<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 <p>そのほか、いろいろ調査してみます。Zero の基盤と W との比較は以下。</p>
-<p><a href="https://twitter.com/pimoroni/status/836510914094510080/photo/1" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-4798" src="/wp-content/uploads/2018/11/c5vioamwaaa9veh.jpg" alt="C5viOAmWAAA9VEh.jpg" width="1200" height="799" /></a></p>
+<p><a href="https://twitter.com/pimoroni/status/836510914094510080/photo/1" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-4798" src="/wp-content/uploads/2018/11/c5vioamwaaa9veh.jpg" alt="C5viOAmWAAA9VEh.jpg" width="1200" height="799" /></a></p>
 <p>部品レイアウトもちょっと変更されています。サイズは同じなんでケースなんかは流用できます。</p>
-<p><a href="http://raspi.tv/2017/pi-zero-w-wifi-on-the-zero-for-10-and-a-gorgeous-new-case" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-4799" src="/wp-content/uploads/2018/11/gif-640px-med.gif" alt="GIF-640px-med.gif" width="640" height="355" /></a></p>
+<p><a href="http://raspi.tv/2017/pi-zero-w-wifi-on-the-zero-for-10-and-a-gorgeous-new-case" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-4799" src="/wp-content/uploads/2018/11/gif-640px-med.gif" alt="GIF-640px-med.gif" width="640" height="355" /></a></p>
 <p>面白いですね〜。</p>
 <p>最後に、回路の概要図のリンクを。PCB のデータは見つかりませんでした。どっかにはあると思うんですが。この基盤、裏側には部品が実装されてないんですよね。すごいなと。</p>
-<p><a title="rpi_SCH_ZeroW_1p1_reduced" href="/wp-content/uploads/2018/11/rpi_sch_zerow_1p1_reduced.pdf" data-wpel-link="internal" rel="noopener noreferrer">rpi_SCH_ZeroW_1p1_reduced</a><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-4800" src="/wp-content/uploads/2018/11/schematic1___page2_-_power__xos.png" alt="SCHEMATIC1___PAGE2_-_POWER__XOS.png" width="1269" height="896" /></a></p>
+<p><a title="rpi_SCH_ZeroW_1p1_reduced" href="/wp-content/uploads/2018/11/rpi_sch_zerow_1p1_reduced.pdf" data-wpel-link="internal" rel="noopener noreferrer">rpi_SCH_ZeroW_1p1_reduced</a><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-4800" src="/wp-content/uploads/2018/11/schematic1___page2_-_power__xos.png" alt="SCHEMATIC1___PAGE2_-_POWER__XOS.png" width="1269" height="896" /></a></p>
 <p>とりあえず、なにかまたPCB基盤を作ってみたくなりました。〇〇HAT基盤とか、なにか、作ってみたいですね。</p>
 <p>というか、ちゃんと１つの機能が動作するモノを最近何も作っていなくて、そういう役立つ何かを作ってみたいです。</p>
 <p>あれこれ調査していますが、いろいろ作れて迷います。一番興味が引くもので面白く、かつみんなが興味を持つもので、何より自分が作りたいもの。</p>
@@ -79,9 +79,9 @@
 		<guid isPermaLink="false">/?p=4781</guid>
 							<description><![CDATA[今日は、RasPi Zero に接続する MicroUSB の OTG ケーブルが届いたので少し遊んでみた。LED が点灯せず、焦りましたが、SDカードをフォーマットしていて OS が入っていないのを忘れていました。テス [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今日は、RasPi Zero に接続する MicroUSB の OTG ケーブルが届いたので少し遊んでみた。LED が点灯せず、焦りましたが、SDカードをフォーマットしていて OS が入っていないのを忘れていました。テスター当てて、電源がきているか確認です。<a href="http://bokuraku.com/rasberrypi-nyumon-3/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここが参考に<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なりますね。</p>
-<p><img class="alignnone size-full wp-image-4786" src="/wp-content/uploads/2018/11/s20181119_001.jpg" alt="S20181119_001.jpg" width="1600" height="1200" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-4786" src="/wp-content/uploads/2018/11/s20181119_001.jpg" alt="S20181119_001.jpg" width="1600" height="1200" /></p>
 <p>普通に扱っていれば、滅多に壊れないのでLED が付かなくてもとりあえずは、SDカードの内容を確認してみるのがいいですね。自分の場合は、SDカードに刺した状態で、USB認識しなかったんで、もしかすると本当にどこかおかしいのかもしれません。</p>
-<p><img class="alignnone size-full wp-image-4782" src="/wp-content/uploads/2018/11/s20181118_001.jpg" alt="S20181118_001.jpg" width="1600" height="1200" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-4782" src="/wp-content/uploads/2018/11/s20181118_001.jpg" alt="S20181118_001.jpg" width="1600" height="1200" /></p>
 <p>で、無事ブートしました。３本も接続すると、本体がちっこすぎてケーブルに引っ張られますね。まずは、定番の UnixBenchです。OS は、2018-10-09-raspbian-stretch-lite　です。Update も何もせずとりあえず、UnixBench をコンパイルして実行。</p>
 <blockquote><p>========================================================================<br />
 BYTE UNIX Benchmarks (Version 5.1.3)</p>
@@ -123,7 +123,7 @@ System Call Overhead 15000.0 441679.0 294.5<br />
 System Benchmarks Index Score <span style="color:#ff0000;">97</span>.0</p></blockquote>
 <p>100くらいだとは知っていましたが、おそっ（笑）まぁ、シングルコアなんで仕方ありませんね。使い道に困るデバイスかもしれません。というか、今までのこれ系のボードも結局転がっていますしね。ベンチマーク取って、あぁ、安いね、小さいね。で終わっています（笑）</p>
 <p>でも本体が小さいので、Linux の何かを使ったものを作るにはいいかもしれません。例えば、カメラとか？ 家の IoT デバイスを集中的に処理するものとか。あと、アリエク物色していて、<a href="https://www.aliexpress.com/store/product/Allwinner-H2-Open-source-hardware-platform-BPI-M2-zero-all-ineter-face-same-as-Raspberry-pi/302756_32839074880.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Banana Pi M2 Zero<span class="wpel-icon wpel-image wpel-icon-1"></span></a> っていう互換？ボードも見つけました。2400円（送料込）</p>
-<p><a href="http://www.banana-pi.org/bpi-zero.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-4783" src="/wp-content/uploads/2018/11/zero2.png" alt="zero2.png" width="741" height="340" /></a></p>
+<p><a href="http://www.banana-pi.org/bpi-zero.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-4783" src="/wp-content/uploads/2018/11/zero2.png" alt="zero2.png" width="741" height="340" /></a></p>
 <p>特色は、CPU コア数が４つで、メモリがDDR3 なんで処理速が早い（とは行っても、たかが知れてるかもですが）いや、この大きさで4core なのはいいんじゃないでしょうか？</p>
 <table style="font-size:14px;background-color:#f8f9fa;color:#222222;margin:1em 0;border:1px solid #a2a9b1;border-collapse:collapse;font-family:sans-serif;height:982px;" width="680">
 <tbody>
@@ -240,7 +240,7 @@ System Benchmarks Index Score <span style="color:#ff0000;">97</span>.0</p></bloc
 <p>比較は、<a href="http://Banana/ Pi Zero vs. Raspberry Pi Zero W (Wireless) vs. LicheePi Zero vs. Orange Pi Zero Plus 2 (H5)" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここが<span class="wpel-icon wpel-image wpel-icon-1"></span></a>わかりやすいですも。一部、Bluetooth がないなど情報の間違えはありますが。到着するまで、ここの<a href="http://wiki.banana-pi.org/Getting_Started_with_M2_Zero" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a>でも読んでますか。</p>
 <p>こういう小さくて、手頃なやつを見つけるとつい買っちゃうんですよね。WiFi のAP6212も技適は AMPAK社 が通しているようで問題ないと思うんで、ポチってみました。</p>
 <p><a title="AP6212_V1.1_09022014" href="/wp-content/uploads/2018/11/ap6212_v1-1_09022014.pdf" data-wpel-link="internal" rel="noopener noreferrer">AP6212_V1.1_09022014</a></p>
-<p><a href="http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=020&amp;TC=N&amp;PK=1&amp;FN=180921N020&amp;SN=%94F%8F%D8&amp;LN=1&amp;R1=*****&amp;R2=*****" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img class="alignnone size-full wp-image-4788" src="/wp-content/uploads/2018/11/giteki_ap6212.png" alt="giteki_AP6212.png" width="703" height="779" /></a></p>
+<p><a href="http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=020&amp;TC=N&amp;PK=1&amp;FN=180921N020&amp;SN=%94F%8F%D8&amp;LN=1&amp;R1=*****&amp;R2=*****" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-4788" src="/wp-content/uploads/2018/11/giteki_ap6212.png" alt="giteki_AP6212.png" width="703" height="779" /></a></p>
 <p>また、これでゴミが１つ増えたかも。（笑）いや、これは壮大なる、汎用品で作る UMPC プロジェクトの始まりになるのかもしれません。たぶん、海外のかたでやっているかたがいるはず。</p>
 <p>モバイルで使いたいのは、快適なテキスト入力と、常時data通信で、ssh 端末として使いたいんですよね。こんな限定的に使う人は、たぶんLinux エンジニアか、テキスト入力で原稿作りたい記者か、作家くらいのもんで、需要は一定数あると思うんですが、日本のメーカーはこの分野はもうからないと撤退したようです。</p>
 <p>ないなら、作れです。いつどこでも、メンテナンスできて、ブログのネタも快適にテキスト入力できる端末っていうのがあると嬉しいんです。多少大きくてもキーボードはフルピッチのキーがほしい。横幅26cm あってもいいんでそういう端末がほしいんですよね。昔、Libretto って端末があったんですが結局買えず仕舞いでした。</p>
@@ -273,7 +273,7 @@ SDカードに書き込むのは、コマンドライン、ツールを使う方
 </span><span class="s1">└── 2018-10-09-raspbian-stretch.zip</span></p>
 </blockquote>
 <p>GUIがない、lite ってやつから遊んでみることにします。<br />
-<img class="alignnone size-full wp-image-4762" src="/wp-content/uploads/2018/11/etcher_e28093_7__flashing.png" alt="Etcher_–_7__Flashing.png" width="800" height="380" /></p>
+<img loading="lazy" class="alignnone size-full wp-image-4762" src="/wp-content/uploads/2018/11/etcher_e28093_7__flashing.png" alt="Etcher_–_7__Flashing.png" width="800" height="380" /></p>
 <p>ツールを使うとdisk を間違えなくていいですね。書き込むと、fatの boot領域とlinux の領域が最低限で作られます。</p>
 <blockquote><p>$ diskutil list | grep -A5 external<br />
 /dev/disk2 (external, physical):<br />
@@ -282,9 +282,9 @@ SDカードに書き込むのは、コマンドライン、ツールを使う方
 1: Windows_FAT_32 boot 45.9 MB disk2s1<br />
 2: Linux 1.8 GB disk2s2</p></blockquote>
 <p>電源のUSB は外側です。内側のUSBは母艦に繋げてUSB 接続し、SDカードをマウントできるようです。次回試して見ましょう。</p>
-<p><img class="alignnone size-full wp-image-4760" src="/wp-content/uploads/2018/11/s20181116_001.jpg" alt="S20181116_001.jpg" width="1600" height="1200" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-4760" src="/wp-content/uploads/2018/11/s20181116_001.jpg" alt="S20181116_001.jpg" width="1600" height="1200" /></p>
 <p>ここで、キーボードがMicroUSB なんで繋げない事に気がついた・・・・OTGケーブルを調達することに。</p>
-<p><img class="alignnone size-full wp-image-4761" src="/wp-content/uploads/2018/11/amazonusb.png" alt="amazonusb.png" width="908" height="383" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-4761" src="/wp-content/uploads/2018/11/amazonusb.png" alt="amazonusb.png" width="908" height="383" /></p>
 <p>microUSB を分解して繋げればいいんですが、ま１つくらいあってもいいかと変換ケーブルを発注。時間もなくなってきたようなんで、また土日にセットアップすることに。</p>
 <p>とりあえず、HDMI出力し無事bootしたのを確認したところまで。</p>
 <p>一応、Fedora も入れてみたかったのでimg を用意しておきました。</p>
@@ -372,9 +372,9 @@ exit 0</pre>
 <p>リブートするか、起動スクリプトをたたく。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># /etc/init.d/vncboot start</pre>
 <p>osx からの画面共有</p>
-<p><img title="osxvnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxvnc" src="/wp-content/uploads/2016/06/osxvnc.png" width="500" height="289" /> </p>
+<p><img loading="lazy" title="osxvnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxvnc" src="/wp-content/uploads/2016/06/osxvnc.png" width="500" height="289" /> </p>
 <p>&#160;</p>
-<p><img title="junkhack_s_X_desktop__orangepilite_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepilite_1_" src="/wp-content/uploads/2016/06/junkhack_s_x_desktop__orangepilite_1_.png" width="829" height="785" /> </p>
+<p><img loading="lazy" title="junkhack_s_X_desktop__orangepilite_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepilite_1_" src="/wp-content/uploads/2016/06/junkhack_s_x_desktop__orangepilite_1_.png" width="829" height="785" /> </p>
 <p>osx10.11 の画面共有は少し良くなった感じ。</p>
 ]]></content:encoded>
 					

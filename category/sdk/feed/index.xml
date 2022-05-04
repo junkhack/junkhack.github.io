@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>espeink の現在の調査状況</title>
 		<link>/2015/09/28/espeink-2/</link>
@@ -324,7 +324,7 @@ void configLoad() {
 ::</pre>
 <p>192.168.1.17:8266 は、とりあえずosx で起動しているapache です。</p>
 <p>本来、mode が 3 で最初に起動するときは動作し、アクセスポイントに接続したら 192.168.4.1 でアクセスできるはずなんだろうけども、そのアクセスポイントに入るパスワードが良くわからず、ソースコード中でとりあえずアクセスポイントに接続するようにしてみた。そして、esp12 に他のブラウザからアクセスしてみたのが以下。</p>
-<p><img title="WiFi_connection" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi_connection" src="/wp-content/uploads/2015/09/wifi_connection.png" width="640" height="325" /> </p>
+<p><img loading="lazy" title="WiFi_connection" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi_connection" src="/wp-content/uploads/2015/09/wifi_connection.png" width="640" height="325" /> </p>
 <p>&#160;</p>
 <p>Datasource の URL にあるespbm.php はおそらく、.bm をストリームするものだと思うけれども、サンプルファイル中にはなく、とりあえず変換済みの.bm ファイルにリダイレクトするものを用意。具体的には、以下のようなもの。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">&lt;?php
@@ -443,7 +443,7 @@ convertImage(&quot;icons/apconnect.png&quot;, &quot;html/apconnect.bm&quot;);
 <p>まだ、PCB ボードは作っていませんが、開発ボードにとりあえず書き込めるかやってみようと思います。</p>
 <p>&#160;</p>
 <p>書き込む開発ボードは、以下のものです。他2台は、以前にあれこれやっている最中に3.3V 以上入れすぎて壊れたようです。2台は昇天しましたので、正常なのはこれと、あと未開封のが１つあります。</p>
-<p> <img title="dev" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="dev" src="/wp-content/uploads/2015/09/dev.jpg" width="640" height="480" />   </p>
+<p> <img loading="lazy" title="dev" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="dev" src="/wp-content/uploads/2015/09/dev.jpg" width="640" height="480" />   </p>
 <p>&#160;</p>
 <p>さて、ソースディレクトリに移動し、make flash してみます。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:espeink junkhack$ make flash

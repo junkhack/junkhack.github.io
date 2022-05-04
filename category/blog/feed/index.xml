@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</title>
 		<link>/2022/01/10/wordpress-to-githubpages/</link>
@@ -123,7 +123,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -131,7 +131,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -143,7 +143,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
 
 
 
@@ -297,7 +297,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="586" height="667" src="/wp-content/uploads/2020/09/sitedown.png" alt="" class="wp-image-9559"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="586" height="667" src="/wp-content/uploads/2020/09/sitedown.png" alt="" class="wp-image-9559"/></figure></div>
 
 
 
@@ -309,7 +309,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="591" height="558" src="/wp-content/uploads/2020/09/siteonline.png" alt="" class="wp-image-9560"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="591" height="558" src="/wp-content/uploads/2020/09/siteonline.png" alt="" class="wp-image-9560"/></figure></div>
 
 
 

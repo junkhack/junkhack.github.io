@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.3</generator>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
 	<item>
 		<title>DIY Tool Wagon のジョイントをテストプリント</title>
 		<link>/2017/04/13/diy-tool-wagon-e381aee382b8e383a7e382a4e383b3e38388e38292e38386e382b9e38388e38397e383aae383b3e38388/</link>
@@ -32,11 +32,11 @@
 		<guid isPermaLink="false">/?p=3782</guid>
 							<description><![CDATA[久しぶりに 3D プリンターを動かしました。 部屋がかなり散らかっていたので、片付けながらやっと作業できそうなまでに落ち着いたので、久しぶりにプリントしてみました。 とりあえずは、試作です。 ちょっときついので、バーナー [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>久しぶりに 3D プリンターを動かしました。</p>
-<p> <img title="P1300714" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300714" src="/wp-content/uploads/2017/04/p1300714.png" width="640" height="480" />   </p>
+<p> <img loading="lazy" title="P1300714" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300714" src="/wp-content/uploads/2017/04/p1300714.png" width="640" height="480" />   </p>
 <p>部屋がかなり散らかっていたので、片付けながらやっと作業できそうなまでに落ち着いたので、久しぶりにプリントしてみました。</p>
-<p><img title="P1300721" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300721" src="/wp-content/uploads/2017/04/p1300721.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300721" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300721" src="/wp-content/uploads/2017/04/p1300721.png" width="640" height="480" /> </p>
 <p>とりあえずは、試作です。</p>
-<p><img title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="/wp-content/uploads/2017/04/p1300722.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="/wp-content/uploads/2017/04/p1300722.png" width="640" height="480" /> </p>
 <p>ちょっときついので、バーナーであぶって入れました。もう少しゆったりと作る必要がありそうです。</p>
 <p>データの修正は今度やることにして、また違うことをやろうかと。</p>
 ]]></content:encoded>
@@ -57,10 +57,10 @@
 		<guid isPermaLink="false">/?p=3750</guid>
 							<description><![CDATA[100円均一のステンレスプレートとミスミの安いグリーンフレームのアルミフレームを使って Tool Wagon を作っていますが、やっとそのジョイントが出来ました。 こんな感じでフレームとプレートを固定する感じです。もう少 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>100円均一のステンレスプレートとミスミの安いグリーンフレームのアルミフレームを使って Tool Wagon を作っていますが、やっとそのジョイントが出来ました。</p>
-<p> <img title="DIY_ToolWagon" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DIY_ToolWagon" src="/wp-content/uploads/2017/04/diy_toolwagon.png" width="638" height="841" />   </p>
+<p> <img loading="lazy" title="DIY_ToolWagon" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DIY_ToolWagon" src="/wp-content/uploads/2017/04/diy_toolwagon.png" width="638" height="841" />   </p>
 <p>こんな感じでフレームとプレートを固定する感じです。もう少し簡単な形にしようと思っていたのですが、作っているうちに複雑な形状になってしまいました。</p>
 <p>とりあえず、テストプリントして良ければ16個プリントしようと思います。色は何色にしましょうかね。赤かグレーか、ツートンカラーか迷っています。</p>
-<p><img title="color" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="color" src="/wp-content/uploads/2017/04/color.png" width="636" height="739" /> </p>
+<p><img loading="lazy" title="color" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="color" src="/wp-content/uploads/2017/04/color.png" width="636" height="739" /> </p>
 <p>こんな感じにしましょうかね。うん、なかなかいい感じの色です。</p>
 <p>&#160;</p>
 <p>あとは、取っ手と台車のジョイントを作ればできそうです。台車は違うものに使ってしまったので100円ショップで再調達です。</p>
@@ -84,37 +84,37 @@
 		<guid isPermaLink="false">/?p=3620</guid>
 							<description><![CDATA[ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。 39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。 他 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。</p>
-<p><img title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480" /> </p>
 <p>39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。</p>
 <p>他にも、値段が300円まででいろいろあります。</p>
-<p><img title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843" /> </p>
+<p><img loading="lazy" title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843" /> </p>
 <p>これは300円ですが、40 x 30cm と大きく深さもあります。</p>
-<p><img title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841" /> </p>
+<p><img loading="lazy" title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841" /> </p>
 <p>少し小ぶりで 32 x 23cm ですが、深さがあるタイプ。200円</p>
-<p><img title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846" /> </p>
+<p><img loading="lazy" title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846" /> </p>
 <p>上記の浅いタイプ。</p>
-<p><img title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480" /> </p>
 <p>ちょっと失礼して、並べて検討。100円のでとりあえず十分だということで、これを4枚ゲットしました。400円。あと写真にはありませんが、２つ並べてちょうど良さそうな、23 x 16cm の少し深めのものも２つゲット。</p>
 <p>&#160;</p>
 <p>以下のようなものを作ろうと思っています。簡易的にプレートをモデリングして、接続パーツやアルミフレームの検討をしています。</p>
-<p> <img title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="/wp-content/uploads/2017/03/31.png" width="643" height="536" />   </p>
+<p> <img loading="lazy" title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="/wp-content/uploads/2017/03/31.png" width="643" height="536" />   </p>
 <p>ベースのフレームは細い18mm と 28mm のグリーンフレームです。</p>
-<p><img title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856" /> </p>
+<p><img loading="lazy" title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856" /> </p>
 <p>グリーンフレームは太いので作るか、細いのかで迷っています。コスト重視なら細いものですが。</p>
-<p><img title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="/wp-content/uploads/2017/03/21.png" width="641" height="858" /> </p>
+<p><img loading="lazy" title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="/wp-content/uploads/2017/03/21.png" width="641" height="858" /> </p>
 </p>
 <p>このステンレストレイは、大きさが 39 x 29cm もあって100円で利益出るんですかね。0.5mm くらいなのでコストは抑えてありそうですが。100円ショップ、ほんと楽しいです。</p>
-<p><img title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480" /> </p>
 <p>工具が床に散らばるので、部屋の中にあると便利かなと思いまして。こんな感じで工具がちょうどいい感じに載せれます。</p>
-<p><img title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480" /> </p>
 <p>高さは50cm を検討。台車も100円ショップで売っていたのでゲットしてきました。</p>
 <p>これは、ダイソーじゃなく100円ショップのSeria（セリア）です。1個あたりの耐荷重は約10kg とあります。４つで40kg なので人が乗る用途でもないので十分でしょう。</p>
-<p><img title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480" /> </p>
 <p>ストッパー付きです。100円なのに高機能ですね。ベアリングとかは入っていませんが。</p>
 <p>台座は四角なので、ジョイントアダプターを作る必要がありますね。</p>
-<p><img title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480" /> </p>
 <p>38mm 角のようです。</p>
-<p><img title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480" />&#160;</p>
+<p><img loading="lazy" title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480" />&#160;</p>
 <p>材料の概算費用は、ステンレストレイが4枚で400円とフレームがグリーンフレームS だと416円、グリーンフレームだと684円。このくらいだったら、太いほうがいいですかね。タイヤが4個で200円。合計で、1016円か、1284円。あと取っ手のフレームも加算しますので100円か200円くらい高くなりそうです。</p>
 <p>&#160;</p>
 <p>もう少し、CAD上でつついて検討したいと思います。高さは、50cm もなくていいのかな。トレイは取り外せるようにするか、固定するかでフレームの構造も決まります。</p>
@@ -138,19 +138,19 @@
 		<guid isPermaLink="false">/?p=3580</guid>
 							<description><![CDATA[先着500名に無料サンプルを配っていたので、申し込みしておきました。それが到着。 外寸28mmタイプのサンプルです。前回検討していたのは、外寸19㎜のフレームのグリーンフレームS というやつです。 想像より、がっちり固定 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>先着500名に無料サンプルを配っていたので、申し込みしておきました。それが到着。</p>
-<p><img title="P1300008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300008" src="/wp-content/uploads/2017/03/p1300008.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300008" src="/wp-content/uploads/2017/03/p1300008.png" width="640" height="480" /> </p>
 <p>外寸28mmタイプのサンプルです。前回検討していたのは、外寸19㎜のフレームのグリーンフレームS というやつです。</p>
-<p><img title="P1300007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300007" src="/wp-content/uploads/2017/03/p1300007.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300007" src="/wp-content/uploads/2017/03/p1300007.png" width="640" height="480" /> </p>
 <p>想像より、がっちり固定されています。</p>
-<p><img title="P1300009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300009" src="/wp-content/uploads/2017/03/p1300009.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300009" src="/wp-content/uploads/2017/03/p1300009.png" width="640" height="480" /> </p>
 <p>ボルト一本で固定できるのは考えましたね。これは便利です。</p>
-<p><img title="P1300011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300011" src="/wp-content/uploads/2017/03/p1300011.png" width="640" height="480" /> </p>
+<p><img loading="lazy" title="P1300011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300011" src="/wp-content/uploads/2017/03/p1300011.png" width="640" height="480" /> </p>
 <p>このようにツメでクランプして固定する構造です。</p>
 <p>&#160;</p>
 <p>このツメ上のフレーム部分に注目してみました。</p>
-<p><img title="S20170321_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170321_001" src="/wp-content/uploads/2017/03/s20170321_001.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="S20170321_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170321_001" src="/wp-content/uploads/2017/03/s20170321_001.jpg" width="640" height="480" /> </p>
 <p>625 ベアリングに溝が切ってあるタイプを当ててみると、ちゃんとひっかかります。少し角度を変えて、上下180度で挟み込む感じでも大丈夫そうです。</p>
-<p><img title="S20170321_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170321_002" src="/wp-content/uploads/2017/03/s20170321_002.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" title="S20170321_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170321_002" src="/wp-content/uploads/2017/03/s20170321_002.jpg" width="640" height="480" /> </p>
 </p>
 </p>
 <p>これだけひっかかれば、3個のベアリングで挟み込めます。グリーンフレームのS でもこのでっぱりはさほど変わらないはずなので、350mm が73 円で買えますから、1本のスロットは最安値ですみそうです。</p>
@@ -177,19 +177,19 @@
 <p>3M マスキングテープ 343 60mm×18M 2巻パック 343 60</p>
 <p>&#160;</p>
 </blockquote>
-<p> <a href="https://www.amazon.co.jp/gp/product/B00IGOW02I/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="813f1lWxKZL._SL1500_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="813f1lWxKZL._SL1500_" src="/wp-content/uploads/2017/02/813f1lwxkzl-_sl1500_.jpg" width="480" height="480" /></a>   </p>
+<p> <a href="https://www.amazon.co.jp/gp/product/B00IGOW02I/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="813f1lWxKZL._SL1500_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="813f1lWxKZL._SL1500_" src="/wp-content/uploads/2017/02/813f1lwxkzl-_sl1500_.jpg" width="480" height="480" /></a>   </p>
 <p>今は、980円のようですが、６cmもなくていいから、もう少し安いのが無いかと探したところ、ミスミに5cm 幅の18Mが２巻きで２５０円ほどでした。（型番：<a href="http://jp.misumi-ec.com/vona2/detail/110600364760/?HissuCode=N-MSTPE-50" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">N-MSTPE-50<span class="wpel-icon wpel-image wpel-icon-1"></span></a> ）リンクは、今ミスミのサイトがメンテナンス中なので、あとで張っておきます。</p>
-<p> <a href="http://jp.misumi-ec.com/vona2/detail/110600364760/?HissuCode=N-MSTPE-50" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="IMGP1239" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1239" src="/wp-content/uploads/2017/02/imgp12391.jpg" width="640" height="426" /></a>   </p>
+<p> <a href="http://jp.misumi-ec.com/vona2/detail/110600364760/?HissuCode=N-MSTPE-50" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="IMGP1239" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1239" src="/wp-content/uploads/2017/02/imgp12391.jpg" width="640" height="426" /></a>   </p>
 <p>色は黄色ですが、基材は和紙で同じようなものなんじゃないかと。</p>
-<p><img title="IMGP1238" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMGP1238" src="/wp-content/uploads/2017/02/imgp1238.jpg" width="640" height="425" /> </p>
+<p><img loading="lazy" title="IMGP1238" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMGP1238" src="/wp-content/uploads/2017/02/imgp1238.jpg" width="640" height="425" /> </p>
 <p>このように少し幅は狭いですが、小さなパーツを印刷するにはちょうどいい感じです。張り付き具合も問題なさそうです。若干、３Mと比べると弱いかもしれません。ということで、これからミスミのマスキングテープを使っていくことにします。</p>
 <p>&#160;</p>
 <p>608 タイプのベアリングが余ったので、前からプリントしてみたかったフィラメントのローラーを作ることにしました。</p>
-<p><a href="http://www.thingiverse.com/thing:1635585" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Wanhao_i3_Duplicator_Spool_Holder_by_cyul_-_Thingiverse" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Wanhao_i3_Duplicator_Spool_Holder_by_cyul_-_Thingiverse" src="/wp-content/uploads/2017/02/wanhao_i3_duplicator_spool_holder_by_cyul__thingiverse1.png" width="640" height="453" /></a> </p>
+<p><a href="http://www.thingiverse.com/thing:1635585" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Wanhao_i3_Duplicator_Spool_Holder_by_cyul_-_Thingiverse" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Wanhao_i3_Duplicator_Spool_Holder_by_cyul_-_Thingiverse" src="/wp-content/uploads/2017/02/wanhao_i3_duplicator_spool_holder_by_cyul__thingiverse1.png" width="640" height="453" /></a> </p>
 <p>色は、ローラー部分を変えるといい感じですね。</p>
-<p><a href="http://www.thingiverse.com/make:246112" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="Wanhao_i3_Duplicator_Spool_Holder_by_OmNomNomagon" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Wanhao_i3_Duplicator_Spool_Holder_by_OmNomNomagon" src="/wp-content/uploads/2017/02/wanhao_i3_duplicator_spool_holder_by_omnomnomagon1.png" width="643" height="540" /></a> </p>
+<p><a href="http://www.thingiverse.com/make:246112" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Wanhao_i3_Duplicator_Spool_Holder_by_OmNomNomagon" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Wanhao_i3_Duplicator_Spool_Holder_by_OmNomNomagon" src="/wp-content/uploads/2017/02/wanhao_i3_duplicator_spool_holder_by_omnomnomagon1.png" width="643" height="540" /></a> </p>
 <p>こういう半透明なのは、今後買いたいなと思います。とりあえず、グレーでプリントしてみました。</p>
-<p><img title="IMGP1242" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMGP1242" src="/wp-content/uploads/2017/02/imgp1242.jpg" width="640" height="425" /> </p>
+<p><img loading="lazy" title="IMGP1242" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMGP1242" src="/wp-content/uploads/2017/02/imgp1242.jpg" width="640" height="425" /> </p>
 <p>5cm のマスキングテープは４列貼っています。</p>
 ]]></content:encoded>
 					
