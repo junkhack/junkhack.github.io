@@ -12,14 +12,292 @@
 	<title>高速化 &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sun, 02 Jan 2022 00:02:53 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 05 May 2022 02:02:38 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
 	<item>
+		<title>アルゴリア検索を導入してみたら、速くて便利で気に入った話！</title>
+		<link>/2022/05/05/algoliasearch/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 20:08:40 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=11202</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/AlgoliaSearch.png" />
+							<description><![CDATA[ゴールデンウィーク真っ最中ですね！ 皆さんは何してますか？ 僕は、まったりとPCと戯れて、世界中の面白いネタを探しています。もうね、あるわあるわ。面白ネタがたくさんあって、世界は広いなと、再認識しました。 さて、今回のネ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>静的サイトでも動作する検索を模索してみたよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>Google検索とかじゃなくて？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>自分のサイトにもっと特化して検索できるやつが欲しかったのよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>このブログってGitHub Pagesでしょ？ どうやるのかしら？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>ゴールデンウィーク真っ最中ですね！ 皆さんは何してますか？</p>
+
+
+
+<p>僕は、まったりとPCと戯れて、世界中の面白いネタを探しています。もうね、あるわあるわ。面白ネタがたくさんあって、世界は広いなと、再認識しました。</p>
+
+
+
+<p></p>
+
+
+
+<p>さて、今回のネタは「検索」です。このブログはgithub pages ってのを使っていて静的なサイトなんです。見た目はWordPressのブログサイトっぽいのですが、htmlとcssとjsだけの構成でPHPとかデータベースとか動作していないんです。なので、自分のサイトの検索機能はGoogleのを使っているんですが、もっと良いのはないかなーと探していました。こういう分野のエンジニアは、フロントエンド・エンジニアと、いうんですが、自分は苦手分野なのであまり知識がありませんでした。</p>
+
+
+
+<h3>見つけたところは、Electronのサイト！</h3>
+
+
+
+<p><ruby>Electron<rt>えれくとろん</rt></ruby>っていう、仕組みがあるのですがこの本家サイトの日本語ドキュメントにその良い例が載っています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Electron ドキュメント</p><cite><a href="https://www.electronjs.org/ja/docs/latest/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.electronjs.org/ja/docs/latest/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このサイトを見ると、キーボード操作 CMD＋K で検索ウィンドウが出てきます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="633" src="/wp-content/uploads/2022/05/Electron-doc-1024x633.png" alt="" class="wp-image-11205" srcset="/wp-content/uploads/2022/05/Electron-doc-1024x633.png 1024w, /wp-content/uploads/2022/05/Electron-doc-768x474.png 768w, /wp-content/uploads/2022/05/Electron-doc-984x608.png 984w, /wp-content/uploads/2022/05/Electron-doc.png 1099w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こんな感じで、検索文字をタイプするごとにそのキーワードを含んだページとヒットした文字部分が出てくるわけです。検索キーワードの提案（サジェスト）が出るのではなく、検索結果がリアルタイムで表示されるイメージです。このキーワードに対して、その候補のページが出てくる仕組み・検索システムが優秀で使いやすいんです。</p>
+
+
+
+<p>で、この仕組みってどうやって作っているんだろうなーと思っていたところ、このウインドウの下には<ruby>algolia<rt>あるごりあ</rt></ruby> と表示されています。どうやら、algolia の検索システムを使っているようです。</p>
+
+
+
+<p>ちなみに、Electronっていのは、簡単に紹介すると以下です。そのうち、ネタにしようかなと思っています</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>Electron</strong>（エレクトロン）とは、ウェブ技術でデスクトップアプリケーションを作成できるテクノロジーです。 HTMLとCSS、JavaScriptを使って開発し、WindowsとmacOSの両OSのアプリケーションを1つのコードから作ることができます。</p><cite><a href="https://ics.media/entry/7298/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://ics.media/entry/7298/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3>algolia の検索システムとは何なのか？</h3>
+
+
+
+<p>さて、algoliaの検索とはいったい何なのでしょうか？ 英語サイトですが、サービス名称は「<ruby>Algolia Search<rt>あるごりあ　さーち</rt></ruby>」と言うようです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Algolia Search</p><cite><a href="https://www.algolia.com/products/search-and-discovery/hosted-search-api/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.algolia.com/products/search-and-discovery/hosted-search-api/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>FAQのところを見ると、概要が見えてきます。まず、Algoliaは高速で、<ruby>SaaS<rt>さーす</rt></ruby>製品でモバイル向けにも特化してあり、日本語も使えるようです。</p>
+
+
+
+<p>機能は大きくわけて、２つあるようです。１つは、Autocompleteと呼ばれる、検索キーワードを入れると、リアルタイムで検索結果が出る仕組み。もう一つは、検索キーワードの提案（サジェスト）のAutoCompleteで、これは「Query Suggestions」を設定すると可能のようです。</p>
+
+
+
+<p>こういうのは、まず使ってみるのが手っ取り早いです。幸い、WordPressでalgolia検索を使うのは簡単です。まずは、このサイトですでに実装してあるので、それを紹介してみます。</p>
+
+
+
+<h3>このブログでの実装例</h3>
+
+
+
+<p>このブログでは、キーボード操作「/」スラッシュをタイプすると、以下のような検索ウィンドウが出てきます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="795" height="266" src="/wp-content/uploads/2022/05/screenshot-1.png" alt="" class="wp-image-11209" srcset="/wp-content/uploads/2022/05/screenshot-1.png 795w, /wp-content/uploads/2022/05/screenshot-1-768x257.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></figure></div>
+
+
+
+<p>検索テキスト入力エリアにフォーカスするには、「.」ドットをタイプするかマウスでフォーカスします。適当な検索ワードをタイプすればその結果を含むページが下に表示されます。これは、検索キーワードのサジェストとは違いますが、検索結果がすぐに出てくるので検索結果に遷移しなくても良くて便利です。検索ワードをタイプしてから、検索結果が出てくるのが異常に速くないでしょうか？</p>
+
+
+
+<h3>WordPressに入れてみる</h3>
+
+
+
+<p>では、このブログと同じことをしてみたい人向けに具体的な手順の紹介です。２つプラグインを入れるのですが、まず、１つ目は以下です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>WP Search with Algolia</p><cite><a href="https://ja.wordpress.org/plugins/wp-search-with-algolia/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.org/plugins/wp-search-with-algolia/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://ja.wordpress.org/plugins/wp-search-with-algolia/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" width="940" height="417" src="/wp-content/uploads/2022/05/WP_Search_with_Algolia.png" alt="" class="wp-image-11210" srcset="/wp-content/uploads/2022/05/WP_Search_with_Algolia.png 940w, /wp-content/uploads/2022/05/WP_Search_with_Algolia-768x341.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></a></figure></div>
+
+
+
+<p>次に、algolia のサイトではアカウントを作成し、Applicationを作成し、APIキーを参照します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="628" src="/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png" alt="" class="wp-image-11212" srcset="/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png 1024w, /wp-content/uploads/2022/05/API_Keys-Algolia-768x471.png 768w, /wp-content/uploads/2022/05/API_Keys-Algolia-984x604.png 984w, /wp-content/uploads/2022/05/API_Keys-Algolia.png 1079w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>で、その各種項目を先ほどのWordPressプラグインに設定します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="779" src="/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png" alt="" class="wp-image-11211" srcset="/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png 1024w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-768x584.png 768w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-984x748.png 984w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372.png 1069w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>少し説明は端折りますが、「Search Page」では、とりあえず真ん中の「Use Algolia in the backend」を選んでおけば良いでしょう。Autocomplete では、検索させる対象、たとえば「投稿」を選択してインデックスを再作成しておきます。</p>
+
+
+
+<h3>WP標準の検索ウィンドウで確認</h3>
+
+
+
+<p>WP標準の検索ウィンドウで、検索キーワードを入れたら、検索結果が出てくるようになっていれば成功です。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="1005" height="927" src="/wp-content/uploads/2022/05/wp-search.png" alt="" class="wp-image-11213" srcset="/wp-content/uploads/2022/05/wp-search.png 1005w, /wp-content/uploads/2022/05/wp-search-768x708.png 768w, /wp-content/uploads/2022/05/wp-search-984x908.png 984w" sizes="(max-width: 1005px) 100vw, 1005px" /></figure>
+
+
+
+<p><ruby>アイキャッチ<rt>記事の画像</rt></ruby>があれば、こんな感じで表示されるかなと思います。</p>
+
+
+
+<h3>キーボード操作で検索ウィンドウを出す</h3>
+
+
+
+<p>続いて、キーボード操作で、検索窓がポップアップする部分です。検索結果に遷移しなくて良いので、どのページからも検索ウィンドウが表示されれば便利かなと思いました。</p>
+
+
+
+<p>そのような動作をするプラグインを昔みたことがあったので検索してみました。「wp-keyboard-nav」というのがあったので、それには検索窓がついていないので、少し手直しして、以下のような野良プラグインを作ってみました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Keyboard PopUP algolia search<br>WordPress の野良プラグインです。プラグイン名称は、<code>Keyboard PopUP algolia search</code>&nbsp;です。 キーボード操作でポップアップする検索ウィンドウです。algolia検索と組み合わせて使うために、改造しました。元ソースは、wp-keyboard-nav&nbsp;<a href="https://github.com/tareq1988/wp-keyboard-nav" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>&nbsp;というプラグインです。</p><cite><a href="https://github.com/take-i/wp-keypopup-algolia" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/take-i/wp-keypopup-algolia<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>こちらは何も設定は必要ありません。プラグインを入れれば、すべてのページでキーボード操作で検索ウィンドウが出てくるかと思います。</p>
+
+
+
+<h3>レスポンス時間はどのくらいなのか？</h3>
+
+
+
+<p>検索ウィンドウに１文字づつタイプするごとに、Algolia のAPIにリクエストが飛び、レスポンスされます。何回か試したのですが、ほとんどが100ms 以内に帰ってきています。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="802" height="650" src="/wp-content/uploads/2022/05/r-time.png" alt="" class="wp-image-11220" srcset="/wp-content/uploads/2022/05/r-time.png 802w, /wp-content/uploads/2022/05/r-time-768x622.png 768w" sizes="(max-width: 802px) 100vw, 802px" /></figure>
+
+
+
+<p>以下のように、20ms以内くらいで帰ってくるようです。劇速いです！</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="798" height="581" src="/wp-content/uploads/2022/05/r-time1.png" alt="" class="wp-image-11221" srcset="/wp-content/uploads/2022/05/r-time1.png 798w, /wp-content/uploads/2022/05/r-time1-768x559.png 768w" sizes="(max-width: 798px) 100vw, 798px" /></figure>
+
+
+
+<p></p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・Algolia の無料枠は、10,000検索リクエスト/月<br>・検索対象の数制限は、10,000 レコード<br>・無料枠利用にカード登録は必要なし<br>・個人用サイトなら無料枠で足りそうだが、しばらく運用してみる<br>・有料版は、1000リクエスト/月 で1.5ドル<br>・検索クエリーは１文字づつ、APIリクエストが飛んでいる<br>・その、ほとんどが20ms以内にレスポンスされている<br>・検索結果が検索窓に検索キーワードを入れた時点で表示される<br>・↑これがすごく便利で気に入りました<br>・日本語にも対応していている<br>・紹介はしきれなかったが、静的サイトでも少しの手入れで動作する<br>・速いというのは、正義だなと改めて実感<br>・キーボードで出てくる検索ウィンドウは思ったより、便利<br>・algolia にINDEXデータを入れる部分はwordpressで可能<br>・algoliaの管理画面でAnalyticsがあり、検索ワードや表示ページなど統計データが見れる<br></p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>英語サイトの情報なので、まだあまり日本語の情報がないのですが、この手のサイト内検索を商材にするサービスは他にもたくさんあります。商用のサイトなら、たくさんある商品や情報の中から、お客さんが希望するモノにたどり着きやすくするため、サイト内検索は結構重要だと思っています。</p>
+
+
+
+<p> 今回の話は、バックエンドにデータベースがあって、それを直接検索参照させる従来のやり方ではないケースです。このブログのように、静的なページがあってそれを対象に高速で検索させる場合は何が正解なのでしょうか。ある人は、全文検索エンジンを入れたらどう？ とか。検索用のインデッックスを持ったDBを用意すればよいとか。</p>
+
+
+
+<p>このブログの場合は、記事の作成時点ではWordPressで管理していて、書き出すときに静的なHTMLにしています。全ての記事のインデックス（目次情報）は、WordPressで動作している時点でAlgolia に投げられます。静的ページからの検索は、JavaScript経由でAlgoliaに参照され、文字が入るたびにリアルタイムに検索結果が表示される仕組みです。</p>
+
+
+
+<p>データベースは無く、作るつもりもないので静的ページをどうやって手間なく、検索させるか？ の１つの解だとは思います。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
 		<link>/2022/01/02/keycdn/</link>
 		
@@ -34,7 +312,7 @@
 				<media:thumbnail url="/wp-content/uploads/2022/01/KeyCDN.png" />
 							<description><![CDATA[KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。 今回は前から気になっていたKeyC [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>CDNってのを半年、使ってみましたよ</p>
@@ -42,7 +320,7 @@
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>クラウドからコンテンツを配信するってヤツですね。</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
@@ -50,7 +328,7 @@
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>どんな効果があって、月維持費はどのくらいかレポートしてみます。</p>
@@ -58,7 +336,7 @@
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>私は、月500円くらいまでなら出せるかなー</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
@@ -799,217 +1077,6 @@ Percentage of the requests served within a certain time (ms)
 					
 					<wfw:commentRss>/2020/09/08/termux_nginx_phpfpm_bench/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Termuxのapache2+php7+mariadb10 環境でwordpressの表示スコア</title>
-		<link>/2020/09/06/termux-apache2-php7-mariadb10/</link>
-		
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Sun, 06 Sep 2020 10:29:10 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">/?p=5911</guid>
-							<description><![CDATA[とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、Hew　です。TOPの表示記事数は３です。スマホ側は、Umidig [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>とりあえず、１つの指標としてメモしておくことにします。まず、改善結果から。データ量は、今見ているこのブログの過去記事、約４００件のデータでテンプレートは、<a href="https://wordpress.com/theme/hew" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Hew<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。TOPの表示記事数は３です。スマホ側は、UmidigiF2にapache2+php7+mariadb10の環境となります。ClassicPressではなく、WordPress最新5.5.1です。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_06_20_18_04_20.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_06_20_18_04_20" class="wp-image-5913"/></figure></div>
-
-
-
-<p>改善前は以下です。</p>
-
-
-
-<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_05_20_15_15_05-1.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp__-_09_05_20_15_15_05" class="wp-image-5915"/></figure>
-
-
-
-<p>2.2秒くらいから、1.3秒くらいまで改善しました。これは、キャッシュ化の効果です。キャッシュさせるのは、何がいいのか迷いましたが一番シンプルそうな、「<strong>Simple Cache</strong>」というのを使いました。</p>
-
-
-
-<figure class="wp-block-image"><a href="https://ja.wordpress.org/plugins/simple-cache/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/e38395e3829ae383a9e382afe38299e382a4e383b3_e280b9_junkhack_e28094_wordpress.png" alt="プラグイン_‹_JunkHack_—_WordPress" class="wp-image-5917"/></a></figure>
-
-
-
-<p>Jetpack の全ての機能を試していませんが、とりあえずは動いている感じです。設定も以下のように単純です。手動でのキャッシュ削除は設定画面の２箇所から可能です。</p>
-
-
-
-<figure class="wp-block-image"><img src="/wp-content/uploads/2020/09/e382b7e383b3e38395e3829ae383abe382ade383a3e38383e382b7e383a5e280b9junkhack_e28094_wordpress.png" alt="シンプルキャッシュ‹JunkHack_—_WordPress" class="wp-image-5919"/></figure>
-
-
-
-<p>nginx_1.19.2 と、php-fpm_7.4.9 の組み合わせでも確認してみたいですね。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Termuxパッケージ安定板<br>https://grimler.se/termux-packages-24/arm/</p></blockquote>
-
-
-
-<p>nginxの1.19.2 は<a href="https://nginx.org/en/CHANGES" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">オフィシャル側<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は 2020/08/11 に公開していて、termux 側は、8/18 なんでちゃんとメンテナンスされているようです。</p>
-
-
-
-<p>とりあえず、apacheのhttpd.confのパッチは以下です。apache 2.4.46 のデフォルト設定ファイルとの差分です。</p>
-
-
-
-<pre class="wp-block-code"><code>--- httpd.conf.org	2020-08-09 07:55:34.000000000 +0900
-+++ httpd.conf	2020-09-06 01:56:57.560924026 +0900
-@@ -63,8 +63,8 @@
- # Example:
- # LoadModule foo_module modules/mod_foo.so
- #
--#LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
--LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
-+LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
-+#LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
- LoadModule authn_file_module libexec/apache2/mod_authn_file.so
- #LoadModule authn_dbm_module libexec/apache2/mod_authn_dbm.so
- #LoadModule authn_anon_module libexec/apache2/mod_authn_anon.so
-@@ -88,7 +88,7 @@
- #LoadModule cache_module libexec/apache2/mod_cache.so
- #LoadModule cache_disk_module libexec/apache2/mod_cache_disk.so
- #LoadModule cache_socache_module libexec/apache2/mod_cache_socache.so
--#LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
-+LoadModule socache_shmcb_module libexec/apache2/mod_socache_shmcb.so
- #LoadModule socache_dbm_module libexec/apache2/mod_socache_dbm.so
- #LoadModule socache_memcache_module libexec/apache2/mod_socache_memcache.so
- #LoadModule socache_redis_module libexec/apache2/mod_socache_redis.so
-@@ -109,7 +109,7 @@
- #LoadModule substitute_module libexec/apache2/mod_substitute.so
- #LoadModule sed_module libexec/apache2/mod_sed.so
- #LoadModule charset_lite_module libexec/apache2/mod_charset_lite.so
--#LoadModule deflate_module libexec/apache2/mod_deflate.so
-+LoadModule deflate_module libexec/apache2/mod_deflate.so
- LoadModule mime_module libexec/apache2/mod_mime.so
- LoadModule log_config_module libexec/apache2/mod_log_config.so
- #LoadModule log_debug_module libexec/apache2/mod_log_debug.so
-@@ -144,7 +144,7 @@
- #LoadModule session_dbd_module libexec/apache2/mod_session_dbd.so
- LoadModule slotmem_shm_module libexec/apache2/mod_slotmem_shm.so
- #LoadModule slotmem_plain_module libexec/apache2/mod_slotmem_plain.so
--#LoadModule ssl_module libexec/apache2/mod_ssl.so
-+LoadModule ssl_module libexec/apache2/mod_ssl.so
- #LoadModule dialup_module libexec/apache2/mod_dialup.so
- #LoadModule http2_module libexec/apache2/mod_http2.so
- #LoadModule lbmethod_byrequests_module libexec/apache2/mod_lbmethod_byrequests.so
-@@ -168,7 +168,7 @@
- &lt;/IfModule>
- #LoadModule dav_fs_module libexec/apache2/mod_dav_fs.so
- #LoadModule dav_lock_module libexec/apache2/mod_dav_lock.so
--#LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
-+LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
- LoadModule negotiation_module libexec/apache2/mod_negotiation.so
- LoadModule dir_module libexec/apache2/mod_dir.so
- #LoadModule imagemap_module libexec/apache2/mod_imagemap.so
-@@ -176,7 +176,7 @@
- #LoadModule speling_module libexec/apache2/mod_speling.so
- LoadModule userdir_module libexec/apache2/mod_userdir.so
- LoadModule alias_module libexec/apache2/mod_alias.so
--#LoadModule rewrite_module libexec/apache2/mod_rewrite.so
-+LoadModule rewrite_module libexec/apache2/mod_rewrite.so
- 
- &lt;IfModule unixd_module>
- #
-@@ -242,8 +242,10 @@
- # documents. By default, all requests are taken from this directory, but
- # symbolic links and aliases may be used to point to other locations.
- #
--DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
--&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
-+#DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
-+DocumentRoot "/data/data/com.termux/files/home/htdocs"
-+#&lt;Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
-+&lt;Directory "/data/data/com.termux/files/home/htdocs">
-     #
-     # Possible values for the Options directive are "None", "All",
-     # or any combination of:
-@@ -256,14 +258,14 @@
-     # http://httpd.apache.org/docs/2.4/mod/core.html#options
-     # for more information.
-     #
--    Options Indexes FollowSymLinks
-+    Options FollowSymLinks
- 
-     #
-     # AllowOverride controls what directives may be placed in .htaccess files.
-     # It can be "All", "None", or any combination of the keywords:
-     #   AllowOverride FileInfo AuthConfig Limit
-     #
--    AllowOverride None
-+    AllowOverride All
- 
-     #
-     # Controls who can get stuff from this server.
-@@ -276,7 +278,7 @@
- # is requested.
- #
- &lt;IfModule dir_module>
--    DirectoryIndex index.html
-+    DirectoryIndex index.php index.html
- &lt;/IfModule>
- 
- #
-@@ -529,3 +531,22 @@
- SSLRandomSeed connect builtin
- &lt;/IfModule>
- 
-+LoadModule php7_module libexec/apache2/libphp7.so
-+&lt;FilesMatch \.php
-gt;
- +   SetHandler application/x-httpd-php
- +&lt;/FilesMatch>
- +&lt;IfModule dir_module>
- +    DirectoryIndex index.php
- +&lt;/IfModule>
- +
- +&lt;IfModule mod_deflate.c>
- +    DeflateCompressionLevel 1
- +    &lt;IfModule mod_filter.c>
- +        FilterDeclare COMPRESS
- +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/#i"
- +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^application/(atom\+xml|javascript|json|rss\+xml|xml|xhtml\+xml)#i"
- +        FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^image/(svg\+xml|vnd\.microsoft\.icon)#i"
- +        FilterChain COMPRESS
- +        FilterProtocol COMPRESS DEFLATE change=yes;byteranges=no
- +    &lt;/IfModule>
- +&lt;/IfModule></code></pre>
-
-
-
-<p>パッチの適用は上記をコピペしてp.txt などに保存、httpd.conf に以下のように patchしてください。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>$ patch -u httpd.conf &lt; p.txt</p></blockquote>
-
-
-
-<p>成功すれば、patching file httpd.conf　のような表示となります。</p>
-
-
-
-<p>mariadb のチューニングとかはやってないです。PHPは、php.ini&nbsp; に以下のように記載してあります。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>$ cat /data/data/com.termux/files/usr/lib/php.ini<br>[PHP]</p><p>upload_max_filesize = 64M<br>post_max_size = 64M<br>memory_limit = 64M</p></blockquote>
-
-
-
-<p>結構、スマホでも動くなー、いけそうだなーっていう感じです。</p>
-]]></content:encoded>
-					
 		
 		
 			</item>

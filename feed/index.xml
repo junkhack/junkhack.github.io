@@ -10,54 +10,332 @@
 
 <channel>
 	<title>JunkHack Feed</title>
-	<link>/</link>
+	<link>https://hack.gpl.jp</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sat, 16 Apr 2022 21:25:39 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 05 May 2022 02:02:38 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
 	<item>
+		<title>アルゴリア検索を導入してみたら、速くて便利で気に入った話！</title>
+		<link>https://hack.gpl.jp/2022/05/05/algoliasearch/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 20:08:40 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=11202</guid>
+				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2022/05/AlgoliaSearch.png" />
+							<description><![CDATA[ゴールデンウィーク真っ最中ですね！ 皆さんは何してますか？ 僕は、まったりとPCと戯れて、世界中の面白いネタを探しています。もうね、あるわあるわ。面白ネタがたくさんあって、世界は広いなと、再認識しました。 さて、今回のネ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>静的サイトでも動作する検索を模索してみたよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>Google検索とかじゃなくて？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>自分のサイトにもっと特化して検索できるやつが欲しかったのよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>このブログってGitHub Pagesでしょ？ どうやるのかしら？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>ゴールデンウィーク真っ最中ですね！ 皆さんは何してますか？</p>
+
+
+
+<p>僕は、まったりとPCと戯れて、世界中の面白いネタを探しています。もうね、あるわあるわ。面白ネタがたくさんあって、世界は広いなと、再認識しました。</p>
+
+
+
+<p></p>
+
+
+
+<p>さて、今回のネタは「検索」です。このブログはgithub pages ってのを使っていて静的なサイトなんです。見た目はWordPressのブログサイトっぽいのですが、htmlとcssとjsだけの構成でPHPとかデータベースとか動作していないんです。なので、自分のサイトの検索機能はGoogleのを使っているんですが、もっと良いのはないかなーと探していました。こういう分野のエンジニアは、フロントエンド・エンジニアと、いうんですが、自分は苦手分野なのであまり知識がありませんでした。</p>
+
+
+
+<h3>見つけたところは、Electronのサイト！</h3>
+
+
+
+<p><ruby>Electron<rt>えれくとろん</rt></ruby>っていう、仕組みがあるのですがこの本家サイトの日本語ドキュメントにその良い例が載っています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Electron ドキュメント</p><cite><a href="https://www.electronjs.org/ja/docs/latest/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.electronjs.org/ja/docs/latest/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このサイトを見ると、キーボード操作 CMD＋K で検索ウィンドウが出てきます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="633" src="https://hack.gpl.jp/wp-content/uploads/2022/05/Electron-doc-1024x633.png" alt="" class="wp-image-11205" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/Electron-doc-1024x633.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/05/Electron-doc-768x474.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/05/Electron-doc-984x608.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/05/Electron-doc.png 1099w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こんな感じで、検索文字をタイプするごとにそのキーワードを含んだページとヒットした文字部分が出てくるわけです。検索キーワードの提案（サジェスト）が出るのではなく、検索結果がリアルタイムで表示されるイメージです。このキーワードに対して、その候補のページが出てくる仕組み・検索システムが優秀で使いやすいんです。</p>
+
+
+
+<p>で、この仕組みってどうやって作っているんだろうなーと思っていたところ、このウインドウの下には<ruby>algolia<rt>あるごりあ</rt></ruby> と表示されています。どうやら、algolia の検索システムを使っているようです。</p>
+
+
+
+<p>ちなみに、Electronっていのは、簡単に紹介すると以下です。そのうち、ネタにしようかなと思っています</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>Electron</strong>（エレクトロン）とは、ウェブ技術でデスクトップアプリケーションを作成できるテクノロジーです。 HTMLとCSS、JavaScriptを使って開発し、WindowsとmacOSの両OSのアプリケーションを1つのコードから作ることができます。</p><cite><a href="https://ics.media/entry/7298/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://ics.media/entry/7298/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3>algolia の検索システムとは何なのか？</h3>
+
+
+
+<p>さて、algoliaの検索とはいったい何なのでしょうか？ 英語サイトですが、サービス名称は「<ruby>Algolia Search<rt>あるごりあ　さーち</rt></ruby>」と言うようです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Algolia Search</p><cite><a href="https://www.algolia.com/products/search-and-discovery/hosted-search-api/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.algolia.com/products/search-and-discovery/hosted-search-api/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>FAQのところを見ると、概要が見えてきます。まず、Algoliaは高速で、<ruby>SaaS<rt>さーす</rt></ruby>製品でモバイル向けにも特化してあり、日本語も使えるようです。</p>
+
+
+
+<p>機能は大きくわけて、２つあるようです。１つは、Autocompleteと呼ばれる、検索キーワードを入れると、リアルタイムで検索結果が出る仕組み。もう一つは、検索キーワードの提案（サジェスト）のAutoCompleteで、これは「Query Suggestions」を設定すると可能のようです。</p>
+
+
+
+<p>こういうのは、まず使ってみるのが手っ取り早いです。幸い、WordPressでalgolia検索を使うのは簡単です。まずは、このサイトですでに実装してあるので、それを紹介してみます。</p>
+
+
+
+<h3>このブログでの実装例</h3>
+
+
+
+<p>このブログでは、キーボード操作「/」スラッシュをタイプすると、以下のような検索ウィンドウが出てきます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="795" height="266" src="https://hack.gpl.jp/wp-content/uploads/2022/05/screenshot-1.png" alt="" class="wp-image-11209" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/screenshot-1.png 795w, https://hack.gpl.jp/wp-content/uploads/2022/05/screenshot-1-768x257.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></figure></div>
+
+
+
+<p>検索テキスト入力エリアにフォーカスするには、「.」ドットをタイプするかマウスでフォーカスします。適当な検索ワードをタイプすればその結果を含むページが下に表示されます。これは、検索キーワードのサジェストとは違いますが、検索結果がすぐに出てくるので検索結果に遷移しなくても良くて便利です。検索ワードをタイプしてから、検索結果が出てくるのが異常に速くないでしょうか？</p>
+
+
+
+<h3>WordPressに入れてみる</h3>
+
+
+
+<p>では、このブログと同じことをしてみたい人向けに具体的な手順の紹介です。２つプラグインを入れるのですが、まず、１つ目は以下です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>WP Search with Algolia</p><cite><a href="https://ja.wordpress.org/plugins/wp-search-with-algolia/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.org/plugins/wp-search-with-algolia/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://ja.wordpress.org/plugins/wp-search-with-algolia/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" width="940" height="417" src="https://hack.gpl.jp/wp-content/uploads/2022/05/WP_Search_with_Algolia.png" alt="" class="wp-image-11210" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/WP_Search_with_Algolia.png 940w, https://hack.gpl.jp/wp-content/uploads/2022/05/WP_Search_with_Algolia-768x341.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></a></figure></div>
+
+
+
+<p>次に、algolia のサイトではアカウントを作成し、Applicationを作成し、APIキーを参照します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="628" src="https://hack.gpl.jp/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png" alt="" class="wp-image-11212" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/05/API_Keys-Algolia-768x471.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/05/API_Keys-Algolia-984x604.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/05/API_Keys-Algolia.png 1079w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>で、その各種項目を先ほどのWordPressプラグインに設定します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="779" src="https://hack.gpl.jp/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png" alt="" class="wp-image-11211" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-768x584.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-984x748.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372.png 1069w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>少し説明は端折りますが、「Search Page」では、とりあえず真ん中の「Use Algolia in the backend」を選んでおけば良いでしょう。Autocomplete では、検索させる対象、たとえば「投稿」を選択してインデックスを再作成しておきます。</p>
+
+
+
+<h3>WP標準の検索ウィンドウで確認</h3>
+
+
+
+<p>WP標準の検索ウィンドウで、検索キーワードを入れたら、検索結果が出てくるようになっていれば成功です。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="1005" height="927" src="https://hack.gpl.jp/wp-content/uploads/2022/05/wp-search.png" alt="" class="wp-image-11213" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/wp-search.png 1005w, https://hack.gpl.jp/wp-content/uploads/2022/05/wp-search-768x708.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/05/wp-search-984x908.png 984w" sizes="(max-width: 1005px) 100vw, 1005px" /></figure>
+
+
+
+<p><ruby>アイキャッチ<rt>記事の画像</rt></ruby>があれば、こんな感じで表示されるかなと思います。</p>
+
+
+
+<h3>キーボード操作で検索ウィンドウを出す</h3>
+
+
+
+<p>続いて、キーボード操作で、検索窓がポップアップする部分です。検索結果に遷移しなくて良いので、どのページからも検索ウィンドウが表示されれば便利かなと思いました。</p>
+
+
+
+<p>そのような動作をするプラグインを昔みたことがあったので検索してみました。「wp-keyboard-nav」というのがあったので、それには検索窓がついていないので、少し手直しして、以下のような野良プラグインを作ってみました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Keyboard PopUP algolia search<br>WordPress の野良プラグインです。プラグイン名称は、<code>Keyboard PopUP algolia search</code>&nbsp;です。 キーボード操作でポップアップする検索ウィンドウです。algolia検索と組み合わせて使うために、改造しました。元ソースは、wp-keyboard-nav&nbsp;<a href="https://github.com/tareq1988/wp-keyboard-nav" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>&nbsp;というプラグインです。</p><cite><a href="https://github.com/take-i/wp-keypopup-algolia" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/take-i/wp-keypopup-algolia<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>こちらは何も設定は必要ありません。プラグインを入れれば、すべてのページでキーボード操作で検索ウィンドウが出てくるかと思います。</p>
+
+
+
+<h3>レスポンス時間はどのくらいなのか？</h3>
+
+
+
+<p>検索ウィンドウに１文字づつタイプするごとに、Algolia のAPIにリクエストが飛び、レスポンスされます。何回か試したのですが、ほとんどが100ms 以内に帰ってきています。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="802" height="650" src="https://hack.gpl.jp/wp-content/uploads/2022/05/r-time.png" alt="" class="wp-image-11220" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/r-time.png 802w, https://hack.gpl.jp/wp-content/uploads/2022/05/r-time-768x622.png 768w" sizes="(max-width: 802px) 100vw, 802px" /></figure>
+
+
+
+<p>以下のように、20ms以内くらいで帰ってくるようです。劇速いです！</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="798" height="581" src="https://hack.gpl.jp/wp-content/uploads/2022/05/r-time1.png" alt="" class="wp-image-11221" srcset="https://hack.gpl.jp/wp-content/uploads/2022/05/r-time1.png 798w, https://hack.gpl.jp/wp-content/uploads/2022/05/r-time1-768x559.png 768w" sizes="(max-width: 798px) 100vw, 798px" /></figure>
+
+
+
+<p></p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・Algolia の無料枠は、10,000検索リクエスト/月<br>・検索対象の数制限は、10,000 レコード<br>・無料枠利用にカード登録は必要なし<br>・個人用サイトなら無料枠で足りそうだが、しばらく運用してみる<br>・有料版は、1000リクエスト/月 で1.5ドル<br>・検索クエリーは１文字づつ、APIリクエストが飛んでいる<br>・その、ほとんどが20ms以内にレスポンスされている<br>・検索結果が検索窓に検索キーワードを入れた時点で表示される<br>・↑これがすごく便利で気に入りました<br>・日本語にも対応していている<br>・紹介はしきれなかったが、静的サイトでも少しの手入れで動作する<br>・速いというのは、正義だなと改めて実感<br>・キーボードで出てくる検索ウィンドウは思ったより、便利<br>・algolia にINDEXデータを入れる部分はwordpressで可能<br>・algoliaの管理画面でAnalyticsがあり、検索ワードや表示ページなど統計データが見れる<br></p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>英語サイトの情報なので、まだあまり日本語の情報がないのですが、この手のサイト内検索を商材にするサービスは他にもたくさんあります。商用のサイトなら、たくさんある商品や情報の中から、お客さんが希望するモノにたどり着きやすくするため、サイト内検索は結構重要だと思っています。</p>
+
+
+
+<p> 今回の話は、バックエンドにデータベースがあって、それを直接検索参照させる従来のやり方ではないケースです。このブログのように、静的なページがあってそれを対象に高速で検索させる場合は何が正解なのでしょうか。ある人は、全文検索エンジンを入れたらどう？ とか。検索用のインデッックスを持ったDBを用意すればよいとか。</p>
+
+
+
+<p>このブログの場合は、記事の作成時点ではWordPressで管理していて、書き出すときに静的なHTMLにしています。全ての記事のインデックス（目次情報）は、WordPressで動作している時点でAlgolia に投げられます。静的ページからの検索は、JavaScript経由でAlgoliaに参照され、文字が入るたびにリアルタイムに検索結果が表示される仕組みです。</p>
+
+
+
+<p>データベースは無く、作るつもりもないので静的ページをどうやって手間なく、検索させるか？ の１つの解だとは思います。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="https://hack.gpl.jp/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>溶接DIYが3Dプリンター買った時と同じくらい衝撃的に面白い!</title>
-		<link>/2022/04/17/diy-welding/</link>
+		<link>https://hack.gpl.jp/2022/04/17/diy-welding/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 16 Apr 2022 20:19:43 +0000</pubDate>
 				<category><![CDATA[DIY]]></category>
-		<guid isPermaLink="false">/?p=11125</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/04/DIY-welding.png" />
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=11125</guid>
+				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2022/04/DIY-welding.png" />
 							<description><![CDATA[もうすっかり春になって暖かくなりましたね！　実は、昨年の9月くらいからコツコツと土日や夜などにガレージ を片付けていました。一気にやると嫌になるので、もうスプーンで穴を掘るかの如くコツコツと片付けていました！ 　今回は溶 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>最近、溶接のDIYを始めたよ！</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>ガレージ のDIYも完成したのね？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>寒い間に、がんばってガレージ DIYしてたよ</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>男子はこういうの好きそー</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -78,7 +356,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="461" src="/wp-content/uploads/2022/04/IMG_20220223_214407-1-1024x461.png" alt="" class="wp-image-11127" srcset="/wp-content/uploads/2022/04/IMG_20220223_214407-1-1024x461.png 1024w, /wp-content/uploads/2022/04/IMG_20220223_214407-1-768x346.png 768w, /wp-content/uploads/2022/04/IMG_20220223_214407-1-1536x691.png 1536w, /wp-content/uploads/2022/04/IMG_20220223_214407-1-984x443.png 984w, /wp-content/uploads/2022/04/IMG_20220223_214407-1.png 1866w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="461" src="https://hack.gpl.jp/wp-content/uploads/2022/04/IMG_20220223_214407-1-1024x461.png" alt="" class="wp-image-11127" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/IMG_20220223_214407-1-1024x461.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/IMG_20220223_214407-1-768x346.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/IMG_20220223_214407-1-1536x691.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/IMG_20220223_214407-1-984x443.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/IMG_20220223_214407-1.png 1866w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -86,7 +364,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="721" src="/wp-content/uploads/2022/04/befor-1024x721.png" alt="" class="wp-image-11130" srcset="/wp-content/uploads/2022/04/befor-1024x721.png 1024w, /wp-content/uploads/2022/04/befor-768x540.png 768w, /wp-content/uploads/2022/04/befor-984x692.png 984w, /wp-content/uploads/2022/04/befor.png 1215w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="721" src="https://hack.gpl.jp/wp-content/uploads/2022/04/befor-1024x721.png" alt="" class="wp-image-11130" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/befor-1024x721.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/befor-768x540.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/befor-984x692.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/befor.png 1215w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -102,7 +380,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="729" src="/wp-content/uploads/2022/04/1-1024x729.png" alt="" class="wp-image-11131" srcset="/wp-content/uploads/2022/04/1-1024x729.png 1024w, /wp-content/uploads/2022/04/1-768x547.png 768w, /wp-content/uploads/2022/04/1-984x701.png 984w, /wp-content/uploads/2022/04/1.png 1220w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="729" src="https://hack.gpl.jp/wp-content/uploads/2022/04/1-1024x729.png" alt="" class="wp-image-11131" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/1-1024x729.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/1-768x547.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/1-984x701.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/1.png 1220w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -110,7 +388,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="551" src="/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-1024x551.png" alt="" class="wp-image-11132" srcset="/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-1024x551.png 1024w, /wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-768x413.png 768w, /wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-1536x826.png 1536w, /wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-984x529.png 984w, /wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae.png 1605w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="551" src="https://hack.gpl.jp/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-1024x551.png" alt="" class="wp-image-11132" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-1024x551.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-768x413.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-1536x826.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae-984x529.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/20cfce153c6dcbd30dc35695758066ae.png 1605w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -145,7 +423,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="1013" height="741" src="/wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7.png" alt="" class="wp-image-11133" srcset="/wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7.png 1013w, /wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7-768x562.png 768w, /wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7-984x720.png 984w" sizes="(max-width: 1013px) 100vw, 1013px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" width="1013" height="741" src="https://hack.gpl.jp/wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7.png" alt="" class="wp-image-11133" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7.png 1013w, https://hack.gpl.jp/wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7-768x562.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/041c8e89b678b46731ac2144bc87c2e7-984x720.png 984w" sizes="(max-width: 1013px) 100vw, 1013px" /></figure>
 
 
 
@@ -153,7 +431,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="762" src="/wp-content/uploads/2022/04/4-1024x762.png" alt="" class="wp-image-11134" srcset="/wp-content/uploads/2022/04/4-1024x762.png 1024w, /wp-content/uploads/2022/04/4-768x571.png 768w, /wp-content/uploads/2022/04/4-984x732.png 984w, /wp-content/uploads/2022/04/4.png 1223w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="762" src="https://hack.gpl.jp/wp-content/uploads/2022/04/4-1024x762.png" alt="" class="wp-image-11134" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/4-1024x762.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/4-768x571.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/4-984x732.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/4.png 1223w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -169,7 +447,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="508" src="/wp-content/uploads/2022/04/5-1-1024x508.png" alt="" class="wp-image-11136" srcset="/wp-content/uploads/2022/04/5-1-1024x508.png 1024w, /wp-content/uploads/2022/04/5-1-768x381.png 768w, /wp-content/uploads/2022/04/5-1-1536x762.png 1536w, /wp-content/uploads/2022/04/5-1-984x488.png 984w, /wp-content/uploads/2022/04/5-1.png 1675w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="508" src="https://hack.gpl.jp/wp-content/uploads/2022/04/5-1-1024x508.png" alt="" class="wp-image-11136" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/5-1-1024x508.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-1-768x381.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-1-1536x762.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-1-984x488.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-1.png 1675w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -177,7 +455,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="473" src="/wp-content/uploads/2022/04/5-1024x473.png" alt="" class="wp-image-11135" srcset="/wp-content/uploads/2022/04/5-1024x473.png 1024w, /wp-content/uploads/2022/04/5-768x355.png 768w, /wp-content/uploads/2022/04/5-1536x710.png 1536w, /wp-content/uploads/2022/04/5-984x455.png 984w, /wp-content/uploads/2022/04/5.png 1827w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="473" src="https://hack.gpl.jp/wp-content/uploads/2022/04/5-1024x473.png" alt="" class="wp-image-11135" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/5-1024x473.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-768x355.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-1536x710.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/5-984x455.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/5.png 1827w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -185,7 +463,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="520" src="/wp-content/uploads/2022/04/6-1024x520.png" alt="" class="wp-image-11137" srcset="/wp-content/uploads/2022/04/6-1024x520.png 1024w, /wp-content/uploads/2022/04/6-768x390.png 768w, /wp-content/uploads/2022/04/6-1536x780.png 1536w, /wp-content/uploads/2022/04/6-984x500.png 984w, /wp-content/uploads/2022/04/6.png 1663w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="520" src="https://hack.gpl.jp/wp-content/uploads/2022/04/6-1024x520.png" alt="" class="wp-image-11137" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/6-1024x520.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/6-768x390.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/6-1536x780.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/6-984x500.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/6.png 1663w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -197,7 +475,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="454" src="/wp-content/uploads/2022/04/7-1024x454.png" alt="" class="wp-image-11138" srcset="/wp-content/uploads/2022/04/7-1024x454.png 1024w, /wp-content/uploads/2022/04/7-768x341.png 768w, /wp-content/uploads/2022/04/7-1536x682.png 1536w, /wp-content/uploads/2022/04/7-984x437.png 984w, /wp-content/uploads/2022/04/7.png 1859w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="454" src="https://hack.gpl.jp/wp-content/uploads/2022/04/7-1024x454.png" alt="" class="wp-image-11138" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/7-1024x454.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/7-768x341.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/7-1536x682.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/7-984x437.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/7.png 1859w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -205,7 +483,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="482" src="/wp-content/uploads/2022/04/8-1024x482.png" alt="" class="wp-image-11139" srcset="/wp-content/uploads/2022/04/8-1024x482.png 1024w, /wp-content/uploads/2022/04/8-768x362.png 768w, /wp-content/uploads/2022/04/8-1536x724.png 1536w, /wp-content/uploads/2022/04/8-984x464.png 984w, /wp-content/uploads/2022/04/8.png 1768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="482" src="https://hack.gpl.jp/wp-content/uploads/2022/04/8-1024x482.png" alt="" class="wp-image-11139" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/8-1024x482.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/8-768x362.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/8-1536x724.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/8-984x464.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/8.png 1768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -221,7 +499,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="611" src="/wp-content/uploads/2022/04/9-1024x611.png" alt="" class="wp-image-11140" srcset="/wp-content/uploads/2022/04/9-1024x611.png 1024w, /wp-content/uploads/2022/04/9-768x458.png 768w, /wp-content/uploads/2022/04/9-984x587.png 984w, /wp-content/uploads/2022/04/9.png 1274w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="611" src="https://hack.gpl.jp/wp-content/uploads/2022/04/9-1024x611.png" alt="" class="wp-image-11140" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/9-1024x611.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/9-768x458.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/9-984x587.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/9.png 1274w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -229,7 +507,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="503" src="/wp-content/uploads/2022/04/10-1024x503.png" alt="" class="wp-image-11141" srcset="/wp-content/uploads/2022/04/10-1024x503.png 1024w, /wp-content/uploads/2022/04/10-768x378.png 768w, /wp-content/uploads/2022/04/10-1536x755.png 1536w, /wp-content/uploads/2022/04/10-984x484.png 984w, /wp-content/uploads/2022/04/10.png 1672w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="503" src="https://hack.gpl.jp/wp-content/uploads/2022/04/10-1024x503.png" alt="" class="wp-image-11141" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/10-1024x503.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/10-768x378.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/10-1536x755.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/10-984x484.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/10.png 1672w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -241,7 +519,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="528" src="/wp-content/uploads/2022/04/sp-mount-1024x528.png" alt="" class="wp-image-11128" srcset="/wp-content/uploads/2022/04/sp-mount-1024x528.png 1024w, /wp-content/uploads/2022/04/sp-mount-768x396.png 768w, /wp-content/uploads/2022/04/sp-mount-1536x792.png 1536w, /wp-content/uploads/2022/04/sp-mount-984x507.png 984w, /wp-content/uploads/2022/04/sp-mount.png 1622w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="528" src="https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount-1024x528.png" alt="" class="wp-image-11128" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount-1024x528.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount-768x396.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount-1536x792.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount-984x507.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount.png 1622w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -249,7 +527,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="508" src="/wp-content/uploads/2022/04/sp-mount2-1024x508.png" alt="" class="wp-image-11129" srcset="/wp-content/uploads/2022/04/sp-mount2-1024x508.png 1024w, /wp-content/uploads/2022/04/sp-mount2-768x381.png 768w, /wp-content/uploads/2022/04/sp-mount2-1536x762.png 1536w, /wp-content/uploads/2022/04/sp-mount2-984x488.png 984w, /wp-content/uploads/2022/04/sp-mount2.png 1690w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="508" src="https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount2-1024x508.png" alt="" class="wp-image-11129" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount2-1024x508.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount2-768x381.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount2-1536x762.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount2-984x488.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/sp-mount2.png 1690w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -261,7 +539,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="721" src="/wp-content/uploads/2022/04/11-1024x721.png" alt="" class="wp-image-11145" srcset="/wp-content/uploads/2022/04/11-1024x721.png 1024w, /wp-content/uploads/2022/04/11-768x541.png 768w, /wp-content/uploads/2022/04/11-984x693.png 984w, /wp-content/uploads/2022/04/11.png 1190w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="721" src="https://hack.gpl.jp/wp-content/uploads/2022/04/11-1024x721.png" alt="" class="wp-image-11145" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/11-1024x721.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/11-768x541.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/11-984x693.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/11.png 1190w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -273,7 +551,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="484" src="/wp-content/uploads/2022/04/12-1024x484.png" alt="" class="wp-image-11146" srcset="/wp-content/uploads/2022/04/12-1024x484.png 1024w, /wp-content/uploads/2022/04/12-768x363.png 768w, /wp-content/uploads/2022/04/12-1536x726.png 1536w, /wp-content/uploads/2022/04/12-984x465.png 984w, /wp-content/uploads/2022/04/12.png 1734w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="484" src="https://hack.gpl.jp/wp-content/uploads/2022/04/12-1024x484.png" alt="" class="wp-image-11146" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/12-1024x484.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/12-768x363.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/12-1536x726.png 1536w, https://hack.gpl.jp/wp-content/uploads/2022/04/12-984x465.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/12.png 1734w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -285,7 +563,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="721" src="/wp-content/uploads/2022/04/13-1024x721.png" alt="" class="wp-image-11147" srcset="/wp-content/uploads/2022/04/13-1024x721.png 1024w, /wp-content/uploads/2022/04/13-768x541.png 768w, /wp-content/uploads/2022/04/13-984x693.png 984w, /wp-content/uploads/2022/04/13.png 1292w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="721" src="https://hack.gpl.jp/wp-content/uploads/2022/04/13-1024x721.png" alt="" class="wp-image-11147" srcset="https://hack.gpl.jp/wp-content/uploads/2022/04/13-1024x721.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/04/13-768x541.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/04/13-984x693.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/04/13.png 1292w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -324,7 +602,7 @@
 <p></p>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="https://hack.gpl.jp/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -332,43 +610,43 @@
 			</item>
 		<item>
 		<title>無料（フリー）のパーティションソフトが結構使える！</title>
-		<link>/2022/01/20/minitool-partition-wizard/</link>
+		<link>https://hack.gpl.jp/2022/01/20/minitool-partition-wizard/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 19 Jan 2022 23:15:00 +0000</pubDate>
 				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=11043</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/01/minitool-pw.png" />
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=11043</guid>
+				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw.png" />
 							<description><![CDATA[今日のお話は、WindowsOSの引越しと、引越しに使うツールのお話です。パーティションを複数区切って、いろいろなOS環境を作りたいので、GUIで便利に使えるパーティション操作ツールも探してみました。無料ソフトウェアで、 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>久しぶりにWinを触ったよ</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>何かのメンテ？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>ちょっと古いPCのDisk関連をね。</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>Disk操作は苦手です。GUIで良いのないかしらね</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -437,7 +715,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="496" height="383" src="/wp-content/uploads/2022/01/minitool1.png" alt="" class="wp-image-11044"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="496" height="383" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool1.png" alt="" class="wp-image-11044"/></figure></div>
 
 
 
@@ -453,7 +731,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="594" src="/wp-content/uploads/2022/01/minitoolpw2-1024x594.png" alt="" class="wp-image-11045" srcset="/wp-content/uploads/2022/01/minitoolpw2-1024x594.png 1024w, /wp-content/uploads/2022/01/minitoolpw2-768x445.png 768w, /wp-content/uploads/2022/01/minitoolpw2-984x570.png 984w, /wp-content/uploads/2022/01/minitoolpw2.png 1230w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="594" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw2-1024x594.png" alt="" class="wp-image-11045" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw2-1024x594.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw2-768x445.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw2-984x570.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw2.png 1230w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -469,7 +747,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="736" height="597" src="/wp-content/uploads/2022/01/minitoolpw3.png" alt="" class="wp-image-11046"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="736" height="597" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw3.png" alt="" class="wp-image-11046"/></figure></div>
 
 
 
@@ -485,7 +763,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="738" height="596" src="/wp-content/uploads/2022/01/minitoolpw3-1.png" alt="" class="wp-image-11050"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="738" height="596" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolpw3-1.png" alt="" class="wp-image-11050"/></figure></div>
 
 
 
@@ -493,7 +771,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="736" height="615" src="/wp-content/uploads/2022/01/pw4.png" alt="" class="wp-image-11051"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="736" height="615" src="https://hack.gpl.jp/wp-content/uploads/2022/01/pw4.png" alt="" class="wp-image-11051"/></figure></div>
 
 
 
@@ -501,7 +779,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="738" height="617" src="/wp-content/uploads/2022/01/pw5.png" alt="" class="wp-image-11052"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="738" height="617" src="https://hack.gpl.jp/wp-content/uploads/2022/01/pw5.png" alt="" class="wp-image-11052"/></figure></div>
 
 
 
@@ -537,7 +815,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="1010" height="729" src="/wp-content/uploads/2022/01/pw6.png" alt="" class="wp-image-11053" srcset="/wp-content/uploads/2022/01/pw6.png 1010w, /wp-content/uploads/2022/01/pw6-768x554.png 768w, /wp-content/uploads/2022/01/pw6-984x710.png 984w" sizes="(max-width: 1010px) 100vw, 1010px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="1010" height="729" src="https://hack.gpl.jp/wp-content/uploads/2022/01/pw6.png" alt="" class="wp-image-11053" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/pw6.png 1010w, https://hack.gpl.jp/wp-content/uploads/2022/01/pw6-768x554.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/pw6-984x710.png 984w" sizes="(max-width: 1010px) 100vw, 1010px" /></figure></div>
 
 
 
@@ -561,7 +839,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="332" src="/wp-content/uploads/2022/01/minitool-pw-list-1024x332.png" alt="" class="wp-image-11063" srcset="/wp-content/uploads/2022/01/minitool-pw-list-1024x332.png 1024w, /wp-content/uploads/2022/01/minitool-pw-list-768x249.png 768w, /wp-content/uploads/2022/01/minitool-pw-list-984x319.png 984w, /wp-content/uploads/2022/01/minitool-pw-list.png 1187w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="332" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw-list-1024x332.png" alt="" class="wp-image-11063" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw-list-1024x332.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw-list-768x249.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw-list-984x319.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw-list.png 1187w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -581,7 +859,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="593" src="/wp-content/uploads/2022/01/minitool-pw7-1024x593.png" alt="" class="wp-image-11076" srcset="/wp-content/uploads/2022/01/minitool-pw7-1024x593.png 1024w, /wp-content/uploads/2022/01/minitool-pw7-768x445.png 768w, /wp-content/uploads/2022/01/minitool-pw7-984x570.png 984w, /wp-content/uploads/2022/01/minitool-pw7.png 1232w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>　作業用のWin10を割り当てた状態</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="593" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw7-1024x593.png" alt="" class="wp-image-11076" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw7-1024x593.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw7-768x445.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw7-984x570.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw7.png 1232w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>　作業用のWin10を割り当てた状態</figcaption></figure></div>
 
 
 
@@ -589,7 +867,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="507" height="454" src="/wp-content/uploads/2022/01/minitool-pw6.png" alt="" class="wp-image-11073"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="507" height="454" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw6.png" alt="" class="wp-image-11073"/></figure></div>
 
 
 
@@ -597,7 +875,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="595" src="/wp-content/uploads/2022/01/minitoo-pw8-1024x595.png" alt="" class="wp-image-11081" srcset="/wp-content/uploads/2022/01/minitoo-pw8-1024x595.png 1024w, /wp-content/uploads/2022/01/minitoo-pw8-768x446.png 768w, /wp-content/uploads/2022/01/minitoo-pw8-984x572.png 984w, /wp-content/uploads/2022/01/minitoo-pw8.png 1234w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="595" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoo-pw8-1024x595.png" alt="" class="wp-image-11081" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoo-pw8-1024x595.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoo-pw8-768x446.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoo-pw8-984x572.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoo-pw8.png 1234w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -629,7 +907,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="666" src="/wp-content/uploads/2022/01/minitoolsm1-1024x666.png" alt="" class="wp-image-11091" srcset="/wp-content/uploads/2022/01/minitoolsm1-1024x666.png 1024w, /wp-content/uploads/2022/01/minitoolsm1-768x500.png 768w, /wp-content/uploads/2022/01/minitoolsm1-984x640.png 984w, /wp-content/uploads/2022/01/minitoolsm1.png 1096w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="666" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolsm1-1024x666.png" alt="" class="wp-image-11091" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolsm1-1024x666.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolsm1-768x500.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolsm1-984x640.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitoolsm1.png 1096w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -637,7 +915,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="596" src="/wp-content/uploads/2022/01/minitool-pw8-1024x596.png" alt="" class="wp-image-11092" srcset="/wp-content/uploads/2022/01/minitool-pw8-1024x596.png 1024w, /wp-content/uploads/2022/01/minitool-pw8-768x447.png 768w, /wp-content/uploads/2022/01/minitool-pw8-984x573.png 984w, /wp-content/uploads/2022/01/minitool-pw8.png 1231w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="596" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw8-1024x596.png" alt="" class="wp-image-11092" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw8-1024x596.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw8-768x447.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw8-984x573.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw8.png 1231w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -645,7 +923,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="594" src="/wp-content/uploads/2022/01/minitool-pw9-1024x594.png" alt="" class="wp-image-11093" srcset="/wp-content/uploads/2022/01/minitool-pw9-1024x594.png 1024w, /wp-content/uploads/2022/01/minitool-pw9-768x445.png 768w, /wp-content/uploads/2022/01/minitool-pw9-984x571.png 984w, /wp-content/uploads/2022/01/minitool-pw9.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="594" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw9-1024x594.png" alt="" class="wp-image-11093" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw9-1024x594.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw9-768x445.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw9-984x571.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw9.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -653,7 +931,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="596" src="/wp-content/uploads/2022/01/minitool-pw10-1024x596.png" alt="" class="wp-image-11094" srcset="/wp-content/uploads/2022/01/minitool-pw10-1024x596.png 1024w, /wp-content/uploads/2022/01/minitool-pw10-768x447.png 768w, /wp-content/uploads/2022/01/minitool-pw10-984x573.png 984w, /wp-content/uploads/2022/01/minitool-pw10.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="596" src="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw10-1024x596.png" alt="" class="wp-image-11094" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw10-1024x596.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw10-768x447.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw10-984x573.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/minitool-pw10.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -661,7 +939,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="960" height="445" src="/wp-content/uploads/2022/01/win10-1.png" alt="" class="wp-image-11098" srcset="/wp-content/uploads/2022/01/win10-1.png 960w, /wp-content/uploads/2022/01/win10-1-768x356.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="960" height="445" src="https://hack.gpl.jp/wp-content/uploads/2022/01/win10-1.png" alt="" class="wp-image-11098" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/win10-1.png 960w, https://hack.gpl.jp/wp-content/uploads/2022/01/win10-1-768x356.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
 
 
 
@@ -704,7 +982,7 @@
 <p></p>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="https://hack.gpl.jp/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -712,44 +990,44 @@
 			</item>
 		<item>
 		<title>WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</title>
-		<link>/2022/01/10/wordpress-to-githubpages/</link>
+		<link>https://hack.gpl.jp/2022/01/10/wordpress-to-githubpages/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 15 Jan 2022 17:09:59 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">/?p=11019</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/01/hello-github-pages.gif" />
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=11019</guid>
+				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2022/01/hello-github-pages.gif" />
 							<description><![CDATA[長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。 　今日のお話は、WordPressから静的なHTMLファイル [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>スマホサイトでWordPressも納得したしなー！</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>あ〜、例の記事をネタにするんですね！</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>やっぱり運用が楽なのがいいしね！</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>率直な感想なんかを聞いてみたいわ。</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -802,7 +1080,7 @@
 
 
 
-<h4>　メインサイト：/</h4>
+<h4>　メインサイト：https://hack.gpl.jp/</h4>
 
 
 
@@ -814,7 +1092,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="650" src="https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -822,7 +1100,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="582" src="https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -834,7 +1112,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" width="904" height="546" src="https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_2.png 904w, https://hack.gpl.jp/wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
 
 
 
@@ -937,7 +1215,7 @@
 <p></p>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="https://hack.gpl.jp/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -945,7 +1223,7 @@
 			</item>
 		<item>
 		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
-		<link>/2022/01/02/keycdn/</link>
+		<link>https://hack.gpl.jp/2022/01/02/keycdn/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 02 Jan 2022 00:01:22 +0000</pubDate>
@@ -954,38 +1232,38 @@
 		<category><![CDATA[Linux]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">/?p=10979</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/01/KeyCDN.png" />
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=10979</guid>
+				<media:thumbnail url="https://hack.gpl.jp/wp-content/uploads/2022/01/KeyCDN.png" />
 							<description><![CDATA[KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。 今回は前から気になっていたKeyC [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>CDNってのを半年、使ってみましたよ</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>クラウドからコンテンツを配信するってヤツですね。</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>どんな効果があって、月維持費はどのくらいかレポートしてみます。</p>
 </div></div></div></div></div></div></div></div>
 
 
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>私は、月500円くらいまでなら出せるかなー</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img src="https://hack.gpl.jp/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -994,7 +1272,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" width="1024" height="548" src="https://hack.gpl.jp/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -1030,7 +1308,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="649" src="https://hack.gpl.jp/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/Overview-768x487.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/Overview-984x624.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1050,7 +1328,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="668" src="https://hack.gpl.jp/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1066,7 +1344,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="468" src="https://hack.gpl.jp/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/Usage-768x351.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/Usage-984x449.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -1086,7 +1364,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="563" src="https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_b-768x423.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_b-984x541.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1094,7 +1372,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="555" src="https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_a-768x416.png 768w, https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_a-984x533.png 984w, https://hack.gpl.jp/wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1141,153 +1419,7 @@
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>2021/04〜12 site24x7 でのSLA状況・統計データ</title>
-		<link>/2022/01/01/20210412-site24x7_sla/</link>
-		
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Sat, 01 Jan 2022 11:11:26 +0000</pubDate>
-				<category><![CDATA[Android]]></category>
-		<category><![CDATA[Linux]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">/?p=10969</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/01/SLA2021.png" />
-							<description><![CDATA[この半年、仕事が急がしてく記事を更新する気力もなくグタグタと過ごしてきました。やっとまとまった休みも取れた（正月休み）ので記事を更新しておきます。 　site24x7 で監視していますが、最近は安定してきました。SLA統 [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>この半年以上、スマホサーバは安定稼働してるよ！</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>一時期、落ちるって言ってたけど原因わかったの？</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>あー、あれはルータのマルチセッションの設定が原因だった</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>だから、Bad Gatewayだったのね。</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<p>この半年、仕事が急がしてく記事を更新する気力もなくグタグタと過ごしてきました。やっとまとまった休みも取れた（正月休み）ので記事を更新しておきます。</p>
-
-
-
-<p>　site24x7 で監視していますが、最近は安定してきました。SLA統計データを出しておきます。</p>
-
-
-
-<h3>何を目指しているの？</h3>
-
-
-
-<blockquote class="wp-block-quote"><p><em>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</em></p><cite><a rel="noreferrer noopener" href="/2020/09/11/wildcard-domain-acme/" target="_blank" data-wpel-link="internal">LINK</a></cite></blockquote>
-
-
-
-<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指しています。99.95%とは１ヶ月にダウンタイムが21.6分以内であればOKということですが、最近はほぼ100%を維持しています。一時期、NGINXがBadGatewayになる現象が発生していましたが、これはやっと原因がわかりルータのマルチセッションの設定がよくなかったようです。詳細は省きますが、ドメインによってプロバイダAとBを分けていました。今は、マルチセッションはやめて１つのプロバイダから出ています。</p>
-
-
-
-<h3>２０２１・最終四半期のSLA</h3>
-
-
-
-<p>10月から12月の結果です。障害時間の合計は37 分 17 秒で、SLAは99.972%となり目標の99.95% 以上になっています。ちょこちょこダウンしているのは、大量のダウンロードなどで帯域を潰してレスポンスが一時的になくなる時間などで特にサーバがダウンしているわけではないです。外部から監視しているとそういう瞬断が３ヶ月で37分くらいあったということです。</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="573" src="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png" alt="" class="wp-image-10970" srcset="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png 1024w, /wp-content/uploads/2022/01/sla2021_10_12-768x430.png 768w, /wp-content/uploads/2022/01/sla2021_10_12-984x551.png 984w, /wp-content/uploads/2022/01/sla2021_10_12.png 1229w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>PHPは、前回の記事でも紹介していますが、PHP7系のちょっと新しいのをビルドして入れています。</p>
-
-
-
-<h3>どのくらいのアクセス数なの？</h3>
-
-
-
-<p>ページを表示している回数（PV）は、こんな感じで月におおよそ2500〜5000という感じです。最近は全然記事を更新していなかったので、2000くらいまで下がっています。</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" width="861" height="303" src="/wp-content/uploads/2022/01/pv.png" alt="" class="wp-image-10974" srcset="/wp-content/uploads/2022/01/pv.png 861w, /wp-content/uploads/2022/01/pv-768x270.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
-
-
-
-<p>検索数で見ると以下のような感じのサイトです。</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="391" src="/wp-content/uploads/2022/01/sp-1024x391.png" alt="" class="wp-image-10975" srcset="/wp-content/uploads/2022/01/sp-1024x391.png 1024w, /wp-content/uploads/2022/01/sp-768x293.png 768w, /wp-content/uploads/2022/01/sp-984x376.png 984w, /wp-content/uploads/2022/01/sp.png 1126w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>最近は、MQA関連の音楽ネタと、pixel3のroot化記事関連がほとんどです。</p>
-
-
-
-<h3>まとめ</h3>
-
-
-
-<p>今回、なんとなくわかったのは以下となります。</p>
-
-
-
-<p>・このくらいのアクセス数のサイトをスマホで安定稼働させることは十分可能</p>
-
-
-
-<p>・消費電力などを考慮しても、レンタルサーバより安価で運用を趣味にしている人には良いかも</p>
-
-
-
-<p>・しかし、WordPressの運用はクソめんどくさい。正直、もうGithub Pageとか、NETLIFYに静的ページを吐き出す運用にしようかと思ってる。</p>
-
-
-
-<h3>あとがき</h3>
-
-
-
-<p>放置ぎみになっている個人のブログっていうのは月にこのくらいのアクセス数で、当初のスマホで安定稼働させるっていう目的も達成したので、そろそろ違う運用も視野に入れています。WordPressとは関わっていきますが、静的ページを吐き出す運用のほうが楽でいいなーと思います。このSLA報告もこれが最後になるかもです。</p>
-
-
-
-<h3>著者にメッセージ</h3>
-
-
-
- 
-
-
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="https://hack.gpl.jp/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		

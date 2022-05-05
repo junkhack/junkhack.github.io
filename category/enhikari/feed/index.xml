@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
 	<item>
 		<title>CDNを使わずWEBアクセスのロードタイムが１秒を切った！</title>
 		<link>/2020/03/16/webloadtime0-981s/</link>

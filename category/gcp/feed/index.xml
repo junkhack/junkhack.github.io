@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
 	<item>
 		<title>GCPのunixbench n1-standard-2（vCPU x 2、メモリ 7.5 GB）</title>
 		<link>/2020/03/13/gcp-unixbench-n1standard2/</link>
