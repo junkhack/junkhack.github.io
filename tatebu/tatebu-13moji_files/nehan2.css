@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'YasashisaGothic';
+    src: url('font/07YasashisaGothic.eot');/* IE */
+}
+@font-face {
+    font-family: 'YasashisaGothic';
+    src: url('font/07YasashisaGothic.ttf') format('truetype'); /* Safari、Chrome、Firefox、Opera */
+    font-family: 'BIZUDMincho';
+    src: url('font/BIZUDMincho-Regular.ttf') format('truetype'); /* Safari、Chrome、Firefox、Opera */
+		
+}
+.nehan-page{
+	/* font-family:'教科書ICA R', monospace; */
+	font-family:'BIZUDMincho', monospace;
+	padding-bottom: 15px;
+	margin-left: 15px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.nehan-vertical-text-line{
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.nehan-vertical-extra-line{
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
