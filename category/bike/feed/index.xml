@@ -12,7 +12,7 @@
 	<title>bike &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Thu, 05 May 2022 20:36:03 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 May 2022 07:18:31 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -106,21 +106,22 @@
 		<category><![CDATA[Blog]]></category>
 		<category><![CDATA[DIY]]></category>
 		<guid isPermaLink="false">/?p=5573</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/moriwaki-diy.png" />
 							<description><![CDATA[グラスウールを詰めて近接排気音を調整していましたが、巻いた半分くらいでちょうどいい感じかなということで、巻き直すことにしました。 テスト後のグラスウールはこんな感じ。もう少し金網みたいなもので覆ってあげないとグラスウール [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>グラスウールを詰めて近接排気音を調整していましたが、巻いた半分くらいでちょうどいい感じかなということで、巻き直すことにしました。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5575" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-14.png" alt="空白_Skitch_キャンバス" width="1157" height="411" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5575" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-14.png" alt="空白_Skitch_キャンバス" width="1157" height="411"></p>
 <p>テスト後のグラスウールはこんな感じ。もう少し金網みたいなもので覆ってあげないとグラスウールが飛び出て来そうです。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5577" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-15.png" alt="空白_Skitch_キャンバス" width="1159" height="414" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5577" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-15.png" alt="空白_Skitch_キャンバス" width="1159" height="414"></p>
 <p>パンチングメタルを使おうと思っていましたがどうせ見えないし、もっと低価格のものでいいやということで、ダイソーのステンレスザルを使うことに。解体します。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5579" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-16.png" alt="空白_Skitch_キャンバス" width="926" height="584" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5579" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-16.png" alt="空白_Skitch_キャンバス" width="926" height="584"></p>
 <p>ステンレスってのは、硬いですね。網はちょうどいい大きさですね。<br />
 次は、グラスウールを切り出します。前回はこの幅・長さを全部巻きましたが今回は半分にします。このグラスウールは、旭ファイバーグラスの断熱材「<a href="https://www.afgc.co.jp/aclear/aclear_feature.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">アクリア<span class="wpel-icon wpel-image wpel-icon-1"></span></a>」です。ホームセンターで１巻で小売していたやつです。ぜんぜん、まだ余っているのでコンプレッサーの防音ケースでも作るときに使ってみたいです。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5580" style="color:var(--color-text);" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-17.png" alt="空白_Skitch_キャンバス" width="929" height="327" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5580" style="color:var(--color-text);" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-17.png" alt="空白_Skitch_キャンバス" width="929" height="327"></p>
 <p>グラスウール表皮（防湿フィルム）を剥いで半分にカット。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5582" src="/wp-content/uploads/2020/07/img_20200730_133807_9.jpg" alt="IMG_20200730_133807_9" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5582" src="/wp-content/uploads/2020/07/img_20200730_133807_9.jpg" alt="IMG_20200730_133807_9" width="3968" height="2976"></p>
 <p>前回は、普通の針金でしたが今回はステンレス針金で巻きます。前回よりも少しマシになりました。</p>
 <p>近接排気音は、ちょうどいい感じです。4000rpmのときも80db以下で、アイドリング時も前回よりは気持ち大きくなりましたが、心地よいサウンドです。速く試走してみたいですね。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5584" src="/wp-content/uploads/2020/07/screenshot_20200730-233548.png" alt="Screenshot_20200730-233548" width="1080" height="2340" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5584" src="/wp-content/uploads/2020/07/screenshot_20200730-233548.png" alt="Screenshot_20200730-233548" width="1080" height="2340"></p>
 <p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br />
 ・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br />
 </del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br />
@@ -159,27 +160,28 @@
 		<category><![CDATA[Blog]]></category>
 		<category><![CDATA[DIY]]></category>
 		<guid isPermaLink="false">/?p=5556</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/moriwaki-diy.png" />
 							<description><![CDATA[さて、前回アルミのネジ穴がガバガバだったのでパンク修理キットに入ってりブリキ板で対処していたときに、見事にネジ切れたボルトの対処です。 残ったボルトの長さは約6mmでネジ長15mm なので抜くボルトの長さは9mmとなりま [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>さて、前回アルミのネジ穴がガバガバだったのでパンク修理キットに入ってりブリキ板で対処していたときに、見事にネジ切れたボルトの対処です。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5558" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-8.png" alt="空白_Skitch_キャンバス" width="1157" height="413" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5558" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-8.png" alt="空白_Skitch_キャンバス" width="1157" height="413"></p>
 <p>残ったボルトの長さは約6mmでネジ長15mm なので抜くボルトの長さは9mmとなります。これを撤去します。<br />
 このねじ切れ方だと、通常は穴を掘ってエキストラクターで抜きます。しかし、今回抜く方向にかなりトルクがかかってネジ切れていて、そうそう簡単には取れないのではと予想。一応作戦としては、</p>
 <p>⑴ 残ったボルトに穴を掘り、エキストラクターでとる<br />
 ⑵ だめなら、もっと穴を大きくしてM6タップで削り取る。</p>
 <p>⑵の場合は、かなり正確にセンターに穴を開ける必要があります。ずれれば、修正するのがめんどくさいです。さて、作業していきましょう。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5560" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-9.png" alt="空白_Skitch_キャンバス" width="1158" height="412" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5560" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-9.png" alt="空白_Skitch_キャンバス" width="1158" height="412"></p>
 <p>まず、センターにポンチを慎重に打ってボルトど真ん中に小さな穴を掘ります。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5562" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-10.png" alt="空白_Skitch_キャンバス" width="1158" height="413" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5562" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-10.png" alt="空白_Skitch_キャンバス" width="1158" height="413"></p>
 <p>慎重にやっても穴が大きくなるとずれが目立って来ます。このくらいの穴になればエキストラクターが入るのでねじ込みます。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5563" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-11.png" alt="空白_Skitch_キャンバス" width="1160" height="412" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5563" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-11.png" alt="空白_Skitch_キャンバス" width="1160" height="412"></p>
 <p>ボール盤にエキストラクターをつけて、手回し＆下押し付け（ハンドル回し）でがっつり食い込ませます。CRCなど油をつけて逆ネジ方向へまわします。しかし、今回はかなり協力に密着しているようです。抜ける気配がしません。エキストラクターが中で折れるとさらにめんどくさいことになりますので、この作戦１はそうそうに諦めて作戦２を実行します。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5565" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-12.png" alt="空白_Skitch_キャンバス" width="1158" height="411" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5565" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-12.png" alt="空白_Skitch_キャンバス" width="1158" height="411"></p>
 <p>エキストラクターは抜いて、さらにドリルで慎重に残ったボルトを削り取ります。いい感じの穴径になれば、ねじ切りタップでさらっていきます。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5566" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-13.png" alt="空白_Skitch_キャンバス" width="1158" height="412" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5566" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-13.png" alt="空白_Skitch_キャンバス" width="1158" height="412"></p>
 <p>先っちょになんか付いていますね！</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5567" src="/wp-content/uploads/2020/07/img_20200729_154134_2.jpg" alt="IMG_20200729_154134_2" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5567" src="/wp-content/uploads/2020/07/img_20200729_154134_2.jpg" alt="IMG_20200729_154134_2" width="3968" height="2976"></p>
 <p>はい！　前回付けた、ブリキの残骸が出て来ました。あとは、前回同様の作業を行えばOKです。今回のボルト抜きでかなりガバガバになったM6雌ネジですが、同様の作戦（パンク修理キットの金属板埋め込み）でうまく行きました。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5568" src="/wp-content/uploads/2020/07/img_20200729_163711_9.jpg" alt="IMG_20200729_163711_9" width="3968" height="2976" /></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5568" src="/wp-content/uploads/2020/07/img_20200729_163711_9.jpg" alt="IMG_20200729_163711_9" width="3968" height="2976"></p>
 <p>あと、今回はステンレスボルトを使っておきました。ふうー、お疲れ様です。いずれ、ちゃんと処理するためにアリエクでステンレスのインサートナットを買っておきました。</p>
 <p>&nbsp;</p>
 <p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br />
@@ -219,6 +221,7 @@
 		<category><![CDATA[Blog]]></category>
 		<category><![CDATA[DIY]]></category>
 		<guid isPermaLink="false">/?p=5527</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/moriwaki-diy.png" />
 							<description><![CDATA[さて、前回までにアルミ製の軽量サイレンサーを取り付けました。 スカイウェイブ400 CK43Aにアリエクでゲットした軽量マフラーを取り付けその３ この３つのネジ穴が問題なんです。前回、この入り口を締めたとき３本のM6ネジ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>さて、前回までにアルミ製の軽量サイレンサーを取り付けました。</p>
 <blockquote><p><a href="/2020/07/28/%e3%82%b9%e3%82%ab%e3%82%a4%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%96400-ck43a%e3%81%ab%e3%82%a2%e3%83%aa%e3%82%a8%e3%82%af%e3%81%a7%e3%82%b2%e3%83%83%e3%83%88%e3%81%97%e3%81%9f%e8%bb%bd%e9%87%8f%e3%83%9e-3/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aにアリエクでゲットした軽量マフラーを取り付けその３</a></p></blockquote>

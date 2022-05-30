@@ -19,9 +19,9 @@
 <link rel="stylesheet" id="mouse-css" href="/wp-content/plugins/wp-keypopup-algolia/mouse.css?ver=5.9.3" type="text/css" media="all">
 <link rel="stylesheet" id="wpfront-scroll-top-css" href="/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.7.08086" type="text/css" media="all">
 <link rel="stylesheet" id="related-frontend-css-css" href="/wp-content/plugins/ccrw_related/css/frontend-style.css?ver=0.1.0" type="text/css" media="all">
-<link rel="stylesheet" id="hew-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin" type="text/css" media="all">
-<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/hew-wpcom/genericons/genericons.css?ver=3.4.1" type="text/css" media="all">
-<link rel="stylesheet" id="hew-style-css" href="/wp-content/themes/hew-wpcom/style.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="JankHack-Hew-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/jh-hew/genericons/genericons.css?ver=3.4.1" type="text/css" media="all">
+<link rel="stylesheet" id="JankHack-Hew-style-css" href="/wp-content/themes/jh-hew/style.css?ver=5.9.3" type="text/css" media="all">
 <link rel="stylesheet" id="algolia-autocomplete-css" href="/wp-content/plugins/wp-search-with-algolia/css/algolia-autocomplete.css?ver=2.1.0" type="text/css" media="all"> <script type="text/javascript" src="/wp-content/plugins/jquery-manager/assets/js/jquery-3.5.1.min.js" id="jquery-core-js"></script> <script type="text/javascript" src="/wp-content/plugins/jquery-manager/assets/js/jquery-migrate-3.3.0.min.js" id="jquery-migrate-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mousetrap.min.js?ver=5.9.3" id="mice-js"></script> <script type="text/javascript" id="mouse-js-extra">var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};</script> <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=5.9.3" id="mouse-js"></script>  <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-199105184-1" id="google_gtagjs-js" async></script> <script type="text/javascript" id="google_gtagjs-js-after">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
 gtag('set', 'linker', {"domains":["hack.gpl.jp"]} );
 gtag("js", new Date());
@@ -31,7 +31,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 5.9.3">
-<meta name="generator" content="Site Kit by Google 1.73.0">
+<meta name="generator" content="Site Kit by Google 1.74.0">
 <meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
 <meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com"> <style>.algolia-search-highlight {
 				background-color: #fffbcc;
@@ -54,7 +54,22 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-875" class="post-875 post type-post status-publish format-standard hentry category-osx"><div class="entry-wrapper">
+</h1></header><article id="post-881" class="post-881 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/20/fedora22-lxde-e38292-pi2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-20T06:24:25+09:00">2015年7月20日</time></a> </span><span class="posted-on">更新日:2015年7月20日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/07/20/fedora22-lxde-e38292-pi2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Fedora22 LXDE を Pi2 で動かして納得</a></h1></header><div class="entry-content">
+<p>ログイン出来ない対処を、img ファイルを作成するときにroot の初期パスワードを埋めたものを作成し、ログインできました。</p>
+<p>LXDE は軽くていいですね。Pi で動かすのは、このくらいの動きじゃないと使えないです。一番初めに入れたFedora22 Workstation は重過ぎて無謀でした。Pi には荷が重過ぎる感じ。</p>
+<p><img title="panel_と_lxsession_と_タスクマネージャ" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="panel_と_lxsession_と_タスクマネージャ" src="/wp-content/uploads/2015/07/panel__lxsession__.png" width="581" height="480"></p>
+<p>とりあえず、野良ビルドのimg じゃなく、オフィシャルのイメージから作成して動作させる手順はわかったので、これから本来のPi いじりに励みます。まぁ、これもPiいじりですがね。</p>
+<p>&#160;</p>
+<p>ちょっと自分にはまだ難しい分野ですが、BerryBoot の作りを参考に、組み込み用のKernel と GUI 画面を使った GPIO いじりの工作を今後考えていこうと思います。いろいろと覚えることがたくさんあるとは思いますが、少しづつ理解に励むようがんばりますか。</p>
+<p>今回作り方の参考になったのは、SquashFS をルートファイルとして読み出して、それをなんらかの方法で、書き込みするルートファイルシステムを作り出している部分です。こんな実装方法があるとは夢にも思いませんでした。あと、モジュールもBerryboot が持っているのを使ってchroot している感じです。</p>
+<p>&#160;</p>
+<p> BerryBoot を１からビルドしてみることで、また新たな発見があるかもしれません。LinuxOS を読み込まず（ramには展開していますが）GUI 画面を表示している良い参考例です。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-875" class="post-875 post type-post status-publish format-standard hentry category-osx"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/20/extfs/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-20T03:54:17+09:00">2015年7月20日</time></a> </span><span class="posted-on">更新日:2015年7月20日</span> <span class="categories"> <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/20/extfs/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ExtFSのマウント指定</a></h1></header><div class="entry-content">
@@ -64,7 +79,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>$ sudo mkdir /Volumes/berryboot <br>$ sudo mount -r -t ufsd_ExtFS /dev/disk3s1 /Volumes/berryboot</p>
 <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ^^^^^^^</p>
 </blockquote>
-<p><img title="osxreadonly" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxreadonly" src="/wp-content/uploads/2015/07/osxreadonly.png" width="266" height="546"></p>
+<p><img loading="lazy" title="osxreadonly" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxreadonly" src="/wp-content/uploads/2015/07/osxreadonly.png" width="266" height="546"></p>
 <p>扱えるタイプは、以下。NTFS や ext2,3,4 は Paragon のに依存しています。osx 標準じゃありませんので。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ ll /System/Library/Filesystems/
 total 8
@@ -462,123 +477,6 @@ echo
 <p>さて、とりあえず何からやりますかね。気がノルやつから手をつけていきますか。遊びでは、それが基本スタンスですからね。</p>
 </div>
 <footer class="entry-footer"></footer>
-</div></article><article id="post-843" class="post-843 post type-post status-publish format-standard hentry category-osx category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/12/osx10-9-e381a7-unixbench/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-12T17:51:51+09:00">2015年7月12日</time></a> </span><span class="posted-on">更新日:2015年7月12日</span> <span class="categories"> <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/07/12/osx10-9-e381a7-unixbench/" rel="bookmark noopener noreferrer" data-wpel-link="internal">osx10.9 で UnixBench</a></h1></header><div class="entry-content">
-<p>ここのところ、RasPi2 でいろいろ遊んでいますが、そういえば母艦である osx 機で UnixBench を計測していないことに気がつきました。で、その結果。</p>
-<p>&nbsp;</p>
-<p>UnixBench にパッチを当てる情報は、以下を参考にしました。</p>
-<blockquote>
-<p>Patch for UnixBench 5.1.3 on Mac OS X Mavericks (10.9)<br> <a href="https://gist.github.com/barusan/11033924" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://gist.github.com/barusan/11033924<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>blog<br> <a href="http://www.baru-san.net/archives/267" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.baru-san.net/archives/267<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>ありがたく、使わせていただきます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/byte-unixbench/UnixBench5.1.3.tgz
-git clone https://gist.github.com/11033924.git
-tar xvf UnixBench5.1.3.tgz
-cd UnixBench/
-patch -p1 &lt; ../11033924/UnixBench5.1.3.mavericks.patch
-make
-./Run</pre>
-<p>な感じで計測。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
-
-   System: HOPE.local: Darwin
-   OS: Darwin -- 13.4.0 -- Darwin Kernel Version 13.4.0: ....::
-::
-   CPU 7: Intel(R) Core(TM) ...::
-::
-
-------------------------------------------------------------------------
-Benchmark Run: 日  7 12 2015 16:14:49 - 16:42:55
-8 CPUs in system; running 1 parallel copy of tests
-
-Dhrystone 2 using register variables       34704465.0 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                     6360.0 MWIPS (9.8 s, 7 samples)
-Execl Throughput                                903.5 lps   (29.9 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        800480.2 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          219592.2 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       2163139.0 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             1281398.1 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                 103377.8 lps   (10.0 s, 7 samples)
-Process Creation                               4573.6 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   5948.9 lpm   (60.0 s, 2 samples)
-Shell Scripts (8 concurrent)                   1956.7 lpm   (60.0 s, 2 samples)
-System Call Overhead                        1350215.3 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   34704465.0   2973.8
-Double-Precision Whetstone                       55.0       6360.0   1156.4
-Execl Throughput                                 43.0        903.5    210.1
-File Copy 1024 bufsize 2000 maxblocks          3960.0     800480.2   2021.4
-File Copy 256 bufsize 500 maxblocks            1655.0     219592.2   1326.8
-File Copy 4096 bufsize 8000 maxblocks          5800.0    2163139.0   3729.6
-Pipe Throughput                               12440.0    1281398.1   1030.1
-Pipe-based Context Switching                   4000.0     103377.8    258.4
-Process Creation                                126.0       4573.6    363.0
-Shell Scripts (1 concurrent)                     42.4       5948.9   1403.0
-Shell Scripts (8 concurrent)                      6.0       1956.7   3261.2
-System Call Overhead                          15000.0    1350215.3    900.1
-                                                                   ========
-System Benchmarks Index Score                                        1092.0
-
-------------------------------------------------------------------------
-Benchmark Run: 日  7 12 2015 16:42:55 - 17:11:05
-8 CPUs in system; running 8 parallel copies of tests
-
-Dhrystone 2 using register variables      151501922.0 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                    47934.1 MWIPS (9.8 s, 7 samples)
-Execl Throughput                               4391.2 lps   (29.9 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks       1785300.9 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          417942.6 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       5208018.8 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             3024743.9 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                 737487.3 lps   (10.0 s, 7 samples)
-Process Creation                              17603.0 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                  17545.1 lpm   (60.0 s, 2 samples)
-Shell Scripts (8 concurrent)                   2572.0 lpm   (60.1 s, 2 samples)
-System Call Overhead                        3138596.8 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0  151501922.0  12982.2
-Double-Precision Whetstone                       55.0      47934.1   8715.3
-Execl Throughput                                 43.0       4391.2   1021.2
-File Copy 1024 bufsize 2000 maxblocks          3960.0    1785300.9   4508.3
-File Copy 256 bufsize 500 maxblocks            1655.0     417942.6   2525.3
-File Copy 4096 bufsize 8000 maxblocks          5800.0    5208018.8   8979.3
-Pipe Throughput                               12440.0    3024743.9   2431.5
-Pipe-based Context Switching                   4000.0     737487.3   1843.7
-Process Creation                                126.0      17603.0   1397.1
-Shell Scripts (1 concurrent)                     42.4      17545.1   4138.0
-Shell Scripts (8 concurrent)                      6.0       2572.0   4286.7
-System Call Overhead                          15000.0    3138596.8   2092.4
-                                                                   ========
-System Benchmarks Index Score                                        3440.0</pre>
-<p>osx 10.9.5 ですが、体感的にはもっと速い感じ。まぁ、とりあえずの指針としてきます。</p>
-<p>たとえば、sakuraVPS の2G Plan の CPU3 RAM 2GB HDD200GB で2000くらいは出ます。</p>
-<p>&nbsp;</p>
-<p>ベンチマーク計測中の htop は以下のような感じ。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">  1  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]     Tasks: 252 total, 0 running
-  2  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]     Load average: 7.85 5.22 3.26 
-  3  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]     Uptime: 01:03:57
-  4  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]
-  5  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]
-  6  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]
-  7  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]
-  8  [||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]
-  Mem[||||||||||||                                        3711/32768MB]
-  Swp[                                                        0/1024MB]</pre>
-<p>がんばってますね。</p>
-<p>ちなみに、osx10.9.5 の公開しているソースは、</p>
-<p><a title="http://www.opensource.apple.com/release/os-x-1095/" href="http://www.opensource.apple.com/release/os-x-1095/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.opensource.apple.com/release/os-x-1095/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>たとえば、bash とかは、以下にあり、</p>
-<p><a title="http://www.opensource.apple.com/source/bash/bash-92/" href="http://www.opensource.apple.com/source/bash/bash-92/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.opensource.apple.com/source/bash/bash-92/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>まだやったことはないんですが、xcode を使ってビルドできるようです。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="Source_Browser" src="/wp-content/uploads/2015/07/source_browser.png" alt="Source_Browser" width="550" height="480" border="0"></p>
-</div>
-<footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
 <div class="nav-links">
 <div class="nav-previous"><a href="/author/junkhack/page/80/" data-wpel-link="internal" rel="noopener noreferrer">過去の投稿</a></div>
@@ -806,5 +704,5 @@ System Benchmarks Index Score                                        3440.0</pre
 			e.preventDefault();
 			window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
 		} );
-	} );</script> <script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.0.7.08086" id="wpfront-scroll-top-js"></script> <script type="text/javascript" src="/wp-content/themes/hew-wpcom/js/hew.js?ver=20140909" id="hew-scripts-js"></script> <script type="text/javascript" src="/wp-content/themes/hew-wpcom/js/navigation.js?ver=20120206" id="hew-navigation-js"></script> <script type="text/javascript" src="/wp-content/themes/hew-wpcom/js/skip-link-focus-fix.js?ver=20130115" id="hew-skip-link-focus-fix-js"></script> <script type="text/javascript" src="/wp-content/themes/hew-wpcom/js/contact.js?ver=20210612" id="sendmail-js"></script> <script type="text/javascript" src="/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script> <script type="text/javascript" id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};</script> <script type="text/javascript" src="/wp-includes/js/wp-util.min.js?ver=5.9.3" id="wp-util-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/algoliasearch/dist/algoliasearch-lite.umd.js?ver=2.1.0" id="algolia-search-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete.js/dist/autocomplete.min.js?ver=2.1.0" id="algolia-autocomplete-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete-noconflict.js?ver=2.1.0" id="algolia-autocomplete-noconflict-js"></script> </body>
+	} );</script> <script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.0.7.08086" id="wpfront-scroll-top-js"></script> <script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script> <script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script> <script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script> <script type="text/javascript" src="/wp-content/themes/jh-hew/js/contact.js?ver=20210612" id="sendmail-js"></script> <script type="text/javascript" src="/wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script> <script type="text/javascript" id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};</script> <script type="text/javascript" src="/wp-includes/js/wp-util.min.js?ver=5.9.3" id="wp-util-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/algoliasearch/dist/algoliasearch-lite.umd.js?ver=2.1.0" id="algolia-search-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete.js/dist/autocomplete.min.js?ver=2.1.0" id="algolia-autocomplete-js"></script> <script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete-noconflict.js?ver=2.1.0" id="algolia-autocomplete-noconflict-js"></script> </body>
 </html>
