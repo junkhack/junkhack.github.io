@@ -12,7 +12,7 @@
 	<title>JunkHack Feed</title>
 	<link>https://hack.gpl.jp/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sun, 22 May 2022 17:05:59 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 May 2022 17:09:09 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,87 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.9.3</generator>
 	<item>
+		<title>ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</title>
+		<link>https://hack.gpl.jp/2022/05/22/goat-end-of-service/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 31 May 2022 14:12:36 +0000</pubDate>
+				<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">https://hack.gpl.jp/?p=11358</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/goat-eos.png" />
+							<description><![CDATA[　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 g.o.a.tごーと 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 <ruby>g.o.a.t<rt>ごーと</rt></ruby> 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサービスの最終日となります。縦書きと写真を融合したブログを書いていく、新たな価値を生み出したサービスだったのですが、非常に残念です。</p>
+<p>&nbsp;</p>
+<p>　きっと愛用者は残念・無念であったでしょう。このサービスを使ってブログを書いていた人がどのくらいの人数いたのかは不明ですが、ここ以外、他の縦書きができるブログサービスというのは無いはずですので、途方に暮れているかもしれません。　　そもそも、縦書きのブログの需要がどのくらいあったのか？　ゴートの縦書きブログは何が良くて何が悪かったのか？　そんな縦書きでブログを書くことを今回は考えてみたいなと思っています。</p>
+<p>&nbsp;</p>
+<h3>ゴートはどんな特徴があったのか？</h3>
+<p>　自分はこのゴートというブログサービスを知ったのが、つい最近５月の始めごろでその頃にはもうすでに新規登録ができず、このサービスの真の良さを知ることは残念ながらできませんでした。外から見聞きできることや、自分が実際にそのブログを見て感じたことなど、感想を書いてみたいなと思います。</p>
+<p>&nbsp;</p>
+<h3>ゴートの特徴とは？</h3>
+<p>一　レスポンシブ対応である。つまりスマホでも縦書きで見れます。</p>
+<p>二　写真と文章を融合して表現でき、美しい。</p>
+<p>三　ブログの執筆・編集が縦書きで出来る。</p>
+<p>四　写真と文字や空白のバランスが絶妙。</p>
+<p>五　広告がなくてすっきり。</p>
+<p>六　残念ですが、ブログなのにコメント機能がない。</p>
+<p>七　残念その２。自分の記事を検索することができない。</p>
+<p>八　縦書きのテーマが少なかった。</p>
+<p>&nbsp;</p>
+<p>一つづつ考察してみましょう。</p>
+<p>&nbsp;</p>
+<h3>一　レスポンシブ対応である</h3>
+<p>　レスポンシブ対応とは、つまり表示領域を縮めても常に最適な見え方で表示する技術のことです。パソコンであれば、広々と画面いっぱいに表示し、スマホであれば小さな表示領域に可読性を損ねることなく縦書き表示できることを指します。ゴートのレスポンシブ対応はリアルタイムで表示領域を拡大、縮小しても綺麗に表示できていました。</p>
+<p>　ちなみに、今見ている、このブログの縦書きは完全なレスポンシブ対応ではありません。しかし、表示領域を縮小・拡大した状態で<ruby>再読み込み<rt>リロード</rt></ruby>すれば、最適化された状態で縦書きできる仕組みです。利用上、特に問題はないのですが仕組みが違いますね。</p>
+<p>&nbsp;</p>
+<h3>二　写真と文章を融合して表現でき、美しい</h3>
+<p>　ゴートの<ruby>拘<rt>こだわ</rt></ruby>った点は、「 ビジュアルの美しさ」でしょう。まるで、雑誌の一ページを見ているよな感覚、これは写真と縦書きの文章のレイアウト配置の美しさから来るものだと自分は感じました。きっと、最初のデザイン設計でかなり時間をかけて拘ったのだと思います。</p>
+<p>　新聞や雑誌などは、文章が縦書きが標準です。しかし、スマホやパソコンで見るサービスは横書きが標準。これは単に技術が未発達だったからであって、日本語が持つ縦書きの印象は特別なものがあると思います。写真と融合することにより、たとえば旅行記を綴ればその印象は格別なものだと自分は感じました。</p>
+<p>&nbsp;</p>
+<h3>三　ブログの執筆・編集が縦書きで出来る</h3>
+<p>　これは自分は実際に使ったことがないので、本当のところはわかりません。グーグル検索で使ったことがある人の感想や、公式ページでそのツールの絵を見たくらいです。縦書きの文章を縦書きで編集・執筆する。この当たり前のようなことが実際には難しいのです。例えば、ブログの代表格であるワードプレスの管理画面の投稿記事を執筆する画面では、横書きしかできません。</p>
+<p>　実際、今こうして書いている文章も横書きで書いていて、二画面あるモニターの片側で保存した記事を<ruby>表示<rt>プレビュー</rt></ruby>して縦書きに問題がないか確認しながら書いています。</p>
+<p>&nbsp;</p>
+<h3>四　写真と文字や空白のバランスが絶妙</h3>
+<p>　これは、２番目に書いたことと多少かぶるのですが、デザインの良さです。優れたデザインは、写真の文字の余白部分に現れると思っていますが、まさにこのバランスが絶妙だなと思いました。専門のデザイナーが見れば、当ブログの縦書きは気持ち悪い空白部分があると思います。ゴートでは、これらのバランスが絶妙だったと思います。</p>
+<p>&nbsp;</p>
+<h3>五　広告がなくてすっきり</h3>
+<p>　普通、無料で書けるブログサービスではなんらかの「広告」が入ります。しかし、ゴートではオフィシャル側が、この広告を余分ないらないものとして排除していたのです。広告がつかないブログは、プロのブロガーから見たら魅力がないものかもしれません。つまり、広告がなくてすっきりしていて最高！　という意見もあれば、広告がないブログは運営・執筆していく価値がないと切り捨てる見方と両極端かもしれません。でも、<ruby>ＷＥＢ<rt>うぇぶ</rt></ruby>広告なんてものはいくらでもブロックできますし、個人的にはまったく意味のないものだという感覚が強いです。</p>
+<p>　評価したいのは、オフィシャルが広告は不必要なものと公言していた点が<ruby>潔<rt>いさぎよ</rt></ruby>くて男前だなと思いました。</p>
+<p>&nbsp;</p>
+<h3>六　残念ですが、ブログなのにコメント機能がない</h3>
+<p>　自分のブログも今はコメントを封印していますので、なんですが、ブログはコミュニケーションが発生する媒体でもあります。人によっては、共通の趣味・趣向の友好関係ができるコメント機能は非常に大切なものだと思います。</p>
+<p>　ゴートには、コメント機能がありませんでした。この点は、残念かなーと思っています。</p>
+<p>&nbsp;</p>
+<h3>七　残念その２。自分の記事を検索することができない</h3>
+<p>　これは自分のブログをどのように扱うか、による考え方で残念かどうか決まる問題かもしれませんが、自分は検索機能は必須だと思っています。ある人が偶然、ブログに遊びに来てくれたとします。たまたま、その記事にはその人の欲する情報がなかった場合でも、もし検索機能があれば他のページの記事も見てくれたかもしれません。これは、ブログの案内人のような側面がある部分で個人的には超重要項目の一つです。ちなみに、当ブログでは、キーボードのスラッシュをタイプすると検索ウィンドウが表示されリアルタイムに検索する仕組みを実装しています。</p>
+<p>&nbsp;</p>
+<h3>八　縦書きのテーマが少なかった</h3>
+<p>　どの執筆者のブログ記事を見ても、だいたい同じような見え方しかありませんでした。これは縦書き、横書きのテーマが少なかったのだと思います。縦書きで特化して言えば、２、３パターンしかなかったのではないでしょうか。</p>
+<p>　縦書きのレイアウト作成のテンプレート化は、それなりに大変だったのもしれません。しかし、数十種類くらいのバリエーションは有ってもよかったのではないかなと思います。人と同じってのは、縦書きでブログを書く拘りの強いユーザーであれば、イヤだったのではないかと思われます。</p>
+<p>&nbsp;</p>
+<h3>まとめ</h3>
+<p>・ゴートの縦書きは写真と融合していてデザインが綺麗だった</p>
+<p>・レスポンシブ対応していて、スマホでも最適表示されていた</p>
+<p>・しかし、ブログとしての基本機能、特にコメント機能が無かったのは残念</p>
+<p>・また、自身のブログ内の検索機能も無かった</p>
+<p>・テーマの少なさから、どのブログ記事も同じような見え方になっていた</p>
+<p>&nbsp;</p>
+<h3>あとがき</h3>
+<p>　運営側もボランティアでは出来ませんから収益が出るビジネスモデルをなんとか考えていたのでしょう。例えば、小学館とか、新刊と連携していたりとか、ゴート・スタープログラムという執筆者のランク付のような仕組みがあったりとか、いろいろ試していたようにも見えます。サイト自体は無料なのですから、なんらかの金を生み出すビジネスモデルが必要だったと思うのですが、それをうまく構築できなかったのが、サービス終焉の大きな理由だと思います。</p>
+<p>　ワードプレスの本家のように、無料ユーザーと有料ユーザーという位置づけのビジネスモデルは考えなかったのでしょうか？　いや、絶対考えていたと思います。しかし、無料ユーザーの総数のおよそ、数パーセントしか有料ユーザーになり得ないことなどから、逆算できるため、そのようなビジネスモデルは、成り立たないということがやる前からわかっていたんだろうと思います。</p>
+<p>　縦書きで、デザインに独自性をもたせ、コメント機能もあり、検索機能もある。そして自分のアドセンス広告やアフリエイト系の広告も貼れる。そして、絶対サーバがダウンせず、連続稼働保証もある。そんな縦書きのブログだったら、もしかして有料化しても支払ってくれたユーザーは居たのかもしれません。</p>
+<p>　あるいは、著名な職業ブロガーをアドバイザーとして、迎え入れて展開していれば、先のような問題点も<ruby>早々<rt>そうそう</rt></ruby>に解決していたのかもしれませんね。</p>
+<p>　いつの日か、ゴートのデザインに寄せた縦書きのテーマも作ってみたいなと思っています。欲しいユーザーがいたら、メールやツイッターなどで応援メッセージお待ちしています。</p>
+<p>&nbsp;</p>
+<p>最後に一句</p>
+<haiku>縦書きの　テーマ作りは　ニッチかな</haiku>
+<p><!-- /wp:paragraph --></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>縦書きでブログを書いてみることに</title>
 		<link>https://hack.gpl.jp/2022/05/22/tategaki/</link>
 		
@@ -1036,239 +1117,6 @@
 
 
 <p>パーティション操作は、一歩間違えると大事な領域を消してしまうので注意して操作しないとです。そういう意味では、GUIで直感的にわかるこのソフトの利用価値は大いにあるかなと思います。無償版でもかなりのことができて、少々のお金を払ってもよいなら、さらに便利に使えそうです。</p>
-
-
-
-<h3>著者にメッセージ</h3>
-
-
-
-<p></p>
-
-
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</title>
-		<link>https://hack.gpl.jp/2022/01/10/wordpress-to-githubpages/</link>
-		
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Sat, 15 Jan 2022 17:09:59 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=11019</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/01/hello-github-pages.gif" />
-							<description><![CDATA[長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。 　今日のお話は、WordPressから静的なHTMLファイル [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>スマホサイトでWordPressも納得したしなー！</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>あ〜、例の記事をネタにするんですね！</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>やっぱり運用が楽なのがいいしね！</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>率直な感想なんかを聞いてみたいわ。</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<p>長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。</p>
-
-
-
-<p>　今日のお話は、WordPressから静的なHTMLファイルを書き出してそれをGitHub Pages やNETLIFYで、独自ドメインを使って動かしてみた感想なんかを書きたいなと思います。具体的な手順なんかは記載していませんので、要望があれば別ネタにしたいなと思います。</p>
-
-
-
-<h3>WordPressでの編集から記事公開までの概略</h3>
-
-
-
-<p>全体の流れは、基本的に以下の３ステップです。</p>
-
-
-
-<p>　(1) ローカル環境のWordPressで記事を書く</p>
-
-
-
-<p>　(2) Simply Staticプラグインで、「静的ファイルを生成する」ボタンを押す</p>
-
-
-
-<p>　(3) 上記でできたファイルを展開して、Github Pages のリポジトリへコミットする</p>
-
-
-
-<p>Github Pages の設定をしておけば、こんな感じですね。(2) のファイル生成時間は、動作速度、記事数や画像数などにもよって変わりますが、自分の場合は１時間弱くらいでした。</p>
-
-
-
-<h3>WordPressのデータをどうやって、静的ファイルにするの？</h3>
-
-
-
-<p>これは非常によくできたプラグインがあります。それを使うだけ。いろいろ検討しましたが以下のが一押しです。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Simply Static<br><a rel="noreferrer noopener external" href="https://ja.wordpress.org/plugins/simply-static/" target="_blank" data-wpel-link="external" class="wpel-icon-right">HTTPS://JA.WORDPRESS.ORG/PLUGINS/SIMPLY-STATIC/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-
-
-
-<p>これは、Pro 版と無償版があります。今使っているのは、無償版ですが、Pro版も検討しています。とりあえずは、無償版でも十分な機能を持っています。以下のように「相対 URL を使用する」でファイルを書き出す設定をしておきます。なぜ相対URLにしているかといえば、ミラーサイトにも公開しているからです。このブログの場合、以下のように複数のリポジトリへコミットしているからです。</p>
-
-
-
-<h4>　メインサイト：/</h4>
-
-
-
-<h4>　エイリアス：https://junkhack.gpl.jp/</h4>
-
-
-
-<h4>　ミラーサイト：https://jh.gpl.jp/</h4>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>あとは、「静的ファイルを生成する」でOKです。このブログの場合、583個の記事を１時間弱で書き出せました。</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<h3>書き出したあとはどうするの？</h3>
-
-
-
-<p>無事に静的ファイルが描き出せたら、圧縮ファイルを展開してGithub Pages のリポジトリにコミットするだけです。自分は、Sourcetree を使っています。</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></figure>
-
-
-
-<p>自動化するならスクリプトを作ってコミットもできると思います。そのうち、やってみたいなと思っています。ちなみに、Simply StaticのPro版はGitHub連携も出来るので一手間減ります。</p>
-
-
-
-<h3>環境づくりで、注意する点</h3>
-
-
-
-<p>WordPress の環境作りでは、以下の点に気を付ける必要があります。</p>
-
-
-
-<ul><li>書き出されるのは静的なHTMLとjsとcss と画像ファイルなのでコメントやメールフォームや検索など動的に動かすことができない</li><li>なので、コメントは全部閉じる</li><li>メールフォームなど、自分の場合はコンタクトフォーム ７を使わないようにした</li><li>検索はGoogleのカスタム検索をWordPressのウィジェットに貼り付ける（<a rel="noreferrer noopener external" href="https://programmablesearchengine.google.com/cse/" target="_blank" data-wpel-link="external" class="wpel-icon-right">https://programmablesearchengine.google.com/cse/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li><li>WordPressのスラグは全部英文字にしておく（日本語は使わない）</li><li>ローカル環境のPHP設定でメモリ関連の設定を上げておく</li></ul>
-
-
-
-<p>といったところでしょうか。静的化してもコメントやメールフォームを動かす別の方法もありますが、現時点ではまだ導入していません。そもそも、コメントやメールフォームは無くても良いかなと。あればコミュニケーションができますが、仕事の依頼系はメールでも十分かなと感じています。わざわざ、メールフォームにしておく必要性もないのが実際のところです。コメントについては、このブログの場合、ほとんど書き込みがないので無くても問題はありません。どうしても、コンタクト撮りたい場合は、メールしてもらえれば良いかなと現時点では思っています。</p>
-
-
-
-<h3>現時点で使っているプラグインは？</h3>
-
-
-
-<p><meta charset="utf-8">静的ファイルを書き出すSimply Staticを使っても、ちゃんと動作しているWordPressのプラグインは以下です。表示系ではない関係ないプラグインもありますが、表示系に関連するのは動いていることを確認しています。</p>
-
-
-
-<pre class="wp-block-code"><code>+-------------------------------------------+----------+-----------+-------------+
-| name                                      | status   | update    | version     |
-+-------------------------------------------+----------+-----------+-------------+
-| acf-quickedit-fields                      | active   | available | 3.1.6       |
-| advanced-custom-fields                    | active   | none      | 5.11.4      |
-| akismet                                   | active   | none      | 4.2.1       |
-| autoptimize                               | active   | none      | 2.9.5       |
-| backwpup                                  | active   | none      | 3.10.0      |
-| bulk-media-register                       | active   | none      | 1.25        |
-| admin-featured-image                      | active   | none      | 1.2         |
-| export-all-urls                           | active   | none      | 4.1         |
-| google-sitemap-generator                  | active   | none      | 4.1.1       |
-| jquery-manager                            | active   | none      | 1.10.6      |
-| list-urls                                 | active   | none      | 0.2         |
-| luckywp-table-of-contents                 | active   | none      | 2.1.4       |
-| multiple-domain-mapping-on-single-site    | active   | none      | 1.0.5       |
-| permalink-manager                         | active   | available | 2.2.14      |
-| search-regex                              | active   | none      | 2.4.1       |
-| shortcoder                                | active   | none      | 5.6         |
-| simply-static                             | active   | available | 2.1.5.2     |
-| google-site-kit                           | active   | none      | 1.48.1      |
-| ultimate-addons-for-gutenberg             | active   | none      | 1.25.2      |
-| word-balloon                              | active   | none      | 4.18.4      |
-| wordpress-importer                        | active   | none      | 0.7         |
-| wp-external-links                         | active   | none      | 2.50        |
-| wpfront-scroll-top                        | active   | none      | 2.0.7.08086 |
-| wp-multibyte-patch                        | active   | none      | 2.9         |
-| duplicate-post                            | active   | none      | 4.3         |
-+-------------------------------------------+----------+-----------+-------------+</code></pre>
-
-
-
-<p>意外だったのは、目次を作っている「luckywp-table-of-contents」や吹き出し表示の「word-balloon」もちゃんと動作しています。</p>
-
-
-
-<h3>まとめ</h3>
-
-
-
-<p>今回、なんとなくわかったのは以下となります。</p>
-
-
-
-<p>・運用コストが下がるので、今後はコンテンツネタに力を入れていきたい</p>
-
-
-
-<p>・やっぱり静的ファイルは読み込みが速い！</p>
-
-
-
-<p>・WordPressとは今後もローカル環境で付き合っていきます</p>
-
-
-
-<h3>あとがき</h3>
-
-
-
-<p>かなり前から、WordPress運用環境を変えたいなと検討していました。やっぱりシンプルが一番です。まだ切り替えたばかりなので、少し記事を書いてからまた感想などを書きたいなと思います。</p>
 
 
 
