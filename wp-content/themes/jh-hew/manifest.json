@@ -6,7 +6,7 @@
 	"display": "standalone",
 	"lang": "ja",
 	"dir": "auto",
-	"orientation": "landscape",
+	"orientation": "portrait",
 	"theme_color": "#FAD641",
 	"background_color": "#FFFFFF",
 	"icons": [
