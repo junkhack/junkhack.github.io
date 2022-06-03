@@ -12,7 +12,7 @@
 	<lastBuildDate>Tue, 31 May 2022 17:09:09 +0900</lastBuildDate>
 	<language>ja</language>
 	<ttl>5</ttl>
-	<snf:logo><url>/wp-content/uploads/2021/04/logo512x512.png</url></snf:logo>
+	<snf:logo><url>https://hack.gpl.jp/wp-content/uploads/2021/04/logo512x512.png</url></snf:logo>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -24,7 +24,7 @@
 		<pubDate>Tue, 31 May 2022 14:12:36 +0000</pubDate>
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 				<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=11358</guid>
+		<guid isPermaLink="false">/?p=11358</guid>
 				<media:thumbnail>/wp-content/uploads/2022/05/goat-eos.png</media:thumbnail>
 				<media:status>active</media:status>
 		<description><![CDATA[　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 g.o.a.tごーと 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサ [&#8230;]]]></description>
@@ -113,7 +113,7 @@
 		<pubDate>Sat, 21 May 2022 23:55:13 +0000</pubDate>
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 				<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=11270</guid>
+		<guid isPermaLink="false">/?p=11270</guid>
 				<media:thumbnail>/wp-content/uploads/2022/05/tatebu-1.png</media:thumbnail>
 				<media:status>active</media:status>
 		<description><![CDATA[　さて、今日はいつもとは違うスタイルでブログを書いてみようかなと思います。はい、縦書たてがきです。実は十年ぐらい前に、縦書きでブログを書いていました。その時のソースコードが出てきたので懐かしいなぁと思って、復活させてみま [&#8230;]]]></description>
@@ -187,7 +187,7 @@
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[WordPress]]></category>
 		<category><![CDATA[高速化]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=11202</guid>
+		<guid isPermaLink="false">/?p=11202</guid>
 				<media:thumbnail>/wp-content/uploads/2022/05/AlgoliaSearch.png</media:thumbnail>
 				<media:status>active</media:status>
 		<description><![CDATA[ゴールデンウィーク真っ最中ですね！ 皆さんは何してますか？ 僕は、まったりとPCと戯れて、世界中の面白いネタを探しています。もうね、あるわあるわ。面白ネタがたくさんあって、世界は広いなと、再認識しました。 さて、今回のネ [&#8230;]]]></description>
@@ -471,7 +471,7 @@
 		<pubDate>Sat, 16 Apr 2022 20:19:43 +0000</pubDate>
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 				<category><![CDATA[DIY]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=11125</guid>
+		<guid isPermaLink="false">/?p=11125</guid>
 				<media:thumbnail>/wp-content/uploads/2022/04/DIY-welding.png</media:thumbnail>
 				<media:status>active</media:status>
 		<description><![CDATA[もうすっかり春になって暖かくなりましたね！　実は、昨年の9月くらいからコツコツと土日や夜などにガレージ を片付けていました。一気にやると嫌になるので、もうスプーンで穴を掘るかの如くコツコツと片付けていました！ 　今回は溶 [&#8230;]]]></description>
@@ -790,7 +790,7 @@
 		<pubDate>Wed, 19 Jan 2022 23:15:00 +0000</pubDate>
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">https://hack.gpl.jp/?p=11043</guid>
+		<guid isPermaLink="false">/?p=11043</guid>
 				<media:thumbnail>/wp-content/uploads/2022/01/minitool-pw.png</media:thumbnail>
 				<media:status>active</media:status>
 		<description><![CDATA[今日のお話は、WindowsOSの引越しと、引越しに使うツールのお話です。パーティションを複数区切って、いろいろなOS環境を作りたいので、GUIで便利に使えるパーティション操作ツールも探してみました。無料ソフトウェアで、 [&#8230;]]]></description>

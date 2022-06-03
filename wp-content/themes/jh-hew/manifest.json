@@ -1,0 +1,26 @@
+{
+	"name": "JunkHack",
+	"short_name": "JunkHack",
+	"description": "アリエクでポチった JUNKHACK",
+	"start_url": "/?source=pwa",
+	"display": "standalone",
+	"lang": "ja",
+	"dir": "auto",
+	"orientation": "landscape",
+	"theme_color": "#FAD641",
+	"background_color": "#FFFFFF",
+	"icons": [
+		{
+			"src": "/wp-content/themes/jh-hew/img/jh-icon192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "/wp-content/themes/jh-hew/img/jh-icon512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		}
+	]
+}
