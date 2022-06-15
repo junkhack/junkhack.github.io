@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,34 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1083" class="post-1083 post type-post status-publish format-standard hentry category-arduino category-junk category-parts category-pong"><div class="entry-wrapper">
+</h1></header><article id="post-1097" class="post-1097 post type-post status-publish format-standard hentry category-blog category-pong"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/28/pong-on-arduino-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-28T02:31:03+09:00">2015年8月28日</time></a> </span><span class="posted-on">更新日:2015年8月28日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/pong/" rel="category tag noopener noreferrer" data-wpel-link="internal">PONG</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/08/28/pong-on-arduino-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">パーツ取り外しUSBと半固定抵抗</a></h1></header><div class="entry-content">
+<p>iMac のマザーボードについていたUSBメスジャックの取り外しに苦戦。なんとか取り外しましたが、がっちりくっついていました。ピンの間隔がユニバーサル基盤には合わないので、つけるときにまた加工が必要です。半固定抵抗は昔の製品についていただけに、問題ありません。</p>
+<p>&#160;</p>
+<p><img title="usb_reg" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="usb_reg" src="/wp-content/uploads/2015/08/usb_reg.jpg" width="640" height="480"></p>
+<p>以下のように、基盤から強引に取ると、スルーホールの残骸がpin に残るので除去します。買ったほうが速いとかは、まぁなしで。</p>
+<p><img loading="lazy" title="usb2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="usb2" src="/wp-content/uploads/2015/08/usb2.jpg" width="640" height="480"></p>
+<p>とりあえず、テスターで通電すると問題ないようです。外側の筐体自体はGND に落ちていませんでした。</p>
+<p>&#160;</p>
+<p>リード線を出して通電確認をしておきます。</p>
+<p><img loading="lazy" title="写真" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真" src="/wp-content/uploads/2015/08/eee0af5f312d.jpg" width="640" height="480"></p>
+<p>ちょっとめんどくさ過ぎて、QKします。</p>
+<p>&#160;</p>
+<p>で、休憩後、本体側に配置するレイアウトを仮置きしてみました。</p>
+<p><img loading="lazy" title="１" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="１" src="/wp-content/uploads/2015/08/6ce90f2a3464.jpg" width="640" height="480"></p>
+<p>隙間に抵抗やら、スピーカーを配線していく感じです。なかなか、いい感じになりそうです。</p>
+<p><img loading="lazy" title="２" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="２" src="/wp-content/uploads/2015/08/4abdf1f6fb4f.jpg" width="640" height="480"></p>
+<p>基盤の余分な部分をカットして、次はコントローラーAの解体に入ります。</p>
+<p><img loading="lazy" title="写真 のコピー" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 のコピー" src="/wp-content/uploads/2015/08/5b4b89e4132b.jpg" width="640" height="480"></p>
+<p>うーん、面倒な作業が続きます。一度、このあたりでブレッドボードに配線して、プログラムを書き込んでテストしておきます。</p>
+<p>現在、目玉おやじのコントローラAの加工をしています。次回以降で紹介します。</p>
+<p>&#160;</p>
+<p>休み中にできるか微妙な進行具合になってきました。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1083" class="post-1083 post type-post status-publish format-standard hentry category-arduino category-junk category-parts category-pong"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/27/pong-on-arduino/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-27T00:45:09+09:00">2015年8月27日</time></a> </span><span class="posted-on">更新日:2015年8月27日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/junk/" rel="category tag noopener noreferrer" data-wpel-link="internal">Junk</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pong/" rel="category tag noopener noreferrer" data-wpel-link="internal">PONG</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/08/27/pong-on-arduino/" rel="bookmark noopener noreferrer" data-wpel-link="internal">夏休み工作第二段 Arduino 単体でPong</a></h1></header><div class="entry-content">
@@ -83,7 +111,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>これは、もう作らずにはいられませんよね。早速、コントローラー作りの材料を物色している最中です。</p>
 <p>&#160;</p>
 <p>作者の作り方を真似てみることに。ビデオのスクリーンショットからどんな材料が必要か検討します。</p>
-<p><img title="VGA_Pong_on_Arduino_Uno_-_YouTube" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="VGA_Pong_on_Arduino_Uno_-_YouTube" src="/wp-content/uploads/2015/08/vga_pong_on_arduino_uno__youtube.png" width="635" height="356"></p>
+<p><img loading="lazy" title="VGA_Pong_on_Arduino_Uno_-_YouTube" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="VGA_Pong_on_Arduino_Uno_-_YouTube" src="/wp-content/uploads/2015/08/vga_pong_on_arduino_uno__youtube.png" width="635" height="356"></p>
 <p>木箱を利用しているようです。</p>
 <p><img loading="lazy" title="VGA_Pong_on_Arduino_Uno_-_YouTube 8" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="VGA_Pong_on_Arduino_Uno_-_YouTube 8" src="/wp-content/uploads/2015/08/vga_pong_on_arduino_uno__youtube8.png" width="640" height="355"></p>
 <p>全体の配線はこのようになっているそうです。</p>
@@ -366,27 +394,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>・電池電圧が４．２V付近のフル充電になっているとき、ESP12 の動作電圧の3.0-3.6V にどうやって降圧するか？</p>
 <p>&#160;</p>
 <p>というようなことがわかりました。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1004" class="post-1004 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/23/esp-12-powered-by-lithium-battery/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-23T03:34:58+09:00">2015年8月23日</time></a> </span><span class="posted-on">更新日:2015年8月23日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/08/23/esp-12-powered-by-lithium-battery/" rel="bookmark noopener noreferrer" data-wpel-link="internal">リチウムバッテリー駆動でESP-12</a></h1></header><div class="entry-content">
-<p> こんな感じで、基盤に組み付ける前に、配線のおさらい。 <br>いちおう、バッテリー駆動で動作してますが、まだ3.3V ラインをどうやって安定化させるかが抜けています。リチウム電池の電圧管理は、基盤右の出来合いのボードで出力降下cut から USB充電の過充電防止までできているので、いいんですが、3.0-3.6 の範囲に押さえて出力するようなレギュレーターが必要です。充電時は、最高で4.２７Vまであがるので、そのまま印加するとESP12にダメージがありそうな感じ。そのあたりは、明日考えることにして、とりあえず、電池駆動でどのくらい持つか連続稼動のテスト。まだDeep-Sleep は使っていないので２４時間以内で切れるはず。</p>
-<p>&#160;</p>
-<p>あと、コードは後から書き換えることも考えると、この基盤の大きさにどうやってUART のPIN を埋め込むかです。3 線しかつかわないので、メスPIN ヘッダーをESP12 の基盤の隙間が候補。電池ボックスは、基盤の下側を予定。ケースはまだ未定。</p>
-<p><img loading="lazy" title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/08/13.jpg" width="640" height="480"></p>
-<p>入りそうで、入らなそうな予感。パズルみたいですね。</p>
-<p><img loading="lazy" title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/08/22.jpg" width="640" height="480"></p>
-<p>この電解コンデンサが邪魔。表面実装のタルタルコンデンサで小型化しようかとたくらんでいますが。電源周りって、結構シビアなので工夫が必要な感じです。</p>
-<p>&#160;</p>
-<p>とりあえず、IP は固定でWiFi 接続して、温度、照度、湿度を記録する IoT デバイスとなっています。まだコードにはBug があるので、工夫しないとです。現在、SDK 1.3 で動いています。</p>
-<p><a title="https://thingspeak.com/channels/42239/" href="https://thingspeak.com/channels/42239/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://thingspeak.com/channels/42239/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>&#160;</p>
-<p>課題は、</p>
-<p>・3.3V （3.0 – 3.6v）電源の安定化</p>
-<p>・接続失敗したときの処理</p>
-<p>・Deep-Sleep のコード</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

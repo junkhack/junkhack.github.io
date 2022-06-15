@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -107,12 +108,62 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">カテゴリー: <span>Blog</span>
-</h1></header><article id="post-2576" class="post-2576 post type-post status-publish format-image hentry category-blog category-cat post_format-post-format-image"><div class="entry-wrapper">
+</h1></header><article id="post-2843" class="post-2843 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/12/29/get-a-brushless-motor-for-rc/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-12-29T14:37:36+09:00">2016年12月29日</time></a> </span><span class="posted-on">更新日:2016年12月29日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
+</div>
+<h1 class="entry-title"><a href="/2016/12/29/get-a-brushless-motor-for-rc/" rel="bookmark noopener noreferrer" data-wpel-link="internal">RC用ブラシレスモーター関連をゲット</a></h1></header><div class="entry-content">
+<p>CNC ルータのスピンドルを自作することにしたわけですが、部品をチョイスしていくとトータルで8,245円となりました。うまく作れるかどうかはわかりませんが、チャレンジです。</p>
+<p>&#160;</p>
+<p>ぽちった、内訳です。</p>
+<p>まず、メインのモーターはトルクがありそうな長さと、ネオジウム磁石と4極ロータ採用（2極より４極のほうがトルクが出そうで、スロット数は明記してないけどたぶん、１２スロット）の以下のものにしました。6極のだと５０００円弱からしかないようで、少し予算が超えそうなので、4極の最安値のにしておきました。検索ワードは、「<a href="https://www.aliexpress.com/af/4-Pole-Brushless-Motors.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">4 Pole Brushless Motors<span class="wpel-icon wpel-image wpel-icon-1"></span></a>」とか「<a href="https://www.aliexpress.com/af/4P-Brushless-Motors.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">4P Brushless Motors<span class="wpel-icon wpel-image wpel-icon-1"></span></a>」です。</p>
+<p>60A までいけるそうで日本のアマゾンでも少し値段はあがりますがあるようです。決定した理由の１つに、このモーターはRCカー用なので筐体が回らないようで、モーターをむき出しにしても安全かなと。筐体に覆われている分、連続稼動時の冷却はファンを外から当てる必要があるかもです。ほんとかどうかは、不明ですが60A を突っ込めるスペックと９００Wというスペックです。最大電圧は１６V。（予定は１２V）</p>
+<p>アルミヒートシンクの筐体がかっこいいので、CNCルータの１つのワンポイントデザインになりえるのではないかというビジュアル面の思惑もあります。</p>
+<p>RC用のモーターはもっと上のグレードがありますので、これでトルクが足りなければグレードアップも容易です。まずは、このモーターから検証してみます。高いモーターになると、センサーがついてたり、８極とか、50V120A とか水冷式とか、すごい仕様のもあります。</p>
+<p>懸案としては、長時間動作させることは考えられていないモーターなので、CNC ルータ用途として耐えられるかどうかです。<a href="https://ja.aliexpress.com/item/Brushless-ESC-Accessory-With-60A-3650-3930KV-4Poles-Sensorless-Slotless-Brushless-Motor-for-1-10-Racing/32672485654.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">違う型番の同じ筐体モデル<span class="wpel-icon wpel-image wpel-icon-1"></span></a>には、High RPM ABEC5 oversized bearings のベアリングが使われていると書いてありましたので、そこそこ良いモーターなんじゃないでしょうか。大きさは、長さ50mm で36mm のようです。</p>
+<p>CYW-3650 3300KV/4P Brushless Motor <br>￥ 1,692</p>
+<p><a href="https://www.aliexpress.com/item/CYW-3650-3300KV-4P-Brushless-Motor-for-1-10-RC-Car-Parts/32680893349.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="HTB1aHq.JVXXXXXYXXXXq6xXFXXXL" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1aHq.JVXXXXXYXXXXq6xXFXXXL" src="/wp-content/uploads/2016/12/htb1ahq-jvxxxxxyxxxxq6xxfxxxl.jpg" width="480" height="480"></a> あとは、ベルトで分離して駆動するタイプを採用することにしたので、10cm のコレットチャックをチョイス。シャフト径は10mm で、後にベアリングを上下にかませて、筐体に固定する感じを予定。振れ精度はどのくらいあるんでしょうかね。気になるところです。</p>
+<p>C10 ER11A 100L Deep Hole Working Straight Shank Collet Chuck <br>￥ 798</p>
+<p align="left"><a href="https://www.aliexpress.com/item/2016-High-Standard-C10-ER11A-100L-Deep-Hole-Working-Straight-Shank-Collet-Chuck-Holder-Tool-Drawbar/32605174461.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1iFlELFXXXXaCXVXXq6xXFXXXC" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1iFlELFXXXXaCXVXXq6xXFXXXC" src="/wp-content/uploads/2016/12/htb1iflelfxxxxacxvxxq6xxfxxxc2.jpg" width="480" height="480"></a></p>
+<p align="left">それから、コレットで1-7mm までの0.5mm 刻みで13個セットのもの。以下のサイズが入っているものです。</p>
+<p align="left">ER11 collet(1mm/1.5mm/2mm/2.5mm/3mm/3.5mm/4mm/4.5mm/5mm/5.5mm/6mm/6.5mm/7mm)</p>
+<p align="left">コレットって精密品で、高いもののようですが、こんなに安くて精度はどうなんでしょうね。まぁこれが影響する精密な筐体は作れないので、問題ないレベルなんじゃないかと思いますが。 <br>￥ 1,910</p>
+<p align="left"><a href="https://www.aliexpress.com/item/Free-shipping-er11-collet-set-13-pcs-er11-collet-chuck-from-1mm-to-7mm-for-CNC/32251365393.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Free-shipping-er11-collet-set-13-pcs-er11-collet-chuck-from-1mm-to-7mm-for-CNC" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Free-shipping-er11-collet-set-13-pcs-er11-collet-chuck-from-1mm-to-7mm-for-CNC" src="/wp-content/uploads/2016/12/freeshippinger11colletset13pcser11colletchuckfrom1mmto7mmforcnc.jpg" width="480" height="480"></a></p>
+<p align="left">プーリー。まずはコレットチャックのシャフトに付けるボアが10mm のもの 。 <br>GT2 Timing Drive Pulley 36Teeth(36 Teeth) Bore 10MM <br>￥ 220</p>
+<p align="left"><a href="https://www.aliexpress.com/item/GT2-Timing-Drive-Pulley-36Teeth-36-Teeth-Tooth-Alumium-Bore-10MM-For-width-6MM-Belt-2GT/32774126840.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="GT2-Timing-Drive-Pulley-36Teeth-36-Teeth-Tooth-Alumium-Bore-10MM-For-width-6MM-Belt-2GT" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="GT2-Timing-Drive-Pulley-36Teeth-36-Teeth-Tooth-Alumium-Bore-10MM-For-width-6MM-Belt-2GT" src="/wp-content/uploads/2016/12/gt2timingdrivepulley36teeth36teethtoothalumiumbore10mmforwidth6mmbelt2gt.jpg" width="480" height="480"></a> こっちは、モーターに付けるプーリー。3mm でモーターシャフトは、少し太いのですこし削る必要があるかもです。</p>
+<p align="left">Drive Belt Pulleys GT2 16 Teeth Timing Pulley Alumium Bore 3mm <br>￥ 241</p>
+<p align="left"><a href="https://www.aliexpress.com/item/Drive-Belt-Pulleys-GT2-16-Teeth-Timing-Pulley-Alumium-Bore-3mm-fit-for-2GT-Belt-Width/32759306572.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1eJ8eOXXXXXa0XXXXq6xXFXXXu" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1eJ8eOXXXXXa0XXXXq6xXFXXXu" src="/wp-content/uploads/2016/12/htb1ej8eoxxxxxa0xxxxq6xxfxxxu.jpg" width="480" height="480"></a></p>
+<p align="left">GT2 のベルト 110mm と 200mm のを用意。110mmだけでいいかと思いましたが、安かったので。 <br>￥ 70 x２ <br><a href="https://www.aliexpress.com/item/Free-Shipping-3D-printer-belt-closed-loop-rubber-GT2-timing-belt-400-2GT-6-teeth-100/32477498985.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1L29dLpXXXXbiaXXXq6xXFXXX4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1L29dLpXXXXbiaXXXq6xXFXXX4" src="/wp-content/uploads/2016/12/htb1l29dlpxxxxbiaxxxq6xxfxxx4.jpg" width="480" height="480"></a></p>
+<p align="left">スピードコントローラー、ESCというやつです。中はどういう基板とチップが入っているんでしょうかね。ヒートシンクにファン付き。何気にモーターより高いです。</p>
+<p align="left">120A Sensored Brushless ESC Speed Controller</p>
+<p>￥ 2,134</p>
+<p align="left"><a href="https://www.aliexpress.com/item/Toy-Cars-Parts-120A-Sensored-Brushless-ESC-Speed-Controller-for-1-8-1-10-1-12/32702098866.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1NW37KVXXXXbCXpXXq6xXFXXX4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1NW37KVXXXXbCXpXXq6xXFXXX4" src="/wp-content/uploads/2016/12/htb1nw37kvxxxxbcxpxxq6xxfxxx4.jpg" width="573" height="480"></a></p>
+<p align="left">端子。なくてもいいけど、モータ側に端子がついているので綺麗に配線しようかなと。</p>
+<p align="left">20pcs/lot 3.5mm Gold Bullet plug <br>￥ 217</p>
+<p align="left"><a href="https://www.aliexpress.com/item/20pcs-lot-3-5mm-Gold-Bullet-Banana-Connector-Plug-For-ESC-Battery-Motor-10-pair/32671254706.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="20pcs-lot-3-5mm-Gold-Bullet-Banana-Connector-Plug-For-ESC-Battery-Motor-10-pair-" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="20pcs-lot-3-5mm-Gold-Bullet-Banana-Connector-Plug-For-ESC-Battery-Motor-10-pair-" src="/wp-content/uploads/2016/12/20pcslot35mmgoldbulletbananaconnectorplugforescbatterymotor10pair.jpg" width="480" height="480"></a>あとバッテリーの電源へつなぐ端子。まぁ、違うので代用すればいいんだけど、オスが最初から付いているので。メスを。</p>
+<p align="left">HXT 4MM to T Plug&#160; <br>￥ 272<a href="https://www.aliexpress.com/item/1pcs-HXT-4MM-to-T-Plug-Male-Female-Adapter-Lipo-Battery-Bullet-Deans-Wireless/32714903405.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1.MB4LpXXXXbqXpXXq6xXFXXXK" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1.MB4LpXXXXbqXpXXq6xXFXXXK" src="/wp-content/uploads/2016/12/htb1-mb4lpxxxxbqxpxxq6xxfxxxk.jpg" width="567" height="480"></a></p>
+<p align="left">あとは、サーボテスター。 <br>Multi Servo Tester <br>￥ 161</p>
+<p><a href="https://www.aliexpress.com/item/New-Multi-Servo-Tester-3CH-ECS-Consistency-Speed-Controler-Power-Channels-CCPM-Meter-Hot-Selling/32578110399.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1P4FHLXXXXXauaXXXq6xXFXXXV" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1P4FHLXXXXXauaXXXq6xXFXXXV" src="/wp-content/uploads/2016/12/htb1p4fhlxxxxxauaxxxq6xxfxxxv.jpg" width="480" height="480"></a></p>
+<p>来年はこれを作るのにそこそこ時間がかかりそうです。モーターから熱も出るだろうし、ベアリングがシャフトにちゃんと通るかどうか。シャフトを見てからベアリングは日本製のを発注予定。</p>
+<p>&#160;</p>
+<p>電源は、ジャンクのPCサーバ用の240W くらいのがあるのでそれを使う予定。</p>
+<p>&#160;</p>
+<p>これを参考に作ります。ベルト駆動型を選んだのは、直列タイプよりも振れが少なくできそうで、かつ、横Gに対して強く作れるというのが理由です。あとは、高さを抑えられるのでCNC全体がコンパクトに出来るかなと。筐体は、３Dプリンターでとりあえず作ってあとからアルミで削りだしという作戦です。</p>
+<p><img loading="lazy" title="IMG_0697" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_0697" src="/wp-content/uploads/2016/12/img_0697.jpg" width="518" height="480"></p>
+<p>&#160;</p>
+<p>この作者が考えたV-SlotタイプのCNCは以下のようなスタイル。これだと、Y軸方向に弱いので、このまま採用するわけではありませんが、１つの参考イメージとして。</p>
+<p><img loading="lazy" title="ord_with_spindle" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ord_with_spindle" src="/wp-content/uploads/2016/12/ord_with_spindle.jpg" width="512" height="288"></p>
+<p><img loading="lazy" title="ord_family1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ord_family1" src="/wp-content/uploads/2016/12/ord_family1.jpg" width="515" height="290"></p>
+<p>スピンドルをベルトタイプにすることでZ軸の全長が短くなっていい感じじゃないかと思います。テーブルやその他の駆動スタイルはちょっとイメージが違いますが、参考にして、対角スロットのフレームを作ろうと思います。</p>
+<p>&#160;</p>
+<p>まずは、XYZのフレームをどのように駆動させるかを考えますか。年末年始は YouTube みたり、昼寝したりと、まったりと作業予定。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-2576" class="post-2576 post type-post status-publish format-image hentry category-blog category-cat post_format-post-format-image"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/12/17/cat-love/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-12-17T16:13:25+09:00">2016年12月17日</time></a> </span><span class="posted-on">更新日:2016年12月17日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/cat/" rel="category tag noopener noreferrer" data-wpel-link="internal">cat</a></span>
 </div>
 <h1 class="entry-title"><a href="/2016/12/17/cat-love/" rel="bookmark noopener noreferrer" data-wpel-link="internal">猫、ノビる</a></h1></header><div class="entry-content">
 <p>歴代の猫たちの中で、かなり緩みっぱなしになるやつがいて、毎日癒されます。</p>
-<p><img style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2410" src="/wp-content/uploads/2016/12/img_2410.jpg" alt="IMG_2410" width="640" height="480" border="0"></p>
+<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2410" src="/wp-content/uploads/2016/12/img_2410.jpg" alt="IMG_2410" width="640" height="480" border="0"></p>
 <p>どうしようもないですね、、、</p>
 <p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_2409" src="/wp-content/uploads/2016/12/img_2409.jpg" alt="IMG_2409" width="640" height="837" border="0"></p>
 <p>こたつ布団の上と中とを行ったりきたりです。</p>
@@ -177,79 +228,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>どうやら、このキャンペーンは、数に達したようで終わったようです。</p>
 <p><img loading="lazy" title="image" style="border-top:0;border-right:0;background-image:none;border-bottom:0;float:none;padding-top:0;padding-left:0;margin-left:auto;border-left:0;display:block;padding-right:0;margin-right:auto;" border="0" alt="image" src="/wp-content/uploads/2016/05/image2.png" width="808" height="297"></p>
 <p>１台ゲットできてラッキーでした。昨日ポチっていなければ、買えなかったわけですね。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-2153" class="post-2153 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/05/14/fan-e4bb98e38191e381a63e383b6e69c88e9818be794a8e381aee78ab6e6b381-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-05-14T08:37:04+09:00">2016年5月14日</time></a> </span><span class="posted-on">更新日:2016年5月14日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
-</div>
-<h1 class="entry-title"><a href="/2016/05/14/fan-e4bb98e38191e381a63e383b6e69c88e9818be794a8e381aee78ab6e6b381-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Fan 付けて3ヶ月運用の状況</a></h1></header><div class="entry-content">
-<p>ひさびさ更新です。ちょっと忙しくてサボってました。</p>
-<p>やっぱりブログ書かないと、生きてる感じがしないのでメリハリつけるために今日はリハビリ的なネタを書きます。</p>
-<p>&#160;</p>
-<p>Orange Pi PC や、one にファンを付けて夏場も乗り切れるようにしたのですが、温度の推移がどのようになっているかグラフをご紹介。</p>
-<p><img loading="lazy" title="temp" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="temp" src="/wp-content/uploads/2016/05/temp.jpg" width="640" height="480"></p>
-<p>まだ、3D プリンタで筐体を作っていないのでむき出しで吊り下げています。</p>
-<p><img loading="lazy" title="h3_temp" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="h3_temp" src="/wp-content/uploads/2016/05/h3_temp.png" width="640" height="464"></p>
-<p>こちらは、munin で グラフ化している CPU 温度のグラフです。</p>
-<p>だいたい、40度くらいを推移しているようです。最近はあったかくなってきていますので、少し全体に上向き加減ですね。</p>
-<p>&#160;</p>
-<p>途中、空白なのはサーバが落ちている部分です。今のところ原因が不明です。</p>
-<p>直近で落ちている、5/8 の 16時過ぎあたりの sa の負荷は以下のようで、リソース過多ではなさそうな感じかも。10分置きなので瞬間的になにかリソースが食われているのかもですが。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Linux 3.4.39-01-lobo (OrangePi)         05/08/16        _armv7l_        (4 CPU)
-
-00:00:01        CPU      %usr     %nice      %sys   %iowait    %steal      %irq     %soft    %guest    %gnice     %idle
-::
-14:00:01        all     13.14      1.07      4.45      5.42      0.00      0.00      0.20      0.00      0.00     75.73
-14:10:02        all     13.18      1.14      4.32      6.51      0.00      0.00      0.27      0.00      0.00     74.59
-14:20:02        all     13.45      1.07      3.81      4.30      0.00      0.00      0.20      0.00      0.00     77.16
-14:30:01        all     13.59      1.05      3.36      3.20      0.00      0.00      0.20      0.00      0.00     78.60
-14:40:01        all     13.55      1.07      3.79      3.28      0.00      0.00      0.21      0.00      0.00     78.11
-14:50:02        all     13.46      1.07      3.93      3.59      0.00      0.00      0.21      0.00      0.00     77.74
-15:00:02        all     13.43      1.05      3.90      4.28      0.00      0.00      0.22      0.00      0.00     77.11
-15:10:02        all     13.08      1.19      4.46      8.91      0.00      0.00      0.23      0.00      0.00     72.13
-15:20:02        all     12.68      1.07      4.78     12.01      0.00      0.00      0.24      0.00      0.00     69.21
-15:30:02        all     12.87      1.07      5.07      9.51      0.00      0.00      0.24      0.00      0.00     71.25
-15:40:01        all     12.92      1.05      4.41      8.29      0.00      0.00      0.24      0.00      0.00     73.10
-15:50:02        all     12.13      0.96      4.05     12.31      0.00      0.00      0.23      0.00      0.00     70.31
-16:00:02        all     13.15      1.06      3.88      7.11      0.00      0.00      0.22      0.00      0.00     74.57
-16:10:02        all     13.19      1.13      3.83      6.74      0.00      0.00      0.21      0.00      0.00     74.90
-Average:        all     12.89      1.04      4.04      9.13      0.00      0.00      0.23      0.00      0.00     72.66</pre>
-<p>&#160;</p>
-<p>coredump させてみないと詳細は不明です。</p>
-<p>&#160;</p>
-<p>ということで、やりたいことの1/10 も出来ていない状況ですが、ぼちぼちと作業の記録でも付けていくことにします。</p>
-<p>Rasberry Pi も3 が出たようですし、Armbian の OS も Orange Pi PCと one のとが出ているようです。あれこれ試してみたいですね。</p>
-<p>&#160;</p>
-<p>※追記</p>
-<p>落ちる件ですが、messages に手がかりがあり、munin のセッションが systemd よりスタートされているログがたくさんありました。以下出始めた部分。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">May 14 06:34:26 OrangePi rsyslogd-2177: imjournal: 22634 messages lost due to rate-limiting
-Apr 27 07:00:01 OrangePi systemd: Cannot add dependency job for unit tmp.mount, ignoring: Unit tmp.mount is masked.
-Apr 27 07:00:01 OrangePi systemd: Started Session 9098 of user munin.
-Apr 27 07:00:01 OrangePi systemd: Starting Session 9098 of user munin.
-Apr 27 07:00:01 OrangePi systemd: Starting system activity accounting tool...
-Apr 27 07:00:01 OrangePi systemd: Started system activity accounting tool.
-::</pre>
-<p>systemd の munin のファイルを見ると、PrivateTmp というパラメータが true になっているようです。</p>
-<p>tmp がらみの問題かもしれないので、このパラメータをとりあえず無効にして様子見。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@opi 08:30:11 ~]# cat /usr/lib/systemd/system/munin-node.service 
-[Unit]
-Description=Munin Node Server.
-Documentation=man:munin-node
-After=network.target
-
-[Service]
-Type=forking
-PIDFile=/var/run/munin/munin-node.pid
-ExecStart=/usr/sbin/munin-node
-# PrivateTmp=true
-PrivateTmp=false
-Restart=always
-
-[Install]
-WantedBy=multi-user.target</pre>
-<p> ※ リロード忘れずに。</p>
-<p>&#160;</p>
-<p>あと、systemd のパッケージも dnf update systemd でアップデート。しばらくこれで様子見します。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

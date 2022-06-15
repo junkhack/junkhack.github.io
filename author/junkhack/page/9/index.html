@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -71,7 +72,89 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-9581" class="post-9581 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
+</h1></header><article id="post-9631" class="post-9631 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/09/24/termux-wp-backup1/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-09-24T03:23:58+09:00">2020年9月24日</time><time class="updated" datetime="2020-09-24T03:24:20+09:00">2020年9月24日</time></a> </span><span class="posted-on">更新日:2020年9月24日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
+</div>
+<h1 class="entry-title"><a href="/2020/09/24/termux-wp-backup1/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Termuxネイティブ環境でWordPressのバックアップをどうするか考える。その１</a></h1></header><div class="entry-content">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>今日も自宅サーバいじるよ〜！</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>ほんと、好きねぇ〜。今日は何するんですか〜？</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>好きというか、まだ設定いろいろあってw。とりあえず、バックアップをどうしようかなと。</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>プラグインとか便利なのあるでしょ？あれじゃだめ？</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<p>はい、ぴーちゃんの言う通り便利なプラグインがあります。</p>
+<h3>超有名なWordPressバックアッププラグイン</h3>
+<p>この２つが特に有名じゃないでしょうか？</p>
+<p><strong>UpdraftPlus WordPress Backup Plugin</strong></p>
+<figure class="wp-block-image size-large"><a href="https://ja.wordpress.org/plugins/updraftplus/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img width="945" height="420" src="/wp-content/uploads/2020/09/f008a27d25c7dab83bc015058bc00dc5.png" alt="" class="wp-image-9632" srcset="/wp-content/uploads/2020/09/f008a27d25c7dab83bc015058bc00dc5.png 945w, /wp-content/uploads/2020/09/f008a27d25c7dab83bc015058bc00dc5-768x341.png 768w" sizes="(max-width: 945px) 100vw, 945px"></a></figure><p>あと、これ。</p>
+<p><strong>BackWPup – WordPress Backup Plugin</strong></p>
+<figure class="wp-block-image size-large"><a href="https://ja.wordpress.org/plugins/backwpup/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" width="944" height="422" src="/wp-content/uploads/2020/09/299a223ae308b23fdf40437a56cc19a4.png" alt="" class="wp-image-9633" srcset="/wp-content/uploads/2020/09/299a223ae308b23fdf40437a56cc19a4.png 944w, /wp-content/uploads/2020/09/299a223ae308b23fdf40437a56cc19a4-768x343.png 768w" sizes="(max-width: 944px) 100vw, 944px"></a></figure><p>前者のUpdraftPlusは、一度使ったことがあります。通常ならこれでバックアップはOKじゃないでしょうか。でも、今回はちょっと自宅サーバ構成に難があって、自分のドメインに自分でアクセスできない問題があります。</p>
+<h3>自分のドメインに自分でアクセスできない問題！</h3>
+<p>これはつまり、 や、 で自分自身にアクセスできないということです。こういう場合、WordPressのcronやジェットパックなどいろんな部分で問題が発生します。これは、wp-cliで診断すると以下のようになります。</p>
+<pre class="wp-block-code"><code>$ wp cron test
+Error: WP-Cron spawn failed with error: cURL error 28: Connection timed out after 3000 milliseconds</code></pre>
+<p>この、<strong>cURL error 28</strong> エラーはいろんなケースで出るのですが自分の場合は、登録されているURLに自分自身でアクセスできないことが原因です。この問題の根本は以下で紹介しています。まだ解消していません。</p>
+<blockquote class="wp-block-quote">
+<p>ポートフォワードの経路で、Uターン NATとかヘアピンNATが使えないルータの場合のあれこれ</p>
+<cite><a href="/2020/09/07/ポートフォワードの経路で、uターン-natとかヘアピ/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/2020/09/07/ポートフォワードの経路で、uターン-natとかヘアピ/</a></cite>
+</blockquote>
+<p>この解消はまた別の機会にやるとして、今回はこういう中途半端な環境で wp-cronが動作しない中、どうやってバックアップを行うかという感じです。</p>
+<h3>さて、どんな方法があるの？</h3>
+<p>王道としては、バックアップスクリプトを書いて、どこかクラウドストレージへコピーする方法です。データベースと、WordPress側で更新される画像など uploads以下にできるファイル、またカスタマイズするテーマなどもバックアップしておきたいです。それらをスクリプト中に記載してLinuxのcronで実行するという、<s>めんどくさい</s>やり方です。世の中、便利になりすぎてこういうスクリプト書くのが面倒になってきています。</p>
+<h3>バックアップ方針とTermux環境で使えそうなツール</h3>
+<p>バックアップ方針は、やってる最中に気が変わるとして、下調べしてみると必要なツールは以下となりそうです。</p>
+<p>・クラウドへのバックアップ　<br>　→　GoogleDriveにバックアップしたい<br>　→　<strong>rclone</strong>がある！<br>・uploadsは差分バックアップしたい<br>　→　<strong>rsync</strong>がある<br>　→　Termuxもバイナリがある<br>・全部、スクリプトで書くと面倒<br>　→　<strong>wp-cli</strong>　を使って、<strong>プラグインと併用</strong>してみる<br>・DBは<strong>30日分保存</strong>、uploadsは<strong>差分保存</strong></p>
+<p>幸い、Termuxのバイナリにはこれらのツールが揃っていることがわかりました。rclone は、今回はじめて使います。</p>
+<blockquote class="wp-block-quote">
+<p>Rclone syncs your files to cloud storage</p>
+<cite><a href="https://rclone.org/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://rclone.org/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<p>・WordPressのcronは、自己のURLで自分自身をcurlで叩いている。<br>・それが出来ないと、cURL error 28のエラーが発生する。<br>・wp-cliで、wordpress の jobを linux の cron で叩けば動く<br>・クラウドへの保存ツールは、rcloneで解決</p>
+<h3>あとがき</h3>
+<p>まぁ、そもそもネットワーク構成をちゃんとやって自分自身をちゃんと参照できるようにしないとだめだよなーと。ただ、NATとポートフォワードをしていて内部LAN側に違うポートで提供している環境は他にもあると思うので、もしかすると誰かの参考になるかなとも。たぶん、その２へ続くと思います。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-9581" class="post-9581 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/09/21/site24x7/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-09-21T15:47:22+09:00">2020年9月21日</time><time class="updated" datetime="2020-09-22T04:56:33+09:00">2020年9月22日</time></a> </span><span class="posted-on">更新日:2020年9月22日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
 </div>
 <h1 class="entry-title"><a href="/2020/09/21/site24x7/" rel="bookmark noopener noreferrer" data-wpel-link="internal">無料の外部から監視するサービスを使って見た！site24x7</a></h1></header><div class="entry-content">
@@ -89,7 +172,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <cite><a href="/status/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/status/</a></cite>
 </blockquote>
 <p>上記リンクは、有料プランが終わったときには見れないのでスクリーンショットをつけておきます。有料プランはカスタマイズしたグラフをダッシュボードに作り、それを共有することが可能です。</p>
-<figure class="wp-block-image size-large"><img width="976" height="649" src="/wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status-1.png" alt="" class="wp-image-9607" srcset="/wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status-1.png 976w, /wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status-1-768x511.png 768w" sizes="(max-width: 976px) 100vw, 976px"></figure><p>いろんなグラフが作れますが、上から「応答時間詳細」でこれは東京リージョンからのものです。その下が、「ページ読み込み時間詳細」です。どちらも、DNSや接続時間など詳細に出ています。</p>
+<figure class="wp-block-image size-large"><img loading="lazy" width="976" height="649" src="/wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status-1.png" alt="" class="wp-image-9607" srcset="/wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status-1.png 976w, /wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status-1-768x511.png 768w" sizes="(max-width: 976px) 100vw, 976px"></figure><p>いろんなグラフが作れますが、上から「応答時間詳細」でこれは東京リージョンからのものです。その下が、「ページ読み込み時間詳細」です。どちらも、DNSや接続時間など詳細に出ています。</p>
 <p>応答時間詳細は、各所にヒゲ状に突出している部分がありますね。また、ページ読込時間を見ると夜間帯は安定していますが、昼間はギザギザしていますね。</p>
 <figure class="wp-block-image size-large"><img loading="lazy" width="974" height="649" src="/wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status2.png" alt="" class="wp-image-9608" srcset="/wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status2.png 974w, /wp-content/uploads/2020/09/junkhack_gpl_jp_Network_status2-768x512.png 768w" sizes="(max-width: 974px) 100vw, 974px"></figure><p>次は、「スループット」と「各ロケーションからのSSLハンドシェイク時間」です。200kb/secくらい最高で出ていますが、平均値は120kb/secくらいですね。WEBデータのような小さいデータの転送は速度があまり出ないのかな？</p>
 <p>SSLハンドシェイクの時間は、各拠点からのものでこの拠点は世界中から８箇所まで選べます。国内だと東京・長野・大阪が選べました。</p>
@@ -451,172 +534,6 @@ SSLRandomSeed connect builtin
 <p>空白行は、ないでしょ。つまり改行だけなんで、上記のように表示されます。空白行を含む表現は、以下なんでタイプ数が多いので面倒なんです。</p>
 <pre><span class="s1">'^\s*$'</span></pre>
 <p>まぁ、どうでもいい話ですが。w</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-9467" class="post-9467 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/09/13/termux-acme-nginx/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-09-13T04:42:36+09:00">2020年9月13日</time><time class="updated" datetime="2021-07-04T21:16:29+09:00">2021年7月4日</time></a> </span><span class="posted-on">更新日:2021年7月4日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
-</div>
-<h1 class="entry-title"><a href="/2020/09/13/termux-acme-nginx/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Termuxネイティブ環境でacme-nginxを使いワイルドカード証明書を自動取得！</a></h1></header><div class="entry-content">
-<p>前回、別記事にすると言っていた件です。</p>
-<blockquote class="wp-block-quote">
-<p>Termux環境で動作するLet’s Encryptのワイルドカードドメインに対応した自動化ツールを探せ！</p>
-<cite><a href="/2020/09/11/wildcard-domain-acme/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/2020/09/11/wildcard-domain-acme/</a></cite>
-</blockquote>
-<p>今日のネタは、Termuxネイティブ環境で acme-nginx というPythonで、作られた自動化ツールで Let’s Encrypt のワイルドカードドメイン証明書を取得します。さぁうまく出来るでしょうか？ ちなみに、ワイルドカード証明書とは、以下のようなことを言います。</p>
-<h3>ワイルドカード証明書とは</h3>
-<blockquote class="wp-block-quote">
-<p>「*.example.jp」のように、コモンネームの一番左のラベルにアスタリスク（*）を指定したサーバー証明書です。<br><br>ワイルドカード証明書は「www.example.jp」「login.example.jp」「member.example.jp」のように、アスタリスクと同一階層のサブドメインのみが異なるすべてのサーバーにインストールできます。<br>また、JPRSの提供するワイルドカード証明書なら、「*.example.jp」の証明書を「example.jp」のようにアスタリスク（*）を除いたホスト名のサーバーでも利用できます。</p>
-<cite>https://jprs.jp/pubcert/about/wildcard/</cite>
-</blockquote>
-<p>では作ってみましょう。acme-nginx はもう入れてあるものとします。DNSはデジタルオーシャンに変更して、APIトークンを取得してあります。</p>
-<h3>ステップ１</h3>
-<p>適当な証明証を入れておくディレクトリを作っておきます。例では、example.jp　というドメインで説明しています。</p>
-<pre class="wp-block-code"><code>cd
-mkdir -p ssl/example.jp
-cd ssl/example.jp</code></pre>
-<h3>ステップ２</h3>
-<p>アカウントキーと、ドメインキーを作成します。</p>
-<pre class="wp-block-code"><code>openssl genrsa 4096 &gt; account.key
-openssl genrsa 4096 &gt; example.jp.key</code></pre>
-<h3>ステップ３</h3>
-<p>digitaloceanのトークンを環境変数に入れておきます。</p>
-<pre class="wp-block-code"><code>export API_TOKEN=digitaloceanのトークン</code></pre>
-<h3>ステップ４</h3>
-<p>証明書を発行します。WEBの認証はないので便利ですね。パスは、Termuxxの環境変数 $PREFIX に置き換えたほうが見やすいかもですね。</p>
-<pre class="wp-block-code"><code>acme-nginx \
-	--no-reload-nginx \
-	-k /data/data/com.termux/files/home/ssl/example.jp/account.key \
-	--dns-provider digitalocean \
-	--domain-private-key /data/data/com.termux/files/home/ssl/example.jp/example.jp.key \
-	-o /data/data/com.termux/files/home/ssl/example.jp/example.jp.crt \
-	-d '*.example.jp' -d 'example.jp'</code></pre>
-<p>ドメインの指定は、*.example.jp と example.jp を指定します。そうしないと、example.jp でのドメインだけのアクセスで証明書が無効となります。<br>　実際のログは（ドメイン名は置き換えていますが）以下のようになります。</p>
-<pre class="wp-block-code"><code>2020-09-13 02:45:40,777 - INFO - trying to create account key /data/data/com.termux/files/home/ssl/example.jp/account.key
-2020-09-13 02:45:41,727 - INFO - trying to register acmev2 account
-2020-09-13 02:45:43,612 - INFO - already registered
-2020-09-13 02:45:43,613 - INFO - trying to create domain key
-2020-09-13 02:45:43,615 - INFO - acmev2 dns challenge
-2020-09-13 02:45:43,615 - INFO - preparing new order
-2020-09-13 02:45:46,648 - INFO - order created
-2020-09-13 02:45:47,644 - INFO - verifying domain example.jp
-2020-09-13 02:45:47,670 - INFO - creating TXT dns record _acme-challenge.example.jp IN TXT uWmLyGGgK1Jyj（省略）RHo-A5TUKBAac
-2020-09-13 02:45:50,642 - INFO - asking acme server to verify challenge
-2020-09-13 02:45:52,486 - INFO - waiting for example.jp challenge verification
-2020-09-13 02:45:53,239 - INFO - example.jp verified!
-2020-09-13 02:45:53,240 - INFO - delete dns record
-2020-09-13 02:45:56,793 - INFO - verifying domain example.jp
-2020-09-13 02:45:56,817 - INFO - creating TXT dns record _acme-challenge.example.jp IN TXT hP2bwoYASAQYL（省略）VkiKGDupZxfw0
-2020-09-13 02:45:59,551 - INFO - asking acme server to verify challenge
-2020-09-13 02:46:02,005 - INFO - waiting for example.jp challenge verification
-2020-09-13 02:46:02,884 - INFO - example.jp verified!
-2020-09-13 02:46:02,885 - INFO - delete dns record
-2020-09-13 02:46:05,385 - INFO - signing certificate
-2020-09-13 02:46:08,480 - INFO - certificate signed!
-2020-09-13 02:46:08,480 - INFO - downloading certificate
-2020-09-13 02:46:09,472 - INFO - writing result file in /data/data/com.termux/files/home/ssl/example.jp/example.jp.crt</code></pre>
-<p>30秒くらいで、完了していますね。dnsにテキストレコードを書いている部分が2回あります。ちゃんと認証が通ればテキストレコードは削除していますね。これは便利！作者に感謝です！</p>
-<h3>ステップ４</h3>
-<p>あとは、キーと証明書をnginxに設定して再起動しておきます。</p>
-<pre class="wp-block-code"><code>・Key
-　/data/data/com.termux/files/home/ssl/example.jp/example.jp.key
-
-・CRT
-　/data/data/com.termux/files/home/ssl/example.jp/example.jp.crt</code></pre>
-<p>あとは、実際のクライアントから確認してみます。</p>
-<figure class="wp-block-image size-large is-style-default"><img src="/wp-content/uploads/2020/09/e590b9e3818de587bae38197e381a3e381a6e381a8e38299e38186e38284e3828be381aee3818be381aaefbc9f_e28093_junkhack_e381a8_e590b9e3818de587bae38197e381a3e381a6e381a8e38299e38186e38284e3828be381ae.png?w=1004" alt="" class="wp-image-6063"></figure><p>おー、鍵マークがかかっていますね。うまくできているようです！　今度は、curlで https://gpl.jp にアクセスできるか確認してみます。WordPressには、このドメインはマッピングしていないので、静的ファイルが置いてあるURLに対してアクセスしてみます。curlクライアントはリモートのMacからです。</p>
-<pre class="wp-block-code"><code>$ curl -Iv https://gpl.jp/license.txt
-*   Trying 116.58.181.140...
-* TCP_NODELAY set
-* Connected to gpl.jp (116.58.181.140) port 443 (#0)
-* ALPN, offering h2
-* ALPN, offering http/1.1
-* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
-* successfully set certificate verify locations:
-*   CAfile: /etc/ssl/cert.pem
-  CApath: none
-* TLSv1.2 (OUT), TLS handshake, Client hello (1):
-* TLSv1.2 (IN), TLS handshake, Server hello (2):
-* TLSv1.2 (IN), TLS handshake, Certificate (11):
-* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
-* TLSv1.2 (IN), TLS handshake, Server finished (14):
-* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
-* TLSv1.2 (OUT), TLS change cipher, Client hello (1):
-* TLSv1.2 (OUT), TLS handshake, Finished (20):
-* TLSv1.2 (IN), TLS change cipher, Client hello (1):
-* TLSv1.2 (IN), TLS handshake, Finished (20):
-* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
-* ALPN, server accepted to use h2
-* Server certificate:
-*  subject: CN=*.gpl.jp
-*  start date: Sep 12 16:46:12 2020 GMT
-*  expire date: Dec 11 16:46:12 2020 GMT
-*  subjectAltName: host "gpl.jp" matched cert's "gpl.jp"
-*  issuer: C=US; O=Let's Encrypt; CN=Let's Encrypt Authority X3
-*  SSL certificate verify ok.
-* Using HTTP2, server supports multi-use
-* Connection state changed (HTTP/2 confirmed)
-* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
-* Using Stream ID: 1 (easy handle 0x7fd360002000)
-&gt; HEAD /license.txt HTTP/2
-&gt; Host: gpl.jp
-&gt; User-Agent: curl/7.54.0
-&gt; Accept: */*
-&gt; 
-* Connection state changed (MAX_CONCURRENT_STREAMS updated)!
-&lt; HTTP/2 200 
-HTTP/2 200 
-&lt; server: nginx
-server: nginx
-&lt; date: Sat, 12 Sep 2020 18:09:29 GMT
-date: Sat, 12 Sep 2020 18:09:29 GMT
-&lt; content-type: text/plain; charset=utf-8
-content-type: text/plain; charset=utf-8
-&lt; content-length: 19915
-content-length: 19915
-&lt; last-modified: Wed, 12 Feb 2020 11:54:05 GMT
-last-modified: Wed, 12 Feb 2020 11:54:05 GMT
-&lt; vary: Accept-Encoding
-vary: Accept-Encoding
-&lt; etag: "5e43e75d-4dcb"
-etag: "5e43e75d-4dcb"
-&lt; strict-transport-security: max-age=15552000
-strict-transport-security: max-age=15552000
-&lt; x-xss-protection: 1; mode=block
-x-xss-protection: 1; mode=block
-&lt; x-frame-options: DENY
-x-frame-options: DENY
-&lt; x-frame-options: SAMEORIGIN
-x-frame-options: SAMEORIGIN
-&lt; x-frame-options: ALLOW-FROM https://www.youtube.com https://www.wordpress.com
-x-frame-options: ALLOW-FROM https://www.youtube.com https://www.wordpress.com
-&lt; x-content-type-options: nosniff
-x-content-type-options: nosniff
-&lt; content-security-policy: default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' ;
-content-security-policy: default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' ;
-&lt; referrer-policy: strict-origin
-referrer-policy: strict-origin
-&lt; permissions-policy: fullscreen=() geolocation=()
-permissions-policy: fullscreen=() geolocation=()
-&lt; x-hacker: Hello. :-)
-x-hacker: Hello. :-)
-&lt; accept-ranges: bytes
-accept-ranges: bytes
-
-&lt; 
-* Connection #0 to host gpl.jp left intact</code></pre>
-<p>ちょっと長いですが、途中「SSL certificate verify ok.」が出ていますね。接続は、TLS2 でHTTP/2 プロトコルになっていますね。これで当初の目的は達成できました！ チェックサイトでは、A+判定出ていました。問題なさそうですね。</p>
-<figure class="wp-block-image size-large is-style-default"><img src="/wp-content/uploads/2020/09/ssl_server_test__jh_gpl_jp__powered_by_qualys_ssl_labs_-1.png?w=996" alt="" class="wp-image-6066"></figure><blockquote class="wp-block-quote">
-<p>SSL Server Test (Qualys SSL Labs)</p>
-<cite><a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.ssllabs.com/ssltest/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<p>あとは、自動実行すればいいんですが termux の限られたリソースの中で cronjobを回して、ログを出し、何かあったらメールするっていうのをやるべきか、その他の方法を採用するかで迷っています。</p>
-<p>　そもそも、termux でcronjobはちゃんと動くか確認しておかないとです。なんたって、androidシステム上で動いているわけですから。Dozeモードの影響とかそういうのは大丈夫なのか確認しないとです。</p>
-<h3>定期実行しておく</h3>
-<p>手動で実行していましたが、Site24x7 の監視サービスからアラートが飛んでくるので（これはありがたい機能ですが）cronに登録しておきました。しばらく様子を見てみます。</p>
-<pre class="wp-block-code"><code># update SSL . Run at 5:30 on the 1st and 15th of every month
-30 5 1,15 * * /data/data/com.termux/files/home/ssl/gpl.jp/renew-cert.sh | $PREFIX/bin/msmtp junkhack@gpl.jp</code></pre>
-<h3>あとがき</h3>
-<p>気になることはいろいろありますが、そろそろデータの引っ越しをやりますかね。 WordPress.com から速めに引っ越しして、新環境で記事を書いて行きたいです。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,12 +71,32 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1426" class="post-1426 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1437" class="post-1437 post type-post status-publish format-standard has-post-thumbnail hentry category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/23/request-a-sample-of-ina226-from-ti/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2015-10-23T05:54:09+09:00">2015年10月23日</time><time class="updated" datetime="2022-05-06T16:47:08+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/10/23/request-a-sample-of-ina226-from-ti/" rel="bookmark noopener noreferrer" data-wpel-link="internal">INA226をTIにサンプル請求</a></h1></header><div class="entry-content">
+<p>Texas Instruments さんのサイトを眺めているとsample を出してくれるようで、早速申し込みしておきました。こんなサービスがあったんですね。</p>
+<p><img style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="Order_Receipt" src="/wp-content/uploads/2015/10/order_receipt.png" alt="Order_Receipt" width="640" height="207" border="0"></p>
+<p>この手のジャンルの石は、デジタル出力電流シャント・モニタ というそうです。</p>
+<p><a href="http://www.tij.co.jp/lsds/ti_ja/amplifiers-linear/current-shunt-digital-output-products.page" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="ti" src="/wp-content/uploads/2015/10/ti.png" alt="ti" width="523" height="768" border="0"></a></p>
+<p>INA226 のQ-1 とそうでないのはスペック上は同じもののようです。価格以外は。「Programmable Over-Current Alert 」というのがあるようです。まぁ、どちらもGain のError が 0.02% と他のラインナップと1桁違います。</p>
+<p>パッケージは、以下のようです。</p>
+<p><a href="http://www.tij.co.jp/jp/lit/ml/mpds035b/mpds035b.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="vssop" src="/wp-content/uploads/2015/10/vssop.png" alt="vssop" width="590" height="768" border="0"></a>PCB上に配置してみると、ACS712 と比べてみると、一回り小さいです。</p>
+<p><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="zzzz" src="/wp-content/uploads/2015/10/zzzz.png" alt="zzzz" width="448" height="480" border="0"></p>
+<p>電流を計測するのは、モーター制御に使うアナログの製品もあるようです。この手のタイプは、「アナログ電流出力電流シャント・モニタ」というようです。</p>
+<p>いろいろと、不明なことがあって、例えば<a href="http://www.yamaki-ec.co.jp/yamaki-onlineshop/product/link/faq_02.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">シャント抵抗<span class="wpel-icon wpel-image wpel-icon-1"></span></a>というキーワードが一昨日から気になって調べていました。特に気になったのは、20mΩという表記があって、このmは、Mと勘違いしていました。（というのが、会社の電子工学出の方に教えてもらいました）20ミリΩということで、0.02Ωということで納得。当初、なんで20メガΩなんてデカイのを電流計測で使うんだ？と思っていました。ソフトウェアやっていると、<a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%AA" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">m という単位<span class="wpel-icon wpel-image wpel-icon-1"></span></a>はあまり（ほぼ？）使わないので、Mが連想してしまいます。</p>
+<p>シャント抵抗をつけるときは、パターンに注意する必要がありそうです。PCB の箔厚35μmでパターン幅1mmの場合、パターン長1cmで約5mΩとのこと。シャント抵抗の根元からPINへ配線。</p>
+<p><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="www_tij_co_jp_jp_lit_ds_symlink_ina193_pdf" src="/wp-content/uploads/2015/10/www_tij_co_jp_jp_lit_ds_symlink_ina193_pdf.png" alt="www_tij_co_jp_jp_lit_ds_symlink_ina193_pdf" width="407" height="480" border="0"></p>
+<p>誤差が少ない、2mΩの抵抗とかいくらくらいするんでしょうかね？Aliexpress で、50個1セットくらいで666円くらいでした。</p>
+<p><a href="http://www.aliexpress.com/item/2512-SMD-Resistor-0-02R-0-02ohm-1-2512-SMD-Resistor-1W-50pcs-lot-free-shipping/32291638396.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="HTB1ce8HHpXXXXXHXXXXq6xXFXXX0" src="/wp-content/uploads/2015/10/htb1ce8hhpxxxxxhxxxxq6xxfxxx0.jpg" alt="HTB1ce8HHpXXXXXHXXXXq6xXFXXX0" width="394" height="358" border="0"></a></p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1426" class="post-1426 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/21/e68ba1e5bcb5e9968be799bae3839ce383bce38389/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-21T01:15:15+09:00">2015年10月21日</time></a> </span><span class="posted-on">更新日:2015年10月21日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/10/21/e68ba1e5bcb5e9968be799bae3839ce383bce38389/" rel="bookmark noopener noreferrer" data-wpel-link="internal">拡張開発ボード</a></h1></header><div class="entry-content">
 <p>大体、本体側は出来たので拡張ボードを何か作ろうかと。特にアイデアがまだないので、思考中ですが、電流計測なんかあると面白いんじゃないかと思い、ACS712 あたりを入れたらどうかと。それか、汎用的にユニバーサルピッチと、8pin のIC とか乗せて、足だけつけるのもありかなぁと。</p>
-<p><img title="4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4" src="/wp-content/uploads/2015/10/41.png" width="449" height="480"></p>
+<p><img loading="lazy" title="4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4" src="/wp-content/uploads/2015/10/41.png" width="449" height="480"></p>
 <p>真ん中の余った部分には、各種パッケージのパターンを織り込んで、手半田で出来るサイズを作っておけばいいかも。</p>
 <p>あると便利だなと思うのは、</p>
 <p>・ロジック変換</p>
@@ -224,31 +245,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p><a href="http://music-device.com/web/2015/07/25/esp8266-circuits/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ESP8266 へ ArduinoIDEからの書き込み<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>14 と 16 から取って、裏側のサイドにLED配置しても光は見えるかなぁ。どうしますかね。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1376" class="post-1376 post type-post status-publish format-standard hentry category-aliexpress category-parts category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/14/e3818ae8b2b7e38184e789a9/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-14T22:05:17+09:00">2015年10月14日</time></a> </span><span class="posted-on">更新日:2015年10月14日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/10/14/e3818ae8b2b7e38184e789a9/" rel="bookmark noopener noreferrer" data-wpel-link="internal">お買い物</a></h1></header><div class="entry-content">
-<p>そういえば、リセットボタンを付けてないやと思い、リセットボタンでお値打ちなものをゲット。赤色のがよかったので、以下のにしました。100個 272円 @2.8円 3 x 6 x 2.5mm</p>
-<p><a href="http://www.aliexpress.com/item/Free-shiping-100pcs-3-6-2-5-mm-3-6-2-5H-SMD-red-Button-switch/1078281819.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="Free-shiping-100pcs-3-6-2-5-mm-3-6-2-5H-SMD-red-Button-switch" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Free-shiping-100pcs-3-6-2-5-mm-3-6-2-5H-SMD-red-Button-switch" src="/wp-content/uploads/2015/10/freeshiping100pcs3625mm3625hsmdredbuttonswitch.jpg" width="282" height="205"></a> ついでに、いつも買い忘れちゃう小手先。10本セット 516円。ぽちり出したらとまらなくなりました。ピンセット。6本セットで451円</p>
-<p><img loading="lazy" title="HTB1DMcNHXXXXXXeXpXXq6xXFXXXk" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1DMcNHXXXXXXeXpXXq6xXFXXXk" src="/wp-content/uploads/2015/10/htb1dmcnhxxxxxxexpxxq6xxfxxxk.jpg" width="480" height="480"><a href="http://www.aliexpress.com/item/P80-Hot-sale-6pcs-lot-Resists-Corrosion-Safe-Anti-static-Tweezers-Maintenance-Tools-ESD10-15/1882941802.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HT1NikCFSFbXXagOFbXo" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HT1NikCFSFbXXagOFbXo" src="/wp-content/uploads/2015/10/ht1nikcfsfbxxagofbxo.jpg" width="480" height="480"></a></p>
-<p>&#160; そして、クリーム半田XG-40。2個セットで759円。注射器タイプが断然便利。</p>
-<p><a href="http://www.aliexpress.com/item/New-Arrival-High-Quality-2Pcs-XG-40-10CC-BGA-Solder-Flux-Paste-Soldering-Tin-Cream-Sn63/32390784244.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1RpNFIFXXXXakXXXXq6xXFXXXe" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1RpNFIFXXXXakXXXXq6xXFXXXe" src="/wp-content/uploads/2015/10/htb1rpnfifxxxxakxxxxq6xxfxxxe.jpg" width="480" height="480"></a></p>
-<p>そして、以下はアマゾンにて。これなんていうんだっけ、小手先クリーナー？</p>
-<p><img loading="lazy" title="51drPfcu4PL._SY355_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="51drPfcu4PL._SY355_" src="/wp-content/uploads/2015/10/51drpfcu4pl-_sy355_.jpg" width="355" height="355"></p>
-<p>映像をモニタに出力できるように、カメラをどっかにつけて改造するとは思いますが、安かったのでついでに。</p>
-<p><img loading="lazy" title="411WnfR1LjL._SY355_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="411WnfR1LjL._SY355_" src="/wp-content/uploads/2015/10/411wnfr1ljl-_sy355_.jpg" width="355" height="355"></p>
-<p>最後に、今回の工作に不可欠な Hot Air Gun！ついに手を出してしまいました。安くなってましたしね。5600円</p>
-<p><img loading="lazy" title="71uWWYBeCfL._SL1001_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="71uWWYBeCfL._SL1001_" src="/wp-content/uploads/2015/10/71uwwybecfl-_sl1001_.jpg" width="480" height="480"></p>
-<p>当初、こっちを買おうとずっと Wish List に入れていたのですが、9600円くらいするし、冷静に考えると小手自体は、2本もありますしね。エアフローだけあればいいやということで。</p>
-<p><a href="http://www.aliexpress.com/item/2-in-1-Rework-Station-Soldering-Iron-Hot-Air-Gun-Double-Digital-Display-700W-High-Quality/32334497926.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1pFfDHFXXXXbxaXXXq6xXFXXXB" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="HTB1pFfDHFXXXXbxaXXXq6xXFXXXB" src="/wp-content/uploads/2015/10/htb1pffdhfxxxxbxaxxxq6xxfxxxb.jpg" width="480" height="480"></a></p>
-<p>リセットボタンをぽちり出してからとまりませんでしたね。ま、道具は必要ですから。</p>
-<p>SMD の半田付け、ステンシルとかいらないんじゃないの？って以下の映像見てたら思いましたが。</p>
-<p>&#160;</p>
-<p> [youtube https://www.youtube.com/watch?v=pz9163EQIsk]</p>
-<p>&#160;</p>
-<p>SMD工作の準備はできました。さて、リセットボタンでもつけますかね。今週末には、PCB を発注したいので。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

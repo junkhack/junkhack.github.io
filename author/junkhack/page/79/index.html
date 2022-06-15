@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,36 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-883" class="post-883 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
+</h1></header><article id="post-886" class="post-886 post type-post status-publish format-standard hentry category-filesystem category-linux"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/24/aufse381a8e3818b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-24T06:49:46+09:00">2015年7月24日</time></a> </span><span class="posted-on">更新日:2015年7月24日</span> <span class="categories"> <a href="/category/filesystem/" rel="category tag noopener noreferrer" data-wpel-link="internal">FileSystem</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/07/24/aufse381a8e3818b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">AUFSとか</a></h1></header><div class="entry-content">
+<p>正式名称は、<a href="https://ja.wikipedia.org/wiki/Aufs" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a> によるとAnotherUnionFSというのだそうな。</p>
+<p>Docker とかにも使われているそうで、こんなわかりやすいページがあった。</p>
+<blockquote>
+<p>Dockerイメージの差分管理についてまとめてみた</p>
+<p><a title="http://tanksuzuki.com/post/docker-image-filesystem/" href="http://tanksuzuki.com/post/docker-image-filesystem/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://tanksuzuki.com/post/docker-image-filesystem/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>Docker とかは、見聞きしたことはあるんだけども、実際に使ったことはなくどんなものなのかはよく知りません。</p>
+<p>一言でいえば、</p>
+<blockquote><p>異なるファイルシステムのファイルやディレクトリを透過的に重ねて、ひとつのファイルツリーを構成できるファイルシステム</p></blockquote>
+<p>ということのようです。BerryBoot のファイルシステムはまさにこれのようですね。このカーネルをあげてchroot すれば最新に追随できそうな感じです。この週末はそんなことにチャレンジしてみるか、気分一新、工作に手を出すかですね。</p>
+<p>ほんと、知らないことがたくさんがたくさんありますね。奥が深いというか、知れば知るほど、深みにはまるというか。</p>
+<p>NFS でルートファイルシステムをブートさせる記事があったので、</p>
+<blockquote>
+<p>raspberryPiをNFSで起動する</p>
+<p><a title="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" href="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<blockquote>
+<p>Boot Raspberry Pi over NFS</p>
+<p><a title="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" href="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.whaleblubber.ca/boot-raspberry-pi-nfs/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>とりあえず、これを週末に実験してみますか。</p>
+<p>&#160;</p>
+<p>ちょっとづつこのあたりは、永続的に押さえていこうかと思います。RasPi をゲットしなければこういうことも、ずっと知らないままだったのかもしれないことを考えると、価値があったと思います。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-883" class="post-883 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/20/berryboot-e381ae-kernel/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-20T22:28:52+09:00">2015年7月20日</time></a> </span><span class="posted-on">更新日:2015年7月20日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/20/berryboot-e381ae-kernel/" rel="bookmark noopener noreferrer" data-wpel-link="internal">BerryBoot の kernel で起動してるってこと？</a></h1></header><div class="entry-content">
@@ -485,146 +515,6 @@ drwxr-xr-x.  21 root root  4096  5月 22 04:12 var/</pre>
 <p># rm Fedora-Workstation-armhfp-22-3-sda.*</p>
 </blockquote>
 <p>おつかれさまです。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-857" class="post-857 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/18/berryboot-img/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-18T16:02:38+09:00">2015年7月18日</time></a> </span><span class="posted-on">更新日:2015年7月18日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/07/18/berryboot-img/" rel="bookmark noopener noreferrer" data-wpel-link="internal">berryboot.img の中をのぞいてみた</a></h1></header><div class="entry-content">
-<p>berryboot の作りをもう少し見たかったので、起動するboot img をばらして覗いてみました。手順は絶対忘れるのでメモしておきます。</p>
-<p>&#160;</p>
-<p>作業は、osx でやっています。 <br>とりあえず、作業用にRAMディスクを作っておきます。 <br>作業は、RAMディスクの中じゃなくてもいいんですが、何かと速くて間違えなくて便利なので、自分用のメモの意味をあって書いています。独立したファイルシステムにフォーマットすることも簡単ですしね。</p>
-<p>osx でRAMディスクを作成するには、</p>
-<blockquote><p>$ diskutil eraseDisk HFS+ RAMDISK `hdiutil attach -nomount ram://8388608`</p></blockquote>
-<p>この例では、ディスクサイズは8388608（4096 * 2048）で4GB のRAMディスクとしています。</p>
-<p>コマンドラインがいやな場合は、RAMDiskCreator というツールをFlorian Bognerさんが公開しているので使ってみてください。</p>
-<p><img loading="lazy" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/07/a1.png" width="386" height="254"></p>
-<p> <img loading="lazy" title="_Applications" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="_Applications" src="/wp-content/uploads/2015/07/applications.png" width="355" height="307"></p>
-<p align="center"><a href="https://bogner.sh/2012/12/os-x-create-a-ram-disk-the-easy-way/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">RAMDiskCreator 1.2<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>&#160;</p>
-<p><img loading="lazy" title="aa" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="aa" src="/wp-content/uploads/2015/07/aa.png" width="171" height="138"></p>
-<p>これ以下は、Linux でも同じなはずです。</p>
-<p>file で berriboot.img を見ると、u-boot の uImage のようです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ file berryboot.img 
-berryboot.img: u-boot legacy uImage, , Linux/ARM, RAMDisk Image (Not compressed), 10112736 bytes, Wed Apr  1 07:32:40 2015, Load Address: 0x00000000, Entry Point: 0x00000000, Header CRC: 0xAB28A904, Data CRC: 0x6870C48E</pre>
-<p>これは調べてみると、以下のようにすることで展開できるようです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ dd if=berryboot.img bs=64 skip=1 of=berryboot_initrd
-158011+1 records in
-158011+1 records out
-10112736 bytes transferred in 0.315515 secs (32051518 bytes/sec)</pre>
-<p>先頭64bite に属性情報があるようで、それを飛ばして DD してやればよいようです。再度、file で見てみると、</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ file berryboot_initrd 
-berryboot_initrd: gzip compressed data, was &quot;rootfs.cpio&quot;, from Unix, last modified: Wed Apr  1 07:32:37 2015, max compression</pre>
-<p>cpio のようです。tmp ディレクトリを作成後、そこに展開してみます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ mkdir tmp
-$ cd tmp/
-$ cpio -idm &lt; ../berryboot_initrd</pre>
-<p>うまく展開されたようです。</p>
-<p>init では以下のようなことをしているようです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- /init
-#!/bin/sh
-#
-# BerryBoot, ugly but functional image chooser thingy
-#
-# Author: Floris Bos
-#
-
-# Standard busybox init
-/bin/mount -t proc proc /proc
-/bin/mount -o remount,rw,noatime / 
-/bin/mount -t sysfs sysfs /sys
-/bin/mount -t devtmpfs dev /dev
-/bin/hostname -F /etc/hostname
-
-if grep -q debugconsole /proc/cmdline; then
-    /sbin/getty -L tty2 0 vt100 &amp;
-fi
-
-if grep -q &quot;mmc0_led&quot; /proc/cmdline; then
-    if [ -e /sys/class/leds/ph20:green:led1 ]; then
-        echo mmc0 &gt; /sys/class/leds/ph20:green:led1/trigger
-    fi
-fi
-
-if grep -q vncinstall /proc/cmdline; then
-    export QWS_DISPLAY=&quot;VNC:size=800x600:depth=32:0&quot;
-    echo
-    echo Connect with your VNC client
-    echo If you wish to disable VNC mode: remove 'vncinstall' from cmdline.txt
-    echo
-fi
-
-# Show GUI, it will write the OS choosen to /tmp/answer
-/usr/bin/BerrybootGUI -qws 2&gt;/tmp/debug 
-
-# Clear screen
-clear
-
-IMAGE=`cat /tmp/answer`
-DATADIR=&quot;/mnt/data/$IMAGE&quot;
-rm /tmp/answer
-
-#
-# Set CPU governor to &quot;ondemand&quot; when booting an OS on the Pi
-# Set it to &quot;performance&quot; for other devices
-#
-if grep -q &quot;BCM2708&quot; /proc/cpuinfo; then
-    GOVERNOR=ondemand
-else
-    GOVERNOR=performance
-fi
-
-if [ &quot;$IMAGE&quot; != &quot;&quot; ]; then
-    mkdir -p /squashfs /aufs $DATADIR
-    clear
-    echo Mounting image ${IMAGE}...
-    mount -o loop &quot;/mnt/images/$IMAGE&quot; /squashfs
-    cd /squashfs
-
-    if [ -e berryboot-init ]; then
-        echo Executing init script
-        . berryboot-init
-    fi
-
-    if [ -L lib -o -L sbin ]; then
-        echo
-        echo Error: having a symlink for /lib and/or /sbin inside your image is not allowed!
-        echo This conflicts with the shared AUFS folders
-        echo
-        sleep 5
-    fi
-
-    for initfile in sbin/init usr/lib/systemd/systemd init
-    do
-        if [ -e $initfile ]; then
-            echo Mounting RW data directory on top
-            mount -t aufs -o br:${DATADIR}:/mnt/shared:/squashfs none /aufs
-            cd /aufs
-            mount -o move /dev dev
-            mount -o move /sys sys
-            mount -o move /proc proc
-            echo Setting CPU governor to $GOVERNOR
-            echo &quot;$GOVERNOR&quot; &gt; sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-            echo Starting operating system ${IMAGE}...
-            exec switch_root . $initfile
-        fi
-    done
-
-    echo
-    echo Error: unable to locate or execute /sbin/init /usr/lib/systemd/systemd /init inside $IMAGE
-    echo
-    sleep 5
-fi
-
-# In case the user pressed cancel or something went wrong, show an emergency recovery shell
-clear
-echo
-echo Emergency recovery shell activated
-echo
-
-/bin/sh</pre>
-<p>cmdline に mmc0_led があると、何か green にしているようですね。筐体のLED を緑にしているんですかね？ あとで試してみます。vncinstall があると、環境変数QWS_DISPLAYにVNC のパラメータがセットされるようです。VNC インストールができるということですかね。あとで、試してみることに。</p>
-<p>ちょっと勉強になりました。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

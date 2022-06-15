@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,53 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1207" class="post-1207 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-espeink category-parts category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1212" class="post-1212 post type-post status-publish format-standard hentry category-espeink category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/17/eagle/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-17T22:20:33+09:00">2015年9月17日</time></a> </span><span class="posted-on">更新日:2015年9月17日</span> <span class="categories"> <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/09/17/eagle/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Eagle の自動配線</a></h1></header><div class="entry-content">
+<p>さて、全部の配線とパーツリストの選択が終わったので、PCB の自動配線を試してみたくなりました。作者の手本を参考にあれこれ置いてまだ試している最中ですが、そのスクリーンショットです。</p>
+<p>&#160;</p>
+<p>これが、配置したところの図です。</p>
+<p><img title="1_Board_-__Users_ishizaka_Documents_eagle_WiFi_E-link_WiFi_E-link_brd_-_EAGLE_7_2_0_Light" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1_Board_-__Users_ishizaka_Documents_eagle_WiFi_E-link_WiFi_E-link_brd_-_EAGLE_7_2_0_Light" src="/wp-content/uploads/2015/09/1_board___users_ishizaka_documents_eagle_wifi_elink_wifi_elink_brd__eagle_7_2_0_light.png" width="766" height="776"></p>
+<p>こんな感じで簡単操作。</p>
+<p>&#160;<img loading="lazy" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/09/a.png" width="640" height="381"></p>
+<p><img loading="lazy" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/09/b.png" width="642" height="998"></p>
+<p>気に入るまで、配置しなおしたり、配線したりを繰り返して試しています。このときは、93.6% まで配線してくれたようです。</p>
+<p>&#160;</p>
+<p>そして、これがオートルートの９３％完了のパターン。</p>
+<p><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/09/5.png" width="760" height="1167"></p>
+<p>こっちは、９１．７％ですが、スルーホールが80個と少なくなっているものです。</p>
+<p><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2015/09/4.png" width="761" height="1180"></p>
+<p>手で配線していたら、日が暮れそうなので自動配線助かりますね。</p>
+<p>&#160;</p>
+<p>パーツを配置しなおしたり、回転させたりといろいろとやっていると、パーセンテージが上がっていきます。最高で93.7％くらいまで行きました。LT の IC 周りと、FPC コネクター周りの数本がどうしても配線できないようです。</p>
+<p>このあたりは手作業ですかね。</p>
+<p>&#160;</p>
+<p>配線のやり直しは、以下のコマンドを入力すると何回でもやり直せます。</p>
+<blockquote><p>ripup;</p></blockquote>
+<p>配置の微妙なグリッド調整は、osx だとオプションキーを押すと良いようです。</p>
+<p>&#160;</p>
+<p>どうしても、このあたりが自動配線できないようです。</p>
+<p><img loading="lazy" title="c" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="c" src="/wp-content/uploads/2015/09/c.png" width="807" height="1138"></p>
+<p>まだ手作業で修正する方法は知らないので、今度の休みにでもやり方を覚えてみようと思います。</p>
+<p>&#160;</p>
+<p>下は、作業の流れをつかむため、Fusion PCB のcam ファイルから、ガーバーファイルを出力し、kikad の gerbview で見たところ。ドリルデータの穴の位置が大幅にずれるのはなにか設定でしょうかね？</p>
+<p>まだ、シルク印刷の部分と、マスク面など手をつけていないので、そのあたりは手作業ですかね。</p>
+<p><img loading="lazy" title="d" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="d" src="/wp-content/uploads/2015/09/d.png" width="791" height="404"></p>
+<p>こんな配線は、ユニバーサル基盤では考えるだけでも面倒なので、自動配線ありがたいです。</p>
+<p>結構綺麗に配線できてると思いますが、プロの方から見るともっとこうした方が良いっていう部分もあるのでしょうね。</p>
+<p><img loading="lazy" title="about_kicad_gerbview" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="about_kicad_gerbview" src="/wp-content/uploads/2015/09/about_kicad_gerbview.png" width="640" height="447"></p>
+<p>とりあえず、なんにも知らずにポチぽちと部品を選択し、回路図を描いて、PCB の大きさの上に置いただけで、ここまでできます。偉大ですね。</p>
+<p>&#160;</p>
+<p>一番面倒なのは、部品をパーツリストから選択するところと、その前段で、パーツリストのデータをいろいろなところから集めてくるのが面倒。逆に、使う部品がある程度決まっている場合、本当に楽です。</p>
+<p>Eagle や kicad を使って設計し、プリントサービスに基盤を出して何か作るっていうステップは、ありかもなと思い出しているところです。エッチングして基盤を作るステップを思えば、ちょっと時間はかかるけど、金額はおこずかいの範囲なので、毎月1つ、プリントに出して遊べそうですね。設計が間に合わないとは思いますが。</p>
+<p>&#160;</p>
+<p>回路図と、PCBの配置をして、E-ink の仕様書のpin と作者の配線が微妙に違う部分もあり、このあたりは、実際にトライエラーを繰り返さないと不明な部分も出てきていますが、問題も少しづつわかってきています。</p>
+<p>&#160;</p>
+<p>次回は、ソフトウェア部分の検証と、それが行けそうかなと思えば、いよいよパーツ発注です。さて、本当に動くのでしょうかね。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1207" class="post-1207 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-espeink category-parts category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/15/power-circuit-capacitor/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-15T18:48:00+09:00">2015年9月15日</time></a> </span><span class="posted-on">更新日:2015年9月15日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/09/15/power-circuit-capacitor/" rel="bookmark noopener noreferrer" data-wpel-link="internal">電源回路のコンデンサを検証</a></h1></header><div class="entry-content">
@@ -86,7 +133,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 </blockquote>
 <p>最初見たとき、2u2 というのが？で2.2uF のことだろうと思っていましたが、回路を見ると、どうやら違うんじゃないのということで実際に調査しました。実際にeagle でパーツリストと、手書きの図から作者の回路をトレースしました。</p>
 <p>なんか、おかしいなと思ったところは以下です。</p>
-<p><img title="eagle_power1" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="eagle_power1" src="/wp-content/uploads/2015/09/eagle_power1.png" width="1024" height="531"></p>
+<p><img loading="lazy" title="eagle_power1" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="eagle_power1" src="/wp-content/uploads/2015/09/eagle_power1.png" width="1024" height="531"></p>
 <p>bom.txt にあるのと手書きの図とは違うようです。</p>
 <p><img loading="lazy" title="schema_power 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="schema_power 2" src="/wp-content/uploads/2015/09/schema_power2.png" width="640" height="461"></p>
 <p>LTのシュミレーターがあるので、実際に値を入れてみると、</p>
@@ -355,33 +402,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>次に検討してみることのメモ。</p>
 <p>・部品の入手先と値段概略を調査。 <br>・ブロック図を把握 <br>・電源部を調査（画面描画用の+15V と –15V を生成しているようなので） <br>・表示の動作概略を把握 <br>・ESP のソースを調査</p>
 <p>ある程度調査して、自分で作れそうかなと思ったら、部品を調達してみることにしてみます。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1152" class="post-1152 post type-post status-publish format-standard hentry category-espeink category-parts"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/06/4-3inch-e-paper/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-06T23:32:42+09:00">2015年9月6日</time></a> </span><span class="posted-on">更新日:2015年9月6日</span> <span class="categories"> <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/09/06/4-3inch-e-paper/" rel="bookmark noopener noreferrer" data-wpel-link="internal">4.3inch e-Paper</a></h1></header><div class="entry-content">
-<p>7000円くらいするので、ちょっと迷っているんですが、e-paper のディスプレイモジュールです。sony の6インチのWiFi 電子ブック（PRS-T3S）が買えちゃう値段なので、2～3000円以内になったら欲しいかなぁと。</p>
-<p><a href="http://ja.aliexpress.com/item/4-3inch-E-Paper-800x600-Resolution-E-ink-LCD-Display-Module-displays-geometric-graphics-texts-and/32428061060.html?isOrigTitle=true" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="4.3inch-e-Paper-2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4.3inch-e-Paper-2" src="/wp-content/uploads/2015/09/4-3inchepaper2.jpg" width="640" height="480"></a> <img loading="lazy" title="4.3inch-e-Paper-3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4.3inch-e-Paper-3" src="/wp-content/uploads/2015/09/4-3inchepaper3.jpg" width="640" height="479"> <img loading="lazy" title="4.3inch-e-Paper-4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4.3inch-e-Paper-4" src="/wp-content/uploads/2015/09/4-3inchepaper4.jpg" width="640" height="480"> <img loading="lazy" title="4.3inch-e-Paper-5" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4.3inch-e-Paper-5" src="/wp-content/uploads/2015/09/4-3inchepaper5.jpg" width="640" height="479"> <img loading="lazy" title="4.3inch-e-Paper-size" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4.3inch-e-Paper-size" src="/wp-content/uploads/2015/09/4-3inchepapersize.jpg" width="640" height="475"> <img loading="lazy" title="DSC_8700-900x600_grande" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="DSC_8700-900x600_grande" src="/wp-content/uploads/2015/09/dsc_8700900x600_grande.jpg" width="600" height="400"></p>
-<p>&#160;</p>
-<p><img loading="lazy" title="DSC_8706-900x600_grande" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="DSC_8706-900x600_grande" src="/wp-content/uploads/2015/09/dsc_8706900x600_grande.jpg" width="600" height="400"></p>
-<p>&#160;</p>
-<p><img loading="lazy" title="DSC_8707-900x600_grande" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="DSC_8707-900x600_grande" src="/wp-content/uploads/2015/09/dsc_8707900x600_grande.jpg" width="600" height="400">&#160;</p>
-<p>Wiki : <a title="http://www.waveshare.com/wiki/4.3inch_e-Paper" href="http://www.waveshare.com/wiki/4.3inch_e-Paper" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.waveshare.com/wiki/4.3inch_e-Paper<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Manual ： <a title="http://www.waveshare.com/w/upload/7/71/4.3inch-e-Paper-UserManual.pdf" href="http://www.waveshare.com/w/upload/7/71/4.3inch-e-Paper-UserManual.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.waveshare.com/w/upload/7/71/4.3inch-e-Paper-UserManual.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>参考ブログ：<a title="http://www.jarzebski.pl/arduino/komponenty/e-papier-waveshare-4-3.html" href="http://www.jarzebski.pl/arduino/komponenty/e-papier-waveshare-4-3.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.jarzebski.pl/arduino/komponenty/e-papier-waveshare-4-3.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p> [youtube https://www.youtube.com/watch?v=Z9HNW9C58wU]</p>
-<p>&#160;</p>
-<p>1500円くらいでED060SC4の6インチのパネルが売っているんだけどれども、これはどうやって表示するんでしょうね？</p>
-<p>&#160;</p>
-<p><a href="http://ja.aliexpress.com/item/100-Original-ED060SC4-ED060SC4-LF-6-E-link-EBook-LCD-screen-for-Amazon-kindle-2-for/32393137707.html?isOrigTitle=true" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="HTB1L4XYIFXXXXczXVXXq6xXFXXXN" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1L4XYIFXXXXczXVXXq6xXFXXXN" src="/wp-content/uploads/2015/09/htb1l4xyifxxxxczxvxxq6xxfxxxn.jpg" width="600" height="447"></a></p>
-<p>&#160;</p>
-<p><img loading="lazy" title="HTB1Bf4VIFXXXXXZaXXXq6xXFXXXJ" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1Bf4VIFXXXXXZaXXXq6xXFXXXJ" src="/wp-content/uploads/2015/09/htb1bf4vifxxxxxzaxxxq6xxfxxxj.jpg" width="600" height="532"></p>
-<p>&#160;</p>
-<p><img loading="lazy" title="HTB1xB5hIFXXXXa.XXXXq6xXFXXXg" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HTB1xB5hIFXXXXa.XXXXq6xXFXXXg" src="/wp-content/uploads/2015/09/htb1xb5hifxxxxa-xxxxq6xxfxxxg.jpg" width="600" height="502"></p>
-<p>解像度は、800 x 600 みたいだけれども、駆動させるドライバユニットは何か流用できないものですかね。</p>
-<p>&#160;</p>
-<p> <a href="http://essentialscrap.com/eink/ED060SC4V2.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="essentialscrap_com_eink_ED060SC4V2_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="essentialscrap_com_eink_ED060SC4V2_pdf" src="/wp-content/uploads/2015/09/essentialscrap_com_eink_ed060sc4v2_pdf.png" width="717" height="1082"></a></p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

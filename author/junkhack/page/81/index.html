@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,186 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-811" class="post-811 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
+</h1></header><article id="post-816" class="post-816 post type-post status-publish format-standard hentry category-arduino category-raspberry-pi"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/07/pi2-e381a8-arduino/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-07T00:27:49+09:00">2015年7月7日</time></a> </span><span class="posted-on">更新日:2015年7月7日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/07/07/pi2-e381a8-arduino/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Pi2 と arduino をUSB接続してシリアル通信</a></h1></header><div class="entry-content">
+<p>今日は、Pi2 と arduino をシリアル通信させてLED を光らせてみました。全体像はこんな感じ。</p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/07/11.jpg" width="640" height="480"></p>
+<p> 緑色のブレッドボードにある LED は arduino の 3pin につながっています。Pi2 からシリアル経由でLED を光らせる形です。</p>
+<p><img loading="lazy" title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/07/21.jpg" width="640" height="480"></p>
+<p>良いチュートリアルなBlog 記事があったので、それを習ってみました。</p>
+<blockquote><p>参考 <a href="http://karaage.hatenadiary.jp/entry/2015/06/10/080000" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Raspberry PiとArduino間でUSB経由のシリアル通信<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>&#160;</p>
+<p>まず、arduino のスケッチは、上記サイトにあるとおり、</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">#define LED_PIN (3)
+byte val;
+
+void setup(){
+  // Serial Setting
+  Serial.begin(9600);
+
+  // Port Setting
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
+}
+
+void loop(){
+  if(Serial.available() &gt; 0){
+    
+    val = Serial.read();
+    Serial.write(val);
+    if(val == 'A'){
+      digitalWrite(LED_PIN, HIGH);
+    }
+
+    if(val == 'B'){
+      digitalWrite(LED_PIN, LOW);
+    }
+  }
+}</pre>
+<p>そして、書き込んで、今度は pi2 からシリアル通信させます。</p>
+<p>USB ケーブルを挿すと、pi2 側の dmesg に以下のように出ますので、覚えておきます。</p>
+<blockquote>
+<p>[root@pi2 ~]# dmesg<br> <br>::</p>
+<p>[ 4270.245917] usb 1-1.5: new full-speed USB device number 5 using dwc_otg</p>
+<p>[ 4270.369007] usb 1-1.5: New USB device found, idVendor=1a86, idProduct=7523</p>
+<p>[ 4270.376106] usb 1-1.5: New USB device strings: Mfr=0, Product=2, SerialNumber=0</p>
+<p>[ 4270.383583] usb 1-1.5: Product: USB2.0-Serial</p>
+<p>[ 4271.484705] usbcore: registered new interface driver usbserial</p>
+<p>[ 4271.491107] usbcore: registered new interface driver usbserial_generic</p>
+<p>[ 4271.499466] usbserial: USB Serial support registered for generic</p>
+<p>[ 4271.508688] usbcore: registered new interface driver ch341</p>
+<p>[ 4271.514472] usbserial: USB Serial support registered for ch341-uart</p>
+<p>[ 4271.521035] ch341 1-1.5:1.0: ch341-uart converter detected</p>
+<p>[ 4271.531056] usb 1-1.5: ch341-uart converter now attached to ttyUSB0★</p>
+<p>[root@pi2 ~]#</p>
+<p>[root@pi2 ~]# ll /dev/ttyUSB0<br> <br>crw-rw&#8212;- 1 root dialout 188, 0&#160; 7月&#160; 6 23:08 /dev/ttyUSB0★</p>
+<p>[root@pi2 ~]#</p>
+</blockquote>
+<p>pi2 からシリアル通信させるプログラムは、minicom というのを使ってみました。</p>
+<blockquote><p>[root@pi2 work]# which minicom<br> <br>/usr/bin/minicom</p></blockquote>
+<p>設定は、以下のように –s をつけて起動。</p>
+<blockquote><p>▼設定<br> <br>[root@pi2 work]# LANG=C minicom –s</p></blockquote>
+<p>以下のように cui で選択して設定します。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">            ┌─────[configuration]──────┐
+            │ Filenames and paths      │
+            │ File transfer protocols  │
+            │ Serial port setup        │
+            │ Modem and dialing        │
+            │ Screen and keyboard      │
+            │ Save setup as dfl        │
+            │ Save setup as..          │
+            │ Exit                     │
+            │ Exit from Minicom        │
+            └──────────────────────────┘
+
+    ┌───────────────────────────────────────────────────────────────────────┐
+    │ A -    Serial Device      : /dev/ttyUSB0                              │
+    │                                                                       │
+    │ C -   Callin Program      :                                           │
+    │ D -  Callout Program      :                                           │
+    │ E -    Bps/Par/Bits       : 9600 8N1                                  │
+    │ F - Hardware Flow Control : Yes                                       │
+    │ G - Software Flow Control : No                                        │
+    │                                                                       │
+    │    Change which setting?                                              │
+    └───────────────────────────────────────────────────────────────────────┘
+
+    ┌─────────────────┌─────────[Comm Parameters]──────────┐────────────────┐
+    │ A -    Serial De│                                    │                │
+    │                 │     Current:  9600 8N1             │                │
+    │ C -   Callin Pro│ Speed            Parity      Data  │                │
+    │ D -  Callout Pro│ A: &lt;next&gt;        L: None     S: 5  │                │
+    │ E -    Bps/Par/B│ B: &lt;prev&gt;        M: Even     T: 6  │                │
+    │ F - Hardware Flo│ C:   9600        N: Odd      U: 7  │                │
+    │ G - Software Flo│ D:  38400        O: Mark     V: 8  │                │
+    │                 │ E: 115200        P: Space          │                │
+    │    Change which │                                    │                │
+    └─────────────────│ Stopbits                           │────────────────┘
+            │ Screen a│ W: 1             Q: 8-N-1          │
+            │ Save set│ X: 2             R: 7-E-1          │
+            │ Save set│                                    │
+            │ Exit    │                                    │
+            │ Exit fro│ Choice, or &lt;Enter&gt; to exit?        │
+            └─────────└────────────────────────────────────┘</pre>
+<p>で、実行。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi2 work]# LANG=C minicom
+
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Aug 17 2014, 17:46:22.
+Port /dev/ttyUSB0, 23:40:40
+
+Press CTRL-A Z for help on special keys
+
+AABABABABABAAABAB★こんな感じで、タイプするとLED ついたり消えたり。</pre>
+<p>終了は、CTL + A 押して、Z でメニュー 以下の Q で終了</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">┌───────────────────────────────────────────────────────────────────┐
+│                      Minicom Command Summary                      │
+│                                                                   │
+│              Commands can be called by CTRL-A &lt;key&gt;               │
+│                                                                   │
+│               Main Functions                  Other Functions     │
+│                                                                   │
+│ Dialing directory..D  run script (Go)....G | Clear Screen.......C │
+│ Send files.........S  Receive files......R | cOnfigure Minicom..O │
+│ comm Parameters....P  Add linefeed.......A | Suspend minicom....J │
+│ Capture on/off.....L  Hangup.............H | eXit and reset.....X │
+│ send break.........F  initialize Modem...M | Quit with no reset.Q │
+│ Terminal settings..T  run Kermit.........K | Cursor key mode....I │
+│ lineWrap on/off....W  local Echo on/off..E | Help screen........Z │
+│ Paste file.........Y  Timestamp toggle...N | scroll Back........B │
+│ Add Carriage Ret...U                                              │
+│                                                                   │
+│             Select function or press Enter for none.              │
+└───────────────────────────────────────────────────────────────────┘</pre>
+<p>&#160;</p>
+<p>今度は、python から制御。 pyserial を入れます。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi2 ~]# dnf install python-pip
+
+[root@pi2 ~]# pip install --upgrade pip
+You are using pip version 6.0.8, however version 7.1.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting pip from https://pypi.python.org/packages/py2.py3/p/pip/pip-7.1.0-py2.py3-none-any.whl#md5=b108384a762825ec20345bb9b5b7209f
+  Downloading pip-7.1.0-py2.py3-none-any.whl (1.1MB)
+    100% |################################| 1.1MB 37kB/s 
+Installing collected packages: pip
+  Found existing installation: pip 6.0.8
+    Uninstalling pip-6.0.8:
+      Successfully uninstalled pip-6.0.8
+
+Successfully installed pip-7.1.0
+[root@pi2 ~]# 
+
+[root@pi2 ~]# pip install pyserial
+::
+Successfully installed pyserial-2.7
+[root@pi2 ~]# </pre>
+<p>プログラムは、以下のようにA と B をループして、CTL + C で中断したら、B を流しLEDを消して、終了。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- loop.py 
+# -*- coding: utf-8 -*-
+import serial
+import time
+
+ser = serial.Serial('/dev/ttyUSB0', 9600)
+time.sleep(2)
+try:
+    while True:
+        ser.write('A')
+        time.sleep(1)
+        ser.write('B')
+        time.sleep(1)
+except KeyboardInterrupt:
+        ser.write('B')
+        ser.close()</pre>
+<p>実行してみます。</p>
+<blockquote><p>[root@pi2 work]# python loop.py</p></blockquote>
+<p>なるほどですね。まぁ、これだと、pi2 の GPIO ピンから直接制御すればええやんってことになりますが、、、次は、arudino のアナログ入力にセンサーをつけて、それをpi2 に渡す方法を実践してみたいと思います。I2C とかシリアルを使わない結線だと、promini とかが使えるので、そういうのをどのようにするのか調査して、実践してみたいと思っています。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-811" class="post-811 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/06/xwindow/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-06T01:31:28+09:00">2015年7月6日</time></a> </span><span class="posted-on">更新日:2015年7月6日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/06/xwindow/" rel="bookmark noopener noreferrer" data-wpel-link="internal">なんとかリモートよりxwindow に入れた</a></h1></header><div class="entry-content">
@@ -96,7 +276,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <blockquote><p>$ xfce4-session startxfce4</p></blockquote>
 <p>このあたり、マニュアル見ると、こうしちゃだめって書いてあるのでたぶん良くないと思います。</p>
 <p>&#160;</p>
-<p><img title="xfce4-panel_と_xeyes" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xfce4-panel_と_xeyes" src="/wp-content/uploads/2015/07/xfce4panel__xeyes.png" width="570" height="480"></p>
+<p><img loading="lazy" title="xfce4-panel_と_xeyes" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="xfce4-panel_と_xeyes" src="/wp-content/uploads/2015/07/xfce4panel__xeyes.png" width="570" height="480"></p>
 <p>動作はこんなものかと思えば、まぁ良いのかもですが、速いマシンを使っているヒトには決して向きません。よっぽど特殊な理由がなければまず使わないと断言できます。以下のログアウトが出るまでちょっと時間がかかります。２～５秒くらい。</p>
 <p><img loading="lazy" title="スクリーンショット_2015_07_06_1_22" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット_2015_07_06_1_22" src="/wp-content/uploads/2015/07/2015_07_06_1_22.png" width="492" height="341"></p>
 <p>キーマップがよくわからず、スペースキーが押せないのでなんとかしないと。他にも問題は山済みですが。</p>
@@ -1330,26 +1510,6 @@ vm.swappiness = 60
 vm.user_reserve_kbytes = 29417
 vm.vfs_cache_pressure = 100
 [root@localhost UnixBench]#</pre>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-784" class="post-784 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/03/pi2e381a7fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-03T22:31:09+09:00">2015年7月3日</time></a> </span><span class="posted-on">更新日:2015年7月3日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/07/03/pi2e381a7fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal">pi2でFedora22</a></h1></header><div class="entry-content">
-<p>SDに書き込みが終わって、Pi2 でブート。無事に起動してくれました。が、しかし、、、</p>
-<p><img loading="lazy" title="写真 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 3" src="/wp-content/uploads/2015/07/3.jpg" width="640" height="480"></p>
-<p>&#160;</p>
-<p>、、、、悪戦苦闘すること、1時間、、、、うキーですね。</p>
-<p>&#160;</p>
-<p>写真はありませんが、最初ウィザードみたいなのがあって、root のパスワードやユーザ追加、タイムゾーンなどの設定などが出来るのですが、それをやってもログインできず。</p>
-<p>&#160;</p>
-<p>むかついたので、SD を 違うLinux でマウントさせ shadow や sudo設定や、passwd 、ホームディレクトリとbash設定をして無事にログインできました。この初期に出るウィザードがうまく動作していない模様。</p>
-<p>&#160;</p>
-<p><img loading="lazy" title="写真 1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 1" src="/wp-content/uploads/2015/07/1.jpg" width="640" height="480"></p>
-<p>で、あとから気が付いたのですが、kernel が4.0,7 ですと？ Fedora22 って、この間リリースされたやつですか。yum が廃止されdnf に変わってしまいました。うーん、、、、fedora21 にするべきですかね。</p>
-<p><img loading="lazy" title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="/wp-content/uploads/2015/07/2.jpg" width="640" height="480">&#160;</p>
-<p>&#160;</p>
-<p>とりあえず、リモートから ssh でのログインも出来たので少し遊んで様子を見て、こりゃだめだと思えば、Fedora21 のkernel 3系にします。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

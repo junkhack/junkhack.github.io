@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,13 +71,36 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1520" class="post-1520 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1526" class="post-1526 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/27/e9858de7bdaee5a489e69bb4/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-27T23:58:15+09:00">2015年10月27日</time></a> </span><span class="posted-on">更新日:2015年10月27日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/10/27/e9858de7bdaee5a489e69bb4/" rel="bookmark noopener noreferrer" data-wpel-link="internal">配置変更</a></h1></header><div class="entry-content">
+<p>ターミナルのサイズを探したら、どうやら10mm x 10.4mm x 1４.2mmのようです。</p>
+<p>まぁ、モノがきてないのでなんとも言えませんが。</p>
+<p>&#160;</p>
+<p>そこで配置を変えました。上と下の基板の配置をずらして、ターミナルが右側側面とツライチとなるようなイメージです。ケースが幅２ｃｍより若干小さいので、削る必要がありそうです。</p>
+<p>&#160;<img title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/10/a2.png" width="602" height="480"></p>
+<p>&#160;</p>
+<p><img loading="lazy" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/10/b2.png" width="331" height="453"></p>
+<p>配置は、まぁ納得できそうな感じです。あともう少し。毎日少しづつ進めます。これが出来たら、次のプロジェクトもありますしね。作りたいものがたくさんあって、オープンソースハードウェアのジャンルは楽しいです。</p>
+<p>&#160;</p>
+<p>この基板やソフトウェアも、うまく出来たら公開する予定です。希望者には、組み立て済みの販売（というか頒布？）もしようと思っています。ESP使いが、すぐに単独デバイスとして使えるベース基板のような存在になれればと。</p>
+<p>&#160;</p>
+<p>基板のネーミングも大事ですよね。何がいいかな。このプロジェクトのコードネームは、DARI なんですが。</p>
+<p>・充電基板付き、バックブースト、リチウム電池駆動、2階建て基板付き、プログラム書き込みは自動で、内臓ADCの切り替え機能付きで、駆動電圧、バッテリー電圧が取れるので、だいたいやりたいことはいけそうな感じ。</p>
+<p>・拡張ボード次第で、ロジック変換、電圧電流測定、その他に対応。</p>
+<p>・ブレッドボードに刺さって、横にも穴があまり配線楽</p>
+<p>・ケースも汎用のものに入れれる</p>
+<p>という感じ。 ESP Block とかにしようかな？</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1520" class="post-1520 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/26/1000uf-tantalum/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-26T23:44:00+09:00">2015年10月26日</time></a> </span><span class="posted-on">更新日:2015年10月26日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/10/26/1000uf-tantalum/" rel="bookmark noopener noreferrer" data-wpel-link="internal">1000uf のTantalum を載せたよ</a></h1></header><div class="entry-content">
 <p>メインボードにTantalumのデカイのを載せておきました。</p>
 <p>とりあえず、1000uF でいいやと思い、サイズを確認せずに買ったんですが調べてみると7343 というのはかなり大きかったです。</p>
-<p><img title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/10/32.png" width="451" height="480"></p>
+<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/10/32.png" width="451" height="480"></p>
 <p>かなり無理やりのせた感じです。あと、電流計測とスイッチ代わりのジャンパーをハイサイド（プラス側のことのようですが、電子回路ではこういう表現を使うようです）側に作成。</p>
 <p><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2015/10/42.png" width="536" height="414"></p>
 <p>結構な大きさのようで、もう少し小さいので良かったかなぁと。</p>
@@ -243,26 +267,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>&#160;</p>
 <p>TPS63000 の半田付けが心配ですが、PCB でマスクされていればうまくできるはずです。ESP13 も神奈川まで来ているようです。</p>
 <p>ということで、明日かあさってには、PCB 発注できるようがんばります。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1437" class="post-1437 post type-post status-publish format-standard has-post-thumbnail hentry category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/23/request-a-sample-of-ina226-from-ti/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2015-10-23T05:54:09+09:00">2015年10月23日</time><time class="updated" datetime="2022-05-06T16:47:08+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/10/23/request-a-sample-of-ina226-from-ti/" rel="bookmark noopener noreferrer" data-wpel-link="internal">INA226をTIにサンプル請求</a></h1></header><div class="entry-content">
-<p>Texas Instruments さんのサイトを眺めているとsample を出してくれるようで、早速申し込みしておきました。こんなサービスがあったんですね。</p>
-<p><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="Order_Receipt" src="/wp-content/uploads/2015/10/order_receipt.png" alt="Order_Receipt" width="640" height="207" border="0"></p>
-<p>この手のジャンルの石は、デジタル出力電流シャント・モニタ というそうです。</p>
-<p><a href="http://www.tij.co.jp/lsds/ti_ja/amplifiers-linear/current-shunt-digital-output-products.page" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="ti" src="/wp-content/uploads/2015/10/ti.png" alt="ti" width="523" height="768" border="0"></a></p>
-<p>INA226 のQ-1 とそうでないのはスペック上は同じもののようです。価格以外は。「Programmable Over-Current Alert 」というのがあるようです。まぁ、どちらもGain のError が 0.02% と他のラインナップと1桁違います。</p>
-<p>パッケージは、以下のようです。</p>
-<p><a href="http://www.tij.co.jp/jp/lit/ml/mpds035b/mpds035b.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="vssop" src="/wp-content/uploads/2015/10/vssop.png" alt="vssop" width="590" height="768" border="0"></a>PCB上に配置してみると、ACS712 と比べてみると、一回り小さいです。</p>
-<p><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="zzzz" src="/wp-content/uploads/2015/10/zzzz.png" alt="zzzz" width="448" height="480" border="0"></p>
-<p>電流を計測するのは、モーター制御に使うアナログの製品もあるようです。この手のタイプは、「アナログ電流出力電流シャント・モニタ」というようです。</p>
-<p>いろいろと、不明なことがあって、例えば<a href="http://www.yamaki-ec.co.jp/yamaki-onlineshop/product/link/faq_02.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">シャント抵抗<span class="wpel-icon wpel-image wpel-icon-1"></span></a>というキーワードが一昨日から気になって調べていました。特に気になったのは、20mΩという表記があって、このmは、Mと勘違いしていました。（というのが、会社の電子工学出の方に教えてもらいました）20ミリΩということで、0.02Ωということで納得。当初、なんで20メガΩなんてデカイのを電流計測で使うんだ？と思っていました。ソフトウェアやっていると、<a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%AA" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">m という単位<span class="wpel-icon wpel-image wpel-icon-1"></span></a>はあまり（ほぼ？）使わないので、Mが連想してしまいます。</p>
-<p>シャント抵抗をつけるときは、パターンに注意する必要がありそうです。PCB の箔厚35μmでパターン幅1mmの場合、パターン長1cmで約5mΩとのこと。シャント抵抗の根元からPINへ配線。</p>
-<p><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="www_tij_co_jp_jp_lit_ds_symlink_ina193_pdf" src="/wp-content/uploads/2015/10/www_tij_co_jp_jp_lit_ds_symlink_ina193_pdf.png" alt="www_tij_co_jp_jp_lit_ds_symlink_ina193_pdf" width="407" height="480" border="0"></p>
-<p>誤差が少ない、2mΩの抵抗とかいくらくらいするんでしょうかね？Aliexpress で、50個1セットくらいで666円くらいでした。</p>
-<p><a href="http://www.aliexpress.com/item/2512-SMD-Resistor-0-02R-0-02ohm-1-2512-SMD-Resistor-1W-50pcs-lot-free-shipping/32291638396.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float: none; margin-left: auto; display: block; margin-right: auto; border: 0;" title="HTB1ce8HHpXXXXXHXXXXq6xXFXXX0" src="/wp-content/uploads/2015/10/htb1ce8hhpxxxxxhxxxxq6xxfxxx0.jpg" alt="HTB1ce8HHpXXXXXHXXXXq6xXFXXX0" width="394" height="358" border="0"></a></p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,14 +71,73 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-456" class="post-456 post type-post status-publish format-standard hentry category-arduino"><div class="entry-wrapper">
+</h1></header><article id="post-468" class="post-468 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/03/16/e68ab5e68a97e381aee580a4e38292e8aaade38293e381a7lede782b9e6bb85e9809fe5baa6e38292e8aabfe695b4/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-03-16T00:23:14+09:00">2015年3月16日</time></a> </span><span class="posted-on">更新日:2015年3月16日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/03/16/e68ab5e68a97e381aee580a4e38292e8aaade38293e381a7lede782b9e6bb85e9809fe5baa6e38292e8aabfe695b4/" rel="bookmark noopener noreferrer" data-wpel-link="internal">抵抗の値を読んでLED点滅速度を調整</a></h1></header><div class="entry-content">
+<p>analogReadっていう関数があって、A0の<strike>抵抗値</strike>を読み (0から5ボルトの入力電圧を0から1023の数値に変換した値)、delay に代入するサンプル。じみー。だけども、初めての入力値を読んだってことで。</p>
+<p>５倍してるけど、しなくもいい具合に変化してるのを確認できた。</p>
+<p>&#160;</p>
+<pre class="brush: cpp; ruler: true; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ analog read sample.
+ 2015.03.15
+*/
+
+void setup(){
+ pinMode(13,OUTPUT);
+}
+
+void loop(){
+  int resistance;
+  int r;
+  
+  resistance = analogRead(0);
+  r = resistance * 5;
+  digitalWrite(13,HIGH);
+  delay(r);
+  digitalWrite(13,LOW);
+  delay(r);
+}</pre>
+<pre class="brush: cpp; ruler: true; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">読み取ってる値がみたかったので、<a href="http://www.musashinodenpa.com/arduino/ref/index.php?f=0&amp;pos=2086" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">リファレンス<span class="wpel-icon wpel-image wpel-icon-1"></span></a>のようにシリアルに数値を送ってみることに。</pre>
+<pre class="brush: cpp; ruler: true; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ analog read sample.
+ 2015.03.15
+*/
+
+void setup(){
+ pinMode(13,OUTPUT);
+ Serial.begin(9600);
+}
+
+void loop(){
+  int resistance;
+  int r;
+  
+  resistance = analogRead(0);
+  Serial.println(resistance);
+  
+  r = resistance;
+  digitalWrite(13,HIGH);
+  delay(r);
+  digitalWrite(13,LOW);
+  delay(r);
+}</pre>
+<p>&#160;</p>
+<p><img style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="2015-03-16 0.43.12" border="0" alt="2015-03-16 0.43.12" src="/wp-content/uploads/2015/03/201503160-43-12.png" width="538" height="348"></p>
+<p>あー、納得。</p>
+<p>&#160;</p>
+<p><img loading="lazy" style="display:inline;border-width:0;" title="rgxatu1353647823286" border="0" alt="rgxatu1353647823286" src="/wp-content/uploads/2015/03/rgxatu1353647823286.jpg" width="384" height="384"></p>
+<p><img loading="lazy" style="display:inline;border-width:0;" title="2015-03-16 0.20.09" border="0" alt="2015-03-16 0.20.09" src="/wp-content/uploads/2015/03/201503160-20-09.png" width="787" height="569"></p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-456" class="post-456 post type-post status-publish format-standard hentry category-arduino"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/03/15/arduino-hello-world/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-03-15T03:41:05+09:00">2015年3月15日</time></a> </span><span class="posted-on">更新日:2015年3月15日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/03/15/arduino-hello-world/" rel="bookmark noopener noreferrer" data-wpel-link="internal">arduino hello world!</a></h1></header><div class="entry-content">
 <p>ふとしたきっかけで、AliExpress を見ていたらなんとarduino がめちゃ安いじゃないですか。いわゆる、互換ボードなんです。UDBシリアル変換のチップが違うようですが、nanoがこんなに安いとは。</p>
 <p>なんと、衝撃価格 $3 ですよ。120円として、360円。もうね、即効２個ゲット。前から触ってみたかったんですが、値段がそこそこして、思い切れず。</p>
 <p>あれから、はや５年以上。人生は短いのでやりたいときにやっとけですね。</p>
-<p><a href="http://www.aliexpress.com/item/Mini-USB-Nano-V3-0-ATmega328P-5V-16M-Micro-controller-Board-For-Arduino/32247325065.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img style="display:inline;border-width:0;" title="GW-20150315-031558" border="0" alt="GW-20150315-031558" src="/wp-content/uploads/2015/03/gw20150315031558.jpg" width="495" height="340"></a></p>
+<p><a href="http://www.aliexpress.com/item/Mini-USB-Nano-V3-0-ATmega328P-5V-16M-Micro-controller-Board-For-Arduino/32247325065.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="display:inline;border-width:0;" title="GW-20150315-031558" border="0" alt="GW-20150315-031558" src="/wp-content/uploads/2015/03/gw20150315031558.jpg" width="495" height="340"></a></p>
 <p> <img loading="lazy" style="display:inline;border-width:0;" title="UL82z2YXoNbXXagOFbX2" border="0" alt="UL82z2YXoNbXXagOFbX2" src="/wp-content/uploads/2015/03/ul82z2yxonbxxagofbx2.jpg" width="484" height="484"></p>
 <p>で、忘れたころに来てました。</p>
 <p><img loading="lazy" style="display:inline;border-width:0;" title="IMG_20150315_000426" border="0" alt="IMG_20150315_000426" src="/wp-content/uploads/2015/03/img_20150315_000426.jpg" width="768" height="576"></p>
@@ -187,26 +247,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>Roku本社</p>
 <p>12980 Saratoga Ave. Saratoga, CA 95070</p>
 <p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2012/01/image57.png" width="575" height="526"></p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-429" class="post-429 post type-post status-publish format-standard hentry category-music"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2012/01/14/e5af9de381aae3818ce38289e99fb3e6a5bde881b4e3818fe381aee381abe889afe38184e381bee3818fe38289/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2012-01-14T01:10:36+09:00">2012年1月14日</time></a> </span><span class="posted-on">更新日:2012年1月14日</span> <span class="categories"> <a href="/category/music/" rel="category tag noopener noreferrer" data-wpel-link="internal">music</a></span>
-</div>
-<h1 class="entry-title"><a href="/2012/01/14/e5af9de381aae3818ce38289e99fb3e6a5bde881b4e3818fe381aee381abe889afe38184e381bee3818fe38289/" rel="bookmark noopener noreferrer" data-wpel-link="internal">寝ながら音楽聴くのに良いまくら</a></h1></header><div class="entry-content">
-<p>ついでにＧＥＴしてきました。ニトリ。</p>
-<p>&#160;</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP9149" border="0" alt="IMGP9149" src="/wp-content/uploads/2012/01/imgp9149.jpg" width="575" height="389"></p>
-<p>↑ 低反発のちょっと高級タイプ</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP9150" border="0" alt="IMGP9150" src="/wp-content/uploads/2012/01/imgp9150.jpg" width="575" height="389"></p>
-<p>↑すぐにぺっちゃんこになりそうだけど安さと素材で。</p>
-<p>&#160;</p>
-<p>いつも、買おう買おうと思って忘れてた、穴あきの座布団。これ、インナーヘッドフォンつけて横向きになりながら音楽聴くときに必須なんですよね。これないと、耳が圧迫されて痛くなるんですよね。タイプの違うのを部屋用とベット用に。</p>
-<p>&#160;</p>
-<p>今日もＬＯＶＥな曲が見つかるといいな。おやすみぃ～。１週間お疲れ様。</p>
-<p>&#160;</p>
-<p>最近、これにはまってます。</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2012/01/image55.png" width="569" height="951"></p>
-<p>また聴きたくなる感じの、不思議な魅力がありますね。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

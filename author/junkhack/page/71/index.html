@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,28 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1295" class="post-1295 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-espeink category-parts category-pcb"><div class="entry-wrapper">
+</h1></header><article id="post-1298" class="post-1298 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/10/01/esp8266-e381a7adc/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-01T06:37:08+09:00">2015年10月1日</time></a> </span><span class="posted-on">更新日:2015年10月1日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/10/01/esp8266-e381a7adc/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 でADC 増設するには？</a></h1></header><div class="entry-content">
+<p>ESPシリーズは、全機種ADC が1ポートなので、アナログ値を読むには何かしら工夫しないといけないのですが、その方法を模索したいと思います。新しい課題です。</p>
+<p>&#160;</p>
+<p>調査第一段階では、以下のものがあるようです。</p>
+<blockquote>
+<p>ESP8266 Analog Input Expander Library for MCP3021 A/D Conveters</p>
+<p><a title="https://github.com/AllAboutEE/ESP8266-MCP3021-Library" href="https://github.com/AllAboutEE/ESP8266-MCP3021-Library" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/AllAboutEE/ESP8266-MCP3021-Library<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>これは、tindie で作っているヒトがいるようです。</p>
+<blockquote>
+<p>ESP8266 Analog Inputs Expander (Version 2)</p>
+<p><a title="https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/" href="https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>初期リリース版は、４つの<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Microchip MCP3021<span class="wpel-icon wpel-image wpel-icon-1"></span></a>を使っているようですが、Version2では、１ICとなっているようです。このIC は4チャンネルのやつだと思うのですが、型番がよくわかりません。<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21697F.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">MCP3304<span class="wpel-icon wpel-image wpel-icon-1"></span></a> か、MCP3008のTSSOP パッケージかな？ちょっとお尋ね申すことに。</p>
+<p>&#160;</p>
+<p>とりあえず、回路は簡単そうなので部品を入手して模索してみたいと思います。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1295" class="post-1295 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-espeink category-parts category-pcb"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/29/smd-0603-resistors-and-capacitors/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-29T06:59:26+09:00">2015年9月29日</time></a> </span><span class="posted-on">更新日:2015年9月29日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/09/29/smd-0603-resistors-and-capacitors/" rel="bookmark noopener noreferrer" data-wpel-link="internal">smd 0603 の抵抗とコンデンサをぽちった</a></h1></header><div class="entry-content">
@@ -857,242 +879,6 @@ HOPE:espeink junkhack$ </pre>
 <p> <a title="https://github.com/esp8266/Arduino/issues/22" href="https://github.com/esp8266/Arduino/issues/22" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/esp8266/Arduino/issues/22<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>・できた２つのファームはサイズが小さいようだが？</p>
 <p>・make のオプションに書き込みや、その他の何か作業するものがある</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1256" class="post-1256 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-sdk"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/09/24/espeink-make2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-24T02:19:22+09:00">2015年9月24日</time></a> </span><span class="posted-on">更新日:2015年9月24日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/sdk/" rel="category tag noopener noreferrer" data-wpel-link="internal">sdk</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/09/24/espeink-make2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">espeink make その2</a></h1></header><div class="entry-content">
-<p>作者にヘルプ要請を出しておきました。作者からレスポンスがあるまで、自分なりにもう少し調べみます。</p>
-<p>その後、再調査でSDK 1.3.0を使うと、 <br>unknown type name &#8216;uint16_t&#8217; <br>が出るようです。以下に情報が。</p>
-<blockquote>
-<p><a href="https://github.com/pfalcon/esp-open-sdk/issues/90" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/pfalcon/esp-open-sdk/issues/90<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>これは、再度指定すれば回避できそうです。 <br>#include &lt;stdint.h&gt;</p>
-</blockquote>
-<p>まぁ、でもこんなことは作者はやっていないわけで、ということは、もっと古いsdkでやっているということだと思うので代えてみます。esp_iot_sdk_v1.1.1 で とりあえずチャレンジ。</p>
-<blockquote><p>$ rm sdk <br>$ ln -s esp_iot_sdk_v1.1.1 sdk</p></blockquote>
-<p>・unknown type name は出なくなるが、conflicting types が出る。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    $ make
-    CC user/cgiwifi.c
-    In file included from user/cgiwifi.c:20:0:
-    include/espmissingincludes.h:42:5: error: conflicting types for 'os_random'
-     int os_random();
-         ^
-    In file included from user/cgiwifi.c:15:0:
-    /Volumes/case-sensitive/esp-open-sdk/sdk/include/osapi.h:45:15: note: previous declaration of 'os_random' was here
-     unsigned long os_random(void);
-                   ^
-    make: *** [build/user/cgiwifi.o] Error 1</pre>
-<p>&#160;</p>
-<p>・ちょっと状況は違うかもですが、以下に情報が。</p>
-<blockquote>
-<p> <br><a href="http://www.esp8266.com/viewtopic.php?p=18868" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.esp8266.com/viewtopic.php?p=18868<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>おそらく作者からのコメントで、include/espmissingincludes.h のos_randomを取ってしまえば？と。<br> <br>はい、とりました。</p>
-</blockquote>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- espmissingincludes.h
-::
-uint32 system_get_time();
-//int os_random();
-int rand(void);
-::</pre>
-<p>&#160;</p>
-<p>・すると、user/cgiwifi.c は通り、次なるエラーが。プロトタイプ宣言がないようです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    $ make
-    CC user/cgiwifi.c
-    CC user/config.c
-    CC user/eink.c
-    user/eink.c: In function 'einkTimerCb':
-    user/eink.c:60:3: error: implicit declaration of function 'os_update_cpu_frequency' [-Werror=implicit-function-declaration]
-       os_update_cpu_frequency(160);
-       ^
-    cc1: all warnings being treated as errors
-    make: *** [build/user/eink.o] Error 1</pre>
-<p>&#160;</p>
-<p>&#160;</p>
-<p>einkTimerCb関数の中から呼ばれているようです。<br> <br>こいつは、ソース全体をgrep しても出ないので、sdk の組み込み関数のようです。なんと宣言すればよいのでしょうかね？</p>
-<p>以下のリリースノートによると、esp_iot_sdk_v1.1.0_15_05_26 でなくなったようです！<br> <br><a href="http://www.esp8266.com/viewtopic.php?p=18496" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.esp8266.com/viewtopic.php?p=18496<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>その前の、esp_iot_sdk_v1.0.1/include/osapi.h にはあるようです。</p>
-<p>ということは、作者はesp_iot_sdk_v1.0.1より前のSDK を使っていたということですね。</p>
-<p>ソース修正はとりあえず、後回しで、今は作者の環境を推測し、最後までコンパイルが通る環境を探るのが優先です。</p>
-<p><a href="http://bbs.espressif.com/viewforum.php?f=46" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewforum.php?f=46<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>の一覧から、esp_iot_sdk_v1.0.1_15_04_24 がありました。</p>
-<p>リリース日は、Fri Apr 24, 2015 10:49 pm です。</p>
-<p><a href="http://bbs.espressif.com/viewtopic.php?f=46&amp;t=398" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewtopic.php?f=46&amp;t=398<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<blockquote>
-<p>ダウンロードし、解凍してシンボリックリンクを張り直します。<br> <br>$ rm sdk</p>
-<p>$ ln -s esp_iot_sdk_v1.0.1 sdk</p>
-</blockquote>
-<p>・再度make</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ make clean
-$ make
-CC user/cgiwifi.c
-CC user/config.c
-CC user/eink.c
-CC user/espfs.c
-CC user/heatshrink_decoder.c
-CC user/httpd.c
-CC user/httpdclient.c
-CC user/httpdespfs.c
-CC user/io.c
-CC user/stdout.c
-CC user/user_main.c
-AR build/einkdisp_app.a
-LD build/einkdisp.out
-FW firmware/0x00000.bin
-make: esptool: No such file or directory
-make: *** [firmware/0x00000.bin] Error 1</pre>
-<p>&#160;</p>
-<p>・おおお、make は通ったようです。esptool がないとか言っていますね。</p>
-<blockquote><p>$ which esptool.py<br> <br>/usr/local/bin/esptool.py</p></blockquote>
-<p>・あるので、以下のように指定し直します。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- Makefile
-::
-#Esptool.py path and port
-ESPTOOL        ?= /usr/local/bin/esptool.py
-::</pre>
-<p>・さて、再度挑戦。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ make clean
-$ make
-CC user/cgiwifi.c
-CC user/config.c
-CC user/eink.c
-CC user/espfs.c
-CC user/heatshrink_decoder.c
-CC user/httpd.c
-CC user/httpdclient.c
-CC user/httpdespfs.c
-CC user/io.c
-CC user/stdout.c
-CC user/user_main.c
-AR build/einkdisp_app.a
-LD build/einkdisp.out
-FW firmware/0x00000.bin
-usage: esptool [-h] [--port PORT] [--baud BAUD]
-               
-               {load_ram,dump_mem,read_mem,write_mem,write_flash,run,image_info,make_image,elf2image,read_mac,flash_id,read_flash,erase_flash}
-               ...
-esptool: error: argument operation: invalid choice: 'build/einkdisp.out' (choose from 'load_ram', 'dump_mem', 'read_mem', 'write_mem', 'write_flash', 'run', 'image_info', 'make_image', 'elf2image', 'read_mac', 'flash_id', 'read_flash', 'erase_flash')
-make: *** [firmware/0x00000.bin] Error 2</pre>
-<p>&#160;</p>
-<p>・ううむ、esptool の使い方が違うよと出ているようです。<br> <br> makefile には次のように書かれています。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- Makefile
-::
-$(FW_FILE_1): $(TARGET_OUT) firmware
-    $(vecho) &quot;FW $@&quot;
-    $(Q) $(ESPTOOL) -eo $(TARGET_OUT) $(FW_FILE_1_ARGS)
-::</pre>
-<p>&#160;</p>
-<p>使い方は、以下のようです。<br> <br>-eo とかなんでしょうね？ 説明にありませんが、、、</p>
-<p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">    $ esptool.py -h
-    usage: esptool [-h] [--port PORT] [--baud BAUD]
-                   
-                   {load_ram,dump_mem,read_mem,write_mem,write_flash,run,image_info,make_image,elf2image,read_mac,flash_id,read_flash,erase_flash}
-                   ...
-    
-    ESP8266 ROM Bootloader Utility
-    
-    positional arguments:
-      {load_ram,dump_mem,read_mem,write_mem,write_flash,run,image_info,make_image,elf2image,read_mac,flash_id,read_flash,erase_flash}
-                            Run esptool {command} -h for additional help
-        load_ram            Download an image to RAM and execute
-        dump_mem            Dump arbitrary memory to disk
-        read_mem            Read arbitrary memory location
-        write_mem           Read-modify-write to arbitrary memory location
-        write_flash         Write a binary blob to flash
-        run                 Run application code in flash
-        image_info          Dump headers from an application image
-        make_image          Create an application image from binary files
-        elf2image           Create an application image from ELF file
-        read_mac            Read MAC address from OTP ROM
-        flash_id            Read SPI flash manufacturer and device ID
-        read_flash          Read SPI flash content
-        erase_flash         Perform Chip Erase on SPI flash
-    
-    optional arguments:
-      -h, --help            show this help message and exit
-      --port PORT, -p PORT  Serial port device
-      --baud BAUD, -b BAUD  Serial port baud rate</pre>
-<p>&#160;</p>
-<p>・変数には以下が入っているので、★は以下のようです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/usr/local/bin/esptool.py -eo build/einkdisp.out -bo $@ -bs .text -bs .data -bs .rodata -bc -ec</pre>
-<p>&#160;</p>
-<p>うーん、よくわかりませんね。まぁ、とにかくesptool.pyの使い方ということを調査すれば解決するかもです。<br> <br>esptool.pyっていうのは、アップロードするだけのものと思っていましたが、他にも用途があるということですかね。</p>
-<p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- Makefile
-::
-BUILD_BASE    = build
-::
-ESPTOOL        ?= /usr/local/bin/esptool.py
-::
-# name for the target project
-TARGET        = einkdisp
-::
-TARGET_OUT    := $(addprefix $(BUILD_BASE)/,$(TARGET).out)
-::
-# we create two different files for uploading into the flash
-# these are the names and options to generate them
-FW_FILE_1    = 0x00000
-FW_FILE_1_ARGS    = -bo $@ -bs .text -bs .data -bs .rodata -bc -ec
-FW_FILE_2    = 0x40000
-FW_FILE_2_ARGS    = -es .irom0.text $@ -ec
-::
-$(FW_FILE_1): $(TARGET_OUT) firmware
-    $(vecho) &quot;FW $@&quot;
-    $(Q) $(ESPTOOL) -eo $(TARGET_OUT) $(FW_FILE_1_ARGS)★
-::</pre>
-<p>&#160;</p>
-<p>・以下な感じにしてみると、作られますが、ファイルサイズが小さいので、やっぱりだめかな？</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">---- Makefile
-::
-$(FW_BASE)/%.bin: $(TARGET_OUT) | $(FW_BASE)
-    $(vecho) &quot;FW $(FW_BASE)/&quot;
-    $(Q) $(ESPTOOL) elf2image -o $(FW_BASE)/ $(TARGET_OUT)
-#    $(Q) $(ESPTOOL) -o $(TARGET_OUT) $(FW_FILE_1_ARGS)
-
-$(FW_FILE_2): $(TARGET_OUT) firmware
-    $(vecho) &quot;FW $(FW_BASE)/&quot;
-    $(Q) $(ESPTOOL) -o $(TARGET_OUT) $(FW_FILE_2_ARGS)
-::</pre>
-<p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ make
-CC user/cgiwifi.c
-CC user/config.c
-CC user/eink.c
-CC user/espfs.c
-CC user/heatshrink_decoder.c
-CC user/httpd.c
-CC user/httpdclient.c
-CC user/httpdespfs.c
-CC user/io.c
-CC user/stdout.c
-CC user/user_main.c
-AR build/einkdisp_app.a
-LD build/einkdisp.out
-FW firmware/
-
-$ ls -ltr firmware/ build/
-firmware/:
-total 408
--rw-r--r--  1 junkhack  staff  166264  9 24 02:00 0x40000.bin
--rw-r--r--  1 junkhack  staff   37632  9 24 02:00 0x00000.bin
-
-build/:
-total 1464
-drwxr-xr-x   2 junkhack  staff      68  9 23 02:05 driver
-drwxr-xr-x  13 junkhack  staff     442  9 24 02:00 user
--rw-r--r--   1 junkhack  staff  231984  9 24 02:00 einkdisp_app.a
--rwxr-xr-x   1 junkhack  staff  514957  9 24 02:00 einkdisp.out</pre>
-<p>&#160;</p>
-<p>このあたりを読んでみますか。<br> <br><a href="https://github.com/themadinventor/esptool" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/themadinventor/esptool<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>とりあえず、本日はここまで。</p>
-<p>▼まとめ</p>
-<p>・sdk は、esp_iot_sdk_v1.0.1より前のを使っていたようです。</p>
-<p>・esp_iot_sdk_v1.0.1_15_04_24 でコンパイルエラーはなくなった</p>
-<p>・esptool.py でファームウェアを作るところがうまくいかない</p>
-<p>・linux 版のesptool.py とかだと、あのオプション指定が通るのか？</p>
-<p>・実行ファイルeinkdisp.outは、作成できている模様</p>
-<p>・ファームウェアのどの領域にどうやって作成するのかを調査すればよさそう</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

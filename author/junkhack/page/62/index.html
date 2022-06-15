@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,98 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1915" class="post-1915 post type-post status-publish format-standard hentry category-aliexpress category-junk category-orangepipc"><div class="entry-wrapper">
+</h1></header><article id="post-1922" class="post-1922 post type-post status-publish format-standard hentry category-orangepipc"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/13/opi-e58299e5bf98e98cb2-kernel-update/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-13T20:24:30+09:00">2015年12月13日</time></a> </span><span class="posted-on">更新日:2015年12月13日</span> <span class="categories"> <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/12/13/opi-e58299e5bf98e98cb2-kernel-update/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OPI 備忘録 Kernel UPdate</a></h1></header><div class="entry-content">
+<p>loboris さんのスクリプトで、kernel を3.4.39-01-lobo にあげたので備忘録。</p>
+<p>&#160;</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">root@OrangePI:/usr/local/src# wget http://loboris.eu/update_kernel.sh
+root@OrangePI:/usr/local/src# chmod 755 update_kernel.sh 
+root@OrangePI:/usr/local/src# ./update_kernel.sh 
+
+Unpacking ...
+Files unpacked.
+==============================================
+Select the OrangePI board you want to upgrade:
+  1   OrangePI 2
+  2   OrangePI PLUS
+  3   OrangePI PC
+?  3
+Updating OrangePI PC
+
+===============================
+Select hdmi display resolution:
+  1   1080p 60Hz
+  2   1080p 50Hz
+  3    720p 60Hz
+  4    720p 50Hz
+?  1
+
+Selected 1080p 60Hz
+
+=====================================
+Do you have HDMI-&gt;DVI adapter, (y/N)?  N
+HDMI interface selected
+
+================
+CONTINUE, (y/N)?  y
+
+kernel, script.bin and /lib/modules updated, please REBOOT.
+AFTER REBOOT RUN:  sudo depmod -a
+===========================================================
+
+root@OrangePI:/usr/local/src# 
+
+★リブート後
+
+junkhack@OrangePI:~# sudo depmod -a
+
+root@OrangePI:/usr/local/src/UnixBench# ./Run -c 4
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: OrangePI: GNU/Linux
+   OS: GNU/Linux -- 3.4.39-01-lobo -- #1 SMP PREEMPT Sun Oct 25 14:46:41 CET 2015
+   Machine: armv7l (armv7l)
+   Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
+   19:49:11 up 3 min,  3 users,  load average: 0.38, 0.34, 0.15; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: Sun Dec 13 2015 19:49:11 - 20:17:47
+0 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       18592638.3 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     2982.9 MWIPS (10.6 s, 7 samples)
+Execl Throughput                               1728.9 lps   (29.4 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        159573.1 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           44372.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        435389.5 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1057156.0 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 102252.4 lps   (10.0 s, 7 samples)
+Process Creation                               5051.4 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3683.5 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    495.0 lpm   (60.3 s, 2 samples)
+System Call Overhead                        2557956.5 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   18592638.3   1593.2
+Double-Precision Whetstone                       55.0       2982.9    542.3
+Execl Throughput                                 43.0       1728.9    402.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     159573.1    403.0
+File Copy 256 bufsize 500 maxblocks            1655.0      44372.0    268.1
+File Copy 4096 bufsize 8000 maxblocks          5800.0     435389.5    750.7
+Pipe Throughput                               12440.0    1057156.0    849.8
+Pipe-based Context Switching                   4000.0     102252.4    255.6
+Process Creation                                126.0       5051.4    400.9
+Shell Scripts (1 concurrent)                     42.4       3683.5    868.7
+Shell Scripts (8 concurrent)                      6.0        495.0    824.9
+System Call Overhead                          15000.0    2557956.5   1705.3
+                                                                   ========
+System Benchmarks Index Score                                         616.2</pre>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1915" class="post-1915 post type-post status-publish format-standard hentry category-aliexpress category-junk category-orangepipc"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/13/orangepi-pc-e381abe38392e383bce38388e382b7e383b3e382af/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-13T18:37:20+09:00">2015年12月13日</time></a> </span><span class="posted-on">更新日:2015年12月13日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/junk/" rel="category tag noopener noreferrer" data-wpel-link="internal">Junk</a>, <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/12/13/orangepi-pc-e381abe38392e383bce38388e382b7e383b3e382af/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OrangePi PC にヒートシンク</a></h1></header><div class="entry-content">
@@ -447,86 +539,6 @@ root@OrangePI:/usr/local/src/UnixBench# </pre>
 <p>まぁ、一発で成功するのは稀なので、何かが悪いのでしょう。</p>
 <p>&#160;</p>
 <p>今週少しづつ、チェックしていこうと思います。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1847" class="post-1847 post type-post status-publish format-standard hentry category-backboost category-esp8266 category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/06/e4babae7949fe5889de38081qfne38391e38383e382b1e383bce382b8e381aee58d8ae794b0e4bb98e38191-e5a4b1e69597e381aee4be8b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-06T07:56:27+09:00">2015年12月6日</time></a> </span><span class="posted-on">更新日:2015年12月6日</span> <span class="categories"> <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/12/06/e4babae7949fe5889de38081qfne38391e38383e382b1e383bce382b8e381aee58d8ae794b0e4bb98e38191-e5a4b1e69597e381aee4be8b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">人生初、QFNパッケージの半田付け&#8211;失敗の例</a></h1></header><div class="entry-content">
-<p>成功する例を載せても、まぁ教訓にはなりません。</p>
-<p>失敗からコツを覚えておくためにも、写真解説付きで載せなぜ失敗したかを考えてみたいと思います。</p>
-<p>&#160;</p>
-<p>さて、半田付けの対象はTPS63000です。 このパッケージはQFN というものとなり、箱型でPINが生えていないパッケージになります。</p>
-<p><img loading="lazy" title="TPS63000DRCR" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="TPS63000DRCR" src="/wp-content/uploads/2015/12/tps63000drcr.png" width="640" height="469"></p>
-<p>半田付けする基板の位置は以下の部分です。</p>
-<p><img loading="lazy" title="ccc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ccc" src="/wp-content/uploads/2015/12/ccc1.png" width="639" height="559"></p>
-<p><img loading="lazy" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/1.jpg" width="640" height="361"></p>
-<p>PCB 上の1PINのマークを付け忘れたのでeagle 上で確認します。右上が1PIN でパーツにポチが付いているのがマークです。裏面は中央にGNDがあり熱をPCB上に逃がす構造です。これを半田付けするには、ブローがどうしても必要です。</p>
-<p><img loading="lazy" title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/2.jpg" width="640" height="361"> <br>写真では大きく見えますが、いざ、部品と向き合って見てみると、その小ささに面食らいます。イメージでは、米粒2個分くらいか、それ以下です。</p>
-<p>&#160;</p>
-<p>写真は、ビデオを撮りながらあとからキャプチャーしたものです。まだ、拡大鏡のCCDが用意できていないので、ビデオで代用しました。肉眼では、まったく見えないということはないのですが、状態の変化がよくわかりませんし、部品の表面についている1PIN マークがほぼ見えません。なんらかの拡大鏡は必須と感じました。</p>
-<p>&#160;</p>
-<p>大きく流れは以下のようなポイントです。ペースト半田を使っていますが、工程からするとあまり意味が無い感じです。</p>
-<p>1) 半田を適量つけ、予備半田をする</p>
-<p>2) フラックスをつける</p>
-<p>3) パーツをピンセットで置き、熱風を当てる</p>
-<p>4) 半田が溶けると、パーツが少し沈むのでピンセットで少しあてなじませる</p>
-<p>5) フラックスを掃除</p>
-<p>&#160;</p>
-<p>結論から言えば、この工程の、3,4 で失敗しました。</p>
-<p>&#160;</p>
-<p><strong>1) 半田を適量つけ予備半田をする。</strong></p>
-<p>&#160;</p>
-<p>ペースト半田をつけました。かなり荒っぽいですが、溶けてきれいになるので問題ありません。そもそも3mm 四方の話で、手作業では限界があります。ステンシルを作ってつける場合は、ペースト半田の意味があると感じました。</p>
-<p><img loading="lazy" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/1.png" width="640" height="360"></p>
-<p>熱風をあて、溶かします。</p>
-<p><img loading="lazy" title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/2.png" width="640" height="360"></p>
-<p>PCBにマスクがかかっているので、銅箔面にくっつきます。</p>
-<p><img loading="lazy" title="3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3" src="/wp-content/uploads/2015/12/3.png" width="640" height="360"></p>
-<p>ピンにブリッジが出来る場合、先がフラットになっている小手で、修正します。</p>
-<p><img loading="lazy" title="4" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="4" src="/wp-content/uploads/2015/12/4.png" width="640" height="360"></p>
-<p>こんな感じの状態を作ります。ステンシルで綺麗に、この胴箔面にペースト半田を付けられれば溶かさずパーツを置いてしまって良いと思います。</p>
-<p><img loading="lazy" title="5" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="5" src="/wp-content/uploads/2015/12/5.png" width="640" height="360"></p>
-<p><strong>2) フラックスをつける</strong></p>
-<p><strong>3) パーツをピンセットで置き、熱風を当てる</strong></p>
-<p>&#160;</p>
-<p>少し清掃してから、フラックスを付け直したほうがよかったかもしれませんが、写真のようにまだフラックスがあるのでいいかなと、パス。ピンセットでパーツを置き熱風を当てます。</p>
-<p><img loading="lazy" title="6" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="6" src="/wp-content/uploads/2015/12/6.png" width="640" height="360"></p>
-<p><strong>4) 半田が溶けると、パーツが少し沈むのでピンセットで少しあてなじませる</strong></p>
-<p>&#160;</p>
-<p>フラックスの液と半田に浮いていますが、熱風を当てていると少し沈み込みます。このとき、位置がずれてしまいました。</p>
-<p><img loading="lazy" title="7" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="7" src="/wp-content/uploads/2015/12/7.png" width="640" height="360"></p>
-<p>うまく位置を修正できずに、一度半田が固まりました。サイド、熱風をあて、ピンセットで位置を修正しています。</p>
-<p><img loading="lazy" title="8" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="8" src="/wp-content/uploads/2015/12/8.png" width="640" height="360"></p>
-<p><strong>5) フラックスを掃除</strong></p>
-<p>&#160;</p>
-<p>ちゃんとついたように見えたのですが、清掃してよく見ると、位置が大幅にずれています。</p>
-<p><img loading="lazy" title="9" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="9" src="/wp-content/uploads/2015/12/9.png" width="640" height="360"></p>
-<p>パーツが付いていない基板と見比べると、あきらかに下側によっています。中央のGNDパット部分がPINに干渉しているかもしれません。</p>
-<p><img loading="lazy" title="10" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="10" src="/wp-content/uploads/2015/12/10.png" width="640" height="360"></p>
-<p>&#160;</p>
-<p>というわけで、最初の工程は失敗。さて、どこが悪かったのでしょうか？ だめなところをまとめると以下です。</p>
-<p>・GNDパッドが溶けて沈み込むときにずれた。</p>
-<p>・ブローを横から当てていた</p>
-<p>・真上からあててたとしても、ピンが4方になく、左右にずれるの当然かも。</p>
-<p>・ずれるとは思っていなかったので、ピンセットを持っていなかった</p>
-<p>・PIN部分の半田が溶け、表面張力により移動した</p>
-<p>・予備半田したあと、フラックスを付け直さなかった</p>
-<p>&#160;</p>
-<p>先輩たちのビデオを見てわかったことがあります。</p>
-<p>・工法は、大きく２つあり、GNDパットのみ予備半田をして、リフローし、PINはあとから手半田で行う方法と、同時にPINまでつける方法がある。</p>
-<p>・PIN部分もサイドから、あとから手半田している。パーツのサイド面の端子部分と半田をなじませている。</p>
-<p>・PINを同時につける場合は、GNDパット部分の半田を盛り過ぎないこと。予備半田したとき、サイドから見ればPIN部分と同一の高さになるようにする。これによりずれにくくする</p>
-<p>・予備半田をしたのち、フラックスは必ずつける。フラックスの流れで、半田が溶けて沈み込みの現象が良くわかるのと、多少位置がずれた場合に、修正が楽になるのと、２つ意味がある。</p>
-<p>・ペースト半田を使う必要は無い。</p>
-<p>&#160;</p>
-<p>▼参考</p>
-<p>&#160;</p>
-<p>サイド部分はあとから、半田する場合</p>
-<p> [youtube https://www.youtube.com/watch?v=hYllE1gnzzU]</p>
-<p>&#160;</p>
-<p>GNDパットとPINを同時の場合（映像にはないが、あとから、サイドもやっていると思う）</p>
-<p> [youtube https://www.youtube.com/watch?v=JW3kRnjggFo]</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

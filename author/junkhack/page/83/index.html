@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,12 +71,140 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-722" class="post-722 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-parts"><div class="entry-wrapper">
+</h1></header><article id="post-729" class="post-729 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-parts"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/06/14/am2302-temperature-humidity-sensor-arduino-nano/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-06-14T02:01:31+09:00">2015年6月14日</time></a> </span><span class="posted-on">更新日:2015年6月14日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/06/14/am2302-temperature-humidity-sensor-arduino-nano/" rel="bookmark noopener noreferrer" data-wpel-link="internal">AM2302温度湿度センサーをArduino Nanoでテスト</a></h1></header><div class="entry-content">
+<p>温度と湿度のセンサーが合体したので、単線で使えるものを探していたら、DHTシリーズというのがあったので、これをテスト。</p>
+<p>メーカーは、Aosong Guangzhou Electronics Co., Ltd.で、中国の広州にあるセンサー専門メーカーのようです。1個2.99 ドルで、Nanoよりも高いです。そこそこ、精度は取れるのでしょうかね。</p>
+<p>&#160;</p>
+<p><img title="DHT22_AM2302_fzz" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DHT22_AM2302_fzz" src="/wp-content/uploads/2015/06/dht22_am2302_fzz.png" width="535" height="480"></p>
+<p>手持ちに10KΩが見当たらなかったので、5.6K を２つ付けています。センサーからは４Pin 出ていますが、使うのは3本です。</p>
+<p><img loading="lazy" title="AM2302" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="AM2302" src="/wp-content/uploads/2015/06/am2302.jpg" width="640" height="480"></p>
+<p>&#160;</p>
+<blockquote>
+<p><a title="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" href="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>3. Technical Specification: <br>Model DHT22 <br>Power supply 3.3-6V DC <br>Output signal digital signal via single-bus <br>Sensing element Polymer capacitor <br>Operating range humidity 0-100%RH; temperature -40~80Celsius <br>Accuracy humidity +-2%RH(Max +-5%RH); temperature &lt;+-0.5Celsius <br>Resolution or sensitivity humidity 0.1%RH; temperature 0.1Celsius <br>Repeatability humidity +-1%RH; temperature +-0.2Celsius <br>Humidity hysteresis +-0.3%RH <br>Long-term Stability +-0.5%RH/year <br>Sensing period Average: 2s <br>Interchangeability fully interchangeable <br>Dimensions small size 14*18*5.5mm; big size 22*28*5mm</p>
+</blockquote>
+<p>&#160;</p>
+<p><img loading="lazy" title="datasheets_Sensors_Temperature_DHT22_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="datasheets_Sensors_Temperature_DHT22_pdf" src="/wp-content/uploads/2015/06/datasheets_sensors_temperature_dht22_pdf.png" width="429" height="480"></p>
+<p>コートは、サンプルのです。華氏でシリアルプリントしている部分はいらないので、以下のようにしました。</p>
+<p>ライブラリは、以下を使いました。</p>
+<p>&#8212; Arduino library for DHT11DHT22 &#8212; <br>https://github.com/adafruit/DHT-sensor-library</p>
+<p>&#160;</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ AM2302 DHT22 humidity/temperature sensors
+ Read test.
+ 
+ --- AM2302 Aosong Guangzhou Electronics Co., Ltd. ---
+ 3 to 5V power and I/O
+ 2.5mA max current use during conversion (while requesting data)
+ Good for 0-100% humidity readings with 2-5% accuracy
+ Good for -40 to 125°C temperature readings ±0.5°C accuracy
+ No more than 0.5 Hz sampling rate (once every 2 seconds)
+ Body size 15.1mm x 25mm x 7.7mm
+ 4 pins with 0.1&quot; spacing
+ 
+ --- Arduino library for DHT11DHT22 ---
+ https://github.com/adafruit/DHT-sensor-library
+ 
+ JunkHack 2015.06.14
+ */
+
+#include &quot;DHT.h&quot;
+#define DHTPIN 2     // what pin we're connected to
+
+// Uncomment whatever type you're using!
+//#define DHTTYPE DHT11   // DHT 11 
+#define DHTTYPE DHT22   // DHT 22  (AM2302)
+//#define DHTTYPE DHT21   // DHT 21 (AM2301)
+
+// Initialize DHT sensor for normal 16mhz Arduino
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600); 
+  Serial.println(&quot;DHT22 AM2302 test!&quot;);
+ 
+  dht.begin();
+}
+
+void loop() {
+  // Wait a few seconds between measurements.
+  delay(2000);
+
+  // Reading temperature or humidity takes about 250 milliseconds!
+  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+  float h = dht.readHumidity();
+  // Read temperature as Celsius
+  float t = dht.readTemperature();
+  // Read temperature as Fahrenheit
+  float f = dht.readTemperature(true);
+  
+  // Check if any reads failed and exit early (to try again).
+  if (isnan(h) || isnan(t) || isnan(f)) {
+    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
+    return;
+  }
+
+  // Compute heat index
+  // Must send in temp in Fahrenheit!
+  float hi = dht.computeHeatIndex(f, h);
+
+  Serial.print(&quot;Humidity: &quot;); 
+  Serial.print(h);
+  Serial.print(&quot; %\t&quot;);
+  Serial.print(&quot;Temperature: &quot;); 
+  Serial.print(t);
+  Serial.println(&quot; *C &quot;);
+}</pre>
+<p>梅雨時なので、湿度が高いかしらね。温度は、常夏の気温ですが。暑すぎない？</p>
+<p>まぁ、こんな感じで湿度と、温度がとられていますね。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">DHT22 AM2302 test!
+Humidity: 43.10 %    Temperature: 31.30 *C 
+Humidity: 43.00 %    Temperature: 31.40 *C 
+Humidity: 42.70 %    Temperature: 31.40 *C 
+Humidity: 42.40 %    Temperature: 31.40 *C 
+Humidity: 42.40 %    Temperature: 31.40 *C 
+Humidity: 42.60 %    Temperature: 31.40 *C 
+Humidity: 44.10 %    Temperature: 31.40 *C 
+Humidity: 43.80 %    Temperature: 31.40 *C </pre>
+<p>&#160;</p>
+<p>今度は、これをESP8266 の ESP-12 で取れるようにしたいです。データを投げつけて IoT デバイスにしたいのですからね。</p>
+<p>ちなみに、抵抗を5.6Kのときのデータは以下のようでした。0.3度くらいは低かった感じです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">▼5.6K
+DHT22 AM2302 test!
+Humidity: 43.10 %    Temperature: 31.20 *C 
+Humidity: 45.10 %    Temperature: 31.20 *C 
+Humidity: 45.10 %    Temperature: 31.20 *C 
+Humidity: 45.20 %    Temperature: 31.20 *C 
+Humidity: 44.60 %    Temperature: 31.20 *C 
+Humidity: 44.10 %    Temperature: 31.20 *C 
+Humidity: 44.90 %    Temperature: 31.20 *C 
+Humidity: 44.10 %    Temperature: 31.20 *C 
+Humidity: 43.50 %    Temperature: 31.20 *C 
+Humidity: 43.10 %    Temperature: 31.20 *C 
+
+▼11.2K
+DHT22 AM2302 test!
+Humidity: 42.60 %    Temperature: 31.50 *C 
+Humidity: 43.20 %    Temperature: 31.50 *C 
+Humidity: 44.00 %    Temperature: 31.50 *C 
+Humidity: 43.40 %    Temperature: 31.50 *C 
+Humidity: 44.20 %    Temperature: 31.50 *C 
+Humidity: 43.50 %    Temperature: 31.50 *C 
+Humidity: 44.00 %    Temperature: 31.50 *C 
+Humidity: 43.20 %    Temperature: 31.50 *C 
+Humidity: 42.70 %    Temperature: 31.50 *C 
+Humidity: 43.90 %    Temperature: 31.50 *C </pre>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-722" class="post-722 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-parts"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/05/17/dtr-cp2102/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-17T01:12:44+09:00">2015年5月17日</time></a> </span><span class="posted-on">更新日:2015年5月17日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/05/17/dtr-cp2102/" rel="bookmark noopener noreferrer" data-wpel-link="internal">DTR付のCP2102 をゲット</a></h1></header><div class="entry-content">
 <p>お買い物ついでに、忘れないようDTR付のUSBシリアル変換をゲットしました。</p>
-<p><img title="cp2102a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="cp2102a" src="/wp-content/uploads/2015/05/cp2102a.png" width="640" height="397"></p>
+<p><img loading="lazy" title="cp2102a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="cp2102a" src="/wp-content/uploads/2015/05/cp2102a.png" width="640" height="397"></p>
 <p>動作確認してみました。</p>
 <p><img loading="lazy" title="cp2102b" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="cp2102b" src="/wp-content/uploads/2015/05/cp2102b.png" width="640" height="397"></p>
 <p>いやぁ、便利ですね。</p>
@@ -402,71 +531,6 @@ void loop() {
 <p>&#160;</p>
 <p>ESP8266 Wifi Temperature Logger</p>
 <p><a title="http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?lang=ja&amp;ALLSTEPS" href="http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?lang=ja&amp;ALLSTEPS" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/?lang=ja&amp;ALLSTEPS<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-672" class="post-672 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/05/08/esp8266-esp-12-doubleblink/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-08T08:58:04+09:00">2015年5月8日</time></a> </span><span class="posted-on">更新日:2015年5月8日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/05/08/esp8266-esp-12-doubleblink/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 ESP-12 DoubleBlink</a></h1></header><div class="entry-content">
-<p align="left">ESP8266 チップを使った WiFiモジュールの ESP-12 を触ってみました。</p>
-<p align="left">面白いことに、このモジュール単体でGPIOがあり、ArduinoIDEでプログラムを書き込みできてしまうという点です。</p>
-<p align="left">まずは、ハードウェアのHelloWorldであるLED点滅をやってみました。</p>
-<p align="center"><img loading="lazy" title="ESP8266-DoubleBlink.mov 2015.05.08 08.45.29.660" style="display:inline;border-width:0;" border="0" alt="ESP8266-DoubleBlink.mov 2015.05.08 08.45.29.660" src="/wp-content/uploads/2015/05/esp8266doubleblink-mov2015-05-0808-45-29-660.png" width="640" height="360"></p>
-<p align="left">モジュールはこんな感じでちっこいです。3.3Vで動作します。ブレッドボードに刺さらない2mmピッチなので下駄を履かせています。 基盤のしたにジャンパーを伸ばしてやらないと配線できませぬ。</p>
-<p align="center"><img loading="lazy" title="ESP8266-DoubleBlink.mov 2015.05.08 08.46.59.348" style="display:inline;border-width:0;" border="0" alt="ESP8266-DoubleBlink.mov 2015.05.08 08.46.59.348" src="/wp-content/uploads/2015/05/esp8266doubleblink-mov2015-05-0808-46-59-348.png" width="640" height="360"></p>
-<p align="left">そのうち、オフィシャルのArduinoIDE にも入るかと思いますが、以下からESP8266 をサポートしたIDEをゲットします。</p>
-<p align="left">&#160;</p>
-<blockquote>
-<p align="left">esp8266/Arduino · GitHub</p>
-<p align="left"><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p align="left">&#160;</p>
-<p align="center"></p>
-<p align="center"><img loading="lazy" title="ESP8266-DoubleBlink.mov 2015.05.08 08.49.25.402" style="display:inline;border-width:0;" border="0" alt="ESP8266-DoubleBlink.mov 2015.05.08 08.49.25.402" src="/wp-content/uploads/2015/05/esp8266doubleblink-mov2015-05-0808-49-25-402.png" width="640" height="360"></p>
-<p align="left">ボードにESP8266 が入っています。</p>
-<p align="center"><img loading="lazy" title="ESP8266-DoubleBlink.mov 2015.05.08 08.49.36.091" style="display:inline;border-width:0;" border="0" alt="ESP8266-DoubleBlink.mov 2015.05.08 08.49.36.091" src="/wp-content/uploads/2015/05/esp8266doubleblink-mov2015-05-0808-49-36-091.png" width="640" height="360"></p>
-<p align="left">書き込み装置には、esptool が入っています。</p>
-<p align="center"><img loading="lazy" title="ESP8266-DoubleBlink.mov 2015.05.08 08.49.46.156" style="display:inline;border-width:0;" border="0" alt="ESP8266-DoubleBlink.mov 2015.05.08 08.49.46.156" src="/wp-content/uploads/2015/05/esp8266doubleblink-mov2015-05-0808-49-46-156.png" width="640" height="360"></p>
-<p align="left">配線は以下のようにします。上にあるのは、５V to 3V のレギュレーターです。書き込みするときは、GPIO0 をGND に落としてやります。</p>
-<p align="left"><img loading="lazy" title="aacf887cc59654663f08674be38c52c9" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="aacf887cc59654663f08674be38c52c9" src="/wp-content/uploads/2015/05/aacf887cc59654663f08674be38c52c9.png" width="640" height="453"></p>
-<p align="left">コードはダブルブリンクを以下のようにしてみました。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- ESP8266 Double Blink Sample.
- Arduino-compatible IDE with ESP8266
- arduino-1.6.1-macosx-java-latest-signed.zip
- https://github.com/esp8266/Arduino
- JunkHack 2015.05.08
- */
- 
-void setup() {
-  pinMode(0, OUTPUT);
-}
- 
-void loop() {
-  digitalWrite(0, HIGH);
-  delay(400);
-  digitalWrite(0, LOW);
-  delay(100);
-  digitalWrite(0, HIGH);
-  delay(500);
-  digitalWrite(0, LOW);
-  delay(1000);
-}</pre>
-<p align="left">IDE から書き込みすると以下のようになります。</p>
-<p align="center"><img loading="lazy" title="ESP8266-DoubleBlink.mov 2015.05.08 08.50.15.224" style="display:inline;border-width:0;" border="0" alt="ESP8266-DoubleBlink.mov 2015.05.08 08.50.15.224" src="/wp-content/uploads/2015/05/esp8266doubleblink-mov2015-05-0808-50-15-224.png" width="640" height="360"></p>
-<p align="center"></p>
-<p>とりあえず、書き込み方法はわかりました。</p>
-<p>映像は以下をどうぞ。</p>
-<p>[youtube https://www.youtube.com/watch?v=9TUboOLnz6A]</p>
-<p>次回は、WiFi でコネクションする何かをやりたいですね。</p>
-<p>面白いことに、透過モードにするファームウェアもあるので試してみたいですね。</p>
-<p>&#160;</p>
-<blockquote>
-<p>ESP8266-transparent-bridge</p>
-<p><a title="https://github.com/beckdac/ESP8266-transparent-bridge" href="https://github.com/beckdac/ESP8266-transparent-bridge" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/beckdac/ESP8266-transparent-bridge<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>nWorld ESP8266で透過モードを使ってみた。</p>
-<p><a title="http://firtel.blogspot.jp/2015/01/esp8266.html" href="http://firtel.blogspot.jp/2015/01/esp8266.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://firtel.blogspot.jp/2015/01/esp8266.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 </div>
 <footer class="entry-footer"></footer>

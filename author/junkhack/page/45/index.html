@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,12 +71,45 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-3161" class="post-3161 post type-post status-publish format-standard hentry category-3d-print category-cnc category-diy"><div class="entry-wrapper">
+</h1></header><article id="post-3173" class="post-3173 post type-post status-publish format-standard hentry category-3d-print category-cnc category-diy"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/02/06/e69c80e4b88ae983a8e381aee38396e383a9e382b1e38383e38388e381a8-corexy-e6a99fe6a78b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-02-06T22:03:22+09:00">2017年2月6日</time></a> </span><span class="posted-on">更新日:2017年2月6日</span> <span class="categories"> <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/cnc/" rel="category tag noopener noreferrer" data-wpel-link="internal">CNC</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
+</div>
+<h1 class="entry-title"><a href="/2017/02/06/e69c80e4b88ae983a8e381aee38396e383a9e382b1e38383e38388e381a8-corexy-e6a99fe6a78b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">最上部のブラケットと corexy 機構</a></h1></header><div class="entry-content">
+<p>赤いブラケット部分を作りました。</p>
+<p>その下のブラケットも上からネジ止めできるよう変更。</p>
+<p> <img title="D-SlotV2構造 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2構造 2" src="/wp-content/uploads/2017/02/dslotv22.png" width="640" height="419"></p>
+<p>サイドに余分な部分がありますが、corexy&#160; の仕掛けを作る際に考えることに。</p>
+<p><img loading="lazy" title="D-SlotV2構造_ 5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2構造_ 5" src="/wp-content/uploads/2017/02/dslotv2_5.png" width="635" height="617"></p>
+<p>あとは、これらを駆動させる corexy 機構とモーターマウントです。</p>
+<p>&#160;</p>
+<p>corexy は、ステップモーターを２つ Y軸の先端に付けてベルトを引き回して、X軸とY軸を動かすタイプです。</p>
+<p>&#160;</p>
+<p> <a href="http://corexy.com/theory.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="reference" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="reference" src="/wp-content/uploads/2017/02/reference.png" width="452" height="480"></a></p>
+<p>CNC でこれを使ったタイプはあまり見かけません。3Dプリンターやプロッターでは見かけます。CNCルータ で見かけないのは、おそらく台形ネジやボールネジを駆動に使ったほうが精度が出るからだと思いますが、当初からベルト駆動で作ることを想定していましたので、ここはその最高峰の駆動システムである、corexy を採用したいと思います。</p>
+<p>これによるメリットは大きく以下と認識しています。</p>
+<p>&#160;</p>
+<p>・ボールネジや台形ネジにはできない高速移動（ベルトだから）</p>
+<p>・X軸とY軸の移動は２つのステップモーターで動かすのでトルクが出る</p>
+<p>・ベルトのテンションが常に稼動方向に均等にかかり、稼動軸のねじれが出ない</p>
+<p>・MIT Media Labs で考案されたのでかっこいい</p>
+<p>・オープンソース</p>
+<p>&#160;</p>
+<p>似たシステムに、H-Bot 機構がありますが、こちらはベルトの引き回しがシンプルですが、ひっぱる部分がX軸とY軸で均等ではないので、軸の剛性がより求められます。完全に軸の剛性があれば理想的な動きをするようですが、実際には完全に剛性があるXYステージはないので、微妙にズレが発生するのがデメリットのようです。</p>
+<p>&#160;</p>
+<p>ということで、これを組み込むことが今週の課題です。うまく組み込めるでしょうかね。</p>
+<p><img loading="lazy" title="D-SlotV2_coreXY" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY" src="/wp-content/uploads/2017/02/dslotv2_corexy.png" width="640" height="426"></p>
+<p>ベルトの通るラインを確認してみましたが、なかなかこのシステムはcorexy と愛称が良いようです。</p>
+<p><img loading="lazy" title="D-SlotV2_coreXY 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 2" src="/wp-content/uploads/2017/02/dslotv2_corexy2.png" width="640" height="713"> ベルトの仮ラインを引っ張ってみると以下のようです。</p>
+<p><img loading="lazy" title="D-SlotV2_coreXY 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 3" src="/wp-content/uploads/2017/02/dslotv2_corexy3.png" width="643" height="716"></p>
+<p>今日はこのあたりまで。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-3161" class="post-3161 post type-post status-publish format-standard hentry category-3d-print category-cnc category-diy"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/02/05/cnc-e381aee5ba95e38292e381a9e38186e38199e3828be3818befbc9f/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-02-05T15:48:18+09:00">2017年2月5日</time></a> </span><span class="posted-on">更新日:2017年2月5日</span> <span class="categories"> <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/cnc/" rel="category tag noopener noreferrer" data-wpel-link="internal">CNC</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
 </div>
 <h1 class="entry-title"><a href="/2017/02/05/cnc-e381aee5ba95e38292e381a9e38186e38199e3828be3818befbc9f/" rel="bookmark noopener noreferrer" data-wpel-link="internal">CNC の底をどうするか？</a></h1></header><div class="entry-content">
 <p>ベット部分に、安さから18mm のMDF (600&#215;600 で約1200円ほど)を使うことを想定していましたが、他の選択も一応考えてみました。</p>
-<p><img title="D-SlotV2構造_ 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2構造_ 3" src="/wp-content/uploads/2017/02/dslotv2_3.png" width="634" height="480"></p>
+<p><img loading="lazy" title="D-SlotV2構造_ 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2構造_ 3" src="/wp-content/uploads/2017/02/dslotv2_3.png" width="634" height="480"></p>
 <p>まず、10mm 厚の 600&#215;600 のアルミ板（A5052）がモノタロウで約1万円でした。20mm だと約1.9万</p>
 <blockquote>
 <p>MonotaRO ノーブランド</p>
@@ -211,26 +245,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>駒には、M3 のネジで固定のようですね。レールは、3.5mm 径のようですので M3 ですかね。中国製のリニアガイドってどうなんでしょうかね。国産は高くて手が出ないので、一度中華製のリニアガイドを触ってみたいです。</p>
 <p><img loading="lazy" title="HT15gxrFFleXXagOFbXn" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HT15gxrFFleXXagOFbXn" src="/wp-content/uploads/2017/01/ht15gxrfflexxagofbxn.jpg" width="640" height="287"></p>
 <p>今回の用途では十分すぎるくらい機能してくれるでしょう。すっきり作れるので、3700円ここに投資してもいいかなと。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-3110" class="post-3110 post type-post status-publish format-standard hentry category-3d-print category-aliexpress category-cnc category-diy"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/01/24/rootefbc92cnce381aee382ade383a3e383aae38383e382b8e38292e4bd9ce381a3e381a6e381bfe3828be38193e381a8e381ab/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-01-24T23:55:55+09:00">2017年1月24日</time></a> </span><span class="posted-on">更新日:2017年1月24日</span> <span class="categories"> <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/cnc/" rel="category tag noopener noreferrer" data-wpel-link="internal">CNC</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
-</div>
-<h1 class="entry-title"><a href="/2017/01/24/rootefbc92cnce381aee382ade383a3e383aae38383e382b8e38292e4bd9ce381a3e381a6e381bfe3828be38193e381a8e381ab/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Root２CNCのキャリッジを作ってみることに</a></h1></header><div class="entry-content">
-<p>handle name は、Sailorpeteのピート・ニューベリー（Pete Newbery）さんが作った、Root2 CNC のキャリッジに感心したので、早速ベアリングを手配することにしました。</p>
-<p>Root2 CNC には小さなタイプのもあるようです。こっちには BOM があったので参考にしました。</p>
-<p> <a href="http://www.thingiverse.com/thing:1001437" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="root2cnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="root2cnc" src="/wp-content/uploads/2017/01/root2cnc.png" width="640" height="456"></a></p>
-<p>ここで使われているベアリングは、スケボーのローラーに使われているタイプの608 ベアリングです。</p>
-<p>ABEC-7 クラスのものも安く売っているようで、入手しやすいです。</p>
-<p><a href="https://www.aliexpress.com/item/10PCS-Stainless-Steel-Bearings-Roller-Scooter-Ball-Bearings-Skate-Skateboard-Wheels-Silver-Bearings-ABEC-5-608ZZ/32712603455.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="608" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="608" src="/wp-content/uploads/2017/01/608.png" width="640" height="272"></a></p>
-<p>大量にベアリングは使うのですが、とりあえずサンプルで１つキャリッジを作ることにしました。１つのキャリッジに8個のベアリングを使うのでとりあえず ABEC-7 クラスの 608 ベアリングを10個ゲット。安いですね。260円です。中華製だけど、今度のは期待しましょう。ABEC-7 クラスといえば振れ精度が、0.0025mm です。十分すぎますね。</p>
-<p>&#160;</p>
-<p>それから、自分のプロジェクトで使う625タイプのベアリング、こちらも ABEC-5 クラスのが安くありましたのでゲットしてきました。</p>
-<p><a href="https://www.aliexpress.com/item/10pcs-free-shipping-625-zz-abec5-Miniature-deep-groove-ball-bearing-625ZZ-5-16-5-mm/32673372054.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="625zz" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="625zz" src="/wp-content/uploads/2017/01/625zz.png" width="381" height="480"></a> ベアリング専門店なので、まぁ大丈夫じゃないでしょうかね。</p>
-<p>最悪、品質が悪くてもプーリーの軸受けやベルトのテンションを張る部分に使えます。</p>
-<p>&#160;</p>
-<p>Root2 CNC は、側面の Y軸に付ける板が必要ですが、これはこれから作るであろう、D-Slot CNC を使って削りだしてみたいと思います。</p>
-<p>CNC ルータが２つ出来る予定ですね。スピンドルや、その他の機構は参考にしながら独自に作ってみる予定です。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

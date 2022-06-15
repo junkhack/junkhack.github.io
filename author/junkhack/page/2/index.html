@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -71,7 +72,129 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-10979" class="post-10979 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-cdn category-linux category-wordpress category-speeding-up"><div class="entry-wrapper">
+</h1></header><article id="post-11019" class="post-11019 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-wordpress"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2022/01/10/wordpress-to-githubpages/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2022-01-16T02:09:59+09:00">2022年1月16日</time><time class="updated" datetime="2022-01-16T02:41:02+09:00">2022年1月16日</time></a> </span><span class="posted-on">更新日:2022年1月16日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
+</div>
+<h1 class="entry-title"><a href="/2022/01/10/wordpress-to-githubpages/" rel="bookmark noopener noreferrer" data-wpel-link="internal">WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</a></h1></header><div class="entry-content">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>スマホサイトでWordPressも納得したしなー！</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>あ〜、例の記事をネタにするんですね！</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>やっぱり運用が楽なのがいいしね！</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>率直な感想なんかを聞いてみたいわ。</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<p>長らく、スマホ上でWordPress環境を作って、自家サーバで動かしていましたがSLAも納得の数値を出せたのでそろそろ違う環境にしようかなと、考えていました。</p>
+<p>　今日のお話は、WordPressから静的なHTMLファイルを書き出してそれをGitHub Pages やNETLIFYで、独自ドメインを使って動かしてみた感想なんかを書きたいなと思います。具体的な手順なんかは記載していませんので、要望があれば別ネタにしたいなと思います。</p>
+<h3>WordPressでの編集から記事公開までの概略</h3>
+<p>全体の流れは、基本的に以下の３ステップです。</p>
+<p>　(1) ローカル環境のWordPressで記事を書く</p>
+<p>　(2) Simply Staticプラグインで、「静的ファイルを生成する」ボタンを押す</p>
+<p>　(3) 上記でできたファイルを展開して、Github Pages のリポジトリへコミットする</p>
+<p>Github Pages の設定をしておけば、こんな感じですね。(2) のファイル生成時間は、動作速度、記事数や画像数などにもよって変わりますが、自分の場合は１時間弱くらいでした。</p>
+<h3>WordPressのデータをどうやって、静的ファイルにするの？</h3>
+<p>これは非常によくできたプラグインがあります。それを使うだけ。いろいろ検討しましたが以下のが一押しです。</p>
+<blockquote class="wp-block-quote"><p>Simply Static<br><a rel="noreferrer noopener external" href="https://ja.wordpress.org/plugins/simply-static/" target="_blank" data-wpel-link="external" class="wpel-icon-right">HTTPS://JA.WORDPRESS.ORG/PLUGINS/SIMPLY-STATIC/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>これは、Pro 版と無償版があります。今使っているのは、無償版ですが、Pro版も検討しています。とりあえずは、無償版でも十分な機能を持っています。以下のように「相対 URL を使用する」でファイルを書き出す設定をしておきます。なぜ相対URLにしているかといえば、ミラーサイトにも公開しているからです。このブログの場合、以下のように複数のリポジトリへコミットしているからです。</p>
+<h4>　メインサイト：/</h4>
+<h4>　エイリアス：https://junkhack.gpl.jp/</h4>
+<h4>　ミラーサイト：https://jh.gpl.jp/</h4>
+<figure class="wp-block-image size-large"><img width="1024" height="650" src="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png" alt="" class="wp-image-11023" srcset="/wp-content/uploads/2022/01/Simply_Static_setting-1024x650.png 1024w, /wp-content/uploads/2022/01/Simply_Static_setting-768x488.png 768w, /wp-content/uploads/2022/01/Simply_Static_setting-984x625.png 984w, /wp-content/uploads/2022/01/Simply_Static_setting.png 1082w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><p>あとは、「静的ファイルを生成する」でOKです。このブログの場合、583個の記事を１時間弱で書き出せました。</p>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="582" src="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png" alt="" class="wp-image-11028" srcset="/wp-content/uploads/2022/01/Simply_Static_1-1024x582.png 1024w, /wp-content/uploads/2022/01/Simply_Static_1-768x436.png 768w, /wp-content/uploads/2022/01/Simply_Static_1-984x559.png 984w, /wp-content/uploads/2022/01/Simply_Static_1.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><h3>書き出したあとはどうするの？</h3>
+<p>無事に静的ファイルが描き出せたら、圧縮ファイルを展開してGithub Pages のリポジトリにコミットするだけです。自分は、Sourcetree を使っています。</p>
+<figure class="wp-block-image size-full"><img loading="lazy" width="904" height="546" src="/wp-content/uploads/2022/01/Simply_Static_2.png" alt="" class="wp-image-11029" srcset="/wp-content/uploads/2022/01/Simply_Static_2.png 904w, /wp-content/uploads/2022/01/Simply_Static_2-768x464.png 768w" sizes="(max-width: 904px) 100vw, 904px"></figure><p>自動化するならスクリプトを作ってコミットもできると思います。そのうち、やってみたいなと思っています。ちなみに、Simply StaticのPro版はGitHub連携も出来るので一手間減ります。</p>
+<h3>環境づくりで、注意する点</h3>
+<p>WordPress の環境作りでは、以下の点に気を付ける必要があります。</p>
+<ul>
+<li>書き出されるのは静的なHTMLとjsとcss と画像ファイルなのでコメントやメールフォームや検索など動的に動かすことができない</li>
+<li>なので、コメントは全部閉じる</li>
+<li>メールフォームなど、自分の場合はコンタクトフォーム ７を使わないようにした</li>
+<li>検索はGoogleのカスタム検索をWordPressのウィジェットに貼り付ける（<a rel="noreferrer noopener external" href="https://programmablesearchengine.google.com/cse/" target="_blank" data-wpel-link="external" class="wpel-icon-right">https://programmablesearchengine.google.com/cse/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+<li>WordPressのスラグは全部英文字にしておく（日本語は使わない）</li>
+<li>ローカル環境のPHP設定でメモリ関連の設定を上げておく</li>
+</ul>
+<p>といったところでしょうか。静的化してもコメントやメールフォームを動かす別の方法もありますが、現時点ではまだ導入していません。そもそも、コメントやメールフォームは無くても良いかなと。あればコミュニケーションができますが、仕事の依頼系はメールでも十分かなと感じています。わざわざ、メールフォームにしておく必要性もないのが実際のところです。コメントについては、このブログの場合、ほとんど書き込みがないので無くても問題はありません。どうしても、コンタクト撮りたい場合は、メールしてもらえれば良いかなと現時点では思っています。</p>
+<h3>現時点で使っているプラグインは？</h3>
+<p><meta charset="utf-8">静的ファイルを書き出すSimply Staticを使っても、ちゃんと動作しているWordPressのプラグインは以下です。表示系ではない関係ないプラグインもありますが、表示系に関連するのは動いていることを確認しています。</p>
+<pre class="wp-block-code"><code>+-------------------------------------------+----------+-----------+-------------+
+| name                                      | status   | update    | version     |
++-------------------------------------------+----------+-----------+-------------+
+| acf-quickedit-fields                      | active   | available | 3.1.6       |
+| advanced-custom-fields                    | active   | none      | 5.11.4      |
+| akismet                                   | active   | none      | 4.2.1       |
+| autoptimize                               | active   | none      | 2.9.5       |
+| backwpup                                  | active   | none      | 3.10.0      |
+| bulk-media-register                       | active   | none      | 1.25        |
+| admin-featured-image                      | active   | none      | 1.2         |
+| export-all-urls                           | active   | none      | 4.1         |
+| google-sitemap-generator                  | active   | none      | 4.1.1       |
+| jquery-manager                            | active   | none      | 1.10.6      |
+| list-urls                                 | active   | none      | 0.2         |
+| luckywp-table-of-contents                 | active   | none      | 2.1.4       |
+| multiple-domain-mapping-on-single-site    | active   | none      | 1.0.5       |
+| permalink-manager                         | active   | available | 2.2.14      |
+| search-regex                              | active   | none      | 2.4.1       |
+| shortcoder                                | active   | none      | 5.6         |
+| simply-static                             | active   | available | 2.1.5.2     |
+| google-site-kit                           | active   | none      | 1.48.1      |
+| ultimate-addons-for-gutenberg             | active   | none      | 1.25.2      |
+| word-balloon                              | active   | none      | 4.18.4      |
+| wordpress-importer                        | active   | none      | 0.7         |
+| wp-external-links                         | active   | none      | 2.50        |
+| wpfront-scroll-top                        | active   | none      | 2.0.7.08086 |
+| wp-multibyte-patch                        | active   | none      | 2.9         |
+| duplicate-post                            | active   | none      | 4.3         |
++-------------------------------------------+----------+-----------+-------------+</code></pre>
+<p>意外だったのは、目次を作っている「luckywp-table-of-contents」や吹き出し表示の「word-balloon」もちゃんと動作しています。</p>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<p>・運用コストが下がるので、今後はコンテンツネタに力を入れていきたい</p>
+<p>・やっぱり静的ファイルは読み込みが速い！</p>
+<p>・WordPressとは今後もローカル環境で付き合っていきます</p>
+<h3>あとがき</h3>
+<p>かなり前から、WordPress運用環境を変えたいなと検討していました。やっぱりシンプルが一番です。まだ切り替えたばかりなので、少し記事を書いてからまた感想などを書きたいなと思います。</p>
+<h3>著者にメッセージ</h3>
+<p></p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-10979" class="post-10979 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-cdn category-linux category-wordpress category-speeding-up"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2022/01/02/keycdn/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2022-01-02T09:01:22+09:00">2022年1月2日</time><time class="updated" datetime="2022-01-02T09:02:53+09:00">2022年1月2日</time></a> </span><span class="posted-on">更新日:2022年1月2日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/cdn/" rel="category tag noopener noreferrer" data-wpel-link="internal">cdn</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a>, <a href="/category/speeding-up/" rel="category tag noopener noreferrer" data-wpel-link="internal">高速化</a></span>
 </div>
 <h1 class="entry-title"><a href="/2022/01/02/keycdn/" rel="bookmark noopener noreferrer" data-wpel-link="internal">KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</a></h1></header><div class="entry-content">
@@ -120,7 +243,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 </div>
 </div></div></div>
 <p>KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。</p>
-<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px"></a></figure><p>今回は前から気になっていたKeyCDNをこのスマホサーバのWordPressサイトに適用してみましたので、実際どのくらいの値段で運用できるんだ？　みたいな感想をレポートしてみたいと思います。</p>
+<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px"></a></figure><p>今回は前から気になっていたKeyCDNをこのスマホサーバのWordPressサイトに適用してみましたので、実際どのくらいの値段で運用できるんだ？　みたいな感想をレポートしてみたいと思います。</p>
 <h3>そもそもCDNって何？</h3>
 <p>CDNは平たく言えば、画像やコンテンツを本家とは違うサーバから配信するというものです。キャッシュサーバとか、エッジサーバとか表現したりしますが、要は静的なファイルを本家サーバからではなく、CDNのクラウドから配信することによりネットワーク負荷や、レスポンス改善（時に改悪）したりするのが目的です。</p>
 <blockquote class="wp-block-quote">
@@ -559,116 +682,6 @@ $ sudo nginx</code></pre>
 <p>・MainWPを使ってみた<br>・しかし、これは個別で投稿済みの記事をBサイトにコピーはできない<br>・GitHub Pagesのリソース制限は個人サイトくらいなら問題なさそうかな？<br>・WordPressを静的に吐き出して利用するには、まだまだいくつか考慮するポイントがありそう。</p>
 <h3>あとがき</h3>
 <p>世の中は広いから、大抵のものはだれかが作っています。　リサーチしてると面白いものがどんどん発掘されて、当初の目的を忘れていたりします。w さて、次はWordPressの静的ファイルに書き出す仕組みづくりを検討です。</p>
-<h3>著者にメッセージ</h3>
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-10604" class="post-10604 post type-post status-publish format-standard has-post-thumbnail hentry category-linux"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2021/06/01/termux-php8-to-php7/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2021-06-01T06:14:55+09:00">2021年6月1日</time><time class="updated" datetime="2021-06-01T06:16:47+09:00">2021年6月1日</time></a> </span><span class="posted-on">更新日:2021年6月1日</span> <span class="categories"> <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a></span>
-</div>
-<h1 class="entry-title"><a href="/2021/06/01/termux-php8-to-php7/" rel="bookmark noopener noreferrer" data-wpel-link="internal">TermuxでPHP7を使いたい！ PHP8からPHP7にして使う。</a></h1></header><div class="entry-content">
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>今年の初めくらいからtermuxのPHPは7から8に上がったようですね！</p></div></div></div></div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>何か不具合でも？</p></div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>WordPressを動かすには少々、問題ありで。</p></div></div></div></div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>termux はダウングレードできないですよね？</p></div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-<p>先日、termux上でNGINXとPHP-FPMの設定記事を書いたときに気がついたんですが、termuxのPHPって7から8になってPHP7はもうPKGがなく入れられませんでした。</p>
-<blockquote class="wp-block-quote">
-<p>TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例</p>
-<cite><a href="/2021/05/13/termux_nginx_php-fpm_mariadb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite>
-</blockquote>
-<p>で、一つ前の記事でPHP7を暫定配布していたのですが、ビルドしたのでその過程とビルドしたPHP7のdepパッケージをどうやって入れるのかネタにしようかと思います。</p>
-<h3>ビルドしたPHP7のダウンロード先</h3>
-<p>GITHUBに、ビルドしておきました。arm64bitのCPUを使っている方向けです。32bit版はありません。</p>
-<blockquote class="wp-block-quote">
-<p>Github: termux-php7</p>
-<cite><a rel="noreferrer noopener external" href="https://github.com/take-i/termux-php7/tree/master/php7.4.12" target="_blank" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<p>インストールの仕方は簡単に記載しておきます。</p>
-<h4>(1) 一旦、PHP8関連を入れておく</h4>
-<p>とりあえず一旦、アップデートしておきます。アップデートできない人は１つ前の記事を見てください。</p>
-<pre class="wp-block-code"><code>$ pkg update $$ upgrade</code></pre>
-<p>その後、php8やphp-fpm、php-apacheなど入れておきます。</p>
-<pre class="wp-block-code"><code>$ pkg install php php-fpm php-apache</code></pre>
-<p>今入っているバージョンを再確認しておきます。</p>
-<pre class="wp-block-code"><code>$ dpkg -l | grep php</code></pre>
-<p>2021/06/01現在ですと以下が最新です。</p>
-<pre class="wp-block-code"><code>$ dpkg -l | grep php | cut -b 4-35
- php                8.0.6       
- php-apache         8.0.6       
- php-fpm            8.0.6 </code></pre>
-<h3>PHP8関連だけ消す</h3>
-<p>例えば、上の３つPHP8関連だけ消したい場合は以下のようにします。</p>
-<pre class="wp-block-code"><code>$ apt purge php php-apache php-fpm</code></pre>
-<p>ちゃんと消えたか、１つ上のコマンドをタイプして確認してみましょう。</p>
-<h3>PHP7をダウンロードしてインストール</h3>
-<p>php-pgsqlは今回入れないので、消しておきます。</p>
-<pre class="wp-block-code"><code>$ wget https://github.com/take-i/termux-php7/raw/master/php7.4.12-aarch64-deb.zip
-$ unzip php7.4.12-aarch64-deb.zip
-$ cd php7.4.12-aarch64-deb.deb/
-$ rm php-pgsql*
-$ dpkg -i ./php* ./libicu_67.1_aarch64.deb</code></pre>
-<p>以下のようになっていればOKです。</p>
-<pre class="wp-block-code"><code>$ dpkg -l | egrep "php|libicu"
-ii  libicu             67.1           aarch64
-ii  php                7.4.12         aarch64
-ii  php-apache         7.4.12         aarch64
-ii  php-fpm            7.4.12         aarch64</code></pre>
-<p>apache や、nginxの設定をしてみてphpinfo()関数が動作することを確認しておきました。libicuだけ最新の環境から下がっていますので、何かこれ関連で入れられないパッケージが出るかもしれません。何かあれば教えてください。</p>
-<h3>PHP7をアップデートしないよう設定</h3>
-<p>今入れたのがアップデートされないよう設定しておきます。</p>
-<pre class="wp-block-code"><code>$ apt-mark hold libicu php php-apache php-fpm</code></pre>
-<p>確認は以下で。</p>
-<pre class="wp-block-code"><code>$ apt-mark showhold
-libicu
-php
-php-apache
-php-fpm</code></pre>
-<p>ホールドを解除したい場合は、apt-mark unhold &lt;<em>package-name</em>> で解除できます。</p>
-<h3>まとめ</h3>
-<p>今回、なんとなくわかったのは以下となります。</p>
-<p>・ビルドするときは、dockerイメージをubuntuに実機に作ってあれこれする<br>・これはまた次回に紹介<br>・termux独自のパッケージ管理のバージョンなどについては未調査<br>・とりあえず、PHP7はapacheでもnginxでも使えるようになった</p>
-<h3>あとがき</h3>
-<p>WordPressなんかを動かすときは、まだPHP7が安定しています。この前、PHP8で動かしてみたんですが対応していないプラグインなどもあり、またWP-CLIというコマンドラインのツールも警告を出します。ということで、PHP8はもう少し、様子見となりました。termuxでPHP7とか勉強している人もいると思うので今回のネタは少しは需要があるかもしれません。やっぱりビルドするって、面倒ですしね。いつか、その過程も紹介していきたいです。</p>
 <h3>著者にメッセージ</h3>
 <p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 </div>

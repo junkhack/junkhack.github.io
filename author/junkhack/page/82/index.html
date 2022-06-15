@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,27 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-777" class="post-777 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
+</h1></header><article id="post-784" class="post-784 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/03/pi2e381a7fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-03T22:31:09+09:00">2015年7月3日</time></a> </span><span class="posted-on">更新日:2015年7月3日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/07/03/pi2e381a7fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal">pi2でFedora22</a></h1></header><div class="entry-content">
+<p>SDに書き込みが終わって、Pi2 でブート。無事に起動してくれました。が、しかし、、、</p>
+<p><img title="写真 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 3" src="/wp-content/uploads/2015/07/3.jpg" width="640" height="480"></p>
+<p>&#160;</p>
+<p>、、、、悪戦苦闘すること、1時間、、、、うキーですね。</p>
+<p>&#160;</p>
+<p>写真はありませんが、最初ウィザードみたいなのがあって、root のパスワードやユーザ追加、タイムゾーンなどの設定などが出来るのですが、それをやってもログインできず。</p>
+<p>&#160;</p>
+<p>むかついたので、SD を 違うLinux でマウントさせ shadow や sudo設定や、passwd 、ホームディレクトリとbash設定をして無事にログインできました。この初期に出るウィザードがうまく動作していない模様。</p>
+<p>&#160;</p>
+<p><img loading="lazy" title="写真 1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 1" src="/wp-content/uploads/2015/07/1.jpg" width="640" height="480"></p>
+<p>で、あとから気が付いたのですが、kernel が4.0,7 ですと？ Fedora22 って、この間リリースされたやつですか。yum が廃止されdnf に変わってしまいました。うーん、、、、fedora21 にするべきですかね。</p>
+<p><img loading="lazy" title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="/wp-content/uploads/2015/07/2.jpg" width="640" height="480">&#160;</p>
+<p>&#160;</p>
+<p>とりあえず、リモートから ssh でのログインも出来たので少し遊んで様子を見て、こりゃだめだと思えば、Fedora21 のkernel 3系にします。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-777" class="post-777 post type-post status-publish format-standard hentry category-raspberry-pi"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/07/02/pi2-e381ab-fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-07-02T23:39:23+09:00">2015年7月2日</time></a> </span><span class="posted-on">更新日:2015年7月2日</span> <span class="categories"> <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/07/02/pi2-e381ab-fedora22/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Pi2 に Fedora22</a></h1></header><div class="entry-content">
@@ -183,7 +204,7 @@ COMPRESS=0</pre>
 <p>我が家にも、PI2 が来ました。当初、GW明けにRSさんに発注しておいたのですが、忙しくて荷物を取りにいく暇が無くてほっておいたら、返品扱いになってしまいました。ううむ、、、</p>
 <p>&#160;</p>
 <p> で、もう一度頼むのも気が引けたので送料などを考えると、AliExpress で頼んだほうが送料分だけ安いってこともありそっち経由でゲットしました。ケースは、RSさんからゲットしたものです。</p>
-<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/06/11.jpg" width="640" height="480"></p>
+<p><img loading="lazy" title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/06/11.jpg" width="640" height="480"></p>
 <p>パッケージは、こんな感じです。element14.com のパッケージのようですね。</p>
 <p><img loading="lazy" title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/06/21.jpg" width="640" height="480"></p>
 <p>気に入ったケースに収めるとこんな感じです。ふたははめ込み式で、ケーブルの分だけすきまがあるので、以下のように出せます。</p>
@@ -451,134 +472,6 @@ void loop() {
 <p>あと、sleep mode にして平常時に、パワーを抑えるように制御する必要があります。</p>
 <p>&#160;</p>
 <p>まだ、課題はありますね。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-729" class="post-729 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-parts"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/06/14/am2302-temperature-humidity-sensor-arduino-nano/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-06-14T02:01:31+09:00">2015年6月14日</time></a> </span><span class="posted-on">更新日:2015年6月14日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/06/14/am2302-temperature-humidity-sensor-arduino-nano/" rel="bookmark noopener noreferrer" data-wpel-link="internal">AM2302温度湿度センサーをArduino Nanoでテスト</a></h1></header><div class="entry-content">
-<p>温度と湿度のセンサーが合体したので、単線で使えるものを探していたら、DHTシリーズというのがあったので、これをテスト。</p>
-<p>メーカーは、Aosong Guangzhou Electronics Co., Ltd.で、中国の広州にあるセンサー専門メーカーのようです。1個2.99 ドルで、Nanoよりも高いです。そこそこ、精度は取れるのでしょうかね。</p>
-<p>&#160;</p>
-<p><img loading="lazy" title="DHT22_AM2302_fzz" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="DHT22_AM2302_fzz" src="/wp-content/uploads/2015/06/dht22_am2302_fzz.png" width="535" height="480"></p>
-<p>手持ちに10KΩが見当たらなかったので、5.6K を２つ付けています。センサーからは４Pin 出ていますが、使うのは3本です。</p>
-<p><img loading="lazy" title="AM2302" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="AM2302" src="/wp-content/uploads/2015/06/am2302.jpg" width="640" height="480"></p>
-<p>&#160;</p>
-<blockquote>
-<p><a title="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" href="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>3. Technical Specification: <br>Model DHT22 <br>Power supply 3.3-6V DC <br>Output signal digital signal via single-bus <br>Sensing element Polymer capacitor <br>Operating range humidity 0-100%RH; temperature -40~80Celsius <br>Accuracy humidity +-2%RH(Max +-5%RH); temperature &lt;+-0.5Celsius <br>Resolution or sensitivity humidity 0.1%RH; temperature 0.1Celsius <br>Repeatability humidity +-1%RH; temperature +-0.2Celsius <br>Humidity hysteresis +-0.3%RH <br>Long-term Stability +-0.5%RH/year <br>Sensing period Average: 2s <br>Interchangeability fully interchangeable <br>Dimensions small size 14*18*5.5mm; big size 22*28*5mm</p>
-</blockquote>
-<p>&#160;</p>
-<p><img loading="lazy" title="datasheets_Sensors_Temperature_DHT22_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="datasheets_Sensors_Temperature_DHT22_pdf" src="/wp-content/uploads/2015/06/datasheets_sensors_temperature_dht22_pdf.png" width="429" height="480"></p>
-<p>コートは、サンプルのです。華氏でシリアルプリントしている部分はいらないので、以下のようにしました。</p>
-<p>ライブラリは、以下を使いました。</p>
-<p>&#8212; Arduino library for DHT11DHT22 &#8212; <br>https://github.com/adafruit/DHT-sensor-library</p>
-<p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- AM2302 DHT22 humidity/temperature sensors
- Read test.
- 
- --- AM2302 Aosong Guangzhou Electronics Co., Ltd. ---
- 3 to 5V power and I/O
- 2.5mA max current use during conversion (while requesting data)
- Good for 0-100% humidity readings with 2-5% accuracy
- Good for -40 to 125°C temperature readings ±0.5°C accuracy
- No more than 0.5 Hz sampling rate (once every 2 seconds)
- Body size 15.1mm x 25mm x 7.7mm
- 4 pins with 0.1&quot; spacing
- 
- --- Arduino library for DHT11DHT22 ---
- https://github.com/adafruit/DHT-sensor-library
- 
- JunkHack 2015.06.14
- */
-
-#include &quot;DHT.h&quot;
-#define DHTPIN 2     // what pin we're connected to
-
-// Uncomment whatever type you're using!
-//#define DHTTYPE DHT11   // DHT 11 
-#define DHTTYPE DHT22   // DHT 22  (AM2302)
-//#define DHTTYPE DHT21   // DHT 21 (AM2301)
-
-// Initialize DHT sensor for normal 16mhz Arduino
-DHT dht(DHTPIN, DHTTYPE);
-
-void setup() {
-  Serial.begin(9600); 
-  Serial.println(&quot;DHT22 AM2302 test!&quot;);
- 
-  dht.begin();
-}
-
-void loop() {
-  // Wait a few seconds between measurements.
-  delay(2000);
-
-  // Reading temperature or humidity takes about 250 milliseconds!
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  float h = dht.readHumidity();
-  // Read temperature as Celsius
-  float t = dht.readTemperature();
-  // Read temperature as Fahrenheit
-  float f = dht.readTemperature(true);
-  
-  // Check if any reads failed and exit early (to try again).
-  if (isnan(h) || isnan(t) || isnan(f)) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
-
-  // Compute heat index
-  // Must send in temp in Fahrenheit!
-  float hi = dht.computeHeatIndex(f, h);
-
-  Serial.print(&quot;Humidity: &quot;); 
-  Serial.print(h);
-  Serial.print(&quot; %\t&quot;);
-  Serial.print(&quot;Temperature: &quot;); 
-  Serial.print(t);
-  Serial.println(&quot; *C &quot;);
-}</pre>
-<p>梅雨時なので、湿度が高いかしらね。温度は、常夏の気温ですが。暑すぎない？</p>
-<p>まぁ、こんな感じで湿度と、温度がとられていますね。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">DHT22 AM2302 test!
-Humidity: 43.10 %    Temperature: 31.30 *C 
-Humidity: 43.00 %    Temperature: 31.40 *C 
-Humidity: 42.70 %    Temperature: 31.40 *C 
-Humidity: 42.40 %    Temperature: 31.40 *C 
-Humidity: 42.40 %    Temperature: 31.40 *C 
-Humidity: 42.60 %    Temperature: 31.40 *C 
-Humidity: 44.10 %    Temperature: 31.40 *C 
-Humidity: 43.80 %    Temperature: 31.40 *C </pre>
-<p>&#160;</p>
-<p>今度は、これをESP8266 の ESP-12 で取れるようにしたいです。データを投げつけて IoT デバイスにしたいのですからね。</p>
-<p>ちなみに、抵抗を5.6Kのときのデータは以下のようでした。0.3度くらいは低かった感じです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">▼5.6K
-DHT22 AM2302 test!
-Humidity: 43.10 %    Temperature: 31.20 *C 
-Humidity: 45.10 %    Temperature: 31.20 *C 
-Humidity: 45.10 %    Temperature: 31.20 *C 
-Humidity: 45.20 %    Temperature: 31.20 *C 
-Humidity: 44.60 %    Temperature: 31.20 *C 
-Humidity: 44.10 %    Temperature: 31.20 *C 
-Humidity: 44.90 %    Temperature: 31.20 *C 
-Humidity: 44.10 %    Temperature: 31.20 *C 
-Humidity: 43.50 %    Temperature: 31.20 *C 
-Humidity: 43.10 %    Temperature: 31.20 *C 
-
-▼11.2K
-DHT22 AM2302 test!
-Humidity: 42.60 %    Temperature: 31.50 *C 
-Humidity: 43.20 %    Temperature: 31.50 *C 
-Humidity: 44.00 %    Temperature: 31.50 *C 
-Humidity: 43.40 %    Temperature: 31.50 *C 
-Humidity: 44.20 %    Temperature: 31.50 *C 
-Humidity: 43.50 %    Temperature: 31.50 *C 
-Humidity: 44.00 %    Temperature: 31.50 *C 
-Humidity: 43.20 %    Temperature: 31.50 *C 
-Humidity: 42.70 %    Temperature: 31.50 *C 
-Humidity: 43.90 %    Temperature: 31.50 *C </pre>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

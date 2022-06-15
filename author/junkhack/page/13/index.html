@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,12 +71,47 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-5618" class="post-5618 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy"><div class="entry-wrapper">
+</h1></header><article id="post-5650" class="post-5650 post type-post status-publish format-standard hentry category-100yen category-aliexpress category-blog category-diy"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/08/04/achievesaminustemperaturein2peltierelements/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-08-04T01:21:16+09:00">2020年8月4日</time><time class="updated" datetime="2021-07-04T21:15:52+09:00">2021年7月4日</time></a> </span><span class="posted-on">更新日:2021年7月4日</span> <span class="categories"> <a href="/category/100yen/" rel="category tag noopener noreferrer" data-wpel-link="internal">100Yen</a>, <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
+</div>
+<h1 class="entry-title"><a href="/2020/08/04/achievesaminustemperaturein2peltierelements/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？</a></h1></header><div class="entry-content">
+<p>先日、ダストクーラーの修理をしました。しかし実際に運用してみると、あまり冷えないことに気がつきました。100円均一で、温度計（目安計で正確ではありません）をゲットしてきて測ってみると23度くらいです。（室温28度）</p>
+<p><img class="alignnone size-full wp-image-5651" src="/wp-content/uploads/2020/08/img_20200801_152308_7.jpg" alt="IMG_20200801_152308_7" width="3968" height="2976"></p>
+<p>考えられる原因としては、以下が挙げられます。</p>
+<p>・ペルチェ素子の冷える面に対して、アルミブロックの設置面積が足りない<br> ・冷える面と、温まる面の防壁がない（熱が逃げる）<br> ・温まる面にヒートシンクがついていて、間接的にケースの外側にファンがついている<br> →　熱が効率的に冷えない　→　冷える面もそれに準じ、さほど冷えない</p>
+<p>つまり、改造したので構造的な部分の欠点、熱交換の部分の欠点などが考えられそうです。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5654" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_48.png" alt="スクリーンショット_2020_08_04_0_48" width="949" height="596"></p>
+<p>ちなみに、冷蔵庫は10度くらい、冷凍庫は−10度〜18度くらいのようでした。</p>
+<p>生ゴミ保管庫としては、0度くらいを保ってくれると嬉しいのですが、もう少し改善できない実験してみることに。</p>
+<p>まず、構造的な部分は次回考えるとして、今回はペルチェ素子を２段３段と重ねたらどうなるか実験してみました。まず、電源をJunkBoxから調達です。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5655" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_56.png" alt="スクリーンショット_2020_08_04_0_56" width="1011" height="358"></p>
+<p>１Uサーバ用の２５０W電源です。中は少し改造してありますが、１２Vと５Vが取り出せるようになっています。この電源なら６０Wのペルチェ素子を３、４段重ねて駆動させられます。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5657" src="/wp-content/uploads/2020/08/img_20200803_213232_0.jpg" alt="IMG_20200803_213232_0" width="3968" height="2976"></p>
+<p>実験用の設備は、ファン付きのヒートシンクにペルチェ素子を付けて、表面温度を計測します。ファンは５Vに接続してあり、ほぼ音はならない回転数です。１２Vにファンを接続すると爆音でファンが回ります。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5658" src="/wp-content/uploads/2020/08/img_20200803_214039_6.jpg" alt="IMG_20200803_214039_6" width="3968" height="2976"></p>
+<p>ペルチェ素子が１枚（12V）のときは、おおよそ9度でした。ファンは５Vに接続してあります。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5659" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_1_02.png" alt="スクリーンショット_2020_08_04_1_02" width="1162" height="413"></p>
+<p>では、２枚に重ねてみるとどうなるでしょうか？　ペルチェ素子が２枚（12V）のときは一旦、1度付近まで下がりましたが、２、３分すると温度が上昇し、結局下の写真のように8度〜9度付近で安定しました。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5660" src="/wp-content/uploads/2020/08/img_20200803_232802_8.jpg" alt="IMG_20200803_232802_8" width="2976" height="3968"></p>
+<p>ペルチェ素子が３枚（12V）（３段）のとき、写真を撮り忘れましたが、今度は逆に温度が上がっていく現象になりました。一瞬、何が起きたのかパニックになりました。そうそうに電源を切ったので写真がなくてすみません・・・・うーむ（笑）<br> 冷静になって考えてみると、１２V定格で３枚を密着させて動作させたときの熱を吸収できなったのでしょう。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5661" src="/wp-content/uploads/2020/08/img_20200804_002621_1.jpg" alt="IMG_20200804_002621_1" width="2976" height="3968"></p>
+<p>今度は１枚に戻して、ファンを１２Vに接続して実験。すると、0度付近で安定しました。でもファンが煩さすぎて運用する気にはなれません。しかし、発生する熱をうまく逃すことができれば、冷える面も下がるということはわかりました。熱を逃がせないと前回３段の時のように、ペルチェ素子自体が発熱してくることもわかりました。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5662" src="/wp-content/uploads/2020/08/img_20200804_003744_8.jpg" alt="IMG_20200804_003744_8" width="2976" height="3968"></p>
+<p>最後に、２枚接続し、下段は１２V、上段は５Vに接続、ファンは５Vで回します。すると、マイナス４度まで一旦下がりました！　５分以上、稼働させ安定するポイントは−1度くらいでした。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5667" src="/wp-content/uploads/2020/08/img_20200804_012210_8.jpg" alt="IMG_20200804_012210_8" width="2976" height="3968"></p>
+<p>つまり今回の実験では、一番効率がいいのは、２枚の組み合わせです。CPUヒートシンク（ファン付き）側に接続するペルチェ素子は１２Vで定格駆動させ、上段は５Vで運用。これが今の所、最適のようです。</p>
+<p>３段でも、電圧を調整して熱量をうまく逃すことができれば同じように効率的に冷えると思いますが、２段でマイナスまで行ってくれれば今回は良しとします。ブログを書いているとペルチェ素子が結露して凍結していました！　記念に、-1℃　とドライバーで書いてみましたよ！</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5668" src="/wp-content/uploads/2020/08/img_20200804_012347_0.jpg" alt="IMG_20200804_012347_0" width="3968" height="2976"></p>
+<p>次回は構造的な部分にメスを入れてみたいと思います。なんとか、使えるダストボックスにしないとですね！</p>
+<p>&nbsp;</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-5618" class="post-5618 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/08/03/part3changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-08-03T00:22:54+09:00">2020年8月3日</time><time class="updated" datetime="2022-05-06T05:34:15+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories"> <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
 </div>
 <h1 class="entry-title"><a href="/2020/08/03/part3changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aをモリワキカラーに塗り替えるその3</a></h1></header><div class="entry-content">
 <p>やっと梅雨が開けて青空が出て来ましたね！　ということで、スカイウェイブ400 CK43Aをモリワキカラーに塗り替えるシリーズの第３回目です。</p>
-<p><img class="alignnone size-full wp-image-5620" src="/wp-content/uploads/2020/08/1.jpg" alt="1" width="2637" height="1977"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5620" src="/wp-content/uploads/2020/08/1.jpg" alt="1" width="2637" height="1977"></p>
 <p>まず、色がどんな感じが確認するため、前のフェンダーを青と黄色で塗ってみることに。400番のペーパーヤスリで下地処理後、中性洗剤で洗いました。フェンダーの下側がめっちゃ汚かったです。上についているネジが内側からねじ込まれているんで、手が劇よごれました。</p>
 <p><img loading="lazy" class="alignnone size-full wp-image-5623" src="/wp-content/uploads/2020/08/2.png" alt="2" width="1161" height="413"></p>
 <p>新聞紙がないので、建築用の汚れ防止フィルムを使い椅子を保護。これ便利です。まぁ作業用の椅子だから汚れてもいいんですが。</p>
@@ -255,21 +291,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>しかし、テンションがだだ下がりです。せてめ、ステンレスのネジで締めていけばよかったとか、CRC556塗りながらやっておけばとか。まぁ、速く作業を進めたかったのですが結果的には遠回りです。とほほ。</p>
 <p>次回はこれをどうにかすることにします。</p>
 <p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br> ・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br> </del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br> ・（済）<del>タイヤ前後交換</del><br> ・（済）<del>フロントホイールのベアリング交換</del><br> ・（済）<del>リアのクラッチ、ドリブンフェイス側のニードルベアリングの交換</del>（異音がします）<br> ・（済）<del>ファイナルギアボックスを開けて清掃、鉄粉を除去</del><br> ・（済）<del>純正の劇重いマフラーを軽量のものに交換</del><br> ・（済）<del>マフラーにグラスウールを詰めて近接排気音をクリアする</del><br> ・（済）<del>エンジンオイル抜き、エレメント交換、オイルサンプフィルター清掃</del><br> ・（済）<del>エンジンオイル注入（オイルサンプフィルターのフタOリング交換）</del><br> ・（済）<del>リアブレーキパッド交換</del><br> ・（済）<del>フレームの錆止め<br> </del>・ボディー色をモリワキカラーに塗り替え<br> ・ステッカーチューン<br> ・仮で作ったエキパイ部分をメタルフレキシブルホースに交換して排気漏れをなんとかする<br> ・（進行中）サイレンサー入り口のネジ３本をヘリサート加工して排気漏れをなんとかする<br> ・ネジ切れたボルトをなんとかする<br> ・シート張り替え<br> ・タイヤレターを貼ってレーシングなイメージにする<br> ・グリップヒーターをグリップの下に埋め込み<br> ・リアのドリブンフェイス付近からの異音問題（ニードルベアリングは交換済）</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-5516" class="post-5516 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/07/28/part2changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-07-28T23:25:15+09:00">2020年7月28日</time><time class="updated" datetime="2022-05-06T05:36:03+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories"> <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
-</div>
-<h1 class="entry-title"><a href="/2020/07/28/part2changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aをモリワキカラーに塗り替えるその２</a></h1></header><div class="entry-content">
-<p>今日はもう少しディティールにこだわって、塗り替えのイメージを作成してみました。タイヤレターとサイレンサーとホイール白など合成。だいぶ完成系のイメージに近づいてきました。</p>
-<p><img loading="lazy" class=" size-full wp-image-5518 aligncenter" src="/wp-content/uploads/2020/07/moriwaki_color_ai___100___cmyk_e38395e3829ae383ace38392e38299e383a5e383bc_.png" alt="moriwaki_color_ai___100___CMYK_プレビュー_" width="461" height="296"></p>
-<p>片持ちのリアなんで、マフラーあげるとそのあたりが見えてかっこいいですね！<br> タイヤレターもアリエクで、ゴム製のがあるのでこれをつけようかなと思ってイメージを作成。MORIWAKI RACING　と、MICHELIN　を入れてみました。</p>
-<p>文字数は１４文字と８文字で２２文字を前後で、４４文字。片面だけだと1500円くらいで行けそうですね。まず片面やって良さそうなら両面やることにしようかな。構想中。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5520" src="/wp-content/uploads/2020/07/skyeo_custom_tyre_letterings_sticker_1_0_75_inch_height_car_stickers_decals_3d_logo_labels_auto_motorcycle_diy_label_letters_car_stickers__-_aliexpress.png" alt="SKYEO_Custom_Tyre_Letterings_Sticker_1_0_75_inch_Height_Car_Stickers_Decals_3D_Logo_Labels_Auto_Motorcycle_DIY_Label_Letters_Car_Stickers__-_AliExpress" width="1025" height="600"></p>
-<p>これはゴム製で接着剤（別売り）で貼り付けるやつです。タイヤの側面も2.5cmくらいあるので1.9cmのでちょうど良さそうです。</p>
-<p>当初、インナーカウル（写真では黒い部分）をどうするか迷っていましたがこうして趣味レーションしてみると黒いままでも良さそうです。</p>
-<p>一度、色サンプルを見てみたいので今ある缶スプレーでフロントフェンダーを塗ってみることにします。まずは下地処理からですね。塗るのは梅雨開けてからにします。てか、今年は雨が長いですね。</p>
-<p>&nbsp;</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'junkhack-2022-06-03-1';
+const CACHE_NAME = 'junkhack-2022-06-15-1';
 const OFFLINE_URL = 'https://hack.gpl.jp/';
 const urlsToCache = ['https://hack.gpl.jp/'];
 const neverCacheUrls = /\/wp-admin|\/wp-login|preview=true|\/cart|ajax|login/;

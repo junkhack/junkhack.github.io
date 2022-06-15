@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,13 +71,212 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-5769" class="post-5769 post type-post status-publish format-standard hentry category-android category-ios category-linux category-osx"><div class="entry-wrapper">
+</h1></header><article id="post-5786" class="post-5786 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-linux"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/08/29/redminote9sunixbench/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-08-29T01:01:07+09:00">2020年8月29日</time><time class="updated" datetime="2022-05-06T16:55:11+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a></span>
+</div>
+<h1 class="entry-title"><a href="/2020/08/29/redminote9sunixbench/" rel="bookmark noopener noreferrer" data-wpel-link="internal">衝撃価格7500円でゲットしたRedmi Note 9SにLinux入れてUnixBenchを計測</a></h1></header><div class="entry-content">
+<p>いやー、もう８月も終わりに近づてきましたね〜！<br> 皆さんはどっか行きましたか？　自分はお盆休みもバイクをモリワキカラーに塗っていましたよ。どこにも行ってないので、そろそろプチ旅行したいです。バイクに乗りたいですね。</p>
+<p>さて、今回はOCNモバイルONEの乗り換えキャンペーンで激安7500円で新品本体をゲットしましたRedmi Note 9S にUnixBechを走らせてみたいと思います。<br> AndroidスマホなのにLinux上で走るUnixBenchをどうやって動かすってことですが、これは、TermuxというAndroidターミナルエミュレーター＋Linux環境構築アプリがあります。この環境で、UnixBenchをビルドしてスコアを計測してみました。antutuは２８万くらいらしいのですが、UnixBenchはどのくらい出るでしょうか。ちなみに、UmidigiF2は、<a href="/2020/08/24/android%e3%82%b9%e3%83%9e%e3%83%9b%e3%81%abcentos%e3%81%a8%e3%81%8bubuntu%e3%81%a8%e3%81%8b%e5%85%a5%e3%82%8c%e3%81%a6%e6%b4%bb%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%e3%81%8b%e6%a4%9c%e8%a8%8e%e3%81%97/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">前回</a></p>
+<blockquote><p>シングルCPU・・・スコア406.2<br> 8CPU・・・・・・スコア1312.3</p></blockquote>
+<p>のスコアが出ました。<br> まだシステムのアップデートする前なんで、少しkernelバージョンは変わるかもしれませんが、計測時のスマホの状態を貼っておきます。Redmi Note 9Sは、CPUがUmidigiF2よりも速いので、1500くらいのスコアが出るかもなーと思っていますが、さてどのくらいになるでしょうか？</p>
+<p><img class="alignnone size-full wp-image-5791" src="/wp-content/uploads/2020/08/e8b2bce3828ae4bb98e38191e3819fe794bbe5838f_2020_08_28_22_39.png" alt="貼り付けた画像_2020_08_28_22_39" width="864" height="1920"></p>
+<p>まぁ、前置きが長かったのですが、やってることは大したことはないです。まずはGoogleStoreから、以下のアプリを入れておきます。これなんて読むんですかね？　たーむゆーえっくす　とか、たーむっくす　とかかな？</p>
+<p><a href="https://play.google.com/store/apps/details?id=com.termux&amp;hl=ja" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-5793" src="/wp-content/uploads/2020/08/termux_-_google_play_e381aee382a2e38395e3829ae383aa.png" alt="Termux_-_Google_Play_のアプリ" width="690" height="558"></a></p>
+<p>openssh を入れてリモートから作業します。スマホ画面では、最低限以下を入れて起動しておきます。</p>
+<blockquote><p>pkg install openssh -y &amp;&amp; sshd</p></blockquote>
+<p>WiFi アドレスを確認しておきます。</p>
+<blockquote><p>ip a | more<br> または、<br> <span class="s1">ip a | grep inet | grep wlan<br> もっとズバリIPだけ取り出したい場合は、<br> </span><span class="s1">ip -4 a | grep inet | grep wlan0 | grep -oP &#8216;[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+(?=\/)&#8217;</span></p></blockquote>
+<p>鍵作るなり、パスワード設定するなりしてリモートからログインします。今回は、passwd　してパスワード認証でリモートログイン。</p>
+<blockquote><p class="p1"><span class="s1">ssh 192.168.xxx.xxx -p 8022</span></p></blockquote>
+<p>デフォルトsshポートは、8022　です。では、UnixBenchのビルドに必要なツールを入れましょう。</p>
+<blockquote><p class="p1"><span class="s1">pkg install vim wget clang make perl git pkg-config -y</span></p></blockquote>
+<p>あとは前回と同様、Makefileを少し修正して　./Run　です。</p>
+<blockquote><p>git clone <a href="https://github.com/kdlucas/byte-unixbench" rel="nofollow external noopener noreferrer" data-wpel-link="external" target="_blank" class="wpel-icon-right">https://github.com/kdlucas/byte-unixbench<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br> cd byte-unixbench/UnixBench<br> cp -p Makefile Makefile.org<br> vi Makefile<br> ※以下部分を削除してね。（-march=native）</p></blockquote>
+<blockquote><pre>$ diff -u Makefile.org Makefile
+--- Makefile.org	2020-08-28 23:39:45.550203419 +0900
++++ Makefile	2020-08-28 23:40:56.800203392 +0900
+@@ -95,7 +95,7 @@
+     #   - Supported    : x86, x86_64, ARM, AARCH64, etc..
+     #   - Not Supported: RISC-V, IBM Power, etc...
+     ifneq ($(ARCH),$(filter $(ARCH),ppc64 ppc64le))
+-        OPTON += -march=native -mtune=native
++        OPTON += -mtune=native
+     else
+         OPTON += -mcpu=native -mtune=native
+     endif</pre></blockquote>
+<blockquote><p>./Run<br> ::</p></blockquote>
+<p>金曜の夜は眠いです、、、寝そうになりましたがベンチマークが終わったので貼り付け。</p>
+<p>CPU:Qualcomm Snapdragon 720G<br> Hardware : Qualcomm Technologies, Inc SM7125</p>
+<blockquote><pre>========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: localhost: Android
+   OS: Android -- 4.14.117-perf-g2d34faf -- #1 SMP PREEMPT Wed May 13 01:02:15 CST 2020
+   Machine: aarch64 (unknown)
+   Language: en_US.utf8 (charmap=, collate=)
+   23:41:17 up 12:11,  load average: 0.00, 0.00, 0.00; runlevel 
+
+------------------------------------------------------------------------
+Benchmark Run: Fri Aug 28 2020 23:41:17 - 00:09:22
+8 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       32061907.1 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     6143.9 MWIPS (10.0 s, 7 samples)
+Execl Throughput                                267.0 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        630326.5 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          205587.3 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1214283.1 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1227952.4 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 105358.2 lps   (10.0 s, 7 samples)
+Process Creation                                594.4 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   1306.7 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    311.0 lpm   (60.1 s, 2 samples)
+System Call Overhead                        1131049.8 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   32061907.1   2747.4
+Double-Precision Whetstone                       55.0       6143.9   1117.1
+Execl Throughput                                 43.0        267.0     62.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     630326.5   1591.7
+File Copy 256 bufsize 500 maxblocks            1655.0     205587.3   1242.2
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1214283.1   2093.6
+Pipe Throughput                               12440.0    1227952.4    987.1
+Pipe-based Context Switching                   4000.0     105358.2    263.4
+Process Creation                                126.0        594.4     47.2
+Shell Scripts (1 concurrent)                     42.4       1306.7    308.2
+Shell Scripts (8 concurrent)                      6.0        311.0    518.3
+System Call Overhead                          15000.0    1131049.8    754.0
+                                                                   ========
+System Benchmarks Index Score                                         569.6
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Aug 29 2020 00:09:22 - 00:37:59
+8 CPUs in system; running 8 parallel copies of tests
+
+Dhrystone 2 using register variables      120620219.0 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    26336.2 MWIPS (9.5 s, 7 samples)
+Execl Throughput                               1110.7 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        588338.4 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          181982.1 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1457866.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             4512922.8 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 160612.9 lps   (10.0 s, 7 samples)
+Process Creation                                947.0 lps   (30.1 s, 2 samples)
+Shell Scripts (1 concurrent)                   2990.6 lpm   (60.1 s, 2 samples)
+Shell Scripts (8 concurrent)                    399.8 lpm   (60.5 s, 2 samples)
+System Call Overhead                        3946715.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0  120620219.0  10335.9
+Double-Precision Whetstone                       55.0      26336.2   4788.4
+Execl Throughput                                 43.0       1110.7    258.3
+File Copy 1024 bufsize 2000 maxblocks          3960.0     588338.4   1485.7
+File Copy 256 bufsize 500 maxblocks            1655.0     181982.1   1099.6
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1457866.0   2513.6
+Pipe Throughput                               12440.0    4512922.8   3627.8
+Pipe-based Context Switching                   4000.0     160612.9    401.5
+Process Creation                                126.0        947.0     75.2
+Shell Scripts (1 concurrent)                     42.4       2990.6    705.3
+Shell Scripts (8 concurrent)                      6.0        399.8    666.3
+System Call Overhead                          15000.0    3946715.9   2631.1
+                                                                   ========
+System Benchmarks Index Score                                        1177.5</pre></blockquote>
+<p>シングル性能では、UmidigiF2より上ですが、マルチCPUは下ですね。</p>
+<blockquote><p>シングルCPU・・・スコア569.6<br> 8CPU・・・・・・スコア1177.5</p></blockquote>
+<p>特に、プロセスのフォーク処理（Process Creation）とか、シェル関連とか、パイプ処理（Pipe-based Context Switching）が半分くらい遅いですね。なんでこんなに遅いのでしょうか？　システムバージョンアップして、また計測してみます。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5800" src="/wp-content/uploads/2020/08/e8b2bce3828ae4bb98e38191e3819fe794bbe5838f_2020_08_29_0_57.png" alt="貼り付けた画像_2020_08_29_0_57" width="864" height="1920"></p>
+<p>再起動後の情報です。</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5804" src="/wp-content/uploads/2020/08/e8b2bce3828ae4bb98e38191e3819fe794bbe5838f_2020_08_29_1_06.png" alt="貼り付けた画像_2020_08_29_1_06" width="864" height="1920"></p>
+<p>Kernelの末尾の番号だけ微妙に変わっていますが、メジャー・マイナー・メンテナンスの番号は変わらずですね。4.14.117です。UmidigiF2は、4.14.141+で新しいですね。</p>
+<p>結果が出たら貼り付けておきます。今日はもうねるー！　UmidigiF2　のCPU、MediaTek Helio P70もなかなか良いのかもね。</p>
+<p>追記。翌日ベンチマークが終わっていたので貼り付けておきます。誤差の範囲でほぼ同じ結果でした。今回もやはり、プロセスのフォーク処理（Process Creation）とか、シェル関連とか、パイプ処理（Pipe-based Context Switching）がUmidigiF2と比べて半分くらい遅い結果となりました。何かKernelかOS設定で制限があるのかもですね。ファイルコピーなんかは倍くらいRedmeNote9sが速いですが。</p>
+<p>CPUやストレージが速ければ全部のスコアが上がるというわけはないということですね。</p>
+<blockquote><p>シングルCPU・・・スコア571.9<br> 8CPU・・・・・・スコア1127.1</p></blockquote>
+<p>ちなみに、UnixBenchのパイプ処理に使うバイナリのヘッダ情報も乗せておきます。ちゃんと64bitでビルドされていますね。Termux、なかなかいいんじゃないでしょうか。</p>
+<blockquote><p>$ readelf -h ./spawn<br> ELF Header:<br> Magic: 7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00<br> Class: ELF64<br> Data: 2&#8217;s complement, little endian<br> Version: 1 (current)<br> OS/ABI: UNIX &#8211; System V<br> ABI Version: 0<br> Type: DYN (Shared object file)<br> Machine: AArch64<br> Version: 0x1<br> Entry point address: 0x760<br> Start of program headers: 64 (bytes into file)<br> Start of section headers: 7184 (bytes into file)<br> Flags: 0x0<br> Size of this header: 64 (bytes)<br> Size of program headers: 56 (bytes)<br> Number of program headers: 8<br> Size of section headers: 64 (bytes)<br> Number of section headers: 24<br> Section header string table index: 23</p></blockquote>
+<p>ということで、次回はUmidigiF2にWordPressが動く環境を作ってテストしてみたいですね。</p>
+<pre>   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: localhost: Android
+   OS: Android -- 4.14.117-perf-g638d6a0 -- #1 SMP PREEMPT Fri Jun 19 01:24:32 CST 2020
+   Machine: aarch64 (unknown)
+   Language: en_US.utf8 (charmap=, collate=)
+   01:18:25 up 17 min,  load average: 0.55, 1.10, 1.44; runlevel 
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Aug 29 2020 01:18:25 - 01:46:30
+8 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       32007008.4 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     6140.3 MWIPS (10.0 s, 7 samples)
+Execl Throughput                                261.7 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        628988.7 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          207751.6 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1478525.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1164727.3 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  99925.0 lps   (10.0 s, 7 samples)
+Process Creation                                587.5 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   1284.4 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    312.1 lpm   (60.2 s, 2 samples)
+System Call Overhead                        1127699.3 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   32007008.4   2742.7
+Double-Precision Whetstone                       55.0       6140.3   1116.4
+Execl Throughput                                 43.0        261.7     60.9
+File Copy 1024 bufsize 2000 maxblocks          3960.0     628988.7   1588.4
+File Copy 256 bufsize 500 maxblocks            1655.0     207751.6   1255.3
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1478525.0   2549.2
+Pipe Throughput                               12440.0    1164727.3    936.3
+Pipe-based Context Switching                   4000.0      99925.0    249.8
+Process Creation                                126.0        587.5     46.6
+Shell Scripts (1 concurrent)                     42.4       1284.4    302.9
+Shell Scripts (8 concurrent)                      6.0        312.1    520.1
+System Call Overhead                          15000.0    1127699.3    751.8
+                                                                   ========
+System Benchmarks Index Score                                         571.9
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Aug 29 2020 01:46:30 - 02:15:04
+8 CPUs in system; running 8 parallel copies of tests
+
+Dhrystone 2 using register variables      122466899.1 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    26082.3 MWIPS (9.9 s, 7 samples)
+Execl Throughput                               1100.0 lps   (29.7 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        509969.0 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          147009.9 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1308075.6 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             4401030.7 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 163599.9 lps   (10.0 s, 7 samples)
+Process Creation                               1059.8 lps   (30.1 s, 2 samples)
+Shell Scripts (1 concurrent)                   2761.2 lpm   (60.1 s, 2 samples)
+Shell Scripts (8 concurrent)                    366.4 lpm   (60.8 s, 2 samples)
+System Call Overhead                        3964160.3 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0  122466899.1  10494.2
+Double-Precision Whetstone                       55.0      26082.3   4742.2
+Execl Throughput                                 43.0       1100.0    255.8
+File Copy 1024 bufsize 2000 maxblocks          3960.0     509969.0   1287.8
+File Copy 256 bufsize 500 maxblocks            1655.0     147009.9    888.3
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1308075.6   2255.3
+Pipe Throughput                               12440.0    4401030.7   3537.8
+Pipe-based Context Switching                   4000.0     163599.9    409.0
+Process Creation                                126.0       1059.8     84.1
+Shell Scripts (1 concurrent)                     42.4       2761.2    651.2
+Shell Scripts (8 concurrent)                      6.0        366.4    610.7
+System Call Overhead                          15000.0    3964160.3   2642.8
+                                                                   ========
+System Benchmarks Index Score                                        1127.1</pre>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-5769" class="post-5769 post type-post status-publish format-standard hentry category-android category-ios category-linux category-osx"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/08/24/wormhole/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-08-24T12:25:53+09:00">2020年8月24日</time></a> </span><span class="posted-on">更新日:2020年8月24日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/ios/" rel="category tag noopener noreferrer" data-wpel-link="internal">ios</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a></span>
 </div>
 <h1 class="entry-title"><a href="/2020/08/24/wormhole/" rel="bookmark noopener noreferrer" data-wpel-link="internal">神アプリ。PCからiosやandroidスマホ画面を触れる開発者必須のツール</a></h1></header><div class="entry-content">
 <p>アプリ開発って、複数端末を操らないといけないので結構面倒なんですよね。できれば、PC画面のキーボード、マウスから手を離したくはないのです。いちいち、スマホに目線を移動して画面を見て触らないといけないのが面倒です。</p>
 <p>さて、そんな開発者のあなた！　今日のネタは必見ですよ〜。別に開発者じゃなくても便利に使えますのでちょっと紹介しますね。</p>
-<p><img class="alignnone size-full wp-image-5772" src="/wp-content/uploads/2020/08/wormhole_takehikoe381aeiphone__e381a8_wormhole_e381a8_e696b0e38197e38184e382bfe38395e38299.png" alt="Wormhole_TakehikoのiPhone__と_Wormhole_と_新しいタブ" width="1025" height="864"></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-5772" src="/wp-content/uploads/2020/08/wormhole_takehikoe381aeiphone__e381a8_wormhole_e381a8_e696b0e38197e38184e382bfe38395e38299.png" alt="Wormhole_TakehikoのiPhone__と_Wormhole_と_新しいタブ" width="1025" height="864"></p>
 <p>はい、この画面macosでスマホを操っている画面です。左側は、iosで、右側がandroidです。PCのマウスやキーボードでスマホを触れてめちゃくちゃ便利ですよ。これを実現するのは以下のアプリです。WormHoleです！</p>
 <p><a href="https://er.run/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-5774" src="/wp-content/uploads/2020/08/wormhole_-_control_phone_from_pc.png" alt="Wormhole_-_Control_phone_from_PC" width="1015" height="280"></a></p>
 <p>androidは無料で、android側に入れるアプリは以下です。</p>
@@ -282,41 +482,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p><a href="https://www.denkikeisan.com/?w=78&amp;h=23&amp;m=0&amp;d=30&amp;y=27&amp;s=0" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" class="alignnone size-full wp-image-5692" src="/wp-content/uploads/2020/08/78w_23e69982e99693x30e697a5_1kwhe58d98e4bea127e58686_e381a6e38299e99bbbe6b097e69699e98791e38292e8a888e7ae97.png" alt="78W_23時間x30日_1kWh単価27円_で電気料金を計算" width="774" height="601"></a></p>
 <p>生ゴミを臭わなくする価値が１ヶ月1500円に見合うかどうかですね。50Wくらいだと嬉しいんですが、２段にしているので今のシステムだと仕方ないですかね。</p>
 <p>次回は、冷却面を完成させて組み込み実運用できればと思います。ダストボックスはそろそろ限界が見えてきたので、バイクの色を塗りたいです。</p>
-<p>&nbsp;</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-5650" class="post-5650 post type-post status-publish format-standard hentry category-100yen category-aliexpress category-blog category-diy"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/08/04/achievesaminustemperaturein2peltierelements/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-08-04T01:21:16+09:00">2020年8月4日</time><time class="updated" datetime="2021-07-04T21:15:52+09:00">2021年7月4日</time></a> </span><span class="posted-on">更新日:2021年7月4日</span> <span class="categories"> <a href="/category/100yen/" rel="category tag noopener noreferrer" data-wpel-link="internal">100Yen</a>, <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
-</div>
-<h1 class="entry-title"><a href="/2020/08/04/achievesaminustemperaturein2peltierelements/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ペルチェ素子２段でマイナス温度を実現！　効率的に冷やす方法とは？</a></h1></header><div class="entry-content">
-<p>先日、ダストクーラーの修理をしました。しかし実際に運用してみると、あまり冷えないことに気がつきました。100円均一で、温度計（目安計で正確ではありません）をゲットしてきて測ってみると23度くらいです。（室温28度）</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5651" src="/wp-content/uploads/2020/08/img_20200801_152308_7.jpg" alt="IMG_20200801_152308_7" width="3968" height="2976"></p>
-<p>考えられる原因としては、以下が挙げられます。</p>
-<p>・ペルチェ素子の冷える面に対して、アルミブロックの設置面積が足りない<br> ・冷える面と、温まる面の防壁がない（熱が逃げる）<br> ・温まる面にヒートシンクがついていて、間接的にケースの外側にファンがついている<br> →　熱が効率的に冷えない　→　冷える面もそれに準じ、さほど冷えない</p>
-<p>つまり、改造したので構造的な部分の欠点、熱交換の部分の欠点などが考えられそうです。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5654" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_48.png" alt="スクリーンショット_2020_08_04_0_48" width="949" height="596"></p>
-<p>ちなみに、冷蔵庫は10度くらい、冷凍庫は−10度〜18度くらいのようでした。</p>
-<p>生ゴミ保管庫としては、0度くらいを保ってくれると嬉しいのですが、もう少し改善できない実験してみることに。</p>
-<p>まず、構造的な部分は次回考えるとして、今回はペルチェ素子を２段３段と重ねたらどうなるか実験してみました。まず、電源をJunkBoxから調達です。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5655" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_0_56.png" alt="スクリーンショット_2020_08_04_0_56" width="1011" height="358"></p>
-<p>１Uサーバ用の２５０W電源です。中は少し改造してありますが、１２Vと５Vが取り出せるようになっています。この電源なら６０Wのペルチェ素子を３、４段重ねて駆動させられます。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5657" src="/wp-content/uploads/2020/08/img_20200803_213232_0.jpg" alt="IMG_20200803_213232_0" width="3968" height="2976"></p>
-<p>実験用の設備は、ファン付きのヒートシンクにペルチェ素子を付けて、表面温度を計測します。ファンは５Vに接続してあり、ほぼ音はならない回転数です。１２Vにファンを接続すると爆音でファンが回ります。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5658" src="/wp-content/uploads/2020/08/img_20200803_214039_6.jpg" alt="IMG_20200803_214039_6" width="3968" height="2976"></p>
-<p>ペルチェ素子が１枚（12V）のときは、おおよそ9度でした。ファンは５Vに接続してあります。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5659" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_04_1_02.png" alt="スクリーンショット_2020_08_04_1_02" width="1162" height="413"></p>
-<p>では、２枚に重ねてみるとどうなるでしょうか？　ペルチェ素子が２枚（12V）のときは一旦、1度付近まで下がりましたが、２、３分すると温度が上昇し、結局下の写真のように8度〜9度付近で安定しました。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5660" src="/wp-content/uploads/2020/08/img_20200803_232802_8.jpg" alt="IMG_20200803_232802_8" width="2976" height="3968"></p>
-<p>ペルチェ素子が３枚（12V）（３段）のとき、写真を撮り忘れましたが、今度は逆に温度が上がっていく現象になりました。一瞬、何が起きたのかパニックになりました。そうそうに電源を切ったので写真がなくてすみません・・・・うーむ（笑）<br> 冷静になって考えてみると、１２V定格で３枚を密着させて動作させたときの熱を吸収できなったのでしょう。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5661" src="/wp-content/uploads/2020/08/img_20200804_002621_1.jpg" alt="IMG_20200804_002621_1" width="2976" height="3968"></p>
-<p>今度は１枚に戻して、ファンを１２Vに接続して実験。すると、0度付近で安定しました。でもファンが煩さすぎて運用する気にはなれません。しかし、発生する熱をうまく逃すことができれば、冷える面も下がるということはわかりました。熱を逃がせないと前回３段の時のように、ペルチェ素子自体が発熱してくることもわかりました。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5662" src="/wp-content/uploads/2020/08/img_20200804_003744_8.jpg" alt="IMG_20200804_003744_8" width="2976" height="3968"></p>
-<p>最後に、２枚接続し、下段は１２V、上段は５Vに接続、ファンは５Vで回します。すると、マイナス４度まで一旦下がりました！　５分以上、稼働させ安定するポイントは−1度くらいでした。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5667" src="/wp-content/uploads/2020/08/img_20200804_012210_8.jpg" alt="IMG_20200804_012210_8" width="2976" height="3968"></p>
-<p>つまり今回の実験では、一番効率がいいのは、２枚の組み合わせです。CPUヒートシンク（ファン付き）側に接続するペルチェ素子は１２Vで定格駆動させ、上段は５Vで運用。これが今の所、最適のようです。</p>
-<p>３段でも、電圧を調整して熱量をうまく逃すことができれば同じように効率的に冷えると思いますが、２段でマイナスまで行ってくれれば今回は良しとします。ブログを書いているとペルチェ素子が結露して凍結していました！　記念に、-1℃　とドライバーで書いてみましたよ！</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-5668" src="/wp-content/uploads/2020/08/img_20200804_012347_0.jpg" alt="IMG_20200804_012347_0" width="3968" height="2976"></p>
-<p>次回は構造的な部分にメスを入れてみたいと思います。なんとか、使えるダストボックスにしないとですね！</p>
 <p>&nbsp;</p>
 </div>
 <footer class="entry-footer"></footer>

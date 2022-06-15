@@ -12,7 +12,7 @@
 	<title>JunkHack &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Tue, 31 May 2022 17:09:09 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 Jun 2022 17:47:51 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,155 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.9.3</generator>
 	<item>
+		<title>音声認識のやることリストで遊んでみた</title>
+		<link>/2022/06/15/artyom-js_sticky-notes-semo/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 14 Jun 2022 15:50:57 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">/?p=11399</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/06/voice-ctl.png" />
+							<description><![CDATA[最近の音声認識って、どんな感じなんだろう？ と思ったのでリサーチしてみました。きっと誰かが作っているだろうと思うので調査開始です。いくつか見つかりましたが、今日は、ブラウザが標準で持っている音声認識の機能を使って遊んでみ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>音声認識ってやったことなかったなー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WEB技術だけで出来るみたいですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>そうみたい。最近のブラウザは賢いですね</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>実用的なサンプルをお願いします〜</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>最近の音声認識って、どんな感じなんだろう？ と思ったのでリサーチしてみました。きっと誰かが作っているだろうと思うので調査開始です。いくつか見つかりましたが、今日は、ブラウザが標準で持っている音声認識の機能を使って遊んでみようかなと思います。</p>
+
+
+
+<h3>さっそくデモです</h3>
+
+
+
+<p>さて、まずはデモを実際に触ってみてもらったほうが速いかと思います。PCでChromeブラウザであれば動作すると思います。Safariでも動作しました。</p>
+<blockquote>
+<p>Artyom.js &#8211; A Sticky Notes Demo</p>
+<p><a href="https://take-i.github.io/artyom-todo/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external" class="wpel-icon-right">https://take-i.github.io/artyom-todo/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+
+
+
+<p><a href="https://take-i.github.io/artyom-todo/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" class="size-full wp-image-11405 aligncenter" src="/wp-content/uploads/2022/06/img.png" alt="" width="1288" height="656" srcset="/wp-content/uploads/2022/06/img.png 1288w, /wp-content/uploads/2022/06/img-1024x522.png 1024w, /wp-content/uploads/2022/06/img-768x391.png 768w, /wp-content/uploads/2022/06/img-984x501.png 984w" sizes="(max-width: 1288px) 100vw, 1288px" /></a></p>
+
+
+
+<p>このような付箋紙のToDoリストが音声認識で追加・削除できるものです。メモの追加は、以下のように喋れば追加できます。</p>
+<ul>
+<li>ソースコードレビューをする　メモ作成</li>
+</ul>
+<p>削除したい場合は、</p>
+<ul>
+<li>1番目のメモを削除</li>
+</ul>
+<p>とすれば、消えます。また、付箋紙をクリックすれば、その内容を喋ってくれます。なお、English USAや、<span style="color: initial; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">English Great Britain にすると英語の発音じゃないと登録、削除できません。英語の発音練習とかよいのかもしれませんね。</span></p>
+
+
+
+<h3>ソースコード</h3>
+
+
+
+<p>元ネタは、以下となります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>github : Artyom.js</p><cite><a href="https://github.com/sdkcarlos/artyom.js" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/sdkcarlos/artyom.js<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このToDoリストのサンプルアプリの元ソースのGITは不明でしたが、日本語化してあるのが自分のgithub リポジトリにコミットしておきました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>artyom.js &#8211; todo list</p><cite><a href="https://github.com/take-i/artyom-todo" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/take-i/artyom-todo<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3>どうやって動作しているのか？</h3>
+
+
+
+<p>とりあえず、サンプルを日本語化して日本語の音声で話せ、認識できるということがわかりました。さて、これはどういう仕組みで動作しているのでしょうか？　どこぞやのAPIを叩いているのかと思っていたのですが、ソースをみるとそうではないようでした。</p>
+<p>　はい、これはWeb Speech APIというようで、つまりはHTML5 対応のブラウザに実装されている仕様ということでした。ほとんどの主要ブラウザーではサポートしているようです。</p>
+<p><a href="https://developer.mozilla.org/ja/docs/Web/API/SpeechSynthesis#browser_compatibility" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" class="size-full wp-image-11408 aligncenter" src="/wp-content/uploads/2022/06/b1.png" alt="" width="773" height="970" srcset="/wp-content/uploads/2022/06/b1.png 773w, /wp-content/uploads/2022/06/b1-768x964.png 768w" sizes="(max-width: 773px) 100vw, 773px" /></a></p>
+
+
+
+<p>注意するのは、IEとAndroid版のOperaブラウザー、そしてAndroidのWebViewではまだ動作しないって書いてありますね。PWA化したWEBアプリなら大丈夫そうです。</p>
+<p>　音声をしゃべらせる部分が、SpeechSynthesisUtterance というようです。意味としては、音声発話ということですね。</p>
+<p>　そして、音声を認識する部分は、SpeechRecognitionということのようです。こちらのブラウザ対応状況は</p>
+<p><a href="https://developer.mozilla.org/ja/docs/Web/API/SpeechRecognition/SpeechRecognition#%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%B3%81" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" class="size-full wp-image-11409 aligncenter" src="/wp-content/uploads/2022/06/b4.png" alt="" width="778" height="345" srcset="/wp-content/uploads/2022/06/b4.png 778w, /wp-content/uploads/2022/06/b4-768x341.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></a></p>
+
+
+
+<p>こちらは、AndroidのWebViewもいけるようですが、Firefoxや、Operaはだめなようです。ChromeやSafariはPC、スマホは大丈夫なようですね。</p>
+
+
+
+<h3>まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・最近のブラウザは賢くなって音声発話や音声認識もできる<br>・ChromeやSafarriやEdgeは問題なく使えそう。<br>・スマホは発話が、AndroidのWebViewでは使えないので注意が必要。<br>・httpsのSSL通信でないと、ブラウザからマイクへの許可許諾のダイアログがアクセスするごとに出る<br>・デモ版のJSはVerが0.9.6と最新1.0.6と比べて少し低いので、最新も使ってみたい</p>
+
+
+
+<h3>あとがき</h3>
+
+
+
+<p>音声認識や、音声合成は利用用途によって使えるので何か案件が来た時には積極的に使っていきたいですね。声フォントとか使えば、自然な喋りが実現できるし、キーボード入力が苦手な方は音声入力のようが良いですしね。</p>
+
+
+
+<h3>著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</title>
 		<link>/2022/05/22/goat-end-of-service/</link>
 		
@@ -93,7 +242,7 @@
 <p>　いつの日か、ゴートのデザインに寄せた縦書きのテーマも作ってみたいなと思っています。欲しいユーザーがいたら、メールやツイッターなどで応援メッセージお待ちしています。</p>
 <p>&nbsp;</p>
 <p>最後に一句</p>
-<haiku>縦書きの　テーマ作りは　ニッチかな</haiku>
+<p><haiku>縦書きの　テーマ作りは　ニッチかな</haiku></p>
 <p><!-- /wp:paragraph --></p>
 ]]></content:encoded>
 					
@@ -241,7 +390,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="633" src="/wp-content/uploads/2022/05/Electron-doc-1024x633.png" alt="" class="wp-image-11205" srcset="/wp-content/uploads/2022/05/Electron-doc-1024x633.png 1024w, /wp-content/uploads/2022/05/Electron-doc-768x474.png 768w, /wp-content/uploads/2022/05/Electron-doc-984x608.png 984w, /wp-content/uploads/2022/05/Electron-doc.png 1099w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="633" src="/wp-content/uploads/2022/05/Electron-doc-1024x633.png" alt="" class="wp-image-11205" srcset="/wp-content/uploads/2022/05/Electron-doc-1024x633.png 1024w, /wp-content/uploads/2022/05/Electron-doc-768x474.png 768w, /wp-content/uploads/2022/05/Electron-doc-984x608.png 984w, /wp-content/uploads/2022/05/Electron-doc.png 1099w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -737,386 +886,6 @@
 
 
 <p>　鉄の工作は、強度や熱に耐えるものが作れるので面白いです。各種金具類や、車やバイクだとマフラー、キャリア類が好きに作れます。KトラのLEDフラットバーを付けられるキャリアやマフラーも作ったので、機会をみて紹介してみますね。</p>
-
-
-
-<h3>著者にメッセージ</h3>
-
-
-
-<p></p>
-
-
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>無料（フリー）のパーティションソフトが結構使える！</title>
-		<link>/2022/01/20/minitool-partition-wizard/</link>
-		
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Wed, 19 Jan 2022 23:15:00 +0000</pubDate>
-				<category><![CDATA[Win10]]></category>
-		<guid isPermaLink="false">/?p=11043</guid>
-				<media:thumbnail url="/wp-content/uploads/2022/01/minitool-pw.png" />
-							<description><![CDATA[今日のお話は、WindowsOSの引越しと、引越しに使うツールのお話です。パーティションを複数区切って、いろいろなOS環境を作りたいので、GUIで便利に使えるパーティション操作ツールも探してみました。無料ソフトウェアで、 [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>久しぶりにWinを触ったよ</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>何かのメンテ？</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>ちょっと古いPCのDisk関連をね。</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>Disk操作は苦手です。GUIで良いのないかしらね</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<p>今日のお話は、WindowsOSの引越しと、引越しに使うツールのお話です。パーティションを複数区切って、いろいろなOS環境を作りたいので、GUIで便利に使えるパーティション操作ツールも探してみました。無料ソフトウェアで、これらを行う裏どりをしましたので是非、最後までお付き合いください。</p>
-
-
-
-<h3>パーティションを切るメリット</h3>
-
-
-
-<p>最近のSSDは結構大きくなっていますが、自分の場合は基本的にパーティションは切らず必要に応じて物理DISKを追加、または差し替え（クイックリリースなどで）して使っています。これは拡張性のあるデスクトップを使っているから出来ることです。しかし、ノートPCの場合は物理DISKの追加や差し替えが難しいので、パーティションを切らないわけにはいきません。</p>
-
-
-
-<p>　本来のパーティションを切るメリット（デメリット）はいくつかありますが、自分的には以下の２つです。HDDを使っていた頃の昔はアクセス速度のメリットもありましたが、SSDを使う場合は関係ありません。</p>
-
-
-
-<p><strong>(1)Windowsシステムを再インストールしやすい</strong> </p>
-
-
-
-<p>　例えば、1GBのDISKをCドライブとDドライブに分けて使っておいて、Dドライブをデータ保存用にしておけばCドライブを気軽にフォーマットしてクリーンインストールができます。ドキュメントディレクトリをDドライブにマッピングして使うことでこれは可能です。</p>
-
-
-
-<p>WindowsOSは、定期的にクリーンインストールしないと根本解決しない問題があり、時間をかければ原因はわかりますが、その追求が面倒くさいのでクリーンインストールすることが多いです。</p>
-
-
-
-<p><strong>(2) ファイルシステムが違うOSを複数入れ、切り替えて起動する</strong></p>
-
-
-
-<p>　最近は、CPUが高速化してて仮想環境でも十分なんですが、ネイティブでOS機能を使いたいことがあります。その場合は、Diskから直接ブートするわけですが、LinuxやAndroid互換OS、chromeOS互換などを入れる場合はパーティションを切るか、物理DISKを追加するしかありません。</p>
-
-
-
-<h3>何か良さげなフリーのパーティションソフトはないか？</h3>
-
-
-
-<p>さて、とりあえずDISKのパーティションを切りましょうか。昔は、Windowsだとパーティション マジックってやつが王道でした。現在だと、完全フリーなものは、<strong>GParted Live</strong>　というのは知っています。</p>
-
-
-
-<p>Windows環境で動作するのをググってみると、MiniTool Partition Wizard　ってのが出てきますね。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>MiniTool Partition Wizard 無料版</p><cite><a href="https://www.partitionwizard.jp/free-partition-manager.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.partitionwizard.jp/free-partition-manager.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<p>これ系の無料って、結局最終的に有料版じゃないと使えねーってことが多いと思うのですが、ちょっと試してみましょうか。検証は、仮想環境のいつでも捨てられる環境で試してみます。</p>
-
-
-
-<h3><meta charset="utf-8"><p>MiniTool Partition Wizard<span style="color: revert; font-size: revert; font-weight: revert; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">無料版のインストール</span></p></h3>
-
-
-
-<p>とりあえずは、パーティションだけ操作できれば良いので、「<span style="font-size: revert; color: initial; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">MiniTool Partition Wizard」</span>だけがあれば良いのですが、インストーラーを起動すると、「MiniTool ShadowMaker」ってのもありますね。まぁ、ついでに入れてみましょうか。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="496" height="383" src="/wp-content/uploads/2022/01/minitool1.png" alt="" class="wp-image-11044"/></figure></div>
-
-
-
-<p>ユーザー体験向上プログラムには参加しません。インストーラーデフォルトのチェックには要注意です。これ大事。次へ　の連打はやめましょう。</p>
-
-
-
-<h3><meta charset="utf-8">MiniTool Partition WizardのGUI画面</h3>
-
-
-
-<p>このソフトの画面はこんな感じです。</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="594" src="/wp-content/uploads/2022/01/minitoolpw2-1024x594.png" alt="" class="wp-image-11045" srcset="/wp-content/uploads/2022/01/minitoolpw2-1024x594.png 1024w, /wp-content/uploads/2022/01/minitoolpw2-768x445.png 768w, /wp-content/uploads/2022/01/minitoolpw2-984x570.png 984w, /wp-content/uploads/2022/01/minitoolpw2.png 1230w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>この検証環境である仮想マシンには、256GBのSSDを追加で割り当てています。上記画面のディスク2　が引越し先のディスクに見立てたものです。</p>
-
-
-
-<h3>ウィザードを使ってみる（OSをSSDに移行）</h3>
-
-
-
-<p>ソフトの名称が、<span style="font-size: revert; color: initial; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">MiniTool Partition Wizard</span> というくらいですから、ウィザードで案内してもらいましょう。とりあえず、「OSをSSD/HDDに移行」というのをやってみます。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="736" height="597" src="/wp-content/uploads/2022/01/minitoolpw3.png" alt="" class="wp-image-11046"/></figure></div>
-
-
-
-<p>Aか、Bを選択しますが、今回はHDDからSSDへOS部分だけ移行しようと思いますので、Bですね。WEBマニュアルは、左下のリンクから飛べます。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>OSをSSD/HD に移行する方法| MiniTool Partition Wizard のチュートリアル</p><cite><a href="https://www.partitionwizard.jp/help/migrate-os-to-ssd-hd.html?from-free-v12120600" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.partitionwizard.jp/help/migrate-os-to-ssd-hd.html?from-free-v12120600<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<p>次は引越し先のDISKの選択です。今回はディスク２なので、指定して次に進みます。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="738" height="596" src="/wp-content/uploads/2022/01/minitoolpw3-1.png" alt="" class="wp-image-11050"/></figure></div>
-
-
-
-<p>次は、パーティションサイズを詳細に指定できます。1、2どちらを選んでも下側の選択されたパーティション部分でサイズは変更できます。今回は2を選んでから、Cドライブ領域を小さくしておきました。後で、未割り当て領域には、Linuxをインストールする16GBとそのOSを入れるパーティションの２つを作る予定です。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="736" height="615" src="/wp-content/uploads/2022/01/pw4.png" alt="" class="wp-image-11051"/></figure></div>
-
-
-
-<p>次へに進むと、これが最終ステップのようです。このDISKから起動する場合は、BIOSの設定を変えてねということです。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="738" height="617" src="/wp-content/uploads/2022/01/pw5.png" alt="" class="wp-image-11052"/></figure></div>
-
-
-
-<p>完了　を押してみると<meta charset="utf-8"><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・・・<meta charset="utf-8">・・・・・<meta charset="utf-8">・・・・・<meta charset="utf-8">・・・・・<meta charset="utf-8">・・・・・<meta charset="utf-8">・・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<p><meta charset="utf-8">・・・・・<meta charset="utf-8">・・・</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="1010" height="729" src="/wp-content/uploads/2022/01/pw6.png" alt="" class="wp-image-11053" srcset="/wp-content/uploads/2022/01/pw6.png 1010w, /wp-content/uploads/2022/01/pw6-768x554.png 768w, /wp-content/uploads/2022/01/pw6-984x710.png 984w" sizes="(max-width: 1010px) 100vw, 1010px" /></figure></div>
-
-
-
-<p>この機能は、無償では使えないようです。どこかにエディションごとの機能一覧があるといいのですが。</p>
-
-
-
-<h3><meta charset="utf-8"><p>MiniTool Partition Wizard<span style="color: revert; font-size: revert; font-weight: revert; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">無料版で使える範囲とは？</span></p></h3>
-
-
-
-<p>調べたところ、以下にライセンスごとの機能一覧がありました。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>MiniTool Partition Wizard バージョン別機能一覧</p><cite><a href="https://www.partitionwizard.jp/comparison.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.partitionwizard.jp/comparison.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<p>これによると、先ほどの機能「OSをSSD/HDDに移行」は、ディスク複製機能のところを展開すると出てきます。残念ですが、これは無料版では利用できないことがわかりました。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="332" src="/wp-content/uploads/2022/01/minitool-pw-list-1024x332.png" alt="" class="wp-image-11063" srcset="/wp-content/uploads/2022/01/minitool-pw-list-1024x332.png 1024w, /wp-content/uploads/2022/01/minitool-pw-list-768x249.png 768w, /wp-content/uploads/2022/01/minitool-pw-list-984x319.png 984w, /wp-content/uploads/2022/01/minitool-pw-list.png 1187w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>しかし、「非OSディスクコピー」は可能なようです。OSディスクとは、OSがブートしているディスクのことだと思いますので、他のWindowsシステムディスクを接続して確認してみます。他の手段としては、このツールをUSBブータブルで動作させることも調べたのですが、無償版ではできないようです。痒いところには、無償版は届かないようです。</p>
-
-
-
-<p>　無料なので、文句は言えませんね。工夫して使ってみましょう。<meta charset="utf-8"></p>
-
-
-
-<h3><meta charset="utf-8"><p>MiniTool Partition Wizard<span style="color: revert; font-size: revert; font-weight: revert; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;">無料版でOS領域をコピーするには？</span></p></h3>
-
-
-
-<p>OSのブートディスクのコピーはできませんが、非ブート状態ならコピーできるようなので、以下のように作業用のWindows10 をブートにして、移行したいWindows10 を接続して起動しました。ディスク１のDドライブになっているのが本来の移行したいWindowsシステム領域です。見分け方は、状態が「ブート」となっているディスクがOSがブートしているディスクです。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="593" src="/wp-content/uploads/2022/01/minitool-pw7-1024x593.png" alt="" class="wp-image-11076" srcset="/wp-content/uploads/2022/01/minitool-pw7-1024x593.png 1024w, /wp-content/uploads/2022/01/minitool-pw7-768x445.png 768w, /wp-content/uploads/2022/01/minitool-pw7-984x570.png 984w, /wp-content/uploads/2022/01/minitool-pw7.png 1232w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>　作業用のWin10を割り当てた状態</figcaption></figure></div>
-
-
-
-<p>で、この状態で非ブートディスク（一番上のディスク１）のパーティションコピーはできることを確認しました。「適用」ボタンを押すとコピー作業が開始されます。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="507" height="454" src="/wp-content/uploads/2022/01/minitool-pw6.png" alt="" class="wp-image-11073"/></figure></div>
-
-
-
-<p>加えて、<meta charset="utf-8">非ブートディスクのディスク全体のコピーができることも確認しておきした。コピーが終了した状態は以下の図のようになります。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="595" src="/wp-content/uploads/2022/01/minitoo-pw8-1024x595.png" alt="" class="wp-image-11081" srcset="/wp-content/uploads/2022/01/minitoo-pw8-1024x595.png 1024w, /wp-content/uploads/2022/01/minitoo-pw8-768x446.png 768w, /wp-content/uploads/2022/01/minitoo-pw8-984x572.png 984w, /wp-content/uploads/2022/01/minitoo-pw8.png 1234w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>このツールが動作するUSBブートが、このソフトウェアから作れたらもっと簡単なんですが無償版では、できません。有償版では、Win-PE環境のUSBブートが作れるようです。これを創意工夫して自力で作ることができれば問題は解消しますが、その手間をかけるなら、お金を払うって有償版にするか、前途のようにするか、または他のツールを使うのがよいかもしれません。迷うところですね。</p>
-
-
-
-<p>　パーティション操作だけなら、GParted liveという完全フリーのオープンソースがあります。このツールは、ブータブルISOがあり、ツールを使えばブータブルUSBにすることもできます。機能は、パーティション単位ごとになりますが、NTFSファイルシステムのコピーも可能です。つまり、WindowsのOS環境の引越しにも使えます。ちょっと操作にはクセがありますのでここでは紹介を省きます。</p>
-
-
-
-<h3>MiniTool ShadowMaker3.6.1 無償版</h3>
-
-
-
-<p>もっと簡単に、起動しているOSブートDISKをそのまま、引越し先のSSDにコピーできる方法はないでしょうか。</p>
-
-
-
-<p>そこで、もう一つのツールは使えないか触ってみました。MiniTool ShadowMaker3.6.1 トライアルバージョンです。</p>
-
-
-
-<p>トライアルバージョンでも、ツール＞ディスククローンから、ブートDISKのコピーが可能っぽいです。結果から先に伝えますと、ディスクのクローンは256GB のディスクでは可能でした。どのくらいの容量まで可能なのかはわかりませんし、また制限がないとしても将来、制限がつく可能性もあります。</p>
-
-
-
-<p>　※ 追記　気になったので、ソフトウェアメーカーに制限なく使えるか問い合わせたところ、「無償版でもディスクのバックアップ機能（ベーシックディスクとダイナミックディスクの複製）は制限なく使えます」と回答がありました。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="666" src="/wp-content/uploads/2022/01/minitoolsm1-1024x666.png" alt="" class="wp-image-11091" srcset="/wp-content/uploads/2022/01/minitoolsm1-1024x666.png 1024w, /wp-content/uploads/2022/01/minitoolsm1-768x500.png 768w, /wp-content/uploads/2022/01/minitoolsm1-984x640.png 984w, /wp-content/uploads/2022/01/minitoolsm1.png 1096w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>MiniTool Partition Wizard で、コピーしたDISKを見てみると以下のようにコピーされています。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="596" src="/wp-content/uploads/2022/01/minitool-pw8-1024x596.png" alt="" class="wp-image-11092" srcset="/wp-content/uploads/2022/01/minitool-pw8-1024x596.png 1024w, /wp-content/uploads/2022/01/minitool-pw8-768x447.png 768w, /wp-content/uploads/2022/01/minitool-pw8-984x573.png 984w, /wp-content/uploads/2022/01/minitool-pw8.png 1231w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>非ブートのDISKなので、パーティション操作はいろいろと可能です。たとえば、OS領域を２分割して、Data領域を作ることも可能です。操作は対象のパーティションを選択して右クリックから行えます。ちなみに、ブートDISKのOS領域のリサイズも可能ですが、再起動時に反映される仕様です。よくできていますね。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="594" src="/wp-content/uploads/2022/01/minitool-pw9-1024x594.png" alt="" class="wp-image-11093" srcset="/wp-content/uploads/2022/01/minitool-pw9-1024x594.png 1024w, /wp-content/uploads/2022/01/minitool-pw9-768x445.png 768w, /wp-content/uploads/2022/01/minitool-pw9-984x571.png 984w, /wp-content/uploads/2022/01/minitool-pw9.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>「OK」を押したのちに、「適用」を押すと開始され、完了すれば以下のようになります。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="596" src="/wp-content/uploads/2022/01/minitool-pw10-1024x596.png" alt="" class="wp-image-11094" srcset="/wp-content/uploads/2022/01/minitool-pw10-1024x596.png 1024w, /wp-content/uploads/2022/01/minitool-pw10-768x447.png 768w, /wp-content/uploads/2022/01/minitool-pw10-984x573.png 984w, /wp-content/uploads/2022/01/minitool-pw10.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
-
-
-
-<p>NTFSフォーマットしてパーティションのラベルをDATAとつけてみました。シャットダウン後、このPCにつけていた作業用のDISKを外し、コピーしてリサイズしたこのDISKで起動すれば以下のようになります。この２つのツールを使えば、いろいろ出来ることがわかりました。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="960" height="445" src="/wp-content/uploads/2022/01/win10-1.png" alt="" class="wp-image-11098" srcset="/wp-content/uploads/2022/01/win10-1.png 960w, /wp-content/uploads/2022/01/win10-1-768x356.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
-
-
-
-<h3>ソフトウェアのダウンロード</h3>
-
-
-
-<p>ソフトウェア名称・評価時のバージョンと、ダウンロード先を記載しておきます。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>MiniTool Partition Wizard 無料版 12.6</p><cite><a href="https://www.partitionwizard.jp/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.partitionwizard.jp/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<h3>まとめ</h3>
-
-
-
-<p>今回、なんとなくわかったのは以下となります。</p>
-
-
-
-<p>・<meta charset="utf-8">MiniTool Partition Wizard無償版でも、パーティション操作はほとんどの事ができる<br>・起動しているOSの引越しは、<meta charset="utf-8">MiniTool Partition Wizard無償版では無理<br>・しかし、ブートディスク上でこのツールを動かし、引越し対象のOS DISKを操作すればコピー作業は可能。<br>・<meta charset="utf-8">MiniTool Partition Wizardのパーティション操作は、GUIで直感的<br>・Windows標準よりパーティション操作は直感的にできる<br>・オンラインマニュアルがある（多少、日本語が変ですが許容範囲）<br>・もっと簡単に、<meta charset="utf-8">MiniTool ShadowMaker3.6.1 トライアルバージョンでは、ブートDISKのOSコピーも可能<br>・まだ未検証ですが、<meta charset="utf-8">MiniTool ShadowMaker3.6.1 トライアルバージョンはブートにWinPE環境を追加でき、ブータブルCDがなくても、リカバリー環境が作れるようです<br>・テストで使った限りでは、信頼性もある感じ</p>
-
-
-
-<h3>あとがき</h3>
-
-
-
-<p>パーティション操作は、一歩間違えると大事な領域を消してしまうので注意して操作しないとです。そういう意味では、GUIで直感的にわかるこのソフトの利用価値は大いにあるかなと思います。無償版でもかなりのことができて、少々のお金を払ってもよいなら、さらに便利に使えそうです。</p>
 
 
 

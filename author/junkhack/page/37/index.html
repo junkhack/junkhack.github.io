@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,13 +71,45 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-3820" class="post-3820 post type-post status-publish format-standard hentry category-100yen category-ntt-x"><div class="entry-wrapper">
+</h1></header><article id="post-3832" class="post-3832 post type-post status-publish format-standard hentry category-3d-print category-aliexpress category-diy"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/04/22/wanhao-led/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-04-22T15:01:48+09:00">2017年4月22日</time></a> </span><span class="posted-on">更新日:2017年4月22日</span> <span class="categories"> <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
+</div>
+<h1 class="entry-title"><a href="/2017/04/22/wanhao-led/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Wanhao の LED 照明を作ってみた、その２</a></h1></header><div class="entry-content">
+<p>すっかり春ですね。ソファーが到着してからは、まったりすることが多くなり映画とか読書に励んでいました。DIY な暇つぶしも腰が重いです。</p>
+<p>で、<a href="/2017/02/12/wanhao-%E3%81%AE-led-%E8%A8%BC%E6%98%8E%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">前回</a>はWanhao&#160; の前面に取り付ける筐体を作りましたが、まだ LED を組み込んでいませんでした。筐体だけ作って満足していた感じですが、<a href="http://www.thingiverse.com/thing:2106168/#comments" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">thingiverse<span class="wpel-icon wpel-image wpel-icon-1"></span></a> のコメントに「ノズルの先端まで照らせるの？」と、質問があったので気になって実際にLED を付けて確認してみました。だれかの突っ込みがあると「お～し、作ってみますか？」となる気力も沸きます。</p>
+<p><img title="P1300777-1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300777-1" src="/wp-content/uploads/2017/04/p13007771.png" width="640" height="480"></p>
+<p>この LED はアリエクで買ったものです。前面に光束が集中するタイプで、英語だと Straw Hat LED と呼ばれるタイプです。100 個で 送料込み、160円ほどです。つなぎ方は、いろいろありますが12V の場合で4つ LED を点灯する一番簡単な方法は、直列につなぎます。本当は並列にして抵抗を入れ LED の定格のmA を流すのが本来のつなぎ方です。</p>
+<p><img loading="lazy" title="P1300779" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300779" src="/wp-content/uploads/2017/04/p1300779.png" width="640" height="480"></p>
+<p>テスト電源から 12V を流すとこんな感じで前面が光りました。赤い後ろにも 3D プリントした板があったのですが、光が透過しないのでとりました。あれは必要ありませんね。</p>
+<p><img loading="lazy" title="P1300781" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300781" src="/wp-content/uploads/2017/04/p1300781.jpg" width="640" height="480"></p>
+<p>LED の穴は、ちょうどサイズに作ったので、少し押し込むだけです。ボンドなどは使わなかったです。</p>
+<p><img loading="lazy" title="P1300777" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300777" src="/wp-content/uploads/2017/04/p1300777.png" width="640" height="480"></p>
+<p>あとから気が付いたのですが、スイッチがないと不便じゃないかと思いまして、背面にディップスイッチのシングルをつけました。ホットボンドで固定。</p>
+<p><img loading="lazy" title="P1300782" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300782" src="/wp-content/uploads/2017/04/p1300782.jpg" width="640" height="480"></p>
+<p>実装するとこんな感じ。電源はファンのコネクターの根元をばらしてそこから分配。</p>
+<p><img loading="lazy" title="P1300788" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300788" src="/wp-content/uploads/2017/04/p1300788.png" width="640" height="480"></p>
+<p>LEDを点けてみました。</p>
+<p><img loading="lazy" title="P1300791" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300791" src="/wp-content/uploads/2017/04/p1300791.png" width="640" height="480"></p>
+<p><strike>おおお</strike>、（というほど感動する感じでもないですが、、）なかなかいい感じじゃないでしょうか？明るいです。プリントしたものは見やすくなりました。</p>
+<p>しかし、ノズル先端に注目してみると、少し影が出来ていて完全に先端まで光が届いていません。これは、アルミブロックがじゃましている感じです。うーむ、、、、（大きなソース画像がありますので、確認されたい場合は画像クリックを）</p>
+<p><a href="/wp-content/uploads/2017/04/p1300785.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="P1300785" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300785" src="/wp-content/uploads/2017/04/p1300785_thumb.png" width="640" height="480"></a> コメントをくれた人は、この事を気にしていたのですね。</p>
+<p>完全に設計ミスですが、対策としては少しスペーサーを作って、LEDの取り付ける位置を5mm ほど下げれば完全に先端まで照らせそうです。実際に5mm ほど下げてみたのが以下の写真です。</p>
+<p><img loading="lazy" title="P1300795" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300795" src="/wp-content/uploads/2017/04/p1300795.png" width="640" height="480"></p>
+<p>しかし、この位置まで下げると前面からプリントした対象物を確認しずらくなるので、どうしようかなというところです。まぁ、少し使いながら考えたいと思います。設計を変更して再度、作る気力もないですし。</p>
+<p>前面のLEDはプリント対象物を見る用ということにして、後ろのファンに LED を付ければノズル部分はかなり見えると思うのでそういうのを作るというのも手です。</p>
+<p>&#160;</p>
+<p>※ 現在は、斜め付けで、それなりに先端ぎりぎりまで照らせる感じでお茶を濁しています。写真追加。</p>
+<p>&#160;<img loading="lazy" title="P1300830-1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300830-1" src="/wp-content/uploads/2017/04/p13008301.png" width="640" height="480"></p>
+<p>さて、次なる DIY のため気力を再充電しておきますか！作りたくなる波があるんですよね。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-3820" class="post-3820 post type-post status-publish format-standard hentry category-100yen category-ntt-x"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/04/19/1200yen-10000mah-lipo/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-04-19T00:19:07+09:00">2017年4月19日</time></a> </span><span class="posted-on">更新日:2017年4月19日</span> <span class="categories"> <a href="/category/100yen/" rel="category tag noopener noreferrer" data-wpel-link="internal">100Yen</a>, <a href="/category/ntt-x/" rel="category tag noopener noreferrer" data-wpel-link="internal">NTT-X</a></span>
 </div>
 <h1 class="entry-title"><a href="/2017/04/19/1200yen-10000mah-lipo/" rel="bookmark noopener noreferrer" data-wpel-link="internal">1200円送料税込み 10000mAh ポリマータイプバッテリー</a></h1></header><div class="entry-content">
 <p>なんか安くて、ポリマータイプのいいバッテリーないかなーと探していましたが、PQI Power 10000C っていうのが NTT-X で安かったです。まだ良いポリマータイプのバッテリーなのかは不明ですが、ばらした写真が見つからないので自分でバラすしかないかなと。</p>
 <div align="center"><table cellspacing="0" cellpadding="2" width="600" border="0"><tbody><tr>
-<td valign="top" width="300"><img title="PW15366438" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366438" src="/wp-content/uploads/2017/04/pw15366438.jpg" width="250" height="250"></td>
+<td valign="top" width="300"><img loading="lazy" title="PW15366438" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366438" src="/wp-content/uploads/2017/04/pw15366438.jpg" width="250" height="250"></td>
 <td valign="top" width="300"><img loading="lazy" title="PW15366437" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366437" src="/wp-content/uploads/2017/04/pw15366437.jpg" width="250" height="250"></td>
 </tr></tbody></table></div>
 <p align="left">送料、税込み1200円だったので、２つぽちっとしておきました。１つは分解、１つは普通に使おうかと。ポリマータイプとメーカーのオフィシャルに書いてありました。これが1セルなのか、5000mAh の2セルなのかちょっと試しに買ってみることに。5000mAh を直列にして7.4V 定格を降圧して 5V にしているタイプかもしれません。</p>
@@ -173,42 +206,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p><img loading="lazy" title="P1300722" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300722" src="/wp-content/uploads/2017/04/p1300722.png" width="640" height="480"></p>
 <p>ちょっときついので、バーナーであぶって入れました。もう少しゆったりと作る必要がありそうです。</p>
 <p>データの修正は今度やることにして、また違うことをやろうかと。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-3771" class="post-3771 post type-post status-publish format-standard hentry category-100yen category-aliexpress category-diygimbal"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2017/04/12/e382a2e383aae382a8e382afe3818be38289e585a8e9a18de8bf94e98791e5ae8ce4ba86e38081e3819de38197e381a6e38380e382a4e382bde383bce381abe381a6/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2017-04-12T23:30:35+09:00">2017年4月12日</time></a> </span><span class="posted-on">更新日:2017年4月12日</span> <span class="categories"> <a href="/category/100yen/" rel="category tag noopener noreferrer" data-wpel-link="internal">100Yen</a>, <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/diygimbal/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIYGimbal</a></span>
-</div>
-<h1 class="entry-title"><a href="/2017/04/12/e382a2e383aae382a8e382afe3818be38289e585a8e9a18de8bf94e98791e5ae8ce4ba86e38081e3819de38197e381a6e38380e382a4e382bde383bce381abe381a6/" rel="bookmark noopener noreferrer" data-wpel-link="internal">アリエクから全額返金完了、そしてダイソーにてモバイルバッテリーゲット</a></h1></header><div class="entry-content">
-<p>アリエクから本日、全額返金来ました。速い対応でした。</p>
-<p>ということで、ジンバルのバッテリー候補としてアマゾンで物色していまいたが、リサーチしてみるとダイソーに 18650 タイプのモバイルバッテリーが 300円で売っているとのいう情報が。昨年の年末くらいの記事なので、今はどうかと帰り際ダイソーに寄ってみました。</p>
-<p>&#160;</p>
-<p>普段は郊外店舗の100円均一ばかり行っていましたが、DAISO 名古屋栄スカイル店は結構品数が豊富です。あれこれと、物色していると以下のようなモノが大量に在庫ありました。</p>
-<p><img loading="lazy" title="P1300723" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300723" src="/wp-content/uploads/2017/04/p1300723.jpg" width="640" height="480"></p>
-<p>Girls Trend(ガールズトレンド)研究所 とのコラボバージョンではなく、白タイプと黒タイプの無印ものがありましたので、それそれ１つづつ、2個サンプルでゲット。税込み 648円で1個 324円です。</p>
-<p>&#160;</p>
-<p>封を開けてすぐに、50% のスマホに充電してみたところ、問題なく充電。600mA ほどで充電されているようです。</p>
-<p><img loading="lazy" title="P1300724" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300724" src="/wp-content/uploads/2017/04/p1300724.jpg" width="640" height="480"></p>
-<p>６０％まで充電が進みました。スマホに充電中はLEDが青く光ります。</p>
-<p><img loading="lazy" title="P1300729" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300729" src="/wp-content/uploads/2017/04/p1300729.jpg" width="640" height="480"></p>
-<p>2000mAh の表記があります。これはなかなかうれしい商品じゃないでしょうか。工作にぴったりです。</p>
-<p><img loading="lazy" title="P1300728" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300728" src="/wp-content/uploads/2017/04/p1300728.jpg" width="640" height="852"></p>
-<p>取説です。蓄電中は、赤と青が交互に点灯で満充電で消灯。</p>
-<p>その後、スマホへは65% で電池切れ。開封したてだったので、満充電じゃなかったのでしょう。とりあえず、6時間くらいは満充電にかかるようで、テストは明日以降に。</p>
-<p>yotaphone 2 のバッテリーは2500mAh なので、2本あれば満充電には出来るかなーと。殻割するまえに、普通に使ってみます。</p>
-<p><img loading="lazy" title="P1300727" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300727" src="/wp-content/uploads/2017/04/p1300727.jpg" width="640" height="480"></p>
-<p>放電と蓄電は同時にやっちゃだめよと表記が。</p>
-<p>&#160;</p>
-<p>ケーブルやストラップは無しでいいので、あと100円安かったら、最高ですね。ネットの情報によれば、2000mAh あるバッテリーとそれ以下のものとの製品のばらつきがあるようで、賞味1600mah くらいと思っておけばよろしいとのことです。1300mah くらいの中華18650 でも、250円くらいはしますので、昇圧回路と充電機能、カットオフが付いているので、お得な感じですかね。</p>
-<p><img loading="lazy" title="P1300726" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300726" src="/wp-content/uploads/2017/04/p1300726.jpg" width="640" height="480"></p>
-<p>出力が 5V 1A なのでタブレットとかは無理ですね。</p>
-<p><img loading="lazy" title="P1300725" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300725" src="/wp-content/uploads/2017/04/p1300725.jpg" width="640" height="480"></p>
-<p>マイクロUSBがバッテリーへの充電用（蓄電）で、ノーマルUSBは放電。</p>
-<p>それにしても、よく300円で作れましたね。ケース、バッテリー、ストラップ、短いマイクロUSBと、USBのケーブル付き。充電機能と、５V昇圧があり、LEDも付いています。バッテリーセルの品質がどの程度なのか気になります。</p>
-<p>&#160;</p>
-<p>ジンバルの電源はこれでよさげな感じです。ばらして品質チェックして、良さそうならあと２つゲットしようと思います。セルの品質は期待せず、1500mah あれば良しとします。</p>
-<p>&#160;</p>
-<p>ちなみに、購入した店舗は以下です。大量にありました。</p>
-<blockquote><p>DAISO 名古屋栄スカイル店 <br>愛知県名古屋市中区栄3-4-5スカイル7F</p></blockquote>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

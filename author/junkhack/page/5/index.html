@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -71,7 +72,382 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-10121" class="post-10121 post type-post status-publish format-standard has-post-thumbnail hentry category-arduino category-diy category-parts"><div class="entry-wrapper">
+</h1></header><article id="post-10154" class="post-10154 post type-post status-publish format-standard has-post-thumbnail hentry category-arduino category-diy"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2021/02/23/arduino-nano/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2021-02-23T15:17:03+09:00">2021年2月23日</time><time class="updated" datetime="2021-02-23T19:18:09+09:00">2021年2月23日</time></a> </span><span class="posted-on">更新日:2021年2月23日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>
+</div>
+<h1 class="entry-title"><a href="/2021/02/23/arduino-nano/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Arduino Nano互換機に書き込めないだと！</a></h1></header><div class="entry-content">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>5年振りにArduino Nano（互換機）を触ったら書き込みできなーい！</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>あら、壊れたのかしら？</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>「マイコンボードに書き込もうとしましたが、エラーが発生しました。」と出るのよ</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>アリエクでまた買えば</p>
+<p>200円くらいでしょ？</p>
+</div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<p>いやはや、5年も触っていないといろいろ完璧に忘れています。ArduinoNanoという小さなArduino があるんですが、それにLチカでも書き込んで動作確認しようとしたら、書き込めずエラーが出てしまいました。持っているNano互換機はこれです。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="690" height="478" src="/wp-content/uploads/2021/02/nano.png" alt="" class="wp-image-10165"></figure></div>
+<blockquote class="wp-block-quote">
+<p>JunkHack : arduino hello world!　投稿日: 2015年3月15日<br>6年くらい前の記事で、$3でアリエクでポチったもの</p>
+<cite><a href="/2015/03/15/arduino-hello-world/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/2015/03/15/arduino-hello-world/</a></cite>
+</blockquote>
+<p>今回のエラーログは以下のようになります。</p>
+<pre class="wp-block-code"><code>avrdude: Version 6.3-20190619
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "/Applications/Arduino1.8.12.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf"
+         User configuration file is "/Users/junkhack/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/cu.wchusbserial14120
+         Using Programmer              : arduino
+         Overriding Baud Rate          : 115200
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00
+：：（省略）
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 10 of 10: not in sync: resp=0x00
+
+avrdude done.  Thank you.
+
+マイコンボードに書き込もうとしましたが、エラーが発生しました。
+このページを参考にしてください。
+http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
+<p>通信が出来ていないような感じですね。キーワード「avrdude: stk500_recv(): programmer is not responding」でググってみるとブートローダーが壊れたとか、いろいろ出て来て壊れたのかなと。でも、実は違うようです。</p>
+<h3>プロセッサ：ATmega328P(Old Bootloader)を選べば大丈夫！</h3>
+<blockquote class="wp-block-quote">
+<p>Arduino / micro:bit / M5Stick勉強会の電録簿<br>ボード・アップデートで書き込みエラー</p>
+<cite><a href="http://www.umek.topaz.ne.jp/mameduino/boardupdate_error/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">http://www.umek.topaz.ne.jp/mameduino/boardupdate_error/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+<p>このサイトによれば、どうやら、ボード設定メニューのプロセッサー種別選択のサブメニューにて「ATmega328P(Old Bootloader)」を選択するだけでいいようです。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="648" height="407" src="/wp-content/uploads/2021/02/ArudinoNano.png" alt="" class="wp-image-10155"></figure></div>
+<p>はい、ちゃんと書き込めました。どうやら、Nanoの新しいやつは、通信速度が112.5kbps<strong> </strong>ということで、古いNanoは57.6kbpsということのようです。</p>
+<p>ブートローダーを新しくすることもできるようで、もう一台arduinoがあれば以下のように書き込めるようです。</p>
+<blockquote class="wp-block-quote">
+<p>Arduino as ISP and Arduino Bootloaders</p>
+<cite><a href="https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+<p><s>また今度やってみようかな。今日はいろいろ違う目的がありますので。</s></p>
+<p>いや、こういうのはわかった時に即実行が良いですね。ブログのネタにもなるし少し休憩後、書き込んでみました。</p>
+<h3>UnoをISPにしてNanoに書き込みする！</h3>
+<p>こういうのは全体の流れを把握するのが大事です。大きくは以下と理解。</p>
+<p>(1) UnoをISPにして、Nanoに書き込む<br>　　→　手持ちにUnoがあったのですが、それ以外でもOK<br>(2) まず、UnoにArduinoISPのスケッチを書き込む<br>　　→　スケッチ例＞11.ArduinoISP＞ArduinoISP<br>　　　　※書き込んだら、次に配線をしますのでUSBを外します<br>(3) UnoとNanoを配線する<br>　　→　配線は６本<br>(4) IDEのツールからブートローダーを書き込む<br>　　→　UnoをUSBでPCに接続。その後書き込みます</p>
+<h3>(1) UnoをISPにして、Nanoに書き込む</h3>
+<p>ISPとは、インサーキットシリアルプログラマーということで、ICSPとも略されるようですね。基板に繋いだまま内蔵メモリにプログラムを書き込むことを言うようです。今回の例だと、Nanoのブートローダーを書き込むにあたり、UnoをISPにして書き込むわけです！　</p>
+<h3>(2) まず、UnoにArduinoISPのスケッチを書き込む</h3>
+<p>アリエクで昔、本物のUnoをポチっていました。裏が白い基板のです。</p>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="381" src="/wp-content/uploads/2021/02/ss-uno-1024x381.png" alt="" class="wp-image-10160" srcset="/wp-content/uploads/2021/02/ss-uno-1024x381.png 1024w, /wp-content/uploads/2021/02/ss-uno-768x286.png 768w, /wp-content/uploads/2021/02/ss-uno-984x366.png 984w, /wp-content/uploads/2021/02/ss-uno.png 1196w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><p>まずは、ISPのスケッチをIDEから引っ張りだしてきて、Unoに書き込みます。</p>
+<pre class="wp-block-code"><code>スケッチ例 > 11.ArduinoISP > ArduinoISP</code></pre>
+<p>次に配線しますので、USBを外しておきます。</p>
+<h3>(3) UnoとNanoを配線する</h3>
+<p>配線は６本で、こんな感じです。写真ではUSBが接続さていますが書き込みが終わったときに撮ったからです。配線するときは、外してやってくださいね。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="683" height="512" src="/wp-content/uploads/2021/02/IMG_20210223_114749_jpg.png" alt="" class="wp-image-10159"></figure></div>
+<div class="wp-block-jetpack-markdown"><table>
+<thead><tr>
+<th>ISP UNO</th>
+<th>書込ターゲットNANO</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>D13</td>
+<td>D13</td>
+</tr>
+<tr>
+<td>D12</td>
+<td>D12</td>
+</tr>
+<tr>
+<td>D11</td>
+<td>D11</td>
+</tr>
+<tr>
+<td>D10</td>
+<td>RST</td>
+</tr>
+<tr>
+<td>+5V</td>
+<td>+5V</td>
+</tr>
+<tr>
+<td>GND</td>
+<td>GND</td>
+</tr>
+</tbody>
+</table></div>
+<p>実体配線図だとこういうことですね。</p>
+<figure class="wp-block-image size-large"><img loading="lazy" width="800" height="877" src="/wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2.jpg" alt="" class="wp-image-10161" srcset="/wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2.jpg 800w, /wp-content/uploads/2021/02/ArduinoUNOtoUNO_ISP2-768x842.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"></figure><p>さて、書き込みましょうか！　USBをUno（ISP）に接続します。</p>
+<h3>(4) IDEのツールからブートローダーを書き込む</h3>
+<figure class="wp-block-image size-large"><img loading="lazy" width="776" height="703" src="/wp-content/uploads/2021/02/Uno-isp-to-nano.png" alt="" class="wp-image-10162" srcset="/wp-content/uploads/2021/02/Uno-isp-to-nano.png 776w, /wp-content/uploads/2021/02/Uno-isp-to-nano-768x696.png 768w" sizes="(max-width: 776px) 100vw, 776px"></figure><p>ツールからボート、プロセッサ、シリアルポート、書込装置を程よく選択して「ブートローダを書き込む」でOKです。ログには以下のように流れました。</p>
+<pre class="wp-block-code"><code>/Applications/Arduino1.8.12.app/Contents/Java/hardware/tools/avr/bin/avrdude -C/Applications/Arduino1.8.12.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf -v -patmega328p -cstk500v1 -P/dev/cu.usbmodem14111 -b19200 -Uflash:w:/Applications/Arduino1.8.12.app/Contents/Java/hardware/arduino/avr/bootloaders/optiboot/optiboot_atmega328.hex:i -Ulock:w:0x0F:m 
+
+avrdude: Version 6.3-20190619
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "/Applications/Arduino1.8.12.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf"
+         User configuration file is "/Users/junkhack/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/cu.usbmodem14111
+         Using Programmer              : stk500v1
+         Overriding Baud Rate          : 19200
+Reading | ################################################## | 100% 0.01s
+
+avrdude: verifying ...
+avrdude: 1 bytes of lock verified
+avrdude: reading input file "0xFD"
+avrdude: writing efuse (1 bytes):
+
+Writing | ################################################## | 100% 0.01s
+
+avrdude: 1 bytes of efuse written
+avrdude: verifying efuse memory against 0xFD:
+avrdude: load data efuse data from input file 0xFD:
+avrdude: input file 0xFD contains 1 bytes
+avrdude: reading on-chip efuse data:
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude: verifying ...
+avrdude: 1 bytes of efuse verified
+avrdude: reading input file "0xDA"
+avrdude: writing hfuse (1 bytes):
+
+Writing | ################################################## | 100% 0.01s
+
+avrdude: 1 bytes of hfuse written
+avrdude: verifying hfuse memory against 0xDA:
+avrdude: load data hfuse data from input file 0xDA:
+avrdude: input file 0xDA contains 1 bytes
+avrdude: reading on-chip hfuse data:
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude: verifying ...
+avrdude: 1 bytes of hfuse verified
+avrdude: reading input file "0xFF"
+avrdude: writing lfuse (1 bytes):
+
+Writing | ################################################## | 100% 0.01s
+
+avrdude: 1 bytes of lfuse written
+avrdude: verifying lfuse memory against 0xFF:
+avrdude: load data lfuse data from input file 0xFF:
+avrdude: input file 0xFF contains 1 bytes
+avrdude: reading on-chip lfuse data:
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude: verifying ...
+avrdude: 1 bytes of lfuse verified
+
+avrdude done.  Thank you.
+
+         AVR Part                      : ATmega328P
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PC2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65    20     4    0 no       1024    4      0  3600  3600 0xff 0xff
+           flash         65     6   128    0 yes     32768  128    256  4500  4500 0xff 0xff
+           lfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           hfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           efuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           lock           0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : STK500
+         Description     : Atmel STK500 Version 1.x firmware
+         Hardware Version: 2
+         Firmware Version: 1.18
+         Topcard         : Unknown
+         Vtarget         : 0.0 V
+         Varef           : 0.0 V
+         Oscillator      : Off
+         SCK period      : 0.1 us
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "/Applications/Arduino1.8.12.app/Contents/Java/hardware/arduino/avr/bootloaders/optiboot/optiboot_atmega328.hex"
+avrdude: writing flash (32768 bytes):
+
+Writing | ################################################## | 100% 0.00s
+
+avrdude: 32768 bytes of flash written
+avrdude: verifying flash memory against /Applications/Arduino1.8.12.app/Contents/Java/hardware/arduino/avr/bootloaders/optiboot/optiboot_atmega328.hex:
+avrdude: load data flash data from input file /Applications/Arduino1.8.12.app/Contents/Java/hardware/arduino/avr/bootloaders/optiboot/optiboot_atmega328.hex:
+avrdude: input file /Applications/Arduino1.8.12.app/Contents/Java/hardware/arduino/avr/bootloaders/optiboot/optiboot_atmega328.hex contains 32768 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: verifying ...
+avrdude: 32768 bytes of flash verified
+avrdude: reading input file "0x0F"
+avrdude: writing lock (1 bytes):
+
+Writing | ################################################## | 100% 0.02s
+
+avrdude: 1 bytes of lock written
+avrdude: verifying lock memory against 0x0F:
+avrdude: load data lock data from input file 0x0F:
+avrdude: input file 0x0F contains 1 bytes
+avrdude: reading on-chip lock data:
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude: verifying ...
+avrdude: 1 bytes of lock verified
+
+avrdude done.  Thank you.</code></pre>
+<h3>新しいブートローダをNanoで確認</h3>
+<p>今書き込んだNanoの動作確認です。ボード設定メニューのプロセッサー種別選択のサブメニューにて「ATmega328P」を選択します。Old Bootloaderじゃないやつです。</p>
+<p>LEDブリンクをNanoに書き込み！　以下がログですが、115200kbpsで通信していますね。</p>
+<pre class="wp-block-code"><code>avrdude: Version 6.3-20190619
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "/Applications/Arduino1.8.12.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf"
+         User configuration file is "/Users/junkhack/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/cu.wchusbserial14120
+         Using Programmer              : arduino
+         Overriding Baud Rate          : 115200
+         AVR Part                      : ATmega328P
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PC2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65    20     4    0 no       1024    4      0  3600  3600 0xff 0xff
+           flash         65     6   128    0 yes     32768  128    256  4500  4500 0xff 0xff
+           lfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           hfuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           efuse          0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           lock           0     0     0    0 no          1    0      0  4500  4500 0x00 0x00
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : Arduino
+         Description     : Arduino
+         Hardware Version: 3
+         Firmware Version: 4.4
+         Vtarget         : 0.3 V
+         Varef           : 0.3 V
+         Oscillator      : 28.800 kHz
+         SCK period      : 3.3 us
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: reading input file "/var/folders/f1/5d6ycdnj6v58mcq9kn4b3ksm0000gn/T/arduino_build_539320/Blink.ino.hex"
+avrdude: writing flash (924 bytes):
+
+Writing | ################################################## | 100% 0.48s
+
+avrdude: 924 bytes of flash written
+avrdude: verifying flash memory against /var/folders/f1/5d6ycdnj6v58mcq9kn4b3ksm0000gn/T/arduino_build_539320/Blink.ino.hex:
+avrdude: load data flash data from input file /var/folders/f1/5d6ycdnj6v58mcq9kn4b3ksm0000gn/T/arduino_build_539320/Blink.ino.hex:
+avrdude: input file /var/folders/f1/5d6ycdnj6v58mcq9kn4b3ksm0000gn/T/arduino_build_539320/Blink.ino.hex contains 924 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.45s
+
+avrdude: verifying ...
+avrdude: 924 bytes of flash verified
+
+avrdude done.  Thank you.</code></pre>
+<p>flash verified　が出ていますね。うまくいったようです！　ログをよく見てみるとファームウェアバージョンは4.4ということのようです。</p>
+<blockquote class="wp-block-quote"><p>Hardware Version: 3<br>Firmware Version: 4.4</p></blockquote>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<p>・ブートローダが古ければ、Arduino を書込機器（ISP）にして新しくできる<br>・古いArduinoなら、プロセッサー種別選択で「ATmega328P(Old Bootloader)」を選択<br>・違いは、通信速度のようです。それ以外の違いはまだ不明</p>
+<h3>あとがき</h3>
+<p>5年も使っていなかったので、扱いが悪くて壊れたのかな？　と思っていましたが、対応方法があってよかったです！　まさかブートローダが新しくなっていてIDEから古いのを選択しないとダメだとは思っていませんでした。壊れていなくてよかったです。</p>
+<p>5年経過しているので、いろいろな環境が変わっていますね。5年前よりいろいろ進化しているので、ハマることもあるかもですが以前より楽しいことができそうな気がします。</p>
+<h3>著者にメッセージ</h3>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-10121" class="post-10121 post type-post status-publish format-standard has-post-thumbnail hentry category-arduino category-diy category-parts"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2021/02/20/arudio-seeeduino-xiao/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2021-02-20T15:38:39+09:00">2021年2月20日</time><time class="updated" datetime="2021-02-20T15:38:45+09:00">2021年2月20日</time></a> </span><span class="posted-on">更新日:2021年2月20日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
 </div>
 <h1 class="entry-title"><a href="/2021/02/20/arudio-seeeduino-xiao/" rel="bookmark noopener noreferrer" data-wpel-link="internal">久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</a></h1></header><div class="entry-content">
@@ -125,7 +501,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>Wiki  Seeeduino Xiaoをはじめよう</p>
 <cite><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
 </blockquote>
-<figure class="wp-block-image size-large"><img width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px"></figure><p>Seeedの日本語版のWikiもありますので、大きさなどはそちらでどうぞ。上の写真は3個入りのをアマゾンからゲットしました。3個入りで1800円弱です。１つ600円ってとこですかね。</p>
+<figure class="wp-block-image size-large"><img loading="lazy" width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px"></figure><p>Seeedの日本語版のWikiもありますので、大きさなどはそちらでどうぞ。上の写真は3個入りのをアマゾンからゲットしました。3個入りで1800円弱です。１つ600円ってとこですかね。</p>
 <figure class="wp-block-image size-large"><img loading="lazy" width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px"></figure><p>中身！　想像より、ちっちゃい！親指に乗りますよ。</p>
 <figure class="wp-block-image size-large"><img loading="lazy" width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px"></figure><p>ESP32と遊んでからだいぶ月日が経ちましたが、大きさはそのくらいです。ブレッドボードに刺さるのでPinつけてすぐ楽しめますね！</p>
 <h3>まずはボードをじろじろと見る！</h3>
@@ -826,106 +1202,6 @@ $ file 01-Trans-Island\ Skyway.flac
 <p>・UmidigiF2に載せ替えようとおもっている。<br>・4月から仕事先が変わるんで、再起動が難しいかも。何か作戦を練らねば。<br>・バッテリー無くして電源管理と連動する仕組みとか考えないと。</p>
 <h3>あとがき</h3>
 <p>現在リモート勤務なので、まぁ気がつけばすぐに再起動かけられますがこの先仕事のライフワークが変わる可能性が大なので、再起動がむずかしくなりそうです。バッテリーを外して、電源をリモートからコントロールするとかちょっと工夫しないといけないですね。</p>
-<h3>著者にメッセージ</h3>
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-10008" class="post-10008 post type-post status-publish format-standard has-post-thumbnail hentry category-music"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2021/02/01/aac320kbps-flac16bit44-1khz/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2021-02-01T01:35:09+09:00">2021年2月1日</time><time class="updated" datetime="2021-02-01T01:35:15+09:00">2021年2月1日</time></a> </span><span class="posted-on">更新日:2021年2月1日</span> <span class="categories"> <a href="/category/music/" rel="category tag noopener noreferrer" data-wpel-link="internal">music</a></span>
-</div>
-<h1 class="entry-title"><a href="/2021/02/01/aac320kbps-flac16bit44-1khz/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ハイレゾ？それどころか、AAC320KbpsとFlac16bit/44.1khzも僕は区別がつかないよ！</a></h1></header><div class="entry-content">
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>楽曲の品質って、聞き分けできるんだろうか？</p></div></div></div></div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>あーSpotifyとかの配信系の音の品質のことね？</p></div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>ハイレゾとAAC320kとか、いろいろ自分の耳で聞き分けできるか確認してみたよ</p></div></div></div></div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>ハイレゾのストリームサービスもあるの？</p></div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-<p>普段は、Spotifyの高品質AAC320Kbpsで音楽を聞いていますが、世の中には配信系の聞き放題でもFlacっていうCD品質（16bit/44.1khz）の配信や、それ以上の品質（ハイレゾ）で聞ける聴き放題サービスもあるようです！</p>
-<p>　そんなサービスの１つ、Tidal（タイダル）っていうサービスを最近使ってみています。ここはCD品質のFlacや、それ以上のハイレゾ音源を配信しています。MQAという品質もあるようですがこれはまだよくわかっていません。</p>
-<h3>そもそも配信系の品質って何があるの？</h3>
-<p>僕が契約している音楽配信サービスは、AWAと、Spotifyと、最近使ってみているTidalの３つです。</p>
-<blockquote class="wp-block-quote">
-<p>AWA　FAQ　音質<br>Normal (96kbps)、High (128kbps)、Excellent (320kbps)</p>
-<cite><a href="https://guide.awa.fm/hc/ja/articles/115003740653-%E9%9F%B3%E8%B3%AA" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://guide.awa.fm/hc/ja/articles/115003740653-%E9%9F%B3%E8%B3%AA<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<p>AWAは、FireTVでも使えたりCarplayやAndroid Autoが使えて車でも楽しく音楽ライフを過ごせます。邦楽に強いのもいいですよね。</p>
-<p>Spotifyは、不動のメインアプリです。この２つは、320kbpsの品質のようで、AWAはAACなのかどうなのか公式では言っていないようです。Spotifyは、AAC/320kbpsとのこと。</p>
-<blockquote class="wp-block-quote">
-<p>Spotify　音質<br>最高音質：約320 kbit/秒</p>
-<cite><a href="https://support.spotify.com/jp/article/high-quality-streaming/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://support.spotify.com/jp/article/high-quality-streaming/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<p>Tidalは、LowからMasterまで品質があってそれぞれ以下のようです。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" width="782" height="357" src="/wp-content/uploads/2021/01/Tidal-low-master.png" alt="" class="wp-image-10010" srcset="/wp-content/uploads/2021/01/Tidal-low-master.png 782w, /wp-content/uploads/2021/01/Tidal-low-master-768x351.png 768w" sizes="(max-width: 782px) 100vw, 782px"></figure><p>Low AAC 16bit/22.1khz<br>High AAC 16bit/44.1khz<br>Lossless Flac 16bit/44.1khz<br>Master それ以上（FlacからMQAまでいろいろ）</p>
-<p>公式には以下のように言っています。</p>
-<blockquote class="wp-block-quote">
-<p>TIDAL-MASTERS<br><br><strong>HiFi品質とマスター品質の違いは何ですか？</strong><br>HiFiオーディオは優れたサウンドですが、Mastersレーベルはアーカイブをマイニングし、これらが決定的な曲のリリースであることを確認しました。MQAのテクノロジーにより、この元のバージョンがTIDALを介してサブスクライバーに直接提供されます。認証された途切れのない音楽ファイル（通常は96 kHz / 24ビット）で、マスタリングスイートでのサウンドと同じくらい完璧です。<br>HiFi録音は44.1kHz / 16ビットに制限されていますが、マスターは元のソースを反映します。これはCD品質から96 kHz / 24ビット、場合によってはサンプルレートが192kHzの超高解像度ファイルまでさまざまです。</p>
-<cite><a href="https://support.tidal.com/hc/en-us/articles/115000397069-TIDAL-MASTERS" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://support.tidal.com/hc/en-us/articles/115000397069-TIDAL-MASTERS<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<p>公式アプリのプレイヤーだと以下のように表示されます。ビット深度やサンプリングレートなどは表示されません。</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="481" height="405" src="/wp-content/uploads/2021/01/TIDAL.png" alt="" class="wp-image-10011"></figure></div>
-<p>Audirvanaという再生ソフトでは、このように表示されます。例だと、FlacやMQAに対応していて、ビット深度やサンプリングレートが24bit/44.1khzってことがわかります。</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="351" height="99" src="/wp-content/uploads/2021/01/tidal-flac-mqa.png" alt="" class="wp-image-10012"></figure></div>
-<h3>AACとFlacを聴き分けられるのか？</h3>
-<p>つまり聴き放題サービスでの一般的なフォーマットは最高品質でAAC 16bit/44.1khzが一般的なようです。それ以上は、Tidalとか、Amazon Music HDとか、Deezer HiFiとか、Qobuzとか使う必要があります。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" width="659" height="333" src="/wp-content/uploads/2021/01/aac-flachikaku.png" alt="" class="wp-image-10009"></figure><p>今回は、図のように４種類の音をTidalからデジタル録音して検証しました。図中の４〜７は以下のような品質です。</p>
-<p>４・・・Tidal AAC 16bit/22.1khz<br>５・・・Tidal AAC 16bit/44.1khz<br>６・・・Tidal Flac 16bit/44.1khz<br>７・・・Tidal Flac 24bit/44.1khz</p>
-<p>録音はあるソフトウェアを使い、以下のようにWAVの24bit/192Khzで無圧縮録音しています。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="393" src="/wp-content/uploads/2021/01/InputDevice-1024x393.png" alt="" class="wp-image-10013" srcset="/wp-content/uploads/2021/01/InputDevice-1024x393.png 1024w, /wp-content/uploads/2021/01/InputDevice-768x295.png 768w, /wp-content/uploads/2021/01/InputDevice-984x377.png 984w, /wp-content/uploads/2021/01/InputDevice.png 1061w" sizes="(max-width: 1024px) 100vw, 1024px"></figure><h3>AACのLowとHighは余裕で聞き分けられたが！</h3>
-<p>４と５の比較では、すぐにわかりました。サンプリングレートが22.1khzではこもった音です。しかし、５と６でもう完全に同じに聞こえます。５と６のトラックを交互に変えても、何も違ったように聞こえません。ソフトウェアで差分の音を聞いてみると確かに掠れた音が鳴っているのはわかりました。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" width="691" height="171" src="/wp-content/uploads/2021/01/aac-flac-compare.png" alt="" class="wp-image-10014"></figure><p>しかし、５のトラックと６のトラックを交互に切り替えても同じ音としかきこえません！</p>
-<h3>16 kHz以上が聞こえない！</h3>
-<p>いろいろなテストアプリやサイトがありますね。WEBで１つ紹介しておきます。</p>
-<blockquote class="wp-block-quote">
-<p>スピーカー聴感測定用テストデータ１（高音域の部）</p>
-<cite><a href="https://kato19.blogspot.com/2015/08/speaker-test-high.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://kato19.blogspot.com/2015/08/speaker-test-high.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<p>僕の場合は、15khzまではなんとか聞こえましたが、16khzからはもう聞こえませんでした。がーん。ちなみに、１８歳の高３の息子は19khzまで聞こえるようです。</p>
-<p>先ほどの、５のトラックと６のトラックの音の差は感じると言っていました。しかし、６と７のトラック（Flac 16bit/44.1khzと、Flac 24bit/44.1khz）は差がわからないと言っていました。</p>
-<h3>つまり、自分の場合AAC320kbpsで良い！</h3>
-<p>TidalのHifiであるCD品質でさえ、自分にはオーバースペックのようです。つまり、Spotifyの最高品質で十分ということです。TidalであればHighで十分というわけです。</p>
-<h3>まとめ</h3>
-<p>今回、なんとなくわかったのは以下となります。</p>
-<p>・16Khz〜の音が聞こえないなら、品質はAAC 16bit/44.1khzで十分である<br>・少なくとも、自分にはハイレゾって意味ないなーってのが正直な感想<br>・そのうち、1khz〜も聞こえなくなるのかと思うと憂鬱になった<br>・統合音楽再生ソフト「<strong>roon</strong>」っていうのが良いみたいなんでそのうち使ってみる</p>
-<h3>あとがき</h3>
-<p>MQAをデコードできるDACを7500円くらいで買ったんだけど、意味ないかなーw　まぁ、MQAっていうテクノロジーを体験して差が感じないならメルカリ行きかなー。</p>
 <h3>著者にメッセージ</h3>
 <p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 </div>

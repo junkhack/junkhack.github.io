@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,29 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-582" class="post-582 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-junk category-parts"><div class="entry-wrapper">
+</h1></header><article id="post-591" class="post-591 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-parts"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/05/01/cp2102-serial-converter/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-01T00:28:44+09:00">2015年5月1日</time></a> </span><span class="posted-on">更新日:2015年5月1日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/05/01/cp2102-serial-converter/" rel="bookmark noopener noreferrer" data-wpel-link="internal">CP2102 Serial Converter</a></h1></header><div class="entry-content">
+<p>前回、<a href="/2015/04/18/%E7%B6%9A%E3%80%85%E3%81%A8%E7%B4%A0%E6%9D%90%E3%82%92%E3%82%B2%E3%83%83%E3%83%88/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">続々と素材をゲット</a> した中のパーツを2つ試してみました。</p>
+<p>まず、あまりの安さに手を出したPro Mini 168 Mini ATMEGA168 5V/16MHz の10個入りの中の１つを半田付け。で、こいつはUSBシリアルのインターフェイスを持っていないので、USB UARTのCP2102 Male USB 2.0 to TTL UART Module Serial Converter をつなげる形でプログラムを転送します。</p>
+<p>&#160;</p>
+<p>で、Pro Mini 168 5V はなんの苦労もなくLEDが光って動作確認はできたのですが、このシリアルコンバータの接続が？？？。購入時は気に留めていなかったのですが、DTR端子が見当たりません。</p>
+<p>とりあえず、以下のように4本をつなげてデータ転送してみたのですがエラーが出てだめ。</p>
+<p><img title="IMG_0194 2" style="display:inline;border-width:0;" border="0" alt="IMG_0194 2" src="/wp-content/uploads/2015/05/img_01942.jpg" width="640" height="480"></p>
+<p>うーん、DTRを取り出そうにもそんな端子が見当たらず、グーぐる先生に聞いてみたところ、どうやらリセットボタンを使ってやればよろしいようです。</p>
+<p>&#160;</p>
+<p>映像で見たほうがわかりやすいので、どうぞ。</p>
+<p> [youtube https://www.youtube.com/watch?v=k4aoLH-8WQw]</p>
+<p>DTRがなくても、こんなヒト手間をかければよろしいようです。</p>
+<p>とはいっても、やっぱりDTR端子は欲しいので、次回の買い物のついででAliexpress のどっかでゲットすることにします。</p>
+<p>&#160;</p>
+<p>で、このProMiniは今作ってるJunkFDDプロッターに鎮座させる予定です。容量とか足りるのかどうかはまだ未知ですが。まぁ、そんなにたいしたプログラムを乗っけるわけじゃないのでオーバースペックかもですが。なんせ、1個160円くらいなので気安く使ってしまえという発想ですが。</p>
+<p>&#160;</p>
+<p>とりあえず、ProMiniとCP2102の検証でした。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-582" class="post-582 post type-post status-publish format-standard hentry category-aliexpress category-arduino category-junk category-parts"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/04/27/fdd5/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-04-27T19:29:49+09:00">2015年4月27日</time></a> </span><span class="posted-on">更新日:2015年4月27日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/junk/" rel="category tag noopener noreferrer" data-wpel-link="internal">Junk</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/04/27/fdd5/" rel="bookmark noopener noreferrer" data-wpel-link="internal">FDD5</a></h1></header><div class="entry-content">
@@ -80,7 +103,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>この小手、もう30年くらいつかっているやつです。</p>
 <p>&#160;</p>
 <p>で、Z軸のペンをつける部分を100円均一で探してきました。</p>
-<p><img title="IMG_0184" style="display:inline;border-width:0;" border="0" alt="IMG_0184" src="/wp-content/uploads/2015/04/img_0184.jpg" width="640" height="480"></p>
+<p><img loading="lazy" title="IMG_0184" style="display:inline;border-width:0;" border="0" alt="IMG_0184" src="/wp-content/uploads/2015/04/img_0184.jpg" width="640" height="480"></p>
 <p>こんなのを探していたんですが、ぴったりです。付け根の金具をはずして、ほっとボンドでくっつけました。</p>
 <p><img loading="lazy" title="IMG_0182" style="display:inline;border-width:0;" border="0" alt="IMG_0182" src="/wp-content/uploads/2015/04/img_0182.jpg" width="640" height="480"></p>
 <p>筐体は、FDDをはずしたPCのジャンク筐体に使用されていたプラスティック製の物です。ほどよくカットして、台を調整すればちょうどいい感じかなと。</p>
@@ -180,24 +203,6 @@ void loop() {
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/04/24/arduino-nano-usb-serial-chip-ch341-e58299e5bf98e98cb2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-04-24T22:57:26+09:00">2015年4月24日</time></a> </span><span class="posted-on">更新日:2015年4月24日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/04/24/arduino-nano-usb-serial-chip-ch341-e58299e5bf98e98cb2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Arduino nano  + USB Serial Chip CH341 備忘録</a></h1></header><div class="entry-content"><p>また遊びにきまーす</p></div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-555" class="post-555 post type-post status-publish format-standard hentry category-arduino category-junk"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/04/24/fdd2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-04-24T21:03:20+09:00">2015年4月24日</time></a> </span><span class="posted-on">更新日:2015年4月24日</span> <span class="categories"> <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/junk/" rel="category tag noopener noreferrer" data-wpel-link="internal">Junk</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/04/24/fdd2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">FDD2</a></h1></header><div class="entry-content">
-<p>2つめのFDDをばらしました。</p>
-<p> [youtube https://www.youtube.com/watch?v=_BkwbEgs42Y]</p>
-<p>今度のは、前のよりばらしにくく、ステップモーターは小さい感じ。</p>
-<p>移動幅などは同じで、裏にはやはりセンサーみたいなのがありました。Delayは最大で43くらいじゃないと脱調する感じ。</p>
-<p>&#160;</p>
-<p>FDDも音階を出せるようで、こんなこともがんばればできるようです。</p>
-<p> [youtube https://www.youtube.com/watch?v=c52JQHVVqFM]</p>
-<p>ある意味すごいよね。裏に見えるのは、arduino でしょうかね。</p>
-<p>&#160;</p>
-<p>世界は広いようで、こんなアプローチも。最初の見せ方が期待させます。</p>
-<p> [youtube https://www.youtube.com/watch?v=dmoDLyiQYKw]</p>
-<p>ということで、3つ目もばらしますかね。当初の目的、プロッターは本当にできるでしょうかね。</p>
-</div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
 <div class="nav-links">

@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,13 +71,34 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-995" class="post-995 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
+</h1></header><article id="post-1004" class="post-1004 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/23/esp-12-powered-by-lithium-battery/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-23T03:34:58+09:00">2015年8月23日</time></a> </span><span class="posted-on">更新日:2015年8月23日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/08/23/esp-12-powered-by-lithium-battery/" rel="bookmark noopener noreferrer" data-wpel-link="internal">リチウムバッテリー駆動でESP-12</a></h1></header><div class="entry-content">
+<p> こんな感じで、基盤に組み付ける前に、配線のおさらい。 <br>いちおう、バッテリー駆動で動作してますが、まだ3.3V ラインをどうやって安定化させるかが抜けています。リチウム電池の電圧管理は、基盤右の出来合いのボードで出力降下cut から USB充電の過充電防止までできているので、いいんですが、3.0-3.6 の範囲に押さえて出力するようなレギュレーターが必要です。充電時は、最高で4.２７Vまであがるので、そのまま印加するとESP12にダメージがありそうな感じ。そのあたりは、明日考えることにして、とりあえず、電池駆動でどのくらい持つか連続稼動のテスト。まだDeep-Sleep は使っていないので２４時間以内で切れるはず。</p>
+<p>&#160;</p>
+<p>あと、コードは後から書き換えることも考えると、この基盤の大きさにどうやってUART のPIN を埋め込むかです。3 線しかつかわないので、メスPIN ヘッダーをESP12 の基盤の隙間が候補。電池ボックスは、基盤の下側を予定。ケースはまだ未定。</p>
+<p><img title="写真 1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 1" src="/wp-content/uploads/2015/08/13.jpg" width="640" height="480"></p>
+<p>入りそうで、入らなそうな予感。パズルみたいですね。</p>
+<p><img loading="lazy" title="写真 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="写真 2" src="/wp-content/uploads/2015/08/22.jpg" width="640" height="480"></p>
+<p>この電解コンデンサが邪魔。表面実装のタルタルコンデンサで小型化しようかとたくらんでいますが。電源周りって、結構シビアなので工夫が必要な感じです。</p>
+<p>&#160;</p>
+<p>とりあえず、IP は固定でWiFi 接続して、温度、照度、湿度を記録する IoT デバイスとなっています。まだコードにはBug があるので、工夫しないとです。現在、SDK 1.3 で動いています。</p>
+<p><a title="https://thingspeak.com/channels/42239/" href="https://thingspeak.com/channels/42239/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://thingspeak.com/channels/42239/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+<p>課題は、</p>
+<p>・3.3V （3.0 – 3.6v）電源の安定化</p>
+<p>・接続失敗したときの処理</p>
+<p>・Deep-Sleep のコード</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-995" class="post-995 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/21/pine58d8ae794b0e4bb98e38191/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-21T21:34:46+09:00">2015年8月21日</time></a> </span><span class="posted-on">更新日:2015年8月21日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/08/21/pine58d8ae794b0e4bb98e38191/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Pin半田付け</a></h1></header><div class="entry-content">
 <p>下駄を履かせずだと、こんなにスペースができました。</p>
 <p>左右に3つ分づつ、配線できるスペースがあります。</p>
-<p><img title="pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="pin" src="/wp-content/uploads/2015/08/pin1.jpg" width="632" height="480"></p>
+<p><img loading="lazy" title="pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="pin" src="/wp-content/uploads/2015/08/pin1.jpg" width="632" height="480"></p>
 <p>真上から見てもほぼ、基盤に隠れてる感じです。</p>
 <p><img loading="lazy" title="Scan 7" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 7" src="/wp-content/uploads/2015/08/scan7.png" width="634" height="852"></p>
 <p>ユニバーサル基盤につけるため、PIN側は半田付けしていませんが、このままでもブレッドボードへの抜き差しができます。</p>
@@ -336,29 +358,6 @@ void loop() {
 <p>とりあえず、こんな感じで使えるようになりました。tab補完や、そういうのはどうやるんでしょうね？ま、おいおい。</p>
 <p>USB to シリアル がなくてもワイヤレスで、シリアルが使えるというのはなんとも、慣れないですが、今後活用のアイデアも出てくるかもしれません。ESP12 に下駄をはかせず、基盤にうまく実装すれば蓋の中に納まりそうですし。RasPiのベアメタル開発に手を出したときには便利かもしれませんね。</p>
 <p>リチウム電池とESPを組み合わせて、単品のシリアルWiFi機器とすれば、何か応用できるかもです。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-953" class="post-953 post type-post status-publish format-standard hentry category-esp8266"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/12/esp-12-v130/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-12T00:54:52+09:00">2015年8月12日</time></a> </span><span class="posted-on">更新日:2015年8月12日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/08/12/esp-12-v130/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP-12のファームウェアをv1.3.0 に</a></h1></header><div class="entry-content">
-<p>オフィシャルのツールがWindows のexe だったので、バーチャルボックスでインストール。</p>
-<blockquote>
-<p>Flash download tool Vsersion:v1.2</p>
-<p><a title="http://bbs.espressif.com/viewtopic.php?f=57&amp;t=433" href="http://bbs.espressif.com/viewtopic.php?f=57&amp;t=433" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewtopic.php?f=57&amp;t=433<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>DETECTED INFO に 32Mbit って出てました。前回、調査したように、やはりESP-12 には、32M-bit / 4M-byte ( 4,194,304 )あるようです。今まで、512Kb でもarduino とかと比べると、おおーたくさんあるねと思っていましたが、それの4倍です。ちょっと得した気分ですね。クリスタルは26Mhz のようです。</p>
-<p><img loading="lazy" title="GW-20150812-000341" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GW-20150812-000341" src="/wp-content/uploads/2015/08/gw20150812000341.jpg" width="455" height="640"> で、書き込みして、AP に接続できるようにしてリセットかけてみました。ちゃんとフラッシュに設定は保存されて、バージョンも1.3.0 になっていました。UART の都合上、Windows のCoolTerm で接続テストはやりました。</p>
-<p><img loading="lazy" title="GW-20150812-000919" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GW-20150812-000919" src="/wp-content/uploads/2015/08/gw20150812000919.jpg" width="589" height="682"></p>
-<p>あと、マニュアルのP.55 に 前からできるみたいなんだけども、UART-WiFi passthrough modeというのがあって、WiFi経由でシリアルにパススルーできるようです。osx 側の nc は brew で netcat を入れています。osx のだとオプションが通らないので。</p>
-<p><img loading="lazy" title="CoolTerm_0_と_ishizaka_—_ESP8266_—_netcat_—_ttys000_と_名称未設定" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="CoolTerm_0_と_ishizaka_—_ESP8266_—_netcat_—_ttys000_と_名称未設定" src="/wp-content/uploads/2015/08/coolterm_0__ishizaka__esp8266__netcat__ttys000__.png" width="618" height="874"></p>
-<p>この設定は、フラッシュに保存されないようなのですが、IP と Port を打ち込めるようなものをESP側に付ければ、WiFi 経由でシリアルを操れることになりますね。これを、単機能にしてESPのAP に接続しにきたものをシリアルに流すだけのファームが透過のブリッジのファームウェアの原理なのかも。このあたりは、次回以降実験してみたいと思います。</p>
-<p>あ、あとWEBにもオフィシャルのAT コマンド（ちょっと古いけど）があったので、メモ。</p>
-<blockquote>
-<p>CIPMODE</p>
-<p><a title="https://github.com/espressif/esp8266_at/wiki/CIPMODE" href="https://github.com/espressif/esp8266_at/wiki/CIPMODE" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/espressif/esp8266_at/wiki/CIPMODE<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>ま、とりあえずフラッシュが４Mあって、SDK1.3も書き込めるということがわかったのでとりあえず今日はここまで。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

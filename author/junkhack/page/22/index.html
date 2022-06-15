@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,12 +71,64 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-4940" class="post-4940 post type-post status-publish format-standard hentry category-enhikari category-wifi category-wimax tag-v6plusip"><div class="entry-wrapper">
+</h1></header><article id="post-4947" class="post-4947 post type-post status-publish format-standard hentry category-enhikari"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/03/08/v6plusip/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-03-08T19:11:48+09:00">2020年3月8日</time></a> </span><span class="posted-on">更新日:2020年3月8日</span> <span class="categories"> <a href="/category/enhikari/" rel="category tag noopener noreferrer" data-wpel-link="internal">enhikari</a></span>
+</div>
+<h1 class="entry-title"><a href="/2020/03/08/v6plusip/" rel="bookmark noopener noreferrer" data-wpel-link="internal">v６プラスで固定IPを設定できるルータを探せ！</a></h1></header><div class="entry-content">
+<p>前回の続きです。</p>
+<p>enひかりのキャンペーンで1800円でゲットした、ELECOM（WRC-1167GST2） のルータは v6プラスとIP固定の組み合わせでは使えないことがはっきりしました。使えるルータはどれも業務用で、ちとお高い。中古でヤフオクっていう手もあるんですがそれでも3000円〜6000円程度となります。</p>
+<p>　そもそも、v6プラス＋固定IPで使えるルータと、今回のELECOM のルータのように使えそうで使えないものの違いは何なんでしょうか？　ここが明確にわかれば機種探しも楽になりそうです。</p>
+<p>結論から先に書いておきますが、キーワードは、<strong>IPv4 over IPv6（MAP-E）</strong>です。もっと短く表現するなら <strong>MAP-E</strong> に対応したルータとでも言えばいいんでしょうか？</p>
+<p>大変、参考になるページがありました。</p>
+<blockquote><p>IPoEオプションとDS-Lite/MAP-E対応ルーター<br>https://www.marbacka.net/blog/iijmio_hikari_ipoe_ds-lite_router/</p></blockquote>
+<p>つまり、enひかりの IP固定サービスは、jpne が提供する <a href="http://www.jpne.co.jp/service/v6plus/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">v6プラス<span class="wpel-icon wpel-image wpel-icon-1"></span></a>で提供されるもののようです。これは、MAP-E方式でそれに対応したルータが必要と理解しました。つまり、IPv4通信をより高速なIPv6の回線（<strong>IPv4 over IPv6</strong>）に流す方式には２つあるということのようですね。</p>
+<blockquote><p>IPv4 over IPv6（DS-Liteまたは、transix）　→ インターネットマルチフィード(株)など<br>Dual-Stack Lite（略してDS-Lite）rfc6333</p></blockquote>
+<p>今回、自分が契約したタイプは JPNE のIP固定です。</p>
+<blockquote><p>IPv4 over IPv6（MAP-E）　→ 日本ネットワークイネイブラー株式会社<br>Mapping of Address and Port with Encapsulation(略してMAP-E) rfc7597</p></blockquote>
+<p>これに対応するであろうと思われるルータの情報がありました。</p>
+<blockquote><p>IO-DATA ：JPNE社が提供する「v6プラス」固定IPサービスを利用する場合の設定方法<br>https://www.iodata.jp/support/qanda/answer/s30523.htm</p></blockquote>
+<p>この対象機種は以下のようです。リンクは価格COMのリンクにしておきました。</p>
+<blockquote><p><a href="https://kakaku.com/item/K0001015925/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-AX1167GR2<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001078408/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-AX1167GR2/E<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001038982/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-AX2033GR2<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001078409/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-AX2033GR2/E <span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="https://kakaku.com/item/K0001112896/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-DX1167R<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001117130/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-DX1167R/E<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001138976/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-SX300FR<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001144427/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-SX300FR/E<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001161009/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-SX300GR<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001163860/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-SX300GR/E<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001228364/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-DX1167GR<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br>WN-DX1167GR/E <br><a href="https://kakaku.com/item/K0001209059/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-DX2033GR<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br><a href="https://kakaku.com/item/K0001222518/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">WN-DX2033GR/E<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>リンクがなかったのは、価格COMでは見つけられませんでした。にしても似たようなのんがたくさんありますね。</p>
+<p>ギガビットイーサネットがついたもので、やすそうなのを選ぶと以下が候補になりました。</p>
+<p><a href="https://kakaku.com/prdcompare/prdcompare.aspx?pd_cmpkey=K0001163860_K0001161009_K0001078408_K0001015925_K0001078409&amp;pd_ctg=0077&amp;spec=104_7-1-2-3-4-5-6-7,105_8-1-2,109_12-1-2-3-4,106_9-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16,107_10-1-2" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img style="display:block;margin-left:auto;margin-right:auto;" title="価格_com_-無線LANルーター_Wi-Fiルーター_の比較表（WN-SX300GR_E、WN-SX300GR、WN-AX1167GR2_E__ミレニアム群青_、WN-AX1167GR2__ミレニアム群青_、WN-AX2033GR2_E__ミレニアム群青_）.png" src="/wp-content/uploads/2020/03/e4bea1e6a0bc_com_-e784a1e7b79alane383abe383bce382bfe383bc_wi-fie383abe383bce382bfe383bc_e381aee6af94e8bc83e8a1a8efbc88wn-sx300gr_ee38081wn-sx300gre38081wn-ax1167gr2_e__e3839fe383ace3838b.png" alt="価格 com 無線LANルーター Wi Fiルーター の比較表 WN SX300GR E WN SX300GR WN AX1167GR2 E ミレニアム群青 WN AX1167GR2 ミレニアム群青 WN AX2033GR2 E ミレニアム群青" width="599" height="269" border="0"></a></p>
+<p>5Ghz帯の無線がついた、真ん中のWN-AX1167GR2/E が良いかなと。/E がついているのはエコパッケージということのようです。</p>
+<blockquote><p>WN-AX1167GR2/E　仕様<br>https://www.iodata.jp/product/network/wnlan/wn-ax1167gr2e/spec.htm</p></blockquote>
+<p>しかし、仕様を読んでいて落とし穴がありました。</p>
+<blockquote>
+<p>SPI、DoS攻撃防御、インターネット側からのPing応答拒否、インターネット側からの設定拒否、 DHCPサーバー（最大253台）、IPアドレス固定割り当て（最大10エントリー）、ポートの開放（最大32エントリー）（※1）、DMZホスト（※1）、UPnP（※1）、IPv6パススルー、MTU設定（※1）、オートブリッジ、NTPクライアント、IPsecパススルー（※1）、PPTPパススルー（※1）、VPNサーバー（IP Sec）（※1）、ネットフィルタリング（無料5年）、URLフィルタリング（ネットフィルタリングの機能として）、ダイナミックDNS（iobb.net）（※1）、iobbプリセット（※1）、ペアレンタルコントロール、Wi-Fiマモル</p>
+<p>※1 IPv4 over IPv6サービス利用時はご利用いただけません。</p>
+</blockquote>
+<p>むむむ。これは、ルータは固定IPで抜けられるがサーバを公開できないってことになりますね。実はこのブログのサーバを宅内サーバにしょうと思っているのでこれは、まずい仕様です。つまり、このルータはMAP-Eには対応していてルータにはIPv4（IPv6もかな）を割り当てられるが、内部LANのWEBサーバ（80、443）を公開できないってことになりそうです。用途としては、IP固定でネットワークに出たい人向け（サーバ管理者や特定ゲームなど）ですね。</p>
+<p> </p>
+<p>ううむ。良いかと思ったのですが、意外と落とし穴がありますね。やはり業務用ルータしか選択肢はないのでしょうか。</p>
+<p>また振り出しに戻りまいた。。。。ここまで調査するのにかなり時間を使いましたからね。</p>
+<p>NECの家庭用、WG2600HP3も軽く調べましたがダメっぽいみたい。</p>
+<p>そもそも、v６プラス固定IPでサーバ公開するとポートが限定されるっていう話もありますしね。ちょっとこの原理よくわかりませんが、IPv4 だとポート数が65536個あるんですが、IPv4 over IPv6 では共用されるとのこと。それに対する良いページがありました。</p>
+<blockquote>
+<p>IPv6プラス環境におけるIPv4ポート公開設定</p>
+<p>https://qiita.com/nbhr/items/2850ccaa3456a8553bbf</p>
+</blockquote>
+<p>これによれば、「利用可能ポートは一契約あたり240個(61440個/256人)に制限〜」とあります。</p>
+<p>まずは、IPv6でつかんでいるIPv6 を確認しないとなんですが、今は固定IPじゃない自動設定で接続しているので自分のIPv6 アドレスがわからないんですよね。（IPv6アドレスは開通時に決定する）</p>
+<p>休憩がてら、YouTube を見ていると以下のようなネタがありました。</p>
+<p> </p>
+<p style="text-align:center;">[youtube https://www.youtube.com/watch?v=qvmE_du-Qu8?start=218]</p>
+<p>冒頭の話は、ちょっと？な部分がありますがこの人は、enひかりとv6オプション＋固定IPを契約しているそうでその場合は、全ポートもらえるそうです。</p>
+<p>つまい、最低限ルータに必要な機能としては</p>
+<p>・MAP-E に対応した v4-v6 に対応していて、かつ、ポートフォワードができるルータ</p>
+<p>ということになりそうです。</p>
+<p> </p>
+<p>うーん、先は長い！</p>
+<p> </p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-4940" class="post-4940 post type-post status-publish format-standard hentry category-enhikari category-wifi category-wimax tag-v6plusip"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/03/08/v6plusfixedipiwastroubled/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-03-08T01:42:07+09:00">2020年3月8日</time></a> </span><span class="posted-on">更新日:2020年3月8日</span> <span class="categories"> <a href="/category/enhikari/" rel="category tag noopener noreferrer" data-wpel-link="internal">enhikari</a>, <a href="/category/wifi/" rel="category tag noopener noreferrer" data-wpel-link="internal">WiFi</a>, <a href="/category/wimax/" rel="category tag noopener noreferrer" data-wpel-link="internal">wimax</a></span>
 </div>
 <h1 class="entry-title"><a href="/2020/03/08/v6plusfixedipiwastroubled/" rel="bookmark noopener noreferrer" data-wpel-link="internal">「v6プラス」固定IPではまった！</a></h1></header><div class="entry-content">
 <p>enひかりが開通しました。ぶっちぎりの速さでびっくりしています。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0"></p>
+<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0"></p>
 <p>ルータは自動設定でとりあえず繋がった状態なんです。</p>
 <p>まずは、ちゃんと設定していこうと IP固定の設定からやることにしました。enひかりのキャンペーンで安く買った（1000円＋送料800円）エレコムのルータ（WRC-1167GST2）を設定していました。</p>
 <blockquote>
@@ -209,23 +262,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>そうそう、このGIFアニメーションを作る便利なスクリーンレコーダーがめっちゃ便利なんですよね。次に紹介していきますね。</p>
 </div>
 <footer class="entry-footer"></footer>
-</div></article><article id="post-4912" class="post-4912 post type-post status-publish format-standard hentry category-umidigif2 tag-f2 tag-umidigi"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/02/19/umidigif2-camera/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-02-19T04:16:25+09:00">2020年2月19日</time></a> </span><span class="posted-on">更新日:2020年2月19日</span> <span class="categories"> <a href="/category/umidigif2/" rel="category tag noopener noreferrer" data-wpel-link="internal">UmidigiF2</a></span>
-</div>
-<h1 class="entry-title"><a href="/2020/02/19/umidigif2-camera/" rel="bookmark noopener noreferrer" data-wpel-link="internal">UmidigiF2のカメラ！</a></h1></header><div class="entry-content">
-<p>UmidigiF2 のカメラで撮った料理を載せておきます。</p>
-<p>こんな感じに撮れるんだよっていうサンプルにでもどうぞ。Umidigi のカメラはあまり良くないっていう評判ですが、そういう感じはしませんでした。</p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200108_194240_1.jpg" src="/wp-content/uploads/2020/02/img_20200108_194240_1-1.jpg" alt="IMG 20200108 194240 1" width="599" height="450" border="0"></p>
-<p>WordPress にアップロードしてる時点でリサイズしていますので、オリジナルは8000&#215;6000 ピクセルで巨大です。</p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="aaa.jpg" src="/wp-content/uploads/2020/02/aaa.jpg" alt="Aaa" width="599" height="450" border="0"></p>
-<p>こっちはF値をいじって立体的に見せるステレオモードってやつですが、どうでしょうか。</p>
-<p>広角やマクロも付いていますが、まだそれがいいなって思う場面での撮影はない感じです。まぁ、この程度取れればブログ用には十分ですね。少し画像補正すれば、以下な感じになります。十分でしょ？</p>
-<p><em><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="aaa 3.jpg" src="/wp-content/uploads/2020/02/aaa-3.jpg" alt="Aaa 3" width="599" height="450" border="0"></em></p>
-<p>速くに買ったんで、19800円くらいでした。今は2万ちょいくらいですかね。１、２年で買い換える（落としたりするしね）んでこのくらいの値段のが気楽に使えていいんですよね。カバーとか保護フィルムとか使わず、そのまま使っています。</p>
-<p>ちなみに、猫とかはこんな感じ。</p>
-<p><img loading="lazy" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200126_145705_2.jpg" src="/wp-content/uploads/2020/02/img_20200126_145705_2.jpg" alt="IMG 20200126 145705 2" width="599" height="798" border="0"></p>
-</div>
-<footer class="entry-footer"> <span class="tags-links"><a href="/tag/f2/" rel="tag noopener noreferrer" data-wpel-link="internal">F2</a> <a href="/tag/umidigi/" rel="tag noopener noreferrer" data-wpel-link="internal">Umidigi</a></span></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
 <div class="nav-links">
 <div class="nav-previous"><a href="/author/junkhack/page/23/" data-wpel-link="internal" rel="noopener noreferrer">過去の投稿</a></div>

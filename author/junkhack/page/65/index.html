@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,12 +71,219 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1682" class="post-1682 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
+</h1></header><article id="post-1688" class="post-1688 post type-post status-publish format-standard hentry category-aliexpress category-orangepi category-parts category-raspberry-pi"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/11/19/15e38389e383abe381aeorange-pie381a7e9818ae381b3e58092e38199/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-11-19T21:17:21+09:00">2015年11月19日</time></a> </span><span class="posted-on">更新日:2015年11月19日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/orangepi/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePi</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/11/19/15e38389e383abe381aeorange-pie381a7e9818ae381b3e58092e38199/" rel="bookmark noopener noreferrer" data-wpel-link="internal">15ドルのOrange Piで遊び倒す</a></h1></header><div class="entry-content">
+<p>遊びがいがありそうなので、ポチりました！ 動機としては、OpenStack のARMビルド版を動かすのを目標にしています。</p>
+<p>&#160;</p>
+<p>CPU には、<a href="http://linux-sunxi.org/H3" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">allwinner のH3<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というアーキテクチャーネームはsun8iw7p1 というものが載っています。</p>
+<p>4K に対応した H.265/HEVC 4K@30fps のデコードが出来るんですよ。そして、4コアですよ。1.6Ghz で動作して、こんなのが2300円で買えてしまうなんて。もう驚きです。！！！どうやら、これは30ドル～50ドルくらいのSTBを対象に開発されたようで、価格は6ドルとのこと。</p>
+<p><a href="http://www.allwinnertech.com/en/clq/H_series/501.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="H3_Allwinner_Technology" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="H3_Allwinner_Technology" src="/wp-content/uploads/2015/11/h3_allwinner_technology.png" width="194" height="197"></a><a href="/wp-content/uploads/2015/11/h3_allwinner_technology2.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="H3_Allwinner_Technology 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="H3_Allwinner_Technology 2" src="/wp-content/uploads/2015/11/h3_allwinner_technology2_thumb.png" width="640" height="389"></a></p>
+<p><a href="/wp-content/uploads/2015/11/allwinner_h3_datasheet_v1-1.pdf" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="Allwinner_H3_Datasheetv1.1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Allwinner_H3_Datasheetv1.1" src="/wp-content/uploads/2015/11/allwinner_h3_datasheetv1-1.png" width="341" height="482"></a></p>
+<p> UnixBench ではRasPi（2じゃないやつ）よりも速いはずです。到着したら、自身で計測してみますが、他者の結果は以下のようです。RasPi2 より速ければ、うれしいですね。スペック的には速いはずです。以下のベンチマークは、Orange Pi（AllWinner A20）のもの。</p>
+<blockquote>
+<p>参考ソース</p>
+<p><a title="http://pastebin.com/chsgAxw2" href="http://pastebin.com/chsgAxw2" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://pastebin.com/chsgAxw2<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+ 
+   System: OrangePI: GNU/Linux
+   OS: GNU/Linux -- 3.4.39 -- #1 SMP PREEMPT Wed Sep 16 13:39:07 CEST 2015
+   Machine: armv7l (unknown)
+   Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
+   16:00:08 up 31 min,  1 user,  load average: 3.00, 3.09, 2.76; runlevel 2
+ 
+------------------------------------------------------------------------
+Benchmark Run: Sat Sep 19 2015 16:00:08 - 16:28:23
+0 CPUs in system; running 1 parallel copy of tests
+ 
+Dhrystone 2 using register variables        5193714.8 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                      791.3 MWIPS (10.1 s, 7 samples)
+Execl Throughput                                349.9 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        121696.0 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           36652.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        277558.9 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              323747.0 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  12225.1 lps   (10.0 s, 7 samples)
+Process Creation                               1044.4 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   1433.6 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    472.1 lpm   (60.0 s, 2 samples)
+System Call Overhead                         854375.1 lps   (10.0 s, 7 samples)
+ 
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    5193714.8    445.0
+Double-Precision Whetstone                       55.0        791.3    143.9
+Execl Throughput                                 43.0        349.9     81.4
+File Copy 1024 bufsize 2000 maxblocks          3960.0     121696.0    307.3
+File Copy 256 bufsize 500 maxblocks            1655.0      36652.0    221.5
+File Copy 4096 bufsize 8000 maxblocks          5800.0     277558.9    478.5
+Pipe Throughput                               12440.0     323747.0    260.2
+Pipe-based Context Switching                   4000.0      12225.1     30.6
+Process Creation                                126.0       1044.4     82.9
+Shell Scripts (1 concurrent)                     42.4       1433.6    338.1
+Shell Scripts (8 concurrent)                      6.0        472.1    786.9
+System Call Overhead                          15000.0     854375.1    569.6
+                                                                   ========
+System Benchmarks Index Score                                         225.1</pre>
+<p>&#160;</p>
+<p>-c 4 のオプションをつけてないようなので、おそらくRasPi2 よりも速いはず。</p>
+<p>&#160;</p>
+<p><a href="/wp-content/uploads/2015/11/orangepipc_info.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="orangepipc_info" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="orangepipc_info" src="/wp-content/uploads/2015/11/orangepipc_info_thumb.jpg" width="570" height="768"></a> オフィシャルサイトには、サポートOSは以下のようです。</p>
+<p><a href="/wp-content/uploads/2015/11/orange_pi_homepage__orangepi.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="orange_pi_homepage_-_Orangepi" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="orange_pi_homepage_-_Orangepi" src="/wp-content/uploads/2015/11/orange_pi_homepage__orangepi_thumb.png" width="595" height="252"></a></p>
+<p><a href="http://www.orangepi.org/downloadresources/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="www_orangepi_org_downloadresources_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="www_orangepi_org_downloadresources_" src="/wp-content/uploads/2015/11/www_orangepi_org_downloadresources_.png" width="593" height="251"></a> ラインナップは以下のようです。最初の１つを選ぶとしたら、一番安いものでとりあえずいいかなと思ったので、15ドルのOrange Pi PC にしました。大きな違いは、NIC がGB対応にするか、WiFi 付きを選ぶか、SATA も付くのを選ぶか、eMMC8GB のストレージ付きを選ぶかです。</p>
+<table cellspacing="0" cellpadding="5" width="100%" align="center" border="1"><tbody>
+<tr>
+<td>&#160;</td>
+<td style="font-size:10pt;" valign="middle" align="center"><b>Orange Pi</b></td>
+<td style="font-size:10pt;" valign="middle" align="center"><b>Orange Pi Plus</b></td>
+<td style="font-size:10pt;" valign="middle" align="center"><b>Orange Pi 2</b></td>
+<td style="font-size:10pt;" valign="middle" align="center"><b><font color="#ff0000">Orange Pi PC</font></b></td>
+<td style="font-size:10pt;" valign="middle" align="center"><b>Raspberry Pi 2 Model B</b></td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Processor</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">AllWinner A20</td>
+<td style="font-size:10pt;" valign="middle" align="center">Allwinner H3</td>
+<td style="font-size:10pt;" valign="middle" align="center">Allwinner H3</td>
+<td style="font-size:10pt;" valign="middle" align="center">Allwinner H3</td>
+<td style="font-size:10pt;" valign="middle" align="center">Broadcom BCM2836</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>CPU cores</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">4x Cortex-A7 @ 1GHz</td>
+<td style="font-size:10pt;" valign="middle" align="center">4x Cortex-A7 @ 1.6GHz</td>
+<td style="font-size:10pt;" valign="middle" align="center">4x Cortex-A7 @ 1.6GHz</td>
+<td style="font-size:10pt;" valign="middle" align="center"><font color="#ff0000">4x Cortex-A7 @ 1.6GHz</font></td>
+<td style="font-size:10pt;" valign="middle" align="center">4x Cortex-A7 @ 900MHz</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>GPU</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">PowerVR SGX544MP2</td>
+<td style="font-size:10pt;" valign="middle" align="center">ARM Mali-400 MP2</td>
+<td style="font-size:10pt;" valign="middle" align="center">ARM Mali-400 MP2</td>
+<td style="font-size:10pt;" valign="middle" align="center">ARM Mali-400 MP2</td>
+<td style="font-size:10pt;" valign="middle" align="center">Broadcom VideoCore IV</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>RAM</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">1GB</td>
+<td style="font-size:10pt;" valign="middle" align="center">1GB</td>
+<td style="font-size:10pt;" valign="middle" align="center">1GB</td>
+<td style="font-size:10pt;" valign="middle" align="center">1GB</td>
+<td style="font-size:10pt;" valign="middle" align="center">1GB</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Storage</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">microSD, SATA 2.0</td>
+<td style="font-size:10pt;" valign="middle" align="center">microSD, SATA 2.0, 8GB eMMC</td>
+<td style="font-size:10pt;" valign="middle" align="center">microSD</td>
+<td style="font-size:10pt;" valign="middle" align="center">microSD</td>
+<td style="font-size:10pt;" valign="middle" align="center">microSD</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Wireless</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">WiFi</td>
+<td style="font-size:10pt;" valign="middle" align="center">WiFI</td>
+<td style="font-size:10pt;" valign="middle" align="center">WiFi</td>
+<td style="font-size:10pt;" valign="middle" align="center">—</td>
+<td style="font-size:10pt;" valign="middle" align="center">—</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Ethernet</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">Gigabit</td>
+<td style="font-size:10pt;" valign="middle" align="center">Gigabit</td>
+<td style="font-size:10pt;" valign="middle" align="center">10/100</td>
+<td style="font-size:10pt;" valign="middle" align="center"><font color="#ff0000">10/100</font></td>
+<td style="font-size:10pt;" valign="middle" align="center">10/100</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>A/V I/O</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">HDMI, composite, LVDS, VGA</td>
+<td style="font-size:10pt;" valign="middle" align="center">HDMI, composite</td>
+<td style="font-size:10pt;" valign="middle" align="center">HDMI, composite</td>
+<td style="font-size:10pt;" valign="middle" align="center">HDMI, composite</td>
+<td style="font-size:10pt;" valign="middle" align="center">HDMI, composite</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Camera</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">CSI</td>
+<td style="font-size:10pt;" valign="middle" align="center">CSI</td>
+<td style="font-size:10pt;" valign="middle" align="center">CSI</td>
+<td style="font-size:10pt;" valign="middle" align="center">CSI</td>
+<td style="font-size:10pt;" valign="middle" align="center">CSI</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>USB ports</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">4x USB 2.0; 1x USB OTG</td>
+<td style="font-size:10pt;" valign="middle" align="center">4x USB 2.0; 1x USB OTG</td>
+<td style="font-size:10pt;" valign="middle" align="center">4x USB 2.0; 1x USB OTG</td>
+<td style="font-size:10pt;" valign="middle" align="center">3x USB 2.0; 1x USB OTG</td>
+<td style="font-size:10pt;" valign="middle" align="center">4x USB 2.0</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Power</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">+5V via micro-USB or barrel jack</td>
+<td style="font-size:10pt;" valign="middle" align="center">+5V via micro-USB or barrel jack</td>
+<td style="font-size:10pt;" valign="middle" align="center">+5V via barrel jack</td>
+<td style="font-size:10pt;" valign="middle" align="center">+5V via barrel jack</td>
+<td style="font-size:10pt;" valign="middle" align="center">+5V via micro-USB</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Expansion</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">26-pin Pi-style; 18-pin</td>
+<td style="font-size:10pt;" valign="middle" align="center">40-pin Pi-style</td>
+<td style="font-size:10pt;" valign="middle" align="center">40-pin Pi-style</td>
+<td style="font-size:10pt;" valign="middle" align="center">40-pin Pi-style</td>
+<td style="font-size:10pt;" valign="middle" align="center">40-pin</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Dimensions</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">112 x 60mm</td>
+<td style="font-size:10pt;" valign="middle" align="center">112 x 60mm</td>
+<td style="font-size:10pt;" valign="middle" align="center">93 x 60mm</td>
+<td style="font-size:10pt;" valign="middle" align="center">85 x 55mm</td>
+<td style="font-size:10pt;" valign="middle" align="center">85 x 56mm</td>
+</tr>
+<tr>
+<td style="font-size:10pt;" valign="middle" align="left"><b>Price (less shipping)</b></td>
+<td style="font-size:10pt;" valign="middle" align="center">$49</td>
+<td style="font-size:10pt;" valign="middle" align="center">$59</td>
+<td style="font-size:10pt;" valign="middle" align="center">$30</td>
+<td style="font-size:10pt;" valign="middle" align="center"><font color="#ff0000">$15</font></td>
+<td style="font-size:10pt;" valign="middle" align="center">$35</td>
+</tr>
+</tbody></table>
+<blockquote><p>オリジナルソース<br> <br><a title="http://linuxgizmos.com/15-dollar-orange-pi-pc-hacker-sbc-packs-quad-core-soc/" href="http://linuxgizmos.com/15-dollar-orange-pi-pc-hacker-sbc-packs-quad-core-soc/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://linuxgizmos.com/15-dollar-orange-pi-pc-hacker-sbc-packs-quad-core-soc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<p>価格のバランスから言って、まずは表中の赤いものでいいかなと思いました。</p>
+<p>2300円(15ドル＋送料)くらいなので、ちょっと遊んでみようかと思います。目標は、オリジナルなOSビルドです。</p>
+<p>野良なイメージはあるけれども、ちょっと心配だし、１からCentOS とかのarm 版を作ってみようかと。目標は、OpenStack のARMビルドを走らせること。そして、検証用のOpenStack 環境を作ってみたいなと。</p>
+<p>&#160;</p>
+<p>アプリケーションであれば、クロスコンパイル環境を作ればARM版のアプリケーションはビルド出来るのでしょうが、OS自体を１からARM ビルドするにはどうしたらいいのでしょうか？ このあたりのノウハウも勉強になると思いますので、やってみたいと思います。</p>
+<p>&#160;</p>
+<p>オリジナルなブートローダーや、セットアップを簡単にするインストーラなども作れたら面白いなと思っていますが、いろいろスキルが必要になりそうですので、勉強しながらやっていきたいです。</p>
+<p>&#160;</p>
+<p>それにしても、この部品構成でどやったら、15ドルで出せるのかが不思議です。</p>
+<p>CPU は6ドルとのことで、大量に買えば安くはなるのであろうけども、中国のパワーはすごいですね。脅威を通りこして畏敬を感じます。安いのはパワーだと！</p>
+<p>&#160;</p>
+<p>とりあえず、年末年始はこれで楽しめそうです。SUNXIのマニュアルにH3 とか基本的なマニュアルビルドの手順が載っていたのでメモ。<br> <br>&#160;</p>
+<table cellspacing="0" cellpadding="2" width="400" border="0"><tbody><tr>
+<td width="140"><a href="/wp-content/uploads/2015/11/sunxi.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="sunxi" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="sunxi" src="/wp-content/uploads/2015/11/sunxi_thumb.png" width="149" height="148"></a></td>
+<td width="260">
+<p><a href="http://linux-sunxi.org/Manual_build_howto" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Manual build howto<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://linux-sunxi.org/H3_Manual_build_howto" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">H3 Manual build howto<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</td>
+</tr></tbody></table>
+<p><a href="http://linux-sunxi.org/H3_Manual_build_howto" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right"><span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1682" class="post-1682 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/11/17/e6a485e5ad90e381aee69c80e69c89e58a9be58099e8a39c/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-11-17T21:48:12+09:00">2015年11月17日</time></a> </span><span class="posted-on">更新日:2015年11月17日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/11/17/e6a485e5ad90e381aee69c80e69c89e58a9be58099e8a39c/" rel="bookmark noopener noreferrer" data-wpel-link="internal">椅子の最有力候補</a></h1></header><div class="entry-content">
 <p>あれこれと、椅子選びをしている内にだんだん高いものがいいなぁということになってきて、価格的にも妥協できる範囲で現在の最有力候補はこれ。なかなかかっこいいし、値段もお値打ちなので良いかなと。</p>
-<p><a href="http://www.amazon.co.jp/gp/product/B00Y9JL1RO/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00Y9JL1RO&amp;linkCode=as2&amp;tag=pear0a-22" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="isu" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="isu" src="/wp-content/uploads/2015/11/isu.jpg" width="691" height="768"></a></p>
+<p><a href="http://www.amazon.co.jp/gp/product/B00Y9JL1RO/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00Y9JL1RO&amp;linkCode=as2&amp;tag=pear0a-22" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="isu" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="isu" src="/wp-content/uploads/2015/11/isu.jpg" width="691" height="768"></a></p>
 <p>どうやら、これは楽天とかでずっと1位を取っていた椅子のようです。どちらも、タンスのゲンさんが販売しているようですが、アマゾンのほうが安いので、メモっておきます。</p>
 <p><a href="http://item.rakuten.co.jp/tansu/13100001a" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="kami" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="kami" src="/wp-content/uploads/2015/11/kami.png" width="691" height="842"></a></p>
 <p>オカムラの椅子とか、いいなぁと思うのですが、やっぱりいいものは高いですね。とりあえずは、3年持ってくれればと妥協して買うことにします。</p>
@@ -410,23 +618,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>結局、コイルはTDKのが安かったので元の選択に変更。ESP13で行くか、ESP12で行くかはまだ未定。できれば、ESP13で行きたいところ。ざっくり、全部で13000円くらい。単価3000円がPCBを入れた原価。ということは、中古のkobo や kindole とかにLINUX入れて改造したほうが安上がりですね。E-ink を制御するドライバーをだれかが大量に作ってくれれば安くなるんだろうけども。</p>
 <p>&#160;</p>
 <p>PCB 設計はまだ途中。ソフトウェアがESP13 で通るか確認をしたいところ。ESP13 や WROOM-02 でSDK1.0.1が通るかどうかはまだ未確認。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1633" class="post-1633 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-parts category-pcb"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/11/08/lte38288e3828ae382b5e383b3e38397e383abe588b0e79d80/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-11-08T15:54:24+09:00">2015年11月8日</time></a> </span><span class="posted-on">更新日:2015年11月8日</span> <span class="categories"> <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/11/08/lte38288e3828ae382b5e383b3e38397e383abe588b0e79d80/" rel="bookmark noopener noreferrer" data-wpel-link="internal">LTよりサンプル到着</a></h1></header><div class="entry-content">
-<p>LinearTechnology さんよりサンプルが届きました。<a href="http://www.linear-tech.co.jp/product/LT1945" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">LT1945EMS<span class="wpel-icon wpel-image wpel-icon-1"></span></a> です。ありがとうございます。</p>
-<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/11/11.jpg" width="640" height="480"></p>
-<p>サンプルは、2個までで、同じ型番で末尾が違うもの（LT1945IMS）を要求したらキャンセルされてしまいました。digikey とかで見ると在庫は、EMS のほうが多いようで今はこれが主なラインナップということなんでしょう。</p>
-<p><img loading="lazy" title="degikey" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="degikey" src="/wp-content/uploads/2015/11/degikey.png" width="638" height="604"></p>
-<p>手半田でもいけるパッケージです。</p>
-<p><img loading="lazy" title="LT1945sample" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="LT1945sample" src="/wp-content/uploads/2015/11/lt1945sample.png" width="634" height="674"></p>
-<p>とはいっても、クリップとかと比較するとまぁ小さいですが。筒状のICケースに入って送られてきました。</p>
-<p><img loading="lazy" title="LT1945" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="LT1945" src="/wp-content/uploads/2015/11/lt1945.png" width="635" height="480"></p>
-<p>WiFi E-ink 用の電源回路に使う予定です。</p>
-<p>digikey とかだと、1個600円以上します。aliexpress で10個1600円くらい。2系統の電源を生成するICは要検討ですね。</p>
-<p>今のところ、この製品が+22V と –20V を生成する唯一の選択肢です。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

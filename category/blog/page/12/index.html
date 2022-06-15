@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -107,7 +108,80 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">カテゴリー: <span>Blog</span>
-</h1></header><article id="post-2098" class="post-2098 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
+</h1></header><article id="post-2153" class="post-2153 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/05/14/fan-e4bb98e38191e381a63e383b6e69c88e9818be794a8e381aee78ab6e6b381-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-05-14T08:37:04+09:00">2016年5月14日</time></a> </span><span class="posted-on">更新日:2016年5月14日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
+</div>
+<h1 class="entry-title"><a href="/2016/05/14/fan-e4bb98e38191e381a63e383b6e69c88e9818be794a8e381aee78ab6e6b381-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Fan 付けて3ヶ月運用の状況</a></h1></header><div class="entry-content">
+<p>ひさびさ更新です。ちょっと忙しくてサボってました。</p>
+<p>やっぱりブログ書かないと、生きてる感じがしないのでメリハリつけるために今日はリハビリ的なネタを書きます。</p>
+<p>&#160;</p>
+<p>Orange Pi PC や、one にファンを付けて夏場も乗り切れるようにしたのですが、温度の推移がどのようになっているかグラフをご紹介。</p>
+<p><img title="temp" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="temp" src="/wp-content/uploads/2016/05/temp.jpg" width="640" height="480"></p>
+<p>まだ、3D プリンタで筐体を作っていないのでむき出しで吊り下げています。</p>
+<p><img loading="lazy" title="h3_temp" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="h3_temp" src="/wp-content/uploads/2016/05/h3_temp.png" width="640" height="464"></p>
+<p>こちらは、munin で グラフ化している CPU 温度のグラフです。</p>
+<p>だいたい、40度くらいを推移しているようです。最近はあったかくなってきていますので、少し全体に上向き加減ですね。</p>
+<p>&#160;</p>
+<p>途中、空白なのはサーバが落ちている部分です。今のところ原因が不明です。</p>
+<p>直近で落ちている、5/8 の 16時過ぎあたりの sa の負荷は以下のようで、リソース過多ではなさそうな感じかも。10分置きなので瞬間的になにかリソースが食われているのかもですが。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Linux 3.4.39-01-lobo (OrangePi)         05/08/16        _armv7l_        (4 CPU)
+
+00:00:01        CPU      %usr     %nice      %sys   %iowait    %steal      %irq     %soft    %guest    %gnice     %idle
+::
+14:00:01        all     13.14      1.07      4.45      5.42      0.00      0.00      0.20      0.00      0.00     75.73
+14:10:02        all     13.18      1.14      4.32      6.51      0.00      0.00      0.27      0.00      0.00     74.59
+14:20:02        all     13.45      1.07      3.81      4.30      0.00      0.00      0.20      0.00      0.00     77.16
+14:30:01        all     13.59      1.05      3.36      3.20      0.00      0.00      0.20      0.00      0.00     78.60
+14:40:01        all     13.55      1.07      3.79      3.28      0.00      0.00      0.21      0.00      0.00     78.11
+14:50:02        all     13.46      1.07      3.93      3.59      0.00      0.00      0.21      0.00      0.00     77.74
+15:00:02        all     13.43      1.05      3.90      4.28      0.00      0.00      0.22      0.00      0.00     77.11
+15:10:02        all     13.08      1.19      4.46      8.91      0.00      0.00      0.23      0.00      0.00     72.13
+15:20:02        all     12.68      1.07      4.78     12.01      0.00      0.00      0.24      0.00      0.00     69.21
+15:30:02        all     12.87      1.07      5.07      9.51      0.00      0.00      0.24      0.00      0.00     71.25
+15:40:01        all     12.92      1.05      4.41      8.29      0.00      0.00      0.24      0.00      0.00     73.10
+15:50:02        all     12.13      0.96      4.05     12.31      0.00      0.00      0.23      0.00      0.00     70.31
+16:00:02        all     13.15      1.06      3.88      7.11      0.00      0.00      0.22      0.00      0.00     74.57
+16:10:02        all     13.19      1.13      3.83      6.74      0.00      0.00      0.21      0.00      0.00     74.90
+Average:        all     12.89      1.04      4.04      9.13      0.00      0.00      0.23      0.00      0.00     72.66</pre>
+<p>&#160;</p>
+<p>coredump させてみないと詳細は不明です。</p>
+<p>&#160;</p>
+<p>ということで、やりたいことの1/10 も出来ていない状況ですが、ぼちぼちと作業の記録でも付けていくことにします。</p>
+<p>Rasberry Pi も3 が出たようですし、Armbian の OS も Orange Pi PCと one のとが出ているようです。あれこれ試してみたいですね。</p>
+<p>&#160;</p>
+<p>※追記</p>
+<p>落ちる件ですが、messages に手がかりがあり、munin のセッションが systemd よりスタートされているログがたくさんありました。以下出始めた部分。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">May 14 06:34:26 OrangePi rsyslogd-2177: imjournal: 22634 messages lost due to rate-limiting
+Apr 27 07:00:01 OrangePi systemd: Cannot add dependency job for unit tmp.mount, ignoring: Unit tmp.mount is masked.
+Apr 27 07:00:01 OrangePi systemd: Started Session 9098 of user munin.
+Apr 27 07:00:01 OrangePi systemd: Starting Session 9098 of user munin.
+Apr 27 07:00:01 OrangePi systemd: Starting system activity accounting tool...
+Apr 27 07:00:01 OrangePi systemd: Started system activity accounting tool.
+::</pre>
+<p>systemd の munin のファイルを見ると、PrivateTmp というパラメータが true になっているようです。</p>
+<p>tmp がらみの問題かもしれないので、このパラメータをとりあえず無効にして様子見。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@opi 08:30:11 ~]# cat /usr/lib/systemd/system/munin-node.service 
+[Unit]
+Description=Munin Node Server.
+Documentation=man:munin-node
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/var/run/munin/munin-node.pid
+ExecStart=/usr/sbin/munin-node
+# PrivateTmp=true
+PrivateTmp=false
+Restart=always
+
+[Install]
+WantedBy=multi-user.target</pre>
+<p> ※ リロード忘れずに。</p>
+<p>&#160;</p>
+<p>あと、systemd のパッケージも dnf update systemd でアップデート。しばらくこれで様子見します。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-2098" class="post-2098 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/02/14/e6a5ade58b99e794a8e382b9e383bce38391e383bce381aee38387e382b6e383bce38388/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-02-14T18:02:18+09:00">2016年2月14日</time></a> </span><span class="posted-on">更新日:2016年2月14日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
 </div>
 <h1 class="entry-title"><a href="/2016/02/14/e6a5ade58b99e794a8e382b9e383bce38391e383bce381aee38387e382b6e383bce38388/" rel="bookmark noopener noreferrer" data-wpel-link="internal">業務用スーパーのデザート</a></h1></header><div class="entry-content">
@@ -115,7 +189,7 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p>家の近くにもあるので、早速ゲットしてきました。</p>
 <blockquote><p>【業務スーパー】激ウマ超コスパケーキが話題！ 体重140kgオーバーのライターもまとめ買いする実力とは？ <br><a title="http://mitok.info/?p=41046" href="http://mitok.info/?p=41046" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://mitok.info/?p=41046<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 <p>ネタ元によると、ショコラケーキの方がうまいらしいです。買いに行ったときは、最後の１つだったようでなんか人気なのかなと。とりあえず、1個づつゲット。約600円</p>
-<p><a href="/wp-content/uploads/2016/02/1.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/02/1_thumb.jpg" width="640" height="480"></a></p>
+<p><a href="/wp-content/uploads/2016/02/1.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/02/1_thumb.jpg" width="640" height="480"></a></p>
 <p>15分～30分くらい自然解凍してケースごと包丁で切り分け。説明書きでは、常温だと30分が目安とのこと。 <img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/02/2.jpg" width="640" height="480"></p>
 <p>本当にうまいのでしょうか？ <img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/02/3.jpg" width="640" height="480"> おやつタイムに、みんなで食べてみたところ、本当においしいです。</p>
 <p>好みもあるのでしょうが、どちらも濃厚です。軍配は、甲乙付け難く、リッチショコラケーキとリッチチーズケーキを両方セットで楽しむのが定番になりそう。</p>
@@ -239,11 +313,6 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <p> ＞電圧・電流を投げつけてグラフ化するデバイス</p>
 <p>・IoT デバイスからのデータを処理するため、RasPi2 にデータを投げてみる</p>
 </div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-938" class="post-938 post type-post status-publish format-standard has-post-thumbnail hentry category-blog"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/08/05/playing-larger-than-life-pong-on-a-nyc-storefront/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-08-05T22:34:34+09:00">2015年8月5日</time></a> </span><span class="posted-on">更新日:2015年8月5日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/08/05/playing-larger-than-life-pong-on-a-nyc-storefront/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Playing larger-than-life Pong on a NYC storefront</a></h1></header><div class="entry-content"><p>でっかいpong</p></div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
 <div class="nav-links">

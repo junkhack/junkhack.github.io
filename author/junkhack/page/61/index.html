@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,13 +71,112 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-1957" class="post-1957 post type-post status-publish format-standard hentry category-c category-osx category-qt"><div class="entry-wrapper">
+</h1></header><article id="post-1966" class="post-1966 post type-post status-publish format-standard hentry category-aliexpress category-c category-osx category-qt"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/31/sigrok-e381ae-pulsview-0-3-0-e58b95e3818de381bee38197e3819f/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-31T04:47:23+09:00">2015年12月31日</time></a> </span><span class="posted-on">更新日:2015年12月31日</span> <span class="categories"> <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/c/" rel="category tag noopener noreferrer" data-wpel-link="internal">C</a>, <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/qt/" rel="category tag noopener noreferrer" data-wpel-link="internal">QT</a></span>
+</div>
+<h1 class="entry-title"><a href="/2015/12/31/sigrok-e381ae-pulsview-0-3-0-e58b95e3818de381bee38197e3819f/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Sigrok の Pulsview 0.3.0 動きました</a></h1></header><div class="entry-content">
+<p>とりあえず、なんとか動かしたいのでソースをコードも見ましたが、特に問題となりそうな部分もなく、ちょっと場を離れてから、brew版のをサイド入れてみることに。とりあえず、動作させることができました。</p>
+<p>なんとか、今年中に出来たのですっきり。</p>
+<p>&#160;</p>
+<p>0.3.0-git-5d73886 では、以下のようにトリガーが設定できて楽になりました。Runを押せばトリガーがでるまで、stop して採取されます。サンプル数を設定しておけば、採取されて停止します。ロジックアナライザーとしては基本機能だと思いますが、手持ちのハードでなんとか動いてよかったです。</p>
+<p><img title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2015/12/3662338e426b.png" width="640" height="359"></p>
+<p>拡大すると、500ns とか取れています。1us 単位くらいまでは見れそうということがわかりました。</p>
+<p><img loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2015/12/d2bb6fa3e4a8.png" width="640" height="357"></p>
+<p>サンプルレートは、2MHz 以上あげるとどうしても採取後にクルクル回って、操作を受け付けないスタック状態のような感じになります。コマンドライン版でドライバを指定してみると、以下のようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sigrok-cli --show --driver fx2lafw
+Driver functions:
+    Logic analyzer
+Scan options:
+    conn
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+sr: fx2lafw: Failed to get manufacturer string descriptor: LIBUSB_ERROR_OTHER.
+fx2lafw:conn=28.2 - Saleae Logic with 8 channels: 0 1 2 3 4 5 6 7
+Supported configuration options:
+    continuous: 
+    limit_samples: 0 (current)
+    conn: 28.2 (current)
+    samplerate - supported samplerates:
+      20 kHz
+      25 kHz
+      50 kHz
+      100 kHz
+      200 kHz
+      250 kHz
+      500 kHz
+      1 MHz
+      2 MHz
+      3 MHz
+      4 MHz
+      6 MHz
+      8 MHz
+      12 MHz
+      16 MHz
+      24 MHz
+    Supported triggers: 0 1 r f e 
+    captureratio: 0 (current)</pre>
+<p>ここに出ているサンプリング周波数は採取できるはずなんですが、なぜか2MHz までしかとれません。</p>
+<p>まぁ、最初の一台ですし、これで勉強させてもらって、物足りなければまた考えることにします。</p>
+<p>&#160;</p>
+<p>automator でシェルスクリプトを実行するものを作り、アイコンをつけて、app 化します。</p>
+<p><img loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/12/61.png" width="632" height="480"></p>
+<p>python の環境変数を一度 unset して消去して、python3.4 とか3.x のをセットしてアプリをバックグランドで呼び出します。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">unset PYTHONPATH
+export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot;
+
+/usr/local/Cellar/pulseview/HEAD/bin/pulseview &gt;/dev/null 2&gt;&amp;1 &amp;</pre>
+<p>&#160;</p>
+<p>配布用にするには、ライブラリのパスを全部書き換えないといけないので、やめました。このあたりのスキルは、もう少し勉強しないと嵌りそうです。</p>
+<p><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/12/51.png" width="276" height="423"></p>
+<p>brew 版のインストールは、wiki に書いてあるとおりで以下のようです。</p>
+<blockquote>
+<p><a title="https://sigrok.org/wiki/Mac_OS_X" href="https://sigrok.org/wiki/Mac_OS_X" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://sigrok.org/wiki/Mac_OS_X<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>$ brew tap rene-dev/sigrok<br> <br>$ brew install python3</p>
+<p>$ brew install &#8211;HEAD libserialport</p>
+<p>$ brew install &#8211;HEAD &#8211;with-libserialport libsigrok</p>
+<p>$ brew install &#8211;HEAD libsigrokdecode</p>
+<p>$ brew install &#8211;HEAD &#8211;with-libserialport sigrok-cli</p>
+<p>$ brew install &#8211;HEAD pulseview</p>
+</blockquote>
+<p>ポイントとしては、マニュアルビルドしてソースから入れたものは一度、綺麗に消して、brew docter で問題をクリアにしてからやることと、以下の libsigrokdecode が２つ出てくるのでbrew のを無効にすることくらいです。</p>
+<p>$ brew install &#8211;HEAD libsigrokdecode<br> <br>Error: Formulae found in multiple taps:</p>
+<p> * homebrew/science/libsigrokdecode</p>
+<p> * rene-dev/sigrok/libsigrokdecode</p>
+<p>&#160;</p>
+<p>$ brew untap homebrew/science</p>
+<p>$ brew tap –repair</p>
+<p>$ brew update</p>
+<p>&#160;</p>
+<p>あと、ファームウェアの格納場所は、デフォルトで</p>
+<p>/usr/local/share/sigrok-firmware</p>
+<p>になるので、ここにディレクトリを作成し、最新のファームウェアを入れておきます。これで最初のデバイスを見つけてファームがなくエラーになるのを迂回できます。エラーでも、落ちはしませんが。前回落ちたのは別の原因で、QT 関連のライブラリのパスが書き換わっていないのが原因でした。ltool で見ると、/usr 配下となっていました。そのほかの原因もあったとは思いますが、ライブラリの依存関係でおそらくは、brew 版のを見に行っていたのかもしれません。まぁ、詳細は不明です。</p>
+<p>&#160;</p>
+<p>ということで、とりあえずは動いてよかったです。トリガーもかけられるようになったし、インターフェイスは少しよくなった感じ。ボタンの配置とか。</p>
+<p>&#160;</p>
+<p>▼まとめ</p>
+<p>・EZ-USB FX2LP CY7C68013A で、sigrok の pulsview は動作</p>
+<p>・このハードは実質6ドルくらいなので、ロジックアナライザーとして最初の一台で遊ぶには十分</p>
+<p>・0.3.0-git-f3697d3 は動作した</p>
+<p>・トリガーがかけられるようになった</p>
+<p>・少しインターフェイスがよくなった</p>
+<p>・2Mhz サンプリングまでは出来ることを確認</p>
+<p>・１チャンネル採取で500ns は採取できた。1us くらいが精度か？</p>
+<p>・8チャンネル同時採取はまだやっていない</p>
+<p>・ファームウェア格納場所は、/usr/local/share/sigrok-firmware</p>
+<p>・brew 版で HEAD で入れているので、時期によっては動作しない場合もあるかも</p>
+<p>・配布用に、ライブラリを書き換えるのはどうすれば楽になるのか？要研究</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-1957" class="post-1957 post type-post status-publish format-standard hentry category-c category-osx category-qt"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/30/sigrok-pulsview-e38292-osx-e381a7e38393e383abe38389e381abe68c91e688a6/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-30T05:04:41+09:00">2015年12月30日</time></a> </span><span class="posted-on">更新日:2015年12月30日</span> <span class="categories"> <a href="/category/c/" rel="category tag noopener noreferrer" data-wpel-link="internal">C</a>, <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a>, <a href="/category/qt/" rel="category tag noopener noreferrer" data-wpel-link="internal">QT</a></span>
 </div>
 <h1 class="entry-title"><a href="/2015/12/30/sigrok-pulsview-e38292-osx-e381a7e38393e383abe38389e381abe68c91e688a6/" rel="bookmark noopener noreferrer" data-wpel-link="internal">sigrok Pulsview を osx でビルドに挑戦</a></h1></header><div class="entry-content">
 <p>PulseView の 0.3.0-git-f3697d3 をビルドしてみました。</p>
 <p>結論から言えば、今のところ起動してすぐ落ちます。（涙）</p>
-<p><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162"></p>
+<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162"></p>
 <p>無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。about は見れました。</p>
 <p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.png" width="600" height="400"></p>
 <p>デバイスにもコネクトし、スキャンすれば出てきます。</p>
@@ -1252,97 +1352,6 @@ orangepi@OrangePI:~$ ps axu | grep [x]2go
 orangepi 24355 15.4  4.9 150072 50708 ?        S    20:57   0:57 /usr/lib/nx/../x2go/bin/x2goagent -extension XFIXES -nolisten tcp -nolisten tcp -dpi 72 -D -auth /home/orangepi/.Xauthority -geometry 1024x768 -name X2GO-orangepi-51-1450007864_stDMATE_dp32 :51
 orangepi 24438  0.0  0.0   4296   636 ?        Ss   20:57   0:00 /bin/bash /usr/bin/x2goruncommand 51 24355 orangepi-51-1450007864_stDMATE_dp32 30005 mate-session esd D
 orangepi@OrangePI:~$ </pre>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-1922" class="post-1922 post type-post status-publish format-standard hentry category-orangepipc"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2015/12/13/opi-e58299e5bf98e98cb2-kernel-update/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-13T20:24:30+09:00">2015年12月13日</time></a> </span><span class="posted-on">更新日:2015年12月13日</span> <span class="categories"> <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a></span>
-</div>
-<h1 class="entry-title"><a href="/2015/12/13/opi-e58299e5bf98e98cb2-kernel-update/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OPI 備忘録 Kernel UPdate</a></h1></header><div class="entry-content">
-<p>loboris さんのスクリプトで、kernel を3.4.39-01-lobo にあげたので備忘録。</p>
-<p>&#160;</p>
-<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">root@OrangePI:/usr/local/src# wget http://loboris.eu/update_kernel.sh
-root@OrangePI:/usr/local/src# chmod 755 update_kernel.sh 
-root@OrangePI:/usr/local/src# ./update_kernel.sh 
-
-Unpacking ...
-Files unpacked.
-==============================================
-Select the OrangePI board you want to upgrade:
-  1   OrangePI 2
-  2   OrangePI PLUS
-  3   OrangePI PC
-?  3
-Updating OrangePI PC
-
-===============================
-Select hdmi display resolution:
-  1   1080p 60Hz
-  2   1080p 50Hz
-  3    720p 60Hz
-  4    720p 50Hz
-?  1
-
-Selected 1080p 60Hz
-
-=====================================
-Do you have HDMI-&gt;DVI adapter, (y/N)?  N
-HDMI interface selected
-
-================
-CONTINUE, (y/N)?  y
-
-kernel, script.bin and /lib/modules updated, please REBOOT.
-AFTER REBOOT RUN:  sudo depmod -a
-===========================================================
-
-root@OrangePI:/usr/local/src# 
-
-★リブート後
-
-junkhack@OrangePI:~# sudo depmod -a
-
-root@OrangePI:/usr/local/src/UnixBench# ./Run -c 4
-========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
-
-   System: OrangePI: GNU/Linux
-   OS: GNU/Linux -- 3.4.39-01-lobo -- #1 SMP PREEMPT Sun Oct 25 14:46:41 CET 2015
-   Machine: armv7l (armv7l)
-   Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
-   19:49:11 up 3 min,  3 users,  load average: 0.38, 0.34, 0.15; runlevel 5
-
-------------------------------------------------------------------------
-Benchmark Run: Sun Dec 13 2015 19:49:11 - 20:17:47
-0 CPUs in system; running 4 parallel copies of tests
-
-Dhrystone 2 using register variables       18592638.3 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                     2982.9 MWIPS (10.6 s, 7 samples)
-Execl Throughput                               1728.9 lps   (29.4 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        159573.1 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks           44372.0 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks        435389.5 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             1057156.0 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                 102252.4 lps   (10.0 s, 7 samples)
-Process Creation                               5051.4 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   3683.5 lpm   (60.0 s, 2 samples)
-Shell Scripts (8 concurrent)                    495.0 lpm   (60.3 s, 2 samples)
-System Call Overhead                        2557956.5 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   18592638.3   1593.2
-Double-Precision Whetstone                       55.0       2982.9    542.3
-Execl Throughput                                 43.0       1728.9    402.1
-File Copy 1024 bufsize 2000 maxblocks          3960.0     159573.1    403.0
-File Copy 256 bufsize 500 maxblocks            1655.0      44372.0    268.1
-File Copy 4096 bufsize 8000 maxblocks          5800.0     435389.5    750.7
-Pipe Throughput                               12440.0    1057156.0    849.8
-Pipe-based Context Switching                   4000.0     102252.4    255.6
-Process Creation                                126.0       5051.4    400.9
-Shell Scripts (1 concurrent)                     42.4       3683.5    868.7
-Shell Scripts (8 concurrent)                      6.0        495.0    824.9
-System Call Overhead                          15000.0    2557956.5   1705.3
-                                                                   ========
-System Benchmarks Index Score                                         616.2</pre>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

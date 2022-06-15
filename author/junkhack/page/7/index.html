@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -71,7 +72,173 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-9827" class="post-9827 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
+</h1></header><article id="post-9841" class="post-9841 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/10/26/openwrt-dnsmasq/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-10-26T04:57:02+09:00">2020年10月26日</time><time class="updated" datetime="2020-10-26T04:57:07+09:00">2020年10月26日</time></a> </span><span class="posted-on">更新日:2020年10月26日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
+</div>
+<h1 class="entry-title"><a href="/2020/10/26/openwrt-dnsmasq/" rel="bookmark noopener noreferrer" data-wpel-link="internal">メルカリ８８０円のルータに組み込みLINUXのOpenWrtで内部DNSを動かす！</a></h1></header><div class="entry-content">
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>やっとPixel3に引っ越しできたよ！</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>おめでとー！　何をそんなに苦労してたの？</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>いやー、ローカルにDNSを立ち上げようとあれこれとね！</p></div></div></div></div>
+</div>
+</div></div></div>
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>結局、どうやってローカルDNS立ち上げたの？</p></div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+<p>ということで、今見ているこのWordPressブログはUMIDIGI F2から Google Pixel3のスマホに引っ越ししました！</p>
+<p>　一番嬉しいのは、ローカルからブログを書く時、もうVPNを繋げて書かなくてもよくなった点ですね！　今まではUターンNATの問題で内部ネットワークからはこのブログにアクセスできなかったのです。ブログ記事を書く時もVPN経由で外からアクセスしていたので、記事を書くのが少し面倒だったんです。今回は、Pixel3に引っ越ししてローカルDNSを立ち上げた事を記事にしようかなと思います。</p>
+<h3>ローカルDNSを立ち上げろ！</h3>
+<p>なぜローカルDNSを立ち上げる必要があったかは、このあたりを見ていただくとその経緯がわかるかなと思います。</p>
+<blockquote class="wp-block-quote">
+<p>ポートフォワードの経路で、Uターン NATとかヘアピンNATが使えないルータの場合のあれこれ</p>
+<cite>Link</cite>
+</blockquote>
+<p>ローカルにDNSを立ち上げれば、UターンNATがダメなルータを使っていても迂回した経路が作れます。そして、Termuxの1024以下ポートが使えない問題は、root化した Pixel3を使って回避しました。つまり、今動いているNGINXは、port80とport443で動作しています。こんな感じ！</p>
+<pre class="wp-block-code"><code># ps axu | grep nginx
+root     12762  0.0  0.0 10868580 2144 ?       Ss   02:14   0:00 nginx: master process nginx
+u0_a218  12763  0.0  0.1 10869584 3912 ?       S    02:14   0:00 nginx: worker process
+::
+u0_a218  12771  0.0  0.0 10868708 2312 ?       S    02:14   0:00 nginx: cache manager process
+
+# netstat -an | egrep ':80 |:443 ' | grep LISTEN
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN  </code></pre>
+<p>当初は、このroot化したPixel3にDNSを起動させる予定だったんですが、思いの外うまく動かなくて結局、安いルータをメルカリでゲットしました。なんとお値段、送料込み８８０円！</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img width="640" height="480" src="/wp-content/uploads/2020/10/12dh9400001w5a9w.jpg" alt="" class="wp-image-9846"><figcaption>I-O DATA WN-AC1167GR</figcaption></figure></div>
+<blockquote class="wp-block-quote">
+<p>11ac対応867Mbps（規格値）Wi-Fiルーター<br>WN-AC1167GR</p>
+<cite><a href="https://www.iodata.jp/product/network/wnlan/wn-ac1167gr/index.htm" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.iodata.jp/product/network/wnlan/wn-ac1167gr/index.htm<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+<p>このルータに、OpenWrtというオープンソースな組み込み用Linuxがあって、このI-Oデータのルータにも適合したファームウェアがあります。これを使って、dnsmasqというDNSが使えるので、ローカルDNSとして活用してみました。</p>
+<h3>I-O DATA WN-AC1167GRにOpenWrtを！</h3>
+<p>まずは、OpenWrtを入れます。このファームウェアは以下にあります。</p>
+<blockquote class="wp-block-quote">
+<p>OpenWrt Project　Techdata: I-O Data WN-AC1167GR</p>
+<cite><a rel="noreferrer noopener external" href="https://openwrt.org/toh/hwdata/i-o_data/i-o_data_wn-ac1167gr" target="_blank" data-wpel-link="external" class="wpel-icon-right">https://openwrt.org/toh/hwdata/i-o_data/i-o_data_wn-ac1167gr<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+<p>Firmware OpenWrt Install URL　から、ファクトリーイメージがあるので、これを純正のファームウェアアップデートから書き込みするだけです。LANポートは、デフォルトで192.168.1.1/24　のネットワークになっていてDHCPサーバも動いています。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="641" height="703" src="/wp-content/uploads/2020/10/OpenWrt.png" alt="" class="wp-image-9847"></figure></div>
+<p>このCPUは、MediaTek MT7620Aが載っているようですね。32bitのarmで1coreのようです。</p>
+<blockquote class="wp-block-quote">
+<p>MediaTek　<strong>MT7620N/A</strong></p>
+<cite><a href="https://www.mediatek.jp/products/mt7620n-a" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.mediatek.jp/products/mt7620n-a<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+<p>詳細な設定は、省きますがLAN側のネットワークに上位ルーター側で使っているネットワークを割り振っているだけです。DHCPはこのルータでは止めてあります。WAN側の青いLANは使っていません。FireWallも全部外してあります。うまく設定すれば、WAN側とLAN側をブリッジさせて同一ネットワークで使うこともできると思いますが、なぜかうまくいかず結局、シンプルな設定にしました。</p>
+<p>　あと、とりあえず、いろいろ試して5Ghz帯の無線LANは安定しなかったので、２GHZの無線LANにしています。何か設定の勘所があるのかもですが、ちょっと追うのはヤメておきます。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="655" height="266" src="/wp-content/uploads/2020/10/OpenWrt-1.png" alt="" class="wp-image-9848"></figure></div>
+<p>このようにインターフェイスはLAN側のポートだけ使って、あとは無線LANの設定をLANに紐づけているだけです。いわゆるブリッジ接続（アクセスポイント的な）で使っている感じですね。</p>
+<h3>OpenWrtで、DNSMASQの設定を！</h3>
+<p>OpenWrtルータは、SSHも出来ますのでログインしてdnsmasqがどの設定ファイルを見ているか確認してみます。管理画面からも設定はできるんですが、どの設定項目がどのパラメータなのかわかりにくいので、直接設定ファイルを見てみました。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="473" height="394" src="/wp-content/uploads/2020/10/root_OpenWrt.png" alt="" class="wp-image-9849"></figure></div>
+<p>psコマンドは、BusyBoxのやつを使っているようですね。オプションは効きませんでした。こんな感じでdnsmasqの起動オプションを確認。</p>
+<pre class="wp-block-code"><code>root@OpenWrt:~# ps | grep dnsmasq
+  847 dnsmasq   1344 S    /usr/sbin/dnsmasq -C /var/etc/dnsmasq.conf.cfg01411c -k -x /var/run/dnsmasq/dnsmasq.cfg01411c.pid</code></pre>
+<p>-C オプションが設定ファイルです。このファイルの中は、こんな感じです。</p>
+<pre class="wp-block-code"><code># auto-generated config file from /etc/config/dhcp
+conf-file=/etc/dnsmasq.conf
+filterwin2k
+no-negcache
+strict-order
+localise-queries
+read-ethers
+enable-ubus
+expand-hosts
+bind-dynamic
+quiet-dhcp
+domain=gpl.jp
+server=/gpl.jp/
+server=8.8.8.8
+server=192.168.1.1
+dhcp-leasefile=/tmp/dhcp.leases
+resolv-file=/etc/resolv.conf
+stop-dns-rebind
+rebind-localhost-ok
+dhcp-broadcast=tag:needs-broadcast
+addn-hosts=/tmp/hosts
+conf-dir=/tmp/dnsmasq.d
+user=dnsmasq
+group=dnsmasq
+
+
+dhcp-ignore-names=tag:dhcp_bogus_hostname
+conf-file=/usr/share/dnsmasq/dhcpbogushostname.conf
+
+
+bogus-priv
+conf-file=/usr/share/dnsmasq/rfc6761.conf</code></pre>
+<p>あとは、hostsの内容はWEB GUI画面から管理できます。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="655" height="275" src="/wp-content/uploads/2020/10/OpenWrt-2.png" alt="" class="wp-image-9850"></figure></div>
+<p>リモートのmacから、digで確認してみます。</p>
+<pre class="wp-block-code"><code>$ dig @192.168.1.100 hack.gpl.jp
+
+; &lt;&lt;>> DiG 9.10.6 &lt;&lt;>> @192.168.1.100 hack.gpl.jp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 2575
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;hack.gpl.jp.			IN	A
+
+;; ANSWER SECTION:
+hack.gpl.jp.		0	IN	A	192.168.1.47
+
+;; Query time: 0 msec
+;; SERVER: 192.168.1.100#53(192.168.1.100)
+;; WHEN: Mon Oct 26 03:55:29 JST 2020
+;; MSG SIZE  rcvd: 56</code></pre>
+<p>管理外のドメインも引いてくれるか確認しておきます。なんとか大丈夫そうなので、設定はよしとします。ハマった点としては５Ghz帯の無線LANだとどうしても、接続が切れてしまうようでした。何か、設定があるのかもですが解決できなかったので2Ghz帯のにしています。無線LANとスマホは近くに置いてあるのでまぁ実質問題ないでしょう。Pixel3からスピードテストすると以下のようです。</p>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="357" height="313" src="/wp-content/uploads/2020/10/speedtest.png" alt="" class="wp-image-9851"></figure></div>
+<p>監視サイトからの読み込みも　２秒くらいなのでまぁ良いかなと。</p>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<p>・OpenWrtは、iptablesも設定できるようなのでうまく応用すればいろいろ使えそう<br>・今回は、5Ghzの無線LANは通信が切れてしまう現象が起きた<br>・なので、2Ghzの無線LANで運用することに<br>・DNSMASQは、それなりに動いているようだ<br>・無線LANの機器なので消費電力は5Wくらい。省電力<br>・違う無線LAN配下からは、pingが通らない。これはなぜか？<br>・上位ルータからはPingは通る<br>・引っ越ししたroot化したpixel3は今の所、調子良さそう</p>
+<h3>あとがき</h3>
+<p>無線LANがぶつぶつ切れて、設定がぜんぜん進まず、どうしようかと思ったんですが2Ghzにしてなんとか安定しているように見えます。組み込みのLinuxと無線LANドライバーは、弄れる知識がないのでいつかチャレンジしてみようとは思いますが、今はもうお腹いっぱいです。設定疲れました！でも、なんとか当初の目標がクリアできてよかったです。たかが、内部DNSですが、消費電力が少なくて今のところ便利に使えています。あとは、そのくらい安定して動作するか検証ですね。</p>
+<h3>著者にメッセージ</h3>
+<p>コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-9827" class="post-9827 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/10/22/d-j-b-daemontools-termux/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-10-22T17:33:26+09:00">2020年10月22日</time><time class="updated" datetime="2020-10-22T17:33:39+09:00">2020年10月22日</time></a> </span><span class="posted-on">更新日:2020年10月22日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
 </div>
 <h1 class="entry-title"><a href="/2020/10/22/d-j-b-daemontools-termux/" rel="bookmark noopener noreferrer" data-wpel-link="internal">D.J.BツールのdaemontoolsをTermuxで動かしてみたよ！</a></h1></header><div class="entry-content">
@@ -316,7 +483,7 @@ $ unlink crond</code></pre>
 <cite><a href="https://www.yamareco.com/modules/yamanote/detail.php?nid=1497" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.yamareco.com/modules/yamanote/detail.php?nid=1497<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
 </blockquote>
 <p>先人がやはりいました。この方は冷凍して実験したようです。人柱ですね！なので、冷蔵庫くらいでは問題なさそうなんじゃないかと思います。</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="1024" height="768" src="/wp-content/uploads/2020/10/IMG_20201008_131649-1024x768.jpg" alt="" class="wp-image-9818" srcset="/wp-content/uploads/2020/10/IMG_20201008_131649-1024x768.jpg 1024w, /wp-content/uploads/2020/10/IMG_20201008_131649-768x576.jpg 768w, /wp-content/uploads/2020/10/IMG_20201008_131649-1536x1151.jpg 1536w, /wp-content/uploads/2020/10/IMG_20201008_131649-2048x1535.jpg 2048w, /wp-content/uploads/2020/10/IMG_20201008_131649-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px"></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="768" src="/wp-content/uploads/2020/10/IMG_20201008_131649-1024x768.jpg" alt="" class="wp-image-9818" srcset="/wp-content/uploads/2020/10/IMG_20201008_131649-1024x768.jpg 1024w, /wp-content/uploads/2020/10/IMG_20201008_131649-768x576.jpg 768w, /wp-content/uploads/2020/10/IMG_20201008_131649-1536x1151.jpg 1536w, /wp-content/uploads/2020/10/IMG_20201008_131649-2048x1535.jpg 2048w, /wp-content/uploads/2020/10/IMG_20201008_131649-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px"></figure></div>
 <p>スマホはこんな感じで冷蔵庫に入っています。猫カンがあるのは突っ込まないでね！　まず、結果からご報告です。</p>
 <p>・Pixel3 Android11　冷蔵庫に入れて計測</p>
 <blockquote class="wp-block-quote"><p>シングル：583.3<br>8CPU：1833.7</p></blockquote>
@@ -1125,362 +1292,6 @@ Finished. Total time: 1.855s</code></pre>
 <h3>著者にメッセージ</h3>
 <p>コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 <p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-9748" class="post-9748 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-linux category-wordpress"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2020/10/03/termux-pixel3-unixbench/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-10-03T04:30:36+09:00">2020年10月3日</time><time class="updated" datetime="2020-10-07T06:54:46+09:00">2020年10月7日</time></a> </span><span class="posted-on">更新日:2020年10月7日</span> <span class="categories"> <a href="/category/android/" rel="category tag noopener noreferrer" data-wpel-link="internal">Android</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>
-</div>
-<h1 class="entry-title"><a href="/2020/10/03/termux-pixel3-unixbench/" rel="bookmark noopener noreferrer" data-wpel-link="internal">備忘録：Termuxで、Pixel3のUnixBench</a></h1></header><div class="entry-content">
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>Pixel3が来たんでUnixBenchとっておきます！</p></div></div></div></div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>あ〜、<s>ごみ</s>ジャンクなPixel3が到着したのね！</p></div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>・・・いちいち、ジャンク〜と言うのね！w</p></div></div></div></div>
-</div>
-</div></div></div>
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div"><p>ごみ、よりいいでしょ？w</p></div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div"> <img src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-<p>はい、ジャンクなPixel3が到着しました。メルカリは面白いですね。値下げ文化みたいなのがあって、売り手と買い手のせめぎ合いです。今回、自分はそういうのには参加せず、8500円まで値下げされていた状態で発見しました。さらに、買い手が7500円でどうか？と打診中に、8500円でゲットしたという感じです。ヤフオクはそういうのがないので、なんか新鮮に感じましたが、売り手は慣れないと「まーた、値下げかよ！」みたいな感じになるのかなと。Pixel３は発売価格9．５万円ですからね！</p>
-<h3>なぜ、今頃Pixel3なんかゲットしたの？</h3>
-<p>え〜っとw。目的は root化した状態の termux で遊びたかったからです。UmidigiF2はこのブログが動作しているので、あれこれできないのです。</p>
-<p>で、どうせなら、Umidigi F2 よりも速そうで Androidリファレンス機のPixelシリーズが良いな！　という感じです。Pixelという機種は、知らない人もいるかもしれませんが Google から発売されている機種で、AndroidOSの最新版が最初にリリースされます。つい最近も、Android11がリリースされましたよね！なので、いち早くandroidOSの最新にアップデートできます。</p>
-<h3>アプリ開発者とPixel</h3>
-<p>　アプリ開発者は、1年に1回9月ごろにAndroidOSのアップデートがあるので、情報調査など春頃から準備しています。9月には新しいOSが出るから、それにアプリを対応させるんです。これは慣例作業なので、大概アプリ開発やってる人や会社は、Pixelシリーズを持っています。iOSもこの時期にOSアップデートがあり、アプリ開発者は新年度〜秋にかけて大忙しです。iosとandroidの両方のアプリが扱っているので結構大変ですが、一番面白い時期でもあります。</p>
-<p>　また、秋〜春にかけては新しいOSが実装した新機能にアプリをどう対応させるのか、またその機能を実装するのか？など様々な検討が繰り広げられています。つまり、1年中あれこれやることが嫌でもあるわけです。</p>
-<h3>まずはAntutu8 でベンチマーク</h3>
-<p>Antutuの情報はたくさんあるんですが、意図的にPixel3で OS10とOS11でベンチマークした結果はほぼ無いと思うので、載せておきます。なお、Antutuは何も意識しないと常駐するのでOS初期化後に入れて計測したら速攻、消したほうがいいです。そのうち、この指標も違うものがスタンダードになると思うのですが、今は antutuスコアがピンときますよね。</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="796" height="741" src="/wp-content/uploads/2020/10/antutu_bench.png" alt="" class="wp-image-9750" srcset="/wp-content/uploads/2020/10/antutu_bench.png 796w, /wp-content/uploads/2020/10/antutu_bench-768x715.png 768w" sizes="(max-width: 796px) 100vw, 796px"></figure></div>
-<p>約、２５マン〜２７マンで今ではミドルクラスの上位というスコアです。計測の誤差なのか、少しAndroid11で計測したときの方が速くなっていますね。Kernel周りの影響か、チューニングを変えて来たのかそのあたりは不明です。</p>
-<p>計測時のKernelバージョンは以下となります。</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="791" height="735" src="/wp-content/uploads/2020/10/pixel10-11.png" alt="" class="wp-image-9751" srcset="/wp-content/uploads/2020/10/pixel10-11.png 791w, /wp-content/uploads/2020/10/pixel10-11-768x714.png 768w" sizes="(max-width: 791px) 100vw, 791px"></figure></div>
-<h3>Termux入れて、設定</h3>
-<p>termuxを入れて、アプリが良い状態で動作するよう以下の設定をやっておきます。</p>
-<p>・Wakelockを有効にしておく。</p>
-<p>画面右の状態にしておきます。wakelockとは何か知りたい人は以下を参照してね。Termuxは、wakelockしておくか、しないか選択できるようになっています。</p>
-<blockquote class="wp-block-quote">
-<p>デバイスの起動状態を維持する</p>
-<cite><a href="https://developer.android.com/training/scheduling/wakelock?hl=ja" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://developer.android.com/training/scheduling/wakelock?hl=ja<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
-</blockquote>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="794" height="739" src="/wp-content/uploads/2020/10/8.png" alt="" class="wp-image-9752" srcset="/wp-content/uploads/2020/10/8.png 794w, /wp-content/uploads/2020/10/8-768x715.png 768w" sizes="(max-width: 794px) 100vw, 794px"></figure></div>
-<p>・電池の最適化をしない　設定にしておく</p>
-<p>この表現、紛らわしいですよね！　つまり、標準ではシステム関連のプリイン・アプリの一部以外、つまりストアから入れたアプリは、最適化していて電池消費を抑える仕組みです。これを意図的に、「最適化しない」状態にしておきます。</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="430" height="864" src="/wp-content/uploads/2020/10/7.png" alt="" class="wp-image-9753"></figure></div>
-<h3>UnixBenchiを計測！</h3>
-<p>結果から。どちらも1回限りの結果ですので計測誤差の範囲かと思います。</p>
-<p>・Pixel3 Android10の場合<br>　CPU：Snapdragon 845<br>　Hardware : Qualcomm Technologies, Inc SDM845</p>
-<blockquote class="wp-block-quote"><p>シングル：546.9<br>8CPU：1396.4</p></blockquote>
-<p>・Pixel3 Android11の場合</p>
-<blockquote class="wp-block-quote"><p>シングル：520.0<br>8CPU：1343.3</p></blockquote>
-<p>・Pixel3 Android11　<strong>再計測</strong></p>
-<blockquote class="wp-block-quote"><p>シングル：590.1<br>8CPU：1732.6</p></blockquote>
-<p>UmidigiF2や、Redmi Note 9S より速いですね。比較のため、スコアを載せておきます。</p>
-<p>・UmidigiF2 Android10の場合<br>　CPU MediaTek Helio P70<br>　Hardware : MT6771V/CT</p>
-<blockquote class="wp-block-quote"><p>シングルCPU・・・スコア406.2<br>8CPU・・・・・・スコア1312.3</p></blockquote>
-<p>・Redmi Note 9S Android10の場合<br>　CPU:Qualcomm&nbsp;Snapdragon 720G<br>　Hardware : Qualcomm Technologies, Inc SM7125</p>
-<blockquote class="wp-block-quote"><p>シングルCPU・・・スコア571.9<br>8CPU・・・・・・スコア1127.1</p></blockquote>
-<p>詳細は以下に載せておきます。インストール方法は、以下参照してね。</p>
-<blockquote class="wp-block-quote"><p><a href="/2020/08/29/%e8%a1%9d%e6%92%83%e4%be%a1%e6%a0%bc7500%e5%86%86%e3%81%a7%e3%82%b2%e3%83%83%e3%83%88%e3%81%97%e3%81%9fredmi-note-9s%e3%81%ablinux%e5%85%a5%e3%82%8c%e3%81%a6unixbench%e3%82%92%e8%a8%88%e6%b8%ac/" data-type="post" data-id="5786" data-wpel-link="internal" rel="noopener noreferrer">衝撃価格7500円でゲットしたRedmi Note 9SにLinux入れてUnixBenchを計測</a></p></blockquote>
-<p>・Android10の場合</p>
-<pre class="wp-block-code"><code>$ cat /proc/cpuinfo | head
-Processor	: AArch64 Processor rev 13 (aarch64)
-processor	: 0
-BogoMIPS	: 38.00
-Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp
-CPU implementer	: 0x51
-CPU architecture: 8
-CPU variant	: 0x7
-CPU part	: 0x803
-CPU revision	: 12
-
-========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
-
-   System: localhost: Android
-   OS: Android -- 4.9.210-g28c696160049-ab6386370 -- #0 SMP PREEMPT Fri Apr 10 23:00:22 UTC 2020
-   Machine: aarch64 (unknown)
-   Language: en_US.utf8 (charmap=, collate=)
-   13:25:54 up  1:07,  load average: 6.94, 6.06, 4.72; runlevel 
-
-------------------------------------------------------------------------
-Benchmark Run: Fri Oct 02 2020 13:25:54 - 13:54:01
-8 CPUs in system; running 1 parallel copy of tests
-
-Dhrystone 2 using register variables       29151129.2 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                     6277.5 MWIPS (9.9 s, 7 samples)
-Execl Throughput                                308.0 lps   (29.9 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        425891.2 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          167742.2 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       1012005.2 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             1057618.2 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                  49668.9 lps   (10.0 s, 7 samples)
-Process Creation                               1233.6 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   1388.6 lpm   (60.0 s, 2 samples)
-Shell Scripts (8 concurrent)                    478.6 lpm   (60.1 s, 2 samples)
-System Call Overhead                        1024417.8 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   29151129.2   2498.0
-Double-Precision Whetstone                       55.0       6277.5   1141.4
-Execl Throughput                                 43.0        308.0     71.6
-File Copy 1024 bufsize 2000 maxblocks          3960.0     425891.2   1075.5
-File Copy 256 bufsize 500 maxblocks            1655.0     167742.2   1013.5
-File Copy 4096 bufsize 8000 maxblocks          5800.0    1012005.2   1744.8
-Pipe Throughput                               12440.0    1057618.2    850.2
-Pipe-based Context Switching                   4000.0      49668.9    124.2
-Process Creation                                126.0       1233.6     97.9
-Shell Scripts (1 concurrent)                     42.4       1388.6    327.5
-Shell Scripts (8 concurrent)                      6.0        478.6    797.7
-System Call Overhead                          15000.0    1024417.8    682.9
-                                                                   ========
-System Benchmarks Index Score                                         546.9
-
-------------------------------------------------------------------------
-Benchmark Run: Fri Oct 02 2020 13:54:01 - 14:22:44
-8 CPUs in system; running 8 parallel copies of tests
-
-Dhrystone 2 using register variables       91224897.9 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                    23800.2 MWIPS (9.6 s, 7 samples)
-Execl Throughput                               1057.6 lps   (29.6 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        401385.2 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          139250.6 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       1389559.4 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             3891494.8 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                 249526.0 lps   (10.0 s, 7 samples)
-Process Creation                              11033.1 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   4638.3 lpm   (60.1 s, 2 samples)
-Shell Scripts (8 concurrent)                    475.1 lpm   (60.7 s, 2 samples)
-System Call Overhead                        3275443.3 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   91224897.9   7817.0
-Double-Precision Whetstone                       55.0      23800.2   4327.3
-Execl Throughput                                 43.0       1057.6    246.0
-File Copy 1024 bufsize 2000 maxblocks          3960.0     401385.2   1013.6
-File Copy 256 bufsize 500 maxblocks            1655.0     139250.6    841.4
-File Copy 4096 bufsize 8000 maxblocks          5800.0    1389559.4   2395.8
-Pipe Throughput                               12440.0    3891494.8   3128.2
-Pipe-based Context Switching                   4000.0     249526.0    623.8
-Process Creation                                126.0      11033.1    875.6
-Shell Scripts (1 concurrent)                     42.4       4638.3   1093.9
-Shell Scripts (8 concurrent)                      6.0        475.1    791.9
-System Call Overhead                          15000.0    3275443.3   2183.6
-                                                                   ========
-System Benchmarks Index Score                                        1396.4</code></pre>
-<p>・Android11の場合</p>
-<pre class="wp-block-code"><code>========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
-
-   System: localhost: Android
-   OS: Android -- 4.9.223-g5bded8e40b62-ab6647920 -- #0 SMP PREEMPT Thu Jul 2 03:22:48 UTC 2020
-   Machine: aarch64 (unknown)
-   Language: en_US.utf8 (charmap=, collate=)
-   19:02:02 up 18 min,  load average: 2.42, 2.89, 2.08; runlevel 
-
-------------------------------------------------------------------------
-Benchmark Run: Fri Oct 02 2020 19:02:02 - 19:30:09
-8 CPUs in system; running 1 parallel copy of tests
-
-Dhrystone 2 using register variables       27896830.6 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                     6039.7 MWIPS (10.0 s, 7 samples)
-Execl Throughput                                281.0 lps   (29.6 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        401241.9 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          139431.4 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       1020201.2 KBps  (30.0 s, 2 samples)
-Pipe Throughput                              826721.2 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                  48668.2 lps   (10.0 s, 7 samples)
-Process Creation                               1540.1 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   1008.3 lpm   (60.0 s, 2 samples)
-Shell Scripts (8 concurrent)                    514.6 lpm   (60.1 s, 2 samples)
-System Call Overhead                        1128058.3 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   27896830.6   2390.5
-Double-Precision Whetstone                       55.0       6039.7   1098.1
-Execl Throughput                                 43.0        281.0     65.4
-File Copy 1024 bufsize 2000 maxblocks          3960.0     401241.9   1013.2
-File Copy 256 bufsize 500 maxblocks            1655.0     139431.4    842.5
-File Copy 4096 bufsize 8000 maxblocks          5800.0    1020201.2   1759.0
-Pipe Throughput                               12440.0     826721.2    664.6
-Pipe-based Context Switching                   4000.0      48668.2    121.7
-Process Creation                                126.0       1540.1    122.2
-Shell Scripts (1 concurrent)                     42.4       1008.3    237.8
-Shell Scripts (8 concurrent)                      6.0        514.6    857.6
-System Call Overhead                          15000.0    1128058.3    752.0
-                                                                   ========
-System Benchmarks Index Score                                         520.0
-
-------------------------------------------------------------------------
-Benchmark Run: Fri Oct 02 2020 19:30:09 - 19:58:33
-8 CPUs in system; running 8 parallel copies of tests
-
-Dhrystone 2 using register variables       95077365.5 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                    24278.9 MWIPS (10.0 s, 7 samples)
-Execl Throughput                               1177.7 lps   (30.0 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        428589.2 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          124505.1 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       1293287.0 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             3825103.0 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                 299481.8 lps   (10.0 s, 7 samples)
-Process Creation                              10720.9 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   3892.1 lpm   (60.1 s, 2 samples)
-Shell Scripts (8 concurrent)                    386.7 lpm   (60.7 s, 2 samples)
-System Call Overhead                        2499234.1 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   95077365.5   8147.2
-Double-Precision Whetstone                       55.0      24278.9   4414.3
-Execl Throughput                                 43.0       1177.7    273.9
-File Copy 1024 bufsize 2000 maxblocks          3960.0     428589.2   1082.3
-File Copy 256 bufsize 500 maxblocks            1655.0     124505.1    752.3
-File Copy 4096 bufsize 8000 maxblocks          5800.0    1293287.0   2229.8
-Pipe Throughput                               12440.0    3825103.0   3074.8
-Pipe-based Context Switching                   4000.0     299481.8    748.7
-Process Creation                                126.0      10720.9    850.9
-Shell Scripts (1 concurrent)                     42.4       3892.1    917.9
-Shell Scripts (8 concurrent)                      6.0        386.7    644.6
-System Call Overhead                          15000.0    2499234.1   1666.2
-                                                                   ========
-System Benchmarks Index Score                                        1343.3</code></pre>
-<h3>追記：10/07</h3>
-<p>再度、ベンチマーク測っていたらもっと良いスコアが出た。気温とか関係あるのかな？　室温24度でちょっと肌寒くなってきたときに計測したもの。</p>
-<p>・Pixel3 Android11　再計測</p>
-<blockquote class="wp-block-quote"><p>シングル：590.1<br>8CPU：1732.6</p></blockquote>
-<p>この時、CPUのクロックは以下となっていました。6881と、1766400と、2803200</p>
-<pre class="wp-block-code"><code># cat /sys/devices/platform/soc/soc:qcom,mincpubw/devfreq/soc:qcom,mincpubw/cur_freq
-6881
-# cat  /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq
-1766400
-# cat  /sys/devices/system/cpu/cpufreq/policy/cpuinfo_cur_freq
-policy0/ policy4/ 
-# cat  /sys/devices/system/cpu/cpufreq/policy4/cpuinfo_cur_freq
-2803200</code></pre>
-<p>平常時には、この値は以下。762と、748800と、825600</p>
-<pre class="wp-block-code"><code># cat /sys/devices/platform/soc/soc:qcom,mincpubw/devfreq/soc:qcom,mincpubw/cur_freq
-762
-# cat  /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_cur_freq
-748800
-# cat  /sys/devices/system/cpu/cpufreq/policy4/cpuinfo_cur_freq
-825600</code></pre>
-<p>これが、良い値が出た時です。計測誤差の範囲を超えているのでメモっておきます。冷蔵庫とか冷凍庫とかに入れて計測したらもう少しよくなるのかも。</p>
-<pre class="wp-block-code"><code>========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
-
-   System: localhost: Android
-   OS: Android -- 4.9.223-g5bded8e40b62-ab6647920 -- #0 SMP PREEMPT Thu Jul 2 03:22:48 UTC 2020
-   Machine: aarch64 (unknown)
-   Language: en_US.utf8 (charmap=, collate=)
-   05:38:19 up 2 days, 19:49,  load average: 0.50, 0.43, 0.44; runlevel 
-
-------------------------------------------------------------------------
-Benchmark Run: Wed Oct 07 2020 05:38:19 - 06:06:26
-8 CPUs in system; running 1 parallel copy of tests
-
-Dhrystone 2 using register variables       29316819.1 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                     6350.0 MWIPS (10.0 s, 7 samples)
-Execl Throughput                                364.2 lps   (29.9 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        442024.5 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          190751.4 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       1076696.0 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             1154520.1 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                  56229.7 lps   (10.0 s, 7 samples)
-Process Creation                               1221.6 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   1494.6 lpm   (60.0 s, 2 samples)
-Shell Scripts (8 concurrent)                    519.6 lpm   (60.1 s, 2 samples)
-System Call Overhead                        1181160.9 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0   29316819.1   2512.2
-Double-Precision Whetstone                       55.0       6350.0   1154.6
-Execl Throughput                                 43.0        364.2     84.7
-File Copy 1024 bufsize 2000 maxblocks          3960.0     442024.5   1116.2
-File Copy 256 bufsize 500 maxblocks            1655.0     190751.4   1152.6
-File Copy 4096 bufsize 8000 maxblocks          5800.0    1076696.0   1856.4
-Pipe Throughput                               12440.0    1154520.1    928.1
-Pipe-based Context Switching                   4000.0      56229.7    140.6
-Process Creation                                126.0       1221.6     97.0
-Shell Scripts (1 concurrent)                     42.4       1494.6    352.5
-Shell Scripts (8 concurrent)                      6.0        519.6    866.0
-System Call Overhead                          15000.0    1181160.9    787.4
-                                                                   ========
-System Benchmarks Index Score                                         590.1
-
-------------------------------------------------------------------------
-Benchmark Run: Wed Oct 07 2020 06:06:26 - 06:34:46
-8 CPUs in system; running 8 parallel copies of tests
-
-Dhrystone 2 using register variables      117327891.2 lps   (10.0 s, 7 samples)
-Double-Precision Whetstone                    31178.6 MWIPS (10.1 s, 7 samples)
-Execl Throughput                               1466.5 lps   (29.8 s, 2 samples)
-File Copy 1024 bufsize 2000 maxblocks        667533.5 KBps  (30.0 s, 2 samples)
-File Copy 256 bufsize 500 maxblocks          204691.5 KBps  (30.0 s, 2 samples)
-File Copy 4096 bufsize 8000 maxblocks       1852436.2 KBps  (30.0 s, 2 samples)
-Pipe Throughput                             5170382.3 lps   (10.0 s, 7 samples)
-Pipe-based Context Switching                 181908.1 lps   (10.0 s, 7 samples)
-Process Creation                              12532.5 lps   (30.0 s, 2 samples)
-Shell Scripts (1 concurrent)                   5742.0 lpm   (60.1 s, 2 samples)
-Shell Scripts (8 concurrent)                    734.3 lpm   (60.2 s, 2 samples)
-System Call Overhead                        2722146.3 lps   (10.0 s, 7 samples)
-
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
-Dhrystone 2 using register variables         116700.0  117327891.2  10053.8
-Double-Precision Whetstone                       55.0      31178.6   5668.8
-Execl Throughput                                 43.0       1466.5    341.0
-File Copy 1024 bufsize 2000 maxblocks          3960.0     667533.5   1685.7
-File Copy 256 bufsize 500 maxblocks            1655.0     204691.5   1236.8
-File Copy 4096 bufsize 8000 maxblocks          5800.0    1852436.2   3193.9
-Pipe Throughput                               12440.0    5170382.3   4156.3
-Pipe-based Context Switching                   4000.0     181908.1    454.8
-Process Creation                                126.0      12532.5    994.6
-Shell Scripts (1 concurrent)                     42.4       5742.0   1354.2
-Shell Scripts (8 concurrent)                      6.0        734.3   1223.8
-System Call Overhead                          15000.0    2722146.3   1814.8
-                                                                   ========
-System Benchmarks Index Score                                        1732.6</code></pre>
-<h3>まとめ</h3>
-<p>まとめるほどの記事ではないですが、要点を書いておきます。</p>
-<p>・Pixel3は、シングル約550、マルチ8coreで1400くらいのUnixBenchスコア<br>・手持ちのスマホの中では一番速い<br>・antutuは、27マンくらいだが、GPUは使わないのでTermuxではもったいない<br>・今後、root化してtermuxで遊んでみようと思う<br>・再計測したら、1700超えていた。温度が関係しているくさい。</p>
-<h3>あとがき</h3>
-<p>あともう少しで、1400に届きそうでしたが2年前のハイエンドクラスなので検討していますよね。UnixBenchの結果にはグラフィックス性能が含まれないので、UmidigiF2や、Redmi Note 9S&nbsp;と比べてもさほど変わらない感じですね。</p>
-<p>　安くて、CPU性能が高いのはいろいろ検討した結果、MediaTek Dimensity 1000+　がいいんじゃないかなーと。このチップは、vivo iqoo z1とかに乗っていて antutuは、CPUで１８万、トータルで５０万を超えています。</p>
-<p>　これ、Termux上のUnixBenchだと2500は超えてきそうですよね！いつか、入手して確認してみたいなと思います。中古ではあまり出回っていないので、画面割れとかジャンクが出るまでは無理ですが。アリエクから新品で買っても3.4万くらいなんでさほど高くはないです。しかし遊びどきは、５Gが普及するあと１、２年後〜が中古市場に出回る時期かなと思います。</p>
-<p>別の見方をすれば、あと１、２年すればUnixBench2000〜3000で動作するスマホが、5000円とか１万未満の中古で買えちゃうってことです！</p>
-<p>　ARMチップが乗ったスマホの活用の夢が膨らみます！</p>
-<p>あと、画面割れのPixel3ですがもし画面を修理するならアリエクで9500円くらいで部品は入りそうです。まぁ、しかしそれほどひどい割れでもないですから、このまま使うかなと。なんか、直したら負けな気がします。w</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>

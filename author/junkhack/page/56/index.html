@@ -8,11 +8,12 @@
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
 <link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
 <link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
 <link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
 <meta name="theme-color" content="#FAD641">
 <meta name="apple-mobile-web-app-title" content="JunkHack">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator) {
+<meta name="apple-mobile-web-app-status-bar-style" content="default"> <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.register('/sw.js').then(
 			function (registration) {
@@ -70,7 +71,57 @@ gtag("config", "UA-199105184-1", {"anonymize_ip":true});</script> <link rel="htt
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div></nav><div class="toggle-wrapper"> <a href="#" class="widgets-toggle toggle-button" title="ウィジェット"> <span class="screen-reader-text">ウィジェット</span> </a>
 </div></header><div id="content" class="site-content"><section id="primary" class="content-area"><main id="main" class="site-main" role="main"><header class="page-header"><h1 class="page-title">投稿者: <span>JunkHack</span>
-</h1></header><article id="post-2203" class="post-2203 post type-post status-publish format-standard hentry category-orangepi category-orangepipc category-wifi"><div class="entry-wrapper">
+</h1></header><article id="post-2208" class="post-2208 post type-post status-publish format-standard hentry category-osx"><div class="entry-wrapper">
+<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/06/08/e682aae5908de9ab98e3818d-ssd-e381a7-osx10-11-e38292e585a5e3828ce381a6e381bfe3819f/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-06-08T00:52:15+09:00">2016年6月8日</time></a> </span><span class="posted-on">更新日:2016年6月8日</span> <span class="categories"> <a href="/category/osx/" rel="category tag noopener noreferrer" data-wpel-link="internal">osx</a></span>
+</div>
+<h1 class="entry-title"><a href="/2016/06/08/e682aae5908de9ab98e3818d-ssd-e381a7-osx10-11-e38292e585a5e3828ce381a6e381bfe3819f/" rel="bookmark noopener noreferrer" data-wpel-link="internal">悪名高き SSD で osx10.11 を入れてみた</a></h1></header><div class="entry-content">
+<p> <a href="http://kakaku.com/item/K0000625349/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/06/11.jpg" width="640" height="400"></a></p>
+<p>480GB が、1.1万だったので、ポチってみました。チップのグレードを下げるという愚行を行ったメーカーのようです。</p>
+<p>本当に遅いのか試してみました。あと、osx10.11 を入れてみたかったので。</p>
+<p>&#160;<img loading="lazy" title="osx1011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osx1011" src="/wp-content/uploads/2016/06/osx10111.png" width="586" height="354"></p>
+<p>まだ移行中ですが、SSD 速度を Xbench で計測。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Results 576.98  
+    System Info     
+        Xbench Version      1.3
+        System Version      10.11.5 (15F34)
+        Physical RAM        32768 MB
+        Model       MacPro3,1
+        Drive Type      KINGSTON SV300S37A480G
+    Disk Test   576.98  
+        Sequential  359.68  
+            Uncached Write  794.52  487.82 MB/sec [4K blocks]
+            Uncached Write  659.39  373.08 MB/sec [256K blocks]
+            Uncached Read   139.83  40.92 MB/sec [4K blocks]
+            Uncached Read   837.34  420.84 MB/sec [256K blocks]
+        Random  1457.52 
+            Uncached Write  1007.50 106.66 MB/sec [4K blocks]
+            Uncached Write  1135.18 363.41 MB/sec [256K blocks]
+            Uncached Read   3492.35 24.75 MB/sec [4K blocks]
+            Uncached Read   1710.65 317.42 MB/sec [256K blocks]</pre>
+<p>ずっと使っている、Samsung SSD 840は、</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Results 667.80  
+    System Info     
+        Xbench Version      1.3
+        System Version      10.11.5 (15F34)
+        Physical RAM        32768 MB
+        Model       MacPro3,1
+        Drive Type      Samsung SSD 840 Series
+    Disk Test   667.80  
+        Sequential  428.54  
+            Uncached Write  662.11  406.52 MB/sec [4K blocks]
+            Uncached Write  338.21  191.36 MB/sec [256K blocks]
+            Uncached Read   267.66  78.33 MB/sec [4K blocks]
+            Uncached Read   884.31  444.45 MB/sec [256K blocks]
+        Random  1511.98 
+            Uncached Write  2922.97 309.43 MB/sec [4K blocks]
+            Uncached Write  672.11  215.17 MB/sec [256K blocks]
+            Uncached Read   3365.79 23.85 MB/sec [4K blocks]
+            Uncached Read   1928.80 357.90 MB/sec [256K blocks]</pre>
+<p>&#160;</p>
+<p>4K の Random 書き込みが遅いようですが、もう少し使い込んでみないとよくわかりません。２，３年前に500GB が 2.5万だったのを考えると安くなりましたね。</p>
+</div>
+<footer class="entry-footer"></footer>
+</div></article><article id="post-2203" class="post-2203 post type-post status-publish format-standard hentry category-orangepi category-orangepipc category-wifi"><div class="entry-wrapper">
 <header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/05/29/wifi-rtl8188cus-e381aee383a1e383a2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-05-29T23:56:25+09:00">2016年5月29日</time></a> </span><span class="posted-on">更新日:2016年5月29日</span> <span class="categories"> <a href="/category/orangepi/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePi</a>, <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a>, <a href="/category/wifi/" rel="category tag noopener noreferrer" data-wpel-link="internal">WiFi</a></span>
 </div>
 <h1 class="entry-title"><a href="/2016/05/29/wifi-rtl8188cus-e381aee383a1e383a2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">WiFi RTL8188CUS のメモ</a></h1></header><div class="entry-content">
@@ -161,7 +212,7 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 <p>移動している中、IoT データを送信したいなと。この場合、WIFI がないんですよね。</p>
 <p>IoT デバイスからはブルートゥースやWiFi でネット経由へデータは出せるのですが、どこでも、投げたいので Soracom Air の SIM を使い始めました。</p>
 <p>&#160;</p>
-<p><a href="https://soracom.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img title="soracom_air" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_air" src="/wp-content/uploads/2016/05/soracom_air.png" width="332" height="107"></a></p>
+<p><a href="https://soracom.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="soracom_air" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_air" src="/wp-content/uploads/2016/05/soracom_air.png" width="332" height="107"></a></p>
 <p>電波が届く範囲なら、どこでも、データを投げて記録が取れるということで、まずは格安の Linux ボードで Soracom に接続し単純なデータを送信するところまでやってみました。</p>
 <p>今回の目標は、「Soracom 経由で、Linux の CPU&#160; 温度を ThingSpeak に送信しグラフ化させる」のが目標です。</p>
 <p>ThingSpeak とは、IoT データを記録し、グラフ表示するWEBサービスです。このサービスは、<a href="https://github.com/iobridge/ThingSpeak" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">自前でも構築可能<span class="wpel-icon wpel-image wpel-icon-1"></span></a>ですので最終的にはデータ蓄積するサーバを構築しても良さそうです。</p>
@@ -573,21 +624,6 @@ System Benchmarks Index Score                                         451.1
 <p>kindle 持ちになって気が付いたんですが、毎月1冊無料で読めるんですね。ヘビーな読書ユーザではないですが、月１で何か読めるのは楽しみです。あと、スマホだと遊んじゃうんだけど、これだと本読みますかって感じになるし。</p>
 <p>&#160;</p>
 <p>さて、帰ったら Orange PI PC に ARMBIAN を入れてみますか。</p>
-</div>
-<footer class="entry-footer"></footer>
-</div></article><article id="post-2164" class="post-2164 post type-post status-publish format-standard hentry category-blog"><div class="entry-wrapper">
-<header class="entry-header"> <span class="entry-format theme-genericon"></span><div class="entry-meta"> <span class="posted-on">投稿日: <a href="/2016/05/16/kindle-wi-fi-e382922480e58686e381a7e382b2e38383e38388/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-05-16T19:50:05+09:00">2016年5月16日</time></a> </span><span class="posted-on">更新日:2016年5月16日</span> <span class="categories"> <a href="/category/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a></span>
-</div>
-<h1 class="entry-title"><a href="/2016/05/16/kindle-wi-fi-e382922480e58686e381a7e382b2e38383e38388/" rel="bookmark noopener noreferrer" data-wpel-link="internal">Kindle Wi-Fi を2480円でゲット</a></h1></header><div class="entry-content">
-<p>日曜日は、免許の更新で現場に到着したらかなりの待ち行列！</p>
-<p>スマホ見て時間潰すかと、何気なく、SmartNews を見ていたら、Kindle がキャンペーンで2480円で買えるという情報を見ました。</p>
-<p><img loading="lazy" title="image" style="border-top:0;border-right:0;background-image:none;border-bottom:0;float:none;padding-top:0;padding-left:0;margin-left:auto;border-left:0;display:block;padding-right:0;margin-right:auto;" border="0" alt="image" src="/wp-content/uploads/2016/05/image.png" width="830" height="249"></p>
-<p>一番安いやつなんですが、前から欲しかったのでポチっておきました。</p>
-<p>&nbsp;</p>
-<p>２台ゲットして、１台は分解して遊ぼうかなと思って今日もう一度見ると、在庫切れとのこと。</p>
-<p>どうやら、このキャンペーンは、数に達したようで終わったようです。</p>
-<p><img loading="lazy" title="image" style="border-top:0;border-right:0;background-image:none;border-bottom:0;float:none;padding-top:0;padding-left:0;margin-left:auto;border-left:0;display:block;padding-right:0;margin-right:auto;" border="0" alt="image" src="/wp-content/uploads/2016/05/image2.png" width="808" height="297"></p>
-<p>１台ゲットできてラッキーでした。昨日ポチっていなければ、買えなかったわけですね。</p>
 </div>
 <footer class="entry-footer"></footer>
 </div></article><nav class="navigation posts-navigation" aria-label="投稿"><h2 class="screen-reader-text">投稿ナビゲーション</h2>
