@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>C &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>INA226 を arduino nano で</title>
-		<link>/2016/01/30/ina226-e38292-arduino-nano-e381a7/</link>
+		<link>/2016/01/30/ina226-%e3%82%92-arduino-nano-%e3%81%a7/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 30 Jan 2016 14:27:20 +0000</pubDate>
@@ -53,7 +61,7 @@ void setup()
   ina.calibrate(0.025, 1);
 ::</pre>
 <p>配線は以下のようにしました。ちょっとわかりにくいですが、Arduino の A5(SCL) と A4(SDA) をつないで、GND と 3.3V を VSS に入れます。あとは、負荷を電流計測にハイサイド側に付ける感じです。</p>
-<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" loading="lazy" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480" /></a> </p>
 <p>シリアル通信を開くと、以下のようになっています。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
 -----------------------------------------------
@@ -154,7 +162,7 @@ Shunt current: 0.00300 A</pre>
 			</item>
 		<item>
 		<title>1us Lチカ</title>
-		<link>/2016/01/02/1us-le38381e382ab/</link>
+		<link>/2016/01/02/1us-l%e3%83%81%e3%82%ab/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 01 Jan 2016 17:56:05 +0000</pubDate>
@@ -170,13 +178,13 @@ Shunt current: 0.00300 A</pre>
 <p>あと、オレンジパイで、8本のGPIO を使って安価なロジックアナライザーで採取できるかも確認してみました。</p>
 <p>&#160;</p>
 <p>サンプルプログラムを採取したデータが以下です。8本分は取れていますが、速すぎるところは取りこぼしているようです。</p>
-<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/01/1.png" width="640" height="319" /> </p>
+<p><img decoding="async" loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/01/1.png" width="640" height="319" /> </p>
 <p>矢印は500ns で光っている部分で採取に失敗し、取りこぼす事がありました。このあたりが2Mhz の限界なんですね。今のファームウェアとソフトウェアだとこれが限界のようです。</p>
-<p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320" /> </p>
+<p><img decoding="async" loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320" /> </p>
 <p>複数のLED は、blink ファンクションにて光らせていますが、呼び出しと初期化の処理で250us 程度使っているようです。</p>
-<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/3.png" width="640" height="320" /> </p>
+<p><img decoding="async" loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/3.png" width="640" height="320" /> </p>
 <p>usleep 関数を使っても思ったより、処理に時間がかかるようです。1us を指定して光らせているんですが、実際は69us 光っています。nanosleep を使っても66us は使われてしまうようで、1us を光らせる為にwhile で調整してみました。</p>
-<p><img loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/01/4.png" width="640" height="319" /> </p>
+<p><img decoding="async" loading="lazy" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/01/4.png" width="640" height="319" /> </p>
 <p>サンプルのプログラムは以下です。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
  *  +-----+-----+----------+------+---+--OrangePiPC--+---+------+---------+-----+--+
@@ -294,7 +302,7 @@ int blink2(int led, int delay){
 			</item>
 		<item>
 		<title>Sigrok の Pulsview 0.3.0 動きました</title>
-		<link>/2015/12/31/sigrok-e381ae-pulsview-0-3-0-e58b95e3818de381bee38197e3819f/</link>
+		<link>/2015/12/31/sigrok-%e3%81%ae-pulsview-0-3-0-%e5%8b%95%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 30 Dec 2015 19:47:23 +0000</pubDate>
@@ -308,9 +316,9 @@ int blink2(int led, int delay){
 <p>なんとか、今年中に出来たのですっきり。</p>
 <p>&#160;</p>
 <p>0.3.0-git-5d73886 では、以下のようにトリガーが設定できて楽になりました。Runを押せばトリガーがでるまで、stop して採取されます。サンプル数を設定しておけば、採取されて停止します。ロジックアナライザーとしては基本機能だと思いますが、手持ちのハードでなんとか動いてよかったです。</p>
-<p><img loading="lazy" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2015/12/3662338e426b.png" width="640" height="359" /> </p>
+<p><img decoding="async" loading="lazy" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2015/12/3662338e426b.png" width="640" height="359" /> </p>
 <p>拡大すると、500ns とか取れています。1us 単位くらいまでは見れそうということがわかりました。</p>
-<p><img loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2015/12/d2bb6fa3e4a8.png" width="640" height="357" /> </p>
+<p><img decoding="async" loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2015/12/d2bb6fa3e4a8.png" width="640" height="357" /> </p>
 <p>サンプルレートは、2MHz 以上あげるとどうしても採取後にクルクル回って、操作を受け付けないスタック状態のような感じになります。コマンドライン版でドライバを指定してみると、以下のようです。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sigrok-cli --show --driver fx2lafw
 Driver functions:
@@ -351,7 +359,7 @@ Supported configuration options:
 <p>まぁ、最初の一台ですし、これで勉強させてもらって、物足りなければまた考えることにします。</p>
 <p>&#160;</p>
 <p>automator でシェルスクリプトを実行するものを作り、アイコンをつけて、app 化します。</p>
-<p><img loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/12/61.png" width="632" height="480" /> </p>
+<p><img decoding="async" loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/12/61.png" width="632" height="480" /> </p>
 <p>python の環境変数を一度 unset して消去して、python3.4 とか3.x のをセットしてアプリをバックグランドで呼び出します。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">unset PYTHONPATH
 export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot;
@@ -359,7 +367,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 /usr/local/Cellar/pulseview/HEAD/bin/pulseview &gt;/dev/null 2&gt;&amp;1 &amp;</pre>
 <p>&#160;</p>
 <p>配布用にするには、ライブラリのパスを全部書き換えないといけないので、やめました。このあたりのスキルは、もう少し勉強しないと嵌りそうです。</p>
-<p><img loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/12/51.png" width="276" height="423" /> </p>
+<p><img decoding="async" loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/12/51.png" width="276" height="423" /> </p>
 <p>brew 版のインストールは、wiki に書いてあるとおりで以下のようです。</p>
 <blockquote>
 <p><a title="https://sigrok.org/wiki/Mac_OS_X" href="https://sigrok.org/wiki/Mac_OS_X" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://sigrok.org/wiki/Mac_OS_X<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
@@ -406,7 +414,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 			</item>
 		<item>
 		<title>sigrok Pulsview を osx でビルドに挑戦</title>
-		<link>/2015/12/30/sigrok-pulsview-e38292-osx-e381a7e38393e383abe38389e381abe68c91e688a6/</link>
+		<link>/2015/12/30/sigrok-pulsview-%e3%82%92-osx-%e3%81%a7%e3%83%93%e3%83%ab%e3%83%89%e3%81%ab%e6%8c%91%e6%88%a6/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 29 Dec 2015 20:04:41 +0000</pubDate>
@@ -417,11 +425,11 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 							<description><![CDATA[PulseView の 0.3.0-git-f3697d3 をビルドしてみました。 結論から言えば、今のところ起動してすぐ落ちます。（涙） 無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。a [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>PulseView の 0.3.0-git-f3697d3 をビルドしてみました。</p>
 <p>結論から言えば、今のところ起動してすぐ落ちます。（涙）</p>
-<p><img loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162" /> </p>
+<p><img decoding="async" loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162" /> </p>
 <p>無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。about は見れました。</p>
-<p><img loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.png" width="600" height="400" /> </p>
+<p><img decoding="async" loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.png" width="600" height="400" /> </p>
 <p>デバイスにもコネクトし、スキャンすれば出てきます。</p>
-<p><img loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/12/31.png" width="525" height="397" /> </p>
+<p><img decoding="async" loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/12/31.png" width="525" height="397" /> </p>
 <p>しかし、OK を押すと最初のダイアログ表示が出て、OK を押すと、SIGABRT で落ちます。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Process:         pulseview-bin [95174]
 Path:            /Applications/PulseView.app/Contents/MacOS/./pulseview-bin
@@ -828,7 +836,7 @@ HOPE:MacOS junkhack$ </pre>
 			</item>
 		<item>
 		<title>FX2LP でsigrok のロジックアナライザー</title>
-		<link>/2015/12/27/fx2lp-e381a7sigrok-e381aee383ade382b8e38383e382afe382a2e3838ae383a9e382a4e382b6e383bc/</link>
+		<link>/2015/12/27/fx2lp-%e3%81%a7sigrok-%e3%81%ae%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%83%bc/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 27 Dec 2015 12:26:13 +0000</pubDate>
@@ -843,13 +851,13 @@ HOPE:MacOS junkhack$ </pre>
 										<content:encoded><![CDATA[<p>年末で、何かとイベントごとがあってなかなかブログを更新できずにいました。</p>
 <p>Aliexpress からもどんどんお品が届いて、ロジックアナライザーとして使うボードも到着しました。テストがてら、OrangePi PC の GPIO につないだLED のタイミングを計測してみること。</p>
 <p>配線は、とりあえず1チャンネルでテスト。全部で8チャンネルいけます。</p>
-<p><img loading="lazy" title="logic2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic2" src="/wp-content/uploads/2015/12/logic2.jpg" width="640" height="480" /> </p>
+<p><img decoding="async" loading="lazy" title="logic2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic2" src="/wp-content/uploads/2015/12/logic2.jpg" width="640" height="480" /> </p>
 <p>ちょっとわかりにくいですが、PB0 ～ PB7 までの端子が sigrok でいう0から7 までに対応しています。とりあえず今回はPB0 の端子につないで1チャンネルの表示をしてみました。</p>
-<p><img loading="lazy" title="PulseView1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView1" src="/wp-content/uploads/2015/12/pulseview1.png" width="640" height="445" /> </p>
+<p><img decoding="async" loading="lazy" title="PulseView1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView1" src="/wp-content/uploads/2015/12/pulseview1.png" width="640" height="445" /> </p>
 </p>
 <p>全体のテスト配線は以下のような感じです。</p>
 <p>&#160;</p>
-<p> <img loading="lazy" title="logic" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic" src="/wp-content/uploads/2015/12/logic.jpg" width="640" height="480" />   </p>
+<p> <img decoding="async" loading="lazy" title="logic" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic" src="/wp-content/uploads/2015/12/logic.jpg" width="640" height="480" />   </p>
 <p>osx だと sigrok のソフトウェアの中にファームウェアがあります。最新のファームウェアは、以下にビルド済みのものがあります。</p>
 <blockquote>
 <p>fx2lafw (pre-built firmware files の項を参照)      <br /><a title="http://sigrok.org/wiki/Fx2lafw" href="http://sigrok.org/wiki/Fx2lafw" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://sigrok.org/wiki/Fx2lafw<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
@@ -888,9 +896,9 @@ HOPE:sigrok-firmware junkhack$ </pre>
     <br /><a title="http://eliasoenal.com/2014/11/04/sigrok-for-os-x/" href="http://eliasoenal.com/2014/11/04/sigrok-for-os-x/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://eliasoenal.com/2014/11/04/sigrok-for-os-x/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>File Menu から Connect to Device を選択して、以下のようにスキャンすると出ました。</p>
-<p><img loading="lazy" title="Connect_to_Device" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Connect_to_Device" src="/wp-content/uploads/2015/12/connect_to_device.png" width="523" height="395" /> </p>
+<p><img decoding="async" loading="lazy" title="Connect_to_Device" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Connect_to_Device" src="/wp-content/uploads/2015/12/connect_to_device.png" width="523" height="395" /> </p>
 <p>osx の USB 認識は、以下のようでした。</p>
-<p><img loading="lazy" title="osxusb" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="osxusb" src="/wp-content/uploads/2015/12/osxusb.png" width="354" height="320" /> </p>
+<p><img decoding="async" loading="lazy" title="osxusb" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="osxusb" src="/wp-content/uploads/2015/12/osxusb.png" width="354" height="320" /> </p>
 <p>system_profiler で見ると以下のように出ます。</p>
 <p>&#160;</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ system_profiler SPUSBDataType
@@ -941,11 +949,11 @@ blink(void){
 192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;
 192.168.1.17 - - [27/Dec/2015:20:21:27 +0900] &quot;GET /index.html HTTP/1.0&quot; 200 10798 &quot;-&quot; &quot;ApacheBench/2.3&quot; &quot;-&quot;</pre>
 <p>そのタイミングを取ると以下のようです。</p>
-<p><img loading="lazy" title="PulseView" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView" src="/wp-content/uploads/2015/12/pulseview.png" width="640" height="446" /></p>
+<p><img decoding="async" loading="lazy" title="PulseView" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView" src="/wp-content/uploads/2015/12/pulseview.png" width="640" height="446" /></p>
 <p>今度は、300us ほどにして、100回アクセスしてみました。ちゃんと100回、凹凸があるか数えたらありました。</p>
-<p><img loading="lazy" title="PulseView_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PulseView_2" src="/wp-content/uploads/2015/12/pulseview_2.png" width="640" height="403" /> </p>
+<p><img decoding="async" loading="lazy" title="PulseView_2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PulseView_2" src="/wp-content/uploads/2015/12/pulseview_2.png" width="640" height="403" /> </p>
 <p>マウスホイールすると拡大できます。300us より若干大きくなっているのは、イベント処理のプログラムや時計の誤差などの影響ですかね。</p>
-<p><img loading="lazy" title="300us" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="300us" src="/wp-content/uploads/2015/12/300us.png" width="640" height="404" /> </p>
+<p><img decoding="async" loading="lazy" title="300us" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="300us" src="/wp-content/uploads/2015/12/300us.png" width="640" height="404" /> </p>
 <p>1ms くらいのものは問題なく見れそうということがわかりました。2Mhz 以上あげると、固まるのはなぜですかね。24Mhz までいけるはずですが？</p>
 <p>&#160;</p>
 <p>1us 単位の計測が今のところできないです。あと、トリガーをかけようとチャンネルをクリックすると落ちる。うーん、独自にコンパイルしてみるしかなさそうですね。</p>

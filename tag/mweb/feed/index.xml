@@ -18,7 +18,15 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>MWeb &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>MWebを使ってみた</title>
 		<link>/2020/02/18/welcome-to-mweb/</link>
@@ -33,11 +41,11 @@
 										<content:encoded><![CDATA[<p>macos で、何かよさげな Markdown エディターを探していたら、MWeb というのがあるので、少し試してみました。Markdown 記法はあまり慣れていないし、苦手です。画像貼り付けなんかは特に面倒なので、このエティターを使ってブログを書くとどんな感じになるかテストしています。</p>
 <hr />
 <p>ちょっと実際に画像を貼り付けてみましょう。例えば、このツールで投稿するときに出るダイアログ画面を撮って載せてみます。</p>
-<p><img src="/wp-content/uploads/2020/02/15819656473963.png" alt="" /></p>
+<p><img decoding="async" src="/wp-content/uploads/2020/02/15819656473963.png" alt="" /></p>
 <p>この画像は、Skitch というスクリーンショットを撮るツールからドラッグ＆ドロップで載せています！かなり便利ですね。実際に、画像を Markdown 記法で書くと以下のように書かないとだめです。面倒ですので、これはツールに頼ったほうがいいですね。<br />
 <code>！[](media/15819643984967/15819656473963.png)</code><br />
 　※冒頭の！は、半角の! です。</p>
-<p>ライブプレビュー画面もあるのでどんな感じで表示されるかも確認しながら編集できるのはいいですね。<img src="/wp-content/uploads/2020/02/15819668399240.png" alt="" /></p>
+<p>ライブプレビュー画面もあるのでどんな感じで表示されるかも確認しながら編集できるのはいいですね。<img decoding="async" src="/wp-content/uploads/2020/02/15819668399240.png" alt="" /></p>
 <p>以下は、このエディターを起動したときにデフォルトで記載される内容です。日本語翻訳して実際にブログに反映させてみるテストです。少しづつ使って慣れていきたいと思います。</p>
 <h2 id="toc_0">ようこそMWeb</h2>
 <p>MWebは、Mac、iPad、iPhone用のプロフェッショナルなMarkdownライティング、メモ作成、静的なブログジェネレーターアプリです。MWebの特別な機能を次に示します。</p>

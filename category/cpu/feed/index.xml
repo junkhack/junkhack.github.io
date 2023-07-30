@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>CPU &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>10nm時代まで待てないな、2019年春先に14nmのCore i9 9900Kを買って、オリンピック終わりごろに安定する10nm のCPUが出るまで使うことにするか思案中</title>
-		<link>/2018/11/30/10nm-cpu/</link>
+		<link>/2018/11/30/10nm%e6%99%82%e4%bb%a3%e3%81%be%e3%81%a7%e5%be%85%e3%81%a6%e3%81%aa%e3%81%84%e3%81%aa%e3%80%812019%e5%b9%b4%e6%98%a5%e5%85%88%e3%81%ab14nm%e3%81%aecore-i9-9900k%e3%82%92%e8%b2%b7%e3%81%a3%e3%81%a6/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 29 Nov 2018 23:20:09 +0000</pubDate>
@@ -32,11 +40,11 @@
 										<content:encoded><![CDATA[<p>実は、ずっと10nm のCPUが出るまで頑張って今の22nm CPUの <a href="https://ja.wikipedia.org/wiki/Intel_Core_i7" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">i-7 3770<span class="wpel-icon wpel-image wpel-icon-1"></span></a> を使っていたのですがどうやら、10nm のCPUまで待てそうにありません。</p>
 <blockquote><p><a href="https://gigazine.net/news/20181023-intel-may-kill-10nm-process/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">「Intelは難航する10nmプロセスを中止する」という情報、Intelは速攻で完全否定 &#8211; GIGAZINE<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 <p>14nm のチップは、「Broadwell」「Skylake」「Kaby Lake」「Coffee Lake」と続いていてそろそろ、10nm チップか？と期待し続けて我慢してたのですが。</p>
-<p><img loading="lazy" class="  wp-image-4853 aligncenter" src="/wp-content/uploads/2018/11/i-7_3770.jpg" alt="i-7_3770.jpg" width="334" height="358" />22nm の i-7 3770 のCPUは、2012年の夏前くらいに購入し、今現在もメインで使っています。丸６年以上使っていますね。仕事で使っているので、もう完全に元はとりました。これ以上使うのは、効率が悪いので少しでも速いCPUに交換したいところです。</p>
+<p><img decoding="async" loading="lazy" class="  wp-image-4853 aligncenter" src="/wp-content/uploads/2018/11/i-7_3770.jpg" alt="i-7_3770.jpg" width="334" height="358" />22nm の i-7 3770 のCPUは、2012年の夏前くらいに購入し、今現在もメインで使っています。丸６年以上使っていますね。仕事で使っているので、もう完全に元はとりました。これ以上使うのは、効率が悪いので少しでも速いCPUに交換したいところです。</p>
 <p>10um が安定供給され価格がそれなりにこなれる時期は、おそらく2020年のオリンピックの時くらいになるのかなという感じ。</p>
 <blockquote><p><a href="http://ascii.jp/elem/000/001/696/1696519/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ASCII.jp：あと1年は10nm製品を投入しないと明言　インテル CPUロードマップ<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 <p>なので、あと2〜4年はメインマシンで使えるCPUを来年の春先に向けて調達することにしました。最大の候補は、これ。Core i9 9900K です。</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-4852" src="/wp-content/uploads/2018/11/1-procesor-9-generacji.jpg" alt="1-procesor-9-generacji.jpg" width="1300" height="681" /></p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-4852" src="/wp-content/uploads/2018/11/1-procesor-9-generacji.jpg" alt="1-procesor-9-generacji.jpg" width="1300" height="681" /></p>
 <p>まだ出始めなので、価格は6.6マンほどしています。あと品薄なのですぐ調達は無理っぽいです。CPUは出てから約６ヶ月ほどで価格と供給が安定するんですが、今回はどうなんでしょうか。2019年の年末までは品薄になるとか記事があります。</p>
 <p>コスパ重視だと、i5 がいいんじゃないかなとも思いますが。どうしますかね。Ryzen のCPU でIntel の 10nm が出るまでお茶を濁すというのもありかもしれません。Ryzen の CPU が候補から外れている理由があるんですが、それはまたの機会に。</p>
 <p>・・・ちょっと時間がなくなったので、金の夜か土日に続きます。</p>

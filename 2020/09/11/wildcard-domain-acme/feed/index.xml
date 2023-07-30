@@ -16,7 +16,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
 		<title>
 		WordPressのコマンドラインツール、wp-cliを使ってみたら便利だった！ &#8211; アリエクでポチった JunkHack より		</title>
@@ -40,8 +40,8 @@
 		<pubDate>Sat, 12 Sep 2020 19:42:43 +0000</pubDate>
 		<guid isPermaLink="false">/?p=6002#comment-94</guid>
 
-					<description><![CDATA[[&#8230;] /2020/09/11/wildcard-domain-acme/ [&#8230;]]]></description>
-			<content:encoded><![CDATA[<p>[&#8230;] <a href="/2020/09/11/wildcard-domain-acme/" rel="nofollow ugc noopener noreferrer" data-wpel-link="internal">/2020/09/11/wildcard-domain-acme/</a> [&#8230;]</p>
+					<description><![CDATA[[&#8230;] :7443:7443:7443/2020/09/11/wildcard-domain-acme/ [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] <a href=":7443:7443:7443/2020/09/11/wildcard-domain-acme/" rel="nofollow ugc noopener noreferrer" data-wpel-link="internal">:7443:7443:7443/2020/09/11/wildcard-domain-acme/</a> [&#8230;]</p>
 ]]></content:encoded>
 		
 			</item>

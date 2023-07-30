@@ -18,7 +18,15 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>digikey &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>WiFi E-ink display 部品整理</title>
 		<link>/2015/09/21/wifi-e-ink-display-parts/</link>
@@ -36,9 +44,9 @@
 										<content:encoded><![CDATA[<p>ハードウェアの検証がおおよそ終わったので、部品のパーツリストと購入先を整理しておきます。</p>
 <p>コンデンサは抵抗のようにパックのようなものにするか、バラにするか迷っています。今後も、SMD実装の工作をするなら買っておいてもいいかなぁ。、、、4250個も抵抗つかわないよね、きっと。</p>
 <p>IC の価格が安いので、全部aliexpress での購入見込みです。インダクタは、太陽誘電のほうが薄くて小さく、安かったのでこっちにするかも。いろいろ物色して、sumida のが安かったのでこれにしました。</p>
-<p>&#160;<img loading="lazy" title="ssss" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ssss" src="/wp-content/uploads/2015/09/ssss.png" width="481" height="480" /> </p>
+<p>&#160;<img decoding="async" loading="lazy" title="ssss" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ssss" src="/wp-content/uploads/2015/09/ssss.png" width="481" height="480" /> </p>
 <p>51 番のレイヤー tDocs っていうのはこうのがあるんですね。</p>
-<p><img loading="lazy" title="WiFi E-link4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi E-link4" src="/wp-content/uploads/2015/09/wifielink4.png" width="478" height="480" /> </p>
+<p><img decoding="async" loading="lazy" title="WiFi E-link4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi E-link4" src="/wp-content/uploads/2015/09/wifielink4.png" width="478" height="480" /> </p>
 <p>&#160;</p>
 <table cellspacing="0" cellpadding="2" width="633" border="0">
 <tbody>
@@ -235,7 +243,7 @@
 			</item>
 		<item>
 		<title>IC4 のレギュレータは要考慮</title>
-		<link>/2015/09/14/ic4/</link>
+		<link>/2015/09/14/ic4-%e3%81%ae%e3%83%ac%e3%82%ae%e3%83%a5%e3%83%ac%e3%83%bc%e3%82%bf%e3%81%af%e8%a6%81%e8%80%83%e6%85%ae/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Sep 2015 16:41:26 +0000</pubDate>
@@ -266,7 +274,7 @@
 <p>E-ink の電源には、22V,15V,-15V,-20V と3V(3.3V)を必要としているようです。</p>
 <p>確認してみると、データシートには、3.3V とあるようです。</p>
 <p><a title="http://essentialscrap.com/eink/ED060SC4V2.pdf" href="http://essentialscrap.com/eink/ED060SC4V2.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/ED060SC4V2.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><img loading="lazy" title="essentialscrap_com_eink_ED060SC4V2_pdf" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="essentialscrap_com_eink_ED060SC4V2_pdf" src="/wp-content/uploads/2015/09/essentialscrap_com_eink_ed060sc4v2_pdf1.png" width="512" height="768" /> </p>
+<p><img decoding="async" loading="lazy" title="essentialscrap_com_eink_ED060SC4V2_pdf" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="essentialscrap_com_eink_ED060SC4V2_pdf" src="/wp-content/uploads/2015/09/essentialscrap_com_eink_ed060sc4v2_pdf1.png" width="512" height="768" /> </p>
 <p>ここは本来、前回調査したバックブースト回路があるといいようです。</p>
 <p>&#160;</p>
 <p>ソースコードを確認してみると、ADCから電圧をみているようです。</p>
@@ -301,7 +309,7 @@
 <p>３．１V以下になると、以下の画像が出るようなチェックがあるようです。なるほど。ADC ピンは本来こういう使い方をする設計で作られているのかもしれませんね。</p>
 <p>&#160;</p>
 <p>&#160;</p>
-<p><img loading="lazy" title="batempty" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="batempty" src="/wp-content/uploads/2015/09/batempty.png" width="640" height="480" /></p>
+<p><img decoding="async" loading="lazy" title="batempty" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="batempty" src="/wp-content/uploads/2015/09/batempty.png" width="640" height="480" /></p>
 <p>ということで、IC4は、以下にしました。</p>
 <blockquote>
 <p>MCP1802T-3302I/OT（3.3V）</p>
@@ -315,7 +323,7 @@
 			</item>
 		<item>
 		<title>Wifi E-ink display パーツ見積</title>
-		<link>/2015/09/12/wifi-e-ink-display/</link>
+		<link>/2015/09/12/wifi-e-ink-display-%e3%83%91%e3%83%bc%e3%83%84%e8%a6%8b%e7%a9%8d/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 12 Sep 2015 06:47:10 +0000</pubDate>
@@ -331,7 +339,7 @@
 <blockquote>
 <p>digi-key     <br /><a href="http://www.digikey.com/short/t45jn5" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.digikey.com/short/t45jn5<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      <br />$21(USD)</p>
 </blockquote>
-<p><img loading="lazy" title="Online_Ordering___Digi-Key" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Online_Ordering___Digi-Key" src="/wp-content/uploads/2015/09/online_ordering___digikey.png" width="600" height="992" /> </p>
+<p><img decoding="async" loading="lazy" title="Online_Ordering___Digi-Key" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Online_Ordering___Digi-Key" src="/wp-content/uploads/2015/09/online_ordering___digikey.png" width="600" height="992" /> </p>
 <p>&#160;</p>
 <p>aliexpress で部品を調達すると、以下のようになります。</p>
 <blockquote>
@@ -365,7 +373,7 @@
 <p>たぶん、これ見て作りたいっていうヒトがいるかと思うので小分けして、配給すればよいかと。いないかな？</p>
 <p>&#160;</p>
 <p>最終的には、こんな感じのものを作りたいなぁと。</p>
-<p><img loading="lazy" title="kindle-weather-and-recycling-display" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="kindle-weather-and-recycling-display" src="/wp-content/uploads/2015/09/kindleweatherandrecyclingdisplay.jpg" width="640" height="480" /> </p>
+<p><img decoding="async" loading="lazy" title="kindle-weather-and-recycling-display" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="kindle-weather-and-recycling-display" src="/wp-content/uploads/2015/09/kindleweatherandrecyclingdisplay.jpg" width="640" height="480" /> </p>
 <p>Kobo Touch N905 のようなものを中古でゲットして、hack するというのでも実現できるかもしれないので迷いますね。</p>
 <p>この画像は、確か Kindle を調理しているものだったと思います。</p>
 ]]></content:encoded>

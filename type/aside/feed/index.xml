@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>アサイド &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</title>
-		<link>/2022/05/22/goat-end-of-service/</link>
+		<link>/2022/05/31/goat-end-of-service/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 31 May 2022 14:12:36 +0000</pubDate>

@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; フィード" href="//feed/">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
+<link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
+<meta name="theme-color" content="#FAD641">
+<meta name="apple-mobile-web-app-title" content="JunkHack">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+
+<script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
+	window.addEventListener('load', function () {
+		navigator.serviceWorker.register('/sw.js').then(
+			function (registration) {
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			},
+			function (err) {
+				console.log('ServiceWorker registration failed: ', err);
+			}
+		);
+	});
+}</script>
+
+
+		<link charset="utf-8" rel="stylesheet" type="text/css" href="/wp-content/themes/jh-hew/js/nehan2/nehan2.css">
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/subject.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/Plugin_haiku.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/nehan2.js"></script>
+		<script type="text/javascript">
+
+		let pw = window.innerWidth;
+		let ph = window.innerHeight;
+		let wsize = 0;
+		function resizeWindow(event){
+				pw = window.innerWidth;
+				ph = window.innerHeight;
+		}
+	
+		window.addEventListener("resize", resizeWindow);
+
+			window.onload = function(){
+			var createPageFrame = function(body){
+				var node = document.createElement("div");
+				var style = node.style;
+				node.innerHTML = body;
+				node.className = "page-frame";
+				return node;
+			};
+
+			var outputAllPages = function(dstId, provider){
+				var pageNo = 0;
+				var dstNode = document.getElementById(dstId);
+
+				// add <subject> element to parser for easy markup(see subject.js)
+				Nehan.Plugin.defineSubjectElement(provider);
+				Nehan.Plugin_haiku.defineHaikuElement(provider);
+
+				while(provider.hasNextPage()){
+					var pageData = provider.outputPage(pageNo++);
+					var pageFrame = createPageFrame(pageData.html);
+					dstNode.appendChild(pageFrame);
+				}
+			};
+			
+			var text = document.getElementById("src-text").innerHTML;
+		// output default page1.
+		if(pw < 480){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:310,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 479 && pw < 600){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:420,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 599 && pw < 744){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:540,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 743 && pw < 889){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:680,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 888){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:890,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		
+		document.getElementById("progress").style.display = "none";
+		};
+		</script>
+		
+<title>新ブログ &#8211; ページ 5 &#8211; JunkHack</title>
+<meta name="robots" content="max-image-preview:large">
+            <style>.toc_post_list h2{
+                    margin-bottom: 20px;
+                }
+                .toc_post_list{
+                    list-style: none;
+                    margin: 0 0 30px 0!important;
+                    padding: 0!important;
+                }
+                .toc_post_list li{}
+                .toc_post_list li ul{
+                    list-style: decimal;
+                }
+                .toc_post_list a{}
+                .wpaicg_chat_widget{
+                    position: fixed;
+                }
+                .wpaicg_widget_left{
+                    bottom: 15px;
+                    left: 15px;
+                }
+                .wpaicg_widget_right{
+                    bottom: 15px;
+                    right: 15px;
+                }
+                .wpaicg_widget_right .wpaicg_chat_widget_content{
+                    right: 0;
+                }
+                .wpaicg_widget_left .wpaicg_chat_widget_content{
+                    left: 0;
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox{
+                    height: 100%;
+                    background-color: #222222;
+                    border-radius: 5px;
+                }
+                .wpaicg_widget_open .wpaicg_chat_widget_content{
+                    height: 400px;
+                }
+                .wpaicg_chat_widget_content{
+                    position: absolute;
+                    bottom: calc(100% + 15px);
+                    width: 350px;
+                    overflow: hidden;
+                }
+                .wpaicg_widget_open .wpaicg_chat_widget_content{
+                    overflow: unset;
+                }
+                .wpaicg_widget_open .wpaicg_chat_widget_content .wpaicg-chatbox{
+                    top: 0;
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox{
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 350px;
+                    height: 400px;
+                    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox-content{
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox-content ul{
+                    box-sizing: border-box;
+                    background: #222222;
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox-content ul li{
+                    color: #90EE90;
+                    font-size: 13px;
+                }
+                .wpaicg_chat_widget_content .wpaicg-bot-thinking{
+                    color: #90EE90;
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox-type{
+                                    border-top: 0;
+                    background: rgb(0 0 0 / 19%);
+                }
+                .wpaicg_chat_widget_content .wpaicg-chat-message{
+                    color: #90EE90;
+                }
+                .wpaicg_chat_widget_content textarea.wpaicg-chatbox-typing{
+                    background-color: #fff;
+                    border-color: #ccc;
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox-send{
+                    color: #fff;
+                }
+                .wpaicg-chatbox-footer{
+                    height: 18px;
+                    font-size: 11px;
+                    padding: 0 5px;
+                    color: #fff;
+                    background: rgb(0 0 0 / 19%);
+                    margin-top:2px;
+                    margin-bottom: 2px;
+                }
+                .wpaicg_chat_widget_content textarea.wpaicg-chatbox-typing:focus{
+                    outline: none;
+                }
+                .wpaicg_chat_widget .wpaicg_toggle{
+                    cursor: pointer;
+                }
+                .wpaicg_chat_widget .wpaicg_toggle img{
+                    width: 75px;
+                    height: 75px;
+                }
+                .wpaicg-chat-shortcode-type,.wpaicg-chatbox-type{
+                    position: relative;
+                }
+                .wpaicg-mic-icon{
+                    cursor: pointer;
+                }
+                .wpaicg-mic-icon svg{
+                    width: 16px;
+                    height: 16px;
+                    fill: currentColor;
+                }
+                .wpaicg-pdf-icon svg{
+                    width: 22px;
+                    height: 22px;
+                    fill: currentColor;
+                }
+                .wpaicg_chat_additions span{
+                    cursor: pointer;
+                    margin-right: 2px;
+                }
+                .wpaicg_chat_additions span:last-of-type{
+                    margin-right: 0;
+                }
+                .wpaicg-pdf-loading{
+                    width: 18px;
+                    height: 18px;
+                    border: 2px solid #FFF;
+                    border-bottom-color: transparent;
+                    border-radius: 50%;
+                    display: inline-block;
+                    box-sizing: border-box;
+                    animation: wpaicg_rotation 1s linear infinite;
+                }
+                @keyframes wpaicg_rotation {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+                .wpaicg-chat-message code{
+                    padding: 3px 5px 2px;
+                    background: rgb(0 0 0 / 20%);
+                    font-size: 13px;
+                    font-family: Consolas,Monaco,monospace;
+                    direction: ltr;
+                    unicode-bidi: embed;
+                    display: block;
+                    margin: 5px 0px;
+                    border-radius: 4px;
+                    white-space: pre-wrap;
+                }
+                textarea.wpaicg-chat-shortcode-typing,textarea.wpaicg-chatbox-typing{
+                    height: 30px;
+                }
+                .wpaicg_chat_widget_content .wpaicg-chatbox-content,.wpaicg-chat-shortcode-content{
+                    overflow: hidden;
+                }
+                .wpaicg_chatbox_line{
+                    overflow: hidden;
+                    text-align: center;
+                    display: block!important;
+                    font-size: 12px;
+                }
+                .wpaicg_chatbox_line:after,.wpaicg_chatbox_line:before{
+                    background-color: rgb(255 255 255 / 26%);
+                    content: "";
+                    display: inline-block;
+                    height: 1px;
+                    position: relative;
+                    vertical-align: middle;
+                    width: 50%;
+                }
+                .wpaicg_chatbox_line:before {
+                    right: 0.5em;
+                    margin-left: -50%;
+                }
+
+                .wpaicg_chatbox_line:after {
+                    left: 0.5em;
+                    margin-right: -50%;
+                }
+                .wpaicg-chat-shortcode-typing::-webkit-scrollbar,.wpaicg-chatbox-typing::-webkit-scrollbar{
+                    width: 5px
+                }
+                .wpaicg-chat-shortcode-typing::-webkit-scrollbar-track,.wpaicg-chatbox-typing::-webkit-scrollbar-track{
+                    -webkit-box-shadow:inset 0 0 6px rgba(0, 0, 0, 0.15);border-radius:5px;
+                }
+                .wpaicg-chat-shortcode-typing::-webkit-scrollbar-thumb,.wpaicg-chatbox-typing::-webkit-scrollbar-thumb{
+                    border-radius:5px;
+                    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.75);
+                }</style>
+            <script>var wpaicg_ajax_url = '/wp-admin/admin-ajax.php';
+                var wpaicgUserLoggedIn = false;</script>
+            <link href="/wp-content/plugins/gpt3-ai-content-generator/public/css/wpaicg-rtl.css" type="text/css" rel="stylesheet">
+            <link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; 新ブログ カテゴリーのフィード" href="/category/blog-n/feed/">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("🏳️‍⚧️","🏳️​⚧️")?!1:!s("🇺🇳","🇺​🇳")&&!s("🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!s("🫱🏻‍🫲🏿","🫱🏻​🫲🏿")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="/wp-includes/css/classic-themes.min.css?ver=6.2.2" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="wp-ai-content-generator-css" href="/wp-content/plugins/gpt3-ai-content-generator/public/css/wp-ai-content-generator-public.css?ver=1.7.41" type="text/css" media="all">
+<link rel="stylesheet" id="wpel-style-css" href="/wp-content/plugins/wp-external-links/public/css/wpel.css?ver=2.58" type="text/css" media="all">
+<link rel="stylesheet" id="mouse-css" href="/wp-content/plugins/wp-keypopup-algolia/mouse.css?ver=6.2.2" type="text/css" media="all">
+<link rel="stylesheet" id="wpfront-scroll-top-css" href="/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.7.08086" type="text/css" media="all">
+<link rel="stylesheet" id="related-frontend-css-css" href="/wp-content/plugins/ccrw_related/css/frontend-style.css?ver=0.1.0" type="text/css" media="all">
+<link rel="stylesheet" id="uagb-block-css-css" href="/wp-content/uploads/uag-plugin/custom-style-blocks.css?ver=2.7.0" type="text/css" media="all">
+<link rel="stylesheet" id="JankHack-Hew-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/jh-hew/genericons/genericons.css?ver=3.4.1" type="text/css" media="all">
+<link rel="stylesheet" id="JankHack-Hew-style-css" href="/wp-content/themes/jh-hew/style.css?ver=6.2.2" type="text/css" media="all">
+<link rel="stylesheet" id="algolia-autocomplete-css" href="/wp-content/plugins/wp-search-with-algolia/css/algolia-autocomplete.css?ver=2.5.4" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/plugins/jquery-manager/assets/js/jquery-3.5.1.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/jquery-manager/assets/js/jquery-migrate-3.3.0.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/gpt3-ai-content-generator/public/js/wp-ai-content-generator-public.js?ver=1.7.41" id="wp-ai-content-generator-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mousetrap.min.js?ver=6.2.2" id="mice-js"></script>
+<script type="text/javascript" id="mouse-js-extra">
+/* <![CDATA[ */
+var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.2.2" id="mouse-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/1">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.2.2">
+		<style>.algolia-search-highlight {
+				background-color: #fffbcc;
+				border-radius: 2px;
+				font-style: normal;
+			}</style>
+		<style id="uagb-style-frontend-1">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2020/09/logo.png">
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161935417-3"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161935417-3');</script>
+<body class="archive paged category category-blog-n category-1 wp-custom-logo paged-5 category-paged-5 has-sidebar has-header-image">
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="hide">
+		
+<div id="secondary" class="wrap top-widget-area" role="complementary">
+		<div id="sidebar-1" class="widget-area" role="complementary">
+		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
+<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" loading="lazy" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
+</div></aside>	</div>
+<!-- #first .widget-area -->
+	
+	
+	
+	</div>
+<!-- #secondary -->
+	</div>
+	
+	<a class="skip-link screen-reader-text" href="#content">コンテンツへ移動</a>
+
+	<header id="masthead" class="site-header" role="banner">
+					<a class="site-logo" href="/" title="JunkHack" rel="home noopener noreferrer" data-wpel-link="internal">
+				<img src="https://secure.gravatar.com/avatar/997681319c3cbb0bdcca95770d5edaa6/?s=80&#038;d=mm" width="80" height="80" alt="" class="no-grav header-image">
+			</a>
+		
+		<div class="site-branding">
+			<h1 class="site-title"><a href="/" rel="home noopener noreferrer" data-wpel-link="internal">JunkHack</a></h1>
+			<h2 class="site-description">アリエクでポチった JUNKHACK</h2>
+		</div>
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
+				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
+<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail/" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
+<li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://jh.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror Netlify<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+		
+		
+				<div class="toggle-wrapper">
+			<a href="#" class="widgets-toggle toggle-button" title="ウィジェット">
+				<span class="screen-reader-text">ウィジェット</span>
+			</a>
+		</div>
+		
+	</header><!-- #masthead -->
+	
+	<div id="content" class="site-content">
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			<header class="page-header">
+				<h1 class="page-title">カテゴリー: <span>新ブログ</span>
+</h1>			</header><!-- .page-header -->
+
+						
+				
+<article id="post-5556" class="post-5556 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2020/07/29/part2repairsilencer/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-07-29T23:23:53+09:00">2020年7月29日</time><time class="updated" datetime="2022-05-06T16:18:31+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories">  <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2020/07/29/part2repairsilencer/" rel="bookmark noopener noreferrer" data-wpel-link="internal">サイレンサーのネジ３本ゆるゆるで、排気漏れるのをなんとかするその２</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>さて、前回アルミのネジ穴がガバガバだったのでパンク修理キットに入ってりブリキ板で対処していたときに、見事にネジ切れたボルトの対処です。</p>
+<p><img decoding="async" class="alignnone size-full wp-image-5558" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-8.png" alt="空白_Skitch_キャンバス" width="1157" height="413"></p>
+<p>残ったボルトの長さは約6mmでネジ長15mm なので抜くボルトの長さは9mmとなります。これを撤去します。<br>
+このねじ切れ方だと、通常は穴を掘ってエキストラクターで抜きます。しかし、今回抜く方向にかなりトルクがかかってネジ切れていて、そうそう簡単には取れないのではと予想。一応作戦としては、</p>
+<p>⑴ 残ったボルトに穴を掘り、エキストラクターでとる<br>
+⑵ だめなら、もっと穴を大きくしてM6タップで削り取る。</p>
+<p>⑵の場合は、かなり正確にセンターに穴を開ける必要があります。ずれれば、修正するのがめんどくさいです。さて、作業していきましょう。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5560" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-9.png" alt="空白_Skitch_キャンバス" width="1158" height="412"></p>
+<p>まず、センターにポンチを慎重に打ってボルトど真ん中に小さな穴を掘ります。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5562" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-10.png" alt="空白_Skitch_キャンバス" width="1158" height="413"></p>
+<p>慎重にやっても穴が大きくなるとずれが目立って来ます。このくらいの穴になればエキストラクターが入るのでねじ込みます。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5563" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-11.png" alt="空白_Skitch_キャンバス" width="1160" height="412"></p>
+<p>ボール盤にエキストラクターをつけて、手回し＆下押し付け（ハンドル回し）でがっつり食い込ませます。CRCなど油をつけて逆ネジ方向へまわします。しかし、今回はかなり協力に密着しているようです。抜ける気配がしません。エキストラクターが中で折れるとさらにめんどくさいことになりますので、この作戦１はそうそうに諦めて作戦２を実行します。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5565" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-12.png" alt="空白_Skitch_キャンバス" width="1158" height="411"></p>
+<p>エキストラクターは抜いて、さらにドリルで慎重に残ったボルトを削り取ります。いい感じの穴径になれば、ねじ切りタップでさらっていきます。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5566" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-13.png" alt="空白_Skitch_キャンバス" width="1158" height="412"></p>
+<p>先っちょになんか付いていますね！</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5567" src="/wp-content/uploads/2020/07/img_20200729_154134_2.jpg" alt="IMG_20200729_154134_2" width="3968" height="2976"></p>
+<p>はい！　前回付けた、ブリキの残骸が出て来ました。あとは、前回同様の作業を行えばOKです。今回のボルト抜きでかなりガバガバになったM6雌ネジですが、同様の作戦（パンク修理キットの金属板埋め込み）でうまく行きました。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5568" src="/wp-content/uploads/2020/07/img_20200729_163711_9.jpg" alt="IMG_20200729_163711_9" width="3968" height="2976"></p>
+<p>あと、今回はステンレスボルトを使っておきました。ふうー、お疲れ様です。いずれ、ちゃんと処理するためにアリエクでステンレスのインサートナットを買っておきました。</p>
+<p>&nbsp;</p>
+<p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br>
+・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br>
+</del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br>
+・（済）<del>タイヤ前後交換</del><br>
+・（済）<del>フロントホイールのベアリング交換</del><br>
+・（済）<del>リアのクラッチ、ドリブンフェイス側のニードルベアリングの交換</del>（異音がします）<br>
+・（済）<del>ファイナルギアボックスを開けて清掃、鉄粉を除去</del><br>
+・（済）<del>純正の劇重いマフラーを軽量のものに交換</del><br>
+・（済）<del>マフラーにグラスウールを詰めて近接排気音をクリアする</del><br>
+・（済）<del>エンジンオイル抜き、エレメント交換、オイルサンプフィルター清掃</del><br>
+・（済）<del>エンジンオイル注入（オイルサンプフィルターのフタOリング交換）</del><br>
+・（済）<del>リアブレーキパッド交換</del><br>
+・（済）<del>フレームの錆止め<br>
+</del>・（進行中）ボディー色をモリワキカラーに塗り替え<br>
+・ステッカーチューン<br>
+・仮で作ったエキパイ部分をメタルフレキシブルホースに交換して排気漏れをなんとかする<br>
+・（済）<del>サイレンサー入り口のネジ３本をヘリサート加工して排気漏れをなんとかする</del><br>
+・（済）<del>ネジ切れたボルトをなんとかする<br>
+</del>・（進行中）サイレンサーの消音材の処理をもう少しましにする<br>
+・シート張り替え<br>
+・グリップヒーターをグリップの下に埋め込み<br>
+・リアのドリブンフェイス付近からの異音問題（ニードルベアリングは交換済）</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-5527" class="post-5527 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2020/07/29/%e3%82%b5%e3%82%a4%e3%83%ac%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae%e3%83%8d%e3%82%b8%ef%bc%93%e6%9c%ac%e3%82%86%e3%82%8b%e3%82%86%e3%82%8b%e3%81%a7%e3%80%81%e6%8e%92%e6%b0%97%e6%bc%8f%e3%82%8c%e3%82%8b/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-07-29T22:31:24+09:00">2020年7月29日</time></a> </span><span class="posted-on">更新日:2020年7月29日</span> <span class="categories">  <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2020/07/29/%e3%82%b5%e3%82%a4%e3%83%ac%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae%e3%83%8d%e3%82%b8%ef%bc%93%e6%9c%ac%e3%82%86%e3%82%8b%e3%82%86%e3%82%8b%e3%81%a7%e3%80%81%e6%8e%92%e6%b0%97%e6%bc%8f%e3%82%8c%e3%82%8b/" rel="bookmark noopener noreferrer" data-wpel-link="internal">サイレンサーのネジ３本ゆるゆるで、排気漏れるのをなんとかするその１</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>さて、前回までにアルミ製の軽量サイレンサーを取り付けました。</p>
+<blockquote><p><a href="/2020/07/28/%e3%82%b9%e3%82%ab%e3%82%a4%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%96400-ck43a%e3%81%ab%e3%82%a2%e3%83%aa%e3%82%a8%e3%82%af%e3%81%a7%e3%82%b2%e3%83%83%e3%83%88%e3%81%97%e3%81%9f%e8%bb%bd%e9%87%8f%e3%83%9e-3/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aにアリエクでゲットした軽量マフラーを取り付けその３</a></p></blockquote>
+<p><img decoding="async" loading="lazy" class=" size-full wp-image-5499 aligncenter" src="/wp-content/uploads/2020/07/ex3_jpg__800c397800_.png" alt="ex3_jpg__800×800_" width="375" height="337"></p>
+<p>この３つのネジ穴が問題なんです。前回、この入り口を締めたとき３本のM6ネジがしっかり締まらず排気漏れしてしまいました。解決方法としては、ヘリサート加工してリコイルすればアルミ母材でもしっかり締まります。</p>
+<p><a href="https://amzn.to/338yzMC" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" class=" size-full wp-image-5531 aligncenter" src="/wp-content/uploads/2020/07/amazon_co_jpefbc9a_lookgou_e3838de382b7e38299e7a9b4e5868de7949f_e3838de382b7e38299e5b1b1e4bfaee5bea9e383aae38398e3829ae382a2e382ade38383e38388_e3838de382b7e38299e7a9b4e4bfaee6ada3e382bbe.png" alt="Amazon_co_jp：_LOOKGOU_ネジ穴再生_ネジ山修復リペアキット_ネジ穴修正セット_手軽に簡単M5_M6_M8__M6___DIY・工具・ガーデン" width="944" height="567"></a></p>
+<p>そこそこお手軽な値段の専用工具で、これ使ってみようかなと当初思いましたが、念のため他に何か良い手はないかと調査していました。</p>
+<p><img decoding="async" loading="lazy" class=" size-full wp-image-5533 aligncenter" src="/wp-content/uploads/2020/07/m6-14_0_e382b9e382afe383aae383a5e383bce382b5e383bce38388_scte59e8b__rohse5afbee5bf9ce59381___e9bb84e98a85_e7949fe59cb0__1e5808b_e697a5e69cace38388e38299e383a9e382a4e38395e38299e382a4e383.png" alt="M6-14_0_スクリューサート_SCT型__RoHS対応品___黄銅_生地__1個_日本ドライブイット_【通販モノタロウ】_42131101" width="911" height="732"></p>
+<p>これは黄銅 スクリューサート (SCT型)　という商品名のようですが一般的にはインサートナットです。これは黄銅で出来ていて本来、プラスチック用インサートねじということですが、9mmくらいの下穴を開けて10mmのタップを切ってこれを入れればM6ピッチ1.0のネジ穴が出来るというもののようです。モノタロウのコメントにもアルミ母材に対してもいい感じと書かれています。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5535" src="/wp-content/uploads/2020/07/e9bb84e98a85_e382b9e382afe383aae383a5e383bce382b5e383bce38388__scte59e8b_.png" alt="黄銅_スクリューサート__SCT型_" width="613" height="330"></p>
+<p>挿入するときは、M6のボルトにナットを使って固定して入れるという感じ。リコイルよりは下穴の系がでかくなりますが、M10のタップがあれば、これでネジ山は再生できますね。まぁ、しかし１個<b>￥299</b>って納得行かない値段です。</p>
+<p>今回急ぎなので、アリエクでは調達しませんが一応調査しておきます。アリエクでは、検索キーワードに、「 Inserts Metal Thread Repair」とすればわさわさ出て来ます。たとえばステンレス製のものであれば、この値段。10個で247円、送料無料です。これが適正価格です。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5536" src="/wp-content/uploads/2020/07/20pcs_10pcs_5pcs_m2_to_m12_stainless_steel_threaded_inserts_metal_thread_repair_insert_self_tapping_slotted_screw_threaded_nuts__-_aliexpress.png" alt="20pcs_10PCS_5PCS_M2_TO_M12_stainless_steel_Threaded_Inserts_Metal_Thread_Repair_Insert_Self_Tapping_Slotted_Screw_Threaded_Nuts__-_AliExpress" width="1056" height="560"></p>
+<p>M6〜M12くらいは揃えておいてもいいかもですね。</p>
+<p>うーん、しかし今回は２週間も待つのはいやなのですぐになんとかしたいんですよね。さらに調査。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5538" src="/wp-content/uploads/2020/07/amazon___e3838de382b7e38299e7a9b4e8a39ce4bfaee382ade38383e38388e38080efbc91efbc96e69e9ae585a5e38080efbcb3efbcb2efbc8defbc95efbc90___e794a3e6a5ade383bbe7a094e7a9b6e9968be799bae794a8e59381.png" alt="Amazon___ネジ穴補修キット　１６枚入　ＳＲ－５０___産業・研究開発用品___産業・研究開発用品_通販" width="857" height="583"></p>
+<p>コメントを読むと、結構アルミの母材をかじった人が使っていて良い感想が書かれています。この形状、どっかでみたことあるな！　と思いました。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5540" src="/wp-content/uploads/2020/07/img_20200728_120952_3.jpg" alt="IMG_20200728_120952_3" width="2976" height="3968"></p>
+<p>はい！　100円均一のパンク修理キットに入っているゴムに傷をつける薄っぺらい金属の板です。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5541" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-4.png" alt="空白_Skitch_キャンバス" width="789" height="494"></p>
+<p>今回は、これでやってみることにしましょう。ダメなら、モノタロウで１個<b>￥299</b>のインサートナットを３つ買ってなんとかしましょう。ということで、作業に入ります。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5542" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-5.png" alt="空白_Skitch_キャンバス" width="1159" height="411"></p>
+<p>まず、ネジ長に合わせて長さをカット。ネジ穴の半分くらいを埋める幅でカットします。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5543" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-6.png" alt="空白_Skitch_キャンバス" width="1160" height="414"></p>
+<p>ドライバなどの丸いものに添わせてネジ穴にハマるよう加工。ネジ穴に入れます。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5544" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-7.png" alt="空白_Skitch_キャンバス" width="1158" height="412"></p>
+<p>ガバガバだったネジもソケットじゃないと締められないくらいにキツイです。トルクもかなりかかっています！　これで行けますね！</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5545" src="/wp-content/uploads/2020/07/img_20200728_162811_7.jpg" alt="IMG_20200728_162811_7" width="3968" height="2976"></p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5546" src="/wp-content/uploads/2020/07/img_20200728_163035_4.jpg" alt="IMG_20200728_163035_4" width="1920" height="2560"></p>
+<p>完全に綺麗なネジ山というわけにはいきませんが、１、2度の取り外しなら耐えてくれそうです。</p>
+<p>さて、残りの穴もこれでやっていこうと作業続行！　しかし、２本目の穴のボルトは硬いな！と思っていて、規定の位置まで締め込んだあと、抜く時のことです。・・・・・</p>
+<p>一瞬、手に違和感がある感触が伝わりました！　・・・・　やばいねじ切れる！・・・・</p>
+<p>しかしこの状態になったら、もう避けられません。・・・・</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5547" src="/wp-content/uploads/2020/07/img_20200728_174000_1.jpg" alt="IMG_20200728_174000_1" width="2976" height="3968"></p>
+<p>はい！　終了！　見事にねじ切れました。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5548" src="/wp-content/uploads/2020/07/img_20200728_174036_5.jpg" alt="IMG_20200728_174036_5" width="3968" height="2976"></p>
+<p>ネジ切れたボルトのアップ</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5549" src="/wp-content/uploads/2020/07/img_20200728_174036_5_jpg__3968c3972976_.png" alt="IMG_20200728_174036_5_jpg__3968×2976_" width="784" height="594"></p>
+<p>ブリキ板は、がっつり食い込んでいますね。円周の半分以上回してある感じです。ちょっとやりすぎたか。半周以下くらいでやるべきでしたね。</p>
+<p>気を取り直して、３つ目の穴も加工。これはうまくいきました。</p>
+<p>さて、このネジ切れたボルトをなんとかしなければだめになりました。とはいえ、DIYではままあることです。</p>
+<p>しかし、テンションがだだ下がりです。せてめ、ステンレスのネジで締めていけばよかったとか、CRC556塗りながらやっておけばとか。まぁ、速く作業を進めたかったのですが結果的には遠回りです。とほほ。</p>
+<p>次回はこれをどうにかすることにします。</p>
+<p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br>
+・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br>
+</del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br>
+・（済）<del>タイヤ前後交換</del><br>
+・（済）<del>フロントホイールのベアリング交換</del><br>
+・（済）<del>リアのクラッチ、ドリブンフェイス側のニードルベアリングの交換</del>（異音がします）<br>
+・（済）<del>ファイナルギアボックスを開けて清掃、鉄粉を除去</del><br>
+・（済）<del>純正の劇重いマフラーを軽量のものに交換</del><br>
+・（済）<del>マフラーにグラスウールを詰めて近接排気音をクリアする</del><br>
+・（済）<del>エンジンオイル抜き、エレメント交換、オイルサンプフィルター清掃</del><br>
+・（済）<del>エンジンオイル注入（オイルサンプフィルターのフタOリング交換）</del><br>
+・（済）<del>リアブレーキパッド交換</del><br>
+・（済）<del>フレームの錆止め<br>
+</del>・ボディー色をモリワキカラーに塗り替え<br>
+・ステッカーチューン<br>
+・仮で作ったエキパイ部分をメタルフレキシブルホースに交換して排気漏れをなんとかする<br>
+・（進行中）サイレンサー入り口のネジ３本をヘリサート加工して排気漏れをなんとかする<br>
+・ネジ切れたボルトをなんとかする<br>
+・シート張り替え<br>
+・タイヤレターを貼ってレーシングなイメージにする<br>
+・グリップヒーターをグリップの下に埋め込み<br>
+・リアのドリブンフェイス付近からの異音問題（ニードルベアリングは交換済）</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-5516" class="post-5516 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2020/07/28/part2changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-07-28T23:25:15+09:00">2020年7月28日</time><time class="updated" datetime="2022-05-06T05:36:03+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories">  <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2020/07/28/part2changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aをモリワキカラーに塗り替えるその２</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>今日はもう少しディティールにこだわって、塗り替えのイメージを作成してみました。タイヤレターとサイレンサーとホイール白など合成。だいぶ完成系のイメージに近づいてきました。</p>
+<p><img decoding="async" loading="lazy" class=" size-full wp-image-5518 aligncenter" src="/wp-content/uploads/2020/07/moriwaki_color_ai___100___cmyk_e38395e3829ae383ace38392e38299e383a5e383bc_.png" alt="moriwaki_color_ai___100___CMYK_プレビュー_" width="461" height="296"></p>
+<p>片持ちのリアなんで、マフラーあげるとそのあたりが見えてかっこいいですね！<br>
+タイヤレターもアリエクで、ゴム製のがあるのでこれをつけようかなと思ってイメージを作成。MORIWAKI RACING　と、MICHELIN　を入れてみました。</p>
+<p>文字数は１４文字と８文字で２２文字を前後で、４４文字。片面だけだと1500円くらいで行けそうですね。まず片面やって良さそうなら両面やることにしようかな。構想中。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5520" src="/wp-content/uploads/2020/07/skyeo_custom_tyre_letterings_sticker_1_0_75_inch_height_car_stickers_decals_3d_logo_labels_auto_motorcycle_diy_label_letters_car_stickers__-_aliexpress.png" alt="SKYEO_Custom_Tyre_Letterings_Sticker_1_0_75_inch_Height_Car_Stickers_Decals_3D_Logo_Labels_Auto_Motorcycle_DIY_Label_Letters_Car_Stickers__-_AliExpress" width="1025" height="600"></p>
+<p>これはゴム製で接着剤（別売り）で貼り付けるやつです。タイヤの側面も2.5cmくらいあるので1.9cmのでちょうど良さそうです。</p>
+<p>当初、インナーカウル（写真では黒い部分）をどうするか迷っていましたがこうして趣味レーションしてみると黒いままでも良さそうです。</p>
+<p>一度、色サンプルを見てみたいので今ある缶スプレーでフロントフェンダーを塗ってみることにします。まずは下地処理からですね。塗るのは梅雨開けてからにします。てか、今年は雨が長いですね。</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-5503" class="post-5503 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2020/07/28/part1changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-07-28T15:21:48+09:00">2020年7月28日</time><time class="updated" datetime="2022-05-06T05:37:49+09:00">2022年5月6日</time></a> </span><span class="posted-on">更新日:2022年5月6日</span> <span class="categories">  <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2020/07/28/part1changeskyway400ck43atomoriwakicolor/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aをモリワキカラーに塗り替えるその１</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>気になる部分はたくさんありますが、いったん置いておいて次へ進みます。何事も全体の８割を仕上げて全貌が見えてから細部を調理するのがモチベーションをあげるコツです。</p>
+<p>さて、今回は気分一新してモリワキカラーをどうやって塗るか？　を考えて見ることにします。構想中の感じはこれ。</p>
+<p><img decoding="async" loading="lazy" class=" size-full wp-image-5507 aligncenter" src="/wp-content/uploads/2020/07/moriwaki_color_ai____100___cmyk_e38395e3829ae383ace38392e38299e383a5e383bc_.png" alt="moriwaki_color_ai____100___CMYK_プレビュー_" width="445" height="285"></p>
+<p>もう少し、白い部分が多くてもいいかなーとか考えています。この白い曲線と黄色が下に切れる部分がポイントのようです。ステッカーなどはまだこれから考えるんで、アタリですが。<br>
+ベース写真は以下から拝借しています。</p>
+<blockquote><p><img decoding="async" loading="lazy" class="  wp-image-5509 aligncenter" src="/wp-content/uploads/2020/07/e38392e38299e38383e382afe38299e382b9e382afe383bce382bfe383bce8b387e69699e9a4a8efbc9ae382b9e382b9e38299e382ade383bbe382b9e382abe382a4e382a6e382a7e382a4e38395e38299400_efbca9efbca9efbca9_e.png" alt="ビッグスクーター資料館：スズキ・スカイウェイブ400_ＩＩＩ_（BC-CK43A）　_絶版車_" width="451" height="297"><br>
+<a href="http://bikey.web.fc2.com/data/skywave400_03.htm" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ビッグスクーター資料館<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　スズキ・スカイウェイブ４００ ＩＩＩ （BC-CK43A）</p></blockquote>
+<p>モリワキカラーは、青・白・黄色なんですがこのバランスが大事で、以下のプラモデルのデカールや参考写真をじっくりみて検討しています。</p>
+<p><a href="https://www.hiroboy.com/112_Honda_NSR500_Moriwaki_S_Yatsushiro_1986_Decals--product--11274.html#next" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5511" src="/wp-content/uploads/2020/07/112_honda_nsr500_moriwaki_s_yatsushiro_1986_decals_____87094.jpeg" alt="112_Honda_NSR500_Moriwaki_S_Yatsushiro_1986_Decals_____87094" width="928" height="1192"></a></p>
+<p>参考サイト</p>
+<p>このプラモデルの色味がいいですね。モリワキのイエローはどんなんだろう？<br>
+http://www.tim.hi-ho.ne.jp/uesan/gallery1/m_nsr86model.html</p>
+<p>イエローのスプレーを買ったんですが、色味がどんなのか確認するためダンパー部分に塗ってみました。本物のモリワキイエローはどんな色かもう忘れてしまいましたが記憶色ではこんな感じに近いです。これはモノタローの黄色スプレーです。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5514" src="/wp-content/uploads/2020/07/img_20200725_141419_3.jpg" alt="IMG_20200725_141419_3" width="3968" height="2976"></p>
+<p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br>
+・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br>
+</del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br>
+・（済）<del>タイヤ前後交換</del><br>
+・（済）<del>フロントホイールのベアリング交換</del><br>
+・（済）<del>リアのクラッチ、ドリブンフェイス側のニードルベアリングの交換</del>（異音がします）<br>
+・（済）<del>ファイナルギアボックスを開けて清掃、鉄粉を除去</del><br>
+・（済）<del>純正の劇重いマフラーを軽量のものに交換</del><br>
+・（済）<del>マフラーにグラスウールを詰めて近接排気音をクリアする</del><br>
+・（済）<del>エンジンオイル抜き、エレメント交換、オイルサンプフィルター清掃</del><br>
+・（済）<del>エンジンオイル注入（オイルサンプフィルターのフタOリング交換）</del><br>
+・（済）<del>リアブレーキパッド交換</del><br>
+・（済）<del>フレームの錆止め<br>
+</del>・（進行中）ボディー色をモリワキカラーに塗り替え<br>
+・ステッカーチューン<br>
+・仮で作ったエキパイ部分をメタルフレキシブルホースに交換して排気漏れをなんとかする<br>
+・サイレンサー入り口のネジ３本をヘリサート加工して排気漏れをなんとかする<br>
+・シート張り替え<br>
+・グリップヒーターをグリップの下に埋め込み<br>
+・リアのドリブンフェイス付近からの異音問題（ニードルベアリングは交換済）</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-5490" class="post-5490 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2020/07/28/part3diyskyway400ck43a/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2020-07-28T03:26:40+09:00">2020年7月28日</time><time class="updated" datetime="2022-06-12T18:20:53+09:00">2022年6月12日</time></a> </span><span class="posted-on">更新日:2022年6月12日</span> <span class="categories">  <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2020/07/28/part3diyskyway400ck43a/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aにアリエクでゲットした軽量マフラーを取り付けその３</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>マフラーDIYの続きです。マフラーにホームセンターで買ってきたグラスウールを詰めて近接排気音がどのくらい下がるか実験です。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5492" src="/wp-content/uploads/2020/07/img_20200727_132007_7.jpg" alt="IMG_20200727_132007_7" width="3968" height="2976"></p>
+<p>50cmくらいのグラスウールをぐるっと巻いた感じです。針金でぐるぐる巻きにしてありますが、サイレンサーの中にほぼキツキツの状態です。巻き過ぎたかな？</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5495" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_28_2_44.png" alt="スクリーンショット_2020_07_28_2_44" width="834" height="849"></p>
+<p>測定方法は、マフラー後方から45度・50cmの位置に騒音計（スマホ）を設置しています。<br>
+グラスウールを巻いていない前回と比べて、アイドリング時は、５dBくらい下がっています。明らかに静かになりました。ぼぉふぼぉふ　という耳に優しい感じの音です。このくらいグラスウールを巻けば5dB下がるということはわかりました。</p>
+<p>そして近接排気音は4000rpmまで回して計測。一人なんで、スクリーンショットがうまく撮れていませんが、波形を見ると74dBくらいです。94dB以下であれば問題ないのでノーマルマフラー並みに静かです。</p>
+<p>もう少し、グラスウールの量は減らしてもいいかもですね。いろいろ調整してようと思いますが、ここで問題点が２つ。</p>
+<p>まず１つは、排気漏れ。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5498" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_28_3_00.png" alt="スクリーンショット_2020_07_28_3_00" width="1160" height="411"></p>
+<p>完全にダダ漏れです。アイドリング時だと気がつきませんでしたが、4000rpmくらいまで回すと明らかに漏れます。うーん。排気圧は侮れませんね。とりあえず、フレキシブルホースが来るまでのつなぎとして考えていましたが、無駄な努力だったようです。完全にマフラーをなめてましたね！</p>
+<p>あと、もう一つはサイレンサー後方のネジ３本がしっかり締まりません。母材がアルミなんでヘリサート加工（ネジ穴を作り直す加工）しないと、強く締め付けられません。フタの隙間から漏れています。ここにはガスケットが付いてきているんですが、それが完全に密着していません。</p>
+<p><img decoding="async" loading="lazy" class=" size-full wp-image-5499 aligncenter" src="/wp-content/uploads/2020/07/ex3_jpg__800c397800_.png" alt="ex3_jpg__800×800_" width="375" height="337"></p>
+<p>ということで、また課題が生まれました。どのように解決するかはまたおいおい考えることにします。どうやら、フレキシブルホースも到着しそうなのでエキパイ部分の漏れはなんとかなるかなと思いますが、サイレンサー後方の処理をしないとです。</p>
+<p>速く色をモリワキカラー に塗りたいので、そっちを優先するかもですがまぁぼちぼちやっていくことにしますか。</p>
+<p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br>
+・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br>
+</del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br>
+・（済）<del>タイヤ前後交換</del><br>
+・（済）<del>フロントホイールのベアリング交換</del><br>
+・（済）<del>リアのクラッチ、ドリブンフェイス側のニードルベアリングの交換</del>（異音がします）<br>
+・（済）<del>ファイナルギアボックスを開けて清掃、鉄粉を除去</del><br>
+・（済）<del>純正の劇重いマフラーを軽量のものに交換</del><br>
+・（済）<del>マフラーにグラスウールを詰めて近接排気音をクリアする</del><br>
+・（済）<del>エンジンオイル抜き、エレメント交換、オイルサンプフィルター清掃</del><br>
+・（済）<del>エンジンオイル注入（オイルサンプフィルターのフタOリング交換）</del><br>
+・（済）<del>リアブレーキパッド交換</del><br>
+・（済）<del>フレームの錆止め<br>
+</del>・ボディー色をモリワキカラーに塗り替え<br>
+・ステッカーチューン<br>
+・仮で作ったエキパイ部分をメタルフレキシブルホースに交換して排気漏れをなんとかする<br>
+・サイレンサー入り口のネジ３本をヘリサート加工して排気漏れをなんとかする<br>
+・シート張り替え<br>
+・グリップヒーターをグリップの下に埋め込み<br>
+・リアのドリブンフェイス付近からの異音問題（ニードルベアリングは交換済）</p>
+<p>&nbsp;</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-5463" class="post-5463 post type-post status-publish format-standard has-post-thumbnail hentry category-bike category-blog category-diy">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2020/07/27/%e3%82%b9%e3%82%ab%e3%82%a4%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%96400-ck43a%e3%81%ab%e3%82%a2%e3%83%aa%e3%82%a8%e3%82%af%e3%81%a7%e3%82%b2%e3%83%83%e3%83%88%e3%81%97%e3%81%9f%e8%bb%bd%e9%87%8f%e3%83%9e-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-07-27T01:26:45+09:00">2020年7月27日</time></a> </span><span class="posted-on">更新日:2020年7月27日</span> <span class="categories">  <a href="/category/bike/" rel="category tag noopener noreferrer" data-wpel-link="internal">bike</a>, <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2020/07/27/%e3%82%b9%e3%82%ab%e3%82%a4%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%96400-ck43a%e3%81%ab%e3%82%a2%e3%83%aa%e3%82%a8%e3%82%af%e3%81%a7%e3%82%b2%e3%83%83%e3%83%88%e3%81%97%e3%81%9f%e8%bb%bd%e9%87%8f%e3%83%9e-2/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aにアリエクでゲットした軽量マフラーを取り付けその２</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>前回、アリエクでゲットしたマフラーをどのように取り付けるか考えていました。</p>
+<blockquote><p><a href="/2020/07/23/%e3%82%b9%e3%82%ab%e3%82%a4%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%96400-ck43a%e3%81%ab%e3%82%a2%e3%83%aa%e3%82%a8%e3%82%af%e3%81%a7%e3%82%b2%e3%83%83%e3%83%88%e3%81%97%e3%81%9f%e8%bb%bd%e9%87%8f%e3%83%9e/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">スカイウェイブ400 CK43Aにアリエクでゲットした軽量マフラーを取り付けその１</a></p></blockquote>
+<p>内径38mm 外径44mmのステンレス蛇腹ホースがまだ届かないので、とりあえず仮付でもいいから付けてみようということにしました。とりあえず、素材を見つけにホームセンターと100円均一に買い出しです。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5466" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_26.png" alt="スクリーンショット_2020_07_27_0_26" width="1138" height="405"></p>
+<p>メタルフレキシブルホースも、外径が太いステンレス蛇腹ホースもなかったので何か使えそうなのはないかと物色していましたら、ちょうど良さそうなノボリ旗の杭と、電気配線を隠すなんていう名前かわかりませんが、９０度に曲がった鉄パイプ、それとパイプを壁に固定する金具です。どれも32mm径にハマりそうです。合計1000円くらい。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5469" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_32.png" alt="スクリーンショット_2020_07_27_0_32" width="1159" height="412"></p>
+<p>ノボリ旗の杭は、サイレンサーの中の消音に利用します。100円均一では、ステンレスステーをゲット。ダイソーはなんでもありますね！</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5470" src="/wp-content/uploads/2020/07/img_20200725_130922_7.jpg" alt="IMG_20200725_130922_7" width="3968" height="2976"></p>
+<p>とりあえず、外装を仮付してマフラー位置を検討。あたり位置にマーキングしておきます。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5471" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_36.png" alt="スクリーンショット_2020_07_27_0_36" width="1162" height="414"></p>
+<p>マフラーを付けたり取ったりしながら、純正マフラーのパイプをカットする位置を検討。手前で切るか奥で切るか悩みましたが、あとから純正も利用することや、長い→短い　にすることは可能なので付け根付近でカットすることに。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5473" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_38.png" alt="スクリーンショット_2020_07_27_0_38" width="1162" height="416"></p>
+<p>切ったら元に戻せないのですが、どこで切ることにするか決定したら３分でカット！　はい、もう作業完了させるまでバイク乗れませんね！</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5474" src="/wp-content/uploads/2020/07/img_20200725_143504_6.jpg" alt="IMG_20200725_143504_6" width="3968" height="2976"></p>
+<p>取り付けステーを作ります。ステンレスで錆びないのでいいですね。バイスもダイソーのやつです。ある程度はバイスと手で曲げてソケットとハンマーで整形です。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5475" src="/wp-content/uploads/2020/07/img_20200725_154247_9.jpg" alt="IMG_20200725_154247_9" width="3968" height="2976"></p>
+<p>軽量なんで１本で大丈夫そうです。さて、今回最大の難関のマフラー接合部分です。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5476" src="/wp-content/uploads/2020/07/img_20200725_161205_7.jpg" alt="IMG_20200725_161205_7" width="3968" height="2976"></p>
+<p>検討した結果、９０度に曲がっているパイプを半分にカットして使うことに。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5477" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_48.png" alt="スクリーンショット_2020_07_27_0_48" width="1158" height="413"></p>
+<p>隙間をどうにかするため、再度ホームセンターへ物色。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5478" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_50.png" alt="スクリーンショット_2020_07_27_0_50" width="1160" height="413"></p>
+<p>グラスウール265円と、耐熱パテをゲット。1100度までOKみたいです。800円くらいだったかな。アルミテープはダイソーです。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5480" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_54.png" alt="スクリーンショット_2020_07_27_0_54" width="1058" height="374"></p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5481" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_0_55.png" alt="スクリーンショット_2020_07_27_0_55" width="1056" height="373"></p>
+<p>色はグレーで、硬化時間は５時間くらいみたいです。作業続行したいので、アルミテープで養生しておきます。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5482" src="/wp-content/uploads/2020/07/e7a9bae799bd_skitch_e382ade383a3e383b3e3838fe38299e382b9-3.png" alt="空白_Skitch_キャンバス" width="1209" height="864"></p>
+<p>次はサイレンサーの中部分です。穴をたくさん開けるため、ポンチを打っておきます。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5483" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_1_00.png" alt="スクリーンショット_2020_07_27_1_00" width="1161" height="413"></p>
+<p>2.5cm間隔で8mmの穴を開けておきました。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5484" src="/wp-content/uploads/2020/07/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_07_27_1_02.png" alt="スクリーンショット_2020_07_27_1_02" width="1111" height="395"></p>
+<p>あとサイレンサーのエンド部分に若干の隙間があるので、アルミ板でキツキツにしておきます。アルミテープより厚みがあります。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5485" src="/wp-content/uploads/2020/07/img_20200726_232003_3.jpg" alt="IMG_20200726_232003_3" width="3968" height="2976"></p>
+<p>まだグラスウールは詰めていませんが、この時点で騒音を計測。サイレンサー後方から45度の角度で50cm離した位置で計測。アイドリング時の音量です。</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5486" src="/wp-content/uploads/2020/07/screenshot_20200726-232906.png" alt="Screenshot_20200726-232906" width="1080" height="2340"></p>
+<p>意外と静かですね。約70dBでした。近接排気音は、4000rpmくらい（最高出力の半分）まで回さないとなので今日は夜遅いので明日にでも計測してみます。もう少し静かなほうが好みなので、グラスウールは詰めるんですが、データとして持っておきたいです。</p>
+<p>・（済）<del>リアのキャリアステー自作してキャリア設置</del><br>
+・（済）<del>ホイールを白色に塗りかえと、フロントホイールのベアリング外し<br>
+</del>・（済）<del>プラグ交換（長さ19mmのCR7EIXが来るのを待ち）</del><br>
+・（済）<del>タイヤ前後交換</del><br>
+・（済）<del>フロントホイールのベアリング交換</del><br>
+・（済）<del>リアのクラッチ、ドリブンフェイス側のニードルベアリングの交換</del>（異音がします）<br>
+・（済）<del>ファイナルギアボックスを開けて清掃、鉄粉を除去</del><br>
+・ボディー色をモリワキカラーに塗り替え<br>
+・（済）純正の劇重いマフラーを軽量のものに交換<br>
+・マフラーにグラスウールを詰めて近接排気音をクリアする<br>
+・ステッカーチューン<br>
+・（済）<del>エンジンオイル抜き、エレメント交換、オイルサンプフィルター清掃</del><br>
+・（済）<del>エンジンオイル注入（オイルサンプフィルターのフタOリング交換）</del><br>
+・（済）<del>リアブレーキパッド交換</del><br>
+・（済）<del>フレームの錆止め</del><br>
+・シート張り替え<br>
+・グリップヒーターをグリップの下に埋め込み<br>
+・リアのドリブンフェイス付近からの異音問題（ニードルベアリングは交換済）</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+			
+	<nav class="navigation posts-navigation" aria-label="投稿">
+		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
+		<div class="nav-links">
+<div class="nav-previous"><a href="/category/blog-n/page/6/" data-wpel-link="internal" rel="noopener noreferrer">過去の投稿</a></div>
+<div class="nav-next"><a href="/category/blog-n/page/4/" data-wpel-link="internal" rel="noopener noreferrer">新しい投稿</a></div>
+</div>
+	</nav>
+		
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+	</div>
+<!-- #content -->
+
+	<footer id="colophon" class="site-footer wrap" role="contentinfo">
+		<div class="site-info">
+			Copyleft - all rights reversed.
+			<span class="sep"> | </span>
+			JunkHack 2011 - 2023
+			<span class="sep"> | </span>
+			<a href="/about-junkhack/" data-wpel-link="internal" rel="noopener noreferrer">運営者情報<span class="gf"></span></a><span class="sep"> | </span>
+			<a href="/mail/" data-wpel-link="internal" rel="noopener noreferrer">お問い合わせ<span class="gf"></span></a><span class="sep"> | </span>
+			<a href="/privacy/" data-wpel-link="internal" rel="noopener noreferrer">プライバシーポリシー<span class="gf"></span></a>
+		</div>
+<!-- .site-info -->
+
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+            <script>var wpaicgUserLoggedIn = false;</script>
+                <div id="mouse">
+        <div class="inner">
+            <h1>Search</h1>
+            
+                    <form class="uagb-search-wrapper" role="search" action="https://hack.gpl.jp/" method="get">
+                        <div class="uagb-search-form__container" role="tablist">
+
+                            <input placeholder="Search" class="uagb-search-form__input aa-input" id="searchbox" type="search" name="s" title="Search" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="width: 80%;">
+                            <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;">
+                            </pre>
+                        </div>
+                    </form>
+
+            <table>
+                <tr>
+                    <td class="divide">
+                        <table>
+                                <tr>
+        <td>
+<span class="cmd">g</span> <span class="thn">then</span> <span class="cmd">h</span>
+</td>
+        <td><span class="help">&rarr; home</span></td>
+        <td>Go to front page</td>
+    </tr>    
+                                    <tr>
+        <td>
+<span class="cmd">g</span> <span class="thn">then</span> <span class="cmd">l</span>
+</td>
+        <td><span class="help">&rarr; list</span></td>
+        <td>Go to List page</td>
+    </tr>    
+                                    <tr>
+        <td>
+<span class="cmd">g</span> <span class="thn">then</span> <span class="cmd">s</span>
+</td>
+        <td><span class="help">&rarr; search</span></td>
+        <td>Go to Search page</td>
+    </tr>    
+                            </table>                    
+                    </td>
+                    <td class="divide">
+                        <table>
+                                <tr>
+        <td><span class="cmd">/ or esc</span></td>
+        <td><span class="help">&rarr; search</span></td>
+        <td>Toggle , Close the search box</td>
+    </tr>    
+                                    <tr>
+        <td><span class="cmd">.</span></td>
+        <td><span class="help">&rarr; Focus</span></td>
+        <td>Focus the search box</td>
+    </tr>    
+                                    <tr>
+        <td><span class="cmd">Mouse Click</span></td>
+        <td><span class="help">&rarr; unFocus</span></td>
+        <td>unFocus the search box</td>
+    </tr>    
+                            </table>
+                    
+                    </td>
+                </tr>
+            </table>  
+        </div>
+    </div>
+            <div id="wpfront-scroll-top-container">
+            <img src="/wp-content/plugins/wpfront-scroll-top/images/icons/1.png" alt="">        </div>
+                <script type="text/javascript">function wpfront_scroll_top_init() {
+                if (typeof wpfront_scroll_top === "function" && typeof jQuery !== "undefined") {
+                    wpfront_scroll_top({"scroll_offset":100,"button_width":55,"button_height":55,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":80,"marginY":10,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":0});
+                } else {
+                    setTimeout(wpfront_scroll_top_init, 100);
+                }
+            }
+            wpfront_scroll_top_init();</script>
+        <script type="text/javascript">var algolia = {"debug":false,"application_id":"8DCPU3VRUU","search_api_key":"052e9cca1df4182ec607663dc893c235","powered_by_enabled":true,"query":"","autocomplete":{"sources":[{"index_id":"posts_post","index_name":"wp_posts_post","label":"投稿","admin_name":"投稿","position":10,"max_suggestions":10,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true}],"input_selector":"input[name='s']:not(.no-autocomplete):not(#adminbar-search)"},"indices":{"searchable_posts":{"name":"wp_searchable_posts","id":"searchable_posts","enabled":true,"replicas":[]},"posts_post":{"name":"wp_posts_post","id":"posts_post","enabled":true,"replicas":[]}}};</script>
+<script type="text/html" id="tmpl-autocomplete-header"><div class="autocomplete-header">
+		<div class="autocomplete-header-title">{{{ data.label }}}</div>
+		<div class="clear"></div>
+	</div></script>
+
+<script type="text/html" id="tmpl-autocomplete-post-suggestion">
+	<a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.post_title }}">
+		<# if ( data.images.thumbnail ) { #>
+			<img class="suggestion-post-thumbnail" src="{{ data.images.thumbnail.url }}" alt="{{ data.post_title }}">
+		<# } #>
+		<div class="suggestion-post-attributes">
+			<span class="suggestion-post-title">{{{ data._highlightResult.post_title.value }}}</span>
+			<# if ( data._snippetResult['content'] ) { #>
+				<span class="suggestion-post-content">{{{ data._snippetResult['content'].value }}}</span>
+			<# } #>
+		</div>
+			</a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-term-suggestion">
+	<a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.name }}">
+		<svg viewBox="0 0 21 21" width="21" height="21">
+			<svg width="21" height="21" viewBox="0 0 21 21">
+				<path
+					d="M4.662 8.72l-1.23 1.23c-.682.682-.68 1.792.004 2.477l5.135 5.135c.7.693 1.8.688 2.48.005l1.23-1.23 5.35-5.346c.31-.31.54-.92.51-1.36l-.32-4.29c-.09-1.09-1.05-2.06-2.15-2.14l-4.3-.33c-.43-.03-1.05.2-1.36.51l-.79.8-2.27 2.28-2.28 2.27zm9.826-.98c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25z"
+					fill-rule="evenodd"></path>
+			</svg>
+		</svg>
+		<span class="suggestion-post-title">{{{ data._highlightResult.name.value }}}</span>
+	</a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-user-suggestion">
+	<a class="suggestion-link user-suggestion-link" href="{{ data.posts_url }}" title="{{ data.display_name }}">
+		<# if ( data.avatar_url ) { #>
+			<img class="suggestion-user-thumbnail" src="{{ data.avatar_url }}" alt="{{ data.display_name }}">
+		<# } #>
+		<span class="suggestion-post-title">{{{ data._highlightResult.display_name.value }}}</span>
+	</a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-footer">
+	<div class="autocomplete-footer">
+		<div class="autocomplete-footer-branding">
+			<a href="#" class="algolia-powered-by-link" title="Algolia">
+				<svg width="150px" height="25px" viewbox="0 0 572 64"><path fill="#36395A" d="M16 48.3c-3.4 0-6.3-.6-8.7-1.7A12.4 12.4 0 0 1 1.9 42C.6 40 0 38 0 35.4h6.5a6.7 6.7 0 0 0 3.9 6c1.4.7 3.3 1.1 5.6 1.1 2.2 0 4-.3 5.4-1a7 7 0 0 0 3-2.4 6 6 0 0 0 1-3.4c0-1.5-.6-2.8-1.9-3.7-1.3-1-3.3-1.6-5.9-1.8l-4-.4c-3.7-.3-6.6-1.4-8.8-3.4a10 10 0 0 1-3.3-7.9c0-2.4.6-4.6 1.8-6.4a12 12 0 0 1 5-4.3c2.2-1 4.7-1.6 7.5-1.6s5.5.5 7.6 1.6a12 12 0 0 1 5 4.4c1.2 1.8 1.8 4 1.8 6.7h-6.5a6.4 6.4 0 0 0-3.5-5.9c-1-.6-2.6-1-4.4-1s-3.2.3-4.4 1c-1.1.6-2 1.4-2.6 2.4-.5 1-.8 2-.8 3.1a5 5 0 0 0 1.5 3.6c1 1 2.6 1.7 4.7 1.9l4 .3c2.8.2 5.2.8 7.2 1.8 2.1 1 3.7 2.2 4.9 3.8a9.7 9.7 0 0 1 1.7 5.8c0 2.5-.7 4.7-2 6.6a13 13 0 0 1-5.6 4.4c-2.4 1-5.2 1.6-8.4 1.6Zm35.6 0c-2.6 0-4.8-.4-6.7-1.3a13 13 0 0 1-4.7-3.5 17.1 17.1 0 0 1-3.6-10.4v-1c0-2 .3-3.8 1-5.6a13 13 0 0 1 7.3-8.3 15 15 0 0 1 6.3-1.4A13.2 13.2 0 0 1 64 24.3c1 2.2 1.6 4.6 1.6 7.2V34H39.4v-4.3h21.8l-1.8 2.2c0-2-.3-3.7-.9-5.1a7.3 7.3 0 0 0-2.7-3.4c-1.2-.7-2.7-1.1-4.6-1.1s-3.4.4-4.7 1.3a8 8 0 0 0-2.9 3.6c-.6 1.5-.9 3.3-.9 5.4 0 2 .3 3.7 1 5.3a7.9 7.9 0 0 0 2.8 3.7c1.3.8 3 1.3 5 1.3s3.8-.5 5.1-1.3c1.3-1 2.1-2 2.4-3.2h6a11.8 11.8 0 0 1-7 8.7 16 16 0 0 1-6.4 1.2ZM80 48c-2.2 0-4-.3-5.7-1a8.4 8.4 0 0 1-3.7-3.3 9.7 9.7 0 0 1-1.3-5.2c0-2 .5-3.8 1.5-5.2a9 9 0 0 1 4.3-3.1c1.8-.7 4-1 6.7-1H89v4.1h-7.5c-2 0-3.4.5-4.4 1.4-1 1-1.6 2.1-1.6 3.6s.5 2.7 1.6 3.6c1 1 2.5 1.4 4.4 1.4 1.1 0 2.2-.2 3.2-.7 1-.4 1.9-1 2.6-2 .6-1 1-2.4 1-4.2l1.7 2.1c-.2 2-.7 3.8-1.5 5.2a9 9 0 0 1-3.4 3.3 12 12 0 0 1-5.3 1Zm9.5-.7v-8.8h-1v-10c0-1.8-.5-3.2-1.4-4.1-1-1-2.4-1.4-4.2-1.4a142.9 142.9 0 0 0-10.2.4v-5.6a74.8 74.8 0 0 1 8.6-.4c3 0 5.5.4 7.5 1.2s3.4 2 4.4 3.6c1 1.7 1.4 4 1.4 6.7v18.4h-5Zm12.9 0V17.8h5v12.3h-.2c0-4.2 1-7.4 2.8-9.5a11 11 0 0 1 8.3-3.1h1v5.6h-2a9 9 0 0 0-6.3 2.2c-1.5 1.5-2.2 3.6-2.2 6.4v15.6h-6.4Zm34.4 1a15 15 0 0 1-6.6-1.3c-1.9-.9-3.4-2-4.7-3.5a15.5 15.5 0 0 1-2.7-5c-.6-1.7-1-3.6-1-5.4v-1c0-2 .4-3.8 1-5.6a15 15 0 0 1 2.8-4.9c1.3-1.5 2.8-2.6 4.6-3.5a16.4 16.4 0 0 1 13.3.2c2 1 3.5 2.3 4.8 4a12 12 0 0 1 2 6H144c-.2-1.6-1-3-2.2-4.1a7.5 7.5 0 0 0-5.2-1.7 8 8 0 0 0-4.7 1.3 8 8 0 0 0-2.8 3.6 13.8 13.8 0 0 0 0 10.3c.6 1.5 1.5 2.7 2.8 3.6s2.8 1.3 4.8 1.3c1.5 0 2.7-.2 3.8-.8a7 7 0 0 0 2.6-2c.7-1 1-2 1.2-3.2h6.2a11 11 0 0 1-2 6.2 15.1 15.1 0 0 1-11.8 5.5Zm19.7-1v-40h6.4V31h-1.3c0-3 .4-5.5 1.1-7.6a9.7 9.7 0 0 1 3.5-4.8A9.9 9.9 0 0 1 172 17h.3c3.5 0 6 1.1 7.9 3.5 1.7 2.3 2.6 5.7 2.6 10v16.8h-6.4V29.6c0-2.1-.6-3.8-1.8-5a6.4 6.4 0 0 0-4.8-1.8c-2 0-3.7.7-5 2a7.8 7.8 0 0 0-1.9 5.5v17h-6.4Zm63.8 1a12.2 12.2 0 0 1-10.9-6.2 19 19 0 0 1-1.8-7.3h1.4v12.5h-5.1v-40h6.4v19.8l-2 3.5c.2-3.1.8-5.7 1.9-7.7a11 11 0 0 1 4.4-4.5c1.8-1 3.9-1.5 6.1-1.5a13.4 13.4 0 0 1 12.8 9.1c.7 1.9 1 3.8 1 6v1c0 2.2-.3 4.1-1 6a13.6 13.6 0 0 1-13.2 9.4Zm-1.2-5.5a8.4 8.4 0 0 0 7.9-5c.7-1.5 1.1-3.3 1.1-5.3s-.4-3.8-1.1-5.3a8.7 8.7 0 0 0-3.2-3.6 9.6 9.6 0 0 0-9.2-.2 8.5 8.5 0 0 0-3.3 3.2c-.8 1.4-1.3 3-1.3 5v2.3a9 9 0 0 0 1.3 4.8 9 9 0 0 0 3.4 3c1.4.7 2.8 1 4.4 1Zm27.3 3.9-10-28.9h6.5l9.5 28.9h-6Zm-7.5 12.2v-5.7h4.9c1 0 2-.1 2.9-.4a4 4 0 0 0 2-1.4c.4-.7.9-1.6 1.2-2.7l8.6-30.9h6.2l-9.3 32.4a14 14 0 0 1-2.5 5 8.9 8.9 0 0 1-4 2.8c-1.5.6-3.4.9-5.6.9h-4.4Zm9-12.2v-5.2h6.4v5.2H248Z"></path><path fill="#003DFF" d="M534.4 9.1H528a.8.8 0 0 1-.7-.7V1.8c0-.4.2-.7.6-.8l6.5-1c.4 0 .8.2.9.6v7.8c0 .4-.4.7-.8.7zM428 35.2V.8c0-.5-.3-.8-.7-.8h-.2l-6.4 1c-.4 0-.7.4-.7.8v35c0 1.6 0 11.8 12.3 12.2.5 0 .8-.4.8-.8V43c0-.4-.3-.7-.6-.8-4.5-.5-4.5-6-4.5-7zm106.5-21.8H528c-.4 0-.7.4-.7.8v34c0 .4.3.8.7.8h6.5c.4 0 .8-.4.8-.8v-34c0-.5-.4-.8-.8-.8zm-17.7 21.8V.8c0-.5-.3-.8-.8-.8l-6.5 1c-.4 0-.7.4-.7.8v35c0 1.6 0 11.8 12.3 12.2.4 0 .8-.4.8-.8V43c0-.4-.3-.7-.7-.8-4.4-.5-4.4-6-4.4-7zm-22.2-20.6a16.5 16.5 0 0 1 8.6 9.3c.8 2.2 1.3 4.8 1.3 7.5a19.4 19.4 0 0 1-4.6 12.6 14.8 14.8 0 0 1-5.2 3.6c-2 .9-5.2 1.4-6.8 1.4a21 21 0 0 1-6.7-1.4 15.4 15.4 0 0 1-8.6-9.3 21.3 21.3 0 0 1 0-14.4 15.2 15.2 0 0 1 8.6-9.3c2-.8 4.3-1.2 6.7-1.2s4.6.4 6.7 1.2zm-6.7 27.6c2.7 0 4.7-1 6.2-3s2.2-4.3 2.2-7.8-.7-6.3-2.2-8.3-3.5-3-6.2-3-4.7 1-6.1 3c-1.5 2-2.2 4.8-2.2 8.3s.7 5.8 2.2 7.8 3.5 3 6.2 3zm-88.8-28.8c-6.2 0-11.7 3.3-14.8 8.2a18.6 18.6 0 0 0 4.8 25.2c1.8 1.2 4 1.8 6.2 1.7s.1 0 .1 0h.9c4.2-.7 8-4 9.1-8.1v7.4c0 .4.3.7.8.7h6.4a.7.7 0 0 0 .7-.7V14.2c0-.5-.3-.8-.7-.8h-13.5zm6.3 26.5a9.8 9.8 0 0 1-5.7 2h-.5a10 10 0 0 1-9.2-14c1.4-3.7 5-6.3 9-6.3h6.4v18.3zm152.3-26.5h13.5c.5 0 .8.3.8.7v33.7c0 .4-.3.7-.8.7h-6.4a.7.7 0 0 1-.8-.7v-7.4c-1.2 4-4.8 7.4-9 8h-.1a4.2 4.2 0 0 1-.5.1h-.9a10.3 10.3 0 0 1-7-2.6c-4-3.3-6.5-8.4-6.5-14.2 0-3.7 1-7.2 3-10 3-5 8.5-8.3 14.7-8.3zm.6 28.4c2.2-.1 4.2-.6 5.7-2V21.7h-6.3a9.8 9.8 0 0 0-9 6.4 10.2 10.2 0 0 0 9.1 13.9h.5zM452.8 13.4c-6.2 0-11.7 3.3-14.8 8.2a18.5 18.5 0 0 0 3.6 24.3 10.4 10.4 0 0 0 13 .6c2.2-1.5 3.8-3.7 4.5-6.1v7.8c0 2.8-.8 5-2.2 6.3-1.5 1.5-4 2.2-7.5 2.2l-6-.3c-.3 0-.7.2-.8.5l-1.6 5.5c-.1.4.1.8.5 1h.1c2.8.4 5.5.6 7 .6 6.3 0 11-1.4 14-4.1 2.7-2.5 4.2-6.3 4.5-11.4V14.2c0-.5-.4-.8-.8-.8h-13.5zm6.3 8.2v18.3a9.6 9.6 0 0 1-5.6 2h-1a10.3 10.3 0 0 1-8.8-14c1.4-3.7 5-6.3 9-6.3h6.4zM291 31.5A32 32 0 0 1 322.8 0h30.8c.6 0 1.2.5 1.2 1.2v61.5c0 1.1-1.3 1.7-2.2 1l-19.2-17a18 18 0 0 1-11 3.4 18.1 18.1 0 1 1 18.2-14.8c-.1.4-.5.7-.9.6-.1 0-.3 0-.4-.2l-3.8-3.4c-.4-.3-.6-.8-.7-1.4a12 12 0 1 0-2.4 8.3c.4-.4 1-.5 1.6-.2l14.7 13.1v-46H323a26 26 0 1 0 10 49.7c.8-.4 1.6-.2 2.3.3l3 2.7c.3.2.3.7 0 1l-.2.2a32 32 0 0 1-47.2-28.6z"></path></svg>
+			</a>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-empty"><div class="autocomplete-empty">
+		クエリにマッチした結果はありません		<span class="empty-query">"{{ data.query }}"</span>
+	</div></script>
+
+<script type="text/javascript">
+	window.addEventListener('load', function () {
+
+		/* Initialize Algolia client */
+		var client = algoliasearch( algolia.application_id, algolia.search_api_key );
+
+		/**
+		 * Algolia hits source method.
+		 *
+		 * This method defines a custom source to use with autocomplete.js.
+		 *
+		 * @param object $index Algolia index object.
+		 * @param object $params Options object to use in search.
+		 */
+		var algoliaHitsSource = function( index, params ) {
+			return function( query, callback ) {
+				index
+					.search( query, params )
+					.then( function( response ) {
+						callback( response.hits, response );
+					})
+					.catch( function( error ) {
+						callback( [] );
+					});
+			}
+		}
+
+		/* Setup autocomplete.js sources */
+		var sources = [];
+		algolia.autocomplete.sources.forEach( function( config, i ) {
+			var suggestion_template = wp.template( config[ 'tmpl_suggestion' ] );
+			sources.push( {
+				source: algoliaHitsSource( client.initIndex( config[ 'index_name' ] ), {
+					hitsPerPage: config[ 'max_suggestions' ],
+					attributesToSnippet: [
+						'content:10'
+					],
+					highlightPreTag: '__ais-highlight__',
+					highlightPostTag: '__/ais-highlight__'
+				} ),
+				templates: {
+					header: function () {
+						return wp.template( 'autocomplete-header' )( {
+							label: _.escape( config[ 'label' ] )
+						} );
+					},
+					suggestion: function ( hit ) {
+						if ( hit.escaped === true ) {
+							return suggestion_template( hit );
+						}
+						hit.escaped = true;
+
+						for ( var key in hit._highlightResult ) {
+							/* We do not deal with arrays. */
+							if ( typeof hit._highlightResult[ key ].value !== 'string' ) {
+								continue;
+							}
+							hit._highlightResult[ key ].value = _.escape( hit._highlightResult[ key ].value );
+							hit._highlightResult[ key ].value = hit._highlightResult[ key ].value.replace( /__ais-highlight__/g, '<em>' ).replace( /__\/ais-highlight__/g, '<\/em>' );
+						}
+
+						for ( var key in hit._snippetResult ) {
+							/* We do not deal with arrays. */
+							if ( typeof hit._snippetResult[ key ].value !== 'string' ) {
+								continue;
+							}
+
+							hit._snippetResult[ key ].value = _.escape( hit._snippetResult[ key ].value );
+							hit._snippetResult[ key ].value = hit._snippetResult[ key ].value.replace( /__ais-highlight__/g, '<em>' ).replace( /__\/ais-highlight__/g, '<\/em>' );
+						}
+
+						return suggestion_template( hit );
+					}
+				}
+			} );
+
+		} );
+
+		/* Setup dropdown menus */
+		document.querySelectorAll( algolia.autocomplete.input_selector ).forEach( function( element ) {
+
+			var config = {
+				debug: algolia.debug,
+				hint: false,
+				openOnFocus: true,
+				appendTo: 'body',
+				templates: {
+					empty: wp.template( 'autocomplete-empty' )
+				}
+			};
+
+			if ( algolia.powered_by_enabled ) {
+				config.templates.footer = wp.template( 'autocomplete-footer' );
+			}
+
+			/* Instantiate autocomplete.js */
+			var autocomplete = algoliaAutocomplete( element, config, sources )
+				.on( 'autocomplete:selected', function ( e, suggestion ) {
+					/* Redirect the user when we detect a suggestion selection. */
+					window.location.href = suggestion.permalink ?? suggestion.posts_url; // Users use the `posts_url` property instead of `permalink`.
+				} );
+
+			/* Force the dropdown to be re-drawn on scroll to handle fixed containers. */
+			window.addEventListener( 'scroll', function() {
+				if ( autocomplete.autocomplete.getWrapper().style.display === "block" ) {
+					autocomplete.autocomplete.close();
+					autocomplete.autocomplete.open();
+				}
+			} );
+		} );
+
+		var algoliaPoweredLink = document.querySelector( '.algolia-powered-by-link' );
+		if ( algoliaPoweredLink ) {
+			algoliaPoweredLink.addEventListener( 'click', function( e ) {
+				e.preventDefault();
+				window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
+			} );
+		}
+	});
+</script>
+<script type="text/javascript" src="/wp-content/plugins/gpt3-ai-content-generator/public/js/wpaicg-form-shortcode.js" id="wpaicg-gpt-form-js"></script>
+<script type="text/javascript" id="wpaicg-init-js-extra">
+/* <![CDATA[ */
+var wpaicgParams = {"ajax_url":"\/wp-admin\/admin-ajax.php","search_nonce":"1baf2a50ea","logged_in":"0","languages":{"source":"Sources","no_result":"No result found","wrong":"Something went wrong","prompt_strength":"Please enter a valid prompt strength value between 0 and 1.","num_inference_steps":"Please enter a valid number of inference steps value between 1 and 500.","guidance_scale":"Please enter a valid guidance scale value between 1 and 20.","error_image":"Please select least one image for generate","save_image_success":"Save images to media successfully","select_all":"Select All","unselect":"Unselect","select_save_error":"Please select least one image to save","alternative":"Alternative Text","title":"Title","edit_image":"Edit Image","caption":"Caption","description":"Description","save":"Save","removed_pdf":"Your pdf session is cleared"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/gpt3-ai-content-generator/public/js/wpaicg-init.js" id="wpaicg-init-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/gpt3-ai-content-generator/public/js/wpaicg-chat.js" id="wpaicg-chat-script-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.0.7.08086" id="wpfront-scroll-top-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/contact.js?ver=20210612" id="sendmail-js"></script>
+<script type="text/javascript" src="/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/wp-util.min.js?ver=6.2.2" id="wp-util-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/algoliasearch/dist/algoliasearch-lite.umd.js?ver=2.5.4" id="algolia-search-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete.js/dist/autocomplete.min.js?ver=2.5.4" id="algolia-autocomplete-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete-noconflict.js?ver=2.5.4" id="algolia-autocomplete-noconflict-js"></script>
+
+</body>
+</html>

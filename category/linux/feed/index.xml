@@ -12,13 +12,21 @@
 	<title>Linux &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sun, 02 Jan 2022 00:02:53 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jun 2022 06:52:53 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>Linux &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
 		<link>/2022/01/02/keycdn/</link>
@@ -70,7 +78,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img decoding="async" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -78,7 +86,7 @@
 
 
 
-<h3>そもそもCDNって何？</h3>
+<h3 class="wp-block-heading">そもそもCDNって何？</h3>
 
 
 
@@ -90,7 +98,7 @@
 
 
 
-<h3>いくらするの？</h3>
+<h3 class="wp-block-heading">いくらするの？</h3>
 
 
 
@@ -106,7 +114,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -118,7 +126,7 @@
 
 
 
-<h3>どのくらいのアクセス数なの？</h3>
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
 
 
 
@@ -126,7 +134,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -134,7 +142,7 @@
 
 
 
-<h3>１ヶ月のデータ転送量は？</h3>
+<h3 class="wp-block-heading">１ヶ月のデータ転送量は？</h3>
 
 
 
@@ -142,7 +150,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -150,7 +158,7 @@
 
 
 
-<h3>CDNの効果はどのくらい？</h3>
+<h3 class="wp-block-heading">CDNの効果はどのくらい？</h3>
 
 
 
@@ -162,7 +170,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -170,7 +178,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -178,7 +186,7 @@
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -202,7 +210,7 @@
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -210,7 +218,7 @@
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -225,7 +233,7 @@
 			</item>
 		<item>
 		<title>2021/04〜12 site24x7 でのSLA状況・統計データ</title>
-		<link>/2022/01/01/20210412-site24x7_sla/</link>
+		<link>/2022/01/01/post-10969/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 01 Jan 2022 11:11:26 +0000</pubDate>
@@ -276,7 +284,9 @@
 
 
 
-<h3>何を目指しているの？</h3>
+
+
+<h3 class="wp-block-heading">何を目指しているの？</h3>
 
 
 
@@ -288,7 +298,7 @@
 
 
 
-<h3>２０２１・最終四半期のSLA</h3>
+<h3 class="wp-block-heading">２０２１・最終四半期のSLA</h3>
 
 
 
@@ -296,7 +306,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="573" src="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png" alt="" class="wp-image-10970" srcset="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png 1024w, /wp-content/uploads/2022/01/sla2021_10_12-768x430.png 768w, /wp-content/uploads/2022/01/sla2021_10_12-984x551.png 984w, /wp-content/uploads/2022/01/sla2021_10_12.png 1229w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="573" src="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png" alt="" class="wp-image-10970" srcset="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png 1024w, /wp-content/uploads/2022/01/sla2021_10_12-768x430.png 768w, /wp-content/uploads/2022/01/sla2021_10_12-984x551.png 984w, /wp-content/uploads/2022/01/sla2021_10_12.png 1229w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -304,7 +314,7 @@
 
 
 
-<h3>どのくらいのアクセス数なの？</h3>
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
 
 
 
@@ -312,7 +322,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="861" height="303" src="/wp-content/uploads/2022/01/pv.png" alt="" class="wp-image-10974" srcset="/wp-content/uploads/2022/01/pv.png 861w, /wp-content/uploads/2022/01/pv-768x270.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="861" height="303" src="/wp-content/uploads/2022/01/pv.png" alt="" class="wp-image-10974" srcset="/wp-content/uploads/2022/01/pv.png 861w, /wp-content/uploads/2022/01/pv-768x270.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
 
 
 
@@ -320,7 +330,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="391" src="/wp-content/uploads/2022/01/sp-1024x391.png" alt="" class="wp-image-10975" srcset="/wp-content/uploads/2022/01/sp-1024x391.png 1024w, /wp-content/uploads/2022/01/sp-768x293.png 768w, /wp-content/uploads/2022/01/sp-984x376.png 984w, /wp-content/uploads/2022/01/sp.png 1126w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="391" src="/wp-content/uploads/2022/01/sp-1024x391.png" alt="" class="wp-image-10975" srcset="/wp-content/uploads/2022/01/sp-1024x391.png 1024w, /wp-content/uploads/2022/01/sp-768x293.png 768w, /wp-content/uploads/2022/01/sp-984x376.png 984w, /wp-content/uploads/2022/01/sp.png 1126w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -328,7 +338,7 @@
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -348,7 +358,7 @@
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -356,11 +366,11 @@
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
- 
+<p></p>
 
 
 <p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
@@ -419,7 +429,7 @@
 
 
 
-<h3>PHP7.4.21のダウンロード先</h3>
+<h3 class="wp-block-heading">PHP7.4.21のダウンロード先</h3>
 
 
 
@@ -431,7 +441,7 @@
 
 
 
-<h3>アップデート方法</h3>
+<h3 class="wp-block-heading">アップデート方法</h3>
 
 
 
@@ -447,7 +457,7 @@
 
 
 
-<h3>ステップ１</h3>
+<h3 class="wp-block-heading">ステップ１</h3>
 
 
 
@@ -480,7 +490,7 @@ php_7.4.21-aarch64-deb
 
 
 
-<h3>ステップ２</h3>
+<h3 class="wp-block-heading">ステップ２</h3>
 
 
 
@@ -508,7 +518,7 @@ Canceled hold on php-fpm.</code></pre>
 
 
 
-<h3>ステップ３</h3>
+<h3 class="wp-block-heading">ステップ３</h3>
 
 
 
@@ -524,7 +534,7 @@ dpkg -i ./php*</code></pre>
 
 
 
-<h3>ステップ４</h3>
+<h3 class="wp-block-heading">ステップ４</h3>
 
 
 
@@ -558,7 +568,7 @@ php-fpm</code></pre>
 
 
 
-<h3>ステップ４</h3>
+<h3 class="wp-block-heading">ステップ４</h3>
 
 
 
@@ -578,7 +588,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -590,7 +600,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -598,7 +608,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -661,7 +671,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>WordPressは設計が古い、王道のWEB-DBアプリ</h3>
+<h3 class="wp-block-heading">WordPressは設計が古い、王道のWEB-DBアプリ</h3>
 
 
 
@@ -673,7 +683,7 @@ $ sudo nginx</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2021/06/web-db.drawio.svg" alt="" class="wp-image-10713"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2021/06/web-db.drawio.svg" alt="" class="wp-image-10713"/></figure></div>
 
 
 
@@ -681,7 +691,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>静的なHTMLを吐き出すとどんなメリット・デメリットが？</h3>
+<h3 class="wp-block-heading">静的なHTMLを吐き出すとどんなメリット・デメリットが？</h3>
 
 
 
@@ -693,7 +703,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>どうやって静的なHTMLを取得するか？</h3>
+<h3 class="wp-block-heading">どうやって静的なHTMLを取得するか？</h3>
 
 
 
@@ -721,7 +731,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>静的ファイルをGitHub Pagesに出してみた</h3>
+<h3 class="wp-block-heading">静的ファイルをGitHub Pagesに出してみた</h3>
 
 
 
@@ -737,7 +747,7 @@ $ sudo nginx</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="710" height="759" src="/wp-content/uploads/2021/06/githubpages.png" alt="" class="wp-image-10719"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="710" height="759" src="/wp-content/uploads/2021/06/githubpages.png" alt="" class="wp-image-10719"/></figure></div>
 
 
 
@@ -745,7 +755,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>静的ファイルをNetlifyに出してみた</h3>
+<h3 class="wp-block-heading">静的ファイルをNetlifyに出してみた</h3>
 
 
 
@@ -761,7 +771,7 @@ $ sudo nginx</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="704" height="758" src="/wp-content/uploads/2021/06/Site24x7-netlify.png" alt="" class="wp-image-10721"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="704" height="758" src="/wp-content/uploads/2021/06/Site24x7-netlify.png" alt="" class="wp-image-10721"/></figure></div>
 
 
 
@@ -769,7 +779,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>比較のため、スマホサーバからの応答時間も</h3>
+<h3 class="wp-block-heading">比較のため、スマホサーバからの応答時間も</h3>
 
 
 
@@ -785,7 +795,7 @@ $ sudo nginx</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="702" height="776" src="/wp-content/uploads/2021/06/Site24x7-pixel3.png" alt="" class="wp-image-10722"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="702" height="776" src="/wp-content/uploads/2021/06/Site24x7-pixel3.png" alt="" class="wp-image-10722"/></figure></div>
 
 
 
@@ -793,7 +803,7 @@ $ sudo nginx</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="713" height="773" src="/wp-content/uploads/2021/06/Site24x7-pixel3-2.png" alt="" class="wp-image-10723"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="713" height="773" src="/wp-content/uploads/2021/06/Site24x7-pixel3-2.png" alt="" class="wp-image-10723"/></figure></div>
 
 
 
@@ -805,7 +815,7 @@ $ sudo nginx</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="713" src="/wp-content/uploads/2021/06/LCP-1024x713.png" alt="" class="wp-image-10724" srcset="/wp-content/uploads/2021/06/LCP-1024x713.png 1024w, /wp-content/uploads/2021/06/LCP-768x535.png 768w, /wp-content/uploads/2021/06/LCP-984x685.png 984w, /wp-content/uploads/2021/06/LCP.png 1033w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="713" src="/wp-content/uploads/2021/06/LCP-1024x713.png" alt="" class="wp-image-10724" srcset="/wp-content/uploads/2021/06/LCP-1024x713.png 1024w, /wp-content/uploads/2021/06/LCP-768x535.png 768w, /wp-content/uploads/2021/06/LCP-984x685.png 984w, /wp-content/uploads/2021/06/LCP.png 1033w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -817,7 +827,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -829,7 +839,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -849,7 +859,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -917,7 +927,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>ビルドしたPHP7のダウンロード先</h3>
+<h3 class="wp-block-heading">ビルドしたPHP7のダウンロード先</h3>
 
 
 
@@ -933,7 +943,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h4>(1) 一旦、PHP8関連を入れておく</h4>
+<h4 class="wp-block-heading">(1) 一旦、PHP8関連を入れておく</h4>
 
 
 
@@ -972,7 +982,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>PHP8関連だけ消す</h3>
+<h3 class="wp-block-heading">PHP8関連だけ消す</h3>
 
 
 
@@ -988,7 +998,7 @@ $ sudo nginx</code></pre>
 
 
 
-<h3>PHP7をダウンロードしてインストール</h3>
+<h3 class="wp-block-heading">PHP7をダウンロードしてインストール</h3>
 
 
 
@@ -1020,7 +1030,7 @@ ii  php-fpm            7.4.12         aarch64</code></pre>
 
 
 
-<h3>PHP7をアップデートしないよう設定</h3>
+<h3 class="wp-block-heading">PHP7をアップデートしないよう設定</h3>
 
 
 
@@ -1048,7 +1058,7 @@ php-fpm</code></pre>
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -1060,7 +1070,7 @@ php-fpm</code></pre>
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -1068,7 +1078,7 @@ php-fpm</code></pre>
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 

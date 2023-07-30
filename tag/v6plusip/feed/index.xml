@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>v6plus+IP &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>「v6プラス」固定IPではまった！</title>
-		<link>/2020/03/08/v6plusfixedipiwastroubled/</link>
+		<link>/2020/03/08/%e3%80%8cv6%e3%83%97%e3%83%a9%e3%82%b9%e3%80%8d%e5%9b%ba%e5%ae%9aip%e3%81%a7%e3%81%af%e3%81%be%e3%81%a3%e3%81%9f%ef%bc%81/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 07 Mar 2020 16:42:07 +0000</pubDate>
@@ -32,7 +40,7 @@
 		<guid isPermaLink="false">/?p=4940</guid>
 							<description><![CDATA[固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！]]></description>
 										<content:encoded><![CDATA[<p>enひかりが開通しました。ぶっちぎりの速さでびっくりしています。</p>
-<p><img style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
+<p><img decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
 <p>ルータは自動設定でとりあえず繋がった状態なんです。</p>
 <p>まずは、ちゃんと設定していこうと IP固定の設定からやることにしました。enひかりのキャンペーンで安く買った（1000円＋送料800円）エレコムのルータ（WRC-1167GST2）を設定していました。</p>
 <blockquote>

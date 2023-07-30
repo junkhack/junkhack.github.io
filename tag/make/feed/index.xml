@@ -18,11 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>作りたい &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>30年前のバケツラジオ出てきた！</title>
-		<link>/2011/02/06/diy-germanium-radio/</link>
-					<comments>/2011/02/06/diy-germanium-radio/#comments</comments>
+		<link>/2011/02/06/30%e5%b9%b4%e5%89%8d%e3%81%ae%e3%83%90%e3%82%b1%e3%83%84%e3%83%a9%e3%82%b8%e3%82%aa%e5%87%ba%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81/</link>
+					<comments>/2011/02/06/30%e5%b9%b4%e5%89%8d%e3%81%ae%e3%83%90%e3%82%b1%e3%83%84%e3%83%a9%e3%82%b8%e3%82%aa%e5%87%ba%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 06 Feb 2011 05:51:34 +0000</pubDate>
@@ -33,31 +41,31 @@
 										<content:encoded><![CDATA[<p> あまりの懐かしさに、びっくり。   <br />ジャンクヤードの屋根裏にパーツをあさりにいったら、袋からこんなのが出てきました～</p>
 <p>&#160;</p>
 </p>
-<p> <img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8533" border="0" alt="IMGP8533" src="/wp-content/uploads/2011/02/imgp8533.jpg" width="498" height="338" />  </p>
+<p> <img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8533" border="0" alt="IMGP8533" src="/wp-content/uploads/2011/02/imgp8533.jpg" width="498" height="338" />  </p>
 <p>※猫のエサ皿は関係ありません、中央の青いバケツね</p>
 <p>たしか、小学校の３，４年生くらいのときに夏休みの工作で作った記憶が。お袋が取って置いてくれたんですわ。懐かしすぎて、思わずコードつなげて鳴るのかテスト。</p>
 <p>&#160;</p>
 <p>知ってる人は、わかるんですが、普通の人は、これが<strong>電池ないのに、AMラジオとしてイヤホンで聞ける</strong>っていうと、マジですかぁ～？と思う人と、はぁ？ と思う人の2パターンに別れるみたい。    </p>
-<p>各部の詳細、30年の歳月を経てご紹介いたします。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8526" border="0" alt="IMGP8526" src="/wp-content/uploads/2011/02/imgp8526.jpg" width="498" height="338" />&#160; <br />バリコンとトランスと、ダイオードとコイル調整用にワニ口クリップ。中身はこれだけ。    </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8527" border="0" alt="IMGP8527" src="/wp-content/uploads/2011/02/imgp8527.jpg" width="498" height="338" /> </p>
+<p>各部の詳細、30年の歳月を経てご紹介いたします。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8526" border="0" alt="IMGP8526" src="/wp-content/uploads/2011/02/imgp8526.jpg" width="498" height="338" />&#160; <br />バリコンとトランスと、ダイオードとコイル調整用にワニ口クリップ。中身はこれだけ。    </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8527" border="0" alt="IMGP8527" src="/wp-content/uploads/2011/02/imgp8527.jpg" width="498" height="338" /> </p>
 <p>バリコンですぅ。日本製！取り付け金具に苦労の跡が。   </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8528" border="0" alt="IMGP8528" src="/wp-content/uploads/2011/02/imgp8528.jpg" width="498" height="338" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8528" border="0" alt="IMGP8528" src="/wp-content/uploads/2011/02/imgp8528.jpg" width="498" height="338" /> </p>
 <p>コイル調整のワニ口クリップ。   </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8529" border="0" alt="IMGP8529" src="/wp-content/uploads/2011/02/imgp8529.jpg" width="498" height="338" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8529" border="0" alt="IMGP8529" src="/wp-content/uploads/2011/02/imgp8529.jpg" width="498" height="338" /> </p>
 <p>メイン基盤（笑）   <br />ゲルマニュームダイオードとセラミックコンデンサを空中配線（笑） ハンダ付け初だったので、すごいことになってますね。    </p>
 </p>
 </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8530" border="0" alt="IMGP8530" src="/wp-content/uploads/2011/02/imgp8530.jpg" width="498" height="338" />     <br />トランス SPのマッチング（だったと思うけど、配線間違えたのかSPからは鳴りませんでした）</p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8530" border="0" alt="IMGP8530" src="/wp-content/uploads/2011/02/imgp8530.jpg" width="498" height="338" />     <br />トランス SPのマッチング（だったと思うけど、配線間違えたのかSPからは鳴りませんでした）</p>
 <p>&#160;</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8531" border="0" alt="IMGP8531" src="/wp-content/uploads/2011/02/imgp8531.jpg" width="498" height="338" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8531" border="0" alt="IMGP8531" src="/wp-content/uploads/2011/02/imgp8531.jpg" width="498" height="338" /> </p>
 <p>イヤホンジャックと、アンテナ・アースの端子。   </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8532" border="0" alt="IMGP8532" src="/wp-content/uploads/2011/02/imgp8532.jpg" width="498" height="338" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8532" border="0" alt="IMGP8532" src="/wp-content/uploads/2011/02/imgp8532.jpg" width="498" height="338" /> </p>
 </p>
 <p>フタに取り付けたSP。</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8534" border="0" alt="IMGP8534" src="/wp-content/uploads/2011/02/imgp8534.jpg" width="498" height="338" />&#160;</p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8534" border="0" alt="IMGP8534" src="/wp-content/uploads/2011/02/imgp8534.jpg" width="498" height="338" />&#160;</p>
 <p>バケツに巻きつけたコイル。同調回路 兼 アンテナ   <br />端子につけた略号、赤がアンテナ、黒がアース。</p>
 <p>&#160;</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8535" border="0" alt="IMGP8535" src="/wp-content/uploads/2011/02/imgp8535.jpg" width="498" height="338" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8535" border="0" alt="IMGP8535" src="/wp-content/uploads/2011/02/imgp8535.jpg" width="498" height="338" /> </p>
 <p>5寸釘にアース線をハンダ付け。   <br />アースの意味がよくわかる。（笑） 地面に打ち付けるんですからね～    </p>
 <p>で、30年ぶりに聞いてみました。音、ちっさいですが、確かに聞こえました！ バリコンで微調整するんですがチューニング範囲が狭いんです。うまく調整すれば、混信もなく聞こえました。    </p>
 <p>スピーカからは、残念ながら受信感度が悪かったのか、聞こえませんでした。クリスタルイヤホンからは、OK。当時、電池がないのに鳴るのが不思議で、これがきっかけで、ハンダゴテにぎるようになったのわけです。それから、2年後か、1年後かに無線の免許を取得。当時でいう、電話級アマチュア無線免許（現在は、第四級アマチュア無線技士）です。    </p>
@@ -68,7 +76,7 @@
 <p>いずれも、アースとってないみたいですけど、鳴るんですね。面白そうなので、またいつか作ってみたいですね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2011/02/06/diy-germanium-radio/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/02/06/30%e5%b9%b4%e5%89%8d%e3%81%ae%e3%83%90%e3%82%b1%e3%83%84%e3%83%a9%e3%82%b8%e3%82%aa%e5%87%ba%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

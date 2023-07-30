@@ -18,7 +18,15 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>5V &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Minty Boost</title>
 		<link>/2011/03/19/minty-boost/</link>
@@ -35,11 +43,11 @@
 		<guid isPermaLink="false">/2011/03/19/minty-boost/</guid>
 							<description><![CDATA[LTのICが到着したので、ミンティーブーストを作ってみた。 &#160; 回路は、公式のとほとんど同じで、It pinに3.3Kがついたかたち。 http://cds.linear.com/docs/Japanese%2 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>LTのICが到着したので、ミンティーブーストを作ってみた。</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8719" border="0" alt="IMGP8719" src="/wp-content/uploads/2011/03/imgp8719.jpg" width="498" height="338" /> </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8720" border="0" alt="IMGP8720" src="/wp-content/uploads/2011/03/imgp8720.jpg" width="498" height="338" /> </p>
-<p><a href="/wp-content/uploads/2011/03/gw20110320045824.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="GW-20110320-045824" border="0" alt="GW-20110320-045824" src="/wp-content/uploads/2011/03/gw20110320045824_thumb.png" width="498" height="236" /></a> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8719" border="0" alt="IMGP8719" src="/wp-content/uploads/2011/03/imgp8719.jpg" width="498" height="338" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8720" border="0" alt="IMGP8720" src="/wp-content/uploads/2011/03/imgp8720.jpg" width="498" height="338" /> </p>
+<p><a href="/wp-content/uploads/2011/03/gw20110320045824.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="GW-20110320-045824" border="0" alt="GW-20110320-045824" src="/wp-content/uploads/2011/03/gw20110320045824_thumb.png" width="498" height="236" /></a> </p>
 <p>&#160;</p>
-<p>回路は、公式のとほとんど同じで、It pinに3.3Kがついたかたち。   <br /><a href="http://cds.linear.com/docs/Japanese%20Datasheet/j1302_5.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://cds.linear.com/docs/Japanese%20Datasheet/j1302_5.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image5.png" width="501" height="459" />     <br />このPinは電流モードにするPinみたいで、中負荷で効率が向上するみたいです。</p>
+<p>回路は、公式のとほとんど同じで、It pinに3.3Kがついたかたち。   <br /><a href="http://cds.linear.com/docs/Japanese%20Datasheet/j1302_5.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://cds.linear.com/docs/Japanese%20Datasheet/j1302_5.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image5.png" width="501" height="459" />     <br />このPinは電流モードにするPinみたいで、中負荷で効率が向上するみたいです。</p>
 </p>
 <p>使うコンデンサとレイアウトは、結構シビアみたいです。１００円ショップの分解した電解コンデンサだと抵抗が高いためか、ICが触れないくらい熱くなります。なので、容量は１００μFと少し足りないですが、アルミ電解（たぶん、SanyoのOS-CONタイプだと思いますが）を使っています。iMacG4からのジャンク品ですが。</p>
 <p>あとPin７からのレイアウトはなるべく、最短で配線できるように注意するのと、スイッチング周波数が４KHzを越えると結構、熱がでるので簡単なアルミの放熱板をICにつける感じでしょうか。   <br />なかなかデリケートな部品選択と、回路引き回しみたいです。ユニバーサル基盤でやっているので、あれこれとためしているところです。    </p>
@@ -53,7 +61,7 @@
 			</item>
 		<item>
 		<title>iPhone負荷でUSB充電を調べた</title>
-		<link>/2011/03/17/iphonee8b2a0e88db7e381a7usbe58585e99bbbe38292e8aabfe381b9e3819f/</link>
+		<link>/2011/03/17/iphone%e8%b2%a0%e8%8d%b7%e3%81%a7usb%e5%85%85%e9%9b%bb%e3%82%92%e8%aa%bf%e3%81%b9%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 16 Mar 2011 19:23:07 +0000</pubDate>
@@ -69,13 +77,13 @@
 										<content:encoded><![CDATA[<p>まず、久しぶりのブログ更新。冒頭に一言。   <br />地震、震災にあわれた方、希望を忘れないでがんばってください。少ないですが、募金をさせていただきました。    <br />公共広告機構のCMではないですが、「こころは見えないけど、心遣いは見える」「気持ちは見えないけれども、気遣いは見える」    <br /> 今、日本中、世界中の心や気持ちが応援しています。何も悪くないのに、家を家族を亡くしたやりきれなさ。希望だけは絶対に捨てないでください。身近にある小さな、希望を見つけてください。</p>
 <p>さて、前回テスターを購入してパソコンにつなげていろいろ見ていたわけで、今回も引き続き、電流をiPhone負荷で計測してみた。70％くらいのiPhone4に充電。    </p>
 <p>まずは、AC充電器。純正。</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image.png" width="482" height="378" /></p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image.png" width="482" height="378" /></p>
 <p>&#160; <br />次は、セリアの１００円USBを改造したもの。</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image1.png" width="482" height="378" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image1.png" width="482" height="378" /> </p>
 <p>その後、33ｍAくらいで安定。</p>
 <p>&#160;</p>
-<p>次、リチウム電池のUSB充電器   <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image2.png" width="482" height="378" />&#160; <br />つないだ直後からほとんど変動がないですね。ケーブルが違うからですかね。要求している電流値のネゴシエーションをしていない感じ。    </p>
-<p>つぎ、新しいやつ。ミンティーブーストと同じ回路。コイルやら、コンデンサなど調整中。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image3.png" width="482" height="378" />     <br />う～ん、失敗作ですかね。推奨しているコンデンサとコイルがいいのが見つからなくて。    </p>
+<p>次、リチウム電池のUSB充電器   <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image2.png" width="482" height="378" />&#160; <br />つないだ直後からほとんど変動がないですね。ケーブルが違うからですかね。要求している電流値のネゴシエーションをしていない感じ。    </p>
+<p>つぎ、新しいやつ。ミンティーブーストと同じ回路。コイルやら、コンデンサなど調整中。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/03/image3.png" width="482" height="378" />     <br />う～ん、失敗作ですかね。推奨しているコンデンサとコイルがいいのが見つからなくて。    </p>
 ]]></content:encoded>
 					
 		
@@ -83,8 +91,8 @@
 			</item>
 		<item>
 		<title>18650リチウム電池のUSB電源は？</title>
-		<link>/2011/02/20/18650e383aae38381e382a6e383a0e99bbbe6b1a0e381aeusbe99bbbe6ba90e381afefbc9f/</link>
-					<comments>/2011/02/20/18650e383aae38381e382a6e383a0e99bbbe6b1a0e381aeusbe99bbbe6ba90e381afefbc9f/#comments</comments>
+		<link>/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/</link>
+					<comments>/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 19 Feb 2011 20:58:44 +0000</pubDate>
@@ -99,28 +107,28 @@
 		<category><![CDATA[昇圧]]></category>
 		<guid isPermaLink="false">/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/</guid>
 							<description><![CDATA[これ、いつも使っているiPhoneの予備バッテリ。 DXにて、1500-1600円くらいのもの。１年くらい前に買ったんだけどね。DXはなかなか魅力的な素材が転がっているので、非常に魅力的です。送料無料で数百円の品でも送っ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8641" border="0" alt="IMGP8641" src="/wp-content/uploads/2011/02/imgp8641.jpg" width="498" height="338" />   </p>
-<p>これ、いつも使っているiPhoneの予備バッテリ。    <br /><a href="http://www.dealextreme.com/p/white-light-led-flashlight-emergency-usb-charger-with-cell-phone-adapters-18883" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">DX<span class="wpel-icon wpel-image wpel-icon-1"></span></a>にて、1500-1600円くらいのもの。１年くらい前に買ったんだけどね。DXはなかなか魅力的な素材が転がっているので、非常に魅力的です。送料無料で数百円の品でも送ってきますからね。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8643" border="0" alt="IMGP8643" src="/wp-content/uploads/2011/02/imgp8643.jpg" width="498" height="338" />     <br />電池は、18650のリチウム電池。このUSB電源はなかなか安定していて、iPhone4もほぼ０％の状態から100％まで充電してくれる、なかなかの優れもの。充電機能もあって、バッテリ残量もLEDで4段階に表示してくれるので普段使いに重宝しています。    </p>
+										<content:encoded><![CDATA[<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8641" border="0" alt="IMGP8641" src="/wp-content/uploads/2011/02/imgp8641.jpg" width="498" height="338" />   </p>
+<p>これ、いつも使っているiPhoneの予備バッテリ。    <br /><a href="http://www.dealextreme.com/p/white-light-led-flashlight-emergency-usb-charger-with-cell-phone-adapters-18883" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">DX<span class="wpel-icon wpel-image wpel-icon-1"></span></a>にて、1500-1600円くらいのもの。１年くらい前に買ったんだけどね。DXはなかなか魅力的な素材が転がっているので、非常に魅力的です。送料無料で数百円の品でも送ってきますからね。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8643" border="0" alt="IMGP8643" src="/wp-content/uploads/2011/02/imgp8643.jpg" width="498" height="338" />     <br />電池は、18650のリチウム電池。このUSB電源はなかなか安定していて、iPhone4もほぼ０％の状態から100％まで充電してくれる、なかなかの優れもの。充電機能もあって、バッテリ残量もLEDで4段階に表示してくれるので普段使いに重宝しています。    </p>
 <p>で、これのUSB Pin1の電圧の推移をiPhone4に接続したときどんな感じで推移するのか見てみました。100円ショップの一応、iPhone4も充電できる改造したUSB電池BOXのように電圧がグラグラしてないといいよなぁって思って、実際どうなのか見てみました。    </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8644" border="0" alt="IMGP8644" src="/wp-content/uploads/2011/02/imgp8644.jpg" width="498" height="338" />     <br />まず、無負荷では、5.26Vのようです。Pin2,3は配線されていなく0V。これ、充電コードは２芯タイプで、秘訣はiPhone側に挿すアダプタの中にあるようです。コネクタをバラした画像があって、    <br /><a title="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" href="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />こんな感じで、コネクタの中で抵抗分圧してるようです。iPhone Doc側のpin配置はまた別の機会にやるとして、今回はこれの電圧を計ってみます。    </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image37.png" width="498" height="287" />     <br />5.27Vくらいから、接続した直後4.68Vと変わりなく、推移して4.65-4.7Vを安定推移しています。なかなか安定していますね。ほほ～、ですね。    </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8644" border="0" alt="IMGP8644" src="/wp-content/uploads/2011/02/imgp8644.jpg" width="498" height="338" />     <br />まず、無負荷では、5.26Vのようです。Pin2,3は配線されていなく0V。これ、充電コードは２芯タイプで、秘訣はiPhone側に挿すアダプタの中にあるようです。コネクタをバラした画像があって、    <br /><a title="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" href="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />こんな感じで、コネクタの中で抵抗分圧してるようです。iPhone Doc側のpin配置はまた別の機会にやるとして、今回はこれの電圧を計ってみます。    </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image37.png" width="498" height="287" />     <br />5.27Vくらいから、接続した直後4.68Vと変わりなく、推移して4.65-4.7Vを安定推移しています。なかなか安定していますね。ほほ～、ですね。    </p>
 <p>昇圧回路が優秀なのか、電池が優秀なのかはわかりませんが、（まだバラしてない）、少し高めの電圧（5.27V)を出力しているようです。添付の説明書には、出力5V1Aって書いてありました。    </p>
-<p>んじゃ、最後に純正のAC電源。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8645" border="0" alt="IMGP8645" src="/wp-content/uploads/2011/02/imgp8645.jpg" width="498" height="338" />     <br />無負荷時、5.11V    </p>
-<p>USB Pin2。2.74V    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8646" border="0" alt="IMGP8646" src="/wp-content/uploads/2011/02/imgp8646.jpg" width="498" height="338" />     </p>
-<p>USB Pin3 2.03V    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8647" border="0" alt="IMGP8647" src="/wp-content/uploads/2011/02/imgp8647.jpg" width="498" height="338" />     </p>
-<p>で、iPhone4を充電時。5.08V   <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8648" border="0" alt="IMGP8648" src="/wp-content/uploads/2011/02/imgp8648.jpg" width="498" height="338" /> </p>
-<p>さすがは、ACアダプターですね。   <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image38.png" width="498" height="287" />     <br />5.08-5.09Vの間で安定推移。なるほどですね～。    </p>
+<p>んじゃ、最後に純正のAC電源。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8645" border="0" alt="IMGP8645" src="/wp-content/uploads/2011/02/imgp8645.jpg" width="498" height="338" />     <br />無負荷時、5.11V    </p>
+<p>USB Pin2。2.74V    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8646" border="0" alt="IMGP8646" src="/wp-content/uploads/2011/02/imgp8646.jpg" width="498" height="338" />     </p>
+<p>USB Pin3 2.03V    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8647" border="0" alt="IMGP8647" src="/wp-content/uploads/2011/02/imgp8647.jpg" width="498" height="338" />     </p>
+<p>で、iPhone4を充電時。5.08V   <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8648" border="0" alt="IMGP8648" src="/wp-content/uploads/2011/02/imgp8648.jpg" width="498" height="338" /> </p>
+<p>さすがは、ACアダプターですね。   <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image38.png" width="498" height="287" />     <br />5.08-5.09Vの間で安定推移。なるほどですね～。    </p>
 <p>こんな品質のUSB電池BOXがあったらいいですよね。    <br /><em>eneloop mobile booster</em>(エネループ モバイルブースター) <a href="http://jp.sanyo.com/eneloop/lineup/booster.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">KBC-L2BS<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なんかは、iPadも充電できちゃうし、やっぱり高品質なんでしょうね。    </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2011/02/20/18650e383aae38381e382a6e383a0e99bbbe6b1a0e381aeusbe99bbbe6ba90e381afefbc9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>MS-8226　ＰＣ接続テスター来た！</title>
-		<link>/2011/02/20/ms-8226e38080efbd90efbd83e68ea5e7b69ae38386e382b9e382bfe383bce69da5e3819fefbc81/</link>
+		<link>/2011/02/20/ms-8226%e3%80%80%ef%bd%90%ef%bd%83%e6%8e%a5%e7%b6%9a%e3%83%86%e3%82%b9%e3%82%bf%e3%83%bc%e6%9d%a5%e3%81%9f%ef%bc%81/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 19 Feb 2011 15:50:43 +0000</pubDate>
@@ -137,19 +145,19 @@
 							<description><![CDATA[アマゾンより早速到着したので、早速ＰＣ接続してみた。 Ｓｐｅｃが古いけども、ノートＰＣにRS232Cで接続。OSはWindows98です。古ぅ。久しぶりに引き出しのオクから引っ張り出してきたわけで。6年ぶりぐらいで、動か [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>アマゾンより早速到着したので、早速ＰＣ接続してみた。   </p>
 <p>Ｓｐｅｃが古いけども、ノートＰＣにRS232Cで接続。OSはWindows98です。古ぅ。久しぶりに引き出しのオクから引っ張り出してきたわけで。6年ぶりぐらいで、動かしたわけです。</p>
-<p> <img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8635" border="0" alt="IMGP8635" src="/wp-content/uploads/2011/02/imgp8635.jpg" width="498" height="338" />   </p>
+<p> <img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8635" border="0" alt="IMGP8635" src="/wp-content/uploads/2011/02/imgp8635.jpg" width="498" height="338" />   </p>
 <p>ああだこうだと、いろいろ苦戦したあげくRS232Cの設定やら、3つのソフトウェア（前記事を参照）をああだこうだと試しながら、Ts Digital Multi Meter ViewerのTCP IP接続がやっぱり優秀。いいよね、やっぱりこれは。今回はつなげてるPCのスペックが低いので、必要最低限の仕事だけさせてあげて、LOGはメインPCにて取得。   </p>
-<p>テスタをつなげてるPCの設定は<img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8636" border="0" alt="IMGP8636" src="/wp-content/uploads/2011/02/imgp8636.jpg" width="498" height="338" />     <br />UNI-T UT60E と互換があるようでV,mAなどは取得できた。ラッキー。他はまだ試してないけどとりあえずデータをネットワーク経由にて取得。    </p>
-<p>とりあえず、この前、100円ショップのUSB電池BOXをiPhone3Gへ接続。USB Pin1の5vの動きを見てみた。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image33.png" width="498" height="370" /> </p>
+<p>テスタをつなげてるPCの設定は<img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8636" border="0" alt="IMGP8636" src="/wp-content/uploads/2011/02/imgp8636.jpg" width="498" height="338" />     <br />UNI-T UT60E と互換があるようでV,mAなどは取得できた。ラッキー。他はまだ試してないけどとりあえずデータをネットワーク経由にて取得。    </p>
+<p>とりあえず、この前、100円ショップのUSB電池BOXをiPhone3Gへ接続。USB Pin1の5vの動きを見てみた。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image33.png" width="498" height="370" /> </p>
 </p>
 <p>すごいですね、このかっくん、かっくん。   </p>
-<p>まぁ、電池が使い古しのアルカリ電池（100円ショップの）なんだけども、    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image34.png" width="498" height="287" />     <br />接続して５Vが、一瞬ゆらぎ、かく～んって4.4Vくらいまで落ちて4.8Vと4.5V前後をいったりきたり。アナログテスタで、針がユラユラしていたけども、こうしてグラフで見てみると、昇圧回路としては、完全に失敗作という感じですかね。出力側のコンデンサの電圧がすこ～んって抜けて、またチャージ。そういう具合なのか、また違うところに原因があるのかは、わかりませんが、もう少し安定してほしいですね。    </p>
-<p>そして、何より驚いたのは、アナログテスターで USBのPIN２，３の電圧計ったとき、２V弱だったのが、実は、    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8639" border="0" alt="IMGP8639" src="/wp-content/uploads/2011/02/imgp8639.jpg" width="498" height="338" />     <br />2.7V出ていたっていう驚愕の事実！上の写真は無負荷時。その記事は<a href="/2011/02/11/%E5%8D%983%E9%9B%BB%E6%B1%A02%E6%9C%AC%E3%81%A7iphone%E3%82%92%E5%85%85%E9%9B%BB-%E3%81%9D%E3%81%AE6/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちら</a>。</p>
+<p>まぁ、電池が使い古しのアルカリ電池（100円ショップの）なんだけども、    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image34.png" width="498" height="287" />     <br />接続して５Vが、一瞬ゆらぎ、かく～んって4.4Vくらいまで落ちて4.8Vと4.5V前後をいったりきたり。アナログテスタで、針がユラユラしていたけども、こうしてグラフで見てみると、昇圧回路としては、完全に失敗作という感じですかね。出力側のコンデンサの電圧がすこ～んって抜けて、またチャージ。そういう具合なのか、また違うところに原因があるのかは、わかりませんが、もう少し安定してほしいですね。    </p>
+<p>そして、何より驚いたのは、アナログテスターで USBのPIN２，３の電圧計ったとき、２V弱だったのが、実は、    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8639" border="0" alt="IMGP8639" src="/wp-content/uploads/2011/02/imgp8639.jpg" width="498" height="338" />     <br />2.7V出ていたっていう驚愕の事実！上の写真は無負荷時。その記事は<a href="/2011/02/11/%E5%8D%983%E9%9B%BB%E6%B1%A02%E6%9C%AC%E3%81%A7iphone%E3%82%92%E5%85%85%E9%9B%BB-%E3%81%9D%E3%81%AE6/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちら</a>。</p>
 <p>なんちゅうか、どういうこと？読み間違えてるわけじゃないし、、、、間違えてます？   </p>
 <p>要するに、<a href="/2011/02/10/%E5%8D%983%E9%9B%BB%E6%B1%A02%E6%9C%AC%E3%81%A7iphone%E3%82%92%E5%85%85%E9%9B%BB-%E3%81%9D%E3%81%AE5/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">この抵抗分圧</a>の計算値どおりの電圧が出ていたってことですかね。新しいデジタルテスターのほうが、やっぱり正確だよね？    <br />やっぱり買ってよかった～、デジタルテスター。そして、Ts Digital Multi Meter Viewerの作者さま、島崎 正さんに感謝ですね。    </p>
 <p>面白いので、USBpin2,3も測ってみた。まずは、Pin2。</p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image35.png" width="498" height="287" />     <br />2.7Vくらいから、かく～んと1.4Vまで落ちて、その後2.48Vを推移。    </p>
-<p>PIN3。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image36.png" width="498" height="287" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image35.png" width="498" height="287" />     <br />2.7Vくらいから、かく～んと1.4Vまで落ちて、その後2.48Vを推移。    </p>
+<p>PIN3。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image36.png" width="498" height="287" /> </p>
 </p>
 </p>
 <p>2.72Vから、かっくんして2.5V程度になったあと、3Vあたりを安定推移。Pin3はあがるのね。   </p>
@@ -161,7 +169,7 @@
 			</item>
 		<item>
 		<title>単3電池2本でiPhoneを充電 その9</title>
-		<link>/2011/02/14/e58d983e99bbbe6b1a02e69cace381a7iphonee38292e58585e99bbb-e3819de381ae9/</link>
+		<link>/2011/02/14/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae9/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Feb 2011 16:34:50 +0000</pubDate>
@@ -177,9 +185,9 @@
 		<category><![CDATA[昇圧]]></category>
 		<guid isPermaLink="false">/2011/02/14/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae9/</guid>
 							<description><![CDATA[その後、経過観察をしてみた。 2セット目のeneloop充電完了のを、iPhone4に、ＵＳＢをつなぎっぱなしにして一晩寝たら朝起きてたら100％になってた。 まぁ、それなりにいけるんじゃないのっていうことで、パイロット [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>その後、経過観察をしてみた。   <br />2セット目のeneloop充電完了のを、iPhone4に、ＵＳＢをつなぎっぱなしにして一晩寝たら朝起きてたら100％になってた。    <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8614" border="0" alt="IMGP8614" src="/wp-content/uploads/2011/02/imgp8614.jpg" width="498" height="338" /> </p>
-<p>まぁ、それなりにいけるんじゃないのっていうことで、パイロットランプをつけてみた。   <br /><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8617" border="0" alt="IMGP8617" src="/wp-content/uploads/2011/02/imgp8617.jpg" width="498" height="338" />     <br />点滅するように、100円ショップで、「<strong>お散歩ライト</strong>」っていうのがあったので、ばらしてみたら薄い基盤に赤色ＬＥＤと点滅ＩＣが樹脂ボンドみたいなのでつけたれていた。これをはさみで切って、パターンを配線して活用。    </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="img016" border="0" alt="img016" src="/wp-content/uploads/2011/02/img016.jpg" width="482" height="378" />     <br />お散歩ライトを分解の図 セリアのＰＥＴコーナーでＧＥＴ    </p>
+										<content:encoded><![CDATA[<p>その後、経過観察をしてみた。   <br />2セット目のeneloop充電完了のを、iPhone4に、ＵＳＢをつなぎっぱなしにして一晩寝たら朝起きてたら100％になってた。    <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8614" border="0" alt="IMGP8614" src="/wp-content/uploads/2011/02/imgp8614.jpg" width="498" height="338" /> </p>
+<p>まぁ、それなりにいけるんじゃないのっていうことで、パイロットランプをつけてみた。   <br /><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8617" border="0" alt="IMGP8617" src="/wp-content/uploads/2011/02/imgp8617.jpg" width="498" height="338" />     <br />点滅するように、100円ショップで、「<strong>お散歩ライト</strong>」っていうのがあったので、ばらしてみたら薄い基盤に赤色ＬＥＤと点滅ＩＣが樹脂ボンドみたいなのでつけたれていた。これをはさみで切って、パターンを配線して活用。    </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="img016" border="0" alt="img016" src="/wp-content/uploads/2011/02/img016.jpg" width="482" height="378" />     <br />お散歩ライトを分解の図 セリアのＰＥＴコーナーでＧＥＴ    </p>
 <p>基盤は0.5ｍｍくらいで、薄いので電池ボックスの上に0.8ｍｍくらいの穴を開けて電池入れたら点滅するようにしてみた。電源をつなぎ、基板上のパターンをＯＮにすると、点滅、点滅交互、常時点燈となり、スイッチＯＮのパターンを配線して電池ＢＯＸの端子にハンダづけ。乾電池入れると、点滅するようにしてパイロットランプとしてみた。２Ｖ以下だと多分光らないと思うので、消耗した電池かどうかの簡易見分けもできるのかもと。    </p>
 <p>メインスイッチはまだつけていないけど、電池ＢＯＸの下あたりに隙間があるので、つけるならそこらあたりかな。</p>
 </p>

@@ -18,7 +18,15 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>YEPO737A &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>YEPO 737A に Win10home をクリーンインストールした</title>
 		<link>/2018/02/19/yepo737awin10install/</link>
@@ -51,10 +59,10 @@
 <h3>■必要なファイルをバックアップ</h3>
 <p>eMMC の 64GB の起動ディスクは全部フォーマットしてクリーンインストールしますので全部消えます。必要なファイルはバックアップしておくようにします。</p>
 <p>一応、ライセンス認証を通しておきプロダクトIDはメモしておきます。以下の画面をコピーしておきます。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="1" src="/wp-content/uploads/2018/02/1.png" alt="1" width="640" height="332" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="1" src="/wp-content/uploads/2018/02/1.png" alt="1" width="640" height="332" border="0" /></p>
 <h3>■Windows10 の ISO を MicroSoft からダウンロード</h3>
 <p>別PCから、マイクロソフト社のサイトに行って Windows10 の ISO をダウンロードしておきます。</p>
-<p><a href="https://www.microsoft.com/ja-jp/software-download/windows10ISO" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="win10iso" src="/wp-content/uploads/2018/02/win10iso.png" alt="win10iso" width="403" height="480" border="0" /></a></p>
+<p><a href="https://www.microsoft.com/ja-jp/software-download/windows10ISO" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="win10iso" src="/wp-content/uploads/2018/02/win10iso.png" alt="win10iso" width="403" height="480" border="0" /></a></p>
 <p>&nbsp;</p>
 <h3>■現在のドライバーを一括バックアップ</h3>
 <p><a href="https://forest.watch.impress.co.jp/library/software/doubledriver/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Double Driver<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というツールで、ドライバーをバックアップ。バックアップし忘れちゃった人は、以下からダウンロード</p>
@@ -68,10 +76,10 @@
 <h3>■Windows10 の ISO を USBブートさせる</h3>
 <p>マイクロソフトのサイトからダウンロードした ISO を USB ブートさせるため、<a href="https://forest.watch.impress.co.jp/library/software/rufus/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Rufus<span class="wpel-icon wpel-image wpel-icon-1"></span></a> を使って作成します。</p>
 <p>マイクロソフトが提供している標準のツール（MediaCreationTool.exe）でも可能ですが処理が遅いのとダウンロード済みのISOから作成する方法が不明だったので、Rufus を使いました。以下のような感じです。８GBくらいのUSBに作成しました。４GBのUSBがあればいけそうです。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="無題 2" src="/wp-content/uploads/2018/02/2.png" alt="無題 2" width="581" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="無題 2" src="/wp-content/uploads/2018/02/2.png" alt="無題 2" width="581" height="480" border="0" /></p>
 <p>■回復ドライブを後方に作成するバッチ</p>
 <p>以上で、USBドライブから起動させインストールが可能なんですが、パーティションを全部消して、新規インストールすると回復パーティションが先頭に来てしまいます。これでも動きますが、あとで消したいときに後方にあったほうが空きが増やせますので、パーティションをバッチで作成します。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="winsetup1" src="/wp-content/uploads/2018/02/winsetup1.png" alt="winsetup1" width="640" height="463" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="winsetup1" src="/wp-content/uploads/2018/02/winsetup1.png" alt="winsetup1" width="640" height="463" border="0" /></p>
 <p>以下のサイトに習って、パーティション作成バッチをUSBの中に入れておきます。</p>
 <blockquote><p>Solomonレビュー<br />
 Windows 10をクリーンインストールする前にひと工夫、回復パーティションの増殖を防ぐ方法(更新)<br />
@@ -80,24 +88,24 @@ Windows 10をクリーンインストールする前にひと工夫、回復パ�
 <p>&nbsp;</p>
 <p>■USBブートさせるためBIOS起動</p>
 <p>さて、やっとUSBを YEPO737A に挿して起動します。BIOS画面はDELキーを押すと入れます。BIOSに入ったら、一番右のメニュー「Save &amp; Exit 」まで進み、以下のような Boot Override 項目の下に出ているUSBドライブを選択します。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="写真_-_Google_フォト" src="/wp-content/uploads/2018/02/google_.png" alt="写真_-_Google_フォト" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="写真_-_Google_フォト" src="/wp-content/uploads/2018/02/google_.png" alt="写真_-_Google_フォト" width="640" height="480" border="0" /></p>
 <p>選択すると、USBから起動します。</p>
 <p>一旦、「UEFI: Built-in EFI Shell 」に入り、そこから、USB起動の操作をしても構いません。その場合、EFI Shell から次のようにコマンドをタイプして起動できます。</p>
 <blockquote><p>Shell&gt; fs3:</p>
 <p>fs3:&gt; efi\boot\bootx64.efi</p></blockquote>
 <p>ちなみに、microSDカードをSDカードスロットに入れてみたら efi shell からデバイスが認識できませんでした。何か方法はあるとは思うのですが、とりあえずは、USB を USB3.0 に挿して認識するはずです。</p>
 <p>初回のブート時は、パーティションをバッチで作るため、以下のようにします。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160025" src="/wp-content/uploads/2018/02/img_20180219_160025.jpg" alt="IMG_20180219_160025" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160025" src="/wp-content/uploads/2018/02/img_20180219_160025.jpg" alt="IMG_20180219_160025" width="640" height="480" border="0" /></p>
 <p>コンピューターを修復する を選択</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160054" src="/wp-content/uploads/2018/02/img_20180219_160054.jpg" alt="IMG_20180219_160054" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160054" src="/wp-content/uploads/2018/02/img_20180219_160054.jpg" alt="IMG_20180219_160054" width="640" height="480" border="0" /></p>
 <p>トラブルシューティングを選択</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160107" src="/wp-content/uploads/2018/02/img_20180219_160107.jpg" alt="IMG_20180219_160107" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160107" src="/wp-content/uploads/2018/02/img_20180219_160107.jpg" alt="IMG_20180219_160107" width="640" height="480" border="0" /></p>
 <p>コマンドプロンプトを選択</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160203" src="/wp-content/uploads/2018/02/img_20180219_160203.jpg" alt="IMG_20180219_160203" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180219_160203" src="/wp-content/uploads/2018/02/img_20180219_160203.jpg" alt="IMG_20180219_160203" width="640" height="480" border="0" /></p>
 <p>d: 直下が USB のようでした。Make-Partition.bat をタイプして実行します。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_205747" src="/wp-content/uploads/2018/02/img_20180218_205747.jpg" alt="IMG_20180218_205747" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_205747" src="/wp-content/uploads/2018/02/img_20180218_205747.jpg" alt="IMG_20180218_205747" width="640" height="480" border="0" /></p>
 <p>exit で抜けてリブートし、2回目のUSBブートでは通常通りWindowsのインストールへ進みます。</p>
-<p><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_210117" src="/wp-content/uploads/2018/02/img_20180218_210117.jpg" alt="IMG_20180218_210117" width="640" height="480" border="0" /></p>
+<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="IMG_20180218_210117" src="/wp-content/uploads/2018/02/img_20180218_210117.jpg" alt="IMG_20180218_210117" width="640" height="480" border="0" /></p>
 <p>上記のようにパーティションを選択して次へ進みインストールします。（その後は割愛）</p>
 <p>&nbsp;</p>
 <p>インストール時に、パーティションをマニュアル設定できるインターフェイスがないのと、パーティションが１つも無い場合に自動的に作成するパーティション構成を、回復パーティションが後方になるよう作ってくれればいいのになと、MicroSoft に？を投げたいです。まぁ、いろいろと事情があるのでしょう。そうそう行う作業ではないのですが、普通は戸惑いますよね。これ。</p>

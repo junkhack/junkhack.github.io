@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>imacg4 &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>PowerPC HaikuOS をiMacG4で試す</title>
-		<link>/2011/02/04/powerpc-haikuos-2/</link>
+		<link>/2011/02/04/powerpc-haikuos-%e3%82%92imacg4%e3%81%a7%e8%a9%a6%e3%81%99/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Feb 2011 10:08:01 +0000</pubDate>
@@ -33,16 +41,16 @@
 							<description><![CDATA[知る人はBeOSが動きそうなら、やっぱり試したくなるでしょうよ。 PPC用のHaikuを前回記事で見つけたのでちこっと試してみましたyo。 リビジョン40136でがんばってみた。boot-cdはISOファイルでCDに焼き [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>知る人はBeOSが動きそうなら、やっぱり試したくなるでしょうよ。 PPC用のHaikuを前回記事で見つけたのでちこっと試してみましたyo。    </p>
 </p>
-<p> <img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image.png" width="498" height="289" />   </p>
+<p> <img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image.png" width="498" height="289" />   </p>
 <p>リビジョン40136でがんばってみた。boot-cdはISOファイルでCDに焼き、imageはDDでUSBに書き込み。iMacのUSBポートとCDトレイに乗せて起動。    </p>
-<p>最初、Cキー押してCD-ROMから起動するのかと思いきや、しないので、OpenFirmwareを起動させる。<strong>command</strong>+<strong>option</strong>+<strong>o</strong>+<strong>f</strong> のキーを押し続けるとこんな画面が。     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8443" border="0" alt="IMGP8443" src="/wp-content/uploads/2011/02/imgp8443.jpg" width="498" height="338" />     </p>
-<p>で、こんな感じでコマンドをタイプ。リターン。     <br />boot cd:,\ppc\boot_loader_openfirmware     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8444" border="0" alt="IMGP8444" src="/wp-content/uploads/2011/02/imgp8444.jpg" width="498" height="338" />     </p>
-<p>ずらずらと、流れる。動いて～     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8446" border="0" alt="IMGP8446" src="/wp-content/uploads/2011/02/imgp8446.jpg" width="498" height="338" />     <br />お、いい感じじゃん。いけいけ～     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8447" border="0" alt="IMGP8447" src="/wp-content/uploads/2011/02/imgp8447.jpg" width="498" height="338" />     <br />USBのHaikuボリュームを選択して、</p>
+<p>最初、Cキー押してCD-ROMから起動するのかと思いきや、しないので、OpenFirmwareを起動させる。<strong>command</strong>+<strong>option</strong>+<strong>o</strong>+<strong>f</strong> のキーを押し続けるとこんな画面が。     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8443" border="0" alt="IMGP8443" src="/wp-content/uploads/2011/02/imgp8443.jpg" width="498" height="338" />     </p>
+<p>で、こんな感じでコマンドをタイプ。リターン。     <br />boot cd:,\ppc\boot_loader_openfirmware     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8444" border="0" alt="IMGP8444" src="/wp-content/uploads/2011/02/imgp8444.jpg" width="498" height="338" />     </p>
+<p>ずらずらと、流れる。動いて～     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8446" border="0" alt="IMGP8446" src="/wp-content/uploads/2011/02/imgp8446.jpg" width="498" height="338" />     <br />お、いい感じじゃん。いけいけ～     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8447" border="0" alt="IMGP8447" src="/wp-content/uploads/2011/02/imgp8447.jpg" width="498" height="338" />     <br />USBのHaikuボリュームを選択して、</p>
 </p>
 </p>
-<p><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8449" border="0" alt="IMGP8449" src="/wp-content/uploads/2011/02/imgp8449.jpg" width="498" height="338" />     </p>
+<p><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8449" border="0" alt="IMGP8449" src="/wp-content/uploads/2011/02/imgp8449.jpg" width="498" height="338" />     </p>
 <p>起動せよ！</p>
-<p><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8451" border="0" alt="IMGP8451" src="/wp-content/uploads/2011/02/imgp8451.jpg" width="498" height="338" />     <br />くるのか～？     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8452" border="0" alt="IMGP8452" src="/wp-content/uploads/2011/02/imgp8452.jpg" width="498" height="338" />     </p>
+<p><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8451" border="0" alt="IMGP8451" src="/wp-content/uploads/2011/02/imgp8451.jpg" width="498" height="338" />     <br />くるのか～？     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8452" border="0" alt="IMGP8452" src="/wp-content/uploads/2011/02/imgp8452.jpg" width="498" height="338" />     </p>
 <p>・</p>
 <p>・</p>
 <p>・</p>
@@ -63,10 +71,10 @@
 <p>&#160;</p>
 <p>&#160;</p>
 </p>
-<p><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8453" border="0" alt="IMGP8453" src="/wp-content/uploads/2011/02/imgp8453.jpg" width="498" height="338" /> </p>
-<p>&#160;<a href="/wp-content/uploads/2011/02/imgp84551.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8455" border="0" alt="IMGP8455" src="/wp-content/uploads/2011/02/imgp8455_thumb.jpg" width="498" height="338" /></a> </p>
+<p><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8453" border="0" alt="IMGP8453" src="/wp-content/uploads/2011/02/imgp8453.jpg" width="498" height="338" /> </p>
+<p>&#160;<a href="/wp-content/uploads/2011/02/imgp84551.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8455" border="0" alt="IMGP8455" src="/wp-content/uploads/2011/02/imgp8455_thumb.jpg" width="498" height="338" /></a> </p>
 <p>PANICですか、、、、arch_int_init_post_device_manager():Found no supported PIC!</p>
-<p>一筋縄ではいかないようで。    <br />3個目のアイコンまではいくようですが、     <br /><img loading="lazy" style="display:inline;border-width:0;" title="IMGP8441" border="0" alt="IMGP8441" src="/wp-content/uploads/2011/02/imgp8441.jpg" width="498" height="338" />&#160; <br />リビジョンを落として試すとか、また今度やってみよう。AirMacカードが入ってるからとか関係あるのかな？</p>
+<p>一筋縄ではいかないようで。    <br />3個目のアイコンまではいくようですが、     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8441" border="0" alt="IMGP8441" src="/wp-content/uploads/2011/02/imgp8441.jpg" width="498" height="338" />&#160; <br />リビジョンを落として試すとか、また今度やってみよう。AirMacカードが入ってるからとか関係あるのかな？</p>
 <p>動けば、さくさくなHaikuなはずだから、気を長くしてまた再挑戦してみたいですね。</p>
 ]]></content:encoded>
 					
@@ -75,7 +83,7 @@
 			</item>
 		<item>
 		<title>iMac G4で作る電気スタンド</title>
-		<link>/2011/02/04/desk-lamp-made-with-imac-g4/</link>
+		<link>/2011/02/04/imac-g4%e3%81%a7%e4%bd%9c%e3%82%8b%e9%9b%bb%e6%b0%97%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%89/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 Feb 2011 22:12:17 +0000</pubDate>
@@ -84,10 +92,10 @@
 		<guid isPermaLink="false">/2011/02/04/imac-g4%e3%81%a7%e4%bd%9c%e3%82%8b%e9%9b%bb%e6%b0%97%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%89/</guid>
 							<description><![CDATA[かなりかっこいいですね、これ。いつか、完全ジャンクになったら作ってみよう！まだ、使える部分がありますからね。 かっくいいです、つくりたい候補。 &#160; 裏のフタをベースとしたアレンジ版。うらフタを使った時計とかもい [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>かなりかっこいいですね、これ。いつか、完全ジャンクになったら作ってみよう！まだ、使える部分がありますからね。  </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="DIY-iLamp" border="0" alt="DIY-iLamp" src="/wp-content/uploads/2011/02/diyilamp1.jpg" width="500" height="378" />   </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="DIY-iLamp" border="0" alt="DIY-iLamp" src="/wp-content/uploads/2011/02/diyilamp1.jpg" width="500" height="378" />   </p>
 <p>かっくいいです、つくりたい候補。   </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="[image[11]" border="0" alt="[image[11]" src="/wp-content/uploads/2011/02/image11.png" width="498" height="378" /> </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="iMac G4 lamp" border="0" alt="iMac G4 lamp" src="/wp-content/uploads/2011/02/imacg4lamp.png" width="268" height="349" />&#160; <br />裏のフタをベースとしたアレンジ版。うらフタを使った時計とかもいいですよね。ジャンクになっても愛されるiMacG4、無敵のデザインだと思うんですが。好きな人は好きなんですよね。私も大好きで、4台もっていて、1台は発売当初に購入。3台は中古。中古の1台は稼動中で、音楽再生マシンとなっています。OS9も動くモデルなので、楽しみが増えます。2台は、17インチのジャンク品。改造待ちです。</p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="[image[11]" border="0" alt="[image[11]" src="/wp-content/uploads/2011/02/image11.png" width="498" height="378" /> </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="iMac G4 lamp" border="0" alt="iMac G4 lamp" src="/wp-content/uploads/2011/02/imacg4lamp.png" width="268" height="349" />&#160; <br />裏のフタをベースとしたアレンジ版。うらフタを使った時計とかもいいですよね。ジャンクになっても愛されるiMacG4、無敵のデザインだと思うんですが。好きな人は好きなんですよね。私も大好きで、4台もっていて、1台は発売当初に購入。3台は中古。中古の1台は稼動中で、音楽再生マシンとなっています。OS9も動くモデルなので、楽しみが増えます。2台は、17インチのジャンク品。改造待ちです。</p>
 ]]></content:encoded>
 					
 		

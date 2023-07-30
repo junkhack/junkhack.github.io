@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>スイッチング &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>L（コイル）とC（コンデンサ）は不滅だね</title>
-		<link>/2011/02/22/lefbc88e382b3e382a4e383abefbc89e381a8cefbc88e382b3e383b3e38387e383b3e382b5efbc89e381afe4b88de6bb85e381a0e381ad/</link>
+		<link>/2011/02/22/l%ef%bc%88%e3%82%b3%e3%82%a4%e3%83%ab%ef%bc%89%e3%81%a8c%ef%bc%88%e3%82%b3%e3%83%b3%e3%83%87%e3%83%b3%e3%82%b5%ef%bc%89%e3%81%af%e4%b8%8d%e6%bb%85%e3%81%a0%e3%81%ad/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 22 Feb 2011 13:15:53 +0000</pubDate>
@@ -31,7 +39,7 @@
 		<guid isPermaLink="false">/2011/02/22/l%ef%bc%88%e3%82%b3%e3%82%a4%e3%83%ab%ef%bc%89%e3%81%a8c%ef%bc%88%e3%82%b3%e3%83%b3%e3%83%87%e3%83%b3%e3%82%b5%ef%bc%89%e3%81%af%e4%b8%8d%e6%bb%85%e3%81%a0%e3%81%ad/</guid>
 							<description><![CDATA[パソコンがどんどん発達していっても、電源っていうのは絶対に必要で、その電源には必ずコイルとコンデンサがあるわけで、その基本的な動きを目で見てわかるようにするアイデアを思いついたのでメモ。 &#160; シンプルなスイッチ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>パソコンがどんどん発達していっても、電源っていうのは絶対に必要で、その電源には必ずコイルとコンデンサがあるわけで、その基本的な動きを目で見てわかるようにするアイデアを思いついたのでメモ。   </p>
-<p><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image39.png" width="516" height="292" />&#160; </p>
+<p><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image39.png" width="516" height="292" />&#160; </p>
 <p>シンプルなスイッチング回路で、この回路を、「<strong><font color="#ff0000">目で見てわかる</font></strong>」ようにしよう。    </p>
 <p>参考文献    <br /><a href="http://www.tdk.co.jp/tjbcd01/bcd23_26.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">電源回路のLC素子<span class="wpel-icon wpel-image wpel-icon-1"></span></a> TDK&#160;&#160;&#160; THE HOTLINE Vol. 23より</p>
 ]]></content:encoded>

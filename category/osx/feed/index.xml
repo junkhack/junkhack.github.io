@@ -18,7 +18,15 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>osx &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>備忘録：Ryzen 5 3600のLinuxでUnixBench</title>
 		<link>/2021/05/30/ryzen-5-3600-linux-unixbench/</link>
@@ -67,7 +75,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img width="522" height="577" src="/wp-content/uploads/2021/05/ryzen5.png" alt="" class="wp-image-10589"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" width="522" height="577" src="/wp-content/uploads/2021/05/ryzen5.png" alt="" class="wp-image-10589"/></figure></div>
 
 
 
@@ -79,7 +87,7 @@
 
 
 
-<h3>Ubuntu 20.04.1 LTSでUnixBench</h3>
+<h3 class="wp-block-heading">Ubuntu 20.04.1 LTSでUnixBench</h3>
 
 
 
@@ -189,7 +197,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -201,7 +209,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -209,7 +217,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -270,7 +278,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="422" height="407" src="/wp-content/uploads/2021/03/image-37.png" alt="" class="wp-image-10344"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="422" height="407" src="/wp-content/uploads/2021/03/image-37.png" alt="" class="wp-image-10344"/></figure></div>
 
 
 
@@ -278,11 +286,11 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>状態を確認！</h3>
+<h3 class="wp-block-heading">状態を確認！</h3>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="984" height="421" src="/wp-content/uploads/2021/03/image-38.png" alt="" class="wp-image-10345" srcset="/wp-content/uploads/2021/03/image-38.png 984w, /wp-content/uploads/2021/03/image-38-768x329.png 768w" sizes="(max-width: 984px) 100vw, 984px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="984" height="421" src="/wp-content/uploads/2021/03/image-38.png" alt="" class="wp-image-10345" srcset="/wp-content/uploads/2021/03/image-38.png 984w, /wp-content/uploads/2021/03/image-38-768x329.png 768w" sizes="(max-width: 984px) 100vw, 984px" /></figure></div>
 
 
 
@@ -290,7 +298,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>バラすとこんな感じです</h3>
+<h3 class="wp-block-heading">バラすとこんな感じです</h3>
 
 
 
@@ -298,7 +306,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="644" height="484" src="/wp-content/uploads/2021/03/image-39.png" alt="" class="wp-image-10346"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="644" height="484" src="/wp-content/uploads/2021/03/image-39.png" alt="" class="wp-image-10346"/></figure></div>
 
 
 
@@ -306,7 +314,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="394" src="/wp-content/uploads/2021/03/image-40-1024x394.png" alt="" class="wp-image-10347" srcset="/wp-content/uploads/2021/03/image-40-1024x394.png 1024w, /wp-content/uploads/2021/03/image-40-768x296.png 768w, /wp-content/uploads/2021/03/image-40-984x379.png 984w, /wp-content/uploads/2021/03/image-40.png 1216w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="394" src="/wp-content/uploads/2021/03/image-40-1024x394.png" alt="" class="wp-image-10347" srcset="/wp-content/uploads/2021/03/image-40-1024x394.png 1024w, /wp-content/uploads/2021/03/image-40-768x296.png 768w, /wp-content/uploads/2021/03/image-40-984x379.png 984w, /wp-content/uploads/2021/03/image-40.png 1216w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -314,7 +322,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>ハメ方のコツ</h3>
+<h3 class="wp-block-heading">ハメ方のコツ</h3>
 
 
 
@@ -326,7 +334,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="778" height="581" src="/wp-content/uploads/2021/03/image-41.png" alt="" class="wp-image-10348" srcset="/wp-content/uploads/2021/03/image-41.png 778w, /wp-content/uploads/2021/03/image-41-768x574.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="778" height="581" src="/wp-content/uploads/2021/03/image-41.png" alt="" class="wp-image-10348" srcset="/wp-content/uploads/2021/03/image-41.png 778w, /wp-content/uploads/2021/03/image-41-768x574.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></figure></div>
 
 
 
@@ -338,7 +346,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="390" src="/wp-content/uploads/2021/03/image-42-1024x390.png" alt="" class="wp-image-10349" srcset="/wp-content/uploads/2021/03/image-42-1024x390.png 1024w, /wp-content/uploads/2021/03/image-42-768x293.png 768w, /wp-content/uploads/2021/03/image-42-984x375.png 984w, /wp-content/uploads/2021/03/image-42.png 1215w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="390" src="/wp-content/uploads/2021/03/image-42-1024x390.png" alt="" class="wp-image-10349" srcset="/wp-content/uploads/2021/03/image-42-1024x390.png 1024w, /wp-content/uploads/2021/03/image-42-768x293.png 768w, /wp-content/uploads/2021/03/image-42-984x375.png 984w, /wp-content/uploads/2021/03/image-42.png 1215w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -346,7 +354,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="480" height="189" src="/wp-content/uploads/2021/03/image-43.png" alt="" class="wp-image-10360"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="480" height="189" src="/wp-content/uploads/2021/03/image-43.png" alt="" class="wp-image-10360"/></figure></div>
 
 
 
@@ -354,11 +362,11 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="668" height="581" src="/wp-content/uploads/2021/03/image-44.png" alt="" class="wp-image-10361"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="668" height="581" src="/wp-content/uploads/2021/03/image-44.png" alt="" class="wp-image-10361"/></figure></div>
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -370,7 +378,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -378,7 +386,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="469" src="/wp-content/uploads/2021/03/image-45-1024x469.png" alt="" class="wp-image-10364" srcset="/wp-content/uploads/2021/03/image-45-1024x469.png 1024w, /wp-content/uploads/2021/03/image-45-768x351.png 768w, /wp-content/uploads/2021/03/image-45-984x450.png 984w, /wp-content/uploads/2021/03/image-45.png 1097w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="469" src="/wp-content/uploads/2021/03/image-45-1024x469.png" alt="" class="wp-image-10364" srcset="/wp-content/uploads/2021/03/image-45-1024x469.png 1024w, /wp-content/uploads/2021/03/image-45-768x351.png 768w, /wp-content/uploads/2021/03/image-45-984x450.png 984w, /wp-content/uploads/2021/03/image-45.png 1097w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -398,7 +406,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -461,7 +469,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="/wp-content/uploads/2021/03/samsung-ssd-840-series.pdf" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" width="1024" height="352" src="/wp-content/uploads/2021/03/image-20-1024x352.png" alt="" class="wp-image-10296" srcset="/wp-content/uploads/2021/03/image-20-1024x352.png 1024w, /wp-content/uploads/2021/03/image-20-768x264.png 768w, /wp-content/uploads/2021/03/image-20-984x338.png 984w, /wp-content/uploads/2021/03/image-20.png 1038w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="/wp-content/uploads/2021/03/samsung-ssd-840-series.pdf" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" loading="lazy" width="1024" height="352" src="/wp-content/uploads/2021/03/image-20-1024x352.png" alt="" class="wp-image-10296" srcset="/wp-content/uploads/2021/03/image-20-1024x352.png 1024w, /wp-content/uploads/2021/03/image-20-768x264.png 768w, /wp-content/uploads/2021/03/image-20-984x338.png 984w, /wp-content/uploads/2021/03/image-20.png 1038w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
 
 
 
@@ -473,7 +481,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="633" height="117" src="/wp-content/uploads/2021/03/image-21.png" alt="" class="wp-image-10297"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="633" height="117" src="/wp-content/uploads/2021/03/image-21.png" alt="" class="wp-image-10297"/></figure></div>
 
 
 
@@ -485,7 +493,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h3>新しいSSDは何にするか品定め！</h3>
+<h3 class="wp-block-heading">新しいSSDは何にするか品定め！</h3>
 
 
 
@@ -501,7 +509,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="620" height="490" src="/wp-content/uploads/2021/03/image-19.png" alt="" class="wp-image-10295"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="620" height="490" src="/wp-content/uploads/2021/03/image-19.png" alt="" class="wp-image-10295"/></figure></div>
 
 
 
@@ -509,7 +517,7 @@ System Benchmarks Index Score                                        7919.0</cod
 
 
 
-<h5>Crucial SSD 1000GB MX500　CT1000MX500SSD1/JP</h5>
+<h5 class="wp-block-heading">Crucial SSD 1000GB MX500　CT1000MX500SSD1/JP</h5>
 
 
 
@@ -537,7 +545,7 @@ Crucial Storage Executiveに対応
 
 
 
-<h3>macos10.15.7にしてデータ戻し中・・</h3>
+<h3 class="wp-block-heading">macos10.15.7にしてデータ戻し中・・</h3>
 
 
 
@@ -545,7 +553,7 @@ Crucial Storage Executiveに対応
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="859" height="305" src="/wp-content/uploads/2021/03/image-22.png" alt="" class="wp-image-10300" srcset="/wp-content/uploads/2021/03/image-22.png 859w, /wp-content/uploads/2021/03/image-22-768x273.png 768w" sizes="(max-width: 859px) 100vw, 859px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="859" height="305" src="/wp-content/uploads/2021/03/image-22.png" alt="" class="wp-image-10300" srcset="/wp-content/uploads/2021/03/image-22.png 859w, /wp-content/uploads/2021/03/image-22-768x273.png 768w" sizes="(max-width: 859px) 100vw, 859px" /></figure></div>
 
 
 
@@ -553,7 +561,7 @@ Crucial Storage Executiveに対応
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="549" src="/wp-content/uploads/2021/03/image-23-1024x549.png" alt="" class="wp-image-10301" srcset="/wp-content/uploads/2021/03/image-23-1024x549.png 1024w, /wp-content/uploads/2021/03/image-23-768x412.png 768w, /wp-content/uploads/2021/03/image-23-984x528.png 984w, /wp-content/uploads/2021/03/image-23.png 1040w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="549" src="/wp-content/uploads/2021/03/image-23-1024x549.png" alt="" class="wp-image-10301" srcset="/wp-content/uploads/2021/03/image-23-1024x549.png 1024w, /wp-content/uploads/2021/03/image-23-768x412.png 768w, /wp-content/uploads/2021/03/image-23-984x528.png 984w, /wp-content/uploads/2021/03/image-23.png 1040w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -561,7 +569,7 @@ Crucial Storage Executiveに対応
 
 
 
-<h3>なんとか認識させる！</h3>
+<h3 class="wp-block-heading">なんとか認識させる！</h3>
 
 
 
@@ -574,7 +582,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="501" height="532" src="/wp-content/uploads/2021/03/image-24.png" alt="" class="wp-image-10302"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="501" height="532" src="/wp-content/uploads/2021/03/image-24.png" alt="" class="wp-image-10302"/></figure></div>
 
 
 
@@ -582,7 +590,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="960" height="357" src="/wp-content/uploads/2021/03/image-36.png" alt="" class="wp-image-10321" srcset="/wp-content/uploads/2021/03/image-36.png 960w, /wp-content/uploads/2021/03/image-36-768x286.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="960" height="357" src="/wp-content/uploads/2021/03/image-36.png" alt="" class="wp-image-10321" srcset="/wp-content/uploads/2021/03/image-36.png 960w, /wp-content/uploads/2021/03/image-36-768x286.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
 
 
 
@@ -598,7 +606,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="499" height="532" src="/wp-content/uploads/2021/03/image-25.png" alt="" class="wp-image-10303"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="499" height="532" src="/wp-content/uploads/2021/03/image-25.png" alt="" class="wp-image-10303"/></figure></div>
 
 
 
@@ -606,7 +614,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="499" height="532" src="/wp-content/uploads/2021/03/image-26.png" alt="" class="wp-image-10304"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="499" height="532" src="/wp-content/uploads/2021/03/image-26.png" alt="" class="wp-image-10304"/></figure></div>
 
 
 
@@ -614,7 +622,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="501" height="309" src="/wp-content/uploads/2021/03/image-27.png" alt="" class="wp-image-10305"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="501" height="309" src="/wp-content/uploads/2021/03/image-27.png" alt="" class="wp-image-10305"/></figure></div>
 
 
 
@@ -626,7 +634,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="781" height="535" src="/wp-content/uploads/2021/03/image-28.png" alt="" class="wp-image-10306" srcset="/wp-content/uploads/2021/03/image-28.png 781w, /wp-content/uploads/2021/03/image-28-768x526.png 768w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="781" height="535" src="/wp-content/uploads/2021/03/image-28.png" alt="" class="wp-image-10306" srcset="/wp-content/uploads/2021/03/image-28.png 781w, /wp-content/uploads/2021/03/image-28-768x526.png 768w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
 
 
 
@@ -652,7 +660,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>Smart情報を見てみる！</h3>
+<h3 class="wp-block-heading">Smart情報を見てみる！</h3>
 
 
 
@@ -660,7 +668,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="729" height="409" src="/wp-content/uploads/2021/03/image-29.png" alt="" class="wp-image-10307"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="729" height="409" src="/wp-content/uploads/2021/03/image-29.png" alt="" class="wp-image-10307"/></figure></div>
 
 
 
@@ -712,7 +720,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="380" height="210" src="/wp-content/uploads/2021/03/image-31.png" alt="" class="wp-image-10309"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="380" height="210" src="/wp-content/uploads/2021/03/image-31.png" alt="" class="wp-image-10309"/></figure></div>
 
 
 
@@ -724,7 +732,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>Samsung SSD840のTBWは？</h3>
+<h3 class="wp-block-heading">Samsung SSD840のTBWは？</h3>
 
 
 
@@ -732,7 +740,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2021/03/840catalog.png" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" width="1024" height="742" src="/wp-content/uploads/2021/03/840catalog-1024x742.png" alt="" class="wp-image-10310" srcset="/wp-content/uploads/2021/03/840catalog-1024x742.png 1024w, /wp-content/uploads/2021/03/840catalog-768x556.png 768w, /wp-content/uploads/2021/03/840catalog-984x713.png 984w, /wp-content/uploads/2021/03/840catalog.png 1189w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2021/03/840catalog.png" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" width="1024" height="742" src="/wp-content/uploads/2021/03/840catalog-1024x742.png" alt="" class="wp-image-10310" srcset="/wp-content/uploads/2021/03/840catalog-1024x742.png 1024w, /wp-content/uploads/2021/03/840catalog-768x556.png 768w, /wp-content/uploads/2021/03/840catalog-984x713.png 984w, /wp-content/uploads/2021/03/840catalog.png 1189w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -748,7 +756,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>TechTool Pro 13でチェック</h3>
+<h3 class="wp-block-heading">TechTool Pro 13でチェック</h3>
 
 
 
@@ -756,7 +764,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="665" src="/wp-content/uploads/2021/03/image-32-1024x665.png" alt="" class="wp-image-10311" srcset="/wp-content/uploads/2021/03/image-32-1024x665.png 1024w, /wp-content/uploads/2021/03/image-32-768x499.png 768w, /wp-content/uploads/2021/03/image-32-984x639.png 984w, /wp-content/uploads/2021/03/image-32.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="665" src="/wp-content/uploads/2021/03/image-32-1024x665.png" alt="" class="wp-image-10311" srcset="/wp-content/uploads/2021/03/image-32-1024x665.png 1024w, /wp-content/uploads/2021/03/image-32-768x499.png 768w, /wp-content/uploads/2021/03/image-32-984x639.png 984w, /wp-content/uploads/2021/03/image-32.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -764,7 +772,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="665" src="/wp-content/uploads/2021/03/image-33-1024x665.png" alt="" class="wp-image-10312" srcset="/wp-content/uploads/2021/03/image-33-1024x665.png 1024w, /wp-content/uploads/2021/03/image-33-768x499.png 768w, /wp-content/uploads/2021/03/image-33-984x639.png 984w, /wp-content/uploads/2021/03/image-33.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="665" src="/wp-content/uploads/2021/03/image-33-1024x665.png" alt="" class="wp-image-10312" srcset="/wp-content/uploads/2021/03/image-33-1024x665.png 1024w, /wp-content/uploads/2021/03/image-33-768x499.png 768w, /wp-content/uploads/2021/03/image-33-984x639.png 984w, /wp-content/uploads/2021/03/image-33.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -776,7 +784,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>現状のSSD速度ベンチマーク</h3>
+<h3 class="wp-block-heading">現状のSSD速度ベンチマーク</h3>
 
 
 
@@ -788,7 +796,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="422" height="390" src="/wp-content/uploads/2021/03/image-34.png" alt="" class="wp-image-10313"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="422" height="390" src="/wp-content/uploads/2021/03/image-34.png" alt="" class="wp-image-10313"/></figure></div>
 
 
 
@@ -796,11 +804,11 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="422" height="390" src="/wp-content/uploads/2021/03/image-35.png" alt="" class="wp-image-10314"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="422" height="390" src="/wp-content/uploads/2021/03/image-35.png" alt="" class="wp-image-10314"/></figure></div>
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -812,7 +820,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -832,7 +840,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -899,7 +907,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="267" height="194" src="/wp-content/uploads/2021/02/image-6.png" alt="" class="wp-image-10197"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="267" height="194" src="/wp-content/uploads/2021/02/image-6.png" alt="" class="wp-image-10197"/></figure></div>
 
 
 
@@ -907,7 +915,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="221" height="384" src="/wp-content/uploads/2021/02/image-7.png" alt="" class="wp-image-10198"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="221" height="384" src="/wp-content/uploads/2021/02/image-7.png" alt="" class="wp-image-10198"/></figure></div>
 
 
 
@@ -915,7 +923,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>使えるUSBライブラリは？</h3>
+<h3 class="wp-block-heading">使えるUSBライブラリは？</h3>
 
 
 
@@ -939,7 +947,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>ライブラリを入れる</h3>
+<h3 class="wp-block-heading">ライブラリを入れる</h3>
 
 
 
@@ -955,7 +963,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="555" height="189" src="/wp-content/uploads/2021/03/image.png" alt="" class="wp-image-10202"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="555" height="189" src="/wp-content/uploads/2021/03/image.png" alt="" class="wp-image-10202"/></figure></div>
 
 
 
@@ -963,7 +971,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="284" height="477" src="/wp-content/uploads/2021/03/image-1.png" alt="" class="wp-image-10203"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="284" height="477" src="/wp-content/uploads/2021/03/image-1.png" alt="" class="wp-image-10203"/></figure></div>
 
 
 
@@ -999,7 +1007,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<h3>サンプルを動かしてみる</h3>
+<h3 class="wp-block-heading">サンプルを動かしてみる</h3>
 
 
 
@@ -1007,7 +1015,7 @@ $ sudo testdisk</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="668" height="615" src="/wp-content/uploads/2021/03/image-2.png" alt="" class="wp-image-10204"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="668" height="615" src="/wp-content/uploads/2021/03/image-2.png" alt="" class="wp-image-10204"/></figure></div>
 
 
 
@@ -1036,7 +1044,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<h3>４ボタンの専用キーボードを作る！</h3>
+<h3 class="wp-block-heading">４ボタンの専用キーボードを作る！</h3>
 
 
 
@@ -1052,7 +1060,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<h3>筐体に組み込む！</h3>
+<h3 class="wp-block-heading">筐体に組み込む！</h3>
 
 
 
@@ -1060,7 +1068,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="565" src="/wp-content/uploads/2021/03/image-3-1024x565.png" alt="" class="wp-image-10207" srcset="/wp-content/uploads/2021/03/image-3-1024x565.png 1024w, /wp-content/uploads/2021/03/image-3-768x423.png 768w, /wp-content/uploads/2021/03/image-3-984x543.png 984w, /wp-content/uploads/2021/03/image-3.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="565" src="/wp-content/uploads/2021/03/image-3-1024x565.png" alt="" class="wp-image-10207" srcset="/wp-content/uploads/2021/03/image-3-1024x565.png 1024w, /wp-content/uploads/2021/03/image-3-768x423.png 768w, /wp-content/uploads/2021/03/image-3-984x543.png 984w, /wp-content/uploads/2021/03/image-3.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1072,7 +1080,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="722" src="/wp-content/uploads/2021/03/image-4-1024x722.png" alt="" class="wp-image-10208" srcset="/wp-content/uploads/2021/03/image-4-1024x722.png 1024w, /wp-content/uploads/2021/03/image-4-768x542.png 768w, /wp-content/uploads/2021/03/image-4-984x694.png 984w, /wp-content/uploads/2021/03/image-4.png 1116w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="722" src="/wp-content/uploads/2021/03/image-4-1024x722.png" alt="" class="wp-image-10208" srcset="/wp-content/uploads/2021/03/image-4-1024x722.png 1024w, /wp-content/uploads/2021/03/image-4-768x542.png 768w, /wp-content/uploads/2021/03/image-4-984x694.png 984w, /wp-content/uploads/2021/03/image-4.png 1116w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1080,7 +1088,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="765" src="/wp-content/uploads/2021/03/image-6-1024x765.png" alt="" class="wp-image-10210" srcset="/wp-content/uploads/2021/03/image-6-1024x765.png 1024w, /wp-content/uploads/2021/03/image-6-768x573.png 768w, /wp-content/uploads/2021/03/image-6-984x735.png 984w, /wp-content/uploads/2021/03/image-6.png 1212w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="765" src="/wp-content/uploads/2021/03/image-6-1024x765.png" alt="" class="wp-image-10210" srcset="/wp-content/uploads/2021/03/image-6-1024x765.png 1024w, /wp-content/uploads/2021/03/image-6-768x573.png 768w, /wp-content/uploads/2021/03/image-6-984x735.png 984w, /wp-content/uploads/2021/03/image-6.png 1212w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1088,11 +1096,11 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="839" height="628" src="/wp-content/uploads/2021/03/image-7.png" alt="" class="wp-image-10211" srcset="/wp-content/uploads/2021/03/image-7.png 839w, /wp-content/uploads/2021/03/image-7-768x575.png 768w" sizes="(max-width: 839px) 100vw, 839px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="839" height="628" src="/wp-content/uploads/2021/03/image-7.png" alt="" class="wp-image-10211" srcset="/wp-content/uploads/2021/03/image-7.png 839w, /wp-content/uploads/2021/03/image-7-768x575.png 768w" sizes="(max-width: 839px) 100vw, 839px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="688" src="/wp-content/uploads/2021/03/XIAO_Pin.png" alt="" class="wp-image-10213" srcset="/wp-content/uploads/2021/03/XIAO_Pin.png 1024w, /wp-content/uploads/2021/03/XIAO_Pin-768x516.png 768w, /wp-content/uploads/2021/03/XIAO_Pin-984x661.png 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="688" src="/wp-content/uploads/2021/03/XIAO_Pin.png" alt="" class="wp-image-10213" srcset="/wp-content/uploads/2021/03/XIAO_Pin.png 1024w, /wp-content/uploads/2021/03/XIAO_Pin-768x516.png 768w, /wp-content/uploads/2021/03/XIAO_Pin-984x661.png 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -1104,7 +1112,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="742" src="/wp-content/uploads/2021/03/image-5-1024x742.png" alt="" class="wp-image-10209" srcset="/wp-content/uploads/2021/03/image-5-1024x742.png 1024w, /wp-content/uploads/2021/03/image-5-768x557.png 768w, /wp-content/uploads/2021/03/image-5-984x713.png 984w, /wp-content/uploads/2021/03/image-5.png 1251w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="742" src="/wp-content/uploads/2021/03/image-5-1024x742.png" alt="" class="wp-image-10209" srcset="/wp-content/uploads/2021/03/image-5-1024x742.png 1024w, /wp-content/uploads/2021/03/image-5-768x557.png 768w, /wp-content/uploads/2021/03/image-5-984x713.png 984w, /wp-content/uploads/2021/03/image-5.png 1251w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -1112,7 +1120,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="800" height="800" src="/wp-content/uploads/2021/03/DIY-USB-KEY.png" alt="" class="wp-image-10212" srcset="/wp-content/uploads/2021/03/DIY-USB-KEY.png 800w, /wp-content/uploads/2021/03/DIY-USB-KEY-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="800" height="800" src="/wp-content/uploads/2021/03/DIY-USB-KEY.png" alt="" class="wp-image-10212" srcset="/wp-content/uploads/2021/03/DIY-USB-KEY.png 800w, /wp-content/uploads/2021/03/DIY-USB-KEY-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure></div>
 
 
 
@@ -1120,7 +1128,7 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="540" height="383" src="/wp-content/uploads/2021/03/image-8.png" alt="" class="wp-image-10214"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="540" height="383" src="/wp-content/uploads/2021/03/image-8.png" alt="" class="wp-image-10214"/></figure></div>
 
 
 
@@ -1128,11 +1136,11 @@ $ open xiao_usb1.ino </code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="665" height="605" src="/wp-content/uploads/2021/03/image-9.png" alt="" class="wp-image-10215"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="665" height="605" src="/wp-content/uploads/2021/03/image-9.png" alt="" class="wp-image-10215"/></figure></div>
 
 
 
-<h3>MacのKeycodeを確認</h3>
+<h3 class="wp-block-heading">MacのKeycodeを確認</h3>
 
 
 
@@ -1168,7 +1176,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="668" height="581" src="/wp-content/uploads/2021/03/mac-keyboard.png" alt="" class="wp-image-10252"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="668" height="581" src="/wp-content/uploads/2021/03/mac-keyboard.png" alt="" class="wp-image-10252"/></figure></div>
 
 
 
@@ -1176,7 +1184,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -1188,7 +1196,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -1200,7 +1208,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -1215,7 +1223,7 @@ $ sudo ./keylogger</code></pre>
 			</item>
 		<item>
 		<title>ポートフォワードの経路で、Uターン NATとかヘアピンNATが使えないルータの場合のあれこれ</title>
-		<link>/2020/09/07/u-turn-nat/</link>
+		<link>/2020/09/07/%e3%83%9d%e3%83%bc%e3%83%88%e3%83%95%e3%82%a9%e3%83%af%e3%83%bc%e3%83%89%e3%81%ae%e7%b5%8c%e8%b7%af%e3%81%a7%e3%80%81u%e3%82%bf%e3%83%bc%e3%83%b3-nat%e3%81%a8%e3%81%8b%e3%83%98%e3%82%a2%e3%83%94/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 07 Sep 2020 08:01:27 +0000</pubDate>
@@ -1237,7 +1245,7 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/untitled_diagram_drawio_-_diagrams_net.png?w=607" alt="" class="wp-image-5932" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/untitled_diagram_drawio_-_diagrams_net.png?w=607" alt="" class="wp-image-5932" /></figure>
 
 
 
@@ -1253,11 +1261,11 @@ $ sudo ./keylogger</code></pre>
 
 
 
-<h2>Macでリバースプロキシをnginxで作る</h2>
+<h2 class="wp-block-heading">Macでリバースプロキシをnginxで作る</h2>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/untitled_diagram_drawio_-_diagrams_net-1.png?w=607" alt="" class="wp-image-5935" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/untitled_diagram_drawio_-_diagrams_net-1.png?w=607" alt="" class="wp-image-5935" /></figure>
 
 
 

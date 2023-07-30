@@ -18,11 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>music &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>MQAは実際に体感できるほどの高音質なのか？</title>
-		<link>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/</link>
-					<comments>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/#comments</comments>
+		<link>/2021/02/14/post-10057/</link>
+					<comments>/2021/02/14/post-10057/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 13 Feb 2021 19:13:53 +0000</pubDate>
@@ -75,7 +83,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="882" height="808" src="/wp-content/uploads/2021/02/2002_-_Anne-Marie.png" alt="" class="wp-image-10058" srcset="/wp-content/uploads/2021/02/2002_-_Anne-Marie.png 882w, /wp-content/uploads/2021/02/2002_-_Anne-Marie-768x704.png 768w" sizes="(max-width: 882px) 100vw, 882px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="882" height="808" src="/wp-content/uploads/2021/02/2002_-_Anne-Marie.png" alt="" class="wp-image-10058" srcset="/wp-content/uploads/2021/02/2002_-_Anne-Marie.png 882w, /wp-content/uploads/2021/02/2002_-_Anne-Marie-768x704.png 768w" sizes="(max-width: 882px) 100vw, 882px" /></figure></div>
 
 
 
@@ -83,7 +91,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="388" height="319" src="/wp-content/uploads/2021/02/master-normal.png" alt="" class="wp-image-10059"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="388" height="319" src="/wp-content/uploads/2021/02/master-normal.png" alt="" class="wp-image-10059"/></figure></div>
 
 
 
@@ -91,7 +99,7 @@
 
 
 
-<h3>ハイレゾとは？</h3>
+<h3 class="wp-block-heading">ハイレゾとは？</h3>
 
 
 
@@ -107,7 +115,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="605" height="429" src="/wp-content/uploads/2021/02/whatshi-res.png" alt="" class="wp-image-10060"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="605" height="429" src="/wp-content/uploads/2021/02/whatshi-res.png" alt="" class="wp-image-10060"/></figure></div>
 
 
 
@@ -127,7 +135,7 @@
 
 
 
-<h3>ハイレゾだと無条件に音質がいいのか？</h3>
+<h3 class="wp-block-heading">ハイレゾだと無条件に音質がいいのか？</h3>
 
 
 
@@ -155,7 +163,7 @@
 
 
 
-<h3>MQAとは何か？</h3>
+<h3 class="wp-block-heading">MQAとは何か？</h3>
 
 
 
@@ -175,7 +183,7 @@
 
 
 
-<h3>TidalのMQAファイルをダウンロードして観察</h3>
+<h3 class="wp-block-heading">TidalのMQAファイルをダウンロードして観察</h3>
 
 
 
@@ -183,7 +191,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="479" height="86" src="/wp-content/uploads/2021/02/tidal-Trans-Island_Skyway.png" alt="" class="wp-image-10064"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="479" height="86" src="/wp-content/uploads/2021/02/tidal-Trans-Island_Skyway.png" alt="" class="wp-image-10064"/></figure></div>
 
 
 
@@ -248,7 +256,7 @@ drwxr-xr-x@ 37 junkhack  staff       1184  2 14 00:38 ..
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/02/flac-hires.png" alt="" class="wp-image-10065" width="486" height="82"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="/wp-content/uploads/2021/02/flac-hires.png" alt="" class="wp-image-10065" width="486" height="82"/></figure></div>
 
 
 
@@ -280,7 +288,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="565" height="345" src="/wp-content/uploads/2021/02/201511-045-057_pdf.png" alt="" class="wp-image-10066"/></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="565" height="345" src="/wp-content/uploads/2021/02/201511-045-057_pdf.png" alt="" class="wp-image-10066"/></figure>
 
 
 
@@ -288,7 +296,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="630" height="354" src="/wp-content/uploads/2021/02/201511-045-057_pdf-1.png" alt="" class="wp-image-10067"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="630" height="354" src="/wp-content/uploads/2021/02/201511-045-057_pdf-1.png" alt="" class="wp-image-10067"/></figure></div>
 
 
 
@@ -304,7 +312,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>実際にMQAレンダリングできるDACで聴感の違いは感じるか？</h3>
+<h3 class="wp-block-heading">実際にMQAレンダリングできるDACで聴感の違いは感じるか？</h3>
 
 
 
@@ -364,7 +372,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -376,7 +384,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -400,7 +408,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -414,7 +422,7 @@ $ file 01-Trans-Island\ Skyway.flac
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/14/is_mqa_high-quality_sound_thatyou_can_experience/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/14/post-10057/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
@@ -474,7 +482,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="793" height="449" src="/wp-content/uploads/2021/02/MeizuHiFiDAC.png" alt="" class="wp-image-10034" srcset="/wp-content/uploads/2021/02/MeizuHiFiDAC.png 793w, /wp-content/uploads/2021/02/MeizuHiFiDAC-768x435.png 768w" sizes="(max-width: 793px) 100vw, 793px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="793" height="449" src="/wp-content/uploads/2021/02/MeizuHiFiDAC.png" alt="" class="wp-image-10034" srcset="/wp-content/uploads/2021/02/MeizuHiFiDAC.png 793w, /wp-content/uploads/2021/02/MeizuHiFiDAC-768x435.png 768w" sizes="(max-width: 793px) 100vw, 793px" /></figure></div>
 
 
 
@@ -486,7 +494,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>今回買った新しいDACの特徴は？</h3>
+<h3 class="wp-block-heading">今回買った新しいDACの特徴は？</h3>
 
 
 
@@ -494,7 +502,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="883" height="747" src="/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png" alt="" class="wp-image-10040" srcset="/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png 883w, /wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf-768x650.png 768w" sizes="(max-width: 883px) 100vw, 883px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="883" height="747" src="/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png" alt="" class="wp-image-10040" srcset="/wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf.png 883w, /wp-content/uploads/2021/02/3f4fea714f0b31ce3d5e3560846c52cf-768x650.png 768w" sizes="(max-width: 883px) 100vw, 883px" /></figure></div>
 
 
 
@@ -502,7 +510,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>DACとして比較・比較条件はこれ！</h3>
+<h3 class="wp-block-heading">DACとして比較・比較条件はこれ！</h3>
 
 
 
@@ -530,7 +538,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>違いはわかるのか？具体的にどこが違う？</h3>
+<h3 class="wp-block-heading">違いはわかるのか？具体的にどこが違う？</h3>
 
 
 
@@ -566,7 +574,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>参考にしたリンクなど</h3>
+<h3 class="wp-block-heading">参考にしたリンクなど</h3>
 
 
 
@@ -578,7 +586,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -590,7 +598,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -602,7 +610,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -666,7 +674,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>そもそも配信系の品質って何があるの？</h3>
+<h3 class="wp-block-heading">そもそも配信系の品質って何があるの？</h3>
 
 
 
@@ -694,7 +702,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="782" height="357" src="/wp-content/uploads/2021/01/Tidal-low-master.png" alt="" class="wp-image-10010" srcset="/wp-content/uploads/2021/01/Tidal-low-master.png 782w, /wp-content/uploads/2021/01/Tidal-low-master-768x351.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="782" height="357" src="/wp-content/uploads/2021/01/Tidal-low-master.png" alt="" class="wp-image-10010" srcset="/wp-content/uploads/2021/01/Tidal-low-master.png 782w, /wp-content/uploads/2021/01/Tidal-low-master-768x351.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
 
 
 
@@ -714,7 +722,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="481" height="405" src="/wp-content/uploads/2021/01/TIDAL.png" alt="" class="wp-image-10011"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="481" height="405" src="/wp-content/uploads/2021/01/TIDAL.png" alt="" class="wp-image-10011"/></figure></div>
 
 
 
@@ -722,11 +730,11 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="351" height="99" src="/wp-content/uploads/2021/01/tidal-flac-mqa.png" alt="" class="wp-image-10012"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="351" height="99" src="/wp-content/uploads/2021/01/tidal-flac-mqa.png" alt="" class="wp-image-10012"/></figure></div>
 
 
 
-<h3>AACとFlacを聴き分けられるのか？</h3>
+<h3 class="wp-block-heading">AACとFlacを聴き分けられるのか？</h3>
 
 
 
@@ -734,7 +742,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="659" height="333" src="/wp-content/uploads/2021/01/aac-flachikaku.png" alt="" class="wp-image-10009"/></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="659" height="333" src="/wp-content/uploads/2021/01/aac-flachikaku.png" alt="" class="wp-image-10009"/></figure>
 
 
 
@@ -750,11 +758,11 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="393" src="/wp-content/uploads/2021/01/InputDevice-1024x393.png" alt="" class="wp-image-10013" srcset="/wp-content/uploads/2021/01/InputDevice-1024x393.png 1024w, /wp-content/uploads/2021/01/InputDevice-768x295.png 768w, /wp-content/uploads/2021/01/InputDevice-984x377.png 984w, /wp-content/uploads/2021/01/InputDevice.png 1061w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="393" src="/wp-content/uploads/2021/01/InputDevice-1024x393.png" alt="" class="wp-image-10013" srcset="/wp-content/uploads/2021/01/InputDevice-1024x393.png 1024w, /wp-content/uploads/2021/01/InputDevice-768x295.png 768w, /wp-content/uploads/2021/01/InputDevice-984x377.png 984w, /wp-content/uploads/2021/01/InputDevice.png 1061w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<h3>AACのLowとHighは余裕で聞き分けられたが！</h3>
+<h3 class="wp-block-heading">AACのLowとHighは余裕で聞き分けられたが！</h3>
 
 
 
@@ -762,7 +770,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="691" height="171" src="/wp-content/uploads/2021/01/aac-flac-compare.png" alt="" class="wp-image-10014"/></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="691" height="171" src="/wp-content/uploads/2021/01/aac-flac-compare.png" alt="" class="wp-image-10014"/></figure>
 
 
 
@@ -770,7 +778,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>16 kHz以上が聞こえない！</h3>
+<h3 class="wp-block-heading">16 kHz以上が聞こえない！</h3>
 
 
 
@@ -790,7 +798,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>つまり、自分の場合AAC320kbpsで良い！</h3>
+<h3 class="wp-block-heading">つまり、自分の場合AAC320kbpsで良い！</h3>
 
 
 
@@ -798,7 +806,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -810,7 +818,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -818,7 +826,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -878,7 +886,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>絨毯のスピーカーって何？</h3>
+<h3 class="wp-block-heading">絨毯のスピーカーって何？</h3>
 
 
 
@@ -886,7 +894,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="553" height="367" src="/wp-content/uploads/2021/01/jh-sp.png" alt="" class="wp-image-9980"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="553" height="367" src="/wp-content/uploads/2021/01/jh-sp.png" alt="" class="wp-image-9980"/></figure></div>
 
 
 
@@ -894,7 +902,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="/wp-content/uploads/2021/01/85244a8e746d15243077602c6d88ce83.png" alt="" class="wp-image-9981" width="551" height="513"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="/wp-content/uploads/2021/01/85244a8e746d15243077602c6d88ce83.png" alt="" class="wp-image-9981" width="551" height="513"/></figure></div>
 
 
 
@@ -910,7 +918,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>エレクトロボイス　Sx100+</h3>
+<h3 class="wp-block-heading">エレクトロボイス　Sx100+</h3>
 
 
 
@@ -918,7 +926,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://products.electrovoice.com/na/en/sx100" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" width="757" height="859" src="/wp-content/uploads/2021/01/Sx100__-_12__passive_loudspeaker_by_Electro-voice.png" alt="" class="wp-image-9982"/></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://products.electrovoice.com/na/en/sx100" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img decoding="async" loading="lazy" width="757" height="859" src="/wp-content/uploads/2021/01/Sx100__-_12__passive_loudspeaker_by_Electro-voice.png" alt="" class="wp-image-9982"/></a></figure></div>
 
 
 
@@ -926,7 +934,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<figure class="wp-block-table"><table><thead><tr><th></th><th>Sx100+<br>12&#8243; passive loudspeaker</th><th>Sx300E<br>12&#8243; passive loudspeaker</th></tr></thead><tbody><tr><td></td><td><img src="/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice-1.png" alt=""></td><td><img src="/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice.png" alt=""></td></tr><tr><td>Frequency Range (-10 dB)</td><td>60 &#8211; 25000kHz</td><td>50 &#8211; 20000kHz</td></tr><tr><td>Weatherized</td><td>No</td><td>No</td></tr><tr><td>Flying</td><td>Yes</td><td>Yes</td></tr><tr><td>Minimum Impedance</td><td>5.6Ω</td><td>5Ω</td></tr><tr><td>Nominal Impedance (Passive)</td><td>8Ω</td><td>8Ω</td></tr><tr><td>HF Transducer</td><td>1.25-inch DH3/2010A</td><td>1.25-inch DH3/2010A</td></tr><tr><td>Speaker Type</td><td>Full-Range, Mid-High, Two-Way</td><td>Full-Range, Mid-High, Two-Way</td></tr><tr><td>MF Transducer</td><td></td><td></td></tr><tr><td>Woofer Size</td><td>12inch</td><td>12inch</td></tr><tr><td>Powered or Passive</td><td>Passive</td><td>Passive</td></tr><tr><td>Frequency Range (-10 dB)¹</td><td></td><td></td></tr><tr><td>Max. SPL/1m (calc)²</td><td>127dB</td><td>131/123dB ()</td></tr><tr><td>Coverage (Nominal -6 dB) H</td><td>65° ()</td><td>65° ()</td></tr><tr><td>Coverage (Nominal -6 dB) V</td><td>65° ()</td><td>65° ()</td></tr><tr><td>LF Transducer</td><td>12-inch</td><td>12-inch DL12BFH</td></tr><tr><td>System Power Handling (Continuous/Program/Peak)</td><td>200//800Watts ()</td><td>300/1200Watts ()</td></tr><tr><td>Power Rating</td><td>800W</td><td></td></tr><tr><td>Crossover Frequency</td><td>1500Hz</td><td>1500Hz</td></tr><tr><td>Connector Type</td><td></td><td></td></tr><tr><td>Enclosure Material</td><td>Copolymer Composite</td><td>Copolymer Composite</td></tr><tr><td>Sensitivity 1 W/1 m</td><td>98dB</td><td>99dB</td></tr><tr><td>Available Color</td><td>Black or white</td><td>Black or white</td></tr><tr><td>Height</td><td>23.07&#8243; (586mm)</td><td>23.07&#8243; (586mm)</td></tr><tr><td>Width</td><td>16.89&#8243; (429mm)</td><td>16.89&#8243; (429mm)</td></tr><tr><td>Recommended High-Pass Frequency</td><td></td><td></td></tr><tr><td>Depth</td><td>12.28&#8243; (312mm)</td><td>12.28&#8243; (312mm)</td></tr><tr><td>Internal Crossover</td><td>Yes</td><td>Yes</td></tr><tr><td>Weight Net</td><td>31.97lbs (14.5kg)</td><td>39.02lbs (17.7kg)</td></tr><tr><td>Frequency Response (-3 dB)</td><td></td><td></td></tr><tr><td>Shipping Weight</td><td></td><td></td></tr><tr><td>Family</td><td>Sx</td><td>Sx</td></tr><tr><td>Chassis Size</td><td>304.8 mm</td><td>304.8 mm</td></tr><tr><td>Power Handling (Continuous / Peak)</td><td></td><td></td></tr><tr><td>Input Connections</td><td>Parallel Neutrik® NL4</td><td>2 four-pin Speakon</td></tr><tr><td>Maximum SPL</td><td></td><td></td></tr><tr><td>Directivity Index</td><td>11.1dB ()</td><td>11.1dB ()</td></tr><tr><td>Axial Sensitivity (SPL, 1 W @ 1 m)</td><td>98dB</td><td>99dB</td></tr><tr><td>Passive Power Handling</td><td></td><td></td></tr><tr><td>Transformer</td><td></td><td></td></tr><tr><td>Impedance</td><td></td><td></td></tr></tbody></table><figcaption>引用：https://products.electrovoice.com/na/en/sx</figcaption></figure>
+<figure class="wp-block-table"><table><thead><tr><th></th><th>Sx100+<br>12&#8243; passive loudspeaker</th><th>Sx300E<br>12&#8243; passive loudspeaker</th></tr></thead><tbody><tr><td></td><td><img decoding="async" src="/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice-1.png" alt=""></td><td><img decoding="async" src="/wp-content/uploads/2021/01/Sx_portable_passive_loudspeakers_by_Electro-voice.png" alt=""></td></tr><tr><td>Frequency Range (-10 dB)</td><td>60 &#8211; 25000kHz</td><td>50 &#8211; 20000kHz</td></tr><tr><td>Weatherized</td><td>No</td><td>No</td></tr><tr><td>Flying</td><td>Yes</td><td>Yes</td></tr><tr><td>Minimum Impedance</td><td>5.6Ω</td><td>5Ω</td></tr><tr><td>Nominal Impedance (Passive)</td><td>8Ω</td><td>8Ω</td></tr><tr><td>HF Transducer</td><td>1.25-inch DH3/2010A</td><td>1.25-inch DH3/2010A</td></tr><tr><td>Speaker Type</td><td>Full-Range, Mid-High, Two-Way</td><td>Full-Range, Mid-High, Two-Way</td></tr><tr><td>MF Transducer</td><td></td><td></td></tr><tr><td>Woofer Size</td><td>12inch</td><td>12inch</td></tr><tr><td>Powered or Passive</td><td>Passive</td><td>Passive</td></tr><tr><td>Frequency Range (-10 dB)¹</td><td></td><td></td></tr><tr><td>Max. SPL/1m (calc)²</td><td>127dB</td><td>131/123dB ()</td></tr><tr><td>Coverage (Nominal -6 dB) H</td><td>65° ()</td><td>65° ()</td></tr><tr><td>Coverage (Nominal -6 dB) V</td><td>65° ()</td><td>65° ()</td></tr><tr><td>LF Transducer</td><td>12-inch</td><td>12-inch DL12BFH</td></tr><tr><td>System Power Handling (Continuous/Program/Peak)</td><td>200//800Watts ()</td><td>300/1200Watts ()</td></tr><tr><td>Power Rating</td><td>800W</td><td></td></tr><tr><td>Crossover Frequency</td><td>1500Hz</td><td>1500Hz</td></tr><tr><td>Connector Type</td><td></td><td></td></tr><tr><td>Enclosure Material</td><td>Copolymer Composite</td><td>Copolymer Composite</td></tr><tr><td>Sensitivity 1 W/1 m</td><td>98dB</td><td>99dB</td></tr><tr><td>Available Color</td><td>Black or white</td><td>Black or white</td></tr><tr><td>Height</td><td>23.07&#8243; (586mm)</td><td>23.07&#8243; (586mm)</td></tr><tr><td>Width</td><td>16.89&#8243; (429mm)</td><td>16.89&#8243; (429mm)</td></tr><tr><td>Recommended High-Pass Frequency</td><td></td><td></td></tr><tr><td>Depth</td><td>12.28&#8243; (312mm)</td><td>12.28&#8243; (312mm)</td></tr><tr><td>Internal Crossover</td><td>Yes</td><td>Yes</td></tr><tr><td>Weight Net</td><td>31.97lbs (14.5kg)</td><td>39.02lbs (17.7kg)</td></tr><tr><td>Frequency Response (-3 dB)</td><td></td><td></td></tr><tr><td>Shipping Weight</td><td></td><td></td></tr><tr><td>Family</td><td>Sx</td><td>Sx</td></tr><tr><td>Chassis Size</td><td>304.8 mm</td><td>304.8 mm</td></tr><tr><td>Power Handling (Continuous / Peak)</td><td></td><td></td></tr><tr><td>Input Connections</td><td>Parallel Neutrik® NL4</td><td>2 four-pin Speakon</td></tr><tr><td>Maximum SPL</td><td></td><td></td></tr><tr><td>Directivity Index</td><td>11.1dB ()</td><td>11.1dB ()</td></tr><tr><td>Axial Sensitivity (SPL, 1 W @ 1 m)</td><td>98dB</td><td>99dB</td></tr><tr><td>Passive Power Handling</td><td></td><td></td></tr><tr><td>Transformer</td><td></td><td></td></tr><tr><td>Impedance</td><td></td><td></td></tr></tbody></table><figcaption>引用：https://products.electrovoice.com/na/en/sx</figcaption></figure>
 
 
 
@@ -942,7 +950,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>興味をもったきっかけ</h3>
+<h3 class="wp-block-heading">興味をもったきっかけ</h3>
 
 
 
@@ -958,7 +966,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>Sx100の音はこんな感じ！</h3>
+<h3 class="wp-block-heading">Sx100の音はこんな感じ！</h3>
 
 
 
@@ -984,7 +992,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -996,7 +1004,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -1004,7 +1012,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -1019,7 +1027,7 @@ $ file 01-Trans-Island\ Skyway.flac
 			</item>
 		<item>
 		<title>I2Sというのに手を出してみる事に</title>
-		<link>/2016/02/01/i2se381a8e38184e38186e381aee381abe6898be38292e587bae38197e381a6e381bfe3828be4ba8be381ab/</link>
+		<link>/2016/02/01/i2s%e3%81%a8%e3%81%84%e3%81%86%e3%81%ae%e3%81%ab%e6%89%8b%e3%82%92%e5%87%ba%e3%81%97%e3%81%a6%e3%81%bf%e3%82%8b%e4%ba%8b%e3%81%ab/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 01 Feb 2016 14:46:57 +0000</pubDate>
@@ -1033,12 +1041,12 @@ $ file 01-Trans-Island\ Skyway.flac
 <p>I2C を調査しているときに、I2S というキーワードも目に入りました。寄り道して散歩していると、なにやら 音関連のようです。どうやら、DAC を USB 経由じゃなくて、I2S インターフェイスを使ってやり取りしてDA 変換するものとのこと。こうして音だしすると、びっくりするくらい音が綺麗というじゃありませんか。</p>
 <p>&#160;</p>
 <p>I2S するのは、以下のようなのが定番のようです。RasPi の GPIO ヘッダーにかぶせるタイプです。TI のチップである、PCM5122という 32bit のDAコンバータが載っています。</p>
-<p> <img loading="lazy" title="HIFI-DAC-I2S" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HIFI-DAC-I2S" src="/wp-content/uploads/2016/02/hifidaci2s.jpg" width="480" height="480" />   </p>
+<p> <img decoding="async" loading="lazy" title="HIFI-DAC-I2S" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HIFI-DAC-I2S" src="/wp-content/uploads/2016/02/hifidaci2s.jpg" width="480" height="480" />   </p>
 <p>お値段も手が出る範囲ですし、一回自分の耳で聞き分けれるかどうか、試してみたくなりました。今は、osx から内臓の音出力を使ってデジタルアンプに出しているだけのシンプルなものです。これでも、かなり気に入っていますが、果たしてよくなるのでしょうか。いや、良くなったしても自分の耳で判別できるでしょうか？</p>
 <p>&#160;</p>
 <p>外付けで、音専用マシンとしてPCを付けなくても鳴らせるようにデジタルアンプも安いものですが購入してみました。こちらも、TIのチップ、TPA3116D2が載っているようです。電源は安定化電源から取る予定。</p>
-<p><img loading="lazy" title="amp_TPA3116" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="amp_TPA3116" src="/wp-content/uploads/2016/02/amp_tpa3116.jpg" width="511" height="480" />あと、アンプとRasPiをつなぐ短いRCAケーブルもゲット。ま、普通のビデオ線のあまりでもよかったのですが、それっぽい雰囲気を出してみたかったので。</p>
-<p>&#160;<img loading="lazy" title="rca_cable" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="rca_cable" src="/wp-content/uploads/2016/02/rca_cable.jpg" width="515" height="386" /> </p>
+<p><img decoding="async" loading="lazy" title="amp_TPA3116" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="amp_TPA3116" src="/wp-content/uploads/2016/02/amp_tpa3116.jpg" width="511" height="480" />あと、アンプとRasPiをつなぐ短いRCAケーブルもゲット。ま、普通のビデオ線のあまりでもよかったのですが、それっぽい雰囲気を出してみたかったので。</p>
+<p>&#160;<img decoding="async" loading="lazy" title="rca_cable" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="rca_cable" src="/wp-content/uploads/2016/02/rca_cable.jpg" width="515" height="386" /> </p>
 </p>
 <p>トータル50ドルほどです。スピーカーは今ある自作の天つり式のじゅうたんスピーカーです。さぁ、どんな感じになりますでしょうか。みんなオーバーにブログで言っているだけなんじゃないかと思っていますが。そんなに変わらないでしょう？</p>
 ]]></content:encoded>

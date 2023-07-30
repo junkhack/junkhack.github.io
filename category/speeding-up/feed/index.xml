@@ -12,21 +12,29 @@
 	<title>高速化 &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sun, 12 Jun 2022 14:32:49 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 19 Jul 2023 01:49:40 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>高速化 &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>アルゴリア検索を導入してみたら、速くて便利で気に入った話！</title>
 		<link>/2022/05/05/algoliasearch/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 04 May 2022 20:08:40 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[WordPress]]></category>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[新ブログ]]></category>
 		<category><![CDATA[高速化]]></category>
 		<guid isPermaLink="false">/?p=11202</guid>
 				<media:thumbnail url="/wp-content/uploads/2022/05/AlgoliaSearch.png" />
@@ -80,7 +88,7 @@
 
 
 
-<h3>見つけたところは、Electronのサイト！</h3>
+<h3 class="wp-block-heading">見つけたところは、Electronのサイト！</h3>
 
 
 
@@ -96,7 +104,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img width="1024" height="633" src="/wp-content/uploads/2022/05/Electron-doc-1024x633.png" alt="" class="wp-image-11205" srcset="/wp-content/uploads/2022/05/Electron-doc-1024x633.png 1024w, /wp-content/uploads/2022/05/Electron-doc-768x474.png 768w, /wp-content/uploads/2022/05/Electron-doc-984x608.png 984w, /wp-content/uploads/2022/05/Electron-doc.png 1099w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="633" src="/wp-content/uploads/2022/05/Electron-doc-1024x633.png" alt="" class="wp-image-11205" srcset="/wp-content/uploads/2022/05/Electron-doc-1024x633.png 1024w, /wp-content/uploads/2022/05/Electron-doc-768x474.png 768w, /wp-content/uploads/2022/05/Electron-doc-984x608.png 984w, /wp-content/uploads/2022/05/Electron-doc.png 1099w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -116,7 +124,7 @@
 
 
 
-<h3>algolia の検索システムとは何なのか？</h3>
+<h3 class="wp-block-heading">algolia の検索システムとは何なのか？</h3>
 
 
 
@@ -140,7 +148,7 @@
 
 
 
-<h3>このブログでの実装例</h3>
+<h3 class="wp-block-heading">このブログでの実装例</h3>
 
 
 
@@ -148,7 +156,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img loading="lazy" width="795" height="266" src="/wp-content/uploads/2022/05/screenshot-1.png" alt="" class="wp-image-11209" srcset="/wp-content/uploads/2022/05/screenshot-1.png 795w, /wp-content/uploads/2022/05/screenshot-1-768x257.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img decoding="async" loading="lazy" width="795" height="266" src="/wp-content/uploads/2022/05/screenshot-1.png" alt="" class="wp-image-11209" srcset="/wp-content/uploads/2022/05/screenshot-1.png 795w, /wp-content/uploads/2022/05/screenshot-1-768x257.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></figure></div>
 
 
 
@@ -156,7 +164,7 @@
 
 
 
-<h3>WordPressに入れてみる</h3>
+<h3 class="wp-block-heading">WordPressに入れてみる</h3>
 
 
 
@@ -168,7 +176,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://ja.wordpress.org/plugins/wp-search-with-algolia/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" width="940" height="417" src="/wp-content/uploads/2022/05/WP_Search_with_Algolia.png" alt="" class="wp-image-11210" srcset="/wp-content/uploads/2022/05/WP_Search_with_Algolia.png 940w, /wp-content/uploads/2022/05/WP_Search_with_Algolia-768x341.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><a href="https://ja.wordpress.org/plugins/wp-search-with-algolia/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img decoding="async" loading="lazy" width="940" height="417" src="/wp-content/uploads/2022/05/WP_Search_with_Algolia.png" alt="" class="wp-image-11210" srcset="/wp-content/uploads/2022/05/WP_Search_with_Algolia.png 940w, /wp-content/uploads/2022/05/WP_Search_with_Algolia-768x341.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></a></figure></div>
 
 
 
@@ -176,7 +184,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="628" src="/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png" alt="" class="wp-image-11212" srcset="/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png 1024w, /wp-content/uploads/2022/05/API_Keys-Algolia-768x471.png 768w, /wp-content/uploads/2022/05/API_Keys-Algolia-984x604.png 984w, /wp-content/uploads/2022/05/API_Keys-Algolia.png 1079w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="628" src="/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png" alt="" class="wp-image-11212" srcset="/wp-content/uploads/2022/05/API_Keys-Algolia-1024x628.png 1024w, /wp-content/uploads/2022/05/API_Keys-Algolia-768x471.png 768w, /wp-content/uploads/2022/05/API_Keys-Algolia-984x604.png 984w, /wp-content/uploads/2022/05/API_Keys-Algolia.png 1079w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -184,7 +192,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="779" src="/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png" alt="" class="wp-image-11211" srcset="/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png 1024w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-768x584.png 768w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-984x748.png 984w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372.png 1069w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="779" src="/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png" alt="" class="wp-image-11211" srcset="/wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-1024x779.png 1024w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-768x584.png 768w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372-984x748.png 984w, /wp-content/uploads/2022/05/6478b83905b21b77062736e51ba56372.png 1069w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -192,7 +200,7 @@
 
 
 
-<h3>WP標準の検索ウィンドウで確認</h3>
+<h3 class="wp-block-heading">WP標準の検索ウィンドウで確認</h3>
 
 
 
@@ -200,7 +208,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="1005" height="927" src="/wp-content/uploads/2022/05/wp-search.png" alt="" class="wp-image-11213" srcset="/wp-content/uploads/2022/05/wp-search.png 1005w, /wp-content/uploads/2022/05/wp-search-768x708.png 768w, /wp-content/uploads/2022/05/wp-search-984x908.png 984w" sizes="(max-width: 1005px) 100vw, 1005px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1005" height="927" src="/wp-content/uploads/2022/05/wp-search.png" alt="" class="wp-image-11213" srcset="/wp-content/uploads/2022/05/wp-search.png 1005w, /wp-content/uploads/2022/05/wp-search-768x708.png 768w, /wp-content/uploads/2022/05/wp-search-984x908.png 984w" sizes="(max-width: 1005px) 100vw, 1005px" /></figure>
 
 
 
@@ -208,7 +216,7 @@
 
 
 
-<h3>キーボード操作で検索ウィンドウを出す</h3>
+<h3 class="wp-block-heading">キーボード操作で検索ウィンドウを出す</h3>
 
 
 
@@ -228,7 +236,7 @@
 
 
 
-<h3>レスポンス時間はどのくらいなのか？</h3>
+<h3 class="wp-block-heading">レスポンス時間はどのくらいなのか？</h3>
 
 
 
@@ -236,7 +244,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="802" height="650" src="/wp-content/uploads/2022/05/r-time.png" alt="" class="wp-image-11220" srcset="/wp-content/uploads/2022/05/r-time.png 802w, /wp-content/uploads/2022/05/r-time-768x622.png 768w" sizes="(max-width: 802px) 100vw, 802px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="802" height="650" src="/wp-content/uploads/2022/05/r-time.png" alt="" class="wp-image-11220" srcset="/wp-content/uploads/2022/05/r-time.png 802w, /wp-content/uploads/2022/05/r-time-768x622.png 768w" sizes="(max-width: 802px) 100vw, 802px" /></figure>
 
 
 
@@ -244,7 +252,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="798" height="581" src="/wp-content/uploads/2022/05/r-time1.png" alt="" class="wp-image-11221" srcset="/wp-content/uploads/2022/05/r-time1.png 798w, /wp-content/uploads/2022/05/r-time1-768x559.png 768w" sizes="(max-width: 798px) 100vw, 798px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="798" height="581" src="/wp-content/uploads/2022/05/r-time1.png" alt="" class="wp-image-11221" srcset="/wp-content/uploads/2022/05/r-time1.png 798w, /wp-content/uploads/2022/05/r-time1-768x559.png 768w" sizes="(max-width: 798px) 100vw, 798px" /></figure>
 
 
 
@@ -252,7 +260,7 @@
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -264,7 +272,7 @@
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -284,7 +292,7 @@
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -348,7 +356,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img decoding="async" loading="lazy" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -356,7 +364,7 @@
 
 
 
-<h3>そもそもCDNって何？</h3>
+<h3 class="wp-block-heading">そもそもCDNって何？</h3>
 
 
 
@@ -368,7 +376,7 @@
 
 
 
-<h3>いくらするの？</h3>
+<h3 class="wp-block-heading">いくらするの？</h3>
 
 
 
@@ -384,7 +392,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -396,7 +404,7 @@
 
 
 
-<h3>どのくらいのアクセス数なの？</h3>
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
 
 
 
@@ -404,7 +412,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -412,7 +420,7 @@
 
 
 
-<h3>１ヶ月のデータ転送量は？</h3>
+<h3 class="wp-block-heading">１ヶ月のデータ転送量は？</h3>
 
 
 
@@ -420,7 +428,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -428,7 +436,7 @@
 
 
 
-<h3>CDNの効果はどのくらい？</h3>
+<h3 class="wp-block-heading">CDNの効果はどのくらい？</h3>
 
 
 
@@ -440,7 +448,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -448,7 +456,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
 
 
 
@@ -456,7 +464,7 @@
 
 
 
-<h3>まとめ</h3>
+<h3 class="wp-block-heading">まとめ</h3>
 
 
 
@@ -480,7 +488,7 @@
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -488,7 +496,7 @@
 
 
 
-<h3>著者にメッセージ</h3>
+<h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
 
@@ -518,7 +526,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_result_-_tokyo___jh_gpl_jp__-_09_12_20_01_36_13.png?w=952" alt="" class="wp-image-6034" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/webpagetest_test_result_-_tokyo___jh_gpl_jp__-_09_12_20_01_36_13.png?w=952" alt="" class="wp-image-6034" /></figure>
 
 
 
@@ -546,7 +554,7 @@
 
 
 
-<h3>難易度G・Keep-alive通信がONか？</h3>
+<h3 class="wp-block-heading">難易度G・Keep-alive通信がONか？</h3>
 
 
 
@@ -570,7 +578,7 @@
 
 
 
-<h3>難易度F・圧縮転送されているか？</h3>
+<h3 class="wp-block-heading">難易度F・圧縮転送されているか？</h3>
 
 
 
@@ -592,7 +600,7 @@
 
 
 
-<h3>難易度E・イメージの圧縮はどうか？</h3>
+<h3 class="wp-block-heading">難易度E・イメージの圧縮はどうか？</h3>
 
 
 
@@ -600,7 +608,7 @@
 
 
 
-<h3>難易度D・静的コンテンツがキャッシュされているか？</h3>
+<h3 class="wp-block-heading">難易度D・静的コンテンツがキャッシュされているか？</h3>
 
 
 
@@ -616,7 +624,7 @@
 
 
 
-<h3>難易度C・初期アクセスまでの時間</h3>
+<h3 class="wp-block-heading">難易度C・初期アクセスまでの時間</h3>
 
 
 
@@ -624,7 +632,7 @@
 
 
 
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://ja.wordpress.org/plugins/autoptimize/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/autoptimize_e28093_wordpress_e38395e3829ae383a9e382afe38299e382a4e383b3___wordpress_org_e697a5e69cace8aa9e.png?w=743" alt="" class="wp-image-6040" /></a></figure></div>
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://ja.wordpress.org/plugins/autoptimize/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" src="/wp-content/uploads/2020/09/autoptimize_e28093_wordpress_e38395e3829ae383a9e382afe38299e382a4e383b3___wordpress_org_e697a5e69cace8aa9e.png?w=743" alt="" class="wp-image-6040" /></a></figure></div>
 
 
 
@@ -632,7 +640,7 @@
 
 
 
-<h3>難易度B・セキュリティ</h3>
+<h3 class="wp-block-heading">難易度B・セキュリティ</h3>
 
 
 
@@ -640,7 +648,7 @@
 
 
 
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://wordpress.org/plugins/jquery-manager/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img src="/wp-content/uploads/2020/09/jquery_manager_for_wordpress_e28093_wordpress_plugin___wordpress_org.png?w=846" alt="" class="wp-image-6042" /></a></figure></div>
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><a href="https://wordpress.org/plugins/jquery-manager/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" src="/wp-content/uploads/2020/09/jquery_manager_for_wordpress_e28093_wordpress_plugin___wordpress_org.png?w=846" alt="" class="wp-image-6042" /></a></figure></div>
 
 
 
@@ -652,7 +660,7 @@
 
 
 
-<figure class="wp-block-image size-large is-style-default"><img src="/wp-content/uploads/2020/09/scan_results_for_https___jh_gpl_jp_.png?w=683" alt="" class="wp-image-6045" /></figure>
+<figure class="wp-block-image size-large is-style-default"><img decoding="async" src="/wp-content/uploads/2020/09/scan_results_for_https___jh_gpl_jp_.png?w=683" alt="" class="wp-image-6045" /></figure>
 
 
 
@@ -675,7 +683,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 
 
 
-<h3>難易度A・CDNを使っているか？</h3>
+<h3 class="wp-block-heading">難易度A・CDNを使っているか？</h3>
 
 
 
@@ -683,7 +691,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 
 
 
-<h3>あとがき</h3>
+<h3 class="wp-block-heading">あとがき</h3>
 
 
 
@@ -699,7 +707,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 			</item>
 		<item>
 		<title>Termuxでのスマホサーバ、SSLアクセスでも耐えれそうかな？</title>
-		<link>/2020/09/10/termux-nginx-ssl/</link>
+		<link>/2020/09/10/termux%e3%81%a7%e3%81%ae%e3%82%b9%e3%83%9e%e3%83%9b%e3%82%b5%e3%83%bc%e3%83%90%e3%80%81ssl%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%a7%e3%82%82%e8%80%90%e3%81%88%e3%82%8c%e3%81%9d%e3%81%86%e3%81%8b/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 09 Sep 2020 17:27:32 +0000</pubDate>
@@ -718,7 +726,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_10_20_00_45_09.png?w=937" alt="" class="wp-image-5982" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_10_20_00_45_09.png?w=937" alt="" class="wp-image-5982" /></figure>
 
 
 
@@ -734,7 +742,7 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 
 
 
-<h3>ステップ１ pythonを入れる</h3>
+<h3 class="wp-block-heading">ステップ１ pythonを入れる</h3>
 
 
 
@@ -749,7 +757,7 @@ $ pkg install python -y</code></pre>
 
 
 
-<h3>ステップ２　PIPで acme-tiny を入れる</h3>
+<h3 class="wp-block-heading">ステップ２　PIPで acme-tiny を入れる</h3>
 
 
 
@@ -780,7 +788,7 @@ $ find $PREFIX -name *acme*
 
 
 
-<h3>ステップ３　Let&#8217;s Encryptアカウントの秘密鍵</h3>
+<h3 class="wp-block-heading">ステップ３　Let&#8217;s Encryptアカウントの秘密鍵</h3>
 
 
 
@@ -795,7 +803,7 @@ $ openssl genrsa 4096 &gt; account.key</code></pre>
 
 
 
-<h3>ステップ４　ドメイン用の秘密鍵を作成</h3>
+<h3 class="wp-block-heading">ステップ４　ドメイン用の秘密鍵を作成</h3>
 
 
 
@@ -807,7 +815,7 @@ $ openssl genrsa 4096 &gt; account.key</code></pre>
 
 
 
-<h3>ステップ５　ドメインの証明書署名要求（CSR）を作成</h3>
+<h3 class="wp-block-heading">ステップ５　ドメインの証明書署名要求（CSR）を作成</h3>
 
 
 
@@ -820,7 +828,7 @@ $ openssl req -new -sha256 -key www.example.jp.key -subj "/CN=www.example.jp" &g
 
 
 
-<h3>ステップ６　証明書に署名してもらう</h3>
+<h3 class="wp-block-heading">ステップ６　証明書に署名してもらう</h3>
 
 
 
@@ -851,7 +859,7 @@ $ acme-tiny --disable-check --account-key ./account.key --csr ./www.example.jp.c
 
 
 
-<h3>ステップ７　nginxの設定</h3>
+<h3 class="wp-block-heading">ステップ７　nginxの設定</h3>
 
 
 
@@ -913,7 +921,7 @@ location = /.well-known/acme-challenge/ {
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/ssl_server_test__jh_gpl_jp__powered_by_qualys_ssl_labs_.png?w=1024" alt="" class="wp-image-5993" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/ssl_server_test__jh_gpl_jp__powered_by_qualys_ssl_labs_.png?w=1024" alt="" class="wp-image-5993" /></figure>
 
 
 
@@ -921,7 +929,7 @@ location = /.well-known/acme-challenge/ {
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/pagespeed_insights-1.png?w=744" alt="" class="wp-image-5995" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/pagespeed_insights-1.png?w=744" alt="" class="wp-image-5995" /></figure>
 
 
 
@@ -929,7 +937,7 @@ location = /.well-known/acme-challenge/ {
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/09/pagespeed_insights-2.png?w=737" alt="" class="wp-image-5997" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/pagespeed_insights-2.png?w=737" alt="" class="wp-image-5997" /></figure>
 
 
 
@@ -941,7 +949,7 @@ location = /.well-known/acme-challenge/ {
 
 
 
-<h3>良くわからんこと！</h3>
+<h3 class="wp-block-heading">良くわからんこと！</h3>
 
 
 
@@ -976,7 +984,7 @@ location = /.well-known/acme-challenge/ {
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945" /></figure></div>
 
 
 
@@ -1044,7 +1052,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<h2> 追記</h2>
+<h2 class="wp-block-heading"> 追記</h2>
 
 
 
@@ -1052,7 +1060,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953" /></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953" /></figure></div>
 
 
 
@@ -1064,7 +1072,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img src="/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956" /></a></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img decoding="async" src="/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956" /></a></figure></div>
 
 
 

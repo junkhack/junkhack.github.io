@@ -18,10 +18,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>OrangePiOne &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>/2016/06/12/vnc-e8a8ade5ae9ae381a8-osx10-11-e381aee794bbe99da2e585b1e69c89/</link>
+		<link>/2016/06/12/vnc-%e8%a8%ad%e5%ae%9a%e3%81%a8-osx10-11-%e3%81%ae%e7%94%bb%e9%9d%a2%e5%85%b1%e6%9c%89/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -91,9 +99,9 @@ exit 0</pre>
 <p>リブートするか、起動スクリプトをたたく。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># /etc/init.d/vncboot start</pre>
 <p>osx からの画面共有</p>
-<p><img loading="lazy" title="osxvnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxvnc" src="/wp-content/uploads/2016/06/osxvnc.png" width="500" height="289" /> </p>
+<p><img decoding="async" loading="lazy" title="osxvnc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="osxvnc" src="/wp-content/uploads/2016/06/osxvnc.png" width="500" height="289" /> </p>
 <p>&#160;</p>
-<p><img loading="lazy" title="junkhack_s_X_desktop__orangepilite_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepilite_1_" src="/wp-content/uploads/2016/06/junkhack_s_x_desktop__orangepilite_1_.png" width="829" height="785" /> </p>
+<p><img decoding="async" loading="lazy" title="junkhack_s_X_desktop__orangepilite_1_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="junkhack_s_X_desktop__orangepilite_1_" src="/wp-content/uploads/2016/06/junkhack_s_x_desktop__orangepilite_1_.png" width="829" height="785" /> </p>
 <p>osx10.11 の画面共有は少し良くなった感じ。</p>
 ]]></content:encoded>
 					
@@ -102,7 +110,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>Orange Pi Lite が出ていました</title>
-		<link>/2016/05/28/orange-pi-lite-e3818ce587bae381a6e38184e381bee38197e3819f/</link>
+		<link>/2016/05/28/orange-pi-lite-%e3%81%8c%e5%87%ba%e3%81%a6%e3%81%84%e3%81%be%e3%81%97%e3%81%9f/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 28 May 2016 11:05:03 +0000</pubDate>
@@ -115,12 +123,12 @@ exit 0</pre>
 										<content:encoded><![CDATA[<p>Orange Pi Lite なかなか出ないなぁと思ってましたが、今日WEBを散歩していたらなんと販売開始されているようです。</p>
 <p>5/9 くらいから販売していたようです。</p>
 <p>&#160;</p>
-<p><a href="http://www.aliexpress.com/item/Orange-Pi-Lite-Support-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry/32662738571.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" title="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" src="/wp-content/uploads/2016/05/newcomingorangepilitewithwifiantennasupportubuntulinuxandandroidminipcbeyond.jpg" width="480" height="480" /></a> </p>
+<p><a href="http://www.aliexpress.com/item/Orange-Pi-Lite-Support-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry/32662738571.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" title="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="New-Coming-Orange-Pi-Lite-With-Wifi-Antenna-Support-ubuntu-linux-and-android-mini-PC-Beyond" src="/wp-content/uploads/2016/05/newcomingorangepilitewithwifiantennasupportubuntulinuxandandroidminipcbeyond.jpg" width="480" height="480" /></a> </p>
 <p>基本的には、one の Lan が撤廃され、WiFi が内臓、 USB が１つから２つに増えた感じです。1700円弱でゲットできるので、サンプルに１つポチっておきました。これで、Orange Pi シリーズは3個になりました。</p>
 <p>&#160;</p>
 <p>あと、aliexpress のアフリエイトも初めてみました。</p>
 <p>&#160;</p>
-<p> <a href="http://s.click.aliexpress.com/e/ZzBYBMbQz" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g02.a.alicdn.com/kf/HTB1nalkKXXXXXatXpXXq6xXFXXXJ/2016-new-original-font-b-raspberry-b-font-pi-3-model-b-font-b-raspberry-b.jpg_220x220.jpg" width="307" height="367" /><span style="display:block;"><font color="#669966"></font></span></a> <a href="http://s.click.aliexpress.com/e/NJYFqZZjm?bz=300*250" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g01.a.alicdn.com/kf/HTB1lssRJXXXXXczXpXXq6xXFXXX8/en-300x250.jpg" width="300" height="250" /></a></p>
+<p> <a href="http://s.click.aliexpress.com/e/ZzBYBMbQz" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g02.a.alicdn.com/kf/HTB1nalkKXXXXXatXpXXq6xXFXXXJ/2016-new-original-font-b-raspberry-b-font-pi-3-model-b-font-b-raspberry-b.jpg_220x220.jpg" width="307" height="367" /><span style="display:block;"><font color="#669966"></font></span></a> <a href="http://s.click.aliexpress.com/e/NJYFqZZjm?bz=300*250" target="_parent" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g01.a.alicdn.com/kf/HTB1lssRJXXXXXczXpXXq6xXFXXX8/en-300x250.jpg" width="300" height="250" /></a></p>
 ]]></content:encoded>
 					
 		
@@ -128,8 +136,8 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>OrangePi One にFan を付けて全開ベンチマーク</title>
-		<link>/2016/02/14/orangepi-one-e381abfan-e38292e4bb98e38191e381a6e585a8e9968be38399e383b3e38381e3839ee383bce382af/</link>
-					<comments>/2016/02/14/orangepi-one-e381abfan-e38292e4bb98e38191e381a6e585a8e9968be38399e383b3e38381e3839ee383bce382af/#comments</comments>
+		<link>/2016/02/14/orangepi-one-%e3%81%abfan-%e3%82%92%e4%bb%98%e3%81%91%e3%81%a6%e5%85%a8%e9%96%8b%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af/</link>
+					<comments>/2016/02/14/orangepi-one-%e3%81%abfan-%e3%82%92%e4%bb%98%e3%81%91%e3%81%a6%e5%85%a8%e9%96%8b%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af/#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 14 Feb 2016 11:37:05 +0000</pubDate>
@@ -140,23 +148,23 @@ exit 0</pre>
 							<description><![CDATA[Orange Pi One にファンを付けてみました。 Orange Pi PC と比較すると一回り小さいです。 ファンを付ける前にCPU の刻印をキャプチャーしておきます。G1035BA 61A3 とあります。FAN  [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p align="left">Orange Pi One にファンを付けてみました。</p>
 <p align="left">Orange Pi PC と比較すると一回り小さいです。</p>
-<p align="left"><img loading="lazy" title="one_pc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="one_pc" src="/wp-content/uploads/2016/02/one_pc.jpg" width="640" height="480" /> </p>
+<p align="left"><img decoding="async" loading="lazy" title="one_pc" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="one_pc" src="/wp-content/uploads/2016/02/one_pc.jpg" width="640" height="480" /> </p>
 <p align="left">ファンを付ける前にCPU の刻印をキャプチャーしておきます。G1035BA 61A3 とあります。FAN を付けないと負荷時80度を超えますので、1GHz 以内にしないとファンは必須です。</p>
-<p align="center"><img loading="lazy" title="SingleShot0029" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0029" src="/wp-content/uploads/2016/02/singleshot0029.jpg" width="640" height="480" /> </p>
+<p align="center"><img decoding="async" loading="lazy" title="SingleShot0029" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0029" src="/wp-content/uploads/2016/02/singleshot0029.jpg" width="640" height="480" /> </p>
 <p align="left">このコイルがじゃまなのでヒートシンクを切り落とします。</p>
-<p align="left"><img loading="lazy" title="aa" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="aa" src="/wp-content/uploads/2016/02/aa.jpg" width="640" height="480" /> こんな感じ。</p>
-<p align="center"><img loading="lazy" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2016/02/b.jpg" width="640" height="480" /> </p>
+<p align="left"><img decoding="async" loading="lazy" title="aa" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="aa" src="/wp-content/uploads/2016/02/aa.jpg" width="640" height="480" /> こんな感じ。</p>
+<p align="center"><img decoding="async" loading="lazy" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2016/02/b.jpg" width="640" height="480" /> </p>
 <p align="left">ファンとヒートシンクは適当なネジをヒートシンクに間にねじ込みます。</p>
-<p align="center"><img loading="lazy" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2016/02/a.jpg" width="640" height="480" /> </p>
+<p align="center"><img decoding="async" loading="lazy" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2016/02/a.jpg" width="640" height="480" /> </p>
 <p align="left">付けたかんじ。常時回しっぱなしにしておくので裏面の電源部から半田づけして直接5V をとりました。GPIO から温度を見て回すっていうのもありですが、１つプロセスを消費するし、GPIO からの配線が面倒だったので。回しっぱなしでも、0.3W 程度なので月約５円です。</p>
 <p align="center">
-<p align="center"><img loading="lazy" title="c" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="c" src="/wp-content/uploads/2016/02/c.jpg" width="640" height="480" /> </p>
+<p align="center"><img decoding="async" loading="lazy" title="c" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="c" src="/wp-content/uploads/2016/02/c.jpg" width="640" height="480" /> </p>
 <p align="left">温度は、ベンチマーク中でも室温24度で、60度くらいまでしかあがりません。なかなか冷えているようです。ちなみに、平常時は、45度くらいになっています。</p>
-<p align="left"><img loading="lazy" title="one" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="one" src="/wp-content/uploads/2016/02/one.jpg" width="640" height="480" /> </p>
-<p align="center"><img loading="lazy" title="h3_temp" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="h3_temp" src="/wp-content/uploads/2016/02/h3_temp.png" width="497" height="305" /> </p>
+<p align="left"><img decoding="async" loading="lazy" title="one" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="one" src="/wp-content/uploads/2016/02/one.jpg" width="640" height="480" /> </p>
+<p align="center"><img decoding="async" loading="lazy" title="h3_temp" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="h3_temp" src="/wp-content/uploads/2016/02/h3_temp.png" width="497" height="305" /> </p>
 <p align="center">ベンチマーク中のCPU 温度</p>
 <p align="center"></p>
-<p> <img loading="lazy" title="ESP12_DHT22_-_ThingSpeak" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ESP12_DHT22_-_ThingSpeak" src="/wp-content/uploads/2016/02/esp12_dht22__thingspeak.png" width="463" height="331" />  </p>
+<p> <img decoding="async" loading="lazy" title="ESP12_DHT22_-_ThingSpeak" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ESP12_DHT22_-_ThingSpeak" src="/wp-content/uploads/2016/02/esp12_dht22__thingspeak.png" width="463" height="331" />  </p>
 <p align="center">ベンチマーク中の室温</p>
 <p>&#160;</p>
 </p>
@@ -316,7 +324,7 @@ nginx     2009  0.0  3.0  47920 15224 ?        S    20:07   0:02 php-fpm: pool w
  +-----+-----+----------+------+---+--OrangePIPC--+------+----------+-----+-----+</pre>
 <p>&#160;</p>
 <p>これが、1600円（送料込み）で買えるとはいい時代になりました。さて、これでOrange Pi が2台になったのでいろいろと遊べそうです。とりあえず、ケース作りを考えないとですね。</p>
-<p><a href="/wp-content/uploads/2016/02/x2go1.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" title="X2GO" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="X2GO" src="/wp-content/uploads/2016/02/x2go_thumb1.png" width="598" height="480" /></a></p>
+<p><a href="/wp-content/uploads/2016/02/x2go1.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" loading="lazy" title="X2GO" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="X2GO" src="/wp-content/uploads/2016/02/x2go_thumb1.png" width="598" height="480" /></a></p>
 <p align="center">osx から X2Go した図</p>
 <p>&#160;</p>
 <p>メモリは、512MB と少ないですがCPU パワーがあるのでメモリの範囲内なら、GUI もそれなりに動きます。</p>
@@ -347,7 +355,7 @@ analyzing CPU 0:
 <p>・Linux を使った組み込みで具体的に何ができるか、どんな用途があるかはまだこれから模索</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2016/02/14/orangepi-one-e381abfan-e38292e4bb98e38191e381a6e585a8e9968be38399e383b3e38381e3839ee383bce382af/feed/</wfw:commentRss>
+					<wfw:commentRss>/2016/02/14/orangepi-one-%e3%81%abfan-%e3%82%92%e4%bb%98%e3%81%91%e3%81%a6%e5%85%a8%e9%96%8b%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

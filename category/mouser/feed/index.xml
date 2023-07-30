@@ -18,7 +18,15 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>Mouser &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>WiFi E-ink display 部品整理</title>
 		<link>/2015/09/21/wifi-e-ink-display-parts/</link>
@@ -36,9 +44,9 @@
 										<content:encoded><![CDATA[<p>ハードウェアの検証がおおよそ終わったので、部品のパーツリストと購入先を整理しておきます。</p>
 <p>コンデンサは抵抗のようにパックのようなものにするか、バラにするか迷っています。今後も、SMD実装の工作をするなら買っておいてもいいかなぁ。、、、4250個も抵抗つかわないよね、きっと。</p>
 <p>IC の価格が安いので、全部aliexpress での購入見込みです。インダクタは、太陽誘電のほうが薄くて小さく、安かったのでこっちにするかも。いろいろ物色して、sumida のが安かったのでこれにしました。</p>
-<p>&#160;<img loading="lazy" title="ssss" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ssss" src="/wp-content/uploads/2015/09/ssss.png" width="481" height="480" /> </p>
+<p>&#160;<img decoding="async" loading="lazy" title="ssss" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ssss" src="/wp-content/uploads/2015/09/ssss.png" width="481" height="480" /> </p>
 <p>51 番のレイヤー tDocs っていうのはこうのがあるんですね。</p>
-<p><img loading="lazy" title="WiFi E-link4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi E-link4" src="/wp-content/uploads/2015/09/wifielink4.png" width="478" height="480" /> </p>
+<p><img decoding="async" loading="lazy" title="WiFi E-link4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="WiFi E-link4" src="/wp-content/uploads/2015/09/wifielink4.png" width="478" height="480" /> </p>
 <p>&#160;</p>
 <table cellspacing="0" cellpadding="2" width="633" border="0">
 <tbody>
