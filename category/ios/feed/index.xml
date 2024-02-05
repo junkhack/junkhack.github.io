@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/09/logo.png</url>
@@ -41,23 +41,23 @@
 							<description><![CDATA[アプリ開発って、複数端末を操らないといけないので結構面倒なんですよね。できれば、PC画面のキーボード、マウスから手を離したくはないのです。いちいち、スマホに目線を移動して画面を見て触らないといけないのが面倒です。 さて、 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>アプリ開発って、複数端末を操らないといけないので結構面倒なんですよね。できれば、PC画面のキーボード、マウスから手を離したくはないのです。いちいち、スマホに目線を移動して画面を見て触らないといけないのが面倒です。</p>
 <p>さて、そんな開発者のあなた！　今日のネタは必見ですよ〜。別に開発者じゃなくても便利に使えますのでちょっと紹介しますね。</p>
-<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5772" src="/wp-content/uploads/2020/08/wormhole_takehikoe381aeiphone__e381a8_wormhole_e381a8_e696b0e38197e38184e382bfe38395e38299.png" alt="Wormhole_TakehikoのiPhone__と_Wormhole_と_新しいタブ" width="1025" height="864" /></p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5772" src="/wp-content/uploads/2020/08/wormhole_takehikoe381aeiphone__e381a8_wormhole_e381a8_e696b0e38197e38184e382bfe38395e38299.png" alt="Wormhole_TakehikoのiPhone__と_Wormhole_と_新しいタブ" width="1025" height="864" /></p>
 <p>はい、この画面macosでスマホを操っている画面です。左側は、iosで、右側がandroidです。PCのマウスやキーボードでスマホを触れてめちゃくちゃ便利ですよ。これを実現するのは以下のアプリです。WormHoleです！</p>
-<p><a href="https://er.run/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5774" src="/wp-content/uploads/2020/08/wormhole_-_control_phone_from_pc.png" alt="Wormhole_-_Control_phone_from_PC" width="1015" height="280" /></a></p>
+<p><a href="https://er.run/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5774" src="/wp-content/uploads/2020/08/wormhole_-_control_phone_from_pc.png" alt="Wormhole_-_Control_phone_from_PC" width="1015" height="280" /></a></p>
 <p>androidは無料で、android側に入れるアプリは以下です。</p>
-<p><a href="https://play.google.com/store/apps/details?id=com.viper.wormhole" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5775" src="/wp-content/uploads/2020/08/wormhole_-_bridge_between_mobile___desktop_-_google_play_e381aee382a2e38395e3829ae383aa.png" alt="Wormhole_-_Bridge_between_Mobile___Desktop_-_Google_Play_のアプリ" width="691" height="589" /></a></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.viper.wormhole" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5775" src="/wp-content/uploads/2020/08/wormhole_-_bridge_between_mobile___desktop_-_google_play_e381aee382a2e38395e3829ae383aa.png" alt="Wormhole_-_Bridge_between_Mobile___Desktop_-_Google_Play_のアプリ" width="691" height="589" /></a></p>
 <p>Androidは、スマホ側にこのアプリを入れますが、iosは何も必要ありません。スマホとUSBケーブルで接続し、WormholeのPCアプリを起動すると以下のように画面が出ます。</p>
-<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5777" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_24_11_44.png" alt="スクリーンショット_2020_08_24_11_44" width="851" height="680" /></p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5777" src="/wp-content/uploads/2020/08/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2020_08_24_11_44.png" alt="スクリーンショット_2020_08_24_11_44" width="851" height="680" /></p>
 <p>画面のローテートにも対応していて、横画面にするとPC側も横長で表示されます。</p>
-<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5778" src="/wp-content/uploads/2020/08/wormhole.png" alt="Wormhole" width="864" height="462" /></p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5778" src="/wp-content/uploads/2020/08/wormhole.png" alt="Wormhole" width="864" height="462" /></p>
 <p>これはTermuxを横表示した画面です。PCキーボードでタイプできます。神ですよね。例えば、設定でダークモードをOn/Offしたければこんな感じでPC画面からスマホを操れます。</p>
-<p><img decoding="async" loading="lazy" class=" size-full wp-image-5779 aligncenter" src="/wp-content/uploads/2020/08/wormhole-1.png" alt="Wormhole" width="462" height="864" /></p>
+<p><img loading="lazy" decoding="async" class=" size-full wp-image-5779 aligncenter" src="/wp-content/uploads/2020/08/wormhole-1.png" alt="Wormhole" width="462" height="864" /></p>
 <p>iosの場合は、1084円の有料ですがこの価値はあるかと思います。</p>
-<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5780" src="/wp-content/uploads/2020/08/wormhole_store.png" alt="Wormhole_Store" width="985" height="318" /></p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5780" src="/wp-content/uploads/2020/08/wormhole_store.png" alt="Wormhole_Store" width="985" height="318" /></p>
 <p>例えば、awaアプリ（音楽ストリーミングアプリ）を起動するとPC経由からブルートース経由で音が鳴らせます。</p>
-<p><img decoding="async" loading="lazy" class=" size-full wp-image-5781 aligncenter" src="/wp-content/uploads/2020/08/wormhole_takehikoe381aeiphone_.png" alt="Wormhole_TakehikoのiPhone_" width="557" height="862" /></p>
+<p><img loading="lazy" decoding="async" class=" size-full wp-image-5781 aligncenter" src="/wp-content/uploads/2020/08/wormhole_takehikoe381aeiphone_.png" alt="Wormhole_TakehikoのiPhone_" width="557" height="862" /></p>
 <p>PC側のブルートースにはiPhoneがコネクトされています。iosはUSBとブルートース接続が必要のようです。USBの代わりにWiFi経由でも可能ですが、開発時にはxcodeからデバックするために、USBケーブル接続していますし、充電もできるので問題ありません。</p>
-<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-5782" src="/wp-content/uploads/2020/08/bluetooth.png" alt="Bluetooth" width="668" height="432" /></p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5782" src="/wp-content/uploads/2020/08/bluetooth.png" alt="Bluetooth" width="668" height="432" /></p>
 <p>PC側に負荷をかけずに音楽を鳴らせるのでなかなかいい感じです。また、スクリーンショットなんかも簡単にクリップボード経由で撮れるので、スマホでスクショ撮るより全然便利です。スマホでスクショ撮るとその転送が面倒なんで。</p>
 <p>非ルート化しなくても、iosもandroidもPC側から触れるツールは自分が知る限りこれしかありません。ということで、神アプリとなっています。</p>
 <p>では、またー！</p>

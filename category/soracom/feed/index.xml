@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/09/logo.png</url>
@@ -42,12 +42,12 @@
 <p>移動している中、IoT データを送信したいなと。この場合、WIFI がないんですよね。</p>
 <p>IoT デバイスからはブルートゥースやWiFi でネット経由へデータは出せるのですが、どこでも、投げたいので Soracom Air の SIM を使い始めました。</p>
 <p>&#160;</p>
-<p><a href="https://soracom.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" title="soracom_air" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_air" src="/wp-content/uploads/2016/05/soracom_air.png" width="332" height="107" /></a> </p>
+<p><a href="https://soracom.jp/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="soracom_air" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_air" src="/wp-content/uploads/2016/05/soracom_air.png" width="332" height="107" /></a> </p>
 <p>電波が届く範囲なら、どこでも、データを投げて記録が取れるということで、まずは格安の Linux ボードで Soracom に接続し単純なデータを送信するところまでやってみました。</p>
 <p>今回の目標は、「Soracom 経由で、Linux の CPU&#160; 温度を ThingSpeak に送信しグラフ化させる」のが目標です。</p>
 <p>ThingSpeak とは、IoT データを記録し、グラフ表示するWEBサービスです。このサービスは、<a href="https://github.com/iobridge/ThingSpeak" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">自前でも構築可能<span class="wpel-icon wpel-image wpel-icon-1"></span></a>ですので最終的にはデータ蓄積するサーバを構築しても良さそうです。</p>
 <p>これが実現できると、以下のようなグラフがリアルタイムで記録されます。</p>
-<p><img decoding="async" loading="lazy" title="test_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak" src="/wp-content/uploads/2016/05/test__thingspeak.png" width="475" height="325" /></p>
+<p><img loading="lazy" decoding="async" title="test_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak" src="/wp-content/uploads/2016/05/test__thingspeak.png" width="475" height="325" /></p>
 <p>これを実現するためには、以下のような準備が必要です。</p>
 <p>&#160;</p>
 <p>・Linux ボードの準備と、その OS の選定</p>
@@ -63,12 +63,12 @@
 <p><a href="http://www.orangepi.org/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Orange Pi<span class="wpel-icon wpel-image wpel-icon-1"></span></a> シリーズは、過去にも紹介していますが、種類が結構あります。最近発売された WiFi が付いてさらに格安の <a href="http://www.cnx-software.com/2016/05/09/orange-pi-lite-development-board-with-wifi-is-now-available-for-12/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Orange Pi Lite<span class="wpel-icon wpel-image wpel-icon-1"></span></a> というものもあります。こちらは約1700円程度で購入できます。人柱的に、このボードも入手中ですので、到着したら改めてレポートしてみたいと思います。</p>
 <p>&#160;</p>
 <p>さて、soracom と 3G 通信するためにモデムが必要ですが、LGエレクトロニクス・ジャパン製で、OEM では DoCoMo から出ている L-05A を使いました。amazon で中古でゲットしました。osx でも使えるというのがぽちったポイントでした。</p>
-<p><img decoding="async" loading="lazy" title="IMG_2782" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_2782" src="/wp-content/uploads/2016/05/img_2782.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="IMG_2782" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_2782" src="/wp-content/uploads/2016/05/img_2782.jpg" width="640" height="480" /> </p>
 </p>
 <p>最終的には、もう少しコンパクトにして電池を組み込む予定です。応用すれば GPS モジュールを接続して、位置を補足する IoT デバイスも作れそうです。</p>
 <p>&#160;</p>
 <p>soracom の管理コンソールからは、データ転送量も見えて管理しやすそうです。</p>
-<p><img decoding="async" loading="lazy" title="SORACOM_ユーザーコンソール" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="SORACOM_ユーザーコンソール" src="/wp-content/uploads/2016/05/soracom_.png" width="490" height="480" /></p>
+<p><img loading="lazy" decoding="async" title="SORACOM_ユーザーコンソール" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="SORACOM_ユーザーコンソール" src="/wp-content/uploads/2016/05/soracom_.png" width="490" height="480" /></p>
 <p>では、順にポイントと勘所をご紹介します。</p>
 <p>&#160;</p>
 <h3>Linux ボードの準備と、その OS の選定</h3>
@@ -76,7 +76,7 @@
 <p>まず、母艦の準備です。Orange PI PC を用意しました。</p>
 <p><a title="http://www.orangepi.org/orangepipc/" href="http://www.orangepi.org/orangepipc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.orangepi.org/orangepipc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>オフィシャルサイトから、メーカー直販の aliexpress の販売サイトにいけます。メモリ512M でも要求は満たしますので、one とか lite でもよいかと思います。</p>
-<p><img decoding="async" loading="lazy" title="orangepipc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="orangepipc" src="/wp-content/uploads/2016/05/orangepipc.png" width="530" height="339" /> </p>
+<p><img loading="lazy" decoding="async" title="orangepipc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="orangepipc" src="/wp-content/uploads/2016/05/orangepipc.png" width="530" height="339" /> </p>
 <p>OS は、ARMBIAN というものを今回は採用。Debian 系の OS となります。</p>
 <p><a title="http://www.armbian.com/orange-pi-pc/" href="http://www.armbian.com/orange-pi-pc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.armbian.com/orange-pi-pc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>8GB の SDCard に書き込みし、IP を固定しておきます。電源は、ラズベリーパイとは違い、マイクロUSBではありませんので、別途 4mm で、センターピンが 1.7mm のDC ジャックを用意しておきます。これは、PSP用USB充電ケーブルと同じなので、100円均一などでもゲットできるかと思います。自分は、ジャックを別途購入し電源ケーブルは自作です。</p>
@@ -91,12 +91,12 @@
 <h3>soracom sim の準備</h3>
 <p>次は、soracom の sim を USB モデムで使うための準備です。USB モデムは、今回中古で L-05A を購入しておきました。</p>
 <p>まずは、soracom の sim をアクティベートしておきます。管理コンソールよりログインし、sim の操作で可能です。</p>
-<p><img decoding="async" loading="lazy" title="soracomlogin" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracomlogin" src="/wp-content/uploads/2016/05/soracomlogin.png" width="631" height="353" /> </p>
+<p><img loading="lazy" decoding="async" title="soracomlogin" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracomlogin" src="/wp-content/uploads/2016/05/soracomlogin.png" width="631" height="353" /> </p>
 <p>&#160;</p>
 <p>なかなか簡単操作です。すばらしい。速度クラスは、とりあえず s1.minimum にしておきました。</p>
 </p>
 </p>
-<p><img decoding="async" loading="lazy" title="soracom2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom2" src="/wp-content/uploads/2016/05/soracom2.png" width="630" height="401" /> </p>
+<p><img loading="lazy" decoding="async" title="soracom2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom2" src="/wp-content/uploads/2016/05/soracom2.png" width="630" height="401" /> </p>
 <p>データ通信量が 150MiB を超えたらメールしてくるようにしておきました。有効期限なども設定できるようですね。キャリアになった気分です。</p>
 <p>&#160;</p>
 <h3>Linux 側から PPP 接続するための USB モデムの設定</h3>
@@ -219,7 +219,7 @@ WantedBy=multi-user.target</pre>
 <p>[root@opi 16:11:26 log]# </p>
 <p>&#160;</p>
 <p>soracom のコンソールで 1 時間ごとの使用量を見ると、記録されているようです。</p>
-<p><img decoding="async" loading="lazy" title="soracom1h" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom1h" src="/wp-content/uploads/2016/05/soracom1h.png" width="511" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="soracom1h" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom1h" src="/wp-content/uploads/2016/05/soracom1h.png" width="511" height="480" /> </p>
 <p>&#160;</p>
 <h3>CPU 温度を取得して thingspeak にデータを投げるスクリプト</h3>
 <p>次は、cpu 温度を取得し、データを飛ばすプログラムを作ります。python で作りました。</p>
@@ -258,7 +258,7 @@ if __name__ == '__main__':
 <p>&#160;</p>
 <p>api_key には、書き込みのAPI Key を入れておきます。</p>
 <p>&#160;</p>
-<p><img decoding="async" loading="lazy" title="Channels_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Channels_-_ThingSpeak" src="/wp-content/uploads/2016/05/channels__thingspeak.png" width="475" height="303" /> </p>
+<p><img loading="lazy" decoding="async" title="Channels_-_ThingSpeak" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Channels_-_ThingSpeak" src="/wp-content/uploads/2016/05/channels__thingspeak.png" width="475" height="303" /> </p>
 <p>データをhttps (SSL)経由の post で投げるとパケットが消費されるので、ここでは、get で投げています。</p>
 <p>api.thingspeak.com を名前解決すると以下のように２つIPが出ますので、ここでは片方のIPを指定しています。相手側の事情でIP が変わることもあるかもしれません。</p>
 <p>&#160;</p>
@@ -291,7 +291,7 @@ if __name__ == '__main__':
 <p>[root@opi 18:08:33 UnixBench]# ./Run -c 4</p>
 <p>&#160;</p>
 <p>グラフ表示は、こんな感じで出ています。</p>
-<p><img decoding="async" loading="lazy" title="test_-_ThingSpeak 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak 2" src="/wp-content/uploads/2016/05/test__thingspeak2.png" width="478" height="325" /> </p>
+<p><img loading="lazy" decoding="async" title="test_-_ThingSpeak 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="test_-_ThingSpeak 2" src="/wp-content/uploads/2016/05/test__thingspeak2.png" width="478" height="325" /> </p>
 <p>CPU 温度がこれで1秒ごとに記録されていきますが、600秒に一度くらいでいいので、修正し、ログオフ後もスクリプトが動作するよう以下のように nohup で実行しておきます。</p>
 <p>&#160;</p>
 <p>[root@opi 18:34:08 work]# nohup python t.py &amp;<br />
@@ -302,11 +302,11 @@ if __name__ == '__main__':
 <p>root&#160;&#160;&#160;&#160; 13673&#160; 4.1&#160; 0.8&#160; 13796&#160; 8428 pts/0&#160;&#160;&#160; S&#160;&#160;&#160; 18:34&#160;&#160; 0:00 python t.py </p>
 <p>&#160;</p>
 <p>なお、今のところ soracom の接続料金は 119 円のようです。</p>
-<p><img decoding="async" loading="lazy" title="soracompay" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracompay" src="/wp-content/uploads/2016/05/soracompay.png" width="623" height="234" /> </p>
+<p><img loading="lazy" decoding="async" title="soracompay" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracompay" src="/wp-content/uploads/2016/05/soracompay.png" width="623" height="234" /> </p>
 <p>&#160;</p>
 <p>しばらく、CPU 温度を記録させてテストしてみることに。GPIO からセンサーを取り付ければ、外気温や湿度、明るさや、PM2.5 など記録したいものを投げれます。</p>
 <p>ちなみに、1日経過後、課金は以下のようです。</p>
-<p><img decoding="async" loading="lazy" title="soracom_2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_2" src="/wp-content/uploads/2016/05/soracom_2.png" width="631" height="232" /> </p>
+<p><img loading="lazy" decoding="async" title="soracom_2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="soracom_2" src="/wp-content/uploads/2016/05/soracom_2.png" width="631" height="232" /> </p>
 <p>この母艦を利用し、WiFi 経由で センサーデバイスを作るのが実用的かもしれません。組み合わはいろいろありますね。</p>
 <p align="left">この続きはまたの機会に。</p>
 <p align="center">&#160;</p>
@@ -315,7 +315,7 @@ if __name__ == '__main__':
 <tbody>
 <tr>
 <td valign="top" width="200"><a href="http://s.click.aliexpress.com/e/YrvvZz7IQ" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;" src="http://g03.a.alicdn.com/kf/HTB1yKxVMFXXXXcyXpXXq6xXFXXX7/Latest-font-b-Raspberry-b-font-font-b-Pi-b-font-2-Model-B-B-Plus.jpg_220x220.jpg" /><span style="display:block;"><font color="#669966"></font></span></a> </td>
-<td valign="top" width="200"><a href="http://s.click.aliexpress.com/e/RbuJaiaU7" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" src="http://g03.a.alicdn.com/kf/HTB11roEKXXXXXaEXXXXq6xXFXXX0/-2PCS-with-Tracking-Number-and-Free-shipping-font-b-ESP8266-b-font-serial-WIFI-Witty.jpg_220x220.jpg" width="269" height="221" /><span style="display:block;"><font color="#669966"></font></span></a></td>
+<td valign="top" width="200"><a href="http://s.click.aliexpress.com/e/RbuJaiaU7" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" src="http://g03.a.alicdn.com/kf/HTB11roEKXXXXXaEXXXXq6xXFXXX0/-2PCS-with-Tracking-Number-and-Free-shipping-font-b-ESP8266-b-font-serial-WIFI-Witty.jpg_220x220.jpg" width="269" height="221" /><span style="display:block;"><font color="#669966"></font></span></a></td>
 </tr>
 </tbody>
 </table>

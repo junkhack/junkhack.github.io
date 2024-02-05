@@ -1,3 +1,9 @@
+var resetFeedbackButtons = function() {
+    document.getElementById('wpaicg-prompt-thumbs_up').disabled = false;
+    document.getElementById('wpaicg-prompt-thumbs_up').style.display = 'inline-block';
+    document.getElementById('wpaicg-prompt-thumbs_down').disabled = false;
+    document.getElementById('wpaicg-prompt-thumbs_down').style.display = 'inline-block';
+};
 var wpaicgPlayGround = {
     init: function(){
         var wpaicg_PlayGround = this;
@@ -6,6 +12,10 @@ var wpaicgPlayGround = {
         var wpaicgStopButtons = document.getElementsByClassName('wpaicg-prompt-stop-generate');
         var wpaicgSaveButtons = document.getElementsByClassName('wpaicg-prompt-save-draft');
         var wpaicgDownloadButtons = document.getElementsByClassName('wpaicg-prompt-download');
+        var wpaicgCopyButtons = document.getElementsByClassName('wpaicg-prompt-copy_button');
+        var wpaicgThumbsUpButtons = document.getElementsByClassName('wpaicg-prompt-thumbs_up');
+        var wpaicgThumbsDownButtons = document.getElementsByClassName('wpaicg-prompt-thumbs_down');
+
         if(wpaicgDownloadButtons && wpaicgDownloadButtons.length){
             for(var i=0;i < wpaicgDownloadButtons.length;i++) {
                 var wpaicgDownloadButton = wpaicgDownloadButtons[i];
@@ -16,11 +26,13 @@ var wpaicgPlayGround = {
                     var formID = wpaicgForm.getAttribute('data-id');
                     var wpaicgFormData = window['wpaicgForm'+formID];
                     var currentContent = wpaicg_PlayGround.getContent(wpaicgFormData.response,formID);
+                    // Replace &nbsp; with space
+                    currentContent = currentContent.replace(/&nbsp;/g, ' ');
                     var element = document.createElement('a');
                     currentContent = currentContent.replace(/<br>/g,"\n");
                     currentContent = currentContent.replace(/<br \/>/g,"\n");
                     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(currentContent));
-                    element.setAttribute('download', 'ai-response.txt');
+                    element.setAttribute('download', 'response.txt');
 
                     element.style.display = 'none';
                     document.body.appendChild(element);
@@ -31,6 +43,43 @@ var wpaicgPlayGround = {
                 });
             }
         }
+        if(wpaicgCopyButtons && wpaicgCopyButtons.length){
+            for(var i=0; i < wpaicgCopyButtons.length; i++){
+                var wpaicgCopyButton = wpaicgCopyButtons[i];
+                wpaicgCopyButton.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    var wpaicgCopyButton = e.currentTarget;
+                    var originalText = wpaicgCopyButton.textContent;  // Store the original text
+                    wpaicgCopyButton.textContent = "👍"; 
+                    setTimeout(function() {
+                        wpaicgCopyButton.textContent = originalText;  // Restore the original text after 2 seconds
+                    }, 2000);
+                    
+                    var wpaicgForm = wpaicgCopyButton.closest('.wpaicg-prompt-form');
+                    var formID = wpaicgForm.getAttribute('data-id');
+                    var wpaicgFormData = window['wpaicgForm'+formID];
+                    var responseText = wpaicgPlayGround.getContent(wpaicgFormData.response, formID);
+
+                    // Replace &nbsp; with space
+                    responseText = responseText.replace(/&nbsp;/g, ' ');
+
+                    // Replace single occurrences of <br> or <br /> with a newline
+                    responseText = responseText.replace(/<br\s*\/?>/g, '\r\n');
+
+                    // Replace double occurrences of <br><br> or <br /><br /> with double newline
+                    responseText = responseText.replace(/\r\n\r\n/g, '\r\n\r\n');
+
+                    
+                    // Copy responseText to clipboard
+                    navigator.clipboard.writeText(responseText).then(function() {
+                        console.log('Text successfully copied to clipboard');
+                    }).catch(function(err) {
+                        console.error('Unable to copy text to clipboard', err);
+                    });
+                });
+            }
+        }
+        
         if(wpaicgClearButtons && wpaicgClearButtons.length){
             for(var i=0;i < wpaicgClearButtons.length;i++){
                 var wpaicgClearButton = wpaicgClearButtons[i];
@@ -107,10 +156,16 @@ var wpaicgPlayGround = {
                 var wpaicgForm = wpaicgFormShortcode.getElementsByClassName('wpaicg-prompt-form')[0];
                 wpaicgForm.addEventListener('submit', function (e) {
                     e.preventDefault();
+
                     var wpaicgForm = e.currentTarget;
                     var formID = wpaicgForm.getAttribute('data-id');
+
                     var formSource = wpaicgForm.getAttribute('data-source');
                     var wpaicgFormData = window['wpaicgForm'+formID];
+
+                    if (wpaicgFormData && wpaicgFormData.feedback_buttons === 'yes') {
+                        resetFeedbackButtons();
+                    }
                     var wpaicgMaxToken = wpaicgForm.getElementsByClassName('wpaicg-prompt-max_tokens')[0];
                     var wpaicgTemperature = wpaicgForm.getElementsByClassName('wpaicg-prompt-temperature')[0];
                     var wpaicgTopP = wpaicgForm.getElementsByClassName('wpaicg-prompt-top_p')[0];
@@ -169,6 +224,7 @@ var wpaicgPlayGround = {
                                 var field_label = form_field['label'] !== undefined ? form_field['label'] : '';
                                 var field_min = form_field['min'] !== undefined ? form_field['min'] : '';
                                 var field_max = form_field['max'] !== undefined ? form_field['max'] : '';
+                                
                                 if (field_type !== 'radio' && field_type !== 'checkbox') {
                                     var field_value = field.value;
                                     if (field_type === 'text' || field_type === 'textarea' || field_type === 'email' || field_type === 'url') {
@@ -247,6 +303,17 @@ var wpaicgPlayGround = {
                             wpaicg_PlayGround.setContent(wpaicgFormData.response,formID,'');
                             queryString += '&source_stream='+formSource+'&nonce='+wpaicgFormData.ajax_nonce;
                             var eventID = Math.ceil(Math.random()*1000000);
+
+                            // Set the eventID as a data attribute on all thumbs up buttonsß
+                            for (var i = 0; i < wpaicgThumbsUpButtons.length; i++) {
+                                wpaicgThumbsUpButtons[i].setAttribute('data-eventid', eventID);
+                            }
+
+                            // Set the eventID as a data attribute on all thumbs down buttons
+                            for (var i = 0; i < wpaicgThumbsDownButtons.length; i++) {
+                                wpaicgThumbsDownButtons[i].setAttribute('data-eventid', eventID);
+                            }
+
                             wpaicgStop.setAttribute('data-event',eventID);
                             window['eventGenerator'+eventID] = new EventSource(wpaicgFormData.event + '&' + queryString);
                             if(formSource === 'form'){
@@ -260,11 +327,99 @@ var wpaicgPlayGround = {
                     }
                 })
             }
+
+            // Function to handle the feedback button click
+            var handleFeedbackButtonClick = function(e) {
+                e.preventDefault();
+                var button = e.currentTarget;
+                var formID = button.getAttribute('data-id');
+                var eventID = button.getAttribute('data-eventid');
+                var feedbackType = button.id.replace('wpaicg-prompt-', '');
+                var wpaicgFormData = window['wpaicgForm' + formID];
+                var modal = jQuery('#wpaicg_feedbackModal');
+                var datasource = wpaicgFormData.datasource;
+                var textareaID = wpaicgFormData.feedbackID;
+
+                // Update the emoji in the modal
+                modal.find('.emoji').text(feedbackType == 'thumbs_up' ? '👍' : '👎');
+                
+                modal.fadeIn();
+                jQuery('.wpaicg_feedbackModal-overlay').fadeIn();
+
+                // Define the action parameter
+                var myaction = (datasource === 'promptbase') ? 'wpaicg_save_prompt_feedback' : 'wpaicg_save_feedback';
+
+                // Handle the submit feedback button click
+                jQuery('#wpaicg_submitFeedback').off('click').on('click', function() {
+                    modal.find('textarea').attr('id', textareaID);
+                    var comment = jQuery('#' + textareaID).val();
+                    console.log('comment: ' + comment);
+                    var responseText = wpaicgPlayGround.getContent(wpaicgFormData.response, formID);
+                    // Replace &nbsp; with space
+                    responseText = responseText.replace(/&nbsp;/g, ' ');
+
+                    // Replace single occurrences of <br> or <br /> with a newline
+                    responseText = responseText.replace(/<br\s*\/?>/g, '\r\n');
+
+                    // Replace double occurrences of <br><br> or <br /><br /> with double newline
+                    responseText = responseText.replace(/\r\n\r\n/g, '\r\n\r\n');
+
+                    // Send AJAX request to save feedback
+                    const xhttp = new XMLHttpRequest();
+                    xhttp.open('POST', wpaicgFormData.ajax);
+                    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                    xhttp.send('action=' + myaction + '&formID=' + formID + '&feedback=' + feedbackType + '&comment=' + encodeURIComponent(comment) + '&nonce=' + wpaicgFormData.ajax_nonce + '&formname=' + wpaicgFormData.name + '&sourceID=' + wpaicgFormData.sourceID + '&response=' + responseText + '&eventID=' + eventID);
+                    xhttp.onreadystatechange = function(oEvent) {
+                        if (xhttp.readyState === 4) {
+                            if (xhttp.status === 200) {
+                                var response = JSON.parse(xhttp.responseText);
+                                if (response.status === 'success') {
+                                    // Upon successful feedback submission:
+                                    
+                                    // Disable the clicked feedback button and hide the other one
+                                    if (feedbackType === 'thumbs_up') {
+                                        document.getElementById('wpaicg-prompt-thumbs_up').disabled = true;
+                                        document.getElementById('wpaicg-prompt-thumbs_down').style.display = 'none';
+                                    } else {
+                                        document.getElementById('wpaicg-prompt-thumbs_down').disabled = true;
+                                        document.getElementById('wpaicg-prompt-thumbs_up').style.display = 'none';
+                                    }
+                                    // clear the feedback text area
+                                    jQuery('#' + textareaID).val('');
+                                    
+                                } else {
+                                    alert(response.msg); // Show the error message returned from the backend
+                                }
+                            } else {
+                                alert('Error: ' + xhttp.status + ' - ' + xhttp.statusText + '\n\n' + xhttp.responseText);
+                            }
+                            modal.fadeOut();
+                            jQuery('.wpaicg_feedbackModal-overlay').fadeOut();
+                        }
+                    }
+                                      
+                });
+
+                // Handle the close modal button click
+                jQuery('#closeFeedbackModal').off('click').on('click', function() {
+                    modal.fadeOut();
+                    jQuery('.wpaicg_feedbackModal-overlay').fadeOut();
+                });
+            };
+
+            // Attach event listeners
+            for (var k = 0; k < wpaicgThumbsUpButtons.length; k++) {
+                wpaicgThumbsUpButtons[k].addEventListener('click', handleFeedbackButtonClick);
+            }
+            for (var k = 0; k < wpaicgThumbsDownButtons.length; k++) {
+                wpaicgThumbsDownButtons[k].addEventListener('click', handleFeedbackButtonClick);
+            }
+
         }
     },
     process: function(queryString,eventID,wpaicgFormData,formID,wpaicgStop,wpaicgSaveResult,wpaicgGenerateBtn,wpaicgMaxLines){
         var wpaicg_PlayGround = this;
-        var wpaicg_break_newline = wpaicgUserLoggedIn ? '<br/>': '\n';
+        var wpaicg_break_newline = wpaicgParams.logged_in === "1" ? '<br/><br/>' : '\n';
         var startTime = new Date();
         var wpaicg_response_events = 0;
         var wpaicg_newline_before = false;
@@ -274,19 +429,30 @@ var wpaicgPlayGround = {
         var wpaicg_limitLines = parseFloat(wpaicgMaxLines.value);
         var currentContent = '';
         window['eventGenerator'+eventID].onmessage = function (e) {
+
             currentContent = wpaicg_PlayGround.getContent(wpaicgFormData.response,formID);
-            if (e.data === "[DONE]") {
-                count_line += 1;
-                wpaicg_PlayGround.setContent(wpaicgFormData.response,formID,currentContent + wpaicg_break_newline);
-                wpaicg_response_events = 0;
-            }
-            else if (e.data === "[LIMITED]") {
+
+            if (e.data === "[LIMITED]") {
                 wpaicg_limited_token = true;
                 count_line += 1;
                 wpaicg_PlayGround.setContent(wpaicgFormData.response,formID,currentContent + wpaicg_break_newline);
                 wpaicg_response_events = 0;
             } else {
                 var result = JSON.parse(e.data);
+
+                // Check if the response contains the finish_reason property and if it's set to "stop"
+                var hasFinishReason = result.choices && 
+                result.choices[0] && 
+                (result.choices[0].finish_reason === "stop" || 
+                result.choices[0].finish_reason === "length") ||
+                (result.choices[0].finish_details && 
+                result.choices[0].finish_details.type === "stop");
+
+                if (hasFinishReason) {
+                    count_line += 1;
+                    wpaicg_PlayGround.setContent(wpaicgFormData.response,formID,currentContent + wpaicg_break_newline);
+                    wpaicg_response_events = 0;
+                }
                 var content_generated = '';
                 if (result.error !== undefined) {
                     content_generated = result.error.message;
@@ -294,7 +460,19 @@ var wpaicgPlayGround = {
                     content_generated = result.choices[0].delta !== undefined ? (result.choices[0].delta.content !== undefined ? result.choices[0].delta.content : '') : result.choices[0].text;
                 }
                 prompt_response += content_generated;
-                if ((content_generated === '\n' || content_generated === ' \n' || content_generated === '.\n' || content_generated === '\n\n') && wpaicg_response_events > 0 && currentContent !== '') {
+
+                // Preserve leading/trailing spaces when appending
+                if(content_generated.trim() === '' && content_generated.includes(' ')) {
+                    content_generated = '&nbsp;';
+                }
+                // if response is not text area then if content_generated is /n then add <br/>
+                if(wpaicgFormData.response !== 'textarea'){
+                    if(content_generated === '\n'){
+                        content_generated = '<br/>';
+                    }
+                }
+                
+                if ((content_generated === '\n' || content_generated === ' \n' || content_generated === '.\n' || content_generated === '\n\n' || content_generated === '"\n') && wpaicg_response_events > 0 && currentContent !== '') {
                     if (!wpaicg_newline_before) {
                         wpaicg_newline_before = true;
                         wpaicg_PlayGround.setContent(wpaicgFormData.response,formID,currentContent + wpaicg_break_newline);
@@ -306,7 +484,7 @@ var wpaicgPlayGround = {
                         if(wpaicgFormData.response === 'textarea'){
                             if(!wpaicg_PlayGround.editor(formID)){
                                 content_generated = content_generated.replace(/\n/g,'<br>');
-                            }
+                            } 
                         }
                         else{
                             content_generated = content_generated.replace(/\n/g,'<br>');
@@ -314,6 +492,8 @@ var wpaicgPlayGround = {
                         wpaicg_PlayGround.setContent(wpaicgFormData.response,formID,currentContent + content_generated);
                     }
                 }
+                
+                
                 else if (content_generated === '\n' && wpaicg_response_events === 0 && currentContent === '') {
 
                 } else {
@@ -327,7 +507,7 @@ var wpaicgPlayGround = {
                     let endTime = new Date();
                     let timeDiff = endTime - startTime;
                     timeDiff = timeDiff / 1000;
-                    queryString += '&prompt_id=' + wpaicgFormData.id + '&prompt_name=' + wpaicgFormData.name + '&prompt_response=' + prompt_response + '&duration=' + timeDiff + '&_wpnonce=' + wpaicgFormData.nonce + '&source_id=' + wpaicgFormData.sourceID;
+                    queryString += '&prompt_id=' + wpaicgFormData.id + '&prompt_name=' + wpaicgFormData.name + '&prompt_response=' + encodeURIComponent(prompt_response) + '&duration=' + timeDiff + '&_wpnonce=' + wpaicgFormData.nonce + '&source_id=' + wpaicgFormData.sourceID + '&eventID=' + eventID;
                     const xhttp = new XMLHttpRequest();
                     xhttp.open('POST', wpaicgFormData.ajax);
                     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -354,6 +534,8 @@ var wpaicgPlayGround = {
     },
     setContent: function (type,form_id,value){
         if(type === 'textarea') {
+            // Check if the output is for a textarea and convert &nbsp; back to a space
+            value = value.replace(/&nbsp;/g, ' ');
             if (this.editor(form_id)) {
                 document.getElementById('wpaicg-prompt-result-'+form_id).value = value;
             } else {

@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/09/logo.png</url>
@@ -43,9 +43,9 @@
 <p>なんとか、今年中に出来たのですっきり。</p>
 <p>&#160;</p>
 <p>0.3.0-git-5d73886 では、以下のようにトリガーが設定できて楽になりました。Runを押せばトリガーがでるまで、stop して採取されます。サンプル数を設定しておけば、採取されて停止します。ロジックアナライザーとしては基本機能だと思いますが、手持ちのハードでなんとか動いてよかったです。</p>
-<p><img decoding="async" loading="lazy" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2015/12/3662338e426b.png" width="640" height="359" /> </p>
+<p><img loading="lazy" decoding="async" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2015/12/3662338e426b.png" width="640" height="359" /> </p>
 <p>拡大すると、500ns とか取れています。1us 単位くらいまでは見れそうということがわかりました。</p>
-<p><img decoding="async" loading="lazy" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2015/12/d2bb6fa3e4a8.png" width="640" height="357" /> </p>
+<p><img loading="lazy" decoding="async" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2015/12/d2bb6fa3e4a8.png" width="640" height="357" /> </p>
 <p>サンプルレートは、2MHz 以上あげるとどうしても採取後にクルクル回って、操作を受け付けないスタック状態のような感じになります。コマンドライン版でドライバを指定してみると、以下のようです。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">$ sigrok-cli --show --driver fx2lafw
 Driver functions:
@@ -86,7 +86,7 @@ Supported configuration options:
 <p>まぁ、最初の一台ですし、これで勉強させてもらって、物足りなければまた考えることにします。</p>
 <p>&#160;</p>
 <p>automator でシェルスクリプトを実行するものを作り、アイコンをつけて、app 化します。</p>
-<p><img decoding="async" loading="lazy" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/12/61.png" width="632" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/12/61.png" width="632" height="480" /> </p>
 <p>python の環境変数を一度 unset して消去して、python3.4 とか3.x のをセットしてアプリをバックグランドで呼び出します。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">unset PYTHONPATH
 export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot;
@@ -94,7 +94,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 /usr/local/Cellar/pulseview/HEAD/bin/pulseview &gt;/dev/null 2&gt;&amp;1 &amp;</pre>
 <p>&#160;</p>
 <p>配布用にするには、ライブラリのパスを全部書き換えないといけないので、やめました。このあたりのスキルは、もう少し勉強しないと嵌りそうです。</p>
-<p><img decoding="async" loading="lazy" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/12/51.png" width="276" height="423" /> </p>
+<p><img loading="lazy" decoding="async" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/12/51.png" width="276" height="423" /> </p>
 <p>brew 版のインストールは、wiki に書いてあるとおりで以下のようです。</p>
 <blockquote>
 <p><a title="https://sigrok.org/wiki/Mac_OS_X" href="https://sigrok.org/wiki/Mac_OS_X" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://sigrok.org/wiki/Mac_OS_X<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
@@ -152,11 +152,11 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 							<description><![CDATA[PulseView の 0.3.0-git-f3697d3 をビルドしてみました。 結論から言えば、今のところ起動してすぐ落ちます。（涙） 無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。a [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>PulseView の 0.3.0-git-f3697d3 をビルドしてみました。</p>
 <p>結論から言えば、今のところ起動してすぐ落ちます。（涙）</p>
-<p><img decoding="async" loading="lazy" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162" /> </p>
+<p><img loading="lazy" decoding="async" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.png" width="307" height="162" /> </p>
 <p>無理やり、メニューから開いてみるとポートのオープンでこけているような感じです。about は見れました。</p>
-<p><img decoding="async" loading="lazy" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.png" width="600" height="400" /> </p>
+<p><img loading="lazy" decoding="async" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.png" width="600" height="400" /> </p>
 <p>デバイスにもコネクトし、スキャンすれば出てきます。</p>
-<p><img decoding="async" loading="lazy" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/12/31.png" width="525" height="397" /> </p>
+<p><img loading="lazy" decoding="async" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/12/31.png" width="525" height="397" /> </p>
 <p>しかし、OK を押すと最初のダイアログ表示が出て、OK を押すと、SIGABRT で落ちます。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Process:         pulseview-bin [95174]
 Path:            /Applications/PulseView.app/Contents/MacOS/./pulseview-bin

@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/09/logo.png</url>
@@ -41,16 +41,16 @@
 							<description><![CDATA[知る人はBeOSが動きそうなら、やっぱり試したくなるでしょうよ。 PPC用のHaikuを前回記事で見つけたのでちこっと試してみましたyo。 リビジョン40136でがんばってみた。boot-cdはISOファイルでCDに焼き [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>知る人はBeOSが動きそうなら、やっぱり試したくなるでしょうよ。 PPC用のHaikuを前回記事で見つけたのでちこっと試してみましたyo。    </p>
 </p>
-<p> <img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image.png" width="498" height="289" />   </p>
+<p> <img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image.png" width="498" height="289" />   </p>
 <p>リビジョン40136でがんばってみた。boot-cdはISOファイルでCDに焼き、imageはDDでUSBに書き込み。iMacのUSBポートとCDトレイに乗せて起動。    </p>
-<p>最初、Cキー押してCD-ROMから起動するのかと思いきや、しないので、OpenFirmwareを起動させる。<strong>command</strong>+<strong>option</strong>+<strong>o</strong>+<strong>f</strong> のキーを押し続けるとこんな画面が。     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8443" border="0" alt="IMGP8443" src="/wp-content/uploads/2011/02/imgp8443.jpg" width="498" height="338" />     </p>
-<p>で、こんな感じでコマンドをタイプ。リターン。     <br />boot cd:,\ppc\boot_loader_openfirmware     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8444" border="0" alt="IMGP8444" src="/wp-content/uploads/2011/02/imgp8444.jpg" width="498" height="338" />     </p>
-<p>ずらずらと、流れる。動いて～     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8446" border="0" alt="IMGP8446" src="/wp-content/uploads/2011/02/imgp8446.jpg" width="498" height="338" />     <br />お、いい感じじゃん。いけいけ～     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8447" border="0" alt="IMGP8447" src="/wp-content/uploads/2011/02/imgp8447.jpg" width="498" height="338" />     <br />USBのHaikuボリュームを選択して、</p>
+<p>最初、Cキー押してCD-ROMから起動するのかと思いきや、しないので、OpenFirmwareを起動させる。<strong>command</strong>+<strong>option</strong>+<strong>o</strong>+<strong>f</strong> のキーを押し続けるとこんな画面が。     <br /><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8443" border="0" alt="IMGP8443" src="/wp-content/uploads/2011/02/imgp8443.jpg" width="498" height="338" />     </p>
+<p>で、こんな感じでコマンドをタイプ。リターン。     <br />boot cd:,\ppc\boot_loader_openfirmware     <br /><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8444" border="0" alt="IMGP8444" src="/wp-content/uploads/2011/02/imgp8444.jpg" width="498" height="338" />     </p>
+<p>ずらずらと、流れる。動いて～     <br /><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8446" border="0" alt="IMGP8446" src="/wp-content/uploads/2011/02/imgp8446.jpg" width="498" height="338" />     <br />お、いい感じじゃん。いけいけ～     <br /><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8447" border="0" alt="IMGP8447" src="/wp-content/uploads/2011/02/imgp8447.jpg" width="498" height="338" />     <br />USBのHaikuボリュームを選択して、</p>
 </p>
 </p>
-<p><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8449" border="0" alt="IMGP8449" src="/wp-content/uploads/2011/02/imgp8449.jpg" width="498" height="338" />     </p>
+<p><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8449" border="0" alt="IMGP8449" src="/wp-content/uploads/2011/02/imgp8449.jpg" width="498" height="338" />     </p>
 <p>起動せよ！</p>
-<p><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8451" border="0" alt="IMGP8451" src="/wp-content/uploads/2011/02/imgp8451.jpg" width="498" height="338" />     <br />くるのか～？     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8452" border="0" alt="IMGP8452" src="/wp-content/uploads/2011/02/imgp8452.jpg" width="498" height="338" />     </p>
+<p><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8451" border="0" alt="IMGP8451" src="/wp-content/uploads/2011/02/imgp8451.jpg" width="498" height="338" />     <br />くるのか～？     <br /><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8452" border="0" alt="IMGP8452" src="/wp-content/uploads/2011/02/imgp8452.jpg" width="498" height="338" />     </p>
 <p>・</p>
 <p>・</p>
 <p>・</p>
@@ -71,10 +71,10 @@
 <p>&#160;</p>
 <p>&#160;</p>
 </p>
-<p><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8453" border="0" alt="IMGP8453" src="/wp-content/uploads/2011/02/imgp8453.jpg" width="498" height="338" /> </p>
-<p>&#160;<a href="/wp-content/uploads/2011/02/imgp84551.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8455" border="0" alt="IMGP8455" src="/wp-content/uploads/2011/02/imgp8455_thumb.jpg" width="498" height="338" /></a> </p>
+<p><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8453" border="0" alt="IMGP8453" src="/wp-content/uploads/2011/02/imgp8453.jpg" width="498" height="338" /> </p>
+<p>&#160;<a href="/wp-content/uploads/2011/02/imgp84551.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8455" border="0" alt="IMGP8455" src="/wp-content/uploads/2011/02/imgp8455_thumb.jpg" width="498" height="338" /></a> </p>
 <p>PANICですか、、、、arch_int_init_post_device_manager():Found no supported PIC!</p>
-<p>一筋縄ではいかないようで。    <br />3個目のアイコンまではいくようですが、     <br /><img decoding="async" loading="lazy" style="display:inline;border-width:0;" title="IMGP8441" border="0" alt="IMGP8441" src="/wp-content/uploads/2011/02/imgp8441.jpg" width="498" height="338" />&#160; <br />リビジョンを落として試すとか、また今度やってみよう。AirMacカードが入ってるからとか関係あるのかな？</p>
+<p>一筋縄ではいかないようで。    <br />3個目のアイコンまではいくようですが、     <br /><img loading="lazy" decoding="async" style="display:inline;border-width:0;" title="IMGP8441" border="0" alt="IMGP8441" src="/wp-content/uploads/2011/02/imgp8441.jpg" width="498" height="338" />&#160; <br />リビジョンを落として試すとか、また今度やってみよう。AirMacカードが入ってるからとか関係あるのかな？</p>
 <p>動けば、さくさくなHaikuなはずだから、気を長くしてまた再挑戦してみたいですね。</p>
 ]]></content:encoded>
 					

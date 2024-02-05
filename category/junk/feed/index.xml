@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/09/logo.png</url>
@@ -40,50 +40,50 @@
 										<content:encoded><![CDATA[<p>ゴールデンウィークは天気が良くて、気持ちいいですね。   <br />今回は、ちょっと古めの30インチモニターのジャンクを分解して、アナログ系ユニットと、チューナーを取り外したら無事写ったという記事内容です。D-SUB 入力のメイン基板は故障しておらず、モジュール式のアナログ入力ユニットとアナログチューナーを取り外したら動きました。</p>
 <p>&#160;</p>
 <p>E-yamaの30インチモニターが、10年ほど前に電源が入らずぶっ壊れました。捨てるのが面倒でいつか暇が出来たら分解してみようと思っていましたが、GWにやっと分解してみました。</p>
-<p><img decoding="async" loading="lazy" title="P1300900" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300900" src="/wp-content/uploads/2017/05/p1300900.png" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300900" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300900" src="/wp-content/uploads/2017/05/p1300900.png" width="640" height="480" /> </p>
 <p>型番は、e-yama の 30TE1W-SJ というもので、消費電力が150W もあります。現在の 32インチモニターは50W前後の消費電力なのでかなり電力を消費しますね。どういう原理で今は１００Wも削減できたのでしょうかね。時代を感じます。</p>
 <p>&#160;</p>
 <p>さて、改めて症状とを見てみると10分か15分くらいで以下のようにシマシマになります。電源は入るようですが、しばらくすると熱でサーモスタットが働き電源も落ちます。最初は写るので、メイン基板は死んでいないようです。</p>
-<p><img decoding="async" loading="lazy" title="P1300913" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300913" src="/wp-content/uploads/2017/05/p1300913.png" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300913" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300913" src="/wp-content/uploads/2017/05/p1300913.png" width="640" height="480" /> </p>
 <p>どこかの基板がオーバーロードしている感じですかね。このモニターはアナログチューナーとアナログ系の入力、D-Sub のモニター入力などがあります。</p>
 </p>
 <p>&#160;</p>
 <p>分解してみましょう。</p>
-<p>電源部分はなんと、ACアダプタが本体に埋められています。こういう設計もあるんですね。なるほど。<img decoding="async" loading="lazy" title="P1300906" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300906" src="/wp-content/uploads/2017/05/p1300906.png" width="640" height="480" /></p>
+<p>電源部分はなんと、ACアダプタが本体に埋められています。こういう設計もあるんですね。なるほど。<img loading="lazy" decoding="async" title="P1300906" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300906" src="/wp-content/uploads/2017/05/p1300906.png" width="640" height="480" /></p>
 <p>12V 12.5A の電源のようです。かなり熱をもっているようです。これも分解してみます。蓋の裏側のゴムを剥ぎ取るとネジがあります。</p>
-<p><img decoding="async" loading="lazy" title="P1300910" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300910" src="/wp-content/uploads/2017/05/p1300910.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300910" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300910" src="/wp-content/uploads/2017/05/p1300910.jpg" width="640" height="480" /> </p>
 <p>全体がアルミの放熱板で覆われていて、ある程度、熱が収まると電源はまた入ります。</p>
-<p><img decoding="async" loading="lazy" title="P1300911" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300911" src="/wp-content/uploads/2017/05/p1300911.png" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300911" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300911" src="/wp-content/uploads/2017/05/p1300911.png" width="640" height="480" /> </p>
 <p>さらに分解します。</p>
-<p><img decoding="async" loading="lazy" title="スクリーンショット_2017_05_05_14_19" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット_2017_05_05_14_19" src="/wp-content/uploads/2017/05/2017_05_05_14_19.png" width="640" height="479" /> </p>
+<p><img loading="lazy" decoding="async" title="スクリーンショット_2017_05_05_14_19" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット_2017_05_05_14_19" src="/wp-content/uploads/2017/05/2017_05_05_14_19.png" width="640" height="479" /> </p>
 <p>アナログ系の入力と、アナログチューナーがモジュール式になっているのでこれをとっぱらいます。この状態でD-Sub 入力が安定して写るか確認。</p>
 <p>しばらく映画を見ていましたが安定して写るようです。シマシマにはなりません。ラッキー！</p>
-<p><img decoding="async" loading="lazy" title="P1300922" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300922" src="/wp-content/uploads/2017/05/p1300922.png" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300922" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300922" src="/wp-content/uploads/2017/05/p1300922.png" width="640" height="480" /> </p>
 <p>いろいろ試してみるものですね。どうやら問題は解消されたようです。</p>
 <p>&#160;</p>
 <p>メイン基板も見てみましたが、明らかにコンデンサーが膨れているものはなく、寿命までもう少しがんばってもらうことに。</p>
-<p><a href="/wp-content/uploads/2017/05/p1300921.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="P1300921" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300921" src="/wp-content/uploads/2017/05/p1300921_thumb.jpg" width="640" height="480" /></a>&#160;</p>
+<p><a href="/wp-content/uploads/2017/05/p1300921.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="P1300921" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300921" src="/wp-content/uploads/2017/05/p1300921_thumb.jpg" width="640" height="480" /></a>&#160;</p>
 <p>結構たくさんコンデンサはありますね。</p>
-<p><a href="/wp-content/uploads/2017/05/p1300918.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="P1300918" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300918" src="/wp-content/uploads/2017/05/p1300918_thumb.jpg" width="640" height="480" /></a>&#160;</p>
+<p><a href="/wp-content/uploads/2017/05/p1300918.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="P1300918" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300918" src="/wp-content/uploads/2017/05/p1300918_thumb.jpg" width="640" height="480" /></a>&#160;</p>
 <p>これがメイン基板全体像。</p>
-<p><a href="/wp-content/uploads/2017/05/p1300919.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="P1300919" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300919" src="/wp-content/uploads/2017/05/p1300919_thumb.jpg" width="640" height="480" /></a>&#160;</p>
+<p><a href="/wp-content/uploads/2017/05/p1300919.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="P1300919" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300919" src="/wp-content/uploads/2017/05/p1300919_thumb.jpg" width="640" height="480" /></a>&#160;</p>
 <p>これを全部交換するのも大変です。</p>
-<p><a href="/wp-content/uploads/2017/05/p1300920.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="P1300920" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300920" src="/wp-content/uploads/2017/05/p1300920_thumb.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2017/05/p1300920.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="P1300920" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300920" src="/wp-content/uploads/2017/05/p1300920_thumb.jpg" width="640" height="480" /></a> </p>
 <p>&#160;</p>
 <p>で、筐体がシルバーなので、つやけし黒で塗ることにしました。当時はシルバーが流行っていたんですかね。なぜシルバーを買ったのかはぜんぜん覚えていませんが、リサーチして安いから妥協して買ったのかもしれません。2003年あたりに買ったはずです。   <br />100円均一の黒で塗っていましたが、容量が足りずホームセンターへ買出し。100円のは、70ml しかないですが、ホームセンターのは300ml で 168 円でしたのでこちらのほうがお得ですね。</p>
-<p><img decoding="async" loading="lazy" title="P1300937" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300937" src="/wp-content/uploads/2017/05/p1300937.png" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300937" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300937" src="/wp-content/uploads/2017/05/p1300937.png" width="640" height="480" /> </p>
 <p>中性洗剤で表面を洗って、乾燥してから塗りました。</p>
-<p><img decoding="async" loading="lazy" title="P1300923" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300923" src="/wp-content/uploads/2017/05/p1300923.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300923" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300923" src="/wp-content/uploads/2017/05/p1300923.jpg" width="640" height="480" /> </p>
 <p>結構適当に吹きつけましたが、そこそこ綺麗に塗れました。小さな部品はちゃんと取りはずして。</p>
 </p>
 </p>
-<p><img decoding="async" loading="lazy" title="P1300936" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300936" src="/wp-content/uploads/2017/05/p1300936.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300936" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300936" src="/wp-content/uploads/2017/05/p1300936.jpg" width="640" height="480" /> </p>
 <p>で、組み付けて設置。なかなかいい感じです。やっぱりモニターっていうは黒がいいですね。シルバーは今は好きになれません。あと、壁掛けにするんだったら白がいいなと思います。</p>
 <p>これで、小さいモニターを入れて、3画面になりました。</p>
-<p><img decoding="async" loading="lazy" title="P1300941" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300941" src="/wp-content/uploads/2017/05/p1300941.png" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300941" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300941" src="/wp-content/uploads/2017/05/p1300941.png" width="640" height="480" /> </p>
 <p>ローグ・ワンはまだ見ていませんが、連休中に見てみようかなと。レンタル料が500円です。</p>
 <p>あと、このちっさいモニターもジャンク品なんですが、どうやら写るようでこちらもラッキー品です。Spotify のプレイヤーを表示する専用にしています。まだあと3台ありますのでまた別に紹介する予定です。</p>
-<p><img decoding="async" loading="lazy" title="P1300945" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300945" src="/wp-content/uploads/2017/05/p1300945.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300945" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300945" src="/wp-content/uploads/2017/05/p1300945.jpg" width="640" height="480" /> </p>
 <p>DVI to HDMI のケーブルが見つからないのでこれを探して3画面にしたいです。どっかにあるはずなんですがね。</p>
 <p>&#160;</p>
 </p>
@@ -105,23 +105,23 @@
 										<content:encoded><![CDATA[<p>JunkHack という名のブログですが、あまりジャンク品が出てこないのでたまにはジャンク品も紹介しようと思います。ジャンクな品はあるのですが、貧乏くさいブログになるのであまり紹介してこなかったのですが根っからジャンク好きなので、やっぱりいじりたくなります。</p>
 <p>&#160;</p>
 <p>ついつい寄ってしまう定期巡回のハードオフですが、名古屋には結構たくさんあって楽しめます。最近、ハードオフも結構高めに設定されているのですが中には買ってもいいなという基準をクリアする品があります。今回、そんな基準をクリアしたのはこちら。</p>
-<p><img decoding="async" loading="lazy" title="P1300730" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300730" src="/wp-content/uploads/2017/04/p1300730.png" width="640" height="427" /> </p>
-<p>HORI のジョイスティック・ゲームパッドです。PS2 用のですがお値段が250円に惹かれました。機械的には動作しそうなので、昔から欲しかったのですが高いので手が出せなかったものです。格闘ゲームには必須のアーケードジョイスティックですね。 <img decoding="async" loading="lazy" title="P1300732" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300732" src="/wp-content/uploads/2017/04/p1300732.png" width="640" height="427" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300730" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300730" src="/wp-content/uploads/2017/04/p1300730.png" width="640" height="427" /> </p>
+<p>HORI のジョイスティック・ゲームパッドです。PS2 用のですがお値段が250円に惹かれました。機械的には動作しそうなので、昔から欲しかったのですが高いので手が出せなかったものです。格闘ゲームには必須のアーケードジョイスティックですね。 <img loading="lazy" decoding="async" title="P1300732" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300732" src="/wp-content/uploads/2017/04/p1300732.png" width="640" height="427" /> </p>
 <p>かなり筐体は使い込まれた感じですが、まだ使えそうな感触だったので USB 化して使おうと思います。</p>
 <p>モデルナンバーは、HPS-11 COMMAND STICK PS とあります。メモリ機能がついているようですね。</p>
-<p><img decoding="async" loading="lazy" title="P1300733" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300733" src="/wp-content/uploads/2017/04/p1300733.png" width="640" height="427" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300733" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300733" src="/wp-content/uploads/2017/04/p1300733.png" width="640" height="427" /> </p>
 <p>そして、違う日にハードオフの違う店舗で以下を100円でゲット。</p>
-<p><img decoding="async" loading="lazy" title="P1300734" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300734" src="/wp-content/uploads/2017/04/p1300734.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="P1300734" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300734" src="/wp-content/uploads/2017/04/p1300734.jpg" width="640" height="480" /> </p>
 <p>ELECOM の 10ボタンUSBゲームパッド。<a href="http://www2.elecom.co.jp/peripheral/gamepad/jc-u2410t/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">JC-U2410TBK<span class="wpel-icon wpel-image wpel-icon-1"></span></a> </p>
 </p>
 </p>
-<p><img decoding="async" loading="lazy" title="ex1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ex1" src="/wp-content/uploads/2017/04/ex1.gif" width="470" height="438" /> </p>
+<p><img loading="lazy" decoding="async" title="ex1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ex1" src="/wp-content/uploads/2017/04/ex1.gif" width="470" height="438" /> </p>
 <p>USB 仕様に変更しようかと。そして、Orange Pi で Mame など動かして（<a href="http://www.retrorangepi.org/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">RetrOrangePi<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）（<a href="http://www.lakka.tv/articles/2016/11/20/experimental-images-for-orangepi-and-other-h3-boards/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">LAKKA<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）遊ぼうかと思っています。バラシはまた今度のお楽しみに。</p>
 <p>osx で、このUSB のジョイパッドを認識するのは以下のドライバーで。</p>
 <blockquote>
 <p>USB Overdrive      <br /><a title="http://www.usboverdrive.com/USBOverdrive/Download.html" href="http://www.usboverdrive.com/USBOverdrive/Download.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.usboverdrive.com/USBOverdrive/Download.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
-<p><img decoding="async" loading="lazy" title="USB_Overdrive_のインストール_と__Volumes_USB_Overdrive_と_©1999-2016_Alessandro_Levi_Montalcini" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="USB_Overdrive_のインストール_と__Volumes_USB_Overdrive_と_©1999-2016_Alessandro_Levi_Montalcini" src="/wp-content/uploads/2017/04/usb_overdrive____volumes_usb_overdrive__19992016_alessandro_levi_montalcini.png" width="548" height="871" /> </p>
+<p><img loading="lazy" decoding="async" title="USB_Overdrive_のインストール_と__Volumes_USB_Overdrive_と_©1999-2016_Alessandro_Levi_Montalcini" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="USB_Overdrive_のインストール_と__Volumes_USB_Overdrive_と_©1999-2016_Alessandro_Levi_Montalcini" src="/wp-content/uploads/2017/04/usb_overdrive____volumes_usb_overdrive__19992016_alessandro_levi_montalcini.png" width="548" height="871" /> </p>
 <p>まだ再起動していませんが、これから試してみます。</p>
 <p>&#160;</p>
 <p>最後に、プロゲーマーの梅原さんがプレイした神バトル「背水の逆転劇」を載せておきます。</p>
@@ -146,11 +146,11 @@
 		<category><![CDATA[PCB]]></category>
 		<guid isPermaLink="false">/?p=2542</guid>
 							<description><![CDATA[前からせこせこと、イメージしていたロゴを考え中。 もっと、ラフにしないとPCB とかにプリントしたとき消えちゃうし。ロゴって難しいですね。 &#160; 友達のデザイナーに暇なときに、作ってもらおう。やっぱりプロがやると [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>前からせこせこと、イメージしていたロゴを考え中。<img decoding="async" loading="lazy" title="JunkHack_LOGO1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="JunkHack_LOGO1" src="/wp-content/uploads/2016/12/junkhack_logo1.png" width="545" height="84" /></p>
+										<content:encoded><![CDATA[<p>前からせこせこと、イメージしていたロゴを考え中。<img loading="lazy" decoding="async" title="JunkHack_LOGO1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="JunkHack_LOGO1" src="/wp-content/uploads/2016/12/junkhack_logo1.png" width="545" height="84" /></p>
 <p>もっと、ラフにしないとPCB とかにプリントしたとき消えちゃうし。ロゴって難しいですね。</p>
 <p>&#160;</p>
 </p>
-<p><img decoding="async" loading="lazy" title="JunkHack_LOGO2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="JunkHack_LOGO2" src="/wp-content/uploads/2016/12/junkhack_logo2.png" width="349" height="408" /> </p>
+<p><img loading="lazy" decoding="async" title="JunkHack_LOGO2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="JunkHack_LOGO2" src="/wp-content/uploads/2016/12/junkhack_logo2.png" width="349" height="408" /> </p>
 <p>友達のデザイナーに暇なときに、作ってもらおう。やっぱりプロがやるとクオリティーがぜんぜん違うし。</p>
 ]]></content:encoded>
 					
@@ -167,15 +167,15 @@
 		<guid isPermaLink="false">/?p=2293</guid>
 							<description><![CDATA[耐熱テープで養生して、USB をはずし、 新しいのを付けて、小さなパーツをつけ、、、ようと思いましたが、パーツが見当たらず。がーん。 ま、データ通信はしないから、イケルでしょと思い、くみ上げ。 左右を補強。 さぁて、動き [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>耐熱テープで養生して、USB をはずし、</p>
-<p><img decoding="async" loading="lazy" title="S20160618_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_0011.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160618_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_0011.jpg" width="640" height="480" /> </p>
 <p>新しいのを付けて、小さなパーツをつけ、、、ようと思いましたが、パーツが見当たらず。がーん。</p>
-<p><img decoding="async" loading="lazy" title="S20160619_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_001" src="/wp-content/uploads/2016/06/s20160619_001.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160619_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_001" src="/wp-content/uploads/2016/06/s20160619_001.jpg" width="640" height="480" /> </p>
 <p>ま、データ通信はしないから、イケルでしょと思い、くみ上げ。</p>
-<p><img decoding="async" loading="lazy" title="S20160619_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_002" src="/wp-content/uploads/2016/06/s20160619_002.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160619_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_002" src="/wp-content/uploads/2016/06/s20160619_002.jpg" width="640" height="480" /> </p>
 <p>左右を補強。</p>
-<p><img decoding="async" loading="lazy" title="S20160619_003" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_003" src="/wp-content/uploads/2016/06/s20160619_003.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160619_003" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_003" src="/wp-content/uploads/2016/06/s20160619_003.jpg" width="640" height="480" /> </p>
 <p>さぁて、動きますかね。</p>
-<p><img decoding="async" loading="lazy" title="S20160619_004" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_004" src="/wp-content/uploads/2016/06/s20160619_004.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160619_004" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160619_004" src="/wp-content/uploads/2016/06/s20160619_004.jpg" width="640" height="480" /> </p>
 <p>・・・・</p>
 <p>&#160;</p>
 <p>・・・・・</p>
@@ -203,34 +203,34 @@
 		<guid isPermaLink="false">/?p=2270</guid>
 							<description><![CDATA[HP のタブレットの USB が壊れたので直してほしいとの依頼。 どうやら、目視すると中の pin が折れているようです。 JunkHack Factory（たんなるガラクタ部屋のことですが、なにか？） に持ち帰り、分解 [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>HP のタブレットの USB が壊れたので直してほしいとの依頼。</p>
-<p><img decoding="async" loading="lazy" title="home_section3_bnr" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="home_section3_bnr" src="/wp-content/uploads/2016/06/home_section3_bnr.jpg" width="466" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="home_section3_bnr" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="home_section3_bnr" src="/wp-content/uploads/2016/06/home_section3_bnr.jpg" width="466" height="480" /> </p>
 <p>どうやら、目視すると中の pin が折れているようです。</p>
-<p><img decoding="async" loading="lazy" title="S20160613_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_002" src="/wp-content/uploads/2016/06/s20160613_002.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160613_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_002" src="/wp-content/uploads/2016/06/s20160613_002.jpg" width="640" height="480" /> </p>
 <p>JunkHack Factory（たんなるガラクタ部屋のことですが、なにか？） に持ち帰り、分解してパーツを見ることに。分解マニュアルを見ると、どうやら I/O ボードに、USB と HDMI とイヤホンマイクジャックが並んでいる模様。</p>
 <p>&#160;</p>
-<p><a href="http://h10032.www1.hp.com/ctg/Manual/c04341946.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" loading="lazy" title="c04341946_pdf 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf 3" src="/wp-content/uploads/2016/06/c04341946_pdf3.png" width="640" height="254" /></a> バラシ方のコツは、以下の通り。</p>
+<p><a href="http://h10032.www1.hp.com/ctg/Manual/c04341946.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="c04341946_pdf 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf 3" src="/wp-content/uploads/2016/06/c04341946_pdf3.png" width="640" height="254" /></a> バラシ方のコツは、以下の通り。</p>
 <p>&#160;</p>
-<p><img decoding="async" loading="lazy" title="c04341946_pdf" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf" src="/wp-content/uploads/2016/06/c04341946_pdf.png" width="487" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="c04341946_pdf" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf" src="/wp-content/uploads/2016/06/c04341946_pdf.png" width="487" height="480" /> </p>
 <p>5番の I/O ボードを引っ張り出すことに。</p>
 <p>&#160;</p>
-<p><img decoding="async" loading="lazy" title="c04341946_pdf 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf 2" src="/wp-content/uploads/2016/06/c04341946_pdf2.png" width="486" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="c04341946_pdf 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf 2" src="/wp-content/uploads/2016/06/c04341946_pdf2.png" width="486" height="480" /> </p>
 </p>
 </p>
 <p>&#160;</p>
 <p>金具の押さえを取り、フレキシブルケーブルを抜きます。</p>
-<p>&#160; <img decoding="async" loading="lazy" title="S20160613_006" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_006" src="/wp-content/uploads/2016/06/s20160613_006.jpg" width="640" height="480" /> <img decoding="async" loading="lazy" title="S20160613_009" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_009" src="/wp-content/uploads/2016/06/s20160613_009.jpg" width="640" height="480" /> </p>
+<p>&#160; <img loading="lazy" decoding="async" title="S20160613_006" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_006" src="/wp-content/uploads/2016/06/s20160613_006.jpg" width="640" height="480" /> <img loading="lazy" decoding="async" title="S20160613_009" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_009" src="/wp-content/uploads/2016/06/s20160613_009.jpg" width="640" height="480" /> </p>
 <p>I/O ボードはこんな感じ。一番右の USB を交換予定。</p>
-<p><img decoding="async" loading="lazy" title="S20160614_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160614_001" src="/wp-content/uploads/2016/06/s20160614_001.jpg" width="640" height="480" /> </p>
+<p><img loading="lazy" decoding="async" title="S20160614_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160614_001" src="/wp-content/uploads/2016/06/s20160614_001.jpg" width="640" height="480" /> </p>
 <p>HP 製は丁寧にパーツを保護しています。</p>
-<p><img decoding="async" loading="lazy" title="S20160614_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160614_002" src="/wp-content/uploads/2016/06/s20160614_002.jpg" width="640" height="480" />&#160;&#160; </p>
+<p><img loading="lazy" decoding="async" title="S20160614_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160614_002" src="/wp-content/uploads/2016/06/s20160614_002.jpg" width="640" height="480" />&#160;&#160; </p>
 <p>問題のパーツ。中でぽっきり折れています。</p>
-<p><a href="/wp-content/uploads/2016/06/s20160614_0071.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="S20160614_007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_007" src="/wp-content/uploads/2016/06/s20160614_007_thumb1.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0071.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_007" src="/wp-content/uploads/2016/06/s20160614_007_thumb1.jpg" width="640" height="480" /></a> </p>
 <p>かなり薄めの PCB です。</p>
 </p>
-<p><a href="/wp-content/uploads/2016/06/s20160614_0061.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="S20160614_006" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_006" src="/wp-content/uploads/2016/06/s20160614_006_thumb1.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0061.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_006" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_006" src="/wp-content/uploads/2016/06/s20160614_006_thumb1.jpg" width="640" height="480" /></a> </p>
 <p>同じパーツはないので、手持ちで流用できるか今日は検討。</p>
-<p><a href="/wp-content/uploads/2016/06/s20160614_0081.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="S20160614_008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_008" src="/wp-content/uploads/2016/06/s20160614_008_thumb1.jpg" width="640" height="480" /></a> </p>
-<p><a href="/wp-content/uploads/2016/06/s20160614_0091.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" loading="lazy" title="S20160614_009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_009" src="/wp-content/uploads/2016/06/s20160614_009_thumb1.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0081.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_008" src="/wp-content/uploads/2016/06/s20160614_008_thumb1.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0091.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_009" src="/wp-content/uploads/2016/06/s20160614_009_thumb1.jpg" width="640" height="480" /></a> </p>
 <p>代用はできそうですが、補強しないとですね。</p>
 <p>今日はとりあえず、バラシまで。明日以降に少しづつ作業していくことに。</p>
 ]]></content:encoded>

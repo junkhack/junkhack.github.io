@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2020/09/logo.png</url>
@@ -36,7 +36,7 @@
 				<category><![CDATA[cat]]></category>
 		<guid isPermaLink="false">/?p=4844</guid>
 							<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-4845" src="/wp-content/uploads/2018/11/9773.jpg" alt="9773.jpg" width="649" height="1625" /></p>
+										<content:encoded><![CDATA[<p><img decoding="async" class="alignnone size-full wp-image-4845" src="/wp-content/uploads/2018/11/9773.jpg" alt="9773.jpg" width="649" height="1625" /></p>
 ]]></content:encoded>
 					
 		
@@ -52,7 +52,7 @@
 		<category><![CDATA[cat]]></category>
 		<guid isPermaLink="false">/2018/11/07/%e6%9c%ac%e6%97%a5%e3%81%ae%e3%81%ad%e3%81%93-6/</guid>
 							<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<p><img decoding="async" loading="lazy" src="/wp-content/uploads/2018/11/e4bb8ae697a5e381aee5af9de5ba8a201811071125343865214260228185488.jpg" class="wp-image-4747 alignnone size-full" width="698" height="1748"></p>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" src="/wp-content/uploads/2018/11/e4bb8ae697a5e381aee5af9de5ba8a201811071125343865214260228185488.jpg" class="wp-image-4747 alignnone size-full" width="698" height="1748"></p>
 ]]></content:encoded>
 					
 		
@@ -85,7 +85,7 @@
 		<guid isPermaLink="false">/?p=4739</guid>
 							<description><![CDATA[猫マンガシリーズを恒例化していこうかなと。]]></description>
 										<content:encoded><![CDATA[<p>猫マンガシリーズを恒例化していこうかなと。</p>
-<p><img decoding="async" loading="lazy" class=" size-full wp-image-4740 aligncenter" src="/wp-content/uploads/2018/11/9764.jpg" alt="9764" width="649" height="1625" /></p>
+<p><img loading="lazy" decoding="async" class=" size-full wp-image-4740 aligncenter" src="/wp-content/uploads/2018/11/9764.jpg" alt="9764" width="649" height="1625" /></p>
 ]]></content:encoded>
 					
 		
@@ -100,7 +100,7 @@
 				<category><![CDATA[cat]]></category>
 		<guid isPermaLink="false">/?p=3844</guid>
 							<description><![CDATA[だいぶ変形してますが、お気に入りのようです。]]></description>
-										<content:encoded><![CDATA[<p><img decoding="async" loading="lazy" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300776" src="/wp-content/uploads/2017/04/p1300776.png" alt="P1300776" width="640" height="480" border="0" /></p>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="P1300776" src="/wp-content/uploads/2017/04/p1300776.png" alt="P1300776" width="640" height="480" border="0" /></p>
 <p>だいぶ変形してますが、お気に入りのようです。</p>
 ]]></content:encoded>
 					

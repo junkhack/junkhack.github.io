@@ -1,3 +1,7 @@
+// Declare global variables at the top of your script
+var globalChatbotIdentity = '';
+var globalClientID = '';
+
 function wpaicgChatShortcodeSize(){
     var wpaicgWindowWidth = window.innerWidth;
     var wpaicgWindowHeight = window.innerHeight;
@@ -193,6 +197,17 @@ function wpaicgChatInit() {
     var wpaicgChatDownloadButtons = document.getElementsByClassName('wpaicg-chatbox-download-btn');
     var wpaicg_chat_widget_toggles = document.getElementsByClassName('wpaicg_toggle');
     var wpaicg_chat_widgets = document.getElementsByClassName('wpaicg_chat_widget');
+
+    var wpaicgChatClearButtons = document.getElementsByClassName('wpaicg-chatbox-clear-btn');
+    if (wpaicgChatClearButtons.length) {
+        for (var i = 0; i < wpaicgChatClearButtons.length; i++) {
+            var wpaicgChatClearButton = wpaicgChatClearButtons[i];
+            wpaicgChatClearButton.addEventListener('click', function() {
+                clearChatHistory();
+            });
+        }
+    }
+
     if(wpaicg_chat_widget_toggles !== null && wpaicg_chat_widget_toggles.length){
         for(var i=0;i<wpaicg_chat_widget_toggles.length;i++){
             var wpaicg_chat_widget_toggle = wpaicg_chat_widget_toggles[i];
@@ -266,6 +281,45 @@ function wpaicgChatInit() {
             })
         }
     }
+    
+    function clearChatHistory() {
+        let chatHistoryKey = 'wpaicg_chat_history_' + globalChatbotIdentity + '_' + globalClientID;
+        localStorage.removeItem(chatHistoryKey);
+    
+        // Function to clear messages except the first one
+        function clearMessagesExceptFirst(messagesBox) {
+            if (messagesBox) {
+                // Select all the <li> elements (chat messages) in the messages box
+                let messages = messagesBox.querySelectorAll('li');
+    
+                // Loop through all messages, remove each except the first one
+                for (let i = messages.length - 1; i > 0; i--) {
+                    messagesBox.removeChild(messages[i]);
+                }
+            }
+        }
+    
+        // Clear messages for chat widgets
+        var chatWidgets = document.getElementsByClassName('wpaicg_chat_widget_content');
+        if (chatWidgets !== null && chatWidgets.length) {
+            for (var i = 0; i < chatWidgets.length; i++) {
+                var chatWidget = chatWidgets[i];
+                var messagesBox = chatWidget.getElementsByClassName('wpaicg-chatbox-messages')[0];
+                clearMessagesExceptFirst(messagesBox);
+            }
+        }
+    
+        // Clear messages for chat shortcodes
+        var chatShortcodes = document.getElementsByClassName('wpaicg-chat-shortcode');
+        if (chatShortcodes !== null && chatShortcodes.length) {
+            for (var i = 0; i < chatShortcodes.length; i++) {
+                var chatShortcode = chatShortcodes[i];
+                var messagesBox = chatShortcode.getElementsByClassName('wpaicg-chat-shortcode-messages')[0];
+                clearMessagesExceptFirst(messagesBox);
+            }
+        }
+    }
+    
     function wpaicgFullScreen(btn){
         var type = btn.getAttribute('data-type');
         if(type === 'shortcode'){
@@ -393,6 +447,18 @@ function wpaicgChatInit() {
         });
     }
 
+    // Function to generate a random string
+    function generateRandomString(length) {
+        let result = '';
+        let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let charactersLength = characters.length;
+        for (let i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
+    
+
     function wpaicgSendChatMessage(chat, typing, type, blob) {
         let wpaicg_box_typing = typing;
         let wpaicg_ai_thinking, wpaicg_messages_box, class_user_item, class_ai_item;
@@ -409,15 +475,34 @@ function wpaicgChatInit() {
         let wpaicg_font_size = chat.getAttribute('data-fontsize');
         let wpaicg_speech = chat.getAttribute('data-speech');
         let wpaicg_voice = chat.getAttribute('data-voice');
+        let elevenlabs_model = chat.getAttribute('data-elevenlabs-model');
+        if (elevenlabs_model === null || elevenlabs_model === undefined) {
+            elevenlabs_model = chat.getAttribute('data-elevenlabs_model');
+        }
+        let elevenlabs_voice = chat.getAttribute('data-elevenlabs-voice');
+        if (elevenlabs_voice === null || elevenlabs_voice === undefined) {
+            elevenlabs_voice = chat.getAttribute('data-elevenlabs_voice');
+        }
         let wpaicg_voice_error = chat.getAttribute('data-voice-error');
         let url = chat.getAttribute('data-url');
         let post_id = chat.getAttribute('data-post-id');
         let wpaicg_ai_bg = chat.getAttribute('data-ai-bg-color');
         let wpaicg_font_color = chat.getAttribute('data-color');
         let voice_service = chat.getAttribute('data-voice_service');
+
         let voice_language = chat.getAttribute('data-voice_language');
         let voice_name = chat.getAttribute('data-voice_name');
         let voice_device = chat.getAttribute('data-voice_device');
+        let openai_model = chat.getAttribute('data-openai_model');
+
+        let openai_voice = chat.getAttribute('data-openai_voice');
+
+        let openai_output_format = chat.getAttribute('data-openai_output_format');
+
+        let openai_voice_speed = chat.getAttribute('data-openai_voice_speed');
+
+        let openai_stream_nav = chat.getAttribute('data-openai_stream_nav');
+
         let voice_speed = chat.getAttribute('data-voice_speed');
         let voice_pitch = chat.getAttribute('data-voice_pitch');
         var chat_pdf = chat.getAttribute('data-pdf');
@@ -459,151 +544,516 @@ function wpaicgChatInit() {
             wpaicgData.append('message', wpaicg_question);
             wpaicgMessage += wpaicg_question.replace(/\n/g,'<br>');
         }
+       
         wpaicgData.append('bot_id',wpaicg_bot_id);
         wpaicgMessage += '</li>';
         wpaicg_messages_box.innerHTML += wpaicgMessage;
         wpaicg_messages_box.scrollTop = wpaicg_messages_box.scrollHeight;
-        const xhttp = new XMLHttpRequest();
-        wpaicg_box_typing.value = '';
-        xhttp.open('POST', wpaicg_ajax_url, true);
-        xhttp.send(wpaicgData);
-        xhttp.onreadystatechange = function (oEvent) {
-            if (xhttp.readyState === 4) {
-                var wpaicg_message = '';
-                var wpaicg_response_text = '';
-                var wpaicg_randomnum = Math.floor((Math.random() * 100000) + 1);
-                if (xhttp.status === 200) {
-                    var wpaicg_response = this.responseText;
-                    if (wpaicg_response !== '') {
-                        wpaicg_response = JSON.parse(wpaicg_response);
-                        wpaicg_ai_thinking.style.display = 'none'
-                        if (wpaicg_response.status === 'success') {
-                            wpaicg_response_text = wpaicg_response.data;
-                            wpaicg_message = '<li class="' + class_ai_item + '" style="background-color:' + wpaicg_ai_bg + ';font-size: ' + wpaicg_font_size + 'px;color: ' + wpaicg_font_color + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message" id="wpaicg-chat-message-' + wpaicg_randomnum + '"></span>';
-                        } else {
-                            wpaicg_response_text = wpaicg_response.msg;
-                            wpaicg_message = '<li class="' + class_ai_item + '" style="background-color:' + wpaicg_ai_bg + ';font-size: ' + wpaicg_font_size + 'px;color: ' + wpaicg_font_color + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message wpaicg-chat-message-error" id="wpaicg-chat-message-' + wpaicg_randomnum + '"></span>';
-                        }
-                    }
-                } else {
-                    wpaicg_message = '<li class="' + class_ai_item + '" style="background-color:' + wpaicg_ai_bg + ';font-size: ' + wpaicg_font_size + 'px;color: ' + wpaicg_font_color + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message wpaicg-chat-message-error" id="wpaicg-chat-message-' + wpaicg_randomnum + '"></span>';
-                    wpaicg_response_text = 'Something went wrong';
-                }
-                if (wpaicg_response_text === 'null' || wpaicg_response_text === null) {
-                    wpaicg_response_text = 'The model predicted a completion that begins with a stop sequence, resulting in no output. Consider adjusting your prompt or stop sequences.';
-                }
-                if (wpaicg_response_text !== '' && wpaicg_message !== '') {
-                    if(parseInt(wpaicg_speech) == 1){
-                        if(voice_service === 'google'){
-                            wpaicg_ai_thinking.style.display = 'block';
-                            let speechData = new FormData();
-                            speechData.append('nonce', wpaicg_nonce);
-                            speechData.append('action', 'wpaicg_google_speech');
-                            speechData.append('language', voice_language);
-                            speechData.append('name', voice_name);
-                            speechData.append('device', voice_device);
-                            speechData.append('speed', voice_speed);
-                            speechData.append('pitch', voice_pitch);
-                            speechData.append('text', wpaicg_response_text);
-                            var speechRequest = new XMLHttpRequest();
-                            speechRequest.open("POST", wpaicg_ajax_url);
-                            speechRequest.onload = function () {
-                                var result = speechRequest.responseText;
-                                try {
-                                    result = JSON.parse(result);
-                                    if(result.status === 'success'){
-                                        var byteCharacters = atob(result.audio);
-                                        const byteNumbers = new Array(byteCharacters.length);
-                                        for (let i = 0; i < byteCharacters.length; i++) {
-                                            byteNumbers[i] = byteCharacters.charCodeAt(i);
-                                        }
-                                        const byteArray = new Uint8Array(byteNumbers);
-                                        const blob = new Blob([byteArray], {type: 'audio/mp3'});
-                                        const blobUrl = URL.createObjectURL(blob);
-                                        wpaicg_message += '<audio style="margin-top:2px;width: 100%" controls="controls"><source type="audio/mpeg" src="' + blobUrl + '"></audio>';
-                                        wpaicg_message += '</p></li>';
-                                        wpaicg_ai_thinking.style.display = 'none';
-                                        wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
-                                    }
-                                    else{
-                                        var errorMessageDetail = 'Google: ' + result.msg;
-                                        wpaicg_ai_thinking.style.display = 'none';
-                                        if (parseInt(wpaicg_voice_error) !== 1) {
-                                            wpaicg_message += '<span style="width: 100%;display: block;font-size: 11px;">' + errorMessageDetail + '</span>';
-                                        }
-                                        else if (typeof wpaicg_response !== 'undefined' && typeof wpaicg_response.log !== 'undefined' && wpaicg_response.log !== '') {
-                                            var speechLogMessage = new FormData();
-                                            speechLogMessage.append('nonce', wpaicg_nonce);
-                                            speechLogMessage.append('log_id', wpaicg_response.log);
-                                            speechLogMessage.append('message', errorMessageDetail);
-                                            speechLogMessage.append('action', 'wpaicg_speech_error_log');
-                                            var speechErrorRequest = new XMLHttpRequest();
-                                            speechErrorRequest.open("POST", wpaicg_ajax_url);
-                                            speechErrorRequest.send(speechLogMessage);
-                                        }
-                                        wpaicg_message += '</p></li>';
-                                        wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
-                                    }
-                                }
-                                catch (errorSpeech){
 
-                                }
+        let chat_type = chat.getAttribute('data-type');
+        
+        let stream_nav;
+        let chatbot_identity;
+
+        // Check if it's a bot with dynamic ID
+        if (wpaicg_bot_id && wpaicg_bot_id !== "0") {
+            stream_nav = openai_stream_nav;
+            chatbot_identity = 'custom_bot_' + wpaicg_bot_id;
+        } else {
+            // Check if it's a shortcode or widget based on chat_type
+            if (chat_type === "shortcode") {
+                stream_nav = chat.getAttribute('data-openai_stream_nav');
+                chatbot_identity = 'shortcode';
+            } else if (chat_type === "widget") {
+                stream_nav = chat.getAttribute('data-openai_stream_nav');
+                chatbot_identity = 'widget';
+            }
+        }
+        wpaicgData.append('chatbot_identity', chatbot_identity);
+
+        // Check for existing client_id in localStorage
+        let clientID = localStorage.getItem('wpaicg_chat_client_id');
+        if (!clientID) {
+            // Generate and store a new client ID if not found
+            clientID = generateRandomString(10); // Generate a 10 character string
+            localStorage.setItem('wpaicg_chat_client_id', clientID);
+        }
+
+        //append client_id to wpaicgData
+        wpaicgData.append('wpaicg_chat_client_id', clientID);
+
+        // Inside wpaicgSendChatMessage function
+        globalChatbotIdentity = chatbot_identity; // Set the global variable
+        globalClientID = clientID; // Set the global variable
+
+
+        // Function to update chat history in local storage for a specific bot identity
+        function updateChatHistory(message, sender) {
+            let chatHistoryKey = 'wpaicg_chat_history_' + chatbot_identity + '_' + clientID;
+            let chatHistory = localStorage.getItem(chatHistoryKey);
+            chatHistory = chatHistory ? JSON.parse(chatHistory) : [];
+        
+            // Format and add the new message
+            let formattedMessage = (sender === 'user' ? "Human: " : "AI: ") + message.replace(/\n/g, ' ').trim();
+            chatHistory.push(formattedMessage);
+        
+            // Keep only the last 5 messages if there are more than 5
+            if (chatHistory.length > 5) {
+                chatHistory = chatHistory.slice(-5);
+            }
+        
+            // Calculate total character count
+            let totalCharCount = chatHistory.reduce((total, msg) => total + msg.length, 0);
+        
+            // Clear chat history if total character count exceeds 8000
+            if (totalCharCount > 8000) {
+                chatHistory = [];
+            }
+        
+            localStorage.setItem(chatHistoryKey, JSON.stringify(chatHistory));
+        }
+        
+
+        if (stream_nav === "1") {
+            updateChatHistory(wpaicg_question, 'user');
+            wpaicgData.append('wpaicg_chat_history', localStorage.getItem('wpaicg_chat_history_' + chatbot_identity + '_' + clientID));
+            handleStreaming(wpaicgData,wpaicg_messages_box,wpaicg_box_typing,wpaicg_ai_thinking,class_ai_item,chat, chatbot_identity, clientID, wpaicg_use_avatar, wpaicg_ai_avatar);
+        }
+        else {
+
+            updateChatHistory(wpaicg_question, 'user');
+            // append chat history to wpaicgData
+            wpaicgData.append('wpaicg_chat_history', localStorage.getItem('wpaicg_chat_history_' + chatbot_identity + '_' + clientID));
+
+            const xhttp = new XMLHttpRequest();
+            wpaicg_box_typing.value = '';
+            xhttp.open('POST', wpaicgParams.ajax_url, true);
+            xhttp.send(wpaicgData);
+            xhttp.onreadystatechange = function (oEvent) {
+                if (xhttp.readyState === 4) {
+                    var wpaicg_message = '';
+                    var wpaicg_response_text = '';
+                    var wpaicg_randomnum = Math.floor((Math.random() * 100000) + 1);
+                    if (xhttp.status === 200) {
+                        var wpaicg_response = this.responseText;
+                        if (wpaicg_response !== '') {
+                            wpaicg_response = JSON.parse(wpaicg_response);
+                            wpaicg_ai_thinking.style.display = 'none'
+                            if (wpaicg_response.status === 'success') {
+                                wpaicg_response_text = wpaicg_response.data;
+                                wpaicg_message = '<li class="' + class_ai_item + '" style="background-color:' + wpaicg_ai_bg + ';font-size: ' + wpaicg_font_size + 'px;color: ' + wpaicg_font_color + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message" id="wpaicg-chat-message-' + wpaicg_randomnum + '"></span>';
+                            } else {
+                                wpaicg_response_text = wpaicg_response.msg;
+                                wpaicg_message = '<li class="' + class_ai_item + '" style="background-color:' + wpaicg_ai_bg + ';font-size: ' + wpaicg_font_size + 'px;color: ' + wpaicg_font_color + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message wpaicg-chat-message-error" id="wpaicg-chat-message-' + wpaicg_randomnum + '"></span>';
                             }
-                            speechRequest.send(speechData);
                         }
-                        else {
-                            let speechData = new FormData();
-                            speechData.append('nonce', wpaicg_nonce);
-                            speechData.append('message', wpaicg_response_text);
-                            speechData.append('voice', wpaicg_voice);
-                            speechData.append('action', 'wpaicg_text_to_speech');
-                            wpaicg_ai_thinking.style.display = 'block';
-                            var speechRequest = new XMLHttpRequest();
-                            speechRequest.open("POST", wpaicg_ajax_url);
-                            speechRequest.responseType = "arraybuffer";
-                            speechRequest.onload = function () {
-                                wpaicg_ai_thinking.style.display = 'none';
-                                var blob = new Blob([speechRequest.response], {type: "audio/mpeg"});
-                                var fr = new FileReader();
-                                fr.onload = function () {
-                                    var fileText = this.result;
+                    } else {
+                        wpaicg_message = '<li class="' + class_ai_item + '" style="background-color:' + wpaicg_ai_bg + ';font-size: ' + wpaicg_font_size + 'px;color: ' + wpaicg_font_color + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message wpaicg-chat-message-error" id="wpaicg-chat-message-' + wpaicg_randomnum + '"></span>';
+                        wpaicg_response_text = 'Something went wrong. Please clear your cache and try again.';
+                        clearChatHistory();
+                    }
+                    if (wpaicg_response_text === 'null' || wpaicg_response_text === null) {
+                        wpaicg_response_text = 'The model predicted a completion that begins with a stop sequence, resulting in no output. Consider adjusting your prompt or stop sequences.';
+                    }
+                    updateChatHistory(wpaicg_response_text, 'ai');
+                    if (wpaicg_response_text !== '' && wpaicg_message !== '') {
+                        if(parseInt(wpaicg_speech) == 1){
+                            if(voice_service === 'google'){
+                                wpaicg_ai_thinking.style.display = 'block';
+                                let speechData = new FormData();
+                                speechData.append('nonce', wpaicg_nonce);
+                                speechData.append('action', 'wpaicg_google_speech');
+                                speechData.append('language', voice_language);
+                                speechData.append('name', voice_name);
+                                speechData.append('device', voice_device);
+                                speechData.append('speed', voice_speed);
+                                speechData.append('pitch', voice_pitch);
+                                speechData.append('text', wpaicg_response_text);
+                                var speechRequest = new XMLHttpRequest();
+                                speechRequest.open("POST", wpaicgParams.ajax_url);
+                                speechRequest.onload = function () {
+                                    var result = speechRequest.responseText;
                                     try {
-                                        var errorMessage = JSON.parse(fileText);
-                                        var errorMessageDetail = 'ElevenLabs: ' + errorMessage.detail.message;
-                                        if (parseInt(wpaicg_voice_error) !== 1) {
-                                            wpaicg_message += '<span style="width: 100%;display: block;font-size: 11px;">' + errorMessageDetail + '</span>';
-                                        } else if (typeof wpaicg_response !== 'undefined' && typeof wpaicg_response.log !== 'undefined' && wpaicg_response.log !== '') {
-                                            var speechLogMessage = new FormData();
-                                            speechLogMessage.append('nonce', wpaicg_nonce);
-                                            speechLogMessage.append('log_id', wpaicg_response.log);
-                                            speechLogMessage.append('message', errorMessageDetail);
-                                            speechLogMessage.append('action', 'wpaicg_speech_error_log');
-                                            var speechErrorRequest = new XMLHttpRequest();
-                                            speechErrorRequest.open("POST", wpaicg_ajax_url);
-                                            speechErrorRequest.send(speechLogMessage);
+                                        result = JSON.parse(result);
+                                        if(result.status === 'success'){
+                                            var byteCharacters = atob(result.audio);
+                                            const byteNumbers = new Array(byteCharacters.length);
+                                            for (let i = 0; i < byteCharacters.length; i++) {
+                                                byteNumbers[i] = byteCharacters.charCodeAt(i);
+                                            }
+                                            const byteArray = new Uint8Array(byteNumbers);
+                                            const blob = new Blob([byteArray], {type: 'audio/mp3'});
+                                            const blobUrl = URL.createObjectURL(blob);
+                                            wpaicg_message += '<audio style="margin-top:2px;width: 100%" controls="controls"><source type="audio/mpeg" src="' + blobUrl + '"></audio>';
+                                            wpaicg_message += '</p></li>';
+                                            wpaicg_ai_thinking.style.display = 'none';
+                                            wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
                                         }
-                                        wpaicg_message += '</p></li>';
-                                        wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
-                                    } catch (errorBlob) {
-                                        var blobUrl = URL.createObjectURL(blob);
-                                        wpaicg_message += '<audio style="margin-top:2px;width: 100%" controls="controls"><source type="audio/mpeg" src="' + blobUrl + '"></audio>';
-                                        wpaicg_message += '</p></li>';
-                                        wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                        else{
+                                            var errorMessageDetail = 'Google: ' + result.msg;
+                                            wpaicg_ai_thinking.style.display = 'none';
+                                            if (parseInt(wpaicg_voice_error) !== 1) {
+                                                wpaicg_message += '<span style="width: 100%;display: block;font-size: 11px;">' + errorMessageDetail + '</span>';
+                                            }
+                                            else if (typeof wpaicg_response !== 'undefined' && typeof wpaicg_response.log !== 'undefined' && wpaicg_response.log !== '') {
+                                                var speechLogMessage = new FormData();
+                                                speechLogMessage.append('nonce', wpaicg_nonce);
+                                                speechLogMessage.append('log_id', wpaicg_response.log);
+                                                speechLogMessage.append('message', errorMessageDetail);
+                                                speechLogMessage.append('action', 'wpaicg_speech_error_log');
+                                                var speechErrorRequest = new XMLHttpRequest();
+                                                speechErrorRequest.open("POST", wpaicgParams.ajax_url);
+                                                speechErrorRequest.send(speechLogMessage);
+                                            }
+                                            wpaicg_message += '</p></li>';
+                                            wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                        }
+                                    }
+                                    catch (errorSpeech){
+
                                     }
                                 }
-                                fr.readAsText(blob);
+                                speechRequest.send(speechData);
                             }
-                            speechRequest.send(speechData);
+                            else if (voice_service === 'openai') {
+                                // OpenAI TTS code
+                                let speechData = new FormData();
+                                speechData.append('action', 'wpaicg_openai_speech');
+                                speechData.append('nonce', wpaicg_nonce);
+                                speechData.append('text', wpaicg_response_text);
+                            
+
+                                speechData.append('model', openai_model);
+                                speechData.append('voice', openai_voice);
+                                speechData.append('output_format', openai_output_format);
+                                speechData.append('speed', openai_voice_speed);
+                            
+                                // Display some sort of loading indicator
+                                wpaicg_ai_thinking.style.display = 'block';
+                            
+                                var speechRequest = new XMLHttpRequest();
+                                speechRequest.open("POST", wpaicgParams.ajax_url);
+                                speechRequest.responseType = "arraybuffer"; // Expecting raw audio data
+                            
+                                speechRequest.onload = function () {
+                                    if (speechRequest.status === 200) {
+                                        wpaicg_ai_thinking.style.display = 'none';
+                            
+                                        const audioData = speechRequest.response;
+                                        const blobMimeType = getBlobMimeType(openai_output_format); // Get the MIME type based on the format
+                                        const blob = new Blob([audioData], { type: blobMimeType });
+                                        const blobUrl = URL.createObjectURL(blob);
+                            
+                                        const audio = new Audio(blobUrl);
+                                        audio.play().catch(e => console.error('Playback error:', e));
+                            
+                                        // Update your message UI here
+                                        wpaicg_message += '<audio style="margin-top:2px;width: 100%" controls="controls"><source type="audio/mpeg" src="' + blobUrl + '"></audio>';
+                                        wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                    } else {
+                                        // Handle HTTP errors
+                                        wpaicg_ai_thinking.style.display = 'none';
+                                        console.error('Error generating speech with OpenAI:', speechRequest.statusText);
+                                        // Update your message UI to show the error
+                                        wpaicg_message += '<span style="width: 100%;display: block;font-size: 11px;">Error generating speech with OpenAI</span>';
+                                        wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                    }
+                                };
+                            
+                                speechRequest.onerror = function () {
+                                    // Handle network errors
+                                    wpaicg_ai_thinking.style.display = 'none';
+                                    console.error('Network error during speech generation with OpenAI');
+                                    // Update your message UI to show the network error
+                                    wpaicg_message += '<span style="width: 100%;display: block;font-size: 11px;">Network error during speech generation</span>';
+                                    wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                };
+                            
+                                speechRequest.send(speechData);
+                                // Utility function to get the correct MIME type
+                                function getBlobMimeType(format) {
+                                    switch (format) {
+                                        case 'opus':
+                                            return 'audio/opus';
+                                        case 'aac':
+                                            return 'audio/aac';
+                                        case 'flac':
+                                            return 'audio/flac';
+                                        default:
+                                            return 'audio/mpeg'; // Default to MP3
+                                    }
+                                }
+                            }
+                            
+                            else {
+                                let speechData = new FormData();
+                                speechData.append('nonce', wpaicg_nonce);
+                                speechData.append('message', wpaicg_response_text);
+                                speechData.append('voice', wpaicg_voice);
+                                speechData.append('elevenlabs_model', elevenlabs_model);
+                                speechData.append('action', 'wpaicg_text_to_speech');
+                                wpaicg_ai_thinking.style.display = 'block';
+                                var speechRequest = new XMLHttpRequest();
+                                speechRequest.open("POST", wpaicgParams.ajax_url);
+                                speechRequest.responseType = "arraybuffer";
+                                speechRequest.onload = function () {
+                                    wpaicg_ai_thinking.style.display = 'none';
+                                    var blob = new Blob([speechRequest.response], {type: "audio/mpeg"});
+                                    var fr = new FileReader();
+                                    fr.onload = function () {
+                                        var fileText = this.result;
+                                        try {
+                                            var errorMessage = JSON.parse(fileText);
+                                            var errorMessageDetail = 'ElevenLabs: ' + errorMessage.detail.message;
+                                            if (parseInt(wpaicg_voice_error) !== 1) {
+                                                wpaicg_message += '<span style="width: 100%;display: block;font-size: 11px;">' + errorMessageDetail + '</span>';
+                                            } else if (typeof wpaicg_response !== 'undefined' && typeof wpaicg_response.log !== 'undefined' && wpaicg_response.log !== '') {
+                                                var speechLogMessage = new FormData();
+                                                speechLogMessage.append('nonce', wpaicg_nonce);
+                                                speechLogMessage.append('log_id', wpaicg_response.log);
+                                                speechLogMessage.append('message', errorMessageDetail);
+                                                speechLogMessage.append('action', 'wpaicg_speech_error_log');
+                                                var speechErrorRequest = new XMLHttpRequest();
+                                                speechErrorRequest.open("POST", wpaicgParams.ajax_url);
+                                                speechErrorRequest.send(speechLogMessage);
+                                            }
+                                            wpaicg_message += '</p></li>';
+                                            wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                        } catch (errorBlob) {
+                                            var blobUrl = URL.createObjectURL(blob);
+                                            wpaicg_message += '<audio style="margin-top:2px;width: 100%" controls="controls"><source type="audio/mpeg" src="' + blobUrl + '"></audio>';
+                                            wpaicg_message += '</p></li>';
+                                            wpaicgWriteMessage(wpaicg_messages_box, wpaicg_message, wpaicg_randomnum, wpaicg_response_text);
+                                        }
+                                    }
+                                    fr.readAsText(blob);
+                                }
+                                speechRequest.send(speechData);
+                            }
                         }
-                    }
-                    else{
-                        wpaicg_message += '</p></li>';
-                        wpaicgWriteMessage(wpaicg_messages_box,wpaicg_message,wpaicg_randomnum,wpaicg_response_text);
+                        else{
+                            wpaicg_message += '</p></li>';
+                            wpaicgWriteMessage(wpaicg_messages_box,wpaicg_message,wpaicg_randomnum,wpaicg_response_text);
+                        }
                     }
                 }
             }
         }
     }
+    function handleStreaming(wpaicgData, wpaicg_messages_box, wpaicg_box_typing, wpaicg_ai_thinking, class_ai_item, chat, chatbot_identity, clientID, wpaicg_use_avatar, wpaicg_ai_avatar) {
+        let wpaicg_ai_name = wpaicg_use_avatar ? '<img src="' + wpaicg_ai_avatar + '" height="40" width="40">' : chat.getAttribute('data-ai-name') + ':';
+        let wpaicg_font_size = chat.getAttribute('data-fontsize');
+        let wpaicg_ai_bg = chat.getAttribute('data-ai-bg-color');
+        let wpaicg_font_color = chat.getAttribute('data-color');
+        
+        wpaicg_box_typing.value = '';
+
+        const queryString = new URLSearchParams(wpaicgData).toString();
+        const urlWithParams = wpaicgParams.ajax_url + '?' + queryString;
+        const eventSource = new EventSource(urlWithParams);
+
+        let wpaicg_randomnum = Math.floor((Math.random() * 100000) + 1);
+        let chatids = 'wpaicg-chat-message-' + wpaicg_randomnum;
+
+        let wpaicg_message = 
+        '<li class="'
+        + class_ai_item 
+        + '" style="background-color:' 
+        + wpaicg_ai_bg
+        + ';font-size: ' 
+        + wpaicg_font_size 
+        + 'px;color: ' 
+        + wpaicg_font_color 
+        + '"><p style="width:100%"><strong class="wpaicg-chat-avatar">' 
+        + wpaicg_ai_name + '</strong><span class="wpaicg-chat-message" id="' 
+        + chatids 
+        + '"></span></p></li>';
+
+        // Function to update chat history in local storage for a specific bot identity
+        function updateChatHistory(message, sender) {
+            let chatHistoryKey = 'wpaicg_chat_history_' + chatbot_identity + '_' + clientID;
+            let chatHistory = localStorage.getItem(chatHistoryKey);
+            chatHistory = chatHistory ? JSON.parse(chatHistory) : [];
+        
+            let formattedMessage = (sender === 'user' ? "Human: " : "AI: ") + message.replace(/\n/g, ' ').trim();
+            chatHistory.push(formattedMessage);
+        
+            localStorage.setItem(chatHistoryKey, JSON.stringify(chatHistory));
+
+        }
+
+        // Queue to store incoming data chunks
+        let dataQueue = [];
+
+        // Processing flag to prevent overlapping
+        let isProcessing = false;
+
+        // Typewriter effect function
+        function typeWriter(text, i, elementId, callback) {
+            toggleBlinkingCursor(false); // Remove cursor while typing
+            if (i < text.length) {
+                var charToAdd = text.charAt(i);
+                if (charToAdd === '<') {
+                    // If the character is '<', include the entire '<br>' tag
+                    var tag = text.slice(i, i+4);
+                    if (tag === '<br>') {
+                        jQuery('#' + elementId).append(tag);
+                        i += 4; // Skip past the '<br>' tag
+                    } else {
+                        jQuery('#' + elementId).append(charToAdd);
+                        i++;
+                    }
+                } else {
+                    jQuery('#' + elementId).append(charToAdd);
+                    i++;
+                }
+                setTimeout(function() {
+                    typeWriter(text, i, elementId, callback);
+                }, 1); // Typing speed in milliseconds
+            } else if (callback) {
+                callback();
+                scrollToBottom(); // Scroll to bottom after each completed chunk
+            }
+        }
+
+        // Function to scroll to the bottom of the chat box
+        function scrollToBottom() {
+            wpaicg_messages_box.scrollTop = wpaicg_messages_box.scrollHeight;
+        }
+
+        // Initialize a variable to store the complete AI response
+        let completeAIResponse = '';
+
+        // Process the next item in the queue
+        function processQueue() {
+            if (dataQueue.length > 0 && !isProcessing) {
+                isProcessing = true;
+                let nextChunk = dataQueue.shift();
+                typeWriter(nextChunk, 0, chatids, function() {
+                    isProcessing = false;
+                    processQueue();
+                });
+            } else {
+                // No more data to process, remove the cursor
+                toggleBlinkingCursor(false);
+            }
+        }
+        eventSource.onopen = function(e) {
+            toggleBlinkingCursor(true);
+            wpaicg_messages_box.innerHTML += wpaicg_message;
+        };
+        eventSource.onmessage = function(e) {
+            wpaicg_ai_thinking.style.display = 'none';
+            
+            var resultData = JSON.parse(e.data);
+            
+            // Check for token limit message
+            if (resultData.tokenLimitReached) {
+                // Create the message element for token limit
+                var tokenLimitMessage = '<span class="wpaicg-chat-message">' + resultData.msg + '</span>';
+
+                // Append the token limit message to the messages box
+                document.getElementById(chatids).innerHTML = tokenLimitMessage;
+
+                wpaicg_ai_thinking.style.display = 'none';
+                eventSource.close();
+                toggleBlinkingCursor(false);
+                return;
+            }
+
+            // Check for banned message
+            if (resultData.messageFlagged) {
+                // Create the message element for token limit
+                var tokenLimitMessage = '<span class="wpaicg-chat-message">' + resultData.msg + '</span>';
+
+                // Append the token limit message to the messages box
+                document.getElementById(chatids).innerHTML = tokenLimitMessage;
+
+                wpaicg_ai_thinking.style.display = 'none';
+                eventSource.close();
+                toggleBlinkingCursor(false);
+                return;
+            }
+
+            // Check for ip limit message
+            if (resultData.ipBanned) {
+                // Create the message element for token limit
+                var tokenLimitMessage = '<span class="wpaicg-chat-message">' + resultData.msg + '</span>';
+
+                // Append the token limit message to the messages box
+                document.getElementById(chatids).innerHTML = tokenLimitMessage;
+
+                wpaicg_ai_thinking.style.display = 'none';
+                eventSource.close();
+                toggleBlinkingCursor(false);
+                return;
+            }
+
+            // Check for ip limit message
+            if (resultData.modflag) {
+                // Create the message element for token limit
+                var tokenLimitMessage = '<span class="wpaicg-chat-message">' + resultData.msg + '</span>';
+
+                // Append the token limit message to the messages box
+                document.getElementById(chatids).innerHTML = tokenLimitMessage;
+
+                wpaicg_ai_thinking.style.display = 'none';
+                eventSource.close();
+                toggleBlinkingCursor(false);
+                return;
+            }
+
+            var hasFinishReason = resultData.choices && 
+            resultData.choices[0] && 
+            (resultData.choices[0].finish_reason === "stop" || 
+            resultData.choices[0].finish_reason === "length")||
+            (resultData.choices[0].finish_details && 
+            resultData.choices[0].finish_details.type === "stop");
+
+            if (hasFinishReason || e.data === "[DONE]") {
+                eventSource.close();
+                toggleBlinkingCursor(false); // Ensure cursor is removed when done
+                updateChatHistory(completeAIResponse, 'ai');
+            } else {
+                var result = resultData;
+                if (result.error !== undefined) {
+                    dataQueue.push(result.error.message);
+                } else {
+                    var content_generated = result.choices[0].delta !== undefined ? (result.choices[0].delta.content !== undefined ? result.choices[0].delta.content : '') : result.choices[0].text;
+                    content_generated = formatContent(content_generated);
+                    dataQueue.push(content_generated);
+                    completeAIResponse += content_generated;
+                }
+                processQueue();
+                // Scroll to bottom when new data arrives
+                scrollToBottom();
+            }
+        };
+
+        eventSource.onerror = function(error) {
+            clearChatHistory();
+            console.log("EventSource failed: ", error);
+            toggleBlinkingCursor(false);
+        };
+
+        // Function to format content, replacing newlines appropriately
+        function formatContent(text) {
+            return text.replace(/(?:\r\n|\r|\n)/g, '<br>');
+        }
+
+        function toggleBlinkingCursor(isVisible) {
+            const cursorElement = jQuery('#' + chatids + ' .blinking-cursor');
+            if (isVisible) {
+                if (cursorElement.length === 0) {
+                    jQuery('#' + chatids).append('<span class="blinking-cursor">|</span>');
+                }
+            } else {
+                cursorElement.remove();
+            }
+        }
+    }
+
+
     function wpaicgWriteMessage(wpaicg_messages_box,wpaicg_message,wpaicg_randomnum,wpaicg_response_text){
         wpaicg_messages_box.innerHTML += wpaicg_message;
         var wpaicg_current_message = document.getElementById('wpaicg-chat-message-' + wpaicg_randomnum);
@@ -612,8 +1062,6 @@ function wpaicgChatInit() {
         if(audio && audio.length){
             audio[0].play();
         }
-        var i = 0;
-        var wpaicg_speed = 20;
 
         function wpaicgLinkify(inputText) {
             var replacedText, replacePattern1, replacePattern2, replacePattern3;
@@ -636,6 +1084,10 @@ function wpaicgChatInit() {
             wpaicg_response_text = wpaicg_response_text.trim();
         }
         wpaicg_response_text = wpaicg_response_text.replace(/\n/g, '≈');
+
+        var i = 0;
+        var wpaicg_speed = 1;
+        
         function wpaicg_typeWriter() {
             if (i < wpaicg_response_text.length) {
                 if (wpaicg_response_text.charAt(i) === '≈') {
