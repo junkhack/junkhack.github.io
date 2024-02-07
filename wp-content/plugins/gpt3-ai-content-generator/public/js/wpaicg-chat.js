@@ -975,6 +975,20 @@ function wpaicgChatInit() {
                 return;
             }
 
+            // Check for banned message
+            if (resultData.pineconeError) {
+                // Create the message element for token limit
+                var pineconeMessage = '<span class="wpaicg-chat-message">' + resultData.msg + '</span>';
+
+                // Append the token limit message to the messages box
+                document.getElementById(chatids).innerHTML = pineconeMessage;
+
+                wpaicg_ai_thinking.style.display = 'none';
+                eventSource.close();
+                toggleBlinkingCursor(false);
+                return;
+            }
+
             // Check for ip limit message
             if (resultData.ipBanned) {
                 // Create the message element for token limit

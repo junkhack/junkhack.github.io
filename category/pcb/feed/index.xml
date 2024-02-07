@@ -377,7 +377,7 @@ uio                     8119  1 uio_pdrv_genirq</pre>
 <p>&#160;</p>
 <p>まだあまりちゃんと理解していませんが、内部のレジスタの ox05 に、キャリブレーションする設定値を入れるようです。</p>
 <p>以下の C のサンプルコードから、シャント抵抗に0.025R を使っている場合は、以下のように計算した16進数を入れればよいようです。書き込むとき、以下のコードでは、リトルエンディアンに変換していました。</p>
-<p><a title="https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp" href="https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp" href="https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>0.025Ω = 0.00512/(0.025*0.0001)=2048 = 0x08 0x00</p>
 <p>&#160;</p>
 <p>0x05 の補正レジスタを見てみると、</p>

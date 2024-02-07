@@ -6,7 +6,7 @@
 	<title>JunkHack YahooNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Mon, 05 Feb 2024 00:13:29 +0900</lastBuildDate>
+	<lastBuildDate>Tue, 06 Feb 2024 09:52:06 +0900</lastBuildDate>
 	<language>ja</language>
 	<snf:logo><url>/wp-content/uploads/2021/04/jhicon.png</url></snf:logo>
 	<sy:updatePeriod>
@@ -17,7 +17,7 @@
 		<item>
 		<title>Surface ProのHackintoshが欲しい！</title>
 		<link>/2024/02/02/hackintosh-of-surface-pro/</link>
-		<pubDate>Sun, 04 Feb 2024 15:13:29 +0900</pubDate>
+		<pubDate>Mon, 05 Feb 2024 16:07:13 +0900</pubDate>
 		<author>JunkHack</author>
 		<category>neta</category>
 		<guid>/?p=11630</guid>
@@ -65,7 +65,7 @@
 
 
 
-<a href="/2024/02/02/hackintosh-of-surface-pro/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FYz_pWoYMn1w%2Fmaxresdefault.jpg" alt="YouTube Video"></a><br /><br />
+<a href="/2024/02/02/hackintosh-of-surface-pro/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FYz_pWoYMn1w%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br />
 </div>
 </div>
 
@@ -491,7 +491,7 @@
 
 
 
-<li>WEB版のCanva（実際に書いたもの：<a href="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" data-type="link" data-id="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+<li>WEB版のCanva（実際に書いたもの：<a href="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" type="link" id="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
 
 
 
@@ -525,6 +525,10 @@
 
 
 <figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="970" height="366" src="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif" alt="" class="wp-image-11693" srcset="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif 970w, /wp-content/uploads/2024/02/2024-02-04-23.58.53-768x290.gif 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
+
+
+
+<p></p>
 
 
 

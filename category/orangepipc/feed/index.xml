@@ -249,7 +249,7 @@ round-trip min/avg/max/stddev = 112.811/152.344/201.884/28.245 ms</pre>
 <h3>Linux ボードの準備と、その OS の選定</h3>
 <p>&#160;</p>
 <p>まず、母艦の準備です。Orange PI PC を用意しました。</p>
-<p><a title="http://www.orangepi.org/orangepipc/" href="http://www.orangepi.org/orangepipc/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://www.orangepi.org/orangepipc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="http://www.orangepi.org/orangepipc/" href="http://www.orangepi.org/orangepipc/" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">http://www.orangepi.org/orangepipc/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>オフィシャルサイトから、メーカー直販の aliexpress の販売サイトにいけます。メモリ512M でも要求は満たしますので、one とか lite でもよいかと思います。</p>
 <p><img loading="lazy" decoding="async" title="orangepipc" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="orangepipc" src="/wp-content/uploads/2016/05/orangepipc.png" width="530" height="339" /> </p>
 <p>OS は、ARMBIAN というものを今回は採用。Debian 系の OS となります。</p>

@@ -71,7 +71,7 @@
 <p>※フランスのHodinさんが公開しています。リスクは自己責任で。</p></blockquote>
 <p>ちなみに、YEPO737A の BIOS は Jumper EZBOOK Pro ので動作したと<a href="https://techtablets.com/forum/topic/yepo-737a-running-jumper-ezbook-3-pro-v4-bios/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>に報告がありました。上記のリンクにもBIOS入っていますがまだ試していません。これは、BIOS 設定の OS を Intel Linux にすると BIOS すら起動しなくなるらしいですが、これも回避できるかは不明です。もしかすると、M2 関連の不具合も直る可能性があるかもしれませんね。一度試してみたいのですが、リスクがありますのでまだ実行していません。YEPO のオフィシャルサイトは以下ですが、サポートがありません。</p>
 <blockquote><p>YEPO 737A<br />
-<a href="http://www.szyepo.com/pd.jsp?id=351" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.szyepo.com/pd.jsp?id=351<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<a href="http://www.szyepo.com/pd.jsp?id=351" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.szyepo.com/pd.jsp?id=351<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>※ Review 欄に、bios やドライバー公開せよと書かれていますが対応するのかな？</p></blockquote>
 <h3>■Windows10 の ISO を USBブートさせる</h3>
 <p>マイクロソフトのサイトからダウンロードした ISO を USB ブートさせるため、<a href="https://forest.watch.impress.co.jp/library/software/rufus/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Rufus<span class="wpel-icon wpel-image wpel-icon-1"></span></a> を使って作成します。</p>

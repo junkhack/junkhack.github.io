@@ -81,7 +81,7 @@ https://bootmacos.com/entry/2017/09/10/175816</p></blockquote>
 <p>結局、型番と流通の両観点からお得でかつ、容易（ドライバやパッチしなくても）なものを探すのに１、２日かかりましたが、以下サイトから</p>
 <blockquote><p>INVENTORY OF SUPPORTED/UNSUPPORTED WIRELESS CARDS #1<br />
 https://osxlatitude.com/forums/topic/2120-inventory-of-supportedunsupported-wireless-cards-1-snow-leopard-el-capitan/</p></blockquote>
-<p>DW1820A という型番、チップはBCM94350ZAE（技適：<a href="https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=007&amp;TC=N&amp;PK=1&amp;FN=402ul&amp;SN=%94F%8F%D8&amp;LN=17&amp;R1=*****&amp;R2=*****" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">007－ＡＤ0109<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）が良さそうだということになりました。たぶん、OOB（Out of the Boxの略でパッチいらずで箱から出してすぐ使えるもの）と記載がありました。これの詳細は以下にあります。</p>
+<p>DW1820A という型番、チップはBCM94350ZAE（技適：<a href="https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=007&amp;TC=N&amp;PK=1&amp;FN=402ul&amp;SN=%94F%8F%D8&amp;LN=17&amp;R1=*****&amp;R2=*****" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">007－ＡＤ0109<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）が良さそうだということになりました。たぶん、OOB（Out of the Boxの略でパッチいらずで箱から出してすぐ使えるもの）と記載がありました。これの詳細は以下にあります。</p>
 <blockquote><p>BROADCOM BCM4350 CARDS UNDER HIGH SIERRA/MOJAVE/CATALINA<br />
 https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojavecatalina/</p></blockquote>
 <p>対処法の要約は以下です。</p>

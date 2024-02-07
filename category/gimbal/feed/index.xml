@@ -73,10 +73,10 @@
 <p>対角V-Slot とも繋がるのですが、このカメラを円状に回して 120fps で物体を周辺から回して撮るとかっこいいんじゃないかと考えています。レビューするときに、モノをそうやって撮ると新鮮だと思うのでぜひ実現してみたいなと。そのときに3軸のジンバルもあるとなお良いと思うわけです。円状に回すときのフレームはまだ考えていませんが、自転車のリムとか使えないかなぁと。</p>
 <p>&#160;</p>
 <p>ジンバルは、この１～２年で日本でもメジャーになってきています。たとえば、サンコーレアモノショップで扱っている以下の商品などです。</p>
-<p>&#160;<a href="http://www.thanko.jp/shopdetail/000000002554/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="3xstbl2r-joystick-top" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3xstbl2r-joystick-top" src="/wp-content/uploads/2017/01/3xstbl2rjoysticktop.jpg" width="425" height="480" /></a> こういうタイプのものや、</p>
-<p><a href="http://www.thanko.jp/product/7101.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="3axsta8h-p03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3axsta8h-p03" src="/wp-content/uploads/2017/01/3axsta8hp03.jpg" width="426" height="530" /></a> こういう感じのものです。軽いアクションカメラはスマホは乗ります。</p>
+<p>&#160;<a href="http://www.thanko.jp/shopdetail/000000002554/" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" title="3xstbl2r-joystick-top" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3xstbl2r-joystick-top" src="/wp-content/uploads/2017/01/3xstbl2rjoysticktop.jpg" width="425" height="480" /></a> こういうタイプのものや、</p>
+<p><a href="http://www.thanko.jp/product/7101.html" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" title="3axsta8h-p03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3axsta8h-p03" src="/wp-content/uploads/2017/01/3axsta8hp03.jpg" width="426" height="530" /></a> こういう感じのものです。軽いアクションカメラはスマホは乗ります。</p>
 <p>3万か、２．５万くらいでそれぞれ購入できますが、もう少し重いカメラを載せようと思うと、一気に高くなります。</p>
-<p><a href="http://www.thanko.jp/shopdetail/000000002495/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="dmth002-top" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="dmth002-top" src="/wp-content/uploads/2017/01/dmth002top.jpg" width="430" height="531" /></a>約10万。うーん、買えないです。</p>
+<p><a href="http://www.thanko.jp/shopdetail/000000002495/" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" title="dmth002-top" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="dmth002-top" src="/wp-content/uploads/2017/01/dmth002top.jpg" width="430" height="531" /></a>約10万。うーん、買えないです。</p>
 <p>&#160;</p>
 <p>まぁ、しかし、このサイズもアリエクでなら、5万未満で買えます。</p>
 <p><a href="https://www.aliexpress.com/item/Zhuiyun-H2-Handheld-3-Axis-Stabilizer-Brushless-Gimbal-for-A7S-GH4-Micro-DSLR-Camera-BMPCC/32752826212.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="H2-Handheld-3-Axis-Stabilizer-Brushless-Gimbal-for-A7S-GH4-Micro-DSLR-Camera-BMPCC" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="H2-Handheld-3-Axis-Stabilizer-Brushless-Gimbal-for-A7S-GH4-Micro-DSLR-Camera-BMPCC" src="/wp-content/uploads/2017/01/h2handheld3axisstabilizerbrushlessgimbalfora7sgh4microdslrcamerabmpcc.jpg" width="480" height="480" /></a> まぁ、でもまだ買えません。（まぁ、買うつもりは毛頭ないのですが）モノは、モーターが３つとバッテリーと制御ボードと筐体で構成されているだけですから、もっと部品代は安いはず。</p>
@@ -107,7 +107,7 @@
 <p>Alexmos のSimpleBGC のソフトウェアマニュアルは和訳したものが以下にありましたので参考にさせていただきました。</p>
 <blockquote>
 <p>桃日記</p>
-<p><a href="http://pinklion.jp/archives/2579160.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">SimpleBGC 32bit Manual MEMO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://pinklion.jp/archives/2579160.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">SimpleBGC 32bit Manual MEMO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>本家のは以下です。</p>
 <blockquote>

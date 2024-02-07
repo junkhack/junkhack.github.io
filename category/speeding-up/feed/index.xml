@@ -980,7 +980,7 @@ location = /.well-known/acme-challenge/ {
 		<guid isPermaLink="false">/?p=5943</guid>
 							<description><![CDATA[NGINXとphp-fpm構成にしてみました。いつもの計測サイトです。 夜間のネットワークが一番空いている時なんで、速い感じでしょうか？ GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>NGINXとphp-fpm構成にしてみました。いつもの<a href="https://www.webpagetest.org/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">計測サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
+<p>NGINXとphp-fpm構成にしてみました。いつもの<a href="https://www.webpagetest.org/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">計測サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
 
 
 

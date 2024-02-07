@@ -117,7 +117,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 
 
 
@@ -493,7 +493,7 @@ http:&#47;&#47;www.arduino.cc/en/Guide/Troubleshooting#upload</code></pre>
 
 
 
-<blockquote class="wp-block-quote"><p>Arduino / micro:bit / M5Stick勉強会の電録簿<br>ボード・アップデートで書き込みエラー</p><cite><a href="http://www.umek.topaz.ne.jp/mameduino/boardupdate_error/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">http://www.umek.topaz.ne.jp/mameduino/boardupdate_error/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Arduino / micro:bit / M5Stick勉強会の電録簿<br>ボード・アップデートで書き込みエラー</p><cite><a href="http://www.umek.topaz.ne.jp/mameduino/boardupdate_error/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">http://www.umek.topaz.ne.jp/mameduino/boardupdate_error/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
@@ -976,7 +976,7 @@ avrdude done.  Thank you.</code></pre>
 
 
 
-<blockquote class="wp-block-quote"><p>Wiki  Seeeduino Xiaoをはじめよう</p><cite><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>Wiki  Seeeduino Xiaoをはじめよう</p><cite><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
@@ -1199,7 +1199,7 @@ void rest() {
 <p>まず、オフィシャルのSeeedのブログでいくつか紹介されています。その中から独断と偏見で面白そうなプロジェクトをピックアップ。</p>
 
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/arudio-seeeduino-xiao/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fmaxresdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/arudio-seeeduino-xiao/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
 
 
 <p>MIDIをコントロールできるので、オリジナルコントローラとかセンサー駆動の楽器とか？</p>
@@ -1250,7 +1250,7 @@ void rest() {
 
 
 
-<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 
 
 
@@ -1258,7 +1258,7 @@ void rest() {
 
 
 
-<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="https://botalab.tech/tamiya_camrobo_face_xiao/" target="_blank" data-wpel-link="external" class="wpel-icon-right">カムロボの顔用基板を作ってみた [Xiao版]<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="https://botalab.tech/tamiya_camrobo_face_xiao/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">カムロボの顔用基板を作ってみた [Xiao版]<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 
 
 

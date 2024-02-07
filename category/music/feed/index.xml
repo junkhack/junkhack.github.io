@@ -75,7 +75,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p>TIDALとは何ですか？</p><cite><a href="https://tidal.com/whatistidal" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://tidal.com/whatistidal<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>TIDALとは何ですか？</p><cite><a href="https://tidal.com/whatistidal" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://tidal.com/whatistidal<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
@@ -490,7 +490,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>　で、今回購入したDACは、<a rel="noreferrer noopener external" href="https://tidal.com/" target="_blank" data-wpel-link="external" class="wpel-icon-right">Tidal<span class="wpel-icon wpel-image wpel-icon-1"></span></a>でMQAを<a href="https://www.hires-music.jp/products-top/meridian-218/%EF%BD%8D%EF%BD%91%EF%BD%81%E3%83%95%E3%83%AB%E3%83%87%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC%E3%81%A8%E3%81%AF/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">フルレンダリング<span class="wpel-icon wpel-image wpel-icon-1"></span></a>できるものです。TidalっていうFlacやそれ以上の高音質を配信している聴き放題サービスを使っていて、その中に<a href="https://mqa.jp/article/mqa-renderer-dac/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">MQA<span class="wpel-icon wpel-image wpel-icon-1"></span></a>っていうものがあるんですよね。面白いテクノロジーで、こういうのは実際体験してみないと！　なんですよね。</p>
+<p>　で、今回購入したDACは、<a rel="noreferrer noopener external" href="https://tidal.com/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">Tidal<span class="wpel-icon wpel-image wpel-icon-1"></span></a>でMQAを<a href="https://www.hires-music.jp/products-top/meridian-218/%EF%BD%8D%EF%BD%91%EF%BD%81%E3%83%95%E3%83%AB%E3%83%87%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC%E3%81%A8%E3%81%AF/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">フルレンダリング<span class="wpel-icon wpel-image wpel-icon-1"></span></a>できるものです。TidalっていうFlacやそれ以上の高音質を配信している聴き放題サービスを使っていて、その中に<a href="https://mqa.jp/article/mqa-renderer-dac/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">MQA<span class="wpel-icon wpel-image wpel-icon-1"></span></a>っていうものがあるんですよね。面白いテクノロジーで、こういうのは実際体験してみないと！　なんですよね。</p>
 
 
 
@@ -498,7 +498,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>HiFiGo : Hiby FC3 Portable MQA USB DAC Headphone Amplifier<br>：：<br><a rel="noreferrer noopener external" href="http://www.esstech.com/index.php/en/news/newsroom/ess-introduces-suite-usb-codecs-featuring-audiophile-sabre-dacs/" target="_blank" data-wpel-link="external" class="wpel-icon-right">ES9281Pro<span class="wpel-icon wpel-image wpel-icon-1"></span></a> DAC chip<br>32-Bit/384kHz PCM<br>DSD DoP128<br>124 dB DNR<br>4x MQA decoding<br>：：</p><cite><a href="https://hifigo.com/products/hiby-fc3" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://hifigo.com/products/hiby-fc3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>HiFiGo : Hiby FC3 Portable MQA USB DAC Headphone Amplifier<br>：：<br><a rel="noreferrer noopener external" href="http://www.esstech.com/index.php/en/news/newsroom/ess-introduces-suite-usb-codecs-featuring-audiophile-sabre-dacs/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">ES9281Pro<span class="wpel-icon wpel-image wpel-icon-1"></span></a> DAC chip<br>32-Bit/384kHz PCM<br>DSD DoP128<br>124 dB DNR<br>4x MQA decoding<br>：：</p><cite><a href="https://hifigo.com/products/hiby-fc3" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://hifigo.com/products/hiby-fc3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
@@ -514,7 +514,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p><a rel="noreferrer noopener external" href="https://mqa.jp/article/mqa-renderer-dac/" target="_blank" data-wpel-link="external" class="wpel-icon-right">MQA<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は何っていうのを説明すると長くなるので、ちょっと横においておきます。今回は、MQAはさておきDACとして評価してみることにします。比較の対象は、今使っているマザーボードについているDACチップです。スペックは以下です。</p>
+<p><a rel="noreferrer noopener external" href="https://mqa.jp/article/mqa-renderer-dac/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">MQA<span class="wpel-icon wpel-image wpel-icon-1"></span></a>は何っていうのを説明すると長くなるので、ちょっと横においておきます。今回は、MQAはさておきDACとして評価してみることにします。比較の対象は、今使っているマザーボードについているDACチップです。スペックは以下です。</p>
 
 
 
@@ -526,7 +526,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>音源：Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" data-wpel-link="external" class="wpel-icon-right">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>　　　Tidal で配信のFlac 24bit/44.1khz<br>アンプ：中華デジタルアンプ（Dクラス）TPA3116D2<br>スピーカー：<a rel="noreferrer noopener" href="/2021/01/22/electro-voicesx/" target="_blank" data-wpel-link="internal">エレクトロボイス　Sx100+</a><br>PC：macos（<a href="https://audirvana.com/ja/product/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> Mac Version 3.5.43）</p></blockquote>
+<blockquote class="wp-block-quote"><p>音源：Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>　　　Tidal で配信のFlac 24bit/44.1khz<br>アンプ：中華デジタルアンプ（Dクラス）TPA3116D2<br>スピーカー：<a rel="noreferrer noopener" href="/2021/01/22/electro-voicesx/" target="_blank" data-wpel-link="internal">エレクトロボイス　Sx100+</a><br>PC：macos（<a href="https://audirvana.com/ja/product/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a> Mac Version 3.5.43）</p></blockquote>
 
 
 
@@ -534,7 +534,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>Realtek <a rel="noreferrer noopener external" href="https://www.realtek.com/ja/products/computer-peripheral-ics/item/alc892" target="_blank" data-wpel-link="external" class="wpel-icon-right">ALC892<span class="wpel-icon wpel-image wpel-icon-1"></span></a>（マザーボード上）<br>Hiby FC3 <a rel="noreferrer noopener external" href="http://www.esstech.com/index.php/en/news/newsroom/ess-introduces-suite-usb-codecs-featuring-audiophile-sabre-dacs/" target="_blank" data-wpel-link="external" class="wpel-icon-right">ES9281Pro<span class="wpel-icon wpel-image wpel-icon-1"></span></a> （外付けUSB DAC）</p></blockquote>
+<blockquote class="wp-block-quote"><p>Realtek <a rel="noreferrer noopener external" href="https://www.realtek.com/ja/products/computer-peripheral-ics/item/alc892" target="_blank" data-wpel-link="external" class="wpel-icon-right">ALC892<span class="wpel-icon wpel-image wpel-icon-1"></span></a>（マザーボード上）<br>Hiby FC3 <a rel="noreferrer noopener external" href="http://www.esstech.com/index.php/en/news/newsroom/ess-introduces-suite-usb-codecs-featuring-audiophile-sabre-dacs/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">ES9281Pro<span class="wpel-icon wpel-image wpel-icon-1"></span></a> （外付けUSB DAC）</p></blockquote>
 
 
 
@@ -542,7 +542,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>まず、Tidalのプレイリストの33曲目が一番わかりやすいです。耳が良い人はもっと違う部分でもはっきりわかるんでしょうが、言葉で説明しやすいのは３３曲目の　Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" data-wpel-link="external" class="wpel-icon-right">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。</p>
+<p>まず、Tidalのプレイリストの33曲目が一番わかりやすいです。耳が良い人はもっと違う部分でもはっきりわかるんでしょうが、言葉で説明しやすいのは３３曲目の　Julia Michaels / <a rel="noreferrer noopener external" href="https://tidal.com/browse/track/102647268" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">Anxiety<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　です。</p>
 
 
 
@@ -594,7 +594,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<p>・マザボのDACと外付けDACの違いは明確にわかった！<br>・しかし、音の変化の違いはスピーカーの方が大きいのは確か<br>・このDACにしたおかげでSptifyとTidalの音の違いにも気がつけた！<br>・この違いはDACを変えないとわからなかった<br>・この差に価値があるかどうかは個人の価値観<br>・僕はこの差はかなり大きいと思うし、価値があると思う<br>・すべての曲で違いがわかるか？　と言われればわからない事のほうが多い<br>・しかし好きな曲でゾクっとなる感覚があるか・ないかは大きな違い<br>・7000円ちょいで購入できるHiby FC3は、Tidalを契約しているなど、Flacクオリティー以上を再生する人にはアリかな<br>・HiFiGo（深圳）から日本までポチってから8日間で届いた（香港経由で空輸）<br>・今回、MQAについては未評価。以下、MQA再生する上での注意点です<br>・AndroidでTidalからMQA再生する場合は、UAPP+MQAアドオンが必要<br>　※オフィシャルのTidalアプリではMQA再生できません（MQAだと紫にLEDが光ります）<br>・MacでMQA再生するには、<a rel="noreferrer noopener external" href="https://audirvana.com/ja/product/" target="_blank" data-wpel-link="external" class="wpel-icon-right">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a>が必要です。オフィシャルアプリではできませんでした。</p>
+<p>・マザボのDACと外付けDACの違いは明確にわかった！<br>・しかし、音の変化の違いはスピーカーの方が大きいのは確か<br>・このDACにしたおかげでSptifyとTidalの音の違いにも気がつけた！<br>・この違いはDACを変えないとわからなかった<br>・この差に価値があるかどうかは個人の価値観<br>・僕はこの差はかなり大きいと思うし、価値があると思う<br>・すべての曲で違いがわかるか？　と言われればわからない事のほうが多い<br>・しかし好きな曲でゾクっとなる感覚があるか・ないかは大きな違い<br>・7000円ちょいで購入できるHiby FC3は、Tidalを契約しているなど、Flacクオリティー以上を再生する人にはアリかな<br>・HiFiGo（深圳）から日本までポチってから8日間で届いた（香港経由で空輸）<br>・今回、MQAについては未評価。以下、MQA再生する上での注意点です<br>・AndroidでTidalからMQA再生する場合は、UAPP+MQAアドオンが必要<br>　※オフィシャルのTidalアプリではMQA再生できません（MQAだと紫にLEDが光ります）<br>・MacでMQA再生するには、<a rel="noreferrer noopener external" href="https://audirvana.com/ja/product/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">Audirvana<span class="wpel-icon wpel-image wpel-icon-1"></span></a>が必要です。オフィシャルアプリではできませんでした。</p>
 
 
 
@@ -682,7 +682,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>AWA　FAQ　音質<br>Normal (96kbps)、High (128kbps)、Excellent (320kbps)</p><cite><a href="https://guide.awa.fm/hc/ja/articles/115003740653-%E9%9F%B3%E8%B3%AA" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://guide.awa.fm/hc/ja/articles/115003740653-%E9%9F%B3%E8%B3%AA<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>AWA　FAQ　音質<br>Normal (96kbps)、High (128kbps)、Excellent (320kbps)</p><cite><a href="https://guide.awa.fm/hc/ja/articles/115003740653-%E9%9F%B3%E8%B3%AA" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://guide.awa.fm/hc/ja/articles/115003740653-%E9%9F%B3%E8%B3%AA<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
@@ -714,7 +714,7 @@ $ file 01-Trans-Island\ Skyway.flac
 
 
 
-<blockquote class="wp-block-quote"><p>TIDAL-MASTERS<br><br><strong>HiFi品質とマスター品質の違いは何ですか？</strong><br>HiFiオーディオは優れたサウンドですが、Mastersレーベルはアーカイブをマイニングし、これらが決定的な曲のリリースであることを確認しました。MQAのテクノロジーにより、この元のバージョンがTIDALを介してサブスクライバーに直接提供されます。認証された途切れのない音楽ファイル（通常は96 kHz / 24ビット）で、マスタリングスイートでのサウンドと同じくらい完璧です。<br>HiFi録音は44.1kHz / 16ビットに制限されていますが、マスターは元のソースを反映します。これはCD品質から96 kHz / 24ビット、場合によってはサンプルレートが192kHzの超高解像度ファイルまでさまざまです。</p><cite><a href="https://support.tidal.com/hc/en-us/articles/115000397069-TIDAL-MASTERS" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://support.tidal.com/hc/en-us/articles/115000397069-TIDAL-MASTERS<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+<blockquote class="wp-block-quote"><p>TIDAL-MASTERS<br><br><strong>HiFi品質とマスター品質の違いは何ですか？</strong><br>HiFiオーディオは優れたサウンドですが、Mastersレーベルはアーカイブをマイニングし、これらが決定的な曲のリリースであることを確認しました。MQAのテクノロジーにより、この元のバージョンがTIDALを介してサブスクライバーに直接提供されます。認証された途切れのない音楽ファイル（通常は96 kHz / 24ビット）で、マスタリングスイートでのサウンドと同じくらい完璧です。<br>HiFi録音は44.1kHz / 16ビットに制限されていますが、マスターは元のソースを反映します。これはCD品質から96 kHz / 24ビット、場合によってはサンプルレートが192kHzの超高解像度ファイルまでさまざまです。</p><cite><a href="https://support.tidal.com/hc/en-us/articles/115000397069-TIDAL-MASTERS" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://support.tidal.com/hc/en-us/articles/115000397069-TIDAL-MASTERS<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
 
 
 
