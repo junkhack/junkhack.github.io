@@ -9,7 +9,7 @@
 	<title>JunkHack SmartNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Tue, 06 Feb 2024 00:52:06 +0900</lastBuildDate>
+	<lastBuildDate>Thu, 22 Feb 2024 09:51:49 +0900</lastBuildDate>
 	<language>ja</language>
 	<ttl>5</ttl>
 	<snf:logo><url>/wp-content/uploads/2021/04/logo512x512.png</url></snf:logo>
@@ -18,6 +18,119 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 
+		<item>
+		<title>WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</title>
+		<link>/2024/02/22/ai_engine_for_wordpress/</link>
+		<pubDate>Thu, 22 Feb 2024 02:55:38 +0000</pubDate>
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=11712</guid>
+				<media:thumbnail>/wp-content/uploads/2024/02/AI-Engine.png</media:thumbnail>
+				<media:status>active</media:status>
+		<description><![CDATA[今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。  [&#8230;]]]></description>
+		<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressのコンテンツをAIに学習させて有効に使う方法がないか調査したよ</p>
+</div></div></div></div></div></div></div></div>
+
+<p>今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。</p>
+<h2>何をしたいのか？</h2>
+<p>普段は、<code>ChatGPT</code>やGoogleの<code>Gemini</code>とかにお世話になっています。<code>GPTs</code>が出たことで、自分用にカスタム学習したAIを作ることは簡単にできるようになりました。
+しかし、自分のブログを自動的に学習させて、その内容を加味した回答をAIがしてくれる、そんな執事のようなAIはどうやったら作れるのか？　まだ試してはいませんが、<code>GPTs</code>のAPIを使えばそれも可能だと思います。
+　今回の記事は、そういう自分用にカスタムしたAIをWordPressに連携するお話です。</p>
+<h2>結論から先に</h2>
+<p>今、ブログの右下についているボットがありますが、これは<code>DocsBot</code>という仕組みを利用しています。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/docsbot.png" alt="" /></p>
+<p>これは、<code>AI Engine</code>とは関係ない<code>DocsBot</code>というサービスで、以下で提供されています。</p>
+<blockquote>
+<p><code>DocsBot</code></p>
+<p>URL：<a href="https://docsbot.ai/?via=k07v6t0lcyrnck8ig1ot" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://docsbot.ai/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>例えば、「ベトナムでおすすめの料理は？」と聞くと学習してあるブログ記事の内容を加味した答えが返ってきます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/db_ss1.png" alt="" /></p>
+<p>このブログは、WordPressで管理していますが公開するときは静的ファイルを出力しています。ですので、<code>AI Engine</code>は常時WordPressを稼働させないといけない関係上、今は利用せず、<code>DocsBot</code>のサービスを利用しています。有料のサービスですが、なかなか出来が良いので今は使っています。</p>
+<h2>AI Engine Pro版を使うメリットは？</h2>
+<p>読者の中には、他のサービスではなく自前のブログ（WEBアプリ）や、WordPressのプラグインで学習済みのAIを連携するような仕組みを作りたいという要望があるかもしれません。自分もWordPressで似たようなことができたらいいなと思っていました。もし、そういうことが出来たら、いろいろと応用が効きそうです。</p>
+<p>　調べてみると、Ai EngineのPro版を使うとできそうなことがわかったので、実際に使ってみました。</p>
+<blockquote>
+<p><code>Ai Engine Pro</code>　（WordPressのプラグイン）<br>
+<code>無料版のWordPress公式</code>：<a href="https://wordpress.org/plugins/ai-engine/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://wordpress.org/plugins/ai-engine/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>
+<code>プロ版</code>：<a href="https://meowapps.com/products/ai-engine-pro/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://meowapps.com/products/ai-engine-pro/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></p>
+</blockquote>
+<p>プロ版は買取のライセンスもありますが、まずは様子を見たいのでスタンダードの年間ライセンスを購入してみました。５つのWEBサイトに適用できて年間69USDです。</p>
+<h2>AI Engineとは何か？</h2>
+<p>WordPressのAI系プラグインは、AIにコンテンツやタイトル・SEO系のワードを書いてもらう補助をするツールが多いです。ブログを書くときに、WordPressのUI画面から直接、<code>ChatGPT</code>のAPIを通して利用できるメリットがあります。</p>
+<p>紹介する<code>AI Engine</code>もこういう機能はありますが、他のプラグインには無い機能としては、<code>Embeddigns</code>からベクターデータベースを指定でき、自分のブログの記事や独自の学習内容を覚えさせることができます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/ai_embed.png" alt="" /></p>
+<p>画像では、すでに１つの記事（以下）を覚えさせた状態です。</p>
+<blockquote>
+<p>Surface ProのHackintoshが欲しい！（<a href="/2024/02/02/hackintosh-of-surface-pro/" title="LINK" data-wpel-link="internal" rel="noopener noreferrer">LINK</a>）<br>
+投稿日: 2024年2月2日 更新日:2024年2月6日</p>
+</blockquote>
+<p><code>ChatGPT</code>には、質問として「Surface Proの記事は？」と聞いています。答えは</p>
+<blockquote>
+<p>Surface ProをHackintosh化してmacOSを楽しむプロジェクトについて興味があるんだね。この種のプロジェクトでは、特にSurface Pro7や7+のような高性能モデルが推奨されていることが多いけど、予算の都合でSurface Pro5や6で試すのも一つの方法だっちゃ。中古市場での価格は機種や状態によって大きく異なるけれど、正常な状態のSurface Proはだいたい1万円から5万円程度で手に入るみたいだっちゃ。Hackintosh化は技術的な挑戦が多いけど、macOSのタッチ操作体験やその他の利点を探究する価値は確かにあるね。詳細な情報は専門のサイトで確認するといいだっちゃ。</p>
+</blockquote>
+<p>と回答するようになりました。素晴らしいですね！！</p>
+<h3>AI Engineで使えるベクターデータベースは？</h3>
+<p>設定から、<code>Environments for Embeddings</code> でベクターDBの設定が可能です。今は、<code>Pinecone</code>と<code>Qdrant</code> が使えます。この両者のメリット・デメリットはまだよく調べていませんが、どちらも無料枠があります。本格的に利用したい場合は、課金したほうがよいかもです。</p>
+<p>このベクターデータベースとはmysqlとかと違っていて面白い仕組みなんですが、また違う記事で取り上げてみたいなと思います。</p>
+<blockquote>
+<ul>
+<li>ベクターデータベース：Pinecone<br>
+　URL：<a href="https://app.pinecone.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://app.pinecone.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></li>
+<li>ベクターデータベース：Qdrant<br>
+　URL：<a href="https://cloud.qdrant.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://cloud.qdrant.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+</ul>
+</blockquote>
+<h2>自分のWordPressのAPIから使ってみる</h2>
+<p>他の利用例として、自分のWordPressからAPIを提供できるようです。<code>設定</code>の<code>Advanced</code>から、<code>Public API</code> にチェックすれば利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Public_API.png" alt="" /></p>
+<p>マニュアル（<a href="https://meowapps.com/ai-engine/api/" title="LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）によると、以下のように利用できるようです。</p>
+<p><code>REST API</code>：<code>https://domains.com/wp-json/mwai/v1/{function_name}</code></p>
+<p>認証は、<code>Bearer Token</code> が使えるようです。例えば、「おはよう。あなたについて教えて」とAPI経由で投げる場合は、</p>
+<pre><code>curl --location --request POST &#039;/wp-json/mwai/v1/simpleChatbotQuery?prompt=%7BURL%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89%E3%81%97%E3%81%9F%E8%B3%AA%E5%95%8F%E6%96%87%7D&amp;botId=%7B%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88%E3%81%AEID%7D#039; \
+--header &#039;Authorization: Bearer {トークン}&#039;</code></pre>
+<p>と聞くと以下のようにJsonが返ってきます。</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: &quot;おはよう！私はぴーで、25歳の元気な女性だよ。いちごが大好きなんだっちゃ！&quot;
+}</code></pre>
+<p>カスタム学習した内容で回答が返っていますね。JavaScriptからもこれで使えますね。</p>
+<h2>OpenRouter経由でGemini proも使える</h2>
+<p>設定の<code>Environments for AI</code>では <code>Type</code>として <code>OpenRouter</code>や<code>Azure(OpenAI)</code>も選べます。これにより、例えば、<code>Gemini pro</code> なども利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/OpenRouter.png" alt="" /></p>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>AI EngineのPro版は、ベクターデータベースとも連携できる</li>
+<li><code>Pinecone </code>と<code>Qdrant </code>が現在使える</li>
+<li>WordPressの記事を上記のインポートできる機能がある</li>
+<li>つまり、学習させることが可能</li>
+<li>学習させた内容を回答させることが可能</li>
+<li>APIは、WordPressのREST APIを通して使える</li>
+<li>認証は<code>Bearer Token</code>が使える</li>
+<li>外部のAPIは、<code>OpenRouter</code>経由で、<code>Gemini pro</code>も使える</li>
+</ul>
+<h3>あとがき</h3>
+<p>応用すればいろいろと使えそうです。たとえば、自社のナレッジシステムを学習させた自社内AI チャットGPTとか。あとは、3Dオブジェクトと組み合わせて、音声でキャラクターとお話、会話できるものとか。アプリに組み込んで、ヘルプのやり取りをさせたりとか。</p>
+<p>もっと機能を限定してシンプルなWordPressのプラグインとか作りたいですね。</p>
+<h3>著者にメッセージ</h3>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+
+				<snf:advertisement>
+						<snf:sponsoredLink
+				title="アリエクでぽちったJunkHack"
+				link=":7443:7443:7443/"
+				thumbnail="/wp-content/uploads/2021/04/logo512x512.png"
+				advertiser="JunkHack" />
+								</snf:advertisement>
+		
+				<snf:analytics><![CDATA[<script async src="https://www.googletagmanager.com/gtag/js?id=G-13YWDXYQE2"></script>]]></snf:analytics>
+		
+			</item>
 		<item>
 		<title>Surface ProのHackintoshが欲しい！</title>
 		<link>/2024/02/02/hackintosh-of-surface-pro/</link>
@@ -79,7 +192,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="572" src="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png" alt="" class="wp-image-11674" srcset="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png 1024w, /wp-content/uploads/2024/02/ss-sp7-bench-768x429.png 768w, /wp-content/uploads/2024/02/ss-sp7-bench-984x550.png 984w, /wp-content/uploads/2024/02/ss-sp7-bench.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="572" src="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png" alt="" class="wp-image-11674" srcset="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png 1024w, /wp-content/uploads/2024/02/ss-sp7-bench-768x429.png 768w, /wp-content/uploads/2024/02/ss-sp7-bench-984x550.png 984w, /wp-content/uploads/2024/02/ss-sp7-bench.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -1362,95 +1475,6 @@
 
 
 <p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-]]></content:encoded>
-
-				<snf:advertisement>
-						<snf:sponsoredLink
-				title="アリエクでぽちったJunkHack"
-				link=":7443:7443:7443/"
-				thumbnail="/wp-content/uploads/2021/04/logo512x512.png"
-				advertiser="JunkHack" />
-								</snf:advertisement>
-		
-				<snf:analytics><![CDATA[<script async src="https://www.googletagmanager.com/gtag/js?id=G-13YWDXYQE2"></script>]]></snf:analytics>
-		
-			</item>
-		<item>
-		<title>ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</title>
-		<link>/2022/05/31/goat-end-of-service/</link>
-		<pubDate>Tue, 31 May 2022 14:12:36 +0000</pubDate>
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-				<category><![CDATA[新ブログ]]></category>
-		<guid isPermaLink="false">/?p=11358</guid>
-				<media:thumbnail>/wp-content/uploads/2022/05/goat-eos.png</media:thumbnail>
-				<media:status>active</media:status>
-		<description><![CDATA[　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 g.o.a.tごーと 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサ [&#8230;]]]></description>
-		<content:encoded><![CDATA[<p>　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 <ruby>g.o.a.t<rt>ごーと</rt></ruby> 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサービスの最終日となります。縦書きと写真を融合したブログを書いていく、新たな価値を生み出したサービスだったのですが、非常に残念です。</p>
-<p>&nbsp;</p>
-<p>　きっと愛用者は残念・無念であったでしょう。このサービスを使ってブログを書いていた人がどのくらいの人数いたのかは不明ですが、ここ以外、他の縦書きができるブログサービスというのは無いはずですので、途方に暮れているかもしれません。　　そもそも、縦書きのブログの需要がどのくらいあったのか？　ゴートの縦書きブログは何が良くて何が悪かったのか？　そんな縦書きでブログを書くことを今回は考えてみたいなと思っています。</p>
-<p>&nbsp;</p>
-<h3>ゴートはどんな特徴があったのか？</h3>
-<p>　自分はこのゴートというブログサービスを知ったのが、つい最近５月の始めごろでその頃にはもうすでに新規登録ができず、このサービスの真の良さを知ることは残念ながらできませんでした。外から見聞きできることや、自分が実際にそのブログを見て感じたことなど、感想を書いてみたいなと思います。</p>
-<p>&nbsp;</p>
-<h3>ゴートの特徴とは？</h3>
-<p>一　レスポンシブ対応である。つまりスマホでも縦書きで見れます。</p>
-<p>二　写真と文章を融合して表現でき、美しい。</p>
-<p>三　ブログの執筆・編集が縦書きで出来る。</p>
-<p>四　写真と文字や空白のバランスが絶妙。</p>
-<p>五　広告がなくてすっきり。</p>
-<p>六　残念ですが、ブログなのにコメント機能がない。</p>
-<p>七　残念その２。自分の記事を検索することができない。</p>
-<p>八　縦書きのテーマが少なかった。</p>
-<p>&nbsp;</p>
-<p>一つづつ考察してみましょう。</p>
-<p>&nbsp;</p>
-<h3>一　レスポンシブ対応である</h3>
-<p>　レスポンシブ対応とは、つまり表示領域を縮めても常に最適な見え方で表示する技術のことです。パソコンであれば、広々と画面いっぱいに表示し、スマホであれば小さな表示領域に可読性を損ねることなく縦書き表示できることを指します。ゴートのレスポンシブ対応はリアルタイムで表示領域を拡大、縮小しても綺麗に表示できていました。</p>
-<p>　ちなみに、今見ている、このブログの縦書きは完全なレスポンシブ対応ではありません。しかし、表示領域を縮小・拡大した状態で<ruby>再読み込み<rt>リロード</rt></ruby>すれば、最適化された状態で縦書きできる仕組みです。利用上、特に問題はないのですが仕組みが違いますね。</p>
-<p>&nbsp;</p>
-<h3>二　写真と文章を融合して表現でき、美しい</h3>
-<p>　ゴートの<ruby>拘<rt>こだわ</rt></ruby>った点は、「 ビジュアルの美しさ」でしょう。まるで、雑誌の一ページを見ているよな感覚、これは写真と縦書きの文章のレイアウト配置の美しさから来るものだと自分は感じました。きっと、最初のデザイン設計でかなり時間をかけて拘ったのだと思います。</p>
-<p>　新聞や雑誌などは、文章が縦書きが標準です。しかし、スマホやパソコンで見るサービスは横書きが標準。これは単に技術が未発達だったからであって、日本語が持つ縦書きの印象は特別なものがあると思います。写真と融合することにより、たとえば旅行記を綴ればその印象は格別なものだと自分は感じました。</p>
-<p>&nbsp;</p>
-<h3>三　ブログの執筆・編集が縦書きで出来る</h3>
-<p>　これは自分は実際に使ったことがないので、本当のところはわかりません。グーグル検索で使ったことがある人の感想や、公式ページでそのツールの絵を見たくらいです。縦書きの文章を縦書きで編集・執筆する。この当たり前のようなことが実際には難しいのです。例えば、ブログの代表格であるワードプレスの管理画面の投稿記事を執筆する画面では、横書きしかできません。</p>
-<p>　実際、今こうして書いている文章も横書きで書いていて、二画面あるモニターの片側で保存した記事を<ruby>表示<rt>プレビュー</rt></ruby>して縦書きに問題がないか確認しながら書いています。</p>
-<p>&nbsp;</p>
-<h3>四　写真と文字や空白のバランスが絶妙</h3>
-<p>　これは、２番目に書いたことと多少かぶるのですが、デザインの良さです。優れたデザインは、写真の文字の余白部分に現れると思っていますが、まさにこのバランスが絶妙だなと思いました。専門のデザイナーが見れば、当ブログの縦書きは気持ち悪い空白部分があると思います。ゴートでは、これらのバランスが絶妙だったと思います。</p>
-<p>&nbsp;</p>
-<h3>五　広告がなくてすっきり</h3>
-<p>　普通、無料で書けるブログサービスではなんらかの「広告」が入ります。しかし、ゴートではオフィシャル側が、この広告を余分ないらないものとして排除していたのです。広告がつかないブログは、プロのブロガーから見たら魅力がないものかもしれません。つまり、広告がなくてすっきりしていて最高！　という意見もあれば、広告がないブログは運営・執筆していく価値がないと切り捨てる見方と両極端かもしれません。でも、<ruby>ＷＥＢ<rt>うぇぶ</rt></ruby>広告なんてものはいくらでもブロックできますし、個人的にはまったく意味のないものだという感覚が強いです。</p>
-<p>　評価したいのは、オフィシャルが広告は不必要なものと公言していた点が<ruby>潔<rt>いさぎよ</rt></ruby>くて男前だなと思いました。</p>
-<p>&nbsp;</p>
-<h3>六　残念ですが、ブログなのにコメント機能がない</h3>
-<p>　自分のブログも今はコメントを封印していますので、なんですが、ブログはコミュニケーションが発生する媒体でもあります。人によっては、共通の趣味・趣向の友好関係ができるコメント機能は非常に大切なものだと思います。</p>
-<p>　ゴートには、コメント機能がありませんでした。この点は、残念かなーと思っています。</p>
-<p>&nbsp;</p>
-<h3>七　残念その２。自分の記事を検索することができない</h3>
-<p>　これは自分のブログをどのように扱うか、による考え方で残念かどうか決まる問題かもしれませんが、自分は検索機能は必須だと思っています。ある人が偶然、ブログに遊びに来てくれたとします。たまたま、その記事にはその人の欲する情報がなかった場合でも、もし検索機能があれば他のページの記事も見てくれたかもしれません。これは、ブログの案内人のような側面がある部分で個人的には超重要項目の一つです。ちなみに、当ブログでは、キーボードのスラッシュをタイプすると検索ウィンドウが表示されリアルタイムに検索する仕組みを実装しています。</p>
-<p>&nbsp;</p>
-<h3>八　縦書きのテーマが少なかった</h3>
-<p>　どの執筆者のブログ記事を見ても、だいたい同じような見え方しかありませんでした。これは縦書き、横書きのテーマが少なかったのだと思います。縦書きで特化して言えば、２、３パターンしかなかったのではないでしょうか。</p>
-<p>　縦書きのレイアウト作成のテンプレート化は、それなりに大変だったのもしれません。しかし、数十種類くらいのバリエーションは有ってもよかったのではないかなと思います。人と同じってのは、縦書きでブログを書く拘りの強いユーザーであれば、イヤだったのではないかと思われます。</p>
-<p>&nbsp;</p>
-<h3>まとめ</h3>
-<p>・ゴートの縦書きは写真と融合していてデザインが綺麗だった</p>
-<p>・レスポンシブ対応していて、スマホでも最適表示されていた</p>
-<p>・しかし、ブログとしての基本機能、特にコメント機能が無かったのは残念</p>
-<p>・また、自身のブログ内の検索機能も無かった</p>
-<p>・テーマの少なさから、どのブログ記事も同じような見え方になっていた</p>
-<p>&nbsp;</p>
-<h3>あとがき</h3>
-<p>　運営側もボランティアでは出来ませんから収益が出るビジネスモデルをなんとか考えていたのでしょう。例えば、小学館とか、新刊と連携していたりとか、ゴート・スタープログラムという執筆者のランク付のような仕組みがあったりとか、いろいろ試していたようにも見えます。サイト自体は無料なのですから、なんらかの金を生み出すビジネスモデルが必要だったと思うのですが、それをうまく構築できなかったのが、サービス終焉の大きな理由だと思います。</p>
-<p>　ワードプレスの本家のように、無料ユーザーと有料ユーザーという位置づけのビジネスモデルは考えなかったのでしょうか？　いや、絶対考えていたと思います。しかし、無料ユーザーの総数のおよそ、数パーセントしか有料ユーザーになり得ないことなどから、逆算できるため、そのようなビジネスモデルは、成り立たないということがやる前からわかっていたんだろうと思います。</p>
-<p>　縦書きで、デザインに独自性をもたせ、コメント機能もあり、検索機能もある。そして自分のアドセンス広告やアフリエイト系の広告も貼れる。そして、絶対サーバがダウンせず、連続稼働保証もある。そんな縦書きのブログだったら、もしかして有料化しても支払ってくれたユーザーは居たのかもしれません。</p>
-<p>　あるいは、著名な職業ブロガーをアドバイザーとして、迎え入れて展開していれば、先のような問題点も<ruby>早々<rt>そうそう</rt></ruby>に解決していたのかもしれませんね。</p>
-<p>　いつの日か、ゴートのデザインに寄せた縦書きのテーマも作ってみたいなと思っています。欲しいユーザーがいたら、メールやツイッターなどで応援メッセージお待ちしています。</p>
-<p>&nbsp;</p>
-<p>最後に一句</p>
-<p><haiku>縦書きの　テーマ作りは　ニッチかな</haiku></p>
-<p><!-- /wp:paragraph --></p>
 ]]></content:encoded>
 
 				<snf:advertisement>

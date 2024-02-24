@@ -237,6 +237,19 @@ tt,
 var {
 	font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
+
+p>code,
+li>code
+{
+	background-color: #e6e7e9;
+    color: #333;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
 abbr,
 acronym {
 	border-bottom: 1px dotted #666;
