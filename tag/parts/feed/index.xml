@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>部品 &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 26 Feb 2011 04:36:00 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>部品 &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>材料集め</title>
+		<link>/2011/02/26/%e6%9d%90%e6%96%99%e9%9b%86%e3%82%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 26 Feb 2011 04:36:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Parts]]></category>
+		<category><![CDATA[ic]]></category>
+		<category><![CDATA[memo]]></category>
+		<category><![CDATA[部品]]></category>
+		<guid isPermaLink="false">/?p=225</guid>
+							<description><![CDATA[これは面白そう http://uzzors2k.4hv.org/index.php?page=magneticlevitation TL494 or KA7500 互換PDF （PWMコントローラ） 秋月充電器100円か [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>これは面白そう   <br /><a href="http://uzzors2k.4hv.org/index.php?page=magneticlevitation" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://uzzors2k.4hv.org/index.php?page=magneticlevitation<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    </p>
+<p>TL494 or KA7500 互換<a href="http://www.fairchildsemi.com/ds/KA/KA7500C.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">PDF<span class="wpel-icon wpel-image wpel-icon-1"></span></a> （PWMコントローラ） <a href="http://akizukidenshi.com/catalog/g/gM-01429/" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">秋月充電器<span class="wpel-icon wpel-image wpel-icon-1"></span></a>100円から外すか買うか    <br />BUZ31L MOSFET <a href="http://pdf1.alldatasheet.jp/datasheet-pdf/view/44985/SIEMENS/BUZ31L/+3_887UOGDL.OudG/1ezYT+/datasheet.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">PDF<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />Hall Sensor 3pin or 4pin （Fanか携帯かFDか） ジャンク箱より    <br />LM358 or LMV358 <a href="http://akizukidenshi.com/catalog/g/gI-01904/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">秋月<span class="wpel-icon wpel-image wpel-icon-1"></span></a> ２回路入りオペアンプ    <br />ソレノイドコイル 作るか、リレーより外すか    <br />NTC サーミスタ ？    <br />LED ２個 ジャンク箱より    <br />抵抗    <br /> 68Ω    <br /> 560Ω    <br /> 820Ω    <br /> 2.7KΩ    <br /> 560Ω    <br /> 39KΩ x2個    <br /> 5.6KΩ    <br /> 56KΩ</p>
+<p>可変抵抗 50KΩ   <br />コンデンサ 220μF ジャンク箱より    <br /><img decoding="async" src="http://uzzors2k.4hv.org/projectfiles/magneticlevitator/hall%20effect%20levitator2.GIF" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

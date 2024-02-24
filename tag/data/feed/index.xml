@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>data; &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 13 Feb 2011 16:34:50 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>data; &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>単3電池2本でiPhoneを充電 その9</title>
+		<link>/2011/02/14/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae9/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 13 Feb 2011 16:34:50 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[100円]]></category>
+		<category><![CDATA[3V]]></category>
+		<category><![CDATA[500ma]]></category>
+		<category><![CDATA[5V]]></category>
+		<category><![CDATA[data;]]></category>
+		<category><![CDATA[iPhone充電]]></category>
+		<category><![CDATA[USB]]></category>
+		<category><![CDATA[昇圧]]></category>
+		<guid isPermaLink="false">/2011/02/14/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae9/</guid>
+							<description><![CDATA[その後、経過観察をしてみた。 2セット目のeneloop充電完了のを、iPhone4に、ＵＳＢをつなぎっぱなしにして一晩寝たら朝起きてたら100％になってた。 まぁ、それなりにいけるんじゃないのっていうことで、パイロット [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>その後、経過観察をしてみた。   <br />2セット目のeneloop充電完了のを、iPhone4に、ＵＳＢをつなぎっぱなしにして一晩寝たら朝起きてたら100％になってた。    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8614" border="0" alt="IMGP8614" src="/wp-content/uploads/2011/02/imgp8614.jpg" width="498" height="338" /> </p>
+<p>まぁ、それなりにいけるんじゃないのっていうことで、パイロットランプをつけてみた。   <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8617" border="0" alt="IMGP8617" src="/wp-content/uploads/2011/02/imgp8617.jpg" width="498" height="338" />     <br />点滅するように、100円ショップで、「<strong>お散歩ライト</strong>」っていうのがあったので、ばらしてみたら薄い基盤に赤色ＬＥＤと点滅ＩＣが樹脂ボンドみたいなのでつけたれていた。これをはさみで切って、パターンを配線して活用。    </p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="img016" border="0" alt="img016" src="/wp-content/uploads/2011/02/img016.jpg" width="482" height="378" />     <br />お散歩ライトを分解の図 セリアのＰＥＴコーナーでＧＥＴ    </p>
+<p>基盤は0.5ｍｍくらいで、薄いので電池ボックスの上に0.8ｍｍくらいの穴を開けて電池入れたら点滅するようにしてみた。電源をつなぎ、基板上のパターンをＯＮにすると、点滅、点滅交互、常時点燈となり、スイッチＯＮのパターンを配線して電池ＢＯＸの端子にハンダづけ。乾電池入れると、点滅するようにしてパイロットランプとしてみた。２Ｖ以下だと多分光らないと思うので、消耗した電池かどうかの簡易見分けもできるのかもと。    </p>
+<p>メインスイッチはまだつけていないけど、電池ＢＯＸの下あたりに隙間があるので、つけるならそこらあたりかな。</p>
+</p>
+<p>とりあえずは、100円のＵＳＢ電池ＢＯＸはこれにて納得した感じ。ＰＦＭ方式の昇圧ＩＣのいい経験になったかな。違う方式のＩＣを使ってみたいしね。もし、またいじるなら、2個目のを、タンタルコンデサーにしてみたいかな。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>単3電池2本でiPhoneを充電 その8</title>
+		<link>/2011/02/13/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae8/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 12 Feb 2011 15:25:54 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[100円]]></category>
+		<category><![CDATA[3V]]></category>
+		<category><![CDATA[500ma]]></category>
+		<category><![CDATA[5V]]></category>
+		<category><![CDATA[data;]]></category>
+		<category><![CDATA[iPhone充電]]></category>
+		<category><![CDATA[USB]]></category>
+		<category><![CDATA[昇圧]]></category>
+		<guid isPermaLink="false">/2011/02/13/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae8/</guid>
+							<description><![CDATA[iPhone4を残り１５％充電まで減らしたので、充電できるかテストしてみた。 今回は電池にＥｎｅｌｏｏｐを使用。フル充電してあります。 いけますね。あとは、どのくらい充電されるかですね。 細部の拡大。 １５％から、どのく [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8610" border="0" alt="IMGP8610" src="/wp-content/uploads/2011/02/imgp8610.jpg" width="498" height="338" />   </p>
+<p>iPhone4を残り１５％充電まで減らしたので、充電できるかテストしてみた。   <br />今回は電池にＥｎｅｌｏｏｐを使用。フル充電してあります。</p>
+<p> <img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8611" border="0" alt="IMGP8611" src="/wp-content/uploads/2011/02/imgp8611.jpg" width="498" height="338" />   </p>
+<p>いけますね。あとは、どのくらい充電されるかですね。</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8612" border="0" alt="IMGP8612" src="/wp-content/uploads/2011/02/imgp8612.jpg" width="498" height="338" /> </p>
+<p>細部の拡大。</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8613" border="0" alt="IMGP8613" src="/wp-content/uploads/2011/02/imgp8613.jpg" width="498" height="338" /> </p>
+<p>１５％から、どのくらいまで充電できますかね。充電開始タイムは、ＰＭ10：15くらい。50％くらいまでいけるとうれしいんですけど。   </p>
+<p>画面は切って充電してみます。充電モードに入るだけで充電されないかもしれませんからね。usb 各pinの充電しているときの電圧は、前回と同じ。    </p>
+<p>う～ん、45分くらい経過した時点で、どうやら充電解除されちゃいますね。   <br />15％が20%には上昇したみたい。電圧が落ちて、Ｐｉｎ２，３の分圧抵抗の電圧が落ちたのかしらね。    </p>
+<p>ためしに、iPhoneから充電コードを抜いて、２，３ＰＩＮをショートさせて（2.3Ｖ）、さらに充電。しばらくすると、iphoneが再起動、勝手にした。    </p>
+<p>どうやら、このあたりが、このＩＣの限界のようですかね。とりあえず、少し状況をまとめてみますかね。    </p>
+<p>・5Ｖ 500mAを2.5-3.0Ｖの電源電圧で出すＩＣが必要。    <br />・USB Pin 2,3には2Ｖ出すといい感じ    </p>
+<p>今回の BL8530互換（かもしれない）このＩＣでは、このあたりがとりあえずの限界なのかもと見切り時かもしれませんね。    </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>単3電池2本でiPhoneを充電 その7</title>
+		<link>/2011/02/12/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae7/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 12 Feb 2011 01:30:27 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[100円]]></category>
+		<category><![CDATA[3V]]></category>
+		<category><![CDATA[500ma]]></category>
+		<category><![CDATA[5V]]></category>
+		<category><![CDATA[data;]]></category>
+		<category><![CDATA[iPhone充電]]></category>
+		<category><![CDATA[USB]]></category>
+		<category><![CDATA[昇圧]]></category>
+		<guid isPermaLink="false">/2011/02/12/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae7/</guid>
+							<description><![CDATA[さて、放電も完了し残り20％になりますた。 はたして、充電できるでしょうか？ 対象マシンは、iPhone3G。iPhone4はまだ電池残５０％あるので。 100円ショップの昇圧ＩＣだしな、ま、無理なんだろうな。 だめもと [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>さて、放電も完了し残り20％になりますた。   </p>
+<p> <img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8604" border="0" alt="IMGP8604" src="/wp-content/uploads/2011/02/imgp8604.jpg" width="498" height="338" />   </p>
+<p>はたして、充電できるでしょうか？   <br />対象マシンは、iPhone3G。iPhone4はまだ電池残５０％あるので。    </p>
+<p>100円ショップの昇圧ＩＣだしな、ま、無理なんだろうな。    <br />だめもとで、接続。    </p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>さて、どうなるのか、、、、、</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>しばしの沈黙、、、、</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>きたよ、これ！！！   <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8605" border="0" alt="IMGP8605" src="/wp-content/uploads/2011/02/imgp8605.jpg" width="498" height="338" /> </p>
+<p>※100円ショップの単3型2本のＵＳＢ充電器（<strong><font color="#ff0000">改造したもの</font></strong>）で40%未満充電残のiPhoneを充電している証拠写真！    </p>
+<p>電池も100円ショップの4本100円のアルカリ電池。もっといい電池使えって？まぁまぁ。</p>
+<p>&#160;</p>
+<p>ＰＩＮ２の充電しているときの電圧。約1.85Ｖ。実測</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8606" border="0" alt="IMGP8606" src="/wp-content/uploads/2011/02/imgp8606.jpg" width="498" height="338" /> </p>
+<p>&#160;</p>
+<p>ＰＩＮ3の充電しているときの電圧。約2.8Ｖ。実測</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8607" border="0" alt="IMGP8607" src="/wp-content/uploads/2011/02/imgp8607.jpg" width="498" height="338" /> </p>
+<p>ＰＩＮ1の充電しているときの電圧。約5Ｖ。実測</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8608" border="0" alt="IMGP8608" src="/wp-content/uploads/2011/02/imgp8608.jpg" width="498" height="338" /> </p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>iPhone4は、まだ50％なので、とりあえず充電。できるかな？</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8609" border="0" alt="IMGP8609" src="/wp-content/uploads/2011/02/imgp8609.jpg" width="498" height="338" /> </p>
+<p>できてるね。40％未満だとどうなるのか。電圧は4.4Ｖくらいまで落ちてるね。消費電力が大きいのか。</p>
+<p>とりあえず、まだテスト段階で、充電モードに入るだけで充電できるのかちゃんと試さないとね。</p>
+<p>&#160;</p>
+<p>でも、状況はかなりよくなった。今まで充電できなかった40％未満のiPhone3Gで充電モードに入るようになったしね。</p>
+<p>&#160;</p>
+<p>次回、記事あるかも。あくまでも、改造は自己責任でね。ヒューズも安全装置もつけてないので。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>単3電池2本でiPhoneを充電 その6</title>
+		<link>/2011/02/11/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae6/</link>
+					<comments>/2011/02/11/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae6/#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 11 Feb 2011 07:45:51 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[100円]]></category>
+		<category><![CDATA[3V]]></category>
+		<category><![CDATA[500ma]]></category>
+		<category><![CDATA[5V]]></category>
+		<category><![CDATA[data;]]></category>
+		<category><![CDATA[iPhone充電]]></category>
+		<category><![CDATA[USB]]></category>
+		<category><![CDATA[昇圧]]></category>
+		<guid isPermaLink="false">/2011/02/11/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae6/</guid>
+							<description><![CDATA[&#160; 抵抗が無かったので、もう一台100円ショップに行ってGETしてきました。で、そこから43KをGET。練習で51Kをはずして、コツをつかんで、いざ挑戦。 MintyBoostの作者のように、間接的に熱を加えて [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image28.png" width="496" height="378" />&#160; </p>
+<p>抵抗が無かったので、もう一台100円ショップに行ってGETしてきました。で、そこから43KをGET。練習で51Kをはずして、コツをつかんで、いざ挑戦。    <br /> MintyBoostの作者のように、間接的に熱を加えてやろうとしたけど、なかなかむずい。う～ん、ってことで、いつものように左右オラオラ作戦で、余熱を与えながらはずしたよ。    <br /> <font color="#ff0000">※あれは、熱風がでるタイプのなんだね。後で知りました。たとえば、</font><a href="http://www.hozan.co.jp/catalog/Desoldering_Tools/HS559.htm" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external"><font color="#ff0000">こういう</font><span class="wpel-icon wpel-image wpel-icon-1"></span></a><font color="#ff0000">の とか </font><a href="http://www.hozan.co.jp/catalog/Desoldering_Tools/HS401.htm" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external"><font color="#ff0000">ピンセット形</font><span class="wpel-icon wpel-image wpel-icon-1"></span></a><font color="#ff0000">もある     <br /></font> ピンセットはL字に曲がったのをおなじく、100円ショップからGET。曲がってるのが使いやすいね。    <br />で、改造した基盤のR1を43KΩに付け替え。    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image29.png" width="498" height="564" />&#160; <br />電池入れて、実測値を測る。</p>
+</p>
+<p>Pin2 data- ２V弱 きっちり２Vじゃないけど</p>
+</p>
+<p> <img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8602" border="0" alt="IMGP8602" src="/wp-content/uploads/2011/02/imgp8602.jpg" width="498" height="338" />  </p>
+<p>Pin3 data+&#160; 2V弱。今付け替えたのはOKみたいですね。</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8603" border="0" alt="IMGP8603" src="/wp-content/uploads/2011/02/imgp8603.jpg" width="498" height="338" /> </p>
+<p>&#160;</p>
+<p>40％以上だと充電モードに入るのを確認。   <br />ただいま、放電中。40％以下になるまでしばし待つ。</p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8601" border="0" alt="IMGP8601" src="/wp-content/uploads/2011/02/imgp8601.jpg" width="498" height="338" /> </p>
+</p>
+<p>うまく、充電できるといいね。NGなら、ICの限界かとあきらめもつくしね。500mA出ないと思うし。このIC。先人の解析されたjr7cwkさんのブログに、電流と電圧の出力特性が載っていて、   <br /><a href="http://samidare.jp/jr7cwk/lavo?p=detail&amp;cm=190715" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://samidare.jp/jr7cwk/lavo?p=detail&amp;cm=190715<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />300ｍAを越えると、３Vだと電圧が一気に降下しちゃう特性みたい。 今回は、多少、コンデンサ変えたり、余分につけたりしてるので、そのあたりがどう影響するかですね。</p>
+<p>&#160;</p>
+<p>そうそう、100円ショップでビンとじょうご使って、新しいハンダゴテ台を作ったよ。   <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image30.png" width="455" height="378" />&#160; <br />まだ仮止めなんだけど、結構使いやすくて、調整しながらカスタムしていくよ。フタにはハンダゴテ綺麗にするスポンジついています。これも100円ショップ。飾りにビー玉もいれたよ。</p>
+<p>ど？    </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/02/11/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae6/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Minty Boostの作者　えらい！</title>
+		<link>/2011/02/11/minty-boost%e3%81%ae%e4%bd%9c%e8%80%85%e3%80%80%e3%81%88%e3%82%89%e3%81%84%ef%bc%81/</link>
+					<comments>/2011/02/11/minty-boost%e3%81%ae%e4%bd%9c%e8%80%85%e3%80%80%e3%81%88%e3%82%89%e3%81%84%ef%bc%81/#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 11 Feb 2011 00:54:41 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[100円]]></category>
+		<category><![CDATA[3V]]></category>
+		<category><![CDATA[500ma]]></category>
+		<category><![CDATA[5V]]></category>
+		<category><![CDATA[data;]]></category>
+		<category><![CDATA[iPhone充電]]></category>
+		<category><![CDATA[USB]]></category>
+		<category><![CDATA[昇圧]]></category>
+		<guid isPermaLink="false">/2011/02/11/minty-boost%e3%81%ae%e4%bd%9c%e8%80%85%e3%80%80%e3%81%88%e3%82%89%e3%81%84%ef%bc%81/</guid>
+							<description><![CDATA[[vimeo http://www.vimeo.com/13835359 w=400&#38;h=225] Reverse engineering Apple&#8217;s secret charging method [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>[vimeo http://www.vimeo.com/13835359 w=400&amp;h=225]  </p>
+<p><a href="http://vimeo.com/13835359" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Reverse engineering Apple&#8217;s secret charging methods<span class="wpel-icon wpel-image wpel-icon-1"></span></a> from <a href="http://vimeo.com/adafruit" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">adafruit industries<span class="wpel-icon wpel-image wpel-icon-1"></span></a> on <a href="http://vimeo.com/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Vimeo<span class="wpel-icon wpel-image wpel-icon-1"></span></a>.</p>
+<p>iPhoneが充電モードをUSB Pin2,3 の電圧を見て決めている決定的な証拠ビデオ。ナイスJobですね。！</p>
+<p>すばらしい。ビデオ途中、チップ抵抗を外す場面があるんですが、間接熱でピンセットで外していますね。こういうテクがあるとは、勉強になります。   </p>
+<p>Appleはハードとソフト（OS)を、両面から作る会社なのでいろいろと、面白い仕掛けをしてくれますね。規格を工夫してくるところがすごく私は好きなんですが、こういうところを嫌う方もいます。    </p>
+<p>100円ショップのUSB充電器から、思わぬところに結びついてきたので、Hackした甲斐はありましたね。モノづくりの原点。バラして、１つ１つじっくり見る。ああでもない、こうでもないと試行錯誤して手を動かす。一見無駄なように思えても実は、意味があるんですよね。</p>
+<p>&#160;</p>
+<p>電子機器、年々、ちっこくなって、パーツが触りにくいので、そのあたりが悩みどころ。手がプルプルふるえちゃうんですもん。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/02/11/minty-boost%e3%81%ae%e4%bd%9c%e8%80%85%e3%80%80%e3%81%88%e3%82%89%e3%81%84%ef%bc%81/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

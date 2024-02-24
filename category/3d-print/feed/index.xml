@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>3D Print &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 14 May 2017 15:46:48 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>3D Print &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>200円で、ハンドスピナーを作ったよ</title>
+		<link>/2017/05/15/200%e5%86%86%e3%81%a7%e3%80%81%e3%83%8f%e3%83%b3%e3%83%89%e3%82%b9%e3%83%94%e3%83%8a%e3%83%bc%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f%e3%82%88/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 14 May 2017 15:46:48 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<guid isPermaLink="false">/?p=3971</guid>
+							<description><![CDATA[3D プリンターがあると、今流行っているハンドスピナーも200円くらいで作れます。ベアリングの価格次第です。ベアリングを１つだけ使うものであれば、50円ほどで作れます。 いろんなタイプのがありますが、608 タイプのベア [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>3D プリンターがあると、今流行っているハンドスピナーも200円くらいで作れます。ベアリングの価格次第です。ベアリングを１つだけ使うものであれば、50円ほどで作れます。</p>
+<p> <img loading="lazy" decoding="async" title="IMGP1363" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1363" src="/wp-content/uploads/2017/05/imgp1363.png" width="640" height="480" />   </p>
+<p>いろんなタイプのがありますが、608 タイプのベアリングを入れるものが主流のようです。この608 タイプのベアリングはスケボーの車輪軸に使われているもので、流通量が多く入手もしやすいです。いくつかのタイプを作ってみました。</p>
+<p><img loading="lazy" decoding="async" title="P1310002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1310002" src="/wp-content/uploads/2017/05/p1310002.png" width="640" height="480" /> </p>
+</p>
+<p>ベアリングを４つ使うタイプは、ずっしりして片手で回すには少し力が要ります。２つタイプのは、あんまりお勧めしません。あと、密封型のベアリングは中に塗布してあるグリスが抵抗になるので、ほどよくバーナーであぶって少し溶かし出して回りをよくしてあります。筐体に嵌め込む前に作業しておきます。</p>
+<p><img loading="lazy" decoding="async" title="P1310018" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1310018" src="/wp-content/uploads/2017/05/p1310018.jpg" width="640" height="480" /> </p>
+<p>今回使ったベアリングはアリエクから ABEC-7 相当というのをテストで買ってみたのですがクオリティーが悪いので今回のおもちゃ用に使いました。それでもそこそこ回ります。日本製のベアリングなど精度がよいものであれば、かなり回ると思います。</p>
+<p>&#160;</p>
+<p>３Dモデルは、Thingiverse で以下のタイプをプリントしました。<a href="http://www.thingiverse.com/search?q=Spinner" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Spinner<span class="wpel-icon wpel-image wpel-icon-1"></span></a>で検索するとたくさん出てきます。</p>
+<p><a href="http://www.thingiverse.com/thing:1802260" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="Tri_Fidget_Spinner_Toy_by_2ROBOTGUY_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Tri_Fidget_Spinner_Toy_by_2ROBOTGUY_-_Thingiverse" src="/wp-content/uploads/2017/05/tri_fidget_spinner_toy_by_2robotguy__thingiverse1.png" width="640" height="456" /></a> </p>
+<p>ベアリングが１つなのは、以下。</p>
+<p><a href="http://www.thingiverse.com/thing:1812257" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" title="Fidget_Hand_Spinner_by_Ackij_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Fidget_Hand_Spinner_by_Ackij_-_Thingiverse" src="/wp-content/uploads/2017/05/fidget_hand_spinner_by_ackij__thingiverse1.png" width="640" height="449" /></a> この玉が見えているタイプは、樹脂製のシールで作られたタイプの 608 タイプをシールを取ってグリスを洗い出したもので作ってあるようです。または、こういうオープン構造のベアリングもあります。</p>
+<p>&#160;</p>
+<p>回りにある３つのベアリングは錘なので、ベアリングじゃなくても良いので、ナットとか、コインとかでも良いです。</p>
+<p>5円玉とほぼ同じ大きさなので、6枚はめてみました。</p>
+<p><img loading="lazy" decoding="async" title="P1310029" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1310029" src="/wp-content/uploads/2017/05/p1310029.jpg" width="640" height="480" /> </p>
+<p>そこそこ回ります。</p>
+<p><img loading="lazy" decoding="async" title="P1310028" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1310028" src="/wp-content/uploads/2017/05/p1310028.jpg" width="640" height="480" /> </p>
+<p>1セントのPenny硬貨をはめたモデルもありました。</p>
+<p><a href="http://www.thingiverse.com/thing:2067044" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="PENNY_TRI_SPINNER_-_Fidget_Toy_by_2ROBOTGUY_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="PENNY_TRI_SPINNER_-_Fidget_Toy_by_2ROBOTGUY_-_Thingiverse" src="/wp-content/uploads/2017/05/penny_tri_spinner__fidget_toy_by_2robotguy__thingiverse.png" width="640" height="453" /></a>&#160;</p>
+<p>大人用だと、608 タイプのベアリングでちょうどいいですが、子供用は 625 タイプの少し小さいのがいいんじゃないかなと思います。そのうち、作ってみようかなと。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ワークスペースを作るため3D プリンターを押入れに入れた</title>
+		<link>/2017/04/24/%e3%83%af%e3%83%bc%e3%82%af%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b9%e3%82%92%e4%bd%9c%e3%82%8b%e3%81%9f%e3%82%813d-%e3%83%97%e3%83%aa%e3%83%b3%e3%82%bf%e3%83%bc%e3%82%92%e6%8a%bc%e5%85%a5%e3%82%8c/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 23 Apr 2017 17:28:16 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<guid isPermaLink="false">/?p=3870</guid>
+							<description><![CDATA[机の上にワークスペースを作らないと、CNC やその他もろもろの作業ができないので部屋を整理していました。3D プリンターは毎日使うわけじゃないので、押入れにスペースを作ってそこに入れました。 服は片側だけで問題ないので、 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>机の上にワークスペースを作らないと、CNC やその他もろもろの作業ができないので部屋を整理していました。3D プリンターは毎日使うわけじゃないので、押入れにスペースを作ってそこに入れました。</p>
+<p><img loading="lazy" decoding="async" title="P1300830" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300830" src="/wp-content/uploads/2017/04/p1300830.png" width="640" height="480" /> </p>
+<p>服は片側だけで問題ないので、いらない服は整備するときの布切れにしました。服の断捨離の基準は、この1年で着たかどうかです。着なかったものは、容赦なく捨てるか切り刻んで布切れに。</p>
+<p>&#160;</p>
+<p>扉を閉めると、かなり音が静かになって一石二鳥です。また押入れの中にもダウンライトが付いていますし、LEDライトも3D プリンターにつけたので照明にはこまることはなさそうです。</p>
+<p>机の上は、作業スペースが出来てこれで CNC や 9999円3D プリンターのプロジェクトも再開できそうです。少しづつですが、これで前進できそうですので、来週からまた作業を再開しようと思います。ま、あわてず少しづつですが。</p>
+<p>&#160;</p>
+<p>みんな細かなパーツはどうしているんでしょうかね。ボックスに入れてしまうと、ちょっと作業したいときなど取り出す手間がかかります。このあたりは一考の余地がありますね。たとえば、electronics work room などで画像検索するとたとえば以下のような感じで小さな引き出しがたくさんあるようです。</p>
+<p><img loading="lazy" decoding="async" title="927a131c2e7d3b5f08d56ac838941c8a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="927a131c2e7d3b5f08d56ac838941c8a" src="/wp-content/uploads/2017/04/927a131c2e7d3b5f08d56ac838941c8a.jpg" width="640" height="427" /> </p>
+<p>たしかに便利そうですが、ごちゃごちゃした感じがあまり好きになれません。</p>
+<p><img loading="lazy" decoding="async" title="acc309f4a8c0fead0c07f90d26319b6f" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="acc309f4a8c0fead0c07f90d26319b6f" src="/wp-content/uploads/2017/04/acc309f4a8c0fead0c07f90d26319b6f.jpg" width="639" height="479" /> </p>
+<p>すっきりしつつ、便利な感じにしたいのですがどうしたらいいでしょうかね。</p>
+<p><img loading="lazy" decoding="async" title="01ccaf9ea2d03c5f332c8bc31e099542" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="01ccaf9ea2d03c5f332c8bc31e099542" src="/wp-content/uploads/2017/04/01ccaf9ea2d03c5f332c8bc31e099542.jpg" width="640" height="480" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>DIY Tool Wagon の貫通穴調整</title>
+		<link>/2017/04/23/diy-tool-wagon-%e3%81%ae%e8%b2%ab%e9%80%9a%e7%a9%b4%e8%aa%bf%e6%95%b4/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 22 Apr 2017 17:13:22 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[DIY_wagon]]></category>
+		<guid isPermaLink="false">/?p=3850</guid>
+							<description><![CDATA[ミスミのグリーンフレームを貫通させるための穴がなかなか納得いくものが出来なくて、やっと5つ目で出来ました。 後ろの４つは、微妙にサイズが小さくて溶かしてはめ込んだのですが、そのまま装着したいのでサイズ調整をしていました。 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>ミスミのグリーンフレームを貫通させるための穴がなかなか納得いくものが出来なくて、やっと5つ目で出来ました。</p>
+<p><img loading="lazy" decoding="async" title="P1300797" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300797" src="/wp-content/uploads/2017/04/p1300797.png" width="640" height="480" /> </p>
+<p>後ろの４つは、微妙にサイズが小さくて溶かしてはめ込んだのですが、そのまま装着したいのでサイズ調整をしていました。写真で装着しているものは、５回目のプリントでやっと出来たサイズ調整なしのものです。</p>
+<p><img loading="lazy" decoding="async" title="P1300799" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300799" src="/wp-content/uploads/2017/04/p1300799.png" width="640" height="480" /> </p>
+<p>アルミフレーム部分のシルエットを大きくしても、出っ張った部分の横幅がさほど大きくならないのと、へこんでいる部分を浅く作ることでやっと出来ました。</p>
+<p><img loading="lazy" decoding="async" title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="/wp-content/uploads/2017/04/a1.png" width="640" height="366" /> </p>
+<p>こんな感じで抜く穴を調整。</p>
+<p><img loading="lazy" decoding="async" title="P1300800" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300800" src="/wp-content/uploads/2017/04/p1300800.png" width="640" height="480" /> </p>
+<p>あとは左右対称にしてプリントするだけですが、結構なサイズですのでプリントは時間がかかります。空き時間を見つけて、少しづつプリントしていきます。</p>
+<p>&#160;</p>
+<p>CNC を作り出すと、工具が部屋に散らかるのでまずはこのワゴンから作っています。</p>
+<p>ロフト部分から部屋を撮影しましたが、T字型に組んだテーブルの手前に3D プリンターがあるのですが、これを押入れ部分に収納してここを作業台にしようと思っています。</p>
+<p><img loading="lazy" decoding="async" title="名称未設定" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="名称未設定" src="/wp-content/uploads/2017/04/ae42f5505f7e.png" width="636" height="536" /> </p>
+<p>3D プリンターがあると、机の上がごちゃごちゃしてくるのでなんとかしたいなと。作業が進まないのは、部屋が散らかりすぎているからなんですが、どうやってすっきりさせようかと思案中です。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Wanhao の LED 照明を作ってみた、その２</title>
+		<link>/2017/04/22/wanhao-%e3%81%ae-led-%e7%85%a7%e6%98%8e%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f%e3%80%81%e3%81%9d%e3%81%ae%ef%bc%92/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 22 Apr 2017 06:01:48 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[DIY]]></category>
+		<guid isPermaLink="false">/?p=3832</guid>
+							<description><![CDATA[すっかり春ですね。ソファーが到着してからは、まったりすることが多くなり映画とか読書に励んでいました。DIY な暇つぶしも腰が重いです。 で、前回はWanhao&#160; の前面に取り付ける筐体を作りましたが、まだ LE [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>すっかり春ですね。ソファーが到着してからは、まったりすることが多くなり映画とか読書に励んでいました。DIY な暇つぶしも腰が重いです。</p>
+<p>で、<a href="/2017/02/12/wanhao-%E3%81%AE-led-%E8%A8%BC%E6%98%8E%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">前回</a>はWanhao&#160; の前面に取り付ける筐体を作りましたが、まだ LED を組み込んでいませんでした。筐体だけ作って満足していた感じですが、<a href="http://www.thingiverse.com/thing:2106168/#comments" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">thingiverse<span class="wpel-icon wpel-image wpel-icon-1"></span></a> のコメントに「ノズルの先端まで照らせるの？」と、質問があったので気になって実際にLED を付けて確認してみました。だれかの突っ込みがあると「お～し、作ってみますか？」となる気力も沸きます。</p>
+<p><img loading="lazy" decoding="async" title="P1300777-1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300777-1" src="/wp-content/uploads/2017/04/p13007771.png" width="640" height="480" /> </p>
+<p>この LED はアリエクで買ったものです。前面に光束が集中するタイプで、英語だと Straw Hat LED と呼ばれるタイプです。100 個で 送料込み、160円ほどです。つなぎ方は、いろいろありますが12V の場合で4つ LED を点灯する一番簡単な方法は、直列につなぎます。本当は並列にして抵抗を入れ LED の定格のmA を流すのが本来のつなぎ方です。</p>
+<p><img loading="lazy" decoding="async" title="P1300779" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300779" src="/wp-content/uploads/2017/04/p1300779.png" width="640" height="480" /> </p>
+<p>テスト電源から 12V を流すとこんな感じで前面が光りました。赤い後ろにも 3D プリントした板があったのですが、光が透過しないのでとりました。あれは必要ありませんね。</p>
+<p><img loading="lazy" decoding="async" title="P1300781" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300781" src="/wp-content/uploads/2017/04/p1300781.jpg" width="640" height="480" /> </p>
+<p>LED の穴は、ちょうどサイズに作ったので、少し押し込むだけです。ボンドなどは使わなかったです。</p>
+<p><img loading="lazy" decoding="async" title="P1300777" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300777" src="/wp-content/uploads/2017/04/p1300777.png" width="640" height="480" /> </p>
+<p>あとから気が付いたのですが、スイッチがないと不便じゃないかと思いまして、背面にディップスイッチのシングルをつけました。ホットボンドで固定。</p>
+<p><img loading="lazy" decoding="async" title="P1300782" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300782" src="/wp-content/uploads/2017/04/p1300782.jpg" width="640" height="480" /> </p>
+<p>実装するとこんな感じ。電源はファンのコネクターの根元をばらしてそこから分配。</p>
+<p><img loading="lazy" decoding="async" title="P1300788" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300788" src="/wp-content/uploads/2017/04/p1300788.png" width="640" height="480" /> </p>
+</p>
+<p>LEDを点けてみました。</p>
+<p><img loading="lazy" decoding="async" title="P1300791" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300791" src="/wp-content/uploads/2017/04/p1300791.png" width="640" height="480" /> </p>
+<p><strike>おおお</strike>、（というほど感動する感じでもないですが、、）なかなかいい感じじゃないでしょうか？明るいです。プリントしたものは見やすくなりました。</p>
+<p>しかし、ノズル先端に注目してみると、少し影が出来ていて完全に先端まで光が届いていません。これは、アルミブロックがじゃましている感じです。うーむ、、、、（大きなソース画像がありますので、確認されたい場合は画像クリックを）</p>
+<p><a href="/wp-content/uploads/2017/04/p1300785.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="P1300785" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300785" src="/wp-content/uploads/2017/04/p1300785_thumb.png" width="640" height="480" /></a> コメントをくれた人は、この事を気にしていたのですね。</p>
+<p>完全に設計ミスですが、対策としては少しスペーサーを作って、LEDの取り付ける位置を5mm ほど下げれば完全に先端まで照らせそうです。実際に5mm ほど下げてみたのが以下の写真です。</p>
+<p><img loading="lazy" decoding="async" title="P1300795" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300795" src="/wp-content/uploads/2017/04/p1300795.png" width="640" height="480" /> </p>
+</p>
+<p>しかし、この位置まで下げると前面からプリントした対象物を確認しずらくなるので、どうしようかなというところです。まぁ、少し使いながら考えたいと思います。設計を変更して再度、作る気力もないですし。</p>
+<p>前面のLEDはプリント対象物を見る用ということにして、後ろのファンに LED を付ければノズル部分はかなり見えると思うのでそういうのを作るというのも手です。</p>
+<p>&#160;</p>
+<p>※ 現在は、斜め付けで、それなりに先端ぎりぎりまで照らせる感じでお茶を濁しています。写真追加。</p>
+<p>&#160;<img loading="lazy" decoding="async" title="P1300830-1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300830-1" src="/wp-content/uploads/2017/04/p13008301.png" width="640" height="480" /> </p>
+<p>さて、次なる DIY のため気力を再充電しておきますか！作りたくなる波があるんですよね。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ダイソーのステンレストレイとミスミのアルミフレームでDIY</title>
+		<link>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/</link>
+					<comments>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 25 Mar 2017 01:20:28 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[DIY_wagon]]></category>
+		<category><![CDATA[MISUMI]]></category>
+		<guid isPermaLink="false">/?p=3620</guid>
+							<description><![CDATA[ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。 39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。 他 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>ダイソーのステンレストレイが100円で、結構大きいのでこれでツールワゴンみたいなのを作ろうと思います。</p>
+<p><img loading="lazy" decoding="async" title="IMG_20170323_180046" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180046" src="/wp-content/uploads/2017/03/img_20170323_180046.jpg" width="640" height="480" /> </p>
+<p>39 x 29cm 深さ18mm くらいのが100円。ちょっとしたワゴンにちょうどいい大きさじゃないでしょうか。</p>
+<p>他にも、値段が300円まででいろいろあります。</p>
+<p><img loading="lazy" decoding="async" title="IMG_20170323_180053" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180053" src="/wp-content/uploads/2017/03/img_20170323_180053.jpg" width="633" height="843" /> </p>
+<p>これは300円ですが、40 x 30cm と大きく深さもあります。</p>
+<p><img loading="lazy" decoding="async" title="IMG_20170323_180056" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180056" src="/wp-content/uploads/2017/03/img_20170323_180056.jpg" width="631" height="841" /> </p>
+<p>少し小ぶりで 32 x 23cm ですが、深さがあるタイプ。200円</p>
+<p><img loading="lazy" decoding="async" title="IMG_20170323_180059" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180059" src="/wp-content/uploads/2017/03/img_20170323_180059.jpg" width="635" height="846" /> </p>
+<p>上記の浅いタイプ。</p>
+<p><img loading="lazy" decoding="async" title="IMG_20170323_180112" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_20170323_180112" src="/wp-content/uploads/2017/03/img_20170323_180112.jpg" width="640" height="480" /> </p>
+<p>ちょっと失礼して、並べて検討。100円のでとりあえず十分だということで、これを4枚ゲットしました。400円。あと写真にはありませんが、２つ並べてちょうど良さそうな、23 x 16cm の少し深めのものも２つゲット。</p>
+<p>&#160;</p>
+<p>以下のようなものを作ろうと思っています。簡易的にプレートをモデリングして、接続パーツやアルミフレームの検討をしています。</p>
+<p> <img loading="lazy" decoding="async" title="ステンレスプレート_ 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 3" src="/wp-content/uploads/2017/03/31.png" width="643" height="536" />   </p>
+<p>ベースのフレームは細い18mm と 28mm のグリーンフレームです。</p>
+<p><img loading="lazy" decoding="async" title="ステンレスプレート_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_" src="/wp-content/uploads/2017/03/unnamed-file3.png" width="644" height="856" /> </p>
+<p>グリーンフレームは太いので作るか、細いのかで迷っています。コスト重視なら細いものですが。</p>
+<p><img loading="lazy" decoding="async" title="ステンレスプレート_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="ステンレスプレート_ 2" src="/wp-content/uploads/2017/03/21.png" width="641" height="858" /> </p>
+</p>
+<p>このステンレストレイは、大きさが 39 x 29cm もあって100円で利益出るんですかね。0.5mm くらいなのでコストは抑えてありそうですが。100円ショップ、ほんと楽しいです。</p>
+<p><img loading="lazy" decoding="async" title="P1300042" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300042" src="/wp-content/uploads/2017/03/p1300042.jpg" width="640" height="480" /> </p>
+<p>工具が床に散らばるので、部屋の中にあると便利かなと思いまして。こんな感じで工具がちょうどいい感じに載せれます。</p>
+<p><img loading="lazy" decoding="async" title="P1300038" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300038" src="/wp-content/uploads/2017/03/p1300038.jpg" width="640" height="480" /> </p>
+<p>高さは50cm を検討。台車も100円ショップで売っていたのでゲットしてきました。</p>
+<p>これは、ダイソーじゃなく100円ショップのSeria（セリア）です。1個あたりの耐荷重は約10kg とあります。４つで40kg なので人が乗る用途でもないので十分でしょう。</p>
+<p><img loading="lazy" decoding="async" title="P1300347" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300347" src="/wp-content/uploads/2017/03/p1300347.jpg" width="640" height="480" /> </p>
+<p>ストッパー付きです。100円なのに高機能ですね。ベアリングとかは入っていませんが。</p>
+<p>台座は四角なので、ジョイントアダプターを作る必要がありますね。</p>
+<p><img loading="lazy" decoding="async" title="P1300348" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300348" src="/wp-content/uploads/2017/03/p1300348.jpg" width="640" height="480" /> </p>
+<p>38mm 角のようです。</p>
+<p><img loading="lazy" decoding="async" title="P1300349" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="P1300349" src="/wp-content/uploads/2017/03/p1300349.jpg" width="640" height="480" />&#160;</p>
+<p>材料の概算費用は、ステンレストレイが4枚で400円とフレームがグリーンフレームS だと416円、グリーンフレームだと684円。このくらいだったら、太いほうがいいですかね。タイヤが4個で200円。合計で、1016円か、1284円。あと取っ手のフレームも加算しますので100円か200円くらい高くなりそうです。</p>
+<p>&#160;</p>
+<p>もう少し、CAD上でつついて検討したいと思います。高さは、50cm もなくていいのかな。トレイは取り外せるようにするか、固定するかでフレームの構造も決まります。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

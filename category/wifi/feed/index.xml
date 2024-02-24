@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>WiFi &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 12 May 2020 06:33:12 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>WiFi &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>DW1820A WiFi、Bluetoothとアンテナを取り付け</title>
+		<link>/2020/05/12/dw1820a-wifi/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 12 May 2020 06:33:12 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bluetooth]]></category>
+		<category><![CDATA[WiFi]]></category>
+		<category><![CDATA[Win10]]></category>
+		<guid isPermaLink="false">/?p=5135</guid>
+							<description><![CDATA[ちょっと間が空きましたが、無事にアリエクから購入した品が届きましたので、取り付けてみました。 WiFiとアンテナを調達！ /2020/03/29/wifi-dw1820a-bcm94 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>ちょっと間が空きましたが、無事にアリエクから購入した品が届きましたので、取り付けてみました。</p>
+<blockquote><p>WiFiとアンテナを調達！<br />
+/2020/03/29/wifi-dw1820a-bcm94350zae/</p></blockquote>
+<p>実際のカードはこんな感じです。このカードは、WiFiとBluetoothのコンボカードです。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5136" src="/wp-content/uploads/2020/05/14765.jpg" alt="14765.jpg" width="1076" height="807" />ちゃんと、技適のシールもあるようですね。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5137" src="/wp-content/uploads/2020/05/14764.jpg" alt="14764.jpg" width="1217" height="913" />WiFiカードは、HDDマウンターの下にあります。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5139" src="/wp-content/uploads/2020/05/14763.jpg" alt="14763.jpg" width="1477" height="1108" />こんな感じでアンテナを取り回してみました。アンテナコネクタが取り付けにくかったので、取り付けてからねじ止めしました。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5141" src="/wp-content/uploads/2020/05/14762.jpg" alt="14762.jpg" width="1477" height="1108" />２本あるので、上段のは穴を開けています。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5142" src="/wp-content/uploads/2020/05/14761.jpg" alt="14761.jpg" width="1477" height="1108" />ちなみに、こういうのがあると、便利に穴が開けられます。上段スロットの蓋をとりはずして穴あけておきました。とりあえずは、ここがベストかな。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5143" src="/wp-content/uploads/2020/05/3pc_hss_step_drill_bit_set_cone_hole_cutter_taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_drill_bits__-_aliexpress.png" alt="3pc_Hss_step_drill_bit_set_cone_hole_cutter_Taper_metric_4_12___20___32mm_1___4__titanium_coated_metal_hex_core_drill_bits_Drill_Bits__-_AliExpress.png" width="1029" height="530" /></p>
+<p>あとは、BIOSでEnabledになっているのを確認後、Win起動。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5148" src="/wp-content/uploads/2020/05/14759-1.jpg" alt="14759.jpg" width="1413" height="997" /><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5147" src="/wp-content/uploads/2020/05/14760-1.jpg" alt="14760.jpg" width="1461" height="1032" />ドライバーがまだ入っていないので、BCM2045A0の不明なデバイスになっています。<img loading="lazy" decoding="async" class="alignnone size-full wp-image-5149" src="/wp-content/uploads/2020/05/2020-05-08__1__png_-_onedrive.png" alt="2020-05-08__1__png_-_OneDrive.png" width="889" height="568" /></p>
+<p>ドライバはこれで行けるようです。</p>
+<blockquote><p>Broadcom 4356 Bluetooth ドライバー (Windows 10 64bit) &#8211; ThinkPad L460<br />
+https://support.lenovo.com/jp/ja/downloads/ds111952</p></blockquote>
+<p><img loading="lazy" decoding="async" class=" size-full wp-image-5150 aligncenter" src="/wp-content/uploads/2020/05/2020-05-08__3__png_-_onedrive.png" alt="2020-05-08__3__png_-_OneDrive.png" width="427" height="568" /></p>
+<p>当初、懸念していたベンダーIDとかいじらなくても特に認識した感じです。Windows機として使う場合は、無線はやっぱり便利ですね。Bluetooth4.1 LEです。１６００円くらいで、WiFiとBluetoothがつけられるので、純正より安いですね。</p>
+<p>このマシン、将来的にはサーバ機になるんですが現在はフォートナイト専用マシンとして遊んでいます。画質は全部、低にしてだいたい50FPS くらいでますんでビギナーにはちょうどいい感じ。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WiFiとアンテナを調達！</title>
+		<link>/2020/03/29/wifi-dw1820a-bcm94350zae/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 29 Mar 2020 03:24:44 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[osx]]></category>
+		<category><![CDATA[WiFi]]></category>
+		<category><![CDATA[Win10]]></category>
+		<guid isPermaLink="false">/?p=5123</guid>
+							<description><![CDATA[世間はコロナで、ニュースサイトもコロナのことばっかりですね。東京は不要不急の外出は控えないといけないんで、というか外にはあまり用事ありませんが、ネットの世界で遊んでみましょう！しかも、日曜は雪ですよ。この時期に東京で雪な [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>世間はコロナで、ニュースサイトもコロナのことばっかりですね。東京は不要不急の外出は控えないといけないんで、というか外にはあまり用事ありませんが、ネットの世界で遊んでみましょう！しかも、日曜は雪ですよ。この時期に東京で雪なんて珍しいんじゃないでしょうか。</p>
+<p>で、アリエクがセールに突入したんで宅内サーバにする現在発注済みの「ThinkCentre M75q-1 Tiny」に取り付けて実験するWiFiカードとアンテナを調達しておきました。調達にあたり、先輩方のサイトが参考になりました。</p>
+<blockquote><p>PC好きの備忘録：ThinkCentre M75q-1 Tinyを買った<br />
+https://hchch.net/thinkcentre-m75q-1-tiny-review/</p></blockquote>
+<p>WiFi カードはいろいろと候補がありますが、このマシンに取り付けられるM.2スロットは 長さが30mm タイプ、2230のKey A+E が付けられるようです。安いのはINTELのがあるんですが、 ちょっとこのマシンに Hackintosh が入れられるか試してみたくて、WiFi もそこそこいけそうなのを選んでいました。Hackintosh に INTEL の WiFi は選択肢としてはナシなので、Boot macOS さんとこで使えそうで長さが短い NGFF（M.2）なものを探しにいきました。</p>
+<blockquote><p>Boot macOS：HACKINTOSHのパーツ選び 【その4：無線編】<br />
+https://bootmacos.com/entry/2017/09/10/175816</p></blockquote>
+<p>M.2 タイプの WiFI だと一番無難なものは、BCM94360NG のようですがこれはちとお高い（5000円ちょい）ので、多少パッチやドライバ当ててもいいんで安そうなものを探していました。</p>
+<p>結局、型番と流通の両観点からお得でかつ、容易（ドライバやパッチしなくても）なものを探すのに１、２日かかりましたが、以下サイトから</p>
+<blockquote><p>INVENTORY OF SUPPORTED/UNSUPPORTED WIRELESS CARDS #1<br />
+https://osxlatitude.com/forums/topic/2120-inventory-of-supportedunsupported-wireless-cards-1-snow-leopard-el-capitan/</p></blockquote>
+<p>DW1820A という型番、チップはBCM94350ZAE（技適：<a href="https://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=007&amp;TC=N&amp;PK=1&amp;FN=402ul&amp;SN=%94F%8F%D8&amp;LN=17&amp;R1=*****&amp;R2=*****" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">007－ＡＤ0109<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）が良さそうだということになりました。たぶん、OOB（Out of the Boxの略でパッチいらずで箱から出してすぐ使えるもの）と記載がありました。これの詳細は以下にあります。</p>
+<blockquote><p>BROADCOM BCM4350 CARDS UNDER HIGH SIERRA/MOJAVE/CATALINA<br />
+https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojavecatalina/</p></blockquote>
+<p>対処法の要約は以下です。</p>
+<blockquote><p>⑴ブートフラグに、brcmfx-country = XX  （XXはターゲット値、たとえば、US、FR、＃aなど）をつける。<br />
+⑵ASPMを無効にするDSDTパッチをあてる<br />
+＞該当PCIのターゲットデバイスを指定<br />
+＞具体的な値は以下</p>
+<p>Key = compatible | Value = pci14e4,4353 | Type = STRING<br />
+Key = pci-aspm-default | Value = 0 | Type = NUMBER<br />
+Key = AAPL,slot-name | Value = WLAN | Type = STRING (optional)<br />
+Key = device_type | Value = Airport Extreme | Type = STRING (optional)<br />
+Key = name | Value = Airport | Type = STRING (optional)<br />
+Key = model | Value = Dell DW1820 (BCM4350) 802.11ac wireless | Type = STRING (optional)</p>
+<p>⑶あとは、BrcmFirmwareRepo + BrcmPatchRAM2 のkextsを入れればBT4.1で AirDrop と Handoffが使える</p></blockquote>
+<p>という感じのようです。ちゅうか、OOBじゃないやん（笑）一応、用語の解説。 ASPM は、接続するデバイスが使用中でない時に PCIe リンク用に電力状態を低く設定することです。</p>
+<blockquote><p>RedHat：3.7. ACTIVE-STATE POWER MANAGEMENT<br />
+https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/6/html/power_management_guide/aspm</p></blockquote>
+<p>Handoffとは、iOS とかの対応アプリで作業途中から引き継げる機能で、以下参照。</p>
+<blockquote><p>Apple：Handoff を使ってほかのデバイスで作業を続ける<br />
+https://support.apple.com/ja-jp/HT209455</p></blockquote>
+<p>&nbsp;</p>
+<p>これらは、DELLやLENOVOのパーツ型番があるようで、汎用品は、Amazonでも流通していますが 急ぎではないので、1000円代で買えるアリエクでポチっておきました。このDW1820A の表記があるのはDELLの汎用品でしょうか。</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="DW1820A_BCM94350ZAE_802_11ac_BT4_1_867Mbps_wifi_Adapter_DW1820_BCM94352Z_M_2_better_NGFF_than_BCM94350_WiFi_Wireless_Card_E8G2_Computer_Cables___Connectors____-_AliExpress.png" src="/wp-content/uploads/2020/03/dw1820a_bcm94350zae_802_11ac_bt4_1_867mbps_wifi_adapter_dw1820_bcm94352z_m_2_better_ngff_than_bcm94350_wifi_wireless_card_e8g2_computer_cables___connectors____-_aliexpress.png" alt="DW1820A BCM94350ZAE 802 11ac BT4 1 867Mbps wifi Adapter DW1820 BCM94352Z M 2 better NGFF than BCM94350 WiFi Wireless Card E8G2 Computer Cables Connectors AliExpress" width="598" height="339" border="0" /></p>
+<p>送料入れて、1350円くらいですかね。アンテナも同時にゲット。すばらしぃ安さ！今セールなんですよね。てか、年中セールやってますが（笑）</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="2x6Dbi_2_4GHz_5GHz_Dual_Band_M_2_IPEX_MHF4_U_fl_Extension_Cable_to_WiFi_RP_SMA_Pigtail_Antenna_Set_for_Wireless_Router_Aerial_Network_Cards____-_AliExpress.png" src="/wp-content/uploads/2020/03/2x6dbi_2_4ghz_5ghz_dual_band_m_2_ipex_mhf4_u_fl_extension_cable_to_wifi_rp_sma_pigtail_antenna_set_for_wireless_router_aerial_network_cards____-_aliexpress.png" alt="2x6Dbi 2 4GHz 5GHz Dual Band M 2 IPEX MHF4 U fl Extension Cable to WiFi RP SMA Pigtail Antenna Set for Wireless Router Aerial Network Cards AliExpress" width="598" height="316" border="0" /></p>
+<p>これは、MHF4コネクタの30cm ケーブルのようです。２本目のアンテナはどっから出すかはまぁ来てから考えることにします。合計で2000円以下のカスタマイズですが、サーバ運用する前にあれこれ遊ぶ予定です。</p>
+<p>&nbsp;</p>
+<p>最後に、最近フォートナイトっていうゲームにハマっています。これ、最終的には壁（建築物）をうまく制御できないと勝ちにくいので、コントローラーが必須です。良くても２、３位くらいでぬっころされるんで、DUALSHOCK 4 のパチモンをゲットしました。</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="Controller_For_PS4_Pro___PC___iPhone___Android_Mobile_Phone__Wireless_Bluetooth_Gamepad_For_SONY_Playstation_4_Dualshock_Console_Gamepads____-_AliExpress.png" src="/wp-content/uploads/2020/03/controller_for_ps4_pro___pc___iphone___android_mobile_phone__wireless_bluetooth_gamepad_for_sony_playstation_4_dualshock_console_gamepads____-_aliexpress.png" alt="Controller For PS4 Pro PC iPhone Android Mobile Phone Wireless Bluetooth Gamepad For SONY Playstation 4 Dualshock Console Gamepads AliExpress" width="598" height="383" border="0" /></p>
+<p>無料でできて、かつ mac でもプレイできるんでハマっているんですが、勝てないんでムキになるんですよね。<br />
+「ThinkCentre M75q-1 Tiny」だとどのくらい遊べるか、ちょっと気になっています。岡ちゃんねるさんとこでは、1980&#215;1080の画質中で、Windows だと 60FPS 出るそうです。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>「v6プラス」固定IPではまった！</title>
+		<link>/2020/03/08/%e3%80%8cv6%e3%83%97%e3%83%a9%e3%82%b9%e3%80%8d%e5%9b%ba%e5%ae%9aip%e3%81%a7%e3%81%af%e3%81%be%e3%81%a3%e3%81%9f%ef%bc%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 07 Mar 2020 16:42:07 +0000</pubDate>
+				<category><![CDATA[enhikari]]></category>
+		<category><![CDATA[WiFi]]></category>
+		<category><![CDATA[wimax]]></category>
+		<category><![CDATA[v6plus+IP]]></category>
+		<guid isPermaLink="false">/?p=4940</guid>
+							<description><![CDATA[固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！]]></description>
+										<content:encoded><![CDATA[<p>enひかりが開通しました。ぶっちぎりの速さでびっくりしています。</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="3-7_0350.png" src="/wp-content/uploads/2020/03/3-7_0350.png" alt="3 7 0350" width="599" height="557" border="0" /></p>
+<p>ルータは自動設定でとりあえず繋がった状態なんです。</p>
+<p>まずは、ちゃんと設定していこうと IP固定の設定からやることにしました。enひかりのキャンペーンで安く買った（1000円＋送料800円）エレコムのルータ（WRC-1167GST2）を設定していました。</p>
+<blockquote>
+<p>ELECOM 11ac 867+300Mbps 無線LANギガビットルーターWRC-1167GST2</p>
+<p>https://www.elecom.co.jp/products/WRC-1167GST2.html</p>
+</blockquote>
+<p>家庭用なのでコンソール接続から、細かな設定をするタイプじゃなくてWEB画面から設定する感じです。ファームウェアを最新に上げて、WANの設定をしたところ全然つながりません。</p>
+<p>ELECOM（WRC-1167GST2） のルータは、ファームウェアがVer1.21以上だと、WANアクセスタイプ「transix（固定IP）」が選択できるようになるんですが、</p>
+<blockquote>
+<p>【GST2】transix（固定IP）の設定方法</p>
+<p>http://qa.elecom.co.jp/faq_detail.html?id=8225&#038;category=1054&#038;page=1</p>
+</blockquote>
+<p>この入力欄は以下のようになっています。</p>
+<blockquote>
+<p>WANアクセスタイプ：transix（固定IP）<br />トンネル終端IPv6アドレス：<br />Interface ID：<br />グローバルIPv4アドレス：<br />アップデートサーバー ユーザー<br />アップデートサーバー パスワード：</p>
+</blockquote>
+<p>enひかりから、通知された固定IP情報のご案内には「BRアドレス」ってあるんですよね。</p>
+<blockquote>
+<p>v4IPアドレス：106.xxx.xxx.xxx/32<br />インターフェイスID：IPv6アドレスの64bit（半分）<br />BRアドレス：IPv6アドレスの64bit（半分）<br />ユーザーID：xxx<br />パスワード：xxx</p>
+</blockquote>
+<p>トンネル終端IPv6アドレス　っていうのが、BRアドレスだと思って入力してみたんですが設定が完了せずダイアログが出るんですよね。</p>
+<p>眠くなったので、翌日土曜日に enひかりに電話して聞こうと思いその日は寝ました！</p>
+<p> </p>
+<p>で、翌日サポートに電話したらそのルータは「enひかり｢v6プラス｣固定IPサービス（IPinIP）」には対応していません。とのこと！</p>
+<p>はっ！まじっすか！　1800円でゲットしたと喜んでいましたが、どうやらこの家庭用ルータでは設定できないようです。</p>
+<p>じゃどんな機器で設定可能ですか？　と聞いたところ、</p>
+<blockquote>
+<p>enひかり｢v6プラス｣固定IPサービスについて（IPinIP）</p>
+<p>https://enhikari.jp/v6plus.html</p>
+<p>：：</p>
+<p>上記v6プラス対応NTT東日本又はNTT西日本社製のHGW<br />設定方法<br />http://ntt.setup:8888/t/ にアクセス<br />IPv4設定⇒高度な設定⇒固定アドレス設定⇒enひかり開通のご案内に記載のIPv4アドレスを入力</p>
+<p>ヤマハ社製　RTX/NVRシリーズ　 設定例</p>
+<p>NEC社製　UNIVERGE IXシリーズ　 設定例</p>
+<p>古河電工社製　FILTELnet-Fシリーズ　 設定例</p>
+<p>センチュリー・システムズ社製　NXR,WXRシリーズ 設定例</p>
+<p>※｢v6プラス｣対応機器について詳しくは販売元各社公式ホームページをご確認ください。</p>
+</blockquote>
+<p>とのこと。とりあえず、公式にこのルータでは、v6プラスの固定IPは設定できないと回答いただいたので諦めがつきました。</p>
+<p> </p>
+<p>そもそも、IP固定サービスの説明は以下で、</p>
+<blockquote>
+<p>enひかり固定IP</p>
+<p>https://enhikari.jp/koteiip.html</p>
+<p>::</p>
+<p>＊enひかり固定IPのご利用には、enひかりの契約が必要です。固定IPのみのご契約はできません。<br />＊固定IPv4アドレスとなります。IPv6接続をご希望の場合はenひかり「v6プラス」も併せてお申し込みください。</p>
+<p>::</p>
+</blockquote>
+<p>一番下の注意書き※にv６プラスの固定IPにすると、ルータは限定されたものが必要です。とか注意書きが欲しかった。</p>
+<p>また、そのページにはちゃんと書いてあるんですがね。</p>
+<blockquote>
+<p>enひかり｢v6プラス｣</p>
+<p>https://enhikari.jp/v6plus.html</p>
+<p>::</p>
+<p>enひかり｢v6プラス｣固定IPサービスについて（IPinIP）</p>
+<p>※固定IPのご利用には別途enひかり固定IPのお申込及び対応機器のご用意及び設定が必要です。</p>
+<p>::</p>
+</blockquote>
+<p>transix の説明ページには、enひかり固定IP との併用はできない　と記載があります。うーん、よくわからん。</p>
+<blockquote>
+<p>enひかり｢transix(トランジックス)｣</p>
+<p>https://enhikari.jp/transix.html</p>
+<p>::</p>
+<p>＊enひかり｢transix｣のご利用には、enひかりの契約が必要です。enひかり｢transix｣は固定IPサービス及びenひかり｢v6プラス｣との併用はできません。</p>
+</blockquote>
+<p>つまり、固定IPを選んだら、単独で契約するか、またはv6プラス と併用するかの２択となるようです。</p>
+<p>自分の場合は、固定IPとv6プラスをオプションで選んだのでこういうハマり事に遭遇したというわけですね。</p>
+<p>もう一度、書いておきますが</p>
+<p style="text-align:center;"><strong>固定IPとv6プラスを選んだら、設定できるルータは選ばないとだめ！</strong></p>
+<p>ということです。ちょっとわかりにくいですよね。</p>
+<p>ということで、この設定ができるルータ選びをすることにします。次回は、ルータ選び編ですね。</p>
+<p> </p>
+<p> </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>enひかり開通！</title>
+		<link>/2020/03/06/en%e3%81%b2%e3%81%8b%e3%82%8a%e9%96%8b%e9%80%9a%ef%bc%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 06 Mar 2020 09:21:26 +0000</pubDate>
+				<category><![CDATA[WiFi]]></category>
+		<category><![CDATA[wimax]]></category>
+		<guid isPermaLink="false">/?p=4937</guid>
+							<description><![CDATA[来た〜〜〜〜〜〜！ これから、あれこれ設定です。リモートワークしてたんでとりあえず、部屋から出たい（笑）]]></description>
+										<content:encoded><![CDATA[<p>来た〜〜〜〜〜〜！</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="インターネット回線の速度テスト___Fast_com.png" src="/wp-content/uploads/2020/03/e382a4e383b3e382bfe383bce3838de38383e38388e59b9ee7b79ae381aee9809fe5baa6e38386e382b9e38388___fast_com.png" alt="インターネット回線の速度テスト Fast com" width="599" height="568" border="0" /></p>
+<p>これから、あれこれ設定です。リモートワークしてたんでとりあえず、部屋から出たい（笑）</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>enひかり速攻開通連絡きた！</title>
+		<link>/2020/02/26/en%e3%81%b2%e3%81%8b%e3%82%8a%e9%80%9f%e6%94%bb%e9%96%8b%e9%80%9a%e9%80%a3%e7%b5%a1%e3%81%8d%e3%81%9f%ef%bc%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 25 Feb 2020 23:48:39 +0000</pubDate>
+				<category><![CDATA[WiFi]]></category>
+		<category><![CDATA[wimax]]></category>
+		<guid isPermaLink="false">/?p=4933</guid>
+							<description><![CDATA[enひかり、速攻開通連絡がきますた！開通日は、3/6で立会いなし。 どうやら、この賃貸には「光コンセント」なるものがすでに設置されていて工事の立会いなしで開通するようです。 そんなコンセント見たことなかったのですが、今日 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>enひかり、速攻開通連絡がきますた！開通日は、3/6で立会いなし。</p>
+<p>どうやら、この賃貸には「光コンセント」なるものがすでに設置されていて工事の立会いなしで開通するようです。</p>
+<p>そんなコンセント見たことなかったのですが、今日家に帰ってきて探してもるとなんとあるではないですか！</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072152_0.jpg" src="/wp-content/uploads/2020/02/img_20200226_072152_0.jpg" alt="IMG 20200226 072152 0" width="600" height="450" border="0" /></p>
+<p>今まで気がつかなったです。自転車が部屋ん中にあるのはガレージがないからです。そのうち、ネタで取りあげますか。</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072201_1CS.jpg" src="/wp-content/uploads/2020/02/img_20200226_072201_1cs.jpg" alt="IMG 20200226 072201 1CS" width="600" height="450" border="0" /></p>
+<p>左側に「光コンセント」って記載が見えますね。最近の家はこういう仕様になっているんですね。</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="IMG_20200226_072251_1.jpg" src="/wp-content/uploads/2020/02/img_20200226_072251_1.jpg" alt="IMG 20200226 072251 1" width="600" height="450" border="0" /></p>
+<p>モジュールが刺さるっぽい感じです。</p>
+<p>ということで、もうすぐ念願の光回線が到着します。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>雑談 &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 22 Feb 2011 13:15:53 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>雑談 &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>L（コイル）とC（コンデンサ）は不滅だね</title>
+		<link>/2011/02/22/l%ef%bc%88%e3%82%b3%e3%82%a4%e3%83%ab%ef%bc%89%e3%81%a8c%ef%bc%88%e3%82%b3%e3%83%b3%e3%83%87%e3%83%b3%e3%82%b5%ef%bc%89%e3%81%af%e4%b8%8d%e6%bb%85%e3%81%a0%e3%81%ad/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 22 Feb 2011 13:15:53 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[スイッチング]]></category>
+		<category><![CDATA[雑談]]></category>
+		<guid isPermaLink="false">/2011/02/22/l%ef%bc%88%e3%82%b3%e3%82%a4%e3%83%ab%ef%bc%89%e3%81%a8c%ef%bc%88%e3%82%b3%e3%83%b3%e3%83%87%e3%83%b3%e3%82%b5%ef%bc%89%e3%81%af%e4%b8%8d%e6%bb%85%e3%81%a0%e3%81%ad/</guid>
+							<description><![CDATA[パソコンがどんどん発達していっても、電源っていうのは絶対に必要で、その電源には必ずコイルとコンデンサがあるわけで、その基本的な動きを目で見てわかるようにするアイデアを思いついたのでメモ。 &#160; シンプルなスイッチ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>パソコンがどんどん発達していっても、電源っていうのは絶対に必要で、その電源には必ずコイルとコンデンサがあるわけで、その基本的な動きを目で見てわかるようにするアイデアを思いついたのでメモ。   </p>
+<p><img decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image39.png" width="516" height="292" />&#160; </p>
+<p>シンプルなスイッチング回路で、この回路を、「<strong><font color="#ff0000">目で見てわかる</font></strong>」ようにしよう。    </p>
+<p>参考文献    <br /><a href="http://www.tdk.co.jp/tjbcd01/bcd23_26.pdf" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">電源回路のLC素子<span class="wpel-icon wpel-image wpel-icon-1"></span></a> TDK&#160;&#160;&#160; THE HOTLINE Vol. 23より</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ＰＣ接続テスターぽちった</title>
+		<link>/2011/02/19/%ef%bd%90%ef%bd%83%e6%8e%a5%e7%b6%9a%e3%83%86%e3%82%b9%e3%82%bf%e3%83%bc%e3%81%bd%e3%81%a1%e3%81%a3%e3%81%9f/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 18 Feb 2011 19:45:17 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[オシロスコープ]]></category>
+		<category><![CDATA[テスター]]></category>
+		<category><![CDATA[雑談]]></category>
+		<guid isPermaLink="false">/2011/02/19/%ef%bd%90%ef%bd%83%e6%8e%a5%e7%b6%9a%e3%83%86%e3%82%b9%e3%82%bf%e3%83%bc%e3%81%bd%e3%81%a1%e3%81%a3%e3%81%9f/</guid>
+							<description><![CDATA[長らく、アナログテスターでがんばってきたけどやっぱり目の前にパソコンあるとつなぎたくなるよね。 本当は4チャンネルかそこらの、データロガーが欲しかったんだけど、なかなか安値でいいのが見つからなくて。 簡易的なものでもいい [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>長らく、アナログテスターでがんばってきたけどやっぱり目の前にパソコンあるとつなぎたくなるよね。   <br />本当は4チャンネルかそこらの、データロガーが欲しかったんだけど、なかなか安値でいいのが見つからなくて。    </p>
+<p>簡易的なものでもいいから、なんかないかなぁって。お、そういえば、テスタってＰＣにつなげるのあるよなって。ググったら、結構安いんだよね。1万くらいはするかなって思ったけども、なんと4000円弱であるではないですか。    </p>
+<p>そんな中で候補にあがったのが、2機種。    <br /><img decoding="async" src="http://www.p-mastech.com/products/04_dm/mas345_h.jpg" />MAS-345 (<a href="http://www.p-mastech.com/products/04_dm/mas345.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">MAS345 DIGITAL MULTIMETER<span class="wpel-icon wpel-image wpel-icon-1"></span></a>)     <br />秋月電子にて3850円    <br /><img decoding="async" src="http://www.p-mastech.com/products/12_a/t3012_h.jpg" />    <br />定番の安値でＰＣ接続できるヤツですね。    </p>
+<p>これもお値打ちだよ～。    <br /><img decoding="async" src="http://www.p-mastech.com/products/04_dm/ms8226_h.jpg" />MS-8226 （<a href="http://www.p-mastech.com/products/04_dm/ms8226.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ＭＳ8226 DIGITAL MULTIMETERS<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）    <br />amazonにて3980円 ポチッたら最後の一台だったみたい。プリント基板センターPBでは4290円    <br />※MS8226T っていうのは、True RMS valueだけど。ちこっと高いのよぉ。    <br /><img decoding="async" src="http://www.p-mastech.com/products/12_a/t3009_h.jpg" />    </p>
+<p>精度としては、まぁ似たようなもの。おまけ機能で両者特色があるようで。周波数、<b>DUTY</b>測定、hFEチェック機能などがあったりなかったりで、両者の特色があるようです。迷うよね。    <br />最大に迷う点としては、定評のあるソフト（Ts Digital Multi Meter Viewer）で動くのは上。型番が違うから、ＲＳ232Ｃの仕様が違うだろうし。作者が日本人だしね。    </p>
+<p>メモ    <br /><a href="http://rahmyzdhyfbr.tripod.com/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://rahmyzdhyfbr.tripod.com/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />Mastech MS8226 serial protocol    <br /><a href="http://rahmyzdhyfbr.tripod.com/ms8226.pdf" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ＭＳ8226<span class="wpel-icon wpel-image wpel-icon-1"></span></a>official document    </p>
+<p>仕様も出てるのね。だれかが、解析したのかな？ なんとかなるかな。他、<a href="http://www.mtoussaint.de/qtdmm.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">QtDMM<span class="wpel-icon wpel-image wpel-icon-1"></span></a> はＭａｃＯＳ ＸとＬｉｎｕｘで、Windowsバイナリがにゃい、、、、今いち、インターフェイスが気に入らないし、、、他、なにかないかと探してみたら    <br /><a href="http://www.syscompdesign.com/DVM101.html" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.syscompdesign.com/DVM101.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />なのがありました。DVM-101ってのは、MS8226と同じみたいで、ケースとソフトウェアをつけてるんですね。このソフトウェアがWindows,Linux,MacOS Xとあるので、少し触ってみたら、なかなかよさそう。この会社、カナダにあって<a href="http://www.syscompdesign.com/CGR101.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ソフトウェアオシロ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>（ＵＳＢ接続の機器はある）とかもリリースしてるみたい。189$ ですか。要チェックですね。手が出させそうなオシロで、機能満載。ほしぃ～！ＥＭＳで送ってくれそうだし。    <br />この会社の面白いのは、ソフトウェアをＧＰＬライセンスで公開してるところ。    </p>
+<p>MS8226でTsDMMVが動かなかった場合の代わりのソフト（同梱のDMM ver2.02ってのはありますが）は、上記のを試してみるということで、テスターリードがかっこいいし、ちょっと冒険してみるかって事で、MS8226をポチりました。    </p>
+<p>長く大事に使いたいですね～。ＰＣにつなげられることで、また工作の楽しみも増えるわけで。4000円で楽しみが増えるんなら、安いものだと思う。昔、同じことやろうとしたら、結構お金かかったもんね。いい時代になった！   </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>電子ブロックまだあったのか！</title>
+		<link>/2011/02/19/%e9%9b%bb%e5%ad%90%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e3%81%be%e3%81%a0%e3%81%82%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%8b%ef%bc%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 18 Feb 2011 17:20:30 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[雑談]]></category>
+		<guid isPermaLink="false">/2011/02/19/%e9%9b%bb%e5%ad%90%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e3%81%be%e3%81%a0%e3%81%82%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%8b%ef%bc%81/</guid>
+							<description><![CDATA[むか～し、遊んだ学研の電子ブロックっていう名機があって，何気にググってみたらまだあるんですね、復刻版というか。 ちなみに、オリジナルは、こんな感じ。画像検索 学研電子ブロックEX-150 新装版 ポチりそうになるのをぐっ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>むか～し、遊んだ学研の電子ブロックっていう名機があって，何気にググってみたらまだあるんですね、復刻版というか。   <br />ちなみに、オリジナルは、こんな感じ。<a href="http://www.google.co.jp/images?um=1&amp;hl=ja&amp;biw=1200&amp;bih=1792&amp;tbs=isch:1&amp;sa=1&amp;q=%E9%9B%BB%E5%AD%90%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%80%80%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">画像検索<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    </p>
+<p><a href="http://otonanokagaku.net/products/kit/newpac150/detail.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">学研電子ブロックEX-150 新装版<span class="wpel-icon wpel-image wpel-icon-1"></span></a> ポチりそうになるのをぐっと我慢。    <br /><img decoding="async" alt="大人の科学 製品版 新装版 電子ブロックEX150" src="http://ec3.images-amazon.com/images/I/51g5JMnLIsL._SL500_AA300_.jpg" /></p>
+<p><img decoding="async" alt="大人の科学 製品版 新装版 電子ブロックEX150" src="http://ec3.images-amazon.com/images/I/512mS%2BIgg%2BL._AA300_.jpg" />    <br />子供が理科を習う学年になったら良いと思うなぁ。高学年か、中学生になったら、やっぱりブレッドボードでしょう。    <br /><a href="http://www.amazon.co.jp/%E6%AD%A6%E8%94%B5%E9%87%8E%E9%9B%BB%E6%B3%A2%E3%81%AE%E3%83%96%E3%83%AC%E3%83%83%E3%83%89%E3%83%9C%E3%83%BC%E3%83%80%E3%83%BC%E3%82%BA%E2%80%95%E8%AA%B0%E3%81%A7%E3%82%82%E4%BD%9C%E3%82%8C%E3%82%8B-%E9%81%8A%E3%81%B9%E3%82%8B%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C-%E3%82%B9%E3%82%BF%E3%83%91%E9%BD%8B%E8%97%A4/dp/427406784X" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">武蔵野電波のブレッドボーダーズ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />なんかの本と一緒に、部屋に転がってるブレッドボードでかなり遊べるよね。いやぁ、むしろシンプルさで言えばブレッドボードにパーツ挿したほうがリアリティーがあるか。耐久性は電子ブロックのほうがいいとは思うけど。    </p>
+<p>今はパーツが、ジャンクを含めていろんな経路で安値で入手できるから、こういうのもいいよね。    <br />とにかく、なつかしぃですね。    </p>
+<p>で、その後自分はソフトウェア関係に進んだんだけどね。きっかけは、やっぱりこれなんじゃないかなぁ。    </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>液晶パネルメーカー</title>
+		<link>/2011/02/06/%e6%b6%b2%e6%99%b6%e3%83%91%e3%83%8d%e3%83%ab%e3%83%a1%e3%83%bc%e3%82%ab%e3%83%bc/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 05 Feb 2011 19:07:33 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Parts]]></category>
+		<category><![CDATA[液晶]]></category>
+		<category><![CDATA[雑談]]></category>
+		<guid isPermaLink="false">/2011/02/06/%e6%b6%b2%e6%99%b6%e3%83%91%e3%83%8d%e3%83%ab%e3%83%a1%e3%83%bc%e3%82%ab%e3%83%bc/</guid>
+							<description><![CDATA[液晶パネルっていうと、シャープ亀山モデルとか頭にぱっと浮かびますが、世界的に見るとシェアはどこがとってるんでしょうかね？ 年々変わってるんでしょうが、ちょっと気になったので簡単に調べました。世界シェアの正確な調査は、めっ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p> 液晶パネルっていうと、シャープ亀山モデルとか頭にぱっと浮かびますが、世界的に見るとシェアはどこがとってるんでしょうかね？ </p>
+<p>年々変わってるんでしょうが、ちょっと気になったので簡単に調べました。世界シェアの正確な調査は、めっちゃお金と時間がかかるので、あくまでもWEBから見た、言い換えるならググってみた簡易資料。日本だけじゃなく、視点を世界から見るのは大切な事で、例え正確な資料が出てこなくても視点だけは変えたくないのですぅ。</p>
+<p> 1位と2位は、サムスンとLGじゃないかと察しはつくけど、3位ってどこなんでしょうね。   </p>
+<p>インターネットコム株式会社の   <br /><a href="http://japan.internet.com/finanews/20100301/2.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">2009年液晶パネル市場の回顧と2010年 Q1 見通し<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>によると、2009年は全世界の大型パネル総出荷量は5億300万枚 だそうで。   <br /><img loading="lazy" decoding="async" alt="Samsung Logo.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/200px-Samsung_Logo.svg.png" width="99" height="34" /><a href="http://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%A0%E3%82%B9%E3%83%B3%E9%9B%BB%E5%AD%90#cite_note-29" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">サムスン<span class="wpel-icon wpel-image wpel-icon-1"></span></a> 25.5％ <a href="http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Flag_of_South_Korea.svg" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" alt="韓国の旗" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/25px-Flag_of_South_Korea.svg.png" width="25" height="17" /></a> <a href="http://ja.wikipedia.org/wiki/%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">韓国<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    </p>
+<p><img loading="lazy" decoding="async" alt="LG Logo.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/LG_Logo.svg/200px-LG_Logo.svg.png" width="94" height="44" /><a href="http://ja.wikipedia.org/wiki/LG%E3%82%A8%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AD%E3%83%8B%E3%82%AF%E3%82%B9" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">LG ディスプレイ<span class="wpel-icon wpel-image wpel-icon-1"></span></a> 25.4％ <a href="http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Flag_of_South_Korea.svg" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" alt="韓国の旗" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/25px-Flag_of_South_Korea.svg.png" width="25" height="17" /></a> <a href="http://ja.wikipedia.org/wiki/%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">韓国<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    </p>
+<p><img loading="lazy" decoding="async" src="http://auo.com/upload/website/1/94042c07a651d0ce15c2778c6e8faf2e.png" width="94" height="38" /><a href="http://ja.wikipedia.org/wiki/AU_Optronics" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">AUO（友達）<span class="wpel-icon wpel-image wpel-icon-1"></span></a> 17.1％ <a href="http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Flag_of_the_Republic_of_China.svg" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" alt="台湾の旗" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/25px-Flag_of_the_Republic_of_China.svg.png" width="25" height="17" /></a> <a href="http://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">台湾<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    </p>
+<p><img loading="lazy" decoding="async" alt="Chimei-Innolux LOGO.jpg" src="http://upload.wikimedia.org/wikipedia/zh/5/50/Chimei-Innolux_LOGO.jpg" width="92" height="45" /><a href="http://zh.wikipedia.org/zh-tw/%E5%A5%87%E7%BE%8E%E9%9B%BB%E5%AD%90_(CIC)" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">CMO（奇美電）<span class="wpel-icon wpel-image wpel-icon-1"></span></a> 14.8％ <a href="http://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Flag_of_the_Republic_of_China.svg" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" alt="台湾の旗" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/25px-Flag_of_the_Republic_of_China.svg.png" width="25" height="17" /></a> <a href="http://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">台湾<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    </p>
+<p>とのこと。ほぉ～。</p>
+<p>前回ばらした、iMacG5の液晶は台湾Quanta Display Inc.だったけども、これは2006年にAUOに買収されたので、今はないっていうことですか。韓国と台湾で、ほぼ埋め尽くしちゃってるわけですね。日本製は希少価値なわけですか。はぁ。シェアをとってるっていうのは、技術や生産性もあるっていう証なんでしょうねかね。</p>
+</p>
+</p>
+</p>
+<p>もうこれは、<a href="http://www.sankeibiz.jp/business/news/101008/bsc1010080500001-n1.htm" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">液晶材料の世界シェアで５割<span class="wpel-icon wpel-image wpel-icon-1"></span></a>のチッソ株式会社にがんばってもらうしかないですね。    </p>
+<p>まぁ、綺麗に表示する液晶ディスプレイとシェアは比例しないとも思いますが。世の中、必ずしも良いものがシェアを取っているのはいえないのが実情で。    </p>
+<p>15年くらいまえは、液晶はめちゃくちゃ高くて、市場価格で、1インチ＝1万円以上してたような記憶が。TFT液晶が高くて。8年前のプラズマ42インチも最安値で30万しましたからね。    </p>
+<p>まぁ、24インチのモニタが1万円を切る、時代も来るんでしょうかね。日本の住宅事情を考えると、27インチくらいまでが妥当なんじゃないかと。2画面あると効率が一気にあがるので、安くなると嬉しいですね。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

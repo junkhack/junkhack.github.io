@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>CNC &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Mon, 27 Feb 2017 18:26:27 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>CNC &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>625タイプのベアリング30個到着</title>
+		<link>/2017/02/28/625%e3%82%bf%e3%82%a4%e3%83%97%e3%81%ae%e3%83%99%e3%82%a2%e3%83%aa%e3%83%b3%e3%82%b030%e5%80%8b%e5%88%b0%e7%9d%80/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2017 18:26:27 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[CNC]]></category>
+		<category><![CDATA[DIY]]></category>
+		<guid isPermaLink="false">/?p=3378</guid>
+							<description><![CDATA[前回、品質の良いベアリングを見つけたので、D-Slot の CNC 用に追加で30個をオーダーしていました。 本日到着。 ３０個のうち、少しは不良品もあるだろうと思っていましたが、意外に全部品質がいいです。（確認は、手の [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>前回、品質の良いベアリングを見つけたので、D-Slot の CNC 用に追加で30個をオーダーしていました。</p>
+<p>本日到着。</p>
+<p><img decoding="async" title="S20170228_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170228_001" src="/wp-content/uploads/2017/02/s20170228_001.jpg" width="640" height="480" /> </p>
+<p>３０個のうち、少しは不良品もあるだろうと思っていましたが、意外に全部品質がいいです。（確認は、手の感触ですが）ということで、これで安心して D-Slot を作れます。</p>
+<p>&#160;</p>
+<p>ちなみに、購入したショップは以下です。</p>
+<p><a href="https://www.aliexpress.com/item/10pcs-free-shipping-625-zz-abec5-Miniature-deep-groove-ball-bearing-625ZZ-5-16-5-mm/32673372054.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="10pcs_free_shipping_625_zz_abec5_Miniature_deep_groove_ball_bearing_625ZZ_5_16_5_mm-in_Shafts_from_Home_Improvement_on_Aliexpress_com___Alibaba_Group" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10pcs_free_shipping_625_zz_abec5_Miniature_deep_groove_ball_bearing_625ZZ_5_16_5_mm-in_Shafts_from_Home_Improvement_on_Aliexpress_com___Alibaba_Group" src="/wp-content/uploads/2017/02/10pcs_free_shipping_625_zz_abec5_miniature_deep_groove_ball_bearing_625zz_5_16_5_mmin_shafts_fro.png" width="640" height="352" /></a> </p>
+</p>
+<p>中華にも良いベアリングはありますね。大量に使う場合はご参考に。このショップのこれ以外のはわかりませんが、少なくてもこれは良いです。このショップはベアリング専門なので、品質の悪いのは扱っていないのかもしれません。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>リニアガイドが来ましたが、、、</title>
+		<link>/2017/02/22/%e3%83%aa%e3%83%8b%e3%82%a2%e3%83%ac%e3%83%bc%e3%83%ab%e3%81%8c%e6%9d%a5%e3%81%be%e3%81%97%e3%81%9f%e3%81%8c%e3%80%81%e3%80%81%e3%80%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 21 Feb 2017 18:49:18 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[CNC]]></category>
+		<category><![CDATA[DIY]]></category>
+		<guid isPermaLink="false">/?p=3307</guid>
+							<description><![CDATA[１５０ｍｍのリニアガイドがアリエクから到着しました。 買ったのは、150mm のレールにMGN9Cのコマが１つ付いたものと、追加のMGN9Cのコマです。 黒いのは保護のプラスティックで、追加のもの。 MGN9Cのサイズは [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>１５０ｍｍのリニアガイドがアリエクから到着しました。</p>
+<p>買ったのは、150mm のレールにMGN9Cのコマが１つ付いたものと、追加のMGN9Cのコマです。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_001" src="/wp-content/uploads/2017/02/s20170222_001.jpg" width="640" height="480" /> </p>
+<p>黒いのは保護のプラスティックで、追加のもの。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_002" src="/wp-content/uploads/2017/02/s20170222_002.jpg" width="640" height="480" /> </p>
+<p>MGN9Cのサイズは同じなんですが、左側のレールに付けてみようとしますが、はまりません。ボールベアリングが１つ、２つ飛んで危うくなくすところでした。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_003" src="/wp-content/uploads/2017/02/s20170222_003.jpg" width="640" height="480" /> </p>
+<p>もともと付いていたのをはずしてみると、なにやらいやな予感が。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_004" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_004" src="/wp-content/uploads/2017/02/s20170222_004.jpg" width="640" height="480" /> </p>
+<p>これは、レールについていたもの。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_005" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_005" src="/wp-content/uploads/2017/02/s20170222_005.jpg" width="640" height="480" /> </p>
+<p>そしてこっちが、追加のもの。・・・・・・</p>
+<p><img loading="lazy" decoding="async" title="S20170222_006" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_006" src="/wp-content/uploads/2017/02/s20170222_006.jpg" width="640" height="480" /> </p>
+<p>横に見比べてみると、なんと玉の大きさが違います！！！！！どーゆーことよ！</p>
+<p><img loading="lazy" decoding="async" title="S20170222_009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_009" src="/wp-content/uploads/2017/02/s20170222_009.jpg" width="640" height="480" /> </p>
+<p>なのでこの溝にはまらなかったようです。MGN9Cは規格品じゃないのですか？ 仕様にベアリングの玉の大きさは記載されていませんでしたが、、、まさか、ショップによってこんな差があるとは、、、、</p>
+<p><img loading="lazy" decoding="async" title="S20170222_010" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_010" src="/wp-content/uploads/2017/02/s20170222_010.jpg" width="640" height="480" /> </p>
+<p>レールの切削面はこんな感じ。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_011" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_011" src="/wp-content/uploads/2017/02/s20170222_011.jpg" width="640" height="480" /> </p>
+<p>これがレールについていた、小さなベアリングのほう。</p>
+<p><img loading="lazy" decoding="async" title="S20170222_012" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170222_012" src="/wp-content/uploads/2017/02/s20170222_012.jpg" width="640" height="480" /> </p>
+<p>こっちが追加のコマで、ベアリングの玉は大きいほうです。こっちのほうが玉の輝きはありますね。</p>
+<p>&#160;</p>
+<p>違うショップでそれぞれ購入したのですが、それぞれのショップで玉の大きさが違うなんて。再度書きますが、MGN9Cは規格品じゃないのですか？ちょっとムカつきました。最近、ベアリング関係、粗悪なものもあってはずれを引くことがおおかったもので。</p>
+<p>&#160;</p>
+<p>まぁ、気を長くして待ちますか。製品の違いのノウハウが貯まり、経験値は確実にアップしました。次回こういう組み合わせのものを買うときは１つのショップから買う事にします。</p>
+<p>&#160;</p>
+<p>ということで、大きな玉の追加でコマだけ買ったショップのほうがクオリティーがいいので、こっちで150mm のレール＋１つMGN9C付属したものを２本、ムカついた勢いで、追加購入。2320円也。もともとより、こっちで買ったほうが安かったですね。</p>
+<p>&#160;</p>
+<p>ということで、みなさまもご注意を。追加のコマを買うときは同じショップから買いましょう。MGN9Cは玉の大きさが違うのがあるようです。</p>
+<p>&#160;</p>
+<p>すべりは、感動する感じではなかったです。中国製のほかのベアリングの中級品のような感じのすべり具合。</p>
+<p>あと、400mm くらいのものでも、２０００円で追加コマを発注しても690円です。３Dプリンターをリニアガイドで作るという構想も悪くないかもしれませんね。これを安いと感じるか、どうかによりますが。</p>
+<p>&#160;</p>
+<p>あ、そうそう、追加で買ったショップは以下です。</p>
+<p><a title="https://www.aliexpress.com/store/330447/search?origin=y&amp;SearchText=MGN9" href="https://www.aliexpress.com/store/330447/search?origin=y&amp;SearchText=MGN9" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.aliexpress.com/store/330447/search?origin=y&amp;SearchText=MGN9<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&#160;</p>
+<p>さ、寝ますか。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>corexy のベルトの通し方に迷う</title>
+		<link>/2017/02/21/corexy-%e3%81%ae%e3%83%99%e3%83%ab%e3%83%88%e3%81%ae%e9%80%9a%e3%81%97%e6%96%b9%e3%81%ab%e8%bf%b7%e3%81%86/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 20 Feb 2017 15:19:56 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[CNC]]></category>
+		<category><![CDATA[DIY]]></category>
+		<guid isPermaLink="false">/?p=3294</guid>
+							<description><![CDATA[先々週から、corexy のベルトの通し方に迷っています。 まだ、プーリーやベルトは駆り置きです。 現在の有力候補はこれ。わかりやすいように、ベルトだけ抜き出すと 上から見ると、まぁ揃っていますが、 中央のY軸のシャフト [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>先々週から、corexy のベルトの通し方に迷っています。</p>
+<p>まだ、プーリーやベルトは駆り置きです。</p>
+<p> <img loading="lazy" decoding="async" title="D-SlotV2_coreXY" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY" src="/wp-content/uploads/2017/02/dslotv2_corexy1.png" width="640" height="330" />   </p>
+<p>現在の有力候補はこれ。わかりやすいように、ベルトだけ抜き出すと</p>
+<p> <img loading="lazy" decoding="async" title="D-SlotV2_coreXY 5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 5" src="/wp-content/uploads/2017/02/dslotv2_corexy5.png" width="636" height="700" />   </p>
+<p>上から見ると、まぁ揃っていますが、</p>
+<p><img loading="lazy" decoding="async" title="D-SlotV2_coreXY 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 2" src="/wp-content/uploads/2017/02/dslotv2_corexy21.png" width="640" height="318" /> </p>
+<p>中央のY軸のシャフトが邪魔して、結合地点を少しずらす必要がありました。</p>
+<p><img loading="lazy" decoding="async" title="D-SlotV2_coreXY 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 3" src="/wp-content/uploads/2017/02/dslotv2_corexy31.png" width="640" height="401" /> </p>
+<p>動かしてみないとわかりませんが、これでいいのでしょうかね。この赤いベルトが出ているモーター側のベルトが上下１０mm程度の高低差があります。</p>
+<p><img loading="lazy" decoding="async" title="D-SlotV2_coreXY 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 4" src="/wp-content/uploads/2017/02/dslotv2_corexy4.png" width="640" height="399" /> </p>
+<p>ベルトテンショナーも考えないといけませんね。</p>
+<p><img loading="lazy" decoding="async" title="D-SlotV2_coreXY 6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="D-SlotV2_coreXY 6" src="/wp-content/uploads/2017/02/dslotv2_corexy6.png" width="643" height="556" /> </p>
+<p>この位置でいいということにして、ブラケットを作りますか。おんなじところを考えていて、飽きました。もう少しで、この闇から抜け出せそうです。</p>
+<p>&#160;</p>
+<p>早くスピンドルに行って、モーターを動かしながらZ軸と合わせて考えてみたいです。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>高品質で安い中国のベアリング見つけた！</title>
+		<link>/2017/02/17/%e9%ab%98%e5%93%81%e8%b3%aa%e3%81%a7%e5%ae%89%e3%81%84%e4%b8%ad%e5%9b%bd%e3%81%ae%e3%83%99%e3%82%a2%e3%83%aa%e3%83%b3%e3%82%b0%e8%a6%8b%e3%81%a4%e3%81%91%e3%81%9f%ef%bc%81/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 16 Feb 2017 17:38:35 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[CNC]]></category>
+		<category><![CDATA[DIY]]></category>
+		<guid isPermaLink="false">/?p=3258</guid>
+							<description><![CDATA[アリエクで、いろいろなショップでベアリングを発注していて、ついに高品質で安いベアリングを見つけました。 等級に、电机級とあります。电机は、ピンインと発音するようで、意味はモーターとか発電機とかの名詞のようです。 アリエク [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>アリエクで、いろいろなショップでベアリングを発注していて、ついに高品質で安いベアリングを見つけました。</p>
+<p> <img loading="lazy" decoding="async" title="S20170217_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170217_001" src="/wp-content/uploads/2017/02/s20170217_001.jpg" width="640" height="480" />   </p>
+<p>等級に、电机級とあります。电机は、ピンインと発音するようで、意味はモーターとか発電機とかの名詞のようです。</p>
+<p>アリエクでの英語表記には、ABEC5 とありました。中国のベアリングの等級は良くわかりませんが、この电机級というのはなかなか品質がいいです。そして、値段はなんと１０個で３６０円なので、１こ３６円です。</p>
+<p><img loading="lazy" decoding="async" title="S20170217_002" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20170217_002" src="/wp-content/uploads/2017/02/s20170217_002.jpg" width="640" height="480" /> </p>
+<p>今回１０個、このショップでサンプル購入しましたが、１０個とも品質がよかったです。他のショップでは１０個ともだめなものや、２個ほど粗悪品があったり（残り８個も品質は中）とか、ABEC7&#160; を表記してあっても、日本の等級0 以下という粗悪なものもありました。</p>
+<p>&#160;</p>
+<p>日本製だと、NTNの等級０の625ZZ が 1個単位 108円で買えますが、今回たくさん使うのでもう少し安いのが欲しいんですよね。</p>
+<p>約1/3 なので、かなり助かります。今回CNCで使うベアリングの個数は、625zz タイプが４４個なんです。NTNだと、4752円ですが、今回ので１８００円でまだ、６個あまります。NTN 製のも１２個ありますので、両者を使って、ダイアルゲージとガラス定盤で検証してみたいと思います。</p>
+<p>ということで、追加で３０個発注！まぁ、もちろん次回来るのが全部品質がよいとも限りませんがね。</p>
+<p>&#160;</p>
+<p>中国製のベアリングでも、安くて高品質なものはあることがわかりました。まぁ、しかしここにたどり着くまでに、粗悪品を４０個サンプル購入しましたが。</p>
+<p>&#160;</p>
+<p>スピンドルに使う軸受けは、NTNの等級５をゲットしています。これは中国でも安いのはありますが、２個しか使わないので外れたときにコストメリットが出ないとショックなので。</p>
+<p>&#160;</p>
+<p>さぁ、これでだいぶパーツも揃ってきました。設計が追いついていませんが、春までには動かしてみたいです。ただいま、corexy の部分を考えていますがなかなか納得したものが出来ないのでもう少し、つついている状況です。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>32Tのプーリーを実際に作ってみた</title>
+		<link>/2017/02/11/32t%e3%81%ae%e3%83%97%e3%83%bc%e3%83%aa%e3%83%bc%e3%82%92%e5%ae%9f%e9%9a%9b%e3%81%ab%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 11 Feb 2017 05:06:12 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[CNC]]></category>
+		<category><![CDATA[DIY]]></category>
+		<guid isPermaLink="false">/?p=3210</guid>
+							<description><![CDATA[とめる部分を作って、625 タイプの16mm のベアリングを１つだけ挟む構造で作ってみました。 内径は少し小さくなるので、とりあえずは、16mm の内径でプリント。とめる部分も16mm で。 プリントしたものを計測してみ [&#8230;]]]></description>
+										<content:encoded><![CDATA[</p>
+<p>とめる部分を作って、625 タイプの16mm のベアリングを１つだけ挟む構造で作ってみました。</p>
+<p><img loading="lazy" decoding="async" title="GT2_T36_pully_" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="GT2_T36_pully_" src="/wp-content/uploads/2017/02/gt2_t36_pully_.png" width="479" height="480" /> </p>
+<p>内径は少し小さくなるので、とりあえずは、16mm の内径でプリント。とめる部分も16mm で。</p>
+<p><img loading="lazy" decoding="async" title="GT2_T36_pully_ 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="GT2_T36_pully_ 2" src="/wp-content/uploads/2017/02/gt2_t36_pully_2.png" width="480" height="548" /> </p>
+</p>
+<p>プリントしたものを計測してみると、上の青いパーツは、外径が16.2mm で上のパーツは内径が15.2mm ほどでした。かなり小さくなりますね。補正したものを、再度プリント。 <img loading="lazy" decoding="async" title="IMGP1214" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1214" src="/wp-content/uploads/2017/02/imgp1214.jpg" width="640" height="426" /> </p>
+<p>入り口は少し狭いですが、中が広すぎました。</p>
+<p><img loading="lazy" decoding="async" title="IMGP1216" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1216" src="/wp-content/uploads/2017/02/imgp1216.jpg" width="640" height="426" /> </p>
+<p>サポートなしでプリントできる形状です。</p>
+<p><img loading="lazy" decoding="async" title="IMGP1220" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1220" src="/wp-content/uploads/2017/02/imgp1220.jpg" width="640" height="426" />接着剤でくっつければいいですかね。 <img loading="lazy" decoding="async" title="IMGP1217" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1217" src="/wp-content/uploads/2017/02/imgp1217.jpg" width="640" height="425" /> </p>
+<p>もう少しきつくなるよう、サイズを調整しますか。</p>
+<p><img loading="lazy" decoding="async" title="IMGP1219" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP1219" src="/wp-content/uploads/2017/02/imgp1219.jpg" width="640" height="426" /> </p>
+<p>アルミ製のプーリーと比べると少しひっかかりが悪いようですが、十分に機能しそうです。</p>
+<p><a href="http://www.thingiverse.com/thing:2101766" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="GT2_32T_pulley_625_Bearing_by_junkhack_-_Thingiverse" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GT2_32T_pulley_625_Bearing_by_junkhack_-_Thingiverse" src="/wp-content/uploads/2017/02/gt2_32t_pulley_625_bearing_by_junkhack__thingiverse.jpg" width="640" height="454" /></a>サイズを少し補正したものをUp しておきました。プリントしてみましたが、ちょうどいいはまり具合です。はめるときは、ペンチとかで圧入する感じで。</p>
+<p>１日経過したところ、Thingiverse では Like や Collections に入れられているようです。こういう汎用的に使えるパーツは需要があるのかもしれませんね。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

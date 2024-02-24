@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	INA226 電流センサーの I2C ボードを作った へのコメント	</title>
+	<atom:link href="/2016/01/24/ina226-%E9%9B%BB%E6%B5%81%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%81%AE-i2c-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/feed/" rel="self" type="application/rss+xml" />
+	<link>/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 16 Oct 2018 18:36:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<item>
+		<title>
+		JunkHack より		</title>
+		<link>/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/#comment-68</link>
+
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 16 Oct 2018 18:36:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=2045#comment-68</guid>
+
+					<description><![CDATA[hi,John.
+I am looking for a file, but it seems to take a while. If you wait patiently I will update it again.]]></description>
+			<content:encoded><![CDATA[<p>hi,John.<br />
+I am looking for a file, but it seems to take a while. If you wait patiently I will update it again.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		John より		</title>
+		<link>/2016/01/24/ina226-%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%ae-i2c-%e3%83%9c%e3%83%bc%e3%83%89%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f/#comment-67</link>
+
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Tue, 25 Sep 2018 10:50:37 +0000</pubDate>
+		<guid isPermaLink="false">/?p=2045#comment-67</guid>
+
+					<description><![CDATA[Hello, Great board for testing, do you have the eagle LBR library file for the INA226? thanks and have a good day]]></description>
+			<content:encoded><![CDATA[<p>Hello, Great board for testing, do you have the eagle LBR library file for the INA226? thanks and have a good day</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

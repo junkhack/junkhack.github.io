@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	独自ドメインで WordPress を動作させる為、エンジニアが選んだ選択 へのコメント	</title>
+	<atom:link href="/2018/01/28/%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%A7-wordpress-%E3%82%92%E5%8B%95%E4%BD%9C%E3%81%95%E3%81%9B%E3%82%8B%E7%82%BA%E3%80%81%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C/feed/" rel="self" type="application/rss+xml" />
+	<link>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Fri, 13 Mar 2020 12:25:43 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<item>
+		<title>
+		GCP&#x306E;unixbench n1-standard-2&#xFF08;vCPU x 2&#x3001;&#x30E1;&#x30E2;&#x30EA; 7.5 GB&#xFF09; &#8211; アリエクでポチった JunkHack より		</title>
+		<link>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/#comment-81</link>
+
+		<dc:creator><![CDATA[GCP&#x306E;unixbench n1-standard-2&#xFF08;vCPU x 2&#x3001;&#x30E1;&#x30E2;&#x30EA; 7.5 GB&#xFF09; &#8211; アリエクでポチった JunkHack]]></dc:creator>
+		<pubDate>Fri, 13 Mar 2020 12:25:43 +0000</pubDate>
+		<guid isPermaLink="false">/?p=4331#comment-81</guid>
+
+					<description><![CDATA[[&#8230;] &#x72EC;&#x81EA;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3067; WordPress &#x3092;&#x52D5;&#x4F5C;&#x3055;&#038;&#8230;::score 1146SSD &#x306E;n1-standard-1&#xFF08;vCPU x 1&#x3001;&#x30E1;&#x30E2;&#x30EA; 3.75 GB&#xFF09; [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] &#x72EC;&#x81EA;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3067; WordPress &#x3092;&#x52D5;&#x4F5C;&#x3055;&amp;&#8230;::score 1146SSD &#x306E;n1-standard-1&#xFF08;vCPU x 1&#x3001;&#x30E1;&#x30E2;&#x30EA; 3.75 GB&#xFF09; [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>ClassicPress &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Thu, 03 Sep 2020 03:38:17 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>ClassicPress &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Rapid START CDNを試す！　が、ハマりどころいっぱい！</title>
+		<link>/2020/09/03/rapid-start-cdn/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 03 Sep 2020 03:38:17 +0000</pubDate>
+				<category><![CDATA[cdn]]></category>
+		<category><![CDATA[ClassicPress]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=5854</guid>
+							<description><![CDATA[Rapid START CDNっていう国産のCDNがあって前から試してみたかったんですが、今回良い機会なので実際に登録してみました。 まず結論から行くとまだうまく行っていません。ハマりどころがあるんで、まずそれを記録して [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Rapid START CDNっていう国産のCDNがあって前から試してみたかったんですが、今回良い機会なので実際に登録してみました。</p>
+
+
+
+<p>まず結論から行くとまだうまく行っていません。ハマりどころがあるんで、まずそれを記録しておくことにします。きっと、誰かの役にたつかもです。</p>
+
+
+
+<p>ハマりどころ１</p>
+
+
+
+<p>サブドメインで、一文字は登録できません。例えば、以下のようなサブドメインは、登録しようとするとエラーが出ます。</p>
+
+
+
+<p><strong>j.gpl.jp</strong></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/e382bfe38299e38383e382b7e383a5e3839be38299e383bce38388e38299___rapid_start.png?w=1024" alt="" class="wp-image-5858" /></figure></div>
+
+
+
+<p>２文字以上はOKです。１文字はサブドメインとしては問題なくちゃんとアクセスも出来るし通常のDNSにも登録できます。Rapid START CDN側の問題というか制約でしょう。</p>
+
+
+
+<p>汎用JPドメインの第２レベルは、３文字以上しか登録できませんが、第３レベル（今回でいうjの部分）はドメイン運用者が自由に決めらます。文字種は限りがあります。英字(A～Z)、数字(0～9)、 ハイフン( &#8211; )が使用できます(先頭と末尾の文字をハイフンとするのは不可)</p>
+
+
+
+<p>では、２文字でやって見ましょう。Good Gameの略でgg.gpl.jpということにしましょうか。Gが多すぎて見にくいですがね。まぁテストなんで良しとしましょう。DNS登録して、digなどで引いてみましょう。TTLは60秒と短くしてあります。</p>
+
+
+
+<pre class="wp-block-preformatted"><code># dig gg.gpl.jp<br>::<br>;; ANSWER SECTION:<br>gg.gpl.jp. 60 IN A 116.58.181.140<br>::</code></pre>
+
+
+
+<p>では、RapidStartのCDNコンパネで登録してみましょう。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/e382bfe38299e38383e382b7e383a5e3839be38299e383bce38388e38299___rapid_start-1.png?w=784" alt="" class="wp-image-5861" /></figure></div>
+
+
+
+<p>はい、できました！次は、オリジンサーバのAレコードをDNSに登録します。<br><strong>origin.gg.gpl.jp</strong><br>というAレコードです。こんな感じで引ければOKです。</p>
+
+
+
+<pre class="wp-block-code"><code># dig origin.gg.gpl.jp
+::
+;; ANSWER SECTION:
+origin.gg.gpl.jp.	60	IN	A	116.58.181.140
+::</code></pre>
+
+
+
+<p>次はドメイン所有確認のため、長いドメイン部のテキストレコードをDNSに設定しておきます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/e382bfe38299e38383e382b7e383a5e3839be38299e383bce38388e38299___rapid_start-2.png?w=653" alt="" class="wp-image-5863" /></figure></div>
+
+
+
+<p>以下のように確認しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ dig -t TXT xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.jh.gpl.jp
+::
+;; ANSWER SECTION:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.jh.gpl.jp. 60 IN TXT "redbox-cdn-verification=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+::</code></pre>
+
+
+
+<p>所有確認が出来れば、ステータスがOKになります。コンパネの設定から、WordPress のキャッシュポリシーにしておきます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/e382bfe38299e38383e382b7e383a5e3839be38299e383bce38388e38299___rapid_start-3.png?w=757" alt="" class="wp-image-5865" /></figure></div>
+
+
+
+<p>あとは、動作確認のためhostsファイルを書き換えて確認せよとありますのでやってみます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ cat /etc/hosts
+#::
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+160.16.92.179 gg.gpl.jp</code></pre>
+
+
+
+<p>これでブラウザーから　http://gg.gpl.jp/　へアクセスしてみます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/error_503_backend_error.png?w=500" alt="" class="wp-image-5867" /></figure></div>
+
+
+
+<p>さて、何がだめなんでしょうかね？　どなたかわかる方いらっしゃいましたらコメントください。一応、RapidStartのフェイスブックのチャットで聞いているんですが、まだ回答がありません。</p>
+
+
+
+<p>ちなみに、このテストがOKであれば、該当Aレコードをcnameに書き換えます。が、このままでは同じ結果になるのでCNAME書き換えてもだめです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2020/09/e382bfe38299e38383e382b7e383a5e3839be38299e383bce38388e38299___rapid_start-4.png?w=673" alt="" class="wp-image-5870" /></figure>
+
+
+
+<p>この　free.rs.cdnw.net のIPは引いてみると以下です。</p>
+
+
+
+<pre class="wp-block-code"><code>$ dig free.rs.cdnw.net
+::（略）
+;; ANSWER SECTION:
+free.rs.cdnw.net.	29	IN	A	59.106.219.219</code></pre>
+
+
+
+<p>59.106.219.219 なんですが、160.16.92.179　からでも同じホストへアクセスできるのでしょうかね。ちょっと相手側構成はわかりませんが、そのように指示があるので経路が違うだけなんでしょう。</p>
+
+
+
+<p>一応、試したことは以下ですが、同じ結果です。</p>
+
+
+
+<p>・コンパネからキャッシュの全削除<br>　→　上のほうに失敗の文字がでているんですが消せてるんでしょうかね。</p>
+
+
+
+<p>・同じことをもう一度、違うサブドメインで登録<br>　→　最初、jh.gpl.jp で登録し、今回 gg.gpl.jp でやってみたがだめ。</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ClassicPress で マルチサイトを立ち上げる</title>
+		<link>/2020/05/30/classicpress-%e3%81%a7-%e3%83%9e%e3%83%ab%e3%83%81%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e7%ab%8b%e3%81%a1%e4%b8%8a%e3%81%92%e3%82%8b/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 29 May 2020 15:59:08 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[ClassicPress]]></category>
+		<category><![CDATA[Multisite]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=5162</guid>
+							<description><![CDATA[ちょっと時間が空いてしまいましたが、自宅サーバでClassicPressを立ち上げるプロジェクトの続きです。マルチサイト機能を使ってClassicPressを運用してみることにしますが、まずはローカルのMAMP Pro  [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>ちょっと時間が空いてしまいましたが、自宅サーバでClassicPressを立ち上げるプロジェクトの続きです。マルチサイト機能を使ってClassicPressを運用してみることにしますが、まずはローカルのMAMP Pro 環境でやって流れを掴んでみることにします。</p>
+<p>今回はサブドメインでの運用を想定していて、大まかな流れは以下のようになります。</p>
+<p>①名前解決で同じサーバに向ける<br />
+DNS周り、またはhosts で以下ドメインを１つのサーバに向けるよう設定します。<br />
+または、ワイルドカード DNS の設定をします。今回はローカルで以下のようにHOSTSをいじりました。<br />
+例：gpl.jp → 127.0.0.1<br />
+www.gpl.jp → 127.0.0.1<br />
+hoge.gpl.jp → 127.0.0.1<br />
+hack.gpl.jp → 127.0.0.1</p>
+<p>②WEBの設定で、*.gpl.jp を同じWEBROOTを見に行くよう設定</p>
+<p>③WEBROOTにClassicPressを展開<br />
+→wp-config.php のDB設定<br />
+DBはもう作ってあるものとします。</p>
+<p>④WEBアクセスしてClassicPressをインストール<br />
+→　普通にウィザードに沿ってインストールするだけです。</p>
+<p>⑤wp-config.php へ設定を記載<br />
+define(&#8216;WP_ALLOW_MULTISITE&#8217;, true);</p>
+<p>⑥管理画面へログインし、サイトネットワークの設定　へ<br />
+→ サブドメイン型でインストール</p>
+<p>⑦インストール完了すると以下のように指示が出てきます。<br />
+wp-config.php と .htaccessへ指示通りに記載</p>
+<p>&#8212;&#8212;&#8212;&#8212;- wp-config.php</p>
+<blockquote><p>define(&#8216;MULTISITE&#8217;, true);<br />
+define(&#8216;SUBDOMAIN_INSTALL&#8217;, true);<br />
+define(&#8216;DOMAIN_CURRENT_SITE&#8217;, &#8216;gpl.jp&#8217;);<br />
+define(&#8216;PATH_CURRENT_SITE&#8217;, &#8216;/&#8217;);<br />
+define(&#8216;SITE_ID_CURRENT_SITE&#8217;, 1);<br />
+define(&#8216;BLOG_ID_CURRENT_SITE&#8217;, 1);</p></blockquote>
+<p>&#8212;&#8212;&#8212;&#8212;- .htaccess</p>
+<blockquote><p>RewriteEngine On<br />
+RewriteBase /<br />
+RewriteRule ^index\.php$ &#8211; [L]</p>
+<p># add a trailing slash to /wp-admin<br />
+RewriteRule ^wp-admin$ wp-admin/ [R=301,L]</p>
+<p>RewriteCond %{REQUEST_FILENAME} -f [OR]<br />
+RewriteCond %{REQUEST_FILENAME} -d<br />
+RewriteRule ^ &#8211; [L]<br />
+RewriteRule ^(wp-(content|admin|includes).*) $1 [L]<br />
+RewriteRule ^(.*\.php)$ $1 [L]<br />
+RewriteRule . index.php [L]</p></blockquote>
+<p>⑧再度、ログオフ、ログインしてサイトネットワーク管理の管理画面にアクセス<br />
+→ 設定＞サイトネットワークの設定　から各種設定<br />
+→ 管理メニューを有効化（プラグイン）</p>
+<p>以上で、OK。新規サイトを追加する場合は以下。</p>
+<p>①サイトネットワーク管理　から追加<br />
+サイト＞新規追加<img decoding="async" class="alignnone size-full wp-image-5163" src="/wp-content/uploads/2020/05/e382b5e382a4e38388e38292e8bfbde58aa0_e280b9_e382b5e382a4e38388e3838de38383e38388e383afe383bce382afe7aea1e79086__gpljpe382aae38395e382a3e382b7e383a3e383abe382b5e382a4e38388_e28094_classic.png" alt="サイトを追加_‹_サイトネットワーク管理__GPLJPオフィシャルサイト_—_ClassicPress.png" width="977" height="573" /></p>
+<p>以上で、複数のClassicPressサイトが出来上がり。基本WordPressと同じですね。</p>
+<p>マルチサイトの運用はいろいろ勘所がいると思いますので不定期に何か気がついたら書いていくことにします。管理系のプラグインは便利そうなのが出ているので何か見繕って使っていくと思います。</p>
+<blockquote><p>https://ja.wordpress.org/plugins/search/Multisite/</p></blockquote>
+<p>次回は、とりあえずローカルのMAMP環境で以下をやってみたいと思います。</p>
+<p>・MAMP Pro 環境でLet’s Encryt のワイルドカードSSLを設定</p>
+<p>うまくできるかな？</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>AdSense を設定してみるがサブドメインあかんみたい？</title>
+		<link>/2020/03/26/adsense-subdomain/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2020 13:24:24 +0000</pubDate>
+				<category><![CDATA[AdSense]]></category>
+		<category><![CDATA[ClassicPress]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=5119</guid>
+							<description><![CDATA[&#x3055;&#x3066;&#x3001;&#x6700;&#x8FD1;&#x3053;&#x306E;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x81EA;&#x5B85;&#x30B [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>&#x3055;&#x3066;&#x3001;&#x6700;&#x8FD1;&#x3053;&#x306E;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x81EA;&#x5B85;&#x30B5;&#x30FC;&#x30D0;&#x306B;&#x5F15;&#x3063;&#x8D8A;&#x3059;&#x305F;&#x3081;&#x3042;&#x308C;&#x3053;&#x308C;&#x6E96;&#x5099;&#x3092;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x81EA;&#x5B85;&#x30B5;&#x30FC;&#x30D0;&#x306B;&#x306A;&#x3063;&#x305F;&#x3089;&#x3001;AdSense &#x3082;&#x3084;&#x3063;&#x3066;&#x307F;&#x305F;&#x3044;&#x306A;&#x3068;&#x601D;&#x3063;&#x3066;&#x767B;&#x9332;&#x3057;&#x3088;&#x3046;&#x3068;&#x601D;&#x3044;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<blockquote>
+<p>Google AdSense<br />https://www.google.com/adsense/</p>
+</blockquote>
+<p>&#x304C;&#x3001;&#x767B;&#x9332;&#x4E2D;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="Google_AdSense.png" src="/wp-content/uploads/2020/03/google_adsense.png" alt="Google AdSense" width="599" height="450" border="0" /></p>
+<p>&#x30DE;&#x30CB;&#x30E5;&#x30A2;&#x30EB;&#x306B;&#x3088;&#x308C;&#x3070;&#x3001;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x8FFD;&#x52A0;&#x304B;&#x3089;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x3067;&#x3059;&#x304C;&#x3001;&#x3053;&#x308C;&#x3092;&#x3084;&#x308B;&#x306B;&#x306F;&#x307E;&#x305A;&#x30E1;&#x30A4;&#x30F3;&#x306E;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3092;&#x8FFD;&#x52A0;&#x3057;&#x3066;&#x8A8D;&#x8A3C;&#x3055;&#x305B;&#x306A;&#x3044;&#x3068;&#x3060;&#x3081;&#x307F;&#x305F;&#x3044;&#x3067;&#x3059;&#x3002;</p>
+<blockquote>
+<p>&#x30B5;&#x30A4;&#x30C8;&#x30EA;&#x30B9;&#x30C8;&#x3067;&#x30B5;&#x30D6;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3092;&#x8FFD;&#x52A0;&#x307E;&#x305F;&#x306F;&#x524A;&#x9664;&#x3059;&#x308B;<br />https://support.google.com/adsense/answer/9130110?hl=ja</p>
+</blockquote>
+<p>&#x30E1;&#x30A4;&#x30F3;&#x306E;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3063;&#x3066;&#x3044;&#x3046;&#x3068;&#x3001;gpl.jp &#x3084; www.gpl.jp &#x3068;&#x3044;&#x3046;&#x3082;&#x306E;&#x3067;&#x3059;&#x304C;&#x3053;&#x308C;&#x306F;&#x3068;&#x308A;&#x3042;&#x3048;&#x305A;&#x904B;&#x7528;&#x3057;&#x3066;&#x3044;&#x307E;&#x305B;&#x3093;&#x3002;&#x3057;&#x304B;&#x3057;&#x3001;&#x3068;&#x308A;&#x3042;&#x3048;&#x305A;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x8D77;&#x52D5;&#x3055;&#x305B;&#x3066;&#x304A;&#x304B;&#x306A;&#x3044;&#x3068;&#x8A31;&#x53EF;&#x304C;&#x964D;&#x308A;&#x306A;&#x3044;&#x306E;&#x304B;&#x306A;&#xFF1F;&#x3000;&#x307E;&#x3001;&#x305D;&#x3046;&#x3044;&#x3046;&#x306E;&#x306F;&#x3084;&#x3063;&#x3066;&#x307F;&#x308C;&#x3070;&#x308F;&#x304B;&#x308A;&#x307E;&#x3059;&#x306D;&#x3002;&#x3084;&#x3063;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#xFF01;</p>
+<p>&#x6B21;&#x306E;&#x30B9;&#x30C6;&#x30C3;&#x30D7;&#x3067;&#x306F;&#x3001;&#x30DE;&#x30EB;&#x30C1;&#x30B5;&#x30A4;&#x30C8;&#x6A5F;&#x80FD;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x30E1;&#x30A4;&#x30F3;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x3092;&#x52D5;&#x4F5C;&#x3055;&#x305B;&#x3066;&#x307F;&#x3088;&#x3046;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;ClassicPress &#x3067;&#x3082;&#x3067;&#x304D;&#x308B;&#x306F;&#x305A;&#x3067;&#x3059;&#x306E;&#x3067;&#x52D5;&#x4F5C;&#x78BA;&#x8A8D;&#x3082;&#x517C;&#x306D;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x3042;&#x3068;&#x3001;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x306E; MAMP Pro &#x74B0;&#x5883;&#x3067; Let&#8217;s&nbsp;Encryt&#x306E; SSL &#x3092;&#x30EF;&#x30A4;&#x30EB;&#x30C9;&#x30AB;&#x30FC;&#x30C9;&#x3067;&#x51FA;&#x6765;&#x308B;&#x304B;&#x3084;&#x3063;&#x3066;&#x307F;&#x3088;&#x3046;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x30FB;ClassicPress &#x3067; &#x30DE;&#x30EB;&#x30C1;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x7ACB;&#x3061;&#x4E0A;&#x3052;&#x308B;</p>
+<p>&#x30FB;MAMP Pro &#x74B0;&#x5883;&#x3067;Let&#8217;s&nbsp;Encryt &#x306E;&#x30EF;&#x30A4;&#x30EB;&#x30C9;&#x30AB;&#x30FC;&#x30C9;SSL&#x3092;&#x8A2D;&#x5B9A;</p>
+<p>&#x3068;&#x308A;&#x3042;&#x3048;&#x305A;&#x3001;&#x3053;&#x306E;&#x3088;&#x3046;&#x306A;&#x30CD;&#x30BF;&#x3092;&#x3042;&#x3052;&#x308B;&#x4E88;&#x5B9A;&#x3067;&#x3059;&#x3002;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>高速化その３：画像圧縮してみた！次世代画像フォーマット「WebP（ウェッピー）」を使う</title>
+		<link>/2020/03/20/uses-webp-and-js_css_comp/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2020 01:16:47 +0000</pubDate>
+				<category><![CDATA[ClassicPress]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5091</guid>
+							<description><![CDATA[&#x4EE5;&#x524D;&#x3001;&#x30B9;&#x30DE;&#x30DB;&#x304B;&#x3089;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x309 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>&#x4EE5;&#x524D;&#x3001;&#x30B9;&#x30DE;&#x30DB;&#x304B;&#x3089;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3092;&#x3082;&#x3063;&#x3068;&#x901F;&#x304F;&#x3057;&#x305F;&#x3044;&#x306A;&#x3068;&#x601D;&#x3063;&#x3066;&#x3044;&#x305F;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x9AD8;&#x901F;&#x5316;&#x305D;&#x306E;&#xFF13;&#x3067;&#x624B;&#x3092;&#x3064;&#x3051;&#x308B;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3057;&#x305F;&#xFF01;<br />&#x307E;&#x305A;&#x3001;&#x624B;&#x3092;&#x3064;&#x3051;&#x308B;&#x524D;&#x306E;&#x72B6;&#x614B;&#x306F;&#x4EE5;&#x4E0B;&#x3067;&#x3059;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186-1.png" alt="E383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186" width="599" height="278" border="0" /></p>
+<p>&#x306F;&#x3044;&#x3001;2.2&#x79D2;&#x304B;&#x304B;&#x3063;&#x3066;&#x3044;&#x305F;&#x3088;&#x3046;&#x3067;&#x3059;&#x3002;&#x30EC;&#x30DD;&#x30FC;&#x30C8;&#x306B;&#x306F;&#x3001;&#x3044;&#x308D;&#x3044;&#x308D;&#x66F8;&#x3044;&#x3066;&#x3042;&#x308A;&#x307E;&#x3059;&#x304C;&#x753B;&#x50CF;&#x306E;&#x9805;&#x76EE;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x30A2;&#x30C9;&#x30D0;&#x30A4;&#x30B9;&#x3055;&#x308C;&#x3066;&#x3044;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<blockquote>
+<p>&#x6B21;&#x4E16;&#x4EE3;&#x30D5;&#x30A9;&#x30FC;&#x30DE;&#x30C3;&#x30C8;&#x3067;&#x753B;&#x50CF;&#x3092;&#x914D;&#x4FE1;&#x3059;&#x308B;<br />JPEG 2000&#x3001;JPEG XR&#x3001;WebP &#x3067;&#x753B;&#x50CF;&#x3092;&#x30A8;&#x30F3;&#x30B3;&#x30FC;&#x30C9;&#x3059;&#x308B;&#x3068;&#x3001;&#x8AAD;&#x307F;&#x8FBC;&#x307F;&#x6642;&#x9593;&#x304C;&#x77ED;&#x304F;&#x306A;&#x308A;&#x3001;&#x30E2;&#x30D0;<br />&#x30A4;&#x30EB;&#x901A;&#x4FE1;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x91CF;&#x3082;&#x5C11;&#x306A;&#x304F;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x30D5;&#x30A9;&#x30FC;&#x30EB;&#x30D0;&#x30C3;&#x30AF;&#x7528;&#x306B; PNG &#x753B;&#x50CF;&#x3084; JPEG &#x753B;<br />&#x50CF;&#x3082;&#x7528;&#x610F;&#x3057;&#x3001;&#x672A;&#x5BFE;&#x5FDC;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x306B;&#x306F;&#x305D;&#x3061;&#x3089;&#x3092;&#x914D;&#x4FE1;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+</blockquote>
+<p>&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x3001;WebP &#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;&#x3053;&#x3068;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;&#x5909;&#x63DB;&#x306B;&#x306F;&#x65B9;&#x5411;&#x6027;&#x3068;&#x3057;&#x3066;&#xFF12;&#x3064;&#x3042;&#x308A;&#x3001;&#xFF11;&#x3064;&#x306F;&#x30AF;&#x30E9;&#x30A6;&#x30C9;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3067;WebP&#x306B;&#x5909;&#x63DB;&#x3057;&#x3066;&#x3082;&#x3089;&#x3046;&#x306E;&#x3092;&#x5229;&#x7528;&#x3059;&#x308B;&#x65B9;&#x6CD5;&#x3002;&#x3082;&#x3046;&#xFF11;&#x3064;&#x306F;&#x3001;&#x81EA;&#x30B5;&#x30FC;&#x30D0;&#x306E;&#x6A5F;&#x80FD;&#x3092;&#x4F7F;&#x3063;&#x3066;WebP &#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;&#x65B9;&#x6CD5;&#x3067;&#x3059;&#x3002;&#x5F8C;&#x8005;&#x306F;&#x3001;PHP&#x304C;imagemagic &#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x3066;&#x305D;&#x306E;&#x30D5;&#x30A9;&#x30FC;&#x30DE;&#x30C3;&#x30C8;&#x306B;WebP &#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x306B;&#x6709;&#x52B9;&#x3067;&#x3059;&#x3002;</p>
+<blockquote>
+<p>phpinfo.php&#x306B;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3000;&#x2192; &#x30B5;&#x30FC;&#x30D0;&#x30FC;&#x8A2D;&#x5B9A;&#x306E;&#x30EC;&#x30DD;&#x30FC;&#x30C8;&#x3092;&#x898B;&#x308B;&#x3002;<br />&#x300C;imagick&#x300D;&#x9805;&#x76EE;&#x306E;&nbsp;&#8220;ImageMagick supported formats&rdquo; &#x3068;&#x3044;&#x3046;&#x884C;&#x306B;&#x300C;webp&#x300D;&#x304C;&#x3042;&#x308C;&#x3070;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+</blockquote>
+<p>&#x73FE;&#x5728;&#x306F;&#x307E;&#x3060;&#x30C6;&#x30B9;&#x30C8;&#x30B5;&#x30FC;&#x30D0;&#x3067; mamp &#x3067;&#x3084;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x306E;&#x3067;&#x3001;&#x3053;&#x308C;&#x306F;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x306A;&#x3044;&#x3053;&#x3068;&#x304C;&#x308F;&#x304B;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;&#x81EA;&#x5206;&#x3067;&#x30B5;&#x30FC;&#x30D0;&#x3092;&#x4F5C;&#x308B;&#x3068;&#x304D;&#x306F;&#x5BFE;&#x5FDC;&#x3055;&#x305B;&#x308B;&#x4E88;&#x5B9A;&#x3067;&#x3059;&#x304C;&#x3001;&#x4ECA;&#x306E;&#x3068;&#x3053;&#x308D;&#x306F;&#x5916;&#x90E8;&#x30AF;&#x30E9;&#x30A6;&#x30C9;&#x306E;WEB&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x9AD8;&#x901F;&#x5316;&#x304C;&#x3069;&#x306E;&#x304F;&#x3089;&#x3044;&#x9032;&#x3080;&#x304B;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x307F;&#x3088;&#x3046;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x30D1;&#x30C3;&#x3068;&#x601D;&#x3044;&#x3064;&#x304F;&#x306E;&#x306F;&#x3001;https://tinypng.com/ &#x306E;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x3067;&#x3059;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="TinyPNG_&#x2013;_Compress_PNG_images_while_preserving_transparency.png" src="/wp-content/uploads/2020/03/tinypng_e28093_compress_png_images_while_preserving_transparency.png" alt="TinyPNG Compress PNG images while preserving transparency" width="597" height="187" border="0" /></p>
+<p>&#x3053;&#x308C;&#x3092;WordPress&#xFF08;ClassicPress&#x3067;&#x3082;&#x5229;&#x7528;&#x53EF;&#xFF09;&#x3067;&#x5229;&#x7528;&#x3059;&#x308B;Plugin &#x304C;&#x3042;&#x308B;&#x306E;&#x3067;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<blockquote>
+<p>Compress JPEG &amp; PNG images<br />https://ja.wordpress.org/plugins/tiny-compress-images/</p>
+</blockquote>
+<p>Plugin &#x3092;&#x6709;&#x52B9;&#x306B;&#x3057;&#x3066;&#x3001;API &#x3092;&#x30B2;&#x30C3;&#x30C8;&#xFF08;&#x6708;&#x306B;500&#x307E;&#x3067;&#x5229;&#x7528;&#x53EF;&#xFF09;&#x3067;&#x3059;&#x3002;&#x30E1;&#x30C7;&#x30A3;&#x30A2;&#x8A2D;&#x5B9A;&#x306E;&#x81EA;&#x52D5;&#x30EA;&#x30B5;&#x30A4;&#x30BA;&#x3092;&#x7121;&#x52B9;&#x306B;&#x3057;&#x3066;&#x3001;medium_large_size_h &#x306E;&#x30D1;&#x30E9;&#x30E1;&#x30FC;&#x30BF;&#x3082;&#x4EE5;&#x4E0B;&#x304B;&#x3089;0 &#x306B;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<blockquote>
+<p>https://yourdomain/wp-admin/options.php</p>
+</blockquote>
+<p>&#x8A2D;&#x5B9A;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="&#x9AD8;&#x901F;&#x5316;_&#x2013;_&#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;_JunkHack_&#x3068;_Compress_JPEG___PNG_images_&#x2039;_&#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;JunkHack_&mdash;_ClassicPress.png" src="/wp-content/uploads/2020/03/e9ab98e9809fe58c96_e28093_e382a2e383aae382a8e382afe381a6e38299e3839be3829ae38381e381a3e3819f_junkhack_e381a8_compress_jpeg___png_images_e280b9_e382a2e383aae382a8e382afe381a6e38299e3839be.png" alt="&#x9AD8;&#x901F;&#x5316; &#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F; JunkHack &#x3068; Compress JPEG PNG images &#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;JunkHack ClassicPress" width="583" height="732" border="0" /></p>
+<p>&#x3069;&#x306E;&#x304F;&#x3089;&#x3044;&#x9AD8;&#x901F;&#x5316;&#x304C;&#x9032;&#x3093;&#x3060;&#x304B;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#xFF01;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186-3.png" alt="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;" width="597" height="269" border="0" /></p>
+<p>&#x7D50;&#x679C;&#x3001;1.7&#x79D2;&#x3067;&#x3059;&#x3002;0.5&#x79D2;&#x6539;&#x5584;&#x3057;&#x307E;&#x3057;&#x305F;&#x306D;&#xFF01;</p>
+<p>&#x3042;&#x3068;&#x3064;&#x3044;&#x3067;&#x306A;&#x306E;&#x3067;&#x3001;Autoptimize &#x30D7;&#x30E9;&#x30B0;&#x30F3;&#x3067; JS &#x3068; CSS &#x306E;&#x6700;&#x9069;&#x5316;&#x3092;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;&#x3053;&#x308C;&#x306F;&#x6709;&#x540D;&#x306A;&#x3093;&#x3067;&#x8AAC;&#x660E;&#x306F;&#x7701;&#x7565;&#x3002;</p>
+<blockquote>
+<p>Autoptimize<br />https://ja.wordpress.org/plugins/autoptimize/</p>
+</blockquote>
+<p>&#x7D50;&#x679C;&#x3001;&#x9AD8;&#x901F;&#x5316;&#x305D;&#x306E;&#xFF13;&#x3067;&#x306F;&#x6700;&#x7D42;&#x7684;&#x306B;&#x3001;1.2 &#x79D2;&#x306B;&#x307E;&#x3067;&#x6539;&#x5584;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186-2.png" alt="&#x30E2;&#x30CF;&#x3099;&#x30A4;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x306E;&#x901F;&#x5EA6;&#x3092;&#x6BD4;&#x8F03;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;" width="598" height="268" border="0" /></p>
+<p>&#x3042;&#x3068;&#x3001;0.3&#x79D2;&#x307B;&#x3069;&#x9811;&#x5F35;&#x308C;&#x3070;&#xFF11;&#x79D2;&#x4EE5;&#x4E0B;&#x306B;&#x306A;&#x3063;&#x3066;&#x300C;&#x901F;&#x3044;&#x300D;&#x306E;&#x90E8;&#x985E;&#x306B;&#x5165;&#x308B;&#x304B;&#x3068;&#xFF01;&#x3000;&#x3042;&#x3068;&#x306F;&#x30B5;&#x30FC;&#x30D0;&#x5074;&#x3067;&#x304C;&#x3093;&#x3070;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x304B;&#x3002;</p>
+<p>&#x30FB;&#x30FB;&#x30FB;&#x9AD8;&#x901F;&#x5316;&#x305D;&#x306E;&#xFF14;&#x3000;&#x306B;&#x7D9A;&#x304F;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>高速化その２：ClassicPress を入れてテーマを調整</title>
+		<link>/2020/03/18/adjust-the-theme-with-classicpress/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 18 Mar 2020 14:26:06 +0000</pubDate>
+				<category><![CDATA[ClassicPress]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=5083</guid>
+							<description><![CDATA[&#x5B85;&#x5185;&#x30B5;&#x30FC;&#x30D0;&#x306E;&#x30C6;&#x30B9;&#x30C8;&#x74B0;&#x5883;&#x3067;&#x3001;&#x30C [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>&#x5B85;&#x5185;&#x30B5;&#x30FC;&#x30D0;&#x306E;&#x30C6;&#x30B9;&#x30C8;&#x74B0;&#x5883;&#x3067;&#x3001;&#x30C6;&#x30FC;&#x30DE;&#x306E;&#x8ABF;&#x6574;&#x3068;ClassicPress &#x3092;&#x8A66;&#x3057;&#x306B;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x305F;&#x3002;<img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="classicpress-logo-wordmark-gradient-on-transparent.png" src="/wp-content/uploads/2020/03/classicpress-logo-wordmark-gradient-on-transparent.png" alt="Classicpress logo wordmark gradient on transparent" width="595" height="116" border="0" /></p>
+<p>en&#x3072;&#x304B;&#x308A;&#x306E; IPv6 &#x30C8;&#x30F3;&#x30CD;&#x30EB;&#x3082;&#x304B;&#x306A;&#x308A;&#x6709;&#x52B9;&#x3060;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x304C;&#x3001;&#x306A;&#x304B;&#x306A;&#x304B;&#x826F;&#x3044;&#x30B9;&#x30B3;&#x30A2;&#x304C;&#x51FA;&#x305F;&#x306E;&#x3067;&#x8A18;&#x9332;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3059;&#x3002;&#x3061;&#x306B;&#x307F;&#x306B;&#x3001;&#x7D14;&#x7C8B;&#x306A;ClassicPress &#x306B;&#x3057;&#x305F;&#x901F;&#x5EA6;&#x5411;&#x4E0A;&#x3068;&#x3044;&#x3046;&#x306E;&#x306F;&#x308F;&#x305A;&#x304B;&#x3067;&#x3059;&#x3002;&#x30C6;&#x30FC;&#x30DE;&#x306E;&#x90E8;&#x5206;&#x304C;&#x5927;&#x304D;&#x3044;&#x304B;&#x306A;&#x3068;&#x3044;&#x3046;&#x5370;&#x8C61;&#x3067;&#x3059;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="PageSpeed_Insights.png" src="/wp-content/uploads/2020/03/pagespeed_insights.png" alt="PageSpeed Insights" width="598" height="550" border="0" /></p>
+<p>Google &#x306E; <a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">PageSpeed Insights<span class="wpel-icon wpel-image wpel-icon-1"></span></a> &#x306E;&#x7D50;&#x679C;&#x3067;&#x3059;&#x3002;&#x305A;&#x3063;&#x3068;99% &#x3067;&#x3042;&#x3068;1% &#x304C;&#x4E0A;&#x304C;&#x3089;&#x306A;&#x304B;&#x3063;&#x305F;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x753B;&#x50CF;&#x306E;&#x9045;&#x5EF6;&#x8AAD;&#x307F;&#x8FBC;&#x307F;&#xFF08;&#x203B;1&#xFF09;&#x3092;&#x884C;&#x306A;&#x3063;&#x305F;&#x3089;100% &#x306B;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;&#x73FE;&#x5728;&#x306E;WordPress.com &#x4E0A;&#x306B;&#x3042;&#x308B;&#x30C7;&#x30FC;&#x30BF;&#x3068;&#x5909;&#x308F;&#x308A;&#x306A;&#x3044;&#x306E;&#x306B;&#x3001;&#x30C6;&#x30FC;&#x30DE;&#x3068;&#x304B;WordPress &#x672C;&#x4F53;&#x3092; ClassicPress &#x306B;&#x3057;&#x3066; en&#x3072;&#x304B;&#x308A;&#x306E; v6&#x3072;&#x304B;&#x308A;&#xFF0B;&#x56FA;&#x5B9A;IP&#x306E;&#x74B0;&#x5883;&#x306B;&#x3057;&#x305F;&#x3060;&#x3051;&#x3067;&#x3059;&#x3002; &#xFF11;&#x79D2;&#x672A;&#x6E80;&#x306A;&#x306E;&#x3067;&#x3001;&#x3068;&#x308A;&#x3042;&#x3048;&#x305A;&#x306F;&#x5341;&#x5206;&#x306A;&#x7D50;&#x679C;&#x304C;PC&#x306F;&#x51FA;&#x3066;&#x3044;&#x307E;&#x3059;&#x306D;&#x3002;&#x3061;&#x306A;&#x307F;&#x306B;&#x3001;&#x958B;&#x767A;&#x74B0;&#x5883;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x901A;&#x308A;&#x3002;</p>
+<blockquote>
+<p>WEB&#xFF1A;NGINX1.13.2&#xFF08;MAMP Pro&#xFF09;<br />PHP&#xFF1A;php7.4.1&#xFF08;MAMP Pro&#xFF09;<br />DB&#xFF1A;MySQL 5.7.26&#xFF08;MAMP Pro&#xFF09;</p>
+<p>Server CPU&#xFF1A;AMD Ryzen 5 3600<br />RAM&#xFF1A;32GB<br />DISK&#xFF1A;SSD</p>
+<p>CMS&#xFF1A;ClassicPress 1.1.2<br />&#x30C6;&#x30FC;&#x30DE;&#xFF1A;Susty&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;: 1.0.0<br />WP Plugin&#xFF1A;<br />&#x3000;Akismet Anti-Spam 4.1.4<br />&#x3000;AMP 1.4.4<br />&#x3000;Broken Link Checker 1.11.11<br />&#x3000;Catch Infinite Scroll 1.7<br />&#x3000;Lazy Load 0.6.1<br />&#x3000;Switch to ClassicPress 1.2.0<br />&#x3000;WordPress &#x30A4;&#x30F3;&#x30DD;&#x30FC;&#x30C8;&#x30C4;&#x30FC;&#x30EB; 0.7<br />&#x3000;WP Super Cache 1.7.1</p>
+</blockquote>
+<p>&#x3000;&#x203B;1&#x30FB;&#x30FB;&#x30FB;&#x753B;&#x50CF;&#x306E;&#x9045;&#x5EF6;&#x8AAD;&#x307F;&#x8FBC;&#x307F;&#x3068;&#x306F;&#x3001;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x304C;&#x6700;&#x521D;&#x306B;&#x300C;&#x30B9;&#x30AF;&#x30ED;&#x30FC;&#x30EB;&#x305B;&#x305A;&#x306B;&#x898B;&#x3048;&#x308B;&#x300D;&#x30DA;&#x30FC;&#x30B8;&#x306E;&#x753B;&#x50CF;&#x306E;&#x307F;&#x3092;&#x8868;&#x793A;&#x3057;&#x3001;&#x30B9;&#x30AF;&#x30ED;&#x30FC;&#x30EB;&#x3057;&#x305F;&#x3068;&#x304D;&#x306B;&#x753B;&#x50CF;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3080;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x3059;&#x3002;&#x3053;&#x308C;&#x3089;&#x3092;&#x7C21;&#x5358;&#x306B;&#x5B9F;&#x73FE;&#x3059;&#x308B;&#x305F;&#x3081;&#x3001;Lazy Load&#x3092;&#x4F7F;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x304C;&#x3084;&#x308A;&#x65B9;&#x306F;&#x3044;&#x308D;&#x3044;&#x308D;&#x3042;&#x308B;&#x3088;&#x3046;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x30E2;&#x30D0;&#x30A4;&#x30EB;&#x74B0;&#x5883;&#x306B;&#x3064;&#x3044;&#x3066;&#x306F;&#x3001;&#x307E;&#x3060;&#x5411;&#x4E0A;&#x306E;&#x4F59;&#x5730;&#x304C;&#x3042;&#x308A;&#x305D;&#x3046;&#x3067;&#x3059;&#x3002;JS &#x306E;&#x8ABF;&#x6574;&#x304C;&#x307E;&#x3060;&#x6B8B;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="PageSpeed_Insights.png" src="/wp-content/uploads/2020/03/pagespeed_insights-1.png" alt="PageSpeed Insights" width="599" height="600" border="0" /></p>
+<p>ClassicPress &#x306F;&#x3001;wordpress5.3.2 &#x304B;&#x3089; <a href="https://www.classicpress.net/get-classicpress/#switch-to-classicpress" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">switch-to-classicpress<span class="wpel-icon wpel-image wpel-icon-1"></span></a> &#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;&#x3092;&#x5165;&#x308C;&#x3066;&#x884C;&#x3044;&#x307E;&#x3057;&#x305F;&#x304C;&#x306A;&#x3093;&#x306E;&#x30C8;&#x30E9;&#x30D6;&#x30EB;&#x3082;&#x306A;&#x304F;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;ClassicPress &#x306B;&#x3057;&#x3066;&#x660E;&#x78BA;&#x306B;&#x306A;&#x3063;&#x305F;&#x306E;&#x304C;&#x3001;jetpack&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;&#x306F;&#x306A;&#x3044;&#x65B9;&#x304C;&#x7D76;&#x5BFE;&#x7684;&#x306B;&#x901F;&#x3044;&#x3067;&#x3059;&#x3002;&#x307E;&#x305F;&#x3001;&#x30B9;&#x30C8;&#x30EC;&#x30FC;&#x30B8;&#x5BB9;&#x91CF;&#x304C; ClassicPress &#x306F;20MB &#x304F;&#x3089;&#x3044;&#x6E1B;&#x308A;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x6570;&#x3082;300&#x304F;&#x3089;&#x3044;&#x6E1B;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p>&#x4ECA;&#x306E;&#x6240;&#x3001;&#x53EF;&#x3082;&#x306A;&#x304F;&#x4E0D;&#x53EF;&#x3082;&#x306A;&#x304F;&#x3068;&#x3044;&#x3063;&#x305F;&#x3068;&#x3053;&#x308D;&#x3067;&#x3057;&#x3087;&#x3046;&#x304B;&#xFF1F;&#x3000;&#x3057;&#x304B;&#x3057;&#x3001;&#x826F;&#x3044;&#x306A;&#x3068;&#x601D;&#x3046;&#x306E;&#x306F;&nbsp;ClassicPress&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;1.x&#x306F;&#x3001;&#x9577;&#x671F;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#xFF08;LTS&#xFF09;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x5B89;&#x5B9A;&#x3057;&#x3066;&#x52D5;&#x4F5C;&#x3057;&#x3066;&#x304F;&#x308C;&#x305D;&#x3046;&#x306A;&#x6C17;&#x304C;&#x3057;&#x307E;&#x3059;&#x3002;&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;&#x3082;&#x540C;&#x3058;&#x3088;&#x3046;&#x306B;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x3066;&#x3001;&#x52D5;&#x4F5C;&#x3059;&#x308B;&#x3082;&#x306E;&#x306F;&#x300C;Compatible&nbsp;with your version of ClassicPress&#x300D;&#x3068;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#x306E;&#x3067;&#x76EE;&#x5B89;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x306D;&#x3002;</p>
+<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="&#x30D5;&#x309A;&#x30E9;&#x30AF;&#x3099;&#x30A4;&#x30F3;&#x3092;&#x8FFD;&#x52A0;_&#x2039;_&#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;JunkHack_&mdash;_ClassicPress.png" src="/wp-content/uploads/2020/03/e38395e3829ae383a9e382afe38299e382a4e383b3e38292e8bfbde58aa0_e280b9_e382a2e383aae382a8e382afe381a6e38299e3839be3829ae38381e381a3e3819fjunkhack_e28094_classicpress.png" alt="&#x30D5;&#x309A;&#x30E9;&#x30AF;&#x3099;&#x30A4;&#x30F3;&#x3092;&#x8FFD;&#x52A0; &#x30A2;&#x30EA;&#x30A8;&#x30AF;&#x3066;&#x3099;&#x30DB;&#x309A;&#x30C1;&#x3063;&#x305F;JunkHack ClassicPress" width="599" height="386" border="0" /></p>
+<p>&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3067;&#x3001;&#x65B9;&#x91DD;&#x3068;&#x3057;&#x3066;&#x306F;&nbsp;ClassicPress &#x3092;&#x4F7F;&#x3063;&#x3066;&#x3044;&#x304F;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;&#x305D;&#x3057;&#x3066;&#x3001;jetpack&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;&#x306F;&#x3082;&#x3046;&#x4F7F;&#x308F;&#x306A;&#x3044;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;&#x30C6;&#x30FC;&#x30DE;&#x306F;&#x3001;Susty&#x3092;&#x30AB;&#x30B9;&#x30BF;&#x30DE;&#x30A4;&#x30BA;&#x3057;&#x3066;&#x4F7F;&#x3046;&#x3053;&#x3068;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

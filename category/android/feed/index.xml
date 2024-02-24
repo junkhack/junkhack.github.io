@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Android &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 21 Jun 2022 06:52:53 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>Android &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
+		<link>/2022/01/02/keycdn/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 02 Jan 2022 00:01:22 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[cdn]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=10979</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/01/KeyCDN.png" />
+							<description><![CDATA[KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。 今回は前から気になっていたKeyC [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>CDNってのを半年、使ってみましたよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>クラウドからコンテンツを配信するってヤツですね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>どんな効果があって、月維持費はどのくらいかレポートしてみます。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>私は、月500円くらいまでなら出せるかなー</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img fetchpriority="high" decoding="async" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>今回は前から気になっていたKeyCDNをこのスマホサーバのWordPressサイトに適用してみましたので、実際どのくらいの値段で運用できるんだ？　みたいな感想をレポートしてみたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">そもそもCDNって何？</h3>
+
+
+
+<p>CDNは平たく言えば、画像やコンテンツを本家とは違うサーバから配信するというものです。キャッシュサーバとか、エッジサーバとか表現したりしますが、要は静的なファイルを本家サーバからではなく、CDNのクラウドから配信することによりネットワーク負荷や、レスポンス改善（時に改悪）したりするのが目的です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>コンテンツデリバリネットワーク（英語: content delivery network、CDN）</p><cite>wiki</cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">いくらするの？</h3>
+
+
+
+<p>ほとんどの人が気になるのは、初期や維持費などの価格がいくらなのか？　っていうことと、速度はどのくらい改善されるのか？　ってことだと思います。こればっかりは使ってみないとなんとも言えない部分があります。早速、値段からレポートしてみたいと思います。</p>
+
+
+
+<p>　まず、KeyCDNは最初にクレジットを入れてそれを消費する仕組みです。最小の入金単位は 49ドル となります。日本円で当時のキャッシュカード換金レートで、5,553円でした。</p>
+
+
+
+<p>　入金したのが、2021年の06月/01なので現時点で半年使っていることになります。クレジットの消費は以下のようになっています。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>残りクレジットは18くらいです。49から約36%残っていますので半年で67% 消費したことになります。半年で、約3720円ですので、１ヶ月あたり620円という感じですね。</p>
+
+
+
+<p>　グラフの途中に、ガクンとクレジットが消費しているところがありますが、これはキャッシュを完全に消去して作り直している部分です。</p>
+
+
+
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
+
+
+
+<p>統計期間が約４ヶ月くらいなので、KeyCDN上のデータでは以下のようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>1日あたり、cssや画像やhtmlなど合計して1.8万くらいのヒットがあります。PV的な数値は１つ前の記事に載せてありますので、参考にしてください。</p>
+
+
+
+<h3 class="wp-block-heading">１ヶ月のデータ転送量は？</h3>
+
+
+
+<p>このサイトの１ヶ月のデータ転送量（総トラフィック）は、KeyCDNの統計データで見ると以下のようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>PV的には2000〜2500くらいでこの転送量です。3000〜5000くらいのPVでも15GBを１ヶ月に超えることはありませんでした。</p>
+
+
+
+<h3 class="wp-block-heading">CDNの効果はどのくらい？</h3>
+
+
+
+<p>ページ計測サイトで、CDN適用前と適用後のデータを測っておきましたので載せておきます。</p>
+
+
+
+<p>まずは、CDN適用前。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>次は、CDN適用後。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>だいぶ改善されていますね。適用前は、最初のレンダリングが始まるのに、約4.2秒かかっていますが、適用後は、0.8秒です。CDNの効果は絶大です。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・このサイトのようにPVが月に２０００〜５０００くらいでは、月600円〜700円くらいのCDNコスト</p>
+
+
+
+<p>・設定は非常に楽</p>
+
+
+
+<p>・CDNの効果は絶大で、最初の描画が<meta charset="utf-8">4.2秒から0.8秒となった</p>
+
+
+
+<p>・<meta charset="utf-8">blazingcdnというCDNはKeyCDNより激安で、どんな効果があるのか試してみたい気もする</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>WordPressのように、コンテンツ側で結構リソースを使うタイプや、スマホサーバのように非力な環境ではCDNの効力は絶大です。しかし、利用コストが月に600円〜700円くらいかかり趣味で使うのなら良いのですが、静的HTMLにして運用したほうが、良いなという結論に至りました。要はWordPressは、リソースを使うし無駄が多いんです。近々、そういう運用に方針を変えますので、紹介したいなと思っています。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2021/04〜12 site24x7 でのSLA状況・統計データ</title>
+		<link>/2022/01/01/post-10969/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 01 Jan 2022 11:11:26 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10969</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/01/SLA2021.png" />
+							<description><![CDATA[この半年、仕事が急がしてく記事を更新する気力もなくグタグタと過ごしてきました。やっとまとまった休みも取れた（正月休み）ので記事を更新しておきます。 　site24x7 で監視していますが、最近は安定してきました。SLA統 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>この半年以上、スマホサーバは安定稼働してるよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>一時期、落ちるって言ってたけど原因わかったの？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>あー、あれはルータのマルチセッションの設定が原因だった</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>だから、Bad Gatewayだったのね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>この半年、仕事が急がしてく記事を更新する気力もなくグタグタと過ごしてきました。やっとまとまった休みも取れた（正月休み）ので記事を更新しておきます。</p>
+
+
+
+<p>　site24x7 で監視していますが、最近は安定してきました。SLA統計データを出しておきます。</p>
+
+
+
+
+
+<h3 class="wp-block-heading">何を目指しているの？</h3>
+
+
+
+<blockquote class="wp-block-quote"><p><em>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</em></p><cite><a rel="noreferrer noopener" href="/2020/09/11/wildcard-domain-acme/" target="_blank" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指しています。99.95%とは１ヶ月にダウンタイムが21.6分以内であればOKということですが、最近はほぼ100%を維持しています。一時期、NGINXがBadGatewayになる現象が発生していましたが、これはやっと原因がわかりルータのマルチセッションの設定がよくなかったようです。詳細は省きますが、ドメインによってプロバイダAとBを分けていました。今は、マルチセッションはやめて１つのプロバイダから出ています。</p>
+
+
+
+<h3 class="wp-block-heading">２０２１・最終四半期のSLA</h3>
+
+
+
+<p>10月から12月の結果です。障害時間の合計は37 分 17 秒で、SLAは99.972%となり目標の99.95% 以上になっています。ちょこちょこダウンしているのは、大量のダウンロードなどで帯域を潰してレスポンスが一時的になくなる時間などで特にサーバがダウンしているわけではないです。外部から監視しているとそういう瞬断が３ヶ月で37分くらいあったということです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="573" src="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png" alt="" class="wp-image-10970" srcset="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png 1024w, /wp-content/uploads/2022/01/sla2021_10_12-768x430.png 768w, /wp-content/uploads/2022/01/sla2021_10_12-984x551.png 984w, /wp-content/uploads/2022/01/sla2021_10_12.png 1229w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>PHPは、前回の記事でも紹介していますが、PHP7系のちょっと新しいのをビルドして入れています。</p>
+
+
+
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
+
+
+
+<p>ページを表示している回数（PV）は、こんな感じで月におおよそ2500〜5000という感じです。最近は全然記事を更新していなかったので、2000くらいまで下がっています。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="861" height="303" src="/wp-content/uploads/2022/01/pv.png" alt="" class="wp-image-10974" srcset="/wp-content/uploads/2022/01/pv.png 861w, /wp-content/uploads/2022/01/pv-768x270.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
+
+
+
+<p>検索数で見ると以下のような感じのサイトです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="391" src="/wp-content/uploads/2022/01/sp-1024x391.png" alt="" class="wp-image-10975" srcset="/wp-content/uploads/2022/01/sp-1024x391.png 1024w, /wp-content/uploads/2022/01/sp-768x293.png 768w, /wp-content/uploads/2022/01/sp-984x376.png 984w, /wp-content/uploads/2022/01/sp.png 1126w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>最近は、MQA関連の音楽ネタと、pixel3のroot化記事関連がほとんどです。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・このくらいのアクセス数のサイトをスマホで安定稼働させることは十分可能</p>
+
+
+
+<p>・消費電力などを考慮しても、レンタルサーバより安価で運用を趣味にしている人には良いかも</p>
+
+
+
+<p>・しかし、WordPressの運用はクソめんどくさい。正直、もうGithub Pageとか、NETLIFYに静的ページを吐き出す運用にしようかと思ってる。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>放置ぎみになっている個人のブログっていうのは月にこのくらいのアクセス数で、当初のスマホで安定稼働させるっていう目的も達成したので、そろそろ違う運用も視野に入れています。WordPressとは関わっていきますが、静的ページを吐き出す運用のほうが楽でいいなーと思います。このSLA報告もこれが最後になるかもです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TermuxのパッケージPHP7.4.21最新ビルド</title>
+		<link>/2021/07/11/php-7421-latest-build-with-termux/</link>
+					<comments>/2021/07/11/php-7421-latest-build-with-termux/#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 10 Jul 2021 18:32:13 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10746</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/06/termux_php8_to_php7.png" />
+							<description><![CDATA[Termux のPHPバージョンは、今は８系になっていて7.4系の最終リリースは7.4.12 でした。ちょっと古かったので、2021年7月01日にリリースされたphp7.4.21をビルドしておきました。７系はあと１年くら [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>最近、仕事が忙しがったー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>もう今年も半分終わっちゃいましたね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今回は、TermuxのPHPを最新の7.4.21 にしたよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>最新ビルド作ったんですか？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>Termux のPHPバージョンは、今は８系になっていて7.4系の最終リリースは7.4.12 でした。ちょっと古かったので、2021年7月01日にリリースされたphp7.4.21をビルドしておきました。７系はあと１年くらいは使うつもりです。ところで、xdebug付きはどうやってビルドするんでしょうね。次の課題です。</p>
+
+
+
+<h3 class="wp-block-heading">PHP7.4.21のダウンロード先</h3>
+
+
+
+<blockquote class="wp-block-quote"><p>Github: termux-php7</p><cite><a href="https://github.com/take-i/termux-php7" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>完全にはテストしていませんが、このサイトにも入れながらテストしています。今のところ大丈夫かな？心配な人は自分でビルドして、テストしてみてくださいね。ビルド方法はググってくだされ。</p>
+
+
+
+<h3 class="wp-block-heading">アップデート方法</h3>
+
+
+
+<p>前の記事で、php8.xからphp7.4.12にダウングレードする方法は書いていますので、今回はアップデートです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>TermuxでPHP7を使いたい！ PHP8からPHP7にして使う。</p><cite><a href="/2021/06/01/termux-php8-to-php7/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
+
+
+
+<p>さくっと、バージョンあげてみましょう。</p>
+
+
+
+<h3 class="wp-block-heading">ステップ１</h3>
+
+
+
+<p>ZIP圧縮したのも以下にあるのでダウンロードして解凍しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>cd 適当なDIR
+wget https://github.com/take-i/termux-php7/raw/master/php_7.4.21-aarch64-deb.zip
+unzip php_7.4.21-aarch64-deb.zip</code></pre>
+
+
+
+<p>解凍すると以下な感じです。</p>
+
+
+
+<pre class="wp-block-code"><code>$ tree php_7.4.21-aarch64-deb
+php_7.4.21-aarch64-deb
+├── apache2_2.4.46-4_aarch64.deb
+├── libicu_67.1_aarch64.deb
+├── php-apache_7.4.21_aarch64.deb
+├── php-fpm_7.4.21_aarch64.deb
+├── php-pgsql_7.4.21_aarch64.deb
+└── php_7.4.21_aarch64.deb</code></pre>
+
+
+
+<p>今回は、nginxですので、本体とphp-fpmを入れておきます。libicu_67は前回（php7.4.12）と同じなのでそのままです。apacheとphp-apacheはまったくテストしていませんので、自己責任で入れるならお願いします。動作しない場合は、ご連絡を。対応するかは別ですが。</p>
+
+
+
+<h3 class="wp-block-heading">ステップ２</h3>
+
+
+
+<p>アップデートする前に、パッケージが更新されないようしていた場合は以下のようにパッケージ名が出ますのでそれを解除しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark showhold
+php
+php-fpm</code></pre>
+
+
+
+<p>解除は、unhold です。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark unhold php php-fpm
+Canceled hold on php.
+Canceled hold on php-fpm.</code></pre>
+
+
+
+<p>解除されたか、再度 １つ上のコマンドを実施しておきます。</p>
+
+
+
+<h3 class="wp-block-heading">ステップ３</h3>
+
+
+
+<p>アップデートといっても、コマンドは同じです。</p>
+
+
+
+<pre class="wp-block-code"><code>cd php_7.4.21-aarch64-deb
+※以下は今回入れないので削除。
+rm apache2_2.4.46-4_aarch64.deb php-apache_7.4.21_aarch64.deb* php-pgsql_7.4.21_aarch64.deb*
+
+dpkg -i ./php*</code></pre>
+
+
+
+<h3 class="wp-block-heading">ステップ４</h3>
+
+
+
+<p>確認。ちゃんと、7.4.21が入っていますね。</p>
+
+
+
+<pre class="wp-block-code"><code>$ php -v
+PHP 7.4.21 (cli) (built: Jul 10 2021 16:36:28) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies</code></pre>
+
+
+
+<p>勝手にアップデートされないようマークしておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>apt-mark hold libicu php php-fpm</code></pre>
+
+
+
+<p>マークされたか、確認</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark showhold
+libicu
+php
+php-fpm</code></pre>
+
+
+
+<h3 class="wp-block-heading">ステップ４</h3>
+
+
+
+<p>nginxとphp-fpm を再起動しておきます。このスマホはroot化してあって、nginxはroot権限でmasterプロセスが動作しているので、sudoしてKILLしておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ killall php-fpm
+$ sudo killall nginx
+再起動
+$ php-fpm
+$ sudo nginx</code></pre>
+
+
+
+<p>phpinfo()などで確認しておきます。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・termuxのphp最新をビルドしてみた<br>・テストは人柱として、このホストやっています<br>・何かあれば報告（してね）<br>・xdebug付きのもビルドしてみたいがどうやるんだろうか？</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>まだこのブログは、スマホのumidigi F2で動作させています。そろそろ電池を交換したので、pixel3を復活させないとですが、腰が思いです。あと、最近keyCDNも１ヶ月くらい運用していますので、そろそろそのネタも描きたいなと。ついでにアドセンスなんかも運用していますが、これは駄賃くらいにしかならないので、やめた方がいいんじゃないかという感じ。広告でるのは好きじゃ無いし、回避方法は見る側がいくらでもできますしね。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/07/11/php-7421-latest-build-with-termux/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインはどこかに無いかな？</title>
+		<link>/2021/06/09/copy-the-first-wordpress-article-to-the-second-wordpress/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 08 Jun 2021 16:33:50 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10619</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/06/wp-a-site-copy-b-site.png" />
+							<description><![CDATA[AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかり [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今日もWordPress触っていくよ〜！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ってか、最近暑いわね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>１つ目のWordPressの記事を２つ目のWordPressにコピーするプラグインとか誰か作ってないかなーと探してる</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>MainWPってのはどう？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>AサイトのWordPressとBサイトのWordPressの記事を管理してみたいので、そんなプラグインがあるか探してみました。大体、だれかが何か作っていたりするので、まずはリサーチです。やりたいことは、言葉で書くとわかりにくいので、図に書くとこうなります。</p>
+
+
+
+<center><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="375px" height="261px" viewBox="-0.5 -0.5 375 261" content="&lt;mxfile&gt;&lt;diagram id=&quot;8aDVfMz8q1SKujRMYK2U&quot; name=&quot;ページ1&quot;&gt;7VjbbqMwEP0aXleYSyCPCc1epFZbbR767IADVo2NjGmSfv2OwYQQkl3apt2LIiElPp4Ze+bMmDGWG+XbLxIX2Z1ICLMcO9la7o3lOMjxHPjRyK5BgmDSAKmkiRHqgCV9Jga0DVrRhJQ9QSUEU7Tog7HgnMSqh2EpxaYvthasv2qBUzIAljFmQ/SBJipr0NAJOvwroWnWrowm02Ymx62w8aTMcCI2B5C7sNxICqGaf/k2IkwHr41Lo/f5zOx+Y5JwNUbBEPGEWWV8sxahNQutaWgtPGs+s8K52anate6XG5ozzGE0XwuulmbGhnGcUZbc4p2o9PKlwvFjO5pnQtJnkMcMphAAMC2VYdeZaGuUsUgwIQHgol6gU1pqY2YZSUpQu2/dREfQHd72BG9xqdoNCsZwUdJVvWWtmGOZUj4XSoncCJmgEKnI9mxg0Z4uyHMicqLkDkRahdBvVEyKuxPD+KZLGGQbLDtMFtsziWqSNN3b7niEP4bK07S6A1q/KZIDggZkgouq5kKKR3IU/BN8YEZTDkNG1lpNx4hCYcwMrEShjRU4pjy9rWVuvA75YfzUkADdNauTP6NJQrimSyis8GqfToWgXNVx8OfwQLgi+5Nv+bDxCMaoG8OjxaWKBAdfMK1pIkD8hmjyx3HqnObUcOhMxlHYyr2FQe8cg86Vwdcz6DsfxyCaDM/WY+oIT2b6fQSjmOGypLE+8lTenpCNAkkGr6PfOnzgoX/CwRaThGFFn/rmT3ltVrjXdHan3KR/yE3tvoFSVDImRufwLXRkxkF9O8GRHXhPpEQN7NQM7H0eRYp/rqzca1m9vqyC8OPKakRVHRTQJqOKLCHGemoD3agOeYYLPaSliKoVAb/mK2gtUikqnnyvFKO87Q1AZMbTplXwL9MYeMjr5boXDBuD6cm+wH578IJB8B6ETO6hSyoBHnZ6L6yBg8DXjaFp7byjRhGdqI8cMp0d1lEM8STyQjG3+zH3w5HNmHeBmIf/eMKiNhv/RMJOf5mws/81YVHYj/mHJiy6Xgrf6VLo2dMeraMvheElaL1eCl/X+6C/51aIrv3ru3A4+l4YvphDGHaf85obS/dR1F38BA==&lt;/diagram&gt;&lt;/mxfile&gt;"><defs><clipPath id="mx-clip-34-31-92-26-0"><rect x="34" y="31" width="92" height="26"/></clipPath><clipPath id="mx-clip-34-57-92-26-0"><rect x="34" y="57" width="92" height="26"/></clipPath><clipPath id="mx-clip-34-83-92-26-0"><rect x="34" y="83" width="92" height="26"/></clipPath><clipPath id="mx-clip-258-31-92-26-0"><rect x="258" y="31" width="92" height="26"/></clipPath><clipPath id="mx-clip-258-57-92-28-0"><rect x="258" y="57" width="92" height="28"/></clipPath></defs><g><path d="M 30 26 L 30 0 L 130 0 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 30 26 L 30 104 L 130 104 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 30 26 L 130 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px"><text x="79.5" y="17.5">記事</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-31-92-26-0)" font-size="12px"><text x="35.5" y="43.5">Item 1</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-57-92-26-0)" font-size="12px"><text x="35.5" y="69.5">Item 2</text></g><path d="M 95 90 L 238.69 70.84" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 243.89 70.15 L 237.42 74.54 L 238.69 70.84 L 236.49 67.6 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-34-83-92-26-0)" font-size="12px"><text x="35.5" y="95.5">Item 3</text></g><path d="M 304 110 L 349 131.61 L 349 188.39 L 304 210 L 259 188.39 L 259 131.61 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 259 131.61 L 304 153.21 L 349 131.61 M 304 153.21 L 304 210" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 299px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">WordPress B</div></div></div></foreignObject><text x="299" y="247" fill="#000000" font-family="Helvetica" font-size="24px" text-anchor="middle" font-weight="bold">WordPres&#8230;</text></switch></g><path d="M 80 110 L 125 131.61 L 125 188.39 L 80 210 L 35 188.39 L 35 131.61 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 35 131.61 L 80 153.21 L 125 131.61 M 80 153.21 L 80 210" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 75px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: nowrap; ">WordPress A</div></div></div></foreignObject><text x="75" y="247" fill="#000000" font-family="Helvetica" font-size="24px" text-anchor="middle" font-weight="bold">WordPres&#8230;</text></switch></g><path d="M 254 26 L 254 0 L 354 0 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 254 26 L 254 80 L 354 80 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 254 26 L 354 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px"><text x="303.5" y="17.5">記事</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-258-31-92-26-0)" font-size="12px"><text x="259.5" y="43.5">Item 1</text></g><g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-258-57-92-28-0)" font-size="12px"><text x="259.5" y="69.5">Item 3</text></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text></a></switch></svg></center>
+
+
+
+<p>つまり、Aサイトの投稿済み記事をBサイトに個別にコピーするという感じです。画像などのリソースもそのままBサイトに入れば最高です。</p>
+
+
+
+<p>AサイトもBサイトも設定やプラグイン構成やテーマが違うので、記事とそのリソース（画像など）を複製できればいいのですが、、、そんなことはどうやったら実現できるでしょうか。それを今日は検討しています。</p>
+
+
+
+<h3 class="wp-block-heading">MainWPプラグインはどうかな？</h3>
+
+
+
+<p>MainWPっていうのがありました。使い方は省略しますが、こんな事が実現できることはわかりました。</p>
+
+
+
+<p>・管理WPから、複数の新規記事を複数のWPサイトへ発行できる。<br>・MainWP本体プラグインを管理WPに入れる。配信するWPにはMainWP Childを入れる<br>・２台構成の場合は、管理WPに、MainWPとMainWP Childを入れる</p>
+
+
+
+<p>残念ながら、Aサイトのすでに投稿済みの記事を個別に選んで、Bサイトにコピー（投稿）することはできないそうです。Pro版を使ってもダメみたい。どうりでそんなインターフェイスがないわけだ。</p>
+
+
+
+<p>　ということで、何か違う方法を模索。XML-RPC経由か、DBにトリガーを作るか。または、、、、うーん、DBだけだったら、レプリケーションフィルターオプションとかで行けそうかも。WordPressの機能を使ってやるのが良さそうですが。</p>
+
+
+
+<h3 class="wp-block-heading">記事をコピーしてどうするの？</h3>
+
+
+
+<p>はい、実は今研究中の課題がありまして、それはGitHubのPagesにWordPressコンテンツを静的ファイルにして書き出すというものです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>GitHubのpagesにコミットしたWordPressの静的ページ（テスト中）</p><cite><a href="https://junkhack.github.io/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://junkhack.github.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このページは、WordPressから書き出した静的なファイルです。それを吐き出すようの専用のWordPressを作って、メインサイトから記事を同期させたかったわけです。メインサイトとは、プラグイン構成やテーマファイルが変わる予定なので、これらを実現するには、記事のコピーが必要だったわけです。</p>
+
+
+
+<p>GitHub pagesは、まだテスト中なので、リンクが切れていたり、画像がgithubからじゃなかったりするページがありますが、全体としては結構使えるんじゃないの？　という感触です。たとえば、ニューヨークからの接続時間は、現在のスマホサーバに接続すると以下のような時間となりますが、</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="924" height="636" src="/wp-content/uploads/2021/06/cdn_check2.png" alt="" class="wp-image-10629" srcset="/wp-content/uploads/2021/06/cdn_check2.png 924w, /wp-content/uploads/2021/06/cdn_check2-768x529.png 768w" sizes="(max-width: 924px) 100vw, 924px" /></figure></div>
+
+
+
+<p>GitHubのpagesにコミットした静的ページだと、以下のように速くなります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="925" height="644" src="/wp-content/uploads/2021/06/cdn_check.png" alt="" class="wp-image-10630" srcset="/wp-content/uploads/2021/06/cdn_check.png 925w, /wp-content/uploads/2021/06/cdn_check-768x535.png 768w" sizes="(max-width: 925px) 100vw, 925px" /></figure>
+
+
+
+<p>さすが、htmlやcssやjsだけの静的ファイルになると速いですね。Githubのリソースだから自動的にCDN経由になりますしね。速度的には以下な感じです。測定拠点はワシントンです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="542" src="/wp-content/uploads/2021/06/WebPageTest-1024x542.png" alt="" class="wp-image-10633" srcset="/wp-content/uploads/2021/06/WebPageTest-1024x542.png 1024w, /wp-content/uploads/2021/06/WebPageTest-768x406.png 768w, /wp-content/uploads/2021/06/WebPageTest-984x521.png 984w, /wp-content/uploads/2021/06/WebPageTest.png 1094w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>PageSpeed Insights（GoogleのWEB速度チェック）でも、いい感じでした。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="960" height="670" src="/wp-content/uploads/2021/06/PageSpeed_Insights.png" alt="" class="wp-image-10634" srcset="/wp-content/uploads/2021/06/PageSpeed_Insights.png 960w, /wp-content/uploads/2021/06/PageSpeed_Insights-768x536.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
+
+
+
+<h3 class="wp-block-heading">GitHub Pagesのリソース制限は？</h3>
+
+
+
+<p>リソース制限などは、以下のサイトにまとまっています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>GitHub Pagesでホストするサイトのアクセス上限は月10万リクエストが目安<br>::（抜粋）<br>　GitHub Pagesソースリポジトリの推奨制限は1GB<br>　公開されているGitHub Pagesサイトは1GB以下<br>　GitHub Pagesサイトは、1か月あたり100GBまたは100,000リクエストの帯域幅制限<br>　GitHub Pagesサイトは、1時間あたり10ビルドの制限</p><cite><a href="https://qiita.com/tonishi/items/e5696b477278f3c49b77" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>個人サイトのブログ程度なら、ミラーサイトとして問題なさそうな感じですかね。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・MainWPを使ってみた<br>・しかし、これは個別で投稿済みの記事をBサイトにコピーはできない<br>・GitHub Pagesのリソース制限は個人サイトくらいなら問題なさそうかな？<br>・WordPressを静的に吐き出して利用するには、まだまだいくつか考慮するポイントがありそう。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>世の中は広いから、大抵のものはだれかが作っています。　リサーチしてると面白いものがどんどん発掘されて、当初の目的を忘れていたりします。w さて、次はWordPressの静的ファイルに書き出す仕組みづくりを検討です。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>工学社 の本、androidの改造　に掲載されたよ！</title>
+		<link>/2021/05/20/isbn-10_4777521494/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 20 May 2021 08:05:40 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10506</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/gogai.png" />
+							<description><![CDATA[工学社&#160;出版のI/O編集部さんが、「Androidスマホの改造」っていうタイトルの本を出されたのですがその中で、なんと、このブログの記事の一部が載っていますよ。ただいま、絶賛予約中です！ 5/27発売です。 出 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>なんと、このブログの記事が工学社の本に掲載されましたよ！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>なにぃー！　こんなふざけたブログが本に載っただと！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>よかったら、本屋さんまたはネットでポチってね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ネタは「Pixel3のroot化」の件です。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<p>工学社&nbsp;出版のI/O編集部さんが、「<strong>Androidスマホの改造</strong>」っていうタイトルの本を出されたのですがその中で、なんと、このブログの記事の一部が載っていますよ。ただいま、絶賛予約中です！ 5/27発売です。</p>
+
+
+
+<figure class="wp-block-table aligncenter"><table><tbody><tr><td><a href="https://amzn.to/3f0Hmpm" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img decoding="async" src="/wp-content/uploads/2021/05/Amazon_co_jp.png" alt=""></a></td></tr><tr><td><strong>出版社 :&nbsp;</strong>工学社 (2021/5/27)<br><strong>発売日 :&nbsp;</strong>2021/5/27<br><strong>言語 :&nbsp;</strong>日本語<br><strong>単行本 :&nbsp;</strong>112ページ<br><strong>ISBN-10 :&nbsp;</strong>4777521494<br><strong>ISBN-13 :&nbsp;</strong>978-4777521494<br><strong>寸法 :&nbsp;</strong>14.8 x 1 x 21 cm</td></tr></tbody></table></figure>
+
+
+
+<p>元ネタとなった当ブログの記事はこれです。</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2021/05/58b37a198180ea688f088b84daff52e6.png" alt="" class="wp-image-10571" width="85" height="85"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
+<blockquote class="wp-block-quote"><p>Pixel3・android11(R)正式リリース版でroot化！</p><cite><a rel="noreferrer noopener" href="/2020/10/05/pixel3android11rroot/" target="_blank" data-wpel-link="internal">LINK</a></cite></blockquote>
+</div>
+</div>
+
+
+
+<h3 class="wp-block-heading">内容抜粋</h3>
+
+
+
+<p>工学社さんの<a rel="noreferrer noopener external" href="http://www.kohgakusha.co.jp/books/detail/978-4-7775-2149-4" target="_blank" data-wpel-link="external" class="wpel-icon-right">サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>に抜粋がありましたので引用しておきます。第一章に、赤文字部分が掲載された部分です。</p>
+
+
+
+<p>■非公式アプリを入れる―root化<br>　機械オンチでも出来る！Androidをroot化する方法<br>　<span class="has-inline-color has-vivid-red-color">Pixel3・android11(R)正式リリース版でroot化</span></p>
+
+
+
+<p>■“スクショ”禁止のアプリで画像を保存 ―「Xposed」導入<br>　Androidに「Xposed」を導入する方法<br>　「Xposed」の使い方に関するアレコレ</p>
+
+
+
+<p>■有志が作った最新OSでセキュリティ向上　―ROM焼き<br>　「Xperia XZs」のROM焼き<br>　ROM焼き手順</p>
+
+
+
+<p>■キャリア以外のSIMカードを入れる―「SIMロック解除」<br>　「SIMロック解除」とは<br>　「SIMロック解除」の条件と手順について</p>
+
+
+
+<p>■高度なカスタマイズを可能に―adbコマンド<br>　「Windows」で「adbコマンド」を使う方法<br>　「Mac」で「adbコマンド」を使う方法</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>こんなブログの記事が、まさか本になるとは思っていませんでした。依頼が来た時は、びっくりです！　汎用性がある記事っていうのは、目に止まるっていうことですかね。root化の記事もそれなりに需要があるということですね。</p>
+
+
+
+<p>　今度は root化したらこんなことができるよっていう記事も書いていこうと思いました。今回の本にも載っている「あっとはっく」さんのサイトは面白い記事がたくさんありますね。見習いたいと思います。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>日々をハックする記事をお届け：あっとはっく</p><cite><a href="https://sp7pc.com/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

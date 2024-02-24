@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>wordpress.com &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Wed, 17 Oct 2018 19:11:52 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>wordpress.com &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>WordPress.com でドメインマッピングしてサブドメインの独自ドメインを利用</title>
+		<link>/2018/10/18/wordpress-com-%e3%81%a7%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%9e%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%81%97%e3%81%a6%e3%82%b5%e3%83%96%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%ae%e7%8b%ac/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 17 Oct 2018 19:11:52 +0000</pubDate>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress.com]]></category>
+		<guid isPermaLink="false">/?p=4649</guid>
+							<description><![CDATA[さて、前回 WordPress.com の一番下の有料プラン「パーソナル」という月額400円（支払いは年間一括4800円税込）を開始しました。 独自ドメインは、GPL.JP というドメインでこれのサブドメイン部分に、ju [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>さて、前回 WordPress.com の一番下の有料プラン「パーソナル」という月額400円（支払いは年間一括4800円税込）を開始しました。</p>
+<p>独自ドメインは、GPL.JP というドメインでこれのサブドメイン部分に、junkhack をつけた形です。</p>
+<p>で、使えるようにするにはどうしたらいいかってことを簡単に紹介します。</p>
+<p>オフィシャルの日本語サポートにも情報があります。</p>
+<p><a title="https://ja.support.wordpress.com/domains/" href="https://ja.support.wordpress.com/domains/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://ja.support.wordpress.com/domains/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>&nbsp;</p>
+<h3>目次</h3>
+<p>まず、前提条件としては以下です。</p>
+<p>・ドメイン登録は他の会社（お名前コムとかムームードメインなどなど）</p>
+<p>・サブドメインを割り当て（abc.example.jp の abc 部分をサブドメインといいます）</p>
+<p>&nbsp;</p>
+<p>今回のドメインは、他の会社で管理しています。いわゆるレジストラというのはバリュードメインで、今はGMO資本になってブランド名だけ使われています。</p>
+<p>レジストラは、無料のDNSをだいたい運営していますのでその設定がWEB上で行えるコントロールパネルが存在するところをお勧めします。昔はDNSも自前で運営していましたがあまり意味がないので今は大手のレジストラのDNSを使っている感じです。</p>
+<p>&nbsp;</p>
+<h3>レジストラでDNS設定</h3>
+<p>サブドメインをこのブログに割り当てるよう、お名前コムとかムームードメインとか自分が取得したレジストラにコンパネがある場合、そこで設定をします。</p>
+<p>バリュードメインの場合は、テキストボックス内に以下を記載する感じ。（この簡易的なスタイルが好きです。いちいち、個別にテキスト入力しなくて一括で張り付けられる）</p>
+<blockquote><p>ns junkhack ns1.wordpress.com.<br />
+ns junkhack ns2.wordpress.com.<br />
+ns junkhack ns3.wordpress.com.</p></blockquote>
+<p>TTL の時間はキャッシュされますのでしばらく、反映されるまで待ちましょう。</p>
+<p>&nbsp;</p>
+<h3>WordPress.com で設定</h3>
+<p>ドメインをマッピングしても、主要ドメインをマッピングしたドメインに設定しないとリダイレクトされません。</p>
+<p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain" src="/wp-content/uploads/2018/10/domain.png" alt="domain" width="899" height="1026" border="0" /></p>
+<p>以下のような状態にする必要があります。</p>
+<p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="domain2" src="/wp-content/uploads/2018/10/domain2.png" alt="domain2" width="639" height="330" border="0" /></p>
+<p>設定は以上で完了です。</p>
+<p>&nbsp;</p>
+<p>これで、リダイレクトされます。さらに、リダイレクトするときはHSTS という規格でSSL接続されます。これは想定外だったので、ちょっと得した感じです。</p>
+<p>つまり簡単にいえば常時SSL接続されて暗号化通信されています。自分のドメインはSSL証明書とったわけじゃないのに不思議ですね。</p>
+<p>&nbsp;</p>
+<p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl1" src="/wp-content/uploads/2018/10/ssl1.png" alt="ssl1" width="748" height="407" border="0" /></p>
+<p>証明書の詳細は以下のように出ています。</p>
+<p>&nbsp;</p>
+<p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl2" src="/wp-content/uploads/2018/10/ssl2.png" alt="ssl2" width="600" height="540" border="0" /></p>
+<p>認証したところは、Let’s Encrypt というCAのようです。</p>
+<p>128bit の鍵長で、TLS1.2 のようです。ちなみに、この鍵は、2の128乗、10進法では39桁の数値</p>
+<h4 align="center">340,282,366,920,938,463,463,374,607,431,768,211,456</h4>
+<h4 align="center">（※兆とか京とかのもっと上の読み方です）</h4>
+<p>という十分なものです。IPv6アドレスの数と同じですね。</p>
+<p>CNのドメインは、tls.automattic.com のようですね。この説明は以下にあります。</p>
+<p><a title="https://en.support.wordpress.com/https-ssl/" href="https://en.support.wordpress.com/https-ssl/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://en.support.wordpress.com/https-ssl/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="ssl3" src="/wp-content/uploads/2018/10/ssl3.png" alt="ssl3" width="611" height="616" border="0" /></p>
+<p>他のドメインの証明書なのに、ブラウザで安全な接続となるのは、HTTPSレスポンスでStrict-Transport-Security（HSTS）ヘッダーを送信してブラウザが認識するとう内容のようですが、詳細はよく理解できていません。もう少し、コマンドラインのクライアントで詳細を見学してみます。</p>
+<p>wget で見てみると以下のようになります。</p>
+<blockquote><p>$ wget -S &#8211;spider hack.gpl.jp<br />
+Spider mode enabled. Check if remote file exists.<br />
+&#8211;2018-10-18 00:38:23&#8211;  <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
+Resolving hack.gpl.jp&#8230; 192.0.78.25, 192.0.78.24<br />
+<strong>Connecting to hack.gpl.jp|192.0.78.25|:80</strong>&#8230; connected.<br />
+HTTP request sent, awaiting response&#8230;<br />
+HTTP/1.1 301 Moved Permanently<br />
+Server: nginx<br />
+Date: Wed, 17 Oct 2018 15:38:23 GMT<br />
+Content-Type: text/html<br />
+Content-Length: 178<br />
+Connection: keep-alive<br />
+Location: <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
+X-ac: 3.nrt _bur<br />
+Location: <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a> [following]<br />
+Spider mode enabled. Check if remote file exists.<br />
+&#8211;2018-10-18 00:38:23&#8211;  <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
+<strong>Connecting to hack.gpl.jp|192.0.78.25|:443</strong>&#8230; connected.<br />
+HTTP request sent, awaiting response&#8230;<br />
+HTTP/1.1 200 OK<br />
+Server: nginx<br />
+Date: Wed, 17 Oct 2018 15:38:23 GMT<br />
+Content-Type: text/html; charset=UTF-8<br />
+Connection: keep-alive<br />
+<strong>Strict-Transport-Security: <span style="color:#ff0000;">max-age=86400</span></strong><br />
+Vary: Accept-Encoding<br />
+Vary: Cookie<br />
+X-hacker: If you&#8217;re reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.<br />
+Link: &lt;<a href="https://wp.me/1kMA4" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://wp.me/1kMA4<span class="wpel-icon wpel-image wpel-icon-1"></span></a>&gt;; rel=shortlink<br />
+X-ac: 3.nrt _bur<br />
+Length: unspecified [text/html]<br />
+Remote file exists and could contain further links,<br />
+but recursion is disabled &#8212; not retrieving.</p></blockquote>
+<p>まず初回アクセスは、http アクセスで、hack.gpl.jp へアクセスします。名前解決し、192.0.78.25, 192.0.78.24のいずれかに接続。この時は、192.0.78.25に接続しています。</p>
+<p>接続したのは、nginx のWEBサーバのようです。301は恒久的なリダイレクトで、その接続先は、<a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a> です。</p>
+<p>SSL接続したときは、Strict-Transport-Security: max-age=86400　というヘッダーがついていますね。1日（86400秒）は、https でSSL接続するというブラウザの挙動（実装による）となるようです。</p>
+<p>X-hackerヘッダーがついているのが笑えます。</p>
+<p>X-hacker: If you&#8217;re reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.</p>
+<p>アクセスすると、以下にリダイレクト</p>
+<p><a title="https://automattic.com/work-with-us/" href="https://automattic.com/work-with-us/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://automattic.com/work-with-us/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>この中の、happiness engineersってのに興味を覚えました。</p>
+<p>この人たちは、以下のような仕事環境のようです。</p>
+<p><a title="https://artiss.blog/2017/06/a-day-in-the-life-of-a-vip-wrangler/" href="https://artiss.blog/2017/06/a-day-in-the-life-of-a-vip-wrangler/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://artiss.blog/2017/06/a-day-in-the-life-of-a-vip-wrangler/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>楽しそう。<a href="https://p2theme.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">P2ブログ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>とか使っているようです。P2 ってブログのテーマなんですが、これがコミュニケーションツールになっているようです。</p>
+<p>&nbsp;</p>
+<p>で、違うコマンドラインクライアントを使って確認。</p>
+<p>まず、curl では、何もオプションをつけないと見れません。</p>
+<blockquote><p>$ curl -V<br />
+curl 7.43.0 (x86_64-apple-darwin15.0) libcurl/7.43.0 SecureTransport zlib/1.2.5</p>
+<p>$ curl hack.gpl.jp<br />
+&lt;html&gt;<br />
+&lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;<br />
+&lt;body bgcolor=&#8221;white&#8221;&gt;<br />
+&lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;<br />
+&lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;<br />
+&lt;/body&gt;<br />
+&lt;/html&gt;</p></blockquote>
+<p>tls1.2 で通信すると見えます。</p>
+<blockquote><p>$ curl -v &#8211;tlsv1.2 <a href="/" data-wpel-link="internal" rel="noopener noreferrer">/</a><br />
+*   Trying 192.0.78.24&#8230;<br />
+* Connected to hack.gpl.jp (192.0.78.24) port 443 (#0)<br />
+* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256<br />
+* Server certificate: tls.automattic.com<br />
+* Server certificate: Let&#8217;s Encrypt Authority X3<br />
+* Server certificate: DST Root CA X3<br />
+&gt; GET / HTTP/1.1<br />
+&gt; Host: hack.gpl.jp<br />
+&gt; User-Agent: curl/7.43.0<br />
+&gt; Accept: */*<br />
+&gt;<br />
+&lt; HTTP/1.1 200 OK<br />
+&lt; Server: nginx<br />
+&lt; Date: Wed, 17 Oct 2018 18:19:33 GMT<br />
+&lt; Content-Type: text/html; charset=UTF-8<br />
+&lt; Transfer-Encoding: chunked<br />
+&lt; Connection: keep-alive<br />
+&lt; Strict-Transport-Security: max-age=86400<br />
+&lt; Vary: Accept-Encoding<br />
+&lt; Vary: Cookie<br />
+&lt; X-hacker: If you&#8217;re reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.<br />
+&lt; Link: &lt;<a href="https://wp.me/1kMA4" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://wp.me/1kMA4<span class="wpel-icon wpel-image wpel-icon-1"></span></a>&gt;; rel=shortlink<br />
+&lt; X-ac: 3.nrt _bur<br />
+&lt;<br />
+&lt;!DOCTYPE html&gt;</p></blockquote>
+<blockquote><p>::（略）</p></blockquote>
+<p>openssl の s_client を使ってみます。</p>
+<blockquote><p>$ openssl s_client -connect hack.gpl.jp:443<br />
+CONNECTED(00000003)<br />
+depth=2 /C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority<br />
+verify error:num=20:unable to get local issuer certificate<br />
+verify return:0<br />
+&#8212;<br />
+Certificate chain<br />
+0 s:/OU=Domain Control Validated/OU=EssentialSSL Wildcard/CN=*.wordpress.com<br />
+i:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Domain Validation Secure Server CA<br />
+1 s:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Domain Validation Secure Server CA<br />
+i:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority<br />
+2 s:/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Certification Authority<br />
+i:/C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root<br />
+&#8212;<br />
+Server certificate<br />
+&#8212;&#8211;BEGIN CERTIFICATE&#8212;&#8211;<br />
+MIIG2TCCBcGgAwIBAgIRAKeBC2S1KcGoaQC27YwaCGgwDQYJKoZIhvcNAQELBQAw<br />
+gZAxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO<br />
+BgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMTYwNAYD<br />
+VQQDEy1DT01PRE8gUlNBIERvbWFpbiBWYWxpZGF0aW9uIFNlY3VyZSBTZXJ2ZXIg<br />
+Q0EwHhcNMTgwOTA2MDAwMDAwWhcNMjAwOTA1MjM1OTU5WjBdMSEwHwYDVQQLExhE<br />
+b21haW4gQ29udHJvbCBWYWxpZGF0ZWQxHjAcBgNVBAsTFUVzc2VudGlhbFNTTCBX<br />
+aWxkY2FyZDEYMBYGA1UEAwwPKi53b3JkcHJlc3MuY29tMIIBIjANBgkqhkiG9w0B<br />
+AQEFAAOCAQ8AMIIBCgKCAQEAtX8qlG2EEfbt976zryjdtGbx89fdxpoAUfwTmW6Y<br />
+8DY0LCvtejfR3w8kPEO6e3iRwyAmXoDBtA7cU06AsUP3e5cQyoWXcrW3ijsETOd9<br />
+aBA58CeCsZJ47KfFxCU91Fijpv1VarlJblydVx1JouEj0HlGqAghLsrDehkQwczs<br />
+EwWtz5gOvenRGPIXVw1g/Or/QYv1fwcvOglhOgbKN2HpHnIPOp9RAFbYPWhDC7sc<br />
+a4lK2o85siaoe7563fSd+FfsiQ6Ssh4fK2sMqXbWqoyKonem+6rCWdWPvVsIBDH2<br />
+8v2HZ6s74CQSeMuAy5CZJOwv8emqlByp9GtuGWECqOgLpwIDAQABo4IDXjCCA1ow<br />
+HwYDVR0jBBgwFoAUkK9qOpRaC9iQ6hJWc99DtDoo2ucwHQYDVR0OBBYEFA1qB7w5<br />
+rS0dqQtaLzRiiA9WS7X2MA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0G<br />
+A1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBPBgNVHSAESDBGMDoGCysGAQQB<br />
+sjEBAgIHMCswKQYIKwYBBQUHAgEWHWh0dHBzOi8vc2VjdXJlLmNvbW9kby5jb20v<br />
+Q1BTMAgGBmeBDAECATBUBgNVHR8ETTBLMEmgR6BFhkNodHRwOi8vY3JsLmNvbW9k<br />
+b2NhLmNvbS9DT01PRE9SU0FEb21haW5WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0Eu<br />
+Y3JsMIGFBggrBgEFBQcBAQR5MHcwTwYIKwYBBQUHMAKGQ2h0dHA6Ly9jcnQuY29t<br />
+b2RvY2EuY29tL0NPTU9ET1JTQURvbWFpblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJD<br />
+QS5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmNvbW9kb2NhLmNvbTApBgNV<br />
+HREEIjAggg8qLndvcmRwcmVzcy5jb22CDXdvcmRwcmVzcy5jb20wggF/BgorBgEE<br />
+AdZ5AgQCBIIBbwSCAWsBaQB2AO5Lvbd1zmC64UJpH6vhnmajD35fsHLYgwDEe4l6<br />
+qP3LAAABZayjjkoAAAQDAEcwRQIhAKz7RLxwEe2RASIQxFmK0wa5cL+UkxNsca2L<br />
+rQY3cOjMAiARjKGfL3sPAj3NaiKaJceVxd2xKIqgVFiyn+nUNLziUQB3AF6nc/nf<br />
+VsDntTZIfdBJ4DJ6kZoMhKESEoQYdZaBcUVYAAABZayjjocAAAQDAEgwRgIhAP6F<br />
+dPFHxFhI07FV6PGss0u34O3IKh7t5bdInq1yzfGHAiEA2CPZamK6a3DLTOPmdFfk<br />
+BVl51AekibMouaopWKH9cAwAdgBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAlCBcvo6od<br />
+BxPTDAAAAWWso45sAAAEAwBHMEUCIQChMawM9D4XL9Rty9yIHVt5nSAWlnWO9mUa<br />
+5PukI4ogIQIgbbnceypgG1l21iW7p9PKMxG1aVILjVLPyM5bvEX1T/8wDQYJKoZI<br />
+hvcNAQELBQADggEBAHs2PmSUv9MLxHibC/FugGZkr9zOgkxEVVtQlNVUZkNPGeGx<br />
+017Vwhi37+mNHp8uyT6zTOtKw1YBEDlEKvGWH7L86hK57kP+BdpVkjiuRA7jtVZ/<br />
+wVSzD8mUv3IT6YAN3Xe8ZRRm1wkrjgaF8tPVLDC3IAqgq7PRGKF6YMdYdC3VtO4J<br />
+pfLhODzOmQEWgHTq/6avc2AkvOCdtOEyJNayEFcGhWGKoSkEXKt3UF5+UPn2XFyO<br />
+hSmJErVCPQv6E8iwsAc1ugRZuEubiP0dp1RLiyLoPW8Pmzm2bidp55Tkm7zfqjjk<br />
+O4h2j0/57jEg1LPNvtUTFgZr0ULj3tOxoSTmesc=<br />
+&#8212;&#8211;END CERTIFICATE&#8212;&#8211;<br />
+subject=/OU=Domain Control Validated/OU=EssentialSSL Wildcard/CN=*.wordpress.com<br />
+issuer=/C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO RSA Domain Validation Secure Server CA<br />
+&#8212;<br />
+No client certificate CA names sent<br />
+&#8212;<br />
+SSL handshake has read 4880 bytes and written 456 bytes<br />
+&#8212;<br />
+New, TLSv1/SSLv3, Cipher is AES128-SHA<br />
+Server public key is 2048 bit<br />
+Secure Renegotiation IS supported<br />
+Compression: NONE<br />
+Expansion: NONE<br />
+SSL-Session:<br />
+Protocol  : TLSv1<br />
+Cipher    : AES128-SHA<br />
+Session-ID: 9E6C6DA392FA51DB27F9AD7538AADF5CC51120F9DA1C3227856758BCE95A315C<br />
+Session-ID-ctx:<br />
+Master-Key: CCE0E882CEE0E74DF78679DE4829F00B20F39C84A6F538BFA52C8026F7F8438E6A62E848AA0A1DBB4284B2076875B53D<br />
+Key-Arg   : None<br />
+Start Time: 1539800715<br />
+Timeout   : 300 (sec)<br />
+Verify return code: 0 (ok)<br />
+&#8212;</p></blockquote>
+<p>証明書は、Wildcard/CN=*.wordpress.com　ということのようですね。これをnginx に設定して、ドメインマッピングしたドメインはHSTS定義されたnginx ホストに渡しているようです。</p>
+<p>従来のドメインでアクセスするサーバ（ロードバランサー）と、ドメインからアクセスするサーバとはIPが違います。</p>
+<p>まず、従来のドメイン。</p>
+<blockquote><p>$ dig hack.gpl.jp</p>
+<p>::</p>
+<p>;; ANSWER SECTION:<br />
+hack.gpl.jp.    14400    IN    CNAME    lb.wordpress.com.<br />
+lb.wordpress.com.    230    IN    A    192.0.78.12<br />
+lb.wordpress.com.    230    IN    A    192.0.78.13</p>
+<p>::</p></blockquote>
+<p>ドメインマッピングされたもの</p>
+<blockquote><p>$ dig hack.gpl.jp</p>
+<p>::</p>
+<p>;; ANSWER SECTION:<br />
+hack.gpl.jp.    184    IN    A    192.0.78.25<br />
+hack.gpl.jp.    184    IN    A    192.0.78.24</p>
+<p>::</p></blockquote>
+<p>内部構成はわかりませんが、パーソナルプランは、保存スペースが3GBから6GBになっていて広告がなくなっています。</p>
+<p>リバースプロキシーみたいに使っているのかもしれません。ま、400円でこの構成になるならお得感はあります。一般的なレンタルサーバより確実に可用性はありますし、また自前で１台構成よりぜんぜん安心感が違います。</p>
+<p>&nbsp;</p>
+<p>WordPress ならではのカスタマイズはまだできませんが、月額2900円のビジネスプランまでアップグレードする価値があるか、随時試してみたいなと思います。チャットで確認しましたが、どうやらオフィシャルのプラグインサイトにないものも、zip 圧縮した開発したプラグインをアップロードして使えるということです。</p>
+<p>これはいいですね。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Linuxエンジニアがサーバを作らず結局、WordPress.com の有料プランに入ることにしたよ</title>
+		<link>/2018/10/17/20181017/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 16 Oct 2018 17:50:31 +0000</pubDate>
+				<category><![CDATA[ViewUP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress.com]]></category>
+		<guid isPermaLink="false">/?p=4632</guid>
+							<description><![CDATA[この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。 さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。 やっぱりブログに愛着がわくかどうかって、ま [&#8230;]]]></description>
+										<content:encoded><![CDATA[</p>
+<p>この半年くらいで、いろいろ検討していた１万人プロジェクト。更新をさぼってしまって半年くらい放置していました。</p>
+<p><img loading="lazy" decoding="async" title="201809" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="201809" src="/wp-content/uploads/2018/10/201809.png" width="870" height="432"> </p>
+<p>さぼっていた割には、あまり落ち込みもなかったようです。ありがたや。</p>
+<p>やっぱりブログに愛着がわくかどうかって、まず独自ドメインにすることかなって思いまず最初の１っ歩目を踏み出しました。</p>
+<p>&nbsp;</p>
+<p>まず、ドメインは前回決めていた以下に。URLは、以下のドメインにリダイレクトしていると思います。SSLアクセスも可能なんですね。ここはちょっと意外でした。</p>
+<p>&nbsp;</p>
+<blockquote>
+<p>hack.gpl.jp</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>何を半年も迷っていたのかというと、土台のサーバ部分です。</p>
+<p>&nbsp;</p>
+<p>レンタルサーバか、独自サーバかでずいぶん迷っていました。この背景には、自分がLinux エンジニアなのでサーバも管理したい欲求があったのです。</p>
+<p>具体的には、Googleクラウドのエンジンが気に入っていて、ここでミニマムのを仮運用していました。あとは、自宅サーバっていうのも仮運用していました。</p>
+<p>&nbsp;</p>
+<p>しかし、仕事でさんざんサーバ回りをいじっているし趣味の世界はネタに没頭したいって思いのほうが強くなりました。やっぱり、心配ごとは少ないほうがいいです。なので、WordPress.com のビジネスプランまで視野に入れて、まずはパーソナルで契約することに。</p>
+<p><a title="https://ja.wordpress.com/pricing/" href="https://ja.wordpress.com/pricing/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.com/pricing/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><img loading="lazy" decoding="async" title="start" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="start" src="/wp-content/uploads/2018/10/start.png" width="880" height="1229"> </p>
+<p>&nbsp;</p>
+<p>パーソナルでも、ドメインをマッピングすることは可能です。オンラインチャットでもいろいろ気になることをきいておきました。</p>
+<p>&nbsp;</p>
+<p>・途中から、上のプランへのアップグレードは差額を支払えば可能。</p>
+<p>・その逆のダウングレードも可能（ただし、ビジネスから下へのプランはバックエンドのサーバが違うので少し手順が違う模様）</p>
+<p>・ドメインマッピングは、一番下のプラン：パーソナルプランからも可能</p>
+<p>　ヘルプは以下。簡単に言えば、NS レコードを３つ変更するのみ。</p>
+<p>　<a title="https://en.support.wordpress.com/domains/map-subdomain/#scenario2" href="https://en.support.wordpress.com/domains/map-subdomain/#scenario2" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://en.support.wordpress.com/domains/map-subdomain/#scenario2<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>・複数のドメインを１つのサイトにマッピングすることも可能（のようです。まだ確証は得られず）</p>
+<p>・ビジネスプランは、MySQL Dump も取得できるようです。</p>
+<p>&nbsp;</p>
+<p>ということで、パーソナルプランから初めてみました。ここでの恩恵は、ドメインをマッピングできることと、広告が消えることです。グーグルのアナリティクスや、独自のテーマやプラグインなどは入れられないので、あくまで通過点のつもりです。</p>
+<p>月400円なんで、低価格のレンサバ並みです。この時点ではまだ、WordPress.com の優位性はあまりないのかなという印象です。しかし、独自ドメインでSSLアクセスになること(これは想定外でした)</p>
+<p>も加味すると、これもありかなと思えます。ドメインマッピングは年間1600円でも可能なようです。ドメインを保有して、他のレジストラで管理している場合はこれもとりあえずはありかもしれません。</p>
+<p><img loading="lazy" decoding="async" title="03" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="03" src="/wp-content/uploads/2018/10/03.png" width="872" height="1573"> </p>
+<p>今後は、少し頻度を上げて記事を書いていければなーと思っています。</p>
+<p>次回は、WordPress の有料プランについて何かレポートしようかな。いつも、ここらあたりの下に広告が出ていたんですが消えましたね！広告がないとやっぱりいいですね。</p>
+<p>では、また！</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

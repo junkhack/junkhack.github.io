@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Parts &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 20 Feb 2021 06:38:45 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>Parts &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</title>
+		<link>/2021/02/20/arudio-seeeduino-xiao/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 20 Feb 2021 06:38:39 +0000</pubDate>
+				<category><![CDATA[arduino]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[Parts]]></category>
+		<guid isPermaLink="false">/?p=10121</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/02/seeed-xiao.png" />
+							<description><![CDATA[サムネでもわかるとは思いますが、これ全体のフォルムがかわいいんですよね。あと想像よりもちっさいんです。親指くらいの大きさなんですよ。発売は去年の３〜6月ごろだったみたいですが、今頃発見です。 3個入りパッケージで1,75 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>可愛すぎて一目惚れしました！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ぽっ！　きゃー</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>・・・いや、ぴーちゃんの事じゃなくて、SeedのXIAOっていうArduio 互換機のことよ。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>こんなチビっこいマシンに負けたのか・・・w</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>サムネでもわかるとは思いますが、これ全体のフォルムがかわいいんですよね。あと想像よりもちっさいんです。親指くらいの大きさなんですよ。発売は去年の３〜6月ごろだったみたいですが、今頃発見です。</p>
+
+
+
+<h3 class="wp-block-heading">3個入りパッケージで1,750円！</h3>
+
+
+
+<blockquote class="wp-block-quote"><p>Wiki  Seeeduino Xiaoをはじめよう</p><cite><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px" /></figure>
+
+
+
+<p>Seeedの日本語版のWikiもありますので、大きさなどはそちらでどうぞ。上の写真は3個入りのをアマゾンからゲットしました。3個入りで1800円弱です。１つ600円ってとこですかね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px" /></figure>
+
+
+
+<p>中身！　想像より、ちっちゃい！親指に乗りますよ。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px" /></figure>
+
+
+
+<p>ESP32と遊んでからだいぶ月日が経ちましたが、大きさはそのくらいです。ブレッドボードに刺さるのでPinつけてすぐ楽しめますね！</p>
+
+
+
+<h3 class="wp-block-heading">まずはボードをじろじろと見る！</h3>
+
+
+
+<p>Type-Cコネクタが付いていて、端面がスルーホールになっていて面実装も考慮されていますね。このType-Cコネクタは６ピンタイプじゃなくて12ピンです。あと、LEDらしきものが４つ付いています。</p>
+
+
+
+<p>金属のカバーで覆われていますので、その中が気になるところですがまずは、PIN番号が表からわかるようにシールを貼っておきました。なかなか気が利いていますね！　Seeedさん、このプロダクトをリリースするにあたりいろいろ気合いが入っているようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="884" height="659" src="/wp-content/uploads/2021/02/xiao-1.png" alt="" class="wp-image-10125" srcset="/wp-content/uploads/2021/02/xiao-1.png 884w, /wp-content/uploads/2021/02/xiao-1-768x573.png 768w" sizes="(max-width: 884px) 100vw, 884px" /></figure>
+
+
+
+<p>裏面を見ると、SMD実装したときのVIN,GNDがありますね。４つの丸いのは、なんでしょうか？</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="881" height="659" src="/wp-content/uploads/2021/02/xiao-2.png" alt="" class="wp-image-10126" srcset="/wp-content/uploads/2021/02/xiao-2.png 881w, /wp-content/uploads/2021/02/xiao-2-768x574.png 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
+
+
+
+<p>調べてみると、英語版Wikiによれば、Newバージョンだとこの丸いのが４つあるようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="672" height="497" src="/wp-content/uploads/2021/02/Seeeduino_XIAO_-_Seeed_Wiki.png" alt="" class="wp-image-10127"/></figure>
+
+
+
+<blockquote class="wp-block-quote"><p>Seeed　英語版Wiki：hardware-overview</p><cite><a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/#hardware-overview" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>どうやら、<strong>SWCLK (PA30)</strong> と <strong>SWDIO (PA31)</strong> のGPIOのようです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>qita : Seeeduino XIAO 背面パッドをGPIOとして使う</p><cite><a href="https://qiita.com/nanase/items/37ecca24aee8fbd4492e" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://qiita.com/nanase/items/37ecca24aee8fbd4492e<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>だいぶ時間が経過しているので、先輩たちがあれこれ情報をあげていてくれて助かりますね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="644" height="464" src="/wp-content/uploads/2021/02/xiao-type-c.png" alt="" class="wp-image-10128"/></figure>
+
+
+
+<p>やっぱり、Type-C が付いているところがうれしいです。接続しやすいですからね！</p>
+
+
+
+<h3 class="wp-block-heading">動作確認</h3>
+
+
+
+<p>Type-Cケーブル（スマホでいつも使っているやつね）をPCに繋げて、おもむろにXAIOに繋げてみます。ケーブルのほうが重いので、本体が浮きます！　</p>
+
+
+
+<p>オレンジ色のLEDがピカピカしてますね！</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2021/02/Blink.gif" alt="" class="wp-image-10129" width="456" height="327"/></figure></div>
+
+
+
+<h3 class="wp-block-heading">とりあえずLチカ</h3>
+
+
+
+<p>Arudio IDEを使って、Lチカでもやってみます。SeeedのWikiにしたがってIDEは仕込みんでおきます。久しぶりすぎて書き方、だいぶ忘れちゃいました。</p>
+
+
+
+<p>この２つのブルーLEDは、RX/TXのLEDなんですがIDEからも定義されているので、光らせることができるようです。デジタル出力だけかなと思っていましたが、アナログでもいけるようですね。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2021/02/Blink3.gif" alt="" class="wp-image-10130" width="458" height="348"/></figure></div>
+
+
+
+<pre class="wp-block-code"><code>//setup()内の処理は最初の一回だけ行われる
+void setup() {
+  pinMode(PIN_LED2, OUTPUT );//Pinを出力用に設定
+  pinMode(PIN_LED3, OUTPUT);
+  int led_pw = 255; // 明るさ(通常とは逆) 明るい0 - 255暗い
+}
+
+void loop() {
+  rx_led2( 2 ); //明るさ調整ステップ
+  rest();
+  tx_led3( 2 ); //明るさ調整ステップ
+  rest();
+}
+
+// RXとLED 基盤側の青LED
+void rx_led2(int n){
+  int led_pw = 255;
+  //点滅周期
+  for (int i=0;i &lt; 255;i++ ) {
+    analogWrite(PIN_LED2, led_pw );
+    led_pw = led_pw + n;
+    if( led_pw ==   0 ) n =  n;
+    if( led_pw == 255 ) n = -n;
+    delay( 5 );//だんだん暗くなる速度
+  }
+//  digitalWrite(PIN_LED2, HIGH ); //通常とは逆　LOW で点灯、HIGH で消灯
+analogWrite(PIN_LED2, 255 );// LED Off 上より暗くなる
+}
+
+// TXのLED USBコネクタ側の青LED
+void tx_led3(int n){
+  int led_pw = 255;
+  for (int i=0;i &lt; 255;i++ ) {
+    analogWrite(PIN_LED3, led_pw );
+    led_pw = led_pw + n;
+    if( led_pw ==   0 ) n =  n;
+    if( led_pw == 255 ) n = -n;
+    delay( 5 );
+  }
+analogWrite(PIN_LED3, 255 );// LED Off
+}
+
+void rest() {
+    delay( 500 );
+}</code></pre>
+
+
+
+<p>いろんな値を書き換えて遊んでみてください。</p>
+
+
+
+<p>注意点としては、HIGHとLOWが逆なのと、255が暗く、0が明るい状態となるようです。これは仕様なのかバグなのか？　Seeedさん、これは修正してほしいです。</p>
+
+
+
+<h3 class="wp-block-heading">XIAOはどんなスペックなのか？</h3>
+
+
+
+<p>このボード、一目惚れして速攻買ったのでどんなスペックかまだよくわかっていません。改めて、記載してみます。</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>製品名称</strong></td><td><strong><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td></tr><tr><td><strong>マイコン</strong></td><td>ARM Cortex-M0+ CPU(SAMD21G18) </td></tr><tr><td><strong>動作電圧</strong></td><td>3.3V</td></tr><tr><td><strong>デジタル I/O </strong>ピン</td><td>11</td></tr><tr><td><strong>PWM Pins</strong></td><td>10</td></tr><tr><td><strong>アナログ I/O ピン</strong></td><td>11</td></tr><tr><td><strong>フラッシュメモリ</strong></td><td>256 KB</td></tr><tr><td><strong>SRAM</strong></td><td>32KB</td></tr><tr><td><strong>EEPROM</strong></td><td>–</td></tr><tr><td><strong>クロックスピード</strong></td><td>48 MHz</td></tr><tr><td><strong>大きさ</strong></td><td>23.5mm x 17.5mm</td></tr><tr><td><strong>価格</strong></td><td>$4.90</td></tr></tbody></table></figure>
+
+
+
+<p>だいぶarduinoから離れていて、このあたり疎いのですがどうやら ATSAMD21は、アーキテクチャーはARM Cortex-M0+ CPU(SAMD21G18) のようです。Arduino Zero・M0 Proっていうボードにも使われているやつみたいですね。SAMD21系のarduinoとか表現されている感じです。または、単にSAMD系Arduinoとか。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>ARM　CORTEX-M0+</p><cite><a href="https://www.arm.com/ja/products/silicon-ip-cpu/cortex-m/cortex-m0-plus" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.arm.com/ja/products/silicon-ip-cpu/cortex-m/cortex-m0-plus<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>メジャーなArduino との比較表です。自分は、<strong>Nano</strong>シリーズ互換機か、Pro Miniが好きです。安いからw</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><strong>ボード</strong></td><td><strong>マイコン</strong></td><td><strong>動作電圧</strong></td><td><strong>Digital I/O </strong></td><td><strong>PWM </strong></td><td><strong>Analog I/O </strong></td><td><strong>Flash Memory</strong></td><td><strong>SRAM</strong></td><td><strong>EEPROM</strong></td><td><strong><strong>クロックスピード</strong></strong></td><td><strong><strong>大きさ</strong></strong></td><td><strong><strong>価格</strong></strong></td></tr><tr><td><strong><a href="https://www.seeedstudio.com/Arduino-Nano-v3-p-1928.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduino Nano v3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td><td>ATmega328</td><td>5V</td><td>22</td><td>6</td><td>8</td><td>32KB</td><td>2KB</td><td>1KB</td><td>16MHz</td><td>45 mm x 18 mm</td><td>$45.90</td></tr><tr><td><strong><a href="https://www.seeedstudio.com/Seeeduino-Nano-p-4111.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino Nano<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td><td>ATmega328</td><td>5V</td><td>22</td><td>6</td><td>8</td><td>32KB</td><td>2KB</td><td>1KB</td><td>16MHz</td><td>45 mm x 18 mm</td><td>$6.90</td></tr><tr><td><strong><a href="https://www.seeedstudio.com/Arduino-Micro-p-1368.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduino Micro<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td><td>ATmega32u4</td><td>5V</td><td>20</td><td>7</td><td>12</td><td>32KB</td><td>2.5KB</td><td>1KB</td><td>16MHz</td><td>48 mm x 18 mm</td><td>$24.90</td></tr><tr><td><strong><a href="https://www.seeedstudio.com/Arduino-Pro-Mini-328-5V-16MHz-p-1443.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduino Pro Mini<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td><td>ATmega328</td><td>5V / 3.3V</td><td>14</td><td>6</td><td>6</td><td>32KB</td><td>2KB</td><td>1KB</td><td>8 /16MHz</td><td>33 mm x 18 mm</td><td>$9.95</td></tr><tr><td><strong><a href="https://www.adafruit.com/product/3500" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Trinket M0<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td><td>ATSAMD21</td><td>3.3V</td><td>5</td><td>2</td><td>3</td><td>256KB</td><td>32KB</td><td>–</td><td>48MHz</td><td>27mm x 15.3 mm</td><td>$8.95</td></tr><tr><td><strong><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td><td><br>ATSAMD21</td><td>3.3V</td><td>11</td><td>10</td><td>11</td><td>256KB</td><td>32KB</td><td>–</td><td>48MHz</td><td>23.5mm x 17.5mm</td><td>$4.90</td></tr></tbody></table></figure>
+
+
+
+<p>NanoやProMiniの互換機は、アリエクで200〜300円くらいなんですが、それと比べると600円は高いかもしれませんが、倍以上のスペックはありますね。</p>
+
+
+
+<p>こうして比較してみると、コスパがいいんじゃないでしょうか。まぁ、こんな高スペックは必要ないっていう用途もあるんで使い所次第ですかね。</p>
+
+
+
+<h3 class="wp-block-heading">今後に備え応用例や試したことなどメモ</h3>
+
+
+
+<p>発売からもうすぐ1年経過するので、どんな応用例があるかリサーチしてみました。また、開発する上で役立ちそうなメモをしておきます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Seeed：Seeeduino XIAO Resources Roundup. What will be your next project idea made by Seeeduino XIAO?</p><cite><a href="https://www.seeedstudio.com/blog/2020/05/08/seeeduino-xiao-community-projects-collection-whats-your-next-project-idea-made-by-seeeeduino-xiao/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">リンク<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>まず、オフィシャルのSeeedのブログでいくつか紹介されています。その中から独断と偏見で面白そうなプロジェクトをピックアップ。</p>
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/arudio-seeeduino-xiao/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
+
+
+<p>MIDIをコントロールできるので、オリジナルコントローラとかセンサー駆動の楽器とか？</p>
+
+
+
+<p>サイトでは、違うボードを使っていますがXIAOでも同じことが可能。画像や図形を組み合わせて空中にお好みの絵を投影する装置。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="https://homemadegarbage.com/povranian-make" target="_blank" data-wpel-link="external" class="wpel-icon-right">PovRanian 装置<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p><p>PovRanian (ポブラニアン)：画像や図形を組み合わせて空中にお好みの絵を投影する装置</p></blockquote>
+
+
+
+<p></p>
+
+
+
+<p>これ作りたいなー！</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://qiita.com/dattaman9/items/37a6755e125ecfc20d63" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">エアロバイクでストリートビュー進みたい！！ （その3）（Seeeduino XIAO化してみた）<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>ツールのUSB Stack は、 TinyUSBを選択とな。ほほー。</p>
+
+
+
+<p></p>
+
+
+
+<p>あれこれ調査していると、PlatformIOも対応しているようです。まだ試していませんが、メモしておきます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>開発環境：PlatformIO　<a href="https://docs.platformio.org/en/latest/boards/atmelsam/seeed_xiao.html#id1" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Seeeduino XIAO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://github.com/gdsports/USB_Host_Library_SAMD" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">USBホストライブラリSAMD<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>SeeedのWikiにあるやつですが、リンク先だけメモしておきます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="http://zattouka.net/GarageHouse/micon/Arduino/XIAO/use.htm" target="_blank" data-wpel-link="external" class="wpel-icon-right">Ｓｅｅｅｄｕｉｎｏ　ＸＩＡＯ の使い方<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="https://botalab.tech/tamiya_camrobo_face_xiao/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">カムロボの顔用基板を作ってみた [Xiao版]<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://elchika.com/article/97dc4b94-1934-4ee1-acbf-6fa1503b83f6/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOを使って二酸化炭素測定する　SparkFunライブラリVer<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p>f<a rel="noreferrer noopener external" href="https://forum.fritzing.org/t/seeeduino-xiao-anyone-got-the-part/10820" target="_blank" data-wpel-link="external" class="wpel-icon-right">ritzingのパーツ<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://matsujirushi.hatenablog.jp/entry/2020/04/23/173722" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOのタッチ入力<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://matsujirushi.hatenablog.jp/entry/2020/04/18/201940" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOのデジタル入力<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://matsujirushi.hatenablog.jp/entry/2020/04/19/070000" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOのデジタル出力<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://101010.fun/iot/arduino-hc-sr04.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduinoで超音波センサHC-SR04の使い方【距離測定】<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://101010.fun/iot/arduino-oled-display.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">ArduinoでOLED<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://101010.fun/iot/arduino-serial-led.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">シリアルLED（WS2812B）をArduinoで制御<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://kesokonpatata.hatenablog.jp/entry/2021/01/01/%E3%80%90Seeeduino_XIAO%E3%80%91RS232c%E3%81%8B%E3%82%89%E5%8F%97%E4%BF%A1%E3%81%97%E3%81%9F%E4%BF%A1%E5%8F%B7%E3%82%92USBHID%E3%81%A7%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">【Seeeduino XIAO】RS232cから受信した信号をUSB HIDで送信してみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://zoe6120.com/2020/05/05/1449/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO でPWM調光のLチカとI2CのLCDを使ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>いろいろありますねー。こんなこともできるみたいです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="https://qiita.com/hori-takeshi/items/1c9b30433896495afb2c" target="_blank" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO マイコンで TOPPERS を始めよう<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p><p>TOPPERS/R2CAというマルチタスク処理ができる</p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://qiita.com/reiven/items/c4018da0892953236b21" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino_XIAOでArduino Keyboard.h互換ライブラリを利用してMicrosoft Teamsミュートキーを作製する<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>楽しそうなのがいっぱいありますね。</p>
+
+
+
+<p>XIAOを組み込んでいるハードウェア作家さんもいましたよ！</p>
+
+
+
+<blockquote class="wp-block-quote"><p>XIAO DAP<br>Seeeduino XIAO をメインコントローラとした、DigitalAudioPlayer</p><cite><a href="https://sites.google.com/view/chikoidac/home/xiao_dap" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://sites.google.com/view/chikoidac/home/xiao_dap<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>まだ販売はされていないとのことですが、販売されたら組み立てKITを買ってみたいです！</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・XIAOはコスパ最高でないか！<br>・Type-Cが良い！<br>・Arduino IDE 互換で、SAMD21系のarduino<br>・本家では、Arduino Zero・M0 Proに使われている<br>・3.3v動作でクロックが速く、フラッシュメモリも多い<br>・しかしEEPROMがないようです　フラッシュメモリに保存する？<br>・USB関連のプロダクトやシリアル通信系の応用とか相性良さそう<br>・SMD実装がやりやすい（ので、基板設計して使うのとか良いですね）</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>このボード、本当に小さくて応用次第では面白い組込ができそうだなーと感じています。まずは３つあるので、何か実用的な何かを１、２つ作ってみたいですね。１つは、開発用にしておいて残りは実験的に何か実際に作ってみようと思います。まずは、できそうなことからやってみましょうか！</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>リポ充電基盤のType-C版が出てたんでポチった！</title>
+		<link>/2021/02/20/type-c/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 20:21:48 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[Parts]]></category>
+		<guid isPermaLink="false">/?p=10103</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/02/aliexpress_type-c.png" />
+							<description><![CDATA[はい！　またアリエクでポチってしまいました。 今回は、備忘録として記載。まだ到着していませんが、到着するころには「これなんだっけ？」という事態になることが多発していましたので、ポチッとしたらブログに書いていくことにします [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>最近また、電子工作熱が出てきたのでアリエク物色！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>はいはい、今日は何をポチったんですか？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ぐぬぬぅ！　なぜポチったのがわかるのだ！　</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>衝撃だったんでしょ？w</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>はい！　またアリエクでポチってしまいました。</p>
+
+
+
+<p>今回は、備忘録として記載。まだ到着していませんが、到着するころには「これなんだっけ？」という事態になることが多発していましたので、ポチッとしたらブログに書いていくことにします。</p>
+
+
+
+<p>　副次効果としては、ぽちったら記事を書かないといけなくなるので衝動買い防止にもなるかなと！今日買ったのはこれです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://s.click.aliexpress.com/e/_AO6Pzu" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" width="1024" height="528" src="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png" alt="" class="wp-image-10106" srcset="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png 1024w, /wp-content/uploads/2021/02/type-c_TP4056BMS-768x396.png 768w, /wp-content/uploads/2021/02/type-c_TP4056BMS-984x507.png 984w, /wp-content/uploads/2021/02/type-c_TP4056BMS.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+
+<p>なんとお値段、送料込みで10個450円です。1個あたり45円と、価格破壊な値段ですね。たぶん、このUSB Type-Cコネクタは6pinだと思いますが、簡単な工作であればこれで十分です。マイクロUSBのタイプもありますが、やっぱり差し込む方向を意識しなくていいType-Cは便利です。今では100円均一でもケーブル売っていますしね。</p>
+
+
+
+<h3 class="wp-block-heading">リポ充電基盤とは？</h3>
+
+
+
+<blockquote class="wp-block-quote"><p>5V 18650　リチウムバッテリー充電モジュール</p><cite><em>投稿日: </em><a href="/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">2015年5月10日</a></cite></blockquote>
+
+
+
+<p>5年くらい前にも購入していましたが、だいぶ数が少なくなったので追加購入です。この基盤は、リチウム電池を過充電、過放電しないための基盤です。メインチップは、TP4056で保護回路に、DW01A と ML8205A が乗っています。今回購入したのがどんなチップが乗っているかはまだ未調査ですが、まぁ仕様は同じでしょう。</p>
+
+
+
+<p>この基盤、ちょっと電子工作して何か試作版を作る際に、リチウム電池とともに組込セットで詰め込むときに重宝します。</p>
+
+
+
+<p>例えば、こんな感じで試作版に使っていました。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://i2.wp.com/hack.gpl.jp/wp-content/uploads/2015/08/25.jpg?resize=640%2C480" alt="2"/></figure>
+
+
+
+<p>これは<a rel="noreferrer noopener" href="/2015/05/11/esp8266-esp-12-spec/" target="_blank" data-wpel-link="internal">ESP8266 ESP-12</a>を使った温度・湿度・照度系のIoTデバイスなんですね。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://i0.wp.com/hack.gpl.jp/wp-content/uploads/2015/08/5.jpg?resize=640%2C480" alt="5"/></figure>
+
+
+
+<p>ちょっと見えにくいですがマイクロUSBが刺さっている部分にその基盤があります。5Vからリチウム電池に充電し、5Vを放電します。他にも、ポケットオシロスコープを充電持ち運び仕様にしてみたりと。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="383" src="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png" alt="" class="wp-image-10105" srcset="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png 1024w, /wp-content/uploads/2021/02/ss_dso-shell-768x288.png 768w, /wp-content/uploads/2021/02/ss_dso-shell-984x368.png 984w, /wp-content/uploads/2021/02/ss_dso-shell.png 1191w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これの工作の記事は忙しくて書いていませんでしたが中にリポ電池とこの基盤などが入っています。簡単にでも書いておけばよかったなー。ちょっと持ち運んで何か計測したりとか便利でした。</p>
+
+
+
+<p>あと、自作基盤にこの充電ボードを乗っけた例もありますね。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://i0.wp.com/hack.gpl.jp/wp-content/uploads/2015/12/dsc00219_thumb.jpg?resize=640%2C361" alt="DSC00219"/><figcaption><a href="/2015/12/07/esp8266-backboost-%e7%b5%84%e3%81%bf%e4%bb%98%e3%81%91%e5%ae%8c%e4%ba%86%e3%83%bb%e3%83%bb%e3%83%bb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ESP8266 BackBoost</a></figcaption></figure>
+
+
+
+<p>この白い基盤は自作基盤でESP8266とバックブースト電源回路などが乗っています。充放電管理基盤は自作だと高くつくのでこんな感じで基盤にリフローして、くっつけて使っていました。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・Type-C版のTP4056充電管理基盤はケーブル接続が便利そう<br>・以前のマイクロUSB版より安くなっていた<br>・仕様が変更になっているのか、未調査<br>・今後、この基盤で工作していこうと思う<br>・基本的な構造は前のと同じだと思う<br>・到着したらまた検討してみる</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>　それにしても以前、マイクロUSB版のを購入したときは1個あたり97円だったのに。Type-C版でさらに安くなっています。余分な機能をなくし需要があるものを大量に作って、良いものを広く販売するという基本的な考え方はすごく好きです。反面、検品コストという考え方も日本とは違いますので不良品率はあがります。しかし、入念に検品して全体のコストをあげるより、ある程度の検品品質で不良品が混入すれば交換すれば良いという考え方もあるのも事実のようです。</p>
+
+
+
+<p>　薄利広商　という言葉があるようです。中国の文化なのか日本の文化なのか歴史に疎いので良くはわかりませんが、中国の商人の中にはこういう考え方があるんじゃないのかなと思います。意味合い的には、薄利多売と似ていますが、これは少しネガティブなイメージもあります。しかし、薄利広商　というのはあまり聞かない言葉ですが、薄い適切な利益を乗せて広く客に販売することが本来の商売であり、それは社会も良くしていくのだという考えのようです。売り手もどこよりお得にお客に販売するのは、本来気持ちの良いものだと思いますし、お客も安く良いものが入手できたら嬉しい。それは転じて地域もよくしていくのだという思想のようです。</p>
+
+
+
+<p>　少し前のマスク買い占め転売、プレステ5 の転売などそういうのは本来の商売ではない、長く商売をやっていくためにはもっと違う視点を持つべきだというのが「薄利広商」という言葉の真意なのではと思います。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ネジはミスミで買う事にした</title>
+		<link>/2016/12/14/%e3%83%8d%e3%82%b8%e3%81%af%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%a7%e8%b2%b7%e3%81%86%e4%ba%8b%e3%81%ab%e3%81%97%e3%81%9f/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 14 Dec 2016 11:07:34 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[CNC]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[MISUMI]]></category>
+		<category><![CDATA[Parts]]></category>
+		<category><![CDATA[vslot]]></category>
+		<guid isPermaLink="false">/?p=2564</guid>
+							<description><![CDATA[M5 の 30mm のネジがやっぱり欲しいなということで、ミスミだといくらかなと見てみました。 ACB5-30 がお安くて、よさげ。数を入れて値段を見てみると、 まず、1本だと、221円。 50本だと、1050円 100 [&#8230;]]]></description>
+										<content:encoded><![CDATA[</p>
+<p>M5 の 30mm のネジがやっぱり欲しいなということで、ミスミだといくらかなと見てみました。</p>
+<p><img loading="lazy" decoding="async" title="10300240130" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10300240130" src="/wp-content/uploads/2016/12/10300240130.jpg" width="250" height="250" /> </p>
+<p>ACB5-30 がお安くて、よさげ。数を入れて値段を見てみると、</p>
+<p>まず、1本だと、221円。</p>
+<p> <img loading="lazy" decoding="async" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" src="/wp-content/uploads/2016/12/acb530misumivona2.png" width="288" height="422" />   </p>
+<p>50本だと、1050円</p>
+<p><img loading="lazy" decoding="async" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" src="/wp-content/uploads/2016/12/acb530misumivona4.png" width="286" height="362" /> </p>
+<p>100本だと、なんと800円</p>
+<p><img loading="lazy" decoding="async" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" src="/wp-content/uploads/2016/12/acb530misumivona3.png" width="287" height="365" /> </p>
+<p>ということで、100本も使いませんが、ぽちっとしました。<img loading="lazy" decoding="async" title="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" src="/wp-content/uploads/2016/12/hnt3st3bm5_3misumivona_____misumivona.png" width="640" height="454" /> </p>
+<p>ナットもワッシャーもゲットして、送料無料であさってには到着というお手軽さ。神です。ネジ以外もこれからたくさんお世話になるはずです。ただ、価格のソートがないのがおしいです。最終的に価格が安いのを検討しますから。</p>
+<p>&#160;</p>
+<p>と、記載している内にエヌアイシ・オートテックの三角アルミフレームが到着しました。400mm で購入。平らな面があるので、こっちの三角フレームに軍配があがったわけです。</p>
+<p><img loading="lazy" decoding="async" title="MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MISUMI-VONA" src="/wp-content/uploads/2016/12/misumivona.png" width="640" height="358" /> </p>
+<p>梱包も丁重でさすが日本製。中国からの梱包とはグレードがぜんぜん違います。そして、このフレームものすごく良さそうです。ヘビー級とあるだけあって、肉厚も十分。ずっしりと重いです。20mmのも、40mm のもどちらもハイクオリティー。</p>
+<p>良い xy テーブルが出来ると思います。今週、土日含めて楽しみが増えました。</p>
+<p>あと、NSK と NTN の国産ベアリングも比較のため、3個分のローラー作る6個をゲット。どのくらいクオリティーが高いでしょうか？</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ロード・スイッチ　TPS22942DCKR</title>
+		<link>/2016/06/18/%e3%83%ad%e3%83%bc%e3%83%89%e3%83%bb%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%80%80tps22942dckr/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 18 Jun 2016 07:34:54 +0000</pubDate>
+				<category><![CDATA[Parts]]></category>
+		<category><![CDATA[TI]]></category>
+		<guid isPermaLink="false">/?p=2286</guid>
+							<description><![CDATA[TIさんより、TPS22942DCKR のロードスイッチのサンプルを入手。 仕様：http://www.ti.com/lit/ds/symlink/tps22942.pdf WEB: http://www.tij.co./ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>TIさんより、TPS22942DCKR のロードスイッチのサンプルを入手。</p>
+<p>仕様：<a title="http://www.ti.com/lit/ds/symlink/tps22942.pdf" href="http://www.ti.com/lit/ds/symlink/tps22942.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.ti.com/lit/ds/symlink/tps22942.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>WEB: <a title="http://www.tij.co.jp/product/jp/TPS22942/description" href="http://www.tij.co.jp/product/jp/TPS22942/description" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.tij.co.jp/product/jp/TPS22942/description<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><img loading="lazy" decoding="async" title="S20160618_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_001.jpg" width="640" height="480" /> </p>
+<p>5Pin のタイプです。パッケージは、SC-70</p>
+<p><img loading="lazy" decoding="async" title="S20160618_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_003" src="/wp-content/uploads/2016/06/s20160618_003.jpg" width="640" height="480" /> </p>
+<p>&#160;</p>
+<p><a href="/wp-content/uploads/2016/06/sc705.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="sc-70-5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="sc-70-5" src="/wp-content/uploads/2016/06/sc705_thumb.png" width="452" height="480" /></a> </p>
+<p>次の電子工作で使う予定。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>SDCard16GB 来たのでRasbian Jessie 入れてみた</title>
+		<link>/2016/02/01/sdcard16gb-%e6%9d%a5%e3%81%9f%e3%81%ae%e3%81%a7rasbian-jessie-%e5%85%a5%e3%82%8c%e3%81%a6%e3%81%bf%e3%81%9f/</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 01 Feb 2016 14:53:25 +0000</pubDate>
+				<category><![CDATA[Parts]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+		<guid isPermaLink="false">/?p=2090</guid>
+							<description><![CDATA[SDCard の16GB のテスト代わりに、RasPi に Raspbian Jessie を入れてベンチマークしてみました。 &#160; 環境はこんな感じ。 # uname -a Linux raspberrypi  [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>SDCard の16GB のテスト代わりに、RasPi に Raspbian Jessie を入れてベンチマークしてみました。</p>
+<p>&#160;</p>
+<p>環境はこんな感じ。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># uname -a
+Linux raspberrypi 4.1.13-v7+ #826 SMP PREEMPT Fri Nov 13 20:19:03 GMT 2015 armv7l GNU/Linux</pre>
+<p>で、ベンチマーク</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: raspberrypi: GNU/Linux
+   OS: GNU/Linux -- 4.1.13-v7+ -- #826 SMP PREEMPT Fri Nov 13 20:19:03 GMT 2015
+   Machine: armv7l (unknown)
+   Language: en_US.utf8 (charmap=&quot;ANSI_X3.4-1968&quot;, collate=&quot;ANSI_X3.4-1968&quot;)
+   CPU 0: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 1: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 2: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 3: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   23:14:27 up 11 min,  3 users,  load average: 0.23, 0.16, 0.10; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: 月  2月 01 2016 23:14:27 - 23:42:32
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       13364099.5 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1935.3 MWIPS (9.9 s, 7 samples)
+Execl Throughput                               1438.9 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        136337.7 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           38047.7 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        359110.7 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              788483.7 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 141326.6 lps   (10.0 s, 7 samples)
+Process Creation                               3012.6 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3025.1 lpm   (60.1 s, 2 samples)
+Shell Scripts (8 concurrent)                    406.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                        1760060.4 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   13364099.5   1145.2
+Double-Precision Whetstone                       55.0       1935.3    351.9
+Execl Throughput                                 43.0       1438.9    334.6
+File Copy 1024 bufsize 2000 maxblocks          3960.0     136337.7    344.3
+File Copy 256 bufsize 500 maxblocks            1655.0      38047.7    229.9
+File Copy 4096 bufsize 8000 maxblocks          5800.0     359110.7    619.2
+Pipe Throughput                               12440.0     788483.7    633.8
+Pipe-based Context Switching                   4000.0     141326.6    353.3
+Process Creation                                126.0       3012.6    239.1
+Shell Scripts (1 concurrent)                     42.4       3025.1    713.5
+Shell Scripts (8 concurrent)                      6.0        406.0    676.6
+System Call Overhead                          15000.0    1760060.4   1173.4
+                                                                   ========
+System Benchmarks Index Score                                         491.8</pre>
+<p>あら、なんか速いんじゃないでしょうか？</p>
+<p>以前計測したときは、400ちょい超えたくらいだったはずです。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
