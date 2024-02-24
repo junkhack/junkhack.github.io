@@ -9,7 +9,7 @@
 	<title>JunkHack SmartNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Thu, 22 Feb 2024 09:51:49 +0900</lastBuildDate>
+	<lastBuildDate>Sat, 24 Feb 2024 08:51:05 +0900</lastBuildDate>
 	<language>ja</language>
 	<ttl>5</ttl>
 	<snf:logo><url>/wp-content/uploads/2021/04/logo512x512.png</url></snf:logo>
@@ -23,7 +23,8 @@
 		<link>/2024/02/22/ai_engine_for_wordpress/</link>
 		<pubDate>Thu, 22 Feb 2024 02:55:38 +0000</pubDate>
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-				<category><![CDATA[WordPress]]></category>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
 		<guid isPermaLink="false">/?p=11712</guid>
 				<media:thumbnail>/wp-content/uploads/2024/02/AI-Engine.png</media:thumbnail>
 				<media:status>active</media:status>

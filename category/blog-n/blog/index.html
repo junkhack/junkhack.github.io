@@ -240,6 +240,135 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 						
 				
+<article id="post-11712" class="post-11712 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-wordpress">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2024/02/22/ai_engine_for_wordpress/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2024-02-22T11:55:38+09:00">2024年2月22日</time><time class="updated" datetime="2024-02-24T17:51:05+09:00">2024年2月24日</time></a> </span><span class="posted-on">更新日:2024年2月24日</span> <span class="categories">  <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2024/02/22/ai_engine_for_wordpress/" rel="bookmark noopener noreferrer" data-wpel-link="internal">WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressのコンテンツをAIに学習させて有効に使う方法がないか調査したよ</p>
+</div></div></div></div>
+</div>
+</div></div></div>
+
+<p>今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。</p>
+<h2>何をしたいのか？</h2>
+<p>普段は、<code>ChatGPT</code>やGoogleの<code>Gemini</code>とかにお世話になっています。<code>GPTs</code>が出たことで、自分用にカスタム学習したAIを作ることは簡単にできるようになりました。
+しかし、自分のブログを自動的に学習させて、その内容を加味した回答をAIがしてくれる、そんな執事のようなAIはどうやったら作れるのか？　まだ試してはいませんが、<code>GPTs</code>のAPIを使えばそれも可能だと思います。
+　今回の記事は、そういう自分用にカスタムしたAIをWordPressに連携するお話です。</p>
+<h2>結論から先に</h2>
+<p>今、ブログの右下についているボットがありますが、これは<code>DocsBot</code>という仕組みを利用しています。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/docsbot.png" alt=""></p>
+<p>これは、<code>AI Engine</code>とは関係ない<code>DocsBot</code>というサービスで、以下で提供されています。</p>
+<blockquote>
+<p><code>DocsBot</code></p>
+<p>URL：<a href="https://docsbot.ai/?via=k07v6t0lcyrnck8ig1ot" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://docsbot.ai/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>例えば、「ベトナムでおすすめの料理は？」と聞くと学習してあるブログ記事の内容を加味した答えが返ってきます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/db_ss1.png" alt=""></p>
+<p>このブログは、WordPressで管理していますが公開するときは静的ファイルを出力しています。ですので、<code>AI Engine</code>は常時WordPressを稼働させないといけない関係上、今は利用せず、<code>DocsBot</code>のサービスを利用しています。有料のサービスですが、なかなか出来が良いので今は使っています。</p>
+<h2>AI Engine Pro版を使うメリットは？</h2>
+<p>読者の中には、他のサービスではなく自前のブログ（WEBアプリ）や、WordPressのプラグインで学習済みのAIを連携するような仕組みを作りたいという要望があるかもしれません。自分もWordPressで似たようなことができたらいいなと思っていました。もし、そういうことが出来たら、いろいろと応用が効きそうです。</p>
+<p>　調べてみると、Ai EngineのPro版を使うとできそうなことがわかったので、実際に使ってみました。</p>
+<blockquote>
+<p><code>Ai Engine Pro</code>　（WordPressのプラグイン）<br>
+<code>無料版のWordPress公式</code>：<a href="https://wordpress.org/plugins/ai-engine/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://wordpress.org/plugins/ai-engine/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>
+<code>プロ版</code>：<a href="https://meowapps.com/products/ai-engine-pro/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://meowapps.com/products/ai-engine-pro/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></p>
+</blockquote>
+<p>プロ版は買取のライセンスもありますが、まずは様子を見たいのでスタンダードの年間ライセンスを購入してみました。５つのWEBサイトに適用できて年間69USDです。</p>
+<h2>AI Engineとは何か？</h2>
+<p>WordPressのAI系プラグインは、AIにコンテンツやタイトル・SEO系のワードを書いてもらう補助をするツールが多いです。ブログを書くときに、WordPressのUI画面から直接、<code>ChatGPT</code>のAPIを通して利用できるメリットがあります。</p>
+<p>紹介する<code>AI Engine</code>もこういう機能はありますが、他のプラグインには無い機能としては、<code>Embeddigns</code>からベクターデータベースを指定でき、自分のブログの記事や独自の学習内容を覚えさせることができます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/ai_embed.png" alt=""></p>
+<p>画像では、すでに１つの記事（以下）を覚えさせた状態です。</p>
+<blockquote>
+<p>Surface ProのHackintoshが欲しい！（<a href="/2024/02/02/hackintosh-of-surface-pro/" title="LINK" data-wpel-link="internal" rel="noopener noreferrer">LINK</a>）<br>
+投稿日: 2024年2月2日 更新日:2024年2月6日</p>
+</blockquote>
+<p><code>ChatGPT</code>には、質問として「Surface Proの記事は？」と聞いています。答えは</p>
+<blockquote>
+<p>Surface ProをHackintosh化してmacOSを楽しむプロジェクトについて興味があるんだね。この種のプロジェクトでは、特にSurface Pro7や7+のような高性能モデルが推奨されていることが多いけど、予算の都合でSurface Pro5や6で試すのも一つの方法だっちゃ。中古市場での価格は機種や状態によって大きく異なるけれど、正常な状態のSurface Proはだいたい1万円から5万円程度で手に入るみたいだっちゃ。Hackintosh化は技術的な挑戦が多いけど、macOSのタッチ操作体験やその他の利点を探究する価値は確かにあるね。詳細な情報は専門のサイトで確認するといいだっちゃ。</p>
+</blockquote>
+<p>と回答するようになりました。素晴らしいですね！！</p>
+<h3>AI Engineで使えるベクターデータベースは？</h3>
+<p>設定から、<code>Environments for Embeddings</code> でベクターDBの設定が可能です。今は、<code>Pinecone</code>と<code>Qdrant</code> が使えます。この両者のメリット・デメリットはまだよく調べていませんが、どちらも無料枠があります。本格的に利用したい場合は、課金したほうがよいかもです。</p>
+<p>このベクターデータベースとはmysqlとかと違っていて面白い仕組みなんですが、また違う記事で取り上げてみたいなと思います。</p>
+<blockquote>
+<ul>
+<li>ベクターデータベース：Pinecone<br>
+　URL：<a href="https://app.pinecone.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://app.pinecone.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>
+</li>
+<li>ベクターデータベース：Qdrant<br>
+　URL：<a href="https://cloud.qdrant.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://cloud.qdrant.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+</li>
+</ul>
+</blockquote>
+<h2>自分のWordPressのAPIから使ってみる</h2>
+<p>他の利用例として、自分のWordPressからAPIを提供できるようです。<code>設定</code>の<code>Advanced</code>から、<code>Public API</code> にチェックすれば利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Public_API.png" alt=""></p>
+<p>マニュアル（<a href="https://meowapps.com/ai-engine/api/" title="LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）によると、以下のように利用できるようです。</p>
+<p><code>REST API</code>：<code>https://domains.com/wp-json/mwai/v1/{function_name}</code></p>
+<p>認証は、<code>Bearer Token</code> が使えるようです。例えば、「おはよう。あなたについて教えて」とAPI経由で投げる場合は、</p>
+<pre><code>curl --location --request POST &#039;https://hack.gpl.jp/wp-json/mwai/v1/simpleChatbotQuery?prompt={URLエンコードした質問文}&amp;botId={チャットボットのID}&#039; \
+--header &#039;Authorization: Bearer {トークン}&#039;</code></pre>
+<p>と聞くと以下のようにJsonが返ってきます。</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: &quot;おはよう！私はぴーで、25歳の元気な女性だよ。いちごが大好きなんだっちゃ！&quot;
+}</code></pre>
+<p>カスタム学習した内容で回答が返っていますね。JavaScriptからもこれで使えますね。</p>
+<h2>OpenRouter経由でGemini proも使える</h2>
+<p>設定の<code>Environments for AI</code>では <code>Type</code>として <code>OpenRouter</code>や<code>Azure(OpenAI)</code>も選べます。これにより、例えば、<code>Gemini pro</code> なども利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/OpenRouter.png" alt=""></p>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>AI EngineのPro版は、ベクターデータベースとも連携できる</li>
+<li>
+<code>Pinecone </code>と<code>Qdrant </code>が現在使える</li>
+<li>WordPressの記事を上記のインポートできる機能がある</li>
+<li>つまり、学習させることが可能</li>
+<li>学習させた内容を回答させることが可能</li>
+<li>APIは、WordPressのREST APIを通して使える</li>
+<li>認証は<code>Bearer Token</code>が使える</li>
+<li>外部のAPIは、<code>OpenRouter</code>経由で、<code>Gemini pro</code>も使える</li>
+</ul>
+<h3>あとがき</h3>
+<p>応用すればいろいろと使えそうです。たとえば、自社のナレッジシステムを学習させた自社内AI チャットGPTとか。あとは、3Dオブジェクトと組み合わせて、音声でキャラクターとお話、会話できるものとか。アプリに組み込んで、ヘルプのやり取りをさせたりとか。</p>
+<p>もっと機能を限定してシンプルなWordPressのプラグインとか作りたいですね。</p>
+<h3>著者にメッセージ</h3>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
 <article id="post-11399" class="post-11399 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-wordpress">
 	<div class="entry-wrapper">
 
@@ -282,7 +411,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </div>
 <div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
 <div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
-<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
 </div></div></div>
 <div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
 </div>
@@ -316,7 +445,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </div>
 <div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
 <div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
-<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
 </div></div></div>
 <div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
 </div>
@@ -1242,135 +1371,6 @@ add_header Permissions-Policy "fullscreen=() geolocation=()";</code></pre>
 
 
 <p>　しかも、常時SSL対応ですよ。もちろん、無料のSSL証明書です。なんだか時代は刻々と進化していますね。</p>
-					</div>
-<!-- .entry-content -->
-
-			<footer class="entry-footer">
-							
-			</footer><!-- .entry-footer -->
-		</div>
-<!-- .entry-wrapper -->
-</article><!-- #post-## -->
-
-			
-				
-<article id="post-5943" class="post-5943 post type-post status-publish format-standard hentry category-blog category-wordpress category-speeding-up">
-	<div class="entry-wrapper">
-
-
-
-		<header class="entry-header">
-					<span class="entry-format theme-genericon"></span>
-	
-			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2020/09/08/termux_nginx_phpfpm_bench/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2020-09-08T04:48:02+09:00">2020年9月8日</time></a> </span><span class="posted-on">更新日:2020年9月8日</span> <span class="categories">  <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/wordpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">WordPress</a>, <a href="/category/speeding-up/" rel="category tag noopener noreferrer" data-wpel-link="internal">高速化</a></span>			</div>
-<!-- .entry-meta -->
-
-							<h1 class="entry-title"><a href="/2020/09/08/termux_nginx_phpfpm_bench/" rel="bookmark noopener noreferrer" data-wpel-link="internal">スマホサーバの構成をNGINX+php-fpm+mariadbの構成にしてWordPressを動かして速度を計測しておいた</a></h1>					</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			
-<p>NGINXとphp-fpm構成にしてみました。いつもの<a href="https://www.webpagetest.org/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">計測サイト<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_04_17_28.png?w=940" alt="" class="wp-image-5945"></figure></div>
-
-
-
-<p>夜間のネットワークが一番空いている時なんで、速い感じでしょうか？</p>
-
-
-
-<p>GCP東京リージョンからの、apache ab は以下。182/sec　〜！速っ　78秒かかっていたテストが５．５秒。あ、これWordPressのキャッシュ効かせる前でしたね。apache構成でも同じ条件でサイド計測しておかないと。</p>
-
-
-
-<pre class="wp-block-code"><code>$ ab -n 1000 -c 100 http://jh.gpl.jp/
-：：
-Server Software:        nginx
-Server Hostname:        jh.gpl.jp
-Server Port:            80
-
-Document Path:          /
-Document Length:        15997 bytes
-
-Concurrency Level:      100
-Time taken for tests:   5.479 seconds
-Complete requests:      1000
-Failed requests:        0
-Total transferred:      16202000 bytes
-HTML transferred:       15997000 bytes
-Requests per second:    182.52 &#091;#/sec] (mean)
-Time per request:       547.887 &#091;ms] (mean)
-Time per request:       5.479 &#091;ms] (mean, across all concurrent requests)
-Transfer rate:          2887.87 &#091;Kbytes/sec] received
-
-Connection Times (ms)
-              min  mean&#091;+/-sd] median   max
-Connect:       16   20   6.5     19     149
-Processing:    57  487  82.1    480     747
-Waiting:       39  467  82.0    460     724
-Total:         88  507  82.5    501     783
-
-Percentage of the requests served within a certain time (ms)
-  50%    501
-  66%    531
-  75%    544
-  80%    551
-  90%    578
-  95%    642
-  98%    702
-  99%    738
- 100%    783 (longest request)</code></pre>
-
-
-
-<p>まだ、SSLとか設定はこれからでパラメータなども未調整です。設定値は以下のサイトを大いに参考にさせていただきました。</p>
-
-
-
-<blockquote class="wp-block-quote"><p><a href="https://worklog.be/archives/3222" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">NginxでWordPressを使う時の設定をまとめてみた<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-
-
-
-<p>あとは、SSL設定をtermuxでどうやるかですね。自動化したいので、どんな感じの仕組みが動くんでしょうか。</p>
-
-
-
-<p>あ、それからRapid START CDNのフェイスブックチャットに応答があったんで、もう一度試してみるかもしれません。</p>
-
-
-
-<h2 class="wp-block-heading"> 追記</h2>
-
-
-
-<p>やっぱりWEBフォント読まないほうが速いんで、Autoptimizeで試験的にカットしてみました。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2020/09/webpagetest_test_details_-_tokyo___jh_gpl_jp__-_09_08_20_17_40_55.png?w=941" alt="" class="wp-image-5953"></figure></div>
-
-
-
-<p>読み込むものが少なくなれば、表示するのも速いですね。WEBフォントがなくなることで、多少文字の表示は意図したものと違うことになりますが、快適に読んでもらえるほうが良いと思うので、とりあえずはWEBフォントは外す方向で。</p>
-
-
-
-<p>あと、モバイル向けのスコアがかなり変わりました。</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://developers.google.com/speed/pagespeed/insights/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img decoding="async" src="/wp-content/uploads/2020/09/pagespeed_insights.png?w=700" alt="" class="wp-image-5956"></a></figure></div>
-
-
-
-<p></p>
-
-
-
-<p>まぁ、そのうち気が変わるかもしれませんが。</p>
 					</div>
 <!-- .entry-content -->
 
