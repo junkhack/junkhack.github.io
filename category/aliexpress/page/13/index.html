@@ -239,117 +239,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 						
 				
-<article id="post-1931" class="post-1931 post type-post status-publish format-standard hentry category-aliexpress category-orangepi category-orangepipc">
-	<div class="entry-wrapper">
-
-
-
-		<header class="entry-header">
-					<span class="entry-format theme-genericon"></span>
-	
-			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2015/12/15/opi%e3%81%a7l%e3%83%81%e3%82%ab-gpio%e3%82%92c-%e3%81%a7/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-15T22:56:19+09:00">2015年12月15日</time></a> </span><span class="posted-on">更新日:2015年12月15日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/orangepi/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePi</a>, <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a></span>			</div>
-<!-- .entry-meta -->
-
-							<h1 class="entry-title"><a href="/2015/12/15/opi%e3%81%a7l%e3%83%81%e3%82%ab-gpio%e3%82%92c-%e3%81%a7/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OPIでLチカ GPIOをC で</a></h1>					</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			<p>前回、RasPi2 でWiringPiを使ってGPIO の制御をしました。</p>
-<blockquote>
-<p><a href="/2015/12/04/raspi2-%E3%81%A7c%E3%81%AE%E7%8E%8B%E9%81%93%EF%BC%9F-wiringpi/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">RasPi2 でCの王道？ WiringPi</a></p>
-</blockquote>
-<p>OrangePi でも同様に無いか探したところ、Forkしたものがありました。</p>
-<blockquote>
-<p>WiringOP     <br><a title="https://github.com/zhaolei/WiringOP" href="https://github.com/zhaolei/WiringOP" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/zhaolei/WiringOP<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>サンプルソース</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">#include &lt;wiringPi.h&gt;
-
-#define LED 16
-#define MSEC 50
-
-int main (void)
-{
-  wiringPiSetup () ;
-  pinMode (LED, OUTPUT) ;
-  for (;;)
-  {
-    digitalWrite (LED, HIGH) ; delay (MSEC) ;
-    digitalWrite (LED,  LOW) ; delay (MSEC) ;
-  }
-  return 0 ;
-}</pre>
-<p><img decoding="async" title="GPIO" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GPIO" src="/wp-content/uploads/2015/12/gpio1.jpg" width="640" height="480"> </p>
-<p>ビルド方法は以下のようにしました。</p>
-<blockquote>
-<p># gcc -o blink blink.c -lwiringPi -lpthread</p>
-</blockquote>
-<p>ピンの指定が、以下で出てくる wPi の番号のようでした。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">root@opi:~# gpio readall
- +-----+-----+----------+------+---+--OrangePiPC--+---+------+---------+-----+--+
- | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
- +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
- |     |     |     3.3v |      |   |  1 || 2  |   |      | 5v       |     |     |
- |   2 |  -1 |    SDA.0 |      |   |  3 || 4  |   |      | 5V       |     |     |
- |   3 |  -1 |    SCL.0 |      |   |  5 || 6  |   |      | 0v       |     |     |
- |   4 |   6 | IO6 PA06 |  OUT | 0 |  7 || 8  |   |      | TxD3     |     |     |
- |     |     |       0v |      |   |  9 || 10 |   |      | RxD3     |     |     |
- |  17 |  -1 |     RxD2 |      |   | 11 || 12 | 0 | OUT  | IO1 PD14 | 1   | 18  |
- |  27 |  -1 |     TxD2 |      |   | 13 || 14 |   |      | 0v       |     |     |
- |  22 |  -1 |     CTS2 |      |   | 15 || 16 | 0 | OUT  | IO4 PC04 | 4   | 23  |
- |     |     |     3.3v |      |   | 17 || 18 | 0 | OUT  | IO5 PC07 | 5   | 24  |
- |  10 |  -1 |     MOSI |      |   | 19 || 20 |   |      | 0v       |     |     |
- |   9 |  -1 |     MISO |      |   | 21 || 22 |   |      | RTS2     |     |     |
- |  11 |  -1 |     SCLK |      |   | 23 || 24 |   |      | SPI-CE0  |     |     |
- |     |     |       0v |      |   | 25 || 26 |   |      | CE1      |     |     |
- |   0 |  -1 |    SDA.1 |      |   | 27 || 28 |   |      | SCL.1    |     |     |
- |   5 |   7 |  IO7 PA7 |  OUT | 0 | 29 || 30 |   |      | 0v       |     |     |
- |   6 |   8 |  IO8 PA8 |  OUT | 0 | 31 || 32 | 0 | OUT  | IO9 PG08 | 9   | 12  |
- |  13 |  10 | IO10 PA9 |  OUT | 0 | 33 || 34 |   |      | 0v       |     |     |
- |  19 |  12 | IO12PA10 |  OUT | 0 | 35 || 36 | 0 | OUT  | IO13PG09 | 13  | 16  |
- |  26 |  14 | IO14PA20 | ALT3 | 0 | 37 || 38 | 0 | OUT  | IO15PG06 | 15  | 20  |
- |     |     |       0v |      |   | 39 || 40 | 1 | OUT  | IO16PG07 | 16  | 21  |
- +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
- | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
- +-----+-----+----------+------+---+--OrangePIPC--+------+----------+-----+-----+</pre>
-<p>とりあえず動きました。関数の扱いがちょっと？な部分もあり、完全に互換ソースで動くというわけじゃなさそうです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">root@opi:~# ls /sys/class/gpio_sw/
-normal_led  PA10  PA13  PA14  PA15  PA21  PA3  PA6  PA7  PA8  PA9  PC3  PC4  PC7  PD14  PG6  PG7  PG8  PG9  PL10  standby_led
-root@opi:~# lsmod
-Module                  Size  Used by
-gpio_sunxi              8233  0 
-8189es                901572  0 
-root@opi:~# modprobe gpio_sunxi
-root@opi:~# modprobe gpio-sunxi
-root@opi:~# modprobe gpio
-modprobe: FATAL: Module gpio not found.
-root@opi:~# echo 1 &gt; /sys/class/gpio_sw/standby_led/data
-root@opi:~# echo 0 &gt; /sys/class/gpio_sw/standby_led/data
-root@opi:~# gpio -g write 16 1
-pin number error
-root@opi:~# gpio -g write 21 1
-pin number error
-root@opi:~# gpio -g write IO16PG07 1
-pin number error
-root@opi:~# gpio -g write PG7 1
-pin number error
-root@opi:~# gpio -g write 0 1
-pin number error
-root@opi:~# </pre>
-<p>もう少し、手入れが必要ですね。sysfs に直接書くと以下のように光ります。gpio のマッピングがうまく機能していないようですね。</p>
-<p><img decoding="async" title="gpio_stanby_led" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="gpio_stanby_led" src="/wp-content/uploads/2015/12/gpio_stanby_led.jpg" width="640" height="480"></p>
-					</div>
-<!-- .entry-content -->
-
-			<footer class="entry-footer">
-							
-			</footer><!-- .entry-footer -->
-		</div>
-<!-- .entry-wrapper -->
-</article><!-- #post-## -->
-
-			
-				
 <article id="post-1915" class="post-1915 post type-post status-publish format-standard hentry category-aliexpress category-junk category-orangepipc">
 	<div class="entry-wrapper">
 
@@ -366,9 +255,9 @@ root@opi:~# </pre>
 
 		<div class="entry-content">
 			<p>オレンジパイにヒートシンクをつけると、温度が下がるのか実験してみました。</p>
-<p><img loading="lazy" decoding="async" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.jpg" width="640" height="480"></p>
+<p><img decoding="async" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/12/11.jpg" width="640" height="480"></p>
 <p>ジャンク品のヒートシンクです。これは、15年くらい前の日立のフローラについていたもの。大きいので、3cmくらいにカットして置いてみただけです。 </p>
-<p><img loading="lazy" decoding="async" title="3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3" src="/wp-content/uploads/2015/12/3.jpg" width="640" height="853"> </p>
+<p><img decoding="async" title="3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="3" src="/wp-content/uploads/2015/12/3.jpg" width="640" height="853"> </p>
 <p><img loading="lazy" decoding="async" title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/12/21.jpg" width="640" height="480"> UnixBench を計測していたら、80度くらいまで上がったのですが、置いてみただけでも10度ちょい下がっている感じです。</p>
 <blockquote>
 <p>Every 0.5s: cat /sys/class/thermal/thermal_zone0/temp /sys/class/thermal/thermal_zone1/temp&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Sun Dec 13 18:20:31 2015 </p>
@@ -1399,6 +1288,71 @@ $ sudo make install
 <p><img loading="lazy" decoding="async" title="3528_tantalum220uf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3528_tantalum220uf" src="/wp-content/uploads/2015/11/3528_tantalum220uf1.png" width="640" height="453"></p>
 <p>タンタルのSMDのサイズが良くわからなくて、どうやら以下のようです。今回のは、3528サイズということのようです。30 個で＠20 円くらい。</p>
 <p>&#160;<a href="/wp-content/uploads/2015/11/tantalum_size1.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="tantalum_size" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="tantalum_size" src="/wp-content/uploads/2015/11/tantalum_size_thumb1.png" width="640" height="407"></a></p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1743" class="post-1743 post type-post status-publish format-standard hentry category-aliexpress category-espeink category-parts">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-11-23T15:02:13+09:00">2015年11月23日</time></a> </span><span class="posted-on">更新日:2015年11月23日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/11/23/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%8c%e5%88%b0%e7%9d%80/" rel="bookmark noopener noreferrer" data-wpel-link="internal">E-inkディスプレイが到着</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>少し前に来たのですが、WiFi E-ink に使用するE-ink ディスプレイが到着しました。製品個体差をチェックするため、2枚購入しました。型番はED060SC4(LF)です。</p>
+<p>発色の印象はおおよそ写真のとおりです。印象としては真っ黒というわけではなく、ちょっとグレーです。</p>
+<p><a href="/wp-content/uploads/2015/11/13.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/11/1_thumb1.jpg" width="640" height="480"></a></p>
+<p>フレキシブル基板に部品番号があります。（LF）付きです。このデータシートがないんですよね。</p>
+<p>&#160;<a href="/wp-content/uploads/2015/11/22.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2015/11/2_thumb1.jpg" width="640" height="480"></a></p>
+<p>商品はテストされたようで、充電中の画面となっているようです。このショップが行ったものかメーカーのテストかはわかりませんが。メーカーがやるテストならもう少し印象の良い画面を出すと思うので、これはショップの発送前チェックかもしれませんね。</p>
+<p>&#160;<a href="/wp-content/uploads/2015/11/32.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2015/11/3_thumb1.jpg" width="640" height="480"></a></p>
+<p>裏面は、薄いスポンジ素材が貼り付けてあってズレ防止でしょうか。</p>
+<p>厚みは、約1.5mm 程度です。</p>
+<p><a href="/wp-content/uploads/2015/11/42.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2015/11/4_thumb1.jpg" width="640" height="480"></a></p>
+<p>このジョイントも購入済みです。</p>
+<p>&#160;<a href="/wp-content/uploads/2015/11/52.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/11/5_thumb1.jpg" width="640" height="480"></a> 1枚あたり、送料をいれて1400円程度です。うまく表示ができれば、いろいろなものに応用が出来て楽しくなる予感です。</p>
+<p>日本語のソースで、先駆者がいらしたようで、なかなか難しそうです。</p>
+<blockquote>
+<p>kohacraftのblog     <br><a href="http://kohacraft.com/tag/%E9%9B%BB%E5%AD%90%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">タグ：電子ペーパー<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>オリジナルの接続基板を作られたようです。MCUは、ESP8266 のようです。自分の場合は、ESP13 でいくか、ESP12でいくかまだ決めかねていますので、実際の表示実験はもう少し先になりそうです。</p>
+<p>E-ink に表示させるノウハウは以下のサイトが詳しいです。</p>
+<blockquote>
+<p>Essential scrap     <br><a href="http://essentialscrap.com/eink/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Driving E-ink display<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>このE-ink はV1 のものかもしれませんが、駆動させる基本原理などは参考にしてみたいと思います。上記リンクから、Driving waveforms に行くと詳しく載っています。いくつか落とし穴があるそうで、要約すると以下のようです。Essential scrapさんの E-ink は v1 のもので 9 と 10 は NC のものだと思います。</p>
+<blockquote>
+<p>・ゲートドライバの CKV のHigh と Low のタイミングは重要。タイミングが違うと白にならない（消えない）     <br>・ソースドライバの OE パルスは、ゲートドライバの CKV パルスと同時に送出する      <br>・ソースドライバの 2ビットの意味は、ビット1 と ビット 0 がそれぞれ 01 と 10の場合に黒と白になる      <br>・ED060SC4 には異なるいくつかのバージョンがあり、違いについては、sprite_tm さんのサイトを参照      </p>
+<p>Wifi E-ink display &#8211; Second attempt      <br><a title="http://spritesmods.com/?art=einkdisplay&amp;page=3" href="http://spritesmods.com/?art=einkdisplay&amp;page=3" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://spritesmods.com/?art=einkdisplay&amp;page=3<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      </p>
+</blockquote>
+<p>ということのようです。sprite_tm さんのページにある意味がまだよくわかっていませんが、フレキシブルケーブルのパターンから自分の持っているものと同一に見えます。裏面のパターンは違うようですが。</p>
+<p>&#160;</p>
+<p>以前、sprite_tm さんの回路図をトレースしたとき、9pin 10pin は、それぞれGNDと、VDDにつながっていました。</p>
+<blockquote>
+<p><a href="/category/espeink/page/2/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">ED060SC4 のpin 9 と pin 10</a></p>
+</blockquote>
+<p>これの意味するところはなんでしょうね？ もう少し英文を読み解かないといけないかもしれません。実際に実験するときは、このあたりの事を視野に入れてやってみたいと思います。</p>
+<p>&#160;</p>
+<blockquote>
+<p><a href="https://www.ifixit.com/Guide/First-Look/Kindle-2/624/1" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">IFIXIT Kindle 2 Teardown<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      </p>
+</blockquote>
+<p>この分解写真の型番とも少し違うようです。あと、似た型番で、LB060S01-RD02 という E-ink の型番もあります。ただ、どれも入手できるデータシートには、9,10pin は NC とありますね。</p>
 					</div>
 <!-- .entry-content -->
 

@@ -239,48 +239,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 						
 				
-<article id="post-1298" class="post-1298 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb">
-	<div class="entry-wrapper">
-
-
-
-		<header class="entry-header">
-					<span class="entry-format theme-genericon"></span>
-	
-			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2015/10/01/esp8266-%e3%81%a7adc-%e5%a2%97%e8%a8%ad%e3%81%99%e3%82%8b%e3%81%ab%e3%81%af%ef%bc%9f/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-01T06:37:08+09:00">2015年10月1日</time></a> </span><span class="posted-on">更新日:2015年10月1日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>			</div>
-<!-- .entry-meta -->
-
-							<h1 class="entry-title"><a href="/2015/10/01/esp8266-%e3%81%a7adc-%e5%a2%97%e8%a8%ad%e3%81%99%e3%82%8b%e3%81%ab%e3%81%af%ef%bc%9f/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 でADC 増設するには？</a></h1>					</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			<p>ESPシリーズは、全機種ADC が1ポートなので、アナログ値を読むには何かしら工夫しないといけないのですが、その方法を模索したいと思います。新しい課題です。</p>
-<p>&#160;</p>
-<p>調査第一段階では、以下のものがあるようです。</p>
-<blockquote>
-<p>ESP8266 Analog Input Expander Library for MCP3021 A/D Conveters</p>
-<p><a title="https://github.com/AllAboutEE/ESP8266-MCP3021-Library" href="https://github.com/AllAboutEE/ESP8266-MCP3021-Library" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/AllAboutEE/ESP8266-MCP3021-Library<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>これは、tindie で作っているヒトがいるようです。</p>
-<blockquote>
-<p>ESP8266 Analog Inputs Expander (Version 2)</p>
-<p><a title="https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/" href="https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>初期リリース版は、４つの<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">Microchip MCP3021<span class="wpel-icon wpel-image wpel-icon-1"></span></a>を使っているようですが、Version2では、１ICとなっているようです。このIC は4チャンネルのやつだと思うのですが、型番がよくわかりません。<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21697F.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">MCP3304<span class="wpel-icon wpel-image wpel-icon-1"></span></a> か、MCP3008のTSSOP パッケージかな？ちょっとお尋ね申すことに。</p>
-<p>&#160;</p>
-<p>とりあえず、回路は簡単そうなので部品を入手して模索してみたいと思います。</p>
-					</div>
-<!-- .entry-content -->
-
-			<footer class="entry-footer">
-							
-			</footer><!-- .entry-footer -->
-		</div>
-<!-- .entry-wrapper -->
-</article><!-- #post-## -->
-
-			
-				
 <article id="post-1295" class="post-1295 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-espeink category-parts category-pcb">
 	<div class="entry-wrapper">
 
@@ -668,6 +626,69 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>動画を見ると、ほーなるほどとなります。    </p>
 <p>[youtube https://www.youtube.com/watch?v=prjB_myCwSY]</p>
 <p>なるほどー 。この方法なら、うまく半田付けできるかも。実際に紙に印刷してみたんですが、めちゃくちゃ細かいのでできるかちょっと心配ですが。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1207" class="post-1207 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-espeink category-parts category-pcb">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/09/15/%e9%9b%bb%e6%ba%90%e5%9b%9e%e8%b7%af%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%87%e3%83%b3%e3%82%b5%e3%82%92%e6%a4%9c%e8%a8%bc/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-09-15T18:48:00+09:00">2015年9月15日</time></a> </span><span class="posted-on">更新日:2015年9月15日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/09/15/%e9%9b%bb%e6%ba%90%e5%9b%9e%e8%b7%af%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%87%e3%83%b3%e3%82%b5%e3%82%92%e6%a4%9c%e8%a8%bc/" rel="bookmark noopener noreferrer" data-wpel-link="internal">電源回路のコンデンサを検証</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>電源回路がどうなっているのかなと調査しました。</p>
+<p>E-ink に入る電源電圧は、-20V , +22v , –15V , +15V とあってLT1945でまず、-20V と +20V をスイッチングして生成しています。</p>
+<p>&#160;</p>
+<p>bom.txt に載っているコンデンサの値がどうもおかしいようで、以下のように掲載されています。</p>
+<blockquote>
+<p>&#8212;- bom.txt</p>
+<p>::</p>
+<p>C2, C4, C5, C6, C7, C8: 2U2 &gt;25V!&#160;&#160;&#160; 490-10486-1-ND</p>
+<p>::</p>
+</blockquote>
+<p>最初見たとき、2u2 というのが？で2.2uF のことだろうと思っていましたが、回路を見ると、どうやら違うんじゃないのということで実際に調査しました。実際にeagle でパーツリストと、手書きの図から作者の回路をトレースしました。</p>
+<p>なんか、おかしいなと思ったところは以下です。</p>
+<p><img loading="lazy" decoding="async" title="eagle_power1" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="eagle_power1" src="/wp-content/uploads/2015/09/eagle_power1.png" width="1024" height="531"></p>
+<p>bom.txt にあるのと手書きの図とは違うようです。</p>
+<p><img loading="lazy" decoding="async" title="schema_power 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="schema_power 2" src="/wp-content/uploads/2015/09/schema_power2.png" width="640" height="461"> </p>
+<p>LTのシュミレーターがあるので、実際に値を入れてみると、</p>
+<p>&#160;<img loading="lazy" decoding="async" title="Linear_Technology_Corporation" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Linear_Technology_Corporation" src="/wp-content/uploads/2015/09/linear_technology_corporation.png" width="583" height="233"> </p>
+
+<p>以下のようになり、-20V と +22V を出してくれません。これ便利です。</p>
+<p><img loading="lazy" decoding="async" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2015/09/c13a69da70bd.png" width="577" height="768"> </p>
+<p>それぞれ、手書きの図にある値を入れると、生成されます。</p>
+<p><img loading="lazy" decoding="async" title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="/wp-content/uploads/2015/09/835feede8d70.png" width="579" height="768"> </p>
+<p>&#160;</p>
+<p>また、その後の15V と –15V を出した後の C5 , C6 についても</p>
+<p>&#160;</p>
+<p><img loading="lazy" decoding="async" title="einkdisp-esp8266_front_png__683×593_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="einkdisp-esp8266_front_png__683×593_" src="/wp-content/uploads/2015/09/einkdispesp8266_front_png__683593_1.png" width="479" height="480"> </p>
+<p>データシートを見ると、１００ｎFで良いようです。</p>
+<p>&#160;</p>
+<p><img loading="lazy" decoding="async" title="www_onsemi_jp_pub_link_Collateral_MC78L00A-D_PDF" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="www_onsemi_jp_pub_link_Collateral_MC78L00A-D_PDF" src="/wp-content/uploads/2015/09/www_onsemi_jp_pub_link_collateral_mc78l00ad_pdf.png" width="640" height="222"> </p>
+
+
+<p>なので、</p>
+<p>C2 100pF &gt; 25V</p>
+<p>C4 4.7pF &gt; 25V</p>
+<p>C5 C6 100nF &gt; 15V</p>
+<p>を用意すればよいようです。</p>
 					</div>
 <!-- .entry-content -->
 

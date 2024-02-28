@@ -12,7 +12,7 @@
 	<title>Raspberry Pi &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Tue, 20 Nov 2018 19:49:38 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 25 Feb 2024 07:42:37 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,13 +29,14 @@
 </image> 
 	<item>
 		<title>PaiZero Wのアンテナを見つつ、アレクサとかGoogleアシストを呼び出すものを作る構想なんぞを練ってみる</title>
-		<link>/2018/11/21/paizero-w%e3%81%ae%e3%82%a2%e3%83%b3%e3%83%86%e3%83%8a%e3%82%92%e8%a6%8b%e3%81%a4%e3%81%a4%e3%80%81%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%81%a8%e3%81%8bgoogle%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88/</link>
+		<link>/2018/11/21/while-looking-at-the-paizero-w-antenna-alexa-or-google-assist/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 20 Nov 2018 19:49:38 +0000</pubDate>
 				<category><![CDATA[Blog]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
 		<guid isPermaLink="false">/?p=4796</guid>
+				<media:thumbnail url="/wp-content/uploads/2018/11/s20181121_001.jpg" />
 							<description><![CDATA[Banana Pi に浮気していましたが、RasPi Zero W に戻ってきました。 この子は、2017/02 にリリースされたんですね。だいぶ遅れましたがあれこれ見ていきましょう。まずは、何事も観察から始まります。  [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Banana Pi に浮気していましたが、RasPi Zero W に戻ってきました。<br />
 この子は、2017/02 にリリースされたんですね。だいぶ遅れましたがあれこれ見ていきましょう。まずは、何事も観察から始まります。</p>
@@ -78,13 +79,14 @@
 			</item>
 		<item>
 		<title>Raspberry Pi Zero セットアップ2</title>
-		<link>/2018/11/19/raspberry-pi-zero-%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%972/</link>
+		<link>/2018/11/19/part-2-raspberry-pi-zero-setup/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 18 Nov 2018 15:38:06 +0000</pubDate>
 				<category><![CDATA[Aliexpress]]></category>
 		<category><![CDATA[Raspberry Pi]]></category>
 		<guid isPermaLink="false">/?p=4781</guid>
+				<media:thumbnail url="/wp-content/uploads/2018/11/s20181119_001.jpg" />
 							<description><![CDATA[今日は、RasPi Zero に接続する MicroUSB の OTG ケーブルが届いたので少し遊んでみた。LED が点灯せず、焦りましたが、SDカードをフォーマットしていて OS が入っていないのを忘れていました。テス [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>今日は、RasPi Zero に接続する MicroUSB の OTG ケーブルが届いたので少し遊んでみた。LED が点灯せず、焦りましたが、SDカードをフォーマットしていて OS が入っていないのを忘れていました。テスター当てて、電源がきているか確認です。<a href="http://bokuraku.com/rasberrypi-nyumon-3/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここが参考に<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なりますね。</p>
 <p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4786" src="/wp-content/uploads/2018/11/s20181119_001.jpg" alt="S20181119_001.jpg" width="1600" height="1200" /></p>
@@ -260,12 +262,13 @@ System Benchmarks Index Score <span style="color:#ff0000;">97</span>.0</p></bloc
 			</item>
 		<item>
 		<title>Raspberry Pi Zero セットアップ１</title>
-		<link>/2018/11/16/raspberry-pi-zero-%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%ef%bc%91/</link>
+		<link>/2018/11/16/part-1-raspberry-pi-zero-setup/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 15 Nov 2018 20:40:51 +0000</pubDate>
 				<category><![CDATA[Raspberry Pi]]></category>
 		<guid isPermaLink="false">/?p=4759</guid>
+				<media:thumbnail url="/wp-content/uploads/2018/11/etcher_e28093_7__flashing.png" />
 							<description><![CDATA[ちょこっと時間が出来たので、Raspberry Pi Zeroをセットアップ。 セットアップは大きく２つ方法があります。 （１）USBを母艦に繋げてSDカードに展開しセットアップする方法 ＞WiFi設定など入れれるのでモ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ちょこっと時間が出来たので、Raspberry Pi Zeroをセットアップ。<br />
 セットアップは大きく２つ方法があります。</p>

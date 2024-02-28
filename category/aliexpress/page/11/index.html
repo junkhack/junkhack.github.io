@@ -239,45 +239,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 						
 				
-<article id="post-2088" class="post-2088 post type-post status-publish format-standard hentry category-aliexpress category-i2s category-music category-raspberry-pi">
-	<div class="entry-wrapper">
-
-
-
-		<header class="entry-header">
-					<span class="entry-format theme-genericon"></span>
-	
-			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2016/02/01/i2s%e3%81%a8%e3%81%84%e3%81%86%e3%81%ae%e3%81%ab%e6%89%8b%e3%82%92%e5%87%ba%e3%81%97%e3%81%a6%e3%81%bf%e3%82%8b%e4%ba%8b%e3%81%ab/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-02-01T23:46:57+09:00">2016年2月1日</time></a> </span><span class="posted-on">更新日:2016年2月1日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/i2s/" rel="category tag noopener noreferrer" data-wpel-link="internal">I2S</a>, <a href="/category/music/" rel="category tag noopener noreferrer" data-wpel-link="internal">music</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
-<!-- .entry-meta -->
-
-							<h1 class="entry-title"><a href="/2016/02/01/i2s%e3%81%a8%e3%81%84%e3%81%86%e3%81%ae%e3%81%ab%e6%89%8b%e3%82%92%e5%87%ba%e3%81%97%e3%81%a6%e3%81%bf%e3%82%8b%e4%ba%8b%e3%81%ab/" rel="bookmark noopener noreferrer" data-wpel-link="internal">I2Sというのに手を出してみる事に</a></h1>					</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			<p>RasPi2 も電源を付けることがだんだんと少なくなってきていますので、ここらでちょっと使い方を変えてみることに。</p>
-<p>I2C を調査しているときに、I2S というキーワードも目に入りました。寄り道して散歩していると、なにやら 音関連のようです。どうやら、DAC を USB 経由じゃなくて、I2S インターフェイスを使ってやり取りしてDA 変換するものとのこと。こうして音だしすると、びっくりするくらい音が綺麗というじゃありませんか。</p>
-<p>&#160;</p>
-<p>I2S するのは、以下のようなのが定番のようです。RasPi の GPIO ヘッダーにかぶせるタイプです。TI のチップである、PCM5122という 32bit のDAコンバータが載っています。</p>
-<p> <img decoding="async" title="HIFI-DAC-I2S" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HIFI-DAC-I2S" src="/wp-content/uploads/2016/02/hifidaci2s.jpg" width="480" height="480">   </p>
-<p>お値段も手が出る範囲ですし、一回自分の耳で聞き分けれるかどうか、試してみたくなりました。今は、osx から内臓の音出力を使ってデジタルアンプに出しているだけのシンプルなものです。これでも、かなり気に入っていますが、果たしてよくなるのでしょうか。いや、良くなったしても自分の耳で判別できるでしょうか？</p>
-<p>&#160;</p>
-<p>外付けで、音専用マシンとしてPCを付けなくても鳴らせるようにデジタルアンプも安いものですが購入してみました。こちらも、TIのチップ、TPA3116D2が載っているようです。電源は安定化電源から取る予定。</p>
-<p><img decoding="async" title="amp_TPA3116" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="amp_TPA3116" src="/wp-content/uploads/2016/02/amp_tpa3116.jpg" width="511" height="480">あと、アンプとRasPiをつなぐ短いRCAケーブルもゲット。ま、普通のビデオ線のあまりでもよかったのですが、それっぽい雰囲気を出してみたかったので。</p>
-<p>&#160;<img loading="lazy" decoding="async" title="rca_cable" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="rca_cable" src="/wp-content/uploads/2016/02/rca_cable.jpg" width="515" height="386"> </p>
-
-<p>トータル50ドルほどです。スピーカーは今ある自作の天つり式のじゅうたんスピーカーです。さぁ、どんな感じになりますでしょうか。みんなオーバーにブログで言っているだけなんじゃないかと思っていますが。そんなに変わらないでしょう？</p>
-					</div>
-<!-- .entry-content -->
-
-			<footer class="entry-footer">
-							
-			</footer><!-- .entry-footer -->
-		</div>
-<!-- .entry-wrapper -->
-</article><!-- #post-## -->
-
-			
-				
 <article id="post-2061" class="post-2061 post type-post status-publish format-standard hentry category-aliexpress category-orangepi">
 	<div class="entry-wrapper">
 
@@ -294,10 +255,10 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		<div class="entry-content">
 			<p>ARM の開発ボード界隈も低価格化になってきて、うれしい選択肢がまた出来ました。Orange Pi One が売り出されたのです。</p>
-<p><a href="http://www.aliexpress.com/item/Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2/32603308880.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2-1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2-1" src="/wp-content/uploads/2016/01/orangepioneubuntulinuxandandroidminipcbeyondandcompatiblewithraspberrypi211.jpg" width="480" height="480"></a></p>
+<p><a href="http://www.aliexpress.com/item/Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2/32603308880.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" title="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2-1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2-1" src="/wp-content/uploads/2016/01/orangepioneubuntulinuxandandroidminipcbeyondandcompatiblewithraspberrypi211.jpg" width="480" height="480"></a></p>
 <p>買うかどうか迷っていましたが、使ってみないと良し悪しが体感できませんので、結局安さに負けてゲットしました。</p>
 <p></p>
-<p><a href="http://www.orangepi.org/orangepione/" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" title="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2" src="/wp-content/uploads/2016/01/orangepioneubuntulinuxandandroidminipcbeyondandcompatiblewithraspberrypi22.jpg" width="480" height="480"></a> これが、9.99ドルです。送料とかも入れると、13ドルちょっとなので、現実には、1600円ちょいします。</p>
+<p><a href="http://www.orangepi.org/orangepione/" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img decoding="async" title="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Orange-Pi-One-ubuntu-linux-and-android-mini-PC-Beyond-and-Compatible-with-Raspberry-Pi-2" src="/wp-content/uploads/2016/01/orangepioneubuntulinuxandandroidminipcbeyondandcompatiblewithraspberrypi22.jpg" width="480" height="480"></a> これが、9.99ドルです。送料とかも入れると、13ドルちょっとなので、現実には、1600円ちょいします。</p>
 <p>10ドル以下という価格でリリースされているボードは現在3機種ほどあります。以下に比較表があります。</p>
 <p>&#160;</p>
 <blockquote>
@@ -918,6 +879,96 @@ end</pre>
 <p><img loading="lazy" decoding="async" title="b" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="b" src="/wp-content/uploads/2016/01/b.jpg" width="480" height="480"> </p>
 <p>osx で使う場合はそのことを教えてねとありましたが、ドライバとかosx 用のをつけてくれるんでしょうかね？</p>
 <p>これが到着したら、PCB 半田付けを頑張ることに。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1990" class="post-1990 post type-post status-publish format-standard hentry category-aliexpress category-linux category-orangepi category-orangepipc category-parts">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2016/01/03/orangepi-pc-%e3%82%92%e3%82%af%e3%83%ad%e3%83%83%e3%82%af%e3%83%80%e3%82%a6%e3%83%b3/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-01-03T23:32:07+09:00">2016年1月3日</time></a> </span><span class="posted-on">更新日:2016年1月3日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/linux/" rel="category tag noopener noreferrer" data-wpel-link="internal">Linux</a>, <a href="/category/orangepi/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePi</a>, <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2016/01/03/orangepi-pc-%e3%82%92%e3%82%af%e3%83%ad%e3%83%83%e3%82%af%e3%83%80%e3%82%a6%e3%83%b3/" rel="bookmark noopener noreferrer" data-wpel-link="internal">OrangePi PC をクロックダウン</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>OPI PC にファンをつけて、ついでに sccript.bin を作り直して1.5MHz から1.2MHz にクロックダウンして運用していますが、CPU 温度は30度から40 度を推移しているようです。</p>
+<p><img loading="lazy" decoding="async" title="h3_temp-day-2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="h3_temp-day-2" src="/wp-content/uploads/2016/01/h3_tempday2.png" width="497" height="280"> </p>
+<p>この状態でベンチマークがどのくらいいくかテストしてみました。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">   ========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+   System: OrangePi: GNU/Linux
+   OS: GNU/Linux -- 3.4.39-01-lobo -- #1 SMP PREEMPT Sun Oct 25 14:46:41 CET 2015
+   Machine: armv7l (armv7l)
+   Language: en_US.utf8 (charmap=&quot;UTF-8&quot;, collate=&quot;UTF-8&quot;)
+   07:17:03 up 44 min,  2 users,  load average: 1.56, 1.61, 1.56; runlevel 3
+   ------------------------------------------------------------------------
+   Benchmark Run: Sun Jan 03 2016 07:17:03 - 07:46:42
+   0 CPUs in system; running 4 parallel copies of tests
+   ::
+   System Benchmarks Index Values               BASELINE       RESULT    INDEX
+   Dhrystone 2 using register variables         116700.0   17298899.9   1482.3
+   Double-Precision Whetstone                       55.0       2969.0    539.8
+   Execl Throughput                                 43.0       1464.1    340.5
+   File Copy 1024 bufsize 2000 maxblocks          3960.0     149424.6    377.3
+   File Copy 256 bufsize 500 maxblocks            1655.0      45277.4    273.6
+   File Copy 4096 bufsize 8000 maxblocks          5800.0     380747.9    656.5
+   Pipe Throughput                               12440.0     911007.9    732.3
+   Pipe-based Context Switching                   4000.0     124699.6    311.7
+   Process Creation                                126.0       3414.8    271.0
+   Shell Scripts (1 concurrent)                     42.4       1865.6    440.0
+   Shell Scripts (8 concurrent)                      6.0        307.0    511.6
+   System Call Overhead                          15000.0    2100567.0   1400.4
+   ========
+   System Benchmarks Index Score                                         516.5</pre>
+<p>おおよそ、RasPi2 より少し速い500ポイントちょいのスコアです。クロックダウンする前は、600ちょいだったので、すこし遅くなった感じですね。</p>
+<p>&#160;</p>
+<p>実際にサーバとして仮運用していますので、レスポンスなど見たい方は以下にアクセスしてみてください。昨年からテストで運用しています。</p>
+<blockquote>
+<p>Fedora22 OrangePi PC<br>
+    <br><a title="http://hack.gpl.jp/" href="/" data-wpel-link="internal" rel="noopener noreferrer">http://hack.gpl.jp/</a> </p>
+<p>・NGINX + php-fpm + MariaDB</p>
+</blockquote>
+<p>そこそこ重めのアプリケーションのWordPress が動作しています。ネットワーク的には、サーバからの下りは帯域は絞られていると思いますので差し引いてみてください。今のところ、そこそこストレスなく動作しています。</p>
+<p>&#160;</p>
+<p>当初、OpenStack として勉強用に使おうと思っていたのですが、何年ぶりかで自宅サーバを運用してみたら面白くてOpenStack の構成の検証に環境を壊したくないなぁという感じです。もう一台ほしいなぁと。</p>
+<p>WEBを散歩しているとなにやら、Orange pi Oneという10ドルくらいのものも発売されるということで、すこし様子見をしています。</p>
+<blockquote>
+<p>CNXSoft<br>
+    <br><a href="http://www.cnx-software.com/2016/01/02/orange-pi-one-is-a-10-quad-core-board-with-ethernet-and-hdmi/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Orange Pi One is a $10 Quad Core Board with Ethernet and HDMI<span class="wpel-icon wpel-image wpel-icon-1"></span></a> </p>
+<p><img loading="lazy" decoding="async" title="Orange_Pi_One" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="Orange_Pi_One" src="/wp-content/uploads/2016/01/orange_pi_one.jpg" width="640" height="421"> </p>
+</blockquote>
+<p>どうやら、WIFI 付きモデルと、10/100M Ethernet モデルが出るようです。なかなか面白そうです。比較表は、OSAKANA TARO さんのページにあります。</p>
+<blockquote>
+<p>OSAKANA TARO のメモ帳<br>
+    <br><a href="http://blog.osakana.net/archives/6789" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Orange Pi ONEの詳細が出た！<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>CPU は、今のと同じ 6ドルの H3 （4core）を使うようです。これで、9.99ドルで出せるとはほぼ原価並の価格ですね。メーカ（Shenzhen Xunlong Software）は、かなり大量にパーツを購入しているんでしょう。とにかくこれは出たら買いです。</p>
+<p>&#160;</p>
+<p>OpenStack Ironic としてベアメタルな構成を考えているのですが、動作に必要な PXE Boot の実験がまだ終わっていません。まだ、OpenStack 自体もあまり良くわかっていないのですが、おそらくベアメタルをコントロールする際に、PXE Boot が必要になると思います。あとIPMI で電源とかなにか操作するようです。このあたりの検証もしないといけません。おそらく、なにか工夫する必要があると思っています。</p>
+<p>&#160;</p>
+<p>5台くらいの構成で考えているのですが、安いほうがいいよねということで、Orange pi Oneが出てから考えたいなぁと思っています。5000円くらいで、最小構成を目指して OpenStack のベアメタルを勉強してみたいと思っています。</p>
+<p>&#160;</p>
+<p>まとめ</p>
+<p>・クロックを1.2Mhz にダウンさせるとベンチマークは500ちょい</p>
+<p>・ヒートシンクと、ファンをつけた状態でアイドル時、温度は30度から40度を推移</p>
+<p>・負荷をかけると50度ちょいくらい</p>
+<p>・追加購入は、OrangePi PC の15ドルより安い9.99ドルの Orange Pi One というのが出るまで待ち</p>
+<p>・U-Boot する仕組みを勉強してみる</p>
 					</div>
 <!-- .entry-content -->
 

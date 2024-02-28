@@ -32,103 +32,10 @@
 }</script>
 
 
-		<link charset="utf-8" rel="stylesheet" type="text/css" href="/wp-content/themes/jh-hew/js/nehan2/nehan2.css">
-		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/subject.js"></script>
-		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/Plugin_haiku.js"></script>
-		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/nehan2.js"></script>
-		<script type="text/javascript">
-
-		let pw = window.innerWidth;
-		let ph = window.innerHeight;
-		let wsize = 0;
-		function resizeWindow(event){
-				pw = window.innerWidth;
-				ph = window.innerHeight;
-		}
-	
-		window.addEventListener("resize", resizeWindow);
-
-			window.onload = function(){
-			var createPageFrame = function(body){
-				var node = document.createElement("div");
-				var style = node.style;
-				node.innerHTML = body;
-				node.className = "page-frame";
-				return node;
-			};
-
-			var outputAllPages = function(dstId, provider){
-				var pageNo = 0;
-				var dstNode = document.getElementById(dstId);
-
-				// add <subject> element to parser for easy markup(see subject.js)
-				Nehan.Plugin.defineSubjectElement(provider);
-				Nehan.Plugin_haiku.defineHaikuElement(provider);
-
-				while(provider.hasNextPage()){
-					var pageData = provider.outputPage(pageNo++);
-					var pageFrame = createPageFrame(pageData.html);
-					dstNode.appendChild(pageFrame);
-				}
-			};
-			
-			var text = document.getElementById("src-text").innerHTML;
-		// output default page1.
-		if(pw < 480){
-			// output vertical post.27moji
-			outputAllPages("result-vertical", new Nehan.PageProvider({
-				direction:"vertical",
-				width:310,
-				height:440,
-				fontSize:16
-			}, text));
-		}
-		if(pw > 479 && pw < 600){
-			// output vertical post.27moji
-			outputAllPages("result-vertical", new Nehan.PageProvider({
-				direction:"vertical",
-				width:420,
-				height:440,
-				fontSize:16
-			}, text));
-		}
-		if(pw > 599 && pw < 744){
-			// output vertical post.27moji
-			outputAllPages("result-vertical", new Nehan.PageProvider({
-				direction:"vertical",
-				width:540,
-				height:440,
-				fontSize:16
-			}, text));
-		}
-		if(pw > 743 && pw < 889){
-			// output vertical post.27moji
-			outputAllPages("result-vertical", new Nehan.PageProvider({
-				direction:"vertical",
-				width:680,
-				height:440,
-				fontSize:16
-			}, text));
-		}
-		if(pw > 888){
-			// output vertical post.27moji
-			outputAllPages("result-vertical", new Nehan.PageProvider({
-				direction:"vertical",
-				width:890,
-				height:440,
-				fontSize:16
-			}, text));
-		}
-		
-		document.getElementById("progress").style.display = "none";
-		};
-		</script>
-		
-<title>Aliexpress &#8211; ページ 21 &#8211; JunkHack</title>
+<title>2017年に購入してよかったものベスト10 &#8211; JunkHack</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Aliexpress カテゴリーのフィード" href="/category/aliexpress/feed/">
 <link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3" type="text/css" media="all">
 <style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
@@ -157,9 +64,13 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.4.3" id="mouse-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/6">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/4305">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.4.3">
+<link rel="canonical" href="/2018/01/08/the-best-10-things-to-buy-in-2017/">
+<link rel="shortlink" href="/?p=4305">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F01%2F08%2Fthe-best-10-things-to-buy-in-2017%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F01%2F08%2Fthe-best-10-things-to-buy-in-2017%2F#038;format=xml">
 		<style>.algolia-search-highlight {
 				background-color: #fffbcc;
 				border-radius: 2px;
@@ -168,7 +79,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
 }</style>
-<style id="uagb-style-frontend-6">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<style id="uagb-style-frontend-4305">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
@@ -181,7 +92,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
   gtag('js', new Date());
 
   gtag('config', 'UA-161935417-3');</script>
-<body class="archive paged category category-aliexpress category-6 wp-custom-logo paged-21 category-paged-21 has-sidebar has-header-image">
+<body class="post-template-default single single-post postid-4305 single-format-standard wp-custom-logo has-sidebar has-header-image">
 <div id="page" class="hfeed site">
 		<div id="widgets-wrapper" class="hide">
 		
@@ -229,17 +140,12 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 	</header><!-- #masthead -->
 	
 	<div id="content" class="site-content">
-	<section id="primary" class="content-area">
+	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		
-			<header class="page-header">
-				<h1 class="page-title">カテゴリー: <span>Aliexpress</span>
-</h1>			</header><!-- .page-header -->
-
-						
-				
-<article id="post-532" class="post-532 post type-post status-publish format-standard hentry category-aliexpress category-arduino">
+			
+<article id="post-4305" class="post-4305 post type-post status-publish format-standard hentry category-aliexpress category-amzon category-gearbest">
 	<div class="entry-wrapper">
 
 
@@ -248,65 +154,64 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<span class="entry-format theme-genericon"></span>
 	
 			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2015/04/19/easydriver/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-04-19T02:47:41+09:00">2015年4月19日</time></a> </span><span class="posted-on">更新日:2015年4月19日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a></span>			</div>
+				<span class="posted-on">投稿日: <a href="/2018/01/08/the-best-10-things-to-buy-in-2017/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2018-01-08T03:19:39+09:00">2018年1月8日</time><time class="updated" datetime="2024-02-25T16:44:25+09:00">2024年2月25日</time></a> </span><span class="posted-on">更新日:2024年2月25日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/amzon/" rel="category tag noopener noreferrer" data-wpel-link="internal">AMZON</a>, <a href="/category/gearbest/" rel="category tag noopener noreferrer" data-wpel-link="internal">gearbest</a></span>			</div>
 <!-- .entry-meta -->
 
-							<h1 class="entry-title"><a href="/2015/04/19/easydriver/" rel="bookmark noopener noreferrer" data-wpel-link="internal">EasyDriver</a></h1>					</header><!-- .entry-header -->
+							<div class="flex">
+									
+				<h1 class="entry-title">2017年に購入してよかったものベスト10</h1>
+				</div>
+					</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			<p>1個160円くらいのEasyDriverを３つゲットして、まずは１つを半田付け。</p>
-<p><img decoding="async" title="IMG_0138" style="display:inline;border-width:0;" border="0" alt="IMG_0138" src="/wp-content/uploads/2015/04/img_0138.jpg" width="640" height="480"> </p>
-<p>ブレッドボードも新調しました！ 前使ってたのが、ピンがめちゃくちゃ入りにくくて。今度のは、いいですね。挿しやすくてイライラしない。で、こんな感じに差し込んで半田付け。</p>
-<p><img decoding="async" title="IMGP0825" style="display:inline;border-width:0;" border="0" alt="IMGP0825" src="/wp-content/uploads/2015/04/imgp0825.jpg" width="640" height="425"> </p>
-<p>で、ステッピングモーターを用意してなかったので、フロッピーディスクか、CD-ROMを分解してステッピングモーターを取り出すことに。</p>
-<p>&#160;</p>
-<p>Junk物色中。配線中、、、、完了。接続。、、、、うごきません。！！！</p>
-<p>&#160;</p>
-<p>寝る！</p>
-<p>&#160;</p>
-<p>・・・ 起床後、ふと見るとEasyDriver 側のLEDがついていないのを発見。電源が入っていませんでした。</p>
-<p><img loading="lazy" decoding="async" title="写真_1" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="写真_1" src="/wp-content/uploads/2015/04/1.jpg" width="640" height="480"> </p>
-<p>５Vをモータードライブ用に入れていたんですが、仕様的に、6～30Vとか書いてあるので、手持ちに8Vくらいのしかなかったので、それを印加。</p>
-<p>サンプルは、ネットで見たのをコピペ。PINのアサインは、PIN2 に Direction (正逆の回転方向)と、PIN3 にStep パルスを。</p>
-<p><img loading="lazy" decoding="async" title="写真_2" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="写真_2" src="/wp-content/uploads/2015/04/2.jpg" width="640" height="480"> </p>
-<p>ほほー、な感じです。他にもPinがあるけども、深追いせず。Sleep とか PFD とか何に使うんでしょうかね。<img loading="lazy" decoding="async" title="写真 3" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="写真 3" src="/wp-content/uploads/2015/04/3.jpg" width="640" height="480"> </p>
-<p>&#160;</p>
-<pre class="brush: cpp; ruler: true; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- Junk FDD Stepper Motor Control Sample.
- JunkHack 2015.04.19
- */
- 
-#include &lt;Stepper.h&gt;
-int steps;                // ステップカウンター
-int movement = 1400;            // 片道移動量 ( step 数)
-int Delay = 200;            // 遅延 ms
-int dirPin = 2;                // 回転方向出力 Pin 
-int stepPin = 3;            // ステップパルス Pin
+			<p>毎年の年末に、今年ぽちったモノの中でよかったなーって思えるベスト１０をやろうと前々から思ってました。</p>
+<p>今年から初めてみたいと思います。</p>
+<p> </p>
+<p>10位 コットン製のマフラー 842円</p>
+<p><img decoding="async" title="10-" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10-" src="/wp-content/uploads/2018/01/10.png" width="479" height="480"> </p>
+<p>女性ものなんですかね。自転車乗るとき、暖かくて色も紺色で、コットン製なので洗濯も自分で楽です。大判なのでひざ掛けにも使えて安くて大変気に入っています。</p>
+<p> </p>
+<p>９位 髭剃り後や、寝る前に塗るフェイスクリーム 350円</p>
+<p><img decoding="async" title="９" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="９" src="/wp-content/uploads/2018/01/beff24969cce.jpg" width="480" height="480"> </p>
+<p>髭剃り負けするので、何かいいクリームないかなーと物色していたのですが、このフェイスクリームは別格でした。寝る前にぬっておくと朝髭剃り負けしません。とても気に入っています。</p>
+<p> </p>
+<p>８位 中華製激安ノートPC YEPO 737A 22746円</p>
+<p><img loading="lazy" decoding="async" title="８" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="８" src="/wp-content/uploads/2018/01/780ddd595a4b.png" width="409" height="480"> </p>
+<p>年末に購入した中華製のノートPC。コスパは最高です。日常使いの使い倒すノートPCとして活躍するでしょう。１０年前にこんな値段でこの品質のノートPCが出るなんて夢にも思っていませんでした。</p>
+<p> </p>
+<p>７位 カーボンフレームのMTB SAVA26インチ 送料込 60446円</p>
+<p><img loading="lazy" decoding="async" title="７" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="７" src="/wp-content/uploads/2018/01/c353ca7b32cd.jpg" width="480" height="480"> </p>
+<p> </p>
+<p>日常の足となっているカーボンフレームのMTB。ついにカーボンに手を出しましたが、軽くてしなやか。とても気に入っています。</p>
+<p> </p>
+<p>６位 冬用の手袋 ROCKBROS S091BK ９００円くらい</p>
+<p><img loading="lazy" decoding="async" title="６" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="６" src="/wp-content/uploads/2018/01/16f66100448d.jpg" width="480" height="480"> </p>
+<p> </p>
 
-void setup() {                
-  pinMode(dirPin, OUTPUT);        // 回転方向の出力PINを指定
-  pinMode(stepPin, OUTPUT);        // ステップ出力PINを指定
-  digitalWrite(dirPin, LOW);        // PIN出力をLOWで初期化
-  digitalWrite(stepPin, LOW);        // PIN出力をLOWで初期化
-  steps = 1;                // ステップカウンターを初期化
-}
+<p>手袋は１年に１つづつくらいで、冬用と夏用を使いますが、この手袋はちょっと別格です。また冬用で買うと思います。品質がいいです。</p>
+<p> </p>
+<p>５位 Continental X king MTB 26インチタイヤ 1697円（２本）</p>
+<p><img loading="lazy" decoding="async" title="５" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="５" src="/wp-content/uploads/2018/01/5a5fd5a784fb.jpg" width="640" height="426"> </p>
+<p>コンチネンタルのMTBタイヤです。タイヤって履き替えただけじゃあまり差がないものとばかり思っていましたが、このタイヤは別格でした。とてもいいタイヤで、この値段でまたあったら買いたいなと思います。購入先は、wiggle.jp です。次回もコンチネンタルのタイヤの何かにしようと思っています。</p>
+<p> </p>
+<p>４位 LUMIX DMC-FZ200 23544円</p>
+<p><img loading="lazy" decoding="async" title="４" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="４" src="/wp-content/uploads/2018/01/b4cb14dde129.jpg" width="603" height="480"> </p>
+<p>何気にカメラって、新しいものじゃなくても綺麗に撮れるんですよね。かなり満足しています。軽いし、レンズは全域でF2.8だし。しばらｓくこれでいいって思っています。</p>
+<p> </p>
+<p>３位 スミシア 2.5人がけソファー 配送込 19980円</p>
+<p><img loading="lazy" decoding="async" title="３" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="３" src="/wp-content/uploads/2018/01/d49f516c047e.png" width="547" height="480"> </p>
 
-void loop() {
-  if ( steps &lt; movement ) {        // 移動量を超えてなければ
-      digitalWrite(dirPin, HIGH);    // 回転方向出力PIN は HIGH (5V)
-  } 
-  if ( steps &gt; movement  ) {    // 移動量を超えたら
-      digitalWrite(dirPin, LOW);    //  回転方向出力PIN を LOW (0V)
-  }
-  digitalWrite(stepPin, HIGH);        // ステップ出力 PIN を HIGH (5V)
-  delayMicroseconds(Delay);        // 遅延
-  digitalWrite(stepPin, LOW);        // ステップ出力 PIN を LOW (0V)
-  delayMicroseconds(Delay);        // 遅延
-  steps += 1;                // ステップカウンターを +1加算
-  if ( steps &gt; movement * 2 ) {    // 往復したら
-     steps = 1;                        // ステップカウンターリセット
-  }
-}</pre>
+<p>部屋にソファーがあるのとないのとでは雲泥の差ということに気がつきました。とても、ゆったり本読んだり、スマホいじったり、最高です。</p>
+<p> </p>
+<p>２位 Dibea C17 コードレス掃除機 13000円</p>
+<p><img loading="lazy" decoding="async" title="２" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="２" src="/wp-content/uploads/2018/01/84207f764efb.jpg" width="504" height="480"> </p>
+<p>なんだか、ダイソンに似ていますが、モーターヘッドであり遠心分離式でリチウム充電式のもの。１，２，３階まで一気に掃除できてとても軽く、そしてごみが捨てやすい。コードレスってほんと掃除を楽にしてくれました。</p>
+<p> </p>
+<p>１位 電子タバコ VAPE Kangertech TOGO Mini 2700円ほど</p>
+<p><img loading="lazy" decoding="async" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2018/01/68089c9b75cc.jpg" width="480" height="480"> </p>
+<p>今年の変化のナンバー１は、なんといってもタバコをやめれたことです。このVAPEにニコチン入りリキッドで、いともあっさりほとんど苦痛や苦労もなくさっぱりやめられました。今はたまにVAPEを忘れることがあるんですが、依存度はなくなりつつあります。タバコやめられない人、お勧めです。貯金箱には、たばこを吸ったつもりのお金が貯まっています。半年で７万くらいですかね。体のためにも、ライフスタイルのためにも、すごく意義があったと思います。</p>
+<p> </p>
+<p>以上、2017年度に購入した満足度が高い商品でした。２０１８年度も良い製品と出会えることを楽しみにしています。2018年の４月からは名古屋から東京に生活空間が変わります。お仕事のベースを東京に移動しますので、生活の面でもいろいろと楽しみが増えそうです。特にイベントがらみは気軽に行けそうで、交友も広げていければなと思います。</p>
 					</div>
 <!-- .entry-content -->
 
@@ -318,14 +223,18 @@ void loop() {
 </article><!-- #post-## -->
 
 			
-			
-	<nav class="navigation posts-navigation" aria-label="投稿">
+	<nav class="navigation post-navigation" aria-label="投稿">
 		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
-		<div class="nav-links"><div class="nav-next"><a href="/category/aliexpress/page/20/" data-wpel-link="internal" rel="noopener noreferrer">新しい投稿</a></div></div>
+		<div class="nav-links">
+<div class="nav-previous"><a href="/2018/01/07/i-tried-to-attach-512gb-of-12835-yen-m-2-ssd/" rel="prev noopener noreferrer" data-wpel-link="internal">12835円のM.2 SSD の512GBを付けてみた</a></div>
+<div class="nav-next"><a href="/2018/01/21/%e3%81%a9%e3%81%86%e3%82%84%e3%82%89%e3%80%81m2%e6%8b%a1%e5%bc%b5%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88%e3%81%8c%e5%a3%8a%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b%e3%82%88%e3%81%86%e3%81%a7%e3%81%99/" rel="next noopener noreferrer" data-wpel-link="internal">どうやら、M2拡張スロットが壊れているようです</a></div>
+</div>
 	</nav>
+			
 		
 		</main><!-- #main -->
-	</section><!-- #primary -->
+	</div>
+<!-- #primary -->
 
 
 	</div>

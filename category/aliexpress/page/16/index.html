@@ -239,61 +239,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 						
 				
-<article id="post-1466" class="post-1466 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb">
-	<div class="entry-wrapper">
-
-
-
-		<header class="entry-header">
-					<span class="entry-format theme-genericon"></span>
-	
-			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2015/10/25/ina226%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%82%92%e8%bc%89%e3%81%9b%e3%81%9f%e3%81%91%e3%81%a9/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-25T19:17:34+09:00">2015年10月25日</time></a> </span><span class="posted-on">更新日:2015年10月25日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>			</div>
-<!-- .entry-meta -->
-
-							<h1 class="entry-title"><a href="/2015/10/25/ina226%e9%9b%bb%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%82%92%e8%bc%89%e3%81%9b%e3%81%9f%e3%81%91%e3%81%a9/" rel="bookmark noopener noreferrer" data-wpel-link="internal">INA226電流センサーを載せたけど</a></h1>					</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			<p>電流センサーのINA226を2階建て基板に乗せてみたんですが、なんかしっくりこないで迷っています。</p>
-<p>・上基板は、温度湿度照度を取るもの。内臓ADC をIC2 のFSA3357で切り替えて、バックブーストの生成後3.3V とバッテリの電圧を見ている。</p>
-<p>・内臓のなので、精度は１０bitで簡易的なもの</p>
-<p>・拡張して、電流と電圧を取る必要性があるのか？</p>
-<p>&#160;</p>
-<p>なんていうことを考えていると、手がとまります。以下くらいまでは、配置と配線が進みました。</p>
-<p> <img decoding="async" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/10/a.png" width="607" height="480">   </p>
-<p>回路図は以下のようにしています。まだ、アラートを受けるPIN は決めていません。INA226 のスレーブアドレスを決めれるようにしておきました。</p>
-<p><img decoding="async" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/10/b.png" width="640" height="281"> </p>
-<p>ジャンパーピンは、以下のようなテーブルのようです。</p>
-<p><img loading="lazy" decoding="async" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/10/51.png" width="626" height="480"> </p>
-<p><img loading="lazy" decoding="async" title="6" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="6" src="/wp-content/uploads/2015/10/61.png" width="619" height="480"> </p>
-<p>GPIO 0,2,15 は以下のように処理しておきます。この３つはモード切替のピンですが、使えるんでしょうか？あとで配線を選択できるようにスリットのジャンバーに接続しておいたほうがいいかもしれません。</p>
-<p>&#160;</p>
-<p><img loading="lazy" decoding="async" title="0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="0" src="/wp-content/uploads/2015/10/01.png" width="564" height="658"> </p>
-<p>25mΩのシャント抵抗は、以下のにしました。2512サイズ。</p>
-<p><a href="http://www.aliexpress.com/item/2512-0-025-ohm-1-1W-SMD-Resistor-0-025R-R025-Chip-resistor-50Pcs-Lot-Free/32414020709.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="2512-0-025-ohm-1-1W-SMD-Resistor-0-025R-R025-Chip-resistor-50Pcs-Lot-Free" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2512-0-025-ohm-1-1W-SMD-Resistor-0-025R-R025-Chip-resistor-50Pcs-Lot-Free" src="/wp-content/uploads/2015/10/25120025ohm11wsmdresistor0025rr025chipresistor50pcslotfree.jpg" width="480" height="480"></a> </p>
-<p>&#160;</p>
-<p>端子は、以下のが安かったのでこれにしましたが、結構大きいです。</p>
-<p><a href="http://www.aliexpress.com/item/1Set-20pcs-KF128-2P-2-Pin-Plug-in-Terminal-Block-Connector-5-08mm-Pitch-PCB-Mount/32326496621.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="d" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="d" src="/wp-content/uploads/2015/10/d.jpg" width="480" height="480"></a>正確な大きさがよくわかりませんが、以下のものくらいだと思います。</p>
-<p>&#160;<img loading="lazy" decoding="async" title="c" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="c" src="/wp-content/uploads/2015/10/c.png" width="437" height="480"> </p>
-<p>とりあえず、このまま発注しちゃいますかね。迷っています。</p>
-<p>&#160;</p>
-<p>うーん、あれこれ考えてとりあえずもう一週間考えることに。とりあえず、あまった所にむりやりINA226 のモジュール化をしたものを作って本日終了。</p>
-<p>&#160;</p>
-<p><img loading="lazy" decoding="async" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/10/a1.png" width="640" height="203"> </p>
-<p>&#160;</p>
-<p><a href="/wp-content/uploads/2015/10/b1.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/10/b_thumb.png" width="640" height="259"></a></p>
-					</div>
-<!-- .entry-content -->
-
-			<footer class="entry-footer">
-							
-			</footer><!-- .entry-footer -->
-		</div>
-<!-- .entry-wrapper -->
-</article><!-- #post-## -->
-
-			
-				
 <article id="post-1457" class="post-1457 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb">
 	<div class="entry-wrapper">
 
@@ -310,10 +255,10 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		<div class="entry-content">
 			<p>到着したパーツたち。ESP13 が速くきてほしいところですが、先に到着したのはLED100個と、インダクタとIC です。</p>
-<p><img loading="lazy" decoding="async" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/10/16.png" width="640" height="392"> </p>
+<p><img decoding="async" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2015/10/16.png" width="640" height="392"> </p>
 
 <p>0603 の LED は5色。各20個づつでトータル100個。320円くらいなので、1個3.2円</p>
-<p><img loading="lazy" decoding="async" title="Scan 27" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 27" src="/wp-content/uploads/2015/10/scan27.png" width="428" height="480"> </p>
+<p><img decoding="async" title="Scan 27" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 27" src="/wp-content/uploads/2015/10/scan27.png" width="428" height="480"> </p>
 <p>これが今回の主役のTPS63000 です。10個で1250円くらい。＠125円</p>
 <p><img loading="lazy" decoding="async" title="Scan 25" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 25" src="/wp-content/uploads/2015/10/scan25.png" width="480" height="480"> </p>
 <p>わかりにくいですが、かなり小さいです。うまく半田付けできるでしょうか？かなり自信がありませんが。</p>
@@ -563,6 +508,48 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>▼調査すること</p>
 <p>・幅、２ｃｍｘ長さ５ｃｍ、暑さ５ｍｍくらいのお値打ちLIONを探す。</p>
 <p>・どっかの記事で、ADCはダイオードをかませば、GPIOのピン数分読めるというような英文記事を見たが、あれは本当か？</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1298" class="post-1298 post type-post status-publish format-standard hentry category-aliexpress category-backboost category-esp8266 category-parts category-pcb">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/10/01/esp8266-%e3%81%a7adc-%e5%a2%97%e8%a8%ad%e3%81%99%e3%82%8b%e3%81%ab%e3%81%af%ef%bc%9f/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-10-01T06:37:08+09:00">2015年10月1日</time></a> </span><span class="posted-on">更新日:2015年10月1日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/backboost/" rel="category tag noopener noreferrer" data-wpel-link="internal">BackBoost</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/10/01/esp8266-%e3%81%a7adc-%e5%a2%97%e8%a8%ad%e3%81%99%e3%82%8b%e3%81%ab%e3%81%af%ef%bc%9f/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP8266 でADC 増設するには？</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>ESPシリーズは、全機種ADC が1ポートなので、アナログ値を読むには何かしら工夫しないといけないのですが、その方法を模索したいと思います。新しい課題です。</p>
+<p>&#160;</p>
+<p>調査第一段階では、以下のものがあるようです。</p>
+<blockquote>
+<p>ESP8266 Analog Input Expander Library for MCP3021 A/D Conveters</p>
+<p><a title="https://github.com/AllAboutEE/ESP8266-MCP3021-Library" href="https://github.com/AllAboutEE/ESP8266-MCP3021-Library" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/AllAboutEE/ESP8266-MCP3021-Library<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>これは、tindie で作っているヒトがいるようです。</p>
+<blockquote>
+<p>ESP8266 Analog Inputs Expander (Version 2)</p>
+<p><a title="https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/" href="https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://www.tindie.com/products/AllAboutEE/esp8266-analog-inputs-expander/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>初期リリース版は、４つの<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">Microchip MCP3021<span class="wpel-icon wpel-image wpel-icon-1"></span></a>を使っているようですが、Version2では、１ICとなっているようです。このIC は4チャンネルのやつだと思うのですが、型番がよくわかりません。<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21697F.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">MCP3304<span class="wpel-icon wpel-image wpel-icon-1"></span></a> か、MCP3008のTSSOP パッケージかな？ちょっとお尋ね申すことに。</p>
+<p>&#160;</p>
+<p>とりあえず、回路は簡単そうなので部品を入手して模索してみたいと思います。</p>
 					</div>
 <!-- .entry-content -->
 

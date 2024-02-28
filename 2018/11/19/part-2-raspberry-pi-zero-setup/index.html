@@ -32,7 +32,7 @@
 }</script>
 
 
-<title>PaiZero Wのアンテナを見つつ、アレクサとかGoogleアシストを呼び出すものを作る構想なんぞを練ってみる &#8211; JunkHack</title>
+<title>Raspberry Pi Zero セットアップ2 &#8211; JunkHack</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -64,13 +64,13 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.4.3" id="mouse-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/4796">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/4781">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.4.3">
-<link rel="canonical" href="/2018/11/21/paizero-w%e3%81%ae%e3%82%a2%e3%83%b3%e3%83%86%e3%83%8a%e3%82%92%e8%a6%8b%e3%81%a4%e3%81%a4%e3%80%81%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%81%a8%e3%81%8bgoogle%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88/">
-<link rel="shortlink" href="/?p=4796">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F21%2Fpaizero-w%25e3%2581%25ae%25e3%2582%25a2%25e3%2583%25b3%25e3%2583%2586%25e3%2583%258a%25e3%2582%2592%25e8%25a6%258b%25e3%2581%25a4%25e3%2581%25a4%25e3%2580%2581%25e3%2582%25a2%25e3%2583%25ac%25e3%2582%25af%25e3%2582%25b5%25e3%2581%25a8%25e3%2581%258bgoogle%25e3%2582%25a2%25e3%2582%25b7%25e3%2582%25b9%25e3%2583%2588%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F21%2Fpaizero-w%25e3%2581%25ae%25e3%2582%25a2%25e3%2583%25b3%25e3%2583%2586%25e3%2583%258a%25e3%2582%2592%25e8%25a6%258b%25e3%2581%25a4%25e3%2581%25a4%25e3%2580%2581%25e3%2582%25a2%25e3%2583%25ac%25e3%2582%25af%25e3%2582%25b5%25e3%2581%25a8%25e3%2581%258bgoogle%25e3%2582%25a2%25e3%2582%25b7%25e3%2582%25b9%25e3%2583%2588%2F#038;format=xml">
+<link rel="canonical" href="/2018/11/19/part-2-raspberry-pi-zero-setup/">
+<link rel="shortlink" href="/?p=4781">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F19%2Fpart-2-raspberry-pi-zero-setup%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F19%2Fpart-2-raspberry-pi-zero-setup%2F#038;format=xml">
 		<style>.algolia-search-highlight {
 				background-color: #fffbcc;
 				border-radius: 2px;
@@ -79,7 +79,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
 }</style>
-<style id="uagb-style-frontend-4796">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<style id="uagb-style-frontend-4781">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
@@ -92,7 +92,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
   gtag('js', new Date());
 
   gtag('config', 'UA-161935417-3');</script>
-<body class="post-template-default single single-post postid-4796 single-format-standard wp-custom-logo has-sidebar has-header-image">
+<body class="post-template-default single single-post postid-4781 single-format-standard wp-custom-logo has-sidebar has-header-image">
 <div id="page" class="hfeed site">
 		<div id="widgets-wrapper" class="hide">
 		
@@ -145,7 +145,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		
 			
-<article id="post-4796" class="post-4796 post type-post status-publish format-standard hentry category-blog category-raspberry-pi">
+<article id="post-4781" class="post-4781 post type-post status-publish format-standard has-post-thumbnail hentry category-aliexpress category-raspberry-pi">
 	<div class="entry-wrapper">
 
 
@@ -154,50 +154,188 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<span class="entry-format theme-genericon"></span>
 	
 			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2018/11/21/paizero-w%e3%81%ae%e3%82%a2%e3%83%b3%e3%83%86%e3%83%8a%e3%82%92%e8%a6%8b%e3%81%a4%e3%81%a4%e3%80%81%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%81%a8%e3%81%8bgoogle%e3%82%a2%e3%82%b7%e3%82%b9%e3%83%88/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-11-21T04:49:38+09:00">2018年11月21日</time></a> </span><span class="posted-on">更新日:2018年11月21日</span> <span class="categories">  <a href="/category/blog-n/blog/" rel="category tag noopener noreferrer" data-wpel-link="internal">Blog</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
+				<span class="posted-on">投稿日: <a href="/2018/11/19/part-2-raspberry-pi-zero-setup/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2018-11-19T00:38:06+09:00">2018年11月19日</time><time class="updated" datetime="2024-02-25T16:39:19+09:00">2024年2月25日</time></a> </span><span class="posted-on">更新日:2024年2月25日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
 <!-- .entry-meta -->
 
 							<div class="flex">
-									
-				<h1 class="entry-title">PaiZero Wのアンテナを見つつ、アレクサとかGoogleアシストを呼び出すものを作る構想なんぞを練ってみる</h1>
+					<img width="1600" height="1200" src="/wp-content/uploads/2018/11/s20181119_001.jpg" class="attachment-full size-full wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/2018/11/s20181119_001.jpg 1600w, /wp-content/uploads/2018/11/s20181119_001-1024x768.jpg 1024w, /wp-content/uploads/2018/11/s20181119_001-768x576.jpg 768w, /wp-content/uploads/2018/11/s20181119_001-1536x1152.jpg 1536w, /wp-content/uploads/2018/11/s20181119_001-984x738.jpg 984w" sizes="(max-width: 1600px) 100vw, 1600px">				
+				<h1 class="entry-title">Raspberry Pi Zero セットアップ2</h1>
 				</div>
 					</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			<p>Banana Pi に浮気していましたが、RasPi Zero W に戻ってきました。<br>
-この子は、2017/02 にリリースされたんですね。だいぶ遅れましたがあれこれ見ていきましょう。まずは、何事も観察から始まります。</p>
-<p>今日は、RasPai Zero W のアンテナには工夫があるっていうことで各記事を参照してみた後、その部分をみてみました。</p>
-<blockquote><p><a href="http://mag.switch-science.com/2017/04/05/rapberry-pi-zero-w-antenna/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">スイッチサイエンスマガジン：Rapberry Pi Zero Wのアンテナのお話<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p><img decoding="async" class="alignnone size-full wp-image-4797" src="/wp-content/uploads/2018/11/s20181121_001.jpg" alt="S20181121_001.jpg" width="1600" height="1200"></p>
-<p>手前に見えているのは、普通のボールペンの先っちょです。上がアンテナ部分。<br>
-基盤の各層の銅箔部分と、コンデンサ３つで2.4GHz 帯の電波をキャッチするようです。</p>
-<p>スゥーデンのProant社ってとこがライセンスしたみたいです。こんな工夫があるんですね。</p>
+			<p>今日は、RasPi Zero に接続する MicroUSB の OTG ケーブルが届いたので少し遊んでみた。LED が点灯せず、焦りましたが、SDカードをフォーマットしていて OS が入っていないのを忘れていました。テスター当てて、電源がきているか確認です。<a href="http://bokuraku.com/rasberrypi-nyumon-3/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここが参考に<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なりますね。</p>
+<p><img decoding="async" class="alignnone size-full wp-image-4786" src="/wp-content/uploads/2018/11/s20181119_001.jpg" alt="S20181119_001.jpg" width="1600" height="1200"></p>
+<p>普通に扱っていれば、滅多に壊れないのでLED が付かなくてもとりあえずは、SDカードの内容を確認してみるのがいいですね。自分の場合は、SDカードに刺した状態で、USB認識しなかったんで、もしかすると本当にどこかおかしいのかもしれません。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4782" src="/wp-content/uploads/2018/11/s20181118_001.jpg" alt="S20181118_001.jpg" width="1600" height="1200"></p>
+<p>で、無事ブートしました。３本も接続すると、本体がちっこすぎてケーブルに引っ張られますね。まずは、定番の UnixBenchです。OS は、2018-10-09-raspbian-stretch-lite　です。Update も何もせずとりあえず、UnixBench をコンパイルして実行。</p>
 <blockquote>
-<div><a href="http://www.proant.se/en/news.htm" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Proant社：News<span class="wpel-icon wpel-image wpel-icon-1"></span></a></div>
+<p>========================================================================<br>
+BYTE UNIX Benchmarks (Version 5.1.3)</p>
+<p>System: pizero: GNU/Linux<br>
+OS: GNU/Linux — 4.14.71+ — #1145 Fri Sep 21 15:06:38 BST 2018<br>
+Machine: armv6l (unknown)<br>
+Language: en_US.utf8 (charmap=”ANSI_X3.4-1968″, collate=”ANSI_X3.4-1968″)<br>
+CPU 0: ARMv6-compatible processor rev 7 (v6l) (0.0 bogomips)</p>
+<p>21:00:01 up 22 min, 2 users, load average: 0.08, 0.25, 0.21; runlevel 3</p>
+<p>————————————————————————<br>
+Benchmark Run: Sun Nov 18 2018 21:00:01 – 21:28:09<br>
+1 CPU in system; running 1 parallel copy of tests</p>
+<p>Dhrystone 2 using register variables 2152307.8 lps (10.0 s, 7 samples)<br>
+Double-Precision Whetstone 461.6 MWIPS (10.0 s, 7 samples)<br>
+Execl Throughput 222.2 lps (29.8 s, 2 samples)<br>
+File Copy 1024 bufsize 2000 maxblocks 37774.2 KBps (30.0 s, 2 samples)<br>
+File Copy 256 bufsize 500 maxblocks 12292.0 KBps (30.0 s, 2 samples)<br>
+File Copy 4096 bufsize 8000 maxblocks 94535.6 KBps (30.0 s, 2 samples)<br>
+Pipe Throughput 129589.5 lps (10.0 s, 7 samples)<br>
+Pipe-based Context Switching 20014.2 lps (10.0 s, 7 samples)<br>
+Process Creation 564.7 lps (30.0 s, 2 samples)<br>
+Shell Scripts (1 concurrent) 465.9 lpm (60.1 s, 2 samples)<br>
+Shell Scripts (8 concurrent) 59.6 lpm (60.4 s, 2 samples)<br>
+System Call Overhead 441679.0 lps (10.0 s, 7 samples)</p>
+<p>System Benchmarks Index Values BASELINE RESULT INDEX<br>
+Dhrystone 2 using register variables 116700.0 2152307.8 184.4<br>
+Double-Precision Whetstone 55.0 461.6 83.9<br>
+Execl Throughput 43.0 222.2 51.7<br>
+File Copy 1024 bufsize 2000 maxblocks 3960.0 37774.2 95.4<br>
+File Copy 256 bufsize 500 maxblocks 1655.0 12292.0 74.3<br>
+File Copy 4096 bufsize 8000 maxblocks 5800.0 94535.6 163.0<br>
+Pipe Throughput 12440.0 129589.5 104.2<br>
+Pipe-based Context Switching 4000.0 20014.2 50.0<br>
+Process Creation 126.0 564.7 44.8<br>
+Shell Scripts (1 concurrent) 42.4 465.9 109.9<br>
+Shell Scripts (8 concurrent) 6.0 59.6 99.4<br>
+System Call Overhead 15000.0 441679.0 294.5<br>
+========<br>
+System Benchmarks Index Score <span style="color:#ff0000;">97</span>.0</p>
 </blockquote>
-<div>
-<p>&nbsp;</p>
-</div>
-<p>アンテナの設計エンジニアが書いた記事が紹介されていました。</p>
-<blockquote><p>Enbedded COMPUTING DESIGN<br>
-<a href="http://www.embedded-computing.com/iot/a-lesson-in-wireless-engineering-from-the-raspberry-pi" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">A lesson in wireless engineering from the Raspberry Pi<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>そのほか、いろいろ調査してみます。Zero の基盤と W との比較は以下。</p>
-<p><a href="https://twitter.com/pimoroni/status/836510914094510080/photo/1" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" class="alignnone size-full wp-image-4798" src="/wp-content/uploads/2018/11/c5vioamwaaa9veh.jpg" alt="C5viOAmWAAA9VEh.jpg" width="1200" height="799"></a></p>
-<p>部品レイアウトもちょっと変更されています。サイズは同じなんでケースなんかは流用できます。</p>
-<p><a href="http://raspi.tv/2017/pi-zero-w-wifi-on-the-zero-for-10-and-a-gorgeous-new-case" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4799" src="/wp-content/uploads/2018/11/gif-640px-med.gif" alt="GIF-640px-med.gif" width="640" height="355"></a></p>
-<p>面白いですね〜。</p>
-<p>最後に、回路の概要図のリンクを。PCB のデータは見つかりませんでした。どっかにはあると思うんですが。この基盤、裏側には部品が実装されてないんですよね。すごいなと。</p>
-<p><a title="rpi_SCH_ZeroW_1p1_reduced" href="/wp-content/uploads/2018/11/rpi_sch_zerow_1p1_reduced.pdf" data-wpel-link="internal" rel="noopener noreferrer">rpi_SCH_ZeroW_1p1_reduced</a><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4800" src="/wp-content/uploads/2018/11/schematic1___page2_-_power__xos.png" alt="SCHEMATIC1___PAGE2_-_POWER__XOS.png" width="1269" height="896"></a></p>
-<p>とりあえず、なにかまたPCB基盤を作ってみたくなりました。〇〇HAT基盤とか、なにか、作ってみたいですね。</p>
-<p>というか、ちゃんと１つの機能が動作するモノを最近何も作っていなくて、そういう役立つ何かを作ってみたいです。</p>
-<p>あれこれ調査していますが、いろいろ作れて迷います。一番興味が引くもので面白く、かつみんなが興味を持つもので、何より自分が作りたいもの。</p>
-<p>１つ候補が上がっています。それは、Amazon EchoとGoogle Home の２つの機能を１つにまとめたものがあると楽しいかなと。こういうジャンルってなんていうんですかね？　スマートスピーカー？　うーん、実際には裏側で通信して受け答えをしているわけなんで、音声認識のAIの先っちょって感じでしょうか？Amazon EchoとGoogle Homeは、両方ともなんだかんだと買いそびれてしまい、まだ持っていないんですよね。自作できたら、作りたいなと。どうやら、できそうなんですよね。</p>
-<p>まぁそれでも、「ねぇ、アレクサとGoogle 。7時か８時くらいになったらやさしく起こして。」</p>
-<p>なんて、お願いできたら、いいなと思っています。さらには、アレクサとGoogle の名前部分を家族の名前にしたら面白いんじゃないかと。猫とかの名前でもいいです。結構笑えるモノができそうな予感。<br>
-〇〇→猫１<br>
-△△→猫２</p>
-<p>「ただいま〜、〇〇。△△、今日のご飯は何にしよう？」とか、話かけたりできたら面白いかもしれません。</p>
-<p>&nbsp;</p>
+<p>100くらいだとは知っていましたが、おそっ（笑）まぁ、シングルコアなんで仕方ありませんね。使い道に困るデバイスかもしれません。というか、今までのこれ系のボードも結局転がっていますしね。ベンチマーク取って、あぁ、安いね、小さいね。で終わっています（笑）</p>
+<p>でも本体が小さいので、Linux の何かを使ったものを作るにはいいかもしれません。例えば、カメラとか？ 家の IoT デバイスを集中的に処理するものとか。あと、アリエク物色していて、<a href="https://www.aliexpress.com/store/product/Allwinner-H2-Open-source-hardware-platform-BPI-M2-zero-all-ineter-face-same-as-Raspberry-pi/302756_32839074880.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Banana Pi M2 Zero<span class="wpel-icon wpel-image wpel-icon-1"></span></a> っていう互換？ボードも見つけました。2400円（送料込）</p>
+<p><a href="http://www.banana-pi.org/bpi-zero.html" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4783" src="/wp-content/uploads/2018/11/zero2.png" alt="zero2.png" width="741" height="340"></a></p>
+<p>特色は、CPU コア数が４つで、メモリがDDR3 なんで処理速が早い（とは行っても、たかが知れてるかもですが）いや、この大きさで4core なのはいいんじゃないでしょうか？</p>
+<table style="font-size:14px;background-color:#f8f9fa;color:#222222;margin:1em 0;border:1px solid #a2a9b1;border-collapse:collapse;font-family:sans-serif;height:982px;" width="680">
+<tbody>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;background:paleturquoise;color:black;" colspan="4"><b>HardWare Specification of Banana pi BPI-M2 zero VS Raspberry Pi Zero W</b></td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Module</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;"><b>Banana Pi BPI-M2 Zero</b></td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;"><b>Raspberry Pi Zero W</b></td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">CPU</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">H2+ <span style="color:#ff0000;">Quad-core</span> Cortex-A7 H265/HEVC 1080P</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Broadcom BCM2835 32 Bit 1 GHz ARM1176JZF-S single-core</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">GPU</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mali400MP2 GPU @600MHz,Supports OpenGL ES 2.0</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">VideoCore IV</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Memory \(SDRAM\)</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">512M <span style="color:#ff0000;">DDR3</span>(shared with GPU)</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">512 MB DDR2</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Onboard Storage</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">TF card \(Max. 64GB\)</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">TF card \(Max. 64GB\)</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Onboard Network</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">NOPE</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">NOPE</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Onboard WIFI</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">SDIO AP6212（option AP6181、AP6335）<span style="color:#ff0000;">Bluetooth 4.0</span> (AP6212)</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">802.11n wireless, Bluetooth 4.1</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Video decoding</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">
+<span style="color:#ff0000;">1080p@60fps</span>,H.264 Video encoding 1080p@30fps,H.264</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">1080p30 H.264/MPEG-4 AVC high-profile decoder and encoder</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Video input</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">A CSI input connector Camera</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">CSI camera connector</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Video Outputs</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">mini HDMI 1.4,1080P@30fps, DHCP</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mini HDMI and USB On-The-Go ports</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Audio Output</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mini HDMI</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Mini HDMI</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Power Source</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Micro USB with 5V/2A</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">5V/2A</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">USB 2.0 Ports</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">one USB 2.0 OTG</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">one USB 2.0 OTG</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Buttons</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;"><span style="color:#ff0000;">Power Button, Reset Button</span></td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Composite video and reset headers</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Low-level peripherals</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">40 Pins Header,compatible with Raspberry Pi 3</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">40 PIN</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">uart GPIO\(1×3\) pin</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">UART, ground</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">UART</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">LED</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Power led &amp; <span style="color:#ff0000;">Status led</span>
+</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Power Status LED</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">IR</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">N/A</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">N/A</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Supported OS</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Android, Ubuntu, Debian, Rasberry Pi Image</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Linux</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Product size</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">65mm × 30mm</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">65mm x 30mm</td>
+</tr>
+<tr>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">Weight</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">
+<span style="color:#ff0000;">15</span>g</td>
+<td style="border:1px solid #a2a9b1;padding:.2em .4em;">9G</td>
+</tr>
+</tbody>
+</table>
+<p>比較は、<a href="http://Banana%20Pi%20Zero%20vs.%20Raspberry%20Pi%20Zero%20W%20(Wireless)%20vs.%20LicheePi%20Zero%20vs.%20Orange%20Pi%20Zero%20Plus%202%20(H5)/" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ここが<span class="wpel-icon wpel-image wpel-icon-1"></span></a>わかりやすいですも。一部、Bluetooth がないなど情報の間違えはありますが。到着するまで、ここの<a href="http://wiki.banana-pi.org/Getting_Started_with_M2_Zero" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a>でも読んでますか。</p>
+<p>こういう小さくて、手頃なやつを見つけるとつい買っちゃうんですよね。WiFi のAP6212も技適は AMPAK社 が通しているようで問題ないと思うんで、ポチってみました。</p>
+<p><a title="AP6212_V1.1_09022014" href="/wp-content/uploads/2018/11/ap6212_v1-1_09022014.pdf" data-wpel-link="internal" rel="noopener noreferrer">AP6212_V1.1_09022014</a></p>
+<p><a href="http://www.tele.soumu.go.jp/giteki/SearchServlet?pageID=jg01_01&amp;PC=020&amp;TC=N&amp;PK=1&amp;FN=180921N020&amp;SN=%94F%8F%D8&amp;LN=1&amp;R1=*****&amp;R2=*****" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4788" src="/wp-content/uploads/2018/11/giteki_ap6212.png" alt="giteki_AP6212.png" width="703" height="779"></a></p>
+<p>また、これでゴミが１つ増えたかも。（笑）いや、これは壮大なる、汎用品で作る UMPC プロジェクトの始まりになるのかもしれません。たぶん、海外のかたでやっているかたがいるはず。</p>
+<p>モバイルで使いたいのは、快適なテキスト入力と、常時data通信で、ssh 端末として使いたいんですよね。こんな限定的に使う人は、たぶんLinux エンジニアか、テキスト入力で原稿作りたい記者か、作家くらいのもんで、需要は一定数あると思うんですが、日本のメーカーはこの分野はもうからないと撤退したようです。</p>
+<p>ないなら、作れです。いつどこでも、メンテナンスできて、ブログのネタも快適にテキスト入力できる端末っていうのがあると嬉しいんです。多少大きくてもキーボードはフルピッチのキーがほしい。横幅26cm あってもいいんでそういう端末がほしいんですよね。昔、Libretto って端末があったんですが結局買えず仕舞いでした。</p>
+<p>じゃ、普通のうっすいノートPCでいいじゃんとはならないんです。キーボードが打ちにくいんですよね。できればメカニカルなやつで、ファンクションキーがないタイプ。</p>
 					</div>
 <!-- .entry-content -->
 
@@ -212,8 +350,8 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 	<nav class="navigation post-navigation" aria-label="投稿">
 		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
 		<div class="nav-links">
-<div class="nav-previous"><a href="/2018/11/20/banana-pi-bpi-m2-zero%e3%81%af%e3%80%81%e3%82%a4%e3%83%bc%e3%82%b5%e3%83%8d%e3%83%83%e3%83%88%e3%81%8c%e6%a8%99%e6%ba%96%e3%81%a7%e5%bc%95%e3%81%8d%e5%87%ba%e3%81%9b%e3%82%8b%e3%82%88%e3%81%86/" rel="prev noopener noreferrer" data-wpel-link="internal">Banana Pi BPI-M2 Zeroは、イーサネットが標準で引き出せるようでキーストーンをゲットした</a></div>
-<div class="nav-next"><a href="/2018/11/24/%e3%83%96%e3%83%a9%e3%83%83%e3%82%af%e3%83%95%e3%83%a9%e3%82%a4%e3%83%87%e3%83%bc%e3%81%ae%e3%82%a2%e3%83%aa%e3%82%a8%e3%82%af%e3%81%ae%e3%81%8a%e8%b2%b7%e3%81%84%e7%89%a9%e3%81%a7%e3%80%81%e8%aa%b0/" rel="next noopener noreferrer" data-wpel-link="internal">ブラックフライデーのアリエクのお買い物で、誰もが得する買い方のご紹介と、アレクサ自作するための部品購入</a></div>
+<div class="nav-previous"><a href="/2018/11/16/dibea-cordless-cleaning-higher-cospa-than-dyson/" rel="prev noopener noreferrer" data-wpel-link="internal">ダイソンよりコスパの高い、Dibeaのコードレス掃除機をポチった</a></div>
+<div class="nav-next"><a href="/2018/11/20/banana-pi-bpi-m2-zero%e3%81%af%e3%80%81%e3%82%a4%e3%83%bc%e3%82%b5%e3%83%8d%e3%83%83%e3%83%88%e3%81%8c%e6%a8%99%e6%ba%96%e3%81%a7%e5%bc%95%e3%81%8d%e5%87%ba%e3%81%9b%e3%82%8b%e3%82%88%e3%81%86/" rel="next noopener noreferrer" data-wpel-link="internal">Banana Pi BPI-M2 Zeroは、イーサネットが標準で引き出せるようでキーストーンをゲットした</a></div>
 </div>
 	</nav>
 			

@@ -239,146 +239,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 						
 				
-<article id="post-697" class="post-697 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts">
-	<div class="entry-wrapper">
-
-
-
-		<header class="entry-header">
-					<span class="entry-format theme-genericon"></span>
-	
-			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2015/05/09/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e5%85%89%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%82%a2%e3%83%8a%e3%83%ad%e3%82%b0%e8%aa%ad%e3%81%bf/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-05-09T22:55:14+09:00">2015年5月9日</time></a> </span><span class="posted-on">更新日:2015年5月9日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
-<!-- .entry-meta -->
-
-							<h1 class="entry-title"><a href="/2015/05/09/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e5%85%89%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc%e3%82%a2%e3%83%8a%e3%83%ad%e3%82%b0%e8%aa%ad%e3%81%bf/" rel="bookmark noopener noreferrer" data-wpel-link="internal">ESP12単体で光センサーアナログ読み</a></h1>					</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			<p>Aliexpress経由で購入した素材で遊びました。</p>
-<p>20個で、98円の<a href="http://ja.aliexpress.com/item/HE-Practical-New-Electronic-Products-Passive-Components-20pcs-GL5528-Photo-Light-Sensitive-Red-Resistor-Photoresistor-EH/2036038880.html?isOrigTitle=true" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">GL5528<span class="wpel-icon wpel-image wpel-icon-1"></span></a>光センサーをつけてみました。</p>
-<p><img decoding="async" title="IMG_0269" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_0269" src="/wp-content/uploads/2015/05/img_02691.jpg" width="640" height="480"> </p>
-<p>20個で98円ということは、1個あたり約5円ですね。</p>
-<p><img decoding="async" title="esp12-cde_fzz_-_Fritzing_-__ブレッドボード_ビュー_" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp12-cde_fzz_-_Fritzing_-__ブレッドボード_ビュー_" src="/wp-content/uploads/2015/05/esp12cde_fzz__fritzing_____.png" width="617" height="480"> </p>
-<p>ADC にこんな感じでつけてみました。</p>
-<p>当初ADC Pinにつけても値が拾えず、抵抗値を可変で調整したらうまく値が取れました。このADC-GND間の電圧は、強い光を当てた状態で約１．１３Vくらいです。夜、電気をつけた状態で０．９８Vくらい。手で覆うと０．６Vくらいになる感じです。</p>
-<p>&#160;</p>
-<p>コードは以下のようです。エラー処理が抜けているのか、バグがあるのかわかりませんがちょっと不安定です。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- ESP8266 HTTP get webclient.
- ADC Read test.
- https://thingspeak.com/channels/37124
- Arduino-compatible IDE with ESP8266
- arduino-1.6.1-macosx-java-latest-signed.zip
- https://github.com/esp8266/Arduino
- JunkHack 2015.05.09
- */
- 
-#include &lt;ESP8266WiFi.h&gt;
- 
-const char* ssid     = &quot;JunkHack&quot;;
-const char* password = &quot;testtest&quot;;
- 
-const char* host = &quot;184.106.153.149&quot;;
-
-int WiFiConLed = 13;
-int WEBconLed = 12;
-
-void setup() {
-  pinMode(WiFiConLed, OUTPUT);
-  pinMode(WEBconLed, OUTPUT);
-  Serial.begin(115200);
-  delay(10);
- 
-  // We start by connecting to a WiFi network
- 
-  Serial.println();
-  Serial.println();
-  Serial.print(&quot;Connecting to &quot;);
-  Serial.println(ssid);
- 
-  WiFi.begin(ssid, password);
- 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(&quot;.&quot;);
-    digitalWrite(WiFiConLed, HIGH);
-    delay(400);
-    digitalWrite(WiFiConLed, LOW);
-    delay(100);
-  }
- 
-  Serial.println(&quot;&quot;);
-  Serial.println(&quot;WiFi connected&quot;);
-  Serial.println(&quot;IP address: &quot;);
-  Serial.println(WiFi.localIP());
-}
- 
-int value = 0;
-int count = 0;
-int adc = 0;
-
-void loop() {
-  delay(5000);
-  ++value;
- 
-  Serial.print(&quot;connecting to &quot;);
-  Serial.println(host);
- 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  const int httpPort = 80;
-  if (!client.connect(host, httpPort)) {
-    Serial.println(&quot;connection failed&quot;);
-    return;
-  }
-  
-  digitalWrite(WEBconLed, HIGH);
-  delay(1000);
-  count += 1;
-
-  Serial.print(&quot;ADC: &quot;);
-  adc = analogRead(A0);
-  Serial.println(adc);
- 
-  // We now create a URI for the request
-  String url = &quot;/update?key=5GPL7J7EVNB5R8GE&amp;field1=&quot;;
-  url += adc;
-  Serial.print(&quot;Requesting URL: &quot;);
-  Serial.println(url);
- 
-  // This will send the request to the server
-  client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
-               &quot;Host: &quot; + host + &quot;\r\n&quot; +
-               &quot;Connection: close\r\n\r\n&quot;);
-  delay(10);
- 
-  // Read all the lines of the reply from server and print them to Serial
-  while(client.available()){
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
-  }
- 
-  // Close connection
-  Serial.println();
-  Serial.println(&quot;closing connection&quot;);
-  digitalWrite(WEBconLed, LOW);
-}</pre>
-<p>&#160;</p>
-<p>とりあえず、こんな感じで、データが投げられています。</p>
-
-<p><a href="https://thingspeak.com/channels/37124" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="ESP12_-_ThingSpeak" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ESP12_-_ThingSpeak" src="/wp-content/uploads/2015/05/esp12__thingspeak.png" width="470" height="328"></a></p>
-					</div>
-<!-- .entry-content -->
-
-			<footer class="entry-footer">
-							
-			</footer><!-- .entry-footer -->
-		</div>
-<!-- .entry-wrapper -->
-</article><!-- #post-## -->
-
-			
-				
 <article id="post-689" class="post-689 post type-post status-publish format-standard hentry category-aliexpress category-esp8266 category-parts">
 	<div class="entry-wrapper">
 
@@ -396,9 +256,9 @@ void loop() {
 		<div class="entry-content">
 			<p>単体でWifi に接続して、データをThingSpeak に投げるテストをしてみました。</p>
 <p>&#160;</p>
-<p><img loading="lazy" decoding="async" title="IMG_0269" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_0269" src="/wp-content/uploads/2015/05/img_0269.jpg" width="640" height="480"> </p>
+<p><img decoding="async" title="IMG_0269" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMG_0269" src="/wp-content/uploads/2015/05/img_0269.jpg" width="640" height="480"> </p>
 <p>配線はこんな感じで、GPIO12 と 13 にLEDをくっ付けてみました。アクセスポイントにコネクションしたときにダブルブリンク、WEBにコネクションしているときは、点灯する感じです。</p>
-<p><img loading="lazy" decoding="async" title="スクリーンショット 2015-05-09 16.13.41" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット 2015-05-09 16.13.41" src="/wp-content/uploads/2015/05/2015050916-13-41.png" width="616" height="480"> </p>
+<p><img decoding="async" title="スクリーンショット 2015-05-09 16.13.41" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="スクリーンショット 2015-05-09 16.13.41" src="/wp-content/uploads/2015/05/2015050916-13-41.png" width="616" height="480"> </p>
 <p>まだ、センサーとかはつけていないのでカウンター値を上げてみました。</p>
 <p><a href="https://thingspeak.com/channels/37124" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="image" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="image" src="/wp-content/uploads/2015/05/image2.png" width="504" height="480"></a>ほほー、簡単ですね。</p>
 <p>&#160;</p>
@@ -812,13 +672,90 @@ void loop() {
 </article><!-- #post-## -->
 
 			
+				
+<article id="post-532" class="post-532 post type-post status-publish format-standard hentry category-aliexpress category-arduino">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/04/19/easydriver/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-04-19T02:47:41+09:00">2015年4月19日</time></a> </span><span class="posted-on">更新日:2015年4月19日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/04/19/easydriver/" rel="bookmark noopener noreferrer" data-wpel-link="internal">EasyDriver</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>1個160円くらいのEasyDriverを３つゲットして、まずは１つを半田付け。</p>
+<p><img loading="lazy" decoding="async" title="IMG_0138" style="display:inline;border-width:0;" border="0" alt="IMG_0138" src="/wp-content/uploads/2015/04/img_0138.jpg" width="640" height="480"> </p>
+<p>ブレッドボードも新調しました！ 前使ってたのが、ピンがめちゃくちゃ入りにくくて。今度のは、いいですね。挿しやすくてイライラしない。で、こんな感じに差し込んで半田付け。</p>
+<p><img loading="lazy" decoding="async" title="IMGP0825" style="display:inline;border-width:0;" border="0" alt="IMGP0825" src="/wp-content/uploads/2015/04/imgp0825.jpg" width="640" height="425"> </p>
+<p>で、ステッピングモーターを用意してなかったので、フロッピーディスクか、CD-ROMを分解してステッピングモーターを取り出すことに。</p>
+<p>&#160;</p>
+<p>Junk物色中。配線中、、、、完了。接続。、、、、うごきません。！！！</p>
+<p>&#160;</p>
+<p>寝る！</p>
+<p>&#160;</p>
+<p>・・・ 起床後、ふと見るとEasyDriver 側のLEDがついていないのを発見。電源が入っていませんでした。</p>
+<p><img loading="lazy" decoding="async" title="写真_1" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="写真_1" src="/wp-content/uploads/2015/04/1.jpg" width="640" height="480"> </p>
+<p>５Vをモータードライブ用に入れていたんですが、仕様的に、6～30Vとか書いてあるので、手持ちに8Vくらいのしかなかったので、それを印加。</p>
+<p>サンプルは、ネットで見たのをコピペ。PINのアサインは、PIN2 に Direction (正逆の回転方向)と、PIN3 にStep パルスを。</p>
+<p><img loading="lazy" decoding="async" title="写真_2" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="写真_2" src="/wp-content/uploads/2015/04/2.jpg" width="640" height="480"> </p>
+<p>ほほー、な感じです。他にもPinがあるけども、深追いせず。Sleep とか PFD とか何に使うんでしょうかね。<img loading="lazy" decoding="async" title="写真 3" style="border-top:0;border-right:0;border-bottom:0;border-left:0;display:inline;" border="0" alt="写真 3" src="/wp-content/uploads/2015/04/3.jpg" width="640" height="480"> </p>
+<p>&#160;</p>
+<pre class="brush: cpp; ruler: true; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ Junk FDD Stepper Motor Control Sample.
+ JunkHack 2015.04.19
+ */
+ 
+#include &lt;Stepper.h&gt;
+int steps;                // ステップカウンター
+int movement = 1400;            // 片道移動量 ( step 数)
+int Delay = 200;            // 遅延 ms
+int dirPin = 2;                // 回転方向出力 Pin 
+int stepPin = 3;            // ステップパルス Pin
+
+void setup() {                
+  pinMode(dirPin, OUTPUT);        // 回転方向の出力PINを指定
+  pinMode(stepPin, OUTPUT);        // ステップ出力PINを指定
+  digitalWrite(dirPin, LOW);        // PIN出力をLOWで初期化
+  digitalWrite(stepPin, LOW);        // PIN出力をLOWで初期化
+  steps = 1;                // ステップカウンターを初期化
+}
+
+void loop() {
+  if ( steps &lt; movement ) {        // 移動量を超えてなければ
+      digitalWrite(dirPin, HIGH);    // 回転方向出力PIN は HIGH (5V)
+  } 
+  if ( steps &gt; movement  ) {    // 移動量を超えたら
+      digitalWrite(dirPin, LOW);    //  回転方向出力PIN を LOW (0V)
+  }
+  digitalWrite(stepPin, HIGH);        // ステップ出力 PIN を HIGH (5V)
+  delayMicroseconds(Delay);        // 遅延
+  digitalWrite(stepPin, LOW);        // ステップ出力 PIN を LOW (0V)
+  delayMicroseconds(Delay);        // 遅延
+  steps += 1;                // ステップカウンターを +1加算
+  if ( steps &gt; movement * 2 ) {    // 往復したら
+     steps = 1;                        // ステップカウンターリセット
+  }
+}</pre>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
 			
 	<nav class="navigation posts-navigation" aria-label="投稿">
 		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
-		<div class="nav-links">
-<div class="nav-previous"><a href="/category/aliexpress/page/21/" data-wpel-link="internal" rel="noopener noreferrer">過去の投稿</a></div>
-<div class="nav-next"><a href="/category/aliexpress/page/19/" data-wpel-link="internal" rel="noopener noreferrer">新しい投稿</a></div>
-</div>
+		<div class="nav-links"><div class="nav-next"><a href="/category/aliexpress/page/19/" data-wpel-link="internal" rel="noopener noreferrer">新しい投稿</a></div></div>
 	</nav>
 		
 		</main><!-- #main -->

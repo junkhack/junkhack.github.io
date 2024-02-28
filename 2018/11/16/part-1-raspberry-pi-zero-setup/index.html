@@ -32,7 +32,7 @@
 }</script>
 
 
-<title>ダイソンよりコスパの高い、Dibeaのコードレス掃除機をポチった &#8211; JunkHack</title>
+<title>Raspberry Pi Zero セットアップ１ &#8211; JunkHack</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -64,13 +64,13 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.4.3" id="mouse-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/4766">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/4759">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.4.3">
-<link rel="canonical" href="/2018/11/16/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%b3%e3%82%88%e3%82%8a%e3%82%b3%e3%82%b9%e3%83%91%e3%81%ae%e9%ab%98%e3%81%84%e3%80%81dibea%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%89%e3%83%ac%e3%82%b9%e6%8e%83%e9%99%a4/">
-<link rel="shortlink" href="/?p=4766">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F16%2F%25e3%2583%2580%25e3%2582%25a4%25e3%2582%25bd%25e3%2583%25b3%25e3%2582%2588%25e3%2582%258a%25e3%2582%25b3%25e3%2582%25b9%25e3%2583%2591%25e3%2581%25ae%25e9%25ab%2598%25e3%2581%2584%25e3%2580%2581dibea%25e3%2581%25ae%25e3%2582%25b3%25e3%2583%25bc%25e3%2583%2589%25e3%2583%25ac%25e3%2582%25b9%25e6%258e%2583%25e9%2599%25a4%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F16%2F%25e3%2583%2580%25e3%2582%25a4%25e3%2582%25bd%25e3%2583%25b3%25e3%2582%2588%25e3%2582%258a%25e3%2582%25b3%25e3%2582%25b9%25e3%2583%2591%25e3%2581%25ae%25e9%25ab%2598%25e3%2581%2584%25e3%2580%2581dibea%25e3%2581%25ae%25e3%2582%25b3%25e3%2583%25bc%25e3%2583%2589%25e3%2583%25ac%25e3%2582%25b9%25e6%258e%2583%25e9%2599%25a4%2F#038;format=xml">
+<link rel="canonical" href="/2018/11/16/part-1-raspberry-pi-zero-setup/">
+<link rel="shortlink" href="/?p=4759">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F16%2Fpart-1-raspberry-pi-zero-setup%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2018%2F11%2F16%2Fpart-1-raspberry-pi-zero-setup%2F#038;format=xml">
 		<style>.algolia-search-highlight {
 				background-color: #fffbcc;
 				border-radius: 2px;
@@ -79,7 +79,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
 }</style>
-<style id="uagb-style-frontend-4766">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<style id="uagb-style-frontend-4759">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
@@ -92,7 +92,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
   gtag('js', new Date());
 
   gtag('config', 'UA-161935417-3');</script>
-<body class="post-template-default single single-post postid-4766 single-format-standard wp-custom-logo has-sidebar has-header-image">
+<body class="post-template-default single single-post postid-4759 single-format-standard wp-custom-logo has-sidebar has-header-image">
 <div id="page" class="hfeed site">
 		<div id="widgets-wrapper" class="hide">
 		
@@ -145,7 +145,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		
 			
-<article id="post-4766" class="post-4766 post type-post status-publish format-standard hentry category-aliexpress">
+<article id="post-4759" class="post-4759 post type-post status-publish format-standard has-post-thumbnail hentry category-raspberry-pi">
 	<div class="entry-wrapper">
 
 
@@ -154,32 +154,51 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<span class="entry-format theme-genericon"></span>
 	
 			<div class="entry-meta">
-				<span class="posted-on">投稿日: <a href="/2018/11/16/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%b3%e3%82%88%e3%82%8a%e3%82%b3%e3%82%b9%e3%83%91%e3%81%ae%e9%ab%98%e3%81%84%e3%80%81dibea%e3%81%ae%e3%82%b3%e3%83%bc%e3%83%89%e3%83%ac%e3%82%b9%e6%8e%83%e9%99%a4/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2018-11-16T17:02:36+09:00">2018年11月16日</time></a> </span><span class="posted-on">更新日:2018年11月16日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a></span>			</div>
+				<span class="posted-on">投稿日: <a href="/2018/11/16/part-1-raspberry-pi-zero-setup/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2018-11-16T05:40:51+09:00">2018年11月16日</time><time class="updated" datetime="2024-02-25T16:40:15+09:00">2024年2月25日</time></a> </span><span class="posted-on">更新日:2024年2月25日</span> <span class="categories">  <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
 <!-- .entry-meta -->
 
 							<div class="flex">
-									
-				<h1 class="entry-title">ダイソンよりコスパの高い、Dibeaのコードレス掃除機をポチった</h1>
+					<img width="800" height="380" src="/wp-content/uploads/2018/11/etcher_e28093_7__flashing.png" class="attachment-full size-full wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/2018/11/etcher_e28093_7__flashing.png 800w, /wp-content/uploads/2018/11/etcher_e28093_7__flashing-768x365.png 768w" sizes="(max-width: 800px) 100vw, 800px">				
+				<h1 class="entry-title">Raspberry Pi Zero セットアップ１</h1>
 				</div>
 					</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			<p>そろそろ年末の大掃除季節です。掃除しなくちゃですね。</p>
-<p>一人暮らしの部屋で、半年以上コロコロで掃除してたんですがそろそろ吸える掃除機がほしいなと、物色。自転車を中に入れてメンテナンスするので砂とかコロコロでは掃除しきれないんですよね。</p>
-<p>自宅では、Dibea の C17 という型番のを使っています。それを後継バージョンでしょうか、D18 という型番のがありました。</p>
-<p><img decoding="async" class="alignnone size-full wp-image-4767" src="/wp-content/uploads/2018/11/dibea_d18_protable_2_in_1_handheld_wireless_vacuum_cleaner_cyclone_filter_8500_pa_strong_suction_dust_collector_aspirator-in_vacuum_cleaners_from_home_appliances_on_aliexpress_com___alib.png" alt="Dibea_D18_Protable_2_In_1_Handheld_Wireless_Vacuum_Cleaner_Cyclone_Filter_8500_Pa_Strong_Suction_Dust_Collector_Aspirator-in_Vacuum_Cleaners_from_Home_Appliances_on_Aliexpress_com___Alibaba_Group.png" width="1182" height="527"></p>
-<p>C17 というのはこれ。</p>
-<p><img decoding="async" class="alignnone size-full wp-image-4768" src="/wp-content/uploads/2018/11/aliexpress_com___buy_dibea_c17_portable_2_in1_handheld_wireless_vacuum_cleaner_dust_collector_household_aspirator_with_docking_station_sweeper_from_reliable_wireless_vacuum_suppliers_on_.png" alt="Aliexpress_com___Buy_Dibea_C17_Portable_2_In1_Handheld_Wireless_Vacuum_Cleaner_Dust_Collector_Household_Aspirator_With_Docking_Station_Sweeper_from_Reliable_wireless_vacuum_suppliers_on_Dibea_Official_Store.png" width="1164" height="520"></p>
-<p>どちらも、モーターヘッドが付いていて先端の部分はモーターでブラシが回る仕組みです。C17のは一回、本体側を全部バラしてみたんですが直流のCLASS 120 90Wモーターが付いていました。この時ばらしたのは、半田付け不良でメインモーターが回らず数秒で電源が切れるという現象でした。バラしたら、モーター側の半田不良で接続が取れていました。赤いプラス線の端子の半田ががっつり取れてました。まぁ、こういうところは中国製ですね。ただ、分解しやすいのでそのあたり、この掃除機は良いです。ダイソンのはバラしにくいです。<a href="https://mysku.ru/blog/china-stores/60516.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">C17 のもっと詳細はここが詳しい<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。</p>
-
-<p>で、外観から見える違いはホースの色が赤かゴールドかというあたりと、他のスペックはほぼ同じです。吸引力は今回買ったD18 のほうが数値は高いようですが、まぁ誤差の範囲かと。</p>
-<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4772" src="/wp-content/uploads/2018/11/detachable_electric_dust_mites_suction_head_vacuum_cleaner_attachment_for_dibea_d18-in_vacuum_cleaners_from_home_appliances_on_aliexpress_com___alibaba_group.png" alt="Detachable_Electric_Dust_Mites_Suction_Head_Vacuum_Cleaner_Attachment_for_Dibea_D18-in_Vacuum_Cleaners_from_Home_Appliances_on_Aliexpress_com___Alibaba_Group.png" width="1185" height="462"></p>
-<p>あと、11/11 の時とほとんど値段は変わりません。送料無料です。この布団やベットをクリーニングするモーターヘッドも安かったのでゲットしておきました。左側にモーターが入っています。2000回転で回るようです。</p>
-<p>ダイソンの掃除機のほうが流体力学というかサイクロンの流れが計算されていてより強いイメージはありますが、値段が倍以上違うのでこれで満足しています。Dibea っていうメーカーはパーツも別売りしていますので、長期的に見て部分的に交換することも可能なんで良いかなと。</p>
-<p>改造ポイントとしては、モーターをラジコン用のブラシレス三相に買えて、より高トルク・高回転数にするっていうのも面白いかもしれません。4370KVを22Vで回せば、96140rpm くらいになりそうです。定格は、12V なんですぐぶっ壊れそうですが。理論値ダイソンのモーターは11万回転くらいするようですしね。サイクロン式ってのはトルクより高回転数が有利なんでしょうかね。吸引力なんでトルクも大事なんじゃないかと思いますが。5マン回転くらいでもええんじゃないでしょうかね。</p>
-<p>気になりますね。（笑）</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+			<p>ちょこっと時間が出来たので、Raspberry Pi Zeroをセットアップ。<br>
+セットアップは大きく２つ方法があります。</p>
+<p>（１）USBを母艦に繋げてSDカードに展開しセットアップする方法<br>
+＞WiFi設定など入れれるのでモニタなしでも可能<br>
+（２）SDカードにimg を展開。hdmi モニタやキーボード使って、boot する<br>
+＞モニタやキーボードなど繋げる必要あり</p>
+<p>とりあえず、HDMI出力もされるか確認したかったので（２）の方法でやることに。<br>
+SDカードに書き込むのは、コマンドライン、ツールを使う方法がありますが、マカーなのでGUIツールのEtcherを使って書き込み。</p>
+<blockquote>
+<p class="p1"><span class="s1">.<br>
+</span><span class="s1">├── <span style="color:#ff0000;"><strong>2018-10-09-raspbian-stretch-lite</strong></span>.zip<br>
+</span><span class="s1">└── 2018-10-09-raspbian-stretch.zip</span></p>
+</blockquote>
+<p>GUIがない、lite ってやつから遊んでみることにします。<br>
+<img decoding="async" class="alignnone size-full wp-image-4762" src="/wp-content/uploads/2018/11/etcher_e28093_7__flashing.png" alt="Etcher_–_7__Flashing.png" width="800" height="380"></p>
+<p>ツールを使うとdisk を間違えなくていいですね。書き込むと、fatの boot領域とlinux の領域が最低限で作られます。</p>
+<blockquote><p>$ diskutil list | grep -A5 external<br>
+/dev/disk2 (external, physical):<br>
+#: TYPE NAME SIZE IDENTIFIER<br>
+0: FDisk_partition_scheme *16.0 GB disk2<br>
+1: Windows_FAT_32 boot 45.9 MB disk2s1<br>
+2: Linux 1.8 GB disk2s2</p></blockquote>
+<p>電源のUSB は外側です。内側のUSBは母艦に繋げてUSB 接続し、SDカードをマウントできるようです。次回試して見ましょう。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4760" src="/wp-content/uploads/2018/11/s20181116_001.jpg" alt="S20181116_001.jpg" width="1600" height="1200"></p>
+<p>ここで、キーボードがMicroUSB なんで繋げない事に気がついた・・・・OTGケーブルを調達することに。</p>
+<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-4761" src="/wp-content/uploads/2018/11/amazonusb.png" alt="amazonusb.png" width="908" height="383"></p>
+<p>microUSB を分解して繋げればいいんですが、ま１つくらいあってもいいかと変換ケーブルを発注。時間もなくなってきたようなんで、また土日にセットアップすることに。</p>
+<p>とりあえず、HDMI出力し無事bootしたのを確認したところまで。</p>
+<p>一応、Fedora も入れてみたかったのでimg を用意しておきました。</p>
+<blockquote><p>.<br>
+├── Fedora-LXDE-armhfp-29-1.2-sda.raw.xz<br>
+├── Fedora-Server-armhfp-29-1.2-sda.raw.xz<br>
+├── Fedora-Workstation-armhfp-29-1.2-sda.raw.xz<br>
+└── Fedora-Xfce-armhfp-29-1.2-sda.raw.xz</p></blockquote>
+<p>kernel モジュールなど、どのくらいFedoraで動くかなど、あれこれ、検討してみたいと思います。</p>
 <p>&nbsp;</p>
 					</div>
 <!-- .entry-content -->
@@ -195,8 +214,8 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 	<nav class="navigation post-navigation" aria-label="投稿">
 		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
 		<div class="nav-links">
-<div class="nav-previous"><a href="/2018/11/16/raspberry-pi-zero-%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%ef%bc%91/" rel="prev noopener noreferrer" data-wpel-link="internal">Raspberry Pi Zero セットアップ１</a></div>
-<div class="nav-next"><a href="/2018/11/19/raspberry-pi-zero-%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%972/" rel="next noopener noreferrer" data-wpel-link="internal">Raspberry Pi Zero セットアップ2</a></div>
+<div class="nav-previous"><a href="/2018/11/12/11-11%e3%82%bb%e3%83%bc%e3%83%ab%e3%81%a7%e3%83%9d%e3%83%81%e3%81%a3%e3%81%9f%e3%82%82%e3%81%ae/" rel="prev noopener noreferrer" data-wpel-link="internal">11/11セールでポチったもの</a></div>
+<div class="nav-next"><a href="/2018/11/16/dibea-cordless-cleaning-higher-cospa-than-dyson/" rel="next noopener noreferrer" data-wpel-link="internal">ダイソンよりコスパの高い、Dibeaのコードレス掃除機をポチった</a></div>
 </div>
 	</nav>
 			
