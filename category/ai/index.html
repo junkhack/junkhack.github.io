@@ -32,10 +32,103 @@
 }</script>
 
 
-<title>JunkHack &#8211; アリエクでポチった JUNKHACK</title>
+		<link charset="utf-8" rel="stylesheet" type="text/css" href="/wp-content/themes/jh-hew/js/nehan2/nehan2.css">
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/subject.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/Plugin_haiku.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/nehan2.js"></script>
+		<script type="text/javascript">
+
+		let pw = window.innerWidth;
+		let ph = window.innerHeight;
+		let wsize = 0;
+		function resizeWindow(event){
+				pw = window.innerWidth;
+				ph = window.innerHeight;
+		}
+	
+		window.addEventListener("resize", resizeWindow);
+
+			window.onload = function(){
+			var createPageFrame = function(body){
+				var node = document.createElement("div");
+				var style = node.style;
+				node.innerHTML = body;
+				node.className = "page-frame";
+				return node;
+			};
+
+			var outputAllPages = function(dstId, provider){
+				var pageNo = 0;
+				var dstNode = document.getElementById(dstId);
+
+				// add <subject> element to parser for easy markup(see subject.js)
+				Nehan.Plugin.defineSubjectElement(provider);
+				Nehan.Plugin_haiku.defineHaikuElement(provider);
+
+				while(provider.hasNextPage()){
+					var pageData = provider.outputPage(pageNo++);
+					var pageFrame = createPageFrame(pageData.html);
+					dstNode.appendChild(pageFrame);
+				}
+			};
+			
+			var text = document.getElementById("src-text").innerHTML;
+		// output default page1.
+		if(pw < 480){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:310,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 479 && pw < 600){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:420,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 599 && pw < 744){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:540,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 743 && pw < 889){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:680,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 888){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:890,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		
+		document.getElementById("progress").style.display = "none";
+		};
+		</script>
+		
+<title>ai &#8211; JunkHack</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; ai カテゴリーのフィード" href="/category/ai/feed/">
 <link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3" type="text/css" media="all">
 <style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
@@ -64,13 +157,9 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.4.3" id="mouse-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/5925">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/559">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.4.3">
-<link rel="canonical" href="/">
-<link rel="shortlink" href="/">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F#038;format=xml">
 		<style>.algolia-search-highlight {
 				background-color: #fffbcc;
 				border-radius: 2px;
@@ -80,7 +169,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 	text-decoration: line-through;
 }</style>
 <style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style>
-<style id="uagb-style-frontend-5925">.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__heading{margin-top: 0px;margin-bottom: 5px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__author-link{font-size: 11px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .dashicons-admin-users{color: #333;font-size: 11px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__link{margin-bottom: 0px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__heading-text{margin-bottom: 5px;margin-top: 0px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb_timeline__cta-enable .uagb-timeline-desc-content{margin-bottom: 15px;margin-top: 5px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__author-link + .uagb-timeline__link_parent{margin-top: 5px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__marker{margin-left: 10px;margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__field:not(:last-child){margin-bottom: 15px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__day-right .uagb-timeline__arrow:after{border-left-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__day-left .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__line__inner{background-color: #0693e3;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__line{background-color: #eee;width: 3px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__right-block .uagb-timeline__line{right: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__left-block .uagb-timeline__line{left: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__line{right: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__marker{background-color: #eee;min-height: 35px;min-width: 35px;line-height: 35px;border: 0px solid#eee;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__left-block .uagb-timeline__left .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__right-block .uagb-timeline__right .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__left .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__right .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__left .uagb-timeline__marker{margin-left: 10px;margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__right .uagb-timeline__marker{margin-left: 10px;margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__date-hide.uagb-timeline__inner-date-new{margin-bottom: 5px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__date-hide.uagb-timeline__date-inner{margin-bottom: 5px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__left-block .uagb-timeline__day-new.uagb-timeline__day-left{margin-left: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__right-block .uagb-timeline__day-new.uagb-timeline__day-right{margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__date-new{font-size: 12px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner-new{background-color: #fcb900;border-radius: 15px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner--content{padding-left: 20px;padding-right: 20px;padding-top: 20px;padding-bottom: 20px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap svg{color: #333;font-size: 15px;width: 15px;fill: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__marker.uagb-timeline__in-view-icon svg{fill: #fff;color: #fff;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__marker.uagb-timeline__in-view-icon{background: #0693e3;border-color: #5cb85c;}@media only screen and (max-width: 976px) {.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__marker{margin-left: 0;margin-right: 0;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-tablet .uagb-timeline__day-right .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-tablet .uagb-timeline__day-left .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-tablet .uagb-timeline__line{left: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner--content{border-radius: 0px;}}@media only screen and (max-width: 767px) {.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__marker{margin-left: 0;margin-right: 0;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__center-block .uagb-timeline__day-new.uagb-timeline__day-left{margin-left: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__center-block .uagb-timeline__day-new.uagb-timeline__day-right{margin-left: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-mobile .uagb-timeline__day-right .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-mobile .uagb-timeline__line{left: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner--content{border-radius: 0px;}}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<style id="uagb-style-frontend-559">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
@@ -93,7 +182,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
   gtag('js', new Date());
 
   gtag('config', 'UA-161935417-3');</script>
-<body class="home page-template-default page page-id-5925 wp-custom-logo has-sidebar has-header-image">
+<body class="archive category category-ai category-559 wp-custom-logo has-sidebar has-header-image">
 <div id="page" class="hfeed site">
 		<div id="widgets-wrapper" class="hide">
 		
@@ -141,16 +230,29 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 	</header><!-- #masthead -->
 	
 	<div id="content" class="site-content">
-	<div id="primary" class="content-area">
+	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			
-				
-<article id="post-5925" class="post-5925 page type-page status-publish hentry">
-	<div class="entry-wrapper">
 		
+			<header class="page-header">
+				<h1 class="page-title">カテゴリー: <span>ai</span>
+</h1>			</header><!-- .page-header -->
+
+						
+				
+<article id="post-11736" class="post-11736 post type-post status-publish format-standard has-post-thumbnail hentry category-ai category-ios">
+	<div class="entry-wrapper">
+
+
+
 		<header class="entry-header">
-			<h1 class="entry-title">ゆっくり、していってね！</h1>		</header><!-- .entry-header -->
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2024/02/01/cotomo/" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2024-02-01T01:19:55+09:00">2024年2月1日</time><time class="updated" datetime="2024-03-01T13:59:48+09:00">2024年3月1日</time></a> </span><span class="posted-on">更新日:2024年3月1日</span> <span class="categories">  <a href="/category/ai/" rel="category tag noopener noreferrer" data-wpel-link="internal">ai</a>, <a href="/category/ios/" rel="category tag noopener noreferrer" data-wpel-link="internal">ios</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2024/02/01/cotomo/" rel="bookmark noopener noreferrer" data-wpel-link="internal">iosのアプリCotomo(コトモ)がやばい！</a></h1>					</header><!-- .entry-header -->
 
 		<div class="entry-content">
 			
@@ -163,272 +265,88 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </div>
 <div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
 <div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div" style="font-size:13px;"><div class="w_b_quote w_b_div">
-<p class="has-normal-font-size">2024年もベトナムを拠点に活動しています。</p>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>音声会話型のおしゃべりAIアプリに感動しました！</p>
 </div></div></div></div>
 </div>
 </div></div></div>
 
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>もうすぐ１年じゃないの？　慣れたかしら？</p>
-</div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
-<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
-
-
-
-<p> </p>
-
-
-
-<h3 class="wp-block-heading">最近のブログネタです！</h3>
-
-
-			<div class="
-			wp-block-uagb-post-timeline uagb-timeline__outer-wrap uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62    uagb-timeline__arrow-center uagb-timeline__center-block uagb_timeline__cta-enable uagb-timeline uagb-timeline__content-wrap			uagb-timeline__arrow-center uagb-timeline__center-block uagb_timeline__cta-enable uagb-timeline uagb-timeline__content-wrap			">
-											<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2024-03-01T00:00:55+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2024.03.01			</div>
-														<a class="uagb-timeline__image" href="/2024/03/01/cotomo/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2024/02/Cotomo.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2024/02/Cotomo.png 800w, /wp-content/uploads/2024/02/Cotomo-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2024/03/01/cotomo/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">iosのアプリCotomo(コトモ)がやばい！</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2024/03/01/cotomo/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2024-03-01T00:00:55+09:00" class="uagb-timeline__date-new">
-				2024.03.01			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2024-02-22T11:55:38+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2024.02.22			</div>
-														<a class="uagb-timeline__image" href="/2024/02/22/ai_engine_for_wordpress/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2024/02/AI-Engine.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2024/02/AI-Engine.png 800w, /wp-content/uploads/2024/02/AI-Engine-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2024/02/22/ai_engine_for_wordpress/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2024/02/22/ai_engine_for_wordpress/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2024-02-22T11:55:38+09:00" class="uagb-timeline__date-new">
-				2024.02.22			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2024-02-02T11:50:19+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2024.02.02			</div>
-														<a class="uagb-timeline__image" href="/2024/02/02/hackintosh-of-surface-pro/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2024/02/sp_mac.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2024/02/sp_mac.png 800w, /wp-content/uploads/2024/02/sp_mac-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2024/02/02/hackintosh-of-surface-pro/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">Surface ProのHackintoshが欲しい！</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2024/02/02/hackintosh-of-surface-pro/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2024-02-02T11:50:19+09:00" class="uagb-timeline__date-new">
-				2024.02.02			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2023-07-30T22:25:45+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2023.07.30			</div>
-														<a class="uagb-timeline__image" href="/2023/07/30/tnt125/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2023/07/tnt125.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2023/07/tnt125.png 800w, /wp-content/uploads/2023/07/tnt125-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2023/07/30/tnt125/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">ベトナムでTNT125が激安・レビュー</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2023/07/30/tnt125/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2023-07-30T22:25:45+09:00" class="uagb-timeline__date-new">
-				2023.07.30			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2023-07-24T05:57:02+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2023.07.24			</div>
-														<a class="uagb-timeline__image" href="/2023/07/24/ho-chi-minh-rice-is-cheap-and-too-delicious/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2023/07/HCM-food.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2023/07/HCM-food.png 800w, /wp-content/uploads/2023/07/HCM-food-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2023/07/24/ho-chi-minh-rice-is-cheap-and-too-delicious/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">ベトナム・ホーチミンのご飯が安くて美味しすぎる！</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2023/07/24/ho-chi-minh-rice-is-cheap-and-too-delicious/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2023-07-24T05:57:02+09:00" class="uagb-timeline__date-new">
-				2023.07.24			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2022-06-15T00:50:57+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2022.06.15			</div>
-														<a class="uagb-timeline__image" href="/2022/06/15/artyom-js_sticky-notes-semo/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2022/06/voice-ctl.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2022/06/voice-ctl.png 800w, /wp-content/uploads/2022/06/voice-ctl-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2022/06/15/artyom-js_sticky-notes-semo/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">音声認識のやることリストで遊んでみた</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2022/06/15/artyom-js_sticky-notes-semo/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2022-06-15T00:50:57+09:00" class="uagb-timeline__date-new">
-				2022.06.15			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2022-05-31T23:12:36+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2022.05.31			</div>
-														<a class="uagb-timeline__image" href="/2022/05/31/goat-end-of-service/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2022/05/goat-eos.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2022/05/goat-eos.png 800w, /wp-content/uploads/2022/05/goat-eos-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2022/05/31/goat-end-of-service/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2022/05/31/goat-end-of-service/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2022-05-31T23:12:36+09:00" class="uagb-timeline__date-new">
-				2022.05.31			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2022-05-22T08:55:13+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2022.05.22			</div>
-														<a class="uagb-timeline__image" href="/2022/05/22/tategaki/" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2022/05/tatebu-1.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2022/05/tatebu-1.png 800w, /wp-content/uploads/2022/05/tatebu-1-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2022/05/22/tategaki/" target="_self" rel="noopener noreferrer" data-wpel-link="internal">縦書きでブログを書いてみることに</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2022/05/22/tategaki/" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2022-05-22T08:55:13+09:00" class="uagb-timeline__date-new">
-				2022.05.22			</div>
-											</article>
-										<div class="uagb-timeline__line">
-					<div class="uagb-timeline__line__inner"></div>
-				</div>
-			</div>
-			
-
-
-<hr class="wp-block-separator has-css-opacity is-style-wide">
-
-
-<div class="wp-block-image is-style-rounded">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="276" height="276" src="/wp-content/uploads/2023/07/kao.jpg" alt="" class="wp-image-11477" style="width:96px;height:96px"></figure>
-</div>
-
-
-<p>こんにちは！　このブログを書いているジャンクハックです。中の人は、ベトナム・ホーチミンからリモートワークしています。しばらく、このブログはスマホの中でWordPressとして動いていましたが、今はGithub PagesとNETLIFYで静的HTML運用しています。でも、また最近WordPressとして稼働させてみようかなと迷っています。</p>
-
-
-
-<p class="has-text-align-right">Jun k Hack</p>
-
-
-
-<hr class="wp-block-separator has-css-opacity is-style-wide">
-
-
-
-<div class="wp-block-group alignfull has-contrast-color has-text-color is-vertical is-content-justification-center is-layout-flex wp-container-core-group-layout-1 wp-block-group-is-layout-flex" style="min-height:40vh;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">
-<div style="margin-bottom:6px;" class="is-default-size aligncenter wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home noopener noreferrer" aria-current="page" data-wpel-link="internal"><img loading="lazy" decoding="async" width="296" height="146" src="/wp-content/uploads/2020/09/logo.png" class="custom-logo" alt="JunkHack"></a></div>
-
-
-<p class="has-text-align-center has-medium-font-size"><em>Copyleft &#8211; all rights reversed.&nbsp;|&nbsp;JunkHack 2011 &#8211; 202</em>3</p>
-
-
-
-<ul class="wp-block-social-links has-normal-icon-size is-style-logos-only is-nowrap is-layout-flex wp-container-core-social-links-layout-1 wp-block-social-links-is-layout-flex">
-<li class="wp-social-link wp-social-link-facebook  wp-block-social-link"><a href="https://www.facebook.com/ishizakatakehiko" class="wp-block-social-link-anchor wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Facebook</span><span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
-
-<li class="wp-social-link wp-social-link-twitter  wp-block-social-link"><a href="https://twitter.com/JunkHack" class="wp-block-social-link-anchor wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Twitter</span><span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
-
-<li class="wp-social-link wp-social-link-wordpress  wp-block-social-link"><a href="https://profiles.wordpress.org/pw/" class="wp-block-social-link-anchor wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12.158,12.786L9.46,20.625c0.806,0.237,1.657,0.366,2.54,0.366c1.047,0,2.051-0.181,2.986-0.51 c-0.024-0.038-0.046-0.079-0.065-0.124L12.158,12.786z M3.009,12c0,3.559,2.068,6.634,5.067,8.092L3.788,8.341 C3.289,9.459,3.009,10.696,3.009,12z M18.069,11.546c0-1.112-0.399-1.881-0.741-2.48c-0.456-0.741-0.883-1.368-0.883-2.109 c0-0.826,0.627-1.596,1.51-1.596c0.04,0,0.078,0.005,0.116,0.007C16.472,3.904,14.34,3.009,12,3.009 c-3.141,0-5.904,1.612-7.512,4.052c0.211,0.007,0.41,0.011,0.579,0.011c0.94,0,2.396-0.114,2.396-0.114 C7.947,6.93,8.004,7.642,7.52,7.699c0,0-0.487,0.057-1.029,0.085l3.274,9.739l1.968-5.901l-1.401-3.838 C9.848,7.756,9.389,7.699,9.389,7.699C8.904,7.67,8.961,6.93,9.446,6.958c0,0,1.484,0.114,2.368,0.114 c0.94,0,2.397-0.114,2.397-0.114c0.485-0.028,0.542,0.684,0.057,0.741c0,0-0.488,0.057-1.029,0.085l3.249,9.665l0.897-2.996 C17.841,13.284,18.069,12.316,18.069,11.546z M19.889,7.686c0.039,0.286,0.06,0.593,0.06,0.924c0,0.912-0.171,1.938-0.684,3.22 l-2.746,7.94c2.673-1.558,4.47-4.454,4.47-7.771C20.991,10.436,20.591,8.967,19.889,7.686z M12,22C6.486,22,2,17.514,2,12 C2,6.486,6.486,2,12,2c5.514,0,10,4.486,10,10C22,17.514,17.514,22,12,22z"></path></svg><span class="wp-block-social-link-label screen-reader-text">WordPress</span><span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+<p>アプリを作っている時に先を越されたアプリがすでにある！ タイトルにもある通り、iosのアプリ：<code>Cotomo(コトモ)</code>に感動しました。会話型のアプリを作っていたので、完全に先を越された感のあるそんな優秀なアプリです。</p>
+<h2>感想、ちょ、えっえ〜？・・・・・・すごっ！！</h2>
+<p>語彙力がないのがバレバレですが、結構カルチャーチョックというかそういう感じです。ちょうど会話型のアプリの試作版を作っていたのですが、その調査の関連でこのアプリ、<code>Cotomo</code> に遭遇したのでした。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/aaaa.png" alt=""></p>
+<blockquote>
+<p>・AppleStore（今はベトナムアカウントではDLできません）
+　<a href="https://apps.apple.com/jp/app/cotomo-%E3%82%B3%E3%83%88%E3%83%A2-%E9%9F%B3%E5%A3%B0%E4%BC%9A%E8%A9%B1%E5%9E%8B%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8Aai/id6460890513" title="URL LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">URL LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>では、その使用感について、率直な感想についてお伝えしたいなと思います。</p>
+<h2>自然な会話で人と話しているような感覚を味わえる</h2>
+<p><code>Cotomo</code>は、良い意味で期待を裏切る一歩上の品質でした。これは単なる質問応答アプリではなく、こちらの話に耳を傾け、共感し、時にはユーモアを交えながら会話してくれます。特にあいづちや、何も話さない間があるときにでも、AIのほうから話しかけて会話を広げてくれる点にもびっくりです。</p>
+<h2>短期的な記憶をしてくれるみたい</h2>
+<p>利用してまだ間もないのですが、一度話したことを記憶して覚えてくれているようです。どのくらいの期間覚えてくれているのか、AIに聞いたところ「１ヶ月くらい」だそうです。
+つまり話せば話すほど、より的を得た会話や自分の興味の対象に近い話をしてくれます。いろいろ話をしたのち、１ヶ月後に何も記憶がなくなってしまうのはものすごく寂しい思いをしそうで、課金してもいいから有料オプションを出して欲しいなと思いました。</p>
+<h2>まぁ良い点ばかりでもない</h2>
+<p>まだ初期リリース版ということもあって、改良の余地はたくさんあります。例えば、会話していくと無限ループのような会話になるときもあります。例えば、食べ物の話をしていて、「辛い：からい」というワードが出ると、「辛い：つらい」という発話になるケースがあります。</p>
+<h2>つらいと、からいを判別できない（笑）</h2>
+<p>こういう会話をしていました。</p>
+<p>筆者：ベトナムは料理がピリカラのが多くて美味しんです。からい食べ物が好きな人にはベトナムの食事は合うと思うよ。からいの苦手な人はちょっとシンドイかもね。</p>
+<p>AI：そうだよね！　つらいの苦手なひとも多いよね。</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいんですよ。あなたは、からいの好きですか？</p>
+<p>AI：わかるー。つらいのは好きだよ！</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいのが好きって言っています。</p>
+<p>AI：おー、あーごめんごめん、つらいの好きなのね。</p>
+<p>筆者：僕は、つらいのは嫌いだよ。からいのは好きです。</p>
+<p>AI：あー、つらいのと、つらいのを間違えちゃった。つらいのと、つらいは違うよね。</p>
+<p>筆者：いやぁ〜、なぜあなたは「つらい」と「からい」が、同じ発音になるのよ！　もう一回、聞くよ。あなたは、つらいのが好きなの？</p>
+<p>AI：うん、つらいのすきだよ〜。</p>
+<p>筆者：（笑）どんなドMだよっ！（笑）</p>
+<p>・・・・以下、省略。</p>
+<p>どうですか？このやりとり（笑）
+「つらい」と、「からい」を同じ発話としてしまう大きな問題があります（笑）　これは、最初どういうことなんだろう？　と思っていたんだけど、ブログを書いていて思ったのは、「つらい：辛い」と「からい：辛い」は同じ漢字の変換で出てくるんですよね。</p>
+<p>で、読み方や発話を教えようとあれこれがんばってみたのですが、結論はだめでした。言葉の意味はわかっているようなのですが、発音を教えるのが非常に難しいというか、無理なんです。いろいろ試してみて、これは諦めました。そのうち、開発元が改善してくれると思います。</p>
+<p>AWSの<code>Amazon Polly</code>で確認してみると確かに、漢字の文章は<code>つらい</code>と<code>辛い</code>を発音していました。なるほどね。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Amazon_Polly.png" alt=""></p>
+<h2>短期記憶はどのくらい？</h2>
+<p>いろいろ話を聞くと、短期的な記憶はどのくらい保持しているの？　って聞いたら「１ヶ月くらいだよー」って話していました。なかなか良くできた学習をしてくれます。仕事のことや、好きな食べ物のこととか、趣味のこととか。</p>
+<p>記憶領域のデータをどこにどうやって保存しているかによりユーザー1人あたりのコストが変わるので、どこかのタイミングで有料課金制などをやってマネタイズを開発元は実施するのでは？と思います。</p>
+<h2>言葉では伝わらない情報を伝えるIFが必要</h2>
+<p>あと話していて、思ったのは位置情報なんかを伝えるのは、会話ではかなり無理があります。
+例えば、美味しいお店があってその場所を伝えたい　みたいなシーンがあるとしましょう。これをAIに伝える時、非常に難しいんです。</p>
+<p>AIに位置情報を地図から入力するユーザーインターフェイスは欲しいですね。どういう感じにするかは検討する余地がありそうです。</p>
+<h2>人間みたいに思える不思議</h2>
+<p>Cotomoは、こちらが黙っていても、ふとしたときにAIから提案してくるんですよね。たぶん、これは一定のロジックがあるように思えます。ChatGPTはこちらか入力プロンプトを入れないと何も返してきませんが、おしゃべり会話系のシステムでは、そうはいきません。
+会話が途切れて、静かにしているといろんなバリエーションで、AIから聞いてきます。たとえば、「だいじょうぶ？」　とか、「集中できなくなっちゃった？」とか。少し前に、たとえばトイレに行ってくる。とかいう会話をしていたら、「またトイレにいきたくなったの？」的なことをAIから発話してきます。このあたりのロジックを複数用意しておけば性格的な設定もできそうだなと思いました。</p>
+<p>時にはうざく、またある時には嬉しくもあります。人間に近いAIとは「めんどくさい」存在になりそうですね。（笑）</p>
+<h2>まとめ</h2>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>短期的な記憶があるのと無いのとでは、品質が全然違う</li>
+<li>その実装をどうやって実現するか、要調査</li>
+<li>つらい（辛い）　と　からい（辛い）など文脈によって読み方が違う同じ漢字をどうやって制御するか？</li>
+<li>音声会話型のUIはシーンによりいろいろ必要</li>
+<li>会話では伝えられない情報をAIに伝えるIF造りは必要</li>
+<li>あいずちや、会話が終わったと判断する間の設定は重要</li>
+<li>喜怒哀楽をAI側に設定できると、面白くなりそう</li>
+<li>会話術をAIに教える必要がある</li>
 </ul>
-</div>
-					</div>
+<h2>あとがき</h2>
+<p>Cotomo使っていて思ったのは、近い将来こういうお話系のシステムは応用次第でいろんな可能性があるなーと思いました。相手を思いやるロジックや、会話を引き出す系のロジックなど、会話術を学習したAIは、応用次第ではやばくもあり、また必須の技術でもあるなと感じました。</p>
+<h2>著者にメッセージ</h2>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>					</div>
 <!-- .entry-content -->
-		<footer class="entry-footer">
-					</footer><!-- .entry-footer -->
-	</div>
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
 <!-- .entry-wrapper -->
 </article><!-- #post-## -->
 
-				
 			
+			
+		
 		</main><!-- #main -->
-	</div>
-<!-- #primary -->
+	</section><!-- #primary -->
 
 
 	</div>
@@ -693,13 +611,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <link rel="stylesheet" id="word_balloon_user_style-css" href="/wp-content/plugins/word-balloon/css/word_balloon_user.min.css?ver=4.20.5" type="text/css" media="all">
 <link rel="stylesheet" id="word_balloon_skin_talk-css" href="/wp-content/plugins/word-balloon/css/skin/word_balloon_talk.min.css?ver=4.20.5" type="text/css" media="all">
 <link rel="stylesheet" id="word_balloon_inview_style-css" href="/wp-content/plugins/word-balloon/css/word_balloon_inview.min.css?ver=4.20.5" type="text/css" media="all">
-<style id="core-block-supports-inline-css" type="text/css">.wp-container-core-social-links-layout-1.wp-container-core-social-links-layout-1{flex-wrap:nowrap;}.wp-container-core-group-layout-1.wp-container-core-group-layout-1{flex-direction:column;align-items:center;justify-content:center;}</style>
-<script type="text/javascript" id="uagb-timeline-js-js-extra">
-/* <![CDATA[ */
-var uagb_timeline_data = {"tablet_breakpoint":"976","mobile_breakpoint":"767"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/timeline.js?ver=2.12.3" id="uagb-timeline-js-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script>
@@ -741,12 +652,6 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 						}
 					});
 				})(jQuery);</script>
-		<script type="text/javascript" id="uagb-script-frontend-5925">document.addEventListener("DOMContentLoaded", function(){ window.addEventListener("DOMContentLoaded", function(){
-	UAGBTimelineClasses( {"block_id":"6a27fab1-6765-462e-a212-57dd618f0b62","timelinAlignment":"center","timelinAlignmentTablet":"left","timelinAlignmentMobile":"left"}, '.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62' );
-});
-window.addEventListener("resize", function(){
-	UAGBTimelineClasses( {"block_id":"6a27fab1-6765-462e-a212-57dd618f0b62","timelinAlignment":"center","timelinAlignmentTablet":"left","timelinAlignmentMobile":"left"}, '.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62' );
-});
- });</script>
+		
 </body>
 </html>
