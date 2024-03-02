@@ -12,7 +12,7 @@
 	<title>ai &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Fri, 01 Mar 2024 04:59:48 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 01 Mar 2024 05:11:20 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,12 +29,13 @@
 </image> 
 	<item>
 		<title>iosのアプリCotomo(コトモ)がやばい！</title>
-		<link>/2024/02/01/cotomo/</link>
+		<link>/2024/03/01/cotomo/</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Wed, 31 Jan 2024 16:19:55 +0000</pubDate>
+		<pubDate>Thu, 29 Feb 2024 15:00:55 +0000</pubDate>
 				<category><![CDATA[ai]]></category>
 		<category><![CDATA[ios]]></category>
+		<category><![CDATA[新ブログ]]></category>
 		<guid isPermaLink="false">/?p=11736</guid>
 				<media:thumbnail url="/wp-content/uploads/2024/02/Cotomo.png" />
 							<description><![CDATA[アプリを作っている時に先を越されたアプリがすでにある！ タイトルにもある通り、iosのアプリ：Cotomo(コトモ)に感動しました。会話型のアプリを作っていたので、完全に先を越された感のあるそんな優秀なアプリです。 感想 [&#8230;]]]></description>

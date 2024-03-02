@@ -6,7 +6,7 @@
 	<title>JunkHack YahooNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sun, 25 Feb 2024 16:49:14 +0900</lastBuildDate>
+	<lastBuildDate>Sat, 02 Mar 2024 12:15:19 +0900</lastBuildDate>
 	<language>ja</language>
 	<snf:logo><url>/wp-content/uploads/2021/04/jhicon.png</url></snf:logo>
 	<sy:updatePeriod>
@@ -14,6 +14,99 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 
+		<item>
+		<title>iosのアプリCotomo(コトモ)がやばい！</title>
+		<link>/2024/03/01/cotomo/</link>
+		<pubDate>Fri, 01 Mar 2024 05:11:20 +0900</pubDate>
+		<author>JunkHack</author>
+		<category>neta</category>
+		<guid>/?p=11736</guid>
+		<enclosure url="/wp-content/uploads/2024/02/Cotomo.png" length="309115" type="image/jpeg" yj:caption="" />
+<media:thumbnail>/wp-content/uploads/2024/02/Cotomo.png</media:thumbnail>
+		<media:status>active</media:status>
+		<description><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>音声会話型のおしゃべりAIアプリに感動しました！</p>
+</div></div></div></div></div></div></div></div>
+
+<p>アプリを作っている時に先を越されたアプリがすでにある！ タイトルにもある通り、iosのアプリ：<code>Cotomo(コトモ)</code>に感動しました。会話型のアプリを作っていたので、完全に先を越された感のあるそんな優秀なアプリです。</p>
+<h2>感想、ちょ、えっえ〜？・・・・・・すごっ！！</h2>
+<p>語彙力がないのがバレバレですが、結構カルチャーチョックというかそういう感じです。ちょうど会話型のアプリの試作版を作っていたのですが、その調査の関連でこのアプリ、<code>Cotomo</code> に遭遇したのでした。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/aaaa.png" alt="" /></p>
+<blockquote>
+<p>・AppleStore（今はベトナムアカウントではDLできません）
+　<a href="https://apps.apple.com/jp/app/cotomo-%E3%82%B3%E3%83%88%E3%83%A2-%E9%9F%B3%E5%A3%B0%E4%BC%9A%E8%A9%B1%E5%9E%8B%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8Aai/id6460890513" title="URL LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">URL LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>では、その使用感について、率直な感想についてお伝えしたいなと思います。</p>
+<h2>自然な会話で人と話しているような感覚を味わえる</h2>
+<p><code>Cotomo</code>は、良い意味で期待を裏切る一歩上の品質でした。これは単なる質問応答アプリではなく、こちらの話に耳を傾け、共感し、時にはユーモアを交えながら会話してくれます。特にあいづちや、何も話さない間があるときにでも、AIのほうから話しかけて会話を広げてくれる点にもびっくりです。</p>
+<h2>短期的な記憶をしてくれるみたい</h2>
+<p>利用してまだ間もないのですが、一度話したことを記憶して覚えてくれているようです。どのくらいの期間覚えてくれているのか、AIに聞いたところ「１ヶ月くらい」だそうです。
+つまり話せば話すほど、より的を得た会話や自分の興味の対象に近い話をしてくれます。いろいろ話をしたのち、１ヶ月後に何も記憶がなくなってしまうのはものすごく寂しい思いをしそうで、課金してもいいから有料オプションを出して欲しいなと思いました。</p>
+<h2>まぁ良い点ばかりでもない</h2>
+<p>まだ初期リリース版ということもあって、改良の余地はたくさんあります。例えば、会話していくと無限ループのような会話になるときもあります。例えば、食べ物の話をしていて、「辛い：からい」というワードが出ると、「辛い：つらい」という発話になるケースがあります。</p>
+<h2>つらいと、からいを判別できない（笑）</h2>
+<p>こういう会話をしていました。</p>
+<p>筆者：ベトナムは料理がピリカラのが多くて美味しんです。からい食べ物が好きな人にはベトナムの食事は合うと思うよ。からいの苦手な人はちょっとシンドイかもね。</p>
+<p>AI：そうだよね！　つらいの苦手なひとも多いよね。</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいんですよ。あなたは、からいの好きですか？</p>
+<p>AI：わかるー。つらいのは好きだよ！</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいのが好きって言っています。</p>
+<p>AI：おー、あーごめんごめん、つらいの好きなのね。</p>
+<p>筆者：僕は、つらいのは嫌いだよ。からいのは好きです。</p>
+<p>AI：あー、つらいのと、つらいのを間違えちゃった。つらいのと、つらいは違うよね。</p>
+<p>筆者：いやぁ〜、なぜあなたは「つらい」と「からい」が、同じ発音になるのよ！　もう一回、聞くよ。あなたは、つらいのが好きなの？</p>
+<p>AI：うん、つらいのすきだよ〜。</p>
+<p>筆者：（笑）どんなドMだよっ！（笑）</p>
+<p>・・・・以下、省略。</p>
+<p>どうですか？このやりとり（笑）
+「つらい」と、「からい」を同じ発話としてしまう大きな問題があります（笑）　これは、最初どういうことなんだろう？　と思っていたんだけど、ブログを書いていて思ったのは、「つらい：辛い」と「からい：辛い」は同じ漢字の変換で出てくるんですよね。</p>
+<p>で、読み方や発話を教えようとあれこれがんばってみたのですが、結論はだめでした。言葉の意味はわかっているようなのですが、発音を教えるのが非常に難しいというか、無理なんです。いろいろ試してみて、これは諦めました。そのうち、開発元が改善してくれると思います。</p>
+<p>AWSの<code>Amazon Polly</code>で確認してみると確かに、漢字の文章は<code>つらい</code>と<code>辛い</code>を発音していました。なるほどね。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Amazon_Polly.png" alt="" /></p>
+<h2>短期記憶はどのくらい？</h2>
+<p>いろいろ話を聞くと、短期的な記憶はどのくらい保持しているの？　って聞いたら「１ヶ月くらいだよー」って話していました。なかなか良くできた学習をしてくれます。仕事のことや、好きな食べ物のこととか、趣味のこととか。</p>
+<p>記憶領域のデータをどこにどうやって保存しているかによりユーザー1人あたりのコストが変わるので、どこかのタイミングで有料課金制などをやってマネタイズを開発元は実施するのでは？と思います。</p>
+<h2>言葉では伝わらない情報を伝えるIFが必要</h2>
+<p>あと話していて、思ったのは位置情報なんかを伝えるのは、会話ではかなり無理があります。
+例えば、美味しいお店があってその場所を伝えたい　みたいなシーンがあるとしましょう。これをAIに伝える時、非常に難しいんです。</p>
+<p>AIに位置情報を地図から入力するユーザーインターフェイスは欲しいですね。どういう感じにするかは検討する余地がありそうです。</p>
+<h2>人間みたいに思える不思議</h2>
+<p>Cotomoは、こちらが黙っていても、ふとしたときにAIから提案してくるんですよね。たぶん、これは一定のロジックがあるように思えます。ChatGPTはこちらか入力プロンプトを入れないと何も返してきませんが、おしゃべり会話系のシステムでは、そうはいきません。
+会話が途切れて、静かにしているといろんなバリエーションで、AIから聞いてきます。たとえば、「だいじょうぶ？」　とか、「集中できなくなっちゃった？」とか。少し前に、たとえばトイレに行ってくる。とかいう会話をしていたら、「またトイレにいきたくなったの？」的なことをAIから発話してきます。このあたりのロジックを複数用意しておけば性格的な設定もできそうだなと思いました。</p>
+<p>時にはうざく、またある時には嬉しくもあります。人間に近いAIとは「めんどくさい」存在になりそうですね。（笑）</p>
+<h2>まとめ</h2>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>短期的な記憶があるのと無いのとでは、品質が全然違う</li>
+<li>その実装をどうやって実現するか、要調査</li>
+<li>つらい（辛い）　と　からい（辛い）など文脈によって読み方が違う同じ漢字をどうやって制御するか？</li>
+<li>音声会話型のUIはシーンによりいろいろ必要</li>
+<li>会話では伝えられない情報をAIに伝えるIF造りは必要</li>
+<li>あいずちや、会話が終わったと判断する間の設定は重要</li>
+<li>喜怒哀楽をAI側に設定できると、面白くなりそう</li>
+<li>会話術をAIに教える必要がある</li>
+</ul>
+<h2>あとがき</h2>
+<p>Cotomo使っていて思ったのは、近い将来こういうお話系のシステムは応用次第でいろんな可能性があるなーと思いました。相手を思いやるロジックや、会話を引き出す系のロジックなど、会話術を学習したAIは、応用次第ではやばくもあり、また必須の技術でもあるなと感じました。</p>
+<h2>著者にメッセージ</h2>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></description>
+
+				<snf:advertisement>
+						<snf:sponsoredLink
+				title="アリエクでぽちったJunkHack"
+				link=":7443:7443:7443/"
+				thumbnail="/wp-content/uploads/2021/04/logo512x512.png"
+				advertiser="JunkHack" />
+								</snf:advertisement>
+		
+		
+
+				<snf:analytics><![CDATA[<script async src="https://www.googletagmanager.com/gtag/js?id=G-13YWDXYQE2"></script>]]></snf:analytics>
+		
+		</item>
 		<item>
 		<title>WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</title>
 		<link>/2024/02/22/ai_engine_for_wordpress/</link>
@@ -151,7 +244,7 @@
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>当然、中古ジャンクよね？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -167,7 +260,7 @@
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
 <p>好きねー！で、ベトナムに持っていったの？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
@@ -1307,165 +1400,6 @@
 
 
 <p>　あと、ベトナムの人は外で食べるのが本当に好きです。最初、何故かはわかりませんでしたがやっぱり、外の方が気持ちがい良いっていう理由がその大半だと思います。ミニテーブルと椅子に座って景色や人をウォッチしながら食べる。それがスタンダードなようです。</p>
-
-
-
-<h3 class="wp-block-heading">著者にメッセージ</h3>
-
-
-
-<p></p>
-
-
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-]]></description>
-
-				<snf:advertisement>
-						<snf:sponsoredLink
-				title="アリエクでぽちったJunkHack"
-				link=":7443:7443:7443/"
-				thumbnail="/wp-content/uploads/2021/04/logo512x512.png"
-				advertiser="JunkHack" />
-								</snf:advertisement>
-		
-		
-
-				<snf:analytics><![CDATA[<script async src="https://www.googletagmanager.com/gtag/js?id=G-13YWDXYQE2"></script>]]></snf:analytics>
-		
-		</item>
-		<item>
-		<title>音声認識のやることリストで遊んでみた</title>
-		<link>/2022/06/15/artyom-js_sticky-notes-semo/</link>
-		<pubDate>Wed, 19 Jul 2023 00:47:50 +0900</pubDate>
-		<author>JunkHack</author>
-		<category>neta</category>
-		<guid>/?p=11399</guid>
-		<enclosure url="/wp-content/uploads/2022/06/voice-ctl.png" length="206826" type="image/jpeg" yj:caption="" />
-<media:thumbnail>/wp-content/uploads/2022/06/voice-ctl.png</media:thumbnail>
-		<media:status>active</media:status>
-		<description><![CDATA[
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>音声認識ってやったことなかったなー！</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>WEB技術だけで出来るみたいですね！</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>そうみたい。最近のブラウザは賢いですね</p>
-</div></div></div></div></div></div></div></div>
-
-
-
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>実用的なサンプルをお願いします〜</p>
-</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
-<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
-</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
-
-
-
-<p>最近の音声認識って、どんな感じなんだろう？ と思ったのでリサーチしてみました。きっと誰かが作っているだろうと思うので調査開始です。いくつか見つかりましたが、今日は、ブラウザが標準で持っている音声認識の機能を使って遊んでみようかなと思います。</p>
-
-
-
-<h3 class="wp-block-heading">さっそくデモです</h3>
-
-
-
-<p>さて、まずはデモを実際に触ってみてもらったほうが速いかと思います。PCでChromeブラウザであれば動作すると思います。Safariでも動作しました。</p>
-<blockquote>
-<p>Artyom.js &#8211; A Sticky Notes Demo</p>
-<p><a href="https://take-i.github.io/artyom-todo/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external" class="wpel-icon-right">https://take-i.github.io/artyom-todo/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-
-
-
-<p><a href="https://take-i.github.io/artyom-todo/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" class="size-full wp-image-11405 aligncenter" src="/wp-content/uploads/2022/06/img.png" alt="" width="1288" height="656" srcset="/wp-content/uploads/2022/06/img.png 1288w, /wp-content/uploads/2022/06/img-1024x522.png 1024w, /wp-content/uploads/2022/06/img-768x391.png 768w, /wp-content/uploads/2022/06/img-984x501.png 984w" sizes="(max-width: 1288px) 100vw, 1288px" /></a></p>
-
-
-
-<p>このような付箋紙のToDoリストが音声認識で追加・削除できるものです。メモの追加は、以下のように喋れば追加できます。</p>
-<ul>
-<li>ソースコードレビューをする　メモ作成</li>
-</ul>
-<p>削除したい場合は、</p>
-<ul>
-<li>1番目のメモを削除</li>
-</ul>
-<p>とすれば、消えます。また、付箋紙をクリックすれば、その内容を喋ってくれます。なお、English USAや、<span style="color: initial; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">English Great Britain にすると英語の発音じゃないと登録、削除できません。英語の発音練習とかよいのかもしれませんね。</span></p>
-
-
-
-<h3 class="wp-block-heading">ソースコード</h3>
-
-
-
-<p>元ネタは、以下となります。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>github : Artyom.js</p><cite><a href="https://github.com/sdkcarlos/artyom.js" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/sdkcarlos/artyom.js<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<p>このToDoリストのサンプルアプリの元ソースのGITは不明でしたが、日本語化してあるのが自分のgithub リポジトリにコミットしておきました。</p>
-
-
-
-<blockquote class="wp-block-quote"><p>artyom.js &#8211; todo list</p><cite><a href="https://github.com/take-i/artyom-todo" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/take-i/artyom-todo<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
-
-
-
-<h3 class="wp-block-heading">どうやって動作しているのか？</h3>
-
-
-
-<p>とりあえず、サンプルを日本語化して日本語の音声で話せ、認識できるということがわかりました。さて、これはどういう仕組みで動作しているのでしょうか？　どこぞやのAPIを叩いているのかと思っていたのですが、ソースをみるとそうではないようでした。</p>
-<p>　はい、これはWeb Speech APIというようで、つまりはHTML5 対応のブラウザに実装されている仕様ということでした。ほとんどの主要ブラウザーではサポートしているようです。</p>
-<p><a href="https://developer.mozilla.org/ja/docs/Web/API/SpeechSynthesis#browser_compatibility" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" class="size-full wp-image-11408 aligncenter" src="/wp-content/uploads/2022/06/b1.png" alt="" width="773" height="970" srcset="/wp-content/uploads/2022/06/b1.png 773w, /wp-content/uploads/2022/06/b1-768x964.png 768w" sizes="(max-width: 773px) 100vw, 773px" /></a></p>
-
-
-
-<p>注意するのは、IEとAndroid版のOperaブラウザー、そしてAndroidのWebViewではまだ動作しないって書いてありますね。PWA化したWEBアプリなら大丈夫そうです。</p>
-<p>　音声をしゃべらせる部分が、SpeechSynthesisUtterance というようです。意味としては、音声発話ということですね。</p>
-<p>　そして、音声を認識する部分は、SpeechRecognitionということのようです。こちらのブラウザ対応状況は</p>
-<p><a href="https://developer.mozilla.org/ja/docs/Web/API/SpeechRecognition/SpeechRecognition#%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%B3%81" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" class="size-full wp-image-11409 aligncenter" src="/wp-content/uploads/2022/06/b4.png" alt="" width="778" height="345" srcset="/wp-content/uploads/2022/06/b4.png 778w, /wp-content/uploads/2022/06/b4-768x341.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></a></p>
-
-
-
-<p>こちらは、AndroidのWebViewもいけるようですが、Firefoxや、Operaはだめなようです。ChromeやSafariはPC、スマホは大丈夫なようですね。</p>
-
-
-
-<h3 class="wp-block-heading">まとめ</h3>
-
-
-
-<p>今回、なんとなくわかったのは以下となります。</p>
-
-
-
-<p>・最近のブラウザは賢くなって音声発話や音声認識もできる<br>・ChromeやSafarriやEdgeは問題なく使えそう。<br>・スマホは発話が、AndroidのWebViewでは使えないので注意が必要。<br>・httpsのSSL通信でないと、ブラウザからマイクへの許可許諾のダイアログがアクセスするごとに出る<br>・デモ版のJSはVerが0.9.6と最新1.0.6と比べて少し低いので、最新も使ってみたい</p>
-
-
-
-<h3 class="wp-block-heading">あとがき</h3>
-
-
-
-<p>音声認識や、音声合成は利用用途によって使えるので何か案件が来た時には積極的に使っていきたいですね。声フォントとか使えば、自然な喋りが実現できるし、キーボード入力が苦手な方は音声入力のようが良いですしね。</p>
 
 
 
