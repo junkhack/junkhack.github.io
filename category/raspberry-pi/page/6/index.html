@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -1459,7 +1459,7 @@ vm.vfs_cache_pressure = 100
 <p> xzdec , git , partx は必要なようです。</p>
 <p> ※入ってなかったら、apt-get install 入れるパッケージ で入れてね。</p>
 <p>・Fedora の ARM 用にビルドされたイメージのURL</p>
-<p>&#160; <a title="http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/" href="http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/<span class="wpel-icon wpel-image wpel-icon-1"></span></a> 以下にあります</p>
+<p>&#160; <a href="http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/<span class="wpel-icon wpel-image wpel-icon-1"></span></a> 以下にあります</p>
 <p> 国内の近場だと自分の場合は、IIJ になるので上記にしました。</p>
 <p> いろいろあるけども、とりあえずFedora-Minimal-armhfp-22-3-sda.raw.xz にしてみました。</p>
 <p>&#160;</p>
@@ -1471,11 +1471,11 @@ vm.vfs_cache_pressure = 100
 <p>以下な感じで、img を作るスクリプトをgit からコピー</p>
 <blockquote>
 <p>junkhack@ubu:~$ mkdir raspi2     <br>junkhack@ubu:~$ cd raspi2/</p>
-<p>junkhack@ubu:~/raspi2$ git clone https://github.com/spartacus06/rpi2-fedora-image-builder.git     <br>Cloning into &#8216;rpi2-fedora-image-builder&#8217;&#8230;      <br>remote: Counting objects: 80, done.      <br>remote: Total 80 (delta 0), reused 0 (delta 0), pack-reused 80      <br>Unpacking objects: 100% (80/80), done.      <br>junkhack@ubu:~/raspi2$ </p>
+<p>junkhack@ubu:~/raspi2$ git clone <a href="https://github.com/spartacus06/rpi2-fedora-image-builder.git" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/spartacus06/rpi2-fedora-image-builder.git<span class="wpel-icon wpel-image wpel-icon-1"></span></a>     <br>Cloning into &#8216;rpi2-fedora-image-builder&#8217;&#8230;      <br>remote: Counting objects: 80, done.      <br>remote: Total 80 (delta 0), reused 0 (delta 0), pack-reused 80      <br>Unpacking objects: 100% (80/80), done.      <br>junkhack@ubu:~/raspi2$ </p>
 </blockquote>
 <p>以下のようにローカルに作成されます。git 便利ですね。</p>
 <blockquote>
-<p>junkhack@ubu:~/raspi2$ ll     <br>合計 12      <br>drwxrwxr-x 3 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 ./      <br>drwxr-xr-x 4 junkhack junkhack 4096&#160; 7月&#160; 2 22:43 ../      <br>drwxr-xr-x 5 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 rpi2-fedora-image-builder/      <br>junkhack@ubu:~/raspi2$       <br>junkhack@ubu:~/raspi2$ cd rpi2-fedora-image-builder/      <br>junkhack@ubu:~/raspi2/rpi2-fedora-image-builder$ ll      <br>合計 44      <br>drwxr-xr-x 5 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 ./      <br>drwxrwxr-x 3 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 ../      <br>drwxrwxr-x 8 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 .git/      <br>-rw-rw-r&#8211; 1 junkhack junkhack&#160;&#160; 54&#160; 7月&#160; 2 22:45 .gitignore      <br>-rw-rw-r&#8211; 1 junkhack junkhack 1108&#160; 7月&#160; 2 22:45 LICENSE      <br>-rw-rw-r&#8211; 1 junkhack junkhack 2507&#160; 7月&#160; 2 22:45 README.md      <br>-rwxrwxr-x 1 junkhack junkhack&#160;&#160; 69&#160; 7月&#160; 2 22:45 clean.sh*      <br>-rwxrwxr-x 1 junkhack junkhack 3533&#160; 7月&#160; 2 22:45 mkimage.sh*      <br>drwxrwxr-x 2 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 sample-resources/      <br>drwxrwxr-x 4 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 scripts/      <br>-rw-rw-r&#8211; 1 junkhack junkhack&#160; 161&#160; 7月&#160; 2 22:45 settings.conf.example      <br>junkhack@ubu:~/raspi2/rpi2-fedora-image-builder$ cp settings.conf.example settings.conf</p>
+<p>junkhack@ubu:~/raspi2$ ll     <br>合計 12      <br>drwxrwxr-x 3 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 ./      <br>drwxr-xr-x 4 junkhack junkhack 4096&#160; 7月&#160; 2 22:43 ../      <br>drwxr-xr-x 5 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 rpi2-fedora-image-builder/      <br>junkhack@ubu:~/raspi2$       <br>junkhack@ubu:~/raspi2$ cd rpi2-fedora-image-builder/      <br>junkhack@ubu:~/raspi2/rpi2-fedora-image-builder$ ll      <br>合計 44      <br>drwxr-xr-x 5 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 ./      <br>drwxrwxr-x 3 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 ../      <br>drwxrwxr-x 8 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 .git/      <br>-rw-rw-r&#8211; 1 junkhack junkhack&#160;&#160; 54&#160; 7月&#160; 2 22:45 .gitignore      <br>-rw-rw-r&#8211; 1 junkhack junkhack 1108&#160; 7月&#160; 2 22:45 LICENSE      <br>-rw-rw-r&#8211; 1 junkhack junkhack 2507&#160; 7月&#160; 2 22:45 README.md      <br>-rwxrwxr-x 1 junkhack junkhack&#160;&#160; 69&#160; 7月&#160; 2 22:45 clean.sh<em>      <br>-rwxrwxr-x 1 junkhack junkhack 3533&#160; 7月&#160; 2 22:45 mkimage.sh</em>      <br>drwxrwxr-x 2 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 sample-resources/      <br>drwxrwxr-x 4 junkhack junkhack 4096&#160; 7月&#160; 2 22:45 scripts/      <br>-rw-rw-r&#8211; 1 junkhack junkhack&#160; 161&#160; 7月&#160; 2 22:45 settings.conf.example      <br>junkhack@ubu:~/raspi2/rpi2-fedora-image-builder$ cp settings.conf.example settings.conf</p>
 </blockquote>
 <p>ツリー構造はこんな感じです。</p>
 <blockquote>
@@ -1484,84 +1484,14 @@ vm.vfs_cache_pressure = 100
 </blockquote>
 <p>&#160;</p>
 <p>設定ファイルをコピーして、中を以下のように書き換えます。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">IMAGEURL=&quot;http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/Fedora-Minimal-armhfp-22-3-sda.raw.xz”
-# size in MB
-BOOTSIZE=200
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">IMAGEURL=&quot;<a href="http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/Fedora-Minimal-armhfp-22-3-sda.raw.xz" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Images/armhfp/Fedora-Minimal-armhfp-22-3-sda.raw.xz<span class="wpel-icon wpel-image wpel-icon-1"></span></a>”
+<h1>size in MB</h1>
+<p>BOOTSIZE=200
 ROOTSIZE=3600
-COMPRESS=0</pre>
-<p>&#160;</p>
+COMPRESS=0</p></pre>
+
+<p> </p>
 <p>あとはスクリプトを実行。</p>
-<blockquote>
-<p>junkhack@ubu:~/raspi2/rpi2-fedora-image-builder$ ./mkimage.sh<br>
-    <br>Using settings.conf</p>
-<p>BOOTSIZE is 200 MB</p>
-<p>ROOTSIZE is 3600 MB</p>
-<p>IMAGEFILE is Fedora-Minimal-armhfp-22-3-sda.raw</p>
-<p>Downloading image&#8230;</p>
-<p>：：略</p>
-<p>HTTP による接続要求を送信しました、応答を待っています&#8230; 200 OK</p>
-<p>長さ: 301285980 (287M) [application/x-xz]</p>
-<p>`Fedora-Minimal-armhfp-22-3-sda.raw.xz&#8217; に保存中 </p>
-<p>100%[===========================================================================================================&gt;] 301,285,980&#160; 107K/s&#160;&#160; 時間 31m 46s </p>
-<p>2015-07-02 23:20:52 (154 KB/s) &#8211; `Fedora-Minimal-armhfp-22-3-sda.raw.xz&#8217; へ保存完了 [301285980/301285980] </p>
-<p>Extracting image&#8230;<br>
-    <br>Extracting rootfs&#8230;</p>
-<p>Creating boot partition&#8230;</p>
-<p>Mounting boot filesystem&#8230;</p>
-</blockquote>
-<p>しばらくすると、以下のように sudo のパスワード聞いてきたり（設定によりますが）しますので、</p>
-<p>&#160;</p>
-<blockquote>
-<p>[sudo] password for junkhack: パスワードいれてね。</p>
-</blockquote>
-<p>&#160;</p>
-<p>まだ続きがあるようです。</p>
-<p>&#160;</p>
-<blockquote>
-<p>Calling boot scripts&#8230;<br>
-    <br>scripts/boot/10_firmware.sh</p>
-<p>Cloning firmware repo&#8230;</p>
-<p>Cloning into &#8216;firmware&#8217;&#8230;</p>
-<p>remote: Counting objects: 8953, done.</p>
-<p>remote: Compressing objects: 100% (4902/4902), done.</p>
-<p>Receiving objects:&#160;&#160; 0% (60/8953), 11.10 MiB | 173 KiB/s </p>
-</blockquote>
-<p>&#160;</p>
-<p>眠いのでこのままほっておきます。</p>
-<p>&#160;</p>
-<blockquote>
-<p>[sudo] password for junkhack: パスワードいれてね。<br>
-    <br>scripts/boot/20_config.sh</p>
-<p>Unmounting boot filesystem&#8230;</p>
-<p>Preparing root partition&#8230;</p>
-<p>resize2fs 1.42 (29-Nov-2011)</p>
-<p>Mounting root filesystem&#8230;</p>
-<p>Calling root scripts&#8230;</p>
-<p>scripts/root/10_modules.sh</p>
-<p>Copying kernel modules&#8230;</p>
-<p>scripts/root/20_fstab.sh</p>
-<p>Creating fstab&#8230;</p>
-<p>scripts/root/30_fbturbo.sh</p>
-<p>Unmounting root filesystem&#8230;</p>
-<p>Creating image&#8230;</p>
-<p>警告: 管理者権限がありません。パーミッションに注意してください。</p>
-<p>警告: 管理者権限がありません。パーミッションに注意してください。</p>
-<p>警告: 管理者権限がありません。パーミッションに注意してください。</p>
-<p>Fedora-Minimal-armhfp-22-3-sda.raw.img created successfully.<br>
-    <br>junkhack@ubu:~/ダウンロード/rpi2-fedora-image-builder-master$ </p>
-</blockquote>
-<p>&#160;</p>
-<p>Fedora-Minimal-armhfp-22-3-sda.raw.img があれば成功したようです。</p>
-<p>&#160;</p>
-<p>▼Step 3</p>
-<p>img を SD Card へ書き込み。</p>
-<p>osx の場合は、以下のように書き込みます</p>
-<p>&#160;</p>
-<blockquote>
-<p>$ sudo dd bs=1m if=&quot;./Fedora-Minimal-armhfp-22-3-sda.raw.img&quot; of=&quot;/dev/rdisk3&quot;★sdcard のデバイス<br>
-    <br>Password:</p>
-</blockquote>
-<p>省略。急激な眠気がきたので、本日の作業終了。お楽しみは明日に取っておきます。</p>
 					</div>
 <!-- .entry-content -->
 

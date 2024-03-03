@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -353,8 +353,8 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>ubuntu上で、作業します。</p>
 <p>オフィシャルサイトより、イメージをゲット。全部 root でやってますので、sudo は付けていません。</p>
 <blockquote>
-<p># wget https://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/armhfp/Images/Fedora-Workstation-armhfp-22-3-sda.raw.xz</p>
-<p><a href="http://ftp.iij.ad.jp/pub/linux/fedora/releases/22/Workstation/armhfp/Images/Fedora-Workstation-Images-armhfp-22-CHECKSUM" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">CHECKSUM<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p># wget <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/armhfp/Images/Fedora-Workstation-armhfp-22-3-sda.raw.xz" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">https://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/armhfp/Images/Fedora-Workstation-armhfp-22-3-sda.raw.xz<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>CHECKSUM</p>
 <p># sha256sum Fedora-Workstation-armhfp-22-3-sda.raw.xz</p>
 <p> ※sum を確認</p>
 </blockquote>
@@ -382,112 +382,37 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </blockquote>
 <p>kpartx が無い場合は、以下で。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">        ▼パーティションのサイズを調べて、個別にマウントさせる
-        # parted Fedora-Xfce-armhfp-22-3-sda.img 
-        GNU Parted 2.3
-        /nfs/Fedora-Xfce-armhfp-22-3-sda.img を使用
-        GNU Parted へようこそ！ コマンド一覧を見るには 'help' と入力してください。
-        (parted) u★
-        単位は?  [compact]? b★
-        (parted) print★
-        モデル:  (file)
-        ディスク /nfs/Fedora-Xfce-armhfp-22-3-sda.img: 4743757824B
-        セクタサイズ (論理/物理): 512B/512B
-        パーティションテーブル: msdos
-        
-        番号  開始         終了         サイズ       タイプ   ファイルシステム  フラグ
-         1    1048576B     512753663B   511705088B   primary  ext3
-         2    512753664B   1025000447B  512246784B   primary  linux-swap(v1)
-         3    1025000448B  4525000191B  3499999744B  primary  ext4
-              ^^^^^^^^^^
-        (parted) q★
-        root@ubu:/nfs# 
-        
-        # mount -o loop,offset=1025000448 Fedora-Xfce-armhfp-22-3-sda.img /mnt/fedora22
-                               ^^^^^^^^^^※ B は取ってね
-        # df -h
-        Filesystem              Size  Used Avail Use% Mounted on
-        ::
-        /dev/loop1              3.2G  2.3G  843M  74% /mnt/fedora22</pre>
+<h1>parted Fedora-Xfce-armhfp-22-3-sda.img</h1>
+<pre><code>    GNU Parted 2.3
+    /nfs/Fedora-Xfce-armhfp-22-3-sda.img を使用
+    GNU Parted へようこそ！ コマンド一覧を見るには 'help' と入力してください。
+    (parted) u★
+    単位は?  [compact]? b★
+    (parted) print★
+    モデル:  (file)
+    ディスク /nfs/Fedora-Xfce-armhfp-22-3-sda.img: 4743757824B
+    セクタサイズ (論理/物理): 512B/512B
+    パーティションテーブル: msdos
+
+    番号  開始         終了         サイズ       タイプ   ファイルシステム  フラグ
+     1    1048576B     512753663B   511705088B   primary  ext3
+     2    512753664B   1025000447B  512246784B   primary  linux-swap(v1)
+     3    1025000448B  4525000191B  3499999744B  primary  ext4
+          ^^^^^^^^^^
+    (parted) q★
+    root@ubu:/nfs# 
+
+    # mount -o loop,offset=1025000448 Fedora-Xfce-armhfp-22-3-sda.img /mnt/fedora22
+                           ^^^^^^^^^^※ B は取ってね
+    # df -h
+    Filesystem              Size  Used Avail Use% Mounted on
+    ::
+    /dev/loop1              3.2G  2.3G  843M  74% /mnt/fedora22</code></pre>
+<p></p>
 <p><strong>手順 4</strong></p>
 <p>ルート直下のシンボリックリンクを修正します。理屈はよくわかっていませんが、逆から張りなおすことでとりあえずブートしています。lib と bin と sbin を消して、実体を移動させ、逆からシンボリックを張っています。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">cd /mnt/fedora22
-rm lib
-mv usr/lib lib
-cd usr
-ln -s ../lib lib
-cd ../
-
-rm bin
-mv usr/bin bin
-cd usr
-ln -s ../bin bin
-cd ../
-
-rm sbin
-mv usr/sbin sbin
-cd usr
-ln -s ../sbin sbin
-cd ../</pre>
-<p>以下のような感じになっているはずです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># ll
-合計 240
-dr-xr-xr-x.  21 root root  4096  7月 19 09:53 ./
-drwxr-xr-x    3 root root  4096  7月 19 09:39 ../
-dr-xr-xr-x.   2 root root 36864  5月 22 04:12 bin/
-drwxrwxr-x.   2 root root  4096  5月 22 03:58 boot/
-drwxr-xr-x.   4 root root  4096  5月 22 04:14 dev/
-drwxr-xr-x. 126 root root 12288  5月 22 04:28 etc/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 home/
-dr-xr-xr-x. 181 root root 86016  5月 22 04:14 lib/
-drwx------.   2 root root 16384  5月 22 03:58 lost+found/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 media/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 mnt/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 opt/
-drwxrwxr-x.   2 root root  4096  5月 22 03:58 proc/
-dr-xr-x---.   2 root root  4096  5月 22 04:28 root/
-drwxr-xr-x.  32 root root  4096  5月 22 04:12 run/
-dr-xr-xr-x.   2 root root 20480  5月 22 04:12 sbin/
-drwxr-xr-x.   2 root root  4096  8月 16  2014 srv/
-drwxrwxr-x.   2 root root  4096  5月 22 03:58 sys/
-drwxrwxrwt.   7 root root  4096  5月 22 04:28 tmp/
-drwxr-xr-x.   8 root root  4096  7月 19 09:53 usr/
-drwxr-xr-x.  21 root root  4096  5月 22 04:12 var/</pre>
-<p>&#160;</p>
-<p>手順 5</p>
-<p>fstab をコメントアウトします。</p>
-<p>以下のような感じで、UUID で記載されていますが、全部コメントアウト。</p>
-<blockquote>
-<p># cat /mnt/fedora22/etc/fstab<br>
-    <br>UUID=81bc2e15-c125-40c0-94fd-33550a50db1b&#160; / ext4&#160;&#160;&#160; defaults,noatime 0 0</p>
-<p>UUID=5dd5c069-20ed-421c-a521-d7fc71746def&#160; /boot ext3&#160;&#160;&#160; defaults,noatime 0 0</p>
-<p>UUID=2d570411-d640-491b-9b38-4ba9d8ed6ada&#160; swap swap&#160;&#160;&#160; defaults,noatime 0 0</p>
-</blockquote>
-<p>vi でもいいです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">sed -i 's/^UUID/#UUID/g' /mnt/fedora22/etc/fstab</pre>
-<p>確認。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># cat /mnt/fedora22/etc/fstab
-#UUID=81bc2e15-c125-40c0-94fd-33550a50db1b  / ext4    defaults,noatime 0 0
-#UUID=5dd5c069-20ed-421c-a521-d7fc71746def  /boot ext3    defaults,noatime 0 0
-#UUID=2d570411-d640-491b-9b38-4ba9d8ed6ada  swap swap    defaults,noatime 0 0</pre>
-<p>&#160;</p>
-<p><strong>手順 6</strong></p>
-<p>mksquashfs を使って lzo 圧縮した BerryBoot 用の img を作成します。</p>
-<p># cd /tmp</p>
-<p># mksquashfs /mnt/fedora22/ _berryboot.img -comp lzo -e lib/modules</p>
-<p># mv _berryboot.img Fedora22-Workstation-berryboot.img</p>
-<p>このイメージをFAT16 フォーマットのUSBメモリに入れて、BerryBoot を起動。インターネットインストールをキャンセルして、Add OS を長押しクリックするとサブメニューからUSB を選択できます。</p>
-<p>&#160;</p>
-<p>手順 7</p>
-<p>マウント解除し、kpartxで作ったデバイスを削除し、基のイメージファイルも削除。</p>
-<blockquote>
-<p># umount /mnt/fedora22<br>
-    <br># kpartx -d Fedora-Workstation-armhfp-22-3-sda.img </p>
-<p>loop deleted : /dev/loop0</p>
-<p>&#160;</p>
-<p># rm Fedora-Workstation-armhfp-22-3-sda.*</p>
-</blockquote>
-<p>おつかれさまです。</p>
-					</div>
+					</pre>
+</div>
 <!-- .entry-content -->
 
 			<footer class="entry-footer">
@@ -742,7 +667,7 @@ echo
 <p>Patch for UnixBench 5.1.3 on Mac OS X Mavericks (10.9)<br>
 <a href="https://gist.github.com/barusan/11033924" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://gist.github.com/barusan/11033924<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>blog<br>
-<a href="http://www.baru-san.net/archives/267" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.baru-san.net/archives/267<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+http://www.baru-san.net/archives/267</p>
 </blockquote>
 <p>ありがたく、使わせていただきます。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/byte-unixbench/UnixBench5.1.3.tgz
@@ -843,9 +768,9 @@ System Benchmarks Index Score                                        3440.0</pre
   Swp[                                                        0/1024MB]</pre>
 <p>がんばってますね。</p>
 <p>ちなみに、osx10.9.5 の公開しているソースは、</p>
-<p><a title="http://www.opensource.apple.com/release/os-x-1095/" href="http://www.opensource.apple.com/release/os-x-1095/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.opensource.apple.com/release/os-x-1095/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://www.opensource.apple.com/release/os-x-1095/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"></a><a href="http://www.opensource.apple.com/release/os-x-1095/">http://www.opensource.apple.com/release/os-x-1095/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>たとえば、bash とかは、以下にあり、</p>
-<p><a title="http://www.opensource.apple.com/source/bash/bash-92/" href="http://www.opensource.apple.com/source/bash/bash-92/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.opensource.apple.com/source/bash/bash-92/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="http://www.opensource.apple.com/source/bash/bash-92/" href="http://www.opensource.apple.com/source/bash/bash-92/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="http://www.opensource.apple.com/source/bash/bash-92/"></a><a href="http://www.opensource.apple.com/source/bash/bash-92/">http://www.opensource.apple.com/source/bash/bash-92/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>まだやったことはないんですが、xcode を使ってビルドできるようです。</p>
 <p><img loading="lazy" decoding="async" style="float:none;margin-left:auto;display:block;margin-right:auto;border:0;" title="Source_Browser" src="/wp-content/uploads/2015/07/source_browser.png" alt="Source_Browser" width="550" height="480" border="0"></p>
 					</div>

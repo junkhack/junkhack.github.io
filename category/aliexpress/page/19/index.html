@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -270,160 +270,133 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>&#160;</p>
 <p>この値は、以下のコードを見てみると、ESP01 は 11 で動作するようです。</p>
 <blockquote>
-<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>// Initialize DHT sensor      <br>// NOTE: For working with a faster than ATmega328p 16 MHz Arduino chip, like an ESP8266,       <br>// you need to increase the threshold for cycle counts considered a 1 or 0.       <br>// You can do this by passing a 3rd parameter for this threshold.&#160; It&#8217;s a bit       <br>// of fiddling to find the right value, but in general the faster the CPU the       <br>// higher the value.&#160; The default for a 16mhz AVR is a value of 6.&#160; For an       <br>// Arduino Due that runs at 84mhz a value of 30 works.       <br>// This is for the ESP8266 processor on ESP-01       <br>DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266</p>
 </blockquote>
 <p>ESP12 では、11 だと値がおかしくなり、15 だとうまく取れました。あと、IDE は、arduino 1.6.4 以上で今回は Hourly Build&#160; を使いました。Boards Manager という機能が加わり、ツールメニューのボードからインストールできます。</p>
 <p>手動で入れてもいいんですが、まぁ便利な機能がつきましたね。</p>
 <blockquote>
-<p><a title="http://arduino.esp8266.com/package_esp8266com_index.json" href="http://arduino.esp8266.com/package_esp8266com_index.json" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://arduino.esp8266.com/package_esp8266com_index.json" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- ESP8266 HTTP get webclient.
- ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
- https://thingspeak.com/channels/42239
- Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
- esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
- JunkHack 2015.06.15
- */
- 
-#include &lt;ESP8266WiFi.h&gt;
-#include &lt;DHT.h&gt;
-
-#define DHTPIN 4
-#define DHTTYPE DHT22
-DHT dht(DHTPIN, DHTTYPE, 15);
-
-const char* ssid     = &quot;JunkHack&quot;;
-const char* password = &quot;testtest&quot;;
-
-const char* host = &quot;184.106.153.149&quot;;
-
-int WiFiConLed = 13;// WEB Connect
-int WEBconLed = 0; // WiFi Connect
-
-void setup() {
-  dht.begin();
-  
-  pinMode(WiFiConLed, OUTPUT);
-  pinMode(WEBconLed, OUTPUT);
-  Serial.begin(115200);
-  delay(10);
- 
-  // We start by connecting to a WiFi network
- 
-  Serial.println();
-  Serial.println();
-  Serial.print(&quot;Connecting to &quot;);
-  Serial.println(ssid);
- 
-  WiFi.begin(ssid, password);
- 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(&quot;.&quot;);
-    digitalWrite(WiFiConLed, HIGH);
-    delay(400);
-    digitalWrite(WiFiConLed, LOW);
-    delay(100);
-  }
- 
-  Serial.println(&quot;&quot;);
-  Serial.println(&quot;WiFi connected&quot;);
-  Serial.println(&quot;IP address: &quot;);
-  Serial.println(WiFi.localIP());
-  
-  Serial.println(&quot;DHT22 AM2302 test!&quot;);
-}
- 
-int value = 0;
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/<em>
+ESP8266 HTTP get webclient.
+ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
+<a href="https://thingspeak.com/channels/42239" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://thingspeak.com/channels/42239<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
+esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
+JunkHack 2015.06.15
+</em>/
+<h1>include &lt;ESP8266WiFi.h&gt;</h1>
+<h1>include &lt;DHT.h&gt;</h1>
+<h1>define DHTPIN 4</h1>
+<h1>define DHTTYPE DHT22</h1>
+<p>DHT dht(DHTPIN, DHTTYPE, 15);</p>
+<p>const char<em> ssid     = &quot;JunkHack&quot;;
+const char</em> password = &quot;testtest&quot;;</p>
+<p>const char* host = &quot;184.106.153.149&quot;;</p>
+<p>int WiFiConLed = 13;// WEB Connect
+int WEBconLed = 0; // WiFi Connect</p>
+<p>void setup() {
+dht.begin();</p>
+<p>pinMode(WiFiConLed, OUTPUT);
+pinMode(WEBconLed, OUTPUT);
+Serial.begin(115200);
+delay(10);</p>
+<p>// We start by connecting to a WiFi network</p>
+<p>Serial.println();
+Serial.println();
+Serial.print(&quot;Connecting to &quot;);
+Serial.println(ssid);</p>
+<p>WiFi.begin(ssid, password);</p>
+<p>while (WiFi.status() != WL_CONNECTED) {
+delay(500);
+Serial.print(&quot;.&quot;);
+digitalWrite(WiFiConLed, HIGH);
+delay(400);
+digitalWrite(WiFiConLed, LOW);
+delay(100);
+}</p>
+<p>Serial.println(&quot;&quot;);
+Serial.println(&quot;WiFi connected&quot;);
+Serial.println(&quot;IP address: &quot;);
+Serial.println(WiFi.localIP());</p>
+<p>Serial.println(&quot;DHT22 AM2302 test!&quot;);
+}</p>
+<p>int value = 0;
 int count = 0;
 int adc = 0;
 float h = 0;
-float t = 0;
+float t = 0;</p>
+<p>void loop() {
+delay(10000); // 10 sec
+++value;</p>
+<p>Serial.print(&quot;connecting to &quot;);
+Serial.println(host);</p>
+<p>// Use WiFiClient class to create TCP connections
+WiFiClient client;
+const int httpPort = 80;
+if (!client.connect(host, httpPort)) {
+Serial.println(&quot;connection failed&quot;);
+return;
+}</p>
+<p>digitalWrite(WEBconLed, HIGH);
+delay(1000);
+count += 1;</p>
+<p>Serial.print(&quot;ADC: &quot;);
+adc = analogRead(A0);
+Serial.println(adc);</p>
+<p>float h = dht.readHumidity();
+float t = dht.readTemperature();</p>
+<p>if (isnan(h) || isnan(t) ) {
+Serial.println(&quot;Failed to read from DHT sensor!&quot;);
+return;
+}</p>
+<p>Serial.print(&quot;Humidity: &quot;);
+Serial.print(h);
+Serial.print(&quot; %\t&quot;);
+Serial.print(&quot;Temperature: &quot;);
+Serial.print(t);
+Serial.println(&quot; *C &quot;);</p>
+<p>// We now create a URI for the request
+String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
+url += adc;
+url += &quot;&amp;field2=&quot;;
+url += h;
+url += &quot;&amp;field3=&quot;;
+url += t;</p>
+<p>Serial.print(&quot;Requesting URL: &quot;);
+Serial.println(url);</p>
+<p>// This will send the request to the server
+client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
+&quot;Host: &quot; + host + &quot;\r\n&quot; +
+&quot;Connection: close\r\n\r\n&quot;);
+delay(10);</p>
+<p>// Read all the lines of the reply from server and print them to Serial
+while(client.available()){
+String line = client.readStringUntil('\r');
+Serial.print(line);
+}</p>
+<p>// Close connection
+Serial.println();
+Serial.println(&quot;closing connection&quot;);
+digitalWrite(WEBconLed, LOW);
+}</p></pre>
 
-void loop() {
-  delay(10000); // 10 sec
-  ++value;
- 
-  Serial.print(&quot;connecting to &quot;);
-  Serial.println(host);
- 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  const int httpPort = 80;
-  if (!client.connect(host, httpPort)) {
-    Serial.println(&quot;connection failed&quot;);
-    return;
-  }
-  
-  digitalWrite(WEBconLed, HIGH);
-  delay(1000);
-  count += 1;
-
-  Serial.print(&quot;ADC: &quot;);
-  adc = analogRead(A0);
-  Serial.println(adc);
- 
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
- 
-  if (isnan(h) || isnan(t) ) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
- 
-  Serial.print(&quot;Humidity: &quot;); 
-  Serial.print(h);
-  Serial.print(&quot; %\t&quot;);
-  Serial.print(&quot;Temperature: &quot;); 
-  Serial.print(t);
-  Serial.println(&quot; *C &quot;);
-  
-  // We now create a URI for the request
-  String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
-  url += adc;
-  url += &quot;&amp;field2=&quot;;
-  url += h;
-  url += &quot;&amp;field3=&quot;;
-  url += t;
-  
-  Serial.print(&quot;Requesting URL: &quot;);
-  Serial.println(url);
- 
-  // This will send the request to the server
-  client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
-               &quot;Host: &quot; + host + &quot;\r\n&quot; +
-               &quot;Connection: close\r\n\r\n&quot;);
-  delay(10);
- 
-  // Read all the lines of the reply from server and print them to Serial
-  while(client.available()){
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
-  }
- 
-  // Close connection
-  Serial.println();
-  Serial.println(&quot;closing connection&quot;);
-  digitalWrite(WEBconLed, LOW);
-}</pre>
-<p>&#160;</p>
+<p> </p>
 <p>データは、とまっているときもあるかもですが、以下で見れます。</p>
-<p>&#160;</p>
+<p> </p>
 <p><a title="https://thingspeak.com/channels/42239" href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://thingspeak.com/channels/42239<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>&#160;</p>
+<p> </p>
 <p><a href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="2015-06-15 1.19.12" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2015-06-15 1.19.12" src="/wp-content/uploads/2015/06/201506151-19-121.png" width="346" height="768"></a> </p>
-<p>&#160;</p>
-
+<p> </p>
 <p>部屋の温度がそこそこ高いので、実際に温度計を見てみましたところ、ほぼ適正な値でした。部屋暑すぎ。</p>
 <p><img loading="lazy" decoding="async" title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="/wp-content/uploads/2015/06/2.jpg" width="640" height="480"> </p>
-<p>&#160;</p>
+<p> </p>
 <p>これで、明るさ、温度、湿度が取れました。まだ、GPIO Pin があまっているので、気圧や、雨量、風向、風量など取ろうと思えば可能ですね。また、課題となるのは、電源です。結構シビアに電源品質が問われるようで、ぼろい電源だと途中で止まります。</p>
-<p>&#160;</p>
+<p> </p>
 <p>あと、sleep mode にして平常時に、パワーを抑えるように制御する必要があります。</p>
-<p>&#160;</p>
+<p> </p>
 <p>まだ、課題はありますね。</p>
 					</div>
 <!-- .entry-content -->
@@ -460,122 +433,72 @@ void loop() {
 <p><img loading="lazy" decoding="async" title="AM2302" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="AM2302" src="/wp-content/uploads/2015/06/am2302.jpg" width="640" height="480"> </p>
 <p>&#160;</p>
 <blockquote>
-<p><a title="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" href="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>3. Technical Specification:     <br>Model DHT22      <br>Power supply 3.3-6V DC      <br>Output signal digital signal via single-bus      <br>Sensing element Polymer capacitor      <br>Operating range humidity 0-100%RH; temperature -40~80Celsius      <br>Accuracy humidity +-2%RH(Max +-5%RH); temperature &lt;+-0.5Celsius      <br>Resolution or sensitivity humidity 0.1%RH; temperature 0.1Celsius      <br>Repeatability humidity +-1%RH; temperature +-0.2Celsius      <br>Humidity hysteresis +-0.3%RH      <br>Long-term Stability +-0.5%RH/year      <br>Sensing period Average: 2s      <br>Interchangeability fully interchangeable      <br>Dimensions small size 14*18*5.5mm; big size 22*28*5mm</p>
+<p><a href="https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>3. Technical Specification:     <br>Model DHT22      <br>Power supply 3.3-6V DC      <br>Output signal digital signal via single-bus      <br>Sensing element Polymer capacitor      <br>Operating range humidity 0-100%RH; temperature -40~80Celsius      <br>Accuracy humidity +-2%RH(Max +-5%RH); temperature &lt;+-0.5Celsius      <br>Resolution or sensitivity humidity 0.1%RH; temperature 0.1Celsius      <br>Repeatability humidity +-1%RH; temperature +-0.2Celsius      <br>Humidity hysteresis +-0.3%RH      <br>Long-term Stability +-0.5%RH/year      <br>Sensing period Average: 2s      <br>Interchangeability fully interchangeable      <br>Dimensions small size 14<em>18</em>5.5mm; big size 22<em>28</em>5mm</p>
 </blockquote>
 <p>&#160;</p>
 
 <p><img loading="lazy" decoding="async" title="datasheets_Sensors_Temperature_DHT22_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="datasheets_Sensors_Temperature_DHT22_pdf" src="/wp-content/uploads/2015/06/datasheets_sensors_temperature_dht22_pdf.png" width="429" height="480"> </p>
 <p>コートは、サンプルのです。華氏でシリアルプリントしている部分はいらないので、以下のようにしました。</p>
 <p>ライブラリは、以下を使いました。</p>
-<p>&#8212; Arduino library for DHT11DHT22 &#8212;   <br>https://github.com/adafruit/DHT-sensor-library</p>
+<p>&#8212; Arduino library for DHT11DHT22 &#8212;   <br><a href="https://github.com/adafruit/DHT-sensor-library" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/adafruit/DHT-sensor-library<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>&#160;</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- AM2302 DHT22 humidity/temperature sensors
- Read test.
- 
- --- AM2302 Aosong Guangzhou Electronics Co., Ltd. ---
- 3 to 5V power and I/O
- 2.5mA max current use during conversion (while requesting data)
- Good for 0-100% humidity readings with 2-5% accuracy
- Good for -40 to 125°C temperature readings ±0.5°C accuracy
- No more than 0.5 Hz sampling rate (once every 2 seconds)
- Body size 15.1mm x 25mm x 7.7mm
- 4 pins with 0.1&quot; spacing
- 
- --- Arduino library for DHT11DHT22 ---
- https://github.com/adafruit/DHT-sensor-library
- 
- JunkHack 2015.06.14
- */
+AM2302 DHT22 humidity/temperature sensors
+Read test.
+<p>--- AM2302 Aosong Guangzhou Electronics Co., Ltd. ---
+3 to 5V power and I/O
+2.5mA max current use during conversion (while requesting data)
+Good for 0-100% humidity readings with 2-5% accuracy
+Good for -40 to 125°C temperature readings ±0.5°C accuracy
+No more than 0.5 Hz sampling rate (once every 2 seconds)
+Body size 15.1mm x 25mm x 7.7mm
+4 pins with 0.1&quot; spacing</p>
+<p>--- Arduino library for DHT11DHT22 ---
+<a href="https://github.com/adafruit/DHT-sensor-library" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/adafruit/DHT-sensor-library<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>JunkHack 2015.06.14
+*/</p>
+<h1>include &quot;DHT.h&quot;</h1>
+<h1>define DHTPIN 2     // what pin we're connected to</h1>
+<p>// Uncomment whatever type you're using!
+//#define DHTTYPE DHT11   // DHT 11 </p>
+<h1>define DHTTYPE DHT22   // DHT 22  (AM2302)</h1>
+<p>//#define DHTTYPE DHT21   // DHT 21 (AM2301)</p>
+<p>// Initialize DHT sensor for normal 16mhz Arduino
+DHT dht(DHTPIN, DHTTYPE);</p>
+<p>void setup() {
+Serial.begin(9600);
+Serial.println(&quot;DHT22 AM2302 test!&quot;);</p>
+<p>dht.begin();
+}</p>
+<p>void loop() {
+// Wait a few seconds between measurements.
+delay(2000);</p>
+<p>// Reading temperature or humidity takes about 250 milliseconds!
+// Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
+float h = dht.readHumidity();
+// Read temperature as Celsius
+float t = dht.readTemperature();
+// Read temperature as Fahrenheit
+float f = dht.readTemperature(true);</p>
+<p>// Check if any reads failed and exit early (to try again).
+if (isnan(h) || isnan(t) || isnan(f)) {
+Serial.println(&quot;Failed to read from DHT sensor!&quot;);
+return;
+}</p>
+<p>// Compute heat index
+// Must send in temp in Fahrenheit!
+float hi = dht.computeHeatIndex(f, h);</p>
+<p>Serial.print(&quot;Humidity: &quot;);
+Serial.print(h);
+Serial.print(&quot; %\t&quot;);
+Serial.print(&quot;Temperature: &quot;);
+Serial.print(t);
+Serial.println(&quot; *C &quot;);
+}</p></pre>
 
-#include &quot;DHT.h&quot;
-#define DHTPIN 2     // what pin we're connected to
-
-// Uncomment whatever type you're using!
-//#define DHTTYPE DHT11   // DHT 11 
-#define DHTTYPE DHT22   // DHT 22  (AM2302)
-//#define DHTTYPE DHT21   // DHT 21 (AM2301)
-
-// Initialize DHT sensor for normal 16mhz Arduino
-DHT dht(DHTPIN, DHTTYPE);
-
-void setup() {
-  Serial.begin(9600); 
-  Serial.println(&quot;DHT22 AM2302 test!&quot;);
- 
-  dht.begin();
-}
-
-void loop() {
-  // Wait a few seconds between measurements.
-  delay(2000);
-
-  // Reading temperature or humidity takes about 250 milliseconds!
-  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-  float h = dht.readHumidity();
-  // Read temperature as Celsius
-  float t = dht.readTemperature();
-  // Read temperature as Fahrenheit
-  float f = dht.readTemperature(true);
-  
-  // Check if any reads failed and exit early (to try again).
-  if (isnan(h) || isnan(t) || isnan(f)) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
-
-  // Compute heat index
-  // Must send in temp in Fahrenheit!
-  float hi = dht.computeHeatIndex(f, h);
-
-  Serial.print(&quot;Humidity: &quot;); 
-  Serial.print(h);
-  Serial.print(&quot; %\t&quot;);
-  Serial.print(&quot;Temperature: &quot;); 
-  Serial.print(t);
-  Serial.println(&quot; *C &quot;);
-}</pre>
 <p>梅雨時なので、湿度が高いかしらね。温度は、常夏の気温ですが。暑すぎない？</p>
 <p>まぁ、こんな感じで湿度と、温度がとられていますね。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">DHT22 AM2302 test!
-Humidity: 43.10 %    Temperature: 31.30 *C 
-Humidity: 43.00 %    Temperature: 31.40 *C 
-Humidity: 42.70 %    Temperature: 31.40 *C 
-Humidity: 42.40 %    Temperature: 31.40 *C 
-Humidity: 42.40 %    Temperature: 31.40 *C 
-Humidity: 42.60 %    Temperature: 31.40 *C 
-Humidity: 44.10 %    Temperature: 31.40 *C 
-Humidity: 43.80 %    Temperature: 31.40 *C </pre>
-
-<p>&#160;</p>
-<p>今度は、これをESP8266 の ESP-12 で取れるようにしたいです。データを投げつけて IoT デバイスにしたいのですからね。</p>
-<p>ちなみに、抵抗を5.6Kのときのデータは以下のようでした。0.3度くらいは低かった感じです。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">▼5.6K
-DHT22 AM2302 test!
-Humidity: 43.10 %    Temperature: 31.20 *C 
-Humidity: 45.10 %    Temperature: 31.20 *C 
-Humidity: 45.10 %    Temperature: 31.20 *C 
-Humidity: 45.20 %    Temperature: 31.20 *C 
-Humidity: 44.60 %    Temperature: 31.20 *C 
-Humidity: 44.10 %    Temperature: 31.20 *C 
-Humidity: 44.90 %    Temperature: 31.20 *C 
-Humidity: 44.10 %    Temperature: 31.20 *C 
-Humidity: 43.50 %    Temperature: 31.20 *C 
-Humidity: 43.10 %    Temperature: 31.20 *C 
-
-▼11.2K
-DHT22 AM2302 test!
-Humidity: 42.60 %    Temperature: 31.50 *C 
-Humidity: 43.20 %    Temperature: 31.50 *C 
-Humidity: 44.00 %    Temperature: 31.50 *C 
-Humidity: 43.40 %    Temperature: 31.50 *C 
-Humidity: 44.20 %    Temperature: 31.50 *C 
-Humidity: 43.50 %    Temperature: 31.50 *C 
-Humidity: 44.00 %    Temperature: 31.50 *C 
-Humidity: 43.20 %    Temperature: 31.50 *C 
-Humidity: 42.70 %    Temperature: 31.50 *C 
-Humidity: 43.90 %    Temperature: 31.50 *C </pre>
 					</div>
 <!-- .entry-content -->
 
@@ -641,43 +564,6 @@ Humidity: 43.90 %    Temperature: 31.50 *C </pre>
 
 		<div class="entry-content">
 			<p>ESP-12 モジュールがかなり気に入りました。ので、電源を考えるにあたり、正式なスペックを調査しました。</p>
-<p>まず、このモジュールは、FCC のテストにパスしていてその資料がありました。</p>
-<blockquote>
-<p>AdaFruit datasheets</p>
-<p><a title="http://www.adafruit.com/datasheets/ESP12FCCtestreport.pdf" href="http://www.adafruit.com/datasheets/ESP12FCCtestreport.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.adafruit.com/datasheets/ESP12FCCtestreport.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>FCC ID: 2ADUIESP-12</p>
-</blockquote>
-<p>このレポートは、Shenzhen BCTC Technology Co., Ltd のFCC 認可されている機関のレポートです。</p>
-<p>そのほか、細かな資料は、下記からもたどれます。</p>
-<blockquote>
-<p>FCC ID Application Database</p>
-<p><a title="http://fccid.net/number.php?fcc=2ADUIESP-12&amp;id=253176#axzz3ZlD9eKZd" href="http://fccid.net/number.php?fcc=2ADUIESP-12&amp;id=253176#axzz3ZlD9eKZd" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://fccid.net/number.php?fcc=2ADUIESP-12&amp;id=253176#axzz3ZlD9eKZd<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>&#160;</p>
-<p>この中のUser Manual を見ると、</p>
-<p>&#160;</p>
-<blockquote>
-<p>AI-THINKER ESP—12 Wifi Manual V1.0 V2.1</p>
-<p><a title="http://fccid.net/document.php?id=2487404#axzz3ZlD9eKZd" href="http://fccid.net/document.php?id=2487404#axzz3ZlD9eKZd" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://fccid.net/document.php?id=2487404#axzz3ZlD9eKZd<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>&#160;</p>
-<p>MAXで300mA のようです。Soft-Off モードだとほとんど消費しませんね。これはどうやってこのモードにするんでしょうかね。何かコマンドがあるかとは思いますが。そのうち調べることにします。</p>
-<p><img loading="lazy" decoding="async" title="FCCID_NET-2487404__1__pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="FCCID_NET-2487404__1__pdf" src="/wp-content/uploads/2015/05/fccid_net2487404__1__pdf.png" width="540" height="768"> </p>
-<p>&#160;</p>
-<p><img loading="lazy" decoding="async" title="FCCID_NET-2487404__1__pdf 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="FCCID_NET-2487404__1__pdf 2" src="/wp-content/uploads/2015/05/fccid_net2487404__1__pdf2.png" width="537" height="768"> </p>
-
-<p>データをWiFi で飛ばすときは、そこそこ消費するのでSleep させておいて必要なときだけ飛ばすようにすれば電池がもちそうです。データの観測は1分に1回くらいでいいので、そんなプログラムを作ればよさそうですね。</p>
-<p>&#160;</p>
-<p>さらなる情報はこちらにありそう。リンクだけメモ。</p>
-<blockquote>
-<p><a title="http://www.ai-thinker.com/" href="http://www.ai-thinker.com/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.ai-thinker.com/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a title="https://twitter.com/EspressifSystem" href="https://twitter.com/EspressifSystem" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://twitter.com/EspressifSystem<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a title="https://twitter.com/hashtag/ESP8266?src=hash" href="https://twitter.com/hashtag/ESP8266?src=hash" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://twitter.com/hashtag/ESP8266?src=hash<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a title="http://espressif.com/new-sdk-release/" href="http://espressif.com/new-sdk-release/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://espressif.com/new-sdk-release/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a title="https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/overview" href="https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/overview" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/overview<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a title="http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/" href="http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p><a title="http://blog.squix.ch/2015/05/esp8266-long-term-data-logger-test-with.html" href="http://blog.squix.ch/2015/05/esp8266-long-term-data-logger-test-with.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://blog.squix.ch/2015/05/esp8266-long-term-data-logger-test-with.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 
@@ -713,13 +599,13 @@ Humidity: 43.90 %    Temperature: 31.50 *C </pre>
 <p>&#160;</p>
 <blockquote>
 <p>TP4056.pdf</p>
-<p><a title="http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" href="http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" href="http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf">http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>&#160;</p>
 <p>DW01x-DS-17_EN.pdf</p>
-<p><a title="http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf" href="http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf" href="http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf">http://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>&#160;</p>
 <p>ML8205A</p>
-<p><a title="http://www.datasheet4u.com/datasheet/M/L/8/ML8205A-MEILAI.pdf.html" href="http://www.datasheet4u.com/datasheet/M/L/8/ML8205A-MEILAI.pdf.html" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.datasheet4u.com/datasheet/M/L/8/ML8205A-MEILAI.pdf.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://www.datasheet4u.com/datasheet/M/L/8/ML8205A-MEILAI.pdf.html" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.datasheet4u.com/datasheet/M/L/8/ML8205A-MEILAI.pdf.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>&#160;</p>
 <p><img loading="lazy" decoding="async" title="2015_05_10_2_14" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2015_05_10_2_14" src="/wp-content/uploads/2015/05/2015_05_10_2_14.png" width="633" height="480"> </p>
@@ -729,7 +615,7 @@ Humidity: 43.90 %    Temperature: 31.50 *C </pre>
 <p><img loading="lazy" decoding="async" title="IMG_0276" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_0276" src="/wp-content/uploads/2015/05/img_0276.jpg" width="640" height="480"> <img loading="lazy" decoding="async" title="IMG_0277" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMG_0277" src="/wp-content/uploads/2015/05/img_0277.jpg" width="640" height="480">&#160; </p>
 
 <p>ジュリアンさんの解説映像がわかりやすいです。発音もいいですしね。</p>
-<p> [youtube https://www.youtube.com/watch?v=Qw4psECqpwI]  </p>
+<p> [youtube <a href="https://www.youtube.com/watch?v=Qw4psECqpwI" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://www.youtube.com/watch?v=Qw4psECqpwI<span class="wpel-icon wpel-image wpel-icon-1"></span></a>]  </p>
 <p>IoTデバイス用にと思っていますが、まだ電池ボックスがないんですよね。あぁ、3Dプリンターがほしいぃ。</p>
 					</div>
 <!-- .entry-content -->

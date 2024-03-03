@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -259,141 +259,90 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>こんな感じで、電源はRasPi2 から取っていますので蓋の中に収められそうです。</p>
 <p> <img decoding="async" title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480">   </p>
 <p>ESP-12 に収めるプログラムは、なんとサンプルスケッチの中にありました。WiFiTelnetToSerial です。   </p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/* 
-  WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
-
-  Copyright (c) 2015 Hristo Gochkov. All rights reserved.
-  This file is part of the ESP8266WiFi library for Arduino environment.
- 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-#include &lt;ESP8266WiFi.h&gt;
-
-//how many clients should be able to telnet to this ESP8266
-#define MAX_SRV_CLIENTS 1
-const char* ssid = &quot;yyyyy&quot;;
-const char* password = &quot;xxxxx&quot;;
-
-WiFiServer server(23);
-WiFiClient serverClients[MAX_SRV_CLIENTS];
-
-void setup() {
-  Serial1.begin(115200);
-  WiFi.begin(ssid, password);
-  Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
-  uint8_t i = 0;
-  while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
-  if(i == 21){
-    Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
-    while(1) delay(500);
-  }
-  //start UART and the server
-  Serial.begin(115200);
-  server.begin();
-  server.setNoDelay(true);
-  
-  Serial1.print(&quot;Ready! Use 'telnet &quot;);
-  Serial1.print(WiFi.localIP());
-  Serial1.println(&quot; 23' to connect&quot;);
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
+<p>Copyright (c) 2015 Hristo Gochkov. All rights reserved.
+This file is part of the ESP8266WiFi library for Arduino environment.</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/</p>
+<h1>include &lt;ESP8266WiFi.h&gt;</h1>
+<p>//how many clients should be able to telnet to this ESP8266</p>
+<h1>define MAX_SRV_CLIENTS 1</h1>
+<p>const char<em> ssid = &quot;yyyyy&quot;;
+const char</em> password = &quot;xxxxx&quot;;</p>
+<p>WiFiServer server(23);
+WiFiClient serverClients[MAX_SRV_CLIENTS];</p>
+<p>void setup() {
+Serial1.begin(115200);
+WiFi.begin(ssid, password);
+Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
+uint8_t i = 0;
+while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
+if(i == 21){
+Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
+while(1) delay(500);
 }
+//start UART and the server
+Serial.begin(115200);
+server.begin();
+server.setNoDelay(true);</p>
+<p>Serial1.print(&quot;Ready! Use 'telnet &quot;);
+Serial1.print(WiFi.localIP());
+Serial1.println(&quot; 23' to connect&quot;);
+}</p>
+<p>void loop() {
+uint8_t i;
+//check if there are any new clients
+if (server.hasClient()){
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+//find free/disconnected spot
+if (!serverClients[i] || !serverClients[i].connected()){
+if(serverClients[i]) serverClients[i].stop();
+serverClients[i] = server.available();
+Serial1.print(&quot;New client: &quot;); Serial1.print(i);
+continue;
+}
+}
+//no free/disconnected spot so reject
+WiFiClient serverClient = server.available();
+serverClient.stop();
+}
+//check clients for data
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+if(serverClients[i].available()){
+//get data from the telnet client and push it to the UART
+while(serverClients[i].available()) Serial.write(serverClients[i].read());
+}
+}
+}
+//check UART for data
+if(Serial.available()){
+size_t len = Serial.available();
+uint8_t sbuf[len];
+Serial.readBytes(sbuf, len);
+//push UART data to all connected telnet clients
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+serverClients[i].write(sbuf, len);
+delay(1);
+}
+}
+}
+}</p></pre>
 
-void loop() {
-  uint8_t i;
-  //check if there are any new clients
-  if (server.hasClient()){
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      //find free/disconnected spot
-      if (!serverClients[i] || !serverClients[i].connected()){
-        if(serverClients[i]) serverClients[i].stop();
-        serverClients[i] = server.available();
-        Serial1.print(&quot;New client: &quot;); Serial1.print(i);
-        continue;
-      }
-    }
-    //no free/disconnected spot so reject
-    WiFiClient serverClient = server.available();
-    serverClient.stop();
-  }
-  //check clients for data
-  for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-    if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-      if(serverClients[i].available()){
-        //get data from the telnet client and push it to the UART
-        while(serverClients[i].available()) Serial.write(serverClients[i].read());
-      }
-    }
-  }
-  //check UART for data
-  if(Serial.available()){
-    size_t len = Serial.available();
-    uint8_t sbuf[len];
-    Serial.readBytes(sbuf, len);
-    //push UART data to all connected telnet clients
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-        serverClients[i].write(sbuf, len);
-        delay(1);
-      }
-    }
-  }
-}</pre>
 <p>ArduinoIDE へ、ESP8266 Arduino Core の最新（ver. 1.6.5-1044-g170995a, built on Aug 10, 2015）を収めました。</p>
 <p>SDK1.3 が収まったものは、以下のStaging versionから入れました。</p>
-<blockquote>
-<p><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Staging version<br>
-    <br>Boards manager link: http://arduino.esp8266.com/staging/package_esp8266com_index.json</p>
-</blockquote>
-<p>リファレンスも出来て、だんだんと充実してきたようです。</p>
-<p><a href="http://arduino.esp8266.com/versions/1.6.5-1044-g170995a/doc/reference.html" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img decoding="async" title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></a> </p>
-<p>スケッチは、スケッチの例＞ESP8266Wifi ＞WiFiTelnetToSerial のところから辿っていきます。<br>
-  <br>ボード設定は、以下のようにしました。</p>
-<blockquote>
-<p>Borad : Generic ESP8266 Module<br>
-    <br>Flash mode : QIO</p>
-<p>Flash frequency : 40Mhz</p>
-<p>CPU frequency : 80Mhz</p>
-<p>Flash size : 4M (3M SPIFFS)</p>
-<p>Upload speed : 115200</p>
-</blockquote>
-<p>配線は、RasPi2 の TX RX を ESP12 のRX TX へつなぎ、3.3V のVCC と GND をつなぐ感じ。RasPiには、シリアルコンソールの設定がしてある状態で電源ON</p>
-<p>5,6秒ほどで、ESP12 がアクセスポイントへ接続するので、ESP12 がIP を何をとっているか、DHCPの払い出しIP をを見て、以下のコマンドで接続。socat は brew で入れました。</p>
-<blockquote>
-<p>
-    <br>$ socat STDIN tcp-connect:192.168.1.36:23</p>
-</blockquote>
-<p>これで、シリアル接続のものは、WiFi 化できそうです。接続するツールは工夫する必要がありそうです。たとえば、osx だと、MultiCom というツールがあり、接続をパイプできるので便利です。</p>
-<p><img loading="lazy" decoding="async" title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"> </p>
-<p><img loading="lazy" decoding="async" title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652">&#160; <br>まだ、あんまり使い方はわかっていないんですが、IPとポート指定で ESP12 のWiFi へ接続し、それをローカルのプロキシーのようなものに接続し、複数接続できるようです。Windows のcom0com のようなのが欲しかったのですが、osx では見つけられませんでした。</p>
-<p>あと、リモートからだと、コンソールのサイズも大きいほうが使いやすいので、getty の設定を以下のように変更。</p>
-<blockquote>
-<p> &#8212;- /etc/default/console-setup</p>
-<p>::</p>
-<p>SCREEN_WIDTH=150<br>
-    <br>SCREEN_HEIGHT=60</p>
-</blockquote>
-<p>あと、環境変数へ設定。</p>
-<blockquote>
-<p>&#8212;- .bashrc</p>
-<p>::</p>
-<p>export LINES=150<br>
-    <br>export COLUMNS=60</p>
-</blockquote>
-<p>とりあえず、こんな感じで使えるようになりました。tab補完や、そういうのはどうやるんでしょうね？ま、おいおい。</p>
-<p>USB to シリアル がなくてもワイヤレスで、シリアルが使えるというのはなんとも、慣れないですが、今後活用のアイデアも出てくるかもしれません。ESP12 に下駄をはかせず、基盤にうまく実装すれば蓋の中に納まりそうですし。RasPiのベアメタル開発に手を出したときには便利かもしれませんね。</p>
-<p>リチウム電池とESPを組み合わせて、単品のシリアルWiFi機器とすれば、何か応用できるかもです。</p>
 					</div>
 <!-- .entry-content -->
 
@@ -424,7 +373,7 @@ void loop() {
 			<p>osx 上の nfs で RasPi をブートしているので、タイムマシンからインストール直後に復元できるかやってみました。</p>
 <p>&#160;</p>
 <p>まず、インストール直後、pi の電源を落とした状態で、タイムマシーンでバックアップを取得。対象は、nfs 直下のところだけにしています。</p>
-<p><img loading="lazy" decoding="async" title="Time_Machine" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Time_Machine" src="/wp-content/uploads/2015/07/time_machine.png" width="640" height="428"> </p>
+<p><img decoding="async" title="Time_Machine" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Time_Machine" src="/wp-content/uploads/2015/07/time_machine.png" width="640" height="428"> </p>
 <p>現在の、パッケージ数の状態</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi modules 07/26 06:19:54]# dpkg -l | wc -l
 875
@@ -479,152 +428,6 @@ void loop() {
 
 		<div class="entry-content">
 			<p>ubuntu のパッケージ管理は慣れていないので、すぐ忘れちゃうのでとりあえずメモ。</p>
-<p>確認後にインストールするオプションみたいなのは、どれですかね？-u とか、-s とか？</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">コマンド</th>
-<th style="text-align:left;">内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"><code>apt-get install [package]</code></td>
-<td style="text-align:left;">パッケージのインストール/更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get update</code></td>
-<td style="text-align:left;">パッケージリストの更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get upgrade</code></td>
-<td style="text-align:left;">インストールされてるパッケージの更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get dist-upgrade</code></td>
-<td style="text-align:left;">インストールされてるパッケージの更新/ディストリビューションの更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>dpkg -l [package]</code></td>
-<td style="text-align:left;">インストールされてるパッケージの一覧</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>dpkg -L</code></td>
-<td style="text-align:left;">インストールした時のファイルの一覧</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-cache search [query]</code></td>
-<td style="text-align:left;">パッケージの検索</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get remove [package]</code></td>
-<td style="text-align:left;">パッケージの削除</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get autoremove</code></td>
-<td style="text-align:left;">使ってないパッケージの削除</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get purge [package]</code></td>
-<td style="text-align:left;">パッケージの削除（設定ファイルも）</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get clean</code></td>
-<td style="text-align:left;">アーカイブファイルの削除</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get clean</code></td>
-<td style="text-align:left;">使ってないパッケージのアーカイブファイルの削除</td>
-</tr>
-</tbody>
-</table>
-<p>参考</p>
-<blockquote>
-<p>[Ubuntu] apt-get まとめ      <br><a title="http://qiita.com/white_aspara25/items/723ae4ebf0bfefe2115c" href="http://qiita.com/white_aspara25/items/723ae4ebf0bfefe2115c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://qiita.com/white_aspara25/items/723ae4ebf0bfefe2115c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>▼オプション</p>
-<table class="commands_options">
-<tbody>
-<tr>
-<td>-d</td>
-<td>パッケージのダウンロードのみを行います。展開・インストールは行いません。</td>
-</tr>
-<tr>
-<td>-f</td>
-<td>パッケージの依存性がおかしくなった場合、その修復を試みます。</td>
-</tr>
-<tr>
-<td>-q</td>
-<td>quietモードです。進捗状況を表示しません。</td>
-</tr>
-<tr>
-<td>-u</td>
-<td>アップデートするパッケージの一覧を表示します。</td>
-</tr>
-<tr>
-<td>-s</td>
-<td>なにが起こるのかのシミュレーションを行い、実際にはシステムの変更を行わない。</td>
-</tr>
-<tr>
-<td>-y</td>
-<td>インタラクティブ（ユーザーへの問い合わせ）に「yes」と答えます。</td>
-</tr>
-</tbody>
-</table>
-<p>参考</p>
-<blockquote>
-<p>apt-get &#8211; パッケージの操作・管理 &#8211; Linuxコマンド     <br><a title="http://webkaru.net/linux/apt-get-command/" href="http://webkaru.net/linux/apt-get-command/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://webkaru.net/linux/apt-get-command/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Ubuntu Manpage_ apt-get </p>
-<p><a title="http://manpages.ubuntu.com/manpages/lucid/ja/man8/apt-get.8.html" href="http://manpages.ubuntu.com/manpages/lucid/ja/man8/apt-get.8.html" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://manpages.ubuntu.com/manpages/lucid/ja/man8/apt-get.8.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>&#160;</p>
-<p>apt-get upgrade のとき何が起きるのか不明で確認したかったので、-s でシュミレーション。</p>
-<p>以下のようになった。とりあえず、これでいいや。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi ~ 07/26 07:01:35]# apt-get upgrade -s
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-The following packages will be upgraded:
-  bind9-host cups-bsd cups-client cups-common fuse libbind9-80 libcups2 libcupsimage2 libdns88 libfuse2 libisc84 libisccc80 libisccfg82 liblwres80
-  libsdl1.2debian libsqlite3-0 libssl1.0.0 openssl
-18 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Inst libssl1.0.0 [1.0.1e-2+rvt+deb7u16] (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-Inst libsqlite3-0 [3.7.13-1+deb7u1] (3.7.13-1+deb7u2 Raspbian:7.0/oldstable [armhf])
-Inst libcupsimage2 [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf]) []
-Inst cups-common [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [all]) []
-Inst cups-bsd [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf]) []
-Inst cups-client [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf]) []
-Inst libcups2 [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Inst fuse [2.9.0-2+deb7u1] (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf]) []
-Inst libfuse2 [2.9.0-2+deb7u1] (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf])
-Inst libsdl1.2debian [1.2.15-5] (1.2.15-5+rpi1 Raspberry Pi Foundation:oldstable [armhf])
-Inst bind9-host [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libisc84 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libdns88 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libisccc80 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libisccfg82 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libbind9-80 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst liblwres80 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Inst openssl [1.0.1e-2+rvt+deb7u16] (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-Conf libssl1.0.0 (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-Conf libsqlite3-0 (3.7.13-1+deb7u2 Raspbian:7.0/oldstable [armhf])
-Conf libcups2 (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf libcupsimage2 (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf cups-common (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [all])
-Conf cups-client (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf cups-bsd (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf libfuse2 (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf])
-Conf fuse (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf])
-Conf libsdl1.2debian (1.2.15-5+rpi1 Raspberry Pi Foundation:oldstable [armhf])
-Conf libisc84 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libdns88 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libisccc80 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libisccfg82 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libbind9-80 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf liblwres80 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf bind9-host (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf openssl (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-[root@pi ~ 07/26 07:02:12]# </pre>
 					</div>
 <!-- .entry-content -->
 
@@ -653,21 +456,6 @@ Conf openssl (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
 
 		<div class="entry-content">
 			<p>fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。</p>
-<p>母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD </p>
-<blockquote>
-<p>cd /usr/local/src/     <br>sudo apt-get install -y libaio-dev      <br>git clone -b fio-2.2.5 git://git.kernel.dk/fio.git      <br>cd fio      <br>./configure &amp;&amp; make &amp;&amp; sudo make install      <br>cd ..      <br>wget <a href="http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      <br>fio fio-crystaldiskmark | perl -ne &#8216;      <br>print &quot;$1 : &quot; if(/(.+): \(groupid=/);      <br>print &quot;$1 &quot; if(/bw=([\d. ]+[KM]?B\/s)/);      <br>print &quot;[ $1 IOPS]\n&quot; if(/iops=(\d+)/)&#8217;</p>
-</blockquote>
-<p>4K の読み書きが SDCard よりだんぜん速いです。</p>
-<blockquote>
-<p>Seq-Read : 9555.8KB/s [ 9 IOPS]     <br>Seq-Write : 10250KB/s [ 10 IOPS]      <br>Rand-Read-512K : 9145.4KB/s [ 17 IOPS]      <br>Rand-Write-512K : 10085KB/s [ 19 IOPS]      <br>Rand-Read-4K : 3624.8KB/s [ 906 IOPS]      <br>Rand-Write-4K : 3300.5KB/s [ 825 IOPS]      <br>Rand-Read-4K-QD32 : 8885.1KB/s [ 2221 IOPS]      <br>Rand-Write-4K-QD32 : 10492KB/s [ 2622 IOPS]</p>
-</blockquote>
-<p>なるほどー。いいかも。</p>
-<p>&#160;</p>
-<p>参考</p>
-<blockquote>
-<p>discypus.jp/wiki/ </p>
-<p><a href="http://discypus.jp/wiki/?%C1%C8%A4%DF%B9%FE%A4%DF%2FRaspberryPi#content_1_45" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">fio &#8211; Flexible I/O Tester (2015-02-22)<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 
@@ -706,7 +494,7 @@ Conf openssl (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
 <p>・SDCard の FATフォーマットの boot の cmdline.txt へ nfs boot する設定と、IP の設定</p>
 <p>&#160;</p>
 <p>▼osx の NFS Server 側</p>
-<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルは<a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/nfsd.8.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。</p>
+<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルはここ。</p>
 <blockquote>
 <p>&#8212;- /etc/exports      <br>/nfs/fedora22 -rw -mapall=root:wheel -network 192.168.1.0 -mask 255.255.255.0</p>
 </blockquote>
@@ -758,98 +546,20 @@ Conf openssl (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
 </blockquote>
 <p>シリアルコンソールのブートログは、</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[    4.638898] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
+<p>[    4.674857] IP-Config: Complete:</p>
+<p>[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1</p>
+<p>[    4.694694]      host=rpi, domain=, nis-domain=(none)</p>
+<p>[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=</p>
+<p>[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.</p>
+<p>[    4.729328] devtmpfs: mounted</p>
+<p>[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)</p>
+<p>[    5.132474] random: nonblocking pool is initialized</p>
+<p>[    6.228285] udevd[177]: starting version 175</p>
+<p>Raspbian GNU/Linux 7 pi ttyAMA0</p>
+<p>pi login: </p></pre>
 
-[    4.674857] IP-Config: Complete:
-
-[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1
-
-[    4.694694]      host=rpi, domain=, nis-domain=(none)
-
-[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=
-
-[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.
-
-[    4.729328] devtmpfs: mounted
-
-[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)
-
-[    5.132474] random: nonblocking pool is initialized
-
-[    6.228285] udevd[177]: starting version 175
-
-
-
-Raspbian GNU/Linux 7 pi ttyAMA0
-
-
-
-pi login: </pre>
 <p>となっています。</p>
 <p>NFS Boot させたあと、uname したら、</p>
-<blockquote>
-<p>root@pi:~# uname -a<br>
-    <br>Linux pi 4.0.7-v7+ #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015 armv7l GNU/Linux</p>
-<p>root@pi:~# </p>
-</blockquote>
-<p>げ、fedora の initramfs からブートしてます。SDCard の boot は、初回にスクリプトで作ったやつだった。。。。</p>
-<blockquote>
-<p>root@pi:/boot# ll *.img<br>
-    <br>-rwxr-xr-x 1 root root 39176850 Jul&#160; 4 17:40 initramfs-0-rescue-18b4f0b4546f49828e1ef5e652cc7b9a.img</p>
-<p>-rwxr-xr-x 1 root root 16475761 Jul&#160; 4 17:36 initramfs-4.0.6-300.fc22.armv7hl+lpae.img</p>
-<p>-rwxr-xr-x 1 root root&#160; 3987856 Jul&#160; 2 23:35 kernel7.img</p>
-<p>-rwxr-xr-x 1 root root&#160; 4016696 Jul&#160; 2 23:35 kernel.img</p>
-<p>root@pi:/boot# </p>
-</blockquote>
-<p>たぶん、RASPIAN のimg の boot からやれば、良いはず。まだ試していませんが。</p>
-<p>df はこんな感じで、ルートがnfs になっています。76Gも空きがあるー（osx 側のディスクですが）</p>
-<blockquote>
-<p>root@pi:~# df -hT<br>
-    <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Type&#160;&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on</p>
-<p>192.168.1.17:/nfs/fedora22 nfs&#160;&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /</p>
-<p>devtmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; devtmpfs&#160; 459M&#160;&#160;&#160;&#160; 0&#160; 459M&#160;&#160; 0% /dev</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160;&#160; 93M&#160; 216K&#160;&#160; 93M&#160;&#160; 1% /run</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 5.0M&#160;&#160;&#160;&#160; 0&#160; 5.0M&#160;&#160; 0% /run/lock</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 186M&#160;&#160;&#160;&#160; 0&#160; 186M&#160;&#160; 0% /run/shm</p>
-<p>/dev/mmcblk0p1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; vfat&#160;&#160;&#160;&#160;&#160; 200M&#160;&#160; 98M&#160; 102M&#160; 50% /boot</p>
-</blockquote>
-<p>このままだと、モジュールを読み込んでいないので使えませんが、、、</p>
-<blockquote>
-<p>root@pi:~# lsmod<br>
-    <br>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
-<p>root@pi:~# ll /lib/modules/</p>
-<p>total 8</p>
-<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11+</p>
-<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11-v7+</p>
-<p>root@pi:~# </p>
-</blockquote>
-<p>Boot の img を RASPBIAN のに入れ替えて、リブート</p>
-<blockquote>
-<p>[root@pi ~ 07/25 20:40:51]# ll /boot/*.img<br>
-    <br>-rwxr-xr-x 1 root root 3930004 Apr 27 13:40 /boot/kernel7.img</p>
-<p>-rwxr-xr-x 1 root root 3974884 Apr 27 13:40 /boot/kernel.img</p>
-</blockquote>
-<p>これでkernel も ローダブルモジュールもOK な感じ。</p>
-<blockquote>
-<p>[root@pi ~ 07/25 20:41:40]# uname -a<br>
-    <br>Linux pi 3.18.11-v7+ #781 SMP PREEMPT Tue Apr 21 18:07:59 BST 2015 armv7l GNU/Linux</p>
-<p>[root@pi ~ 07/25 20:44:14]# lsmod</p>
-<p>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
-<p>cfg80211&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 386508&#160; 0 </p>
-<p>rfkill&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 16651&#160; 1 cfg80211</p>
-<p>rpcsec_gss_krb5&#160;&#160;&#160;&#160;&#160;&#160;&#160; 20958&#160; 0 </p>
-<p>nfsd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 263569&#160; 2 </p>
-<p>snd_bcm2835&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 18649&#160; 0 </p>
-<p>snd_pcm&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 73475&#160; 1 snd_bcm2835</p>
-<p>snd_seq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 53078&#160; 0 </p>
-<p>snd_seq_device&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 5628&#160; 1 snd_seq</p>
-<p>snd_timer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 17784&#160; 2 snd_pcm,snd_seq</p>
-<p>snd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 51038&#160; 5 snd_bcm2835,snd_timer,snd_pcm,snd_seq,snd_seq_device</p>
-<p>8192cu&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 528365&#160; 0 </p>
-<p>joydev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8879&#160; 0 </p>
-<p>evdev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 9950&#160; 2 </p>
-<p>uio_pdrv_genirq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 2958&#160; 0 </p>
-<p>uio&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8119&#160; 1 uio_pdrv_genirq</p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 

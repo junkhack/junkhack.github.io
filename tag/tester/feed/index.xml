@@ -76,9 +76,9 @@
 		<guid isPermaLink="false">/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/</guid>
 							<description><![CDATA[これ、いつも使っているiPhoneの予備バッテリ。 DXにて、1500-1600円くらいのもの。１年くらい前に買ったんだけどね。DXはなかなか魅力的な素材が転がっているので、非常に魅力的です。送料無料で数百円の品でも送っ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8641" border="0" alt="IMGP8641" src="/wp-content/uploads/2011/02/imgp8641.jpg" width="498" height="338" />   </p>
-<p>これ、いつも使っているiPhoneの予備バッテリ。    <br /><a href="http://www.dealextreme.com/p/white-light-led-flashlight-emergency-usb-charger-with-cell-phone-adapters-18883" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">DX<span class="wpel-icon wpel-image wpel-icon-1"></span></a>にて、1500-1600円くらいのもの。１年くらい前に買ったんだけどね。DXはなかなか魅力的な素材が転がっているので、非常に魅力的です。送料無料で数百円の品でも送ってきますからね。    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8643" border="0" alt="IMGP8643" src="/wp-content/uploads/2011/02/imgp8643.jpg" width="498" height="338" />     <br />電池は、18650のリチウム電池。このUSB電源はなかなか安定していて、iPhone4もほぼ０％の状態から100％まで充電してくれる、なかなかの優れもの。充電機能もあって、バッテリ残量もLEDで4段階に表示してくれるので普段使いに重宝しています。    </p>
+<p>これ、いつも使っているiPhoneの予備バッテリ。    <br />DXにて、1500-1600円くらいのもの。１年くらい前に買ったんだけどね。DXはなかなか魅力的な素材が転がっているので、非常に魅力的です。送料無料で数百円の品でも送ってきますからね。    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8643" border="0" alt="IMGP8643" src="/wp-content/uploads/2011/02/imgp8643.jpg" width="498" height="338" />     <br />電池は、18650のリチウム電池。このUSB電源はなかなか安定していて、iPhone4もほぼ０％の状態から100％まで充電してくれる、なかなかの優れもの。充電機能もあって、バッテリ残量もLEDで4段階に表示してくれるので普段使いに重宝しています。    </p>
 <p>で、これのUSB Pin1の電圧の推移をiPhone4に接続したときどんな感じで推移するのか見てみました。100円ショップの一応、iPhone4も充電できる改造したUSB電池BOXのように電圧がグラグラしてないといいよなぁって思って、実際どうなのか見てみました。    </p>
-<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8644" border="0" alt="IMGP8644" src="/wp-content/uploads/2011/02/imgp8644.jpg" width="498" height="338" />     <br />まず、無負荷では、5.26Vのようです。Pin2,3は配線されていなく0V。これ、充電コードは２芯タイプで、秘訣はiPhone側に挿すアダプタの中にあるようです。コネクタをバラした画像があって、    <br /><a title="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" href="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />こんな感じで、コネクタの中で抵抗分圧してるようです。iPhone Doc側のpin配置はまた別の機会にやるとして、今回はこれの電圧を計ってみます。    </p>
+<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8644" border="0" alt="IMGP8644" src="/wp-content/uploads/2011/02/imgp8644.jpg" width="498" height="338" />     <br />まず、無負荷では、5.26Vのようです。Pin2,3は配線されていなく0V。これ、充電コードは２芯タイプで、秘訣はiPhone側に挿すアダプタの中にあるようです。コネクタをバラした画像があって、    <br /><a href="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"><a href="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338"><a href="http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338">http://www.dealextreme.com/feedbacks/browseCustomerPhotos.dx/sku.18883~id.61338<span class="wpel-icon wpel-image wpel-icon-1"></span></a></a></a>    <br />こんな感じで、コネクタの中で抵抗分圧してるようです。iPhone Doc側のpin配置はまた別の機会にやるとして、今回はこれの電圧を計ってみます。    </p>
 <p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image37.png" width="498" height="287" />     <br />5.27Vくらいから、接続した直後4.68Vと変わりなく、推移して4.65-4.7Vを安定推移しています。なかなか安定していますね。ほほ～、ですね。    </p>
 <p>昇圧回路が優秀なのか、電池が優秀なのかはわかりませんが、（まだバラしてない）、少し高めの電圧（5.27V)を出力しているようです。添付の説明書には、出力5V1Aって書いてありました。    </p>
 <p>んじゃ、最後に純正のAC電源。    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8645" border="0" alt="IMGP8645" src="/wp-content/uploads/2011/02/imgp8645.jpg" width="498" height="338" />     <br />無負荷時、5.11V    </p>
@@ -86,7 +86,7 @@
 <p>USB Pin3 2.03V    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8647" border="0" alt="IMGP8647" src="/wp-content/uploads/2011/02/imgp8647.jpg" width="498" height="338" />     </p>
 <p>で、iPhone4を充電時。5.08V   <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8648" border="0" alt="IMGP8648" src="/wp-content/uploads/2011/02/imgp8648.jpg" width="498" height="338" /> </p>
 <p>さすがは、ACアダプターですね。   <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image38.png" width="498" height="287" />     <br />5.08-5.09Vの間で安定推移。なるほどですね～。    </p>
-<p>こんな品質のUSB電池BOXがあったらいいですよね。    <br /><em>eneloop mobile booster</em>(エネループ モバイルブースター) <a href="http://jp.sanyo.com/eneloop/lineup/booster.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">KBC-L2BS<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なんかは、iPadも充電できちゃうし、やっぱり高品質なんでしょうね。    </p>
+<p>こんな品質のUSB電池BOXがあったらいいですよね。    <br /><em>eneloop mobile booster</em>(エネループ モバイルブースター) KBC-L2BSなんかは、iPadも充電できちゃうし、やっぱり高品質なんでしょうね。    </p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/2011/02/20/post-221.html/feed/</wfw:commentRss>
@@ -130,32 +130,6 @@
 </p>
 <p>2.72Vから、かっくんして2.5V程度になったあと、3Vあたりを安定推移。Pin3はあがるのね。   </p>
 <p>ほぉ～。</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ＰＣ接続テスターぽちった</title>
-		<link>/2011/02/19/post-203.html</link>
-		
-		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Fri, 18 Feb 2011 19:45:17 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[オシロスコープ]]></category>
-		<category><![CDATA[テスター]]></category>
-		<category><![CDATA[雑談]]></category>
-		<guid isPermaLink="false">/2011/02/19/%ef%bd%90%ef%bd%83%e6%8e%a5%e7%b6%9a%e3%83%86%e3%82%b9%e3%82%bf%e3%83%bc%e3%81%bd%e3%81%a1%e3%81%a3%e3%81%9f/</guid>
-							<description><![CDATA[長らく、アナログテスターでがんばってきたけどやっぱり目の前にパソコンあるとつなぎたくなるよね。 本当は4チャンネルかそこらの、データロガーが欲しかったんだけど、なかなか安値でいいのが見つからなくて。 簡易的なものでもいい [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>長らく、アナログテスターでがんばってきたけどやっぱり目の前にパソコンあるとつなぎたくなるよね。   <br />本当は4チャンネルかそこらの、データロガーが欲しかったんだけど、なかなか安値でいいのが見つからなくて。    </p>
-<p>簡易的なものでもいいから、なんかないかなぁって。お、そういえば、テスタってＰＣにつなげるのあるよなって。ググったら、結構安いんだよね。1万くらいはするかなって思ったけども、なんと4000円弱であるではないですか。    </p>
-<p>そんな中で候補にあがったのが、2機種。    <br /><img decoding="async" src="http://www.p-mastech.com/products/04_dm/mas345_h.jpg" />MAS-345 (<a href="http://www.p-mastech.com/products/04_dm/mas345.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">MAS345 DIGITAL MULTIMETER<span class="wpel-icon wpel-image wpel-icon-1"></span></a>)     <br />秋月電子にて3850円    <br /><img decoding="async" src="http://www.p-mastech.com/products/12_a/t3012_h.jpg" />    <br />定番の安値でＰＣ接続できるヤツですね。    </p>
-<p>これもお値打ちだよ～。    <br /><img decoding="async" src="http://www.p-mastech.com/products/04_dm/ms8226_h.jpg" />MS-8226 （<a href="http://www.p-mastech.com/products/04_dm/ms8226.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ＭＳ8226 DIGITAL MULTIMETERS<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）    <br />amazonにて3980円 ポチッたら最後の一台だったみたい。プリント基板センターPBでは4290円    <br />※MS8226T っていうのは、True RMS valueだけど。ちこっと高いのよぉ。    <br /><img decoding="async" src="http://www.p-mastech.com/products/12_a/t3009_h.jpg" />    </p>
-<p>精度としては、まぁ似たようなもの。おまけ機能で両者特色があるようで。周波数、<b>DUTY</b>測定、hFEチェック機能などがあったりなかったりで、両者の特色があるようです。迷うよね。    <br />最大に迷う点としては、定評のあるソフト（Ts Digital Multi Meter Viewer）で動くのは上。型番が違うから、ＲＳ232Ｃの仕様が違うだろうし。作者が日本人だしね。    </p>
-<p>メモ    <br /><a href="http://rahmyzdhyfbr.tripod.com/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://rahmyzdhyfbr.tripod.com/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />Mastech MS8226 serial protocol    <br /><a href="http://rahmyzdhyfbr.tripod.com/ms8226.pdf" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ＭＳ8226<span class="wpel-icon wpel-image wpel-icon-1"></span></a>official document    </p>
-<p>仕様も出てるのね。だれかが、解析したのかな？ なんとかなるかな。他、<a href="http://www.mtoussaint.de/qtdmm.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">QtDMM<span class="wpel-icon wpel-image wpel-icon-1"></span></a> はＭａｃＯＳ ＸとＬｉｎｕｘで、Windowsバイナリがにゃい、、、、今いち、インターフェイスが気に入らないし、、、他、なにかないかと探してみたら    <br /><a href="http://www.syscompdesign.com/DVM101.html" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.syscompdesign.com/DVM101.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />なのがありました。DVM-101ってのは、MS8226と同じみたいで、ケースとソフトウェアをつけてるんですね。このソフトウェアがWindows,Linux,MacOS Xとあるので、少し触ってみたら、なかなかよさそう。この会社、カナダにあって<a href="http://www.syscompdesign.com/CGR101.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ソフトウェアオシロ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>（ＵＳＢ接続の機器はある）とかもリリースしてるみたい。189$ ですか。要チェックですね。手が出させそうなオシロで、機能満載。ほしぃ～！ＥＭＳで送ってくれそうだし。    <br />この会社の面白いのは、ソフトウェアをＧＰＬライセンスで公開してるところ。    </p>
-<p>MS8226でTsDMMVが動かなかった場合の代わりのソフト（同梱のDMM ver2.02ってのはありますが）は、上記のを試してみるということで、テスターリードがかっこいいし、ちょっと冒険してみるかって事で、MS8226をポチりました。    </p>
-<p>長く大事に使いたいですね～。ＰＣにつなげられることで、また工作の楽しみも増えるわけで。4000円で楽しみが増えるんなら、安いものだと思う。昔、同じことやろうとしたら、結構お金かかったもんね。いい時代になった！   </p>
 ]]></content:encoded>
 					
 		

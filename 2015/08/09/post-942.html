@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -125,7 +125,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
 				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
-<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11760"><a href="/list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
 <li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://mirror.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div>			</nav><!-- #site-navigation -->
@@ -165,116 +165,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		<div class="entry-content">
 			<p>前からやりたかったんですが、後回しになっていたESP8266(ESP-12) のファームウェアの書き換えです。</p>
-<p>いろんなところで紹介されているので、いまさらですが、忘れてしまうためにメモしておきます。</p>
-<p> </p>
-<p>2014.08.09 現在で、オフィシャルのファームウェアは、以下のようです。昨日リリースですか！</p>
-<blockquote>
-<p>Latest Version 1.3.0 Release date Aug 08, 2015</p>
-</blockquote>
-<p>解答すると、以下のようなバイナリがあります。</p>
-<blockquote>
-<p>$ cd esp8266/esp_iot_sdk_v1.3.0_15_08_08/esp_iot_sdk_v1.3.0/bin</p>
-<p>$ tree      <br>.       <br>├── at       <br>│   ├── eagle.flash.bin       <br>│   ├── eagle.irom0text.bin       <br>│   ├── readme.txt       <br>│   ├── user1.1024.new.2.bin       <br>│   └── user2.1024.new.2.bin       <br>├── blank.bin       <br>├── boot_v1.2.bin       <br>├── boot_v1.4(b1).bin       <br>├── esp_init_data_default.bin       <br>└── upgrade </p>
-<p>2 directories, 9 files</p>
-</blockquote>
-<p>購入したときには、0.9.5あたりが入っていた記憶があります。（未確認）そのときは、確か、あまり確認もせずに、arduino IDE for ESP8266 から書き込んだのでどうなっていたかわかりませんが、再度、オフィシャルから見てみました。</p>
-<p> </p>
-<p>このあたりは、オフィシャルのBBSを見たほうがいいです。結構なスピードでSDK のバージョンがあがっています。</p>
-<blockquote>
-<p>Espressif / ESP8266 / Developer Zone /  Downloads / SDKs</p>
-<p><a title="http://bbs.espressif.com/viewforum.php?f=46" href="http://bbs.espressif.com/viewforum.php?f=46" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewforum.php?f=46<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>とりあえず、0.9.5 をもう一度入れて復習しておきます。BBS からSDK のesp_iot_sdk_v0.9.5_15_01_23を落として解凍してみました。</p>
-<blockquote>
-<p>$ cd esp_iot_sdk_v0.9.5_15_01_23/esp_iot_sdk_v0.9.5/bin</p>
-<p>$ tree     <br>.      <br>├── at      <br>│   ├── readme.txt      <br>│   ├── user1.512.new.bin      <br>│   ├── user1.512.old.bin      <br>│   ├── user2.512.new.bin      <br>│   └── user2.512.old.bin      <br>├── blank.bin      <br>├── boot_v1.1.bin      <br>├── boot_v1.2.bin      <br>├── esp_init_data_default.bin      <br>└── upgrade</p>
-</blockquote>
-<p>GPIO0 Pin をGND に落としてBoot して、（もしくは、RST を GND に落としリセットして）以下のコマンドで書き込みます。</p>
-<blockquote>
-<p>$ esptool.py -p /dev/tty.SLAB_USBtoUART write_flash 0x00000 boot_v1.2.bin 0x01000 at/user1.512.new.bin 0x3e000 blank.bin 0x7e000 blank.bin</p>
-<p>※-p オプションの UART デバイスはお使いのものを</p>
-</blockquote>
-<p>無事書き込みできると、以下のようになります。</p>
-<blockquote>
-<p>Connecting…     <br>Erasing flash…      <br>Writing at 0x00000400… (100 %)      <br>Erasing flash…      <br>Writing at 0x00034800… (100 %)      <br>Erasing flash…      <br>Writing at 0x0003ec00… (100 %)      <br>Erasing flash…      <br>Writing at 0x0007ec00… (100 %) </p>
-<p>Leaving…</p>
-</blockquote>
-<p>CoolTerm などからUART 経由でログインし、115200 bps で接続すると、以下のようなコマンドの結果が返ってくればOKだと思います。</p>
-<blockquote>
-<p>AT     <br>OK       <br>AT+GMR       <br>AT version:0.21.0.0       <br>SDK version:0.9.5       <br>OK       <br>AT+RST       <br>OK </p>
-<p> ets Jan  8 2013,rst cause:4, boot mode:(3,7)      <br>wdt reset       <br>load 0x40100000, len 816, room 16       <br>tail 0       <br>chksum 0x8d       <br>load 0x3ffe8000, len 788, room 8       <br>tail 12       <br>chksum 0xcf       <br>ho 0 tail 12 room 4       <br>load 0x3ffe8314, len 288, room 12       <br>tail 4       <br>chksum 0xcf       <br>csum 0xcf       <br>2nd boot version : 1.2  <br>  SPI Speed      : 40MHz  <br>  SPI Mode       : QIO  <br>  SPI Flash Size : 4Mbit       <br>jump to run user1       <br>rlNÿ       <br>ready</p>
-</blockquote>
-<p>ATコマンドのドキュメントは、SDK のドキュメントの中のPDFにあるか、または、初版はオフィシャルBBSの以下にあります。</p>
-<blockquote>
-<p>at_v0.20_14_11_28     <br><a title="http://bbs.espressif.com/viewtopic.php?f=5&amp;t=64" href="http://bbs.espressif.com/viewtopic.php?f=5&amp;t=64" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewtopic.php?f=5&amp;t=64<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>さて、ESP-12 モジュールはどこまでこのファームウェアを上げれるのでしょうか？今や、技適が通った、ESP-13 や Pin数が増えたESP-12E などがあり、いまいち、違いが見えてきません。SDK 1.2 からは、mesh network ができるようになった模様です。また、patch で SSL もサポートされたようです。   <br> 2015/08/08 にリリースされた、SDK には、以下のように2種類のファームウェアがあります。</p>
-<blockquote>
-<p>$ cd esp_iot_sdk_v1.3.0_15_08_08/esp_iot_sdk_v1.3.0/bin     <br>$ tree      <br>.      <br>├── at      <br>│   ├── eagle.flash.bin      <br>│   ├── eagle.irom0text.bin      <br>│   ├── readme.txt      <br>│   ├── user1.1024.new.2.bin      <br>│   └── user2.1024.new.2.bin      <br>├── blank.bin      <br>├── boot_v1.2.bin      <br>├── boot_v1.4(b1).bin      <br>├── esp_init_data_default.bin      <br>└── upgrade </p>
-<p>2 directories, 9 files</p>
-</blockquote>
-<p>ReadMe を見ると以下のようです。</p>
-<blockquote>
-<p>download: </p>
-<p>boot_v1.2+.bin          0x00000 </p>
-<p>user1.1024.new.2.bin      0x01000 </p>
-<p>blank.bin               0x7e000 &amp; 0xfe000 </p>
-<p>or </p>
-<p>eagle.flash.bin        0x00000 </p>
-<p>eagle.irom0text.bin    0x40000 </p>
-<p>blank.bin        0x7e000 &amp; 0xfe000 </p>
-<p>*NOTICE*: </p>
-<p>1.If you use Esp Flash Download Tool, please MAKE SURE to choose FLASH SIZE to 8Mbit. </p>
-<p>2.UPDATE is not supported in non-boot mode </p>
-<p>Update steps </p>
-<p>1.Make sure TE(terminal equipment) is in sta or sta+ap mode </p>
-<p>ex. AT+CWMODE=3 </p>
-<p>    OK </p>
-<p>    AT+RST </p>
-<p>2.Make sure TE got ip address </p>
-<p>ex. AT+CWJAP=&quot;ssid&quot;,&quot;12345678&quot; </p>
-<p>    OK </p>
-<p>    AT+CIFSR </p>
-<p>    192.168.1.134 </p>
-<p>3.Let’s update </p>
-<p>ex. AT+CIUPDATE </p>
-<p>    +CIPUPDATE:1    found server </p>
-<p>    +CIPUPDATE:2    connect server </p>
-<p>    +CIPUPDATE:3    got edition </p>
-<p>    +CIPUPDATE:4    start start </p>
-<p>    OK </p>
-<p>note. If there are mistakes in the updating, then break update and print ERROR.</p>
-</blockquote>
-<p>or とあるこの、eagle.*** というのが良くわかりません。これは何者でしょうかね？   <br>とりあえず、このESP-12 は5つあるので全部壊すつもりで、いろいろ試してみるつもりです。技適が通ったタイプも価格がこなれてきたら、遊んでみようかと思います。IoT デバイスのDIY モジュールとしてこれからも活躍しそうですね。</p>
-<p> </p>
-<p> さらに情報収集し、このあたりのBlog 記事には、面白いことが書いてありました。</p>
-<blockquote>
-<p>Latest AT Firmware for ESP8266 with 512k Flash _ Kacang Bawang</p>
-<p><a title="http://kacangbawang.com/latest-at-firmware-for-esp8266-with-512k-flash/" href="http://kacangbawang.com/latest-at-firmware-for-esp8266-with-512k-flash/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://kacangbawang.com/latest-at-firmware-for-esp8266-with-512k-flash/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>SDK1.0.1 以降は、バイナリサイズが512kb に収まるには大きすぎるようで、esp-open-sdk で自前でビルドするのがいいよとのこと。そのほかも、いろいろと有益なことや、奇妙な書き込み順を帰ると出来ることなど書いてあります。</p>
-<p> </p>
-<p>フラッシュのID というのをesptool でゲットできるそうで、やってみました。GPIO0 を GND に落として、次のコマンドを投げると</p>
-<blockquote>
-<p>$ esptool.py -p /dev/tty.SLAB_USBtoUART flash_id</p>
-</blockquote>
-<p>自分のESP-12 環境では、以下のように出ました。</p>
-<blockquote>
-<p>Connecting…     <br>Manufacturer: ef      <br>Device: 4016</p>
-</blockquote>
-<p>これはどうやら、メーカーコードと使用チップのようです。SPI のフラッシュメモリーで、この例だと、WINBOND のW25Q32 のようです。</p>
-<p><a title="http://code.coreboot.org/svn/flashrom/trunk/flashchips.h" href="http://code.coreboot.org/svn/flashrom/trunk/flashchips.h" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://code.coreboot.org/svn/flashrom/trunk/flashchips.h<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>/*   <br> * W25X chips are SPI, first byte of device ID is memory type, second    <br> * byte of device ID is related to log(bitsize).    <br> */    <br>#define WINBOND_NEX_ID        0xEF    /* Winbond (ex Nexcom) serial flashes */    <br>#define WINBOND_NEX_W25X10    0x3011    <br>#define WINBOND_NEX_W25X20    0x3012    <br>#define WINBOND_NEX_W25X40    0x3013    <br>#define WINBOND_NEX_W25X80    0x3014    <br>#define WINBOND_NEX_W25X16    0x3015    <br>#define WINBOND_NEX_W25X32    0x3016    <br>#define WINBOND_NEX_W25X64    0x3017    <br>#define WINBOND_NEX_W25Q40_V    0x4013    /* W25Q40BV; W25Q40BL (2.3-3.6V) */    <br>#define WINBOND_NEX_W25Q80_V    0x4014    /* W25Q80BV */    <br>#define WINBOND_NEX_W25Q16_V    0x4015    /* W25Q16CV; W25Q16DV */    <br>#define WINBOND_NEX_W25Q32_V    0x4016★    /* W25Q32BV; W25Q32FV in SPI mode (default) */</p>
-<p> </p>
-<p>このデータシートは、以下のようで、32M-bit / 4M-byte ( 4,194,304 )あるそうですが？512Kbじゃないの？   <br><a title="http://www.marthel.pl/katalog/W25Q80_16_32c.pdf#page=18" href="http://www.marthel.pl/katalog/W25Q80_16_32c.pdf#page=18" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.marthel.pl/katalog/W25Q80_16_32c.pdf#page=18<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>うーん、そうだとしたら、うれしい誤算です。ちょっと未確認なので、512Kb ～ 4Mb あるかもというスタンスでこれから意識してみます。   </p>
-<p>まとめ    </p>
-<p>・esptool.py か、オフィシャルの書き込みツールを使ってファームをあげる    <br>・書き込みには、GPIO0 をGND に落とす（ and RST を GND でもいいようです）    <br> おそらく、ブート時にGPIO0 が GND に落ちていればいいので、タイミングを逃せば、RST でもいいということかと理解。    <br>・書き込みには、高品質な電源で、3.3V を供給するようにすると幸せ（ピーク電流が結構多い）    <br>・ESP-12 では、esp_iot_sdk_v0.9.5_15_01_23 は動作した    <br>・最新のファームウェアは、オフィシャルBBS を見ると詳しい    <br>・自分のデバイスのフラッシュメモリはいくつ？ esptool.py  のflash_id で見てみる    <br>・オフィシャルのファームはESP-12 だとどこまで上げれるのか？ フラッシュメモリサイズに依存しそうな感じ（未確認）    <br>・esp-open-sdk を使って、自前でファームを作ることが可能    <br>・オフィシャルのファームバージョンsdk_v1.3.0_15_08_08 に２つ組み合わせがあるのはなぜ？    </p>
-<blockquote>
-<p>参考</p>
-<p>ともの技術メモ tag esp8266     <br><a title="http://tomono.eleho.net/tag/esp8266/" href="http://tomono.eleho.net/tag/esp8266/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://tomono.eleho.net/tag/esp8266/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      </p>
-<p>技適OKな中華IoTモジュールを使いこなす _ BRILLIANTSERVICE TECHNICAL BLOG      <br><a title="http://bril-tech.blogspot.jp/2015/07/okiot.html" href="http://bril-tech.blogspot.jp/2015/07/okiot.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bril-tech.blogspot.jp/2015/07/okiot.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 

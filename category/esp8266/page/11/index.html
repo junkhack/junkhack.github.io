@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -266,7 +266,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>&#160;</p>
 <p>調べているときに、よくまとまったBlog記事があったので、メモしておきます。</p>
 <blockquote>
-<p>Make RS232 Serial Devices Accessible via Ethernet      <br><a title="http://blog.philippklaus.de/2011/08/make-rs232-serial-devices-accessible-via-ethernet/" href="http://blog.philippklaus.de/2011/08/make-rs232-serial-devices-accessible-via-ethernet/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://blog.philippklaus.de/2011/08/make-rs232-serial-devices-accessible-via-ethernet/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>Make RS232 Serial Devices Accessible via Ethernet      <br><a href="http://blog.philippklaus.de/2011/08/make-rs232-serial-devices-accessible-via-ethernet/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://blog.philippklaus.de/2011/08/make-rs232-serial-devices-accessible-via-ethernet/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>最後に、socat でのソケットを分割するには、以下のようにやれば良い事がわかりました。   </p>
 <p><img decoding="async" title="ishizaka_—_socat_—_ttys008_—_76×23_と_ishizaka_—_socat_—_ttys007_—_76×23_と_ishizaka_—_socat_—_ttys002_—_76×23_と_ishizaka_—_tail_—_ttys009_—_76×36" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_socat_—_ttys008_—_76×23_と_ishizaka_—_socat_—_ttys007_—_76×23_と_ishizaka_—_socat_—_ttys002_—_76×23_と_ishizaka_—_tail_—_ttys009_—_76×36" src="/wp-content/uploads/2015/08/ishizaka__socat__ttys008__7623__ishizaka__socat__ttys007__7623__ishizaka__socat__ttys002__7623__.png" width="561" height="1598"> </p>
@@ -277,15 +277,16 @@ raw,\
 echo=0,\
 user=junkhack,\
 group=staff\
- \
+\
 pty,\
 link=/dev/slave,\
 raw,\
 echo=0,\
 user=junkhack,\
 group=staff</pre>
-<p>&#160;</p>
-<p>&#160;</p>
+
+<p> </p>
+<p> </p>
 <p>どうやって、arduinoIDE のシリアルポートに表示させるかが課題です。</p>
 <p>WiFi 経由のシリアルコンソールで、ずっとtcpdump を流してテストしていますが、接続もきれず良い感じです。あと、話は飛びますが、ESP8266 Arduino Core のドキュメント見てましたら、File system も使えるようですね。これはある程度まで、データをメモリに貯めておいて、まとめてWifi 出力でデータを飛ばせば、電力の消費も抑えられそうです。sleep mode の下調べはおおよそ終わったので、コード実装して、電池駆動にしてテストするデバイス作りを夏休み（まだこれからなんですが）にやれればと思っています。ESP8266 、こんなに遊べるとは。まだlua にするのもありますしね。今年いっぱいは遊べる感じです。飽きるか、いきづまらなければね。</p>
 					</div>
@@ -320,141 +321,90 @@ group=staff</pre>
 <p>こんな感じで、電源はRasPi2 から取っていますので蓋の中に収められそうです。</p>
 <p> <img decoding="async" title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480">   </p>
 <p>ESP-12 に収めるプログラムは、なんとサンプルスケッチの中にありました。WiFiTelnetToSerial です。   </p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/* 
-  WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
-
-  Copyright (c) 2015 Hristo Gochkov. All rights reserved.
-  This file is part of the ESP8266WiFi library for Arduino environment.
- 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-#include &lt;ESP8266WiFi.h&gt;
-
-//how many clients should be able to telnet to this ESP8266
-#define MAX_SRV_CLIENTS 1
-const char* ssid = &quot;yyyyy&quot;;
-const char* password = &quot;xxxxx&quot;;
-
-WiFiServer server(23);
-WiFiClient serverClients[MAX_SRV_CLIENTS];
-
-void setup() {
-  Serial1.begin(115200);
-  WiFi.begin(ssid, password);
-  Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
-  uint8_t i = 0;
-  while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
-  if(i == 21){
-    Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
-    while(1) delay(500);
-  }
-  //start UART and the server
-  Serial.begin(115200);
-  server.begin();
-  server.setNoDelay(true);
-  
-  Serial1.print(&quot;Ready! Use 'telnet &quot;);
-  Serial1.print(WiFi.localIP());
-  Serial1.println(&quot; 23' to connect&quot;);
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
+<p>Copyright (c) 2015 Hristo Gochkov. All rights reserved.
+This file is part of the ESP8266WiFi library for Arduino environment.</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/</p>
+<h1>include &lt;ESP8266WiFi.h&gt;</h1>
+<p>//how many clients should be able to telnet to this ESP8266</p>
+<h1>define MAX_SRV_CLIENTS 1</h1>
+<p>const char<em> ssid = &quot;yyyyy&quot;;
+const char</em> password = &quot;xxxxx&quot;;</p>
+<p>WiFiServer server(23);
+WiFiClient serverClients[MAX_SRV_CLIENTS];</p>
+<p>void setup() {
+Serial1.begin(115200);
+WiFi.begin(ssid, password);
+Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
+uint8_t i = 0;
+while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
+if(i == 21){
+Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
+while(1) delay(500);
 }
+//start UART and the server
+Serial.begin(115200);
+server.begin();
+server.setNoDelay(true);</p>
+<p>Serial1.print(&quot;Ready! Use 'telnet &quot;);
+Serial1.print(WiFi.localIP());
+Serial1.println(&quot; 23' to connect&quot;);
+}</p>
+<p>void loop() {
+uint8_t i;
+//check if there are any new clients
+if (server.hasClient()){
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+//find free/disconnected spot
+if (!serverClients[i] || !serverClients[i].connected()){
+if(serverClients[i]) serverClients[i].stop();
+serverClients[i] = server.available();
+Serial1.print(&quot;New client: &quot;); Serial1.print(i);
+continue;
+}
+}
+//no free/disconnected spot so reject
+WiFiClient serverClient = server.available();
+serverClient.stop();
+}
+//check clients for data
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+if(serverClients[i].available()){
+//get data from the telnet client and push it to the UART
+while(serverClients[i].available()) Serial.write(serverClients[i].read());
+}
+}
+}
+//check UART for data
+if(Serial.available()){
+size_t len = Serial.available();
+uint8_t sbuf[len];
+Serial.readBytes(sbuf, len);
+//push UART data to all connected telnet clients
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+serverClients[i].write(sbuf, len);
+delay(1);
+}
+}
+}
+}</p></pre>
 
-void loop() {
-  uint8_t i;
-  //check if there are any new clients
-  if (server.hasClient()){
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      //find free/disconnected spot
-      if (!serverClients[i] || !serverClients[i].connected()){
-        if(serverClients[i]) serverClients[i].stop();
-        serverClients[i] = server.available();
-        Serial1.print(&quot;New client: &quot;); Serial1.print(i);
-        continue;
-      }
-    }
-    //no free/disconnected spot so reject
-    WiFiClient serverClient = server.available();
-    serverClient.stop();
-  }
-  //check clients for data
-  for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-    if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-      if(serverClients[i].available()){
-        //get data from the telnet client and push it to the UART
-        while(serverClients[i].available()) Serial.write(serverClients[i].read());
-      }
-    }
-  }
-  //check UART for data
-  if(Serial.available()){
-    size_t len = Serial.available();
-    uint8_t sbuf[len];
-    Serial.readBytes(sbuf, len);
-    //push UART data to all connected telnet clients
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-        serverClients[i].write(sbuf, len);
-        delay(1);
-      }
-    }
-  }
-}</pre>
 <p>ArduinoIDE へ、ESP8266 Arduino Core の最新（ver. 1.6.5-1044-g170995a, built on Aug 10, 2015）を収めました。</p>
 <p>SDK1.3 が収まったものは、以下のStaging versionから入れました。</p>
-<blockquote>
-<p><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Staging version<br>
-    <br>Boards manager link: http://arduino.esp8266.com/staging/package_esp8266com_index.json</p>
-</blockquote>
-<p>リファレンスも出来て、だんだんと充実してきたようです。</p>
-<p><a href="http://arduino.esp8266.com/versions/1.6.5-1044-g170995a/doc/reference.html" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img loading="lazy" decoding="async" title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></a> </p>
-<p>スケッチは、スケッチの例＞ESP8266Wifi ＞WiFiTelnetToSerial のところから辿っていきます。<br>
-  <br>ボード設定は、以下のようにしました。</p>
-<blockquote>
-<p>Borad : Generic ESP8266 Module<br>
-    <br>Flash mode : QIO</p>
-<p>Flash frequency : 40Mhz</p>
-<p>CPU frequency : 80Mhz</p>
-<p>Flash size : 4M (3M SPIFFS)</p>
-<p>Upload speed : 115200</p>
-</blockquote>
-<p>配線は、RasPi2 の TX RX を ESP12 のRX TX へつなぎ、3.3V のVCC と GND をつなぐ感じ。RasPiには、シリアルコンソールの設定がしてある状態で電源ON</p>
-<p>5,6秒ほどで、ESP12 がアクセスポイントへ接続するので、ESP12 がIP を何をとっているか、DHCPの払い出しIP をを見て、以下のコマンドで接続。socat は brew で入れました。</p>
-<blockquote>
-<p>
-    <br>$ socat STDIN tcp-connect:192.168.1.36:23</p>
-</blockquote>
-<p>これで、シリアル接続のものは、WiFi 化できそうです。接続するツールは工夫する必要がありそうです。たとえば、osx だと、MultiCom というツールがあり、接続をパイプできるので便利です。</p>
-<p><img loading="lazy" decoding="async" title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"> </p>
-<p><img loading="lazy" decoding="async" title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652">&#160; <br>まだ、あんまり使い方はわかっていないんですが、IPとポート指定で ESP12 のWiFi へ接続し、それをローカルのプロキシーのようなものに接続し、複数接続できるようです。Windows のcom0com のようなのが欲しかったのですが、osx では見つけられませんでした。</p>
-<p>あと、リモートからだと、コンソールのサイズも大きいほうが使いやすいので、getty の設定を以下のように変更。</p>
-<blockquote>
-<p> &#8212;- /etc/default/console-setup</p>
-<p>::</p>
-<p>SCREEN_WIDTH=150<br>
-    <br>SCREEN_HEIGHT=60</p>
-</blockquote>
-<p>あと、環境変数へ設定。</p>
-<blockquote>
-<p>&#8212;- .bashrc</p>
-<p>::</p>
-<p>export LINES=150<br>
-    <br>export COLUMNS=60</p>
-</blockquote>
-<p>とりあえず、こんな感じで使えるようになりました。tab補完や、そういうのはどうやるんでしょうね？ま、おいおい。</p>
-<p>USB to シリアル がなくてもワイヤレスで、シリアルが使えるというのはなんとも、慣れないですが、今後活用のアイデアも出てくるかもしれません。ESP12 に下駄をはかせず、基盤にうまく実装すれば蓋の中に納まりそうですし。RasPiのベアメタル開発に手を出したときには便利かもしれませんね。</p>
-<p>リチウム電池とESPを組み合わせて、単品のシリアルWiFi機器とすれば、何か応用できるかもです。</p>
 					</div>
 <!-- .entry-content -->
 
@@ -527,116 +477,6 @@ void loop() {
 
 		<div class="entry-content">
 			<p>前からやりたかったんですが、後回しになっていたESP8266(ESP-12) のファームウェアの書き換えです。</p>
-<p>いろんなところで紹介されているので、いまさらですが、忘れてしまうためにメモしておきます。</p>
-<p>&#160;</p>
-<p>2014.08.09 現在で、オフィシャルのファームウェアは、以下のようです。昨日リリースですか！</p>
-<blockquote>
-<p>Latest Version 1.3.0 Release date Aug 08, 2015</p>
-</blockquote>
-<p>解答すると、以下のようなバイナリがあります。</p>
-<blockquote>
-<p>$ cd esp8266/esp_iot_sdk_v1.3.0_15_08_08/esp_iot_sdk_v1.3.0/bin</p>
-<p>$ tree      <br>.       <br>├── at       <br>│&#160;&#160; ├── eagle.flash.bin       <br>│&#160;&#160; ├── eagle.irom0text.bin       <br>│&#160;&#160; ├── readme.txt       <br>│&#160;&#160; ├── user1.1024.new.2.bin       <br>│&#160;&#160; └── user2.1024.new.2.bin       <br>├── blank.bin       <br>├── boot_v1.2.bin       <br>├── boot_v1.4(b1).bin       <br>├── esp_init_data_default.bin       <br>└── upgrade </p>
-<p>2 directories, 9 files</p>
-</blockquote>
-<p>購入したときには、0.9.5あたりが入っていた記憶があります。（未確認）そのときは、確か、あまり確認もせずに、arduino IDE for ESP8266 から書き込んだのでどうなっていたかわかりませんが、再度、オフィシャルから見てみました。</p>
-<p>&#160;</p>
-<p>このあたりは、オフィシャルのBBSを見たほうがいいです。結構なスピードでSDK のバージョンがあがっています。</p>
-<blockquote>
-<p>Espressif / ESP8266 / Developer Zone /&#160; Downloads / SDKs</p>
-<p><a title="http://bbs.espressif.com/viewforum.php?f=46" href="http://bbs.espressif.com/viewforum.php?f=46" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewforum.php?f=46<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>とりあえず、0.9.5 をもう一度入れて復習しておきます。BBS からSDK のesp_iot_sdk_v0.9.5_15_01_23を落として解凍してみました。</p>
-<blockquote>
-<p>$ cd esp_iot_sdk_v0.9.5_15_01_23/esp_iot_sdk_v0.9.5/bin</p>
-<p>$ tree     <br>.      <br>├── at      <br>│&#160;&#160; ├── readme.txt      <br>│&#160;&#160; ├── user1.512.new.bin      <br>│&#160;&#160; ├── user1.512.old.bin      <br>│&#160;&#160; ├── user2.512.new.bin      <br>│&#160;&#160; └── user2.512.old.bin      <br>├── blank.bin      <br>├── boot_v1.1.bin      <br>├── boot_v1.2.bin      <br>├── esp_init_data_default.bin      <br>└── upgrade</p>
-</blockquote>
-<p>GPIO0 Pin をGND に落としてBoot して、（もしくは、RST を GND に落としリセットして）以下のコマンドで書き込みます。</p>
-<blockquote>
-<p>$ esptool.py -p /dev/tty.SLAB_USBtoUART write_flash 0x00000 boot_v1.2.bin 0x01000 at/user1.512.new.bin 0x3e000 blank.bin 0x7e000 blank.bin</p>
-<p>※-p オプションの UART デバイスはお使いのものを</p>
-</blockquote>
-<p>無事書き込みできると、以下のようになります。</p>
-<blockquote>
-<p>Connecting&#8230;     <br>Erasing flash&#8230;      <br>Writing at 0x00000400&#8230; (100 %)      <br>Erasing flash&#8230;      <br>Writing at 0x00034800&#8230; (100 %)      <br>Erasing flash&#8230;      <br>Writing at 0x0003ec00&#8230; (100 %)      <br>Erasing flash&#8230;      <br>Writing at 0x0007ec00&#8230; (100 %) </p>
-<p>Leaving&#8230;</p>
-</blockquote>
-<p>CoolTerm などからUART 経由でログインし、115200 bps で接続すると、以下のようなコマンドの結果が返ってくればOKだと思います。</p>
-<blockquote>
-<p>AT     <br>OK       <br>AT+GMR       <br>AT version:0.21.0.0       <br>SDK version:0.9.5       <br>OK       <br>AT+RST       <br>OK </p>
-<p> ets Jan&#160; 8 2013,rst cause:4, boot mode:(3,7)      <br>wdt reset       <br>load 0x40100000, len 816, room 16       <br>tail 0       <br>chksum 0x8d       <br>load 0x3ffe8000, len 788, room 8       <br>tail 12       <br>chksum 0xcf       <br>ho 0 tail 12 room 4       <br>load 0x3ffe8314, len 288, room 12       <br>tail 4       <br>chksum 0xcf       <br>csum 0xcf       <br>2nd boot version : 1.2&#160; <br>&#160; SPI Speed&#160;&#160;&#160;&#160;&#160; : 40MHz&#160; <br>&#160; SPI Mode&#160;&#160;&#160;&#160;&#160;&#160; : QIO&#160; <br>&#160; SPI Flash Size : 4Mbit       <br>jump to run user1       <br>rlNÿ       <br>ready</p>
-</blockquote>
-<p>ATコマンドのドキュメントは、SDK のドキュメントの中のPDFにあるか、または、初版はオフィシャルBBSの以下にあります。</p>
-<blockquote>
-<p>at_v0.20_14_11_28     <br><a title="http://bbs.espressif.com/viewtopic.php?f=5&amp;t=64" href="http://bbs.espressif.com/viewtopic.php?f=5&amp;t=64" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bbs.espressif.com/viewtopic.php?f=5&amp;t=64<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>さて、ESP-12 モジュールはどこまでこのファームウェアを上げれるのでしょうか？今や、技適が通った、ESP-13 や Pin数が増えたESP-12E などがあり、いまいち、違いが見えてきません。SDK 1.2 からは、mesh network ができるようになった模様です。また、patch で SSL もサポートされたようです。   <br> 2015/08/08 にリリースされた、SDK には、以下のように2種類のファームウェアがあります。</p>
-<blockquote>
-<p>$ cd esp_iot_sdk_v1.3.0_15_08_08/esp_iot_sdk_v1.3.0/bin     <br>$ tree      <br>.      <br>├── at      <br>│&#160;&#160; ├── eagle.flash.bin      <br>│&#160;&#160; ├── eagle.irom0text.bin      <br>│&#160;&#160; ├── readme.txt      <br>│&#160;&#160; ├── user1.1024.new.2.bin      <br>│&#160;&#160; └── user2.1024.new.2.bin      <br>├── blank.bin      <br>├── boot_v1.2.bin      <br>├── boot_v1.4(b1).bin      <br>├── esp_init_data_default.bin      <br>└── upgrade </p>
-<p>2 directories, 9 files</p>
-</blockquote>
-<p>ReadMe を見ると以下のようです。</p>
-<blockquote>
-<p>download: </p>
-<p>boot_v1.2+.bin&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0x00000 </p>
-<p>user1.1024.new.2.bin&#160;&#160;&#160;&#160;&#160; 0x01000 </p>
-<p>blank.bin&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0x7e000 &amp; 0xfe000 </p>
-<p>or </p>
-<p>eagle.flash.bin&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0x00000 </p>
-<p>eagle.irom0text.bin&#160;&#160;&#160; 0x40000 </p>
-<p>blank.bin&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0x7e000 &amp; 0xfe000 </p>
-<p>*NOTICE*: </p>
-<p>1.If you use Esp Flash Download Tool, please MAKE SURE to choose FLASH SIZE to 8Mbit. </p>
-<p>2.UPDATE is not supported in non-boot mode </p>
-<p>Update steps </p>
-<p>1.Make sure TE(terminal equipment) is in sta or sta+ap mode </p>
-<p>ex. AT+CWMODE=3 </p>
-<p>&#160;&#160;&#160; OK </p>
-<p>&#160;&#160;&#160; AT+RST </p>
-<p>2.Make sure TE got ip address </p>
-<p>ex. AT+CWJAP=&quot;ssid&quot;,&quot;12345678&quot; </p>
-<p>&#160;&#160;&#160; OK </p>
-<p>&#160;&#160;&#160; AT+CIFSR </p>
-<p>&#160;&#160;&#160; 192.168.1.134 </p>
-<p>3.Let&#8217;s update </p>
-<p>ex. AT+CIUPDATE </p>
-<p>&#160;&#160;&#160; +CIPUPDATE:1&#160;&#160;&#160; found server </p>
-<p>&#160;&#160;&#160; +CIPUPDATE:2&#160;&#160;&#160; connect server </p>
-<p>&#160;&#160;&#160; +CIPUPDATE:3&#160;&#160;&#160; got edition </p>
-<p>&#160;&#160;&#160; +CIPUPDATE:4&#160;&#160;&#160; start start </p>
-<p>&#160;&#160;&#160; OK </p>
-<p>note. If there are mistakes in the updating, then break update and print ERROR.</p>
-</blockquote>
-<p>or とあるこの、eagle.*** というのが良くわかりません。これは何者でしょうかね？   <br>とりあえず、このESP-12 は5つあるので全部壊すつもりで、いろいろ試してみるつもりです。技適が通ったタイプも価格がこなれてきたら、遊んでみようかと思います。IoT デバイスのDIY モジュールとしてこれからも活躍しそうですね。</p>
-<p>&#160;</p>
-<p> さらに情報収集し、このあたりのBlog 記事には、面白いことが書いてありました。</p>
-<blockquote>
-<p>Latest AT Firmware for ESP8266 with 512k Flash _ Kacang Bawang</p>
-<p><a title="http://kacangbawang.com/latest-at-firmware-for-esp8266-with-512k-flash/" href="http://kacangbawang.com/latest-at-firmware-for-esp8266-with-512k-flash/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://kacangbawang.com/latest-at-firmware-for-esp8266-with-512k-flash/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>SDK1.0.1 以降は、バイナリサイズが512kb に収まるには大きすぎるようで、esp-open-sdk で自前でビルドするのがいいよとのこと。そのほかも、いろいろと有益なことや、奇妙な書き込み順を帰ると出来ることなど書いてあります。</p>
-<p>&#160;</p>
-<p>フラッシュのID というのをesptool でゲットできるそうで、やってみました。GPIO0 を GND に落として、次のコマンドを投げると</p>
-<blockquote>
-<p>$ esptool.py -p /dev/tty.SLAB_USBtoUART flash_id</p>
-</blockquote>
-<p>自分のESP-12 環境では、以下のように出ました。</p>
-<blockquote>
-<p>Connecting&#8230;     <br>Manufacturer: ef      <br>Device: 4016</p>
-</blockquote>
-<p>これはどうやら、メーカーコードと使用チップのようです。SPI のフラッシュメモリーで、この例だと、WINBOND のW25Q32 のようです。</p>
-<p><a title="http://code.coreboot.org/svn/flashrom/trunk/flashchips.h" href="http://code.coreboot.org/svn/flashrom/trunk/flashchips.h" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://code.coreboot.org/svn/flashrom/trunk/flashchips.h<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>/*   <br> * W25X chips are SPI, first byte of device ID is memory type, second    <br> * byte of device ID is related to log(bitsize).    <br> */    <br>#define WINBOND_NEX_ID&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0xEF&#160;&#160;&#160; /* Winbond (ex Nexcom) serial flashes */    <br>#define WINBOND_NEX_W25X10&#160;&#160;&#160; 0x3011    <br>#define WINBOND_NEX_W25X20&#160;&#160;&#160; 0x3012    <br>#define WINBOND_NEX_W25X40&#160;&#160;&#160; 0x3013    <br>#define WINBOND_NEX_W25X80&#160;&#160;&#160; 0x3014    <br>#define WINBOND_NEX_W25X16&#160;&#160;&#160; 0x3015    <br>#define WINBOND_NEX_W25X32&#160;&#160;&#160; 0x3016    <br>#define WINBOND_NEX_W25X64&#160;&#160;&#160; 0x3017    <br>#define WINBOND_NEX_W25Q40_V&#160;&#160;&#160; 0x4013&#160;&#160;&#160; /* W25Q40BV; W25Q40BL (2.3-3.6V) */    <br>#define WINBOND_NEX_W25Q80_V&#160;&#160;&#160; 0x4014&#160;&#160;&#160; /* W25Q80BV */    <br>#define WINBOND_NEX_W25Q16_V&#160;&#160;&#160; 0x4015&#160;&#160;&#160; /* W25Q16CV; W25Q16DV */    <br>#define WINBOND_NEX_W25Q32_V&#160;&#160;&#160; 0x4016★&#160;&#160;&#160; /* W25Q32BV; W25Q32FV in SPI mode (default) */</p>
-<p>&#160;</p>
-<p>このデータシートは、以下のようで、32M-bit / 4M-byte ( 4,194,304 )あるそうですが？512Kbじゃないの？   <br><a title="http://www.marthel.pl/katalog/W25Q80_16_32c.pdf#page=18" href="http://www.marthel.pl/katalog/W25Q80_16_32c.pdf#page=18" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.marthel.pl/katalog/W25Q80_16_32c.pdf#page=18<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>うーん、そうだとしたら、うれしい誤算です。ちょっと未確認なので、512Kb ～ 4Mb あるかもというスタンスでこれから意識してみます。   </p>
-<p>まとめ    </p>
-<p>・esptool.py か、オフィシャルの書き込みツールを使ってファームをあげる    <br>・書き込みには、GPIO0 をGND に落とす（ and RST を GND でもいいようです）    <br> おそらく、ブート時にGPIO0 が GND に落ちていればいいので、タイミングを逃せば、RST でもいいということかと理解。    <br>・書き込みには、高品質な電源で、3.3V を供給するようにすると幸せ（ピーク電流が結構多い）    <br>・ESP-12 では、esp_iot_sdk_v0.9.5_15_01_23 は動作した    <br>・最新のファームウェアは、オフィシャルBBS を見ると詳しい    <br>・自分のデバイスのフラッシュメモリはいくつ？ esptool.py&#160; のflash_id で見てみる    <br>・オフィシャルのファームはESP-12 だとどこまで上げれるのか？ フラッシュメモリサイズに依存しそうな感じ（未確認）    <br>・esp-open-sdk を使って、自前でファームを作ることが可能    <br>・オフィシャルのファームバージョンsdk_v1.3.0_15_08_08 に２つ組み合わせがあるのはなぜ？    </p>
-<blockquote>
-<p>参考</p>
-<p>ともの技術メモ tag esp8266     <br><a title="http://tomono.eleho.net/tag/esp8266/" href="http://tomono.eleho.net/tag/esp8266/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://tomono.eleho.net/tag/esp8266/<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      </p>
-<p>技適OKな中華IoTモジュールを使いこなす _ BRILLIANTSERVICE TECHNICAL BLOG      <br><a title="http://bril-tech.blogspot.jp/2015/07/okiot.html" href="http://bril-tech.blogspot.jp/2015/07/okiot.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://bril-tech.blogspot.jp/2015/07/okiot.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 
@@ -737,160 +577,133 @@ void loop() {
 <p>&#160;</p>
 <p>この値は、以下のコードを見てみると、ESP01 は 11 で動作するようです。</p>
 <blockquote>
-<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>// Initialize DHT sensor      <br>// NOTE: For working with a faster than ATmega328p 16 MHz Arduino chip, like an ESP8266,       <br>// you need to increase the threshold for cycle counts considered a 1 or 0.       <br>// You can do this by passing a 3rd parameter for this threshold.&#160; It&#8217;s a bit       <br>// of fiddling to find the right value, but in general the faster the CPU the       <br>// higher the value.&#160; The default for a 16mhz AVR is a value of 6.&#160; For an       <br>// Arduino Due that runs at 84mhz a value of 30 works.       <br>// This is for the ESP8266 processor on ESP-01       <br>DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266</p>
 </blockquote>
 <p>ESP12 では、11 だと値がおかしくなり、15 だとうまく取れました。あと、IDE は、arduino 1.6.4 以上で今回は Hourly Build&#160; を使いました。Boards Manager という機能が加わり、ツールメニューのボードからインストールできます。</p>
 <p>手動で入れてもいいんですが、まぁ便利な機能がつきましたね。</p>
 <blockquote>
-<p><a title="http://arduino.esp8266.com/package_esp8266com_index.json" href="http://arduino.esp8266.com/package_esp8266com_index.json" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://arduino.esp8266.com/package_esp8266com_index.json" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>&#160;</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- ESP8266 HTTP get webclient.
- ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
- https://thingspeak.com/channels/42239
- Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
- esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
- JunkHack 2015.06.15
- */
- 
-#include &lt;ESP8266WiFi.h&gt;
-#include &lt;DHT.h&gt;
-
-#define DHTPIN 4
-#define DHTTYPE DHT22
-DHT dht(DHTPIN, DHTTYPE, 15);
-
-const char* ssid     = &quot;JunkHack&quot;;
-const char* password = &quot;testtest&quot;;
-
-const char* host = &quot;184.106.153.149&quot;;
-
-int WiFiConLed = 13;// WEB Connect
-int WEBconLed = 0; // WiFi Connect
-
-void setup() {
-  dht.begin();
-  
-  pinMode(WiFiConLed, OUTPUT);
-  pinMode(WEBconLed, OUTPUT);
-  Serial.begin(115200);
-  delay(10);
- 
-  // We start by connecting to a WiFi network
- 
-  Serial.println();
-  Serial.println();
-  Serial.print(&quot;Connecting to &quot;);
-  Serial.println(ssid);
- 
-  WiFi.begin(ssid, password);
- 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(&quot;.&quot;);
-    digitalWrite(WiFiConLed, HIGH);
-    delay(400);
-    digitalWrite(WiFiConLed, LOW);
-    delay(100);
-  }
- 
-  Serial.println(&quot;&quot;);
-  Serial.println(&quot;WiFi connected&quot;);
-  Serial.println(&quot;IP address: &quot;);
-  Serial.println(WiFi.localIP());
-  
-  Serial.println(&quot;DHT22 AM2302 test!&quot;);
-}
- 
-int value = 0;
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/<em>
+ESP8266 HTTP get webclient.
+ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
+<a href="https://thingspeak.com/channels/42239" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://thingspeak.com/channels/42239<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
+esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
+JunkHack 2015.06.15
+</em>/
+<h1>include &lt;ESP8266WiFi.h&gt;</h1>
+<h1>include &lt;DHT.h&gt;</h1>
+<h1>define DHTPIN 4</h1>
+<h1>define DHTTYPE DHT22</h1>
+<p>DHT dht(DHTPIN, DHTTYPE, 15);</p>
+<p>const char<em> ssid     = &quot;JunkHack&quot;;
+const char</em> password = &quot;testtest&quot;;</p>
+<p>const char* host = &quot;184.106.153.149&quot;;</p>
+<p>int WiFiConLed = 13;// WEB Connect
+int WEBconLed = 0; // WiFi Connect</p>
+<p>void setup() {
+dht.begin();</p>
+<p>pinMode(WiFiConLed, OUTPUT);
+pinMode(WEBconLed, OUTPUT);
+Serial.begin(115200);
+delay(10);</p>
+<p>// We start by connecting to a WiFi network</p>
+<p>Serial.println();
+Serial.println();
+Serial.print(&quot;Connecting to &quot;);
+Serial.println(ssid);</p>
+<p>WiFi.begin(ssid, password);</p>
+<p>while (WiFi.status() != WL_CONNECTED) {
+delay(500);
+Serial.print(&quot;.&quot;);
+digitalWrite(WiFiConLed, HIGH);
+delay(400);
+digitalWrite(WiFiConLed, LOW);
+delay(100);
+}</p>
+<p>Serial.println(&quot;&quot;);
+Serial.println(&quot;WiFi connected&quot;);
+Serial.println(&quot;IP address: &quot;);
+Serial.println(WiFi.localIP());</p>
+<p>Serial.println(&quot;DHT22 AM2302 test!&quot;);
+}</p>
+<p>int value = 0;
 int count = 0;
 int adc = 0;
 float h = 0;
-float t = 0;
+float t = 0;</p>
+<p>void loop() {
+delay(10000); // 10 sec
+++value;</p>
+<p>Serial.print(&quot;connecting to &quot;);
+Serial.println(host);</p>
+<p>// Use WiFiClient class to create TCP connections
+WiFiClient client;
+const int httpPort = 80;
+if (!client.connect(host, httpPort)) {
+Serial.println(&quot;connection failed&quot;);
+return;
+}</p>
+<p>digitalWrite(WEBconLed, HIGH);
+delay(1000);
+count += 1;</p>
+<p>Serial.print(&quot;ADC: &quot;);
+adc = analogRead(A0);
+Serial.println(adc);</p>
+<p>float h = dht.readHumidity();
+float t = dht.readTemperature();</p>
+<p>if (isnan(h) || isnan(t) ) {
+Serial.println(&quot;Failed to read from DHT sensor!&quot;);
+return;
+}</p>
+<p>Serial.print(&quot;Humidity: &quot;);
+Serial.print(h);
+Serial.print(&quot; %\t&quot;);
+Serial.print(&quot;Temperature: &quot;);
+Serial.print(t);
+Serial.println(&quot; *C &quot;);</p>
+<p>// We now create a URI for the request
+String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
+url += adc;
+url += &quot;&amp;field2=&quot;;
+url += h;
+url += &quot;&amp;field3=&quot;;
+url += t;</p>
+<p>Serial.print(&quot;Requesting URL: &quot;);
+Serial.println(url);</p>
+<p>// This will send the request to the server
+client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
+&quot;Host: &quot; + host + &quot;\r\n&quot; +
+&quot;Connection: close\r\n\r\n&quot;);
+delay(10);</p>
+<p>// Read all the lines of the reply from server and print them to Serial
+while(client.available()){
+String line = client.readStringUntil('\r');
+Serial.print(line);
+}</p>
+<p>// Close connection
+Serial.println();
+Serial.println(&quot;closing connection&quot;);
+digitalWrite(WEBconLed, LOW);
+}</p></pre>
 
-void loop() {
-  delay(10000); // 10 sec
-  ++value;
- 
-  Serial.print(&quot;connecting to &quot;);
-  Serial.println(host);
- 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  const int httpPort = 80;
-  if (!client.connect(host, httpPort)) {
-    Serial.println(&quot;connection failed&quot;);
-    return;
-  }
-  
-  digitalWrite(WEBconLed, HIGH);
-  delay(1000);
-  count += 1;
-
-  Serial.print(&quot;ADC: &quot;);
-  adc = analogRead(A0);
-  Serial.println(adc);
- 
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
- 
-  if (isnan(h) || isnan(t) ) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
- 
-  Serial.print(&quot;Humidity: &quot;); 
-  Serial.print(h);
-  Serial.print(&quot; %\t&quot;);
-  Serial.print(&quot;Temperature: &quot;); 
-  Serial.print(t);
-  Serial.println(&quot; *C &quot;);
-  
-  // We now create a URI for the request
-  String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
-  url += adc;
-  url += &quot;&amp;field2=&quot;;
-  url += h;
-  url += &quot;&amp;field3=&quot;;
-  url += t;
-  
-  Serial.print(&quot;Requesting URL: &quot;);
-  Serial.println(url);
- 
-  // This will send the request to the server
-  client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
-               &quot;Host: &quot; + host + &quot;\r\n&quot; +
-               &quot;Connection: close\r\n\r\n&quot;);
-  delay(10);
- 
-  // Read all the lines of the reply from server and print them to Serial
-  while(client.available()){
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
-  }
- 
-  // Close connection
-  Serial.println();
-  Serial.println(&quot;closing connection&quot;);
-  digitalWrite(WEBconLed, LOW);
-}</pre>
-<p>&#160;</p>
+<p> </p>
 <p>データは、とまっているときもあるかもですが、以下で見れます。</p>
-<p>&#160;</p>
+<p> </p>
 <p><a title="https://thingspeak.com/channels/42239" href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://thingspeak.com/channels/42239<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>&#160;</p>
+<p> </p>
 <p><a href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="2015-06-15 1.19.12" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2015-06-15 1.19.12" src="/wp-content/uploads/2015/06/201506151-19-121.png" width="346" height="768"></a> </p>
-<p>&#160;</p>
-
+<p> </p>
 <p>部屋の温度がそこそこ高いので、実際に温度計を見てみましたところ、ほぼ適正な値でした。部屋暑すぎ。</p>
 <p><img loading="lazy" decoding="async" title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="/wp-content/uploads/2015/06/2.jpg" width="640" height="480"> </p>
-<p>&#160;</p>
+<p> </p>
 <p>これで、明るさ、温度、湿度が取れました。まだ、GPIO Pin があまっているので、気圧や、雨量、風向、風量など取ろうと思えば可能ですね。また、課題となるのは、電源です。結構シビアに電源品質が問われるようで、ぼろい電源だと途中で止まります。</p>
-<p>&#160;</p>
+<p> </p>
 <p>あと、sleep mode にして平常時に、パワーを抑えるように制御する必要があります。</p>
-<p>&#160;</p>
+<p> </p>
 <p>まだ、課題はありますね。</p>
 					</div>
 <!-- .entry-content -->

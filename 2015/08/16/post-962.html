@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -125,7 +125,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
 				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
-<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11760"><a href="/list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
 <li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://mirror.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div>			</nav><!-- #site-navigation -->
@@ -169,141 +169,109 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>こんな感じで、電源はRasPi2 から取っていますので蓋の中に収められそうです。</p>
 <p> <img decoding="async" title="uart-wifi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="uart-wifi" src="/wp-content/uploads/2015/08/uartwifi.jpg" width="640" height="480">   </p>
 <p>ESP-12 に収めるプログラムは、なんとサンプルスケッチの中にありました。WiFiTelnetToSerial です。   </p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/* 
-  WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
-
-  Copyright (c) 2015 Hristo Gochkov. All rights reserved.
-  This file is part of the ESP8266WiFi library for Arduino environment.
- 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-#include &lt;ESP8266WiFi.h&gt;
-
-//how many clients should be able to telnet to this ESP8266
-#define MAX_SRV_CLIENTS 1
-const char* ssid = &quot;yyyyy&quot;;
-const char* password = &quot;xxxxx&quot;;
-
-WiFiServer server(23);
-WiFiClient serverClients[MAX_SRV_CLIENTS];
-
-void setup() {
-  Serial1.begin(115200);
-  WiFi.begin(ssid, password);
-  Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
-  uint8_t i = 0;
-  while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
-  if(i == 21){
-    Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
-    while(1) delay(500);
-  }
-  //start UART and the server
-  Serial.begin(115200);
-  server.begin();
-  server.setNoDelay(true);
-  
-  Serial1.print(&quot;Ready! Use 'telnet &quot;);
-  Serial1.print(WiFi.localIP());
-  Serial1.println(&quot; 23' to connect&quot;);
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+WiFiTelnetToSerial - Example Transparent UART to Telnet Server for esp8266
+<p>Copyright (c) 2015 Hristo Gochkov. All rights reserved.
+This file is part of the ESP8266WiFi library for Arduino environment.</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/</p>
+<!--noindex--><div class="lwptoc lwptoc-center lwptoc-baseItems lwptoc-white lwptoc-notInherit" data-smooth-scroll="1" data-smooth-scroll-offset="24"><div class="lwptoc_i" style="width:80%">    <div class="lwptoc_header">
+        <b class="lwptoc_title" style="font-weight:800;">もくじ</b>                    <span class="lwptoc_toggle">
+                <a href="#" class="lwptoc_toggle_label" data-label="表示">非表示</a>
+            </span>
+            </div>
+<div class="lwptoc_items lwptoc_items-visible">
+    <div class="lwptoc_itemWrap">
+<div class="lwptoc_item">    <a href="#include_ESP8266WiFih">
+                    <span class="lwptoc_item_number">1</span>
+                <span class="lwptoc_item_label">include &lt;ESP8266WiFi.h&gt;</span>
+    </a>
+    </div>
+<div class="lwptoc_item">    <a href="#define_MAX_SRV_CLIENTS_1">
+                    <span class="lwptoc_item_number">2</span>
+                <span class="lwptoc_item_label">define MAX_SRV_CLIENTS 1</span>
+    </a>
+    </div>
+</div>
+</div>
+</div></div><!--/noindex--><h1><span id="include_ESP8266WiFih">include &lt;ESP8266WiFi.h&gt;</span></h1>
+<p>//how many clients should be able to telnet to this ESP8266</p>
+<h1><span id="define_MAX_SRV_CLIENTS_1">define MAX_SRV_CLIENTS 1</span></h1>
+<p>const char<em> ssid = &quot;yyyyy&quot;;
+const char</em> password = &quot;xxxxx&quot;;</p>
+<p>WiFiServer server(23);
+WiFiClient serverClients[MAX_SRV_CLIENTS];</p>
+<p>void setup() {
+Serial1.begin(115200);
+WiFi.begin(ssid, password);
+Serial1.print(&quot;\nConnecting to &quot;); Serial1.println(ssid);
+uint8_t i = 0;
+while (WiFi.status() != WL_CONNECTED &amp;&amp; i++ &lt; 20) delay(500);
+if(i == 21){
+Serial1.print(&quot;Could not connect to&quot;); Serial1.println(ssid);
+while(1) delay(500);
 }
+//start UART and the server
+Serial.begin(115200);
+server.begin();
+server.setNoDelay(true);</p>
+<p>Serial1.print(&quot;Ready! Use 'telnet &quot;);
+Serial1.print(WiFi.localIP());
+Serial1.println(&quot; 23' to connect&quot;);
+}</p>
+<p>void loop() {
+uint8_t i;
+//check if there are any new clients
+if (server.hasClient()){
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+//find free/disconnected spot
+if (!serverClients[i] || !serverClients[i].connected()){
+if(serverClients[i]) serverClients[i].stop();
+serverClients[i] = server.available();
+Serial1.print(&quot;New client: &quot;); Serial1.print(i);
+continue;
+}
+}
+//no free/disconnected spot so reject
+WiFiClient serverClient = server.available();
+serverClient.stop();
+}
+//check clients for data
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+if(serverClients[i].available()){
+//get data from the telnet client and push it to the UART
+while(serverClients[i].available()) Serial.write(serverClients[i].read());
+}
+}
+}
+//check UART for data
+if(Serial.available()){
+size_t len = Serial.available();
+uint8_t sbuf[len];
+Serial.readBytes(sbuf, len);
+//push UART data to all connected telnet clients
+for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
+if (serverClients[i] &amp;&amp; serverClients[i].connected()){
+serverClients[i].write(sbuf, len);
+delay(1);
+}
+}
+}
+}</p></pre>
 
-void loop() {
-  uint8_t i;
-  //check if there are any new clients
-  if (server.hasClient()){
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      //find free/disconnected spot
-      if (!serverClients[i] || !serverClients[i].connected()){
-        if(serverClients[i]) serverClients[i].stop();
-        serverClients[i] = server.available();
-        Serial1.print(&quot;New client: &quot;); Serial1.print(i);
-        continue;
-      }
-    }
-    //no free/disconnected spot so reject
-    WiFiClient serverClient = server.available();
-    serverClient.stop();
-  }
-  //check clients for data
-  for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-    if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-      if(serverClients[i].available()){
-        //get data from the telnet client and push it to the UART
-        while(serverClients[i].available()) Serial.write(serverClients[i].read());
-      }
-    }
-  }
-  //check UART for data
-  if(Serial.available()){
-    size_t len = Serial.available();
-    uint8_t sbuf[len];
-    Serial.readBytes(sbuf, len);
-    //push UART data to all connected telnet clients
-    for(i = 0; i &lt; MAX_SRV_CLIENTS; i++){
-      if (serverClients[i] &amp;&amp; serverClients[i].connected()){
-        serverClients[i].write(sbuf, len);
-        delay(1);
-      }
-    }
-  }
-}</pre>
 <p>ArduinoIDE へ、ESP8266 Arduino Core の最新（ver. 1.6.5-1044-g170995a, built on Aug 10, 2015）を収めました。</p>
 <p>SDK1.3 が収まったものは、以下のStaging versionから入れました。</p>
-<blockquote>
-<p><a title="https://github.com/esp8266/Arduino" href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/esp8266/Arduino<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Staging version<br>
-    <br>Boards manager link: http://arduino.esp8266.com/staging/package_esp8266com_index.json</p>
-</blockquote>
-<p>リファレンスも出来て、だんだんと充実してきたようです。</p>
-<p><a href="http://arduino.esp8266.com/versions/1.6.5-1044-g170995a/doc/reference.html" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img decoding="async" title="esp-12_pin" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="esp-12_pin" src="/wp-content/uploads/2015/08/esp12_pin.png" width="467" height="280"></a> </p>
-<p>スケッチは、スケッチの例＞ESP8266Wifi ＞WiFiTelnetToSerial のところから辿っていきます。<br>
-  <br>ボード設定は、以下のようにしました。</p>
-<blockquote>
-<p>Borad : Generic ESP8266 Module<br>
-    <br>Flash mode : QIO</p>
-<p>Flash frequency : 40Mhz</p>
-<p>CPU frequency : 80Mhz</p>
-<p>Flash size : 4M (3M SPIFFS)</p>
-<p>Upload speed : 115200</p>
-</blockquote>
-<p>配線は、RasPi2 の TX RX を ESP12 のRX TX へつなぎ、3.3V のVCC と GND をつなぐ感じ。RasPiには、シリアルコンソールの設定がしてある状態で電源ON</p>
-<p>5,6秒ほどで、ESP12 がアクセスポイントへ接続するので、ESP12 がIP を何をとっているか、DHCPの払い出しIP をを見て、以下のコマンドで接続。socat は brew で入れました。</p>
-<blockquote>
-<p>
-    <br>$ socat STDIN tcp-connect:192.168.1.36:23</p>
-</blockquote>
-<p>これで、シリアル接続のものは、WiFi 化できそうです。接続するツールは工夫する必要がありそうです。たとえば、osx だと、MultiCom というツールがあり、接続をパイプできるので便利です。</p>
-<p><img loading="lazy" decoding="async" title="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MultiCom_と_WiFiTelnetToSerial___Arduino_1_6_5_Hourly_Build_2015_06_12_03_13" src="/wp-content/uploads/2015/08/multicom__wifitelnettoserial___arduino_1_6_5_hourly_build_2015_06_12_03_13.png" width="338" height="158"> </p>
-<p><img loading="lazy" decoding="async" title="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ishizaka_—_telnet_—_ttys003_—_70×21_と_ishizaka_—_telnet_—_ttys004_—_70×21_と_Change_log" src="/wp-content/uploads/2015/08/ishizaka__telnet__ttys003__7021__ishizaka__telnet__ttys004__7021__change_log.png" width="517" height="652">  <br>まだ、あんまり使い方はわかっていないんですが、IPとポート指定で ESP12 のWiFi へ接続し、それをローカルのプロキシーのようなものに接続し、複数接続できるようです。Windows のcom0com のようなのが欲しかったのですが、osx では見つけられませんでした。</p>
-<p>あと、リモートからだと、コンソールのサイズも大きいほうが使いやすいので、getty の設定を以下のように変更。</p>
-<blockquote>
-<p> —- /etc/default/console-setup</p>
-<p>::</p>
-<p>SCREEN_WIDTH=150<br>
-    <br>SCREEN_HEIGHT=60</p>
-</blockquote>
-<p>あと、環境変数へ設定。</p>
-<blockquote>
-<p>—- .bashrc</p>
-<p>::</p>
-<p>export LINES=150<br>
-    <br>export COLUMNS=60</p>
-</blockquote>
-<p>とりあえず、こんな感じで使えるようになりました。tab補完や、そういうのはどうやるんでしょうね？ま、おいおい。</p>
-<p>USB to シリアル がなくてもワイヤレスで、シリアルが使えるというのはなんとも、慣れないですが、今後活用のアイデアも出てくるかもしれません。ESP12 に下駄をはかせず、基盤にうまく実装すれば蓋の中に納まりそうですし。RasPiのベアメタル開発に手を出したときには便利かもしれませんね。</p>
-<p>リチウム電池とESPを組み合わせて、単品のシリアルWiFi機器とすれば、何か応用できるかもです。</p>
 					</div>
 <!-- .entry-content -->
 
@@ -588,6 +556,7 @@ void loop() {
 		}
 	});
 </script>
+<link rel="stylesheet" id="lwptoc-main-css" href="/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.css?ver=2.1.4" type="text/css" media="all">
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script>
@@ -610,6 +579,7 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081" id="wpfront-scroll-top-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.js?ver=2.1.4" id="lwptoc-main-js"></script>
   <script id="module-flowchart">(function($) { $(function() { if (typeof $.fn.flowChart !== "undefined") { if ($(".language-flow").length > 0) { $(".language-flow").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-flow").addClass("flowchart").removeClass("language-flow"); $(".flowchart").flowChart(); } } }); })(jQuery);</script>  <script id="module-katex"> (function($) { $(function() { if (typeof katex !== "undefined") { if ($(".language-katex").length > 0) { $(".language-katex").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-katex").addClass("katex-container").removeClass("language-katex"); $(".katex-container").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } if ($(".katex-inline").length > 0) { $(".katex-inline").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } } }); })(jQuery); </script>  <script id="module-sequence-diagram">(function($) { $(function() { if (typeof $.fn.sequenceDiagram !== "undefined") { $(".language-sequence").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-seq").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-sequence").addClass("sequence-diagram").removeClass("language-sequence"); $(".language-seq").addClass("sequence-diagram").removeClass("language-seq"); $(".sequence-diagram").sequenceDiagram({ theme: "simple" }); } }); })(jQuery);</script>  <script id="module-mermaid">(function($) { $(function() { if (typeof mermaid !== "undefined") { if ($(".language-mermaid").length > 0) { $(".language-mermaid").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-mermaid").addClass("mermaid").removeClass("language-mermaid"); mermaid.init(); } } }); })(jQuery);</script>  <script id="module-mathjax">(function($) { $(function() { if (typeof MathJax !== "undefined") { var c = $(".language-mathjax").length; if (c > 0) { $(".language-mathjax").each(function(i) { var content = $(this).html(); if ($(this).hasClass("mathjax-inline")) { $(this).html("$ " + content + " $"); } else { $(this).html("$$" + "\n" + content + "\n" + "$$"); } if (i + 1 === c) { MathJax.Hub.Config({ showProcessingMessages: false, messageStyle: "none", extensions: [ "tex2jax.js", "TeX/mediawiki-texvc.js", "TeX/noUndefined.js", "TeX/autoload-all.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js" ], jax: [ "input/TeX", "output/SVG" ], elements: document.getElementsByClassName("language-mathjax"), tex2jax: { skipTags: [ "script", "noscript", "style", "textarea" ], inlineMath: [ ['$', '$'] ], displayMath: [ ['$$', '$$'] ], processClass: "language-mathjax" } }); MathJax.Hub.Queue(["Typeset", MathJax.Hub]); $(".language-mathjax").attr("style", "background: transparent; border: 0;"); $(".language-mathjax").closest("pre").attr("style", "background: transparent; border: 0;"); } }); } else { console.log("[wp-githuber-md] MathJax code blocks not found."); } } else { console.log("[wp-githuber-md] MathJax is not loadded."); } }); })(jQuery);</script>  <script id="module-clipboard"> (function($) { $(function() { var pre = document.getElementsByTagName("pre"); var pasteContent = document.getElementById("paste-content"); var hasLanguage = false; for (var i = 0; i < pre.length; i++) { var codeClass = pre[i].children[0].className; var isLanguage = codeClass.indexOf("language-"); var excludedCodeClassNames = [ "language-katex", "language-seq", "language-sequence", "language-flow", "language-flowchart", "language-mermaid", ]; var isExcluded = excludedCodeClassNames.indexOf(codeClass); if (isExcluded !== -1) { isLanguage = -1; } if (isLanguage !== -1) { var current_pre = pre[i]; var parent = current_pre.parentNode; var div = document.createElement("div"); div.style['position'] = 'relative'; parent.replaceChild(div, current_pre); var button = document.createElement("button"); button.className = "copy-button"; button.textContent = "Copy"; div.appendChild(current_pre); div.appendChild(button); hasLanguage = true; } }; if (hasLanguage) { var copyCode = new ClipboardJS(".copy-button", { target: function(trigger) { return trigger.previousElementSibling; } }); copyCode.on("success", function(event) { event.clearSelection(); event.trigger.textContent = "Copied"; window.setTimeout(function() { event.trigger.textContent = "Copy"; }, 2000); }); } }); })(jQuery); </script> 
 			<script id="module-emojify">(function($) {
 					$(function() {
@@ -627,6 +597,6 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 						}
 					});
 				})(jQuery);</script>
-		
+		<style>.lwptoc .lwptoc_i{border:1px solid #aaaaaa;}.lwptoc_header{color:#232323;}.lwptoc .lwptoc_i A{color:#3d3d3d;}.lwptoc .lwptoc_i A:hover,.lwptoc .lwptoc_i A:focus,.lwptoc .lwptoc_i A:active{color:#0a0a0a;border-color:#0a0a0a;}.lwptoc .lwptoc_i A:visited{color:#5b5b5b;}</style>
 </body>
 </html>

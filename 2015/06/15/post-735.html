@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -126,7 +126,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
 				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
-<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11760"><a href="/list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
 <li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://mirror.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div>			</nav><!-- #site-navigation -->
@@ -181,145 +181,148 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p> </p>
 <p>この値は、以下のコードを見てみると、ESP01 は 11 で動作するようです。</p>
 <blockquote>
-<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"><span class="wpel-icon wpel-image wpel-icon-1"></span></a><a href="https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/code<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>// Initialize DHT sensor      <br>// NOTE: For working with a faster than ATmega328p 16 MHz Arduino chip, like an ESP8266,       <br>// you need to increase the threshold for cycle counts considered a 1 or 0.       <br>// You can do this by passing a 3rd parameter for this threshold.  It’s a bit       <br>// of fiddling to find the right value, but in general the faster the CPU the       <br>// higher the value.  The default for a 16mhz AVR is a value of 6.  For an       <br>// Arduino Due that runs at 84mhz a value of 30 works.       <br>// This is for the ESP8266 processor on ESP-01       <br>DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266</p>
 </blockquote>
 <p>ESP12 では、11 だと値がおかしくなり、15 だとうまく取れました。あと、IDE は、arduino 1.6.4 以上で今回は Hourly Build  を使いました。Boards Manager という機能が加わり、ツールメニューのボードからインストールできます。</p>
 <p>手動で入れてもいいんですが、まぁ便利な機能がつきましたね。</p>
 <blockquote>
-<p><a title="http://arduino.esp8266.com/package_esp8266com_index.json" href="http://arduino.esp8266.com/package_esp8266com_index.json" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://arduino.esp8266.com/package_esp8266com_index.json" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://arduino.esp8266.com/package_esp8266com_index.json<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p> </p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
- ESP8266 HTTP get webclient.
- ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
- https://thingspeak.com/channels/42239
- Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
- esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
- JunkHack 2015.06.15
- */
- 
-#include &lt;ESP8266WiFi.h&gt;
-#include &lt;DHT.h&gt;
-
-#define DHTPIN 4
-#define DHTTYPE DHT22
-DHT dht(DHTPIN, DHTTYPE, 15);
-
-const char* ssid     = &quot;JunkHack&quot;;
-const char* password = &quot;testtest&quot;;
-
-const char* host = &quot;184.106.153.149&quot;;
-
-int WiFiConLed = 13;// WEB Connect
-int WEBconLed = 0; // WiFi Connect
-
-void setup() {
-  dht.begin();
-  
-  pinMode(WiFiConLed, OUTPUT);
-  pinMode(WEBconLed, OUTPUT);
-  Serial.begin(115200);
-  delay(10);
- 
-  // We start by connecting to a WiFi network
- 
-  Serial.println();
-  Serial.println();
-  Serial.print(&quot;Connecting to &quot;);
-  Serial.println(ssid);
- 
-  WiFi.begin(ssid, password);
- 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(&quot;.&quot;);
-    digitalWrite(WiFiConLed, HIGH);
-    delay(400);
-    digitalWrite(WiFiConLed, LOW);
-    delay(100);
-  }
- 
-  Serial.println(&quot;&quot;);
-  Serial.println(&quot;WiFi connected&quot;);
-  Serial.println(&quot;IP address: &quot;);
-  Serial.println(WiFi.localIP());
-  
-  Serial.println(&quot;DHT22 AM2302 test!&quot;);
-}
- 
-int value = 0;
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/<em>
+ESP8266 HTTP get webclient.
+ADC Read (ESP12 + Light(CdS GL5528)) + DHT22(AM2302) 1-Wire
+<a href="https://thingspeak.com/channels/42239" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://thingspeak.com/channels/42239<span class="wpel-icon wpel-image wpel-icon-1"></span></a>
+Arduino IDE 1.6.5 Hourly Build 2015/06/12 03:13
+esp8266 by ESP8266 Community version 1.6.4-673-g8cd3697
+JunkHack 2015.06.15
+</em>/
+<!--noindex--><div class="lwptoc lwptoc-center lwptoc-baseItems lwptoc-white lwptoc-notInherit" data-smooth-scroll="1" data-smooth-scroll-offset="24"><div class="lwptoc_i" style="width:80%">    <div class="lwptoc_header">
+        <b class="lwptoc_title" style="font-weight:800;">もくじ</b>                    <span class="lwptoc_toggle">
+                <a href="#" class="lwptoc_toggle_label" data-label="表示">非表示</a>
+            </span>
+            </div>
+<div class="lwptoc_items lwptoc_items-visible">
+    <div class="lwptoc_itemWrap">
+<div class="lwptoc_item">    <a href="#include_ESP8266WiFih">
+                    <span class="lwptoc_item_number">1</span>
+                <span class="lwptoc_item_label">include &lt;ESP8266WiFi.h&gt;</span>
+    </a>
+    </div>
+<div class="lwptoc_item">    <a href="#include_DHTh">
+                    <span class="lwptoc_item_number">2</span>
+                <span class="lwptoc_item_label">include &lt;DHT.h&gt;</span>
+    </a>
+    </div>
+<div class="lwptoc_item">    <a href="#define_DHTPIN_4">
+                    <span class="lwptoc_item_number">3</span>
+                <span class="lwptoc_item_label">define DHTPIN 4</span>
+    </a>
+    </div>
+<div class="lwptoc_item">    <a href="#define_DHTTYPE_DHT22">
+                    <span class="lwptoc_item_number">4</span>
+                <span class="lwptoc_item_label">define DHTTYPE DHT22</span>
+    </a>
+    </div>
+</div>
+</div>
+</div></div><!--/noindex--><h1><span id="include_ESP8266WiFih">include &lt;ESP8266WiFi.h&gt;</span></h1>
+<h1><span id="include_DHTh">include &lt;DHT.h&gt;</span></h1>
+<h1><span id="define_DHTPIN_4">define DHTPIN 4</span></h1>
+<h1><span id="define_DHTTYPE_DHT22">define DHTTYPE DHT22</span></h1>
+<p>DHT dht(DHTPIN, DHTTYPE, 15);</p>
+<p>const char<em> ssid     = &quot;JunkHack&quot;;
+const char</em> password = &quot;testtest&quot;;</p>
+<p>const char* host = &quot;184.106.153.149&quot;;</p>
+<p>int WiFiConLed = 13;// WEB Connect
+int WEBconLed = 0; // WiFi Connect</p>
+<p>void setup() {
+dht.begin();</p>
+<p>pinMode(WiFiConLed, OUTPUT);
+pinMode(WEBconLed, OUTPUT);
+Serial.begin(115200);
+delay(10);</p>
+<p>// We start by connecting to a WiFi network</p>
+<p>Serial.println();
+Serial.println();
+Serial.print(&quot;Connecting to &quot;);
+Serial.println(ssid);</p>
+<p>WiFi.begin(ssid, password);</p>
+<p>while (WiFi.status() != WL_CONNECTED) {
+delay(500);
+Serial.print(&quot;.&quot;);
+digitalWrite(WiFiConLed, HIGH);
+delay(400);
+digitalWrite(WiFiConLed, LOW);
+delay(100);
+}</p>
+<p>Serial.println(&quot;&quot;);
+Serial.println(&quot;WiFi connected&quot;);
+Serial.println(&quot;IP address: &quot;);
+Serial.println(WiFi.localIP());</p>
+<p>Serial.println(&quot;DHT22 AM2302 test!&quot;);
+}</p>
+<p>int value = 0;
 int count = 0;
 int adc = 0;
 float h = 0;
-float t = 0;
+float t = 0;</p>
+<p>void loop() {
+delay(10000); // 10 sec
+++value;</p>
+<p>Serial.print(&quot;connecting to &quot;);
+Serial.println(host);</p>
+<p>// Use WiFiClient class to create TCP connections
+WiFiClient client;
+const int httpPort = 80;
+if (!client.connect(host, httpPort)) {
+Serial.println(&quot;connection failed&quot;);
+return;
+}</p>
+<p>digitalWrite(WEBconLed, HIGH);
+delay(1000);
+count += 1;</p>
+<p>Serial.print(&quot;ADC: &quot;);
+adc = analogRead(A0);
+Serial.println(adc);</p>
+<p>float h = dht.readHumidity();
+float t = dht.readTemperature();</p>
+<p>if (isnan(h) || isnan(t) ) {
+Serial.println(&quot;Failed to read from DHT sensor!&quot;);
+return;
+}</p>
+<p>Serial.print(&quot;Humidity: &quot;);
+Serial.print(h);
+Serial.print(&quot; %\t&quot;);
+Serial.print(&quot;Temperature: &quot;);
+Serial.print(t);
+Serial.println(&quot; *C &quot;);</p>
+<p>// We now create a URI for the request
+String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
+url += adc;
+url += &quot;&amp;field2=&quot;;
+url += h;
+url += &quot;&amp;field3=&quot;;
+url += t;</p>
+<p>Serial.print(&quot;Requesting URL: &quot;);
+Serial.println(url);</p>
+<p>// This will send the request to the server
+client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
+&quot;Host: &quot; + host + &quot;\r\n&quot; +
+&quot;Connection: close\r\n\r\n&quot;);
+delay(10);</p>
+<p>// Read all the lines of the reply from server and print them to Serial
+while(client.available()){
+String line = client.readStringUntil('\r');
+Serial.print(line);
+}</p>
+<p>// Close connection
+Serial.println();
+Serial.println(&quot;closing connection&quot;);
+digitalWrite(WEBconLed, LOW);
+}</p></pre>
 
-void loop() {
-  delay(10000); // 10 sec
-  ++value;
- 
-  Serial.print(&quot;connecting to &quot;);
-  Serial.println(host);
- 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  const int httpPort = 80;
-  if (!client.connect(host, httpPort)) {
-    Serial.println(&quot;connection failed&quot;);
-    return;
-  }
-  
-  digitalWrite(WEBconLed, HIGH);
-  delay(1000);
-  count += 1;
-
-  Serial.print(&quot;ADC: &quot;);
-  adc = analogRead(A0);
-  Serial.println(adc);
- 
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
- 
-  if (isnan(h) || isnan(t) ) {
-    Serial.println(&quot;Failed to read from DHT sensor!&quot;);
-    return;
-  }
- 
-  Serial.print(&quot;Humidity: &quot;); 
-  Serial.print(h);
-  Serial.print(&quot; %\t&quot;);
-  Serial.print(&quot;Temperature: &quot;); 
-  Serial.print(t);
-  Serial.println(&quot; *C &quot;);
-  
-  // We now create a URI for the request
-  String url = &quot;/update?key=33HJNSWFZ8EZAXD6&amp;field1=&quot;;
-  url += adc;
-  url += &quot;&amp;field2=&quot;;
-  url += h;
-  url += &quot;&amp;field3=&quot;;
-  url += t;
-  
-  Serial.print(&quot;Requesting URL: &quot;);
-  Serial.println(url);
- 
-  // This will send the request to the server
-  client.print(String(&quot;GET &quot;) + url + &quot; HTTP/1.1\r\n&quot; +
-               &quot;Host: &quot; + host + &quot;\r\n&quot; +
-               &quot;Connection: close\r\n\r\n&quot;);
-  delay(10);
- 
-  // Read all the lines of the reply from server and print them to Serial
-  while(client.available()){
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
-  }
- 
-  // Close connection
-  Serial.println();
-  Serial.println(&quot;closing connection&quot;);
-  digitalWrite(WEBconLed, LOW);
-}</pre>
 <p> </p>
 <p>データは、とまっているときもあるかもですが、以下で見れます。</p>
 <p> </p>
@@ -327,7 +330,6 @@ void loop() {
 <p> </p>
 <p><a href="https://thingspeak.com/channels/42239" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="2015-06-15 1.19.12" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2015-06-15 1.19.12" src="/wp-content/uploads/2015/06/201506151-19-121.png" width="346" height="768"></a> </p>
 <p> </p>
-
 <p>部屋の温度がそこそこ高いので、実際に温度計を見てみましたところ、ほぼ適正な値でした。部屋暑すぎ。</p>
 <p><img loading="lazy" decoding="async" title="写真 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="写真 2" src="/wp-content/uploads/2015/06/2.jpg" width="640" height="480"> </p>
 <p> </p>
@@ -648,6 +650,7 @@ void loop() {
 		}
 	});
 </script>
+<link rel="stylesheet" id="lwptoc-main-css" href="/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.css?ver=2.1.4" type="text/css" media="all">
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script>
@@ -670,6 +673,7 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081" id="wpfront-scroll-top-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.js?ver=2.1.4" id="lwptoc-main-js"></script>
   <script id="module-flowchart">(function($) { $(function() { if (typeof $.fn.flowChart !== "undefined") { if ($(".language-flow").length > 0) { $(".language-flow").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-flow").addClass("flowchart").removeClass("language-flow"); $(".flowchart").flowChart(); } } }); })(jQuery);</script>  <script id="module-katex"> (function($) { $(function() { if (typeof katex !== "undefined") { if ($(".language-katex").length > 0) { $(".language-katex").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-katex").addClass("katex-container").removeClass("language-katex"); $(".katex-container").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } if ($(".katex-inline").length > 0) { $(".katex-inline").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } } }); })(jQuery); </script>  <script id="module-sequence-diagram">(function($) { $(function() { if (typeof $.fn.sequenceDiagram !== "undefined") { $(".language-sequence").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-seq").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-sequence").addClass("sequence-diagram").removeClass("language-sequence"); $(".language-seq").addClass("sequence-diagram").removeClass("language-seq"); $(".sequence-diagram").sequenceDiagram({ theme: "simple" }); } }); })(jQuery);</script>  <script id="module-mermaid">(function($) { $(function() { if (typeof mermaid !== "undefined") { if ($(".language-mermaid").length > 0) { $(".language-mermaid").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-mermaid").addClass("mermaid").removeClass("language-mermaid"); mermaid.init(); } } }); })(jQuery);</script>  <script id="module-mathjax">(function($) { $(function() { if (typeof MathJax !== "undefined") { var c = $(".language-mathjax").length; if (c > 0) { $(".language-mathjax").each(function(i) { var content = $(this).html(); if ($(this).hasClass("mathjax-inline")) { $(this).html("$ " + content + " $"); } else { $(this).html("$$" + "\n" + content + "\n" + "$$"); } if (i + 1 === c) { MathJax.Hub.Config({ showProcessingMessages: false, messageStyle: "none", extensions: [ "tex2jax.js", "TeX/mediawiki-texvc.js", "TeX/noUndefined.js", "TeX/autoload-all.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js" ], jax: [ "input/TeX", "output/SVG" ], elements: document.getElementsByClassName("language-mathjax"), tex2jax: { skipTags: [ "script", "noscript", "style", "textarea" ], inlineMath: [ ['$', '$'] ], displayMath: [ ['$$', '$$'] ], processClass: "language-mathjax" } }); MathJax.Hub.Queue(["Typeset", MathJax.Hub]); $(".language-mathjax").attr("style", "background: transparent; border: 0;"); $(".language-mathjax").closest("pre").attr("style", "background: transparent; border: 0;"); } }); } else { console.log("[wp-githuber-md] MathJax code blocks not found."); } } else { console.log("[wp-githuber-md] MathJax is not loadded."); } }); })(jQuery);</script>  <script id="module-clipboard"> (function($) { $(function() { var pre = document.getElementsByTagName("pre"); var pasteContent = document.getElementById("paste-content"); var hasLanguage = false; for (var i = 0; i < pre.length; i++) { var codeClass = pre[i].children[0].className; var isLanguage = codeClass.indexOf("language-"); var excludedCodeClassNames = [ "language-katex", "language-seq", "language-sequence", "language-flow", "language-flowchart", "language-mermaid", ]; var isExcluded = excludedCodeClassNames.indexOf(codeClass); if (isExcluded !== -1) { isLanguage = -1; } if (isLanguage !== -1) { var current_pre = pre[i]; var parent = current_pre.parentNode; var div = document.createElement("div"); div.style['position'] = 'relative'; parent.replaceChild(div, current_pre); var button = document.createElement("button"); button.className = "copy-button"; button.textContent = "Copy"; div.appendChild(current_pre); div.appendChild(button); hasLanguage = true; } }; if (hasLanguage) { var copyCode = new ClipboardJS(".copy-button", { target: function(trigger) { return trigger.previousElementSibling; } }); copyCode.on("success", function(event) { event.clearSelection(); event.trigger.textContent = "Copied"; window.setTimeout(function() { event.trigger.textContent = "Copy"; }, 2000); }); } }); })(jQuery); </script> 
 			<script id="module-emojify">(function($) {
 					$(function() {
@@ -687,6 +691,6 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 						}
 					});
 				})(jQuery);</script>
-		
+		<style>.lwptoc .lwptoc_i{border:1px solid #aaaaaa;}.lwptoc_header{color:#232323;}.lwptoc .lwptoc_i A{color:#3d3d3d;}.lwptoc .lwptoc_i A:hover,.lwptoc .lwptoc_i A:focus,.lwptoc .lwptoc_i A:active{color:#0a0a0a;border-color:#0a0a0a;}.lwptoc .lwptoc_i A:visited{color:#5b5b5b;}</style>
 </body>
 </html>

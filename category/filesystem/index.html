@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -214,7 +214,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
 				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
-<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11760"><a href="/list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
 <li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://mirror.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div>			</nav><!-- #site-navigation -->
@@ -255,21 +255,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		<div class="entry-content">
 			<p>fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。</p>
-<p>母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD </p>
-<blockquote>
-<p>cd /usr/local/src/     <br>sudo apt-get install -y libaio-dev      <br>git clone -b fio-2.2.5 git://git.kernel.dk/fio.git      <br>cd fio      <br>./configure &amp;&amp; make &amp;&amp; sudo make install      <br>cd ..      <br>wget <a href="http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      <br>fio fio-crystaldiskmark | perl -ne &#8216;      <br>print &quot;$1 : &quot; if(/(.+): \(groupid=/);      <br>print &quot;$1 &quot; if(/bw=([\d. ]+[KM]?B\/s)/);      <br>print &quot;[ $1 IOPS]\n&quot; if(/iops=(\d+)/)&#8217;</p>
-</blockquote>
-<p>4K の読み書きが SDCard よりだんぜん速いです。</p>
-<blockquote>
-<p>Seq-Read : 9555.8KB/s [ 9 IOPS]     <br>Seq-Write : 10250KB/s [ 10 IOPS]      <br>Rand-Read-512K : 9145.4KB/s [ 17 IOPS]      <br>Rand-Write-512K : 10085KB/s [ 19 IOPS]      <br>Rand-Read-4K : 3624.8KB/s [ 906 IOPS]      <br>Rand-Write-4K : 3300.5KB/s [ 825 IOPS]      <br>Rand-Read-4K-QD32 : 8885.1KB/s [ 2221 IOPS]      <br>Rand-Write-4K-QD32 : 10492KB/s [ 2622 IOPS]</p>
-</blockquote>
-<p>なるほどー。いいかも。</p>
-<p>&#160;</p>
-<p>参考</p>
-<blockquote>
-<p>discypus.jp/wiki/ </p>
-<p><a href="http://discypus.jp/wiki/?%C1%C8%A4%DF%B9%FE%A4%DF%2FRaspberryPi#content_1_45" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">fio &#8211; Flexible I/O Tester (2015-02-22)<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 
@@ -301,7 +286,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>Docker とかにも使われているそうで、こんなわかりやすいページがあった。</p>
 <blockquote>
 <p>Dockerイメージの差分管理についてまとめてみた</p>
-<p><a title="http://tanksuzuki.com/post/docker-image-filesystem/" href="http://tanksuzuki.com/post/docker-image-filesystem/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://tanksuzuki.com/post/docker-image-filesystem/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://tanksuzuki.com/post/docker-image-filesystem/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"></a><a href="http://tanksuzuki.com/post/docker-image-filesystem/">http://tanksuzuki.com/post/docker-image-filesystem/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>Docker とかは、見聞きしたことはあるんだけども、実際に使ったことはなくどんなものなのかはよく知りません。</p>
 <p>一言でいえば、</p>
@@ -313,11 +298,11 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p>NFS でルートファイルシステムをブートさせる記事があったので、</p>
 <blockquote>
 <p>raspberryPiをNFSで起動する</p>
-<p><a title="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" href="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a title="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" href="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617"></a><a href="http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617">http://takuya-1st.hatenablog.jp/entry/2014/10/14/002617<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <blockquote>
 <p>Boot Raspberry Pi over NFS</p>
-<p><a title="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" href="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://www.whaleblubber.ca/boot-raspberry-pi-nfs/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"></a><a href="http://www.whaleblubber.ca/boot-raspberry-pi-nfs/">http://www.whaleblubber.ca/boot-raspberry-pi-nfs/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 </blockquote>
 <p>とりあえず、これを週末に実験してみますか。</p>
 <p>&#160;</p>

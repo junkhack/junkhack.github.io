@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -896,21 +896,6 @@ orangepi@OrangePI:~$ </pre>
 
 		<div class="entry-content">
 			<p>fio の手順が載っていたので、以下でNFS Boot の IO性能を計測。</p>
-<p>母艦のosx の DISK は SSD です。Samsung MZ-7TD500BW 840 SSD </p>
-<blockquote>
-<p>cd /usr/local/src/     <br>sudo apt-get install -y libaio-dev      <br>git clone -b fio-2.2.5 git://git.kernel.dk/fio.git      <br>cd fio      <br>./configure &amp;&amp; make &amp;&amp; sudo make install      <br>cd ..      <br>wget <a href="http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.winkey.jp/downloads/visit.php/fio-crystaldiskmark<span class="wpel-icon wpel-image wpel-icon-1"></span></a>      <br>fio fio-crystaldiskmark | perl -ne &#8216;      <br>print &quot;$1 : &quot; if(/(.+): \(groupid=/);      <br>print &quot;$1 &quot; if(/bw=([\d. ]+[KM]?B\/s)/);      <br>print &quot;[ $1 IOPS]\n&quot; if(/iops=(\d+)/)&#8217;</p>
-</blockquote>
-<p>4K の読み書きが SDCard よりだんぜん速いです。</p>
-<blockquote>
-<p>Seq-Read : 9555.8KB/s [ 9 IOPS]     <br>Seq-Write : 10250KB/s [ 10 IOPS]      <br>Rand-Read-512K : 9145.4KB/s [ 17 IOPS]      <br>Rand-Write-512K : 10085KB/s [ 19 IOPS]      <br>Rand-Read-4K : 3624.8KB/s [ 906 IOPS]      <br>Rand-Write-4K : 3300.5KB/s [ 825 IOPS]      <br>Rand-Read-4K-QD32 : 8885.1KB/s [ 2221 IOPS]      <br>Rand-Write-4K-QD32 : 10492KB/s [ 2622 IOPS]</p>
-</blockquote>
-<p>なるほどー。いいかも。</p>
-<p>&#160;</p>
-<p>参考</p>
-<blockquote>
-<p>discypus.jp/wiki/ </p>
-<p><a href="http://discypus.jp/wiki/?%C1%C8%A4%DF%B9%FE%A4%DF%2FRaspberryPi#content_1_45" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">fio &#8211; Flexible I/O Tester (2015-02-22)<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 
@@ -949,7 +934,7 @@ orangepi@OrangePI:~$ </pre>
 <p>・SDCard の FATフォーマットの boot の cmdline.txt へ nfs boot する設定と、IP の設定</p>
 <p>&#160;</p>
 <p>▼osx の NFS Server 側</p>
-<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルは<a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/nfsd.8.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。</p>
+<p>NFSの設定を入れて、nfsd を再起動。操作はroot でやっています。オンラインマニュアルはここ。</p>
 <blockquote>
 <p>&#8212;- /etc/exports      <br>/nfs/fedora22 -rw -mapall=root:wheel -network 192.168.1.0 -mask 255.255.255.0</p>
 </blockquote>
@@ -1001,98 +986,20 @@ orangepi@OrangePI:~$ </pre>
 </blockquote>
 <p>シリアルコンソールのブートログは、</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[    4.638898] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
+<p>[    4.674857] IP-Config: Complete:</p>
+<p>[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1</p>
+<p>[    4.694694]      host=rpi, domain=, nis-domain=(none)</p>
+<p>[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=</p>
+<p>[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.</p>
+<p>[    4.729328] devtmpfs: mounted</p>
+<p>[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)</p>
+<p>[    5.132474] random: nonblocking pool is initialized</p>
+<p>[    6.228285] udevd[177]: starting version 175</p>
+<p>Raspbian GNU/Linux 7 pi ttyAMA0</p>
+<p>pi login: </p></pre>
 
-[    4.674857] IP-Config: Complete:
-
-[    4.680180]      device=eth0, hwaddr=b8:27:eb:97:45:fb, ipaddr=192.168.1.24, mask=255.255.255.0, gw=192.168.1.1
-
-[    4.694694]      host=rpi, domain=, nis-domain=(none)
-
-[    4.701878]      bootserver=192.168.1.17, rootserver=192.168.1.17, rootpath=
-
-[    4.719859] VFS: Mounted root (nfs filesystem) readonly on device 0:14.
-
-[    4.729328] devtmpfs: mounted
-
-[    4.735147] Freeing unused kernel memory: 400K (80786000 - 807ea000)
-
-[    5.132474] random: nonblocking pool is initialized
-
-[    6.228285] udevd[177]: starting version 175
-
-
-
-Raspbian GNU/Linux 7 pi ttyAMA0
-
-
-
-pi login: </pre>
 <p>となっています。</p>
 <p>NFS Boot させたあと、uname したら、</p>
-<blockquote>
-<p>root@pi:~# uname -a<br>
-    <br>Linux pi 4.0.7-v7+ #801 SMP PREEMPT Tue Jun 30 18:38:23 BST 2015 armv7l GNU/Linux</p>
-<p>root@pi:~# </p>
-</blockquote>
-<p>げ、fedora の initramfs からブートしてます。SDCard の boot は、初回にスクリプトで作ったやつだった。。。。</p>
-<blockquote>
-<p>root@pi:/boot# ll *.img<br>
-    <br>-rwxr-xr-x 1 root root 39176850 Jul&#160; 4 17:40 initramfs-0-rescue-18b4f0b4546f49828e1ef5e652cc7b9a.img</p>
-<p>-rwxr-xr-x 1 root root 16475761 Jul&#160; 4 17:36 initramfs-4.0.6-300.fc22.armv7hl+lpae.img</p>
-<p>-rwxr-xr-x 1 root root&#160; 3987856 Jul&#160; 2 23:35 kernel7.img</p>
-<p>-rwxr-xr-x 1 root root&#160; 4016696 Jul&#160; 2 23:35 kernel.img</p>
-<p>root@pi:/boot# </p>
-</blockquote>
-<p>たぶん、RASPIAN のimg の boot からやれば、良いはず。まだ試していませんが。</p>
-<p>df はこんな感じで、ルートがnfs になっています。76Gも空きがあるー（osx 側のディスクですが）</p>
-<blockquote>
-<p>root@pi:~# df -hT<br>
-    <br>Filesystem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Type&#160;&#160;&#160;&#160;&#160; Size&#160; Used Avail Use% Mounted on</p>
-<p>192.168.1.17:/nfs/fedora22 nfs&#160;&#160;&#160;&#160;&#160;&#160; 466G&#160; 390G&#160;&#160; 76G&#160; 84% /</p>
-<p>devtmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; devtmpfs&#160; 459M&#160;&#160;&#160;&#160; 0&#160; 459M&#160;&#160; 0% /dev</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160;&#160; 93M&#160; 216K&#160;&#160; 93M&#160;&#160; 1% /run</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 5.0M&#160;&#160;&#160;&#160; 0&#160; 5.0M&#160;&#160; 0% /run/lock</p>
-<p>tmpfs&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpfs&#160;&#160;&#160;&#160; 186M&#160;&#160;&#160;&#160; 0&#160; 186M&#160;&#160; 0% /run/shm</p>
-<p>/dev/mmcblk0p1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; vfat&#160;&#160;&#160;&#160;&#160; 200M&#160;&#160; 98M&#160; 102M&#160; 50% /boot</p>
-</blockquote>
-<p>このままだと、モジュールを読み込んでいないので使えませんが、、、</p>
-<blockquote>
-<p>root@pi:~# lsmod<br>
-    <br>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
-<p>root@pi:~# ll /lib/modules/</p>
-<p>total 8</p>
-<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11+</p>
-<p>drwxr-xr-x 14 root root 476 May&#160; 6 22:22 3.18.11-v7+</p>
-<p>root@pi:~# </p>
-</blockquote>
-<p>Boot の img を RASPBIAN のに入れ替えて、リブート</p>
-<blockquote>
-<p>[root@pi ~ 07/25 20:40:51]# ll /boot/*.img<br>
-    <br>-rwxr-xr-x 1 root root 3930004 Apr 27 13:40 /boot/kernel7.img</p>
-<p>-rwxr-xr-x 1 root root 3974884 Apr 27 13:40 /boot/kernel.img</p>
-</blockquote>
-<p>これでkernel も ローダブルモジュールもOK な感じ。</p>
-<blockquote>
-<p>[root@pi ~ 07/25 20:41:40]# uname -a<br>
-    <br>Linux pi 3.18.11-v7+ #781 SMP PREEMPT Tue Apr 21 18:07:59 BST 2015 armv7l GNU/Linux</p>
-<p>[root@pi ~ 07/25 20:44:14]# lsmod</p>
-<p>Module&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Size&#160; Used by</p>
-<p>cfg80211&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 386508&#160; 0 </p>
-<p>rfkill&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 16651&#160; 1 cfg80211</p>
-<p>rpcsec_gss_krb5&#160;&#160;&#160;&#160;&#160;&#160;&#160; 20958&#160; 0 </p>
-<p>nfsd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 263569&#160; 2 </p>
-<p>snd_bcm2835&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 18649&#160; 0 </p>
-<p>snd_pcm&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 73475&#160; 1 snd_bcm2835</p>
-<p>snd_seq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 53078&#160; 0 </p>
-<p>snd_seq_device&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 5628&#160; 1 snd_seq</p>
-<p>snd_timer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 17784&#160; 2 snd_pcm,snd_seq</p>
-<p>snd&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 51038&#160; 5 snd_bcm2835,snd_timer,snd_pcm,snd_seq,snd_seq_device</p>
-<p>8192cu&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 528365&#160; 0 </p>
-<p>joydev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8879&#160; 0 </p>
-<p>evdev&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 9950&#160; 2 </p>
-<p>uio_pdrv_genirq&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 2958&#160; 0 </p>
-<p>uio&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 8119&#160; 1 uio_pdrv_genirq</p>
-</blockquote>
 					</div>
 <!-- .entry-content -->
 

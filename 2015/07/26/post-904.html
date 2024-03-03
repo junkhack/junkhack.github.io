@@ -15,8 +15,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
-<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/r4tbR7inmYatdLFK2ZC0"});</script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
 
 <script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
 	window.addEventListener('load', function () {
@@ -125,7 +125,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
 				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
-<li id="menu-item-10686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10686"><a href="/list/" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11760"><a href="/list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
 <li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
 <li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://mirror.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
 </ul></div>			</nav><!-- #site-navigation -->
@@ -165,152 +165,6 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 
 		<div class="entry-content">
 			<p>ubuntu のパッケージ管理は慣れていないので、すぐ忘れちゃうのでとりあえずメモ。</p>
-<p>確認後にインストールするオプションみたいなのは、どれですかね？-u とか、-s とか？</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">コマンド</th>
-<th style="text-align:left;">内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;"><code>apt-get install [package]</code></td>
-<td style="text-align:left;">パッケージのインストール/更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get update</code></td>
-<td style="text-align:left;">パッケージリストの更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get upgrade</code></td>
-<td style="text-align:left;">インストールされてるパッケージの更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get dist-upgrade</code></td>
-<td style="text-align:left;">インストールされてるパッケージの更新/ディストリビューションの更新</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>dpkg -l [package]</code></td>
-<td style="text-align:left;">インストールされてるパッケージの一覧</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>dpkg -L</code></td>
-<td style="text-align:left;">インストールした時のファイルの一覧</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-cache search [query]</code></td>
-<td style="text-align:left;">パッケージの検索</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get remove [package]</code></td>
-<td style="text-align:left;">パッケージの削除</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get autoremove</code></td>
-<td style="text-align:left;">使ってないパッケージの削除</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get purge [package]</code></td>
-<td style="text-align:left;">パッケージの削除（設定ファイルも）</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get clean</code></td>
-<td style="text-align:left;">アーカイブファイルの削除</td>
-</tr>
-<tr>
-<td style="text-align:left;"><code>apt-get clean</code></td>
-<td style="text-align:left;">使ってないパッケージのアーカイブファイルの削除</td>
-</tr>
-</tbody>
-</table>
-<p>参考</p>
-<blockquote>
-<p>[Ubuntu] apt-get まとめ      <br><a title="http://qiita.com/white_aspara25/items/723ae4ebf0bfefe2115c" href="http://qiita.com/white_aspara25/items/723ae4ebf0bfefe2115c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://qiita.com/white_aspara25/items/723ae4ebf0bfefe2115c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p>▼オプション</p>
-<table class="commands_options">
-<tbody>
-<tr>
-<td>-d</td>
-<td>パッケージのダウンロードのみを行います。展開・インストールは行いません。</td>
-</tr>
-<tr>
-<td>-f</td>
-<td>パッケージの依存性がおかしくなった場合、その修復を試みます。</td>
-</tr>
-<tr>
-<td>-q</td>
-<td>quietモードです。進捗状況を表示しません。</td>
-</tr>
-<tr>
-<td>-u</td>
-<td>アップデートするパッケージの一覧を表示します。</td>
-</tr>
-<tr>
-<td>-s</td>
-<td>なにが起こるのかのシミュレーションを行い、実際にはシステムの変更を行わない。</td>
-</tr>
-<tr>
-<td>-y</td>
-<td>インタラクティブ（ユーザーへの問い合わせ）に「yes」と答えます。</td>
-</tr>
-</tbody>
-</table>
-<p>参考</p>
-<blockquote>
-<p>apt-get – パッケージの操作・管理 – Linuxコマンド     <br><a title="http://webkaru.net/linux/apt-get-command/" href="http://webkaru.net/linux/apt-get-command/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://webkaru.net/linux/apt-get-command/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-<p>Ubuntu Manpage_ apt-get </p>
-<p><a title="http://manpages.ubuntu.com/manpages/lucid/ja/man8/apt-get.8.html" href="http://manpages.ubuntu.com/manpages/lucid/ja/man8/apt-get.8.html" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">http://manpages.ubuntu.com/manpages/lucid/ja/man8/apt-get.8.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
-</blockquote>
-<p> </p>
-<p>apt-get upgrade のとき何が起きるのか不明で確認したかったので、-s でシュミレーション。</p>
-<p>以下のようになった。とりあえず、これでいいや。</p>
-<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi ~ 07/26 07:01:35]# apt-get upgrade -s
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-The following packages will be upgraded:
-  bind9-host cups-bsd cups-client cups-common fuse libbind9-80 libcups2 libcupsimage2 libdns88 libfuse2 libisc84 libisccc80 libisccfg82 liblwres80
-  libsdl1.2debian libsqlite3-0 libssl1.0.0 openssl
-18 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Inst libssl1.0.0 [1.0.1e-2+rvt+deb7u16] (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-Inst libsqlite3-0 [3.7.13-1+deb7u1] (3.7.13-1+deb7u2 Raspbian:7.0/oldstable [armhf])
-Inst libcupsimage2 [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf]) []
-Inst cups-common [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [all]) []
-Inst cups-bsd [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf]) []
-Inst cups-client [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf]) []
-Inst libcups2 [1.5.3-5+deb7u5] (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Inst fuse [2.9.0-2+deb7u1] (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf]) []
-Inst libfuse2 [2.9.0-2+deb7u1] (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf])
-Inst libsdl1.2debian [1.2.15-5] (1.2.15-5+rpi1 Raspberry Pi Foundation:oldstable [armhf])
-Inst bind9-host [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libisc84 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libdns88 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libisccc80 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libisccfg82 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst libbind9-80 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf]) []
-Inst liblwres80 [1:9.8.4.dfsg.P1-6+nmu2+deb7u4] (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Inst openssl [1.0.1e-2+rvt+deb7u16] (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-Conf libssl1.0.0 (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-Conf libsqlite3-0 (3.7.13-1+deb7u2 Raspbian:7.0/oldstable [armhf])
-Conf libcups2 (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf libcupsimage2 (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf cups-common (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [all])
-Conf cups-client (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf cups-bsd (1.5.3-5+deb7u6 Raspbian:7.0/oldstable [armhf])
-Conf libfuse2 (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf])
-Conf fuse (2.9.0-2+deb7u2 Raspbian:7.0/oldstable [armhf])
-Conf libsdl1.2debian (1.2.15-5+rpi1 Raspberry Pi Foundation:oldstable [armhf])
-Conf libisc84 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libdns88 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libisccc80 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libisccfg82 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf libbind9-80 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf liblwres80 (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf bind9-host (1:9.8.4.dfsg.P1-6+nmu2+deb7u5 Raspbian:7.0/oldstable [armhf])
-Conf openssl (1.0.1e-2+rvt+deb7u17 Raspbian:7.0/oldstable [armhf])
-[root@pi ~ 07/26 07:02:12]# </pre>
 					</div>
 <!-- .entry-content -->
 

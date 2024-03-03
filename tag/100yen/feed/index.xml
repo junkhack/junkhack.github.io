@@ -283,12 +283,12 @@
 		
 			</item>
 		<item>
-		<title>単3電池2本でiPhoneを充電 その6</title>
-		<link>/2011/02/11/post-178.html</link>
-					<comments>/2011/02/11/post-178.html#comments</comments>
+		<title>Minty Boostの作者　えらい！</title>
+		<link>/2011/02/11/post-171.html</link>
+					<comments>/2011/02/11/post-171.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
-		<pubDate>Fri, 11 Feb 2011 07:45:51 +0000</pubDate>
+		<pubDate>Fri, 11 Feb 2011 00:54:41 +0000</pubDate>
 				<category><![CDATA[100Yen]]></category>
 		<category><![CDATA[Blog]]></category>
 		<category><![CDATA[100円]]></category>
@@ -299,27 +299,19 @@
 		<category><![CDATA[iPhone充電]]></category>
 		<category><![CDATA[USB]]></category>
 		<category><![CDATA[昇圧]]></category>
-		<guid isPermaLink="false">/2011/02/11/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae6/</guid>
-							<description><![CDATA[&#160; 抵抗が無かったので、もう一台100円ショップに行ってGETしてきました。で、そこから43KをGET。練習で51Kをはずして、コツをつかんで、いざ挑戦。 MintyBoostの作者のように、間接的に熱を加えて [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image28.png" width="496" height="378" />&#160; </p>
-<p>抵抗が無かったので、もう一台100円ショップに行ってGETしてきました。で、そこから43KをGET。練習で51Kをはずして、コツをつかんで、いざ挑戦。    <br /> MintyBoostの作者のように、間接的に熱を加えてやろうとしたけど、なかなかむずい。う～ん、ってことで、いつものように左右オラオラ作戦で、余熱を与えながらはずしたよ。    <br /> <font color="#ff0000">※あれは、熱風がでるタイプのなんだね。後で知りました。たとえば、</font><a href="http://www.hozan.co.jp/catalog/Desoldering_Tools/HS559.htm" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external"><font color="#ff0000">こういう</font><span class="wpel-icon wpel-image wpel-icon-1"></span></a><font color="#ff0000">の とか </font><a href="http://www.hozan.co.jp/catalog/Desoldering_Tools/HS401.htm" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external"><font color="#ff0000">ピンセット形</font><span class="wpel-icon wpel-image wpel-icon-1"></span></a><font color="#ff0000">もある     <br /></font> ピンセットはL字に曲がったのをおなじく、100円ショップからGET。曲がってるのが使いやすいね。    <br />で、改造した基盤のR1を43KΩに付け替え。    <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image29.png" width="498" height="564" />&#160; <br />電池入れて、実測値を測る。</p>
-</p>
-<p>Pin2 data- ２V弱 きっちり２Vじゃないけど</p>
-</p>
-<p> <img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8602" border="0" alt="IMGP8602" src="/wp-content/uploads/2011/02/imgp8602.jpg" width="498" height="338" />  </p>
-<p>Pin3 data+&#160; 2V弱。今付け替えたのはOKみたいですね。</p>
-<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8603" border="0" alt="IMGP8603" src="/wp-content/uploads/2011/02/imgp8603.jpg" width="498" height="338" /> </p>
+		<guid isPermaLink="false">/2011/02/11/minty-boost%e3%81%ae%e4%bd%9c%e8%80%85%e3%80%80%e3%81%88%e3%82%89%e3%81%84%ef%bc%81/</guid>
+							<description><![CDATA[[vimeo http://www.vimeo.com/13835359 w=400&#38;h=225] Reverse engineering Apple&#8217;s secret charging method [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>[vimeo http://www.vimeo.com/13835359 w=400&amp;h=225]  </p>
+<p><a href="http://vimeo.com/13835359" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Reverse engineering Apple&#8217;s secret charging methods<span class="wpel-icon wpel-image wpel-icon-1"></span></a> from <a href="http://vimeo.com/adafruit" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">adafruit industries<span class="wpel-icon wpel-image wpel-icon-1"></span></a> on <a href="http://vimeo.com/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Vimeo<span class="wpel-icon wpel-image wpel-icon-1"></span></a>.</p>
+<p>iPhoneが充電モードをUSB Pin2,3 の電圧を見て決めている決定的な証拠ビデオ。ナイスJobですね。！</p>
+<p>すばらしい。ビデオ途中、チップ抵抗を外す場面があるんですが、間接熱でピンセットで外していますね。こういうテクがあるとは、勉強になります。   </p>
+<p>Appleはハードとソフト（OS)を、両面から作る会社なのでいろいろと、面白い仕掛けをしてくれますね。規格を工夫してくるところがすごく私は好きなんですが、こういうところを嫌う方もいます。    </p>
+<p>100円ショップのUSB充電器から、思わぬところに結びついてきたので、Hackした甲斐はありましたね。モノづくりの原点。バラして、１つ１つじっくり見る。ああでもない、こうでもないと試行錯誤して手を動かす。一見無駄なように思えても実は、意味があるんですよね。</p>
 <p>&#160;</p>
-<p>40％以上だと充電モードに入るのを確認。   <br />ただいま、放電中。40％以下になるまでしばし待つ。</p>
-<p><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="IMGP8601" border="0" alt="IMGP8601" src="/wp-content/uploads/2011/02/imgp8601.jpg" width="498" height="338" /> </p>
-</p>
-<p>うまく、充電できるといいね。NGなら、ICの限界かとあきらめもつくしね。500mA出ないと思うし。このIC。先人の解析されたjr7cwkさんのブログに、電流と電圧の出力特性が載っていて、   <br /><a href="http://samidare.jp/jr7cwk/lavo?p=detail&amp;cm=190715" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://samidare.jp/jr7cwk/lavo?p=detail&amp;cm=190715<span class="wpel-icon wpel-image wpel-icon-1"></span></a>    <br />300ｍAを越えると、３Vだと電圧が一気に降下しちゃう特性みたい。 今回は、多少、コンデンサ変えたり、余分につけたりしてるので、そのあたりがどう影響するかですね。</p>
-<p>&#160;</p>
-<p>そうそう、100円ショップでビンとじょうご使って、新しいハンダゴテ台を作ったよ。   <br /><img loading="lazy" decoding="async" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="/wp-content/uploads/2011/02/image30.png" width="455" height="378" />&#160; <br />まだ仮止めなんだけど、結構使いやすくて、調整しながらカスタムしていくよ。フタにはハンダゴテ綺麗にするスポンジついています。これも100円ショップ。飾りにビー玉もいれたよ。</p>
-<p>ど？    </p>
+<p>電子機器、年々、ちっこくなって、パーツが触りにくいので、そのあたりが悩みどころ。手がプルプルふるえちゃうんですもん。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2011/02/11/post-178.html/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/02/11/post-171.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
