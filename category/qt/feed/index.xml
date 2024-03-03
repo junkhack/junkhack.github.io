@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>Sigrok の Pulsview 0.3.0 動きました</title>
-		<link>/2015/12/31/sigrok-%e3%81%ae-pulsview-0-3-0-%e5%8b%95%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/</link>
+		<link>/2015/12/31/post-1966.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 30 Dec 2015 19:47:23 +0000</pubDate>
@@ -141,7 +141,7 @@ export PYTHONPATH=&quot;/usr/local/lib/python3.4/site-packages/:$PYTHONPATH&quot
 			</item>
 		<item>
 		<title>sigrok Pulsview を osx でビルドに挑戦</title>
-		<link>/2015/12/30/sigrok-pulsview-%e3%82%92-osx-%e3%81%a7%e3%83%93%e3%83%ab%e3%83%89%e3%81%ab%e6%8c%91%e6%88%a6/</link>
+		<link>/2015/12/30/post-1957.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 29 Dec 2015 20:04:41 +0000</pubDate>

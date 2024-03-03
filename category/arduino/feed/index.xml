@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>XIAOでMacのスクリーンショット専用USBキーを作るDIY</title>
-		<link>/2021/03/01/make-mac-sskey-xiao/</link>
+		<link>/2021/03/01/post-10186.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 28 Feb 2021 17:20:05 +0000</pubDate>
@@ -389,7 +389,7 @@ $ sudo ./keylogger</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -397,8 +397,8 @@ $ sudo ./keylogger</code></pre>
 			</item>
 		<item>
 		<title>Arduino Nano互換機に書き込めないだと！</title>
-		<link>/2021/02/23/arduino-nano/</link>
-					<comments>/2021/02/23/arduino-nano/#comments</comments>
+		<link>/2021/02/23/post-10154.html</link>
+					<comments>/2021/02/23/post-10154.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 23 Feb 2021 06:17:03 +0000</pubDate>
@@ -915,17 +915,17 @@ avrdude done.  Thank you.</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/23/arduino-nano/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/23/post-10154.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</title>
-		<link>/2021/02/20/arudio-seeeduino-xiao/</link>
+		<link>/2021/02/20/post-10121.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 20 Feb 2021 06:38:39 +0000</pubDate>
@@ -1199,7 +1199,7 @@ void rest() {
 <p>まず、オフィシャルのSeeedのブログでいくつか紹介されています。その中から独断と偏見で面白そうなプロジェクトをピックアップ。</p>
 
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/arudio-seeeduino-xiao/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/post-10121.html" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
 
 
 <p>MIDIをコントロールできるので、オリジナルコントローラとかセンサー駆動の楽器とか？</p>
@@ -1357,7 +1357,7 @@ void rest() {
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -1365,7 +1365,7 @@ void rest() {
 			</item>
 		<item>
 		<title>ロジックアナライザでI2C 信号を見ると</title>
-		<link>/2016/02/01/%e3%83%ad%e3%82%b8%e3%83%83%e3%82%af%e3%82%a2%e3%83%8a%e3%83%a9%e3%82%a4%e3%82%b6%e3%81%a7i2c-%e4%bf%a1%e5%8f%b7%e3%82%92%e8%a6%8b%e3%82%8b%e3%81%a8/</link>
+		<link>/2016/02/01/post-2081.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 31 Jan 2016 15:11:08 +0000</pubDate>
@@ -1402,7 +1402,7 @@ void rest() {
 			</item>
 		<item>
 		<title>INA226 を arduino nano で</title>
-		<link>/2016/01/30/ina226-%e3%82%92-arduino-nano-%e3%81%a7/</link>
+		<link>/2016/01/30/post-2074.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 30 Jan 2016 14:27:20 +0000</pubDate>

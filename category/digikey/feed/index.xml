@@ -29,8 +29,8 @@
 </image> 
 	<item>
 		<title>WiFi E-ink display 部品整理</title>
-		<link>/2015/09/21/wifi-e-ink-display-parts/</link>
-					<comments>/2015/09/21/wifi-e-ink-display-parts/#comments</comments>
+		<link>/2015/09/21/post-1238.html</link>
+					<comments>/2015/09/21/post-1238.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 21 Sep 2015 09:36:01 +0000</pubDate>
@@ -236,14 +236,14 @@
 <p>信号作成は、raspi にさせるようです。まだ途中のようですがウォッチしていきたいです。信号作成部分がどうなっているのかソフトウェア的にまだしていませんので。この方も、まだソフトウェアは作っていないようです。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2015/09/21/wifi-e-ink-display-parts/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/09/21/post-1238.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>IC4 のレギュレータは要考慮</title>
-		<link>/2015/09/14/ic4-%e3%81%ae%e3%83%ac%e3%82%ae%e3%83%a5%e3%83%ac%e3%83%bc%e3%82%bf%e3%81%af%e8%a6%81%e8%80%83%e6%85%ae/</link>
+		<link>/2015/09/14/post-1190.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Sep 2015 16:41:26 +0000</pubDate>
@@ -265,7 +265,7 @@
 <p>NCP603SN330T1G(3.3V)</p>
 <p>&#160;</p>
 <p>たくさんあるので、以下あたりから候補を選ぶことに。3V と3.3V とどちらがいいでしょうかね？リチウム電池に直結しているので、3V のほうがいいのかもしれませんね。というか、これリチウム電池の電圧保護に頼っている形ですね。うーむ。</p>
-<p><a href="http://www.digikey.com/product-search/en?FV=fff40027%2Cfff80182%2C1c0002%2C40301f%2Cc00016%2Cc0004e%2C204001b%2C204003c&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=1000011&amp;page=1&amp;stock=1&amp;pbfree=0&amp;rohs=0&amp;quantity=&amp;ptm=0&amp;fid=0&amp;pageSize=100" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">digikey Voltage Regulators – Linear<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://www.digikey.com/product-search/en?FV=fff40027%2Cfff80182%2C1c0002%2C40301f%2Cc00016%2Cc0004e%2C204001b%2C204003c&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=1000011&amp;page=1&amp;stock=1&amp;pbfree=0&amp;rohs=0&amp;quantity=&amp;ptm=0&amp;fid=0&amp;pageSize=100" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">digikey Voltage Regulators – Linear<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
 <p>&#160;</p>
 <p>作者の手書きの図には、MCP1802T-3002I/OT（3V）だと思うものが載っているようです。</p>
 <p><a title="http://spritesmods.com/?art=einkdisplay&amp;page=4" href="http://spritesmods.com/?art=einkdisplay&amp;page=4" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://spritesmods.com/?art=einkdisplay&amp;page=4<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
@@ -323,7 +323,7 @@
 			</item>
 		<item>
 		<title>Wifi E-ink display パーツ見積</title>
-		<link>/2015/09/12/wifi-e-ink-display-%e3%83%91%e3%83%bc%e3%83%84%e8%a6%8b%e7%a9%8d/</link>
+		<link>/2015/09/12/post-1171.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 12 Sep 2015 06:47:10 +0000</pubDate>

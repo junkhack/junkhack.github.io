@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>200円で、ハンドスピナーを作ったよ</title>
-		<link>/2017/05/15/200%e5%86%86%e3%81%a7%e3%80%81%e3%83%8f%e3%83%b3%e3%83%89%e3%82%b9%e3%83%94%e3%83%8a%e3%83%bc%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%9f%e3%82%88/</link>
+		<link>/2017/05/15/post-3971.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 14 May 2017 15:46:48 +0000</pubDate>
@@ -65,7 +65,7 @@
 			</item>
 		<item>
 		<title>ワークスペースを作るため3D プリンターを押入れに入れた</title>
-		<link>/2017/04/24/%e3%83%af%e3%83%bc%e3%82%af%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b9%e3%82%92%e4%bd%9c%e3%82%8b%e3%81%9f%e3%82%813d-%e3%83%97%e3%83%aa%e3%83%b3%e3%82%bf%e3%83%bc%e3%82%92%e6%8a%bc%e5%85%a5%e3%82%8c/</link>
+		<link>/2017/04/24/post-3870.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 23 Apr 2017 17:28:16 +0000</pubDate>
@@ -92,7 +92,7 @@
 			</item>
 		<item>
 		<title>DIY Tool Wagon の貫通穴調整</title>
-		<link>/2017/04/23/diy-tool-wagon-%e3%81%ae%e8%b2%ab%e9%80%9a%e7%a9%b4%e8%aa%bf%e6%95%b4/</link>
+		<link>/2017/04/23/post-3850.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 22 Apr 2017 17:13:22 +0000</pubDate>
@@ -123,7 +123,7 @@
 			</item>
 		<item>
 		<title>Wanhao の LED 照明を作ってみた、その２</title>
-		<link>/2017/04/22/wanhao-%e3%81%ae-led-%e7%85%a7%e6%98%8e%e3%82%92%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f%e3%80%81%e3%81%9d%e3%81%ae%ef%bc%92/</link>
+		<link>/2017/04/22/post-3832.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 22 Apr 2017 06:01:48 +0000</pubDate>
@@ -133,7 +133,7 @@
 		<guid isPermaLink="false">/?p=3832</guid>
 							<description><![CDATA[すっかり春ですね。ソファーが到着してからは、まったりすることが多くなり映画とか読書に励んでいました。DIY な暇つぶしも腰が重いです。 で、前回はWanhao&#160; の前面に取り付ける筐体を作りましたが、まだ LE [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>すっかり春ですね。ソファーが到着してからは、まったりすることが多くなり映画とか読書に励んでいました。DIY な暇つぶしも腰が重いです。</p>
-<p>で、<a href="/2017/02/12/wanhao-%E3%81%AE-led-%E8%A8%BC%E6%98%8E%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">前回</a>はWanhao&#160; の前面に取り付ける筐体を作りましたが、まだ LED を組み込んでいませんでした。筐体だけ作って満足していた感じですが、<a href="http://www.thingiverse.com/thing:2106168/#comments" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">thingiverse<span class="wpel-icon wpel-image wpel-icon-1"></span></a> のコメントに「ノズルの先端まで照らせるの？」と、質問があったので気になって実際にLED を付けて確認してみました。だれかの突っ込みがあると「お～し、作ってみますか？」となる気力も沸きます。</p>
+<p>で、<a href="/2017/02/12/wanhao-%E3%81%AE-led-%E8%A8%BC%E6%98%8E%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/" target="_blank" rel="noopener noreferrer" class="broken_link" data-wpel-link="internal">前回</a>はWanhao&#160; の前面に取り付ける筐体を作りましたが、まだ LED を組み込んでいませんでした。筐体だけ作って満足していた感じですが、<a href="http://www.thingiverse.com/thing:2106168/#comments" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">thingiverse<span class="wpel-icon wpel-image wpel-icon-1"></span></a> のコメントに「ノズルの先端まで照らせるの？」と、質問があったので気になって実際にLED を付けて確認してみました。だれかの突っ込みがあると「お～し、作ってみますか？」となる気力も沸きます。</p>
 <p><img loading="lazy" decoding="async" title="P1300777-1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300777-1" src="/wp-content/uploads/2017/04/p13007771.png" width="640" height="480" /> </p>
 <p>この LED はアリエクで買ったものです。前面に光束が集中するタイプで、英語だと Straw Hat LED と呼ばれるタイプです。100 個で 送料込み、160円ほどです。つなぎ方は、いろいろありますが12V の場合で4つ LED を点灯する一番簡単な方法は、直列につなぎます。本当は並列にして抵抗を入れ LED の定格のmA を流すのが本来のつなぎ方です。</p>
 <p><img loading="lazy" decoding="async" title="P1300779" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="P1300779" src="/wp-content/uploads/2017/04/p1300779.png" width="640" height="480" /> </p>
@@ -167,8 +167,8 @@
 			</item>
 		<item>
 		<title>ダイソーのステンレストレイとミスミのアルミフレームでDIY</title>
-		<link>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/</link>
-					<comments>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/#comments</comments>
+		<link>/2017/03/25/post-3620.html</link>
+					<comments>/2017/03/25/post-3620.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 25 Mar 2017 01:20:28 +0000</pubDate>
@@ -216,7 +216,7 @@
 <p>もう少し、CAD上でつついて検討したいと思います。高さは、50cm もなくていいのかな。トレイは取り外せるようにするか、固定するかでフレームの構造も決まります。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2017/03/25/%e3%83%80%e3%82%a4%e3%82%bd%e3%83%bc%e3%81%ae%e3%82%b9%e3%83%86%e3%83%b3%e3%83%ac%e3%82%b9%e3%83%88%e3%83%ac%e3%82%a4%e3%81%a8%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%ae%e3%82%a2%e3%83%ab%e3%83%9f%e3%83%95/feed/</wfw:commentRss>
+					<wfw:commentRss>/2017/03/25/post-3620.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

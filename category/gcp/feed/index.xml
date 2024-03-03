@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>GCPのunixbench n1-standard-2（vCPU x 2、メモリ 7.5 GB）</title>
-		<link>/2020/03/13/gcp-unixbench-n1standard2/</link>
+		<link>/2020/03/13/post-5030.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 13 Mar 2020 12:08:03 +0000</pubDate>
@@ -63,7 +63,7 @@
 			</item>
 		<item>
 		<title>グーグルの仮想マシンに30GBのSSD追加して2週間の値段</title>
-		<link>/2018/02/10/%e3%82%b0%e3%83%bc%e3%82%b0%e3%83%ab%e3%81%ae%e4%bb%ae%e6%83%b3%e3%83%9e%e3%82%b7%e3%83%b3%e3%81%ab30gb%e3%81%aessd%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%a62%e9%80%b1%e9%96%93%e3%81%ae%e5%80%a4%e6%ae%b5/</link>
+		<link>/2018/02/10/post-4375.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 09 Feb 2018 17:42:10 +0000</pubDate>
@@ -108,8 +108,8 @@
 			</item>
 		<item>
 		<title>GCP f1-micro の UnixBench</title>
-		<link>/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/</link>
-					<comments>/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/#comments</comments>
+		<link>/2018/01/28/post-4340.html</link>
+					<comments>/2018/01/28/post-4340.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 28 Jan 2018 09:11:42 +0000</pubDate>
@@ -164,15 +164,15 @@
 <p>あまり代わり映えしませんが、これからも仕事が忙しくても何か更新するライフワークにしていきたいですね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/01/28/gcp-f1-micro-%e3%81%ae-unixbench/feed/</wfw:commentRss>
+					<wfw:commentRss>/2018/01/28/post-4340.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>独自ドメインで WordPress を動作させる為、エンジニアが選んだ選択</title>
-		<link>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/</link>
-					<comments>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/#comments</comments>
+		<link>/2018/01/28/post-4331.html</link>
+					<comments>/2018/01/28/post-4331.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 27 Jan 2018 22:37:24 +0000</pubDate>
@@ -237,7 +237,7 @@
 <p>あと、うたい文句の「いつまでも無料」っていうのはどういうことなんでしょうか？自分にはよくわかりません。次回に掘り下げてみたいですね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2018/01/28/%e7%8b%ac%e8%87%aa%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%a7-wordpress-%e3%82%92%e5%8b%95%e4%bd%9c%e3%81%95%e3%81%9b%e3%82%8b%e7%82%ba%e3%80%81%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2%e3%81%8c/feed/</wfw:commentRss>
+					<wfw:commentRss>/2018/01/28/post-4331.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

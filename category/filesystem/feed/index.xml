@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>NFS Boot の IOPS</title>
-		<link>/2015/07/25/nfs-boot-%e3%81%ae-iops/</link>
+		<link>/2015/07/25/post-900.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 25 Jul 2015 13:16:28 +0000</pubDate>
@@ -62,7 +62,7 @@
 			</item>
 		<item>
 		<title>AUFSとか</title>
-		<link>/2015/07/24/aufs%e3%81%a8%e3%81%8b/</link>
+		<link>/2015/07/24/post-886.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 23 Jul 2015 21:49:46 +0000</pubDate>

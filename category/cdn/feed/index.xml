@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
-		<link>/2022/01/02/keycdn/</link>
+		<link>/2022/01/02/post-10979.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 02 Jan 2022 00:01:22 +0000</pubDate>
@@ -225,7 +225,7 @@
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -233,7 +233,7 @@
 			</item>
 		<item>
 		<title>Rapid START CDNを試す！　が、ハマりどころいっぱい！</title>
-		<link>/2020/09/03/rapid-start-cdn/</link>
+		<link>/2020/09/03/post-5854.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 Sep 2020 03:38:17 +0000</pubDate>
@@ -400,7 +400,7 @@ free.rs.cdnw.net.	29	IN	A	59.106.219.219</code></pre>
 			</item>
 		<item>
 		<title>CDNを使わずWEBアクセスのロードタイムが１秒を切った！</title>
-		<link>/2020/03/16/webloadtime0-981s/</link>
+		<link>/2020/03/16/post-5063.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 15 Mar 2020 18:56:44 +0000</pubDate>

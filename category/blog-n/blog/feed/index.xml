@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</title>
-		<link>/2024/02/22/ai_engine_for_wordpress/</link>
+		<link>/2024/02/22/post-11712.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 22 Feb 2024 02:55:38 +0000</pubDate>
@@ -128,14 +128,14 @@
 <p>応用すればいろいろと使えそうです。たとえば、自社のナレッジシステムを学習させた自社内AI チャットGPTとか。あとは、3Dオブジェクトと組み合わせて、音声でキャラクターとお話、会話できるものとか。アプリに組み込んで、ヘルプのやり取りをさせたりとか。</p>
 <p>もっと機能を限定してシンプルなWordPressのプラグインとか作りたいですね。</p>
 <h3>著者にメッセージ</h3>
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
 					
 		
 		
 			</item>
 		<item>
 		<title>音声認識のやることリストで遊んでみた</title>
-		<link>/2022/06/15/artyom-js_sticky-notes-semo/</link>
+		<link>/2022/06/15/post-11399.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 14 Jun 2022 15:50:57 +0000</pubDate>
@@ -277,7 +277,7 @@
 <p></p>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -285,7 +285,7 @@
 			</item>
 		<item>
 		<title>WordPressをhtmlファイルに出してGitHub Pagesで運用するスタイルが最高</title>
-		<link>/2022/01/16/wordpress-to-githubpages/</link>
+		<link>/2022/01/16/post-11019.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 15 Jan 2022 17:09:59 +0000</pubDate>
@@ -518,7 +518,7 @@
 <p></p>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -526,8 +526,8 @@
 			</item>
 		<item>
 		<title>ジェットパックプラグインは死活監視サービスがあるのか！</title>
-		<link>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/</link>
-					<comments>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/#comments</comments>
+		<link>/2020/09/18/post-9469.html</link>
+					<comments>/2020/09/18/post-9469.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 18 Sep 2020 09:30:10 +0000</pubDate>
@@ -662,15 +662,15 @@
 <p>比較表を今作る元気はないので、とりあえずメモしておきます。Site24x7とかは、スピードテストとかでお世話になったことがあり知っていますが他は知りませんでした。結構、無料でもやれるんですね。今度、どれか採用してレポートしたいなと思います。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/09/18/jetpack-plugin-has-a-life-and-death-monitoring-service/feed/</wfw:commentRss>
+					<wfw:commentRss>/2020/09/18/post-9469.html/feed/</wfw:commentRss>
 			<slash:comments>9</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>このブログは、スマートフォンの中に引越ししました！</title>
-		<link>/2020/09/18/this-blog-has-moved-into-a-smartphone/</link>
-					<comments>/2020/09/18/this-blog-has-moved-into-a-smartphone/#comments</comments>
+		<link>/2020/09/18/post-9510.html</link>
+					<comments>/2020/09/18/post-9510.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 18 Sep 2020 04:00:13 +0000</pubDate>
@@ -754,7 +754,7 @@
 <p>とりあず、今日は引越ししたよ！　というネタをあげたかったので以上にします。またねー。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2020/09/18/this-blog-has-moved-into-a-smartphone/feed/</wfw:commentRss>
+					<wfw:commentRss>/2020/09/18/post-9510.html/feed/</wfw:commentRss>
 			<slash:comments>3</slash:comments>
 		
 		

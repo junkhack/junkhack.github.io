@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>VNC 設定と osx10.11 の画面共有</title>
-		<link>/2016/06/12/vnc-%e8%a8%ad%e5%ae%9a%e3%81%a8-osx10-11-%e3%81%ae%e7%94%bb%e9%9d%a2%e5%85%b1%e6%9c%89/</link>
+		<link>/2016/06/12/post-2251.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 12 Jun 2016 00:00:47 +0000</pubDate>
@@ -110,7 +110,7 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>Orange Pi Lite が出ていました</title>
-		<link>/2016/05/28/orange-pi-lite-%e3%81%8c%e5%87%ba%e3%81%a6%e3%81%84%e3%81%be%e3%81%97%e3%81%9f/</link>
+		<link>/2016/05/28/post-2181.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 28 May 2016 11:05:03 +0000</pubDate>
@@ -136,8 +136,8 @@ exit 0</pre>
 			</item>
 		<item>
 		<title>OrangePi One にFan を付けて全開ベンチマーク</title>
-		<link>/2016/02/14/orangepi-one-%e3%81%abfan-%e3%82%92%e4%bb%98%e3%81%91%e3%81%a6%e5%85%a8%e9%96%8b%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af/</link>
-					<comments>/2016/02/14/orangepi-one-%e3%81%abfan-%e3%82%92%e4%bb%98%e3%81%91%e3%81%a6%e5%85%a8%e9%96%8b%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af/#comments</comments>
+		<link>/2016/02/14/post-2109.html</link>
+					<comments>/2016/02/14/post-2109.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 14 Feb 2016 11:37:05 +0000</pubDate>
@@ -355,7 +355,7 @@ analyzing CPU 0:
 <p>・Linux を使った組み込みで具体的に何ができるか、どんな用途があるかはまだこれから模索</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2016/02/14/orangepi-one-%e3%81%abfan-%e3%82%92%e4%bb%98%e3%81%91%e3%81%a6%e5%85%a8%e9%96%8b%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af/feed/</wfw:commentRss>
+					<wfw:commentRss>/2016/02/14/post-2109.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>溶接DIYが3Dプリンター買った時と同じくらい衝撃的に面白い!</title>
-		<link>/2022/04/17/diy-welding/</link>
+		<link>/2022/04/17/post-11125.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 16 Apr 2022 20:19:43 +0000</pubDate>
@@ -332,7 +332,7 @@
 <p></p>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -340,7 +340,7 @@
 			</item>
 		<item>
 		<title>謎のICが載ったType-Cリポ充電基板でポケットオシロを電池仕様に！</title>
-		<link>/2021/03/09/ln4056-ic-type-c/</link>
+		<link>/2021/03/09/post-10256.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 08 Mar 2021 17:34:09 +0000</pubDate>
@@ -552,7 +552,7 @@
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -560,7 +560,7 @@
 			</item>
 		<item>
 		<title>XIAOでMacのスクリーンショット専用USBキーを作るDIY</title>
-		<link>/2021/03/01/make-mac-sskey-xiao/</link>
+		<link>/2021/03/01/post-10186.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 28 Feb 2021 17:20:05 +0000</pubDate>
@@ -920,7 +920,7 @@ $ sudo ./keylogger</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -928,7 +928,7 @@ $ sudo ./keylogger</code></pre>
 			</item>
 		<item>
 		<title>XIAOとスマホだけでnode.jsのJohnny-Fiveを動かす最短コースをご案内！</title>
-		<link>/2021/02/26/xiao-node-j5/</link>
+		<link>/2021/02/26/post-10169.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 26 Feb 2021 01:07:38 +0000</pubDate>
@@ -1272,7 +1272,7 @@ IO ready!
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -1280,8 +1280,8 @@ IO ready!
 			</item>
 		<item>
 		<title>Arduino Nano互換機に書き込めないだと！</title>
-		<link>/2021/02/23/arduino-nano/</link>
-					<comments>/2021/02/23/arduino-nano/#comments</comments>
+		<link>/2021/02/23/post-10154.html</link>
+					<comments>/2021/02/23/post-10154.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 23 Feb 2021 06:17:03 +0000</pubDate>
@@ -1798,10 +1798,10 @@ avrdude done.  Thank you.</code></pre>
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/02/23/arduino-nano/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/23/post-10154.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

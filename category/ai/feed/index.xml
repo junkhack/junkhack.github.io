@@ -12,7 +12,7 @@
 	<title>ai &#8211; JunkHack Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Fri, 01 Mar 2024 05:11:20 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 02 Mar 2024 11:43:55 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>iosのアプリCotomo(コトモ)がやばい！</title>
-		<link>/2024/03/01/cotomo/</link>
+		<link>/2024/03/01/post-11736.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 29 Feb 2024 15:00:55 +0000</pubDate>
@@ -38,7 +38,7 @@
 		<category><![CDATA[新ブログ]]></category>
 		<guid isPermaLink="false">/?p=11736</guid>
 				<media:thumbnail url="/wp-content/uploads/2024/02/Cotomo.png" />
-							<description><![CDATA[アプリを作っている時に先を越されたアプリがすでにある！ タイトルにもある通り、iosのアプリ：Cotomo(コトモ)に感動しました。会話型のアプリを作っていたので、完全に先を越された感のあるそんな優秀なアプリです。 感想 [&#8230;]]]></description>
+							<description><![CDATA[アプリを作っている時に先を越されたアプリがすでにある！ 開発者にとっては、とてもびっくりな出来事があったので、ご紹介します。 タイトルにもある通り、iosのアプリ：Cotomo(コトモ)に感動しました。会話型のアプリを作 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
@@ -46,7 +46,8 @@
 <p>音声会話型のおしゃべりAIアプリに感動しました！</p>
 </div></div></div></div></div></div></div></div>
 
-<p>アプリを作っている時に先を越されたアプリがすでにある！ タイトルにもある通り、iosのアプリ：<code>Cotomo(コトモ)</code>に感動しました。会話型のアプリを作っていたので、完全に先を越された感のあるそんな優秀なアプリです。</p>
+<p>アプリを作っている時に先を越されたアプリがすでにある！ 開発者にとっては、とてもびっくりな出来事があったので、ご紹介します。
+タイトルにもある通り、iosのアプリ：<code>Cotomo(コトモ)</code>に感動しました。会話型のアプリを作っていたのですが、完全に先を越された感のあるそんな優秀なアプリです。</p>
 <h2>感想、ちょ、えっえ〜？・・・・・・すごっ！！</h2>
 <p>語彙力がないのがバレバレですが、結構カルチャーチョックというかそういう感じです。ちょうど会話型のアプリの試作版を作っていたのですが、その調査の関連でこのアプリ、<code>Cotomo</code> に遭遇したのでした。</p>
 <p><img decoding="async" src="/wp-content/uploads/2024/02/aaaa.png" alt="" /></p>
@@ -107,7 +108,7 @@
 <h2>あとがき</h2>
 <p>Cotomo使っていて思ったのは、近い将来こういうお話系のシステムは応用次第でいろんな可能性があるなーと思いました。相手を思いやるロジックや、会話を引き出す系のロジックなど、会話術を学習したAIは、応用次第ではやばくもあり、また必須の技術でもあるなと感じました。</p>
 <h2>著者にメッセージ</h2>
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
 					
 		
 		

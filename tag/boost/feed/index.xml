@@ -29,8 +29,8 @@
 </image> 
 	<item>
 		<title>Minty Boost</title>
-		<link>/2011/03/19/minty-boost/</link>
-					<comments>/2011/03/19/minty-boost/#comments</comments>
+		<link>/2011/03/19/minty-boost.html</link>
+					<comments>/2011/03/19/minty-boost.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 19 Mar 2011 03:41:41 +0000</pubDate>
@@ -54,14 +54,14 @@
 <p>ICはRCで手配。６００円ちょっとしました。オシロスコープとかあるといろいろと観察できるので、そのうちほしいところですね。性能的に１００円ショップの無名のICとどうかわるのか、観察していきたいところです。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2011/03/19/minty-boost/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/03/19/minty-boost.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>iPhone負荷でUSB充電を調べた</title>
-		<link>/2011/03/17/iphone%e8%b2%a0%e8%8d%b7%e3%81%a7usb%e5%85%85%e9%9b%bb%e3%82%92%e8%aa%bf%e3%81%b9%e3%81%9f/</link>
+		<link>/2011/03/17/post-230.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 16 Mar 2011 19:23:07 +0000</pubDate>
@@ -91,8 +91,8 @@
 			</item>
 		<item>
 		<title>18650リチウム電池のUSB電源は？</title>
-		<link>/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/</link>
-					<comments>/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/#comments</comments>
+		<link>/2011/02/20/post-221.html</link>
+					<comments>/2011/02/20/post-221.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 19 Feb 2011 20:58:44 +0000</pubDate>
@@ -121,14 +121,14 @@
 <p>こんな品質のUSB電池BOXがあったらいいですよね。    <br /><em>eneloop mobile booster</em>(エネループ モバイルブースター) <a href="http://jp.sanyo.com/eneloop/lineup/booster.html" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">KBC-L2BS<span class="wpel-icon wpel-image wpel-icon-1"></span></a>なんかは、iPadも充電できちゃうし、やっぱり高品質なんでしょうね。    </p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2011/02/20/18650%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e9%9b%bb%e6%b1%a0%e3%81%aeusb%e9%9b%bb%e6%ba%90%e3%81%af%ef%bc%9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2011/02/20/post-221.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>MS-8226　ＰＣ接続テスター来た！</title>
-		<link>/2011/02/20/ms-8226%e3%80%80%ef%bd%90%ef%bd%83%e6%8e%a5%e7%b6%9a%e3%83%86%e3%82%b9%e3%82%bf%e3%83%bc%e6%9d%a5%e3%81%9f%ef%bc%81/</link>
+		<link>/2011/02/20/post-211.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 19 Feb 2011 15:50:43 +0000</pubDate>
@@ -169,7 +169,7 @@
 			</item>
 		<item>
 		<title>単3電池2本でiPhoneを充電 その9</title>
-		<link>/2011/02/14/%e5%8d%983%e9%9b%bb%e6%b1%a02%e6%9c%ac%e3%81%a7iphone%e3%82%92%e5%85%85%e9%9b%bb-%e3%81%9d%e3%81%ae9/</link>
+		<link>/2011/02/14/post-201.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 13 Feb 2011 16:34:50 +0000</pubDate>

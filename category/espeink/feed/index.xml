@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>1us Lチカ</title>
-		<link>/2016/01/02/1us-l%e3%83%81%e3%82%ab/</link>
+		<link>/2016/01/02/post-1973.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 01 Jan 2016 17:56:05 +0000</pubDate>
@@ -169,7 +169,7 @@ int blink2(int led, int delay){
 			</item>
 		<item>
 		<title>FX2LP でsigrok のロジックアナライザー</title>
-		<link>/2015/12/27/post-1946/</link>
+		<link>/2015/12/27/post-1946.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sun, 27 Dec 2015 12:26:13 +0000</pubDate>
@@ -232,7 +232,7 @@ HOPE:sigrok-firmware junkhack$ </pre>
 			</item>
 		<item>
 		<title>開発ボードがコハクラフトさんより到着</title>
-		<link>/2015/12/04/%e9%96%8b%e7%99%ba%e3%83%9c%e3%83%bc%e3%83%89%e3%81%8c%e3%82%b3%e3%83%8f%e3%82%af%e3%83%a9%e3%83%95%e3%83%88%e3%81%95%e3%82%93%e3%82%88%e3%82%8a%e5%88%b0%e7%9d%80/</link>
+		<link>/2015/12/04/post-1824.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 04 Dec 2015 10:06:19 +0000</pubDate>
@@ -255,8 +255,8 @@ HOPE:sigrok-firmware junkhack$ </pre>
 			</item>
 		<item>
 		<title>RasPi2 でCの王道？ WiringPi</title>
-		<link>/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/</link>
-					<comments>/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/#comments</comments>
+		<link>/2015/12/04/post-1811.html</link>
+					<comments>/2015/12/04/post-1811.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Thu, 03 Dec 2015 21:28:35 +0000</pubDate>
@@ -531,14 +531,14 @@ int main(void) {
 <p>コハクラフトさんからも発送されたようで、土日にはなんらか楽しめそうです。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2015/12/04/raspi2-%e3%81%a7c%e3%81%ae%e7%8e%8b%e9%81%93%ef%bc%9f-wiringpi/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/12/04/post-1811.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>E-inkディスプレイでテスト準備</title>
-		<link>/2015/12/02/e-ink%e3%83%87%e3%82%a3%e3%82%b9%e3%83%97%e3%83%ac%e3%82%a4%e3%81%a7%e3%83%86%e3%82%b9%e3%83%88%e6%ba%96%e5%82%99/</link>
+		<link>/2015/12/02/post-1793.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Tue, 01 Dec 2015 15:09:58 +0000</pubDate>

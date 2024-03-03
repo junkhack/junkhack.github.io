@@ -29,8 +29,8 @@
 </image> 
 	<item>
 		<title>WiFi E-ink display 部品整理</title>
-		<link>/2015/09/21/wifi-e-ink-display-parts/</link>
-					<comments>/2015/09/21/wifi-e-ink-display-parts/#comments</comments>
+		<link>/2015/09/21/post-1238.html</link>
+					<comments>/2015/09/21/post-1238.html#comments</comments>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 21 Sep 2015 09:36:01 +0000</pubDate>
@@ -236,7 +236,7 @@
 <p>信号作成は、raspi にさせるようです。まだ途中のようですがウォッチしていきたいです。信号作成部分がどうなっているのかソフトウェア的にまだしていませんので。この方も、まだソフトウェアは作っていないようです。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2015/09/21/wifi-e-ink-display-parts/feed/</wfw:commentRss>
+					<wfw:commentRss>/2015/09/21/post-1238.html/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

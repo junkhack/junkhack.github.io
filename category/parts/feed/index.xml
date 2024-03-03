@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</title>
-		<link>/2021/02/20/arudio-seeeduino-xiao/</link>
+		<link>/2021/02/20/post-10121.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 20 Feb 2021 06:38:39 +0000</pubDate>
@@ -303,7 +303,7 @@ void rest() {
 <p>まず、オフィシャルのSeeedのブログでいくつか紹介されています。その中から独断と偏見で面白そうなプロジェクトをピックアップ。</p>
 
 
-<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/arudio-seeeduino-xiao/" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2021/02/20/post-10121.html" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
 
 
 <p>MIDIをコントロールできるので、オリジナルコントローラとかセンサー駆動の楽器とか？</p>
@@ -461,7 +461,7 @@ void rest() {
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -469,7 +469,7 @@ void rest() {
 			</item>
 		<item>
 		<title>リポ充電基盤のType-C版が出てたんでポチった！</title>
-		<link>/2021/02/20/type-c/</link>
+		<link>/2021/02/20/post-10103.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Fri, 19 Feb 2021 20:21:48 +0000</pubDate>
@@ -623,7 +623,7 @@ void rest() {
  
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></content:encoded>
 					
 		
@@ -631,7 +631,7 @@ void rest() {
 			</item>
 		<item>
 		<title>ネジはミスミで買う事にした</title>
-		<link>/2016/12/14/%e3%83%8d%e3%82%b8%e3%81%af%e3%83%9f%e3%82%b9%e3%83%9f%e3%81%a7%e8%b2%b7%e3%81%86%e4%ba%8b%e3%81%ab%e3%81%97%e3%81%9f/</link>
+		<link>/2016/12/14/post-2564.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Wed, 14 Dec 2016 11:07:34 +0000</pubDate>
@@ -668,7 +668,7 @@ void rest() {
 			</item>
 		<item>
 		<title>ロード・スイッチ　TPS22942DCKR</title>
-		<link>/2016/06/18/%e3%83%ad%e3%83%bc%e3%83%89%e3%83%bb%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%80%80tps22942dckr/</link>
+		<link>/2016/06/18/post-2286.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Sat, 18 Jun 2016 07:34:54 +0000</pubDate>
@@ -692,7 +692,7 @@ void rest() {
 			</item>
 		<item>
 		<title>SDCard16GB 来たのでRasbian Jessie 入れてみた</title>
-		<link>/2016/02/01/sdcard16gb-%e6%9d%a5%e3%81%9f%e3%81%ae%e3%81%a7rasbian-jessie-%e5%85%a5%e3%82%8c%e3%81%a6%e3%81%bf%e3%81%9f/</link>
+		<link>/2016/02/01/post-2090.html</link>
 		
 		<dc:creator><![CDATA[JunkHack]]></dc:creator>
 		<pubDate>Mon, 01 Feb 2016 14:53:25 +0000</pubDate>
