@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; フィード" href="//feed/">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Yahoo フィード" href="//feed/yahoo/">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; SmartNews フィード" href="//feed/smartnews/">
+<link rel="manifest" href="/wp-content/themes/jh-hew/manifest.json">
+<link rel="icon alternate" href="/wp-content/themes/jh-hew/img/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/wp-content/themes/jh-hew/img/apple-touch-icon180.png" sizes="180x180">
+<meta name="theme-color" content="#FAD641">
+<meta name="apple-mobile-web-app-title" content="JunkHack">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">DocsBotAI.init({id: "HPyLlfLvXH85ROf3H0hM/AOUyg2sIZ4rO1FEAZ9pe"});</script>
+
+<script>if ('serviceWorker' in navigator && 'localhost' !== window.location.hostname) {
+	window.addEventListener('load', function () {
+		navigator.serviceWorker.register('/sw.js').then(
+			function (registration) {
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			},
+			function (err) {
+				console.log('ServiceWorker registration failed: ', err);
+			}
+		);
+	});
+}</script>
+
+
+		<link charset="utf-8" rel="stylesheet" type="text/css" href="/wp-content/themes/jh-hew/js/nehan2/nehan2.css">
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/subject.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/Plugin_haiku.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/nehan2.js"></script>
+		<script type="text/javascript">
+
+		let pw = window.innerWidth;
+		let ph = window.innerHeight;
+		let wsize = 0;
+		function resizeWindow(event){
+				pw = window.innerWidth;
+				ph = window.innerHeight;
+		}
+	
+		window.addEventListener("resize", resizeWindow);
+
+			window.onload = function(){
+			var createPageFrame = function(body){
+				var node = document.createElement("div");
+				var style = node.style;
+				node.innerHTML = body;
+				node.className = "page-frame";
+				return node;
+			};
+
+			var outputAllPages = function(dstId, provider){
+				var pageNo = 0;
+				var dstNode = document.getElementById(dstId);
+
+				// add <subject> element to parser for easy markup(see subject.js)
+				Nehan.Plugin.defineSubjectElement(provider);
+				Nehan.Plugin_haiku.defineHaikuElement(provider);
+
+				while(provider.hasNextPage()){
+					var pageData = provider.outputPage(pageNo++);
+					var pageFrame = createPageFrame(pageData.html);
+					dstNode.appendChild(pageFrame);
+				}
+			};
+			
+			var text = document.getElementById("src-text").innerHTML;
+		// output default page1.
+		if(pw < 480){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:310,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 479 && pw < 600){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:420,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 599 && pw < 744){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:540,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 743 && pw < 889){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:680,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 888){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:890,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		
+		document.getElementById("progress").style.display = "none";
+		};
+		</script>
+		
+<title>Parts &#8211; JunkHack</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; Parts カテゴリーのフィード" href="/category/parts/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="wpel-style-css" href="/wp-content/plugins/wp-external-links/public/css/wpel.css?ver=2.60" type="text/css" media="all">
+<style id="md-style-inline-css" type="text/css">.gfm-task-list { border: 1px solid transparent; list-style-type: none; } .gfm-task-list input { margin-right: 10px !important; } .katex-container { margin: 25px !important; text-align: center; } .katex-container.katex-inline { display: inline-block !important; background: none !important; margin: 0 !important; padding: 0 !important; } pre .katex-container { font-size: 1.4em !important; } .katex-inline { background: none !important; margin: 0 3px; } .copy-button { cursor: pointer; border: 0; font-size: 12px; text-transform: uppercase; font-weight: 500; padding: 3px 6px 3px 6px; background-color: rgba(255, 255, 255, 0.6); position: absolute; overflow: hidden; top: 5px; right: 5px; border-radius: 3px; } .copy-button:before { content: ""; display: inline-block; width: 16px; height: 16px; margin-right: 3px; background-size: contain; background-image: url("data:image/svg+xml,%3Csvg version=\'1.1\' xmlns=\'http://www.w3.org/2000/svg\' xmlns:xlink=\'http://www.w3.org/1999/xlink\' x=\'0px\' y=\'0px\' width=\'16px\' height=\'16px\' viewBox=\'888 888 16 16\' enable-background=\'new 888 888 16 16\' xml:space=\'preserve\'%3E %3Cpath fill=\'%23333333\' d=\'M903.143,891.429c0.238,0,0.44,0.083,0.607,0.25c0.167,0.167,0.25,0.369,0.25,0.607v10.857 c0,0.238-0.083,0.44-0.25,0.607s-0.369,0.25-0.607,0.25h-8.571c-0.238,0-0.44-0.083-0.607-0.25s-0.25-0.369-0.25-0.607v-2.571 h-4.857c-0.238,0-0.44-0.083-0.607-0.25s-0.25-0.369-0.25-0.607v-6c0-0.238,0.06-0.5,0.179-0.786s0.262-0.512,0.428-0.679 l3.643-3.643c0.167-0.167,0.393-0.309,0.679-0.428s0.547-0.179,0.786-0.179h3.714c0.238,0,0.44,0.083,0.607,0.25 c0.166,0.167,0.25,0.369,0.25,0.607v2.929c0.404-0.238,0.785-0.357,1.143-0.357H903.143z M898.286,893.331l-2.67,2.669h2.67V893.331 z M892.571,889.902l-2.669,2.669h2.669V889.902z M894.321,895.679l2.821-2.822v-3.714h-3.428v3.714c0,0.238-0.083,0.441-0.25,0.607 s-0.369,0.25-0.607,0.25h-3.714v5.714h4.571v-2.286c0-0.238,0.06-0.5,0.179-0.786C894.012,896.071,894.155,895.845,894.321,895.679z M902.857,902.857v-10.286h-3.429v3.714c0,0.238-0.083,0.441-0.25,0.607c-0.167,0.167-0.369,0.25-0.607,0.25h-3.714v5.715H902.857z\' /%3E %3C/svg%3E"); background-repeat: no-repeat; position: relative; top: 3px; } pre { position: relative; } pre:hover .copy-button { background-color: rgba(255, 255, 255, 0.9); } .post pre code script, .language-mathjax ~ .copy-button { display: none !important; }</style>
+<link rel="stylesheet" id="mouse-css" href="/wp-content/plugins/wp-keypopup-algolia/mouse.css?ver=6.4.3" type="text/css" media="all">
+<link rel="stylesheet" id="related-frontend-css-css" href="/wp-content/plugins/ccrw_related/css/frontend-style.css?ver=0.1.0" type="text/css" media="all">
+<link rel="stylesheet" id="uagb-block-css-css" href="/wp-content/uploads/uag-plugin/custom-style-blocks.css?ver=2.12.4" type="text/css" media="all">
+<link rel="stylesheet" id="JankHack-Hew-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C400italic%2C600italic%2C700italic%7CNoto+Serif%3A400%2C700%2C400italic%2C700italic&#038;subset=latin" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="/wp-content/themes/jh-hew/genericons/genericons.css?ver=3.4.1" type="text/css" media="all">
+<link rel="stylesheet" id="JankHack-Hew-style-css" href="/wp-content/themes/jh-hew/style.css?ver=6.4.3" type="text/css" media="all">
+<link rel="stylesheet" id="algolia-autocomplete-css" href="/wp-content/plugins/wp-search-with-algolia/css/algolia-autocomplete.css?ver=2.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="emojify-css" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css?ver=1.1.0" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/plugins/jquery-manager/assets/js/jquery-3.5.1.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/jquery-manager/assets/js/jquery-migrate-3.3.0.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mousetrap.min.js?ver=6.4.3" id="mice-js"></script>
+<script type="text/javascript" id="mouse-js-extra">
+/* <![CDATA[ */
+var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.4.3" id="mouse-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/63">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.4.3">
+		<style>.algolia-search-highlight {
+				background-color: #fffbcc;
+				border-radius: 2px;
+				font-style: normal;
+			}</style>
+		<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style>
+<style id="uagb-style-frontend-63">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2020/09/logo.png">
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161935417-3"></script>
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161935417-3');</script>
+<body class="archive category category-parts category-63 wp-custom-logo has-sidebar has-header-image">
+<div id="page" class="hfeed site">
+		<div id="widgets-wrapper" class="hide">
+		
+<div id="secondary" class="wrap top-widget-area" role="complementary">
+		<div id="sidebar-1" class="widget-area" role="complementary">
+		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
+<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
+</div></aside>	</div>
+<!-- #first .widget-area -->
+	
+	
+	
+	</div>
+<!-- #secondary -->
+	</div>
+	
+	<a class="skip-link screen-reader-text" href="#content">コンテンツへ移動</a>
+
+	<header id="masthead" class="site-header" role="banner">
+					<a class="site-logo" href="/" title="JunkHack" rel="home noopener noreferrer" data-wpel-link="internal">
+				<img src="https://secure.gravatar.com/avatar/997681319c3cbb0bdcca95770d5edaa6/?s=80&#038;d=mm" width="80" height="80" alt="" class="no-grav header-image">
+			</a>
+		
+		<div class="site-branding">
+			<h1 class="site-title"><a href="/" rel="home noopener noreferrer" data-wpel-link="internal">JunkHack</a></h1>
+			<h2 class="site-description">アリエクでポチった JUNKHACK</h2>
+		</div>
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle toggle-button"><span class="screen-reader-text">メインメニュー</span></button>
+				<div class="menu-new-menu-container"><ul id="menu-new-menu" class="menu">
+<li id="menu-item-11760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11760"><a href="/list.html" data-wpel-link="internal" rel="noopener noreferrer">List</a></li>
+<li id="menu-item-11016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11016"><a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">CONTACT</a></li>
+<li id="menu-item-10671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10671"><a href="https://mirror.gpl.jp/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Mirror<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+		
+		
+				<div class="toggle-wrapper">
+			<a href="#" class="widgets-toggle toggle-button" title="ウィジェット">
+				<span class="screen-reader-text">ウィジェット</span>
+			</a>
+		</div>
+		
+	</header><!-- #masthead -->
+	
+	<div id="content" class="site-content">
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			<header class="page-header">
+				<h1 class="page-title">カテゴリー: <span>Parts</span>
+</h1>			</header><!-- .page-header -->
+
+						
+				
+<article id="post-10121" class="post-10121 post type-post status-publish format-standard has-post-thumbnail hentry category-arduino category-diy category-parts">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2021/02/20/post-10121.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2021-02-20T15:38:39+09:00">2021年2月20日</time><time class="updated" datetime="2021-02-20T15:38:45+09:00">2021年2月20日</time></a> </span><span class="posted-on">更新日:2021年2月20日</span> <span class="categories">  <a href="/category/arduino/" rel="category tag noopener noreferrer" data-wpel-link="internal">arduino</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2021/02/20/post-10121.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">久しぶりに一目惚れしたArudio互換機のSeeeduino XIAO</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>可愛すぎて一目惚れしました！</p>
+</div></div></div></div>
+</div>
+</div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ぽっ！　きゃー</p>
+</div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>・・・いや、ぴーちゃんの事じゃなくて、SeedのXIAOっていうArduio 互換機のことよ。</p>
+</div></div></div></div>
+</div>
+</div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>こんなチビっこいマシンに負けたのか・・・w</p>
+</div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+
+
+
+<p>サムネでもわかるとは思いますが、これ全体のフォルムがかわいいんですよね。あと想像よりもちっさいんです。親指くらいの大きさなんですよ。発売は去年の３〜6月ごろだったみたいですが、今頃発見です。</p>
+
+
+
+<h3 class="wp-block-heading">3個入りパッケージで1,750円！</h3>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Wiki  Seeeduino Xiaoをはじめよう</p>
+<cite><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://wiki.seeedstudio.com/jp/Seeeduino-XIAO/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="955" height="430" src="/wp-content/uploads/2021/02/xiao1.png" alt="" class="wp-image-10122" srcset="/wp-content/uploads/2021/02/xiao1.png 955w, /wp-content/uploads/2021/02/xiao1-768x346.png 768w" sizes="(max-width: 955px) 100vw, 955px"></figure>
+
+
+
+<p>Seeedの日本語版のWikiもありますので、大きさなどはそちらでどうぞ。上の写真は3個入りのをアマゾンからゲットしました。3個入りで1800円弱です。１つ600円ってとこですかね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="782" height="320" src="/wp-content/uploads/2021/02/xiao2.png" alt="" class="wp-image-10123" srcset="/wp-content/uploads/2021/02/xiao2.png 782w, /wp-content/uploads/2021/02/xiao2-768x314.png 768w" sizes="(max-width: 782px) 100vw, 782px"></figure>
+
+
+
+<p>中身！　想像より、ちっちゃい！親指に乗りますよ。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="783" height="342" src="/wp-content/uploads/2021/02/xiao.png" alt="" class="wp-image-10124" srcset="/wp-content/uploads/2021/02/xiao.png 783w, /wp-content/uploads/2021/02/xiao-768x335.png 768w" sizes="(max-width: 783px) 100vw, 783px"></figure>
+
+
+
+<p>ESP32と遊んでからだいぶ月日が経ちましたが、大きさはそのくらいです。ブレッドボードに刺さるのでPinつけてすぐ楽しめますね！</p>
+
+
+
+<h3 class="wp-block-heading">まずはボードをじろじろと見る！</h3>
+
+
+
+<p>Type-Cコネクタが付いていて、端面がスルーホールになっていて面実装も考慮されていますね。このType-Cコネクタは６ピンタイプじゃなくて12ピンです。あと、LEDらしきものが４つ付いています。</p>
+
+
+
+<p>金属のカバーで覆われていますので、その中が気になるところですがまずは、PIN番号が表からわかるようにシールを貼っておきました。なかなか気が利いていますね！　Seeedさん、このプロダクトをリリースするにあたりいろいろ気合いが入っているようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="884" height="659" src="/wp-content/uploads/2021/02/xiao-1.png" alt="" class="wp-image-10125" srcset="/wp-content/uploads/2021/02/xiao-1.png 884w, /wp-content/uploads/2021/02/xiao-1-768x573.png 768w" sizes="(max-width: 884px) 100vw, 884px"></figure>
+
+
+
+<p>裏面を見ると、SMD実装したときのVIN,GNDがありますね。４つの丸いのは、なんでしょうか？</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="881" height="659" src="/wp-content/uploads/2021/02/xiao-2.png" alt="" class="wp-image-10126" srcset="/wp-content/uploads/2021/02/xiao-2.png 881w, /wp-content/uploads/2021/02/xiao-2-768x574.png 768w" sizes="(max-width: 881px) 100vw, 881px"></figure>
+
+
+
+<p>調べてみると、英語版Wikiによれば、Newバージョンだとこの丸いのが４つあるようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="672" height="497" src="/wp-content/uploads/2021/02/Seeeduino_XIAO_-_Seeed_Wiki.png" alt="" class="wp-image-10127"></figure>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Seeed　英語版Wiki：hardware-overview</p>
+<cite><a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/#hardware-overview" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Wiki<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+
+
+
+<p>どうやら、<strong>SWCLK (PA30)</strong> と <strong>SWDIO (PA31)</strong> のGPIOのようです。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>qita : Seeeduino XIAO 背面パッドをGPIOとして使う</p>
+<cite><a href="https://qiita.com/nanase/items/37ecca24aee8fbd4492e" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://qiita.com/nanase/items/37ecca24aee8fbd4492e<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+
+
+
+<p>だいぶ時間が経過しているので、先輩たちがあれこれ情報をあげていてくれて助かりますね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="644" height="464" src="/wp-content/uploads/2021/02/xiao-type-c.png" alt="" class="wp-image-10128"></figure>
+
+
+
+<p>やっぱり、Type-C が付いているところがうれしいです。接続しやすいですからね！</p>
+
+
+
+<h3 class="wp-block-heading">動作確認</h3>
+
+
+
+<p>Type-Cケーブル（スマホでいつも使っているやつね）をPCに繋げて、おもむろにXAIOに繋げてみます。ケーブルのほうが重いので、本体が浮きます！　</p>
+
+
+
+<p>オレンジ色のLEDがピカピカしてますね！</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2021/02/Blink.gif" alt="" class="wp-image-10129" width="456" height="327"></figure></div>
+
+
+
+<h3 class="wp-block-heading">とりあえずLチカ</h3>
+
+
+
+<p>Arudio IDEを使って、Lチカでもやってみます。SeeedのWikiにしたがってIDEは仕込みんでおきます。久しぶりすぎて書き方、だいぶ忘れちゃいました。</p>
+
+
+
+<p>この２つのブルーLEDは、RX/TXのLEDなんですがIDEからも定義されているので、光らせることができるようです。デジタル出力だけかなと思っていましたが、アナログでもいけるようですね。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2021/02/Blink3.gif" alt="" class="wp-image-10130" width="458" height="348"></figure></div>
+
+
+
+<pre class="wp-block-code"><code>//setup()内の処理は最初の一回だけ行われる
+void setup() {
+  pinMode(PIN_LED2, OUTPUT );//Pinを出力用に設定
+  pinMode(PIN_LED3, OUTPUT);
+  int led_pw = 255; // 明るさ(通常とは逆) 明るい0 - 255暗い
+}
+
+void loop() {
+  rx_led2( 2 ); //明るさ調整ステップ
+  rest();
+  tx_led3( 2 ); //明るさ調整ステップ
+  rest();
+}
+
+// RXとLED 基盤側の青LED
+void rx_led2(int n){
+  int led_pw = 255;
+  //点滅周期
+  for (int i=0;i &lt; 255;i++ ) {
+    analogWrite(PIN_LED2, led_pw );
+    led_pw = led_pw + n;
+    if( led_pw ==   0 ) n =  n;
+    if( led_pw == 255 ) n = -n;
+    delay( 5 );//だんだん暗くなる速度
+  }
+//  digitalWrite(PIN_LED2, HIGH ); //通常とは逆　LOW で点灯、HIGH で消灯
+analogWrite(PIN_LED2, 255 );// LED Off 上より暗くなる
+}
+
+// TXのLED USBコネクタ側の青LED
+void tx_led3(int n){
+  int led_pw = 255;
+  for (int i=0;i &lt; 255;i++ ) {
+    analogWrite(PIN_LED3, led_pw );
+    led_pw = led_pw + n;
+    if( led_pw ==   0 ) n =  n;
+    if( led_pw == 255 ) n = -n;
+    delay( 5 );
+  }
+analogWrite(PIN_LED3, 255 );// LED Off
+}
+
+void rest() {
+    delay( 500 );
+}</code></pre>
+
+
+
+<p>いろんな値を書き換えて遊んでみてください。</p>
+
+
+
+<p>注意点としては、HIGHとLOWが逆なのと、255が暗く、0が明るい状態となるようです。これは仕様なのかバグなのか？　Seeedさん、これは修正してほしいです。</p>
+
+
+
+<h3 class="wp-block-heading">XIAOはどんなスペックなのか？</h3>
+
+
+
+<p>このボード、一目惚れして速攻買ったのでどんなスペックかまだよくわかっていません。改めて、記載してみます。</p>
+
+
+
+<figure class="wp-block-table"><table><tbody>
+<tr>
+<td><strong>製品名称</strong></td>
+<td><strong><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+</tr>
+<tr>
+<td><strong>マイコン</strong></td>
+<td>ARM Cortex-M0+ CPU(SAMD21G18) </td>
+</tr>
+<tr>
+<td><strong>動作電圧</strong></td>
+<td>3.3V</td>
+</tr>
+<tr>
+<td>
+<strong>デジタル I/O </strong>ピン</td>
+<td>11</td>
+</tr>
+<tr>
+<td><strong>PWM Pins</strong></td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>アナログ I/O ピン</strong></td>
+<td>11</td>
+</tr>
+<tr>
+<td><strong>フラッシュメモリ</strong></td>
+<td>256 KB</td>
+</tr>
+<tr>
+<td><strong>SRAM</strong></td>
+<td>32KB</td>
+</tr>
+<tr>
+<td><strong>EEPROM</strong></td>
+<td>–</td>
+</tr>
+<tr>
+<td><strong>クロックスピード</strong></td>
+<td>48 MHz</td>
+</tr>
+<tr>
+<td><strong>大きさ</strong></td>
+<td>23.5mm x 17.5mm</td>
+</tr>
+<tr>
+<td><strong>価格</strong></td>
+<td>$4.90</td>
+</tr>
+</tbody></table></figure>
+
+
+
+<p>だいぶarduinoから離れていて、このあたり疎いのですがどうやら ATSAMD21は、アーキテクチャーはARM Cortex-M0+ CPU(SAMD21G18) のようです。Arduino Zero・M0 Proっていうボードにも使われているやつみたいですね。SAMD21系のarduinoとか表現されている感じです。または、単にSAMD系Arduinoとか。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>ARM　CORTEX-M0+</p>
+<cite><a href="https://www.arm.com/ja/products/silicon-ip-cpu/cortex-m/cortex-m0-plus" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.arm.com/ja/products/silicon-ip-cpu/cortex-m/cortex-m0-plus<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+
+
+
+<p>メジャーなArduino との比較表です。自分は、<strong>Nano</strong>シリーズ互換機か、Pro Miniが好きです。安いからw</p>
+
+
+
+<figure class="wp-block-table"><table><tbody>
+<tr>
+<td><strong>ボード</strong></td>
+<td><strong>マイコン</strong></td>
+<td><strong>動作電圧</strong></td>
+<td><strong>Digital I/O </strong></td>
+<td><strong>PWM </strong></td>
+<td><strong>Analog I/O </strong></td>
+<td><strong>Flash Memory</strong></td>
+<td><strong>SRAM</strong></td>
+<td><strong>EEPROM</strong></td>
+<td><strong><strong>クロックスピード</strong></strong></td>
+<td><strong><strong>大きさ</strong></strong></td>
+<td><strong><strong>価格</strong></strong></td>
+</tr>
+<tr>
+<td><strong><a href="https://www.seeedstudio.com/Arduino-Nano-v3-p-1928.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduino Nano v3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+<td>ATmega328</td>
+<td>5V</td>
+<td>22</td>
+<td>6</td>
+<td>8</td>
+<td>32KB</td>
+<td>2KB</td>
+<td>1KB</td>
+<td>16MHz</td>
+<td>45 mm x 18 mm</td>
+<td>$45.90</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.seeedstudio.com/Seeeduino-Nano-p-4111.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino Nano<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+<td>ATmega328</td>
+<td>5V</td>
+<td>22</td>
+<td>6</td>
+<td>8</td>
+<td>32KB</td>
+<td>2KB</td>
+<td>1KB</td>
+<td>16MHz</td>
+<td>45 mm x 18 mm</td>
+<td>$6.90</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.seeedstudio.com/Arduino-Micro-p-1368.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduino Micro<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+<td>ATmega32u4</td>
+<td>5V</td>
+<td>20</td>
+<td>7</td>
+<td>12</td>
+<td>32KB</td>
+<td>2.5KB</td>
+<td>1KB</td>
+<td>16MHz</td>
+<td>48 mm x 18 mm</td>
+<td>$24.90</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.seeedstudio.com/Arduino-Pro-Mini-328-5V-16MHz-p-1443.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduino Pro Mini<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+<td>ATmega328</td>
+<td>5V / 3.3V</td>
+<td>14</td>
+<td>6</td>
+<td>6</td>
+<td>32KB</td>
+<td>2KB</td>
+<td>1KB</td>
+<td>8 /16MHz</td>
+<td>33 mm x 18 mm</td>
+<td>$9.95</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.adafruit.com/product/3500" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Trinket M0<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+<td>ATSAMD21</td>
+<td>3.3V</td>
+<td>5</td>
+<td>2</td>
+<td>3</td>
+<td>256KB</td>
+<td>32KB</td>
+<td>–</td>
+<td>48MHz</td>
+<td>27mm x 15.3 mm</td>
+<td>$8.95</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html?utm_source=blog&amp;utm_medium=blog" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></strong></td>
+<td>
+<br>ATSAMD21</td>
+<td>3.3V</td>
+<td>11</td>
+<td>10</td>
+<td>11</td>
+<td>256KB</td>
+<td>32KB</td>
+<td>–</td>
+<td>48MHz</td>
+<td>23.5mm x 17.5mm</td>
+<td>$4.90</td>
+</tr>
+</tbody></table></figure>
+
+
+
+<p>NanoやProMiniの互換機は、アリエクで200〜300円くらいなんですが、それと比べると600円は高いかもしれませんが、倍以上のスペックはありますね。</p>
+
+
+
+<p>こうして比較してみると、コスパがいいんじゃないでしょうか。まぁ、こんな高スペックは必要ないっていう用途もあるんで使い所次第ですかね。</p>
+
+
+
+<h3 class="wp-block-heading">今後に備え応用例や試したことなどメモ</h3>
+
+
+
+<p>発売からもうすぐ1年経過するので、どんな応用例があるかリサーチしてみました。また、開発する上で役立ちそうなメモをしておきます。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Seeed：Seeeduino XIAO Resources Roundup. What will be your next project idea made by Seeeduino XIAO?</p>
+<cite><a href="https://www.seeedstudio.com/blog/2020/05/08/seeeduino-xiao-community-projects-collection-whats-your-next-project-idea-made-by-seeeeduino-xiao/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">リンク<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+
+
+
+<p>まず、オフィシャルのSeeedのブログでいくつか紹介されています。その中から独断と偏見で面白そうなプロジェクトをピックアップ。</p>
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><div class="lyte-wrapper" style="width:640px;max-width:100%;margin:5px auto;"><div class="lyMe hidef" id="WYL_Hd8Jb1o405s">
+<div id="lyte_Hd8Jb1o405s" data-src="https://hack.gpl.jp/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2Fhqdefault.jpg" class="pL">
+<div class="tC"><div class="tT"></div></div>
+<div class="play"></div>
+<div class="ctrl">
+<div class="Lctrl"></div>
+<div class="Rctrl"></div>
+</div>
+</div>
+<noscript><a href="https://youtu.be/Hd8Jb1o405s" rel="nofollow external noopener noreferrer" data-wpel-link="external" target="_blank"><img loading="lazy" decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FHd8Jb1o405s%2F0.jpg" alt="" width="640" height="340"><br>この動画を YouTube で視聴</a></noscript>
+</div></div>
+<div class="lL" style="max-width:100%;width:640px;margin:5px auto;"></div>
+<figcaption></figcaption></figure>
+
+
+<p>MIDIをコントロールできるので、オリジナルコントローラとかセンサー駆動の楽器とか？</p>
+
+
+
+<p>サイトでは、違うボードを使っていますがXIAOでも同じことが可能。画像や図形を組み合わせて空中にお好みの絵を投影する装置。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><a rel="noreferrer noopener external" href="https://homemadegarbage.com/povranian-make" target="_blank" data-wpel-link="external" class="wpel-icon-right">PovRanian 装置<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>PovRanian (ポブラニアン)：画像や図形を組み合わせて空中にお好みの絵を投影する装置</p>
+</blockquote>
+
+
+
+<p></p>
+
+
+
+<p>これ作りたいなー！</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://qiita.com/dattaman9/items/37a6755e125ecfc20d63" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">エアロバイクでストリートビュー進みたい！！ （その3）（Seeeduino XIAO化してみた）<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>ツールのUSB Stack は、 TinyUSBを選択とな。ほほー。</p>
+
+
+
+<p></p>
+
+
+
+<p>あれこれ調査していると、PlatformIOも対応しているようです。まだ試していませんが、メモしておきます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>開発環境：PlatformIO　<a href="https://docs.platformio.org/en/latest/boards/atmelsam/seeed_xiao.html#id1" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Seeeduino XIAO<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://github.com/gdsports/USB_Host_Library_SAMD" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">USBホストライブラリSAMD<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>SeeedのWikiにあるやつですが、リンク先だけメモしておきます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="http://zattouka.net/GarageHouse/micon/Arduino/XIAO/use.htm" target="_blank" data-wpel-link="external" class="wpel-icon-right">Ｓｅｅｅｄｕｉｎｏ　ＸＩＡＯ の使い方<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a rel="noreferrer noopener external" href="https://botalab.tech/tamiya_camrobo_face_xiao/" target="_blank" class="broken_link wpel-icon-right" data-wpel-link="external">カムロボの顔用基板を作ってみた [Xiao版]<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://elchika.com/article/97dc4b94-1934-4ee1-acbf-6fa1503b83f6/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOを使って二酸化炭素測定する　SparkFunライブラリVer<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p>f<a rel="noreferrer noopener external" href="https://forum.fritzing.org/t/seeeduino-xiao-anyone-got-the-part/10820" target="_blank" data-wpel-link="external" class="wpel-icon-right">ritzingのパーツ<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://matsujirushi.hatenablog.jp/entry/2020/04/23/173722" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOのタッチ入力<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://matsujirushi.hatenablog.jp/entry/2020/04/18/201940" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOのデジタル入力<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://matsujirushi.hatenablog.jp/entry/2020/04/19/070000" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAOのデジタル出力<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://101010.fun/iot/arduino-hc-sr04.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Arduinoで超音波センサHC-SR04の使い方【距離測定】<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://101010.fun/iot/arduino-oled-display.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">ArduinoでOLED<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://101010.fun/iot/arduino-serial-led.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">シリアルLED（WS2812B）をArduinoで制御<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://kesokonpatata.hatenablog.jp/entry/2021/01/01/%E3%80%90Seeeduino_XIAO%E3%80%91RS232c%E3%81%8B%E3%82%89%E5%8F%97%E4%BF%A1%E3%81%97%E3%81%9F%E4%BF%A1%E5%8F%B7%E3%82%92USBHID%E3%81%A7%E9%80%81%E4%BF%A1%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">【Seeeduino XIAO】RS232cから受信した信号をUSB HIDで送信してみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://zoe6120.com/2020/05/05/1449/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO でPWM調光のLチカとI2CのLCDを使ってみる<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>いろいろありますねー。こんなこともできるみたいです。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><a rel="noreferrer noopener external" href="https://qiita.com/hori-takeshi/items/1c9b30433896495afb2c" target="_blank" data-wpel-link="external" class="wpel-icon-right">Seeeduino XIAO マイコンで TOPPERS を始めよう<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>TOPPERS/R2CAというマルチタスク処理ができる</p>
+</blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://qiita.com/reiven/items/c4018da0892953236b21" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Seeeduino_XIAOでArduino Keyboard.h互換ライブラリを利用してMicrosoft Teamsミュートキーを作製する<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>楽しそうなのがいっぱいありますね。</p>
+
+
+
+<p>XIAOを組み込んでいるハードウェア作家さんもいましたよ！</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>XIAO DAP<br>Seeeduino XIAO をメインコントローラとした、DigitalAudioPlayer</p>
+<cite><a href="https://sites.google.com/view/chikoidac/home/xiao_dap" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://sites.google.com/view/chikoidac/home/xiao_dap<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite>
+</blockquote>
+
+
+
+<p>まだ販売はされていないとのことですが、販売されたら組み立てKITを買ってみたいです！</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・XIAOはコスパ最高でないか！<br>・Type-Cが良い！<br>・Arduino IDE 互換で、SAMD21系のarduino<br>・本家では、Arduino Zero・M0 Proに使われている<br>・3.3v動作でクロックが速く、フラッシュメモリも多い<br>・しかしEEPROMがないようです　フラッシュメモリに保存する？<br>・USB関連のプロダクトやシリアル通信系の応用とか相性良さそう<br>・SMD実装がやりやすい（ので、基板設計して使うのとか良いですね）</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>このボード、本当に小さくて応用次第では面白い組込ができそうだなーと感じています。まずは３つあるので、何か実用的な何かを１、２つ作ってみたいですね。１つは、開発用にしておいて残りは実験的に何か実際に作ってみようと思います。まずは、できそうなことからやってみましょうか！</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-10103" class="post-10103 post type-post status-publish format-standard has-post-thumbnail hentry category-aliexpress category-diy category-parts">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2021/02/20/post-10103.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2021-02-20T05:21:48+09:00">2021年2月20日</time><time class="updated" datetime="2021-02-20T05:37:49+09:00">2021年2月20日</time></a> </span><span class="posted-on">更新日:2021年2月20日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2021/02/20/post-10103.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">リポ充電基盤のType-C版が出てたんでポチった！</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>最近また、電子工作熱が出てきたのでアリエク物色！</p>
+</div></div></div></div>
+</div>
+</div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>はいはい、今日は何をポチったんですか？</p>
+</div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
+<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
+</div>
+<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ぐぬぬぅ！　なぜポチったのがわかるのだ！　</p>
+</div></div></div></div>
+</div>
+</div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
+<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
+<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
+<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>衝撃だったんでしょ？w</p>
+</div></div></div></div>
+</div>
+<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
+<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
+</div></div></div>
+<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
+</div>
+</div></div></div>
+
+
+
+<p>はい！　またアリエクでポチってしまいました。</p>
+
+
+
+<p>今回は、備忘録として記載。まだ到着していませんが、到着するころには「これなんだっけ？」という事態になることが多発していましたので、ポチッとしたらブログに書いていくことにします。</p>
+
+
+
+<p>　副次効果としては、ぽちったら記事を書かないといけなくなるので衝動買い防止にもなるかなと！今日買ったのはこれです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://s.click.aliexpress.com/e/_AO6Pzu" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" width="1024" height="528" src="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png" alt="" class="wp-image-10106" srcset="/wp-content/uploads/2021/02/type-c_TP4056BMS-1024x528.png 1024w, /wp-content/uploads/2021/02/type-c_TP4056BMS-768x396.png 768w, /wp-content/uploads/2021/02/type-c_TP4056BMS-984x507.png 984w, /wp-content/uploads/2021/02/type-c_TP4056BMS.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px"></a></figure></div>
+
+
+
+<p>なんとお値段、送料込みで10個450円です。1個あたり45円と、価格破壊な値段ですね。たぶん、このUSB Type-Cコネクタは6pinだと思いますが、簡単な工作であればこれで十分です。マイクロUSBのタイプもありますが、やっぱり差し込む方向を意識しなくていいType-Cは便利です。今では100円均一でもケーブル売っていますしね。</p>
+
+
+
+<h3 class="wp-block-heading">リポ充電基盤とは？</h3>
+
+
+
+<blockquote class="wp-block-quote">
+<p>5V 18650　リチウムバッテリー充電モジュール</p>
+<cite><em>投稿日: </em><a href="/2015/05/10/5v-18650%e3%80%80%e3%83%aa%e3%83%81%e3%82%a6%e3%83%a0%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e5%85%85%e9%9b%bb%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">2015年5月10日</a></cite>
+</blockquote>
+
+
+
+<p>5年くらい前にも購入していましたが、だいぶ数が少なくなったので追加購入です。この基盤は、リチウム電池を過充電、過放電しないための基盤です。メインチップは、TP4056で保護回路に、DW01A と ML8205A が乗っています。今回購入したのがどんなチップが乗っているかはまだ未調査ですが、まぁ仕様は同じでしょう。</p>
+
+
+
+<p>この基盤、ちょっと電子工作して何か試作版を作る際に、リチウム電池とともに組込セットで詰め込むときに重宝します。</p>
+
+
+
+<p>例えば、こんな感じで試作版に使っていました。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://i2.wp.com/hack.gpl.jp/wp-content/uploads/2015/08/25.jpg?resize=640%2C480" alt="2"></figure>
+
+
+
+<p>これは<a rel="noreferrer noopener" href="/2015/05/11/esp8266-esp-12-spec/" target="_blank" data-wpel-link="internal">ESP8266 ESP-12</a>を使った温度・湿度・照度系のIoTデバイスなんですね。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://i0.wp.com/hack.gpl.jp/wp-content/uploads/2015/08/5.jpg?resize=640%2C480" alt="5"></figure>
+
+
+
+<p>ちょっと見えにくいですがマイクロUSBが刺さっている部分にその基盤があります。5Vからリチウム電池に充電し、5Vを放電します。他にも、ポケットオシロスコープを充電持ち運び仕様にしてみたりと。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="383" src="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png" alt="" class="wp-image-10105" srcset="/wp-content/uploads/2021/02/ss_dso-shell-1024x383.png 1024w, /wp-content/uploads/2021/02/ss_dso-shell-768x288.png 768w, /wp-content/uploads/2021/02/ss_dso-shell-984x368.png 984w, /wp-content/uploads/2021/02/ss_dso-shell.png 1191w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+
+
+
+<p>これの工作の記事は忙しくて書いていませんでしたが中にリポ電池とこの基盤などが入っています。簡単にでも書いておけばよかったなー。ちょっと持ち運んで何か計測したりとか便利でした。</p>
+
+
+
+<p>あと、自作基盤にこの充電ボードを乗っけた例もありますね。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://i0.wp.com/hack.gpl.jp/wp-content/uploads/2015/12/dsc00219_thumb.jpg?resize=640%2C361" alt="DSC00219"><figcaption><a href="/2015/12/07/esp8266-backboost-%e7%b5%84%e3%81%bf%e4%bb%98%e3%81%91%e5%ae%8c%e4%ba%86%e3%83%bb%e3%83%bb%e3%83%bb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">ESP8266 BackBoost</a></figcaption></figure>
+
+
+
+<p>この白い基盤は自作基盤でESP8266とバックブースト電源回路などが乗っています。充放電管理基盤は自作だと高くつくのでこんな感じで基盤にリフローして、くっつけて使っていました。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・Type-C版のTP4056充電管理基盤はケーブル接続が便利そう<br>・以前のマイクロUSB版より安くなっていた<br>・仕様が変更になっているのか、未調査<br>・今後、この基盤で工作していこうと思う<br>・基本的な構造は前のと同じだと思う<br>・到着したらまた検討してみる</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>　それにしても以前、マイクロUSB版のを購入したときは1個あたり97円だったのに。Type-C版でさらに安くなっています。余分な機能をなくし需要があるものを大量に作って、良いものを広く販売するという基本的な考え方はすごく好きです。反面、検品コストという考え方も日本とは違いますので不良品率はあがります。しかし、入念に検品して全体のコストをあげるより、ある程度の検品品質で不良品が混入すれば交換すれば良いという考え方もあるのも事実のようです。</p>
+
+
+
+<p>　薄利広商　という言葉があるようです。中国の文化なのか日本の文化なのか歴史に疎いので良くはわかりませんが、中国の商人の中にはこういう考え方があるんじゃないのかなと思います。意味合い的には、薄利多売と似ていますが、これは少しネガティブなイメージもあります。しかし、薄利広商　というのはあまり聞かない言葉ですが、薄い適切な利益を乗せて広く客に販売することが本来の商売であり、それは社会も良くしていくのだという考えのようです。売り手もどこよりお得にお客に販売するのは、本来気持ちの良いものだと思いますし、お客も安く良いものが入手できたら嬉しい。それは転じて地域もよくしていくのだという思想のようです。</p>
+
+
+
+<p>　少し前のマスク買い占め転売、プレステ5 の転売などそういうのは本来の商売ではない、長く商売をやっていくためにはもっと違う視点を持つべきだというのが「薄利広商」という言葉の真意なのではと思います。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-2564" class="post-2564 post type-post status-publish format-standard hentry category-3d-print category-cnc category-diy category-misumi category-parts category-vslot">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2016/12/14/post-2564.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-12-14T20:07:34+09:00">2016年12月14日</time></a> </span><span class="posted-on">更新日:2016年12月14日</span> <span class="categories">  <a href="/category/3d-print/" rel="category tag noopener noreferrer" data-wpel-link="internal">3D Print</a>, <a href="/category/cnc/" rel="category tag noopener noreferrer" data-wpel-link="internal">CNC</a>, <a href="/category/diy/" rel="category tag noopener noreferrer" data-wpel-link="internal">DIY</a>, <a href="/category/misumi/" rel="category tag noopener noreferrer" data-wpel-link="internal">MISUMI</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/vslot/" rel="category tag noopener noreferrer" data-wpel-link="internal">vslot</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2016/12/14/post-2564.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">ネジはミスミで買う事にした</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+<p>M5 の 30mm のネジがやっぱり欲しいなということで、ミスミだといくらかなと見てみました。</p>
+<p><img loading="lazy" decoding="async" title="10300240130" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="10300240130" src="/wp-content/uploads/2016/12/10300240130.jpg" width="250" height="250"> </p>
+<p>ACB5-30 がお安くて、よさげ。数を入れて値段を見てみると、</p>
+<p>まず、1本だと、221円。</p>
+<p> <img loading="lazy" decoding="async" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 2" src="/wp-content/uploads/2016/12/acb530misumivona2.png" width="288" height="422">   </p>
+<p>50本だと、1050円</p>
+<p><img loading="lazy" decoding="async" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 4" src="/wp-content/uploads/2016/12/acb530misumivona4.png" width="286" height="362"> </p>
+<p>100本だと、なんと800円</p>
+<p><img loading="lazy" decoding="async" title="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ACB5-30｜六角穴付ボルト　全ねじタイプ｜ミスミ｜MISUMI-VONA【ミスミ】 3" src="/wp-content/uploads/2016/12/acb530misumivona3.png" width="287" height="365"> </p>
+<p>ということで、100本も使いませんが、ぽちっとしました。<img loading="lazy" decoding="async" title="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="HNT3-ST3B-M5｜六角ナット_3種｜ＳＵＮＣＯ｜MISUMI-VONA【ミスミ】_と_注文の詳細___MISUMI-VONA" src="/wp-content/uploads/2016/12/hnt3st3bm5_3misumivona_____misumivona.png" width="640" height="454"> </p>
+<p>ナットもワッシャーもゲットして、送料無料であさってには到着というお手軽さ。神です。ネジ以外もこれからたくさんお世話になるはずです。ただ、価格のソートがないのがおしいです。最終的に価格が安いのを検討しますから。</p>
+<p>&#160;</p>
+<p>と、記載している内にエヌアイシ・オートテックの三角アルミフレームが到着しました。400mm で購入。平らな面があるので、こっちの三角フレームに軍配があがったわけです。</p>
+<p><img loading="lazy" decoding="async" title="MISUMI-VONA" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="MISUMI-VONA" src="/wp-content/uploads/2016/12/misumivona.png" width="640" height="358"> </p>
+<p>梱包も丁重でさすが日本製。中国からの梱包とはグレードがぜんぜん違います。そして、このフレームものすごく良さそうです。ヘビー級とあるだけあって、肉厚も十分。ずっしりと重いです。20mmのも、40mm のもどちらもハイクオリティー。</p>
+<p>良い xy テーブルが出来ると思います。今週、土日含めて楽しみが増えました。</p>
+<p>あと、NSK と NTN の国産ベアリングも比較のため、3個分のローラー作る6個をゲット。どのくらいクオリティーが高いでしょうか？</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-2286" class="post-2286 post type-post status-publish format-standard hentry category-parts category-ti">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2016/06/18/post-2286.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-06-18T16:34:54+09:00">2016年6月18日</time></a> </span><span class="posted-on">更新日:2016年6月18日</span> <span class="categories">  <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/ti/" rel="category tag noopener noreferrer" data-wpel-link="internal">TI</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2016/06/18/post-2286.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">ロード・スイッチ　TPS22942DCKR</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>TIさんより、TPS22942DCKR のロードスイッチのサンプルを入手。</p>
+<p>仕様：<a title="http://www.ti.com/lit/ds/symlink/tps22942.pdf" href="http://www.ti.com/lit/ds/symlink/tps22942.pdf" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.ti.com/lit/ds/symlink/tps22942.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>WEB: <a title="http://www.tij.co.jp/product/jp/TPS22942/description" href="http://www.tij.co.jp/product/jp/TPS22942/description" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://www.tij.co.jp/product/jp/TPS22942/description<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><img loading="lazy" decoding="async" title="S20160618_001" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_001" src="/wp-content/uploads/2016/06/s20160618_001.jpg" width="640" height="480"> </p>
+<p>5Pin のタイプです。パッケージは、SC-70</p>
+<p><img loading="lazy" decoding="async" title="S20160618_003" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160618_003" src="/wp-content/uploads/2016/06/s20160618_003.jpg" width="640" height="480"> </p>
+<p>&#160;</p>
+<p><a href="/wp-content/uploads/2016/06/sc705.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="sc-70-5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="sc-70-5" src="/wp-content/uploads/2016/06/sc705_thumb.png" width="452" height="480"></a> </p>
+<p>次の電子工作で使う予定。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-2090" class="post-2090 post type-post status-publish format-standard hentry category-parts category-raspberry-pi">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2016/02/01/post-2090.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-02-01T23:53:25+09:00">2016年2月1日</time></a> </span><span class="posted-on">更新日:2016年2月1日</span> <span class="categories">  <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2016/02/01/post-2090.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">SDCard16GB 来たのでRasbian Jessie 入れてみた</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>SDCard の16GB のテスト代わりに、RasPi に Raspbian Jessie を入れてベンチマークしてみました。</p>
+<p>&#160;</p>
+<p>環境はこんな感じ。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># uname -a
+Linux raspberrypi 4.1.13-v7+ #826 SMP PREEMPT Fri Nov 13 20:19:03 GMT 2015 armv7l GNU/Linux</pre>
+<p>で、ベンチマーク</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: raspberrypi: GNU/Linux
+   OS: GNU/Linux -- 4.1.13-v7+ -- #826 SMP PREEMPT Fri Nov 13 20:19:03 GMT 2015
+   Machine: armv7l (unknown)
+   Language: en_US.utf8 (charmap=&quot;ANSI_X3.4-1968&quot;, collate=&quot;ANSI_X3.4-1968&quot;)
+   CPU 0: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 1: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 2: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   CPU 3: ARMv7 Processor rev 5 (v7l) (0.0 bogomips)
+          
+   23:14:27 up 11 min,  3 users,  load average: 0.23, 0.16, 0.10; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: 月  2月 01 2016 23:14:27 - 23:42:32
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       13364099.5 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1935.3 MWIPS (9.9 s, 7 samples)
+Execl Throughput                               1438.9 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        136337.7 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           38047.7 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        359110.7 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              788483.7 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 141326.6 lps   (10.0 s, 7 samples)
+Process Creation                               3012.6 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3025.1 lpm   (60.1 s, 2 samples)
+Shell Scripts (8 concurrent)                    406.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                        1760060.4 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   13364099.5   1145.2
+Double-Precision Whetstone                       55.0       1935.3    351.9
+Execl Throughput                                 43.0       1438.9    334.6
+File Copy 1024 bufsize 2000 maxblocks          3960.0     136337.7    344.3
+File Copy 256 bufsize 500 maxblocks            1655.0      38047.7    229.9
+File Copy 4096 bufsize 8000 maxblocks          5800.0     359110.7    619.2
+Pipe Throughput                               12440.0     788483.7    633.8
+Pipe-based Context Switching                   4000.0     141326.6    353.3
+Process Creation                                126.0       3012.6    239.1
+Shell Scripts (1 concurrent)                     42.4       3025.1    713.5
+Shell Scripts (8 concurrent)                      6.0        406.0    676.6
+System Call Overhead                          15000.0    1760060.4   1173.4
+                                                                   ========
+System Benchmarks Index Score                                         491.8</pre>
+<p>あら、なんか速いんじゃないでしょうか？</p>
+<p>以前計測したときは、400ちょい超えたくらいだったはずです。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-2049" class="post-2049 post type-post status-publish format-standard hentry category-aliexpress category-i2c category-parts category-pcb category-raspberry-pi">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2016/01/25/post-2049.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-01-25T02:24:33+09:00">2016年1月25日</time></a> </span><span class="posted-on">更新日:2016年1月25日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/i2c/" rel="category tag noopener noreferrer" data-wpel-link="internal">I2C</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2016/01/25/post-2049.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">INA226 を RasPi の ruby でi2c</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>PCB が組みあがったのですが、これを RasPi で i2c するサンプルをググってみたら、いくつかありました。</p>
+<p>RasPi は、i2c が使えるようにモジュールをロードしておきました。RasPi でi2c は初めて使います。無事に出来るでしょうか？</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># lsmod
+Module                  Size  Used by
+★i2c_dev                 6027  0 
+cfg80211              386508  0 
+rfkill                 16651  1 cfg80211
+rpcsec_gss_krb5        20958  0 
+nfsd                  263569  2 
+snd_bcm2835            18649  0 
+snd_pcm                73475  1 snd_bcm2835
+snd_seq                53078  0 
+snd_seq_device          5628  1 snd_seq
+snd_timer              17784  2 snd_pcm,snd_seq
+snd                    51038  5 snd_bcm2835,snd_timer,snd_pcm,snd_seq,snd_seq_device
+★i2c_bcm2708             4990  0 
+joydev                  8879  0 
+spi_bcm2708             5137  0 
+evdev                   9950  2 
+uio_pdrv_genirq         2958  0 
+uio                     8119  1 uio_pdrv_genirq</pre>
+<p>&#160;</p>
+<p>先輩たちがサンプルコードは書いているはずなので、探したところ、python でやるのとか、ruby でやるのとかがすぐ見つかりました。</p>
+<p>とりあえず、動作確認したいので以下のサイトのコードを参考に必要な部分だけ使わせてもらいました。</p>
+<blockquote>
+<p>Rabbit Note<br>
+    <br><a href="http://rabbit-note.com/2014/08/24/beaglebone-black-power-meter-soft/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">BeagleBone Black で作るロギング機能付き電力計 (ソフト編)<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>BeagleBone Black(BBBと略するようです)での環境ですが、大変参考になりました。</p>
+<p>使わせていただいたコードは最下部に付けておきます。で、配線は写真のようにちょっと雑ですが配線。負荷には、ちっさいファンをつけてみました。</p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419"></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># i2cdetect -y 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: 40 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- --  </pre>
+<p>&#160;</p>
+<p>プログラムを起動すると、以下のようになります。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># ./test.ruby
+--------- 2016/01/25, 01:33:22
+4.78125 V
+151 mA
+0.29 W
+--------- 2016/01/25, 01:33:22
+4.78125 V
+151 mA
+0.289 W
+--------- 2016/01/25, 01:33:23
+4.78875 V
+152 mA
+0.291 W
+--------- 2016/01/25, 01:33:23
+4.7875 V
+151 mA
+0.29 W
+--------- 2016/01/25, 01:33:24
+4.7875 V
+150 mA
+0.289 W
+--------- 2016/01/25, 01:33:24
+4.7875 V
+151 mA
+0.29 W
+--------- 2016/01/25, 01:33:25
+4.79 V
+152 mA
+0.292 W</pre>
+<p>負荷にLED を点けてみると、以下のようです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># ./test.ruby 
+--------- 2016/01/25, 01:35:31
+4.88 V
+2 mA
+0.005 W
+--------- 2016/01/25, 01:35:31
+4.88 V
+2 mA
+0.005 W
+--------- 2016/01/25, 01:35:31
+4.9125 V
+2 mA
+0.005 W
+--------- 2016/01/25, 01:35:32
+4.91375 V
+2 mA
+0.005 W
+--------- 2016/01/25, 01:35:32
+4.91375 V
+2 mA
+0.005 W</pre>
+<p>&#160;</p>
+<p>まだあまりちゃんと理解していませんが、内部のレジスタの ox05 に、キャリブレーションする設定値を入れるようです。</p>
+<p>以下の C のサンプルコードから、シャント抵抗に0.025R を使っている場合は、以下のように計算した16進数を入れればよいようです。書き込むとき、以下のコードでは、リトルエンディアンに変換していました。</p>
+<p><a title="https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp" href="https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp" class="broken_link wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer">https://github.com/jarzebski/Arduino-INA226/blob/master/INA226.cpp<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>0.025Ω = 0.00512/(0.025*0.0001)=2048 = 0x08 0x00</p>
+<p>&#160;</p>
+<p>0x05 の補正レジスタを見てみると、</p>
+<p># i2cget -y 1 0x40 0x05 w<br>
+  <br>0x0008</p>
+<p>という値が帰ってきました。</p>
+<p>&#160;</p>
+<p>さて、そんな感じでとりあえずコードは以下のようにしてみました。</p>
+<pre class="brush: ruby; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+ 
+IOCTL_I2C_SLAVE = 0x0703
+ 
+# Script for power meter using the following parts
+# - Power Meter module (IC: INA226)
+
+# # i2cdetect -y 1
+#      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+# 00:          -- -- -- -- -- -- -- -- -- -- -- -- --
+# 10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# 20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# 30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# 40: 40 -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# 70: -- -- -- -- -- -- -- --
+
+class PowerSenseor
+  def initialize(i2c_bus=1, dev_addr=0x40)
+    @i2c = File.open(sprintf('/dev/i2c-%d', i2c_bus), 'rb+')
+    @i2c.ioctl(IOCTL_I2C_SLAVE, dev_addr)
+
+    @dev_addr = dev_addr
+    @v_val = 0
+    @c_val = 0
+    @p_val = 0
+
+    # shunt resistor = 0.002Ω = 0.00512/(0.002*0.001)=2560 = 0x0a 0x00
+    #                  0.025Ω = 0.00512/(0.025*0.0001)=2048 = 0x08 0x00
+    #   内部レジスタ[0x04] (Current) = 内部レジスタ[0x01]×内部レジスタ[0x05] ／ 2048
+    exec_cmd(&quot;i2cset -y 1 0x#{dev_addr.to_s(16)} 0x05 0x08 0x00 i&quot;)
+    # conversion time = 332us, number of average = 16
+    exec_cmd(&quot;i2cset -y 1 0x#{dev_addr.to_s(16)} 0x00 0x04 0x97 i&quot;)
+  end
+
+  def sense
+    # i2cset/i2cget は 10ms オーダーの時間を消費するのでここでは使用しない 
+    @i2c.write(0x02)
+    @v_val = conver_signed(@i2c.read(2))
+
+    # 0x04 電流レジスタ
+    @i2c.write(0x04)
+    @c_val = conver_signed(@i2c.read(2))
+
+    # 0x03 Powerレジスタ
+    @i2c.write(0x03)
+    @p_val = conver_signed(@i2c.read(2))
+  end
+
+  def conver_signed(bytes)
+    # convert endian
+    return bytes.unpack('n').pack('S').unpack('s')[0].abs
+  end
+
+  def get_voltage
+    return calc_voltage(@v_val)
+  end
+
+  def get_current
+    return calc_current(@c_val)
+  end
+
+  def get_power
+    return calc_power(@p_val)
+  end
+
+  def exec_cmd(cmd)
+    val=`#{cmd} 2&gt; /dev/null`
+    raise StandardError, &quot;FAIL: #{cmd}&quot; unless $?.success?
+    return val
+  end
+
+  def calc_voltage(v_val)
+    return v_val * 1.25 / 1000.0
+  end
+
+  # 0x04 電流レジスタ
+  def calc_current(c_val)
+    return c_val / 10
+  end
+
+  # 0x03 Powerレジスタ
+  def calc_power(p_val)
+    # return p_val * 0.025
+    return p_val * 0.001
+  end
+end
+
+require 'optparse'
+params = ARGV.getopts('lq')
+
+data_list = []
+
+Signal.trap(:INT){
+  if params['l'] then
+    printf(&quot;time,voltage,current,power\n&quot;)
+    data_list.each{|data|
+      printf(&quot;%10d,%.3f,%.3f,%.3f\n&quot;, data[0], data[1], data[2], data[3])
+    }
+  end
+  exit(0)
+}
+
+sensor = PowerSenseor.new
+require &quot;date&quot;
+
+start_time = Time.now
+i = 0
+while true
+  sensor.sense
+  v = sensor.get_voltage
+  c = sensor.get_current
+  p = sensor.get_power
+
+  dt = DateTime.now
+  print &quot;--------- &quot;
+  print(dt.strftime(&quot;%Y/%m/%d, %H:%M:%S&quot;), &quot;\n&quot;)
+
+  print v
+  print &quot; V\n&quot;
+  print c
+  print &quot; mA\n&quot;
+  print p
+  print &quot; W\n&quot;
+
+  if ((i &amp; 0x7F) == 0) then
+
+  else
+    sleep 0.5
+  end
+  i = (i &amp; 0xff) + 1
+end</pre>
+<p>&#160;</p>
+<p>▼まとめ</p>
+<p>・0x05 にシャント抵抗値を入れた補正値を書き込む</p>
+<p>・書き込む最は、16進をリトルエンディアンにして書き込む</p>
+<p>・0x04 はPowerレジスタで、0x04 は電流レジスタ。</p>
+<p>・LSB ってなに？</p>
+<p>・ちっこい今使っているファンは、150mA くらい使っていて0.3W ほど</p>
+<p>・c のサンプルはすぐに見つからなかったけども、どうんな感じになるんだろう？</p>
+<p>・自分で作ったハードが動いてうれしぃ！</p>
+<p>・レジスタって、どういう回路なの？ どういう仕組みで覚えているんだろう？</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+			
+	<nav class="navigation posts-navigation" aria-label="投稿">
+		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="/category/parts/page/2/" data-wpel-link="internal" rel="noopener noreferrer">過去の投稿</a></div></div>
+	</nav>
+		
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+	</div>
+<!-- #content -->
+
+	<footer id="colophon" class="site-footer wrap" role="contentinfo">
+		<div class="site-info">
+			Copyleft - all rights reversed.
+			<span class="sep"> | </span>
+			JunkHack 2011 - 2024
+			<span class="sep"> | </span>
+			<a href="/about.html" data-wpel-link="internal" rel="noopener noreferrer">運営者情報<span class="gf"></span></a><span class="sep"> | </span>
+			<a href="/mail.html" data-wpel-link="internal" rel="noopener noreferrer">お問い合わせ<span class="gf"></span></a><span class="sep"> | </span>
+			<a href="/privacy.html" data-wpel-link="internal" rel="noopener noreferrer">プライバシーポリシー<span class="gf"></span></a>
+		</div>
+<!-- .site-info -->
+
+	</footer><!-- #colophon -->
+</div>
+<!-- #page -->
+
+    <div id="mouse">
+        <div class="inner">
+            <h1>Search</h1>
+            
+                    <form class="uagb-search-wrapper" role="search" action="https://hack.gpl.jp/" method="get">
+                        <div class="uagb-search-form__container" role="tablist">
+
+                            <input placeholder="Search" class="uagb-search-form__input aa-input" id="searchbox" type="search" name="s" title="Search" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="width: 80%;">
+                            <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;">
+                            </pre>
+                        </div>
+                    </form>
+
+            <table>
+                <tr>
+                    <td class="divide">
+                        <table>
+                                <tr>
+        <td>
+<span class="cmd">g</span> <span class="thn">then</span> <span class="cmd">h</span>
+</td>
+        <td><span class="help">&rarr; home</span></td>
+        <td>Go to front page</td>
+    </tr>    
+                                    <tr>
+        <td>
+<span class="cmd">g</span> <span class="thn">then</span> <span class="cmd">l</span>
+</td>
+        <td><span class="help">&rarr; list</span></td>
+        <td>Go to List page</td>
+    </tr>    
+                                    <tr>
+        <td>
+<span class="cmd">g</span> <span class="thn">then</span> <span class="cmd">s</span>
+</td>
+        <td><span class="help">&rarr; search</span></td>
+        <td>Go to Search page</td>
+    </tr>    
+                            </table>                    
+                    </td>
+                    <td class="divide">
+                        <table>
+                                <tr>
+        <td><span class="cmd">/ or esc</span></td>
+        <td><span class="help">&rarr; search</span></td>
+        <td>Toggle , Close the search box</td>
+    </tr>    
+                                    <tr>
+        <td><span class="cmd">.</span></td>
+        <td><span class="help">&rarr; Focus</span></td>
+        <td>Focus the search box</td>
+    </tr>    
+                                    <tr>
+        <td><span class="cmd">Mouse Click</span></td>
+        <td><span class="help">&rarr; unFocus</span></td>
+        <td>unFocus the search box</td>
+    </tr>    
+                            </table>
+                    
+                    </td>
+                </tr>
+            </table>  
+        </div>
+    </div>
+    <script type="text/javascript">var algolia = {"debug":false,"application_id":"8DCPU3VRUU","search_api_key":"052e9cca1df4182ec607663dc893c235","powered_by_enabled":true,"query":"","autocomplete":{"sources":[{"index_id":"posts_post","index_name":"wp_posts_post","label":"投稿","admin_name":"投稿","position":10,"max_suggestions":10,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true}],"input_selector":"input[name='s']:not(.no-autocomplete):not(#adminbar-search)"},"indices":{"searchable_posts":{"name":"wp_searchable_posts","id":"searchable_posts","enabled":true,"replicas":[]},"posts_post":{"name":"wp_posts_post","id":"posts_post","enabled":true,"replicas":[]}}};</script>
+<script type="text/html" id="tmpl-autocomplete-header"><div class="autocomplete-header">
+		<div class="autocomplete-header-title">{{{ data.label }}}</div>
+		<div class="clear"></div>
+	</div></script>
+
+<script type="text/html" id="tmpl-autocomplete-post-suggestion">
+	<a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.post_title }}">
+		<# if ( data.images.thumbnail ) { #>
+			<img class="suggestion-post-thumbnail" src="{{ data.images.thumbnail.url }}" alt="{{ data.post_title }}">
+		<# } #>
+		<div class="suggestion-post-attributes">
+			<span class="suggestion-post-title">{{{ data._highlightResult.post_title.value }}}</span>
+			<# if ( data._snippetResult['content'] ) { #>
+				<span class="suggestion-post-content">{{{ data._snippetResult['content'].value }}}</span>
+			<# } #>
+		</div>
+			</a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-term-suggestion">
+	<a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.name }}">
+		<svg viewBox="0 0 21 21" width="21" height="21">
+			<svg width="21" height="21" viewBox="0 0 21 21">
+				<path
+					d="M4.662 8.72l-1.23 1.23c-.682.682-.68 1.792.004 2.477l5.135 5.135c.7.693 1.8.688 2.48.005l1.23-1.23 5.35-5.346c.31-.31.54-.92.51-1.36l-.32-4.29c-.09-1.09-1.05-2.06-2.15-2.14l-4.3-.33c-.43-.03-1.05.2-1.36.51l-.79.8-2.27 2.28-2.28 2.27zm9.826-.98c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25z"
+					fill-rule="evenodd"></path>
+			</svg>
+		</svg>
+		<span class="suggestion-post-title">{{{ data._highlightResult.name.value }}}</span>
+	</a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-user-suggestion">
+	<a class="suggestion-link user-suggestion-link" href="{{ data.posts_url }}" title="{{ data.display_name }}">
+		<# if ( data.avatar_url ) { #>
+			<img class="suggestion-user-thumbnail" src="{{ data.avatar_url }}" alt="{{ data.display_name }}">
+		<# } #>
+		<span class="suggestion-post-title">{{{ data._highlightResult.display_name.value }}}</span>
+	</a>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-footer">
+	<div class="autocomplete-footer">
+		<div class="autocomplete-footer-branding">
+			<a href="#" class="algolia-powered-by-link" title="Algolia">
+				<svg width="150px" height="25px" viewbox="0 0 572 64"><path fill="#36395A" d="M16 48.3c-3.4 0-6.3-.6-8.7-1.7A12.4 12.4 0 0 1 1.9 42C.6 40 0 38 0 35.4h6.5a6.7 6.7 0 0 0 3.9 6c1.4.7 3.3 1.1 5.6 1.1 2.2 0 4-.3 5.4-1a7 7 0 0 0 3-2.4 6 6 0 0 0 1-3.4c0-1.5-.6-2.8-1.9-3.7-1.3-1-3.3-1.6-5.9-1.8l-4-.4c-3.7-.3-6.6-1.4-8.8-3.4a10 10 0 0 1-3.3-7.9c0-2.4.6-4.6 1.8-6.4a12 12 0 0 1 5-4.3c2.2-1 4.7-1.6 7.5-1.6s5.5.5 7.6 1.6a12 12 0 0 1 5 4.4c1.2 1.8 1.8 4 1.8 6.7h-6.5a6.4 6.4 0 0 0-3.5-5.9c-1-.6-2.6-1-4.4-1s-3.2.3-4.4 1c-1.1.6-2 1.4-2.6 2.4-.5 1-.8 2-.8 3.1a5 5 0 0 0 1.5 3.6c1 1 2.6 1.7 4.7 1.9l4 .3c2.8.2 5.2.8 7.2 1.8 2.1 1 3.7 2.2 4.9 3.8a9.7 9.7 0 0 1 1.7 5.8c0 2.5-.7 4.7-2 6.6a13 13 0 0 1-5.6 4.4c-2.4 1-5.2 1.6-8.4 1.6Zm35.6 0c-2.6 0-4.8-.4-6.7-1.3a13 13 0 0 1-4.7-3.5 17.1 17.1 0 0 1-3.6-10.4v-1c0-2 .3-3.8 1-5.6a13 13 0 0 1 7.3-8.3 15 15 0 0 1 6.3-1.4A13.2 13.2 0 0 1 64 24.3c1 2.2 1.6 4.6 1.6 7.2V34H39.4v-4.3h21.8l-1.8 2.2c0-2-.3-3.7-.9-5.1a7.3 7.3 0 0 0-2.7-3.4c-1.2-.7-2.7-1.1-4.6-1.1s-3.4.4-4.7 1.3a8 8 0 0 0-2.9 3.6c-.6 1.5-.9 3.3-.9 5.4 0 2 .3 3.7 1 5.3a7.9 7.9 0 0 0 2.8 3.7c1.3.8 3 1.3 5 1.3s3.8-.5 5.1-1.3c1.3-1 2.1-2 2.4-3.2h6a11.8 11.8 0 0 1-7 8.7 16 16 0 0 1-6.4 1.2ZM80 48c-2.2 0-4-.3-5.7-1a8.4 8.4 0 0 1-3.7-3.3 9.7 9.7 0 0 1-1.3-5.2c0-2 .5-3.8 1.5-5.2a9 9 0 0 1 4.3-3.1c1.8-.7 4-1 6.7-1H89v4.1h-7.5c-2 0-3.4.5-4.4 1.4-1 1-1.6 2.1-1.6 3.6s.5 2.7 1.6 3.6c1 1 2.5 1.4 4.4 1.4 1.1 0 2.2-.2 3.2-.7 1-.4 1.9-1 2.6-2 .6-1 1-2.4 1-4.2l1.7 2.1c-.2 2-.7 3.8-1.5 5.2a9 9 0 0 1-3.4 3.3 12 12 0 0 1-5.3 1Zm9.5-.7v-8.8h-1v-10c0-1.8-.5-3.2-1.4-4.1-1-1-2.4-1.4-4.2-1.4a142.9 142.9 0 0 0-10.2.4v-5.6a74.8 74.8 0 0 1 8.6-.4c3 0 5.5.4 7.5 1.2s3.4 2 4.4 3.6c1 1.7 1.4 4 1.4 6.7v18.4h-5Zm12.9 0V17.8h5v12.3h-.2c0-4.2 1-7.4 2.8-9.5a11 11 0 0 1 8.3-3.1h1v5.6h-2a9 9 0 0 0-6.3 2.2c-1.5 1.5-2.2 3.6-2.2 6.4v15.6h-6.4Zm34.4 1a15 15 0 0 1-6.6-1.3c-1.9-.9-3.4-2-4.7-3.5a15.5 15.5 0 0 1-2.7-5c-.6-1.7-1-3.6-1-5.4v-1c0-2 .4-3.8 1-5.6a15 15 0 0 1 2.8-4.9c1.3-1.5 2.8-2.6 4.6-3.5a16.4 16.4 0 0 1 13.3.2c2 1 3.5 2.3 4.8 4a12 12 0 0 1 2 6H144c-.2-1.6-1-3-2.2-4.1a7.5 7.5 0 0 0-5.2-1.7 8 8 0 0 0-4.7 1.3 8 8 0 0 0-2.8 3.6 13.8 13.8 0 0 0 0 10.3c.6 1.5 1.5 2.7 2.8 3.6s2.8 1.3 4.8 1.3c1.5 0 2.7-.2 3.8-.8a7 7 0 0 0 2.6-2c.7-1 1-2 1.2-3.2h6.2a11 11 0 0 1-2 6.2 15.1 15.1 0 0 1-11.8 5.5Zm19.7-1v-40h6.4V31h-1.3c0-3 .4-5.5 1.1-7.6a9.7 9.7 0 0 1 3.5-4.8A9.9 9.9 0 0 1 172 17h.3c3.5 0 6 1.1 7.9 3.5 1.7 2.3 2.6 5.7 2.6 10v16.8h-6.4V29.6c0-2.1-.6-3.8-1.8-5a6.4 6.4 0 0 0-4.8-1.8c-2 0-3.7.7-5 2a7.8 7.8 0 0 0-1.9 5.5v17h-6.4Zm63.8 1a12.2 12.2 0 0 1-10.9-6.2 19 19 0 0 1-1.8-7.3h1.4v12.5h-5.1v-40h6.4v19.8l-2 3.5c.2-3.1.8-5.7 1.9-7.7a11 11 0 0 1 4.4-4.5c1.8-1 3.9-1.5 6.1-1.5a13.4 13.4 0 0 1 12.8 9.1c.7 1.9 1 3.8 1 6v1c0 2.2-.3 4.1-1 6a13.6 13.6 0 0 1-13.2 9.4Zm-1.2-5.5a8.4 8.4 0 0 0 7.9-5c.7-1.5 1.1-3.3 1.1-5.3s-.4-3.8-1.1-5.3a8.7 8.7 0 0 0-3.2-3.6 9.6 9.6 0 0 0-9.2-.2 8.5 8.5 0 0 0-3.3 3.2c-.8 1.4-1.3 3-1.3 5v2.3a9 9 0 0 0 1.3 4.8 9 9 0 0 0 3.4 3c1.4.7 2.8 1 4.4 1Zm27.3 3.9-10-28.9h6.5l9.5 28.9h-6Zm-7.5 12.2v-5.7h4.9c1 0 2-.1 2.9-.4a4 4 0 0 0 2-1.4c.4-.7.9-1.6 1.2-2.7l8.6-30.9h6.2l-9.3 32.4a14 14 0 0 1-2.5 5 8.9 8.9 0 0 1-4 2.8c-1.5.6-3.4.9-5.6.9h-4.4Zm9-12.2v-5.2h6.4v5.2H248Z"></path><path fill="#003DFF" d="M534.4 9.1H528a.8.8 0 0 1-.7-.7V1.8c0-.4.2-.7.6-.8l6.5-1c.4 0 .8.2.9.6v7.8c0 .4-.4.7-.8.7zM428 35.2V.8c0-.5-.3-.8-.7-.8h-.2l-6.4 1c-.4 0-.7.4-.7.8v35c0 1.6 0 11.8 12.3 12.2.5 0 .8-.4.8-.8V43c0-.4-.3-.7-.6-.8-4.5-.5-4.5-6-4.5-7zm106.5-21.8H528c-.4 0-.7.4-.7.8v34c0 .4.3.8.7.8h6.5c.4 0 .8-.4.8-.8v-34c0-.5-.4-.8-.8-.8zm-17.7 21.8V.8c0-.5-.3-.8-.8-.8l-6.5 1c-.4 0-.7.4-.7.8v35c0 1.6 0 11.8 12.3 12.2.4 0 .8-.4.8-.8V43c0-.4-.3-.7-.7-.8-4.4-.5-4.4-6-4.4-7zm-22.2-20.6a16.5 16.5 0 0 1 8.6 9.3c.8 2.2 1.3 4.8 1.3 7.5a19.4 19.4 0 0 1-4.6 12.6 14.8 14.8 0 0 1-5.2 3.6c-2 .9-5.2 1.4-6.8 1.4a21 21 0 0 1-6.7-1.4 15.4 15.4 0 0 1-8.6-9.3 21.3 21.3 0 0 1 0-14.4 15.2 15.2 0 0 1 8.6-9.3c2-.8 4.3-1.2 6.7-1.2s4.6.4 6.7 1.2zm-6.7 27.6c2.7 0 4.7-1 6.2-3s2.2-4.3 2.2-7.8-.7-6.3-2.2-8.3-3.5-3-6.2-3-4.7 1-6.1 3c-1.5 2-2.2 4.8-2.2 8.3s.7 5.8 2.2 7.8 3.5 3 6.2 3zm-88.8-28.8c-6.2 0-11.7 3.3-14.8 8.2a18.6 18.6 0 0 0 4.8 25.2c1.8 1.2 4 1.8 6.2 1.7s.1 0 .1 0h.9c4.2-.7 8-4 9.1-8.1v7.4c0 .4.3.7.8.7h6.4a.7.7 0 0 0 .7-.7V14.2c0-.5-.3-.8-.7-.8h-13.5zm6.3 26.5a9.8 9.8 0 0 1-5.7 2h-.5a10 10 0 0 1-9.2-14c1.4-3.7 5-6.3 9-6.3h6.4v18.3zm152.3-26.5h13.5c.5 0 .8.3.8.7v33.7c0 .4-.3.7-.8.7h-6.4a.7.7 0 0 1-.8-.7v-7.4c-1.2 4-4.8 7.4-9 8h-.1a4.2 4.2 0 0 1-.5.1h-.9a10.3 10.3 0 0 1-7-2.6c-4-3.3-6.5-8.4-6.5-14.2 0-3.7 1-7.2 3-10 3-5 8.5-8.3 14.7-8.3zm.6 28.4c2.2-.1 4.2-.6 5.7-2V21.7h-6.3a9.8 9.8 0 0 0-9 6.4 10.2 10.2 0 0 0 9.1 13.9h.5zM452.8 13.4c-6.2 0-11.7 3.3-14.8 8.2a18.5 18.5 0 0 0 3.6 24.3 10.4 10.4 0 0 0 13 .6c2.2-1.5 3.8-3.7 4.5-6.1v7.8c0 2.8-.8 5-2.2 6.3-1.5 1.5-4 2.2-7.5 2.2l-6-.3c-.3 0-.7.2-.8.5l-1.6 5.5c-.1.4.1.8.5 1h.1c2.8.4 5.5.6 7 .6 6.3 0 11-1.4 14-4.1 2.7-2.5 4.2-6.3 4.5-11.4V14.2c0-.5-.4-.8-.8-.8h-13.5zm6.3 8.2v18.3a9.6 9.6 0 0 1-5.6 2h-1a10.3 10.3 0 0 1-8.8-14c1.4-3.7 5-6.3 9-6.3h6.4zM291 31.5A32 32 0 0 1 322.8 0h30.8c.6 0 1.2.5 1.2 1.2v61.5c0 1.1-1.3 1.7-2.2 1l-19.2-17a18 18 0 0 1-11 3.4 18.1 18.1 0 1 1 18.2-14.8c-.1.4-.5.7-.9.6-.1 0-.3 0-.4-.2l-3.8-3.4c-.4-.3-.6-.8-.7-1.4a12 12 0 1 0-2.4 8.3c.4-.4 1-.5 1.6-.2l14.7 13.1v-46H323a26 26 0 1 0 10 49.7c.8-.4 1.6-.2 2.3.3l3 2.7c.3.2.3.7 0 1l-.2.2a32 32 0 0 1-47.2-28.6z"></path></svg>
+			</a>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="tmpl-autocomplete-empty"><div class="autocomplete-empty">
+		クエリにマッチした結果はありません		<span class="empty-query">"{{ data.query }}"</span>
+	</div></script>
+
+<script type="text/javascript">
+	window.addEventListener('load', function () {
+
+		/* Initialize Algolia client */
+		var client = algoliasearch( algolia.application_id, algolia.search_api_key );
+
+		/**
+		 * Algolia hits source method.
+		 *
+		 * This method defines a custom source to use with autocomplete.js.
+		 *
+		 * @param object $index Algolia index object.
+		 * @param object $params Options object to use in search.
+		 */
+		var algoliaHitsSource = function( index, params ) {
+			return function( query, callback ) {
+				index
+					.search( query, params )
+					.then( function( response ) {
+						callback( response.hits, response );
+					})
+					.catch( function( error ) {
+						callback( [] );
+					});
+			}
+		}
+
+		/* Setup autocomplete.js sources */
+		var sources = [];
+		algolia.autocomplete.sources.forEach( function( config, i ) {
+			var suggestion_template = wp.template( config[ 'tmpl_suggestion' ] );
+			sources.push( {
+				source: algoliaHitsSource( client.initIndex( config[ 'index_name' ] ), {
+					hitsPerPage: config[ 'max_suggestions' ],
+					attributesToSnippet: [
+						'content:10'
+					],
+					highlightPreTag: '__ais-highlight__',
+					highlightPostTag: '__/ais-highlight__'
+				} ),
+				templates: {
+					header: function () {
+						return wp.template( 'autocomplete-header' )( {
+							label: _.escape( config[ 'label' ] )
+						} );
+					},
+					suggestion: function ( hit ) {
+						if ( hit.escaped === true ) {
+							return suggestion_template( hit );
+						}
+						hit.escaped = true;
+
+						for ( var key in hit._highlightResult ) {
+							/* We do not deal with arrays. */
+							if ( typeof hit._highlightResult[ key ].value !== 'string' ) {
+								continue;
+							}
+							hit._highlightResult[ key ].value = _.escape( hit._highlightResult[ key ].value );
+							hit._highlightResult[ key ].value = hit._highlightResult[ key ].value.replace( /__ais-highlight__/g, '<em>' ).replace( /__\/ais-highlight__/g, '<\/em>' );
+						}
+
+						for ( var key in hit._snippetResult ) {
+							/* We do not deal with arrays. */
+							if ( typeof hit._snippetResult[ key ].value !== 'string' ) {
+								continue;
+							}
+
+							hit._snippetResult[ key ].value = _.escape( hit._snippetResult[ key ].value );
+							hit._snippetResult[ key ].value = hit._snippetResult[ key ].value.replace( /__ais-highlight__/g, '<em>' ).replace( /__\/ais-highlight__/g, '<\/em>' );
+						}
+
+						return suggestion_template( hit );
+					}
+				}
+			} );
+
+		} );
+
+		/* Setup dropdown menus */
+		document.querySelectorAll( algolia.autocomplete.input_selector ).forEach( function( element ) {
+
+			var config = {
+				debug: algolia.debug,
+				hint: false,
+				openOnFocus: true,
+				appendTo: 'body',
+				templates: {
+					empty: wp.template( 'autocomplete-empty' )
+				}
+			};
+
+			if ( algolia.powered_by_enabled ) {
+				config.templates.footer = wp.template( 'autocomplete-footer' );
+			}
+
+			/* Instantiate autocomplete.js */
+			var autocomplete = algoliaAutocomplete( element, config, sources )
+				.on( 'autocomplete:selected', function ( e, suggestion ) {
+					/* Redirect the user when we detect a suggestion selection. */
+					window.location.href = suggestion.permalink ?? suggestion.posts_url; // Users use the `posts_url` property instead of `permalink`.
+				} );
+
+			/* Force the dropdown to be re-drawn on scroll to handle fixed containers. */
+			window.addEventListener( 'scroll', function() {
+				if ( autocomplete.autocomplete.getWrapper().style.display === "block" ) {
+					autocomplete.autocomplete.close();
+					autocomplete.autocomplete.open();
+				}
+			} );
+		} );
+
+		var algoliaPoweredLink = document.querySelector( '.algolia-powered-by-link' );
+		if ( algoliaPoweredLink ) {
+			algoliaPoweredLink.addEventListener( 'click', function( e ) {
+				e.preventDefault();
+				window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
+			} );
+		}
+	});
+</script>
+<script type="text/javascript" data-cfasync="false">var bU="/wp-content/plugins/wp-youtube-lyte/lyte/";var mOs=null;style = document.createElement("style");style.type = "text/css";rules = document.createTextNode(".lyte-wrapper-audio div, .lyte-wrapper div {margin:0px; overflow:hidden;} .lyte,.lyMe{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;background-color:#777;} .fourthree .lyMe, .fourthree .lyte {padding-bottom:75%;} .lidget{margin-bottom:5px;} .lidget .lyte, .widget .lyMe {padding-bottom:0!important;height:100%!important;} .lyte-wrapper-audio .lyte{height:38px!important;overflow:hidden;padding:0!important} .lyMe iframe, .lyte iframe,.lyte .pL{position:absolute !important;top:0;left:0;width:100%;height:100%!important;background:no-repeat scroll center #000;background-size:cover;cursor:pointer} .tC{left:0;position:absolute;top:0;width:100%} .tC{background-image:linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0))} .tT{color:#FFF;font-family:Roboto,sans-serif;font-size:16px;height:auto;text-align:left;padding:5px 10px 50px 10px} .play{background:no-repeat scroll 0 0 transparent;width:88px;height:63px;position:absolute;left:43%;left:calc(50% - 44px);left:-webkit-calc(50% - 44px);top:38%;top:calc(50% - 31px);top:-webkit-calc(50% - 31px);} .widget .play {top:30%;top:calc(45% - 31px);top:-webkit-calc(45% - 31px);transform:scale(0.6);-webkit-transform:scale(0.6);-ms-transform:scale(0.6);} .lyte:hover .play{background-position:0 -65px;} .lyte-audio .pL{max-height:38px!important} .lyte-audio iframe{height:438px!important} .lyte .ctrl{background:repeat scroll 0 -220px rgba(0,0,0,0.3);width:100%;height:40px;bottom:0px;left:0;position:absolute;} .lyte-wrapper .ctrl{display:none}.Lctrl{background:no-repeat scroll 0 -137px transparent;width:158px;height:40px;bottom:0;left:0;position:absolute} .Rctrl{background:no-repeat scroll -42px -179px transparent;width:117px;height:40px;bottom:0;right:0;position:absolute;padding-right:10px;}.lyte-audio .play{display:none}.lyte-audio .ctrl{background-color:rgba(0,0,0,1)}.lyte .hidden{display:none}");if(style.styleSheet) { style.styleSheet.cssText = rules.nodeValue;} else {style.appendChild(rules);}document.getElementsByTagName("head")[0].appendChild(style);</script><script type="text/javascript" data-cfasync="false" async src="/wp-content/plugins/wp-youtube-lyte/lyte/lyte-min.js?wyl_version=1.7.23"></script><link rel="stylesheet" id="word_balloon_user_style-css" href="/wp-content/plugins/word-balloon/css/word_balloon_user.min.css?ver=4.20.5" type="text/css" media="all">
+<link rel="stylesheet" id="word_balloon_skin_talk-css" href="/wp-content/plugins/word-balloon/css/skin/word_balloon_talk.min.css?ver=4.20.5" type="text/css" media="all">
+<link rel="stylesheet" id="word_balloon_inview_style-css" href="/wp-content/plugins/word-balloon/css/word_balloon_inview.min.css?ver=4.20.5" type="text/css" media="all">
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/jh-hew/js/contact.js?ver=20210612" id="sendmail-js"></script>
+<script type="text/javascript" src="/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/algoliasearch/dist/algoliasearch-lite.umd.js?ver=2.7.1" id="algolia-search-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete.js/dist/autocomplete.min.js?ver=2.7.1" id="algolia-autocomplete-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-search-with-algolia/js/autocomplete-noconflict.js?ver=2.7.1" id="algolia-autocomplete-noconflict-js"></script>
+<script type="text/javascript" src="/wp-includes/js/clipboard.min.js?ver=2.0.11" id="clipboard-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs//emojify.js/1.1.0/js/emojify.min.js?ver=1.1.0" id="emojify-js"></script>
+<script type="text/javascript" id="wpfront-scroll-top-js-extra">
+/* <![CDATA[ */
+var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{display:none;position:fixed;cursor:pointer;z-index:9999;opacity:0}#wpfront-scroll-top-container div.text-holder{padding:3px 10px;border-radius:3px;-webkit-border-radius:3px;-webkit-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);-moz-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);box-shadow:4px 4px 5px 0 rgba(50,50,50,.5)}#wpfront-scroll-top-container a{outline-style:none;box-shadow:none;text-decoration:none}#wpfront-scroll-top-container {right: 80px;bottom: 10px;}        #wpfront-scroll-top-container img {\n            width: 55px;\n            height: 55px;\n        }\n        ","html":"<div id=\"wpfront-scroll-top-container\"><img src=\"\/wp-content\/plugins\/wpfront-scroll-top\/images\/icons\/1.png\" alt=\"\" title=\"\" \/><\/div>","data":{"hide_iframe":false,"button_fade_duration":200,"auto_hide":false,"auto_hide_after":2,"scroll_offset":100,"button_opacity":0.8,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":"0","scroll_duration":400}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081" id="wpfront-scroll-top-js"></script>
+<script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver" id="polyfill_IntersectionObserver-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/word-balloon/js/word_balloon_inview.min.js?ver=4.20.5" id="word_balloon_inview_script-js"></script>
+  <script id="module-flowchart">(function($) { $(function() { if (typeof $.fn.flowChart !== "undefined") { if ($(".language-flow").length > 0) { $(".language-flow").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-flow").addClass("flowchart").removeClass("language-flow"); $(".flowchart").flowChart(); } } }); })(jQuery);</script>  <script id="module-katex"> (function($) { $(function() { if (typeof katex !== "undefined") { if ($(".language-katex").length > 0) { $(".language-katex").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-katex").addClass("katex-container").removeClass("language-katex"); $(".katex-container").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } if ($(".katex-inline").length > 0) { $(".katex-inline").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } } }); })(jQuery); </script>  <script id="module-sequence-diagram">(function($) { $(function() { if (typeof $.fn.sequenceDiagram !== "undefined") { $(".language-sequence").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-seq").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-sequence").addClass("sequence-diagram").removeClass("language-sequence"); $(".language-seq").addClass("sequence-diagram").removeClass("language-seq"); $(".sequence-diagram").sequenceDiagram({ theme: "simple" }); } }); })(jQuery);</script>  <script id="module-mermaid">(function($) { $(function() { if (typeof mermaid !== "undefined") { if ($(".language-mermaid").length > 0) { $(".language-mermaid").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-mermaid").addClass("mermaid").removeClass("language-mermaid"); mermaid.init(); } } }); })(jQuery);</script>  <script id="module-mathjax">(function($) { $(function() { if (typeof MathJax !== "undefined") { var c = $(".language-mathjax").length; if (c > 0) { $(".language-mathjax").each(function(i) { var content = $(this).html(); if ($(this).hasClass("mathjax-inline")) { $(this).html("$ " + content + " $"); } else { $(this).html("$$" + "\n" + content + "\n" + "$$"); } if (i + 1 === c) { MathJax.Hub.Config({ showProcessingMessages: false, messageStyle: "none", extensions: [ "tex2jax.js", "TeX/mediawiki-texvc.js", "TeX/noUndefined.js", "TeX/autoload-all.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js" ], jax: [ "input/TeX", "output/SVG" ], elements: document.getElementsByClassName("language-mathjax"), tex2jax: { skipTags: [ "script", "noscript", "style", "textarea" ], inlineMath: [ ['$', '$'] ], displayMath: [ ['$$', '$$'] ], processClass: "language-mathjax" } }); MathJax.Hub.Queue(["Typeset", MathJax.Hub]); $(".language-mathjax").attr("style", "background: transparent; border: 0;"); $(".language-mathjax").closest("pre").attr("style", "background: transparent; border: 0;"); } }); } else { console.log("[wp-githuber-md] MathJax code blocks not found."); } } else { console.log("[wp-githuber-md] MathJax is not loadded."); } }); })(jQuery);</script>  <script id="module-clipboard"> (function($) { $(function() { var pre = document.getElementsByTagName("pre"); var pasteContent = document.getElementById("paste-content"); var hasLanguage = false; for (var i = 0; i < pre.length; i++) { var codeClass = pre[i].children[0].className; var isLanguage = codeClass.indexOf("language-"); var excludedCodeClassNames = [ "language-katex", "language-seq", "language-sequence", "language-flow", "language-flowchart", "language-mermaid", ]; var isExcluded = excludedCodeClassNames.indexOf(codeClass); if (isExcluded !== -1) { isLanguage = -1; } if (isLanguage !== -1) { var current_pre = pre[i]; var parent = current_pre.parentNode; var div = document.createElement("div"); div.style['position'] = 'relative'; parent.replaceChild(div, current_pre); var button = document.createElement("button"); button.className = "copy-button"; button.textContent = "Copy"; div.appendChild(current_pre); div.appendChild(button); hasLanguage = true; } }; if (hasLanguage) { var copyCode = new ClipboardJS(".copy-button", { target: function(trigger) { return trigger.previousElementSibling; } }); copyCode.on("success", function(event) { event.clearSelection(); event.trigger.textContent = "Copied"; window.setTimeout(function() { event.trigger.textContent = "Copy"; }, 2000); }); } }); })(jQuery); </script> 
+			<script id="module-emojify">(function($) {
+					$(function() {
+						if (typeof emojify !== "undefined") {
+							emojify.setConfig({
+								img_dir: "https://cdnjs.cloudflare.com/ajax/libs//emojify.js/1.1.0/images/basic",
+								blacklist: {
+									"classes": ["no-emojify"],
+									"elements": ["script", "textarea", "pre", "code"]
+								}
+							});
+							emojify.run();
+						} else {
+							console.log("[wp-githuber-md] emogify is undefined.");
+						}
+					});
+				})(jQuery);</script>
+		
+</body>
+</html>

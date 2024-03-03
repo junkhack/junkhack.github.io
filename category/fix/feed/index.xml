@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>fix &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Mon, 13 Jun 2016 15:46:18 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>fix &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>HP Slate 7 Tablet charging ports</title>
+		<link>/2016/06/14/hp-slate-7-tablet-charging-ports.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 13 Jun 2016 15:46:18 +0000</pubDate>
+				<category><![CDATA[fix]]></category>
+		<category><![CDATA[Junk]]></category>
+		<guid isPermaLink="false">/?p=2270</guid>
+							<description><![CDATA[HP のタブレットの USB が壊れたので直してほしいとの依頼。 どうやら、目視すると中の pin が折れているようです。 JunkHack Factory（たんなるガラクタ部屋のことですが、なにか？） に持ち帰り、分解 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>HP のタブレットの USB が壊れたので直してほしいとの依頼。</p>
+<p><img loading="lazy" decoding="async" title="home_section3_bnr" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="home_section3_bnr" src="/wp-content/uploads/2016/06/home_section3_bnr.jpg" width="466" height="480" /> </p>
+<p>どうやら、目視すると中の pin が折れているようです。</p>
+<p><img loading="lazy" decoding="async" title="S20160613_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_002" src="/wp-content/uploads/2016/06/s20160613_002.jpg" width="640" height="480" /> </p>
+<p>JunkHack Factory（たんなるガラクタ部屋のことですが、なにか？） に持ち帰り、分解してパーツを見ることに。分解マニュアルを見ると、どうやら I/O ボードに、USB と HDMI とイヤホンマイクジャックが並んでいる模様。</p>
+<p>&#160;</p>
+<p><a href="http://h10032.www1.hp.com/ctg/Manual/c04341946.pdf" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="c04341946_pdf 3" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf 3" src="/wp-content/uploads/2016/06/c04341946_pdf3.png" width="640" height="254" /></a> バラシ方のコツは、以下の通り。</p>
+<p>&#160;</p>
+<p><img loading="lazy" decoding="async" title="c04341946_pdf" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf" src="/wp-content/uploads/2016/06/c04341946_pdf.png" width="487" height="480" /> </p>
+<p>5番の I/O ボードを引っ張り出すことに。</p>
+<p>&#160;</p>
+<p><img loading="lazy" decoding="async" title="c04341946_pdf 2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="c04341946_pdf 2" src="/wp-content/uploads/2016/06/c04341946_pdf2.png" width="486" height="480" /> </p>
+</p>
+</p>
+<p>&#160;</p>
+<p>金具の押さえを取り、フレキシブルケーブルを抜きます。</p>
+<p>&#160; <img loading="lazy" decoding="async" title="S20160613_006" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_006" src="/wp-content/uploads/2016/06/s20160613_006.jpg" width="640" height="480" /> <img loading="lazy" decoding="async" title="S20160613_009" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160613_009" src="/wp-content/uploads/2016/06/s20160613_009.jpg" width="640" height="480" /> </p>
+<p>I/O ボードはこんな感じ。一番右の USB を交換予定。</p>
+<p><img loading="lazy" decoding="async" title="S20160614_001" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160614_001" src="/wp-content/uploads/2016/06/s20160614_001.jpg" width="640" height="480" /> </p>
+<p>HP 製は丁寧にパーツを保護しています。</p>
+<p><img loading="lazy" decoding="async" title="S20160614_002" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="S20160614_002" src="/wp-content/uploads/2016/06/s20160614_002.jpg" width="640" height="480" />&#160;&#160; </p>
+<p>問題のパーツ。中でぽっきり折れています。</p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0071.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_007" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_007" src="/wp-content/uploads/2016/06/s20160614_007_thumb1.jpg" width="640" height="480" /></a> </p>
+<p>かなり薄めの PCB です。</p>
+</p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0061.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_006" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_006" src="/wp-content/uploads/2016/06/s20160614_006_thumb1.jpg" width="640" height="480" /></a> </p>
+<p>同じパーツはないので、手持ちで流用できるか今日は検討。</p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0081.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_008" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_008" src="/wp-content/uploads/2016/06/s20160614_008_thumb1.jpg" width="640" height="480" /></a> </p>
+<p><a href="/wp-content/uploads/2016/06/s20160614_0091.jpg" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" title="S20160614_009" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="S20160614_009" src="/wp-content/uploads/2016/06/s20160614_009_thumb1.jpg" width="640" height="480" /></a> </p>
+<p>代用はできそうですが、補強しないとですね。</p>
+<p>今日はとりあえず、バラシまで。明日以降に少しづつ作業していくことに。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Linux &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 21 Jun 2022 06:52:53 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>Linux &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>KeyCDNという安いCDNを半年使った感想、価格や月維持費などレポート！</title>
+		<link>/2022/01/02/post-10979.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 02 Jan 2022 00:01:22 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[cdn]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[高速化]]></category>
+		<guid isPermaLink="false">/?p=10979</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/01/KeyCDN.png" />
+							<description><![CDATA[KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。 今回は前から気になっていたKeyC [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>CDNってのを半年、使ってみましたよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>クラウドからコンテンツを配信するってヤツですね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>どんな効果があって、月維持費はどのくらいかレポートしてみます。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>私は、月500円くらいまでなら出せるかなー</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>KeyCDNは数年前、１位か２位くらいの安さでしたが、今はもっと安いのがあるようです。CDNのコスト計算サイトでは以下のようでした。blazingcdnというのが破格の安さのようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://www.cdnperf.com/tools/cdn-calculator" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img fetchpriority="high" decoding="async" width="1024" height="548" src="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png" alt="" class="wp-image-10983" srcset="/wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-1024x548.png 1024w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-768x411.png 768w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf-984x526.png 984w, /wp-content/uploads/2022/01/CDN_Calculator_-_CDNCalc_-_CDNPerf.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>今回は前から気になっていたKeyCDNをこのスマホサーバのWordPressサイトに適用してみましたので、実際どのくらいの値段で運用できるんだ？　みたいな感想をレポートしてみたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">そもそもCDNって何？</h3>
+
+
+
+<p>CDNは平たく言えば、画像やコンテンツを本家とは違うサーバから配信するというものです。キャッシュサーバとか、エッジサーバとか表現したりしますが、要は静的なファイルを本家サーバからではなく、CDNのクラウドから配信することによりネットワーク負荷や、レスポンス改善（時に改悪）したりするのが目的です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>コンテンツデリバリネットワーク（英語: content delivery network、CDN）</p><cite>wiki</cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">いくらするの？</h3>
+
+
+
+<p>ほとんどの人が気になるのは、初期や維持費などの価格がいくらなのか？　っていうことと、速度はどのくらい改善されるのか？　ってことだと思います。こればっかりは使ってみないとなんとも言えない部分があります。早速、値段からレポートしてみたいと思います。</p>
+
+
+
+<p>　まず、KeyCDNは最初にクレジットを入れてそれを消費する仕組みです。最小の入金単位は 49ドル となります。日本円で当時のキャッシュカード換金レートで、5,553円でした。</p>
+
+
+
+<p>　入金したのが、2021年の06月/01なので現時点で半年使っていることになります。クレジットの消費は以下のようになっています。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="649" src="/wp-content/uploads/2022/01/Overview-1024x649.png" alt="" class="wp-image-10986" srcset="/wp-content/uploads/2022/01/Overview-1024x649.png 1024w, /wp-content/uploads/2022/01/Overview-768x487.png 768w, /wp-content/uploads/2022/01/Overview-984x624.png 984w, /wp-content/uploads/2022/01/Overview.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>残りクレジットは18くらいです。49から約36%残っていますので半年で67% 消費したことになります。半年で、約3720円ですので、１ヶ月あたり620円という感じですね。</p>
+
+
+
+<p>　グラフの途中に、ガクンとクレジットが消費しているところがありますが、これはキャッシュを完全に消去して作り直している部分です。</p>
+
+
+
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
+
+
+
+<p>統計期間が約４ヶ月くらいなので、KeyCDN上のデータでは以下のようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="668" src="/wp-content/uploads/2022/01/Analytics-1-1024x668.png" alt="" class="wp-image-10987" srcset="/wp-content/uploads/2022/01/Analytics-1-1024x668.png 1024w, /wp-content/uploads/2022/01/Analytics-1-768x501.png 768w, /wp-content/uploads/2022/01/Analytics-1-984x642.png 984w, /wp-content/uploads/2022/01/Analytics-1.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>1日あたり、cssや画像やhtmlなど合計して1.8万くらいのヒットがあります。PV的な数値は１つ前の記事に載せてありますので、参考にしてください。</p>
+
+
+
+<h3 class="wp-block-heading">１ヶ月のデータ転送量は？</h3>
+
+
+
+<p>このサイトの１ヶ月のデータ転送量（総トラフィック）は、KeyCDNの統計データで見ると以下のようです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="468" src="/wp-content/uploads/2022/01/Usage-1024x468.png" alt="" class="wp-image-10988" srcset="/wp-content/uploads/2022/01/Usage-1024x468.png 1024w, /wp-content/uploads/2022/01/Usage-768x351.png 768w, /wp-content/uploads/2022/01/Usage-984x449.png 984w, /wp-content/uploads/2022/01/Usage.png 1130w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>PV的には2000〜2500くらいでこの転送量です。3000〜5000くらいのPVでも15GBを１ヶ月に超えることはありませんでした。</p>
+
+
+
+<h3 class="wp-block-heading">CDNの効果はどのくらい？</h3>
+
+
+
+<p>ページ計測サイトで、CDN適用前と適用後のデータを測っておきましたので載せておきます。</p>
+
+
+
+<p>まずは、CDN適用前。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="563" src="/wp-content/uploads/2022/01/cdn_b-1024x563.png" alt="" class="wp-image-10989" srcset="/wp-content/uploads/2022/01/cdn_b-1024x563.png 1024w, /wp-content/uploads/2022/01/cdn_b-768x423.png 768w, /wp-content/uploads/2022/01/cdn_b-984x541.png 984w, /wp-content/uploads/2022/01/cdn_b.png 1403w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>次は、CDN適用後。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="555" src="/wp-content/uploads/2022/01/cdn_a-1024x555.png" alt="" class="wp-image-10990" srcset="/wp-content/uploads/2022/01/cdn_a-1024x555.png 1024w, /wp-content/uploads/2022/01/cdn_a-768x416.png 768w, /wp-content/uploads/2022/01/cdn_a-984x533.png 984w, /wp-content/uploads/2022/01/cdn_a.png 1402w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>だいぶ改善されていますね。適用前は、最初のレンダリングが始まるのに、約4.2秒かかっていますが、適用後は、0.8秒です。CDNの効果は絶大です。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・このサイトのようにPVが月に２０００〜５０００くらいでは、月600円〜700円くらいのCDNコスト</p>
+
+
+
+<p>・設定は非常に楽</p>
+
+
+
+<p>・CDNの効果は絶大で、最初の描画が<meta charset="utf-8">4.2秒から0.8秒となった</p>
+
+
+
+<p>・<meta charset="utf-8">blazingcdnというCDNはKeyCDNより激安で、どんな効果があるのか試してみたい気もする</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>WordPressのように、コンテンツ側で結構リソースを使うタイプや、スマホサーバのように非力な環境ではCDNの効力は絶大です。しかし、利用コストが月に600円〜700円くらいかかり趣味で使うのなら良いのですが、静的HTMLにして運用したほうが、良いなという結論に至りました。要はWordPressは、リソースを使うし無駄が多いんです。近々、そういう運用に方針を変えますので、紹介したいなと思っています。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2021/04〜12 site24x7 でのSLA状況・統計データ</title>
+		<link>/2022/01/01/post-10969.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 01 Jan 2022 11:11:26 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10969</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/01/SLA2021.png" />
+							<description><![CDATA[この半年、仕事が急がしてく記事を更新する気力もなくグタグタと過ごしてきました。やっとまとまった休みも取れた（正月休み）ので記事を更新しておきます。 　site24x7 で監視していますが、最近は安定してきました。SLA統 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>この半年以上、スマホサーバは安定稼働してるよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>一時期、落ちるって言ってたけど原因わかったの？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>あー、あれはルータのマルチセッションの設定が原因だった</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>だから、Bad Gatewayだったのね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>この半年、仕事が急がしてく記事を更新する気力もなくグタグタと過ごしてきました。やっとまとまった休みも取れた（正月休み）ので記事を更新しておきます。</p>
+
+
+
+<p>　site24x7 で監視していますが、最近は安定してきました。SLA統計データを出しておきます。</p>
+
+
+
+
+
+<h3 class="wp-block-heading">何を目指しているの？</h3>
+
+
+
+<blockquote class="wp-block-quote"><p><em>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</em></p><cite><a rel="noreferrer noopener" href="/2020/09/11/wildcard-domain-acme/" target="_blank" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指しています。99.95%とは１ヶ月にダウンタイムが21.6分以内であればOKということですが、最近はほぼ100%を維持しています。一時期、NGINXがBadGatewayになる現象が発生していましたが、これはやっと原因がわかりルータのマルチセッションの設定がよくなかったようです。詳細は省きますが、ドメインによってプロバイダAとBを分けていました。今は、マルチセッションはやめて１つのプロバイダから出ています。</p>
+
+
+
+<h3 class="wp-block-heading">２０２１・最終四半期のSLA</h3>
+
+
+
+<p>10月から12月の結果です。障害時間の合計は37 分 17 秒で、SLAは99.972%となり目標の99.95% 以上になっています。ちょこちょこダウンしているのは、大量のダウンロードなどで帯域を潰してレスポンスが一時的になくなる時間などで特にサーバがダウンしているわけではないです。外部から監視しているとそういう瞬断が３ヶ月で37分くらいあったということです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="573" src="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png" alt="" class="wp-image-10970" srcset="/wp-content/uploads/2022/01/sla2021_10_12-1024x573.png 1024w, /wp-content/uploads/2022/01/sla2021_10_12-768x430.png 768w, /wp-content/uploads/2022/01/sla2021_10_12-984x551.png 984w, /wp-content/uploads/2022/01/sla2021_10_12.png 1229w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>PHPは、前回の記事でも紹介していますが、PHP7系のちょっと新しいのをビルドして入れています。</p>
+
+
+
+<h3 class="wp-block-heading">どのくらいのアクセス数なの？</h3>
+
+
+
+<p>ページを表示している回数（PV）は、こんな感じで月におおよそ2500〜5000という感じです。最近は全然記事を更新していなかったので、2000くらいまで下がっています。</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="861" height="303" src="/wp-content/uploads/2022/01/pv.png" alt="" class="wp-image-10974" srcset="/wp-content/uploads/2022/01/pv.png 861w, /wp-content/uploads/2022/01/pv-768x270.png 768w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
+
+
+
+<p>検索数で見ると以下のような感じのサイトです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="391" src="/wp-content/uploads/2022/01/sp-1024x391.png" alt="" class="wp-image-10975" srcset="/wp-content/uploads/2022/01/sp-1024x391.png 1024w, /wp-content/uploads/2022/01/sp-768x293.png 768w, /wp-content/uploads/2022/01/sp-984x376.png 984w, /wp-content/uploads/2022/01/sp.png 1126w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>最近は、MQA関連の音楽ネタと、pixel3のroot化記事関連がほとんどです。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・このくらいのアクセス数のサイトをスマホで安定稼働させることは十分可能</p>
+
+
+
+<p>・消費電力などを考慮しても、レンタルサーバより安価で運用を趣味にしている人には良いかも</p>
+
+
+
+<p>・しかし、WordPressの運用はクソめんどくさい。正直、もうGithub Pageとか、NETLIFYに静的ページを吐き出す運用にしようかと思ってる。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>放置ぎみになっている個人のブログっていうのは月にこのくらいのアクセス数で、当初のスマホで安定稼働させるっていう目的も達成したので、そろそろ違う運用も視野に入れています。WordPressとは関わっていきますが、静的ページを吐き出す運用のほうが楽でいいなーと思います。このSLA報告もこれが最後になるかもです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TermuxのパッケージPHP7.4.21最新ビルド</title>
+		<link>/2021/07/11/post-10746.html</link>
+					<comments>/2021/07/11/post-10746.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 10 Jul 2021 18:32:13 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10746</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/06/termux_php8_to_php7.png" />
+							<description><![CDATA[Termux のPHPバージョンは、今は８系になっていて7.4系の最終リリースは7.4.12 でした。ちょっと古かったので、2021年7月01日にリリースされたphp7.4.21をビルドしておきました。７系はあと１年くら [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>最近、仕事が忙しがったー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>もう今年も半分終わっちゃいましたね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今回は、TermuxのPHPを最新の7.4.21 にしたよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>最新ビルド作ったんですか？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>Termux のPHPバージョンは、今は８系になっていて7.4系の最終リリースは7.4.12 でした。ちょっと古かったので、2021年7月01日にリリースされたphp7.4.21をビルドしておきました。７系はあと１年くらいは使うつもりです。ところで、xdebug付きはどうやってビルドするんでしょうね。次の課題です。</p>
+
+
+
+<h3 class="wp-block-heading">PHP7.4.21のダウンロード先</h3>
+
+
+
+<blockquote class="wp-block-quote"><p>Github: termux-php7</p><cite><a href="https://github.com/take-i/termux-php7" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>完全にはテストしていませんが、このサイトにも入れながらテストしています。今のところ大丈夫かな？心配な人は自分でビルドして、テストしてみてくださいね。ビルド方法はググってくだされ。</p>
+
+
+
+<h3 class="wp-block-heading">アップデート方法</h3>
+
+
+
+<p>前の記事で、php8.xからphp7.4.12にダウングレードする方法は書いていますので、今回はアップデートです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>TermuxでPHP7を使いたい！ PHP8からPHP7にして使う。</p><cite><a href="/2021/06/01/termux-php8-to-php7/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
+
+
+
+<p>さくっと、バージョンあげてみましょう。</p>
+
+
+
+<h3 class="wp-block-heading">ステップ１</h3>
+
+
+
+<p>ZIP圧縮したのも以下にあるのでダウンロードして解凍しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>cd 適当なDIR
+wget https://github.com/take-i/termux-php7/raw/master/php_7.4.21-aarch64-deb.zip
+unzip php_7.4.21-aarch64-deb.zip</code></pre>
+
+
+
+<p>解凍すると以下な感じです。</p>
+
+
+
+<pre class="wp-block-code"><code>$ tree php_7.4.21-aarch64-deb
+php_7.4.21-aarch64-deb
+├── apache2_2.4.46-4_aarch64.deb
+├── libicu_67.1_aarch64.deb
+├── php-apache_7.4.21_aarch64.deb
+├── php-fpm_7.4.21_aarch64.deb
+├── php-pgsql_7.4.21_aarch64.deb
+└── php_7.4.21_aarch64.deb</code></pre>
+
+
+
+<p>今回は、nginxですので、本体とphp-fpmを入れておきます。libicu_67は前回（php7.4.12）と同じなのでそのままです。apacheとphp-apacheはまったくテストしていませんので、自己責任で入れるならお願いします。動作しない場合は、ご連絡を。対応するかは別ですが。</p>
+
+
+
+<h3 class="wp-block-heading">ステップ２</h3>
+
+
+
+<p>アップデートする前に、パッケージが更新されないようしていた場合は以下のようにパッケージ名が出ますのでそれを解除しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark showhold
+php
+php-fpm</code></pre>
+
+
+
+<p>解除は、unhold です。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark unhold php php-fpm
+Canceled hold on php.
+Canceled hold on php-fpm.</code></pre>
+
+
+
+<p>解除されたか、再度 １つ上のコマンドを実施しておきます。</p>
+
+
+
+<h3 class="wp-block-heading">ステップ３</h3>
+
+
+
+<p>アップデートといっても、コマンドは同じです。</p>
+
+
+
+<pre class="wp-block-code"><code>cd php_7.4.21-aarch64-deb
+※以下は今回入れないので削除。
+rm apache2_2.4.46-4_aarch64.deb php-apache_7.4.21_aarch64.deb* php-pgsql_7.4.21_aarch64.deb*
+
+dpkg -i ./php*</code></pre>
+
+
+
+<h3 class="wp-block-heading">ステップ４</h3>
+
+
+
+<p>確認。ちゃんと、7.4.21が入っていますね。</p>
+
+
+
+<pre class="wp-block-code"><code>$ php -v
+PHP 7.4.21 (cli) (built: Jul 10 2021 16:36:28) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies</code></pre>
+
+
+
+<p>勝手にアップデートされないようマークしておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>apt-mark hold libicu php php-fpm</code></pre>
+
+
+
+<p>マークされたか、確認</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark showhold
+libicu
+php
+php-fpm</code></pre>
+
+
+
+<h3 class="wp-block-heading">ステップ４</h3>
+
+
+
+<p>nginxとphp-fpm を再起動しておきます。このスマホはroot化してあって、nginxはroot権限でmasterプロセスが動作しているので、sudoしてKILLしておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ killall php-fpm
+$ sudo killall nginx
+再起動
+$ php-fpm
+$ sudo nginx</code></pre>
+
+
+
+<p>phpinfo()などで確認しておきます。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・termuxのphp最新をビルドしてみた<br>・テストは人柱として、このホストやっています<br>・何かあれば報告（してね）<br>・xdebug付きのもビルドしてみたいがどうやるんだろうか？</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>まだこのブログは、スマホのumidigi F2で動作させています。そろそろ電池を交換したので、pixel3を復活させないとですが、腰が思いです。あと、最近keyCDNも１ヶ月くらい運用していますので、そろそろそのネタも描きたいなと。ついでにアドセンスなんかも運用していますが、これは駄賃くらいにしかならないので、やめた方がいいんじゃないかという感じ。広告でるのは好きじゃ無いし、回避方法は見る側がいくらでもできますしね。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/07/11/post-10746.html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>静的HTMLをWordPressから作るには？</title>
+		<link>/2021/06/26/post-10704.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 26 Jun 2021 06:53:31 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10704</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/06/wp-html.png" />
+							<description><![CDATA[ここんところ、WordPressから静的なHTMLを吐き出して運用するにはどうしたらいいかっていう事を研究していました。このブログは、現在スマホのPixel3やUmidigiF2で作られていますが、静的なHTMLページに [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>静的ページでミラーサイト作りたいな！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressからHTML作るやつですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>GitPagesとかNetlifyとかでブログ運用できるからね</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>コメントとかメール送信とかは？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>ここんところ、WordPressから静的なHTMLを吐き出して運用するにはどうしたらいいかっていう事を研究していました。このブログは、現在スマホのPixel3やUmidigiF2で作られていますが、静的なHTMLページにできたら、かなり処理負荷が減り、またセキュアな運用ができるので実現してみたいなと思っています。</p>
+
+
+
+<h3 class="wp-block-heading">WordPressは設計が古い、王道のWEB-DBアプリ</h3>
+
+
+
+<p>WordPressは最初のバージョン1.xがリリースされてもうすぐ20年になろうとしています。付き合いは古く1.xと2.xの変わり目あたりからWordPressをいろんな用途で使っていました。基本的な設計は今も変わっておらず、WEB-DBアプリケーションの位置づけです。</p>
+
+
+
+<p>WorePressは、アクセスされる側（フロントと俗にいいます）にPHPがあり、記事の実態や設定などは裏方（俗にバックエンドといいます）でMySQLデータベースが処理する王道なWEB-DBアプリです。図では以下のようになります。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" src="/wp-content/uploads/2021/06/web-db.drawio.svg" alt="" class="wp-image-10713"/></figure></div>
+
+
+
+<p>PHP処理時間や、データベース処理時間をなくせば劇的に速くなります。今テストで２つのサーバに静的なHTMLを出していますので、記事の後半で視覚的に評価してみます。</p>
+
+
+
+<h3 class="wp-block-heading">静的なHTMLを吐き出すとどんなメリット・デメリットが？</h3>
+
+
+
+<p>WordPressがこの構成をしているのは、動的に処理ができるからです。記事の検索や各種プラグイン処理、コメント処理、メール送信機能などです。たとえば、この記事には「目次」がありますが、これは「<strong>LuckyWP Table of Contents</strong>」というプラグインが自動的に挿入してくれています。こういう固定表示系のプラグインは静的なHTMLを吐き出しても問題ありません。しかし、コンタクトフォーム ７などメール送信系やコメント部分、あるいは検索系は静的なHTMLでは実現できません。</p>
+
+
+
+<p>普通にブログを書いて、コメントはあきらめ、PingBack（もう今はその恩恵もあまりない機能）やメール送信、その他動的に生成される機能を無視すれば、WordPressが出す静的HTMLで十分なんじゃないかなと思ったりします。</p>
+
+
+
+<h3 class="wp-block-heading">どうやって静的なHTMLを取得するか？</h3>
+
+
+
+<p>前置きが長くなりましたが、どうやって実現するかです。クライアント側でwgetコマンドなどを使い取得する方法や、WordPress本体側（プラグインを使って）から取得する方法の２つに大別されます。今のところ、プラグインを使ってHTMLを吐き出す方法が良さそうかなと思っています。実際に試して評価したのは以下２つです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Simply Static</p><cite><a href="https://ja.wordpress.org/plugins/simply-static/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://ja.wordpress.org/plugins/simply-static/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>もう一つはこちら。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Export WP Page to Static HTML/CSS</p><cite><a href="https://wordpress.org/plugins/export-wp-page-to-static-html/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://wordpress.org/plugins/export-wp-page-to-static-html/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>両方とも、Pro版があります。今のところ、後者の「<strong>Export WP Page to Static HTML/CSS Pro</strong>」は現時点の最新がver1.0.4ですがバグがあり正常に取得できません。またスラッグ にマルチバイト文字列があるとファイル生成時にURLエンコードされたファイル名で保存されてしまいます。（リンクされず404になる）この問題はSimply Staticでもありますが、英数字スラッグ であればSimply Staticでは問題ありません。もう少し様子を見て、良さそうならSimply StaticのPro版を検討しようかなと思っています。こちらはGit連携があるようで、完全に静的HTMLを他のWEB領域にデプロイすることができそうです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Simply StaticのGitHub統合</p><cite><a href="https://patrickposner.dev/docs/simply-static/github/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://patrickposner.dev/docs/simply-static/github/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">静的ファイルをGitHub Pagesに出してみた</h3>
+
+
+
+<p>このブログを微調整した開発サイトから、Simply Staticを使い静的なHTMLを出力しGitHub Pagesにコミットしてみました。ドメインは独自ドメインにマッピングしてあります。SSLも自動ですので便利。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Github Pagesミラーサイト</p><cite><a href="https://jh2.gpl.jp/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">https://jh2.gpl.jp/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>こちらの応答時間はsite24x7の監視で以下のようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="710" height="759" src="/wp-content/uploads/2021/06/githubpages.png" alt="" class="wp-image-10719"/></figure></div>
+
+
+
+<p>東京観測地点からの平均値は128ms です。速いですね。</p>
+
+
+
+<h3 class="wp-block-heading">静的ファイルをNetlifyに出してみた</h3>
+
+
+
+<p>GithubPagesのリポジトリにコミットすると、Netlifyにもデプロイされるようにしています。こちらも、ドメインは独自ドメインにマッピングしてあります。SSLも自動ですので便利ですね。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Netlify （ねっとりふぁい）ミラーサイト</p><cite><a href="https://jh.gpl.jp/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://jh.gpl.jp/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>世界にはいろんな静的サイトホスティングがありますが、このNetlifyは無償でも使える有名なところです。こちらの応答時間はsite24x7の監視で以下のようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="704" height="758" src="/wp-content/uploads/2021/06/Site24x7-netlify.png" alt="" class="wp-image-10721"/></figure></div>
+
+
+
+<p>Netlifyの方は、東京から平均835ms です。Github Pagesのほうが速いですね。</p>
+
+
+
+<h3 class="wp-block-heading">比較のため、スマホサーバからの応答時間も</h3>
+
+
+
+<p>スマホサーバ、WordPress+NGINX+php7.4.x+mariadbでの応答も比較のため出しておきます。これは、KeyCDNを使ったりキャッシュを調整したりいろいろチューニングしています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Pixel3 スマホサーバ<br>　WordPress+NGINX+php7.4.x+mariadb　KeyCDN</p><cite><a href="/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/</a></cite></blockquote>
+
+
+
+<p>site24x7の監視で以下のようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="702" height="776" src="/wp-content/uploads/2021/06/Site24x7-pixel3.png" alt="" class="wp-image-10722"/></figure></div>
+
+
+
+<p>東京観測地点からは、平均385msです。ちなみに、KeyCDNを経由する前は以下のようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="713" height="773" src="/wp-content/uploads/2021/06/Site24x7-pixel3-2.png" alt="" class="wp-image-10723"/></figure></div>
+
+
+
+<p>平均1.27秒なんでかなり遅いですね。KeyCDNの効果は劇的です。でも１ヶ月に１０００円弱かかるんですよね。</p>
+
+
+
+<p>また、これ以外にもLargest Contentful Paint（LCP）という指標があり、簡単に言えばユーザーがそのページにアクセスしたとき、一番大きな画像またはテキストブロックが描画される時間です。具体的にウチのブログの場合は、以下がそれです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="713" src="/wp-content/uploads/2021/06/LCP-1024x713.png" alt="" class="wp-image-10724" srcset="/wp-content/uploads/2021/06/LCP-1024x713.png 1024w, /wp-content/uploads/2021/06/LCP-768x535.png 768w, /wp-content/uploads/2021/06/LCP-984x685.png 984w, /wp-content/uploads/2021/06/LCP.png 1033w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>これも、KeyCDNを使うと1.3秒くらいまで縮まりますが、使わないと4秒くらいかかってしまいます。しかし静的HTMLサイトなら、時間帯にもよりますが１秒から１秒弱くらいになります。</p>
+
+
+
+<p>WordPress構成のサイトだと、いろいろチューニングしないとこのくらいの速度にはなりません。結構面倒で、CDNを契約するとそれなりにコストがかかります。月間１万ページビューくらいのブログでも１０００円くらいはCDNに持っていかれます。何も意識しなくても、静的HTMLページだとそれより速いですからね。しかも、GitHub Pagesや、Netlifyを使えば無料の範囲で実現できます。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・静的HTMLファイルだけで運用してみる価値は十分にあるが、迷う<br>・とりあえずミラーサイト的な位置づけで実験運用<br>・静的HTMLにした場合、検索、メール、コメント、Feedをどうするか？<br>・逆にそれ以外はほぼ、WordPressの動的機能を使う必要性は感じない<br>・全記事、スラッグ を英語にするにはどうしたら？自動変換してくれるプラグインとか？</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>ほんとWordPressって手間がかかりますね。こういうのが面倒なんで、アーキテクチャーがオワコンとか言われているんです。</p>
+
+
+
+<p>しかし、WordPress がnode.jsで動作して、設計も一新される時がいつかくるかもしれません。新しいものが必ずしも良いとは限りませんが、確実にアーキテクトは変化していきますので、何が最適なのかはいろいろ実験して手法を知っておくことが大切だなと思っています。チューニング次第では、apacheもnginxに近づけますし（面倒ですが）、WordPressも静的サイトに近づけることは可能です。まぁでも、実際は楽でセキュアなのが良いですよね。今時、sendmailなんて使いませんし、WEBサーバはnginxが主流です。</p>
+
+
+
+<p>仕事では、あまり実験できないので趣味の範囲でいろいろ実験しておいて使えそうだなと思った手法は実際に仕事にフィードバックしていきたいですね。月〜金で仕事でmac使って、土日もほとんど同じような事をやっていますので、この業界が好きなんでしょうね。というか、オタクなだけですが。。。</p>
+
+
+
+<p>ネットとPCと通販があれば、場所はどこでも生きていけそうです。ログハウスとか、手作りしながら、ブログ、Youtubeで配信する生活に憧れます。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>TermuxでPHP7を使いたい！ PHP8からPHP7にして使う。</title>
+		<link>/2021/06/01/post-10604.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 31 May 2021 21:14:55 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<guid isPermaLink="false">/?p=10604</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/06/termux_php8_to_php7.png" />
+							<description><![CDATA[先日、termux上でNGINXとPHP-FPMの設定記事を書いたときに気がついたんですが、termuxのPHPって7から8になってPHP7はもうPKGがなく入れられませんでした。 TermuxでNGINX+php-fp [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>今年の初めくらいからtermuxのPHPは7から8に上がったようですね！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>何か不具合でも？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressを動かすには少々、問題ありで。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>termux はダウングレードできないですよね？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>先日、termux上でNGINXとPHP-FPMの設定記事を書いたときに気がついたんですが、termuxのPHPって7から8になってPHP7はもうPKGがなく入れられませんでした。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>TermuxでNGINX+php-fpm+mariadbを動かす具体的な設定例</p><cite><a href="/2021/05/13/termux_nginx_php-fpm_mariadb/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
+
+
+
+<p>で、一つ前の記事でPHP7を暫定配布していたのですが、ビルドしたのでその過程とビルドしたPHP7のdepパッケージをどうやって入れるのかネタにしようかと思います。</p>
+
+
+
+<h3 class="wp-block-heading">ビルドしたPHP7のダウンロード先</h3>
+
+
+
+<p>GITHUBに、ビルドしておきました。arm64bitのCPUを使っている方向けです。32bit版はありません。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Github: termux-php7</p><cite><a rel="noreferrer noopener external" href="https://github.com/take-i/termux-php7/tree/master/php7.4.12" target="_blank" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>インストールの仕方は簡単に記載しておきます。</p>
+
+
+
+<h4 class="wp-block-heading">(1) 一旦、PHP8関連を入れておく</h4>
+
+
+
+<p>とりあえず一旦、アップデートしておきます。アップデートできない人は１つ前の記事を見てください。</p>
+
+
+
+<pre class="wp-block-code"><code>$ pkg update $$ upgrade</code></pre>
+
+
+
+<p>その後、php8やphp-fpm、php-apacheなど入れておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ pkg install php php-fpm php-apache</code></pre>
+
+
+
+<p>今入っているバージョンを再確認しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ dpkg -l | grep php</code></pre>
+
+
+
+<p>2021/06/01現在ですと以下が最新です。</p>
+
+
+
+<pre class="wp-block-code"><code>$ dpkg -l | grep php | cut -b 4-35
+ php                8.0.6       
+ php-apache         8.0.6       
+ php-fpm            8.0.6 </code></pre>
+
+
+
+<h3 class="wp-block-heading">PHP8関連だけ消す</h3>
+
+
+
+<p>例えば、上の３つPHP8関連だけ消したい場合は以下のようにします。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt purge php php-apache php-fpm</code></pre>
+
+
+
+<p>ちゃんと消えたか、１つ上のコマンドをタイプして確認してみましょう。</p>
+
+
+
+<h3 class="wp-block-heading">PHP7をダウンロードしてインストール</h3>
+
+
+
+<p>php-pgsqlは今回入れないので、消しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ wget https://github.com/take-i/termux-php7/raw/master/php7.4.12-aarch64-deb.zip
+$ unzip php7.4.12-aarch64-deb.zip
+$ cd php7.4.12-aarch64-deb.deb/
+$ rm php-pgsql*
+$ dpkg -i ./php* ./libicu_67.1_aarch64.deb</code></pre>
+
+
+
+<p>以下のようになっていればOKです。</p>
+
+
+
+<pre class="wp-block-code"><code>$ dpkg -l | egrep "php|libicu"
+ii  libicu             67.1           aarch64
+ii  php                7.4.12         aarch64
+ii  php-apache         7.4.12         aarch64
+ii  php-fpm            7.4.12         aarch64</code></pre>
+
+
+
+<p>apache や、nginxの設定をしてみてphpinfo()関数が動作することを確認しておきました。libicuだけ最新の環境から下がっていますので、何かこれ関連で入れられないパッケージが出るかもしれません。何かあれば教えてください。</p>
+
+
+
+<h3 class="wp-block-heading">PHP7をアップデートしないよう設定</h3>
+
+
+
+<p>今入れたのがアップデートされないよう設定しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark hold libicu php php-apache php-fpm</code></pre>
+
+
+
+<p>確認は以下で。</p>
+
+
+
+<pre class="wp-block-code"><code>$ apt-mark showhold
+libicu
+php
+php-apache
+php-fpm</code></pre>
+
+
+
+<p>ホールドを解除したい場合は、apt-mark unhold &lt;<em>package-name</em>> で解除できます。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・ビルドするときは、dockerイメージをubuntuに実機に作ってあれこれする<br>・これはまた次回に紹介<br>・termux独自のパッケージ管理のバージョンなどについては未調査<br>・とりあえず、PHP7はapacheでもnginxでも使えるようになった</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>WordPressなんかを動かすときは、まだPHP7が安定しています。この前、PHP8で動かしてみたんですが対応していないプラグインなどもあり、またWP-CLIというコマンドラインのツールも警告を出します。ということで、PHP8はもう少し、様子見となりました。termuxでPHP7とか勉強している人もいると思うので今回のネタは少しは需要があるかもしれません。やっぱりビルドするって、面倒ですしね。いつか、その過程も紹介していきたいです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
