@@ -6,7 +6,7 @@
 	<title>JunkHack YahooNews Feed</title>
 	<link>/</link>
 	<description>アリエクでポチった JUNKHACK</description>
-	<lastBuildDate>Sun, 03 Mar 2024 02:12:22 +0900</lastBuildDate>
+	<lastBuildDate>Sun, 03 Mar 2024 18:16:36 +0900</lastBuildDate>
 	<language>ja</language>
 	<snf:logo><url>/wp-content/uploads/2021/04/jhicon.png</url></snf:logo>
 	<sy:updatePeriod>
@@ -226,7 +226,7 @@
 		<item>
 		<title>Surface ProのHackintoshが欲しい！</title>
 		<link>/2024/02/02/ai_engine_for_wordpress.html</link>
-		<pubDate>Sat, 02 Mar 2024 17:12:22 +0900</pubDate>
+		<pubDate>Sun, 03 Mar 2024 09:16:36 +0900</pubDate>
 		<author>JunkHack</author>
 		<category>neta</category>
 		<guid>/?p=11630</guid>
@@ -237,152 +237,539 @@
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>今日もWordPress触っていくよ〜！</p>
+<p>ふとしたきっかけでMS製のPC、SurfaceProに興味が出たのよ！</p>
 </div></div></div></div></div></div></div></div>
 
 
+
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>ほんと、好きねぇ〜。今日は何するんですか〜？</p>
+<p>当然、中古ジャンクよね？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
 
 
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>バックアップをどうしようかと思ってさ！</p>
+<p>えー（笑）５台を調達しました。</p>
 </div></div></div></div></div></div></div></div>
 
 
+
 <div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>データベースとか画像とかですね！</p>
+<p>好きねー！で、ベトナムに持っていったの？</p>
 </div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
 <img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
 </div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
 
 
-<p></p>
+
+<p>MS製ノートPCの代名詞、サーフェイス（Surface Pro）です。今までこのPCには興味がなかったのですが、とあるYouTubeの動画を見たらめっちゃ欲しくなりました。その動画はmacosを入れてタッチペンでお絵描きしていたんですよね。まずは見てみてくださいな。</p>
 
 
-<h3 class="wp-block-heading">見出しとは</h3>
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2024/02/02/ai_engine_for_wordpress.html" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FYz_pWoYMn1w%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><cite></cite></figure>
 
 
-<blockquote class="wp-block-quote"><p>Termux環境で動作するLet’s Encryptのワイルドカードドメインに対応した自動化ツールを探せ！</p><cite><a href="/2020/09/11/wildcard-domain-acme/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">/2020/09/11/wildcard-domain-acme/</a></cite></blockquote>
+<p>　この動画では、Surface Pro7 を使っています。Windowsとベンチマーク比較しているのですが、macosのほうが速いみたいですね。</p>
 
 
-<p>今日のネタは、Termuxネイティブ環境で acme-nginx というPythonで、作られた自動化ツールで Let’s Encrypt のワイルドカードドメイン証明書を取得します。さぁうまく出来るでしょうか？ ちなみに、ワイルドカード証明書とは、以下のようなことを言います。</p>
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="572" src="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png" alt="" class="wp-image-11674" srcset="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png 1024w, /wp-content/uploads/2024/02/ss-sp7-bench-768x429.png 768w, /wp-content/uploads/2024/02/ss-sp7-bench-984x550.png 984w, /wp-content/uploads/2024/02/ss-sp7-bench.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
-<h3 class="wp-block-heading">本日のお題は・・</h3>
+
+<p>ということで、俄然このノートPCが欲しくなりました。はい、理由は単純。「macosでタッチ操作してみたい」が動機です。液タブみたいに使えるのか？など疑問がいっぱいで、その確認してみたい気持ちが抑えきれなかったというやつです。</p>
 
 
-<p>ネタについて</p>
+
+<p>以下画像は、予算の関係でSurface Pro6や5でのHackintoshした画面です。</p>
 
 
-<blockquote class="wp-block-quote"><p>引用するなら</p><cite>URL</cite></blockquote>
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1024x768.jpg" alt="" class="wp-image-11637" srcset="/wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1024x768.jpg 1024w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-768x576.jpg 768w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1536x1152.jpg 1536w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-984x738.jpg 984w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
-<p>やってみましょうか！</p>
+
+<p>まだ調査中で、使い出して間も無いのですが普段仕事でmacos使いのエンジニアがこのマシンをどのように感じるか？　また、どのような使い道があるのか？　などのレポートを長期で書いてみたいと思います。</p>
 
 
-<h3 class="wp-block-heading">ステップ１</h3>
+
+<h3 class="wp-block-heading">まずは、Surface Proの中古相場を検討する</h3>
 
 
-<p>ほげほげ</p>
+
+<p>普段はベトナム・ホーチミンに滞在しているのですが今は年末なので一時的に日本に帰国しています。日本には、ヤフオクやメルカリがあるので中古機器をゲットするには最高の環境なんですよね。</p>
 
 
-<pre class="wp-block-code"><code>cd
-mkdir -p ssl/example.jp
-cd ssl/example.jp</code></pre>
+
+<p>　で、今までMS製のSurface Proはオフィスでは他人が使うのを見たことがありますが、自分では使ったことがありません。印象としては、キーボードがペラペラな壊れそうなPCだなーっていう印象しかありませんでした。実際、外部モニター出力の接触は悪くなっている筐体がたくさんあったようで、MTG時にモニターに接続するときは結構大変みたいでした。あと、キーボードはタワむとその人は言っていました。</p>
 
 
-<h3 class="wp-block-heading">ステップ２</h3>
+
+<p>　しかし、中身（OS）をHackintosh化してmacosで運用できるなら話は別です。ヤフオクであれこれ物色した結果、機種にもよりますが、画面割れは5000円〜2万円くらいです。正常な個体は、1万円〜5万円くらいはします。まだSurface Pro7+ は新品も売っているようですね。</p>
 
 
-<p>ほげほげ</p>
+
+<p>　この筐体選びは、かなり重要で本当はSurface Pro7か7+が欲しかったのですが予算の関係で落札できませんでした。ということで、Surface Pro5と6 を検証していきたいと思います。</p>
 
 
-<pre class="wp-block-code"><code>openssl genrsa 4096 &gt; account.key
-openssl genrsa 4096 &gt; example.jp.key</code></pre>
+
+<h3 class="wp-block-heading">Hackintosh化できるSurface Proは？</h3>
 
 
-<h3 class="wp-block-heading">ステップ３</h3>
+
+<p>いろいろと調べていくうちに、Surface ProをHackintosh化するには一番良いのが、Surface Pro7 または、ストレージが拡張できるSurface Pro7+ が良いようです。そもそもSurface Proは型番がたくさんありますのでWiki見た方が速いです。</p>
 
 
-<p>ほげほげ</p>
+
+<figure class="wp-block-image size-full"><a href="https://en.wikipedia.org/wiki/Surface_Pro#Timeline" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="669" height="660" src="/wp-content/uploads/2024/02/Surface_Pro_-_Wikipedia.png" alt="" class="wp-image-11645"/></a></figure>
 
 
-<pre class="wp-block-code"><code>export API_TOKEN=digitaloceanのトークン</code></pre>
+
+<p>ざっくり説明すると、2017年に発売されたSurface Pro（無印）がSurface Pro5とかSurface Pro 2017とか呼ばれています。なんでこの時の製品名に5が付かなかったのかは知りませんが、これ移行は、６・７・８・９とSurface Proの後ろに番号が付くのが製品名になっています。Hackintosh化するにあたり、Surface Pro7か、Surface Pro7+ が最適解かと思います。理由は後で。</p>
 
 
-<h3 class="wp-block-heading">ステップ４</h3>
+
+<p>Surface Pro7（とプラス）は結構人気で、3万円以上になってなかなか希望額では落札できませんでした。特にプラスがついたモデルはストレージがマザーに直付けじゃなく後から交換できるタイプで、相場は4〜5万前後することもあります。安い時は3万円台くらいで買えるかもです。</p>
 
 
-<p>ほげほげ。</p>
+
+<h3 class="wp-block-heading">イオシスの新春特売でまずは２台ゲット</h3>
 
 
-<pre class="wp-block-code"><code>cd
-mkdir -p ssl</code></pre>
+
+<p>　何回の落札に敗れ、落札できず仕舞いでした。こうなるともう末期患者です。（笑）</p>
 
 
-<p>ほげほげ</p>
+
+<p>そうこうしている内に、Surface Pro5（正式な型番は5がつかないもので、2017製）が、新春特売で売られていたので店舗へ足を運んでみることに。イオシスの特売です。</p>
 
 
-<pre class="wp-block-code"><code>cd
-mkdir -p ssl</code></pre>
+
+<p>　(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円<br>　(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</p>
 
 
-<p>30秒くらいで、完了していますね。dnsにテキストレコードを書いている部分が2回あります。ちゃんと認証が通ればテキストレコードは削除していますね。これは便利！作者に感謝です！</p>
+
+<p>(1) を買うはずが、衝動買いで(2) も買ってしまいました。LTE通信に興味があってタイプカバー日本語もついていたので、ついつい。</p>
 
 
-<h3 class="wp-block-heading">ステップ４</h3>
+
+<p>スペックは以下のWIKIを見るとわかりやすいです。</p>
 
 
-<p>あとは、キーと証明書をnginxに設定して再起動しておきます。</p>
+
+<p>　WIKI：Surface Pro シリーズ（<a href="https://ja.wikipedia.org/wiki/Microsoft_Surface#Surface_Pro_%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA_2" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</p>
 
 
-<pre class="wp-block-code"><code>・Key
-　/data/data/com.termux/files/home/ssl/example.jp/example.jp.key
 
-・CRT
-　/data/data/com.termux/files/home/ssl/example.jp/example.jp.crt</code></pre>
+<p>Windows10でGeekbench5 を走らせた結果が以下です。</p>
 
 
-<p>ほげほげ</p>
+
+<h2 class="wp-block-heading">Windows10でGeekbench5 を走らせた結果</h2>
 
 
-<pre class="wp-block-code"><code>cd
-mkdir -p ssl</code></pre>
+
+<h3 class="wp-block-heading">(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円</h3>
 
 
-<p>となりました。</p>
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="844" height="707" src="/wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n.jpg" alt="" class="wp-image-11638" srcset="/wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n.jpg 844w, /wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n-768x643.jpg 768w" sizes="(max-width: 844px) 100vw, 844px" /></figure>
 
 
-<blockquote class="wp-block-quote"><p>SSL Server Test (Qualys SSL Labs)</p><cite><a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.ssllabs.com/ssltest/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+<p>こっちは印象としては、Winマシンとしては辛そうです。macとしては入れてみないとなんとも言えませんが、用途を限定して使う感じになりそうですね。</p>
 
 
-<h3 class="wp-block-heading">まとめ</h3>
+
+<h3 class="wp-block-heading">(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="841" height="698" src="/wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n.jpg" alt="" class="wp-image-11639" srcset="/wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n.jpg 841w, /wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n-768x637.jpg 768w" sizes="(max-width: 841px) 100vw, 841px" /></figure>
+
+
+
+<p>まぁまぁ似たようなスコアですね。メモリが8GBってのとDISKが256GBあるのが嬉しいです。人にもよると思いますがちょっとした用途なら、これで問題ない感じです。</p>
+
+
+
+<h2 class="wp-block-heading">macos12でGeekbench5 を走らせた結果</h2>
+
+
+
+<h3 class="wp-block-heading">(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="835" height="706" src="/wp-content/uploads/2024/02/sp5a.png" alt="" class="wp-image-11691" srcset="/wp-content/uploads/2024/02/sp5a.png 835w, /wp-content/uploads/2024/02/sp5a-768x649.png 768w" sizes="(max-width: 835px) 100vw, 835px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h3 class="wp-block-heading">(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="833" height="809" src="/wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U.png" alt="" class="wp-image-11677" srcset="/wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U.png 833w, /wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U-768x746.png 768w" sizes="(max-width: 833px) 100vw, 833px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h2 class="wp-block-heading">ヤフオクでも落とす</h2>
+
+
+
+<p>ウォッチリストに入れて観察すること１週間。なかなか希望のは落とせませんね。人気です。結局、以下をゲットしました。</p>
+
+
+
+<h3 class="wp-block-heading">(3) surface pro6 8G/128GB i5-8350U・・・10000円（画面割れ大）</h3>
+
+
+
+<h3 class="wp-block-heading">(4) surface pro5 LTE 8G/256GB i5-7300U・・・8000円（画面割れ小）<br></h3>
+
+
+
+<p>Surface Pro7かプラスが欲しかったのですが、安くはないですね。まぁ、仕方ありません。ベトナム帰国までに落札して配送完了する必要があったので、今回はSurface Pro7は諦めました。</p>
+
+
+
+<p>　全部で、５台を調達しました。Surface Pro6 のGeekbenchは以下です。今あるSurface Proの中では一番スコアが良いですね。</p>
+
+
+
+<h3 class="wp-block-heading">(3) surface pro6 8G/128GB i5-8350U・・・10000円（画面割れ大）</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="881" height="696" src="/wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n.jpg" alt="" class="wp-image-11686" srcset="/wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n.jpg 881w, /wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n-768x607.jpg 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
+
+
+
+<p>画面割れは、ベトナムの修理屋さんにMS純正品のパーツで交換してもらいました。約1.6万円</p>
+
+
+
+<h2 class="wp-block-heading">５台を持っていざ、ベトナムへ</h2>
+
+
+
+<p>ベトナムには、大量の中古PC機械は持ち込めないことになっています。が、自分の場合はベトナムに会社があり、そこで自分が利用するというテイで入国しました。いつもは、スーツケースにデスクトップPCとノートPCを入れて運搬しているので、PC機器は２台ですが、今回はデスクトップを入れて６台。</p>
+
+
+
+<p>　果たして無事に入国できるでしょうか。</p>
+
+
+
+<p>　ビザは自分の最近作ったベトナムの会社から自分に発行したD3のビザがあるので、ほどなく取得し、入国。最後、出口のチェックで荷物を開けて確認がありました。自分が使うPCであること。そして、自分がIT関係の仕事をしている旨を伝えると、OKと通してくれました。さすがに５台はやりすぎたか？２台くらいだとノーチェックですが。</p>
+
+
+
+<p>　持ち込み状態は、ダイソーのソフトケースに入れて箱っぽいものは無い状態だったのですが、レントゲン・チェックで複数のノートPCっぽい形状を確認したのでしょう。１、２台だったら問題ないと思いますが、５台以上を持ち込む場合はこういうチェックはちゃんとあるようです。</p>
+
+
+
+<h2 class="wp-block-heading">Hackintosh化へ</h2>
+
+
+
+<p>日本でもある程度はインストールしていましたが、細かいチューニングはベトナムから空き時間にあれこれやっていました。細かい話は面倒なので、機会があればまた紹介しますが、気になる方はGitを見てみてください。OpenCoreのEFIなど、surface5と6のがあります。</p>
+
+
+
+<p>　GIT：Surface Pro5-6 efi（LINK：そのうち整備予定）</p>
+
+
+
+<p>推奨の機材は次で紹介しておきます</p>
+
+
+
+<h2 class="wp-block-heading">周辺機器を揃える</h2>
+
+
+
+<p>Surface Pro5や6の場合は、内臓のWiFiとbluetoothが使えません。Linuxでは使えることは確認したのですが、macos向けにはまだドライバをだれも作っていないようです。</p>
+
+
+
+<p>ということで、WifiとbluetoothはUSBの以下で対応。HUBも以下２種類は稼働し、HDMI出力も可能でした。</p>
+
+
+
+<p>●WiFi・・・TL-WN725N</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i101315035-s101533173.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="848" height="574" src="/wp-content/uploads/2024/02/TL-WN725N.png" alt="" class="wp-image-11680" srcset="/wp-content/uploads/2024/02/TL-WN725N.png 848w, /wp-content/uploads/2024/02/TL-WN725N-768x520.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></figure>
+
+
+
+<p>●bluetooth・・・BT-403</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i1458845726-s6043753777.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="849" height="573" src="/wp-content/uploads/2024/02/BT-403.png" alt="" class="wp-image-11679" srcset="/wp-content/uploads/2024/02/BT-403.png 849w, /wp-content/uploads/2024/02/BT-403-768x518.png 768w" sizes="(max-width: 849px) 100vw, 849px" /></a></figure>
+
+
+
+<p>●HUB・・・安いのと高いもの２タイプをゲット</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i1577890813-s6704228023.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="725" src="/wp-content/uploads/2024/02/hub1.png" alt="" class="wp-image-11681" srcset="/wp-content/uploads/2024/02/hub1.png 846w, /wp-content/uploads/2024/02/hub1-768x658.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<p>イーサネット内臓のタイプも調達</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2350879378-s11431936813.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="682" src="/wp-content/uploads/2024/02/hub2.png" alt="" class="wp-image-11682" srcset="/wp-content/uploads/2024/02/hub2.png 846w, /wp-content/uploads/2024/02/hub2-768x619.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<p>ペン・・・互換ペン</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2406400935-s11764798019.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="848" height="711" src="/wp-content/uploads/2024/02/pen.png" alt="" class="wp-image-11683" srcset="/wp-content/uploads/2024/02/pen.png 848w, /wp-content/uploads/2024/02/pen-768x644.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></figure>
+
+
+
+<p>キーボード・・・MS純正USキーボードの中古</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2427327015-s11980041627.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="571" src="/wp-content/uploads/2024/02/tc_ms_keyboard.png" alt="" class="wp-image-11684" srcset="/wp-content/uploads/2024/02/tc_ms_keyboard.png 846w, /wp-content/uploads/2024/02/tc_ms_keyboard-768x518.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading">Hackintoshとして利用可能と不可な機能</h2>
+
+
+
+<ul>
+<li>タッチパネル・・・・使えます</li>
+
+
+
+<li>ペンでお絵描・・・・筆圧感知もあり使えます</li>
+
+
+
+<li>WiFi・bluetooth・・・内臓は不可（上記USBで代用）</li>
+
+
+
+<li>イーサネット・・・・上記HUBは利用可能</li>
+
+
+
+<li>HDMI出力・・・・・edidをオーバーライドするとピンク色が修正可能</li>
+
+
+
+<li>キーボード・・・・・MS純正のタイプカバーの照度・音・など使えます</li>
+
+
+
+<li>トラックパッド・・・MS純正のタイプカバーでマルチタッチが使えます</li>
+
+
+
+<li>ヘッドフォン・・・・問題なし</li>
+
+
+
+<li>スピーカー・・・・・問題なし</li>
+</ul>
+
+
+
+<p>導入の具体的な方法は、興味のあるかたは各自で頑張ってください。どこかで自分用にメモするかもですが。</p>
+
+
+
+<h2 class="wp-block-heading">購入して失敗したなと思った機材</h2>
+
+
+
+<ul>
+<li>bluetooth接続のサードパーティー製Surface Proキーボード</li>
+</ul>
+
+
+
+<p>これなんですが、購入するまえは同じものかと思っていたのですが、実際はMS純正のタイプカバーキーボードとは違って、金属の接点がないんですよね。つまり、接続はbluetoothオンリーです。</p>
+
+
+
+<p>取り外して使えるメリットはあるんですが、いざ使うときに接続が切れて再接続まで若干のラグがあったり、そもそもキーボードはよくある中華製のキーボードでタイプの質感が悪いんですよね。</p>
+
+
+
+<p>英語配列が欲しかったので3000円くらいだったしまぁ、安いからいいかって感じで購入したのですがこれは失敗しました。</p>
+
+
+
+<p>●バックライトなしのbluetooth接続・・・3300円</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="847" height="636" src="/wp-content/uploads/2024/02/key1.png" alt="" class="wp-image-11650" srcset="/wp-content/uploads/2024/02/key1.png 847w, /wp-content/uploads/2024/02/key1-768x577.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+
+
+<p>●バックライトありのbluetooth・・・4200円</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="847" height="641" src="/wp-content/uploads/2024/02/key2.png" alt="" class="wp-image-11651" srcset="/wp-content/uploads/2024/02/key2.png 847w, /wp-content/uploads/2024/02/key2-768x581.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+
+
+<p>こっちは15万VNDくらい高いです。日本円で差額900円くらいだったので試しに１つゲット。</p>
+
+
+
+<h2 class="wp-block-heading">やっぱり英語キーボードの純正が一番</h2>
+
+
+
+<p>というわけで、いろいろとキーボードは検討したのですが、今のところ純正のサーフェイスのキーボードが一番です。理由は以下の通り。</p>
+
+
+
+<ul>
+<li>bluetoothではなく、物理接続のUSB接続なのでBIOS起動時などにも利用可</li>
+
+
+
+<li>トラックパッドのドライバーが使えて、マルチタッチで操作可能</li>
+
+
+
+<li>サードパーティー製の中華よりキーボードが押しやすい（すぐわかるレベル）</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="856" height="567" src="/wp-content/uploads/2024/02/Lazada_used.png" alt="" class="wp-image-11635" srcset="/wp-content/uploads/2024/02/Lazada_used.png 856w, /wp-content/uploads/2024/02/Lazada_used-768x509.png 768w" sizes="(max-width: 856px) 100vw, 856px" /></figure>
+
+
+
+<p>ということで、Lazadaでこのキーボードの中古品（程度良いらしい）を購入しました。お値段は、1万円くらいです。ちょっと高かったんですが、仕方ないです。このキーボードはもう廃盤っぽいらしいので。</p>
+
+
+
+<ul>
+<li>MicroSoft：Surface Pro タイプ カバー（<a href="https://www.microsoft.com/ja-jp/d/surface-pro-%E3%82%BF%E3%82%A4%E3%83%97-%E3%82%AB%E3%83%90%E3%83%BC/91v4vtmhxwpm?icid=prosignaturetc_buybox_protc&amp;activetab=pivot:%E6%8A%80%E8%A1%93%E4%BB%95%E6%A7%98tab" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+</ul>
+
+
+
+<p>Surface ProのUSキーボードは日本では中古では入手しにくいですがベトナムでは結構流通しています。純正MSのタイプカバーキーボードは、タイプした感触は良いのですがキーストロークが浅いので少し慣れが必要です。しかし、bluetoothのサードパーティ製とは違い、キートップから滑るような感触はないので良いです。</p>
+
+
+
+<p>これが壊れたら、Apple純正の英語版キーボードが候補ですね。てか、Surface Proはその形状から、分離式のキーボードもありかもしれません。いろいろ使ってみます。</p>
+
+
+
+<h2 class="wp-block-heading">お絵描きアプリをあれこれ検討する</h2>
+
+
+
+<p>今までは、タッチペンも持っていなかったしこれ系のソフトウエアはノーチェックです。macosでも探せば、あるんですね！</p>
+
+
+
+<ul>
+<li>Goodnotes6（アプリ版）・・・お気に入り</li>
+
+
+
+<li>WEB版のCanva（実際に書いたもの：<a href="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+
+
+
+<li>Corel Painter</li>
+
+
+
+<li>MediBangPaintPro</li>
+
+
+
+<li>Inpaint</li>
+
+
+
+<li>Paint X</li>
+</ul>
+
+
+
+<p>いろんなお絵描きアプリがありますが、どれが使いやすいのか検討中です。Goodnotes6の操作性が良いなって今のところ思っています。このアプリが優秀なのは、間違えたらペンのみで、消せるんですよね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="681" src="/wp-content/uploads/2024/02/GoodNotes6-1024x681.png" alt="" class="wp-image-11678" srcset="/wp-content/uploads/2024/02/GoodNotes6-1024x681.png 1024w, /wp-content/uploads/2024/02/GoodNotes6-768x511.png 768w, /wp-content/uploads/2024/02/GoodNotes6-984x655.png 984w, /wp-content/uploads/2024/02/GoodNotes6.png 1368w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>消したり、移動したりが便利なんですよね</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="970" height="366" src="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif" alt="" class="wp-image-11693" srcset="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif 970w, /wp-content/uploads/2024/02/2024-02-04-23.58.53-768x290.gif 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
 
 
 <p>今回、なんとなくわかったのは以下となります。</p>
 
 
-<p>・バックアップは大事<br>・画像は知らない間にたくさん作られる<br>・差分バックアップは有効<br>・wp-cli　を使うといい感じ<br>・バックアップ先は、GoogleDriveへrcloneで行う<br>・cron は termux でも動作するね！</p>
+
+<p>・タッチパネル式のmacosは新鮮<br>・タッチペンは中華の互換品使ったが、なかなか描きやすい<br>・ちょっとツルツルすぎるので本格的に描くなら、画面にシートを貼ったほうが良さげ<br>・Surface Proの画面は、めっちゃ綺麗<br>・キーボードはMS純正のUSタイプカバーが良い<br>・WiFi、bluetoothはSurface Pro5や6では内臓のは使えず、外付けが必要<br>・なので、Surface Pro7かプラスがおすすめ<br>・macos12はメモリ4Gでもまぁ動くが、用途は限られる<br>・ので、Surface Pro5なら、8G i5モデル以上が欲しいところ</p>
+
+
+
+<p>といった感じでしょうか。この端末をデバック機種として使うのか、メインmacと合わせて、液タブみたいに使うのはどうか？など利用方法を検討してみたいと思います。またはLinuxやChromeOSを入れて使うかもしれません。</p>
+
 
 
 <h3 class="wp-block-heading">あとがき</h3>
 
 
-<p>やっぱり個人の感想があるとブログっぽくていいと思う。</p>
+
+<p>今回、勢いで５台も調達しましたが２台は友達へのプレゼントです。あと、いろいろ触ってみて思うのは、今後買うなら、surface pro7か7+がおすすめですね。ちょっと高いですが、CPU性能とかWiFi＋bluetoothが標準のを使えるのはメリットです。どこかでゲットしてまたイジってみたいと思います。</p>
+
 
 
 <h3 class="wp-block-heading">著者にメッセージ</h3>
 
 
-<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合はこちらからどうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
-
-<p>[contact-form-7 id=&quot;9715&quot; title=&quot;お問い合わせ&quot;]</p>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
 ]]></description>
 
 				<snf:advertisement>
