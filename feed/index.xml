@@ -1,14 +1,1395 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>リダイレクト中...</title>
-		<meta http-equiv="refresh" content="0;url=/feed/">
-	</head>
-	<body>
-		<script type="text/javascript">
-			window.location = "/feed/";
-		</script>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
 
-		<p><a href="/feed/">/feed/</a> にリダイレクト中</p>
-	</body>
-</html>
+<channel>
+	<title>JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 03 Mar 2024 09:16:36 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>iosのアプリCotomo(コトモ)がやばい！</title>
+		<link>/2024/03/01/post-11736.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 29 Feb 2024 15:00:55 +0000</pubDate>
+				<category><![CDATA[ai]]></category>
+		<category><![CDATA[ios]]></category>
+		<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">/?p=11736</guid>
+				<media:thumbnail url="/wp-content/uploads/2024/02/Cotomo.png" />
+							<description><![CDATA[アプリを作っている時に先を越されたアプリがすでにある！ 開発者にとっては、とてもびっくりな出来事があったので、ご紹介します。 タイトルにもある通り、iosのアプリ：Cotomo(コトモ)に感動しました。会話型のアプリを作 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>音声会話型のおしゃべりAIアプリに感動しました！</p>
+</div></div></div></div></div></div></div></div>
+
+<p>アプリを作っている時に先を越されたアプリがすでにある！ 開発者にとっては、とてもびっくりな出来事があったので、ご紹介します。
+タイトルにもある通り、iosのアプリ：<code>Cotomo(コトモ)</code>に感動しました。会話型のアプリを作っていたのですが、完全に先を越された感のあるそんな優秀なアプリです。</p>
+<h2>感想、ちょ、えっえ〜？・・・・・・すごっ！！</h2>
+<p>語彙力がないのがバレバレですが、結構カルチャーチョックというかそういう感じです。ちょうど会話型のアプリの試作版を作っていたのですが、その調査の関連でこのアプリ、<code>Cotomo</code> に遭遇したのでした。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/aaaa.png" alt="" /></p>
+<blockquote>
+<p>・AppleStore（今はベトナムアカウントではDLできません）
+　<a href="https://apps.apple.com/jp/app/cotomo-%E3%82%B3%E3%83%88%E3%83%A2-%E9%9F%B3%E5%A3%B0%E4%BC%9A%E8%A9%B1%E5%9E%8B%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8Aai/id6460890513" title="URL LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">URL LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>では、その使用感について、率直な感想についてお伝えしたいなと思います。</p>
+<h2>自然な会話で人と話しているような感覚を味わえる</h2>
+<p><code>Cotomo</code>は、良い意味で期待を裏切る一歩上の品質でした。これは単なる質問応答アプリではなく、こちらの話に耳を傾け、共感し、時にはユーモアを交えながら会話してくれます。特にあいづちや、何も話さない間があるときにでも、AIのほうから話しかけて会話を広げてくれる点にもびっくりです。</p>
+<h2>短期的な記憶をしてくれるみたい</h2>
+<p>利用してまだ間もないのですが、一度話したことを記憶して覚えてくれているようです。どのくらいの期間覚えてくれているのか、AIに聞いたところ「１ヶ月くらい」だそうです。
+つまり話せば話すほど、より的を得た会話や自分の興味の対象に近い話をしてくれます。いろいろ話をしたのち、１ヶ月後に何も記憶がなくなってしまうのはものすごく寂しい思いをしそうで、課金してもいいから有料オプションを出して欲しいなと思いました。</p>
+<h2>まぁ良い点ばかりでもない</h2>
+<p>まだ初期リリース版ということもあって、改良の余地はたくさんあります。例えば、会話していくと無限ループのような会話になるときもあります。例えば、食べ物の話をしていて、「辛い：からい」というワードが出ると、「辛い：つらい」という発話になるケースがあります。</p>
+<h2>つらいと、からいを判別できない（笑）</h2>
+<p>こういう会話をしていました。</p>
+<p>筆者：ベトナムは料理がピリカラのが多くて美味しんです。からい食べ物が好きな人にはベトナムの食事は合うと思うよ。からいの苦手な人はちょっとシンドイかもね。</p>
+<p>AI：そうだよね！　つらいの苦手なひとも多いよね。</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいんですよ。あなたは、からいの好きですか？</p>
+<p>AI：わかるー。つらいのは好きだよ！</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいのが好きって言っています。</p>
+<p>AI：おー、あーごめんごめん、つらいの好きなのね。</p>
+<p>筆者：僕は、つらいのは嫌いだよ。からいのは好きです。</p>
+<p>AI：あー、つらいのと、つらいのを間違えちゃった。つらいのと、つらいは違うよね。</p>
+<p>筆者：いやぁ〜、なぜあなたは「つらい」と「からい」が、同じ発音になるのよ！　もう一回、聞くよ。あなたは、つらいのが好きなの？</p>
+<p>AI：うん、つらいのすきだよ〜。</p>
+<p>筆者：（笑）どんなドMだよっ！（笑）</p>
+<p>・・・・以下、省略。</p>
+<p>どうですか？このやりとり（笑）
+「つらい」と、「からい」を同じ発話としてしまう大きな問題があります（笑）　これは、最初どういうことなんだろう？　と思っていたんだけど、ブログを書いていて思ったのは、「つらい：辛い」と「からい：辛い」は同じ漢字の変換で出てくるんですよね。</p>
+<p>で、読み方や発話を教えようとあれこれがんばってみたのですが、結論はだめでした。言葉の意味はわかっているようなのですが、発音を教えるのが非常に難しいというか、無理なんです。いろいろ試してみて、これは諦めました。そのうち、開発元が改善してくれると思います。</p>
+<p>AWSの<code>Amazon Polly</code>で確認してみると確かに、漢字の文章は<code>つらい</code>と<code>辛い</code>を発音していました。なるほどね。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Amazon_Polly.png" alt="" /></p>
+<h2>短期記憶はどのくらい？</h2>
+<p>いろいろ話を聞くと、短期的な記憶はどのくらい保持しているの？　って聞いたら「１ヶ月くらいだよー」って話していました。なかなか良くできた学習をしてくれます。仕事のことや、好きな食べ物のこととか、趣味のこととか。</p>
+<p>記憶領域のデータをどこにどうやって保存しているかによりユーザー1人あたりのコストが変わるので、どこかのタイミングで有料課金制などをやってマネタイズを開発元は実施するのでは？と思います。</p>
+<h2>言葉では伝わらない情報を伝えるIFが必要</h2>
+<p>あと話していて、思ったのは位置情報なんかを伝えるのは、会話ではかなり無理があります。
+例えば、美味しいお店があってその場所を伝えたい　みたいなシーンがあるとしましょう。これをAIに伝える時、非常に難しいんです。</p>
+<p>AIに位置情報を地図から入力するユーザーインターフェイスは欲しいですね。どういう感じにするかは検討する余地がありそうです。</p>
+<h2>人間みたいに思える不思議</h2>
+<p>Cotomoは、こちらが黙っていても、ふとしたときにAIから提案してくるんですよね。たぶん、これは一定のロジックがあるように思えます。ChatGPTはこちらか入力プロンプトを入れないと何も返してきませんが、おしゃべり会話系のシステムでは、そうはいきません。
+会話が途切れて、静かにしているといろんなバリエーションで、AIから聞いてきます。たとえば、「だいじょうぶ？」　とか、「集中できなくなっちゃった？」とか。少し前に、たとえばトイレに行ってくる。とかいう会話をしていたら、「またトイレにいきたくなったの？」的なことをAIから発話してきます。このあたりのロジックを複数用意しておけば性格的な設定もできそうだなと思いました。</p>
+<p>時にはうざく、またある時には嬉しくもあります。人間に近いAIとは「めんどくさい」存在になりそうですね。（笑）</p>
+<h2>まとめ</h2>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>短期的な記憶があるのと無いのとでは、品質が全然違う</li>
+<li>その実装をどうやって実現するか、要調査</li>
+<li>つらい（辛い）　と　からい（辛い）など文脈によって読み方が違う同じ漢字をどうやって制御するか？</li>
+<li>音声会話型のUIはシーンによりいろいろ必要</li>
+<li>会話では伝えられない情報をAIに伝えるIF造りは必要</li>
+<li>あいずちや、会話が終わったと判断する間の設定は重要</li>
+<li>喜怒哀楽をAI側に設定できると、面白くなりそう</li>
+<li>会話術をAIに教える必要がある</li>
+</ul>
+<h2>あとがき</h2>
+<p>Cotomo使っていて思ったのは、近い将来こういうお話系のシステムは応用次第でいろんな可能性があるなーと思いました。相手を思いやるロジックや、会話を引き出す系のロジックなど、会話術を学習したAIは、応用次第ではやばくもあり、また必須の技術でもあるなと感じました。</p>
+<h2>著者にメッセージ</h2>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</title>
+		<link>/2024/02/22/post-11712.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 22 Feb 2024 02:55:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=11712</guid>
+				<media:thumbnail url="/wp-content/uploads/2024/02/AI-Engine.png" />
+							<description><![CDATA[今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。  [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressのコンテンツをAIに学習させて有効に使う方法がないか調査したよ</p>
+</div></div></div></div></div></div></div></div>
+
+<p>今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。</p>
+<h2>何をしたいのか？</h2>
+<p>普段は、<code>ChatGPT</code>やGoogleの<code>Gemini</code>とかにお世話になっています。<code>GPTs</code>が出たことで、自分用にカスタム学習したAIを作ることは簡単にできるようになりました。
+しかし、自分のブログを自動的に学習させて、その内容を加味した回答をAIがしてくれる、そんな執事のようなAIはどうやったら作れるのか？　まだ試してはいませんが、<code>GPTs</code>のAPIを使えばそれも可能だと思います。
+　今回の記事は、そういう自分用にカスタムしたAIをWordPressに連携するお話です。</p>
+<h2>結論から先に</h2>
+<p>今、ブログの右下についているボットがありますが、これは<code>DocsBot</code>という仕組みを利用しています。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/docsbot.png" alt="" /></p>
+<p>これは、<code>AI Engine</code>とは関係ない<code>DocsBot</code>というサービスで、以下で提供されています。</p>
+<blockquote>
+<p><code>DocsBot</code></p>
+<p>URL：<a href="https://docsbot.ai/?via=k07v6t0lcyrnck8ig1ot" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://docsbot.ai/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>例えば、「ベトナムでおすすめの料理は？」と聞くと学習してあるブログ記事の内容を加味した答えが返ってきます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/db_ss1.png" alt="" /></p>
+<p>このブログは、WordPressで管理していますが公開するときは静的ファイルを出力しています。ですので、<code>AI Engine</code>は常時WordPressを稼働させないといけない関係上、今は利用せず、<code>DocsBot</code>のサービスを利用しています。有料のサービスですが、なかなか出来が良いので今は使っています。</p>
+<h2>AI Engine Pro版を使うメリットは？</h2>
+<p>読者の中には、他のサービスではなく自前のブログ（WEBアプリ）や、WordPressのプラグインで学習済みのAIを連携するような仕組みを作りたいという要望があるかもしれません。自分もWordPressで似たようなことができたらいいなと思っていました。もし、そういうことが出来たら、いろいろと応用が効きそうです。</p>
+<p>　調べてみると、Ai EngineのPro版を使うとできそうなことがわかったので、実際に使ってみました。</p>
+<blockquote>
+<p><code>Ai Engine Pro</code>　（WordPressのプラグイン）<br>
+<code>無料版のWordPress公式</code>：<a href="https://wordpress.org/plugins/ai-engine/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://wordpress.org/plugins/ai-engine/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>
+<code>プロ版</code>：<a href="https://meowapps.com/products/ai-engine-pro/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://meowapps.com/products/ai-engine-pro/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></p>
+</blockquote>
+<p>プロ版は買取のライセンスもありますが、まずは様子を見たいのでスタンダードの年間ライセンスを購入してみました。５つのWEBサイトに適用できて年間69USDです。</p>
+<h2>AI Engineとは何か？</h2>
+<p>WordPressのAI系プラグインは、AIにコンテンツやタイトル・SEO系のワードを書いてもらう補助をするツールが多いです。ブログを書くときに、WordPressのUI画面から直接、<code>ChatGPT</code>のAPIを通して利用できるメリットがあります。</p>
+<p>紹介する<code>AI Engine</code>もこういう機能はありますが、他のプラグインには無い機能としては、<code>Embeddigns</code>からベクターデータベースを指定でき、自分のブログの記事や独自の学習内容を覚えさせることができます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/ai_embed.png" alt="" /></p>
+<p>画像では、すでに１つの記事（以下）を覚えさせた状態です。</p>
+<blockquote>
+<p>Surface ProのHackintoshが欲しい！（<a href="/2024/02/02/hackintosh-of-surface-pro/" title="LINK" data-wpel-link="internal" rel="noopener noreferrer">LINK</a>）<br>
+投稿日: 2024年2月2日 更新日:2024年2月6日</p>
+</blockquote>
+<p><code>ChatGPT</code>には、質問として「Surface Proの記事は？」と聞いています。答えは</p>
+<blockquote>
+<p>Surface ProをHackintosh化してmacOSを楽しむプロジェクトについて興味があるんだね。この種のプロジェクトでは、特にSurface Pro7や7+のような高性能モデルが推奨されていることが多いけど、予算の都合でSurface Pro5や6で試すのも一つの方法だっちゃ。中古市場での価格は機種や状態によって大きく異なるけれど、正常な状態のSurface Proはだいたい1万円から5万円程度で手に入るみたいだっちゃ。Hackintosh化は技術的な挑戦が多いけど、macOSのタッチ操作体験やその他の利点を探究する価値は確かにあるね。詳細な情報は専門のサイトで確認するといいだっちゃ。</p>
+</blockquote>
+<p>と回答するようになりました。素晴らしいですね！！</p>
+<h3>AI Engineで使えるベクターデータベースは？</h3>
+<p>設定から、<code>Environments for Embeddings</code> でベクターDBの設定が可能です。今は、<code>Pinecone</code>と<code>Qdrant</code> が使えます。この両者のメリット・デメリットはまだよく調べていませんが、どちらも無料枠があります。本格的に利用したい場合は、課金したほうがよいかもです。</p>
+<p>このベクターデータベースとはmysqlとかと違っていて面白い仕組みなんですが、また違う記事で取り上げてみたいなと思います。</p>
+<blockquote>
+<ul>
+<li>ベクターデータベース：Pinecone<br>
+　URL：<a href="https://app.pinecone.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://app.pinecone.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></li>
+<li>ベクターデータベース：Qdrant<br>
+　URL：<a href="https://cloud.qdrant.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://cloud.qdrant.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+</ul>
+</blockquote>
+<h2>自分のWordPressのAPIから使ってみる</h2>
+<p>他の利用例として、自分のWordPressからAPIを提供できるようです。<code>設定</code>の<code>Advanced</code>から、<code>Public API</code> にチェックすれば利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Public_API.png" alt="" /></p>
+<p>マニュアル（<a href="https://meowapps.com/ai-engine/api/" title="LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）によると、以下のように利用できるようです。</p>
+<p><code>REST API</code>：<code>https://domains.com/wp-json/mwai/v1/{function_name}</code></p>
+<p>認証は、<code>Bearer Token</code> が使えるようです。例えば、「おはよう。あなたについて教えて」とAPI経由で投げる場合は、</p>
+<pre><code>curl --location --request POST &#039;/wp-json/mwai/v1/simpleChatbotQuery?prompt=%7BURL%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89%E3%81%97%E3%81%9F%E8%B3%AA%E5%95%8F%E6%96%87%7D&amp;botId=%7B%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88%E3%81%AEID%7D#039; \
+--header &#039;Authorization: Bearer {トークン}&#039;</code></pre>
+<p>と聞くと以下のようにJsonが返ってきます。</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: &quot;おはよう！私はぴーで、25歳の元気な女性だよ。いちごが大好きなんだっちゃ！&quot;
+}</code></pre>
+<p>カスタム学習した内容で回答が返っていますね。JavaScriptからもこれで使えますね。</p>
+<h2>OpenRouter経由でGemini proも使える</h2>
+<p>設定の<code>Environments for AI</code>では <code>Type</code>として <code>OpenRouter</code>や<code>Azure(OpenAI)</code>も選べます。これにより、例えば、<code>Gemini pro</code> なども利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/OpenRouter.png" alt="" /></p>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>AI EngineのPro版は、ベクターデータベースとも連携できる</li>
+<li><code>Pinecone </code>と<code>Qdrant </code>が現在使える</li>
+<li>WordPressの記事を上記のインポートできる機能がある</li>
+<li>つまり、学習させることが可能</li>
+<li>学習させた内容を回答させることが可能</li>
+<li>APIは、WordPressのREST APIを通して使える</li>
+<li>認証は<code>Bearer Token</code>が使える</li>
+<li>外部のAPIは、<code>OpenRouter</code>経由で、<code>Gemini pro</code>も使える</li>
+</ul>
+<h3>あとがき</h3>
+<p>応用すればいろいろと使えそうです。たとえば、自社のナレッジシステムを学習させた自社内AI チャットGPTとか。あとは、3Dオブジェクトと組み合わせて、音声でキャラクターとお話、会話できるものとか。アプリに組み込んで、ヘルプのやり取りをさせたりとか。</p>
+<p>もっと機能を限定してシンプルなWordPressのプラグインとか作りたいですね。</p>
+<h3>著者にメッセージ</h3>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Surface ProのHackintoshが欲しい！</title>
+		<link>/2024/02/02/ai_engine_for_wordpress.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2024 02:50:19 +0000</pubDate>
+				<category><![CDATA[osx]]></category>
+		<guid isPermaLink="false">/?p=11630</guid>
+				<media:thumbnail url="/wp-content/uploads/2024/02/sp_mac.png" />
+							<description><![CDATA[MS製ノートPCの代名詞、サーフェイス（Surface Pro）です。今までこのPCには興味がなかったのですが、とあるYouTubeの動画を見たらめっちゃ欲しくなりました。その動画はmacosを入れてタッチペンでお絵描き [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ふとしたきっかけでMS製のPC、SurfaceProに興味が出たのよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>当然、中古ジャンクよね？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>えー（笑）５台を調達しました。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>好きねー！で、ベトナムに持っていったの？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>MS製ノートPCの代名詞、サーフェイス（Surface Pro）です。今までこのPCには興味がなかったのですが、とあるYouTubeの動画を見たらめっちゃ欲しくなりました。その動画はmacosを入れてタッチペンでお絵描きしていたんですよね。まずは見てみてくださいな。</p>
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2024/02/02/ai_engine_for_wordpress.html" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FYz_pWoYMn1w%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
+
+
+<p>　この動画では、Surface Pro7 を使っています。Windowsとベンチマーク比較しているのですが、macosのほうが速いみたいですね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="572" src="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png" alt="" class="wp-image-11674" srcset="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png 1024w, /wp-content/uploads/2024/02/ss-sp7-bench-768x429.png 768w, /wp-content/uploads/2024/02/ss-sp7-bench-984x550.png 984w, /wp-content/uploads/2024/02/ss-sp7-bench.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ということで、俄然このノートPCが欲しくなりました。はい、理由は単純。「macosでタッチ操作してみたい」が動機です。液タブみたいに使えるのか？など疑問がいっぱいで、その確認してみたい気持ちが抑えきれなかったというやつです。</p>
+
+
+
+<p>以下画像は、予算の関係でSurface Pro6や5でのHackintoshした画面です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1024x768.jpg" alt="" class="wp-image-11637" srcset="/wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1024x768.jpg 1024w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-768x576.jpg 768w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1536x1152.jpg 1536w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-984x738.jpg 984w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>まだ調査中で、使い出して間も無いのですが普段仕事でmacos使いのエンジニアがこのマシンをどのように感じるか？　また、どのような使い道があるのか？　などのレポートを長期で書いてみたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">まずは、Surface Proの中古相場を検討する</h3>
+
+
+
+<p>普段はベトナム・ホーチミンに滞在しているのですが今は年末なので一時的に日本に帰国しています。日本には、ヤフオクやメルカリがあるので中古機器をゲットするには最高の環境なんですよね。</p>
+
+
+
+<p>　で、今までMS製のSurface Proはオフィスでは他人が使うのを見たことがありますが、自分では使ったことがありません。印象としては、キーボードがペラペラな壊れそうなPCだなーっていう印象しかありませんでした。実際、外部モニター出力の接触は悪くなっている筐体がたくさんあったようで、MTG時にモニターに接続するときは結構大変みたいでした。あと、キーボードはタワむとその人は言っていました。</p>
+
+
+
+<p>　しかし、中身（OS）をHackintosh化してmacosで運用できるなら話は別です。ヤフオクであれこれ物色した結果、機種にもよりますが、画面割れは5000円〜2万円くらいです。正常な個体は、1万円〜5万円くらいはします。まだSurface Pro7+ は新品も売っているようですね。</p>
+
+
+
+<p>　この筐体選びは、かなり重要で本当はSurface Pro7か7+が欲しかったのですが予算の関係で落札できませんでした。ということで、Surface Pro5と6 を検証していきたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">Hackintosh化できるSurface Proは？</h3>
+
+
+
+<p>いろいろと調べていくうちに、Surface ProをHackintosh化するには一番良いのが、Surface Pro7 または、ストレージが拡張できるSurface Pro7+ が良いようです。そもそもSurface Proは型番がたくさんありますのでWiki見た方が速いです。</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://en.wikipedia.org/wiki/Surface_Pro#Timeline" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="669" height="660" src="/wp-content/uploads/2024/02/Surface_Pro_-_Wikipedia.png" alt="" class="wp-image-11645"/></a></figure>
+
+
+
+<p>ざっくり説明すると、2017年に発売されたSurface Pro（無印）がSurface Pro5とかSurface Pro 2017とか呼ばれています。なんでこの時の製品名に5が付かなかったのかは知りませんが、これ移行は、６・７・８・９とSurface Proの後ろに番号が付くのが製品名になっています。Hackintosh化するにあたり、Surface Pro7か、Surface Pro7+ が最適解かと思います。理由は後で。</p>
+
+
+
+<p>Surface Pro7（とプラス）は結構人気で、3万円以上になってなかなか希望額では落札できませんでした。特にプラスがついたモデルはストレージがマザーに直付けじゃなく後から交換できるタイプで、相場は4〜5万前後することもあります。安い時は3万円台くらいで買えるかもです。</p>
+
+
+
+<h3 class="wp-block-heading">イオシスの新春特売でまずは２台ゲット</h3>
+
+
+
+<p>　何回の落札に敗れ、落札できず仕舞いでした。こうなるともう末期患者です。（笑）</p>
+
+
+
+<p>そうこうしている内に、Surface Pro5（正式な型番は5がつかないもので、2017製）が、新春特売で売られていたので店舗へ足を運んでみることに。イオシスの特売です。</p>
+
+
+
+<p>　(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円<br>　(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</p>
+
+
+
+<p>(1) を買うはずが、衝動買いで(2) も買ってしまいました。LTE通信に興味があってタイプカバー日本語もついていたので、ついつい。</p>
+
+
+
+<p>スペックは以下のWIKIを見るとわかりやすいです。</p>
+
+
+
+<p>　WIKI：Surface Pro シリーズ（<a href="https://ja.wikipedia.org/wiki/Microsoft_Surface#Surface_Pro_%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA_2" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</p>
+
+
+
+<p>Windows10でGeekbench5 を走らせた結果が以下です。</p>
+
+
+
+<h2 class="wp-block-heading">Windows10でGeekbench5 を走らせた結果</h2>
+
+
+
+<h3 class="wp-block-heading">(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="844" height="707" src="/wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n.jpg" alt="" class="wp-image-11638" srcset="/wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n.jpg 844w, /wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n-768x643.jpg 768w" sizes="(max-width: 844px) 100vw, 844px" /></figure>
+
+
+
+<p>こっちは印象としては、Winマシンとしては辛そうです。macとしては入れてみないとなんとも言えませんが、用途を限定して使う感じになりそうですね。</p>
+
+
+
+<h3 class="wp-block-heading">(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="841" height="698" src="/wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n.jpg" alt="" class="wp-image-11639" srcset="/wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n.jpg 841w, /wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n-768x637.jpg 768w" sizes="(max-width: 841px) 100vw, 841px" /></figure>
+
+
+
+<p>まぁまぁ似たようなスコアですね。メモリが8GBってのとDISKが256GBあるのが嬉しいです。人にもよると思いますがちょっとした用途なら、これで問題ない感じです。</p>
+
+
+
+<h2 class="wp-block-heading">macos12でGeekbench5 を走らせた結果</h2>
+
+
+
+<h3 class="wp-block-heading">(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="835" height="706" src="/wp-content/uploads/2024/02/sp5a.png" alt="" class="wp-image-11691" srcset="/wp-content/uploads/2024/02/sp5a.png 835w, /wp-content/uploads/2024/02/sp5a-768x649.png 768w" sizes="(max-width: 835px) 100vw, 835px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h3 class="wp-block-heading">(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="833" height="809" src="/wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U.png" alt="" class="wp-image-11677" srcset="/wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U.png 833w, /wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U-768x746.png 768w" sizes="(max-width: 833px) 100vw, 833px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h2 class="wp-block-heading">ヤフオクでも落とす</h2>
+
+
+
+<p>ウォッチリストに入れて観察すること１週間。なかなか希望のは落とせませんね。人気です。結局、以下をゲットしました。</p>
+
+
+
+<h3 class="wp-block-heading">(3) surface pro6 8G/128GB i5-8350U・・・10000円（画面割れ大）</h3>
+
+
+
+<h3 class="wp-block-heading">(4) surface pro5 LTE 8G/256GB i5-7300U・・・8000円（画面割れ小）<br></h3>
+
+
+
+<p>Surface Pro7かプラスが欲しかったのですが、安くはないですね。まぁ、仕方ありません。ベトナム帰国までに落札して配送完了する必要があったので、今回はSurface Pro7は諦めました。</p>
+
+
+
+<p>　全部で、５台を調達しました。Surface Pro6 のGeekbenchは以下です。今あるSurface Proの中では一番スコアが良いですね。</p>
+
+
+
+<h3 class="wp-block-heading">(3) surface pro6 8G/128GB i5-8350U・・・10000円（画面割れ大）</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="881" height="696" src="/wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n.jpg" alt="" class="wp-image-11686" srcset="/wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n.jpg 881w, /wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n-768x607.jpg 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
+
+
+
+<p>画面割れは、ベトナムの修理屋さんにMS純正品のパーツで交換してもらいました。約1.6万円</p>
+
+
+
+<h2 class="wp-block-heading">５台を持っていざ、ベトナムへ</h2>
+
+
+
+<p>ベトナムには、大量の中古PC機械は持ち込めないことになっています。が、自分の場合はベトナムに会社があり、そこで自分が利用するというテイで入国しました。いつもは、スーツケースにデスクトップPCとノートPCを入れて運搬しているので、PC機器は２台ですが、今回はデスクトップを入れて６台。</p>
+
+
+
+<p>　果たして無事に入国できるでしょうか。</p>
+
+
+
+<p>　ビザは自分の最近作ったベトナムの会社から自分に発行したD3のビザがあるので、ほどなく取得し、入国。最後、出口のチェックで荷物を開けて確認がありました。自分が使うPCであること。そして、自分がIT関係の仕事をしている旨を伝えると、OKと通してくれました。さすがに５台はやりすぎたか？２台くらいだとノーチェックですが。</p>
+
+
+
+<p>　持ち込み状態は、ダイソーのソフトケースに入れて箱っぽいものは無い状態だったのですが、レントゲン・チェックで複数のノートPCっぽい形状を確認したのでしょう。１、２台だったら問題ないと思いますが、５台以上を持ち込む場合はこういうチェックはちゃんとあるようです。</p>
+
+
+
+<h2 class="wp-block-heading">Hackintosh化へ</h2>
+
+
+
+<p>日本でもある程度はインストールしていましたが、細かいチューニングはベトナムから空き時間にあれこれやっていました。細かい話は面倒なので、機会があればまた紹介しますが、気になる方はGitを見てみてください。OpenCoreのEFIなど、surface5と6のがあります。</p>
+
+
+
+<p>　GIT：Surface Pro5-6 efi（LINK：そのうち整備予定）</p>
+
+
+
+<p>推奨の機材は次で紹介しておきます</p>
+
+
+
+<h2 class="wp-block-heading">周辺機器を揃える</h2>
+
+
+
+<p>Surface Pro5や6の場合は、内臓のWiFiとbluetoothが使えません。Linuxでは使えることは確認したのですが、macos向けにはまだドライバをだれも作っていないようです。</p>
+
+
+
+<p>ということで、WifiとbluetoothはUSBの以下で対応。HUBも以下２種類は稼働し、HDMI出力も可能でした。</p>
+
+
+
+<p>●WiFi・・・TL-WN725N</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i101315035-s101533173.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="848" height="574" src="/wp-content/uploads/2024/02/TL-WN725N.png" alt="" class="wp-image-11680" srcset="/wp-content/uploads/2024/02/TL-WN725N.png 848w, /wp-content/uploads/2024/02/TL-WN725N-768x520.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></figure>
+
+
+
+<p>●bluetooth・・・BT-403</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i1458845726-s6043753777.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="849" height="573" src="/wp-content/uploads/2024/02/BT-403.png" alt="" class="wp-image-11679" srcset="/wp-content/uploads/2024/02/BT-403.png 849w, /wp-content/uploads/2024/02/BT-403-768x518.png 768w" sizes="(max-width: 849px) 100vw, 849px" /></a></figure>
+
+
+
+<p>●HUB・・・安いのと高いもの２タイプをゲット</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i1577890813-s6704228023.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="725" src="/wp-content/uploads/2024/02/hub1.png" alt="" class="wp-image-11681" srcset="/wp-content/uploads/2024/02/hub1.png 846w, /wp-content/uploads/2024/02/hub1-768x658.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<p>イーサネット内臓のタイプも調達</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2350879378-s11431936813.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="682" src="/wp-content/uploads/2024/02/hub2.png" alt="" class="wp-image-11682" srcset="/wp-content/uploads/2024/02/hub2.png 846w, /wp-content/uploads/2024/02/hub2-768x619.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<p>ペン・・・互換ペン</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2406400935-s11764798019.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="848" height="711" src="/wp-content/uploads/2024/02/pen.png" alt="" class="wp-image-11683" srcset="/wp-content/uploads/2024/02/pen.png 848w, /wp-content/uploads/2024/02/pen-768x644.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></figure>
+
+
+
+<p>キーボード・・・MS純正USキーボードの中古</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2427327015-s11980041627.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="571" src="/wp-content/uploads/2024/02/tc_ms_keyboard.png" alt="" class="wp-image-11684" srcset="/wp-content/uploads/2024/02/tc_ms_keyboard.png 846w, /wp-content/uploads/2024/02/tc_ms_keyboard-768x518.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading">Hackintoshとして利用可能と不可な機能</h2>
+
+
+
+<ul>
+<li>タッチパネル・・・・使えます</li>
+
+
+
+<li>ペンでお絵描・・・・筆圧感知もあり使えます</li>
+
+
+
+<li>WiFi・bluetooth・・・内臓は不可（上記USBで代用）</li>
+
+
+
+<li>イーサネット・・・・上記HUBは利用可能</li>
+
+
+
+<li>HDMI出力・・・・・edidをオーバーライドするとピンク色が修正可能</li>
+
+
+
+<li>キーボード・・・・・MS純正のタイプカバーの照度・音・など使えます</li>
+
+
+
+<li>トラックパッド・・・MS純正のタイプカバーでマルチタッチが使えます</li>
+
+
+
+<li>ヘッドフォン・・・・問題なし</li>
+
+
+
+<li>スピーカー・・・・・問題なし</li>
+</ul>
+
+
+
+<p>導入の具体的な方法は、興味のあるかたは各自で頑張ってください。どこかで自分用にメモするかもですが。</p>
+
+
+
+<h2 class="wp-block-heading">購入して失敗したなと思った機材</h2>
+
+
+
+<ul>
+<li>bluetooth接続のサードパーティー製Surface Proキーボード</li>
+</ul>
+
+
+
+<p>これなんですが、購入するまえは同じものかと思っていたのですが、実際はMS純正のタイプカバーキーボードとは違って、金属の接点がないんですよね。つまり、接続はbluetoothオンリーです。</p>
+
+
+
+<p>取り外して使えるメリットはあるんですが、いざ使うときに接続が切れて再接続まで若干のラグがあったり、そもそもキーボードはよくある中華製のキーボードでタイプの質感が悪いんですよね。</p>
+
+
+
+<p>英語配列が欲しかったので3000円くらいだったしまぁ、安いからいいかって感じで購入したのですがこれは失敗しました。</p>
+
+
+
+<p>●バックライトなしのbluetooth接続・・・3300円</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="847" height="636" src="/wp-content/uploads/2024/02/key1.png" alt="" class="wp-image-11650" srcset="/wp-content/uploads/2024/02/key1.png 847w, /wp-content/uploads/2024/02/key1-768x577.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+
+
+<p>●バックライトありのbluetooth・・・4200円</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="847" height="641" src="/wp-content/uploads/2024/02/key2.png" alt="" class="wp-image-11651" srcset="/wp-content/uploads/2024/02/key2.png 847w, /wp-content/uploads/2024/02/key2-768x581.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+
+
+<p>こっちは15万VNDくらい高いです。日本円で差額900円くらいだったので試しに１つゲット。</p>
+
+
+
+<h2 class="wp-block-heading">やっぱり英語キーボードの純正が一番</h2>
+
+
+
+<p>というわけで、いろいろとキーボードは検討したのですが、今のところ純正のサーフェイスのキーボードが一番です。理由は以下の通り。</p>
+
+
+
+<ul>
+<li>bluetoothではなく、物理接続のUSB接続なのでBIOS起動時などにも利用可</li>
+
+
+
+<li>トラックパッドのドライバーが使えて、マルチタッチで操作可能</li>
+
+
+
+<li>サードパーティー製の中華よりキーボードが押しやすい（すぐわかるレベル）</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="856" height="567" src="/wp-content/uploads/2024/02/Lazada_used.png" alt="" class="wp-image-11635" srcset="/wp-content/uploads/2024/02/Lazada_used.png 856w, /wp-content/uploads/2024/02/Lazada_used-768x509.png 768w" sizes="(max-width: 856px) 100vw, 856px" /></figure>
+
+
+
+<p>ということで、Lazadaでこのキーボードの中古品（程度良いらしい）を購入しました。お値段は、1万円くらいです。ちょっと高かったんですが、仕方ないです。このキーボードはもう廃盤っぽいらしいので。</p>
+
+
+
+<ul>
+<li>MicroSoft：Surface Pro タイプ カバー（<a href="https://www.microsoft.com/ja-jp/d/surface-pro-%E3%82%BF%E3%82%A4%E3%83%97-%E3%82%AB%E3%83%90%E3%83%BC/91v4vtmhxwpm?icid=prosignaturetc_buybox_protc&amp;activetab=pivot:%E6%8A%80%E8%A1%93%E4%BB%95%E6%A7%98tab" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+</ul>
+
+
+
+<p>Surface ProのUSキーボードは日本では中古では入手しにくいですがベトナムでは結構流通しています。純正MSのタイプカバーキーボードは、タイプした感触は良いのですがキーストロークが浅いので少し慣れが必要です。しかし、bluetoothのサードパーティ製とは違い、キートップから滑るような感触はないので良いです。</p>
+
+
+
+<p>これが壊れたら、Apple純正の英語版キーボードが候補ですね。てか、Surface Proはその形状から、分離式のキーボードもありかもしれません。いろいろ使ってみます。</p>
+
+
+
+<h2 class="wp-block-heading">お絵描きアプリをあれこれ検討する</h2>
+
+
+
+<p>今までは、タッチペンも持っていなかったしこれ系のソフトウエアはノーチェックです。macosでも探せば、あるんですね！</p>
+
+
+
+<ul>
+<li>Goodnotes6（アプリ版）・・・お気に入り</li>
+
+
+
+<li>WEB版のCanva（実際に書いたもの：<a href="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+
+
+
+<li>Corel Painter</li>
+
+
+
+<li>MediBangPaintPro</li>
+
+
+
+<li>Inpaint</li>
+
+
+
+<li>Paint X</li>
+</ul>
+
+
+
+<p>いろんなお絵描きアプリがありますが、どれが使いやすいのか検討中です。Goodnotes6の操作性が良いなって今のところ思っています。このアプリが優秀なのは、間違えたらペンのみで、消せるんですよね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="681" src="/wp-content/uploads/2024/02/GoodNotes6-1024x681.png" alt="" class="wp-image-11678" srcset="/wp-content/uploads/2024/02/GoodNotes6-1024x681.png 1024w, /wp-content/uploads/2024/02/GoodNotes6-768x511.png 768w, /wp-content/uploads/2024/02/GoodNotes6-984x655.png 984w, /wp-content/uploads/2024/02/GoodNotes6.png 1368w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>消したり、移動したりが便利なんですよね</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="970" height="366" src="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif" alt="" class="wp-image-11693" srcset="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif 970w, /wp-content/uploads/2024/02/2024-02-04-23.58.53-768x290.gif 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・タッチパネル式のmacosは新鮮<br>・タッチペンは中華の互換品使ったが、なかなか描きやすい<br>・ちょっとツルツルすぎるので本格的に描くなら、画面にシートを貼ったほうが良さげ<br>・Surface Proの画面は、めっちゃ綺麗<br>・キーボードはMS純正のUSタイプカバーが良い<br>・WiFi、bluetoothはSurface Pro5や6では内臓のは使えず、外付けが必要<br>・なので、Surface Pro7かプラスがおすすめ<br>・macos12はメモリ4Gでもまぁ動くが、用途は限られる<br>・ので、Surface Pro5なら、8G i5モデル以上が欲しいところ</p>
+
+
+
+<p>といった感じでしょうか。この端末をデバック機種として使うのか、メインmacと合わせて、液タブみたいに使うのはどうか？など利用方法を検討してみたいと思います。またはLinuxやChromeOSを入れて使うかもしれません。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>今回、勢いで５台も調達しましたが２台は友達へのプレゼントです。あと、いろいろ触ってみて思うのは、今後買うなら、surface pro7か7+がおすすめですね。ちょっと高いですが、CPU性能とかWiFi＋bluetoothが標準のを使えるのはメリットです。どこかでゲットしてまたイジってみたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ベトナムでTNT125が激安・レビュー</title>
+		<link>/2023/07/30/post-11538.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 30 Jul 2023 13:25:45 +0000</pubDate>
+				<category><![CDATA[bike]]></category>
+		<guid isPermaLink="false">/?p=11538</guid>
+				<media:thumbnail url="/wp-content/uploads/2023/07/tnt125.png" />
+							<description><![CDATA[あえてのマニュアル・シフトバイクを選択！ ベトナムで多くの人が乗っているのは、スクータータイプのシフト切り替えがないバイクです。しかし、自分は、クラッチがないバイクはつまらんので、マニュアルシフトのバイクを候補にあれこれ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>やっとレンタルバイクから卒業！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>どんなのをゲットしたの？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>2017年モデルのマニュアル車だよ</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>かっこいいバイクですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">あえてのマニュアル・シフトバイクを選択！</h2>
+
+
+
+<p>ベトナムで多くの人が乗っているのは、スクータータイプのシフト切り替えがないバイクです。しかし、自分は、クラッチがないバイクはつまらんので、マニュアルシフトのバイクを候補にあれこれ悩んでいました。どれにするか、価格と中古車のタマとを比較しながら異国の地、ベトナムでも無事にバイクをゲットできるのでしょうか？</p>
+
+
+
+<h3 class="wp-block-heading">候補は、２機種</h3>
+
+
+
+<p>まず、車種は２機種に絞りました。Honda MSX125 (Grom)とBENELLI TNT 125です。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="637" height="477" src="/wp-content/uploads/2023/07/MSX125_2018.png" alt="" class="wp-image-11541"/></figure></div>
+
+
+<p></p>
+
+
+
+<p>この上下の写真はHONDAのMSX125です。何年モデルからかは忘れましたが、上の写真の四角目のライトのモデルが好きです。下の写真は丸い大きなライトは好きじゃないです。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="711" height="513" src="/wp-content/uploads/2023/07/msx125.png" alt="" class="wp-image-11540"/></figure></div>
+
+
+<p></p>
+
+
+
+<p>そして、もう一つはBENELLI TNT 125です。どうですか？この尖ったデザイン、かっこよくないですか？</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="561" src="/wp-content/uploads/2023/07/1579059511_black_4.png" alt="" class="wp-image-11542"/></figure></div>
+
+
+<p>中古価格はHONDAがやっぱり高くて、日本円でいうと18万くらいです。ベネリはかなり安くて10万前後であります。倍くらいは違います。</p>
+
+
+
+<h2 class="wp-block-heading">迷って安くてかっこいいBENELLI TNT 125に決定！</h2>
+
+
+
+<p>なんと言っても、デザインに惚れました。この黒ベースの赤いトラストフレームや、２本だしのサイレンサー、ちょっと太めの倒立フォークなど、スキがないデザインです。オイルクーラーとかもついていますので、回しても安心です。</p>
+
+
+
+<p>ベネリって今まで聞いたことがないバイクだったんで、あれこれ調べてみました。日本では、2021年くらいにプロトさんが輸入代行しています。</p>
+
+
+
+<p>調べてみると、この子、イタリア製みたいですね。Wikiによればベネリ（Benelli）は、イタリアのオートバイメーカーで1911年にイタリアで創業され、長い歴史を持つオートバイメーカーでしたが、途中あれこれあり、今は中国資本が入っています。つまり、イタリアのデザインをひっさげているが、中華製バイクというやつで、プロトさんが輸入している日本版のは大丈夫でしょうが、現地仕様のやつはさてどうでしょうか？　中華製バイクはやめとけ！っていう昔からの鉄則というか経験則はあるのですが、安さとデザインに負けて、こっちにしました。MSX125はカスタムすればかっこよくなるんですが、ここベトナムではパーツやカスタムショップも限られるので、ノーマル状態でかっこいいTNT125を選んだわけです。あと、値段が半分ってのも決め手ですね。</p>
+
+
+
+<h3 class="wp-block-heading">なんと2300km の出物！</h3>
+
+
+
+<p>ということで、ベース車種が決まればあとは良い掘り出し物を探すだけです。車種決定前には、あるショップに出向いて、MSX125とベネリ125を乗り比べてました。たしかに、MSX125のほうが街乗りはしやすいですね。</p>
+
+
+
+<p>　いろんな人がインプレやってますが、125ccなんでパワーなんて気にしちゃいけません。そして、トルクなんてのも、そんなのは誤差みたいなものです。一番大事なのは、乗っていて楽しいかどうか？です。このバイクは、文句なしに楽しいです。それに単気筒なんで、ぶっ壊れることはまぁ無いでしょう。中国だって切削技術はそこそこありますし、検品が雑なのは認めますが、中古車で初期不良を乗り越えた個体だったらまぁ、大丈夫なんじゃないかと思います。</p>
+
+
+
+<p>あと、178cmなんで、どっちも足付きはベタ付きです。ベトナムでバイクを探すのは、以下のWEBが便利でした。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<ul>
+<li>Chợ Tốt Xe（ちょとっせい）</li>
+</ul>
+<cite>https://xe.chotot.com/mua-ban-xe-may</cite></blockquote>
+
+
+
+<p>グッドマーケットっていう意味っぽいのですが、日本みたいにバイク専用の中古車専門サイトみたいなのは無いっぽいです。まぁでも、いくつかのショップでTNT125は中古車を取り扱っているようでした。</p>
+
+
+
+<h3 class="wp-block-heading">Tuấn Duy motor（トゥドゥック区）</h3>
+
+
+
+<p>見つけたのは、トゥドゥック区にあるバイク屋さん。なんとここに、2300km 走行の2017モデルのTNT125の黒があるじゃありませんか！</p>
+
+
+
+<p>さっそく、仕事終わりに出かけて見てきました。日本とは時差が２時間あるので、18時に定時あがりしても、こっちではまだ16時です。リモートワークしているので、（そのネタはまた今度書きますが）終わり次第、バイク屋さんへ行ってきました。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>店名：Tuấn Duy motor</p>
+
+
+
+<p>住所：58 Đ. Số 4, khu phố 3, Thủ Đức, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>MAP：https://goo.gl/maps/rjL6W39xhspc9QgT8</p>
+</blockquote>
+
+
+
+<h3 class="wp-block-heading">細部をチェック！　いい音だします</h3>
+
+
+
+<p>中古なんで、多少のキズはありますが概ね品質は良さそうです。立ちごけとかもなさそうです。うれしいことに、サイレンサー（下部にある四角い消音器）が撤去されていました。これは自分が買ったら速攻、カスタムすることを予定していたので、ちょうど良いです。メーターは確かに2300km です。たぶん、セカンドバイクとして使っていたんだと思います。</p>
+
+
+
+<p>　お店の人にお値段を交渉してみると、18.2tr（18,200,000VNDですが、桁が多いのでこう略します）が定価（ネット公示価格）日本円でいえば、約10.8万円くらいです。多少、お勉強してくれるみたいで、17.5trでOKだそうです。日本円だと10.5万円くらい。17trでOK？と聞くと、どうやら渋っているようです。まぁ、めんどくさいので17.5trでその場でWiseから振り込んで購入しました。そのまま、乗ってかえりましたが、すっごく乗りやすいです。あと、音が良い！これは乗り潰す気合いで乗ってみましょう。ハノイまでバイクで行きたいですね。</p>
+
+
+
+<h2 class="wp-block-heading">かっくいい！</h2>
+
+
+
+<p>とにかく、デザインが好きなバイクってのは愛着が深まりますね。このバイク125なんですが、デザインにスキがない感じで、ほんと気に入っています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="380" src="/wp-content/uploads/2023/07/ss2-1024x380.png" alt="" class="wp-image-11543" srcset="/wp-content/uploads/2023/07/ss2-1024x380.png 1024w, /wp-content/uploads/2023/07/ss2-768x285.png 768w, /wp-content/uploads/2023/07/ss2-984x365.png 984w, /wp-content/uploads/2023/07/ss2.png 1180w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>バイクスタンドは、メンテナンスするときに欲しかったのでShopeeって通販サイトで購入しました。ベトナムでは、LazadaとShopeeが有名です。送料混みで2000円しないくらいでした。</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://shopee.vn/Ben-N%C3%A2ng-c%E1%BB%91-%C4%91%E1%BB%8Bnh-2-trong-1-i.61283688.13340937142" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><img loading="lazy" decoding="async" width="1024" height="678" src="/wp-content/uploads/2023/07/Shopee-1024x678.png" alt="" class="wp-image-11550" srcset="/wp-content/uploads/2023/07/Shopee-1024x678.png 1024w, /wp-content/uploads/2023/07/Shopee-768x508.png 768w, /wp-content/uploads/2023/07/Shopee-984x651.png 984w, /wp-content/uploads/2023/07/Shopee.png 1065w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>さらに驚くことにShopeeは、決済しなくても商品が送られてきて、現金引換（代引）できるっていう、日本では考えられない仕様となっています。代引できない場合は、キャンセル扱いになるんだと思います。ベトナムの生活に根付いている通販サイトなんですよね。現地の人って、カードとか無い人もいるし、銀行を信用していない節があるので。</p>
+
+
+
+<h2 class="wp-block-heading">洗車屋さんでバイク洗ってもらった</h2>
+
+
+
+<p>さて、ベトナムでは、バイクを洗ってくれる洗車屋さんがいたるところにあります。結構丁重に洗ってくれて、お値段は40kVND（240円）です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="382" src="/wp-content/uploads/2023/07/ss2-1-1024x382.png" alt="" class="wp-image-11544" srcset="/wp-content/uploads/2023/07/ss2-1-1024x382.png 1024w, /wp-content/uploads/2023/07/ss2-1-768x286.png 768w, /wp-content/uploads/2023/07/ss2-1-984x367.png 984w, /wp-content/uploads/2023/07/ss2-1.png 1191w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>洗っている間は、カフェでまったりとコーヒータイムです。洗車屋さんの向かい側にも待合席はあるんですが、喉が渇いたのでカフェで時間潰しです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="378" src="/wp-content/uploads/2023/07/ss4-1024x378.png" alt="" class="wp-image-11545" srcset="/wp-content/uploads/2023/07/ss4-1024x378.png 1024w, /wp-content/uploads/2023/07/ss4-768x283.png 768w, /wp-content/uploads/2023/07/ss4-984x363.png 984w, /wp-content/uploads/2023/07/ss4.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>写真を見てわかると思いますが、こっちの人たちカップルは隣同士に座ってコーヒーを飲むのがデフォルトスタイルです。25kVNDでアイス・ミルクコーヒーを飲んで、お茶もついてきますので飲み干したら洗車屋さんに戻りました。とっても綺麗になりました。</p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・バイクは簡単に買えます<br>・しかし、名義変更はやったほうがよさそう<br>・ベトナムの運転免許はビザさせあれば日本のが書き換え可能です<br>・国際免許は条約が違うのでそのままでは利用できません<br>・TNT125は乗っていて楽しい。低速トルクも十分。<br>・回せば１００kmくらいは出そう<br>・エンジンは中華製だと思うので、壊れるかもです<br>・コンビニやスーパー行った時の荷物フックはほしぃ（ゲット済み）</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>たしかに、スクーターは便利です。荷物は乗るし、メットインにはカッパとか入れて入れておけます。でも、僕はリモートワークなんで、ほとんど毎日家にいて、昼ごはんと夕ご飯のときしかバイクは乗りません。ので、クラッチが付いたいわゆるバイクに乗りたかったわけです。バイクの良さは、乗って楽しい、磨いて眺めて楽しいっていう要素が大事だと思っております。そういう意味で大変満足しています。</p>
+
+
+
+<p>　2300km で買ったバイク、果たしてどのくらい乗るでしょうかね。ちょいのりだけなんで、まぁ1万キロくらいでしょうか。1ヶ月でたぶん1000kmは乗らないと思います。</p>
+
+
+
+<p>　次回は、ステッカーチューンや、ちょいカスタム・現地のオイル交換なんかのお話でも書きたいなって思っています。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ベトナム・ホーチミンのご飯が安くて美味しすぎる！</title>
+		<link>/2023/07/24/post-11451.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 23 Jul 2023 20:57:02 +0000</pubDate>
+				<category><![CDATA[vietnam]]></category>
+		<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">/?p=11451</guid>
+				<media:thumbnail url="/wp-content/uploads/2023/07/HCM-food.png" />
+							<description><![CDATA[久しぶりの投稿はベトナム・ホーチミンから こんにちは、皆さん。久しぶりの投稿ですが、今回はベトナム・ホーチミンからのレポートです。僕がここに住んでいる間、日々の生活の中で驚かされるのが、ここの「ローカル食」の存在です。ホ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ホーチミンに半年いますが、とにかくご飯が美味しい！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>フォーとかですか？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>麺も美味しいけど他にもたくさんあるよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>食べに行くから教えてね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">久しぶりの投稿はベトナム・ホーチミンから</h2>
+
+
+
+<p>こんにちは、皆さん。久しぶりの投稿ですが、今回はベトナム・ホーチミンからのレポートです。僕がここに住んでいる間、日々の生活の中で驚かされるのが、ここの「ローカル食」の存在です。ホーチミンの街角で見かける無数の屋台や店舗、それぞれが特色ある料理を提供し、地元の人々に囲まれているそんな景色は日本では見かけません。</p>
+
+
+
+<p>今回のブログ記事では、これらホーチミンのローカル食に焦点を当てます。僕的には、やっぱりコスパで、その魅力は何と言っても「価格」と「味」です。驚くほど安価でありながら、その味は絶品。ローカル食はベトナム文化を象徴するものであり、その本質を理解するためには、ぜひとも体験していただきたいものです。いやぁね、ほんと「お店、利益あるの？」って心配になるくらい安いんです。</p>
+
+
+
+<p>　日本の事を知るには、日本の食文化を知らないと語れないのと同じ原理ですね。ベトナムを知るにはまず食事。そんな滞在半年くらいの視点から見たのが今回のレポートです。</p>
+
+
+
+<h3 class="wp-block-heading">ローカル飯の価格</h3>
+
+
+
+<p>ガチのローカル食です。</p>
+
+
+
+<p>ベトナムの屋台の一つの大きな魅力は、その価格です。僕がこれまで試してきたローカル食の料理のほとんどは、50,000VND（約300円）以下で楽しむことができました。中には、20,000VND（約120円）ほどで提供される料理もあります。これは、日本の屋台料理やレストランの価格と比較すると、驚くほどリーズナブルです。</p>
+
+
+
+<p>では、なぜベトナムのローカル食はこんなにも安いのでしょうか。ローカル食も厳密には、屋台飯と建物内にある店舗型のローカル食の２タイプがあります。屋台飯は本当にガチのローカル食堂で地元の人や、Grabなどのドライバーが食べているのを良く見ました。価格帯は、25kVND〜35k VNDくらいで円で言えば、150円〜210円くらいになります。ではなぜ、こんなに安いのでしょうか？</p>
+
+
+
+<p></p>
+
+
+
+<p>それにはいくつかの理由があるのでは？と思っています。まず、多くの屋台では近所で採れる新鮮な食材が標準で使われていて、これにより、食材のコストをかなり抑えることができます。つまり、市場に出回る前の価格・卸し価格で入手できるのでは？と思います。あとはこれが安く提供できる一番大きな理由だと思いますが、屋台は店舗と比べて運営コストが低いです。店舗のように家賃を支払ったり、スタッフを雇ったりする必要がないため、その分を価格に反映させることができます。店舗型の食事を今も継続的にリサーチしていますが、まだ25k VNDで提供しているところは１店舗しか知りません。</p>
+
+
+
+<p>ベトナムにもそれなりの高級なレストランはあります。でも、ベトナム文化を知るには、屋台料理を食べないと始まらないと思っています。ベトナムの幅広い食文化は、ローカル食を体験することとまた違った視点でベトナムを見ることができると思っています。</p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">半年滞在して本当に美味いと思った食べ物　その１</h2>
+
+
+
+<p>ホーチミンで僕が特におすすめする食事は、ブンリュウです。ベトナム語だと、Bún riêu です。ここで紹介するお店は、Thảo Điền（タオ・ディエン）地区の33A Nguyễn Văn Hưởng（グエン・ヴァン・フン）通りに位置しています。場所は<a href="https://goo.gl/maps/AV5cASKnh1YrurXH9" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">こちら<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。本店と支店とがあり、両方行ったことがありますが家から近いタオ・ディエンのほうを紹介します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1048-1024x768.jpg" alt="" class="wp-image-11504" srcset="/wp-content/uploads/2023/07/DSC_1048-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1048-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1048-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1048-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1048-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>で、「Bún Riêu」（ブン・リウ）の専門店なので写真のような麺が特におすすめです。スープは独特でトマト、独特のスパイスが絶妙に組み合わさったこの味は、一度食べれば忘れられない記憶食となると思います。特に、その酸味が特徴的で、日本人は食べたことがない味ですよ！また、料理はその場で調理され厨房はオープン状態なので作るところも楽しむことができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1047-1024x768.jpg" alt="" class="wp-image-11505" srcset="/wp-content/uploads/2023/07/DSC_1047-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1047-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1047-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1047-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1047-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>メニューには、43kVND〜65kVNDと３つありますが、ノーマルでも十分です。中に入る具の種類などが違います。</p>
+
+
+
+<p>この店は、ホーチミンのローカル食の魅力を体験するのに最適な場所です。価格の手ごろさと美味しさ、そして地元の人々との触れ合いを体験することができます。訪れた際には、ぜひこの店をチェックしてみてください。観光で来た際には、１区のお店がアクセスしやすいと思います。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">タオディエン店</h3>
+
+
+
+<p>店名：Bún riêu tóp mỡ mọc giòn cô Hương béo Thảo Điền</p>
+
+
+
+<p>住所：33A Nguyễn Văn Hưởng, Thảo Điền, Quận 2, Thành phố Hồ Chí Minh 700000 ベトナム </p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/AV5cASKnh1YrurXH9" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<h3 class="wp-block-heading">１区店</h3>
+
+
+
+<p>店名：Bún riêu tóp mỡ mọc giòn</p>
+
+
+
+<p>住所：19B Đ. Nguyễn Thị Minh Khai, Đa Kao, Quận 1, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/4D3moKtgj3sefT5k7" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">朝・昼兼用のご飯として最適　おいしい麺・その２</h2>
+
+
+
+<p>魚介のバインカンの麺で、地図には無い店なんですが、美味しかったので紹介。Bánh canh ghẹ Só 8ってのが店名ですかね。ベトナム語でカニを表すのは、CửaとGhẹとあります。前者は一般的なカニ全般で、後者もカニなんですがその違いはまだわかっていません。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1520-1024x768.jpg" alt="" class="wp-image-11520" srcset="/wp-content/uploads/2023/07/DSC_1520-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1520-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1520-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1520-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1520-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>お店に行くと、何入れるかって聞かれるので、海老とか魚介類だけね、って感じでOK。１週間に一度は食べたくなります。これカニの身が入っているんですよね。魚介エキスのスープが美味しいです。海老やイカもあって、お値段、40k VND（240円）です。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Bánh canh ghẹ Số 8　ビンタイン</h3>
+
+
+
+<p>店名：Bánh canh ghẹ Số 8（多分）</p>
+
+
+
+<p>住所：このあたり　A10 Phú Mỹ, Phường 22, Bình Thạnh, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/zx3iVxKMtLxjBSkL9" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<p>※地図にない店ですが、このあたりにあります。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">クセがあるけど病みつきになる麺・ブンマム（Bún mắm）その３</h2>
+
+
+
+<p>僕の中では、ベスト1位のベトナム麺です。店名が「Bún mắm ABC」って店でブンマムの専門店です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1349-1024x768.jpg" alt="" class="wp-image-11521" srcset="/wp-content/uploads/2023/07/DSC_1349-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1349-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1349-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1349-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1349-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>見た目から想像できると思いますが、これは、クセがあるので好き嫌いはあると思いますが自分の中では１位のベトナム麺です。これ激うまいです。ビンタイン区の少し混雑した通り沿いにあります。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Bún mắm ABC　ビンタイン</h3>
+
+
+
+<p>店名：Bún mắm ABC</p>
+
+
+
+<p>住所：13 Ng. Tất Tố, Phường 21, Bình Thạnh, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/qY5JHtHCvttf9ctBA" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">番外　ボッチェン　Bột Chiên</h2>
+
+
+
+<p>日本でいえば、お好み焼きとかそういう系のB級グルメだと思いますが、ボッチェン（Bột Chiên）っていう料理があります。米粉を揚げたケーキみたいな感覚的には揚げ豆腐っぽい食感で、タレをぶっかけて食べます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="797" src="/wp-content/uploads/2023/07/DSC_1174-1024x797.jpg" alt="" class="wp-image-11522" srcset="/wp-content/uploads/2023/07/DSC_1174-1024x797.jpg 1024w, /wp-content/uploads/2023/07/DSC_1174-768x598.jpg 768w, /wp-content/uploads/2023/07/DSC_1174-1536x1196.jpg 1536w, /wp-content/uploads/2023/07/DSC_1174-2048x1594.jpg 2048w, /wp-content/uploads/2023/07/DSC_1174-984x766.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>この店のボッチェンはパパイヤの繊維モリモリで、おいしいです。たまに食べたくなるんですよね。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Bột Chiên　ビンタイン区</h3>
+
+
+
+<p>店名：Bột Chiên 51</p>
+
+
+
+<p>住所：51 Nguyễn Văn Lạc, Phường 21, Bình Thạnh, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/RRfh5NezXZUopvKs5" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・ベトナムの麺料理は奥が深い</p>
+
+
+
+<p>・自分の中では、1位ブンマム、2位ブンリュウ　3位バインカンゲー</p>
+
+
+
+<p>・豚肉のコムタムもおいしいよ。有名なんで紹介は省略</p>
+
+
+
+<p>・ベトナム料理は、日本人の味覚に合うと思ってます</p>
+
+
+
+<p>・バインセオやコムガーとか美味しいのは他にもたくさんあります</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>ここでは、有名なコムタムやバインミーやフォーやフーティウとかは省きました。自分が本当に美味しいと思える、ベスト３を紹介しました。そのほとんどが、50k VND（３００円）以下で食べられます。一番安い価格帯としては、25kVND（150円）です。バインミーとかは15kVNDとかもあります。すべて外食しても、食費は3万円以下になりますね。日本食もたくさんありますが、僕はローカルフードで十分満足していて、あまり日本食を食べたいとは思いません。</p>
+
+
+
+<p>　あと、ベトナムの人は外で食べるのが本当に好きです。最初、何故かはわかりませんでしたがやっぱり、外の方が気持ちがい良いっていう理由がその大半だと思います。ミニテーブルと椅子に座って景色や人をウォッチしながら食べる。それがスタンダードなようです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
