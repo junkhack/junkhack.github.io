@@ -187,10 +187,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -276,7 +273,7 @@ void setup()
   ina.calibrate(0.025, 1);
 ::</pre>
 <p>配線は以下のようにしました。ちょっとわかりにくいですが、Arduino の A5(SCL) と A4(SDA) をつないで、GND と 3.3V を VSS に入れます。あとは、負荷を電流計測にハイサイド側に付ける感じです。</p>
-<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480"></a> </p>
+<p><a href="/wp-content/uploads/2016/01/arduino_ina226.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img fetchpriority="high" decoding="async" title="arduino_ina226" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="arduino_ina226" src="/wp-content/uploads/2016/01/arduino_ina226_thumb.jpg" width="640" height="480"></a> </p>
 <p>シリアル通信を開くと、以下のようになっています。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">Initialize INA226
 -----------------------------------------------
@@ -404,7 +401,7 @@ Shunt current: 0.00300 A</pre>
 <p>サンプルプログラムを採取したデータが以下です。8本分は取れていますが、速すぎるところは取りこぼしているようです。</p>
 <p><img decoding="async" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/01/1.png" width="640" height="319"> </p>
 <p>矢印は500ns で光っている部分で採取に失敗し、取りこぼす事がありました。このあたりが2Mhz の限界なんですね。今のファームウェアとソフトウェアだとこれが限界のようです。</p>
-<p><img loading="lazy" decoding="async" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320"> </p>
+<p><img decoding="async" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320"> </p>
 <p>複数のLED は、blink ファンクションにて光らせていますが、呼び出しと初期化の処理で250us 程度使っているようです。</p>
 <p><img loading="lazy" decoding="async" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/3.png" width="640" height="320"> </p>
 <p>usleep 関数を使っても思ったより、処理に時間がかかるようです。1us を指定して光らせているんですが、実際は69us 光っています。nanosleep を使っても66us は使われてしまうようで、1us を光らせる為にwhile で調整してみました。</p>

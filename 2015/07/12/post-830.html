@@ -98,10 +98,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -166,14 +163,14 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<div class="entry-content">
 			<p>あれもこれも、入れたいのに、いちいちSDカードなんて、抜き差ししてるのめんどいよね、ってことで、工夫してみました。</p>
 <p>こんな感じで、SD Card にOS は入れずに、ネットワーク越しのiSCSI Disk から、OS をブートしてPi2 を楽しむことを試しました。</p>
-<p><img decoding="async" title="iscsiBoot_raspi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="iscsiBoot_raspi" src="/wp-content/uploads/2015/07/iscsiboot_raspi.png" width="575" height="457"> </p>
+<p><img fetchpriority="high" decoding="async" title="iscsiBoot_raspi" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="iscsiBoot_raspi" src="/wp-content/uploads/2015/07/iscsiboot_raspi.png" width="575" height="457"> </p>
 <p>まさか、RasPi がiSCSI Boot するなんて思っていなかったので、最初は本当かな？ って。で、試したところ問題ない速度で楽しめることがわかりました。BerryBoot v2.0 を使って実際に試してみましたよ。</p>
 <p> </p>
 <p> 図では、わかりにくいのですが、osx にバーチャルボックスで起動した、FreeNAS でiSCSI のターゲットを提供し、pi は、Boot 領域のSD Card を指したまま、ネットワーク越しのディスクから起動します。</p>
 <p>OS 切り替えは、osx のブラウザーからFreeNAS の iSCSI のディスクを交換し、Pi2 をリブートすれば OK な感じです。</p>
 <p><img decoding="async" title="freenas_-_FreeNAS-9_3-STABLE-201506292332" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="freenas_-_FreeNAS-9_3-STABLE-201506292332" src="/wp-content/uploads/2015/07/freenas__freenas9_3stable201506292332.png" width="562" height="480"> </p>
 <p>ZFS の操作はまったくわかりませんが、とりあえず物理ディスクをバーチャルボックスで８０Gくらい割り当てたものを上記な感じで作ります。</p>
-<p> <img loading="lazy" decoding="async" title="freenas_-_FreeNAS-9_3-STABLE-201506292332 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="freenas_-_FreeNAS-9_3-STABLE-201506292332 2" src="/wp-content/uploads/2015/07/freenas__freenas9_3stable2015062923322.png" width="562" height="480"> </p>
+<p> <img decoding="async" title="freenas_-_FreeNAS-9_3-STABLE-201506292332 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="freenas_-_FreeNAS-9_3-STABLE-201506292332 2" src="/wp-content/uploads/2015/07/freenas__freenas9_3stable2015062923322.png" width="562" height="480"> </p>
 <p>iSCSI にする DISK はあらかじめたくさん作っておいて、上図のような感じでエクステントと対応ディスクのセットを作っておきます。</p>
 <p><img loading="lazy" decoding="async" title="freenas_-_FreeNAS-9_3-STABLE-201506292332 3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="freenas_-_FreeNAS-9_3-STABLE-201506292332 3" src="/wp-content/uploads/2015/07/freenas__freenas9_3stable2015062923323.png" width="564" height="480"></p>
 <p>ターゲット名は変わらないので、Pi2 の SDCard の中は変更しなくてOK です。</p>

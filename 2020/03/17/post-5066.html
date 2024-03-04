@@ -98,10 +98,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -184,7 +181,7 @@ PHP：PHP7 とか HHVM とか。またはその動作方法php_fpm とか、mod_
 <blockquote><p><a href="https://hhvm.com/blog/2018/09/12/end-of-php-support-future-of-hack.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Ending PHP Support, and The Future Of Hack<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
 <p>改めて最新の動向を見てみると、どうやら LiteSpeed というWEBサーバのほうが良さそうです。2015年のネタなので現在は状況が変わっているかもしれません。</p>
 <blockquote><p><a href="https://blog.litespeedtech.com/2015/07/16/php7-vs-hhvm-benchmark-series-1-hello-world/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">PHP7 vs HHVM Benchmark Series 1: Hello World<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
-<p>そして、現在は HHVM よりもPHP7 が良い結果が出ているそうなので、LiteSpeed のオープンソース版である OpenLiteSpeed を使うことにしました。とりあえず、以下のような構成でいこうかと。<a href="https://openlitespeed.org/branding/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" class="alignnone size-full wp-image-5071" style="color:#646970;background-color:#f6f7f7;" src="/wp-content/uploads/2020/03/openlitespeed-logo-1200x300-1.png" alt="openlitespeed-logo-1200x300.png" width="1200" height="300"></a></p>
+<p>そして、現在は HHVM よりもPHP7 が良い結果が出ているそうなので、LiteSpeed のオープンソース版である OpenLiteSpeed を使うことにしました。とりあえず、以下のような構成でいこうかと。<a href="https://openlitespeed.org/branding/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-5071" style="color:#646970;background-color:#f6f7f7;" src="/wp-content/uploads/2020/03/openlitespeed-logo-1200x300-1.png" alt="openlitespeed-logo-1200x300.png" width="1200" height="300"></a></p>
 <blockquote><p>OS：Linux（Fedora 31 server）<br>
 Web：OpenLiteSpeed 1.6.x<br>
 PHP：PHP7.x<br>

@@ -187,10 +187,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -256,7 +253,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<div class="entry-content">
 			<p>INA226 と arduino の I2C 信号をロジックアナライザで見てみました。</p>
 <p>コードは前回と同じものです。1秒ごとに４つのデータをゲットしています。</p>
-<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638"></a>   </p>
+<p> <a href="/wp-content/uploads/2016/02/7713a84eb638.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img fetchpriority="high" decoding="async" title="１" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="１" src="/wp-content/uploads/2016/02/thumb.png" width="626" height="638"></a>   </p>
 <p>トリガは、SDA にかけました。Hi から Low になって信号が行くようです。</p>
 <p>まず、I2C アドレス0x40 のレジスタ 0x02 を投げて、値が帰ってくる流れが見えます。読み出しには、1.7ms ほどかかっていることがわかりました。ビットの信号は、4us 程度のようです。SDAでビットが立っているのを判別しているようです。</p>
 <p>&#160;</p>
@@ -474,7 +471,7 @@ uio                     8119  1 uio_pdrv_genirq</pre>
 </blockquote>
 <p>BeagleBone Black(BBBと略するようです)での環境ですが、大変参考になりました。</p>
 <p>使わせていただいたコードは最下部に付けておきます。で、配線は写真のようにちょっと雑ですが配線。負荷には、ちっさいファンをつけてみました。</p>
-<p><a href="/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419"></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
+<p><a href="/wp-content/uploads/2016/01/singleshot0023.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" title="SingleShot0023" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="SingleShot0023" src="/wp-content/uploads/2016/01/singleshot0023_thumb.jpg" width="640" height="419"></a> スレーブアドレスは、何も設定しないと、0x40 が設定されるようです。</p>
 <pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;"># i2cdetect -y 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 

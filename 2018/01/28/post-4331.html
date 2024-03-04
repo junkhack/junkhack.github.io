@@ -99,10 +99,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -184,7 +181,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <p> そうなると、AWS などのクラウド上に仮想サーバを作るタイプになってくるわけですが、そうなるとさらに面倒だしお金もかかる。まぁ、でもお仕事でも使うわけだから、勉強がてら触っておくのはいいよねーと思いながら、数年さわらず。以前、マイクロソフトが提供しているアズール（Microsoft Azure）ってのの開発アカウントを持っていたのですが、今一料金的になっとく行かず、本格運用までは行きませんでした。</p>
 <p> </p>
 <p> で、ひさしぶりに google のクラウドプラットフォームの GCP（Google Cloud Platform）ってのを見たら、なかなかいい誘い文句がでているじゃありませんか。</p>
-<p><img decoding="async" title="Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Google_Cloud_Platform" src="/wp-content/uploads/2018/01/google_cloud_platform.png" width="640" height="386"> </p>
+<p><img fetchpriority="high" decoding="async" title="Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Google_Cloud_Platform" src="/wp-content/uploads/2018/01/google_cloud_platform.png" width="640" height="386"> </p>
 <p>JunkHack は、お値段に敏感なんです。無料という言葉に弱いんです。これはもうだまされてもいいから使うしかないなと。何が無料なのかは、わかりませんが、なにやら、以下のようです。</p>
 <p><img decoding="async" title="GCP_の無料階層_-_無料の長期トライアル、いつまでも無料_ _ _Google_Cloud_Platform" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="GCP_の無料階層_-_無料の長期トライアル、いつまでも無料_ _ _Google_Cloud_Platform" src="/wp-content/uploads/2018/01/gcp______google_cloud_platform.png" width="640" height="146"> </p>
 <p>FAQを参照してみます。なにやらごにょごにょと書いてありますが、肝心なのは以下。</p>
@@ -202,7 +199,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </blockquote>
 <p>リソースには、期限切れ後、30日以内であれば復元可能とな。ふむふむ。</p>
 <p>ま、とにかく使ってみましょう。SSD のn1-standard-1（vCPU x 1、メモリ 3.75 GB）ブートディスクはとりあえず10GB です。CentOS7 のインスタンスを起動しました。</p>
-<p><img loading="lazy" decoding="async" title="Compute_Engine_-_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Compute_Engine_-_JunkHackup" src="/wp-content/uploads/2018/01/compute_engine__junkhackup.png" width="640" height="402"> </p>
+<p><img decoding="async" title="Compute_Engine_-_JunkHackup" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Compute_Engine_-_JunkHackup" src="/wp-content/uploads/2018/01/compute_engine__junkhackup.png" width="640" height="402"> </p>
 <p>公開鍵認証で、リモートから SSH アクセスして UnixBench を動作させてみました。便利だなーと感じたのは、CentOS7 のインスタンス作った時点で、自分のアカウント名のユーザが作られていて、sudo 権限も付与されています。自分の場合は、無料版のころから使っている、Google Apps で独自ドメインをくっ付けていてその @前のユーザ名で作られていました。最高に便利ですね、これは。</p>
 <p> </p>
 <p>で、この CentOS7 は最小限でインストールされているインスタンスですので、以下の手順で UnixBench を動作。</p>

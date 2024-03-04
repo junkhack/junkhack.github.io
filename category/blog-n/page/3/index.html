@@ -188,10 +188,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -805,7 +802,7 @@ default            192.168.1.1        UGSc           67        5     en0
 
 		<div class="entry-content">
 			<p>さて、今回はメモ程度ですが スマホUMIDIGI F2に、termuxでapache2とphp7とmariadb10を入れた環境にWordPress代替えのClassicPressを入れて動作させてみました。いろいろ課題が見えて来たのでメモしておきます。まずは、どのくらいの速度で表示されるか、視覚的に見ると以下になります。約1.8秒です。</p>
-<p><a href="https://www.webpagetest.org/video/view.php?id=200830_1626d4ffcc3e1d952ebf3b69ec30500fd1e9dd6a" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img decoding="async" class=" size-full wp-image-5848 aligncenter" src="/wp-content/uploads/2020/08/webpagetest_-_visual_comparison_-_aug_31__2020___jh_gpl_jp_-1.png" alt="WebPageTest_-_Visual_Comparison_-_Aug_31__2020___jh_gpl_jp_" width="405" height="329"></a></p>
+<p><a href="https://www.webpagetest.org/video/view.php?id=200830_1626d4ffcc3e1d952ebf3b69ec30500fd1e9dd6a" target="_blank" rel="noopener noreferrer external" class="broken_link" data-wpel-link="external"><img fetchpriority="high" decoding="async" class=" size-full wp-image-5848 aligncenter" src="/wp-content/uploads/2020/08/webpagetest_-_visual_comparison_-_aug_31__2020___jh_gpl_jp_-1.png" alt="WebPageTest_-_Visual_Comparison_-_Aug_31__2020___jh_gpl_jp_" width="405" height="329"></a></p>
 <p>&nbsp;</p>
 <p>これは、後ほど出て来ますが　https://www.webpagetest.org/　でのテスト結果です。ちょっと遅いですよね。まぁ、しかしスマホで動作していると思えば十分に速いかもしれません。</p>
 <p>まだ設定は未調整ですがhttp接続（SSLじゃない80接続）でのベンチマークです。コマンドラインでのapache ab　テストもやってみました。同時に100ユーザが、1ユーザーあたり10リクエストを発行した場合を想定しています。これは、一般的なhtmlアクセスに対するjsやcssや画像のアクセスかなと思います。まぁ、このブログはそんな人気じゃないので同時に10人くらいのアクセスで十分かもですがw</p>
@@ -967,7 +964,7 @@ Percentage of the requests served within a certain time (ms)
 <p>それよりも、最初のhtmlのロードが長いです。以下は一番最初のビデオの状態を詳細にみた結果です。まだ圧縮転送やキャッシュは効かせていませんが、マシン性能が出る部分ですかね。ちょっと遅いです。NGINXだともう少し速くなるかもですので、また試してみたいと思います。</p>
 <p><img decoding="async" class="alignnone size-full wp-image-5832" src="/wp-content/uploads/2020/08/e8b2bce3828ae4bb98e38191e3819fe794bbe5838f_2020_08_31_1_41.png" alt="貼り付けた画像_2020_08_31_1_41" width="977" height="1047"></p>
 <p>このWEBページのindex相当になるファイルはサイズ、15kb程度です。例えば、phpinfoのページを読んだ結果は以下です。このページは、82.0 KBありますが、0.4秒で終わっています。</p>
-<p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5833" src="/wp-content/uploads/2020/08/webpagetest_test_details_-_tokyo___jh_gpl_jp_info_php_-_08_31_20_01_45_34.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp_info_php_-_08_31_20_01_45_34" width="970" height="831"></p>
+<p><img decoding="async" class="alignnone size-full wp-image-5833" src="/wp-content/uploads/2020/08/webpagetest_test_details_-_tokyo___jh_gpl_jp_info_php_-_08_31_20_01_45_34.png" alt="WebPageTest_Test_Details_-_Tokyo___jh_gpl_jp_info_php_-_08_31_20_01_45_34" width="970" height="831"></p>
 <p>つまり、mariadbにアクセスしたりphpでのwordpressの処理時間がかかっているから遅くなっているということになりますね。</p>
 <p>例えば、これは以前検討していたマシンでの結果ですが、htmlのロードは0.2秒以内に終わっています。UnixBenchが7000近く出るマシンでネットワークもIPv4→IPv6トンネルなので、比較するとあれですが、どこまで近づけるかですね。</p>
 <p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-5835" src="/wp-content/uploads/2020/08/webpagetest_test_details_-_tokyo___hoge_gpl_jp_-_03_16_20_02_24_59.png" alt="WebPageTest_Test_Details_-_Tokyo___hoge_gpl_jp_-_03_16_20_02_24_59" width="950" height="925"></p>

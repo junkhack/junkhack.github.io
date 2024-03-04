@@ -32,10 +32,103 @@
 }</script>
 
 
-<title>JunkHack &#8211; アリエクでポチった JUNKHACK</title>
+		<link charset="utf-8" rel="stylesheet" type="text/css" href="/wp-content/themes/jh-hew/js/nehan2/nehan2.css">
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/subject.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/Plugin_haiku.js"></script>
+		<script charset="utf-8" type="text/javascript" src="/wp-content/themes/jh-hew/js/nehan2/nehan2.js"></script>
+		<script type="text/javascript">
+
+		let pw = window.innerWidth;
+		let ph = window.innerHeight;
+		let wsize = 0;
+		function resizeWindow(event){
+				pw = window.innerWidth;
+				ph = window.innerHeight;
+		}
+	
+		window.addEventListener("resize", resizeWindow);
+
+			window.onload = function(){
+			var createPageFrame = function(body){
+				var node = document.createElement("div");
+				var style = node.style;
+				node.innerHTML = body;
+				node.className = "page-frame";
+				return node;
+			};
+
+			var outputAllPages = function(dstId, provider){
+				var pageNo = 0;
+				var dstNode = document.getElementById(dstId);
+
+				// add <subject> element to parser for easy markup(see subject.js)
+				Nehan.Plugin.defineSubjectElement(provider);
+				Nehan.Plugin_haiku.defineHaikuElement(provider);
+
+				while(provider.hasNextPage()){
+					var pageData = provider.outputPage(pageNo++);
+					var pageFrame = createPageFrame(pageData.html);
+					dstNode.appendChild(pageFrame);
+				}
+			};
+			
+			var text = document.getElementById("src-text").innerHTML;
+		// output default page1.
+		if(pw < 480){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:310,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 479 && pw < 600){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:420,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 599 && pw < 744){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:540,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 743 && pw < 889){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:680,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		if(pw > 888){
+			// output vertical post.27moji
+			outputAllPages("result-vertical", new Nehan.PageProvider({
+				direction:"vertical",
+				width:890,
+				height:440,
+				fontSize:16
+			}, text));
+		}
+		
+		document.getElementById("progress").style.display = "none";
+		};
+		</script>
+		
+<title>espeink &#8211; JunkHack</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="JunkHack &raquo; espeink カテゴリーのフィード" href="/category/espeink/feed/">
 <link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3" type="text/css" media="all">
 <style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
@@ -64,13 +157,9 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wp-keypopup-algolia/mouse.js?ver=6.4.3" id="mouse-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/5925">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/31">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.4.3">
-<link rel="canonical" href="/">
-<link rel="shortlink" href="/">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F#038;format=xml">
 		<style>.algolia-search-highlight {
 				background-color: #fffbcc;
 				border-radius: 2px;
@@ -79,8 +168,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<style type="text/css">.broken_link, a.broken_link {
 	text-decoration: line-through;
 }</style>
-<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style>
-<style id="uagb-style-frontend-5925">.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__heading{margin-top: 0px;margin-bottom: 5px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__author-link{font-size: 11px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .dashicons-admin-users{color: #333;font-size: 11px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__link{margin-bottom: 0px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__heading-text{margin-bottom: 5px;margin-top: 0px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb_timeline__cta-enable .uagb-timeline-desc-content{margin-bottom: 15px;margin-top: 5px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__author-link + .uagb-timeline__link_parent{margin-top: 5px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__marker{margin-left: 10px;margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__field:not(:last-child){margin-bottom: 15px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__day-right .uagb-timeline__arrow:after{border-left-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__day-left .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__line__inner{background-color: #0693e3;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__line{background-color: #eee;width: 3px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__right-block .uagb-timeline__line{right: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__left-block .uagb-timeline__line{left: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__line{right: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__marker{background-color: #eee;min-height: 35px;min-width: 35px;line-height: 35px;border: 0px solid#eee;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__left-block .uagb-timeline__left .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__right-block .uagb-timeline__right .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__left .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__right .uagb-timeline__arrow{height: 35px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__left .uagb-timeline__marker{margin-left: 10px;margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__right .uagb-timeline__marker{margin-left: 10px;margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__date-hide.uagb-timeline__inner-date-new{margin-bottom: 5px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__date-hide.uagb-timeline__date-inner{margin-bottom: 5px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__left-block .uagb-timeline__day-new.uagb-timeline__day-left{margin-left: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__right-block .uagb-timeline__day-new.uagb-timeline__day-right{margin-right: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__date-new{font-size: 12px;color: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner-new{background-color: #fcb900;border-radius: 15px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner--content{padding-left: 20px;padding-right: 20px;padding-top: 20px;padding-bottom: 20px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap svg{color: #333;font-size: 15px;width: 15px;fill: #333;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__marker.uagb-timeline__in-view-icon svg{fill: #fff;color: #fff;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__marker.uagb-timeline__in-view-icon{background: #0693e3;border-color: #5cb85c;}@media only screen and (max-width: 976px) {.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__marker{margin-left: 0;margin-right: 0;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-tablet .uagb-timeline__day-right .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-tablet .uagb-timeline__day-left .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-tablet .uagb-timeline__line{left: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner--content{border-radius: 0px;}}@media only screen and (max-width: 767px) {.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block .uagb-timeline__marker{margin-left: 0;margin-right: 0;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__center-block .uagb-timeline__day-new.uagb-timeline__day-left{margin-left: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__center-block .uagb-timeline__day-new.uagb-timeline__day-right{margin-left: 10px;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-mobile .uagb-timeline__day-right .uagb-timeline__arrow:after{border-right-color: #fcb900;}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap.uagb-timeline__center-block.uagb-timeline__responsive-mobile .uagb-timeline__line{left: calc( 35px / 2 );}.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62.uagb-timeline__outer-wrap .uagb-timeline__events-inner--content{border-radius: 0px;}}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
+<style id="uagb-style-frontend-31">.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit{width: 60px;padding: 0;border: 0;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input::placeholder{opacity: 0.6;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-submit .uagb-wp-search-button-text{color: #313131;}.uagb-block-188fea4d.uagb-layout-input .uagb-wp-search-icon-wrap svg{width: 17px;height: 17px;font-size: 17px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-search-form__input{background-color: #ECEEEF;border: 0;border-radius: 0px;margin: 0;outline: unset;padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container{border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;border-style: none;outline: unset;box-shadow: 0px 0px    ;transition: all .5s;width: 100%;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{background-color: #ECEEEF;padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}.uagb-block-188fea4d.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit{background-color: #9d9d9d;}@media only screen and (max-width: 976px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}@media only screen and (max-width: 767px) {.uagb-block-188fea4d .uagb-search-wrapper .uagb-search-form__container .uagb-search-form__input{padding-top: 15px;padding-bottom: 15px;padding-right: 13px;padding-left: 13px;}.uagb-block-188fea4d .uagb-search-form__container .uagb-wp-search-icon-wrap{padding-top: 15px;padding-bottom: 15px;padding-left: 13px;}}</style>
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2020/09/logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2020/09/logo.png">
@@ -93,16 +181,13 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
   gtag('js', new Date());
 
   gtag('config', 'UA-161935417-3');</script>
-<body class="home page-template-default page page-id-5925 wp-custom-logo has-sidebar has-header-image">
+<body class="archive category category-espeink category-31 wp-custom-logo has-sidebar has-header-image">
 <div id="page" class="hfeed site">
 		<div id="widgets-wrapper" class="hide">
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -141,294 +226,1245 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 	</header><!-- #masthead -->
 	
 	<div id="content" class="site-content">
-	<div id="primary" class="content-area">
+	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			
-				
-<article id="post-5925" class="post-5925 page type-page status-publish hentry">
-	<div class="entry-wrapper">
 		
+			<header class="page-header">
+				<h1 class="page-title">カテゴリー: <span>espeink</span>
+</h1>			</header><!-- .page-header -->
+
+						
+				
+<article id="post-1973" class="post-1973 post type-post status-publish format-standard hentry category-aliexpress category-c category-espeink category-orangepi category-orangepipc">
+	<div class="entry-wrapper">
+
+
+
 		<header class="entry-header">
-			<h1 class="entry-title">ゆっくり、していってね！</h1>		</header><!-- .entry-header -->
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2016/01/02/post-1973.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2016-01-02T02:56:05+09:00">2016年1月2日</time></a> </span><span class="posted-on">更新日:2016年1月2日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/c/" rel="category tag noopener noreferrer" data-wpel-link="internal">C</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/orangepi/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePi</a>, <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2016/01/02/post-1973.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">1us Lチカ</a></h1>					</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div">
-<div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
-<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div>
-</div>
-<div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div" style="font-size:13px;"><div class="w_b_quote w_b_div">
-<p class="has-normal-font-size">2024年もベトナムを拠点に活動しています。</p>
-</div></div></div></div>
-</div>
-</div></div></div>
+			<p>2016年 謹賀新年、あけましておめでとうございます。おせち料理も31日と1日で食べつくしてしまいました。</p>
+<p>さて、今年最初のブログですね。0.000001秒のLチカをロジックアナライザーでモニタリングして光らせてみました。</p>
+<p>あと、オレンジパイで、8本のGPIO を使って安価なロジックアナライザーで採取できるかも確認してみました。</p>
+<p>&#160;</p>
+<p>サンプルプログラムを採取したデータが以下です。8本分は取れていますが、速すぎるところは取りこぼしているようです。</p>
+<p><img fetchpriority="high" decoding="async" title="1" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1" src="/wp-content/uploads/2016/01/1.png" width="640" height="319"> </p>
+<p>矢印は500ns で光っている部分で採取に失敗し、取りこぼす事がありました。このあたりが2Mhz の限界なんですね。今のファームウェアとソフトウェアだとこれが限界のようです。</p>
+<p><img decoding="async" title="2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2" src="/wp-content/uploads/2016/01/2.png" width="640" height="320"> </p>
+<p>複数のLED は、blink ファンクションにて光らせていますが、呼び出しと初期化の処理で250us 程度使っているようです。</p>
+<p><img decoding="async" title="3" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="3" src="/wp-content/uploads/2016/01/3.png" width="640" height="320"> </p>
+<p>usleep 関数を使っても思ったより、処理に時間がかかるようです。1us を指定して光らせているんですが、実際は69us 光っています。nanosleep を使っても66us は使われてしまうようで、1us を光らせる為にwhile で調整してみました。</p>
+<p><img loading="lazy" decoding="async" title="4" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="4" src="/wp-content/uploads/2016/01/4.png" width="640" height="319"> </p>
+<p>サンプルのプログラムは以下です。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">/*
+ *  +-----+-----+----------+------+---+--OrangePiPC--+---+------+---------+-----+--+
+ *  | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
+ *  +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
+ *  |     |     |     3.3v |      |   |  1 || 2  |   |      | 5v       |     |     |
+ *  |   2 |  -1 |    SDA.0 |      |   |  3 || 4  |   |      | 5V       |     |     |
+ *  |   3 |  -1 |    SCL.0 |      |   |  5 || 6  |   |      | 0v       |     |     |
+ *  |   4 |   6 | IO6 PA06 |  OUT | 0 |  7 || 8  |   |      | TxD3     |     |     |
+ *  |     |     |       0v |      |   |  9 || 10 |   |      | RxD3     |     |     |
+ *  |  17 |  -1 |     RxD2 |      |   | 11 || 12 | 0 | OUT  | IO1 PD14 | 1   | 18  |
+ *  |  27 |  -1 |     TxD2 |      |   | 13 || 14 |   |      | 0v       |     |     |
+ *  |  22 |  -1 |     CTS2 |      |   | 15 || 16 | 0 | OUT  | IO4 PC04 | 4   | 23  |
+ *  |     |     |     3.3v |      |   | 17 || 18 | 0 | OUT  | IO5 PC07 | 5   | 24  |
+ *  |  10 |  -1 |     MOSI |      |   | 19 || 20 |   |      | 0v       |     |     |
+ *  |   9 |  -1 |     MISO |      |   | 21 || 22 |   |      | RTS2     |     |     |
+ *  |  11 |  -1 |     SCLK |      |   | 23 || 24 |   |      | SPI-CE0  |     |     |
+ *  |     |     |       0v |      |   | 25 || 26 |   |      | CE1      |     |     |
+ *  |   0 |  -1 |    SDA.1 |      |   | 27 || 28 |   |      | SCL.1    |     |     |
+ *  |   5 |   7 |  IO7 PA7 |  OUT | 0 | 29 || 30 |   |      | 0v       |     |     |
+ *  |   6 |   8 |  IO8 PA8 |  OUT | 0 | 31 || 32 | 0 | OUT  | IO9 PG08 | 9   | 12  |
+ *  |  13 |  10 | IO10 PA9 |  OUT | 0 | 33 || 34 |   |      | 0v       |     |     |
+ *  |  19 |  12 | IO12PA10 |  OUT | 0 | 35 || 36 | 0 | OUT  | IO13PG09 | 13  | 16  |
+ *  |  26 |  14 | IO14PA20 | ALT3 | 0 | 37 || 38 | 0 | OUT  | IO15PG06 | 15  | 20  |
+ *  |     |     |       0v |      |   | 39 || 40 | 0 | OUT  | IO16PG07 | 16  | 21  |
+ *  +-----+-----+----------+------+---+----++----+---+------+----------+-----+-----+
+ *  | BCM | wPi |   Name   | Mode | V | Physical | V | Mode | Name     | wPi | BCM |
+ *  +-----+-----+----------+------+---+--OrangePIPC--+------+----------+-----+-----+
+ *         ^^^^ Pin NO                                                   ^^^^ Pin NO
+ * 1us LED blink.
+ * building ex) gcc -lwiringPi -lpthread -I/usr/local/include -L/usr/local/lib -levent -o 2016blinkall 2016blinkall.c
+ * 
+ *
+*/
+#include &lt;sys/time.h&gt;
+#include &lt;time.h&gt;
+#include &lt;unistd.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;wiringPi.h&gt;
 
+#define MSEC 1
+#define USEC 33
+#define NANOSEC 1000
 
+int blink2(int led, int delay);
 
-<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div">
-<div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div">
-<div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewbox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "></polygon></svg></div>
-<div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div"><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
-<p>もうすぐ１年じゃないの？　慣れたかしら？</p>
-</div></div></div></div>
-</div>
-<div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div">
-<div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div">
-<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img">
-</div></div></div>
-<div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div>
-</div>
-</div></div></div>
+int main (void)
+{
+  int led;
+  int i = 0;
 
+  while (i &lt; 3)
+  {
+    blink2(16, 1000);
+      blink2(15, 1000); //Next blink 250 us
+      blink2(13, 1000);
+      blink2(9, 1000);
+      blink2(5, 1000);
+      blink2(4, 1000);
+      blink2(1, 1000);
+      blink2(6, 1000);
 
+    i++;
+  }
 
-<p> </p>
+  delay (MSEC);
+  return 0;
+}
 
+int blink2(int led, int delay){
+    // unsigned int usecs;
+    // usecs = delay;
+    // sec = delay;
+    led = led;
+    int i = 0;
 
+    // nano sec
+    struct timespec nano;
+    nano.tv_sec = 0;
+    nano.tv_nsec = delay;
 
-<h3 class="wp-block-heading">最近のブログネタです！</h3>
+    wiringPiSetup () ;
+    pinMode (led, OUTPUT) ;
 
+    digitalWrite (led, HIGH) ;
+    nanosleep(&amp;nano, NULL); // 66us
+    // usleep (usecs) ; // 66us
+    // delay (delay);
+    digitalWrite (led,  LOW) ;
+    usleep (1);
 
-			<div class="
-			wp-block-uagb-post-timeline uagb-timeline__outer-wrap uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62    uagb-timeline__arrow-center uagb-timeline__center-block uagb_timeline__cta-enable uagb-timeline uagb-timeline__content-wrap			uagb-timeline__arrow-center uagb-timeline__center-block uagb_timeline__cta-enable uagb-timeline uagb-timeline__content-wrap			">
-											<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2024-03-01T00:00:55+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2024.03.01			</div>
-														<a class="uagb-timeline__image" href="/2024/03/01/post-11736.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2024/02/Cotomo.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2024/02/Cotomo.png 800w, /wp-content/uploads/2024/02/Cotomo-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2024/03/01/post-11736.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">iosのアプリCotomo(コトモ)がやばい！</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2024/03/01/post-11736.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2024-03-01T00:00:55+09:00" class="uagb-timeline__date-new">
-				2024.03.01			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2024-02-22T11:55:38+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2024.02.22			</div>
-														<a class="uagb-timeline__image" href="/2024/02/22/post-11712.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2024/02/AI-Engine.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2024/02/AI-Engine.png 800w, /wp-content/uploads/2024/02/AI-Engine-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2024/02/22/post-11712.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2024/02/22/post-11712.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2024-02-22T11:55:38+09:00" class="uagb-timeline__date-new">
-				2024.02.22			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2024-02-02T11:50:19+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2024.02.02			</div>
-														<a class="uagb-timeline__image" href="/2024/02/02/ai_engine_for_wordpress.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2024/02/sp_mac.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2024/02/sp_mac.png 800w, /wp-content/uploads/2024/02/sp_mac-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2024/02/02/ai_engine_for_wordpress.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">Surface ProのHackintoshが欲しい！</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2024/02/02/ai_engine_for_wordpress.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2024-02-02T11:50:19+09:00" class="uagb-timeline__date-new">
-				2024.02.02			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2023-07-30T22:25:45+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2023.07.30			</div>
-														<a class="uagb-timeline__image" href="/2023/07/30/post-11538.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2023/07/tnt125.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2023/07/tnt125.png 800w, /wp-content/uploads/2023/07/tnt125-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2023/07/30/post-11538.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">ベトナムでTNT125が激安・レビュー</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2023/07/30/post-11538.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2023-07-30T22:25:45+09:00" class="uagb-timeline__date-new">
-				2023.07.30			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2023-07-24T05:57:02+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2023.07.24			</div>
-														<a class="uagb-timeline__image" href="/2023/07/24/post-11451.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2023/07/HCM-food.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2023/07/HCM-food.png 800w, /wp-content/uploads/2023/07/HCM-food-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2023/07/24/post-11451.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">ベトナム・ホーチミンのご飯が安くて美味しすぎる！</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2023/07/24/post-11451.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2023-07-24T05:57:02+09:00" class="uagb-timeline__date-new">
-				2023.07.24			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2022-06-15T00:50:57+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2022.06.15			</div>
-														<a class="uagb-timeline__image" href="/2022/06/15/post-11399.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2022/06/voice-ctl.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2022/06/voice-ctl.png 800w, /wp-content/uploads/2022/06/voice-ctl-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2022/06/15/post-11399.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">音声認識のやることリストで遊んでみた</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2022/06/15/post-11399.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2022-06-15T00:50:57+09:00" class="uagb-timeline__date-new">
-				2022.06.15			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__right">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-right uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2022-05-31T23:12:36+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2022.05.31			</div>
-														<a class="uagb-timeline__image" href="/2022/05/31/post-11358.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2022/05/goat-eos.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2022/05/goat-eos.png 800w, /wp-content/uploads/2022/05/goat-eos-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2022/05/31/post-11358.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2022/05/31/post-11358.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2022-05-31T23:12:36+09:00" class="uagb-timeline__date-new">
-				2022.05.31			</div>
-											</article>
-						<article class="uagb-timeline__field  uagb-timeline__left">
-								<div class="uagb-timeline__marker uagb-timeline__out-view-icon">
-				<span class="uagb-timeline__icon-new uagb-timeline__out-view-icon">				<svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 512 512"><path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path></svg>
-				</span>
-			</div>
-								<div class="uagb-timeline__day-new uagb-timeline__day-left uagb-timeline__events-inner-new">
-						<div class="uagb-timeline__events-inner--content">
-											<div datetime="2022-05-22T08:55:13+09:00" class="uagb-timeline__date-hide uagb-timeline__inner-date-new">
-				2022.05.22			</div>
-														<a class="uagb-timeline__image" href="/2022/05/22/post-11270.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2022/05/tatebu-1.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2022/05/tatebu-1.png 800w, /wp-content/uploads/2022/05/tatebu-1-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px">				</a>
-																			<h4 class="uagb-timeline__heading">
-					<a href="/2022/05/22/post-11270.html" target="_self" rel="noopener noreferrer" data-wpel-link="internal">縦書きでブログを書いてみることに</a>
-				</h4>
-										<div class="uagb-timeline__link_parent wp-block-button">
-				<a class="uagb-timeline__link wp-block-button__link" href="/2022/05/22/post-11270.html" target="_self" rel=" noopener noreferrer" data-wpel-link="internal">…読む?</a>
-			</div>
-											<div class="uagb-timeline__arrow"></div>
-						</div>
-					</div>
-														<div datetime="2022-05-22T08:55:13+09:00" class="uagb-timeline__date-new">
-				2022.05.22			</div>
-											</article>
-										<div class="uagb-timeline__line">
-					<div class="uagb-timeline__line__inner"></div>
-				</div>
-			</div>
-			
+    digitalWrite (led, HIGH) ;
 
+    // 1us
+    while (i &lt; 100)
+    {
+        i++;
+    }
+    digitalWrite (led,  LOW) ;
+    usleep (1); // 66us
 
-<hr class="wp-block-separator has-css-opacity is-style-wide">
-
-
-<div class="wp-block-image is-style-rounded">
-<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="276" height="276" src="/wp-content/uploads/2023/07/kao.jpg" alt="" class="wp-image-11477" style="width:96px;height:96px"></figure>
-</div>
-
-
-<p>こんにちは！　このブログを書いているジャンクハックです。中の人は、ベトナム・ホーチミンからリモートワークしています。しばらく、このブログはスマホの中でWordPressとして動いていましたが、今はvercelで静的HTML運用しています。コンテンツ管理はWordPressを利用しています。</p>
-
-
-
-<p class="has-text-align-right">Jun k Hack</p>
-
-
-
-<hr class="wp-block-separator has-css-opacity is-style-wide">
-
-
-
-<div class="wp-block-group alignfull has-contrast-color has-text-color is-vertical is-content-justification-center is-layout-flex wp-container-core-group-layout-1 wp-block-group-is-layout-flex" style="min-height:40vh;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">
-<div style="margin-bottom:6px;" class="is-default-size aligncenter wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home noopener noreferrer" aria-current="page" data-wpel-link="internal"><img loading="lazy" decoding="async" width="296" height="146" src="/wp-content/uploads/2020/09/logo.png" class="custom-logo" alt="JunkHack"></a></div>
-
-
-<p class="has-text-align-center has-medium-font-size"><em>Copyleft &#8211; all rights reversed.&nbsp;|&nbsp;JunkHack 2011 &#8211; 2024</em></p>
-
-
-
-<ul class="wp-block-social-links has-normal-icon-size is-style-logos-only is-nowrap is-layout-flex wp-container-core-social-links-layout-1 wp-block-social-links-is-layout-flex">
-<li class="wp-social-link wp-social-link-facebook  wp-block-social-link"><a href="https://www.facebook.com/ishizakatakehiko" class="wp-block-social-link-anchor wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Facebook</span><span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
-
-<li class="wp-social-link wp-social-link-twitter  wp-block-social-link"><a href="https://twitter.com/JunkHack" class="wp-block-social-link-anchor wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Twitter</span><span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
-
-<li class="wp-social-link wp-social-link-wordpress  wp-block-social-link"><a href="https://profiles.wordpress.org/pw/" class="wp-block-social-link-anchor wpel-icon-right" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12.158,12.786L9.46,20.625c0.806,0.237,1.657,0.366,2.54,0.366c1.047,0,2.051-0.181,2.986-0.51 c-0.024-0.038-0.046-0.079-0.065-0.124L12.158,12.786z M3.009,12c0,3.559,2.068,6.634,5.067,8.092L3.788,8.341 C3.289,9.459,3.009,10.696,3.009,12z M18.069,11.546c0-1.112-0.399-1.881-0.741-2.48c-0.456-0.741-0.883-1.368-0.883-2.109 c0-0.826,0.627-1.596,1.51-1.596c0.04,0,0.078,0.005,0.116,0.007C16.472,3.904,14.34,3.009,12,3.009 c-3.141,0-5.904,1.612-7.512,4.052c0.211,0.007,0.41,0.011,0.579,0.011c0.94,0,2.396-0.114,2.396-0.114 C7.947,6.93,8.004,7.642,7.52,7.699c0,0-0.487,0.057-1.029,0.085l3.274,9.739l1.968-5.901l-1.401-3.838 C9.848,7.756,9.389,7.699,9.389,7.699C8.904,7.67,8.961,6.93,9.446,6.958c0,0,1.484,0.114,2.368,0.114 c0.94,0,2.397-0.114,2.397-0.114c0.485-0.028,0.542,0.684,0.057,0.741c0,0-0.488,0.057-1.029,0.085l3.249,9.665l0.897-2.996 C17.841,13.284,18.069,12.316,18.069,11.546z M19.889,7.686c0.039,0.286,0.06,0.593,0.06,0.924c0,0.912-0.171,1.938-0.684,3.22 l-2.746,7.94c2.673-1.558,4.47-4.454,4.47-7.771C20.991,10.436,20.591,8.967,19.889,7.686z M12,22C6.486,22,2,17.514,2,12 C2,6.486,6.486,2,12,2c5.514,0,10,4.486,10,10C22,17.514,17.514,22,12,22z"></path></svg><span class="wp-block-social-link-label screen-reader-text">WordPress</span><span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
-</ul>
-</div>
+    digitalWrite (led, HIGH) ;
+    // 500 ns
+    digitalWrite (led,  LOW) ;
+}</pre>
+<p>GPIO の8本を同時に処理させるにはどうしたらいいんでしょうかね。マルチスレッド処理ですかね？シフトレジスタに投げて、一括処理とかですかね？</p>
+<p>&#160;</p>
+<p>前ちょっと触ったイベント処理のlibevent とかを使うとどのくらいの精度になるんでしょうかね。いろいろ疑問がわいてきます。</p>
+<p>E-ink を表示するためにはまだまだ超えないといけない山がたくさんあるようです。</p>
+<p>なんとか、春までには表示したいんですが。こつこつとやっていきます。</p>
 					</div>
 <!-- .entry-content -->
-		<footer class="entry-footer">
-					</footer><!-- .entry-footer -->
-	</div>
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
 <!-- .entry-wrapper -->
 </article><!-- #post-## -->
 
-				
 			
+				
+<article id="post-1946" class="post-1946 post type-post status-publish format-standard hentry category-aliexpress category-c category-espeink category-orangepi category-orangepipc category-parts">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/12/27/post-1946.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-27T21:26:13+09:00">2015年12月27日</time></a> </span><span class="posted-on">更新日:2015年12月27日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/c/" rel="category tag noopener noreferrer" data-wpel-link="internal">C</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/orangepi/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePi</a>, <a href="/category/orangepipc/" rel="category tag noopener noreferrer" data-wpel-link="internal">OrangePiPC</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/12/27/post-1946.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">FX2LP でsigrok のロジックアナライザー</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>年末で、何かとイベントごとがあってなかなかブログを更新できずにいました。</p>
+<p>Aliexpress からもどんどんお品が届いて、ロジックアナライザーとして使うボードも到着しました。テストがてら、OrangePi PC の GPIO につないだLED のタイミングを計測してみること。</p>
+<p>配線は、とりあえず1チャンネルでテスト。全部で8チャンネルいけます。</p>
+<p><img loading="lazy" decoding="async" title="logic2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic2" src="/wp-content/uploads/2015/12/logic2.jpg" width="640" height="480"> </p>
+<p>ちょっとわかりにくいですが、PB0 ～ PB7 までの端子が sigrok でいう0から7 までに対応しています。とりあえず今回はPB0 の端子につないで1チャンネルの表示をしてみました。</p>
+<p><img loading="lazy" decoding="async" title="PulseView1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PulseView1" src="/wp-content/uploads/2015/12/pulseview1.png" width="640" height="445"> </p>
+
+<p>全体のテスト配線は以下のような感じです。</p>
+<p>&#160;</p>
+<p> <img loading="lazy" decoding="async" title="logic" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="logic" src="/wp-content/uploads/2015/12/logic.jpg" width="640" height="480">   </p>
+<p>osx だと sigrok のソフトウェアの中にファームウェアがあります。最新のファームウェアは、以下にビルド済みのものがあります。</p>
+<blockquote>
+<p>fx2lafw (pre-built firmware files の項を参照)      <br><a title="http://sigrok.org/wiki/Fx2lafw" href="http://sigrok.org/wiki/Fx2lafw" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="http://sigrok.org/wiki/Fx2lafw">http://sigrok.org/wiki/Fx2lafw<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>つい先月にリリースされている0.1.3 を使いました。</p>
+<blockquote>
+<p>sigrok-firmware-fx2lafw-bin-0.1.3.tar.gz</p>
+<p><a title="http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/" href="http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right"></a><a href="http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/">http://sigrok.org/download/binary/sigrok-firmware-fx2lafw/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>ほどよく、配置。*.fw がファームウェアです。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">HOPE:sigrok-firmware junkhack$ pwd
+/Applications/PulseView.app/Contents/share/sigrok-firmware
+HOPE:sigrok-firmware junkhack$ ll
+total 1088
+-rw-r--r--@ 1 junkhack  admin  45268 11  3  2014 asix-sigma-100.fw
+-rw-r--r--@ 1 junkhack  admin  45396 11  3  2014 asix-sigma-200.fw
+-rw-r--r--@ 1 junkhack  admin  45396 11  3  2014 asix-sigma-50.fw
+-rw-r--r--@ 1 junkhack  admin  45360 11  3  2014 asix-sigma-50sync.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-braintechnology-usb-lps.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cwav-usbeeax.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cwav-usbeedx.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cwav-usbeesx.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-cypress-fx2.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-saleae-logic.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-sigrok-fx2-16ch.fw
+-rw-r--r--@ 1 junkhack  admin   8120 11 27 09:09 fx2lafw-sigrok-fx2-8ch.fw
+-rw-r--r--@ 1 junkhack  admin  81808 11  3  2014 sysclk-lwla1034-extneg.rbf
+-rw-r--r--@ 1 junkhack  admin  81808 11  3  2014 sysclk-lwla1034-extpos.rbf
+-rw-r--r--@ 1 junkhack  admin  81460 11  3  2014 sysclk-lwla1034-int.rbf
+-rw-r--r--@ 1 junkhack  admin  48521 11  3  2014 sysclk-lwla1034-off.rbf
+HOPE:sigrok-firmware junkhack$ </pre>
+
+<p>sigrok の PluseView を開きます。</p>
+<p>現在、手元でビルドしていないので、ELIAS さんのビルドしたものです。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1824" class="post-1824 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-pcb">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/12/04/post-1824.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-04T19:06:19+09:00">2015年12月4日</time></a> </span><span class="posted-on">更新日:2015年12月4日</span> <span class="categories">  <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/pcb/" rel="category tag noopener noreferrer" data-wpel-link="internal">PCB</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/12/04/post-1824.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">開発ボードがコハクラフトさんより到着</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p><a href="http://kohacraft.com/tag/%E9%9B%BB%E5%AD%90%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">kohacraft<span class="wpel-icon wpel-image wpel-icon-1"></span></a>さんよりE-ink の開発ボードが到着しました。ありがとうございます。</p>
+<p><a href="/wp-content/uploads/2015/12/a3.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/12/a_thumb1.jpg" width="640" height="480"></a></p>
+<p>PINヘッダーがあるので、自由に信号を入れ放題！電源部は、LT1945 から供給。コイルは、Coilcraft</p>
+<p><a href="/wp-content/uploads/2015/12/b1.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="b" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="b" src="/wp-content/uploads/2015/12/b_thumb1.jpg" width="640" height="480"></a></p>
+<p>さぁ、うまく表示できるでしょうか。</p>
+<p><a href="/wp-content/uploads/2015/12/scan21.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="Scan 2" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Scan 2" src="/wp-content/uploads/2015/12/scan2_thumb.png" width="638" height="563"></a>実験にあたり、まだ下準備が整っていないのでそこから着手しないとです。</p>
+<p>まずは、ESP8266 から信号を入れるため、ESP側の開発ボードの半田付けをして、シフトレジスターを用意する作業があります。 ご飯食べて、気力を回復させてから、本日は何か１つ作業を進めたいです。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1811" class="post-1811 post type-post status-publish format-standard hentry category-espeink category-raspberry-pi">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/12/04/post-1811.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-04T06:28:35+09:00">2015年12月4日</time></a> </span><span class="posted-on">更新日:2015年12月4日</span> <span class="categories">  <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/raspberry-pi/" rel="category tag noopener noreferrer" data-wpel-link="internal">Raspberry Pi</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/12/04/post-1811.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">RasPi2 でCの王道？ WiringPi</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>とりあえず、RasPi でC を検索したら一番最初にヒットしたので、これで。</p>
+<blockquote>
+<p>オフィシャル     <br><a title="http://wiringpi.com/" href="http://wiringpi.com/" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://wiringpi.com/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>GITHUB</p>
+<p><a title="https://github.com/WiringPi" href="https://github.com/WiringPi" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">https://github.com/WiringPi<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>Ruby や PHP やPython などのラッパーもあるようです。とりあえず、c で。</p>
+<p>&#160;</p>
+<p>インストールは、INSTALL か、オフィシャルサイトのドキュメントのように。build スクリプトがあります。</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi wiringPi 12/04 05:34:23]# ./build 
+wiringPi Build script
+=====================
+
+
+WiringPi Library
+[UnInstall]
+[Compile] wiringPi.c
+[Compile] wiringSerial.c
+[Compile] piHiPri.c
+[Compile] wiringShift.c
+[Compile] piThread.c
+[Compile] wiringPiSPI.c
+[Compile] softPwm.c
+[Compile] wiringPiI2C.c
+[Compile] softTone.c
+[Compile] mcp23008.c
+[Compile] mcp23016.c
+[Compile] mcp23017.c
+[Compile] mcp23s08.c
+[Compile] mcp23s17.c
+[Compile] pcf8574.c
+[Compile] sr595.c
+[Compile] mcp3002.c
+[Compile] pcf8591.c
+[Compile] mcp3004.c
+[Compile] mcp4802.c
+[Compile] mcp3422.c
+[Compile] max31855.c
+[Compile] max5322.c
+[Compile] sn3218.c
+[Compile] drcSerial.c
+[Compile] wpiExtensions.c
+[Link (Dynamic)]
+[Install Headers]
+[Install Dynamic Lib]
+
+WiringPi Devices Library
+[UnInstall]
+[Compile] ds1302.c
+[Compile] maxdetect.c
+[Compile] piNes.c
+[Compile] gertboard.c
+[Compile] piFace.c
+[Compile] lcd128x64.c
+[Compile] lcd.c
+[Compile] piGlow.c
+[Link (Dynamic)]
+[Install Headers]
+[Install Dynamic Lib]
+
+GPIO Utility
+[Compile] gpio.c
+[Compile] readall.c
+[Compile] pins.c
+[Link]
+[Install]
+
+All Done.
+
+NOTE: To compile programs with wiringPi, you need to add:
+    -lwiringPi
+  to your compile line(s) To use the Gertboard, MaxDetect, etc.
+  code (the devLib), you need to also add:
+    -lwiringPiDev
+  to your compile line(s).
+
+[root@pi wiringPi 12/04 05:38:22]# gpio -v
+gpio version: 2.31
+Copyright (c) 2012-2015 Gordon Henderson
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type: gpio -warranty
+
+Raspberry Pi Details:
+  Type: Pi 2, Revision: 01, Memory: 1024MB, Maker: Embest 
+  Device tree is enabled.
+  * Root or sudo required for GPIO access.
+[root@pi wiringPi 12/04 05:38:41]# </pre>
+<p>こんな感じになりました。</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi wiringPi 12/04 05:38:45]# gpio -v
+gpio version: 2.31
+Copyright (c) 2012-2015 Gordon Henderson
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type: gpio -warranty
+
+Raspberry Pi Details:
+  Type: Pi 2, Revision: 01, Memory: 1024MB, Maker: Embest 
+  Device tree is enabled.
+  * Root or sudo required for GPIO access.
+[root@pi wiringPi 12/04 05:38:46]# </pre>
+<p>というバージョンを使っています。Gordon Hendersonさんが作られてたようです。感謝。</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi work 12/04 06:17:08]# gpio -warranty
+gpio version: 2.31
+Copyright (c) 2012-2015 Gordon Henderson
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU Leser General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+[root@pi work 12/04 06:17:14]# </pre>
+<p>とりあえず、使ってみます。</p>
+<p><img loading="lazy" decoding="async" title="a" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="a" src="/wp-content/uploads/2015/12/a2.jpg" width="584" height="778"> </p>
+<p>いつもPIN番号を忘れて検索します。貼り付けておくことに。ラズパイのピン。</p>
+<p><img loading="lazy" decoding="async" title="Raspberry-Pi-GPIO-compressed" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="Raspberry-Pi-GPIO-compressed" src="/wp-content/uploads/2015/12/raspberrypigpiocompressed.jpg" width="640" height="463"> </p>
+<p>コードは以下。</p>
+<pre class="brush: cpp; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">// Include header file
+#include &lt;wiringPi.h&gt;
+
+// Define GPIO21 number
+#define LED 21
+
+// Main function
+int main(void) {
+        int i;
+
+        // Initialize WiringPi
+        if(wiringPiSetupGpio() == -1) return 1;
+
+        // Set GPIO pin to output mode
+        pinMode(LED, OUTPUT);
+
+        // Repeat LED blinking 10 times
+        for(i=0; i&lt;100; i++){
+                digitalWrite(LED, 0);
+                delay(100);
+                digitalWrite(LED, 1);
+                delay(100);
+        }
+
+        // Turn off LED
+        digitalWrite(LED, 0);
+
+        return 0;
+}</pre>
+<p>コンパイル、実行。</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[pi@pi work]$ gcc -o blink blink.c -lwiringPi
+[pi@pi work]$ sudo ./blink</pre>
+<p>終了すると、プロンプトに戻ります。RasPi のGPIOはたくさんあるので、同時にいくつ使えるんでしょうね。</p>
+<p>&#160;</p>
+<p>シフトレジスターを経由しなくても、今回、15本のGPIOを使えればよさそうですが、</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi work 12/04 06:26:32]# gpio readall
+ +-----+-----+---------+------+---+---Pi 2---+---+------+---------+-----+-----+
+ | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
+ +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
+ |     |     |    3.3v |      |   |  1 || 2  |   |      | 5v      |     |     |
+ |   2 |   8 |   SDA.1 | ALT0 | 1 |  3 || 4  |   |      | 5V      |     |     |
+ |   3 |   9 |   SCL.1 | ALT0 | 1 |  5 || 6  |   |      | 0v      |     |     |
+ |   4 |   7 | GPIO. 7 |   IN | 1 |  7 || 8  | 1 | ALT0 | TxD     | 15  | 14  |
+ |     |     |      0v |      |   |  9 || 10 | 1 | ALT0 | RxD     | 16  | 15  |
+ |  17 |   0 | GPIO. 0 |   IN | 0 | 11 || 12 | 0 | IN   | GPIO. 1 | 1   | 18  |
+ |  27 |   2 | GPIO. 2 |   IN | 0 | 13 || 14 |   |      | 0v      |     |     |
+ |  22 |   3 | GPIO. 3 |   IN | 0 | 15 || 16 | 0 | IN   | GPIO. 4 | 4   | 23  |
+ |     |     |    3.3v |      |   | 17 || 18 | 0 | IN   | GPIO. 5 | 5   | 24  |
+ |  10 |  12 |    MOSI | ALT0 | 0 | 19 || 20 |   |      | 0v      |     |     |
+ |   9 |  13 |    MISO | ALT0 | 0 | 21 || 22 | 0 | OUT  | GPIO. 6 | 6   | 25  |
+ |  11 |  14 |    SCLK | ALT0 | 0 | 23 || 24 | 1 | ALT0 | CE0     | 10  | 8   |
+ |     |     |      0v |      |   | 25 || 26 | 1 | ALT0 | CE1     | 11  | 7   |
+ |   0 |  30 |   SDA.0 |   IN | 1 | 27 || 28 | 1 | IN   | SCL.0   | 31  | 1   |
+ |   5 |  21 | GPIO.21 |   IN | 1 | 29 || 30 |   |      | 0v      |     |     |
+ |   6 |  22 | GPIO.22 |   IN | 1 | 31 || 32 | 0 | IN   | GPIO.26 | 26  | 12  |
+ |  13 |  23 | GPIO.23 |   IN | 0 | 33 || 34 |   |      | 0v      |     |     |
+ |  19 |  24 | GPIO.24 |   IN | 0 | 35 || 36 | 0 | IN   | GPIO.27 | 27  | 16  |
+ |  26 |  25 | GPIO.25 |   IN | 0 | 37 || 38 | 0 | IN   | GPIO.28 | 28  | 20  |
+ |     |     |      0v |      |   | 39 || 40 | 0 | OUT  | GPIO.29 | 29  | 21  |
+ +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
+ | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
+ +-----+-----+---------+------+---+---Pi 2---+---+------+---------+-----+-----+
+[root@pi work 12/04 06:26:33]# </pre>
+<p>このテーブルのwPi というのがアサインされている番号ですかね。</p>
+<p>マニュアルだと、以下のようです。1 でON（点灯） 0でOFF（消灯）</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi work 12/04 06:32:40]# gpio -g write 21 1 
+[root@pi work 12/04 06:33:56]# gpio -g write 21 0</pre>
+<p>とりあえず、使えそうですね。あとは、プログラムの問題となります。さぁて、本日金曜日。お仕事終わればまた開発タイムです。</p>
+<p>examples ディレクトリに参考コードがたくさんあります。</p>
+<pre class="brush: bash; gutter: false; toolbar: false; collapse: true; auto-links: false; smart-tabs: false;">[root@pi examples 12/04 06:41:26]# pwd
+/home/pi/wiringPi/examples
+[root@pi examples 12/04 06:41:28]# 
+[root@pi examples 12/04 06:41:29]# tree
+.
+├── blink12.c
+├── blink12drcs.c
+├── blink6drcs.c
+├── blink8.c
+├── blink.c
+├── blink.rtb
+├── blink.sh
+├── clock.c
+├── COPYING.LESSER
+├── delayTest.c
+├── ds1302.c
+├── Gertboard
+│&#160;&#160; ├── 7segments.c
+│&#160;&#160; ├── buttons.c
+│&#160;&#160; ├── gertboard.c
+│&#160;&#160; ├── Makefile
+│&#160;&#160; ├── record.c
+│&#160;&#160; ├── temperature.c
+│&#160;&#160; ├── voltmeter.c
+│&#160;&#160; └── vumeter.c
+├── header.h
+├── isr.c
+├── isr-osc.c
+├── lcd-adafruit.c
+├── lcd.c
+├── lowPower.c
+├── Makefile
+├── max31855.c
+├── nes.c
+├── okLed.c
+├── PiFace
+│&#160;&#160; ├── blink.c
+│&#160;&#160; ├── buttons.c
+│&#160;&#160; ├── ladder.c
+│&#160;&#160; ├── Makefile
+│&#160;&#160; ├── metro.c
+│&#160;&#160; ├── motor.c
+│&#160;&#160; └── reaction.c
+├── PiGlow
+│&#160;&#160; ├── Makefile
+│&#160;&#160; ├── piGlow0.c
+│&#160;&#160; ├── piGlow1.c
+│&#160;&#160; └── piglow.c
+├── pwm.c
+├── q2w
+│&#160;&#160; ├── binary.c
+│&#160;&#160; ├── blink.c
+│&#160;&#160; ├── blink-io.c
+│&#160;&#160; ├── blink.sh
+│&#160;&#160; ├── bright.c
+│&#160;&#160; ├── button.c
+│&#160;&#160; ├── Makefile
+│&#160;&#160; └── volts.c
+├── README.TXT
+├── rht03.c
+├── serialRead.c
+├── serialTest.c
+├── servo.c
+├── softPwm.c
+├── softTone.c
+├── speed.c
+├── spiSpeed.c
+└── wfi.c
+
+4 directories, 59 files
+[root@pi examples 12/04 06:41:32]# </pre>
+<p>&#160;</p>
+<p>コハクラフトさんからも発送されたようで、土日にはなんらか楽しめそうです。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1793" class="post-1793 post type-post status-publish format-standard hentry category-esp8266 category-espeink category-parts">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/12/02/post-1793.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published updated" datetime="2015-12-02T00:09:58+09:00">2015年12月2日</time></a> </span><span class="posted-on">更新日:2015年12月2日</span> <span class="categories">  <a href="/category/esp8266/" rel="category tag noopener noreferrer" data-wpel-link="internal">ESP8266</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/12/02/post-1793.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">E-inkディスプレイでテスト準備</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>さて、年末に向けてE-ink を表示するテストが出来そうなので、その準備をしています。</p>
+<p>開発ボードは、ブログで先駆者がいらっしゃって、なんと開発ボードを分けていただくことになりました。ありがとうございます。</p>
+<blockquote>
+<p>kohacraftのblog      <br>タグ：電子ペーパー</p>
+</blockquote>
+<p>E-ink ディスプレイのコネクタはPCB上につけないと無理な配線なので、電源部とコネクタから構成される開発ボードを作られていました。こちらは、まだPCB作ってないのでテストできていない旨をブログでコメントしたところ、好意で開発ボードを分けていただくことになりました。コハクラフトさま、本当にありがとうございます。E-ink のPCB発注は来年かぁと思っていたので、年末に遊べそうです。</p>
+<p>&#160;</p>
+<p>以下の回路図は、sprite_tm さんのページにある手書きのものをトレースしたものです。配線するときの覚書としてメモしておくことに。</p>
+<p><a href="/wp-content/uploads/2015/12/2_schematic_eink.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="2_Schematic_e-ink" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="2_Schematic_e-ink" src="/wp-content/uploads/2015/12/2_schematic_eink_thumb.png" width="640" height="356"></a> ただいま、コハクラフト開発ルームにてハンドメイドで半田付けが行われている最中です。こちらは、シフトレジスタ部とESP側の準備をしています。そして、先に発注してあるロジックアナライザーも今年中に来ると思いますので、どんな手順を踏めば表示されるのかを解き明かしていきたいと思います。</p>
+<p>&#160;</p>
+<p>英語ソースでは先人がいるのですが、まだ要点がつかめず、ポイントの要になる部分がわかりません。コハクラフトさんのブログでいくつか解き明かされて、ソニーのdigital book reader PRS-600 本体にE-ink を挿げ替えても表示が可能だそうです。Sony のE-ink には、LB060S01-RD02 という型番のE-ink で、今回手持ちで流通している、ED060SC4(LF)を繋げても表示できるということがわかっています。上の回路図では、9pin , 10pin は繋がっていますが、そこはポイントではなさそうということが状況から言えそうです。</p>
+<p>要するに、E-ink に入れる信号のタイミングがポイントになることは間違いなさそうです。</p>
+<p>今回しょっぱなにテストしようとしているソースは、   <br><a title="https://github.com/take-i/espeink/blob/master/user/eink.c" href="https://github.com/take-i/espeink/blob/master/user/eink.c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/take-i/espeink/blob/master/user/eink.c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>で、各所にos_timer_armでタイミングをを取っている部分がいくつかあります。その関数を集約したものが、</p>
+<p><a title="https://github.com/take-i/espeink/blob/master/user/io.c" href="https://github.com/take-i/espeink/blob/master/user/io.c" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://github.com/take-i/espeink/blob/master/user/io.c<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p>にあり、ここにもタイミングとっている部分、os_delay_us がいくつかあります。このあたりをいじって、どのような挙動だと表示され、あるいは、されないのかという根本原理を探ってみたいと思います。</p>
+<p>&#160;</p>
+<p>果たして、以下の３つのページでは何を言おうとしているのか？</p>
+<blockquote>
+<p><a href="http://essentialscrap.com/eink/electronics.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/electronics.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://essentialscrap.com/eink/waveforms.html" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://essentialscrap.com/eink/waveforms.html<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<p><a href="http://spritesmods.com/?art=einkdisplay&amp;page=3" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">http://spritesmods.com/?art=einkdisplay&amp;page=3<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>読んでいるだけでは、いまいちピンときません。実機を交え、１つづつ噛み砕いてみたいと思います。そして、次のE-ink ディスプレイにも応用できるノウハウが得られればと思っています。一番やりたいのは、フレキシブルなE-ink への表示です。まだ、モノがこなれていないので、入手方法がわからずですが、数年経てば入手経路も確立されてくるだろうと思っています。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-1779" class="post-1779 post type-post status-publish format-standard hentry category-aliexpress category-espeink category-parts category-logic-analyzer">
+	<div class="entry-wrapper">
+
+
+
+		<header class="entry-header">
+					<span class="entry-format theme-genericon"></span>
+	
+			<div class="entry-meta">
+				<span class="posted-on">投稿日: <a href="/2015/11/29/post-1779.html" rel="bookmark noopener noreferrer" data-wpel-link="internal"><time class="entry-date published" datetime="2015-11-29T20:53:57+09:00">2015年11月29日</time><time class="updated" datetime="2021-02-20T08:36:07+09:00">2021年2月20日</time></a> </span><span class="posted-on">更新日:2021年2月20日</span> <span class="categories">  <a href="/category/aliexpress/" rel="category tag noopener noreferrer" data-wpel-link="internal">Aliexpress</a>, <a href="/category/espeink/" rel="category tag noopener noreferrer" data-wpel-link="internal">espeink</a>, <a href="/category/parts/" rel="category tag noopener noreferrer" data-wpel-link="internal">Parts</a>, <a href="/category/logic-analyzer/" rel="category tag noopener noreferrer" data-wpel-link="internal">ロジックアナライザ</a></span>			</div>
+<!-- .entry-meta -->
+
+							<h1 class="entry-title"><a href="/2015/11/29/post-1779.html" rel="bookmark noopener noreferrer" data-wpel-link="internal">ロジックアナライザーをゲット</a></h1>					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+<p>ESP8266で E-ink を表示させるために、信号解析用のロジックアナライザーが必要になりそうなので、安いものを探しました。</p>
+
+
+
+<p>以前、Logic Pirate （とLogic Snifferで動作）というのを知りましたが、</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="/2015/10/26/logic-pirate-%E3%81%A8%E3%81%84%E3%81%86%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%83%8A%E3%83%A9%E3%82%A4%E3%82%B6/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">Logic Pirate というオープンソースのロジックアナライザ</a></p></blockquote>
+
+
+
+<p>ハードが4500円（30ドル＋送料）ほどで、もう少し安いのはないかと調査すると、ありました。世の中は本当に広いものです。</p>
+
+
+
+<blockquote>
+<p><a href="http://www.lctech-inc.com/Hardware/Detail.aspx?id=7cadef7b-359a-4e3d-b980-76ffa15171e0" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">EZ-USB FX2LP CY7C68013A USB Development Board Core Board Logic Analyzer<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<figure><a href="/wp-content/uploads/2015/11/cy7c68013a.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="CY7C68013A" src="/wp-content/uploads/2015/11/cy7c68013a_thumb.jpg" alt="CY7C68013A" width="640" height="449" border="0"></a></figure>
+</blockquote>
+
+
+
+<p>これはaliexpress で1000円以下で売っています。ソフトウェアは、sigrok というオープンソースがあります。ということで、ポチっておきました。年末に来るといいな。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>追記：EZ-USB FX2LPでアリエクを検索すると、たくさんでてきます。2021年2月時点で、<strong>537</strong>円になっていました。</p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p>追記：とても良い映像コンテンツがあったので貼っておきます。@OpenTechLabChan さんのチャンネルです。</p></blockquote>
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><div class="lyte-wrapper" style="width:640px;max-width:100%;margin:5px auto;"><div class="lyMe hidef" id="WYL_dobU-b0_L1I">
+<div id="lyte_dobU-b0_L1I" data-src="https://hack.gpl.jp/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FdobU-b0_L1I%2Fhqdefault.jpg" class="pL">
+<div class="tC"><div class="tT"></div></div>
+<div class="play"></div>
+<div class="ctrl">
+<div class="Lctrl"></div>
+<div class="Rctrl"></div>
+</div>
+</div>
+<noscript><a href="https://youtu.be/dobU-b0_L1I" rel="nofollow external noopener noreferrer" data-wpel-link="external" target="_blank"><img loading="lazy" decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdobU-b0_L1I%2F0.jpg" alt="" width="640" height="340"><br>この動画を YouTube で視聴</a></noscript>
+</div></div>
+<div class="lL" style="max-width:100%;width:640px;margin:5px auto;"></div>
+<figcaption></figcaption></figure>
+
+
+<p></p>
+
+
+
+<blockquote>
+<p><a title="http://sigrok.org/wiki/Main_Page" href="http://sigrok.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://sigrok.org/wiki/Main_Page<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+<figure><a href="/wp-content/uploads/2015/11/sigrok_logo.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" style="display: inline; border-width: 0;" title="sigrok_logo" src="/wp-content/uploads/2015/11/sigrok_logo_thumb.png" alt="sigrok_logo" width="135" height="135" border="0"></a></figure>
+</blockquote>
+
+
+
+<p>Windows はバイナリがあり、osx は brew で入れるようで、試してみましたが、インストールに失敗するようで、そのメモです。windows バイナリ版は起動し、以下のようにデモ信号を見れます。最初の一台としては十分な機能のような気がします。</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="/wp-content/uploads/2015/11/windows7__running_.png" alt="Windows7__Running_" title="Windows7__Running_"></figure>
+
+
+
+<p>sigrok を osx で動作させるため、以下を参考。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="http://sigrok.org/wiki/Mac_OS_X" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://sigrok.org/wiki/Mac_OS_X<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>以下の流れですが、★でこけます。</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>1) $ brew tap rene-dev/sigrok</p>
+<p>2) $ brew install python3 <br>3) $ brew install &#8211;HEAD libserialport <br>★4) $ brew install &#8211;HEAD &#8211;with-libserialport libsigrok <br>5) $ brew install &#8211;HEAD libsigrokdecode <br>6) $ brew install &#8211;HEAD &#8211;with-libserialport sigrok-cli <br>7) $ brew install &#8211;HEAD pulseview</p>
+<p>8) $ brew install sigrok-cli</p>
+</blockquote>
+
+
+
+<p>ファームウェアは、以下のようです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>・fx2lafw open-source firmware <br><a href="http://sigrok.org/wiki/Fx2lafw" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">http://sigrok.org/wiki/Fx2lafw<span class="wpel-icon wpel-image wpel-icon-1"></span></a> <br>Lcsoft Mini Board (CY7C68013A)</p></blockquote>
+
+
+
+<p>以下、こける部分です。</p>
+
+
+
+<pre class="wp-block-preformatted brush: cpp; gutter: false; toolbar: collapse: true; auto-links: smart-tabs:">1) ------------------------------------------------------
+HOPE:~ junkhack$ brew tap rene-dev/sigrok
+==&gt; Tapping rene-dev/sigrok
+Cloning into '/usr/local/Library/Taps/rene-dev/homebrew-sigrok'...
+remote: Counting objects: 8, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 4), reused 2 (delta 0), pack-reused 0
+Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+Tapped 6 formulae (35 files, 144K)
+HOPE:~ junkhack$ 
+
+・何か入れてからじゃないとだめな感じ。
+8) ------------------------------------------------------
+HOPE:~ junkhack$ brew install sigrok-cli
+Error: Formulae found in multiple taps: 
+ * homebrew/science/sigrok-cli
+ * rene-dev/sigrok/sigrok-cli
+
+Please use the fully-qualified name e.g. homebrew/science/sigrok-cli to refer the formula.
+HOPE:~ junkhack$ 
+
+・python3 はもう入ってた
+2) ------------------------------------------------------
+HOPE:~ junkhack$ brew install python3
+Warning: python3-3.4.3_2 already installed
+HOPE:~ junkhack$ 
+
+・libserialport は入る
+3) ------------------------------------------------------
+HOPE:~ junkhack$ brew install --HEAD libserialport
+==&gt; Installing libserialport from rene-dev/homebrew-sigrok
+==&gt; Cloning git://sigrok.org/libserialport
+Cloning into '/Library/Caches/Homebrew/libserialport--git'...
+remote: Counting objects: 1036, done.
+remote: Compressing objects: 100% (870/870), done.
+remote: Total 1036 (delta 703), reused 249 (delta 165)
+Receiving objects: 100% (1036/1036), 245.95 KiB | 81.00 KiB/s, done.
+Resolving deltas: 100% (703/703), done.
+Checking connectivity... done.
+==&gt; Checking out branch master
+==&gt; ./autogen.sh
+==&gt; ./configure --prefix=/usr/local/Cellar/libserialport/HEAD
+==&gt; make install
+  /usr/local/Cellar/libserialport/HEAD: 9 files, 220K, built in 26 seconds
+HOPE:~ junkhack$ 
+
+・ここがこける
+4) ------------------------------------------------------
+HOPE:~ junkhack$ brew install --HEAD --with-libserialport libsigrok
+==&gt; Installing libsigrok from rene-dev/homebrew-sigrok
+==&gt; Installing dependencies for rene-dev/sigrok/libsigrok: libzip, libusb, libsigc++, glibmm, doxygen, autoconf-archive
+==&gt; Installing rene-dev/sigrok/libsigrok dependency: libzip
+==&gt; Downloading https://homebrew.bintray.com/bottles/libzip-0.11.2.mavericks.bottle.2.tar.gz
+######################################################################## 100.0%
+==&gt; Pouring libzip-0.11.2.mavericks.bottle.2.tar.gz
+  /usr/local/Cellar/libzip/0.11.2: 81 files, 536K
+==&gt; Installing rene-dev/sigrok/libsigrok dependency: libusb
+==&gt; Downloading https://homebrew.bintray.com/bottles/libusb-1.0.19.mavericks.bottle.1.tar.gz
+######################################################################## 100.0%
+==&gt; Pouring libusb-1.0.19.mavericks.bottle.1.tar.gz
+  /usr/local/Cellar/libusb/1.0.19: 11 files, 368K
+==&gt; Installing rene-dev/sigrok/libsigrok dependency: libsigc++
+==&gt; Downloading https://homebrew.bintray.com/bottles/libsigc++-2.4.1.mavericks.bottle.tar.gz
+######################################################################## 100.0%
+==&gt; Pouring libsigc++-2.4.1.mavericks.bottle.tar.gz
+  /usr/local/Cellar/libsigc++/2.4.1: 679 files, 14M
+==&gt; Installing rene-dev/sigrok/libsigrok dependency: glibmm
+==&gt; Downloading https://homebrew.bintray.com/bottles/glibmm-2.44.0.mavericks.bottle.tar.gz
+######################################################################## 100.0%
+==&gt; Pouring glibmm-2.44.0.mavericks.bottle.tar.gz
+  /usr/local/Cellar/glibmm/2.44.0: 1626 files, 42M
+==&gt; Installing rene-dev/sigrok/libsigrok dependency: doxygen
+==&gt; Downloading https://homebrew.bintray.com/bottles/doxygen-1.8.10.mavericks.bottle.tar.gz
+######################################################################## 100.0%
+==&gt; Pouring doxygen-1.8.10.mavericks.bottle.tar.gz
+  /usr/local/Cellar/doxygen/1.8.10: 8 files, 14M
+==&gt; Installing rene-dev/sigrok/libsigrok dependency: autoconf-archive
+==&gt; Downloading https://homebrew.bintray.com/bottles/autoconf-archive-2015.02.24.mavericks.bottle.tar.gz
+######################################################################## 100.0%
+==&gt; Pouring autoconf-archive-2015.02.24.mavericks.bottle.tar.gz
+  /usr/local/Cellar/autoconf-archive/2015.02.24: 558 files, 4.3M
+==&gt; Installing rene-dev/sigrok/libsigrok
+==&gt; Cloning git://sigrok.org/libsigrok
+Cloning into '/Library/Caches/Homebrew/libsigrok--git'...
+remote: Counting objects: 27468, done.
+remote: Compressing objects: 100% (13210/13210), done.
+remote: Total 27468 (delta 19195), reused 20128 (delta 13736)
+Receiving objects: 100% (27468/27468), 5.74 MiB | 274.00 KiB/s, done.
+Resolving deltas: 100% (19195/19195), done.
+Checking connectivity... done.
+==&gt; Checking out branch master
+==&gt; ./autogen.sh
+==&gt; ./configure --prefix=/usr/local/Cellar/libsigrok/HEAD
+==&gt; make install
+    src/hardware/sysclk-lwla/.libs/api.o
+ld: 8 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libsigrok.la] Error 1
+make: *** Waiting for unfinished jobs....
+/usr/local/Library/Homebrew/build.rb:178:in `dump': can't dump anonymous class #&lt;Class:0x007f8c0b2253c8&gt; (TypeError)
+    from /usr/local/Library/Homebrew/build.rb:178:in `rescue in &lt;main&gt;'
+    from /usr/local/Library/Homebrew/build.rb:167:in `&lt;main&gt;'
+Error: marshal data too short
+Please report this bug:
+    https://git.io/brew-troubleshooting
+/usr/local/Library/Homebrew/utils/fork.rb:39:in `load'
+/usr/local/Library/Homebrew/utils/fork.rb:39:in `block (3 levels) in safe_fork'
+/usr/local/Library/Homebrew/utils.rb:346:in `ignore_interrupts'
+/usr/local/Library/Homebrew/utils/fork.rb:26:in `block (2 levels) in safe_fork'
+/usr/local/Library/Homebrew/utils/fork.rb:7:in `open'
+/usr/local/Library/Homebrew/utils/fork.rb:7:in `block in safe_fork'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/tmpdir.rb:88:in `mktmpdir'
+/usr/local/Library/Homebrew/utils/fork.rb:6:in `safe_fork'
+/usr/local/Library/Homebrew/formula_installer.rb:542:in `build'
+/usr/local/Library/Homebrew/formula_installer.rb:202:in `install'
+/usr/local/Library/Homebrew/cmd/install.rb:189:in `install_formula'
+/usr/local/Library/Homebrew/cmd/install.rb:94:in `block in install'
+/usr/local/Library/Homebrew/cmd/install.rb:94:in `each'
+/usr/local/Library/Homebrew/cmd/install.rb:94:in `install'
+/usr/local/Library/brew.rb:133:in `&lt;main&gt;'
+HOPE:~ junkhack$ 
+
+・進めるが、Error
+5) ------------------------------------------------------
+HOPE:~ junkhack$ brew install --HEAD libsigrokdecode
+Error: Formulae found in multiple taps: 
+ * homebrew/science/libsigrokdecode
+ * rene-dev/sigrok/libsigrokdecode
+
+Please use the fully-qualified name e.g. homebrew/science/libsigrokdecode to refer the formula.
+HOPE:~ junkhack$ 
+
+・進めるが、Error
+6) ------------------------------------------------------
+HOPE:~ junkhack$ brew install --HEAD --with-libserialport sigrok-cli
+Error: Formulae found in multiple taps: 
+ * homebrew/science/sigrok-cli
+ * rene-dev/sigrok/sigrok-cli
+
+Please use the fully-qualified name e.g. homebrew/science/sigrok-cli to refer the formula.
+HOPE:~ junkhack$ 
+
+・進めるが、Error
+7) ------------------------------------------------------
+HOPE:~ junkhack$ brew install --HEAD pulseview
+Error: Formulae found in multiple taps: 
+ * homebrew/science/pulseview
+ * rene-dev/sigrok/pulseview
+
+Please use the fully-qualified name e.g. homebrew/science/pulseview to refer the formula.
+HOPE:~ junkhack$ 
+
+・進めるが、Error
+8) ------------------------------------------------------
+HOPE:~ junkhack$ brew install sigrok-cli
+Error: Formulae found in multiple taps: 
+ * homebrew/science/sigrok-cli
+ * rene-dev/sigrok/sigrok-cli
+
+Please use the fully-qualified name e.g. homebrew/science/sigrok-cli to refer the formula.
+HOPE:~ junkhack$ </pre>
+
+
+
+<p>Building manually の手順でやればいいのかもですが、osx のバイナリもだれか作っているはずで、探したらありました。また実機が着たらゆっくり料理することにし、今はソフトウェアの動作だけ確認しておきます。</p>
+
+
+
+<p><a href="/wp-content/uploads/2015/11/applications.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="_Applications" src="/wp-content/uploads/2015/11/applications_thumb.png" alt="_Applications" width="306" height="415" border="0"></a>ちょっとバージョンは古いようですが、osx でも動作するようです。</p>
+
+
+
+<p>ドラッグでタイムラインの移動、マウスホイールで信号の拡大縮小できるインターフェイスです。各種信号解析も可能なようです。デジタルは8チャンネル入るようですので、これで十分用は足せそうです。DHT の温度センサーのデータ解析もあるようです。自分にはこれで十分だと思います。<a href="/wp-content/uploads/2015/11/osx.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0;" title="osx" src="/wp-content/uploads/2015/11/osx_thumb.png" alt="osx" width="450" height="768" border="0"></a> サポートするハードウェアはかなりたくさんあって、迷います。とりあえず、8チャンネル取れるもので、安いものを選びました。</p>
+
+
+
+<p>Open Workbench Logic Sniffer というのも、良さそうです。</p>
+
+
+
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+http://sigrok.org/wiki/Supported_hardware
+</div></figure>
+
+
+
+<figure class="wp-block-image"><a href="/wp-content/uploads/2015/11/supported_hardware__sigrok.png" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img decoding="async" src="/wp-content/uploads/2015/11/supported_hardware__sigrok_thumb.png" alt="Supported_hardware_-_sigrok" title="Supported_hardware_-_sigrok"></a></figure>
+
+
+
+<p>その後、マニュアルビルドを試すも、libsigrok のmake で失敗。以下次回再開するときのメモ。</p>
+
+
+
+<pre class="wp-block-preformatted brush: bash; gutter: false; toolbar: collapse: true; auto-links: smart-tabs:">・Building manually
+http://sigrok.org/wiki/Mac_OS_X
+
+★Install MacPorts,
+★Install Qt, download qt-mac-opensource-4.7.4.dmg
+★以下必須
+
+$ sudo port install boost libusb libzip libftdi0
+$ sudo port install autoconf automake cmake glib2 python33 libtool pkgconfig
+$ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+
+---------------------
+libserialport --&gt; OK
+libsigrok --&gt; NG
+libsigrokdecode --&gt; OK
+sigrok-cli --&gt; NG (libsigrok必須)
+PulseView --&gt; NG (libsigrokcxx&gt;=0.4.0 必須)
+---------------------
+
+▼libserialport
+$ git clone git://sigrok.org/libserialport
+$ cd libserialport
+$ ./autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+
+★OK
+
+    HOPE:libserialport junkhack$ make
+    /Applications/Xcode.app/Contents/Developer/usr/bin/make  all-am
+      CC       serialport.lo
+      CC       macosx.lo
+      CCLD     libserialport.la
+    HOPE:libserialport junkhack$ 
+    HOPE:libserialport junkhack$ sudo make install
+    Password:
+     /usr/local/bin/gmkdir -p '/usr/local/lib'
+     /bin/sh ./libtool --silent  --mode=install /usr/local/bin/ginstall -c   libserialport.la '/usr/local/lib'
+     /usr/local/bin/gmkdir -p '/usr/local/include'
+     /usr/local/bin/ginstall -c -m 644 libserialport.h '/usr/local/include'
+     /usr/local/bin/gmkdir -p '/usr/local/lib/pkgconfig'
+     /usr/local/bin/ginstall -c -m 644 libserialport.pc '/usr/local/lib/pkgconfig'
+    HOPE:libserialport junkhack$
+
+▼libsigrok
+$ git clone git://sigrok.org/libsigrok
+$ cd libsigrok
+$ ./autogen.sh
+$ ./configure
+$ make★こける。これが入らないと進まない。
+$ sudo make install
+
+    libsigrok configuration summary:
+     - Package version................. 0.4.0-git-17124cf
+     - Library ABI version............. 2:0:0
+     - Prefix.......................... /usr/local
+     - Building on..................... x86_64-apple-darwin13.4.0
+     - Building for.................... x86_64-apple-darwin13.4.0
+    
+    Compile configuration:
+     - C compiler...................... gcc
+     - C compiler version.............. Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
+     - C compiler flags................ -g -O2
+     - Additional C compiler flags..... -std=c99 -fvisibility=hidden
+     - C compiler warnings............. -Wall -Wextra -Wmissing-prototypes
+     - C++ compiler.................... g++
+     - C++ compiler version............ Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
+     - C++ compiler flags.............. -g -O2 -std=c++11
+     - C++ compiler warnings........... -Wall -Wextra
+    
+    Detected libraries (required):
+     - glib-2.0 &gt;= 2.32.0.............. 2.44.1
+     - libzip &gt;= 0.10.................. 0.11.2
+    
+    Detected libraries (optional):
+     - libserialport &gt;= 0.1.1.......... 0.1.1
+     - libftdi1 &gt;= 1.0................. no
+     - libftdi &gt;= 0.16................. 0.20
+     - libusb-1.0 &gt;= 1.0.16............ 1.0.19
+     - librevisa &gt;= 0.0.20130412....... no
+     - libgpib......................... no
+     - libieee1284..................... no
+     - check &gt;= 0.9.4.................. no
+     - glibmm-2.4 &gt;= 2.32.0............ 2.44.0
+     - python = 2.7.................... 2.7
+     - pygobject-3.0 &gt;= 3.0.0.......... no
+    
+    Enabled hardware drivers:
+     - agilent-dmm..................... yes
+     - appa-55ii....................... yes
+     - asix-sigma...................... yes
+     - atten-pps3xxx................... yes
+     - baylibre-acme................... no (missing: sys_timerfd_h)
+     - beaglelogic..................... yes
+     - brymen-bm86x.................... yes
+     - brymen-dmm...................... yes
+     - cem-dt-885x..................... yes
+     - center-3xx...................... yes
+     - chronovu-la..................... yes
+     - colead-slm...................... yes
+     - conrad-digi-35-cpu.............. yes
+     - deree-de5000.................... yes
+     - demo............................ yes
+     - fluke-dmm....................... yes
+     - fx2lafw......................... yes
+     - gmc-mh-1x-2x.................... yes
+     - gwinstek-gds-800................ yes
+     - hameg-hmo....................... yes
+     - hantek-dso...................... yes
+     - hung-chang-dso-2100............. no (missing: libieee1284)
+     - ikalogic-scanalogic2............ yes
+     - ikalogic-scanaplus.............. yes
+     - kecheng-kc-330b................. yes
+     - kern-scale...................... yes
+     - korad-kaxxxxp................... yes
+     - lascar-el-usb................... yes
+     - manson-hcs-3xxx................. yes
+     - maynuo-m97...................... yes
+     - mic-985xx....................... yes
+     - motech-lps-30x.................. yes
+     - norma-dmm....................... yes
+     - openbench-logic-sniffer......... yes
+     - pipistrello-ols................. yes
+     - rigol-ds........................ yes
+     - saleae-logic16.................. yes
+     - scpi-pps........................ yes
+     - serial-dmm...................... yes
+     - sysclk-lwla..................... yes
+     - teleinfo........................ yes
+     - testo........................... yes
+     - tondaj-sl-814................... yes
+     - uni-t-dmm....................... yes
+     - uni-t-ut32x..................... yes
+     - victor-dmm...................... yes
+     - yokogawa-dlm.................... yes
+     - zeroplus-logic-cube............. yes
+    
+    Enabled SCPI backends:
+     - TCP............................. yes
+     - RPC............................. yes
+     - serial.......................... yes
+     - VISA............................ no
+     - GPIB............................ no
+     - USBTMC.......................... yes
+    
+    Enabled language bindings:
+     - C++............................. yes
+     - Python.......................... no (missing: PyGObject, SWIG)
+     - Java............................ no (missing: SWIG, JNI headers)
+
+
+    HOPE:libsigrok junkhack$ make
+    /Applications/Xcode.app/Contents/Developer/usr/bin/make  all-am
+      CC       src/backend.lo
+      CC       src/device.lo
+    
+    ::
+    
+      CC       src/hardware/zeroplus-logic-cube/api.lo
+      CCLD     libsigrok.la
+    duplicate symbol _lwla1016_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/lwla1016.o
+    duplicate symbol _lwla1034_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/lwla1016.o
+    duplicate symbol _lwla1034_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/lwla1034.o
+    duplicate symbol _lwla1016_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/lwla1034.o
+    duplicate symbol _lwla1016_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/protocol.o
+    duplicate symbol _lwla1034_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/protocol.o
+    duplicate symbol _lwla1016_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/api.o
+    duplicate symbol _lwla1034_info in:
+        src/hardware/sysclk-lwla/.libs/lwla.o
+        src/hardware/sysclk-lwla/.libs/api.o
+    ld: 8 duplicate symbols for architecture x86_64
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    make[1]: *** [libsigrok.la] Error 1
+    make: *** [all] Error 2
+    HOPE:libsigrok junkhack$ 
+
+▼libsigrokdecode
+$ git clone git://sigrok.org/libsigrokdecode
+$ cd libsigrokdecode
+$ ./autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+
+★OK
+
+    1 warning generated.
+      CC       decoder.lo
+      CC       instance.lo
+      CC       log.lo
+      CC       util.lo
+      CC       exception.lo
+      CC       module_sigrokdecode.lo
+      CC       type_decoder.lo
+      CC       type_logic.lo
+      CC       error.lo
+      CC       version.lo
+      CCLD     libsigrokdecode.la
+    HOPE:libsigrokdecode junkhack$ sudo make install
+     /usr/local/bin/gmkdir -p '/usr/local/lib'
+     /bin/sh ./libtool --silent  --mode=install /usr/local/bin/ginstall -c   libsigrokdecode.la '/usr/local/lib'
+     /usr/local/bin/gmkdir -p '/usr/local/include/libsigrokdecode'
+     /usr/local/bin/ginstall -c -m 644 version.h '/usr/local/include/libsigrokdecode'
+     /usr/local/bin/gmkdir -p '/usr/local/lib/pkgconfig'
+     /usr/local/bin/ginstall -c -m 644 libsigrokdecode.pc '/usr/local/lib/pkgconfig'
+     /usr/local/bin/gmkdir -p '/usr/local/include/libsigrokdecode'
+     /usr/local/bin/ginstall -c -m 644 libsigrokdecode.h '/usr/local/include/libsigrokdecode'
+    /Applications/Xcode.app/Contents/Developer/usr/bin/make  install-data-hook
+    /usr/local/bin/gmkdir -p /usr/local/share/libsigrokdecode/decoders
+    python3.4 ./tools/install-decoders \
+            -i ./decoders -o /usr/local/share/libsigrokdecode/decoders
+    Installing 59 protocol decoders:
+    adns5020 am230x arm_etmv3 arm_itm arm_tpiu avr_isp can dcf77 ds1307 edid 
+    eeprom24xx guess_bitrate i2c i2cdemux i2cfilter i2s ir_nec ir_rc5 jitter jtag 
+    jtag_stm32 lm75 lpc max7219 maxim_ds28ea00 mdio midi mlx90614 modbus mrf24j40 
+    mxc6225xu nrf24l01 nunchuk onewire_link onewire_network pan1321 parallel pwm qi 
+    rfm12 rgb_led_spi rtc8564 sdcard_sd sdcard_spi spdif spi spiflash stepper_motor 
+    swd tca6408a timing tlc5620 uart usb_packet usb_power_delivery usb_request 
+    usb_signalling xfp z80 
+    HOPE:libsigrokdecode junkhack$ 
+
+▼sigrok-cli
+$ git clone git://sigrok.org/sigrok-cli
+$ cd sigrok-cli
+$ ./autogen.sh
+$ ./configure★libsigrokがないと言われる。まぁ、まだ入れてないですからね。
+$ make
+$ sudo make install
+
+    HOPE:sigrok-cli junkhack$ ./configure 
+    checking for a BSD-compatible install... /usr/local/bin/ginstall -c
+    checking whether build environment is sane... yes
+    ::
+    checking for _FILE_OFFSET_BITS value needed for large files... no
+    checking for SIGROK_CLI... no
+    configure: error: Package requirements (glib-2.0 &gt;= 2.32.0 libsigrok &gt;= 0.4.0 libsigrokdecode &gt;= 0.4.0) were not met:
+    
+    No package 'libsigrok' found★
+    
+    Consider adjusting the PKG_CONFIG_PATH environment variable if you
+    installed software in a non-standard prefix.
+    
+    Alternatively, you may set the environment variables SIGROK_CLI_CFLAGS
+    and SIGROK_CLI_LIBS to avoid the need to call pkg-config.
+    See the pkg-config man page for more details.
+    HOPE:sigrok-cli junkhack$ 
+
+
+▼PulseView
+$ git clone git://sigrok.org/pulseview
+$ cd pulseview
+$ cmake .★libsigrokcxx&gt;=0.4.0　がないと
+$ make
+$ sudo make install
+
+    HOPE:pulseview junkhack$ cmake .
+    -- Found PkgConfig: /opt/local/bin/pkg-config (found version "0.28") 
+    -- The C compiler identification is AppleClang 6.0.0.6000057
+    -- The CXX compiler identification is AppleClang 6.0.0.6000057
+    -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+    -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+    -- Detecting C compiler ABI info
+    -- Detecting C compiler ABI info - done
+    -- Detecting C compile features
+    -- Detecting C compile features - done
+    -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+    -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+    -- Detecting CXX compiler ABI info
+    -- Detecting CXX compiler ABI info - done
+    -- Detecting CXX compile features
+    -- Detecting CXX compile features - done
+    -- checking for modules 'libsigrokcxx&gt;=0.4.0;libsigrokdecode&gt;=0.4.0'
+    --   package 'libsigrokcxx&gt;=0.4.0' not found
+    CMake Error at /opt/local/share/cmake-3.3/Modules/FindPkgConfig.cmake:340 (message):
+      A required package was not found
+    Call Stack (most recent call first):
+      /opt/local/share/cmake-3.3/Modules/FindPkgConfig.cmake:502 (_pkg_check_modules_internal)
+      CMakeLists.txt:79 (pkg_check_modules)
+    
+    
+    -- Configuring incomplete, errors occurred!
+    See also "/Users/junkhack/Desktop/aa/tmp/pulseview/CMakeFiles/CMakeOutput.log".
+    HOPE:pulseview junkhack$ </pre>
+
+
+
+<p>※QT はまだ入れてない。</p>
+					</div>
+<!-- .entry-content -->
+
+			<footer class="entry-footer">
+							
+			</footer><!-- .entry-footer -->
+		</div>
+<!-- .entry-wrapper -->
+</article><!-- #post-## -->
+
+			
+			
+	<nav class="navigation posts-navigation" aria-label="投稿">
+		<h2 class="screen-reader-text">投稿ナビゲーション</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="/category/espeink/page/2/" data-wpel-link="internal" rel="noopener noreferrer">過去の投稿</a></div></div>
+	</nav>
+		
 		</main><!-- #main -->
-	</div>
-<!-- #primary -->
+	</section><!-- #primary -->
 
 
 	</div>
@@ -690,17 +1726,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		}
 	});
 </script>
-<link rel="stylesheet" id="word_balloon_user_style-css" href="/wp-content/plugins/word-balloon/css/word_balloon_user.min.css?ver=4.20.5" type="text/css" media="all">
-<link rel="stylesheet" id="word_balloon_skin_talk-css" href="/wp-content/plugins/word-balloon/css/skin/word_balloon_talk.min.css?ver=4.20.5" type="text/css" media="all">
-<link rel="stylesheet" id="word_balloon_inview_style-css" href="/wp-content/plugins/word-balloon/css/word_balloon_inview.min.css?ver=4.20.5" type="text/css" media="all">
-<style id="core-block-supports-inline-css" type="text/css">.wp-container-core-social-links-layout-1.wp-container-core-social-links-layout-1{flex-wrap:nowrap;}.wp-container-core-group-layout-1.wp-container-core-group-layout-1{flex-direction:column;align-items:center;justify-content:center;}</style>
-<script type="text/javascript" id="uagb-timeline-js-js-extra">
-/* <![CDATA[ */
-var uagb_timeline_data = {"tablet_breakpoint":"976","mobile_breakpoint":"767"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/timeline.js?ver=2.12.4" id="uagb-timeline-js-js"></script>
-<script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
+<script type="text/javascript" data-cfasync="false">var bU="/wp-content/plugins/wp-youtube-lyte/lyte/";var mOs=null;style = document.createElement("style");style.type = "text/css";rules = document.createTextNode(".lyte-wrapper-audio div, .lyte-wrapper div {margin:0px; overflow:hidden;} .lyte,.lyMe{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;background-color:#777;} .fourthree .lyMe, .fourthree .lyte {padding-bottom:75%;} .lidget{margin-bottom:5px;} .lidget .lyte, .widget .lyMe {padding-bottom:0!important;height:100%!important;} .lyte-wrapper-audio .lyte{height:38px!important;overflow:hidden;padding:0!important} .lyMe iframe, .lyte iframe,.lyte .pL{position:absolute !important;top:0;left:0;width:100%;height:100%!important;background:no-repeat scroll center #000;background-size:cover;cursor:pointer} .tC{left:0;position:absolute;top:0;width:100%} .tC{background-image:linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0))} .tT{color:#FFF;font-family:Roboto,sans-serif;font-size:16px;height:auto;text-align:left;padding:5px 10px 50px 10px} .play{background:no-repeat scroll 0 0 transparent;width:88px;height:63px;position:absolute;left:43%;left:calc(50% - 44px);left:-webkit-calc(50% - 44px);top:38%;top:calc(50% - 31px);top:-webkit-calc(50% - 31px);} .widget .play {top:30%;top:calc(45% - 31px);top:-webkit-calc(45% - 31px);transform:scale(0.6);-webkit-transform:scale(0.6);-ms-transform:scale(0.6);} .lyte:hover .play{background-position:0 -65px;} .lyte-audio .pL{max-height:38px!important} .lyte-audio iframe{height:438px!important} .lyte .ctrl{background:repeat scroll 0 -220px rgba(0,0,0,0.3);width:100%;height:40px;bottom:0px;left:0;position:absolute;} .lyte-wrapper .ctrl{display:none}.Lctrl{background:no-repeat scroll 0 -137px transparent;width:158px;height:40px;bottom:0;left:0;position:absolute} .Rctrl{background:no-repeat scroll -42px -179px transparent;width:117px;height:40px;bottom:0;right:0;position:absolute;padding-right:10px;}.lyte-audio .play{display:none}.lyte-audio .ctrl{background-color:rgba(0,0,0,1)}.lyte .hidden{display:none}");if(style.styleSheet) { style.styleSheet.cssText = rules.nodeValue;} else {style.appendChild(rules);}document.getElementsByTagName("head")[0].appendChild(style);</script><script type="text/javascript" data-cfasync="false" async src="/wp-content/plugins/wp-youtube-lyte/lyte/lyte-min.js?wyl_version=1.7.23"></script><script type="text/javascript" src="/wp-content/themes/jh-hew/js/JankHack-Hew.js?ver=20140909" id="JankHack-Hew-scripts-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/navigation.js?ver=20120206" id="JankHack-Hew-navigation-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/skip-link-focus-fix.js?ver=20130115" id="JankHack-Hew-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="/wp-content/themes/jh-hew/js/contact.js?ver=20210612" id="sendmail-js"></script>
@@ -722,8 +1748,6 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081" id="wpfront-scroll-top-js"></script>
-<script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver" id="polyfill_IntersectionObserver-js"></script>
-<script type="text/javascript" src="/wp-content/plugins/word-balloon/js/word_balloon_inview.min.js?ver=4.20.5" id="word_balloon_inview_script-js"></script>
   <script id="module-flowchart">(function($) { $(function() { if (typeof $.fn.flowChart !== "undefined") { if ($(".language-flow").length > 0) { $(".language-flow").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-flow").addClass("flowchart").removeClass("language-flow"); $(".flowchart").flowChart(); } } }); })(jQuery);</script>  <script id="module-katex"> (function($) { $(function() { if (typeof katex !== "undefined") { if ($(".language-katex").length > 0) { $(".language-katex").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-katex").addClass("katex-container").removeClass("language-katex"); $(".katex-container").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } if ($(".katex-inline").length > 0) { $(".katex-inline").each(function() { var katexText = $(this).text(); var el = $(this).get(0); if ($(this).parent("code").length == 0) { try { katex.render(katexText, el) } catch (err) { $(this).html("<span class='err'>" + err) } } }); } } }); })(jQuery); </script>  <script id="module-sequence-diagram">(function($) { $(function() { if (typeof $.fn.sequenceDiagram !== "undefined") { $(".language-sequence").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-seq").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-sequence").addClass("sequence-diagram").removeClass("language-sequence"); $(".language-seq").addClass("sequence-diagram").removeClass("language-seq"); $(".sequence-diagram").sequenceDiagram({ theme: "simple" }); } }); })(jQuery);</script>  <script id="module-mermaid">(function($) { $(function() { if (typeof mermaid !== "undefined") { if ($(".language-mermaid").length > 0) { $(".language-mermaid").parent("pre").attr("style", "text-align: center; background: none;"); $(".language-mermaid").addClass("mermaid").removeClass("language-mermaid"); mermaid.init(); } } }); })(jQuery);</script>  <script id="module-mathjax">(function($) { $(function() { if (typeof MathJax !== "undefined") { var c = $(".language-mathjax").length; if (c > 0) { $(".language-mathjax").each(function(i) { var content = $(this).html(); if ($(this).hasClass("mathjax-inline")) { $(this).html("$ " + content + " $"); } else { $(this).html("$$" + "\n" + content + "\n" + "$$"); } if (i + 1 === c) { MathJax.Hub.Config({ showProcessingMessages: false, messageStyle: "none", extensions: [ "tex2jax.js", "TeX/mediawiki-texvc.js", "TeX/noUndefined.js", "TeX/autoload-all.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js" ], jax: [ "input/TeX", "output/SVG" ], elements: document.getElementsByClassName("language-mathjax"), tex2jax: { skipTags: [ "script", "noscript", "style", "textarea" ], inlineMath: [ ['$', '$'] ], displayMath: [ ['$$', '$$'] ], processClass: "language-mathjax" } }); MathJax.Hub.Queue(["Typeset", MathJax.Hub]); $(".language-mathjax").attr("style", "background: transparent; border: 0;"); $(".language-mathjax").closest("pre").attr("style", "background: transparent; border: 0;"); } }); } else { console.log("[wp-githuber-md] MathJax code blocks not found."); } } else { console.log("[wp-githuber-md] MathJax is not loadded."); } }); })(jQuery);</script>  <script id="module-clipboard"> (function($) { $(function() { var pre = document.getElementsByTagName("pre"); var pasteContent = document.getElementById("paste-content"); var hasLanguage = false; for (var i = 0; i < pre.length; i++) { var codeClass = pre[i].children[0].className; var isLanguage = codeClass.indexOf("language-"); var excludedCodeClassNames = [ "language-katex", "language-seq", "language-sequence", "language-flow", "language-flowchart", "language-mermaid", ]; var isExcluded = excludedCodeClassNames.indexOf(codeClass); if (isExcluded !== -1) { isLanguage = -1; } if (isLanguage !== -1) { var current_pre = pre[i]; var parent = current_pre.parentNode; var div = document.createElement("div"); div.style['position'] = 'relative'; parent.replaceChild(div, current_pre); var button = document.createElement("button"); button.className = "copy-button"; button.textContent = "Copy"; div.appendChild(current_pre); div.appendChild(button); hasLanguage = true; } }; if (hasLanguage) { var copyCode = new ClipboardJS(".copy-button", { target: function(trigger) { return trigger.previousElementSibling; } }); copyCode.on("success", function(event) { event.clearSelection(); event.trigger.textContent = "Copied"; window.setTimeout(function() { event.trigger.textContent = "Copy"; }, 2000); }); } }); })(jQuery); </script> 
 			<script id="module-emojify">(function($) {
 					$(function() {
@@ -741,12 +1765,6 @@ var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{disp
 						}
 					});
 				})(jQuery);</script>
-		<script type="text/javascript" id="uagb-script-frontend-5925">document.addEventListener("DOMContentLoaded", function(){ window.addEventListener("DOMContentLoaded", function(){
-	UAGBTimelineClasses( {"block_id":"6a27fab1-6765-462e-a212-57dd618f0b62","timelinAlignment":"center","timelinAlignmentTablet":"left","timelinAlignmentMobile":"left"}, '.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62' );
-});
-window.addEventListener("resize", function(){
-	UAGBTimelineClasses( {"block_id":"6a27fab1-6765-462e-a212-57dd618f0b62","timelinAlignment":"center","timelinAlignmentTablet":"left","timelinAlignmentMobile":"left"}, '.uagb-block-6a27fab1-6765-462e-a212-57dd618f0b62' );
-});
- });</script>
+		
 </body>
 </html>

@@ -99,10 +99,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -185,14 +182,14 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 </blockquote>
 <p> </p>
 <p>とにかく、現場合わせで成り行きで作っていったので温度湿度センサーを乗せる場所がありません。うーむ、どうしようかと思案したあげく、ESP12 の上に乗せることにしました。足を延長してPin ジャックに指すように実装。これでI2C デバイスを交換するときも可能ですしね。</p>
-<p><img decoding="async" title="b" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="b" src="/wp-content/uploads/2015/08/b.jpg" width="640" height="480"> </p>
+<p><img fetchpriority="high" decoding="async" title="b" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="b" src="/wp-content/uploads/2015/08/b.jpg" width="640" height="480"> </p>
 <p>とりあえず、部品が全部のるかどうか仮置き状態。なんとか載りそうです。</p>
 
 <p><img decoding="async" title="a" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="a" src="/wp-content/uploads/2015/08/a1.jpg" width="640" height="480"> </p>
 <p>ESP12 の下は床下配線。裏面でもよかったのですがどうせ隙間があるのだから有効活用と。プログラムコードも書きかえれるよう、UART の差込口も隙間に納めました。</p>
 <p> </p>
 <p>で、全部組み終えて稼動した全体図がこちら。データをアクセスしているときに点灯するLED はフロッピーディスクのアクセスランプでちょっと小ぶりのやつです。下点灯していないのは赤いLEDで、100円均一の車載用12V ステップダウンDC/DC コンバータのジャンクからゲット。こちらも少し小ぶりでちょうど良かったです。</p>
-<p><img loading="lazy" decoding="async" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/08/16.jpg" width="640" height="480"> </p>
+<p><img decoding="async" title="1" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="1" src="/wp-content/uploads/2015/08/16.jpg" width="640" height="480"> </p>
 <p>リチウム電池を充電しながら稼動も可能です。これがしたかったがために、100円均一のDCDC で5V にしてその後3.3V にするロスが出ています。将来は、これをバックブーストタイプの1セル用に作られたIC を使い3.3V を作りたいです。</p>
 <p><img loading="lazy" decoding="async" title="2" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="2" src="/wp-content/uploads/2015/08/25.jpg" width="640" height="480"> </p>
 <p>UART のジャックがあるといいなと思っていたので、そういうのを隙間に作りました。これでコードのデバックや新しいプログラムも利用可能です。</p>
@@ -252,7 +249,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 		<ol class="comment-list">
 				<li class="post pingback">
-		<p>ピンバック: <a href=":7443:7443:7443/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/" class="url wpel-icon-right" rel="ugc external nofollow noopener noreferrer" data-wpel-link="external" target="_blank">ESP12単体で湿度温度照度のIoTデバイス | junkhack<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+		<p>ピンバック: <a href="/2015/06/15/esp12%e5%8d%98%e4%bd%93%e3%81%a7%e6%b9%bf%e5%ba%a6%e6%b8%a9%e5%ba%a6%e7%85%a7%e5%ba%a6%e3%81%aeiot%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9/" class="url" rel="ugc noopener noreferrer" data-wpel-link="internal">ESP12単体で湿度温度照度のIoTデバイス | junkhack</a></p>
 	</li>
 <!-- #comment-## -->
 		</ol>

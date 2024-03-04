@@ -98,10 +98,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -167,13 +164,13 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		<div class="entry-content">
 			<p>これがわからなくて1日消費しました。</p>
 <p>何が、わからなかったかといいますと、PGND と GND をつなぐ方法です。２つのグランドが電源周りにあるのですが、オフィシャルの回路を見るとこのようになっています。</p>
-<p><img decoding="async" title="tps63000_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="tps63000_pdf" src="/wp-content/uploads/2015/10/tps63000_pdf.png" width="640" height="267"> </p>
+<p><img fetchpriority="high" decoding="async" title="tps63000_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="tps63000_pdf" src="/wp-content/uploads/2015/10/tps63000_pdf.png" width="640" height="267"> </p>
 <p>GND が２つあって、PGND はパワー･スイッチ回路用グランドで、GNDは、コントロール/ロジック回路用グランドのようです。PGND は、熱処理するためにPowerPAD （部品中央に位置する）に接続し、PCB の銅箔面の面積を稼いで空冷させるようです。</p>
 <p><img decoding="async" title="1tps63000_pdf" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="1tps63000_pdf" src="/wp-content/uploads/2015/10/1tps63000_pdf.png" width="609" height="480"> </p>
 <p>&#160;</p>
 <p>しかし、Eagle は、複数の属性を持つ名前同士を（用語では、Name とか、クラス（Net Class）と言うそうです）接続できず、どれか１つの属性になります。以下の場合は、GND と PGND が別に接続されて、意図したように配線されません。</p>
 
-<p> <img loading="lazy" decoding="async" title="0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="0" src="/wp-content/uploads/2015/10/0.png" width="640" height="387">   </p>
+<p> <img decoding="async" title="0" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="0" src="/wp-content/uploads/2015/10/0.png" width="640" height="387">   </p>
 <p>何かやり方があるのだろうと、いろいろ調べましたが結局わからず、手法として、以下のような解決策で実現しました。</p>
 <p><img loading="lazy" decoding="async" title="5" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="5" src="/wp-content/uploads/2015/10/5.png" width="640" height="383"> </p>
 <p>２つのグランドを接続するためのパーツを回路図に入れて、そこにPGND と GND をくっつけました。ジョイントのような考え方ですが、回路図中にGND っぽい図が出るので、これを使いました。</p>

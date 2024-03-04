@@ -98,10 +98,7 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 		
 <div id="secondary" class="wrap top-widget-area" role="complementary">
 		<div id="sidebar-1" class="widget-area" role="complementary">
-		<aside id="block-9" class="widget widget_block"><p><script async="" src="https://cse.google.com/cse.js?cx=df8210082ba786774"></script></p>
-<div class="gcse-search"></div></aside><aside id="block-10" class="widget widget_block widget_media_image"><div class="wp-block-image">
-<figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="748" height="99" src="/wp-content/uploads/2023/07/a-seach.png" alt="" class="wp-image-11535"></figure>
-</div></aside>	</div>
+			</div>
 <!-- #first .widget-area -->
 	
 	
@@ -168,12 +165,12 @@ var mouse = {"home":"\/","list":"\/list\/","search":"\/s\/"};
 <blockquote>
 <p><a href="/2020/03/13/testmysite/" class="broken_link" data-wpel-link="internal" rel="noopener noreferrer">スマホからの表示速度を1秒以下にしたい！</a></p>
 </blockquote>
-<p>で、enひかりの固定IP配下に作ったテスト環境でこのブログと同等のデータを引っ越して速度向上を検討していました。まず、現在の結果から出してみたいと思います。<img decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="モバイルサイトの速度を比較しましょう.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186.png" alt="モバイルサイトの速度を比較しましょう" width="599" height="278" border="0"></p>
+<p>で、enひかりの固定IP配下に作ったテスト環境でこのブログと同等のデータを引っ越して速度向上を検討していました。まず、現在の結果から出してみたいと思います。<img fetchpriority="high" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="モバイルサイトの速度を比較しましょう.png" src="/wp-content/uploads/2020/03/e383a2e3838fe38299e382a4e383abe382b5e382a4e38388e381aee9809fe5baa6e38292e6af94e8bc83e38197e381bee38197e38287e38186.png" alt="モバイルサイトの速度を比較しましょう" width="599" height="278" border="0"></p>
 <p>3.8秒から、2.2秒までアップしました。スマホ表示にはまったく手をいれていませんが、1.6秒縮まりましたね！</p>
 <p>また、PCでのアクセスは別サイトで計測しました。まずは現状の確認。</p>
 <p><img decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="WebPageTest_Test_Result_-_Tokyo___junkhack_gpl_jp__-_03_16_20_02_26_41.png" src="/wp-content/uploads/2020/03/webpagetest_test_result_-_tokyo___junkhack_gpl_jp__-_03_16_20_02_26_41.png" alt="WebPageTest Test Result Tokyo junkhack gpl jp 03 16 20 02 26 41" width="599" height="542" border="0"></p>
 <p>「LoadTime」の部分が全体を表示するまでにかかっている時間です。では、検証用に立ち上げているサイトでも同様に見ていきます。</p>
-<p><img loading="lazy" decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="WebPageTest_Test_Result_-_Tokyo___hoge_gpl_jp_-_03_16_20_03_10_36.png" src="/wp-content/uploads/2020/03/webpagetest_test_result_-_tokyo___hoge_gpl_jp_-_03_16_20_03_10_36.png" alt="WebPageTest Test Result Tokyo hoge gpl jp 03 16 20 03 10 36" width="598" height="422" border="0"></p>
+<p><img decoding="async" style="display:block;margin-left:auto;margin-right:auto;" title="WebPageTest_Test_Result_-_Tokyo___hoge_gpl_jp_-_03_16_20_03_10_36.png" src="/wp-content/uploads/2020/03/webpagetest_test_result_-_tokyo___hoge_gpl_jp_-_03_16_20_03_10_36.png" alt="WebPageTest Test Result Tokyo hoge gpl jp 03 16 20 03 10 36" width="598" height="422" border="0"></p>
 <p>なんと、1秒を切っています！4.5秒からなんと0.98秒までアップしました。<br>CDN を使わなくてもここまでアップできるものなんですね。まだチューニングする部分はたくさんありますが、今年の夏引っ越しに向けて、あれこれ研究していきたいと思います。</p>
 <p>今回速度の向上に関して、確認したことといえば以下となります。</p>
 <p>・WordPress のテーマは軽いのがいい　→ <a href="https://sustywp.com/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">Susty WP<span class="wpel-icon wpel-image wpel-icon-1"></span></a>&nbsp;に変えた<br>・CDNは使っていないが、Jetpack のCDN機能を使いました　→ これはあまりよろしくないかも（要研究）<br>・表示を10から3に変えた　→ もっと見たい人はほぼいないし、見たければ検索なりしてくれるから<br>・回線をenひかりの IP固定 v6プラス の自宅サーバにしてみた　→ WordPress.com はデータセンターがUSにあります。v6網のバイパスはかなり有効！</p>
