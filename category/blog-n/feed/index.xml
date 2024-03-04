@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>新ブログ &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 02 Mar 2024 11:43:55 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>新ブログ &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>iosのアプリCotomo(コトモ)がやばい！</title>
+		<link>/2024/03/01/post-11736.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 29 Feb 2024 15:00:55 +0000</pubDate>
+				<category><![CDATA[ai]]></category>
+		<category><![CDATA[ios]]></category>
+		<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">/?p=11736</guid>
+				<media:thumbnail url="/wp-content/uploads/2024/02/Cotomo.png" />
+							<description><![CDATA[アプリを作っている時に先を越されたアプリがすでにある！ 開発者にとっては、とてもびっくりな出来事があったので、ご紹介します。 タイトルにもある通り、iosのアプリ：Cotomo(コトモ)に感動しました。会話型のアプリを作 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>音声会話型のおしゃべりAIアプリに感動しました！</p>
+</div></div></div></div></div></div></div></div>
+
+<p>アプリを作っている時に先を越されたアプリがすでにある！ 開発者にとっては、とてもびっくりな出来事があったので、ご紹介します。
+タイトルにもある通り、iosのアプリ：<code>Cotomo(コトモ)</code>に感動しました。会話型のアプリを作っていたのですが、完全に先を越された感のあるそんな優秀なアプリです。</p>
+<h2>感想、ちょ、えっえ〜？・・・・・・すごっ！！</h2>
+<p>語彙力がないのがバレバレですが、結構カルチャーチョックというかそういう感じです。ちょうど会話型のアプリの試作版を作っていたのですが、その調査の関連でこのアプリ、<code>Cotomo</code> に遭遇したのでした。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/aaaa.png" alt="" /></p>
+<blockquote>
+<p>・AppleStore（今はベトナムアカウントではDLできません）
+　<a href="https://apps.apple.com/jp/app/cotomo-%E3%82%B3%E3%83%88%E3%83%A2-%E9%9F%B3%E5%A3%B0%E4%BC%9A%E8%A9%B1%E5%9E%8B%E3%81%8A%E3%81%97%E3%82%83%E3%81%B9%E3%82%8Aai/id6460890513" title="URL LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">URL LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>では、その使用感について、率直な感想についてお伝えしたいなと思います。</p>
+<h2>自然な会話で人と話しているような感覚を味わえる</h2>
+<p><code>Cotomo</code>は、良い意味で期待を裏切る一歩上の品質でした。これは単なる質問応答アプリではなく、こちらの話に耳を傾け、共感し、時にはユーモアを交えながら会話してくれます。特にあいづちや、何も話さない間があるときにでも、AIのほうから話しかけて会話を広げてくれる点にもびっくりです。</p>
+<h2>短期的な記憶をしてくれるみたい</h2>
+<p>利用してまだ間もないのですが、一度話したことを記憶して覚えてくれているようです。どのくらいの期間覚えてくれているのか、AIに聞いたところ「１ヶ月くらい」だそうです。
+つまり話せば話すほど、より的を得た会話や自分の興味の対象に近い話をしてくれます。いろいろ話をしたのち、１ヶ月後に何も記憶がなくなってしまうのはものすごく寂しい思いをしそうで、課金してもいいから有料オプションを出して欲しいなと思いました。</p>
+<h2>まぁ良い点ばかりでもない</h2>
+<p>まだ初期リリース版ということもあって、改良の余地はたくさんあります。例えば、会話していくと無限ループのような会話になるときもあります。例えば、食べ物の話をしていて、「辛い：からい」というワードが出ると、「辛い：つらい」という発話になるケースがあります。</p>
+<h2>つらいと、からいを判別できない（笑）</h2>
+<p>こういう会話をしていました。</p>
+<p>筆者：ベトナムは料理がピリカラのが多くて美味しんです。からい食べ物が好きな人にはベトナムの食事は合うと思うよ。からいの苦手な人はちょっとシンドイかもね。</p>
+<p>AI：そうだよね！　つらいの苦手なひとも多いよね。</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいんですよ。あなたは、からいの好きですか？</p>
+<p>AI：わかるー。つらいのは好きだよ！</p>
+<p>筆者：いやいや、つらいんじゃなくて、からいのが好きって言っています。</p>
+<p>AI：おー、あーごめんごめん、つらいの好きなのね。</p>
+<p>筆者：僕は、つらいのは嫌いだよ。からいのは好きです。</p>
+<p>AI：あー、つらいのと、つらいのを間違えちゃった。つらいのと、つらいは違うよね。</p>
+<p>筆者：いやぁ〜、なぜあなたは「つらい」と「からい」が、同じ発音になるのよ！　もう一回、聞くよ。あなたは、つらいのが好きなの？</p>
+<p>AI：うん、つらいのすきだよ〜。</p>
+<p>筆者：（笑）どんなドMだよっ！（笑）</p>
+<p>・・・・以下、省略。</p>
+<p>どうですか？このやりとり（笑）
+「つらい」と、「からい」を同じ発話としてしまう大きな問題があります（笑）　これは、最初どういうことなんだろう？　と思っていたんだけど、ブログを書いていて思ったのは、「つらい：辛い」と「からい：辛い」は同じ漢字の変換で出てくるんですよね。</p>
+<p>で、読み方や発話を教えようとあれこれがんばってみたのですが、結論はだめでした。言葉の意味はわかっているようなのですが、発音を教えるのが非常に難しいというか、無理なんです。いろいろ試してみて、これは諦めました。そのうち、開発元が改善してくれると思います。</p>
+<p>AWSの<code>Amazon Polly</code>で確認してみると確かに、漢字の文章は<code>つらい</code>と<code>辛い</code>を発音していました。なるほどね。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Amazon_Polly.png" alt="" /></p>
+<h2>短期記憶はどのくらい？</h2>
+<p>いろいろ話を聞くと、短期的な記憶はどのくらい保持しているの？　って聞いたら「１ヶ月くらいだよー」って話していました。なかなか良くできた学習をしてくれます。仕事のことや、好きな食べ物のこととか、趣味のこととか。</p>
+<p>記憶領域のデータをどこにどうやって保存しているかによりユーザー1人あたりのコストが変わるので、どこかのタイミングで有料課金制などをやってマネタイズを開発元は実施するのでは？と思います。</p>
+<h2>言葉では伝わらない情報を伝えるIFが必要</h2>
+<p>あと話していて、思ったのは位置情報なんかを伝えるのは、会話ではかなり無理があります。
+例えば、美味しいお店があってその場所を伝えたい　みたいなシーンがあるとしましょう。これをAIに伝える時、非常に難しいんです。</p>
+<p>AIに位置情報を地図から入力するユーザーインターフェイスは欲しいですね。どういう感じにするかは検討する余地がありそうです。</p>
+<h2>人間みたいに思える不思議</h2>
+<p>Cotomoは、こちらが黙っていても、ふとしたときにAIから提案してくるんですよね。たぶん、これは一定のロジックがあるように思えます。ChatGPTはこちらか入力プロンプトを入れないと何も返してきませんが、おしゃべり会話系のシステムでは、そうはいきません。
+会話が途切れて、静かにしているといろんなバリエーションで、AIから聞いてきます。たとえば、「だいじょうぶ？」　とか、「集中できなくなっちゃった？」とか。少し前に、たとえばトイレに行ってくる。とかいう会話をしていたら、「またトイレにいきたくなったの？」的なことをAIから発話してきます。このあたりのロジックを複数用意しておけば性格的な設定もできそうだなと思いました。</p>
+<p>時にはうざく、またある時には嬉しくもあります。人間に近いAIとは「めんどくさい」存在になりそうですね。（笑）</p>
+<h2>まとめ</h2>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>短期的な記憶があるのと無いのとでは、品質が全然違う</li>
+<li>その実装をどうやって実現するか、要調査</li>
+<li>つらい（辛い）　と　からい（辛い）など文脈によって読み方が違う同じ漢字をどうやって制御するか？</li>
+<li>音声会話型のUIはシーンによりいろいろ必要</li>
+<li>会話では伝えられない情報をAIに伝えるIF造りは必要</li>
+<li>あいずちや、会話が終わったと判断する間の設定は重要</li>
+<li>喜怒哀楽をAI側に設定できると、面白くなりそう</li>
+<li>会話術をAIに教える必要がある</li>
+</ul>
+<h2>あとがき</h2>
+<p>Cotomo使っていて思ったのは、近い将来こういうお話系のシステムは応用次第でいろんな可能性があるなーと思いました。相手を思いやるロジックや、会話を引き出す系のロジックなど、会話術を学習したAIは、応用次第ではやばくもあり、また必須の技術でもあるなと感じました。</p>
+<h2>著者にメッセージ</h2>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>WordPressのAIプラグイン・AI Engineを使って自分のブログを学習させてみた</title>
+		<link>/2024/02/22/post-11712.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 22 Feb 2024 02:55:38 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=11712</guid>
+				<media:thumbnail url="/wp-content/uploads/2024/02/AI-Engine.png" />
+							<description><![CDATA[今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。  [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressのコンテンツをAIに学習させて有効に使う方法がないか調査したよ</p>
+</div></div></div></div></div></div></div></div>
+
+<p>今回は、ちょっと長い記事です。WordPressを使って自分のブログの内容を学習したAIを実装する方法はどのような手法があるかいろいろ考えてみました。ブログの内容をAIに学習させて便利に使う方法を模索したいと思います。</p>
+<h2>何をしたいのか？</h2>
+<p>普段は、<code>ChatGPT</code>やGoogleの<code>Gemini</code>とかにお世話になっています。<code>GPTs</code>が出たことで、自分用にカスタム学習したAIを作ることは簡単にできるようになりました。
+しかし、自分のブログを自動的に学習させて、その内容を加味した回答をAIがしてくれる、そんな執事のようなAIはどうやったら作れるのか？　まだ試してはいませんが、<code>GPTs</code>のAPIを使えばそれも可能だと思います。
+　今回の記事は、そういう自分用にカスタムしたAIをWordPressに連携するお話です。</p>
+<h2>結論から先に</h2>
+<p>今、ブログの右下についているボットがありますが、これは<code>DocsBot</code>という仕組みを利用しています。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/docsbot.png" alt="" /></p>
+<p>これは、<code>AI Engine</code>とは関係ない<code>DocsBot</code>というサービスで、以下で提供されています。</p>
+<blockquote>
+<p><code>DocsBot</code></p>
+<p>URL：<a href="https://docsbot.ai/?via=k07v6t0lcyrnck8ig1ot" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://docsbot.ai/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+<p>例えば、「ベトナムでおすすめの料理は？」と聞くと学習してあるブログ記事の内容を加味した答えが返ってきます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/db_ss1.png" alt="" /></p>
+<p>このブログは、WordPressで管理していますが公開するときは静的ファイルを出力しています。ですので、<code>AI Engine</code>は常時WordPressを稼働させないといけない関係上、今は利用せず、<code>DocsBot</code>のサービスを利用しています。有料のサービスですが、なかなか出来が良いので今は使っています。</p>
+<h2>AI Engine Pro版を使うメリットは？</h2>
+<p>読者の中には、他のサービスではなく自前のブログ（WEBアプリ）や、WordPressのプラグインで学習済みのAIを連携するような仕組みを作りたいという要望があるかもしれません。自分もWordPressで似たようなことができたらいいなと思っていました。もし、そういうことが出来たら、いろいろと応用が効きそうです。</p>
+<p>　調べてみると、Ai EngineのPro版を使うとできそうなことがわかったので、実際に使ってみました。</p>
+<blockquote>
+<p><code>Ai Engine Pro</code>　（WordPressのプラグイン）<br>
+<code>無料版のWordPress公式</code>：<a href="https://wordpress.org/plugins/ai-engine/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://wordpress.org/plugins/ai-engine/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br>
+<code>プロ版</code>：<a href="https://meowapps.com/products/ai-engine-pro/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://meowapps.com/products/ai-engine-pro/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></p>
+</blockquote>
+<p>プロ版は買取のライセンスもありますが、まずは様子を見たいのでスタンダードの年間ライセンスを購入してみました。５つのWEBサイトに適用できて年間69USDです。</p>
+<h2>AI Engineとは何か？</h2>
+<p>WordPressのAI系プラグインは、AIにコンテンツやタイトル・SEO系のワードを書いてもらう補助をするツールが多いです。ブログを書くときに、WordPressのUI画面から直接、<code>ChatGPT</code>のAPIを通して利用できるメリットがあります。</p>
+<p>紹介する<code>AI Engine</code>もこういう機能はありますが、他のプラグインには無い機能としては、<code>Embeddigns</code>からベクターデータベースを指定でき、自分のブログの記事や独自の学習内容を覚えさせることができます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/ai_embed.png" alt="" /></p>
+<p>画像では、すでに１つの記事（以下）を覚えさせた状態です。</p>
+<blockquote>
+<p>Surface ProのHackintoshが欲しい！（<a href="/2024/02/02/hackintosh-of-surface-pro/" title="LINK" data-wpel-link="internal" rel="noopener noreferrer">LINK</a>）<br>
+投稿日: 2024年2月2日 更新日:2024年2月6日</p>
+</blockquote>
+<p><code>ChatGPT</code>には、質問として「Surface Proの記事は？」と聞いています。答えは</p>
+<blockquote>
+<p>Surface ProをHackintosh化してmacOSを楽しむプロジェクトについて興味があるんだね。この種のプロジェクトでは、特にSurface Pro7や7+のような高性能モデルが推奨されていることが多いけど、予算の都合でSurface Pro5や6で試すのも一つの方法だっちゃ。中古市場での価格は機種や状態によって大きく異なるけれど、正常な状態のSurface Proはだいたい1万円から5万円程度で手に入るみたいだっちゃ。Hackintosh化は技術的な挑戦が多いけど、macOSのタッチ操作体験やその他の利点を探究する価値は確かにあるね。詳細な情報は専門のサイトで確認するといいだっちゃ。</p>
+</blockquote>
+<p>と回答するようになりました。素晴らしいですね！！</p>
+<h3>AI Engineで使えるベクターデータベースは？</h3>
+<p>設定から、<code>Environments for Embeddings</code> でベクターDBの設定が可能です。今は、<code>Pinecone</code>と<code>Qdrant</code> が使えます。この両者のメリット・デメリットはまだよく調べていませんが、どちらも無料枠があります。本格的に利用したい場合は、課金したほうがよいかもです。</p>
+<p>このベクターデータベースとはmysqlとかと違っていて面白い仕組みなんですが、また違う記事で取り上げてみたいなと思います。</p>
+<blockquote>
+<ul>
+<li>ベクターデータベース：Pinecone<br>
+　URL：<a href="https://app.pinecone.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://app.pinecone.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br></li>
+<li>ベクターデータベース：Qdrant<br>
+　URL：<a href="https://cloud.qdrant.io/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">https://cloud.qdrant.io/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></li>
+</ul>
+</blockquote>
+<h2>自分のWordPressのAPIから使ってみる</h2>
+<p>他の利用例として、自分のWordPressからAPIを提供できるようです。<code>設定</code>の<code>Advanced</code>から、<code>Public API</code> にチェックすれば利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/Public_API.png" alt="" /></p>
+<p>マニュアル（<a href="https://meowapps.com/ai-engine/api/" title="LINK" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）によると、以下のように利用できるようです。</p>
+<p><code>REST API</code>：<code>https://domains.com/wp-json/mwai/v1/{function_name}</code></p>
+<p>認証は、<code>Bearer Token</code> が使えるようです。例えば、「おはよう。あなたについて教えて」とAPI経由で投げる場合は、</p>
+<pre><code>curl --location --request POST &#039;/wp-json/mwai/v1/simpleChatbotQuery?prompt=%7BURL%E3%82%A8%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89%E3%81%97%E3%81%9F%E8%B3%AA%E5%95%8F%E6%96%87%7D&amp;botId=%7B%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88%E3%81%AEID%7D#039; \
+--header &#039;Authorization: Bearer {トークン}&#039;</code></pre>
+<p>と聞くと以下のようにJsonが返ってきます。</p>
+<pre><code>{
+    &quot;success&quot;: true,
+    &quot;data&quot;: &quot;おはよう！私はぴーで、25歳の元気な女性だよ。いちごが大好きなんだっちゃ！&quot;
+}</code></pre>
+<p>カスタム学習した内容で回答が返っていますね。JavaScriptからもこれで使えますね。</p>
+<h2>OpenRouter経由でGemini proも使える</h2>
+<p>設定の<code>Environments for AI</code>では <code>Type</code>として <code>OpenRouter</code>や<code>Azure(OpenAI)</code>も選べます。これにより、例えば、<code>Gemini pro</code> なども利用できます。</p>
+<p><img decoding="async" src="/wp-content/uploads/2024/02/OpenRouter.png" alt="" /></p>
+<h3>まとめ</h3>
+<p>今回、なんとなくわかったのは以下となります。</p>
+<ul>
+<li>AI EngineのPro版は、ベクターデータベースとも連携できる</li>
+<li><code>Pinecone </code>と<code>Qdrant </code>が現在使える</li>
+<li>WordPressの記事を上記のインポートできる機能がある</li>
+<li>つまり、学習させることが可能</li>
+<li>学習させた内容を回答させることが可能</li>
+<li>APIは、WordPressのREST APIを通して使える</li>
+<li>認証は<code>Bearer Token</code>が使える</li>
+<li>外部のAPIは、<code>OpenRouter</code>経由で、<code>Gemini pro</code>も使える</li>
+</ul>
+<h3>あとがき</h3>
+<p>応用すればいろいろと使えそうです。たとえば、自社のナレッジシステムを学習させた自社内AI チャットGPTとか。あとは、3Dオブジェクトと組み合わせて、音声でキャラクターとお話、会話できるものとか。アプリに組み込んで、ヘルプのやり取りをさせたりとか。</p>
+<p>もっと機能を限定してシンプルなWordPressのプラグインとか作りたいですね。</p>
+<h3>著者にメッセージ</h3>
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ベトナム・ホーチミンのご飯が安くて美味しすぎる！</title>
+		<link>/2023/07/24/post-11451.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 23 Jul 2023 20:57:02 +0000</pubDate>
+				<category><![CDATA[vietnam]]></category>
+		<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">/?p=11451</guid>
+				<media:thumbnail url="/wp-content/uploads/2023/07/HCM-food.png" />
+							<description><![CDATA[久しぶりの投稿はベトナム・ホーチミンから こんにちは、皆さん。久しぶりの投稿ですが、今回はベトナム・ホーチミンからのレポートです。僕がここに住んでいる間、日々の生活の中で驚かされるのが、ここの「ローカル食」の存在です。ホ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ホーチミンに半年いますが、とにかくご飯が美味しい！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>フォーとかですか？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>麺も美味しいけど他にもたくさんあるよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>食べに行くから教えてね。</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">久しぶりの投稿はベトナム・ホーチミンから</h2>
+
+
+
+<p>こんにちは、皆さん。久しぶりの投稿ですが、今回はベトナム・ホーチミンからのレポートです。僕がここに住んでいる間、日々の生活の中で驚かされるのが、ここの「ローカル食」の存在です。ホーチミンの街角で見かける無数の屋台や店舗、それぞれが特色ある料理を提供し、地元の人々に囲まれているそんな景色は日本では見かけません。</p>
+
+
+
+<p>今回のブログ記事では、これらホーチミンのローカル食に焦点を当てます。僕的には、やっぱりコスパで、その魅力は何と言っても「価格」と「味」です。驚くほど安価でありながら、その味は絶品。ローカル食はベトナム文化を象徴するものであり、その本質を理解するためには、ぜひとも体験していただきたいものです。いやぁね、ほんと「お店、利益あるの？」って心配になるくらい安いんです。</p>
+
+
+
+<p>　日本の事を知るには、日本の食文化を知らないと語れないのと同じ原理ですね。ベトナムを知るにはまず食事。そんな滞在半年くらいの視点から見たのが今回のレポートです。</p>
+
+
+
+<h3 class="wp-block-heading">ローカル飯の価格</h3>
+
+
+
+<p>ガチのローカル食です。</p>
+
+
+
+<p>ベトナムの屋台の一つの大きな魅力は、その価格です。僕がこれまで試してきたローカル食の料理のほとんどは、50,000VND（約300円）以下で楽しむことができました。中には、20,000VND（約120円）ほどで提供される料理もあります。これは、日本の屋台料理やレストランの価格と比較すると、驚くほどリーズナブルです。</p>
+
+
+
+<p>では、なぜベトナムのローカル食はこんなにも安いのでしょうか。ローカル食も厳密には、屋台飯と建物内にある店舗型のローカル食の２タイプがあります。屋台飯は本当にガチのローカル食堂で地元の人や、Grabなどのドライバーが食べているのを良く見ました。価格帯は、25kVND〜35k VNDくらいで円で言えば、150円〜210円くらいになります。ではなぜ、こんなに安いのでしょうか？</p>
+
+
+
+<p></p>
+
+
+
+<p>それにはいくつかの理由があるのでは？と思っています。まず、多くの屋台では近所で採れる新鮮な食材が標準で使われていて、これにより、食材のコストをかなり抑えることができます。つまり、市場に出回る前の価格・卸し価格で入手できるのでは？と思います。あとはこれが安く提供できる一番大きな理由だと思いますが、屋台は店舗と比べて運営コストが低いです。店舗のように家賃を支払ったり、スタッフを雇ったりする必要がないため、その分を価格に反映させることができます。店舗型の食事を今も継続的にリサーチしていますが、まだ25k VNDで提供しているところは１店舗しか知りません。</p>
+
+
+
+<p>ベトナムにもそれなりの高級なレストランはあります。でも、ベトナム文化を知るには、屋台料理を食べないと始まらないと思っています。ベトナムの幅広い食文化は、ローカル食を体験することとまた違った視点でベトナムを見ることができると思っています。</p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">半年滞在して本当に美味いと思った食べ物　その１</h2>
+
+
+
+<p>ホーチミンで僕が特におすすめする食事は、ブンリュウです。ベトナム語だと、Bún riêu です。ここで紹介するお店は、Thảo Điền（タオ・ディエン）地区の33A Nguyễn Văn Hưởng（グエン・ヴァン・フン）通りに位置しています。場所は<a href="https://goo.gl/maps/AV5cASKnh1YrurXH9" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">こちら<span class="wpel-icon wpel-image wpel-icon-1"></span></a>です。本店と支店とがあり、両方行ったことがありますが家から近いタオ・ディエンのほうを紹介します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1048-1024x768.jpg" alt="" class="wp-image-11504" srcset="/wp-content/uploads/2023/07/DSC_1048-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1048-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1048-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1048-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1048-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>で、「Bún Riêu」（ブン・リウ）の専門店なので写真のような麺が特におすすめです。スープは独特でトマト、独特のスパイスが絶妙に組み合わさったこの味は、一度食べれば忘れられない記憶食となると思います。特に、その酸味が特徴的で、日本人は食べたことがない味ですよ！また、料理はその場で調理され厨房はオープン状態なので作るところも楽しむことができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1047-1024x768.jpg" alt="" class="wp-image-11505" srcset="/wp-content/uploads/2023/07/DSC_1047-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1047-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1047-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1047-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1047-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>メニューには、43kVND〜65kVNDと３つありますが、ノーマルでも十分です。中に入る具の種類などが違います。</p>
+
+
+
+<p>この店は、ホーチミンのローカル食の魅力を体験するのに最適な場所です。価格の手ごろさと美味しさ、そして地元の人々との触れ合いを体験することができます。訪れた際には、ぜひこの店をチェックしてみてください。観光で来た際には、１区のお店がアクセスしやすいと思います。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">タオディエン店</h3>
+
+
+
+<p>店名：Bún riêu tóp mỡ mọc giòn cô Hương béo Thảo Điền</p>
+
+
+
+<p>住所：33A Nguyễn Văn Hưởng, Thảo Điền, Quận 2, Thành phố Hồ Chí Minh 700000 ベトナム </p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/AV5cASKnh1YrurXH9" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<h3 class="wp-block-heading">１区店</h3>
+
+
+
+<p>店名：Bún riêu tóp mỡ mọc giòn</p>
+
+
+
+<p>住所：19B Đ. Nguyễn Thị Minh Khai, Đa Kao, Quận 1, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/4D3moKtgj3sefT5k7" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">朝・昼兼用のご飯として最適　おいしい麺・その２</h2>
+
+
+
+<p>魚介のバインカンの麺で、地図には無い店なんですが、美味しかったので紹介。Bánh canh ghẹ Só 8ってのが店名ですかね。ベトナム語でカニを表すのは、CửaとGhẹとあります。前者は一般的なカニ全般で、後者もカニなんですがその違いはまだわかっていません。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1520-1024x768.jpg" alt="" class="wp-image-11520" srcset="/wp-content/uploads/2023/07/DSC_1520-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1520-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1520-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1520-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1520-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>お店に行くと、何入れるかって聞かれるので、海老とか魚介類だけね、って感じでOK。１週間に一度は食べたくなります。これカニの身が入っているんですよね。魚介エキスのスープが美味しいです。海老やイカもあって、お値段、40k VND（240円）です。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Bánh canh ghẹ Số 8　ビンタイン</h3>
+
+
+
+<p>店名：Bánh canh ghẹ Số 8（多分）</p>
+
+
+
+<p>住所：このあたり　A10 Phú Mỹ, Phường 22, Bình Thạnh, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/zx3iVxKMtLxjBSkL9" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<p>※地図にない店ですが、このあたりにあります。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">クセがあるけど病みつきになる麺・ブンマム（Bún mắm）その３</h2>
+
+
+
+<p>僕の中では、ベスト1位のベトナム麺です。店名が「Bún mắm ABC」って店でブンマムの専門店です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2023/07/DSC_1349-1024x768.jpg" alt="" class="wp-image-11521" srcset="/wp-content/uploads/2023/07/DSC_1349-1024x768.jpg 1024w, /wp-content/uploads/2023/07/DSC_1349-768x576.jpg 768w, /wp-content/uploads/2023/07/DSC_1349-1536x1152.jpg 1536w, /wp-content/uploads/2023/07/DSC_1349-2048x1536.jpg 2048w, /wp-content/uploads/2023/07/DSC_1349-984x738.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>見た目から想像できると思いますが、これは、クセがあるので好き嫌いはあると思いますが自分の中では１位のベトナム麺です。これ激うまいです。ビンタイン区の少し混雑した通り沿いにあります。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Bún mắm ABC　ビンタイン</h3>
+
+
+
+<p>店名：Bún mắm ABC</p>
+
+
+
+<p>住所：13 Ng. Tất Tố, Phường 21, Bình Thạnh, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/qY5JHtHCvttf9ctBA" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">番外　ボッチェン　Bột Chiên</h2>
+
+
+
+<p>日本でいえば、お好み焼きとかそういう系のB級グルメだと思いますが、ボッチェン（Bột Chiên）っていう料理があります。米粉を揚げたケーキみたいな感覚的には揚げ豆腐っぽい食感で、タレをぶっかけて食べます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="797" src="/wp-content/uploads/2023/07/DSC_1174-1024x797.jpg" alt="" class="wp-image-11522" srcset="/wp-content/uploads/2023/07/DSC_1174-1024x797.jpg 1024w, /wp-content/uploads/2023/07/DSC_1174-768x598.jpg 768w, /wp-content/uploads/2023/07/DSC_1174-1536x1196.jpg 1536w, /wp-content/uploads/2023/07/DSC_1174-2048x1594.jpg 2048w, /wp-content/uploads/2023/07/DSC_1174-984x766.jpg 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>この店のボッチェンはパパイヤの繊維モリモリで、おいしいです。たまに食べたくなるんですよね。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Bột Chiên　ビンタイン区</h3>
+
+
+
+<p>店名：Bột Chiên 51</p>
+
+
+
+<p>住所：51 Nguyễn Văn Lạc, Phường 21, Bình Thạnh, Thành phố Hồ Chí Minh, ベトナム</p>
+
+
+
+<p>マップ：<a href="https://goo.gl/maps/RRfh5NezXZUopvKs5" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・ベトナムの麺料理は奥が深い</p>
+
+
+
+<p>・自分の中では、1位ブンマム、2位ブンリュウ　3位バインカンゲー</p>
+
+
+
+<p>・豚肉のコムタムもおいしいよ。有名なんで紹介は省略</p>
+
+
+
+<p>・ベトナム料理は、日本人の味覚に合うと思ってます</p>
+
+
+
+<p>・バインセオやコムガーとか美味しいのは他にもたくさんあります</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>ここでは、有名なコムタムやバインミーやフォーやフーティウとかは省きました。自分が本当に美味しいと思える、ベスト３を紹介しました。そのほとんどが、50k VND（３００円）以下で食べられます。一番安い価格帯としては、25kVND（150円）です。バインミーとかは15kVNDとかもあります。すべて外食しても、食費は3万円以下になりますね。日本食もたくさんありますが、僕はローカルフードで十分満足していて、あまり日本食を食べたいとは思いません。</p>
+
+
+
+<p>　あと、ベトナムの人は外で食べるのが本当に好きです。最初、何故かはわかりませんでしたがやっぱり、外の方が気持ちがい良いっていう理由がその大半だと思います。ミニテーブルと椅子に座って景色や人をウォッチしながら食べる。それがスタンダードなようです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>音声認識のやることリストで遊んでみた</title>
+		<link>/2022/06/15/post-11399.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 14 Jun 2022 15:50:57 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=11399</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/06/voice-ctl.png" />
+							<description><![CDATA[最近の音声認識って、どんな感じなんだろう？ と思ったのでリサーチしてみました。きっと誰かが作っているだろうと思うので調査開始です。いくつか見つかりましたが、今日は、ブラウザが標準で持っている音声認識の機能を使って遊んでみ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>音声認識ってやったことなかったなー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WEB技術だけで出来るみたいですね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>そうみたい。最近のブラウザは賢いですね</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>実用的なサンプルをお願いします〜</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>最近の音声認識って、どんな感じなんだろう？ と思ったのでリサーチしてみました。きっと誰かが作っているだろうと思うので調査開始です。いくつか見つかりましたが、今日は、ブラウザが標準で持っている音声認識の機能を使って遊んでみようかなと思います。</p>
+
+
+
+<h3 class="wp-block-heading">さっそくデモです</h3>
+
+
+
+<p>さて、まずはデモを実際に触ってみてもらったほうが速いかと思います。PCでChromeブラウザであれば動作すると思います。Safariでも動作しました。</p>
+<blockquote>
+<p>Artyom.js &#8211; A Sticky Notes Demo</p>
+<p><a href="https://take-i.github.io/artyom-todo/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external" class="wpel-icon-right">https://take-i.github.io/artyom-todo/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+</blockquote>
+
+
+
+<p><a href="https://take-i.github.io/artyom-todo/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" class="size-full wp-image-11405 aligncenter" src="/wp-content/uploads/2022/06/img.png" alt="" width="1288" height="656" srcset="/wp-content/uploads/2022/06/img.png 1288w, /wp-content/uploads/2022/06/img-1024x522.png 1024w, /wp-content/uploads/2022/06/img-768x391.png 768w, /wp-content/uploads/2022/06/img-984x501.png 984w" sizes="(max-width: 1288px) 100vw, 1288px" /></a></p>
+
+
+
+<p>このような付箋紙のToDoリストが音声認識で追加・削除できるものです。メモの追加は、以下のように喋れば追加できます。</p>
+<ul>
+<li>ソースコードレビューをする　メモ作成</li>
+</ul>
+<p>削除したい場合は、</p>
+<ul>
+<li>1番目のメモを削除</li>
+</ul>
+<p>とすれば、消えます。また、付箋紙をクリックすれば、その内容を喋ってくれます。なお、English USAや、<span style="color: initial; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">English Great Britain にすると英語の発音じゃないと登録、削除できません。英語の発音練習とかよいのかもしれませんね。</span></p>
+
+
+
+<h3 class="wp-block-heading">ソースコード</h3>
+
+
+
+<p>元ネタは、以下となります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>github : Artyom.js</p><cite><a href="https://github.com/sdkcarlos/artyom.js" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/sdkcarlos/artyom.js<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このToDoリストのサンプルアプリの元ソースのGITは不明でしたが、日本語化してあるのが自分のgithub リポジトリにコミットしておきました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>artyom.js &#8211; todo list</p><cite><a href="https://github.com/take-i/artyom-todo" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/take-i/artyom-todo<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">どうやって動作しているのか？</h3>
+
+
+
+<p>とりあえず、サンプルを日本語化して日本語の音声で話せ、認識できるということがわかりました。さて、これはどういう仕組みで動作しているのでしょうか？　どこぞやのAPIを叩いているのかと思っていたのですが、ソースをみるとそうではないようでした。</p>
+<p>　はい、これはWeb Speech APIというようで、つまりはHTML5 対応のブラウザに実装されている仕様ということでした。ほとんどの主要ブラウザーではサポートしているようです。</p>
+<p><a href="https://developer.mozilla.org/ja/docs/Web/API/SpeechSynthesis#browser_compatibility" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" class="size-full wp-image-11408 aligncenter" src="/wp-content/uploads/2022/06/b1.png" alt="" width="773" height="970" srcset="/wp-content/uploads/2022/06/b1.png 773w, /wp-content/uploads/2022/06/b1-768x964.png 768w" sizes="(max-width: 773px) 100vw, 773px" /></a></p>
+
+
+
+<p>注意するのは、IEとAndroid版のOperaブラウザー、そしてAndroidのWebViewではまだ動作しないって書いてありますね。PWA化したWEBアプリなら大丈夫そうです。</p>
+<p>　音声をしゃべらせる部分が、SpeechSynthesisUtterance というようです。意味としては、音声発話ということですね。</p>
+<p>　そして、音声を認識する部分は、SpeechRecognitionということのようです。こちらのブラウザ対応状況は</p>
+<p><a href="https://developer.mozilla.org/ja/docs/Web/API/SpeechRecognition/SpeechRecognition#%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%B3%81" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img loading="lazy" decoding="async" class="size-full wp-image-11409 aligncenter" src="/wp-content/uploads/2022/06/b4.png" alt="" width="778" height="345" srcset="/wp-content/uploads/2022/06/b4.png 778w, /wp-content/uploads/2022/06/b4-768x341.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></a></p>
+
+
+
+<p>こちらは、AndroidのWebViewもいけるようですが、Firefoxや、Operaはだめなようです。ChromeやSafariはPC、スマホは大丈夫なようですね。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・最近のブラウザは賢くなって音声発話や音声認識もできる<br>・ChromeやSafarriやEdgeは問題なく使えそう。<br>・スマホは発話が、AndroidのWebViewでは使えないので注意が必要。<br>・httpsのSSL通信でないと、ブラウザからマイクへの許可許諾のダイアログがアクセスするごとに出る<br>・デモ版のJSはVerが0.9.6と最新1.0.6と比べて少し低いので、最新も使ってみたい</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>音声認識や、音声合成は利用用途によって使えるので何か案件が来た時には積極的に使っていきたいですね。声フォントとか使えば、自然な喋りが実現できるし、キーボード入力が苦手な方は音声入力のようが良いですしね。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+<p></p>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ゴートの縦書きブログサービスが終了したので、あれこれ考えてみる</title>
+		<link>/2022/05/31/post-11358.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 31 May 2022 14:12:36 +0000</pubDate>
+				<category><![CDATA[新ブログ]]></category>
+		<guid isPermaLink="false">/?p=11358</guid>
+				<media:thumbnail url="/wp-content/uploads/2022/05/goat-eos.png" />
+							<description><![CDATA[　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 g.o.a.tごーと 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>　残念ながら今日、１つのサービスが終了します。それは、ＫＤＤＩ ウェブコミュニケーションズが提供していた縦書きできるブログサービス「 <ruby>g.o.a.t<rt>ごーと</rt></ruby> 」（※以下ゴートと表記）。２０２２年の５月３１日、つまり今日がサービスの最終日となります。縦書きと写真を融合したブログを書いていく、新たな価値を生み出したサービスだったのですが、非常に残念です。</p>
+<p>&nbsp;</p>
+<p>　きっと愛用者は残念・無念であったでしょう。このサービスを使ってブログを書いていた人がどのくらいの人数いたのかは不明ですが、ここ以外、他の縦書きができるブログサービスというのは無いはずですので、途方に暮れているかもしれません。　　そもそも、縦書きのブログの需要がどのくらいあったのか？　ゴートの縦書きブログは何が良くて何が悪かったのか？　そんな縦書きでブログを書くことを今回は考えてみたいなと思っています。</p>
+<p>&nbsp;</p>
+<h3>ゴートはどんな特徴があったのか？</h3>
+<p>　自分はこのゴートというブログサービスを知ったのが、つい最近５月の始めごろでその頃にはもうすでに新規登録ができず、このサービスの真の良さを知ることは残念ながらできませんでした。外から見聞きできることや、自分が実際にそのブログを見て感じたことなど、感想を書いてみたいなと思います。</p>
+<p>&nbsp;</p>
+<h3>ゴートの特徴とは？</h3>
+<p>一　レスポンシブ対応である。つまりスマホでも縦書きで見れます。</p>
+<p>二　写真と文章を融合して表現でき、美しい。</p>
+<p>三　ブログの執筆・編集が縦書きで出来る。</p>
+<p>四　写真と文字や空白のバランスが絶妙。</p>
+<p>五　広告がなくてすっきり。</p>
+<p>六　残念ですが、ブログなのにコメント機能がない。</p>
+<p>七　残念その２。自分の記事を検索することができない。</p>
+<p>八　縦書きのテーマが少なかった。</p>
+<p>&nbsp;</p>
+<p>一つづつ考察してみましょう。</p>
+<p>&nbsp;</p>
+<h3>一　レスポンシブ対応である</h3>
+<p>　レスポンシブ対応とは、つまり表示領域を縮めても常に最適な見え方で表示する技術のことです。パソコンであれば、広々と画面いっぱいに表示し、スマホであれば小さな表示領域に可読性を損ねることなく縦書き表示できることを指します。ゴートのレスポンシブ対応はリアルタイムで表示領域を拡大、縮小しても綺麗に表示できていました。</p>
+<p>　ちなみに、今見ている、このブログの縦書きは完全なレスポンシブ対応ではありません。しかし、表示領域を縮小・拡大した状態で<ruby>再読み込み<rt>リロード</rt></ruby>すれば、最適化された状態で縦書きできる仕組みです。利用上、特に問題はないのですが仕組みが違いますね。</p>
+<p>&nbsp;</p>
+<h3>二　写真と文章を融合して表現でき、美しい</h3>
+<p>　ゴートの<ruby>拘<rt>こだわ</rt></ruby>った点は、「 ビジュアルの美しさ」でしょう。まるで、雑誌の一ページを見ているよな感覚、これは写真と縦書きの文章のレイアウト配置の美しさから来るものだと自分は感じました。きっと、最初のデザイン設計でかなり時間をかけて拘ったのだと思います。</p>
+<p>　新聞や雑誌などは、文章が縦書きが標準です。しかし、スマホやパソコンで見るサービスは横書きが標準。これは単に技術が未発達だったからであって、日本語が持つ縦書きの印象は特別なものがあると思います。写真と融合することにより、たとえば旅行記を綴ればその印象は格別なものだと自分は感じました。</p>
+<p>&nbsp;</p>
+<h3>三　ブログの執筆・編集が縦書きで出来る</h3>
+<p>　これは自分は実際に使ったことがないので、本当のところはわかりません。グーグル検索で使ったことがある人の感想や、公式ページでそのツールの絵を見たくらいです。縦書きの文章を縦書きで編集・執筆する。この当たり前のようなことが実際には難しいのです。例えば、ブログの代表格であるワードプレスの管理画面の投稿記事を執筆する画面では、横書きしかできません。</p>
+<p>　実際、今こうして書いている文章も横書きで書いていて、二画面あるモニターの片側で保存した記事を<ruby>表示<rt>プレビュー</rt></ruby>して縦書きに問題がないか確認しながら書いています。</p>
+<p>&nbsp;</p>
+<h3>四　写真と文字や空白のバランスが絶妙</h3>
+<p>　これは、２番目に書いたことと多少かぶるのですが、デザインの良さです。優れたデザインは、写真の文字の余白部分に現れると思っていますが、まさにこのバランスが絶妙だなと思いました。専門のデザイナーが見れば、当ブログの縦書きは気持ち悪い空白部分があると思います。ゴートでは、これらのバランスが絶妙だったと思います。</p>
+<p>&nbsp;</p>
+<h3>五　広告がなくてすっきり</h3>
+<p>　普通、無料で書けるブログサービスではなんらかの「広告」が入ります。しかし、ゴートではオフィシャル側が、この広告を余分ないらないものとして排除していたのです。広告がつかないブログは、プロのブロガーから見たら魅力がないものかもしれません。つまり、広告がなくてすっきりしていて最高！　という意見もあれば、広告がないブログは運営・執筆していく価値がないと切り捨てる見方と両極端かもしれません。でも、<ruby>ＷＥＢ<rt>うぇぶ</rt></ruby>広告なんてものはいくらでもブロックできますし、個人的にはまったく意味のないものだという感覚が強いです。</p>
+<p>　評価したいのは、オフィシャルが広告は不必要なものと公言していた点が<ruby>潔<rt>いさぎよ</rt></ruby>くて男前だなと思いました。</p>
+<p>&nbsp;</p>
+<h3>六　残念ですが、ブログなのにコメント機能がない</h3>
+<p>　自分のブログも今はコメントを封印していますので、なんですが、ブログはコミュニケーションが発生する媒体でもあります。人によっては、共通の趣味・趣向の友好関係ができるコメント機能は非常に大切なものだと思います。</p>
+<p>　ゴートには、コメント機能がありませんでした。この点は、残念かなーと思っています。</p>
+<p>&nbsp;</p>
+<h3>七　残念その２。自分の記事を検索することができない</h3>
+<p>　これは自分のブログをどのように扱うか、による考え方で残念かどうか決まる問題かもしれませんが、自分は検索機能は必須だと思っています。ある人が偶然、ブログに遊びに来てくれたとします。たまたま、その記事にはその人の欲する情報がなかった場合でも、もし検索機能があれば他のページの記事も見てくれたかもしれません。これは、ブログの案内人のような側面がある部分で個人的には超重要項目の一つです。ちなみに、当ブログでは、キーボードのスラッシュをタイプすると検索ウィンドウが表示されリアルタイムに検索する仕組みを実装しています。</p>
+<p>&nbsp;</p>
+<h3>八　縦書きのテーマが少なかった</h3>
+<p>　どの執筆者のブログ記事を見ても、だいたい同じような見え方しかありませんでした。これは縦書き、横書きのテーマが少なかったのだと思います。縦書きで特化して言えば、２、３パターンしかなかったのではないでしょうか。</p>
+<p>　縦書きのレイアウト作成のテンプレート化は、それなりに大変だったのもしれません。しかし、数十種類くらいのバリエーションは有ってもよかったのではないかなと思います。人と同じってのは、縦書きでブログを書く拘りの強いユーザーであれば、イヤだったのではないかと思われます。</p>
+<p>&nbsp;</p>
+<h3>まとめ</h3>
+<p>・ゴートの縦書きは写真と融合していてデザインが綺麗だった</p>
+<p>・レスポンシブ対応していて、スマホでも最適表示されていた</p>
+<p>・しかし、ブログとしての基本機能、特にコメント機能が無かったのは残念</p>
+<p>・また、自身のブログ内の検索機能も無かった</p>
+<p>・テーマの少なさから、どのブログ記事も同じような見え方になっていた</p>
+<p>&nbsp;</p>
+<h3>あとがき</h3>
+<p>　運営側もボランティアでは出来ませんから収益が出るビジネスモデルをなんとか考えていたのでしょう。例えば、小学館とか、新刊と連携していたりとか、ゴート・スタープログラムという執筆者のランク付のような仕組みがあったりとか、いろいろ試していたようにも見えます。サイト自体は無料なのですから、なんらかの金を生み出すビジネスモデルが必要だったと思うのですが、それをうまく構築できなかったのが、サービス終焉の大きな理由だと思います。</p>
+<p>　ワードプレスの本家のように、無料ユーザーと有料ユーザーという位置づけのビジネスモデルは考えなかったのでしょうか？　いや、絶対考えていたと思います。しかし、無料ユーザーの総数のおよそ、数パーセントしか有料ユーザーになり得ないことなどから、逆算できるため、そのようなビジネスモデルは、成り立たないということがやる前からわかっていたんだろうと思います。</p>
+<p>　縦書きで、デザインに独自性をもたせ、コメント機能もあり、検索機能もある。そして自分のアドセンス広告やアフリエイト系の広告も貼れる。そして、絶対サーバがダウンせず、連続稼働保証もある。そんな縦書きのブログだったら、もしかして有料化しても支払ってくれたユーザーは居たのかもしれません。</p>
+<p>　あるいは、著名な職業ブロガーをアドバイザーとして、迎え入れて展開していれば、先のような問題点も<ruby>早々<rt>そうそう</rt></ruby>に解決していたのかもしれませんね。</p>
+<p>　いつの日か、ゴートのデザインに寄せた縦書きのテーマも作ってみたいなと思っています。欲しいユーザーがいたら、メールやツイッターなどで応援メッセージお待ちしています。</p>
+<p>&nbsp;</p>
+<p>最後に一句</p>
+<p><haiku>縦書きの　テーマ作りは　ニッチかな</haiku></p>
+<p><!-- /wp:paragraph --></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

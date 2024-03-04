@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>MonoTARO &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 10 Dec 2016 18:31:07 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>MonoTARO &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Wanhao i3 増強</title>
+		<link>/2016/12/11/post-2530.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 10 Dec 2016 18:31:07 +0000</pubDate>
+				<category><![CDATA[3D Print]]></category>
+		<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[MISUMI]]></category>
+		<category><![CDATA[MonoTARO]]></category>
+		<guid isPermaLink="false">/?p=2530</guid>
+							<description><![CDATA[Z-Brace のパーツを本日は取り付けてみました。 筐体をひっくり返したりするついでに、ファンも新しいのにしてみることに。こんな感じの後ろから回り込むタイプにしてみました。この方が、プリントしている部分が見やすくてなか [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Z-Brace のパーツを本日は取り付けてみました。</p>
+<p>筐体をひっくり返したりするついでに、ファンも新しいのにしてみることに。こんな感じの後ろから回り込むタイプにしてみました。この方が、プリントしている部分が見やすくてなかなかいいです。</p>
+<p><img loading="lazy" decoding="async" title="IMGP0977" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="IMGP0977" src="/wp-content/uploads/2016/12/imgp0977.jpg" width="640" height="426" /> </p>
+<p>このファンは、<a href="http://www.thingiverse.com/thing:1246425" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここから<span class="wpel-icon wpel-image wpel-icon-1"></span></a>プリントできます。アタッチメントは<a href="http://www.thingiverse.com/thing:1650495" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。LM8LUU のベアリングブロックは<a href="http://www.thingiverse.com/thing:1594256" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。最初、このベアリングブロックが見つけられなくて、自分で作りました。M3 のネジをそのままねじ込めるようにしたものです。<a href="http://www.thingiverse.com/thing:1957398" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">Thingiverse に載せておきました<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。<a href="http://www.thingiverse.com/thing:1957398" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="IMGP0966" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP0966" src="/wp-content/uploads/2016/12/imgp09661.jpg" width="640" height="426" /></a> </p>
+<p>交換した LM8LUU のベアリングは THK の LM 8L というタイプ。<a href="http://jp.misumi-ec.com/vona2/detail/221000091678/?HissuCode=LM8LUU&amp;PNSearch=LM8LUU&amp;searchFlow=results2products&amp;Keyword=LM8LUU" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ミスミ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>だと、ここ。モノタロウだと<a href="https://www.monotaro.com/p/0723/1883/" target="_blank" rel="noopener noreferrer external" class="broken_link wpel-icon-right" data-wpel-link="external">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。自分は、ミスミのアカウントを作成する以前に3000円送料無料に届かなくて、ついでに試し買いしたものです。日本製のベアリングと中国製のと比較してみたかったので買いましたが、付けてみて感動しました。すごくすべりが良いです。久しぶりに映像も作ってみました。（これが一番面倒だった）</p>
+<p align="center">[youtube https://www.youtube.com/watch?v=IbR-xa0h790]</p>
+<p>THK のベアリングは少し値がはりますが、こんなにすべりがいいなら、価値はあるかもですね。<a href="https://www.aliexpress.com/item/free-shipping-10-pcs-lot-LM8LUU-8mm-Longer-Linear-Ball-Bearing-Bushing-Linear-Bearings-CNC-parts/32261980249.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">アリエクのLM8LUU<span class="wpel-icon wpel-image wpel-icon-1"></span></a>とかは、10個で1300円ちょいなので、１つ１３５円とかです。THK だと 5倍（<a href="http://jp.misumi-ec.com/vona2/detail/221000091678/?HissuCode=LM8LUU&amp;PNSearch=LM8LUU&amp;searchFlow=results2products&amp;Keyword=LM8LUU" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">ミスミ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>で748円）はします。10個で7500円です。</p>
+<p>&#160;</p>
+<p>で、Z-Brace を取り付け。取り付けには、ネジが少し長いのが必要だったりするので、HEX ソケットヘッドの M3 があれこれあったほうがいいです。<a href="https://www.aliexpress.com/item/240pcs-box-M3-Screw-Kits-DIN912-Hex-Socket-Head-Cap-Screw-Black-M3-4-5-6/32352129012.html" target="_blank" rel="noopener noreferrer external" data-wpel-link="external" class="wpel-icon-right">アリエクで買っておいたものです<span class="wpel-icon wpel-image wpel-icon-1"></span></a>。早速使うときがきました。M3 の 8mm , 10mm , 12mm を使う必要がありました。</p>
+<blockquote>
+<p>M3*4: 20pcs     <br />M3*5: 20pcs      <br />M3*6: 20pcs      <br />M3*8: 20pcs      <br />M3*10: 20pcs      <br />M3*12: 20pcs      <br />M3*16: 20pcs      <br />M3*20: 20pcs      <br />M3*25: 20pcs      <br />M3 Nut: 60pcs</p>
+</blockquote>
+<p><img loading="lazy" decoding="async" title="IMGP0956" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP0956" src="/wp-content/uploads/2016/12/imgp0956.jpg" width="640" height="426" /> </p>
+<p>で、組み付け。感想は、「すごくしっかりしていてビクともしない！！」です。<img loading="lazy" decoding="async" title="IMGP0979" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP0979" src="/wp-content/uploads/2016/12/imgp0979.jpg" width="640" height="426" /> </p>
+<p>実際に、プリントしてすぐに違いに気がつきました。左がつける前、右が付けた後のものです。条件は同じですが、右のほうがまっすぐです。ファンの効果もあるとは思いますが。ソース画像のリンクもありますので、よかったら大きくしてどうぞ。</p>
+<p><a href="/wp-content/uploads/2016/12/imgp0980.jpg" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" title="IMGP0980" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP0980" src="/wp-content/uploads/2016/12/imgp0980_thumb1.jpg" width="640" height="426" /></a></p>
+<p>これは、効果がありますね。 Wanhao i3 ユーザーは必須カスタムです。</p>
+<p>新しいファンもなかなか良くて、前から見やすいです。前面はLEDライトをつける予定です。</p>
+<p><img loading="lazy" decoding="async" title="IMGP0975" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP0975" src="/wp-content/uploads/2016/12/imgp0975.jpg" width="640" height="426" /> </p>
+</p>
+<p>あとは、ヒートベットのネジ調整部分に絶縁用途で、テフロンワッシャーを入れたりなど地味なカスタム。（安全対策なのでプリントに影響はなさそうな部分です）<img loading="lazy" decoding="async" title="IMGP0973" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="IMGP0973" src="/wp-content/uploads/2016/12/imgp0973.jpg" width="640" height="426" /></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

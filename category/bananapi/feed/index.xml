@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>BananaPi &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Mon, 19 Nov 2018 18:54:19 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>BananaPi &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Banana Pi BPI-M2 Zeroは、イーサネットが標準で引き出せるようでキーストーンをゲットした</title>
+		<link>/2018/11/20/post-4793.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Mon, 19 Nov 2018 18:54:19 +0000</pubDate>
+				<category><![CDATA[Aliexpress]]></category>
+		<category><![CDATA[BananaPi]]></category>
+		<guid isPermaLink="false">/?p=4793</guid>
+							<description><![CDATA[RasPi Zero をいじっているうちに、知った Banana Pi BPI-M2 Zeroっていうボードに興味の対象が移ってしまった感じです。 このボード、どうやらフォーラムによるとイーサネットライン 10/100  [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>RasPi Zero をいじっているうちに、知った Banana Pi BPI-M2 Zeroっていうボードに興味の対象が移ってしまった感じです。</p>
+<p>このボード、どうやらフォーラムによるとイーサネットライン 10/100 Ethernet が基盤から引き出せるようです。</p>
+<p><a href="http://forum.banana-pi.org/t/bpi-m2-zero-default-supports-10-100-ethernet/4268" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img decoding="async" class="alignnone size-full wp-image-4794" src="/wp-content/uploads/2018/11/bpi-m2-zero__default_supports_10_100_ethernet_-_bpi-m2__bpi-m2_zero_bpi-p2_zero_-_banana_pi_single_board_computer_official_forum_sinovoip_bpi_team.png" alt="_BPI-M2-Zero__Default_supports_10_100_Ethernet_-_BPI-M2__BPI-M2_Zero_BPI-P2_Zero_-_banana_pi_single_board_computer_official_forum_SinoVoip_BPI_team.png" width="671" height="1647" /></a></p>
+<p>ってことで、LAN を使った何かも作れそうですね。Wake On Lan デバイスとか、WiFi ルーターとか、実用性はわかりませんがLBとかルータとか、DHCP サーバとか、応用が一気に広がります。勉強用に、LAN インターフェイスが２枚あるときの設定なんかにも使えそうですね。</p>
+<div align="center">
+<table border="1" width="90%">
+<tbody>
+<tr align="middle">
+<th width="26%">ピン番号</th>
+<td width="8%">1</td>
+<td width="8%">2</td>
+<td width="8%">3</td>
+<td width="8%">4</td>
+<td width="8%">5</td>
+<td width="8%">6</td>
+<td width="8%">7</td>
+<td width="8%">8</td>
+</tr>
+<tr align="middle">
+<th>対番号</p>
+<p><span>AT&amp;T258A, EIA/TIA568B </span></th>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr align="middle">
+<th>色</th>
+<td>白／橙</td>
+<td>橙</td>
+<td>白／緑</td>
+<td>青</td>
+<td>白／青</td>
+<td>緑</td>
+<td>白／茶</td>
+<td>茶</td>
+</tr>
+<tr align="middle">
+<th>10BaseTX,<br />
+100BaseTX</th>
+<td><strong>TxD+</strong></td>
+<td><strong>TxD-</strong></td>
+<td><strong>RxD+</strong></td>
+<td>&lt;NC&gt;</td>
+<td>&lt;NC&gt;</td>
+<td><strong>RxD-</strong></td>
+<td>&lt;NC&gt;</td>
+<td>&lt;NC&gt;</td>
+</tr>
+<tr align="middle">
+<th>1000BaseT</th>
+<td>双方向<br />
+ペア+A</td>
+<td>双方向<br />
+ペア-A</td>
+<td>双方向<br />
+ペア+B</td>
+<td>双方向<br />
+ペア+C</td>
+<td>双方向<br />
+ペア-C</td>
+<td>双方向<br />
+ペア-B</td>
+<td>双方向<br />
+ペア+D</td>
+<td>双方向<br />
+ペア-D</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>LAN線っていうのは、このような規格になっているので４本でいいわけですね。なるほど。面白そうなんで、KeyStone （イーサネットを刺す側のコネクタのこと）をアリエクでゲットしておきました。<br />
+そういえば、RedHat って IBM に３兆越えで買収されちゃいましたがコミュニティーの反応はどんなんですかね。良い状態でいられるといいのですが。RedHat がコミュニティーとの音頭をコントロールする限りは変な事にはならないと思いますが。</p>
+<p>Oracle と MySQL とのOSSコミュニティーとはうまく行きませんでした。自分の場合は、２択する場面があれば、MariaDB を使うことが多くなっているんですが、、、</p>
+<p>RedHat 系のOS は思い入れや馴染みが深く、仕事でも使うんでちょっと動向が気になります。このあたりの状況は3〜5年くらい先に必ずなんらか影響してくると思います。本当、コンピューター業界ってば変化があるんで何が起きるかわかりませんね。まぁ、そういうところが好きなんですが。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

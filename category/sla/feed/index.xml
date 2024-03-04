@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>SLA &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 04 Jul 2021 12:12:36 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>SLA &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>2021/02 site24x7 でのSLA状況・統計データ</title>
+		<link>/2021/03/05/post-10237.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Thu, 04 Mar 2021 15:57:39 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SLA]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10237</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/03/SLA202102.png" />
+							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していましたが、ついに達成できました！ 稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間 L [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ついに99.95%以上を達成したよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>きたー！おめでとうー</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>2月のダウンタイムは3 分 29 秒でした</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>スマホサーバなのにがんばったね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指していましたが、ついに達成できました！</p>
+
+
+
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>ちなみに、先月は97.42%で無理でした。site24x7の監視サービスは強力ですが、まだ自動的に復旧する仕組みを作っていないので、再起動は人力となっています。これができれば常に目標SLAを達成できそうです。</p>
+
+
+
+<h3 class="wp-block-heading">２０２１・０２のSLA</h3>
+
+
+
+<p>さて、今月の結果から！<br>ダウンタイムの3 分 29 秒で、SLAは99.991%となり今月は目標の99.95%に届きました！　やったー！</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="908" height="627" src="/wp-content/uploads/2021/03/image-10.png" alt="" class="wp-image-10238" srcset="/wp-content/uploads/2021/03/image-10.png 908w, /wp-content/uploads/2021/03/image-10-768x530.png 768w" sizes="(max-width: 908px) 100vw, 908px" /></figure></div>
+
+
+
+<p>ツイッターで、呟いていたらSite24x7の中の人がうれしいメッセージを送ってくれました。</p>
+
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">おおーーーッ！<br><br>SLA目標達成おめでとうございます！なんか自分のことのように嬉しいです！笑</p>&mdash; Miya &#8211; SaaS型監視ツールの中の人 (@Miya_Site24x7) <a href="https://twitter.com/Miya_Site24x7/status/1366299786874294272?ref_src=twsrc%5Etfw" data-wpel-link="external" target="_blank" rel="external noopener noreferrer" class="wpel-icon-right">March 1, 2021<span class="wpel-icon wpel-image wpel-icon-1"></span></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<p>嬉しいツイート、ありがとうございます！</p>
+
+
+
+<h3 class="wp-block-heading">少しダウンした原因は？</h3>
+
+
+
+<p>毎回、いいところでダウンするので今月は意図的に再起動を手動でしておきました。毎回、ある程度時間が経過すると「Bad Gateway」が出てしまうんです。とりあえず、再起動を少し入れて様子見をしてたんですが、それが良かったようです。赤い部分は再起動を入れたので、そのダウンタイムです。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回の教訓は以下となります。</p>
+
+
+
+<p>・再起動は有効だった<br>・根本原因はまだ未調査。対処療法で再起動して対応<br>・再起動を自動化するには、スマホのリセットを外部から行う仕組み作りが必要<br>・実験用で、UmidigiF2にその仕組みを模索したい<br></p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>前回から、スマホを意図的に再起動させる仕組みをどうするか考えています。ハードウェア的に再起動を行うには、バッテリーを外して、電源をリモートからコントロールするようにするとか考えていましたが、root化してある端末ですので、他にも方法がありそうです。それにハードウェア的にリブートさせてもandroidシステムのいろいろな問題（例えば再起動後はロック解除しないとホーム画面まで行けないなど）があります。</p>
+
+
+
+<p>ソフトウェア的には、以下コマンドでシステムが瞬時にシャットダウンします。</p>
+
+
+
+<pre class="wp-block-code"><code>$ tsu
+# reboot -p
+Done</code></pre>
+
+
+
+<p>-pオプションを取れば、リブートします。しかし、このリブートだとWiFi接続に自動的に接続しなかったり、再起動時はロック解除をしないとHOME画面まで行かないのでTermux bootが動作しなかったりと問題があります。</p>
+
+
+
+<p>そこで、以下を試しています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Google Play : MacroDroid &#8211; デバイス自動化</p><cite><a href="https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このアプリはよく出来ていて、これを使うことにより、以下のような事ができることがわかりました。</p>
+
+
+
+<p>・一定曜日の特定時刻にソフトリブート（要root化必要）<br>・起動時にWiFiの特定APへ接続（ヘルパーアプリ使用）<br>・起動時に特定アプリを強制起動（termuxを起動させる）</p>
+
+
+
+<p>このリブートだと、ロック解除しなくても特定アプリが動かせるし、WiFiへの接続も問題なさそうです。</p>
+
+
+
+<p>termux が動作すれば termux boot でtermux内部のソフトウェアは起動します。今は、テストでdnsmasqやsshdを自動起動させていますが問題なさそうです。とりあえずは、一定間隔でリブートさせることは出来そうです。</p>
+
+
+
+<p>site24x7の障害検知サービスをどのように受けて、このシステムと切り離してトリガーしてリブートできるよう、何か良い方法はないかなと考えているところです。トリガーはいろいろあるので、その方法を模索中です。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2021/01 site24x7 でのSLA状況・統計データ</title>
+		<link>/2021/02/07/post-10027.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 07 Feb 2021 10:17:34 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SLA]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10027</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/02/SLA202101.png" />
+							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していますが、果たしてスマホサーバで達成できるのでしょうか？ 稼働率・SLA99.95%をスマホ自宅サーバで目指 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>もう少しだったのにー！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>また落ちたのね？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>そうなのよー、1月2日にねー。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>正月だから寝てたのね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指していますが、果たしてスマホサーバで達成できるのでしょうか？</p>
+
+
+
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>ちなみに、先月は99.368%で無理でした。かなり惜しかったんですよ！site24x7の監視サービスは強力です。これがなければ、もっとダウンタイムは長かったです。</p>
+
+
+
+<h3 class="wp-block-heading">２０２１・０１のSLA</h3>
+
+
+
+<p>さて、今月の結果から！<br>ダウンタイムの合計19 時間 12 分あって、SLAは97.42%となり今月も目標の99.95%には届きませんでした。先月も書きましたが99.95%とは１ヶ月に21.6分以内のダウンタイムに留めないといけません。正月早々に、監視のお知らせはきていたのですが、寝ていて気がつかず！　この1日がなければ達成していたんですよー。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="759" height="626" src="/wp-content/uploads/2021/02/202101sla.png" alt="" class="wp-image-10028"/></figure></div>
+
+
+
+<h3 class="wp-block-heading">原因は？</h3>
+
+
+
+<p>今月も設定ミスではなく、NGINXがBadGatewayを出して本格的に停止していました。</p>
+
+
+
+<p>ちょっと回避が難しいので、運用でカバーしようと思っているんですがやっぱり寝てるときとか無理ですね。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回の教訓は以下となります。</p>
+
+
+
+<p>・UmidigiF2に載せ替えようとおもっている。<br>・4月から仕事先が変わるんで、再起動が難しいかも。何か作戦を練らねば。<br>・バッテリー無くして電源管理と連動する仕組みとか考えないと。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>現在リモート勤務なので、まぁ気がつけばすぐに再起動かけられますがこの先仕事のライフワークが変わる可能性が大なので、再起動がむずかしくなりそうです。バッテリーを外して、電源をリモートからコントロールするとかちょっと工夫しないといけないですね。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2020/11と12 site24x7 でのSLA状況・統計データ</title>
+		<link>/2021/01/17/post-9969.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 04:08:20 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SLA]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=9969</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/01/SLA202011.png" />
+							<description><![CDATA[site24x7のスターターパックを2020の10月から始めています。監視サービスでSLAを99.95%目指していますが、果たしてスマホサーバで達成できるのでしょうか？ 稼働率・SLA99.95%をスマホ自宅サーバで目指 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>だいぶ遅れましたがSLAデータ報告です！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>99.95%は達成できた？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>・・・</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>また来月がんばりましょう！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>を2020の10月から始めています。監視サービスでSLAを99.95%目指していますが、果たしてスマホサーバで達成できるのでしょうか？</p>
+
+
+
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>先月は、99.567%で無理でした。</p>
+
+
+
+<h3 class="wp-block-heading">２０２０・１１のSLA</h3>
+
+
+
+<p>まずは結果から。ダウンタイムの合計17 時間 30 分あって、SLAは97.565%となり今月も目標の99.95%には届きませんでした。先月も書きましたが99.95%とは１ヶ月に21.6分以内のダウンタイムに留めないといけません。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="860" height="617" src="/wp-content/uploads/2021/01/Site24x7-201011.png" alt="" class="wp-image-9971" srcset="/wp-content/uploads/2021/01/Site24x7-201011.png 860w, /wp-content/uploads/2021/01/Site24x7-201011-768x551.png 768w" sizes="(max-width: 860px) 100vw, 860px" /></figure></div>
+
+
+
+<h3 class="wp-block-heading">原因は？</h3>
+
+
+
+<p>今月のは設定ミスではなく、NGINXがBadGatewayを出して本格的に停止していました。今の所、root化したtermuxでNGINXを動かすとこの現象が発生しています。</p>
+
+
+
+<p>ちょっと回避が難しいので、運用でカバーしようと思っていましたが夜間にダウンするともう無理ゲーです。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回の教訓は以下となります。</p>
+
+
+
+<p>・サーバが１つだとやっぱりきびしい。多重化が必要だがそこまでコストをかけたくない。<br>・root化したNginxだとBadGatewayが出てしまう。なんとか対策しなくとだが根本原因がまだ不明<br>・運用でカバーしようと思ったが、夜間にダウンするともう無理です。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>目標がクリアできなかったので、記事を更新するのも面倒になっていますが記録だけでも採っていこうかと。ちなみに、12月も無理でしたので、この記事にはりつえておきます。99.368%という結果。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="858" height="610" src="/wp-content/uploads/2021/01/Site24x7.png" alt="" class="wp-image-9972" srcset="/wp-content/uploads/2021/01/Site24x7.png 858w, /wp-content/uploads/2021/01/Site24x7-768x546.png 768w" sizes="(max-width: 858px) 100vw, 858px" /></figure></div>
+
+
+
+<p>かなり惜しかったんすが、今回もNGINXがBadGatewayを出してしまいました。17日の少し止まった部分はSSLの更新に伴うWEB再起動ですのでこれはまぁ許容。19日のがなければクリアしていました。NGINXがBadGatewayを出す根本原因を探らないとなのですが、腰が重いです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>2020/10 site24x7 でのSLA状況など統計データ</title>
+		<link>/2020/11/04/post-9877.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2020 09:30:50 +0000</pubDate>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SLA]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=9877</guid>
+				<media:thumbnail url="/wp-content/uploads/2020/11/SLA202010.png" />
+							<description><![CDATA[site24x7のスターターパックというのを10月から始めてみました。いわゆる監視サービスなんですが10ドルで契約できるので、ちょっと使い始めています。 稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>引っ越ししてからのSLAデータ報告です！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>site24x7のレポート？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>そうそう。有料会員になったんでとりあえず使っています！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>99.95% って難しそうだね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>site24x7の<strong>スターターパック</strong>というのを10月から始めてみました。いわゆる監視サービスなんですが10ドルで契約できるので、ちょっと使い始めています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>稼働率・SLA99.95%をスマホ自宅サーバで目指せ！まずは１ヶ月間</p><cite><a href="/2020/09/25/%e7%a8%bc%e5%83%8d%e7%8e%87%e3%83%bbsla99-95%e3%82%92%e3%82%b9%e3%83%9e%e3%83%9b%e8%87%aa%e5%ae%85%e3%82%b5%e3%83%bc%e3%83%90%e3%81%a7%e7%9b%ae%e6%8c%87%e3%81%99%ef%bc%81%e3%81%be%e3%81%9a%e3%81%af/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">LINK</a></cite></blockquote>
+
+
+
+<p>とりあえず、SLAレポートが出せるのでこれを月末に出していこうかなと思います。</p>
+
+
+
+<h3 class="wp-block-heading">２０２０・１０のSLA</h3>
+
+
+
+<p>まずは結果から。ダウンタイムの合計3 時間 5 分あって、SLAは99.567%となり目標の99.95%には届きませんでした。99.95%とは１ヶ月に21.6分以内のダウンタイムに留めないといけません。しかし、３時間も止めてしましました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="842" height="621" src="/wp-content/uploads/2020/11/Site24x7.png" alt="" class="wp-image-9878" srcset="/wp-content/uploads/2020/11/Site24x7.png 842w, /wp-content/uploads/2020/11/Site24x7-768x566.png 768w" sizes="(max-width: 842px) 100vw, 842px" /></figure></div>
+
+
+
+<h3 class="wp-block-heading">原因は？</h3>
+
+
+
+<p>5日の停止はDNSの設定ミスです。27日と28日は内部ネットワークを少し変更してその影響で少し止まってしまいました。30日は、NGINXがBadGatewayを出して本格的に停止していました。今の所、root化したtermuxでNGINXを動かすとこの現象が発生しています。これはなんとかしないとだめですね。設定関連での停止は、今後以下のように対策しようと思います。</p>
+
+
+
+<p>・設定変更後、5分は監視レポートが飛んでくるか確認する。</p>
+
+
+
+<p>なかなか設定ミスの間違いには気がつきにくいです。とりあえず何か変更したら、5分は監視サービスの動きを見ることで対応しようと思います。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回の教訓は以下となります。</p>
+
+
+
+<p>・引っ越し当初なんで設定することがたくさんあった<br>・設定変更後は、監視サービスの動きを5分は見て見ることにする<br>・サーバ１つだとやっぱりきびしい。多重化が必要。<br>・root化したNginxだとBadGatewayが出てしまう。なんとか対策しなくとだが根本原因がまだ不明</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>UmidigiF2をroot化したので、とりあえずこっちに戻して様子を見ようと思いますが、めんどくさいのでちょっと作業は中断。スマホサーバを安定して動かすのは難しいです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

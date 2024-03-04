@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>NTT-X &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Tue, 18 Apr 2017 15:19:07 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>NTT-X &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>1200円送料税込み 10000mAh ポリマータイプバッテリー</title>
+		<link>/2017/04/19/post-3820.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Tue, 18 Apr 2017 15:19:07 +0000</pubDate>
+				<category><![CDATA[100Yen]]></category>
+		<category><![CDATA[NTT-X]]></category>
+		<guid isPermaLink="false">/?p=3820</guid>
+							<description><![CDATA[なんか安くて、ポリマータイプのいいバッテリーないかなーと探していましたが、PQI Power 10000C っていうのが NTT-X で安かったです。まだ良いポリマータイプのバッテリーなのかは不明ですが、ばらした写真が見 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>なんか安くて、ポリマータイプのいいバッテリーないかなーと探していましたが、PQI Power 10000C っていうのが NTT-X で安かったです。まだ良いポリマータイプのバッテリーなのかは不明ですが、ばらした写真が見つからないので自分でバラすしかないかなと。</p>
+<div align="center">
+<table cellspacing="0" cellpadding="2" width="600" border="0">
+<tbody>
+<tr>
+<td valign="top" width="300"><img loading="lazy" decoding="async" title="PW15366438" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366438" src="/wp-content/uploads/2017/04/pw15366438.jpg" width="250" height="250" /> </td>
+<td valign="top" width="300"><img loading="lazy" decoding="async" title="PW15366437" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PW15366437" src="/wp-content/uploads/2017/04/pw15366437.jpg" width="250" height="250" /></td>
+</tr>
+</tbody>
+</table></div>
+<p align="left">送料、税込み1200円だったので、２つぽちっとしておきました。１つは分解、１つは普通に使おうかと。ポリマータイプとメーカーのオフィシャルに書いてありました。これが1セルなのか、5000mAh の2セルなのかちょっと試しに買ってみることに。5000mAh を直列にして7.4V 定格を降圧して 5V にしているタイプかもしれません。</p>
+<p align="left"><a href="http://jp.pqigroup.com/prod_spec.aspx?mnuid=1296&amp;modid=145&amp;prodid=1183" target="_blank" rel="noopener noreferrer external" data-wpel-link="external"><img loading="lazy" decoding="async" title="PQI_Power_10000C" style="float:none;margin-left:auto;display:block;margin-right:auto;border-width:0;" border="0" alt="PQI_Power_10000C" src="/wp-content/uploads/2017/04/pqi_power_10000c.png" width="571" height="353" /></a> </p>
+<p align="left">あと、前回打診買いしたダイソー、300円の18650 モバイルバッテリーは変換効率が恐ろしく悪いのか、セルが2000mAh もないのかまだ特定できていませんが、5V 給電時、スマホには800mAh ほどしか入りません。2本あっても、2400mAh の yotaphone 2 がフル充電にはならず６０％を少し超えたあたりです。</p>
+<p align="left">&#160;</p>
+<p align="left">3.5V to 5v の変換効率が60%として、本当に2000mAh なら 1200mAh ほど入るはずですが、800mAh 未満ほどしか入らないということは、1300mAh ほどしかないセルということになりそうです。WEB 上での情報とも一致する値です。</p>
+<p align="left">どの道、ダイソーのバッテリーは分解して使うことを前提に買っているのでばらして真相をみたいと思います。2000mAh のバッテリーを使っていると歌っている以上、これは本当だとしたら恐ろしく効率の悪い昇圧回路ということになりますが、さてどうなることやら。</p>
+<p>&#160;</p>
+<p>その後、サイド販売サイトを確認してみると、すでに販売終了。一瞬でしたね。黒も白もすでにありません。</p>
+<p><img loading="lazy" decoding="async" title="ｃ" style="border-top:0;border-right:0;border-bottom:0;float:none;margin-left:auto;border-left:0;display:block;margin-right:auto;" border="0" alt="ｃ" src="/wp-content/uploads/2017/04/02b823ecae94.png" width="640" height="367" /> まだ、ばらしていませんが高出力でなかなかいいです。24V 車の MTB 用動力源にしようと思っていましたがまた次のポリマー電池を探すことにします。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>osx &#8211; JunkHack Feed</title>
+	<link>/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 03 Mar 2024 09:16:36 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/logo.png</url>
+	<title>osx &#8211; JunkHack</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Surface ProのHackintoshが欲しい！</title>
+		<link>/2024/02/02/ai_engine_for_wordpress.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2024 02:50:19 +0000</pubDate>
+				<category><![CDATA[osx]]></category>
+		<guid isPermaLink="false">/?p=11630</guid>
+				<media:thumbnail url="/wp-content/uploads/2024/02/sp_mac.png" />
+							<description><![CDATA[MS製ノートPCの代名詞、サーフェイス（Surface Pro）です。今までこのPCには興味がなかったのですが、とあるYouTubeの動画を見たらめっちゃ欲しくなりました。その動画はmacosを入れてタッチペンでお絵描き [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>ふとしたきっかけでMS製のPC、SurfaceProに興味が出たのよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>当然、中古ジャンクよね？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>えー（笑）５台を調達しました。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>好きねー！で、ベトナムに持っていったの？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>MS製ノートPCの代名詞、サーフェイス（Surface Pro）です。今までこのPCには興味がなかったのですが、とあるYouTubeの動画を見たらめっちゃ欲しくなりました。その動画はmacosを入れてタッチペンでお絵描きしていたんですよね。まずは見てみてくださいな。</p>
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube"><a href="/2024/02/02/ai_engine_for_wordpress.html" data-wpel-link="internal" rel="noopener noreferrer"><img decoding="async" src="/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=%2F%2Fi.ytimg.com%2Fvi%2FYz_pWoYMn1w%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br /><figcaption></figcaption></figure>
+
+
+<p>　この動画では、Surface Pro7 を使っています。Windowsとベンチマーク比較しているのですが、macosのほうが速いみたいですね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="572" src="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png" alt="" class="wp-image-11674" srcset="/wp-content/uploads/2024/02/ss-sp7-bench-1024x572.png 1024w, /wp-content/uploads/2024/02/ss-sp7-bench-768x429.png 768w, /wp-content/uploads/2024/02/ss-sp7-bench-984x550.png 984w, /wp-content/uploads/2024/02/ss-sp7-bench.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ということで、俄然このノートPCが欲しくなりました。はい、理由は単純。「macosでタッチ操作してみたい」が動機です。液タブみたいに使えるのか？など疑問がいっぱいで、その確認してみたい気持ちが抑えきれなかったというやつです。</p>
+
+
+
+<p>以下画像は、予算の関係でSurface Pro6や5でのHackintoshした画面です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="/wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1024x768.jpg" alt="" class="wp-image-11637" srcset="/wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1024x768.jpg 1024w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-768x576.jpg 768w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-1536x1152.jpg 1536w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n-984x738.jpg 984w, /wp-content/uploads/2024/02/421222188_7291586150961342_3926820151529463259_n.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>まだ調査中で、使い出して間も無いのですが普段仕事でmacos使いのエンジニアがこのマシンをどのように感じるか？　また、どのような使い道があるのか？　などのレポートを長期で書いてみたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">まずは、Surface Proの中古相場を検討する</h3>
+
+
+
+<p>普段はベトナム・ホーチミンに滞在しているのですが今は年末なので一時的に日本に帰国しています。日本には、ヤフオクやメルカリがあるので中古機器をゲットするには最高の環境なんですよね。</p>
+
+
+
+<p>　で、今までMS製のSurface Proはオフィスでは他人が使うのを見たことがありますが、自分では使ったことがありません。印象としては、キーボードがペラペラな壊れそうなPCだなーっていう印象しかありませんでした。実際、外部モニター出力の接触は悪くなっている筐体がたくさんあったようで、MTG時にモニターに接続するときは結構大変みたいでした。あと、キーボードはタワむとその人は言っていました。</p>
+
+
+
+<p>　しかし、中身（OS）をHackintosh化してmacosで運用できるなら話は別です。ヤフオクであれこれ物色した結果、機種にもよりますが、画面割れは5000円〜2万円くらいです。正常な個体は、1万円〜5万円くらいはします。まだSurface Pro7+ は新品も売っているようですね。</p>
+
+
+
+<p>　この筐体選びは、かなり重要で本当はSurface Pro7か7+が欲しかったのですが予算の関係で落札できませんでした。ということで、Surface Pro5と6 を検証していきたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">Hackintosh化できるSurface Proは？</h3>
+
+
+
+<p>いろいろと調べていくうちに、Surface ProをHackintosh化するには一番良いのが、Surface Pro7 または、ストレージが拡張できるSurface Pro7+ が良いようです。そもそもSurface Proは型番がたくさんありますのでWiki見た方が速いです。</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://en.wikipedia.org/wiki/Surface_Pro#Timeline" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="669" height="660" src="/wp-content/uploads/2024/02/Surface_Pro_-_Wikipedia.png" alt="" class="wp-image-11645"/></a></figure>
+
+
+
+<p>ざっくり説明すると、2017年に発売されたSurface Pro（無印）がSurface Pro5とかSurface Pro 2017とか呼ばれています。なんでこの時の製品名に5が付かなかったのかは知りませんが、これ移行は、６・７・８・９とSurface Proの後ろに番号が付くのが製品名になっています。Hackintosh化するにあたり、Surface Pro7か、Surface Pro7+ が最適解かと思います。理由は後で。</p>
+
+
+
+<p>Surface Pro7（とプラス）は結構人気で、3万円以上になってなかなか希望額では落札できませんでした。特にプラスがついたモデルはストレージがマザーに直付けじゃなく後から交換できるタイプで、相場は4〜5万前後することもあります。安い時は3万円台くらいで買えるかもです。</p>
+
+
+
+<h3 class="wp-block-heading">イオシスの新春特売でまずは２台ゲット</h3>
+
+
+
+<p>　何回の落札に敗れ、落札できず仕舞いでした。こうなるともう末期患者です。（笑）</p>
+
+
+
+<p>そうこうしている内に、Surface Pro5（正式な型番は5がつかないもので、2017製）が、新春特売で売られていたので店舗へ足を運んでみることに。イオシスの特売です。</p>
+
+
+
+<p>　(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円<br>　(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</p>
+
+
+
+<p>(1) を買うはずが、衝動買いで(2) も買ってしまいました。LTE通信に興味があってタイプカバー日本語もついていたので、ついつい。</p>
+
+
+
+<p>スペックは以下のWIKIを見るとわかりやすいです。</p>
+
+
+
+<p>　WIKI：Surface Pro シリーズ（<a href="https://ja.wikipedia.org/wiki/Microsoft_Surface#Surface_Pro_%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA_2" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</p>
+
+
+
+<p>Windows10でGeekbench5 を走らせた結果が以下です。</p>
+
+
+
+<h2 class="wp-block-heading">Windows10でGeekbench5 を走らせた結果</h2>
+
+
+
+<h3 class="wp-block-heading">(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="844" height="707" src="/wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n.jpg" alt="" class="wp-image-11638" srcset="/wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n.jpg 844w, /wp-content/uploads/2024/02/416855829_7217132948406663_6392400019410923305_n-768x643.jpg 768w" sizes="(max-width: 844px) 100vw, 844px" /></figure>
+
+
+
+<p>こっちは印象としては、Winマシンとしては辛そうです。macとしては入れてみないとなんとも言えませんが、用途を限定して使う感じになりそうですね。</p>
+
+
+
+<h3 class="wp-block-heading">(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="841" height="698" src="/wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n.jpg" alt="" class="wp-image-11639" srcset="/wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n.jpg 841w, /wp-content/uploads/2024/02/415942257_7217132168406741_2251814953488262072_n-768x637.jpg 768w" sizes="(max-width: 841px) 100vw, 841px" /></figure>
+
+
+
+<p>まぁまぁ似たようなスコアですね。メモリが8GBってのとDISKが256GBあるのが嬉しいです。人にもよると思いますがちょっとした用途なら、これで問題ない感じです。</p>
+
+
+
+<h2 class="wp-block-heading">macos12でGeekbench5 を走らせた結果</h2>
+
+
+
+<h3 class="wp-block-heading">(1) surface pro5 4G/128GB Core m3-7Y30・・・16777円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="835" height="706" src="/wp-content/uploads/2024/02/sp5a.png" alt="" class="wp-image-11691" srcset="/wp-content/uploads/2024/02/sp5a.png 835w, /wp-content/uploads/2024/02/sp5a-768x649.png 768w" sizes="(max-width: 835px) 100vw, 835px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h3 class="wp-block-heading">(2) surface pro5 LTE 8G/256GB i5-7300U・・・30000円</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="833" height="809" src="/wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U.png" alt="" class="wp-image-11677" srcset="/wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U.png 833w, /wp-content/uploads/2024/02/surface_pro5_LTE_8G256GB_i5-7300U-768x746.png 768w" sizes="(max-width: 833px) 100vw, 833px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h2 class="wp-block-heading">ヤフオクでも落とす</h2>
+
+
+
+<p>ウォッチリストに入れて観察すること１週間。なかなか希望のは落とせませんね。人気です。結局、以下をゲットしました。</p>
+
+
+
+<h3 class="wp-block-heading">(3) surface pro6 8G/128GB i5-8350U・・・10000円（画面割れ大）</h3>
+
+
+
+<h3 class="wp-block-heading">(4) surface pro5 LTE 8G/256GB i5-7300U・・・8000円（画面割れ小）<br></h3>
+
+
+
+<p>Surface Pro7かプラスが欲しかったのですが、安くはないですね。まぁ、仕方ありません。ベトナム帰国までに落札して配送完了する必要があったので、今回はSurface Pro7は諦めました。</p>
+
+
+
+<p>　全部で、５台を調達しました。Surface Pro6 のGeekbenchは以下です。今あるSurface Proの中では一番スコアが良いですね。</p>
+
+
+
+<h3 class="wp-block-heading">(3) surface pro6 8G/128GB i5-8350U・・・10000円（画面割れ大）</h3>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="881" height="696" src="/wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n.jpg" alt="" class="wp-image-11686" srcset="/wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n.jpg 881w, /wp-content/uploads/2024/02/419972428_7267862890000335_4785114890262148309_n-768x607.jpg 768w" sizes="(max-width: 881px) 100vw, 881px" /></figure>
+
+
+
+<p>画面割れは、ベトナムの修理屋さんにMS純正品のパーツで交換してもらいました。約1.6万円</p>
+
+
+
+<h2 class="wp-block-heading">５台を持っていざ、ベトナムへ</h2>
+
+
+
+<p>ベトナムには、大量の中古PC機械は持ち込めないことになっています。が、自分の場合はベトナムに会社があり、そこで自分が利用するというテイで入国しました。いつもは、スーツケースにデスクトップPCとノートPCを入れて運搬しているので、PC機器は２台ですが、今回はデスクトップを入れて６台。</p>
+
+
+
+<p>　果たして無事に入国できるでしょうか。</p>
+
+
+
+<p>　ビザは自分の最近作ったベトナムの会社から自分に発行したD3のビザがあるので、ほどなく取得し、入国。最後、出口のチェックで荷物を開けて確認がありました。自分が使うPCであること。そして、自分がIT関係の仕事をしている旨を伝えると、OKと通してくれました。さすがに５台はやりすぎたか？２台くらいだとノーチェックですが。</p>
+
+
+
+<p>　持ち込み状態は、ダイソーのソフトケースに入れて箱っぽいものは無い状態だったのですが、レントゲン・チェックで複数のノートPCっぽい形状を確認したのでしょう。１、２台だったら問題ないと思いますが、５台以上を持ち込む場合はこういうチェックはちゃんとあるようです。</p>
+
+
+
+<h2 class="wp-block-heading">Hackintosh化へ</h2>
+
+
+
+<p>日本でもある程度はインストールしていましたが、細かいチューニングはベトナムから空き時間にあれこれやっていました。細かい話は面倒なので、機会があればまた紹介しますが、気になる方はGitを見てみてください。OpenCoreのEFIなど、surface5と6のがあります。</p>
+
+
+
+<p>　GIT：Surface Pro5-6 efi（LINK：そのうち整備予定）</p>
+
+
+
+<p>推奨の機材は次で紹介しておきます</p>
+
+
+
+<h2 class="wp-block-heading">周辺機器を揃える</h2>
+
+
+
+<p>Surface Pro5や6の場合は、内臓のWiFiとbluetoothが使えません。Linuxでは使えることは確認したのですが、macos向けにはまだドライバをだれも作っていないようです。</p>
+
+
+
+<p>ということで、WifiとbluetoothはUSBの以下で対応。HUBも以下２種類は稼働し、HDMI出力も可能でした。</p>
+
+
+
+<p>●WiFi・・・TL-WN725N</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i101315035-s101533173.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="848" height="574" src="/wp-content/uploads/2024/02/TL-WN725N.png" alt="" class="wp-image-11680" srcset="/wp-content/uploads/2024/02/TL-WN725N.png 848w, /wp-content/uploads/2024/02/TL-WN725N-768x520.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></figure>
+
+
+
+<p>●bluetooth・・・BT-403</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i1458845726-s6043753777.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="849" height="573" src="/wp-content/uploads/2024/02/BT-403.png" alt="" class="wp-image-11679" srcset="/wp-content/uploads/2024/02/BT-403.png 849w, /wp-content/uploads/2024/02/BT-403-768x518.png 768w" sizes="(max-width: 849px) 100vw, 849px" /></a></figure>
+
+
+
+<p>●HUB・・・安いのと高いもの２タイプをゲット</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i1577890813-s6704228023.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="725" src="/wp-content/uploads/2024/02/hub1.png" alt="" class="wp-image-11681" srcset="/wp-content/uploads/2024/02/hub1.png 846w, /wp-content/uploads/2024/02/hub1-768x658.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<p>イーサネット内臓のタイプも調達</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2350879378-s11431936813.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="682" src="/wp-content/uploads/2024/02/hub2.png" alt="" class="wp-image-11682" srcset="/wp-content/uploads/2024/02/hub2.png 846w, /wp-content/uploads/2024/02/hub2-768x619.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<p>ペン・・・互換ペン</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2406400935-s11764798019.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="848" height="711" src="/wp-content/uploads/2024/02/pen.png" alt="" class="wp-image-11683" srcset="/wp-content/uploads/2024/02/pen.png 848w, /wp-content/uploads/2024/02/pen-768x644.png 768w" sizes="(max-width: 848px) 100vw, 848px" /></a></figure>
+
+
+
+<p>キーボード・・・MS純正USキーボードの中古</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.lazada.vn/products/i2427327015-s11980041627.html" target="_blank" rel="noreferrer noopener external" data-wpel-link="external"><img loading="lazy" decoding="async" width="846" height="571" src="/wp-content/uploads/2024/02/tc_ms_keyboard.png" alt="" class="wp-image-11684" srcset="/wp-content/uploads/2024/02/tc_ms_keyboard.png 846w, /wp-content/uploads/2024/02/tc_ms_keyboard-768x518.png 768w" sizes="(max-width: 846px) 100vw, 846px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading">Hackintoshとして利用可能と不可な機能</h2>
+
+
+
+<ul>
+<li>タッチパネル・・・・使えます</li>
+
+
+
+<li>ペンでお絵描・・・・筆圧感知もあり使えます</li>
+
+
+
+<li>WiFi・bluetooth・・・内臓は不可（上記USBで代用）</li>
+
+
+
+<li>イーサネット・・・・上記HUBは利用可能</li>
+
+
+
+<li>HDMI出力・・・・・edidをオーバーライドするとピンク色が修正可能</li>
+
+
+
+<li>キーボード・・・・・MS純正のタイプカバーの照度・音・など使えます</li>
+
+
+
+<li>トラックパッド・・・MS純正のタイプカバーでマルチタッチが使えます</li>
+
+
+
+<li>ヘッドフォン・・・・問題なし</li>
+
+
+
+<li>スピーカー・・・・・問題なし</li>
+</ul>
+
+
+
+<p>導入の具体的な方法は、興味のあるかたは各自で頑張ってください。どこかで自分用にメモするかもですが。</p>
+
+
+
+<h2 class="wp-block-heading">購入して失敗したなと思った機材</h2>
+
+
+
+<ul>
+<li>bluetooth接続のサードパーティー製Surface Proキーボード</li>
+</ul>
+
+
+
+<p>これなんですが、購入するまえは同じものかと思っていたのですが、実際はMS純正のタイプカバーキーボードとは違って、金属の接点がないんですよね。つまり、接続はbluetoothオンリーです。</p>
+
+
+
+<p>取り外して使えるメリットはあるんですが、いざ使うときに接続が切れて再接続まで若干のラグがあったり、そもそもキーボードはよくある中華製のキーボードでタイプの質感が悪いんですよね。</p>
+
+
+
+<p>英語配列が欲しかったので3000円くらいだったしまぁ、安いからいいかって感じで購入したのですがこれは失敗しました。</p>
+
+
+
+<p>●バックライトなしのbluetooth接続・・・3300円</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="847" height="636" src="/wp-content/uploads/2024/02/key1.png" alt="" class="wp-image-11650" srcset="/wp-content/uploads/2024/02/key1.png 847w, /wp-content/uploads/2024/02/key1-768x577.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+
+
+<p>●バックライトありのbluetooth・・・4200円</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="847" height="641" src="/wp-content/uploads/2024/02/key2.png" alt="" class="wp-image-11651" srcset="/wp-content/uploads/2024/02/key2.png 847w, /wp-content/uploads/2024/02/key2-768x581.png 768w" sizes="(max-width: 847px) 100vw, 847px" /></figure>
+
+
+
+<p>こっちは15万VNDくらい高いです。日本円で差額900円くらいだったので試しに１つゲット。</p>
+
+
+
+<h2 class="wp-block-heading">やっぱり英語キーボードの純正が一番</h2>
+
+
+
+<p>というわけで、いろいろとキーボードは検討したのですが、今のところ純正のサーフェイスのキーボードが一番です。理由は以下の通り。</p>
+
+
+
+<ul>
+<li>bluetoothではなく、物理接続のUSB接続なのでBIOS起動時などにも利用可</li>
+
+
+
+<li>トラックパッドのドライバーが使えて、マルチタッチで操作可能</li>
+
+
+
+<li>サードパーティー製の中華よりキーボードが押しやすい（すぐわかるレベル）</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="856" height="567" src="/wp-content/uploads/2024/02/Lazada_used.png" alt="" class="wp-image-11635" srcset="/wp-content/uploads/2024/02/Lazada_used.png 856w, /wp-content/uploads/2024/02/Lazada_used-768x509.png 768w" sizes="(max-width: 856px) 100vw, 856px" /></figure>
+
+
+
+<p>ということで、Lazadaでこのキーボードの中古品（程度良いらしい）を購入しました。お値段は、1万円くらいです。ちょっと高かったんですが、仕方ないです。このキーボードはもう廃盤っぽいらしいので。</p>
+
+
+
+<ul>
+<li>MicroSoft：Surface Pro タイプ カバー（<a href="https://www.microsoft.com/ja-jp/d/surface-pro-%E3%82%BF%E3%82%A4%E3%83%97-%E3%82%AB%E3%83%90%E3%83%BC/91v4vtmhxwpm?icid=prosignaturetc_buybox_protc&amp;activetab=pivot:%E6%8A%80%E8%A1%93%E4%BB%95%E6%A7%98tab" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+</ul>
+
+
+
+<p>Surface ProのUSキーボードは日本では中古では入手しにくいですがベトナムでは結構流通しています。純正MSのタイプカバーキーボードは、タイプした感触は良いのですがキーストロークが浅いので少し慣れが必要です。しかし、bluetoothのサードパーティ製とは違い、キートップから滑るような感触はないので良いです。</p>
+
+
+
+<p>これが壊れたら、Apple純正の英語版キーボードが候補ですね。てか、Surface Proはその形状から、分離式のキーボードもありかもしれません。いろいろ使ってみます。</p>
+
+
+
+<h2 class="wp-block-heading">お絵描きアプリをあれこれ検討する</h2>
+
+
+
+<p>今までは、タッチペンも持っていなかったしこれ系のソフトウエアはノーチェックです。macosでも探せば、あるんですね！</p>
+
+
+
+<ul>
+<li>Goodnotes6（アプリ版）・・・お気に入り</li>
+
+
+
+<li>WEB版のCanva（実際に書いたもの：<a href="https://www.canva.com/design/DAF6wRAye38/EJoCMQzmxz5uRp8tK-mimg/edit?utm_content=DAF6wRAye38&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">LINK<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）</li>
+
+
+
+<li>Corel Painter</li>
+
+
+
+<li>MediBangPaintPro</li>
+
+
+
+<li>Inpaint</li>
+
+
+
+<li>Paint X</li>
+</ul>
+
+
+
+<p>いろんなお絵描きアプリがありますが、どれが使いやすいのか検討中です。Goodnotes6の操作性が良いなって今のところ思っています。このアプリが優秀なのは、間違えたらペンのみで、消せるんですよね。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="681" src="/wp-content/uploads/2024/02/GoodNotes6-1024x681.png" alt="" class="wp-image-11678" srcset="/wp-content/uploads/2024/02/GoodNotes6-1024x681.png 1024w, /wp-content/uploads/2024/02/GoodNotes6-768x511.png 768w, /wp-content/uploads/2024/02/GoodNotes6-984x655.png 984w, /wp-content/uploads/2024/02/GoodNotes6.png 1368w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>消したり、移動したりが便利なんですよね</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="970" height="366" src="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif" alt="" class="wp-image-11693" srcset="/wp-content/uploads/2024/02/2024-02-04-23.58.53.gif 970w, /wp-content/uploads/2024/02/2024-02-04-23.58.53-768x290.gif 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
+
+
+
+<p>　</p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・タッチパネル式のmacosは新鮮<br>・タッチペンは中華の互換品使ったが、なかなか描きやすい<br>・ちょっとツルツルすぎるので本格的に描くなら、画面にシートを貼ったほうが良さげ<br>・Surface Proの画面は、めっちゃ綺麗<br>・キーボードはMS純正のUSタイプカバーが良い<br>・WiFi、bluetoothはSurface Pro5や6では内臓のは使えず、外付けが必要<br>・なので、Surface Pro7かプラスがおすすめ<br>・macos12はメモリ4Gでもまぁ動くが、用途は限られる<br>・ので、Surface Pro5なら、8G i5モデル以上が欲しいところ</p>
+
+
+
+<p>といった感じでしょうか。この端末をデバック機種として使うのか、メインmacと合わせて、液タブみたいに使うのはどうか？など利用方法を検討してみたいと思います。またはLinuxやChromeOSを入れて使うかもしれません。</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>今回、勢いで５台も調達しましたが２台は友達へのプレゼントです。あと、いろいろ触ってみて思うのは、今後買うなら、surface pro7か7+がおすすめですね。ちょっと高いですが、CPU性能とかWiFi＋bluetoothが標準のを使えるのはメリットです。どこかでゲットしてまたイジってみたいと思います。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>備忘録：Ryzen 5 3600のLinuxでUnixBench</title>
+		<link>/2021/05/30/post-10588.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sat, 29 May 2021 18:04:36 +0000</pubDate>
+				<category><![CDATA[Linux]]></category>
+		<category><![CDATA[osx]]></category>
+		<guid isPermaLink="false">/?p=10588</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/05/ryzen5-3600-unixbench.png" />
+							<description><![CDATA[そういえば、だいぶ前にRyzen 5 3600をメインマシンにしたんですが、これでLinux動かしてなくて、UnixBenchのスコアが気になっていました。Diskはさくっと入れ替えられるよう、2.5inchの脱着ベイを [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressの仕事が終わったんで、今日は好きなことやるよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>WordPressの仕事もやってるのね！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>だいたい、何でも頼まれたらやっちゃうよ！w</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>で、Linuxはubuntuですか？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>そういえば、だいぶ前にRyzen 5 3600をメインマシンにしたんですが、これでLinux動かしてなくて、UnixBenchのスコアが気になっていました。Diskはさくっと入れ替えられるよう、2.5inchの脱着ベイをつけてありますので今回はこのマシンにUbuntuを入れてUnixBenchを計測してみようと思います。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="522" height="577" src="/wp-content/uploads/2021/05/ryzen5.png" alt="" class="wp-image-10589"/></figure></div>
+
+
+
+<blockquote class="wp-block-quote"><p>Intelチップ、2022年までしばらくさようなら！<br><em>投稿日: <a href="/2020/03/13/goodby-intel/" data-wpel-link="internal" rel="noopener noreferrer"><time datetime="2020-03-13T06:20:53+09:00">2020年3月13日</time></a> 更新日:2020年11月13日</em></p><cite><a href="/2020/03/13/goodby-intel/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Link</a></cite></blockquote>
+
+
+
+<p>もう１年以上使っていますね。intelがRyzenを盛り返すまで繋ぎで使っているんですが、なかなかintelは画期的なのを出しませんね。AppleはM1のオリジナルCPU出してきたし、５年後はintelが昔のAMDみたいになっていなければいいんですが。</p>
+
+
+
+<h3 class="wp-block-heading">Ubuntu 20.04.1 LTSでUnixBench</h3>
+
+
+
+<p>MacOS10.14.x でUnixBenchを計測した時は、マルチCPUで2323.1でした。Ubuntu 20.04.1 LTSで、Ryzen 5 3600は以下のスコアです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>UNIX Benchmarks (Version 5.1.3) on AMD Ryzen 5 3600<br><br>Single-Core Score：2422.6<br>Multi-Core Score：7919.0</p></blockquote>
+
+
+
+<p>詳細は以下です。SSDは、SLCのsata2 64GBです。</p>
+
+
+
+<pre class="wp-block-code"><code>   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: mone: GNU/Linux
+   OS: GNU/Linux -- 5.4.0-42-generic -- #46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+------------------------------------------------------------------------
+Benchmark Run: 日  5月 30 2021 00:29:08 - 00:57:06
+12 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       50630225.0 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     9059.2 MWIPS (9.9 s, 7 samples)
+Execl Throughput                               7946.0 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks       1256459.1 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          338174.5 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       3192098.2 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             2633467.7 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 364452.5 lps   (10.0 s, 7 samples)
+Process Creation                              10672.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                  10448.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   5218.2 lpm   (60.0 s, 2 samples)
+System Call Overhead                        3716288.0 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   50630225.0   4338.5
+Double-Precision Whetstone                       55.0       9059.2   1647.1
+Execl Throughput                                 43.0       7946.0   1847.9
+File Copy 1024 bufsize 2000 maxblocks          3960.0    1256459.1   3172.9
+File Copy 256 bufsize 500 maxblocks            1655.0     338174.5   2043.4
+File Copy 4096 bufsize 8000 maxblocks          5800.0    3192098.2   5503.6
+Pipe Throughput                               12440.0    2633467.7   2116.9
+Pipe-based Context Switching                   4000.0     364452.5    911.1
+Process Creation                                126.0      10672.3    847.0
+Shell Scripts (1 concurrent)                     42.4      10448.3   2464.2
+Shell Scripts (8 concurrent)                      6.0       5218.2   8697.0
+System Call Overhead                          15000.0    3716288.0   2477.5
+                                                                   ========
+System Benchmarks Index Score                                        2422.6
+
+------------------------------------------------------------------------
+Benchmark Run: 日  5月 30 2021 00:57:06 - 01:25:17
+12 CPUs in system; running 12 parallel copies of tests
+
+Dhrystone 2 using register variables      377415057.2 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    85109.8 MWIPS (9.8 s, 7 samples)
+Execl Throughput                              38242.8 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        870656.3 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          231207.7 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       2754722.9 KBps  (30.0 s, 2 samples)
+Pipe Throughput                            17510677.3 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                1622682.3 lps   (10.0 s, 7 samples)
+Process Creation                              70024.7 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                  67019.5 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                  10011.7 lpm   (60.0 s, 2 samples)
+System Call Overhead                       16785255.3 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0  377415057.2  32340.6
+Double-Precision Whetstone                       55.0      85109.8  15474.5
+Execl Throughput                                 43.0      38242.8   8893.7
+File Copy 1024 bufsize 2000 maxblocks          3960.0     870656.3   2198.6
+File Copy 256 bufsize 500 maxblocks            1655.0     231207.7   1397.0
+File Copy 4096 bufsize 8000 maxblocks          5800.0    2754722.9   4749.5
+Pipe Throughput                               12440.0   17510677.3  14076.1
+Pipe-based Context Switching                   4000.0    1622682.3   4056.7
+Process Creation                                126.0      70024.7   5557.5
+Shell Scripts (1 concurrent)                     42.4      67019.5  15806.5
+Shell Scripts (8 concurrent)                      6.0      10011.7  16686.2
+System Call Overhead                          15000.0   16785255.3  11190.2
+                                                                   ========
+System Benchmarks Index Score                                        7919.0</code></pre>
+
+
+
+<p>同じRyzenだと、<em>ThinkCentre M75q-1 Tiny</em>　の<em>Ryzen 5 Pro 3400GE (3.30GHz, 2MB)</em>　が以下のスコアです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>UNIX Benchmarks (Version 5.1.3) on <em>Ryzen 5 Pro 3400GE (3.30GHz, 2MB)</em><br><br>Single-Core Score：2151.7<br>Multi-Core Score：6552.1</p></blockquote>
+
+
+
+<p>Ryzen 5 3600のが速いですが、このマシンも頑張っていますね。これは以下で紹介しています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>130W電源でThinkCentre M75q-1 Tinyのベンチマーク</p><cite><a href="/2020/07/02/130wm75q-1-tinybench/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">URL</a></cite></blockquote>
+
+
+
+<p>ちなみに、このマシンはWEBサーバにしようと思いっていたのですがフォートナイトやるっていうんで息子に持っていかれてしまいました。。。なので、このブログはスマホPixel3のWEBサーバでがんばっています！</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・Ryzen 5 3600 は、シングル2422.6　マルチ7919.0　のUnixbenchスコア<br>・2021/05/30時点でintelの次のCPUは、「Alder Lake」を2021年後半に発売予定<br>・これは10nmのようです<br>・特に困っていないので、7nmとか5nmのintelが出るまでじっくり待ちます</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>Intelがこのまま、黙ってAMDを先行させるだけではないと思っていますが、苦戦しているようです。まぁ、しかし、普通の作業をしているだけであれば、Core i7 3770; (Ivy Bridge)でもぜんぜん十分で、いまだにサブマシン（メインマシンに近い存在）で頑張っています。このCPUは、第3世代のもので、今から約10年前にリリースされました。macosも10.8くらいから10.15（現在）でずっと使っています。重い作業するのは、ビルドするときくらいでしょうか。あとはアプリケーションを同時に30個くらい開いたりしながら作業するとき、少しもたつくくらいです。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Apple純正のUSキーボードの分解メモ</title>
+		<link>/2021/03/22/post-10343.html</link>
+					<comments>/2021/03/22/post-10343.html#comments</comments>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 21 Mar 2021 21:30:00 +0000</pubDate>
+				<category><![CDATA[osx]]></category>
+		<guid isPermaLink="false">/?p=10343</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/03/Apple-Wireless-Keyboard-US-1.png" />
+							<description><![CDATA[アップルのワイヤレスキーボードとはこんな製品です。今は、Magic Keyboard(充電式)　っていうタイプなんで、乾電池を入れるこのタイプは古い製品ですね。写真は日本語配列ですが、これのUS配列でかたかながないタイプ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>メルカリで純正ワイヤレスキーボードのUS配列をゲットしたよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>またジャンクですか〜？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>一応、完動品っぽい！ジャンクじゃないよー</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>めずらしぃ！</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>アップルのワイヤレスキーボードとはこんな製品です。今は、Magic Keyboard(充電式)　っていうタイプなんで、乾電池を入れるこのタイプは古い製品ですね。写真は日本語配列ですが、これのUS配列でかたかながないタイプです。記号の位置や、英数・かなボタンが無いタイプとなります。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="422" height="407" src="/wp-content/uploads/2021/03/image-37.png" alt="" class="wp-image-10344"/></figure></div>
+
+
+
+<p>で、この古いタイプのワイヤレスキーボードは電池が３本のタイプと、２本のタイプがありますが、安ければどっちでもよかったので３本タイプをゲットしておきました。</p>
+
+
+
+<h3 class="wp-block-heading">状態を確認！</h3>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="984" height="421" src="/wp-content/uploads/2021/03/image-38.png" alt="" class="wp-image-10345" srcset="/wp-content/uploads/2021/03/image-38.png 984w, /wp-content/uploads/2021/03/image-38-768x329.png 768w" sizes="(max-width: 984px) 100vw, 984px" /></figure></div>
+
+
+
+<p>ぱっと見は、結構綺麗なんですが写真のようにスペースキーが少し変です。左側が沈んで、右側は浮いています。たぶん、清掃して組む時にちゃんとハマっていなかっただけっぽいので、押し心地もよくないしちょっとバラしてみることにしました。</p>
+
+
+
+<h3 class="wp-block-heading">バラすとこんな感じです</h3>
+
+
+
+<p>このタイプのキーはパンタグラフのプラスチックがキートップにハマっているだけです。外すのは、キートップを上側か、下側から持ち上げれば外れます。スペースキーなど、少し大きめのキーは、針金で補強されています。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="644" height="484" src="/wp-content/uploads/2021/03/image-39.png" alt="" class="wp-image-10346"/></figure></div>
+
+
+
+<p>良くみると、パンタグラフの一部と、金属部分が少し曲がっています。がーん！　左が沈んで右が浮いていた原因はこれですね。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="394" src="/wp-content/uploads/2021/03/image-40-1024x394.png" alt="" class="wp-image-10347" srcset="/wp-content/uploads/2021/03/image-40-1024x394.png 1024w, /wp-content/uploads/2021/03/image-40-768x296.png 768w, /wp-content/uploads/2021/03/image-40-984x379.png 984w, /wp-content/uploads/2021/03/image-40.png 1216w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>パンタグラフは爪折れが右側にあったので、左右入れ替えて、右側が浮かないようにして対応。これでうまく治らない場合はまた考えることにします。あと、針金を受ける金属部分が曲がっていたので、ストロークが動かず、左側が沈んでしまっていたようです。金属部分は修正しておきました。</p>
+
+
+
+<h3 class="wp-block-heading">ハメ方のコツ</h3>
+
+
+
+<p>嵌める前に、掃除もしておきました。多分、前のオーナーが掃除してくれたんだと思います。あまり汚れはなかったのですが、ブラシと綿棒で軽く清掃。</p>
+
+
+
+<p>で、ハメるコツですが、スペースキーなど、補強に針金が入っているキーはまず片一方を穴に通してやると簡単にハマります。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="778" height="581" src="/wp-content/uploads/2021/03/image-41.png" alt="" class="wp-image-10348" srcset="/wp-content/uploads/2021/03/image-41.png 778w, /wp-content/uploads/2021/03/image-41-768x574.png 768w" sizes="(max-width: 778px) 100vw, 778px" /></figure></div>
+
+
+
+<p>この薄型のキーボードは見かけによらず長持ちしますので、末長く使うなら保守用のジャンクを購入して修理するのもありかなと。今は使わない日本語キーボードを保守用のドナーにしておいても良いかも。薄い割には押し心地が結構よくて、気に入っています。毎日使っていても、かなり長持ちします。</p>
+
+
+
+<p>下の写真は修理が終わったところ。浮いていた部分もしっかりハマって、折れていた爪も今のところ問題なく、しっかりタイプできるようになりました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="390" src="/wp-content/uploads/2021/03/image-42-1024x390.png" alt="" class="wp-image-10349" srcset="/wp-content/uploads/2021/03/image-42-1024x390.png 1024w, /wp-content/uploads/2021/03/image-42-768x293.png 768w, /wp-content/uploads/2021/03/image-42-984x375.png 984w, /wp-content/uploads/2021/03/image-42.png 1215w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>純正の場合は、このように電池残量が見えたりします。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="480" height="189" src="/wp-content/uploads/2021/03/image-43.png" alt="" class="wp-image-10360"/></figure></div>
+
+
+
+<p>あと、キーボード設定で「F1、F2などのキーを標準のファンクションキーとして使用」のオプションが表示されます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="668" height="581" src="/wp-content/uploads/2021/03/image-44.png" alt="" class="wp-image-10361"/></figure></div>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・メルカリ相場は２０００円〜４０００円くらい<br>・Apple Wireless Keyboardは、電池３本のA1255と、２本のA1314とがある<br>・パンタグラフの爪は弱そうなので、バラして掃除するときは要注意<br>・キートップだけ外して、パンタグラフはつけたまま掃除のほうが良いです<br>・やっぱりUS配列は使いやすい<br>・パチモノとは大違い、Apple純正はタイプしやすいです！</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>10年以上、このワイヤレスの日本語配列を使っていたのですが、拠点が複数になり１年前から英語配列のパチモノキーボードを使っていました。もともと英語配列のキーボードを使っていたので、すっかり慣れてしまったのですが、トニカクこのパチモノキーボードの押し心地が非常によくありません。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="469" src="/wp-content/uploads/2021/03/image-45-1024x469.png" alt="" class="wp-image-10364" srcset="/wp-content/uploads/2021/03/image-45-1024x469.png 1024w, /wp-content/uploads/2021/03/image-45-768x351.png 768w, /wp-content/uploads/2021/03/image-45-984x450.png 984w, /wp-content/uploads/2021/03/image-45.png 1097w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>あえて言葉で表現するなら、Apple純正はしっとりした感じ。パチモノは軽くてキートップから滑る感じなんですよね。純正は薄くてもしっかりとした打鍵感がありますが、パチモノは打鍵感が弱いんです。うーん、言葉ではうまく表現できないですね。w　まぁ、安いのでしかたありません。Bluetoothキーボードが１０００円ちょっとで手に入るのはある意味、驚異的ですからね。</p>
+
+
+
+<p>で、毎日触るキーボードですので、Apple純正の、US配列をゲットすることにしたのです。</p>
+
+
+
+<p>　この薄型のキーボード、見た目は押しにくそうですが実は結構快適にタイプできます。キーストロークがあるタイプだと疲れてしまうのでこの薄い、ストロークがほとんどないこのキーボードが好きなんです。最近はこれの後継でMagic Keyboardというのがあるようで、次に壊れたら、これを使ってみようかなと思います。</p>
+
+
+
+<p>　このキーボードが好きな理由は他にもあって、ESC横のF1〜F4あたりのキーに触りやすくて、ミッションコントロールなど特殊キーを割り当てています。いつかは、メカニカルスイッチのキーボードをDIYしたいので、こういう薄型タイプからは卒業しないといけないのですが、、、</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/03/22/post-10343.html/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>6年使ったSSDが突然、認識せず、あれこれした記録</title>
+		<link>/2021/03/15/post-10294.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 14 Mar 2021 17:52:42 +0000</pubDate>
+				<category><![CDATA[AMZON]]></category>
+		<category><![CDATA[osx]]></category>
+		<guid isPermaLink="false">/?p=10294</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/03/SSD-limit-lifetime-2.png" />
+							<description><![CDATA[ということで、ちょうどOSを載せ替えようとSSDを調達して、大事なデータをコピーし終えたところで、突然認識しなくなりました。認識しなくなったSSDはこれ。当時のカタログの切り抜きを。 正式な型番と購入した値段、時期は以下 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>６年使ったSSDが突然、認識されなくなって困った・・・</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>バックアップとか大丈夫だった？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>丁度いいタイミングでOS載せ替えようとしてた時だったから、大丈夫だったよ！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>SSDの寿命って実際どのくらいなんでしょうね？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>ということで、ちょうどOSを載せ替えようとSSDを調達して、大事なデータをコピーし終えたところで、突然認識しなくなりました。認識しなくなったSSDはこれ。当時のカタログの切り抜きを。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="/wp-content/uploads/2021/03/samsung-ssd-840-series.pdf" target="_blank" rel="noopener noreferrer" data-wpel-link="internal"><img loading="lazy" decoding="async" width="1024" height="352" src="/wp-content/uploads/2021/03/image-20-1024x352.png" alt="" class="wp-image-10296" srcset="/wp-content/uploads/2021/03/image-20-1024x352.png 1024w, /wp-content/uploads/2021/03/image-20-768x264.png 768w, /wp-content/uploads/2021/03/image-20-984x338.png 984w, /wp-content/uploads/2021/03/image-20.png 1038w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure></div>
+
+
+
+<p>正式な型番と購入した値段、時期は以下です。</p>
+
+
+
+<p>Samsung SSD840 500GB MZ-7TD500B/IT</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="633" height="117" src="/wp-content/uploads/2021/03/image-21.png" alt="" class="wp-image-10297"/></figure></div>
+
+
+
+<p>2013年8月2日当時に購入したものですが、当時は結構高かったですね！1年後くらいに１回壊れたので、保証があったので新品にしていだきました。なので、2014年12月から、2021年３月まで使っていたことになります。約６年ですね。</p>
+
+
+
+<p>順番は前後しますが、壊れたからSSDを新調したわけではなくOSを載せ替えようと、新しいSSDを先に購入しておいたわけです。ラッキーでした！</p>
+
+
+
+<h3 class="wp-block-heading">新しいSSDは何にするか品定め！</h3>
+
+
+
+<p>　さて、OSを載せ替えるので新しいSSDを調達しようと思います。価格と相談ですが、容量どのくらいにしようかと久しぶりにリサーチ。</p>
+
+
+
+<p>　なんと１TBが、￥10,980じゃないですか！７年前の価格に換算すると、５万ちょいですよ。しかもCrucialで国内正規品。これでいいやということで速攻ぽちっとしました。当時は500GBでも十分と思っていましたが、あれこれ動画編集とかアプリとかいろいろ入れるので500GBだとちょっと窮屈でした。1TBあればだいぶ余裕ができますね。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Amazon : Crucial SSD 1000GB MX500<br>￥10,980</p><cite><a href="https://amzn.to/2ORFRiK" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://amzn.to/2ORFRiK<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="620" height="490" src="/wp-content/uploads/2021/03/image-19.png" alt="" class="wp-image-10295"/></figure></div>
+
+
+
+<p>このSSDのスペックは以下です。５年保証で、360TBのTBWがあります。きっと５年では、使いきれない書き込み総量ですね。</p>
+
+
+
+<h5 class="wp-block-heading">Crucial SSD 1000GB MX500　CT1000MX500SSD1/JP</h5>
+
+
+
+<pre class="wp-block-code"><code>発売時期：2018年 10月
+Micron 3D TLC NANDフラッシュを採用
+Silicon Motion SM2258 SSDコントローラを搭載
+2.5インチフォームファクター、厚さ7mmの薄型モデル
+SATA 6Gbpsインターフェース対応
+読込速度 最大560MB/s
+書込速度 最大510MB/s
+4kランダム読込 95,000IOPS
+4kランダム書込 90,000IOPS
+ファイルの保存や転送の高速化するDynamic Write Accelerationテクノロジー
+AES 256ビットのハードウェア暗号化によりデータを安全かつ確実に保護
+Acronis True Image for Crucialに対応
+Crucial Storage Executiveに対応
+250GB、500GB、1TB、2TBの容量をラインナップ
+5年間の制限付保証
+総書込容量（TBW）360TB
+（1日当たり197GBの書込を5年間行った場合に相当）</code></pre>
+
+
+
+<blockquote class="wp-block-quote"><p>参考</p><cite><a href="https://chimolog.co/bto-ssd-mx500-1tb/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://chimolog.co/bto-ssd-mx500-1tb/<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="https://www.crucial.jp/ssd/mx500/ct1000mx500ssd1" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://www.crucial.jp/ssd/mx500/ct1000mx500ssd1<span class="wpel-icon wpel-image wpel-icon-1"></span></a><br><a href="/wp-content/uploads/2021/03/crucial-mx500-ssd-productflyer-ja.pdf" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">PDF</a></cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">macos10.15.7にしてデータ戻し中・・</h3>
+
+
+
+<p>順調にmacos10.15.7 にアップデートしてデータなどを戻し中にコピーが終わったあと、突然認識しなくなりました。データコピーはSSDをUSB3.0に繋ぐケーブルで接続していました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="859" height="305" src="/wp-content/uploads/2021/03/image-22.png" alt="" class="wp-image-10300" srcset="/wp-content/uploads/2021/03/image-22.png 859w, /wp-content/uploads/2021/03/image-22-768x273.png 768w" sizes="(max-width: 859px) 100vw, 859px" /></figure></div>
+
+
+
+<blockquote class="wp-block-quote"><p>aliexpress：USB 3.0 to Sata Cable</p><cite><a href="https://s.click.aliexpress.com/e/_9J98zQ" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">URL<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="549" src="/wp-content/uploads/2021/03/image-23-1024x549.png" alt="" class="wp-image-10301" srcset="/wp-content/uploads/2021/03/image-23-1024x549.png 1024w, /wp-content/uploads/2021/03/image-23-768x412.png 768w, /wp-content/uploads/2021/03/image-23-984x528.png 984w, /wp-content/uploads/2021/03/image-23.png 1040w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>アリエクで500円くらいのものです。結構、便利でUSBだと遅いし容量も欲しい時なんかに重宝します。１本あると便利ですよ。</p>
+
+
+
+<h3 class="wp-block-heading">なんとか認識させる！</h3>
+
+
+
+<p><a rel="noreferrer noopener external" href="https://www.cgsecurity.org/wiki/TestDisk_Download" target="_blank" data-wpel-link="external" class="wpel-icon-right">Testdisk<span class="wpel-icon wpel-image wpel-icon-1"></span></a> でパーティション検出させようと１日以上かけてパーティション解析。このツールのインストールはbrewで入ります。</p>
+
+
+
+<pre class="wp-block-code"><code>$ brew install testdisk
+$ sudo testdisk</code></pre>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="501" height="532" src="/wp-content/uploads/2021/03/image-24.png" alt="" class="wp-image-10302"/></figure></div>
+
+
+
+<p>なんかおかしいですよね！　このDISKはパーティションは２つしかないのですが、複数見つかります。ほげー。あ、ちなみにtestdisk はログは取らない方がよいです。あとでわかりましたが、でかいログファイルを消すことになりました。Disk Drillのクリーンアップ画面です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="960" height="357" src="/wp-content/uploads/2021/03/image-36.png" alt="" class="wp-image-10321" srcset="/wp-content/uploads/2021/03/image-36.png 960w, /wp-content/uploads/2021/03/image-36-768x286.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure></div>
+
+
+
+<p>testdiskを実行する際は、ログを意図的に残したい場合意外は、<strong>[ No Log ]</strong>を選択　して実行したほうが無難です。操作全般は以下が参考になります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>データ復旧大図鑑：Mac版TestDiskの使い方</p><cite><a href="https://jisaku-pc.net/hddhukyuu/archives/8354" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://jisaku-pc.net/hddhukyuu/archives/8354<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>だめもとで、いらないパーティションを削除して書き込んでみます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="499" height="532" src="/wp-content/uploads/2021/03/image-25.png" alt="" class="wp-image-10303"/></figure></div>
+
+
+
+<p>上下矢印で行を選択、左右矢印でD状態にできます。OKだったらEnter。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="499" height="532" src="/wp-content/uploads/2021/03/image-26.png" alt="" class="wp-image-10304"/></figure></div>
+
+
+
+<p>じゃ、書き込んでみます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="501" height="309" src="/wp-content/uploads/2021/03/image-27.png" alt="" class="wp-image-10305"/></figure></div>
+
+
+
+<p>はい、ダメでした！　ま、大事なデータはすでにコピー済ですから問題ありません。</p>
+
+
+
+<p>じゃ、ディスクユーティリティーでフォーマットしましょうか。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="781" height="535" src="/wp-content/uploads/2021/03/image-28.png" alt="" class="wp-image-10306" srcset="/wp-content/uploads/2021/03/image-28.png 781w, /wp-content/uploads/2021/03/image-28-768x526.png 768w" sizes="(max-width: 781px) 100vw, 781px" /></figure></div>
+
+
+
+<p>ぐぬぬ。フォーマットさえ出来ないとは！　以下のパターンもありました。</p>
+
+
+
+<pre class="wp-block-preformatted">“Samsung SSD 840 Series Media”（disk2）を消去して“500G”を作成中
+ ディスクをマウント解除中
+ パーティションマップを作成中
+ パーティションのアクティベートを待機中
+ disk2s2をMac OS拡張（ジャーナリング）、名前を500Gとしてフォーマット中
+ Initialized /dev/rdisk2s2 as a 466 GB case-insensitive HFS Plus volume with a 40960k journal
+ ディスクをマウント中
+ disk2s2を消去した後にマウントできませんでした
+ 空のAPFSコンテナを新規作成中
+ 内部エラーが起きました。:（-69614）
+ 操作が失敗しました…</pre>
+
+
+
+<p>根本理由はわかりませんが、EFI領域が邪魔しているのかもしれません。試しにリブートして、リカバリーモードでディスクユーティリティーを起動したらうまくフォーマットできました。同じようなエラーコードでフォーマットできないときは、お試しを。実機だとコマンド＋Rですね。Hackintoshだと、リカバリーモードをEFIブート時に選択します。</p>
+
+
+
+<h3 class="wp-block-heading">Smart情報を見てみる！</h3>
+
+
+
+<p>一応、無事にフォーマットできたので、ディスクユーティリティーのFastAidでチェックしておきましたが問題はありませんでした。今度は有償ツールですが、Disk Drillで見てみます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="729" height="409" src="/wp-content/uploads/2021/03/image-29.png" alt="" class="wp-image-10307"/></figure></div>
+
+
+
+<p>なんか「寿命」の文字がたくさん出ています。しかし、それほど気にしてはいけません。</p>
+
+
+
+<p>Smart情報は各社、独自で出しているようなので仕様が完全に共通化していません。ここでは以下くらいが参考になるかなと。16326時間、稼働していて電源は5116回付けたと。最後の書き込み量は単位はなんでしょうか？　赤字で記載した部分はよくない数字です。</p>
+
+
+
+<p><span class="has-inline-color has-vivid-red-color">Reallocated sector count　43</span><br>Power-on hours count　16326<br>Power cycle count　5116<br><span class="has-inline-color has-vivid-red-color">Used Reserved Block Count　43</span><br><span class="has-inline-color has-vivid-red-color">Runtime Bad Count (total)　43</span><br>Total LBAs Written　3541977737</p>
+
+
+
+<p>Linuxのsmartctlコマンドだと以下のように出るようです。同じ型番のサンプルデータはGITHUBにあったのでリンクしておきます。このSSDは赤字相当の数字は０ですね。書き込み総量は33.13 TBもあるのにね。</p>
+
+
+
+<p>Github：SMART/SSD/Samsung/SSD 840/SSD 840 Series 500GB<br><a rel="noreferrer noopener external" href="https://github.com/linuxhw/SMART/blob/master/SSD/Samsung/SSD%20840/SSD%20840%20Series%20500GB/DE094E5F655D#L64" target="_blank" data-wpel-link="external" class="wpel-icon-right">Link<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p>
+
+
+
+<pre class="wp-block-code"><code>ID# ATTRIBUTE_NAME          FLAGS    VALUE WORST THRESH FAIL RAW_VALUE
+  5 Reallocated_Sector_Ct   PO--CK   100   100   010    -    0
+  9 Power_On_Hours          -O--CK   091   091   000    -    40511
+ 12 Power_Cycle_Count       -O--CK   096   096   000    -    3871
+177 Wear_Leveling_Count     PO--C-   086   086   000    -    169
+179 Used_Rsvd_Blk_Cnt_Tot   PO--C-   100   100   010    -    0
+181 Program_Fail_Cnt_Total  -O--CK   100   100   010    -    0
+182 Erase_Fail_Count_Total  -O--CK   100   100   010    -    0
+183 Runtime_Bad_Block       PO--C-   100   100   010    -    0
+187 Uncorrectable_Error_Cnt -O--CK   100   100   000    -    0
+190 Airflow_Temperature_Cel -O--CK   069   048   000    -    31
+195 ECC_Error_Rate          -O-RC-   200   200   000    -    0
+199 CRC_Error_Count         -OSRCK   099   099   000    -    122
+235 POR_Recovery_Count      -O--C-   099   099   000    -    1745
+241 Total_LBAs_Written      -O--CK   099   099   000    -    71143537386
+                            ||||||_ K auto-keep
+                            |||||__ C event count
+                            ||||___ R error rate
+                            |||____ S speed/performance
+                            ||_____ O updated online
+                            |______ P prefailure warning</code></pre>
+
+
+
+<p>書き込み量のTotal LBAs Writtenは、どうやらセクターサイズを掛けるようです。testdisk とかでみると、セクターサイズは512byteのようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="380" height="210" src="/wp-content/uploads/2021/03/image-31.png" alt="" class="wp-image-10309"/></figure></div>
+
+
+
+<p>以下の計算機で算出すると、1.65 TBとなりました。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>SSD Total Bytes Written (TBW) Calculator</p><cite>https://www.virten.net/2016/12/ssd-total-bytes-written-calculator/</cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">Samsung SSD840のTBWは？</h3>
+
+
+
+<p>当時のカタログをみても、TBWは記載されていませんでした。書いてある記載は、MTBF(平均故障間隔)として、150万時間とあります。</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="/wp-content/uploads/2021/03/840catalog.png" data-wpel-link="internal" rel="noopener noreferrer"><img loading="lazy" decoding="async" width="1024" height="742" src="/wp-content/uploads/2021/03/840catalog-1024x742.png" alt="" class="wp-image-10310" srcset="/wp-content/uploads/2021/03/840catalog-1024x742.png 1024w, /wp-content/uploads/2021/03/840catalog-768x556.png 768w, /wp-content/uploads/2021/03/840catalog-984x713.png 984w, /wp-content/uploads/2021/03/840catalog.png 1189w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>以下に当時のレビューがありましたが、その中に以下とあります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>総書き込み容量（TBW）は、当社規定で1日あたり20GBで計算しています。そして、840では毎日20GB書き込む人でも3年間は十分保証できる品質を実現した、ということです。</p><cite>https://akiba-pc.watch.impress.co.jp/hotline/20121117/sp_fline.html</cite></blockquote>
+
+
+
+<p>つまり、21.9TByteがTBWということですかね。ということは、まだ1.65 TBしか書き込みしていませんが、Reallocated sector count　43など出ていますので、かなり要注意が必要ですね。これは実際に不良セクタが発生した数なので、今後もっと増えていくはずです。つまり、即ダメになるわけじゃないですが、もう寿命に近づいていると思って間違いありません。SMART情報をモニタリングしながら、軽めの作業に使うことにします。音楽再生用のキャッシュとか、データが飛んでも問題ないような用途です。</p>
+
+
+
+<h3 class="wp-block-heading">TechTool Pro 13でチェック</h3>
+
+
+
+<p>ちょっと違うツールを使って、SSDをチェックしてみることします。TechTool Pro 13のサーフェーススキャンとSmartチェックをやってみます。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="665" src="/wp-content/uploads/2021/03/image-32-1024x665.png" alt="" class="wp-image-10311" srcset="/wp-content/uploads/2021/03/image-32-1024x665.png 1024w, /wp-content/uploads/2021/03/image-32-768x499.png 768w, /wp-content/uploads/2021/03/image-32-984x639.png 984w, /wp-content/uploads/2021/03/image-32.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>サーフェイーススキャンは問題ありませんでした。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="665" src="/wp-content/uploads/2021/03/image-33-1024x665.png" alt="" class="wp-image-10312" srcset="/wp-content/uploads/2021/03/image-33-1024x665.png 1024w, /wp-content/uploads/2021/03/image-33-768x499.png 768w, /wp-content/uploads/2021/03/image-33-984x639.png 984w, /wp-content/uploads/2021/03/image-33.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>注意は必要そうですが、まだ行けそうな感じですかね。Windowsマシンにくっつけて、SAMSUNG Magician Softwareでチェックしてみるのがいいんですが面倒なんでやめました。またの機会に確認してみます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>SAMSUNG Magician Software</p><cite>https://www.samsung.com/semiconductor/minisite/jp/support/tools/</cite></blockquote>
+
+
+
+<h3 class="wp-block-heading">現状のSSD速度ベンチマーク</h3>
+
+
+
+<p>実質、購入してから６年使っているSSDのベンチマークを計測しておきます。</p>
+
+
+
+<p>SSDに記録されている時間は、16326時間で約６８０日、トータル書き込み量は1.65 TBの、Samsung SSD 840 Series MZ-7TD500B/IT　です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="422" height="390" src="/wp-content/uploads/2021/03/image-34.png" alt="" class="wp-image-10313"/></figure></div>
+
+
+
+<p>あと、今回購入したCrucial SSD 1000GB MX500　CT1000MX500SSD1/JPは以下です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="422" height="390" src="/wp-content/uploads/2021/03/image-35.png" alt="" class="wp-image-10314"/></figure></div>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかったのは以下となります。</p>
+
+
+
+<p>・バックアップは大事<br>・不良セクタは４３個あった。今後増えそう<br>・書き込み総量は超えていないが、そろそろ寿命と判断していいだろう<br>・耐用年数を超えたら、TMP領域など軽めのDISK用途に使う<br>・心配なら廃棄すれば間違いないです<br>・SMART情報は各社違うので、要確認必要<br>・Disk DrillのSMART表示、監視は参考程度に<br>・TechTool Pro 13のほうが、Disk関連のチェックは豊富<br>・今回はtestdisk では復旧できず<br>・ディスクユーティリティーで初期化出来ない時は、OSをリカバリーモードで起動してやれば今回はフォーマットできた<br>・紹介しなかったけど、TechTool Pro 13のスナップショット機能は便利<br>・SSDはHDDと比べても結構、耐久性あるな！<br>・最近のSSDは、保証期間中に書き込み総量を超えるのはまず、無理<br>・しかし、故障するかどうかは使う環境により左右される</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>SSDの寿命というのは、今回体験したようにいつか訪れます。稼働部品がないHDDとは違いSSDならずっと使えるはずと思いガチです。長年ずっと使い続けているなら、ちょっと点検してみるのもいいかもしれませんね。</p>
+
+
+
+<p>加えて、ファイルシステムの不整合というのは、使っているうちにどうしても発生してしまいます。５、６年の間には停電もあり、ブレーカー落ちることもあり１年に一回くらいは、OSをクリーンインストールしてバックアップ（DropBoxやGoogleDriveなど）に大事なデータは分散バックアップしておくのがやっぱり大事だなーと改めて思いました。今回は、特に大事なデータは消失しませんでしたが、運がよかったなーと思います。ちょっと違うタイミングだったら結構慌てていたかもしれません。</p>
+
+
+
+<p>　ついつい面倒になって、クリーンインストールは腰が重いですが、これからは１年に一回くらいはやろうと思います。あと、SMART情報のモニタリングはやっておいたほうがいいですね。今回、死にかけのSSDの寿命が完全に尽きたらまたレポートしようかなと思います。</p>
+
+
+
+<p>　あと、HDDですが６TBが１万で買えるんですね！　みんなNAS用途で使ってるみたいですが、何入れてるんでしょうか。TVの録画データとかですかね。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>XIAOでMacのスクリーンショット専用USBキーを作るDIY</title>
+		<link>/2021/03/01/post-10186.html</link>
+		
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Sun, 28 Feb 2021 17:20:05 +0000</pubDate>
+				<category><![CDATA[arduino]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[osx]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<guid isPermaLink="false">/?p=10186</guid>
+				<media:thumbnail url="/wp-content/uploads/2021/03/DIY-USB-KEY-1.png" />
+							<description><![CDATA[今回のDIYは、ちょっと実用的なものを作ろうかと思います 最近、はまっている小さくて安いArduino互換機、XIAOを使ってカスタマイズできるキーボードを作ろうと思います！　冒頭でも少し触れましたが、Macのスクショア [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>スクショの専用キーがほしい！</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>Macだと、シフト＋コマンド＋３とかの？</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_L w_b_flex w_b_div" style=""><div class="w_b_ava_box w_b_relative w_b_ava_L w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_L w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/abata.png" width="96" height="96" alt="じゃんくはっく" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">じゃんくはっく</div></div><div class="w_b_bal_box w_b_bal_L w_b_relative w_b_direction_L w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_L w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_L w_b_shadow_L w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>Mac標準だとそうだけど、Skitchっていうスクショツール使ってるからシフト＋コマンド＋５だね。</p>
+</div></div></div></div></div></div></div></div>
+
+
+
+<div class="wp-block-word-balloon-word-balloon-block"><div class="w_b_box w_b_w100 w_b_flex w_b_mla w_b_jc_fe w_b_div"><div class="w_b_wrap w_b_wrap_talk w_b_R w_b_flex w_b_jc_fe w_b_div" style=""><div class="w_b_bal_box w_b_bal_R w_b_relative w_b_direction_R w_b_w100 w_b_div"><div class="w_b_space w_b_mp0 w_b_div"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1" height="38" viewBox="0 0 1 1" fill="transparent" stroke="transparent" stroke-miterlimit="10" class="w_b_db w_b_mp0"><polygon fill="transparent" stroke="transparent" points="0,1 0,1 0,1 0,1 "/></svg></div><div class="w_b_bal_outer w_b_flex w_b_mp0 w_b_relative w_b_div" style=""><div class="w_b_bal_wrap w_b_bal_wrap_R w_b_div"><div class="w_b_bal w_b_relative w_b_talk w_b_talk_R w_b_shadow_R w_b_ta_L w_b_div"><div class="w_b_quote w_b_div">
+<p>いろんな需要があると思うからカスタマイズできるといいね</p>
+</div></div></div></div></div><div class="w_b_ava_box w_b_relative w_b_ava_R w_b_col w_b_f_n w_b_div"><div class="w_b_icon_wrap w_b_relative w_b_div"><div class="w_b_ava_wrap w_b_direction_R w_b_mp0 w_b_div"><div class="w_b_ava_effect w_b_relative w_b_oh w_b_radius w_b_size_M w_b_div" style="">
+<img loading="lazy" decoding="async" src="/wp-content/uploads/2020/09/pi-.png" width="96" height="96" alt="ぴー" class="w_b_ava_img w_b_w100 w_b_h100  w_b_mp0 w_b_img" style="" />
+</div></div></div><div class="w_b_name w_b_w100 w_b_lh w_b_name_C w_b_ta_C w_b_mp0 w_b_div">ぴー</div></div></div></div></div>
+
+
+
+<p>今回のDIYは、ちょっと実用的なものを作ろうかと思います</p>
+
+
+
+<p>最近、はまっている小さくて安いArduino互換機、XIAOを使ってカスタマイズできるキーボードを作ろうと思います！　冒頭でも少し触れましたが、MacのスクショアプリでSkitchっていうツール使っているんですが、このスクショのショート専用のキーボードを作ろうかと。ショートカットは、シフト＋コマンド＋５ですが、３つもボタンを押さないといけないので、１ボタンだと助かります。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="267" height="194" src="/wp-content/uploads/2021/02/image-6.png" alt="" class="wp-image-10197"/></figure></div>
+
+
+
+<p>その後、Skitchの編集メニューから「画像をコピー」でクリップボードに入れてWordPressのローカルアプリに貼り付けるのが、一連の動きです。このショートカットがシフト＋コマンド＋C　です。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="221" height="384" src="/wp-content/uploads/2021/02/image-7.png" alt="" class="wp-image-10198"/></figure></div>
+
+
+
+<p>構想では、この２つのボタンが専用であるといいなと。キャンセルしたいときにESCキーがあると便利かもしれませんね。</p>
+
+
+
+<h3 class="wp-block-heading">使えるUSBライブラリは？</h3>
+
+
+
+<blockquote class="wp-block-quote"><p>TinyUSB Mouse and Keyboard library</p><cite><a href="https://github.com/cyborg5/TinyUSB_Mouse_and_Keyboard/" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/cyborg5/TinyUSB_Mouse_and_Keyboard/<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>このライブラリは、Chris Youngさんが統合したTinyUSBです。以下で紹介されています。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://learn.adafruit.com/mouse-and-keyboard-control-using-tinyusb-and-ble/overview" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">Mouse and Keyboard Control Using TinyUSB and BLE<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<p>examplesを試したのですが、記述がわかりやすいし使いやすそうだったのでこれでやってみることにします。他にも、Seeedの紹介ページにAdafruitのライブラリを使った例がありますが、examplesを見た限りでは使いにくそうでしたのでこちらはパスです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p><a href="https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-TinyUSB/" target="_blank" rel="noreferrer noopener external" class="broken_link wpel-icon-right" data-wpel-link="external">Seeeduino XIAOをUSBデバイス(TinyUSB)として使う<span class="wpel-icon wpel-image wpel-icon-1"></span></a></p></blockquote>
+
+
+
+<h3 class="wp-block-heading">ライブラリを入れる</h3>
+
+
+
+<p>マスターのZIPをArduinoIDEから入れて、例題をやってみます。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>ZIP : TinyUSB_Mouse_and_Keyboard</p><cite><a href="https://github.com/cyborg5/TinyUSB_Mouse_and_Keyboard/archive/master.zip" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">URL<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>Arduino IDEからライブラリをいれるのは、以下からです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="555" height="189" src="/wp-content/uploads/2021/03/image.png" alt="" class="wp-image-10202"/></figure></div>
+
+
+
+<p>ZIPのライブラリを入れると、以下のように同じところから見えていると思います。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="284" height="477" src="/wp-content/uploads/2021/03/image-1.png" alt="" class="wp-image-10203"/></figure></div>
+
+
+
+<p>提供されたライブラリは、Macだと以下に入るようです。直接ここに入れてもOKです。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>/Users/<strong>USERNAME</strong>/Documents/Arduino/libraries/</p></blockquote>
+
+
+
+<p>ちなみに、ArduinoIDE組込（デフォルトの）は以下です。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>/Applications/Arduino.app/Contents/Java/libraries/</p></blockquote>
+
+
+
+<p>XIAOのボード関連は以下にあります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>/Users/<strong>USERNAME</strong>/Library/Arduino15/packages/Seeeduino/</p></blockquote>
+
+
+
+<p>ライブラリとか、PGのディレクトリ以下に格納しておいたほうが後からわかりやすいかもしれません。数年後、また動かそうとすると環境変わっていたりしますからね。その場合は、includeをダブルクオートで囲って記載すればカレントディレクリ（現在のディレクトリのこと）を参照します。</p>
+
+
+
+<pre class="wp-block-code"><code>#include "TinyUSB_Mouse_and_Keyboard.h"</code></pre>
+
+
+
+<h3 class="wp-block-heading">サンプルを動かしてみる</h3>
+
+
+
+<p>Macユーザーで、Launchpad のショートカットをF5にしていれば動作します。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="668" height="615" src="/wp-content/uploads/2021/03/image-2.png" alt="" class="wp-image-10204"/></figure></div>
+
+
+
+<pre class="wp-block-code"><code>$ git clone https://github.com/take-i/XIAO-USB-example.git
+$ cd XIAO-USB-example/xiao_usb1/
+$ open xiao_usb1.ino </code></pre>
+
+
+
+<p>XIAOに書き込んで、見てください。ブラウザが起動して JunkHackのページが見えていれば成功です。</p>
+
+
+
+<p>サンプル例では、Launchpadが開き、コマンドFで検索、英字モードに切り替えてterminalをタイプしてターミナルを開きます。ターミナルからはURLをオープンしています。macの場合、コマンドの修飾キーは以下のようにKEY_LEFT_GUIが相当します。WindowsだとWINキーです。</p>
+
+
+
+<pre class="wp-block-code"><code>  // New terminal windows
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.write('n');
+  Keyboard.releaseAll();</code></pre>
+
+
+
+<p>Keyboard.pressは、押しっぱなし状態になるのでKeyboard.releaseAll()でリリースします。delayを入れないと、速すぎて期待する動作にならないので適当に調整します。</p>
+
+
+
+<h3 class="wp-block-heading">４ボタンの専用キーボードを作る！</h3>
+
+
+
+<p>さて、サンプルはうまく動いたので実際にボタンをつけて日常的に使える状態にします。こんなコードにしました。</p>
+
+
+
+<pre class="wp-block-code"><code>https:&#47;&#47;github.com/take-i/XIAO-USB-example/tree/master/ss-key</code></pre>
+
+
+
+<p>Pin接続は、A7 , A8 , A9 , A10 とGNDの５つです。なお、このPGは同時にボタンを押した時の考慮はしていませんのでご注意を。クリティカルなボタンの場合は、何かキーが押されている場合は違うキーの処理に入らないようにする必要があります。</p>
+
+
+
+<h3 class="wp-block-heading">筐体に組み込む！</h3>
+
+
+
+<p>３Dプリンターとメカニカルスイッチで作るのが面倒だったので、適当なジャンク品のキーボードを漁ってきました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="565" src="/wp-content/uploads/2021/03/image-3-1024x565.png" alt="" class="wp-image-10207" srcset="/wp-content/uploads/2021/03/image-3-1024x565.png 1024w, /wp-content/uploads/2021/03/image-3-768x423.png 768w, /wp-content/uploads/2021/03/image-3-984x543.png 984w, /wp-content/uploads/2021/03/image-3.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>15年くらい前の無線キーボードです。エンターキーが無くなっているのは、子供に剥がされたからです。それ以来、使っていませんでしたがここに来て約に立ちそうです。</p>
+
+
+
+<p>このタイプのキーボードはノートPCと同じで、キーボードの下はフィルムのメンブレンスイッチになっています。これにジャンパー配線するのは厳しいので、端っこのパーツを使うことにしました。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="722" src="/wp-content/uploads/2021/03/image-4-1024x722.png" alt="" class="wp-image-10208" srcset="/wp-content/uploads/2021/03/image-4-1024x722.png 1024w, /wp-content/uploads/2021/03/image-4-768x542.png 768w, /wp-content/uploads/2021/03/image-4-984x694.png 984w, /wp-content/uploads/2021/03/image-4.png 1116w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>こっちは基盤があって、なんとかなりそうです。キーボード筐体をグラインダーで切断し、左側部分を使うことにしました。こんな感じ。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="765" src="/wp-content/uploads/2021/03/image-6-1024x765.png" alt="" class="wp-image-10210" srcset="/wp-content/uploads/2021/03/image-6-1024x765.png 1024w, /wp-content/uploads/2021/03/image-6-768x573.png 768w, /wp-content/uploads/2021/03/image-6-984x735.png 984w, /wp-content/uploads/2021/03/image-6.png 1212w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>配線はこんな感じ。XIAOは小さいので、ほんと助かります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="839" height="628" src="/wp-content/uploads/2021/03/image-7.png" alt="" class="wp-image-10211" srcset="/wp-content/uploads/2021/03/image-7.png 839w, /wp-content/uploads/2021/03/image-7-768x575.png 768w" sizes="(max-width: 839px) 100vw, 839px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="688" src="/wp-content/uploads/2021/03/XIAO_Pin.png" alt="" class="wp-image-10213" srcset="/wp-content/uploads/2021/03/XIAO_Pin.png 1024w, /wp-content/uploads/2021/03/XIAO_Pin-768x516.png 768w, /wp-content/uploads/2021/03/XIAO_Pin-984x661.png 984w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>黒い線がGNDで、それ以外はボタンからのプリント基板の配線からジャンパー線を出して使っています。</p>
+
+
+
+<p>こんな感じで、無線キーボードの上に置いてあります。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="742" src="/wp-content/uploads/2021/03/image-5-1024x742.png" alt="" class="wp-image-10209" srcset="/wp-content/uploads/2021/03/image-5-1024x742.png 1024w, /wp-content/uploads/2021/03/image-5-768x557.png 768w, /wp-content/uploads/2021/03/image-5-984x713.png 984w, /wp-content/uploads/2021/03/image-5.png 1251w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+
+<p>右側からESC、スクショ、スクショのコピー、https://www.canva.com/ を開く　の４機能を持たせてあります。今もこの記事を書いているときにこのボタンを使っていますが、かなり便利ですね！　canvaを割り当てているのは、ブログ記事のサムネイルをいつもここで作るからです。今回はこんな感じかな？</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="800" height="800" src="/wp-content/uploads/2021/03/DIY-USB-KEY.png" alt="" class="wp-image-10212" srcset="/wp-content/uploads/2021/03/DIY-USB-KEY.png 800w, /wp-content/uploads/2021/03/DIY-USB-KEY-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure></div>
+
+
+
+<p>Macからはこんな感じで認識されています。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="540" height="383" src="/wp-content/uploads/2021/03/image-8.png" alt="" class="wp-image-10214"/></figure></div>
+
+
+
+<p>キーボードの修飾キーにも、出ていますね</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="665" height="605" src="/wp-content/uploads/2021/03/image-9.png" alt="" class="wp-image-10215"/></figure></div>
+
+
+
+<h3 class="wp-block-heading">MacのKeycodeを確認</h3>
+
+
+
+<p>※追記<br>MacだとどんなKeycodeがタイプされるのか確認しておきたかったので、macosで動作するキーロガーのソースを少し修正してDecで数字を出すように改修したものが以下にあります。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Mac OS X Keylogger</p><cite><a href="https://github.com/take-i/keylogger-macos" target="_blank" rel="noreferrer noopener external" data-wpel-link="external" class="wpel-icon-right">https://github.com/take-i/keylogger-macos<span class="wpel-icon wpel-image wpel-icon-1"></span></a></cite></blockquote>
+
+
+
+<p>オリジナルは、アトランタのアプリ開発者、ケーシー・スカボローさんが作ったものです。簡単に使い方を記載しておきます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ sudo touch /var/log/keystroke.log
+$ sudo chmod 644 /var/log/keystroke.log
+$ git clone https://github.com/take-i/keylogger-macos.git &amp;&amp; cd keylogger-macos/
+$ make
+$ sudo ./keylogger</code></pre>
+
+
+
+<p>ログは以下のパスに数字で出力されます。</p>
+
+
+
+<pre class="wp-block-code"><code>$ tail -f /var/log/keystroke.log</code></pre>
+
+
+
+<p>たとえば、Macのキーボード配列の場合、F3キーはMission Controlのキーとなり、Keycodeは、160となります。F3の場合は99です。純正キーボードの場合は、以下のようにキーボード設定に「F1、F2などのキー標準のファンクションキーとして使用」のチェックボックスがでます。社外キーボードの場合、これはでないようです。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="668" height="581" src="/wp-content/uploads/2021/03/mac-keyboard.png" alt="" class="wp-image-10252"/></figure></div>
+
+
+
+<p>DIYキーボードをUSB接続したとき、macのキーボードだと認識させてMission Controlのコードとして認識させるようにする方法を模索したのですが、ちょっとよくわかりませんでした。また、いつか再チャレンジしたときに覚書として書いておきます。</p>
+
+
+
+<h3 class="wp-block-heading">まとめ</h3>
+
+
+
+<p>今回、なんとなくわかった・わからなかったのは以下となります。</p>
+
+
+
+<p>・Seeed XIAOは簡単にキーボード・マウスのデバイスが作れる<br>・スイッチOn,OffタイプであればPinの数分、キーは作れる（最大、１１Key）<br>・ライブラリは、TinyUSB Mouse and Keyboard libraryが使いやすかった<br>・KeycodeというのがUSBの仕様で決まっているようです（<a rel="noreferrer noopener external" href="https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf" target="_blank" data-wpel-link="external" class="wpel-icon-right">hut1_12v2.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）<br>・こっちのUSB仕様書のほうが新しいかな？（<a rel="noreferrer noopener external" href="https://usb.org/sites/default/files/hut1_21_0.pdf" target="_blank" data-wpel-link="external" class="wpel-icon-right">hut1_21_0.pdf<span class="wpel-icon wpel-image wpel-icon-1"></span></a>）<br>・macの場合は、<a rel="noreferrer noopener external" href="https://github.com/caseyscarborough/keylogger" target="_blank" data-wpel-link="external" class="wpel-icon-right">Mac OS X Keylogger<span class="wpel-icon wpel-image wpel-icon-1"></span></a>　を少し手直しすれば番号がわかる<br>・しかし、USBの仕様書とは違う値が帰る（例：F3は、macだと10進で160または99、USB仕様書では、60）<br>・PGの定義は、0xC4で10進だと196<br>・<a rel="noreferrer noopener external" href="http://blog.livedoor.jp/hardyboy/archives/5532602.html" target="_blank" data-wpel-link="external" class="wpel-icon-right">ここ<span class="wpel-icon wpel-image wpel-icon-1"></span></a>によれば、0x88以上は、その値から0x88を引いた数（10進だと136）となるようです。つまり、196-136=60　なるほど！PGの定義からは謎がとけました<br>・しかし、macのkeycodeは違う値を出す。ここがよくわからない<br>・おそらく、macはkeycodeのマッピングテーブルを持っているのだろう<br>・または、キーボード種類によってF3はMission ControlになるようOSがマッピングしているのだろう<br>・keycodeとUSBデバイスのレイアウトの関係はまだ奥が深そうだ<br>・フィルムのメンブレンスイッチって自作できないかな？<br>・アルミテープとラミネートフィルムで作れないかな？</p>
+
+
+
+<h3 class="wp-block-heading">あとがき</h3>
+
+
+
+<p>作ってみて、実際に使ってみたらすごく具合がいいです。USBデバイスをこんなに簡単に作れるとは、驚きですね。いつか、本格的なキーボード作りもしてみたいです。40%キーボードとか小さくて可愛いので使ってみたいんですが、何から手をつけていいのかよくわかりません。あと、薄いMacのキーボードに手が馴染んでしまったのでという理由もあります。</p>
+
+
+
+<p>まぁ次キーボード作る機会もあると思うので、その時は自作したいですね。</p>
+
+
+
+<h3 class="wp-block-heading">著者にメッセージ</h3>
+
+
+
+ 
+
+
+<p>間違いのご指摘など、コメントじゃなくて、個人的にやりとりしたい場合は<a class="c-link-text" href="/mail.html" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">こちらから</a>どうぞ。お返事が遅くなるときもありますが、ご了承を。</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
