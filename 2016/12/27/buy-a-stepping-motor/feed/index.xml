@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	ステッピングモーターをゲット へのコメント	</title>
+	<atom:link href="/2016/12/27/buy-a-stepping-motor/feed/" rel="self" type="application/rss+xml" />
+	<link>/2016/12/27/buy-a-stepping-motor/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sun, 26 Feb 2017 08:39:38 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<item>
+		<title>
+		9999円以下で作るDIY 3Dプリンターその３ &#8211; junkhack より		</title>
+		<link>/2016/12/27/buy-a-stepping-motor/#comment-71</link>
+
+		<dc:creator><![CDATA[9999円以下で作るDIY 3Dプリンターその３ &#8211; junkhack]]></dc:creator>
+		<pubDate>Sun, 26 Feb 2017 08:39:38 +0000</pubDate>
+		<guid isPermaLink="false">/?p=2794#comment-71</guid>
+
+					<description><![CDATA[[&#8230;] 今回もオリジナルマインドさんで目を皿のようにして選考。もちろん、１０００円未満です。前回は、480円の日本電産サーボ 2相ステッピングモータ KH42KM2-802を選択したのですが、今回はそれほどトルクも必要はないので、もっと安いのに注目！ [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] 今回もオリジナルマインドさんで目を皿のようにして選考。もちろん、１０００円未満です。前回は、480円の日本電産サーボ 2相ステッピングモータ KH42KM2-802を選択したのですが、今回はそれほどトルクも必要はないので、もっと安いのに注目！ [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

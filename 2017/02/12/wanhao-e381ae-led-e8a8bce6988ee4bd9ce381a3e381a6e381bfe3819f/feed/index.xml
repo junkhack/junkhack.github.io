@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Wanhao の LED 照明を作ってみた へのコメント	</title>
+	<atom:link href="/2017/02/12/wanhao-e381ae-led-e8a8bce6988ee4bd9ce381a3e381a6e381bfe3819f/feed/" rel="self" type="application/rss+xml" />
+	<link>/2017/02/12/wanhao-e381ae-led-e8a8bce6988ee4bd9ce381a3e381a6e381bfe3819f/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Sat, 22 Apr 2017 06:57:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<item>
+		<title>
+		Wanhao の LED 照明を作ってみた、その２ &#8211; junkhack より		</title>
+		<link>/2017/02/12/wanhao-e381ae-led-e8a8bce6988ee4bd9ce381a3e381a6e381bfe3819f/#comment-74</link>
+
+		<dc:creator><![CDATA[Wanhao の LED 照明を作ってみた、その２ &#8211; junkhack]]></dc:creator>
+		<pubDate>Sat, 22 Apr 2017 06:57:10 +0000</pubDate>
+		<guid isPermaLink="false">/?p=3226#comment-74</guid>
+
+					<description><![CDATA[[&#8230;] 前回は、Wanhao&#160; の前面に取り付ける筐体を作りましたが、まだLEDを組み込んでいませんでした。筐体だけ作って満足していた感じですが、thingiverse のコメントに「ノズルの先端まで照らせるの？」と、質問があったので気になって実際に作ってみました。 [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] 前回は、Wanhao&#160; の前面に取り付ける筐体を作りましたが、まだLEDを組み込んでいませんでした。筐体だけ作って満足していた感じですが、thingiverse のコメントに「ノズルの先端まで照らせるの？」と、質問があったので気になって実際に作ってみました。 [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	BackBoostのPCBが到着！ へのコメント	</title>
+	<atom:link href="/2015/11/28/backbooste381aepcbe3818ce588b0e79d80efbc81/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/11/28/backbooste381aepcbe3818ce588b0e79d80efbc81/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Wed, 02 Dec 2015 18:21:31 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<item>
+		<title>
+		JunkHack より		</title>
+		<link>/2015/11/28/backbooste381aepcbe3818ce588b0e79d80efbc81/#comment-65</link>
+
+		<dc:creator><![CDATA[JunkHack]]></dc:creator>
+		<pubDate>Wed, 02 Dec 2015 18:21:31 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1756#comment-65</guid>
+
+					<description><![CDATA[Welcome AACHYEE.
+yes, using the TPS63000.
+
+Thanks.]]></description>
+			<content:encoded><![CDATA[<p>Welcome AACHYEE.<br />
+yes, using the TPS63000.</p>
+<p>Thanks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		aachyee (@aachyee) より		</title>
+		<link>/2015/11/28/backbooste381aepcbe3818ce588b0e79d80efbc81/#comment-64</link>
+
+		<dc:creator><![CDATA[aachyee (@aachyee)]]></dc:creator>
+		<pubDate>Wed, 02 Dec 2015 14:36:28 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1756#comment-64</guid>
+
+					<description><![CDATA[Buck Boost converter?]]></description>
+			<content:encoded><![CDATA[<p>Buck Boost converter?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

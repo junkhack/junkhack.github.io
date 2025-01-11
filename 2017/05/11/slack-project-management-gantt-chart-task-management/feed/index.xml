@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	チャットツールの slack を中心にプロジェクト管理やガントチャート作成、タスク管理を自分自身でやってみた。 へのコメント	</title>
+	<atom:link href="/2017/05/11/slack-project-management-gantt-chart-task-management/feed/" rel="self" type="application/rss+xml" />
+	<link>/2017/05/11/slack-project-management-gantt-chart-task-management/</link>
+	<description>アリエクでポチった JUNKHACK</description>
+	<lastBuildDate>Mon, 06 Aug 2018 13:24:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<item>
+		<title>
+		www.virustotal.com より		</title>
+		<link>/2017/05/11/slack-project-management-gantt-chart-task-management/#comment-77</link>
+
+		<dc:creator><![CDATA[www.virustotal.com]]></dc:creator>
+		<pubDate>Mon, 06 Aug 2018 13:24:10 +0000</pubDate>
+		<guid isPermaLink="false">/?p=3962#comment-77</guid>
+
+					<description><![CDATA[The more you play, the better the bonuses.]]></description>
+			<content:encoded><![CDATA[<p>The more you play, the better the bonuses.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Test より		</title>
+		<link>/2017/05/11/slack-project-management-gantt-chart-task-management/#comment-76</link>
+
+		<dc:creator><![CDATA[Test]]></dc:creator>
+		<pubDate>Wed, 12 Jul 2017 20:40:10 +0000</pubDate>
+		<guid isPermaLink="false">/?p=3962#comment-76</guid>
+
+					<description><![CDATA[I like the valuable information you provide for your articles.
+I will bookmark your weblog and take a look at again here frequently.
+
+I&#039;m fairly sure I will learn many new stuff right right 
+here! Best of luck for the following!]]></description>
+			<content:encoded><![CDATA[<p>I like the valuable information you provide for your articles.<br />
+I will bookmark your weblog and take a look at again here frequently.</p>
+<p>I&#8217;m fairly sure I will learn many new stuff right right<br />
+here! Best of luck for the following!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
